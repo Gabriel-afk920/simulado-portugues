@@ -1568,130 +1568,209 @@ const TEMAS = [
   {
     id: "tritongos", nome: "Tritongos", icon: "🔀", desc: "Semivogal + vogal + semivogal",
     teoria: `
-<h3>O que é Tritongo?</h3>
-<p>Tritongo é o encontro de uma <strong>semivogal + vogal + semivogal</strong> pronunciadas na <strong>mesma sílaba</strong>. É a sequência vocálica mais complexa do português — possui três elementos em vez de dois (como no ditongo).</p>
+<h3>1. O que é Tritongo?</h3>
+<p>Tritongo é o encontro de <strong>semivogal + vogal + semivogal</strong> na <strong>mesma sílaba</strong>, formando um único núcleo silábico com três elementos. É a sequência vocálica mais complexa do português.</p>
+<p><strong>Como identificar apenas pela escrita:</strong> localize três letras vocálicas consecutivas dentro de uma única sílaba. A letra do meio é sempre a vogal principal (núcleo); as letras das bordas são semivogais.</p>
 
-<h3>Estrutura do Tritongo</h3>
-<p>Os três elementos sempre seguem esta ordem fixa:</p>
-<ul>
-  <li><strong>1º:</strong> semivogal — sempre <em>i</em> ou <em>u</em> átono</li>
-  <li><strong>2º:</strong> vogal — núcleo da sílaba, o elemento mais forte</li>
-  <li><strong>3º:</strong> semivogal — sempre <em>i</em> ou <em>u</em> átono</li>
-</ul>
 <div class="exemplo-box">
-  Estrutura: SV + V + SV<br><br>
-  <em>Uruguai</em>   → gu+ai → u(SV) + a(V) + i(SV)<br>
-  <em>iguais</em>    → gu+ai → u(SV) + a(V) + i(SV)<br>
-  <em>saguão</em>    → gu+ão → u(SV) + ã(V nasal) + o(SV)<br>
-  <em>averiguou</em> → gu+ou → u(SV) + o(V) + u(SV)
+  <strong>Estrutura fixa: SV + V + SV</strong><br><br>
+  Posição 1 (esquerda)  → semivogal: letra <em>i</em> ou <em>u</em> sem acento próprio<br>
+  Posição 2 (centro)    → vogal: núcleo da sílaba, pode ter acento escrito<br>
+  Posição 3 (direita)   → semivogal: letra <em>i</em> ou <em>u</em> sem acento próprio<br><br>
+  <em>Uruguai</em>   → <strong>[u]</strong>(SV) + <strong>[a]</strong>(V) + <strong>[i]</strong>(SV) → sílaba: -guai<br>
+  <em>iguais</em>    → <strong>[u]</strong>(SV) + <strong>[a]</strong>(V) + <strong>[i]</strong>(SV) → sílaba: -guais<br>
+  <em>saguão</em>    → <strong>[u]</strong>(SV) + <strong>[ã]</strong>(V) + <strong>[o]</strong>(SV) → sílaba: -guão<br>
+  <em>averiguou</em> → <strong>[u]</strong>(SV) + <strong>[o]</strong>(V) + <strong>[u]</strong>(SV) → sílaba: -guou
 </div>
 
-<h3>Como identificar o Tritongo pela escrita</h3>
-<p>No português, os tritongos quase sempre surgem após <em>qu</em> ou <em>gu</em> com U pronunciado, seguidos de um ditongo:</p>
-<ul>
-  <li>Procure <em>qu/gu</em> onde o U é pronunciado (antes de a ou o)</li>
-  <li>Verifique se após o U há um ditongo: ai, ão, ou, ei…</li>
-  <li>Se os três elementos estiverem na mesma sílaba = tritongo</li>
-</ul>
-<div class="exemplo-box">
-  qu + ai = <strong>uai</strong> → Uru<strong>guai</strong><br>
-  gu + ai = <strong>uai</strong> → i<strong>guais</strong><br>
-  gu + ão = <strong>uão</strong> → sa<strong>guão</strong><br>
-  gu + ou = <strong>uou</strong> → averi<strong>guou</strong>, enxa<strong>guou</strong>
-</div>
+<h3>2. O que é Semivogal — identificação pela escrita</h3>
+<p>Semivogal é uma letra vocálica que ocupa posição <strong>secundária</strong> dentro da sílaba — nunca é o núcleo. No português, semivogais são sempre as letras <em>i</em> e <em>u</em>.</p>
 
-<h3>Tritongo Oral × Tritongo Nasal</h3>
-<p><strong>Tritongo oral:</strong> a vogal central é oral — sem til na escrita.</p>
-<p><strong>Tritongo nasal:</strong> a vogal central é nasal — indicada pelo til (~) na escrita.</p>
-<div class="exemplo-box">
-  <strong>Orais:</strong><br>
-  <em>Uruguai</em>   → u + <strong>a</strong>(oral) + i → tritongo oral<br>
-  <em>iguais</em>    → u + <strong>a</strong>(oral) + i → tritongo oral<br>
-  <em>averiguou</em> → u + <strong>o</strong>(oral) + u → tritongo oral<br><br>
-  <strong>Nasais:</strong><br>
-  <em>saguão</em>   → u + <strong>ã</strong>(nasal, til) + o     → tritongo nasal<br>
-  <em>enxaguem</em> → u + <strong>e</strong>(nasal, m fecha) + m → tritongo nasal
-</div>
-
-<h3>Separação silábica com Tritongo</h3>
-<p>O tritongo permanece inteiro na mesma sílaba — os três elementos nunca se separam:</p>
-<div class="exemplo-box">
-  <em>Uruguai</em>   → u-ru-<strong>guai</strong>    → 3 sílabas<br>
-  <em>iguais</em>    → i-<strong>guais</strong>     → 2 sílabas<br>
-  <em>saguão</em>    → sa-<strong>guão</strong>     → 2 sílabas<br>
-  <em>averiguou</em> → a-ve-ri-<strong>guou</strong> → 4 sílabas<br>
-  <em>enxaguou</em>  → en-xa-<strong>guou</strong>  → 3 sílabas
-</div>
-
-<h3>Tritongo × Ditongo — comparação</h3>
-<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;">
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
   <thead>
     <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Característica</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Ditongo</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tritongo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Critério</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Vogal</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Semivogal</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#94a3b8;">Número de elementos</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">2 (V+SV ou SV+V)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">3 (SV+V+SV)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#94a3b8;">Semivogais</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">1 semivogal</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">2 semivogais</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#94a3b8;">Exemplo</td>
-      <td style="padding:8px 10px;color:#fde68a;"><em>pai</em> → a(V)+i(SV)</td>
-      <td style="padding:8px 10px;color:#fde68a;"><em>Uruguai</em> → u(SV)+a(V)+i(SV)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#94a3b8;">Frequência</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">Muito comum</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">Raro no português</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 10px;color:#94a3b8;">Contexto</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">Qualquer</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">Quase sempre após qu/gu</td>
-    </tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#94a3b8;">Quais letras podem ser</td><td style="padding:8px 10px;color:#86efac;">a, e, i, o, u</td><td style="padding:8px 10px;color:#fde68a;">apenas i ou u</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#94a3b8;">Posição na sílaba</td><td style="padding:8px 10px;color:#86efac;">núcleo (centro)</td><td style="padding:8px 10px;color:#fde68a;">margem (borda)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#94a3b8;">Acento escrito</td><td style="padding:8px 10px;color:#86efac;">pode ter: á, é, í, ó, ú</td><td style="padding:8px 10px;color:#fde68a;">nunca tem acento próprio</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#94a3b8;">Forma sílaba sozinha?</td><td style="padding:8px 10px;color:#86efac;">sim — é o núcleo</td><td style="padding:8px 10px;color:#fde68a;">não — depende da vogal</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#94a3b8;">Pista escrita</td><td style="padding:8px 10px;color:#86efac;">letra mais "pesada" do grupo; acento cai sobre ela</td><td style="padding:8px 10px;color:#fde68a;">i/u sem acento ao lado de outra vogal</td></tr>
   </tbody>
 </table>
 
-<h3>Tritongos comuns no português</h3>
 <div class="exemplo-box">
-  <strong>uai</strong> (oral):  Uruguai, iguais<br>
-  <strong>uão</strong> (nasal): saguão, enxaguão<br>
-  <strong>uou</strong> (oral):  averiguou, enxaguou, apaziguou<br>
-  <strong>uem</strong> (nasal): enxaguem, apaziguem
+  <strong>Como distinguir vogal de semivogal pela escrita — mesma sílaba:</strong><br><br>
+  <em>pai</em>   → p + <strong>a</strong>(V) + i(SV)  → A é mais forte, I está na margem<br>
+  <em>fui</em>   → f + <strong>u</strong>(V) + i(SV)  → U é mais forte, I está na margem<br>
+  <em>saúde</em> → sa | <strong>ú</strong>(V) | de     → Ú tem acento → é vogal, não semivogal → hiato<br><br>
+  <strong>Regra-chave:</strong> se o i ou u carrega acento escrito (í, ú) → é vogal tônica → forma hiato, nunca ditongo ou tritongo.
+</div>
+
+<h3>3. Regra do QU e GU no Tritongo</h3>
+<p>A maioria dos tritongos do português surge após <em>qu</em> ou <em>gu</em>. O ponto crítico é saber se o <strong>U é mudo (dígrafo)</strong> ou <strong>U é pronunciado (semivogal)</strong>.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Situação</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Vogal seguinte</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">U é…</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Forma tritongo?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos escritos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">qu + e/i</td><td style="padding:8px 10px;color:#94a3b8;">e ou i</td><td style="padding:8px 10px;color:#f87171;font-weight:700;">mudo (dígrafo)</td><td style="padding:8px 10px;color:#f87171;">Não</td><td style="padding:8px 10px;color:#cbd5e1;">que-rer, qui-lo, quei-xa</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">gu + e/i</td><td style="padding:8px 10px;color:#94a3b8;">e ou i</td><td style="padding:8px 10px;color:#f87171;font-weight:700;">mudo (dígrafo)</td><td style="padding:8px 10px;color:#f87171;">Não</td><td style="padding:8px 10px;color:#cbd5e1;">guer-ra, gui-sa-do</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">qu + a/o</td><td style="padding:8px 10px;color:#94a3b8;">a ou o</td><td style="padding:8px 10px;color:#86efac;font-weight:700;">pronunciado (SV)</td><td style="padding:8px 10px;color:#86efac;">Pode → se vier ditongo depois</td><td style="padding:8px 10px;color:#cbd5e1;">quan-do (ditongo), Uru-guai (tritongo)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">gu + a/o</td><td style="padding:8px 10px;color:#94a3b8;">a ou o</td><td style="padding:8px 10px;color:#86efac;font-weight:700;">pronunciado (SV)</td><td style="padding:8px 10px;color:#86efac;">Pode → se vier ditongo depois</td><td style="padding:8px 10px;color:#cbd5e1;">guar-da (ditongo), sa-guão (tritongo)</td></tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Comparação visual: U mudo × U semivogal</strong><br><br>
+  <em>quei-xa</em>   → qu+ei: U mudo, ei = ditongo simples → NÃO tritongo<br>
+  <em>Uru-guai</em>  → gu+ai: U pronunciado (SV) + a(V) + i(SV) → TRITONGO <em>uai</em><br><br>
+  <em>guer-ra</em>   → gu+e: U mudo → NÃO tritongo (dígrafo gu)<br>
+  <em>sa-guão</em>   → gu+ão: U pronunciado (SV) + ã(V) + o(SV) → TRITONGO <em>uão</em><br><br>
+  <strong>Pista escrita para U pronunciado:</strong> vem antes de <em>a</em> ou <em>o</em>,<br>
+  ou a palavra tinha trema (ü) antes do Acordo de 2009.
+</div>
+
+<h3>4. Letras que formam Vogal e Semivogal no Tritongo</h3>
+<p><strong>Vogal principal (posição central):</strong> pode ser qualquer vogal — a, e, o, ou vogais nasais (ã, vogal+m, vogal+n). Ela é o núcleo da sílaba.</p>
+<p><strong>Semivogais (posições 1ª e 3ª):</strong> apenas <em>i</em> ou <em>u</em> sem acento. São sempre átonos dentro do tritongo.</p>
+
+<div class="exemplo-box">
+  <strong>Vogais centrais encontradas em tritongos reais:</strong><br><br>
+  <strong>a</strong>  (oral):  U + <strong>a</strong> + I  → Uru<em>guai</em>, i<em>guais</em><br>
+  <strong>ã</strong>  (nasal): U + <strong>ã</strong> + O  → sa<em>guão</em>, en-xa<em>guão</em><br>
+  <strong>o</strong>  (oral):  U + <strong>o</strong> + U  → averi<em>guou</em>, enxa<em>guou</em><br>
+  <strong>e</strong>  (nasal): U + <strong>e</strong> + M  → enxa<em>guem</em>, apazi<em>guem</em><br><br>
+  <strong>Semivogais usadas:</strong><br>
+  Posição 1 → sempre U (em tritongos reais do português padrão)<br>
+  Posição 3 → I ou U (dependendo do tritongo)
+</div>
+
+<h3>5. Tritongos Orais</h3>
+<p>A vogal central <strong>não tem marcação de nasalidade</strong> na escrita: sem til, sem m/n fechando a sílaba após ela. Identificação visual: vogal do centro sem (~) e sem m/n como coda.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tritongo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Estrutura visual</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos escritos</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Separação silábica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">uai</td><td style="padding:8px 10px;color:#86efac;">u(SV) + a(V) + i(SV)</td><td style="padding:8px 10px;color:#cbd5e1;">Uruguai, iguais, quais</td><td style="padding:8px 10px;color:#94a3b8;">u-ru-<strong>guai</strong>, i-<strong>guais</strong></td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">uou</td><td style="padding:8px 10px;color:#86efac;">u(SV) + o(V) + u(SV)</td><td style="padding:8px 10px;color:#cbd5e1;">averiguou, enxaguou, apaziguou</td><td style="padding:8px 10px;color:#94a3b8;">a-ve-ri-<strong>guou</strong>, en-xa-<strong>guou</strong></td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">uei</td><td style="padding:8px 10px;color:#86efac;">u(SV) + e(V) + i(SV)</td><td style="padding:8px 10px;color:#cbd5e1;">enxaguei, averiguei, apaziguei</td><td style="padding:8px 10px;color:#94a3b8;">en-xa-<strong>guei</strong>, a-ve-ri-<strong>guei</strong></td></tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Análise letra a letra — tritongos orais:</strong><br><br>
+  <em>iguais</em>    → i | g+<strong>u</strong>(SV)+<strong>a</strong>(V)+<strong>i</strong>(SV)+s → sílaba: -guais<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SV = U (sem acento, margem esquerda)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V  = A (núcleo, letra mais forte)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SV = I (sem acento, margem direita)<br><br>
+  <em>averiguou</em> → a-ve-ri | g+<strong>u</strong>(SV)+<strong>o</strong>(V)+<strong>u</strong>(SV) → sílaba: -guou<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SV = U | V = O | SV = U
+</div>
+
+<h3>6. Tritongos Nasais</h3>
+<p>A vogal central tem <strong>marcação de nasalidade</strong> na escrita. Há dois padrões visuais:</p>
+<ul>
+  <li><strong>Til (~):</strong> ã ou õ no centro → nasalidade visível diretamente na letra.</li>
+  <li><strong>Vogal + M final:</strong> o M fecha a sílaba após a vogal central, nasalizando-a.</li>
+</ul>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#1a1a2e;color:#c4b5fd;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Tritongo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Estrutura visual</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Marca de nasalidade</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Exemplos escritos</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Separação silábica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">uão</td><td style="padding:8px 10px;color:#f9a8d4;">u(SV)+ã(V nasal)+o(SV)</td><td style="padding:8px 10px;color:#94a3b8;">til sobre ã</td><td style="padding:8px 10px;color:#cbd5e1;">saguão, enxaguão, apaziguão</td><td style="padding:8px 10px;color:#94a3b8;">sa-<strong>guão</strong>, en-xa-<strong>guão</strong></td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">uem</td><td style="padding:8px 10px;color:#f9a8d4;">u(SV)+e(V nasal)+m</td><td style="padding:8px 10px;color:#94a3b8;">m fecha a sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">enxaguem, apaziguem, averiguem</td><td style="padding:8px 10px;color:#94a3b8;">en-xa-<strong>guem</strong>, a-ve-ri-<strong>guem</strong></td></tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Análise letra a letra — tritongos nasais:</strong><br><br>
+  <em>saguão</em>  → sa | g+<strong>u</strong>(SV)+<strong>ã</strong>(V nasal, til)+<strong>o</strong>(SV) → sílaba: -guão<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SV = U | V = Ã (til = nasal) | SV = O<br><br>
+  <em>enxaguem</em> → en-xa | g+<strong>u</strong>(SV)+<strong>e</strong>(V nasal)+m(coda nasal) → sílaba: -guem<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SV = U | V = E (nasalizada pelo M em coda) | m não é semivogal<br><br>
+  <strong>Atenção:</strong> em <em>uem</em>, o M final não é a 3ª posição do tritongo —<br>
+  é consoante de coda que nasaliza o E. O tritongo tem apenas 3 elementos vocálicos (u+e+m nasal = 2 elementos + 1 coda).
+</div>
+
+<h3>7. Lista Completa de Terminações que Formam Tritongos</h3>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.84rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Terminação</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Oral / Nasal</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Contexto</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos escritos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">-guai / -quai</td><td style="padding:8px 10px;color:#86efac;">uai</td><td style="padding:8px 10px;color:#86efac;">Oral</td><td style="padding:8px 10px;color:#94a3b8;">gu/qu + a + i</td><td style="padding:8px 10px;color:#cbd5e1;">Uruguai, iguais, quais</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">-guou / -quou</td><td style="padding:8px 10px;color:#86efac;">uou</td><td style="padding:8px 10px;color:#86efac;">Oral</td><td style="padding:8px 10px;color:#94a3b8;">gu/qu + o + u</td><td style="padding:8px 10px;color:#cbd5e1;">averiguou, enxaguou, apaziguou</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">-guei / -quei</td><td style="padding:8px 10px;color:#86efac;">uei</td><td style="padding:8px 10px;color:#86efac;">Oral</td><td style="padding:8px 10px;color:#94a3b8;">gu/qu + e + i</td><td style="padding:8px 10px;color:#cbd5e1;">enxaguei, averiguei, delinquei</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">-guão / -quão</td><td style="padding:8px 10px;color:#f9a8d4;">uão</td><td style="padding:8px 10px;color:#f9a8d4;">Nasal (til)</td><td style="padding:8px 10px;color:#94a3b8;">gu/qu + ã + o</td><td style="padding:8px 10px;color:#cbd5e1;">saguão, enxaguão, apaziguão</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">-guem / -quem</td><td style="padding:8px 10px;color:#f9a8d4;">uem</td><td style="padding:8px 10px;color:#f9a8d4;">Nasal (M coda)</td><td style="padding:8px 10px;color:#94a3b8;">gu/qu + e + m final</td><td style="padding:8px 10px;color:#cbd5e1;">enxaguem, apaziguem, averiguem</td></tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Tritongo × Ditongo — mesma raiz, diferente número de elementos:</strong><br><br>
+  <em>igual</em>  → i-<strong>gual</strong>  → gu+al: U(SV)+A(V) → <strong>ditongo</strong> crescente (2 elementos)<br>
+  <em>iguais</em> → i-<strong>guais</strong> → gu+ais: U(SV)+A(V)+I(SV) → <strong>tritongo</strong> (3 elementos)<br><br>
+  <em>saguão</em> → sa-<strong>guão</strong> → U(SV)+Ã(V)+O(SV) → <strong>tritongo</strong> nasal<br>
+  <em>saguê</em>  → sa-<strong>gué</strong>  → U(SV)+É(V) → <strong>ditongo</strong> crescente (se U soar)<br><br>
+  <strong>Regra visual:</strong> se depois do U há apenas 1 vogal → ditongo. Se há vogal + outra semivogal → tritongo.
 </div>
 
 <div class="dica-box">
-  <div class="dica-title">Dicas para prova</div>
+  <div class="dica-title">Resumo para fixar</div>
   <ul>
-    <li>Tritongo = 3 elementos na mesma sílaba: <strong>SV + V + SV</strong>.</li>
-    <li>As semivogais do tritongo são sempre <em>i</em> ou <em>u</em>.</li>
-    <li>Tritongo nasal: vogal central com til — <em>saguão</em> (uão), <em>enxaguem</em> (uem).</li>
-    <li>Tritongo oral: vogal central sem til — <em>Uruguai</em> (uai), <em>averiguou</em> (uou).</li>
-    <li>Quase todos surgem após qu/gu com U pronunciado.</li>
-    <li>Não confunda: <em>iguais</em> tem tritongo (i-<strong>guais</strong>); <em>igual</em> tem ditongo (i-<strong>gual</strong>).</li>
-    <li>Memorize: Uruguai, iguais, saguão, averiguou, enxaguou.</li>
+    <li><strong>Estrutura:</strong> semivogal + vogal + semivogal — sempre nessa ordem, sempre na mesma sílaba.</li>
+    <li><strong>Semivogais:</strong> apenas i ou u sem acento escrito. Nunca í ou ú (com acento = vogal tônica = hiato).</li>
+    <li><strong>U mudo × U semivogal:</strong> qu/gu + e/i → U mudo (dígrafo, sem tritongo); qu/gu + a/o → U soa (semivogal, pode formar tritongo).</li>
+    <li><strong>Orais:</strong> uai (Uruguai, iguais), uou (averiguou), uei (enxaguei).</li>
+    <li><strong>Nasais:</strong> uão (saguão) — til sobre ã; uem (enxaguem) — M fecha sílaba.</li>
+    <li><strong>Total de terminações reais:</strong> 5 — uai, uou, uei (orais) + uão, uem (nasais).</li>
   </ul>
 </div>`,
     questoes: [
-      { enunciado: 'O que é tritongo?', opcoes: ["Duas vogais em sílabas diferentes","Semivogal + vogal + semivogal na mesma sílaba","Vogal + semivogal na mesma sílaba","Três vogais em sílabas diferentes"], correta: 1, explicacao: 'Tritongo é o encontro de <strong>semivogal + vogal + semivogal</strong> na mesma sílaba. Difere do ditongo (2 elementos) por ter 3 elementos.' },
-      { enunciado: 'Qual é a estrutura obrigatória de um tritongo?', opcoes: ["Vogal + vogal + vogal","Semivogal + vogal + semivogal","Vogal + semivogal + vogal","Semivogal + semivogal + vogal"], correta: 1, explicacao: 'A estrutura é sempre <strong>SV + V + SV</strong>: semivogal + vogal (núcleo) + semivogal — todos na mesma sílaba.' },
-      { enunciado: 'Qual das palavras abaixo apresenta <strong>tritongo</strong>?', opcoes: ["pai","mãe","Uruguai","leite"], correta: 2, explicacao: '"Uruguai" → u-ru-<em>guai</em>: u(SV)+a(V)+i(SV). As demais têm apenas ditongos.' },
-      { enunciado: '"Iguais" tem quantas sílabas?', opcoes: ["1","2","3","4"], correta: 1, explicacao: '"Iguais" = i-<strong>guais</strong>: <strong>2 sílabas</strong>. O tritongo <em>uai</em> fica inteiro na segunda sílaba.' },
-      { enunciado: 'Em "saguão", o tritongo presente é:', opcoes: ["uai — oral","uão — nasal","uao — oral","aão — nasal"], correta: 1, explicacao: '"Saguão" → sa-<em>guão</em>: u(SV)+ã(V nasal, til)+o(SV) → tritongo <strong>nasal uão</strong>.' },
-      { enunciado: 'Em qual das palavras há <strong>tritongo nasal</strong>?', opcoes: ["iguais","Uruguai","averiguou","saguão"], correta: 3, explicacao: '"Saguão" tem tritongo <strong>nasal</strong> <em>uão</em>: o ã com til indica vogal nasal. As demais têm tritongos orais.' },
-      { enunciado: 'A palavra "averiguou" tem quantas sílabas?', opcoes: ["3","4","5","6"], correta: 1, explicacao: '"Averiguou" = a-ve-ri-<strong>guou</strong>: <strong>4 sílabas</strong>. O tritongo <em>uou</em> fica inteiro na última sílaba.' },
-      { enunciado: 'Qual a diferença entre ditongo e tritongo?', opcoes: ["O ditongo tem 3 elementos","O tritongo tem 2 semivogais e 1 vogal; o ditongo tem 1 semivogal e 1 vogal","São sinônimos","O tritongo só ocorre em oxítonas"], correta: 1, explicacao: 'Ditongo: 1 semivogal + 1 vogal (2 elementos). Tritongo: 2 semivogais + 1 vogal central (3 elementos).' },
-      { enunciado: 'Qual das palavras <strong>não</strong> tem tritongo?', opcoes: ["iguais","Uruguai","saguão","peixe"], correta: 3, explicacao: '"Peixe" tem apenas o ditongo <em>ei</em>. As demais têm tritongos: <em>uai</em> em iguais e Uruguai, <em>uão</em> em saguão.' },
-      { enunciado: 'As semivogais de um tritongo são sempre as letras:', opcoes: ["a e e","i e u","o e a","e e o"], correta: 1, explicacao: 'As semivogais do português são exclusivamente <em>i</em> e <em>u</em> átonos. No tritongo elas ocupam a 1ª e a 3ª posição: <strong>i/u + vogal + i/u</strong>.' }
+      { enunciado: 'Qual é a estrutura obrigatória de um tritongo?', opcoes: ["Vogal + vogal + vogal","Semivogal + vogal + semivogal","Vogal + semivogal + vogal","Semivogal + semivogal + vogal"], correta: 1, explicacao: 'Tritongo = <strong>SV + V + SV</strong>: semivogal na 1ª posição, vogal no centro (núcleo) e semivogal na 3ª posição — todos na mesma sílaba.' },
+      { enunciado: 'Em "Uruguai", qual é o tritongo e sua estrutura?', opcoes: ["uai — vogal+semivogal+vogal","uai — semivogal+vogal+semivogal","gua — consoante+vogal+semivogal","ai — vogal+semivogal"], correta: 1, explicacao: '"Uruguai" → u-ru-<em>guai</em>: <strong>u</strong>(SV) + <strong>a</strong>(V) + <strong>i</strong>(SV). U é semivogal (margem esquerda), A é vogal central, I é semivogal (margem direita).' },
+      { enunciado: 'Em qual palavra o U de "gu" é <strong>mudo</strong> e NÃO forma tritongo?', opcoes: ["saguão","iguais","guerra","Uruguai"], correta: 2, explicacao: 'Em <em>guerra</em>, gu vem antes de <em>e</em> → U é mudo (dígrafo) → não há U como semivogal → sem tritongo. Nas demais, gu vem antes de a/o → U pronunciado → forma tritongo.' },
+      { enunciado: 'Em "saguão", a vogal central do tritongo é:', opcoes: ["u — oral","a — oral","ã — nasal","o — oral"], correta: 2, explicacao: 'O tritongo <em>uão</em> tem estrutura u(SV) + <strong>ã</strong>(V nasal) + o(SV). O ã carrega til → vogal nasal. Essa nasalidade é visível diretamente na escrita.' },
+      { enunciado: 'Qual das palavras contém tritongo <strong>oral</strong>?', opcoes: ["saguão","enxaguem","apaziguem","averiguou"], correta: 3, explicacao: '<em>Averiguou</em> → <em>uou</em>: u(SV)+o(V oral, sem til)+u(SV). As demais têm tritongo nasal: <em>uão</em> (saguão) ou <em>uem</em> (enxaguem, apaziguem).' },
+      { enunciado: '"Enxaguem" tem tritongo nasal porque:', opcoes: ["O ã no centro carrega til","O M final fecha a sílaba e nasaliza o E central","O U é mudo nessa palavra","Há duas semivogais iguais"], correta: 1, explicacao: 'Em <em>enxaguem</em>, o M fecha a sílaba → nasaliza o E central: u(SV) + <strong>e</strong>(V nasal pelo M) + m(coda). A nasalidade do E é marcada pelo M em coda — visível na escrita.' },
+      { enunciado: '"Iguais" tem quantas sílabas?', opcoes: ["1","2","3","4"], correta: 1, explicacao: '"Iguais" = i-<strong>guais</strong>: 2 sílabas. O tritongo <em>uai</em> fica inteiro na sílaba "-guais" — os 3 elementos nunca se separam.' },
+      { enunciado: 'Qual a diferença entre "igual" e "iguais" em relação ao encontro vocálico?', opcoes: ["Ambos têm tritongo","igual tem ditongo (ua), iguais tem tritongo (uai)","igual tem tritongo, iguais tem ditongo","Ambos têm ditongo"], correta: 1, explicacao: '<em>Igual</em>: i-<strong>gual</strong> → u(SV)+a(V) = ditongo crescente (2 elementos). <em>Iguais</em>: i-<strong>guais</strong> → u(SV)+a(V)+i(SV) = tritongo (3 elementos). O I final transforma o ditongo em tritongo.' },
+      { enunciado: 'Quais letras podem ocupar a posição de semivogal em um tritongo?', opcoes: ["Qualquer vogal átona","Apenas i e u sem acento","A, e, o átonos","Qualquer letra vocálica"], correta: 1, explicacao: 'Semivogais são sempre <em>i</em> ou <em>u</em> sem acento escrito. Se i ou u carregam acento (í, ú), são vogais tônicas e formam hiato, não tritongo.' },
+      { enunciado: 'Qual das alternativas lista corretamente apenas tritongos nasais?', opcoes: ["uai, uou, uei","uão, uem","uai, uão","uou, uem, uai"], correta: 1, explicacao: 'Tritongos nasais são <strong>uão</strong> (vogal central ã com til — ex.: saguão) e <strong>uem</strong> (vogal central e nasalizada por M em coda — ex.: enxaguem). Os demais (uai, uou, uei) são orais.' }
     ]
   }
 ,
