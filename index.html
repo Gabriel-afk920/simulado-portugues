@@ -856,6 +856,269 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
+    id: "digrafos", nome: "Dígrafos", icon: "🔠", desc: "Duas letras, um fonema",
+    teoria: `
+<h3>O que é Dígrafo?</h3>
+<p>Dígrafo é a reunião de <strong>duas letras</strong> que, juntas, representam um <strong>único fonema</strong>. O nome vem do grego: <em>di</em> (dois) + <em>grapho</em> (escrita).</p>
+<p><strong>Como identificar apenas pela escrita:</strong> duas letras adjacentes que não somam dois fonemas separados. A divisão silábica nunca separa as duas letras do dígrafo (com exceção dos separáveis).</p>
+
+<div class="exemplo-box">
+  <strong>Letras normais vs. dígrafo — comparação visual:</strong><br><br>
+  c + a → <em>ca</em> → 2 letras, 2 fonemas<br>
+  c + h → <em>ch</em> → 2 letras, <strong>1 fonema</strong> ← dígrafo<br><br>
+  r (entre vogais) → <em>caro</em>: ca-ro → 1 fonema fraco<br>
+  r + r → <em>rr</em>   → <em>carro</em>: car-ro → <strong>1 fonema forte</strong> ← dígrafo<br><br>
+  n + a → <em>na</em> → 2 letras, 2 fonemas<br>
+  n + h → <em>nh</em> → <em>ninho</em>: ni-nho → <strong>1 fonema palatal</strong> ← dígrafo
+</div>
+
+<div class="dica-box">
+  <div class="dica-title">Regra-chave para provas</div>
+  <ul>
+    <li>Se as duas letras podem ser separadas na divisão silábica → <strong>não são dígrafo</strong> naquele contexto.</li>
+    <li>Se as duas letras nunca se separam e valem um só fonema → <strong>são dígrafo</strong>.</li>
+    <li><em>rr</em> e <em>ss</em> sempre se separam na sílaba (<em>car-ro</em>, <em>pas-so</em>), mas fonologicamente valem 1 fonema cada — por isso são dígrafos separáveis.</li>
+  </ul>
+</div>
+
+<h3>1. Dígrafos Consonantais Inseparáveis</h3>
+<p>As duas letras ficam <strong>sempre na mesma sílaba</strong>. A divisão silábica nunca as divide.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Dígrafo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Fonema representado</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos (separação silábica)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">ch</td><td style="padding:8px 10px;color:#94a3b8;">/ch/ (chiado)</td><td style="padding:8px 10px;color:#cbd5e1;">cha-ve, chu-va, chi-co-la-te</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">lh</td><td style="padding:8px 10px;color:#94a3b8;">/lh/ (lateral palatal)</td><td style="padding:8px 10px;color:#cbd5e1;">fi-lho, ba-lha, me-lhor</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">nh</td><td style="padding:8px 10px;color:#94a3b8;">/nh/ (nasal palatal)</td><td style="padding:8px 10px;color:#cbd5e1;">vi-nho, ni-nho, ma-nhã</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">gu + e/i</td><td style="padding:8px 10px;color:#94a3b8;">/g/ (U mudo)</td><td style="padding:8px 10px;color:#cbd5e1;">guer-ra, gui-tar-ra, gui-sa-do</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">qu + e/i</td><td style="padding:8px 10px;color:#94a3b8;">/k/ (U mudo)</td><td style="padding:8px 10px;color:#cbd5e1;">que-bra, qui-lo, que-rer</td></tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Atenção: gu/qu — quando é dígrafo e quando não é</strong><br><br>
+  <em>guerra</em>  → gu + <strong>e</strong> → U mudo → dígrafo, 1 fonema /g/<br>
+  <em>guarda</em>  → gu + <strong>a</strong> → U soa → <strong>NÃO</strong> é dígrafo, 2 fonemas /g/+/u/<br><br>
+  <em>quero</em>   → qu + <strong>e</strong> → U mudo → dígrafo, 1 fonema /k/<br>
+  <em>quando</em>  → qu + <strong>a</strong> → U soa → <strong>NÃO</strong> é dígrafo, 2 fonemas /k/+/u/
+</div>
+
+<h3>2. Dígrafos Consonantais Separáveis</h3>
+<p>São dígrafos porque representam <strong>1 fonema /s/</strong>, mas a divisão silábica os <strong>separa entre duas sílabas</strong>. Também incluem <em>rr</em> e <em>ss</em>.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Dígrafo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Fonema</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos (divisão silábica)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">rr</td><td style="padding:8px 10px;color:#94a3b8;">/R/ forte</td><td style="padding:8px 10px;color:#cbd5e1;">car-ro, er-ro, bar-ra, sar-ra-fo</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">ss</td><td style="padding:8px 10px;color:#94a3b8;">/s/ surdo</td><td style="padding:8px 10px;color:#cbd5e1;">pas-so, mas-sa, as-so-ciar</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">sc</td><td style="padding:8px 10px;color:#94a3b8;">/s/</td><td style="padding:8px 10px;color:#cbd5e1;">nas-cer, des-cer, pis-ci-na</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">sç</td><td style="padding:8px 10px;color:#94a3b8;">/s/</td><td style="padding:8px 10px;color:#cbd5e1;">nas-ço, des-ço, cres-ço</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">xc</td><td style="padding:8px 10px;color:#94a3b8;">/s/</td><td style="padding:8px 10px;color:#cbd5e1;">ex-ces-so, ex-ce-ção</td></tr>
+  </tbody>
+</table>
+
+<h3>3. Dígrafos Vocálicos Inseparáveis</h3>
+<p>Representam uma <strong>vogal nasal</strong>. O <em>m</em> em posição de <strong>coda silábica</strong> (fecha a sílaba) não representa o fonema /m/ — junto com a vogal, forma 1 fonema vocálico nasal.</p>
+<p><strong>Condição obrigatória:</strong> o M deve fechar a sílaba, vindo antes de consoante ou no final da palavra.</p>
+
+<div class="exemplo-box">
+  <strong>Como distinguir M dígrafo de M consoante — pela escrita:</strong><br><br>
+  <em>cama</em>  → ca-<strong>MA</strong>  → M <u>abre</u> sílaba → consoante /m/ normal<br>
+  <em>campo</em> → <strong>CAM</strong>-po → M <u>fecha</u> sílaba → dígrafo: A+M = vogal /ã/<br><br>
+  <em>cana</em>  → ca-<strong>NA</strong>  → N <u>abre</u> sílaba → consoante /n/ normal<br>
+  <em>anta</em>  → <strong>AN</strong>-ta  → N <u>fecha</u> sílaba → dígrafo: A+N = vogal /ã/
+</div>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#1a1a2e;color:#c4b5fd;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Dígrafo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Vogal nasal</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Condição</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">am</td><td style="padding:8px 10px;color:#f9a8d4;">/ã/</td><td style="padding:8px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">cam-po, fal-am, am-bas</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">em</td><td style="padding:8px 10px;color:#f9a8d4;">/ẽ/</td><td style="padding:8px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">bem, sem, tam-bém, vi-vem</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">im</td><td style="padding:8px 10px;color:#f9a8d4;">/ĩ/</td><td style="padding:8px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">as-sim, im-por-tar</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">om</td><td style="padding:8px 10px;color:#f9a8d4;">/õ/</td><td style="padding:8px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">bom, com, tom, som</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">um</td><td style="padding:8px 10px;color:#f9a8d4;">/ũ/</td><td style="padding:8px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">um, al-gum, je-jum</td></tr>
+  </tbody>
+</table>
+
+<h3>4. Dígrafos Vocálicos Separáveis</h3>
+<p>O <em>n</em> em posição de coda nasaliza a vogal anterior. A divisão silábica os separa, mas fonologicamente formam 1 vogal nasal.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#1a1a2e;color:#c4b5fd;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Dígrafo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Vogal nasal</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Condição</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #7c3aed;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">an</td><td style="padding:8px 10px;color:#f9a8d4;">/ã/</td><td style="padding:8px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">an-ta, san-ta, an-tes</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">en</td><td style="padding:8px 10px;color:#f9a8d4;">/ẽ/</td><td style="padding:8px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">en-te, ven-to, men-te</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">in</td><td style="padding:8px 10px;color:#f9a8d4;">/ĩ/</td><td style="padding:8px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">cin-to, in-fer-no, in-crí-vel</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">on</td><td style="padding:8px 10px;color:#f9a8d4;">/õ/</td><td style="padding:8px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">pon-to, bon-de, con-to</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">un</td><td style="padding:8px 10px;color:#f9a8d4;">/ũ/</td><td style="padding:8px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">mun-do, jun-to, fun-do</td></tr>
+  </tbody>
+</table>
+
+<h3>5. Dígrafos Orais — Análise Completa</h3>
+<p>Dígrafos orais são consonantais e <strong>não envolvem nasalidade</strong>. Na escrita: nenhuma das duas letras é <em>m</em>/<em>n</em> em coda, e nenhuma carrega til.</p>
+
+<div class="exemplo-box">
+  <strong>"chuva"</strong> → c+h+u+v+a<br>
+  [ch] = dígrafo oral (1 fonema) | u | v | a<br>
+  Separação: <em>chu-va</em> — ch não separa, ambas em "chu"<br><br>
+
+  <strong>"carro"</strong> → c+a+rr+o<br>
+  [rr] = dígrafo oral (1 fonema /R/ forte) | a | o<br>
+  Separação: <em>car-ro</em> — rr separa, mas fonologicamente vale 1 fonema<br><br>
+
+  <strong>"lhama"</strong> → l+h+a+m+a<br>
+  [lh] = dígrafo oral (1 fonema palatal) | a | m | a<br>
+  Separação: <em>lha-ma</em> — lh não separa, ambas em "lha"<br><br>
+
+  <strong>"excesso"</strong> → e+xc+e+ss+o<br>
+  [xc] = dígrafo oral → 1 fonema /s/<br>
+  [ss] = dígrafo oral → 1 fonema /s/<br>
+  Separação: <em>ex-ces-so</em> — xc separa (x fica antes, c depois)
+</div>
+
+<h3>6. Dígrafos Nasais — Análise Completa</h3>
+<p>Dígrafos nasais resultam em <strong>vogal nasal</strong>. A nasalidade está sempre marcada na escrita de três formas:</p>
+<ul>
+  <li><strong>Til (~)</strong> sobre a vogal: <em>ã</em>, <em>õ</em> — nasalidade direta e visível.</li>
+  <li><strong>Vogal + M</strong> (antes de consoante ou no final): M em coda nasaliza a vogal — dígrafo vocálico.</li>
+  <li><strong>Vogal + N</strong> (antes de consoante): N em coda nasaliza a vogal — dígrafo vocálico.</li>
+</ul>
+
+<div class="exemplo-box">
+  <strong>"campo"</strong> → c + [am] + p + o<br>
+  [am] = dígrafo nasal (a+m em coda) → vogal /ã/<br>
+  Separação: <em>cam-po</em><br><br>
+
+  <strong>"assim"</strong> → a + [ss] + i + [m]<br>
+  [ss] = dígrafo consonantal oral (/s/ surdo)<br>
+  [im] = dígrafo vocálico nasal (i+m em coda)<br>
+  Separação: <em>as-sim</em><br><br>
+
+  <strong>"vinho"</strong> → v + i + [nh] + o<br>
+  [nh] = dígrafo <strong>consonantal oral</strong> (consoante palatal) — NÃO é dígrafo nasal vocálico<br>
+  Separação: <em>vi-nho</em><br><br>
+
+  <strong>Diferença crucial — NH vs. IN/AN:</strong><br>
+  <em>vinho</em>  → [nh] = dígrafo oral (consoante)<br>
+  <em>cinto</em>  → [in] = dígrafo nasal (vogal /ĩ/)
+</div>
+
+<h3>7. Lista Completa — Dígrafos Vocálicos com Condições</h3>
+<p>Um dígrafo vocálico só existe quando o <strong>M ou N fecha a sílaba</strong> (posição de coda), imediatamente após uma vogal.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Dígrafo</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Nasal</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Condição obrigatória</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Exemplos</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Armadilha (NÃO é dígrafo)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">am</td><td style="padding:7px 10px;color:#f9a8d4;">/ã/</td><td style="padding:7px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">cam-po, am-bas, fal-am</td><td style="padding:7px 10px;color:#f87171;">a-MA-do → M abre sílaba</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">em</td><td style="padding:7px 10px;color:#f9a8d4;">/ẽ/</td><td style="padding:7px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">bem, sem, tam-bém</td><td style="padding:7px 10px;color:#f87171;">ME-sa → M abre sílaba</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">im</td><td style="padding:7px 10px;color:#f9a8d4;">/ĩ/</td><td style="padding:7px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">as-sim, im-por-tar</td><td style="padding:7px 10px;color:#f87171;">MI-na → M abre sílaba</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">om</td><td style="padding:7px 10px;color:#f9a8d4;">/õ/</td><td style="padding:7px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">bom, com, som</td><td style="padding:7px 10px;color:#f87171;">MO-ca → M abre sílaba</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">um</td><td style="padding:7px 10px;color:#f9a8d4;">/ũ/</td><td style="padding:7px 10px;color:#94a3b8;">M fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">um, al-gum, je-jum</td><td style="padding:7px 10px;color:#f87171;">MU-ro → M abre sílaba</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">an</td><td style="padding:7px 10px;color:#f9a8d4;">/ã/</td><td style="padding:7px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">an-ta, san-ta, an-tes</td><td style="padding:7px 10px;color:#f87171;">ca-NA → N abre sílaba</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">en</td><td style="padding:7px 10px;color:#f9a8d4;">/ẽ/</td><td style="padding:7px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">en-te, ven-to, men-te</td><td style="padding:7px 10px;color:#f87171;">NE-vo → N abre sílaba</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">in</td><td style="padding:7px 10px;color:#f9a8d4;">/ĩ/</td><td style="padding:7px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">cin-to, in-fer-no</td><td style="padding:7px 10px;color:#f87171;">NI-vel → N abre sílaba</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">on</td><td style="padding:7px 10px;color:#f9a8d4;">/õ/</td><td style="padding:7px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">pon-to, bon-de, con-to</td><td style="padding:7px 10px;color:#f87171;">NO-ta → N abre sílaba</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 10px;color:#fde68a;font-weight:700;">un</td><td style="padding:7px 10px;color:#f9a8d4;">/ũ/</td><td style="padding:7px 10px;color:#94a3b8;">N fecha sílaba</td><td style="padding:7px 10px;color:#cbd5e1;">mun-do, jun-to, fun-do</td><td style="padding:7px 10px;color:#f87171;">NU-vem → N abre sílaba</td></tr>
+  </tbody>
+</table>
+
+<h3>8. Tabela Geral de Todos os Dígrafos</h3>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Dígrafo</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Tipo</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Oral / Nasal</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Separável?</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">ch</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#94a3b8;">Não</td><td style="padding:7px 9px;color:#cbd5e1;">cha-ve, chu-va</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">lh</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#94a3b8;">Não</td><td style="padding:7px 9px;color:#cbd5e1;">fi-lho, me-lhor</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">nh</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#94a3b8;">Não</td><td style="padding:7px 9px;color:#cbd5e1;">vi-nho, ni-nho</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">rr</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">car-ro, er-ro</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">ss</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">pas-so, mas-sa</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">gu (+e/i)</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#94a3b8;">Não</td><td style="padding:7px 9px;color:#cbd5e1;">guer-ra, gui-tar-ra</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">qu (+e/i)</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#94a3b8;">Não</td><td style="padding:7px 9px;color:#cbd5e1;">que-rer, qui-lo</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">sc</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">nas-cer, pis-ci-na</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">sç</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">nas-ço, des-ço</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">xc</td><td style="padding:7px 9px;color:#94a3b8;">Consonantal</td><td style="padding:7px 9px;color:#86efac;">Oral</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">ex-ces-so, ex-ce-ção</td></tr>
+    <tr style="border-bottom:1px solid #334155;height:4px;"><td colspan="5" style="padding:0;background:#1e293b;"></td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">am</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda m)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">cam-po, fal-am</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">em</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda m)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">bem, tam-bém</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">im</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda m)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">as-sim, im-por-tar</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">om</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda m)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">bom, com, som</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">um</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda m)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">um, al-gum, je-jum</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">an</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda n)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">an-ta, san-ta</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">en</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda n)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">en-te, ven-to</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">in</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda n)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">cin-to, in-fer-no</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">on</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda n)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">pon-to, bon-de</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">un</td><td style="padding:7px 9px;color:#94a3b8;">Vocálico (coda n)</td><td style="padding:7px 9px;color:#f9a8d4;">Nasal</td><td style="padding:7px 9px;color:#4ade80;">Sim</td><td style="padding:7px 9px;color:#cbd5e1;">mun-do, jun-to</td></tr>
+  </tbody>
+</table>
+
+<div class="dica-box">
+  <div class="dica-title">Resumo para fixar</div>
+  <ul>
+    <li><strong>Total:</strong> 20 dígrafos — 10 consonantais (ch, lh, nh, rr, ss, gu, qu, sc, sç, xc) + 10 vocálicos (am/em/im/om/um + an/en/in/on/un).</li>
+    <li><strong>Inseparáveis:</strong> ch, lh, nh, gu+e/i, qu+e/i ficam sempre na mesma sílaba.</li>
+    <li><strong>Separáveis:</strong> rr, ss, sc, sç, xc e todos os vocálicos se dividem na sílaba, mas valem 1 fonema.</li>
+    <li><strong>NH ≠ dígrafo nasal:</strong> <em>nh</em> é dígrafo consonantal oral — representa uma consoante palatal, não uma vogal nasal.</li>
+    <li><strong>M/N dígrafo vs. consoante:</strong> se abre sílaba → consoante normal; se fecha sílaba → dígrafo vocálico nasal.</li>
+  </ul>
+</div>
+`,
+    questoes: [
+      { enunciado: 'Em "chuva", o dígrafo <em>ch</em> representa:', opcoes: ["Dois fonemas distintos","Um único fonema","Uma vogal nasal","Nenhum fonema"], correta: 1, explicacao: 'Dígrafo <em>ch</em> = 1 fonema. Duas letras que juntas valem um único som.' },
+      { enunciado: 'Qual palavra contém um dígrafo consonantal <strong>inseparável</strong>?', opcoes: ["carro","passo","filho","nasceu"], correta: 2, explicacao: '<em>Filho</em>: o dígrafo <em>lh</em> é inseparável — nunca se divide na sílaba. <em>Carro</em> (rr) e <em>passo</em> (ss) são separáveis; <em>nasceu</em> (sc) também é separável.' },
+      { enunciado: 'Em "campo", a sequência <em>am</em> é classificada como:', opcoes: ["Ditongo oral","Dígrafo vocálico nasal","Encontro consonantal","Hiato"], correta: 1, explicacao: 'Em <em>campo</em> (cam-po), o M fecha a sílaba — junto com o A forma dígrafo vocálico nasal, representando a vogal /ã/.' },
+      { enunciado: 'Na palavra "guerra", o <em>gu</em> é dígrafo porque:', opcoes: ["O G e o U formam dois fonemas juntos","O U não representa nenhum fonema nesse contexto","O G é silencioso","O dígrafo forma uma vogal nasal"], correta: 1, explicacao: 'Em <em>guerra</em>, o U é mudo — gu+e forma dígrafo que representa apenas 1 fonema /g/. Se fosse gu+a (como em "guarda"), o U soaria.' },
+      { enunciado: 'Quantos dígrafos há em "excesso"?', opcoes: ["1","2","3","0"], correta: 1, explicacao: 'Em <em>excesso</em> há 2 dígrafos: <em>xc</em> (= 1 fonema /s/) e <em>ss</em> (= 1 fonema /s/).' },
+      { enunciado: 'Em qual das palavras o <em>n</em> NÃO forma dígrafo vocálico?', opcoes: ["anta","cinto","cana","vento"], correta: 2, explicacao: 'Em <em>cana</em> (ca-na), o N abre a sílaba "na" → é consoante normal, não dígrafo. Nas demais, o N fecha sílaba: <em>an</em>-ta, <em>cin</em>-to, <em>ven</em>-to.' },
+      { enunciado: 'O dígrafo <em>nh</em> em "vinho" é classificado como:', opcoes: ["Dígrafo vocálico nasal","Dígrafo consonantal oral","Dígrafo separável","Encontro vocálico"], correta: 1, explicacao: '<em>Nh</em> é dígrafo consonantal oral: representa 1 consoante palatal. Não é dígrafo nasal — o NH não é vogal, é consoante.' },
+      { enunciado: 'Assinale a palavra em que <em>qu</em> NÃO é dígrafo.', opcoes: ["quero","quilo","quando","quente"], correta: 2, explicacao: 'Em <em>quando</em>, o U soa (qu+a → /k/+/u/) — não é dígrafo. Nas demais (qu+e ou qu+i), o U é mudo e qu forma dígrafo.' },
+      { enunciado: 'Em "assim", quantos dígrafos existem?', opcoes: ["0","1","2","3"], correta: 2, explicacao: 'Em <em>assim</em> há 2 dígrafos: <em>ss</em> (consonantal oral, /s/) e <em>im</em> (vocálico nasal, /ĩ/ — o M fecha a sílaba).' },
+      { enunciado: 'Qual alternativa lista apenas dígrafos consonantais <strong>orais</strong>?', opcoes: ["ch, lh, nh, am, em","ch, lh, nh, rr, ss","an, en, in, on, un","rr, ss, am, om, um"], correta: 1, explicacao: 'ch, lh, nh, rr e ss são todos dígrafos consonantais orais — representam consoantes sem nasalidade vocálica.' }
+    ]
+  },
+  // ─────────────────────────────────────────
+  {
     id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
 <h3>O que é Hiato?</h3>
