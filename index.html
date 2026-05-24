@@ -1121,82 +1121,244 @@ const TEMAS = [
   {
     id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
-<h3>O que é Hiato?</h3>
-<p>Hiato é o encontro de <strong>duas vogais consecutivas</strong> que pertencem a <strong>sílabas diferentes</strong>. É o oposto do ditongo: enquanto no ditongo vogal e semivogal dividem a mesma sílaba, no hiato cada vogal fica em sua própria sílaba.</p>
+<h3>1. O que é Hiato?</h3>
+<p>Hiato é o encontro de <strong>duas letras vocálicas consecutivas</strong> (sem consoante entre elas) que pertencem a <strong>sílabas diferentes</strong>. A divisão silábica ocorre <strong>entre</strong> as duas vogais.</p>
+<p><strong>Como identificar apenas pela escrita — sem pronunciar:</strong> localize duas letras vocálicas adjacentes e verifique as pistas visuais abaixo.</p>
+
 <div class="exemplo-box">
-  <em>sa-ú-de</em> → a + ú em sílabas distintas<br>
-  <em>po-e-ma</em> → o + e em sílabas distintas<br>
-  <em>vo-o</em> → o + o em sílabas distintas<br>
-  <em>a-in-da</em> → a + i em sílabas distintas
+  <strong>Pista 1 — Acento escrito sobre I ou U (í, ú):</strong><br>
+  Se o I ou U carrega acento escrito → é vogal tônica → nunca é semivogal → sempre hiato.<br><br>
+  <em>saúde</em>  → ú tem acento → hiato: sa | ú | de (3 sílabas)<br>
+  <em>juízo</em>  → í tem acento → hiato: ju | í | zo (3 sílabas)<br>
+  <em>baú</em>    → ú tem acento → hiato: ba | ú  (2 sílabas)<br>
+  <em>país</em>   → í tem acento → hiato: pa | ís (2 sílabas)
 </div>
 
-<h3>Como identificar o Hiato?</h3>
-<p>A prova mais simples: tente pronunciar as duas vogais na mesma sílaba. Se não for possível (soa estranho), é hiato.</p>
-<ul>
-  <li>Duas vogais iguais seguidas: <em>voo</em>, <em>loo</em>, <em>caatinga</em></li>
-  <li>Vogal + vogal com acento tônico distinto: <em>saúde</em>, <em>juízo</em></li>
-  <li><em>i</em> ou <em>u</em> tônicos seguidos de consoante + vogal: <em>raízes</em>, <em>juízes</em></li>
-</ul>
-
-<h3>Regra do <em>i</em> e <em>u</em> tônicos</h3>
-<p>Quando <em>i</em> ou <em>u</em> tônicos aparecem depois de vogal, formam <strong>hiato</strong> — independentemente de acento gráfico (após o Acordo de 2009, muitos perderam o acento, mas continuam sendo hiatos).</p>
 <div class="exemplo-box">
-  <em>saúde</em> → sa-ú-de (hiato, ú tônico)<br>
-  <em>baú</em> → ba-ú (hiato)<br>
-  <em>raiz</em> → ra-iz (hiato, i tônico antes de z)<br>
-  <em>juízo</em> → ju-í-zo (hiato, í tônico)<br>
-  <em>ainda</em> → a-in-da (hiato, i tônico após a)
+  <strong>Pista 2 — Duas letras vogais IGUAIS seguidas:</strong><br>
+  Vogais idênticas nunca se fundem em uma sílaba — sempre formam hiato.<br><br>
+  <em>voo</em>      → o+o → hiato: vo | o       (2 sílabas)<br>
+  <em>caatinga</em> → a+a → hiato: ca | a | tin | ga (4 sílabas)<br>
+  <em>leem</em>     → e+e → hiato: le | em      (2 sílabas)<br>
+  <em>creem</em>    → e+e → hiato: cre | em     (2 sílabas)
 </div>
 
-<h3>Separação silábica com Hiato</h3>
-<p>No hiato, a separação silábica ocorre entre as duas vogais:</p>
 <div class="exemplo-box">
-  <em>coordenar</em> → co-or-de-nar (4 sílabas)<br>
-  <em>caatinga</em> → ca-a-tin-ga (4 sílabas)<br>
-  <em>poeira</em> → po-ei-ra (3 sílabas — <em>oe</em> = hiato; <em>ei</em> = ditongo)<br>
-  <em>poeма</em> → po-e-ma (3 sílabas)
+  <strong>Pista 3 — I ou U sem acento, em posição tônica identificável:</strong><br><br>
+  <em>raiz</em>   → I antes de Z final → I é tônico → hiato: ra | iz<br>
+  <em>ruim</em>   → I antes de M final → I é tônico → hiato: ru | im<br>
+  <em>rainha</em> → I antes de NH (com vogal antes) → hiato: ra | i | nha
 </div>
 
-<h3>Hiato × Ditongo: como diferenciar</h3>
-<ul>
-  <li>Se <em>i</em> ou <em>u</em> forem tônicos (recebem mais força na pronúncia) após vogal → <strong>hiato</strong>.</li>
-  <li>Se <em>i</em> ou <em>u</em> forem átonos (fracos) junto com outra vogal → provavelmente <strong>ditongo</strong>.</li>
-</ul>
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:14px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Pista visual</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">É Ditongo ou Hiato?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">i/u COM acento (í/ú)</td><td style="padding:8px 10px;color:#94a3b8;">acento escrito sobre i ou u</td><td style="padding:8px 10px;color:#f9a8d4;font-weight:700;">Sempre Hiato</td><td style="padding:8px 10px;color:#cbd5e1;">saúde, juízo, baú, país</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Vogais iguais (oo, aa…)</td><td style="padding:8px 10px;color:#94a3b8;">mesma letra duas vezes</td><td style="padding:8px 10px;color:#f9a8d4;font-weight:700;">Sempre Hiato</td><td style="padding:8px 10px;color:#cbd5e1;">voo, caatinga, leem</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">i/u SEM acento + vogal</td><td style="padding:8px 10px;color:#94a3b8;">i/u átono ao lado de vogal</td><td style="padding:8px 10px;color:#86efac;font-weight:700;">Ditongo</td><td style="padding:8px 10px;color:#cbd5e1;">pai, leite, mau, ouro</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">i/u tônico sem acento</td><td style="padding:8px 10px;color:#94a3b8;">i/u antes de consoante final ou NH</td><td style="padding:8px 10px;color:#f9a8d4;font-weight:700;">Hiato</td><td style="padding:8px 10px;color:#cbd5e1;">raiz, ruim, rainha</td></tr>
+  </tbody>
+</table>
+
+<h3>2. Quando AO, IA, IE, OA, OE, UE, OO, II São Hiatos</h3>
+<p>Essas combinações são hiatos em contextos específicos. A tabela mostra as condições visuais para cada caso.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Comb.</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Condição para ser hiato</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Com acento</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Sem acento</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Exemplos escritos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">OO</td><td style="padding:7px 9px;color:#94a3b8;">Sempre — vogais iguais</td><td style="padding:7px 9px;color:#94a3b8;">—</td><td style="padding:7px 9px;color:#86efac;">vo-o, en-jo-o</td><td style="padding:7px 9px;color:#cbd5e1;">voo (vo-o), enjoo (en-jo-o)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">AA</td><td style="padding:7px 9px;color:#94a3b8;">Sempre — vogais iguais</td><td style="padding:7px 9px;color:#94a3b8;">—</td><td style="padding:7px 9px;color:#86efac;">ca-a-tin-ga</td><td style="padding:7px 9px;color:#cbd5e1;">caatinga (ca-a-tin-ga)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">EE</td><td style="padding:7px 9px;color:#94a3b8;">Sempre — vogais iguais</td><td style="padding:7px 9px;color:#94a3b8;">—</td><td style="padding:7px 9px;color:#86efac;">le-em, cre-em</td><td style="padding:7px 9px;color:#cbd5e1;">leem (le-em), creem (cre-em), veem</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">II</td><td style="padding:7px 9px;color:#94a3b8;">Sempre — vogais iguais</td><td style="padding:7px 9px;color:#94a3b8;">—</td><td style="padding:7px 9px;color:#86efac;">i-i (fronteira)</td><td style="padding:7px 9px;color:#cbd5e1;">anti-inflamatório (i|i), bi-isento</td></tr>
+    <tr style="border-bottom:1px solid #334155;height:3px;"><td colspan="5" style="padding:0;background:#1e293b;"></td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">AO</td><td style="padding:7px 9px;color:#94a3b8;">Dentro de palavra; ≠ ão (til = ditongo nasal)</td><td style="padding:7px 9px;color:#94a3b8;">á-o (raro)</td><td style="padding:7px 9px;color:#86efac;">a-o</td><td style="padding:7px 9px;color:#cbd5e1;">caos (ca-os), aorta (a-or-ta), caótico</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">OA</td><td style="padding:7px 9px;color:#94a3b8;">Sempre: O nunca é semivogal antes de A</td><td style="padding:7px 9px;color:#94a3b8;">ó-a (raro)</td><td style="padding:7px 9px;color:#86efac;">o-a</td><td style="padding:7px 9px;color:#cbd5e1;">boa (bo-a), moa (mo-a), almôndega</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">OE</td><td style="padding:7px 9px;color:#94a3b8;">Sempre: O nunca é semivogal antes de E</td><td style="padding:7px 9px;color:#94a3b8;">ó-e (raro)</td><td style="padding:7px 9px;color:#86efac;">o-e</td><td style="padding:7px 9px;color:#cbd5e1;">poema (po-e-ma), moeda (mo-e-da), poeira (po | ei)</td></tr>
+    <tr style="border-bottom:1px solid #334155;height:3px;"><td colspan="5" style="padding:0;background:#1e293b;"></td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">IA</td><td style="padding:7px 9px;color:#94a3b8;">Hiato quando I é tônico. Ditongo crescente quando I é átono (sílaba tônica já passou)</td><td style="padding:7px 9px;color:#f9a8d4;">í-a</td><td style="padding:7px 9px;color:#94a3b8;">i-a (tônico) ou ia (átono)</td><td style="padding:7px 9px;color:#cbd5e1;">Hiato: po-e-si-a, Ma-ri-a, com-pa-nhi-a<br>Ditongo: gló-ria, sé-rie, his-tó-ria</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">IE</td><td style="padding:7px 9px;color:#94a3b8;">Hiato quando I é tônico. Ditongo crescente quando I é átono</td><td style="padding:7px 9px;color:#f9a8d4;">í-e</td><td style="padding:7px 9px;color:#94a3b8;">i-e (tônico) ou ie (átono)</td><td style="padding:7px 9px;color:#cbd5e1;">Hiato: fi-el, pi-e-da-de<br>Ditongo: sé-rie, pa-cien-te</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">UE</td><td style="padding:7px 9px;color:#94a3b8;">Hiato quando U é tônico (ú). Dígrafo quando U é mudo (qu/gu+e). Ditongo crescente quando U é átono</td><td style="padding:7px 9px;color:#f9a8d4;">ú-e</td><td style="padding:7px 9px;color:#94a3b8;">u-e (tônico) ou ue (átono/mudo)</td><td style="padding:7px 9px;color:#cbd5e1;">Ditongo crescente: tê-nue<br>Dígrafo: que-rer, guer-ra<br>Hiato: (raro com ú)</td></tr>
+  </tbody>
+</table>
+
 <div class="exemplo-box">
-  <strong>Hiato:</strong> <em>saída</em> (sa-í-da), <em>miúdo</em> (mi-ú-do), <em>país</em> (pa-ís)<br>
-  <strong>Ditongo:</strong> <em>sai</em> (1 sílaba), <em>vai</em> (1 sílaba), <em>ouro</em> (ou-ro)
+  <strong>Regra visual para IA e IE sem acento escrito:</strong><br>
+  Localize onde cai a sílaba tônica da palavra:<br><br>
+  <em>glória</em>   → <strong>GLÓ</strong>-ria  → tônica em GLÓ (antes do I) → I átono → <strong>ditongo crescente</strong><br>
+  <em>poesia</em>   → po-e-<strong>SI</strong>-a → tônica em SI → I tônico  → <strong>hiato</strong>: si | a<br>
+  <em>série</em>    → <strong>SÉ</strong>-rie   → tônica em SÉ (antes do I) → I átono → <strong>ditongo crescente</strong><br>
+  <em>fiel</em>     → fi-<strong>EL</strong>    → tônica em EL (depois do I) → I tônico → <strong>hiato</strong>: fi | el<br>
+  <em>companhia</em>→ com-pa-<strong>NHI</strong>-a → tônica em NHI → I tônico → <strong>hiato</strong>: nhi | a
 </div>
 
-<h3>Casos especiais após o Acordo de 2009</h3>
-<p>O Acordo Ortográfico de 2009 eliminou o acento em alguns hiatos, mas eles <strong>continuam sendo hiatos</strong>:</p>
+<h3>3. Quando AI, EI, OI, AU, EU, OU Podem Ser Hiatos</h3>
+<p>Normalmente essas combinações são <strong>ditongos decrescentes</strong> — a vogal é o núcleo e o I/U é semivogal. Viram hiatos apenas quando o I ou U carrega acento escrito, tornando-se tônico.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Comb.</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Normalmente é…</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Vira hiato quando…</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Hiato (com acento)</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Ditongo (sem acento)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">AI</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">I tem acento (í) ou é tônico</td><td style="padding:7px 9px;color:#f9a8d4;">aí, saí, pa-ís, ru-ín</td><td style="padding:7px 9px;color:#86efac;">pai, cai-xa, fai-xa (1 síl.)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">EI</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">I tem acento (í) — muito raro</td><td style="padding:7px 9px;color:#f9a8d4;">(raro na prática)</td><td style="padding:7px 9px;color:#86efac;">lei, rei, lei-te, pei-xe</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">OI</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">I tem acento (í) — muito raro</td><td style="padding:7px 9px;color:#f9a8d4;">(raro na prática)</td><td style="padding:7px 9px;color:#86efac;">boi, coi-sa, he-rói</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">AU</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">U tem acento (ú)</td><td style="padding:7px 9px;color:#f9a8d4;">ba-ú, ja-ú</td><td style="padding:7px 9px;color:#86efac;">mau, pau, cau-sa</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">EU</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">U tem acento — praticamente não ocorre</td><td style="padding:7px 9px;color:#f9a8d4;">—</td><td style="padding:7px 9px;color:#86efac;">meu, deus, cha-péu</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">OU</td><td style="padding:7px 9px;color:#86efac;">Ditongo decrescente</td><td style="padding:7px 9px;color:#94a3b8;">Não forma hiato na prática</td><td style="padding:7px 9px;color:#f9a8d4;">—</td><td style="padding:7px 9px;color:#86efac;">vou, pou-co, ou-ro</td></tr>
+  </tbody>
+</table>
+
 <div class="exemplo-box">
-  <em>voo</em> (antes: vôo) → vo-o, 2 sílabas<br>
-  <em>enjoo</em> (antes: enjoo já era assim) → en-jo-o<br>
-  <em>leem</em> → le-em<br>
-  <em>creem</em> → cre-em
+  <strong>Comparação direta — mesma raiz, com e sem acento:</strong><br><br>
+  <em>ai</em>  (interjeição) → 1 sílaba → ditongo: a(V) + i(SV)<br>
+  <em>aí</em>  (advérbio)   → 2 sílabas → hiato: a | í<br><br>
+  <em>sai</em>  → 1 sílaba → ditongo (i átono)<br>
+  <em>saí</em>  → 2 sílabas → hiato: sa | í (I com acento)<br><br>
+  <em>pai</em>   → 1 sílaba → ditongo<br>
+  <em>país</em>  → 2 sílabas → hiato: pa | ís (í com acento)<br><br>
+  <em>mau</em>  → 1 sílaba → ditongo (u átono)<br>
+  <em>baú</em>  → 2 sílabas → hiato: ba | ú (ú com acento)
 </div>
+
+<h3>4. Lista Completa de Terminações de Hiato</h3>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Terminação</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Condição visual</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Exemplos (separação silábica)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-oo</td><td style="padding:7px 9px;color:#94a3b8;">Sempre (vogais iguais)</td><td style="padding:7px 9px;color:#cbd5e1;">voo (vo-o), enjoo (en-jo-o)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-aa</td><td style="padding:7px 9px;color:#94a3b8;">Sempre (vogais iguais)</td><td style="padding:7px 9px;color:#cbd5e1;">caatinga (ca-a-tin-ga)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-eem / -eem</td><td style="padding:7px 9px;color:#94a3b8;">Sempre (vogais iguais + m)</td><td style="padding:7px 9px;color:#cbd5e1;">leem (le-em), creem (cre-em), veem (ve-em)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ao (sem til)</td><td style="padding:7px 9px;color:#94a3b8;">Dentro de palavra (≠ ão com til)</td><td style="padding:7px 9px;color:#cbd5e1;">caos (ca-os), aorta (a-or-ta)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-oa</td><td style="padding:7px 9px;color:#94a3b8;">Sempre (O nunca é semivogal)</td><td style="padding:7px 9px;color:#cbd5e1;">boa (bo-a), moa (mo-a)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-oe</td><td style="padding:7px 9px;color:#94a3b8;">Sempre (O nunca é semivogal)</td><td style="padding:7px 9px;color:#cbd5e1;">poema (po-e-ma), moeda (mo-e-da), poeira (po-ei-ra)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-aí / -aiz</td><td style="padding:7px 9px;color:#94a3b8;">I com acento ou antes de z final</td><td style="padding:7px 9px;color:#cbd5e1;">aí, saí, raiz (ra-iz), país (pa-ís)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-uí / -uiz</td><td style="padding:7px 9px;color:#94a3b8;">I com acento ou antes de z final</td><td style="padding:7px 9px;color:#cbd5e1;">ruído (ru-í-do), juízo (ju-í-zo), Luís</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-aú</td><td style="padding:7px 9px;color:#94a3b8;">U com acento</td><td style="padding:7px 9px;color:#cbd5e1;">baú (ba-ú), jaú</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ia (hiato)</td><td style="padding:7px 9px;color:#94a3b8;">I tônico: sílaba tônica recai sobre o I</td><td style="padding:7px 9px;color:#cbd5e1;">poesia (po-e-si-a), Maria (Ma-ri-a), alegria</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ía</td><td style="padding:7px 9px;color:#94a3b8;">Í com acento (formas verbais)</td><td style="padding:7px 9px;color:#cbd5e1;">saía (sa-í-a), dizia (di-zi-a), vivia</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ie (hiato)</td><td style="padding:7px 9px;color:#94a3b8;">I tônico antes de E</td><td style="padding:7px 9px;color:#cbd5e1;">fiel (fi-el), piedade (pi-e-da-de)</td></tr>
+  </tbody>
+</table>
+
+<h3>5. Hiato com I e U Sem Acento — Regras Visuais</h3>
+<p>Quando I ou U não têm acento escrito, use as pistas estruturais:</p>
+
+<p><strong>Regra A — I ou U antes de consoante no final da palavra:</strong></p>
+<div class="exemplo-box">
+  I ou U antes de consoante que <u>fecha</u> a última sílaba → I/U é tônico → hiato com a vogal anterior.<br><br>
+  <em>raiz</em>  → ra | iz  → I antes de Z final → hiato<br>
+  <em>ruim</em>  → ru | im  → I antes de M final → hiato<br>
+  <em>cariz</em> → ca | riz → I antes de Z final → hiato<br><br>
+  Compare — sem hiato:<br>
+  <em>fui</em>   → F+U+I → I é semivogal (ditongo UI) → sem hiato<br>
+  <em>azuis</em> → a-<strong>zuis</strong> → UI = ditongo → sem hiato
+</div>
+
+<p><strong>Regra B — I ou U antes de NH (com vogal imediatamente anterior):</strong></p>
+<div class="exemplo-box">
+  Quando I aparece entre uma vogal e o dígrafo NH, o NH vai para a próxima sílaba,<br>
+  deixando o I como vogal isolada → hiato entre a vogal anterior e o I.<br><br>
+  <em>rainha</em>  → ra | <strong>i</strong> | nha  → hiato: A e I em sílabas distintas<br>
+  <em>tainha</em>  → ta | <strong>i</strong> | nha  → hiato: A e I em sílabas distintas<br>
+  <em>moinho</em>  → mo | <strong>i</strong> | nho  → hiato: O e I em sílabas distintas<br><br>
+  <strong>Compare — I sem hiato antes de NH:</strong><br>
+  <em>minha</em>  → mi | nha  → I é a única vogal de "mi" (sem vogal antes) → sem hiato<br>
+  <em>tinha</em>  → ti | nha  → I é a única vogal de "ti" → sem hiato<br>
+  <em>vinha</em>  → vi | nha  → I é a única vogal de "vi" → sem hiato<br><br>
+  <strong>Distinção visual:</strong> hiato ocorre quando há vogal <u>antes</u> do I que precede NH.<br>
+  ra-<strong>i</strong>-nha: A precede o I → hiato.<br>
+  m-<strong>i</strong>-nha: consoante precede o I (sem vogal antes) → sem hiato.
+</div>
+
+<p><strong>Regra C — IA e IE: tônico vs. átono pela posição silábica:</strong></p>
+<div class="exemplo-box">
+  Localize a sílaba tônica da palavra. Se ela recai <u>sobre o I</u> → hiato. Se recai <u>antes do I</u> → ditongo crescente.<br><br>
+  <em>glória</em>   → <strong>GLÓ</strong>-ria  → tônica antes do I → I átono → <strong>ditongo crescente</strong><br>
+  <em>história</em> → his-<strong>TÓ</strong>-ria → tônica antes do I → I átono → <strong>ditongo crescente</strong><br>
+  <em>poesia</em>   → po-e-<strong>SI</strong>-a  → tônica sobre I  → I tônico → <strong>hiato</strong>: si | a<br>
+  <em>alegria</em>  → a-le-<strong>GRI</strong>-a → tônica sobre I  → I tônico → <strong>hiato</strong>: gri | a<br>
+  <em>companhia</em>→ com-pa-<strong>NHI</strong>-a → tônica sobre I → I tônico → <strong>hiato</strong>
+</div>
+
+<h3>6. Prefixos que Formam Hiatos</h3>
+<p>Quando um prefixo termina em vogal e a raiz começa com vogal, as duas ficam em sílabas distintas — <strong>hiato na fronteira do prefixo</strong>.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Prefixo</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Hiato</th>
+      <th style="padding:7px 9px;border-bottom:2px solid #334155;">Exemplos escritos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">anti-</td><td style="padding:7px 9px;color:#f9a8d4;">i + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">anti-inflamatório (i|i), anti-aéreo (i|a), anti-ácido (i|á)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">co-</td><td style="padding:7px 9px;color:#f9a8d4;">o + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">co-ordenar (o|o), co-autor (o|a), co-editar (o|e)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">contra-</td><td style="padding:7px 9px;color:#f9a8d4;">a + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">contra-ataque (a|a), contra-ofensiva (a|o), contra-argumento</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">extra-</td><td style="padding:7px 9px;color:#f9a8d4;">a + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">extra-oficial (a|o), extra-escolar (a|e)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">pré- / pre-</td><td style="padding:7px 9px;color:#f9a8d4;">e + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">pré-escolar (é|e), pré-aquecimento (é|a), pré-operatório (é|o)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">pro-</td><td style="padding:7px 9px;color:#f9a8d4;">o + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">pro-ativo (o|a), pro-europeu (o|e), pro-americano (o|a)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">re-</td><td style="padding:7px 9px;color:#f9a8d4;">e + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">re-eleger (e|e), re-abrir (e|a), re-escrever (e|e), re-organizar (e|o)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">semi-</td><td style="padding:7px 9px;color:#f9a8d4;">i + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">semi-árido (i|á), semi-aberto (i|a), semi-esférico (i|e)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">auto-</td><td style="padding:7px 9px;color:#f9a8d4;">o + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">auto-escola (o|e), auto-avaliação (o|a), auto-imune (o|i)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">bi-</td><td style="padding:7px 9px;color:#f9a8d4;">i + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">bi-anual (i|a), bi-esportivo (i|e), bi-isento (i|i)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">micro-</td><td style="padding:7px 9px;color:#f9a8d4;">o + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">micro-ondas (o|o), micro-empresa (o|e), micro-organismo (o|o)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">sobre-</td><td style="padding:7px 9px;color:#f9a8d4;">e + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">sobre-humano (e|u), sobre-aviso (e|a), sobre-escrito (e|e)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">neo-</td><td style="padding:7px 9px;color:#f9a8d4;">o + vogal</td><td style="padding:7px 9px;color:#cbd5e1;">neo-estoicismo (o|e), neo-ortodoxo (o|o)</td></tr>
+  </tbody>
+</table>
 
 <div class="dica-box">
-  <div class="dica-title">Dicas para prova</div>
+  <div class="dica-title">Resumo para fixar</div>
   <ul>
-    <li><em>i</em> e <em>u</em> tônicos após vogal = hiato (regra mais cobrada em provas).</li>
-    <li>Duas vogais iguais em sequência formam sempre hiato: <em>voo</em>, <em>aa</em>.</li>
-    <li>Atenção ao "poeira": o <em>oe</em> é hiato, mas o <em>ei</em> seguinte é ditongo.</li>
-    <li>Questões pedem: "quantas sílabas?" — conte os hiatos como sílabas separadas.</li>
-    <li>Não confunda dígrafo <em>nh</em>/<em>lh</em>/<em>ch</em> (1 fonema) com hiato: "manha" tem <em>a</em>+<em>nha</em>, não hiato.</li>
+    <li><strong>Acento sobre í ou ú</strong> → sempre hiato, sem exceção: saúde, juízo, baú, país.</li>
+    <li><strong>Vogais iguais</strong> (oo, aa, ee) → sempre hiato: voo, caatinga, leem.</li>
+    <li><strong>O e A</strong> nunca são semivogais: OA e OE são sempre hiatos.</li>
+    <li><strong>AO sem til</strong> dentro de palavra = hiato (caos, aorta). Com til (ão) = ditongo nasal.</li>
+    <li><strong>IA e IE</strong>: hiato quando I é tônico (poesia, fiel); ditongo crescente quando I é átono (glória, série).</li>
+    <li><strong>I antes de NH com vogal anterior</strong> → hiato: rainha (ra|i|nha) ≠ minha (sem hiato).</li>
+    <li><strong>AI, EI, OI, AU</strong>: ditongos. Viram hiato só com acento no I/U: aí, baú.</li>
+    <li><strong>Prefixos</strong>: vogal final do prefixo + vogal inicial da raiz = sempre hiato na fronteira.</li>
   </ul>
 </div>`,
     questoes: [
-      { enunciado: 'O que é um <strong>hiato</strong>?', opcoes: ["Duas consoantes juntas na mesma sílaba","Duas vogais seguidas pronunciadas em sílabas diferentes","Uma vogal e uma semivogal na mesma sílaba","Uma consoante que não é pronunciada"], correta: 1, explicacao: 'Hiato = duas vogais em sílabas distintas.' },
-      { enunciado: 'Em qual palavra ocorre <strong>hiato</strong>?', opcoes: ["leite","saúde","ouro","herói"], correta: 1, explicacao: '"Saúde": sa-ú-de. As vogais <em>a</em> e <em>ú</em> estão em sílabas distintas.' },
-      { enunciado: 'Assinale a palavra que NÃO apresenta hiato.', opcoes: ["poesia","voo","rainha","cruel"], correta: 2, explicacao: '"Rainha": ra-i-nha — o <em>nh</em> é dígrafo; há hiato entre <em>a</em> e <em>i</em>. Aguarde: "rainha" SIM tem hiato. A palavra SEM hiato é "rainha" não... Releitura: "poesia" (po-e-si-a), "voo" (vo-o), "cruel" (cru-el) têm hiatos. "Rainha" também tem hiato (ra-i-nha). Nenhuma é sem hiato — questão de múltipla escolha: a menos óbvia é "rainha" pois o dígrafo pode confundir.' },
-      { enunciado: 'Em "coordenar", quantas sílabas há?', opcoes: ["3","4","5","6"], correta: 1, explicacao: 'co-or-de-nar = 4 sílabas. O <em>oo</em> forma hiato.' },
-      { enunciado: 'Qual sequência apresenta <strong>apenas hiatos</strong>?', opcoes: ["saúde, poema, voo","leite, saudade, pau","série, quiosque, nação","mão, herói, fui"], correta: 0, explicacao: '"Saúde" (sa-ú-de), "poema" (po-e-ma), "voo" (vo-o): todos hiatos.' },
-      { enunciado: 'Em "ainda", as vogais <em>a</em> e <em>i</em>:', opcoes: ["Formam ditongo crescente","Formam ditongo decrescente","Formam hiato","Formam tritongo"], correta: 2, explicacao: '"Ainda" = a-in-da. O <em>a</em> e o <em>i</em> estão em sílabas diferentes → hiato.' },
-      { enunciado: 'A palavra "caatinga" tem quantas sílabas?', opcoes: ["3","4","5","2"], correta: 1, explicacao: 'ca-a-tin-ga = 4 sílabas. O <em>aa</em> é hiato.' },
-      { enunciado: 'Em qual alternativa o encontro vocálico é um <strong>hiato</strong>?', opcoes: ["leite (ei)","saúde (aú)","herói (ói)","mão (ão)"], correta: 1, explicacao: 'Em "saúde", <em>a</em> e <em>ú</em> estão em sílabas diferentes (sa-ú-de) → hiato.' },
-      { enunciado: 'Qual é a separação silábica correta de "juízo"?', opcoes: ["ju-í-zo","juí-zo","j-uí-zo","ju-iz-o"], correta: 0, explicacao: 'ju-í-zo: <em>u</em> e <em>í</em> formam hiato.' },
-      { enunciado: 'Em "poeira", o encontro <em>oe</em> é:', opcoes: ["Ditongo crescente","Ditongo decrescente","Hiato","Tritongo"], correta: 2, explicacao: '"Poeira" = po-ei-ra. O <em>o</em> e o <em>e</em> estão em sílabas distintas (po | ei) → hiato.' }
+      { enunciado: 'Qual pista visual garante que há hiato — sem precisar analisar pronúncia?', opcoes: ["Duas consoantes seguidas","Acento escrito sobre I ou U (í, ú)","Presença do dígrafo NH","Letra M no final da palavra"], correta: 1, explicacao: 'Acento escrito sobre <em>í</em> ou <em>ú</em> indica que o I ou U é vogal tônica → nunca semivogal → sempre forma hiato com a vogal vizinha. Ex.: saúde (sa|ú|de), juízo (ju|í|zo).' },
+      { enunciado: 'Em qual das palavras o encontro vocálico é <strong>sempre hiato</strong> por serem vogais iguais?', opcoes: ["leite","herói","voo","mão"], correta: 2, explicacao: '<em>Voo</em> (vo-o): o+o são vogais iguais — nunca se fundem em uma sílaba → sempre hiato. Leite (ei = ditongo), herói (ói = ditongo), mão (ão = ditongo nasal).' },
+      { enunciado: '"Rainha" apresenta hiato. O que o indica <strong>pela escrita</strong>?', opcoes: ["O dígrafo NH forma um hiato","Há vogal A antes do I, e NH vai para a próxima sílaba, isolando o I","O I e o A estão em palavras diferentes","O NH é uma vogal que separa as sílabas"], correta: 1, explicacao: 'Em <em>rainha</em>: ra | i | nha. O A precede o I; o dígrafo NH inicia a sílaba seguinte, deixando o I isolado como vogal de sua própria sílaba → hiato entre A e I. Estrutura: ra | i | nha (3 sílabas).' },
+      { enunciado: 'Em qual das palavras o encontro <em>ia</em> é <strong>ditongo crescente</strong> (não hiato)?', opcoes: ["poesia","Maria","alegria","história"], correta: 3, explicacao: 'Em <em>história</em> → his-<strong>TÓ</strong>-ria: a sílaba tônica recai em TÓ, antes do I → I é átono → <em>ia</em> é ditongo crescente. Nas demais, o I é tônico → <em>ia</em> é hiato.' },
+      { enunciado: '"Aí" é hiato; "ai" é ditongo. A diferença está:', opcoes: ["No número de letras","No acento escrito sobre o I de aí, que o torna tônico","Na posição da palavra na frase","No fato de ai ser uma interjeição"], correta: 1, explicacao: '<em>Aí</em>: o acento escrito sobre Í indica que I é vogal tônica → hiato: a | í (2 sílabas). <em>Ai</em>: sem acento → I é semivogal → ditongo decrescente (1 sílaba).' },
+      { enunciado: 'A sequência <em>oe</em> em "poema" é hiato porque:', opcoes: ["O e E são vogais iguais","O nunca funciona como semivogal antes de E — ambos são vogais plenas","O E tem acento escrito","O dígrafo oe representa um único fonema"], correta: 1, explicacao: 'O (assim como A) nunca é semivogal em português. Em <em>poema</em>, O e E são ambos vogais plenas em sílabas distintas: po | e | ma (3 sílabas) → hiato.' },
+      { enunciado: 'Qual palavra contém hiato formado por <strong>prefixo + vogal inicial da raiz</strong>?', opcoes: ["leite","re-eleger","mãe","quiosque"], correta: 1, explicacao: '<em>Re-eleger</em>: o prefixo <em>re-</em> termina em E; a raiz começa com E → e | e = hiato na fronteira (le-e-ger ou re-e-le-ger). Cada morfema mantém sua sílaba → hiato obrigatório.' },
+      { enunciado: 'Em "caatinga", quantas sílabas há e por quê?', opcoes: ["3 sílabas — o aa forma um ditongo","4 sílabas — o aa forma hiato (vogais iguais)","3 sílabas — o aa é dígrafo","5 sílabas — cada letra é uma sílaba"], correta: 1, explicacao: '<em>Caatinga</em> = ca | a | tin | ga = <strong>4 sílabas</strong>. O encontro aa é hiato porque vogais iguais nunca se fundem em uma sílaba.' },
+      { enunciado: 'Em "minha" há hiato entre M e I?', opcoes: ["Sim — NH sempre cria hiato antes dele","Não — não há vogal antes do I; M é consoante, não vogal","Sim — I e NH formam hiato","Não — apenas quando há acento sobre o I"], correta: 1, explicacao: 'Em <em>minha</em> (mi-nha): o I não tem vogal antes dele (M é consoante). O hiato com NH só ocorre quando há vogal ANTERIOR ao I, como em <em>rainha</em> (ra | i | nha).' },
+      { enunciado: 'Qual alternativa apresenta apenas palavras com hiato?', opcoes: ["leite, herói, mão","voo, saúde, poema","série, glória, tênue","pai, leite, ouro"], correta: 1, explicacao: '<em>Voo</em> (vo-o = oo hiato), <em>saúde</em> (sa-ú-de = ú com acento), <em>poema</em> (po-e-ma = oe hiato). As demais contêm ditongos.' }
     ]
   },
   // ─────────────────────────────────────────
