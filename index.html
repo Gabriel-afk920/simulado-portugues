@@ -2909,24 +2909,34 @@ ir('screen-home');
 <script>
 (function() {
   if (typeof QUESTOES_BANCO === 'undefined') return;
-  // Cria temas novos se necessário
+
+  // ── 1. Funde tonicidade, crase e acentuacaoGrafica em silabasAcentuacao ──────
+  var sil = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
+  var ton = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
+  if (sil && ton) {
+    sil.nome   = 'Sílabas e Acentuação';
+    sil.desc   = 'Sílabas, tonicidade, acentuação gráfica e crase';
+    sil.teoria = sil.teoria + ton.teoria;
+    TEMAS.splice(TEMAS.indexOf(ton), 1);
+  }
+  ['crase', 'acentuacaoGrafica'].forEach(function(id) {
+    var idx = TEMAS.findIndex(function(t){ return t.id === id; });
+    if (idx > -1) TEMAS.splice(idx, 1);
+  });
+
+  // ── 2. Cria temas novos se necessário ────────────────────────────────────────
   for (var id in QUESTOES_BANCO.novosTemas) {
-    if (!TEMAS.find(function(t){return t.id===id;})) {
+    if (!TEMAS.find(function(t){ return t.id === id; })) {
       var m = QUESTOES_BANCO.novosTemas[id];
       TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, teoria: '', questoes: [] });
     }
   }
-  // Injeta questões nos temas
+
+  // ── 3. Substitui todas as questões pelas questões de concurso do banco ───────
+  TEMAS.forEach(function(t) { t.questoes = []; });
   for (var temaId in QUESTOES_BANCO.questoes) {
-    var tema = TEMAS.find(function(t){return t.id===temaId;});
-    if (tema) {
-      var novas = QUESTOES_BANCO.questoes[temaId];
-      // Evita duplicatas pelo enunciado
-      var existentes = tema.questoes.map(function(q){return q.enunciado;});
-      novas.forEach(function(q) {
-        if (!existentes.includes(q.enunciado)) tema.questoes.push(q);
-      });
-    }
+    var tema = TEMAS.find(function(t){ return t.id === temaId; });
+    if (tema) tema.questoes = QUESTOES_BANCO.questoes[temaId];
   }
 })();
 </script>

@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 04/06/2026, 16:26:59 — 118 questões incluídas
+// 04/06/2026, 16:48:11 — 118 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -13,11 +13,6 @@ var QUESTOES_BANCO = {
       "icon": "🔄",
       "desc": "Palavras parecidas com sentidos distintos"
     },
-    "crase": {
-      "nome": "Crase",
-      "icon": "`",
-      "desc": "Uso do acento grave"
-    },
     "concordancia": {
       "nome": "Concordância",
       "icon": "🤝",
@@ -27,15 +22,10 @@ var QUESTOES_BANCO = {
       "nome": "Colocação Pronominal",
       "icon": "📍",
       "desc": "Posição dos pronomes oblíquos"
-    },
-    "acentuacaoGrafica": {
-      "nome": "Acentuação Gráfica",
-      "icon": "´",
-      "desc": "Regras de acentuação do português"
     }
   },
   questoes: {
-    "acentuacaoGrafica": [
+    "silabasAcentuacao": [
           {
                 "enunciado": "(CESPE/2023 - TRF) Julgue o item a seguir.\nO texto apresenta linguagem formal e objetiva,\nadequada ao contexto academico em que foi produzido.",
                 "opcoes": [
@@ -48,6 +38,38 @@ var QUESTOES_BANCO = {
                 "ano": 2023,
                 "assunto": "Interpretação de texto",
                 "tipo": "certo_errado"
+          },
+          {
+                "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
+                "opcoes": [
+                      "Antes de pronomes possessivos femininos, sempre.",
+                      "Antes de palavras masculinas, em qualquer caso.",
+                      "Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".",
+                      "Antes de verbos no infinitivo, sem exceção.",
+                      "Antes de pronomes pessoais do caso reto."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".</strong>. Fonte: FGV/2024. Assunto: Uso da Crase.",
+                "banca": "FGV",
+                "ano": 2024,
+                "assunto": "Uso da Crase",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
+                "opcoes": [
+                      "Antes de pronomes possessivos femininos, sempre.",
+                      "Antes de palavras masculinas, em qualquer caso.",
+                      "Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".",
+                      "Antes de verbos no infinitivo, sem exceção.",
+                      "Antes de pronomes pessoais do caso reto."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".</strong>. Fonte: FGV/2024. Assunto: Uso da Crase.",
+                "banca": "FGV",
+                "ano": 2024,
+                "assunto": "Uso da Crase",
+                "tipo": "multipla_escolha"
           },
           {
                 "enunciado": "Dentre as palavras, assinale aquela que tem acento gráfico indevido.",
@@ -65,6 +87,21 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha"
           },
           {
+                "enunciado": "Considerando a classificação de palavras, a estrutura dos vocábulos, as conjugações verbais e a acentuação das palavras, assinale a alternativa que apresenta uma análise INCORRETA.",
+                "opcoes": [
+                      "Na expressão desde 2021, presente na primeira frase do texto, o termo desde classifica-se como preposição.",
+                      "Os verbos projetar, fortalecer e atrair pertencem, respectivamente, à 1ª, 2ª e 3ª conjugações verbais.",
+                      "Na palavra mundo, o segmento sublinhado corresponde ao radical; já na palavra avançar, o segmento sublinhado corresponde à vogal temática.",
+                      "As palavras turística, atribuído e inteligência são todas classificadas como proparoxítonas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As palavras turística, atribuído e inteligência são todas classificadas como proparoxítonas.</strong>. Fonte: Instituto/2026. Assunto: Classificação de Palavras e Acentuação.",
+                "banca": "Instituto",
+                "ano": 2026,
+                "assunto": "Classificação de Palavras e Acentuação",
+                "tipo": "multipla_escolha"
+          },
+          {
                 "enunciado": "Em atividades escolares, é comum organizar palavras em listas para facilitar a consulta. Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:",
                 "opcoes": [
                       "Considera a divisão silábica das palavras, separando-as conforme a pronúncia.",
@@ -77,6 +114,21 @@ var QUESTOES_BANCO = {
                 "banca": "Gama",
                 "ano": 2026,
                 "assunto": "Organização de Palavras em Listas",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "No âmbito das regras de acentuação da Língua Portuguesa, das palavras a seguir, qual delas NÃO é acentuada por ser proparoxítona?",
+                "opcoes": [
+                      "Currículo.",
+                      "Prática.",
+                      "Saúde.",
+                      "Ética."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ética.</strong>. Fonte: LEGALLE/2026. Assunto: **Proparoxítonas**.",
+                "banca": "LEGALLE",
+                "ano": 2026,
+                "assunto": "**Proparoxítonas**",
                 "tipo": "multipla_escolha"
           },
           {
@@ -112,6 +164,52 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha"
           },
           {
+                "enunciado": "Avalie as partes que seguem sobre as palavras reciclagem, água e hídrico, retiradas do texto: A palavra reciclagem separa-se silabicamente como RE - CI - CLA - GEM e possui a penúltima sílaba como a mais forte na pronúncia (1ª parte). O vocábulo água separa-se como A - GUA e é classificado pelas regras de acentuação como uma palavra oxítona (2ª parte). O termo hídrico recebe acento gráfico de forma obrigatória por ter a sua antepenúltima sílaba como a mais forte, classificando-se na gramática normativa como uma palavra proparoxítona (3ª parte). Acerca das partes, pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas a 1ª e a 2ª partes estão corretas.",
+                      "Todas as partes estão incorretas.",
+                      "Apenas a 1ª e a 3ª partes estão corretas.",
+                      "Apenas a 2ª e a 3ª partes estão corretas.",
+                      "Todas as partes estão corretas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas a 1ª e a 2ª partes estão corretas.</strong>. Fonte: Instituto/2026. Assunto: Acentuação Gráfica.",
+                "banca": "Instituto",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "São palavras paroxítonas, EXCETO:",
+                "opcoes": [
+                      "Ensaísta – roteirista.",
+                      "Diversa – repleta.",
+                      "Festivais – primavera.",
+                      "Gêneros – prolífico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Gêneros – prolífico.</strong>. Fonte: FUNDATEC/2026. Assunto: **Palavras Paroxítonas**.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "**Palavras Paroxítonas**",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação gráfica da Língua Portuguesa, especialmente no que se refere à classificação das palavras quanto à tonicidade e à posição da sílaba tônica, assinale a alternativa em que todos os vocábulos apresentados são acentuados em virtude da mesma regra.",
+                "opcoes": [
+                      "Econômica – lógica – hipóteses.",
+                      "Instituída – municípios – público.",
+                      "Políticas – estratégias – atribuída.",
+                      "Déficits – também – transparência."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Econômica – lógica – hipóteses.</strong>. Fonte: LEGALLE/2026. Assunto: Regras de Acentuação Gráfica.",
+                "banca": "LEGALLE",
+                "ano": 2026,
+                "assunto": "Regras de Acentuação Gráfica",
+                "tipo": "multipla_escolha"
+          },
+          {
                 "enunciado": "Considerando as normas de acentuação gráfica da Língua Portuguesa e as palavras empregadas no texto, assinale a alternativa em que o par de vocábulos é acentuado com base na mesma regra.",
                 "opcoes": [
                       "agrícolas – políticos.",
@@ -139,6 +237,21 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Considere as palavras a seguir, retiradas do texto, e analise-as quanto à posição da sílaba tônica: I. Nível. II. Térmico. III. Eletrodomésticos. IV. Energético. Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
+                "opcoes": [
+                      "Apenas duas delas.",
+                      "Apenas três delas.",
+                      "Apenas uma delas.",
+                      "Todas as quatro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas uma delas.</strong>. Fonte: IESES/2026. Assunto: Acentuação Gráfica.",
+                "banca": "IESES",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha"
           },
           {
@@ -173,6 +286,37 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha"
           },
           {
+                "enunciado": "A acentuação gráfica de palavras obedece a regras específicas da norma-padrão. Nesse sentido, é INCORRETO afirmar que:",
+                "opcoes": [
+                      "rótulos recebe acento por ser uma proparoxítona.",
+                      "música recebe acento por ser uma proparoxítona.",
+                      "compreensível recebe acento por ser uma paroxítona terminada em L.",
+                      "cafuné recebe acento por ser uma paroxítona terminada em E."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>música recebe acento por ser uma proparoxítona.</strong>. Fonte: Instituto/2026. Assunto: Acentuação Gráfica.",
+                "banca": "Instituto",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "São palavras proparoxítonas retiradas do texto, EXCETO:",
+                "opcoes": [
+                      "Árvores.",
+                      "Estômatos.",
+                      "Botânicos.",
+                      "Janelas.",
+                      "Bétula."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Janelas.</strong>. Fonte: FUNDATEC/2026. Assunto: **Palavras Proparoxítonas**.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "**Palavras Proparoxítonas**",
+                "tipo": "multipla_escolha"
+          },
+          {
                 "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
                 "opcoes": [
                       "Eu tinha uma ideia muito diferente sobre o hábito de exagero na alimentação.",
@@ -204,6 +348,37 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha"
           },
           {
+                "enunciado": "\"Quando eu era criança, havia um médico para tudo e para todos, que minha mãe chamava quando eu tinha febre ou quando meu pai sentiu as primeiras dores na vesícula.\" Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica. Em seguida, identifique, entre os vocábulos das alternativas a seguir, aqueles que devem receber acento pela mesma regra. I. Estereotipo, veiculo e cheiissimo. II. Pudico, vitima e transito. III. Avaro, sarcofago e ridiculo. IV. Caracteres, prototipo e quadruplo. Após análise, identifique a alternativa que apresenta apenas as palavras que deverão ser acentuadas pela mesma regra das apresentadas no comando da questão.",
+                "opcoes": [
+                      "II e IV, apenas.",
+                      "I e IV, apenas.",
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I, II, III e IV estão incorretas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:",
+                "opcoes": [
+                      "A classificação das palavras depende da quantidade de letras presentes.",
+                      "As palavras oxítonas apresentam a sílaba tônica na última posição.",
+                      "A tonicidade é determinada apenas pelo uso de sinais gráficos.",
+                      "A posição da sílaba tônica varia conforme o tipo de frase."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>As palavras oxítonas apresentam a sílaba tônica na última posição.</strong>. Fonte: Gama/2026. Assunto: Sílaba Tônica e Acentuação.",
+                "banca": "Gama",
+                "ano": 2026,
+                "assunto": "Sílaba Tônica e Acentuação",
+                "tipo": "multipla_escolha"
+          },
+          {
                 "enunciado": "Considerando nas regras de acentuação dos vocábulos presentes no trecho e no texto-base, marque (V), para as afirmativas verdadeiras, ou (F), para as falsas:",
                 "opcoes": [
                       "F, F, V, V.",
@@ -218,6 +393,21 @@ var QUESTOES_BANCO = {
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
                 "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.",
+                "opcoes": [
+                      "Regra da proparoxítona – científica e prática.",
+                      "Regra da proparoxítona – fotocópia e média.",
+                      "Regra da paroxítona – produção e idêntico.",
+                      "Regra da oxítona – civilização e francês."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Regra da proparoxítona – científica e prática.</strong>. Fonte: FUNDATEC/2026. Assunto: .",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": null,
+                "tipo": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação, analise as afirmativas a seguir e marque com V, as afirmativas verdadeiras, ou com F, as falsas.",
@@ -263,6 +453,36 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Acentuação e Morfologia",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "No trecho ‘o mundo está difícil para todo mundo’, a palavra destacada recebe acento gráfico porque é:",
+                "opcoes": [
+                      "oxítona terminada em ‘L’.",
+                      "paroxítona terminada em ‘L’.",
+                      "monossílabo tônico terminado em ‘IL’.",
+                      "proparoxítona terminada em consoante."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>oxítona terminada em ‘L’.</strong>. Fonte: Instituto Fênix/2026. Assunto: Acentuação Gráfica.",
+                "banca": "Instituto Fênix",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
+                "opcoes": [
+                      "Apenas duas delas.",
+                      "Apenas três delas.",
+                      "Apenas uma delas.",
+                      "Todas as quatro."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas três delas.</strong>. Fonte: IESES/2026. Assunto: Acentuação Gráfica.",
+                "banca": "IESES",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha"
           },
           {
@@ -343,6 +563,22 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica.",
+                "opcoes": [
+                      "II e IV, apenas.",
+                      "I e IV, apenas.",
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I, II, III e IV estão incorretas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha"
           }
     ],
@@ -577,40 +813,6 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha"
           }
     ],
-    "crase": [
-          {
-                "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
-                "opcoes": [
-                      "Antes de pronomes possessivos femininos, sempre.",
-                      "Antes de palavras masculinas, em qualquer caso.",
-                      "Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".",
-                      "Antes de verbos no infinitivo, sem exceção.",
-                      "Antes de pronomes pessoais do caso reto."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".</strong>. Fonte: FGV/2024. Assunto: Uso da Crase.",
-                "banca": "FGV",
-                "ano": 2024,
-                "assunto": "Uso da Crase",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
-                "opcoes": [
-                      "Antes de pronomes possessivos femininos, sempre.",
-                      "Antes de palavras masculinas, em qualquer caso.",
-                      "Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".",
-                      "Antes de verbos no infinitivo, sem exceção.",
-                      "Antes de pronomes pessoais do caso reto."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Antes de substantivos femininos precedidos de preposição \"a\" e artigo \"a\".</strong>. Fonte: FGV/2024. Assunto: Uso da Crase.",
-                "banca": "FGV",
-                "ano": 2024,
-                "assunto": "Uso da Crase",
-                "tipo": "multipla_escolha"
-          }
-    ],
     "colocacaoPronominal": [
           {
                 "enunciado": "\"A colocação pronominal em língua portuguesa envolve regras específicas que determinam a posição dos pronomes oblíquos átonos em relação ao verbo.\" Com base no texto, assinale a alternativa correta sobre colocação pronominal.",
@@ -644,6 +846,21 @@ var QUESTOES_BANCO = {
                 "banca": "FCC",
                 "ano": 2022,
                 "assunto": "Concordância Verbal",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "A escrita correta das palavras envolve o uso adequado dos acentos gráficos. Considerando as regras da língua portuguesa, é correto afirmar que:",
+                "opcoes": [
+                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
+                      "A divisão silábica permite identificar o número de sílabas das palavras.",
+                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
+                      "A concordância verbal estabelece relação entre sujeito e verbo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.</strong>. Fonte: Gama/2026. Assunto: **Acentuação Gráfica**.",
+                "banca": "Gama",
+                "ano": 2026,
+                "assunto": "**Acentuação Gráfica**",
                 "tipo": "multipla_escolha"
           },
           {
@@ -692,6 +909,21 @@ var QUESTOES_BANCO = {
                 "ano": 2026,
                 "assunto": "Concordância Verbal",
                 "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Considerando as regras da língua portuguesa, é correto afirmar que:",
+                "opcoes": [
+                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
+                      "A divisão silábica permite identificar o número de sílabas das palavras.",
+                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
+                      "A concordância verbal estabelece relação entre sujeito e verbo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O uso de sinais de pontuação organiza as ideias dentro de um texto.</strong>. Fonte: Gama Consult/2026. Assunto: .",
+                "banca": "Gama Consult",
+                "ano": 2026,
+                "assunto": null,
+                "tipo": null
           },
           {
                 "enunciado": "Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:",
@@ -784,284 +1016,6 @@ var QUESTOES_BANCO = {
                 "ano": null,
                 "assunto": "Acentuação Gráfica",
                 "tipo": "certo_errado"
-          }
-    ],
-    "silabasAcentuacao": [
-          {
-                "enunciado": "Considerando a classificação de palavras, a estrutura dos vocábulos, as conjugações verbais e a acentuação das palavras, assinale a alternativa que apresenta uma análise INCORRETA.",
-                "opcoes": [
-                      "Na expressão desde 2021, presente na primeira frase do texto, o termo desde classifica-se como preposição.",
-                      "Os verbos projetar, fortalecer e atrair pertencem, respectivamente, à 1ª, 2ª e 3ª conjugações verbais.",
-                      "Na palavra mundo, o segmento sublinhado corresponde ao radical; já na palavra avançar, o segmento sublinhado corresponde à vogal temática.",
-                      "As palavras turística, atribuído e inteligência são todas classificadas como proparoxítonas."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>As palavras turística, atribuído e inteligência são todas classificadas como proparoxítonas.</strong>. Fonte: Instituto/2026. Assunto: Classificação de Palavras e Acentuação.",
-                "banca": "Instituto",
-                "ano": 2026,
-                "assunto": "Classificação de Palavras e Acentuação",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "A escrita correta das palavras envolve o uso adequado dos acentos gráficos. Considerando as regras da língua portuguesa, é correto afirmar que:",
-                "opcoes": [
-                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
-                      "A divisão silábica permite identificar o número de sílabas das palavras.",
-                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
-                      "A concordância verbal estabelece relação entre sujeito e verbo."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.</strong>. Fonte: Gama/2026. Assunto: **Acentuação Gráfica**.",
-                "banca": "Gama",
-                "ano": 2026,
-                "assunto": "**Acentuação Gráfica**",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "No âmbito das regras de acentuação da Língua Portuguesa, das palavras a seguir, qual delas NÃO é acentuada por ser proparoxítona?",
-                "opcoes": [
-                      "Currículo.",
-                      "Prática.",
-                      "Saúde.",
-                      "Ética."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Ética.</strong>. Fonte: LEGALLE/2026. Assunto: **Proparoxítonas**.",
-                "banca": "LEGALLE",
-                "ano": 2026,
-                "assunto": "**Proparoxítonas**",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Avalie as partes que seguem sobre as palavras reciclagem, água e hídrico, retiradas do texto: A palavra reciclagem separa-se silabicamente como RE - CI - CLA - GEM e possui a penúltima sílaba como a mais forte na pronúncia (1ª parte). O vocábulo água separa-se como A - GUA e é classificado pelas regras de acentuação como uma palavra oxítona (2ª parte). O termo hídrico recebe acento gráfico de forma obrigatória por ter a sua antepenúltima sílaba como a mais forte, classificando-se na gramática normativa como uma palavra proparoxítona (3ª parte). Acerca das partes, pode-se afirmar que:",
-                "opcoes": [
-                      "Apenas a 1ª e a 2ª partes estão corretas.",
-                      "Todas as partes estão incorretas.",
-                      "Apenas a 1ª e a 3ª partes estão corretas.",
-                      "Apenas a 2ª e a 3ª partes estão corretas.",
-                      "Todas as partes estão corretas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Apenas a 1ª e a 2ª partes estão corretas.</strong>. Fonte: Instituto/2026. Assunto: Acentuação Gráfica.",
-                "banca": "Instituto",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "São palavras paroxítonas, EXCETO:",
-                "opcoes": [
-                      "Ensaísta – roteirista.",
-                      "Diversa – repleta.",
-                      "Festivais – primavera.",
-                      "Gêneros – prolífico."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Gêneros – prolífico.</strong>. Fonte: FUNDATEC/2026. Assunto: **Palavras Paroxítonas**.",
-                "banca": "FUNDATEC",
-                "ano": 2026,
-                "assunto": "**Palavras Paroxítonas**",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Considerando as regras de acentuação gráfica da Língua Portuguesa, especialmente no que se refere à classificação das palavras quanto à tonicidade e à posição da sílaba tônica, assinale a alternativa em que todos os vocábulos apresentados são acentuados em virtude da mesma regra.",
-                "opcoes": [
-                      "Econômica – lógica – hipóteses.",
-                      "Instituída – municípios – público.",
-                      "Políticas – estratégias – atribuída.",
-                      "Déficits – também – transparência."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Econômica – lógica – hipóteses.</strong>. Fonte: LEGALLE/2026. Assunto: Regras de Acentuação Gráfica.",
-                "banca": "LEGALLE",
-                "ano": 2026,
-                "assunto": "Regras de Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Considere as palavras a seguir, retiradas do texto, e analise-as quanto à posição da sílaba tônica: I. Nível. II. Térmico. III. Eletrodomésticos. IV. Energético. Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
-                "opcoes": [
-                      "Apenas duas delas.",
-                      "Apenas três delas.",
-                      "Apenas uma delas.",
-                      "Todas as quatro."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas uma delas.</strong>. Fonte: IESES/2026. Assunto: Acentuação Gráfica.",
-                "banca": "IESES",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "A acentuação gráfica de palavras obedece a regras específicas da norma-padrão. Nesse sentido, é INCORRETO afirmar que:",
-                "opcoes": [
-                      "rótulos recebe acento por ser uma proparoxítona.",
-                      "música recebe acento por ser uma proparoxítona.",
-                      "compreensível recebe acento por ser uma paroxítona terminada em L.",
-                      "cafuné recebe acento por ser uma paroxítona terminada em E."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>música recebe acento por ser uma proparoxítona.</strong>. Fonte: Instituto/2026. Assunto: Acentuação Gráfica.",
-                "banca": "Instituto",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "São palavras proparoxítonas retiradas do texto, EXCETO:",
-                "opcoes": [
-                      "Árvores.",
-                      "Estômatos.",
-                      "Botânicos.",
-                      "Janelas.",
-                      "Bétula."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Janelas.</strong>. Fonte: FUNDATEC/2026. Assunto: **Palavras Proparoxítonas**.",
-                "banca": "FUNDATEC",
-                "ano": 2026,
-                "assunto": "**Palavras Proparoxítonas**",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Leia o fragmento abaixo de um edital de concurso público: \"5.2.1. A inscrição do candidato implicará o conhecimento e a tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não poderá alegar desconhecimento.\" Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
-                "opcoes": [
-                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
-                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
-                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
-                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
-                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ/2026. Assunto: Concorrência Pública.",
-                "banca": "INAZ",
-                "ano": 2026,
-                "assunto": "Concorrência Pública",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "\"Quando eu era criança, havia um médico para tudo e para todos, que minha mãe chamava quando eu tinha febre ou quando meu pai sentiu as primeiras dores na vesícula.\" Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica. Em seguida, identifique, entre os vocábulos das alternativas a seguir, aqueles que devem receber acento pela mesma regra. I. Estereotipo, veiculo e cheiissimo. II. Pudico, vitima e transito. III. Avaro, sarcofago e ridiculo. IV. Caracteres, prototipo e quadruplo. Após análise, identifique a alternativa que apresenta apenas as palavras que deverão ser acentuadas pela mesma regra das apresentadas no comando da questão.",
-                "opcoes": [
-                      "II e IV, apenas.",
-                      "I e IV, apenas.",
-                      "I, apenas.",
-                      "I e II, apenas.",
-                      "I, II, III e IV estão incorretas."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
-                "banca": "IGEDUC",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:",
-                "opcoes": [
-                      "A classificação das palavras depende da quantidade de letras presentes.",
-                      "As palavras oxítonas apresentam a sílaba tônica na última posição.",
-                      "A tonicidade é determinada apenas pelo uso de sinais gráficos.",
-                      "A posição da sílaba tônica varia conforme o tipo de frase."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>As palavras oxítonas apresentam a sílaba tônica na última posição.</strong>. Fonte: Gama/2026. Assunto: Sílaba Tônica e Acentuação.",
-                "banca": "Gama",
-                "ano": 2026,
-                "assunto": "Sílaba Tônica e Acentuação",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.",
-                "opcoes": [
-                      "Regra da proparoxítona – científica e prática.",
-                      "Regra da proparoxítona – fotocópia e média.",
-                      "Regra da paroxítona – produção e idêntico.",
-                      "Regra da oxítona – civilização e francês."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Regra da proparoxítona – científica e prática.</strong>. Fonte: FUNDATEC/2026. Assunto: .",
-                "banca": "FUNDATEC",
-                "ano": 2026,
-                "assunto": null,
-                "tipo": null
-          },
-          {
-                "enunciado": "No trecho ‘o mundo está difícil para todo mundo’, a palavra destacada recebe acento gráfico porque é:",
-                "opcoes": [
-                      "oxítona terminada em ‘L’.",
-                      "paroxítona terminada em ‘L’.",
-                      "monossílabo tônico terminado em ‘IL’.",
-                      "proparoxítona terminada em consoante."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>oxítona terminada em ‘L’.</strong>. Fonte: Instituto Fênix/2026. Assunto: Acentuação Gráfica.",
-                "banca": "Instituto Fênix",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Considerando as regras da língua portuguesa, é correto afirmar que:",
-                "opcoes": [
-                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
-                      "A divisão silábica permite identificar o número de sílabas das palavras.",
-                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
-                      "A concordância verbal estabelece relação entre sujeito e verbo."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>O uso de sinais de pontuação organiza as ideias dentro de um texto.</strong>. Fonte: Gama Consult/2026. Assunto: .",
-                "banca": "Gama Consult",
-                "ano": 2026,
-                "assunto": null,
-                "tipo": null
-          },
-          {
-                "enunciado": "Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
-                "opcoes": [
-                      "Apenas duas delas.",
-                      "Apenas três delas.",
-                      "Apenas uma delas.",
-                      "Todas as quatro."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Apenas três delas.</strong>. Fonte: IESES/2026. Assunto: Acentuação Gráfica.",
-                "banca": "IESES",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
-                "opcoes": [
-                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
-                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
-                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
-                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
-                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ do Pará/2026. Assunto: Acentuação Gráfica.",
-                "banca": "INAZ do Pará",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
-          },
-          {
-                "enunciado": "Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica.",
-                "opcoes": [
-                      "II e IV, apenas.",
-                      "I e IV, apenas.",
-                      "I, apenas.",
-                      "I e II, apenas.",
-                      "I, II, III e IV estão incorretas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
-                "banca": "IGEDUC",
-                "ano": 2026,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
           }
     ],
     "hifen": [
@@ -1233,6 +1187,22 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Vocábulos compostos",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "\"Nos métodos convencionais, o tingimento envolve pré-tratamento do tecido, aplicação de corantes, fixação a vapor e sucessivos ciclos de lavagem para remoção de resíduos.\" O uso do hífen em palavras formadas pelo prefixo 'pre', como em 'pré-tratamento', depende de algumas circunstâncias relacionadas à tonicidade. Com base nisso, analise a afirmativa sobre a grafia dessas palavras. I. O vocábulo 'preestabelecer' está grafado sem hífen corretamente. II. A forma 'pré-esclerose' está grafada com hífen corretamente. III. Os vocábulos 'predizer' e 'predeterminado' estão grafados sem hífen corretamente. IV. Os vocábulos 'pré-datado', 'pré-escolar' e 'pré-história' estão grafados corretamente com hífen. Em relação às afirmações, assinale a alternativa que contenha apenas as opções CORRETAS.",
+                "opcoes": [
+                      "I, II e IV, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II e III, apenas.",
+                      "III e IV, apenas.",
+                      "I, II, III e IV."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>III e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Grafia de Palavras com Prefixo 'Pre'.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Grafia de Palavras com Prefixo 'Pre'",
                 "tipo": "multipla_escolha"
           },
           {
@@ -1794,23 +1764,37 @@ var QUESTOES_BANCO = {
                 "ano": 2026,
                 "assunto": "Acentuação das Palavras",
                 "tipo": "multipla_escolha"
-          }
-    ],
-    "tonicidade": [
+          },
           {
-                "enunciado": "\"Nos métodos convencionais, o tingimento envolve pré-tratamento do tecido, aplicação de corantes, fixação a vapor e sucessivos ciclos de lavagem para remoção de resíduos.\" O uso do hífen em palavras formadas pelo prefixo 'pre', como em 'pré-tratamento', depende de algumas circunstâncias relacionadas à tonicidade. Com base nisso, analise a afirmativa sobre a grafia dessas palavras. I. O vocábulo 'preestabelecer' está grafado sem hífen corretamente. II. A forma 'pré-esclerose' está grafada com hífen corretamente. III. Os vocábulos 'predizer' e 'predeterminado' estão grafados sem hífen corretamente. IV. Os vocábulos 'pré-datado', 'pré-escolar' e 'pré-história' estão grafados corretamente com hífen. Em relação às afirmações, assinale a alternativa que contenha apenas as opções CORRETAS.",
+                "enunciado": "Leia o fragmento abaixo de um edital de concurso público: \"5.2.1. A inscrição do candidato implicará o conhecimento e a tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não poderá alegar desconhecimento.\" Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
                 "opcoes": [
-                      "I, II e IV, apenas.",
-                      "I, III e IV, apenas.",
-                      "I, II e III, apenas.",
-                      "III e IV, apenas.",
-                      "I, II, III e IV."
+                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
+                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
+                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
+                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
+                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>III e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Grafia de Palavras com Prefixo 'Pre'.",
-                "banca": "IGEDUC",
+                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ/2026. Assunto: Concorrência Pública.",
+                "banca": "INAZ",
                 "ano": 2026,
-                "assunto": "Grafia de Palavras com Prefixo 'Pre'",
+                "assunto": "Concorrência Pública",
+                "tipo": "multipla_escolha"
+          },
+          {
+                "enunciado": "Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
+                "opcoes": [
+                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
+                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
+                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
+                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
+                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ do Pará/2026. Assunto: Acentuação Gráfica.",
+                "banca": "INAZ do Pará",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha"
           }
     ],
