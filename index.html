@@ -223,8 +223,6 @@
     .explanation-box.show { display: block; }
     .explanation-box strong { color: #e2e8f0; }
 
-    .btn-next { margin-top: 18px; display: none; }
-    .btn-next.show { display: block; }
 
     /* ── RESULTADO ── */
     #screen-result { display: none; text-align: center; }
@@ -336,7 +334,10 @@
   <div id="screen-quiz">
     <div class="quiz-header">
       <span class="progress-info" id="progress-info">Questão 1 de 10</span>
-      <div class="timer-box" id="timer-box">30</div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div class="timer-box" id="timer-box">30</div>
+        <button id="btn-desistir" style="background:none;border:1px solid #ef4444;color:#ef4444;border-radius:6px;padding:5px 12px;cursor:pointer;font-size:0.8rem;font-weight:600;">✕ Desistir</button>
+      </div>
     </div>
     <div class="progress-bar-wrap">
       <div class="progress-bar-fill" id="progress-bar"></div>
@@ -345,7 +346,11 @@
     <div class="question-text" id="question-text"></div>
     <ul class="options-list" id="options-list"></ul>
     <div class="explanation-box" id="explanation-box"></div>
-    <button class="btn btn-primary btn-next" id="btn-next">Próxima questão →</button>
+    <div style="display:flex;gap:10px;margin-top:18px;">
+      <button class="btn btn-secondary" id="btn-anterior" style="flex:1;display:none;">← Anterior</button>
+      <button class="btn btn-secondary" id="btn-pular"    style="flex:1;">Pular →</button>
+      <button class="btn btn-primary"   id="btn-next"     style="flex:2;display:none;">Próxima questão →</button>
+    </div>
   </div>
 
   <!-- ════════════════════════════
@@ -2551,6 +2556,8 @@ let questoes      = [];
 let indiceAtual   = 0;
 let pontuacao     = 0;
 let respostas     = [];
+let respostasMap  = {};
+let shuffleMap    = {};
 let timerInterval = null;
 let tempoRestante = TEMPO;
 let respondeu     = false;
@@ -2660,67 +2667,99 @@ function shuffle(arr) {
 }
 
 function iniciarSimulado(tema) {
-  temaAtual   = tema;
-  questoes    = shuffle(tema.questoes);
-  indiceAtual = 0;
-  pontuacao   = 0;
-  respostas   = [];
+  temaAtual    = tema;
+  questoes     = shuffle(tema.questoes);
+  indiceAtual  = 0;
+  pontuacao    = 0;
+  respostas    = [];
+  respostasMap = {};   // { indice: { escolhida, acertou, shuffled } }
+  shuffleMap   = {};   // guarda a ordem das opções por questão
   ir('screen-quiz');
   renderQuestao();
 }
 
 function renderQuestao() {
-  respondeu     = false;
-  tempoRestante = TEMPO;
   clearInterval(timerInterval);
 
-  const q       = questoes[indiceAtual];
-  const total   = questoes.length;
-  const progPct = (indiceAtual / total) * 100;
+  const q         = questoes[indiceAtual];
+  const total     = questoes.length;
+  const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
+  respondeu       = jaResp;
 
   document.getElementById('progress-info').textContent = `Questão ${indiceAtual + 1} de ${total}`;
-  document.getElementById('progress-bar').style.width  = progPct + '%';
+  document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
 
   // Cabeçalho no formato de questão de concurso público
   let cabecalho = '';
   if (q.banca || q.ano) {
-    const partes = [q.banca, q.ano].filter(Boolean).join(' — ');
+    const partes  = [q.banca, q.ano].filter(Boolean).join(' — ');
     const assunto = q.assunto ? `<span class="concurso-assunto">${q.assunto}</span>` : '';
-    const tipo = q.tipo === 'certo_errado' ? '<span class="concurso-tipo">Certo ou Errado</span>' : '';
+    const tipo    = q.tipo === 'certo_errado' ? '<span class="concurso-tipo">Certo ou Errado</span>' : '';
     cabecalho = `<div class="concurso-header"><span class="concurso-banca">${partes}</span>${assunto}${tipo}</div>`;
   }
   document.getElementById('question-text').innerHTML = cabecalho + q.enunciado;
 
+  // Timer: só inicia se a questão ainda não foi respondida
   const timerEl = document.getElementById('timer-box');
-  timerEl.textContent = tempoRestante;
-  timerEl.className   = 'timer-box';
-
-  timerInterval = setInterval(() => {
-    tempoRestante--;
+  if (!jaResp) {
+    tempoRestante       = TEMPO;
     timerEl.textContent = tempoRestante;
-    if      (tempoRestante <= 10) timerEl.className = 'timer-box danger';
-    else if (tempoRestante <= 20) timerEl.className = 'timer-box warning';
-    if (tempoRestante <= 0) { clearInterval(timerInterval); registrarResposta(-1); }
-  }, 1000);
+    timerEl.className   = 'timer-box';
+    timerInterval = setInterval(() => {
+      tempoRestante--;
+      timerEl.textContent = tempoRestante;
+      if      (tempoRestante <= 10) timerEl.className = 'timer-box danger';
+      else if (tempoRestante <= 20) timerEl.className = 'timer-box warning';
+      if (tempoRestante <= 0) { clearInterval(timerInterval); registrarResposta(-1); }
+    }, 1000);
+  } else {
+    timerEl.textContent = '—';
+    timerEl.className   = 'timer-box';
+  }
 
-  const indices  = q.opcoes.map((_, i) => i);
-  const shuffled = shuffle(indices);
-  const letras   = ['A', 'B', 'C', 'D'];
+  // Ordem das opções: reutiliza se já foi gerada para esta questão
+  if (!shuffleMap[indiceAtual]) shuffleMap[indiceAtual] = shuffle(q.opcoes.map((_, i) => i));
+  const shuffled = shuffleMap[indiceAtual];
+  const letras   = ['A', 'B', 'C', 'D', 'E'];
 
   const lista = document.getElementById('options-list');
   lista.innerHTML = '';
   shuffled.forEach((origIdx, pos) => {
     const li = document.createElement('li');
-    li.className   = 'option-item';
+    li.className    = 'option-item';
     li.dataset.orig = origIdx;
-    li.innerHTML   = `<span class="option-letter">${letras[pos]}</span><span>${q.opcoes[origIdx]}</span>`;
-    li.addEventListener('click', () => { if (!respondeu) registrarResposta(origIdx); });
+    li.innerHTML    = `<span class="option-letter">${letras[pos]}</span><span>${q.opcoes[origIdx]}</span>`;
+    if (jaResp) {
+      li.classList.add('disabled');
+      const resp = respostasMap[indiceAtual];
+      if (origIdx === q.correta)                       li.classList.add('correct');
+      if (origIdx === resp.escolhida && !resp.acertou) li.classList.add('wrong');
+    } else {
+      li.addEventListener('click', () => { if (!respondeu) registrarResposta(origIdx); });
+    }
     lista.appendChild(li);
   });
 
-  document.getElementById('explanation-box').className = 'explanation-box';
-  document.getElementById('btn-next').className        = 'btn btn-primary btn-next';
+  // Explicação: mostra se já respondeu
+  const expBox = document.getElementById('explanation-box');
+  if (jaResp) {
+    const resp = respostasMap[indiceAtual];
+    expBox.innerHTML = `<strong>${resp.acertou ? '✔ Correto!' : resp.escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}`;
+    expBox.className = 'explanation-box show';
+  } else {
+    expBox.className = 'explanation-box';
+  }
+
+  // Botões de navegação
+  const btnAnterior = document.getElementById('btn-anterior');
+  const btnPular    = document.getElementById('btn-pular');
+  const btnNext     = document.getElementById('btn-next');
+
+  btnAnterior.style.display = indiceAtual > 0 ? '' : 'none';
+  btnPular.style.display    = jaResp ? 'none' : '';
+  btnNext.style.display     = jaResp ? '' : 'none';
+  btnNext.textContent       = indiceAtual + 1 < total ? 'Próxima questão →' : 'Ver resultado';
 }
 
 function registrarResposta(escolhida) {
@@ -2732,13 +2771,14 @@ function registrarResposta(escolhida) {
   const acertou = escolhida === q.correta;
   if (acertou) pontuacao++;
 
-  respostas.push({
-    correta: acertou, escolhida,
+  respostasMap[indiceAtual] = {
+    acertou, escolhida,
     corretaIdx: q.correta,
-    enunciado: q.enunciado,
-    opcoes: q.opcoes,
-    explicacao: q.explicacao
-  });
+    enunciado:  q.enunciado,
+    opcoes:     q.opcoes,
+    explicacao: q.explicacao,
+    banca:      q.banca, ano: q.ano
+  };
 
   document.querySelectorAll('.option-item').forEach(li => {
     li.classList.add('disabled');
@@ -2751,15 +2791,31 @@ function registrarResposta(escolhida) {
   expBox.innerHTML = `<strong>${acertou ? '✔ Correto!' : escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}`;
   expBox.classList.add('show');
 
+  document.getElementById('btn-pular').style.display = 'none';
   const btnNext = document.getElementById('btn-next');
   btnNext.textContent = indiceAtual + 1 < questoes.length ? 'Próxima questão →' : 'Ver resultado';
-  btnNext.classList.add('show');
+  btnNext.style.display = '';
 }
 
 document.getElementById('btn-next').addEventListener('click', () => {
   indiceAtual++;
   if (indiceAtual < questoes.length) renderQuestao();
   else mostrarResultado();
+});
+
+document.getElementById('btn-anterior').addEventListener('click', () => {
+  if (indiceAtual > 0) { indiceAtual--; renderQuestao(); }
+});
+
+document.getElementById('btn-pular').addEventListener('click', () => {
+  indiceAtual++;
+  if (indiceAtual < questoes.length) renderQuestao();
+  else mostrarResultado();
+});
+
+document.getElementById('btn-desistir').addEventListener('click', () => {
+  clearInterval(timerInterval);
+  ir('screen-quiz-topics');
 });
 
 // ══════════════════════════════════════════════════════════
@@ -2785,22 +2841,44 @@ function mostrarResultado() {
   document.getElementById('score-msg').textContent = msg;
   document.getElementById('score-sub').textContent = sub;
 
+  // Recalcula pontuação real (conta só as que foram respondidas corretamente)
+  let acertos = 0;
+  questoes.forEach((_, idx) => {
+    if (respostasMap[idx] && respostasMap[idx].acertou) acertos++;
+  });
+  document.getElementById('score-num').textContent = acertos;
+  const pctReal = Math.round((acertos / total) * 100);
+  let msgR, subR;
+  if      (pctReal === 100) { msgR = 'Perfeito!';            subR = 'Você acertou tudo. Domínio total do conteúdo!'; }
+  else if (pctReal >= 70)   { msgR = 'Muito bem!';           subR = `${pctReal}% de aproveitamento. Continue assim!`; }
+  else if (pctReal >= 50)   { msgR = 'Bom desempenho!';      subR = `${pctReal}% de aproveitamento. Revise os pontos errados.`; }
+  else                      { msgR = 'Continue praticando!'; subR = `${pctReal}% de aproveitamento. Estude a teoria e tente novamente.`; }
+  document.getElementById('score-msg').textContent = msgR;
+  document.getElementById('score-sub').textContent = subR;
+
   const reviewList = document.getElementById('review-list');
   reviewList.innerHTML = '';
-  respostas.forEach((r, i) => {
+  questoes.forEach((q, idx) => {
+    const r   = respostasMap[idx];
     const div = document.createElement('div');
-    div.className = `review-item ${r.correta ? 'acertou' : 'errou'}`;
-    const eq = r.enunciado.replace(/<[^>]+>/g, '');
-    const rt = r.escolhida === -1 ? '(tempo esgotado)' : r.opcoes[r.escolhida];
-    const ct = r.opcoes[r.corretaIdx];
-    div.innerHTML = `
-      <div class="ri-q">${i + 1}. ${eq}</div>
-      <div class="ri-resp">
-        ${r.correta
-          ? `<span class="ok">✔ ${ct}</span>`
-          : `<span class="err">✘ Sua resposta: ${rt}</span> &nbsp;|&nbsp; <span class="ok">Correta: ${ct}</span>`
-        }
-      </div>`;
+    if (!r) {
+      div.className = 'review-item errou';
+      const eq = q.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
+      div.innerHTML = `<div class="ri-q">${idx + 1}. ${eq}…</div><div class="ri-resp"><span class="err">⏭ Pulada</span></div>`;
+    } else {
+      div.className = `review-item ${r.acertou ? 'acertou' : 'errou'}`;
+      const eq = r.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
+      const rt = r.escolhida === -1 ? '(tempo esgotado)' : r.opcoes[r.escolhida];
+      const ct = r.opcoes[r.corretaIdx];
+      div.innerHTML = `
+        <div class="ri-q">${idx + 1}. ${eq}…</div>
+        <div class="ri-resp">
+          ${r.acertou
+            ? `<span class="ok">✔ ${ct}</span>`
+            : `<span class="err">✘ ${rt}</span> &nbsp;|&nbsp; <span class="ok">Correta: ${ct}</span>`
+          }
+        </div>`;
+    }
     reviewList.appendChild(div);
   });
 }
