@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 04/06/2026, 16:48:11 — 118 questões incluídas
+// 04/06/2026, 17:08:08 — 118 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -37,7 +37,8 @@ var QUESTOES_BANCO = {
                 "banca": "CESPE",
                 "ano": 2023,
                 "assunto": "Interpretação de texto",
-                "tipo": "certo_errado"
+                "tipo": "certo_errado",
+                "flashcard": null
           },
           {
                 "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
@@ -53,7 +54,8 @@ var QUESTOES_BANCO = {
                 "banca": "FGV",
                 "ano": 2024,
                 "assunto": "Uso da Crase",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"O uso da crase é um dos pontos mais cobrados em provas de concurso público, exigindo atenção especial às regras que determinam sua aplicação obrigatória, facultativa ou proibida.\" Considerando o trecho acima, é correto afirmar que a crase é obrigatória:",
@@ -69,7 +71,8 @@ var QUESTOES_BANCO = {
                 "banca": "FGV",
                 "ano": 2024,
                 "assunto": "Uso da Crase",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Dentre as palavras, assinale aquela que tem acento gráfico indevido.",
@@ -84,7 +87,8 @@ var QUESTOES_BANCO = {
                 "banca": "MSConcursos",
                 "ano": 2026,
                 "assunto": "**Acentuação**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a classificação de palavras, a estrutura dos vocábulos, as conjugações verbais e a acentuação das palavras, assinale a alternativa que apresenta uma análise INCORRETA.",
@@ -99,7 +103,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Classificação de Palavras e Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Em atividades escolares, é comum organizar palavras em listas para facilitar a consulta. Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:",
@@ -114,7 +119,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama",
                 "ano": 2026,
                 "assunto": "Organização de Palavras em Listas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "No âmbito das regras de acentuação da Língua Portuguesa, das palavras a seguir, qual delas NÃO é acentuada por ser proparoxítona?",
@@ -129,7 +135,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE",
                 "ano": 2026,
                 "assunto": "**Proparoxítonas**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "São palavras em que a vogal “e” é acentuada pela mesma regra, EXCETO:",
@@ -145,7 +152,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "**Vogais Acentuadas**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.",
@@ -161,7 +169,8 @@ var QUESTOES_BANCO = {
                 "banca": "Ápice",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Avalie as partes que seguem sobre as palavras reciclagem, água e hídrico, retiradas do texto: A palavra reciclagem separa-se silabicamente como RE - CI - CLA - GEM e possui a penúltima sílaba como a mais forte na pronúncia (1ª parte). O vocábulo água separa-se como A - GUA e é classificado pelas regras de acentuação como uma palavra oxítona (2ª parte). O termo hídrico recebe acento gráfico de forma obrigatória por ter a sua antepenúltima sílaba como a mais forte, classificando-se na gramática normativa como uma palavra proparoxítona (3ª parte). Acerca das partes, pode-se afirmar que:",
@@ -177,7 +186,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "São palavras paroxítonas, EXCETO:",
@@ -192,7 +202,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "**Palavras Paroxítonas**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação gráfica da Língua Portuguesa, especialmente no que se refere à classificação das palavras quanto à tonicidade e à posição da sílaba tônica, assinale a alternativa em que todos os vocábulos apresentados são acentuados em virtude da mesma regra.",
@@ -207,7 +218,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as normas de acentuação gráfica da Língua Portuguesa e as palavras empregadas no texto, assinale a alternativa em que o par de vocábulos é acentuado com base na mesma regra.",
@@ -222,7 +234,8 @@ var QUESTOES_BANCO = {
                 "banca": "IESES",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir, retirados do texto. •  “Do alto da geladeira, os pinguins ___ a vida passar no cômodo mais cheio de vida das casas brasileiras: a cozinha”. •  “Convido os leitores a ___ de lado o preconceito contra a fofoca por um momento e analisá-la sob as lentes da psicologia evolucionista”.",
@@ -237,7 +250,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considere as palavras a seguir, retiradas do texto, e analise-as quanto à posição da sílaba tônica: I. Nível. II. Térmico. III. Eletrodomésticos. IV. Energético. Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
@@ -252,7 +266,8 @@ var QUESTOES_BANCO = {
                 "banca": "IESES",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinalar a alternativa em que todas as palavras foram acentuadas CORRETAMENTE.",
@@ -267,7 +282,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": 2026,
                 "assunto": "**Acentuação**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "“___ muitas pessoas no mundo que não acreditam em si mesmas.” O espaço em branco acima pode ser preenchido corretamente por:",
@@ -283,7 +299,8 @@ var QUESTOES_BANCO = {
                 "banca": "Avança",
                 "ano": 2026,
                 "assunto": "Vocábulo e Expressão",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A acentuação gráfica de palavras obedece a regras específicas da norma-padrão. Nesse sentido, é INCORRETO afirmar que:",
@@ -298,7 +315,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "São palavras proparoxítonas retiradas do texto, EXCETO:",
@@ -314,7 +332,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "**Palavras Proparoxítonas**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
@@ -330,7 +349,8 @@ var QUESTOES_BANCO = {
                 "banca": "Avança",
                 "ano": 2026,
                 "assunto": "Normas de Acentuação e Pontuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa CORRETA quanto à acentuação gráfica.",
@@ -345,7 +365,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Quando eu era criança, havia um médico para tudo e para todos, que minha mãe chamava quando eu tinha febre ou quando meu pai sentiu as primeiras dores na vesícula.\" Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica. Em seguida, identifique, entre os vocábulos das alternativas a seguir, aqueles que devem receber acento pela mesma regra. I. Estereotipo, veiculo e cheiissimo. II. Pudico, vitima e transito. III. Avaro, sarcofago e ridiculo. IV. Caracteres, prototipo e quadruplo. Após análise, identifique a alternativa que apresenta apenas as palavras que deverão ser acentuadas pela mesma regra das apresentadas no comando da questão.",
@@ -361,7 +382,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:",
@@ -376,7 +398,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama",
                 "ano": 2026,
                 "assunto": "Sílaba Tônica e Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando nas regras de acentuação dos vocábulos presentes no trecho e no texto-base, marque (V), para as afirmativas verdadeiras, ou (F), para as falsas:",
@@ -392,7 +415,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.",
@@ -407,7 +431,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": null,
-                "tipo": null
+                "tipo": null,
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação, analise as afirmativas a seguir e marque com V, as afirmativas verdadeiras, ou com F, as falsas.",
@@ -423,7 +448,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa que apresenta as palavras em ordem alfabética.",
@@ -438,7 +464,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Ordem Alfabética",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir:",
@@ -453,7 +480,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Acentuação e Morfologia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "No trecho ‘o mundo está difícil para todo mundo’, a palavra destacada recebe acento gráfico porque é:",
@@ -468,7 +496,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto Fênix",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nas regras de acentuação gráfica da língua portuguesa, quantas dessas palavras são classificadas como proparoxítonas?",
@@ -483,7 +512,8 @@ var QUESTOES_BANCO = {
                 "banca": "IESES",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Daqui ___ algum tempo, haverá mais pessoas no planeta do que ___ atualmente.",
@@ -499,7 +529,8 @@ var QUESTOES_BANCO = {
                 "banca": "Avança SP",
                 "ano": 2026,
                 "assunto": "Vozes do Verbo Ser",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com fundamento nas normas de acentuação gráfica aplicáveis aos vocábulos constantes do trecho, bem como àqueles que o extrapolam, assinale V, para as proposições verdadeiras, e F, para as falsas.",
@@ -515,7 +546,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Normas de Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nas regras de acentuação, analise as afirmativas relativas aos vocábulos presentes no texto, assim como àqueles que aparecem fora de contexto.",
@@ -531,7 +563,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nas regras de acentuação dos vocábulos presentes no trecho, bem como daqueles que estão fora do contexto apresentado, julgue as afirmativas:",
@@ -547,7 +580,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a acentuação dos vocábulos presentes no texto, bem como daqueles apresentados fora de contexto, analise as afirmativas a seguir:",
@@ -563,7 +597,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica.",
@@ -579,7 +614,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "ditongos": [
@@ -594,7 +630,8 @@ var QUESTOES_BANCO = {
                 "banca": "CESPE",
                 "ano": 2023,
                 "assunto": "Ditongos",
-                "tipo": "certo_errado"
+                "tipo": "certo_errado",
+                "flashcard": null
           },
           {
                 "enunciado": "(FGV/2022) Assinale a alternativa em que todas as palavras apresentam ditongo oral decrescente:",
@@ -609,7 +646,8 @@ var QUESTOES_BANCO = {
                 "banca": "FGV",
                 "ano": 2022,
                 "assunto": "Ditongos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": "O ditongo oral decrescente é a combinação de vogais que diminui o som ao longo da palavra. No caso das palavras \"muito\", \"ontem\" e \"jamais\", observa-se a redução do som da vogal inicial em relação à final, caracterizando o ditongo oral decrescente."
           },
           {
                 "enunciado": "As mudanças ortográficas implementadas por acordos oficiais buscam uniformizar a escrita da língua portuguesa entre os países lusófonos, promovendo maior padronização e reduzindo divergências históricas no uso de acentos e hifens (ACORDO ORTOGRÁFICO, 2009). Assinale a alternativa CORRETA quanto às regras estabelecidas pelo Novo Acordo Ortográfico da Língua Portuguesa.",
@@ -624,7 +662,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Regras Ortográficas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa CORRETA sobre as justificativas de acentuação das palavras nos retângulos destacados no texto.",
@@ -639,7 +678,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE",
                 "ano": 2026,
                 "assunto": "Acentuação das Palavras",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Observe algumas palavras retiradas do texto: “inteligência”, “tecnologia”, “crítica”, “profissões” e “já”. Considerando as regras de acentuação da língua portuguesa, assinale a alternativa correta.",
@@ -655,7 +695,8 @@ var QUESTOES_BANCO = {
                 "banca": "Ápice",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "As palavras \"mídias\", \"estatística\" e \"público\", presentes no texto, são acentuadas porque:",
@@ -671,7 +712,8 @@ var QUESTOES_BANCO = {
                 "banca": "IVIN",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "O debate sobre o tema domina assembleias. A expansão dos aluguéis de curta temporada intensificou a presença de turistas. Considerando a ortografia oficial das palavras destacadas nos trechos acima, é CORRETO afirmar que:",
@@ -686,7 +728,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Ortografia e Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Observe as regras de acentuação e assinale a alternativa correta, conforme o Novo Acordo Ortográfico.",
@@ -701,7 +744,8 @@ var QUESTOES_BANCO = {
                 "banca": "PROMUN",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação no Novo Acordo Ortográfico",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Conteúdos violentos, pornográficos ou de jogos de azar devem ser removidos, antes mesmo de ordens judiciais, para evitar o acesso e a amplificação das violências.\" Considerando as regras de acentuação, assinale a alternativa INCORRETA.",
@@ -716,7 +760,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"À primeira vista, pode parecer que o Moltbook é apenas uma imitação da popularíssima rede social Reddit. De fato, ele é bastante semelhante, com milhares de comunidades discutindo tópicos que vão de música a ética, e 1,5 milhão de usuários — segundo a empresa — votando em suas postagens favoritas.\" Com fundamento nas normas de acentuação gráfica aplicáveis aos vocábulos constantes do trecho, bem como àqueles que o extrapolam, assinale V, para as proposições verdadeiras, e F, para as falsas. (__) O vocábulo 'popularíssima' recebe acento gráfico em conformidade com a mesma norma que fundamenta o acento em de 'feiíssimo'. Diversamente, 'sanduíche' submete-se a critério distinto nos termos das regras específicas aplicáveis a essa configuração vocálica. (__) A forma verbal 'vão' submete-se ao mesmo regime de acentuação gráfica aplicado ao vocábulo 'é', já que, em ambas as ocorrências, trata-se de monossílabos tônicos constituídos por uma única sílaba fonética, que, em razão de sua tonicidade e estrutura formal, justificam a incidência do acento gráfico. (__) O vocábulo 'usuários' constitui exemplo de forma cuja classificação pode suscitar mais de uma interpretação quanto à posição da sílaba tônica. Isso porque sua delimitação silábica, como paroxítona terminada em ditongo crescente ou como proparoxítona, depende da análise fonético-fonológica adotada, uma vez que a distinção entre ditongo e hiato interfere diretamente na determinação da sílaba tônica formal. (__) O vocábulo 'favoritas' classifica-se como palavra paroxítona, à semelhança de 'filantropo' e 'recorde', vocábulos igualmente paroxítonos que, nos termos das regras gerais de acentuação da língua portuguesa, não recebem acento gráfico. (__) O vocábulo 'rede' apresenta grafia única. Diversamente, 'sutil' constitui exemplo de palavra de dupla prosódia. Registra-se, de um lado, a forma 'sutil', oxítona, sem acento gráfico, consagrada no uso contemporâneo com o sentido de 'delicado', 'tênue' ou 'refinado'. De outro, atesta-se a variante 'sútil', de emprego raro ou arcaizante, utilizada com o significado de adjetivo relacionado a algo costurado. Após análise das afirmativas, identifique a alternativa CORRETA.",
@@ -732,7 +777,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Identificada apenas como participante T16, a mulher recebeu um minúsculo feixe de eletrodos, inserido cirurgicamente em um lóbulo na frente do cérebro.\" Considerando a acentuação dos vocábulos presentes no texto, bem como daqueles apresentados fora de contexto, analise as afirmativas a seguir: I. O vocábulo 'eletrodo', sem acento, deve ser pronunciado com a penúltima sílaba tônica, sendo, portanto, uma palavra paroxítona, assim como os vocábulos 'avaro' e 'rubrica', todos grafados corretamente sem acento. II. A regra de acentuação aplicada ao vocábulo 'minúsculo' difere daquela que se aplica aos vocábulos 'cheiíssimo' e 'veículo', pois estes últimos seguem outra regra específica de acentuação. III. O vocábulo 'feixe' é uma palavra paroxítona com ditongo, que nunca recebeu acento. Diferentemente de 'boia' e 'anzois', que também são paroxítonas com ditongos, mas perderam o acento por apresentarem ditongos abertos. IV. O verbo 'ler', quando conjugado na terceira pessoa do plural do presente do indicativo, exemplifica um caso de palavra que sofreu alteração com o Novo Acordo Ortográfico. Diferentemente, os verbos 'ter' e 'pôr' não sofreram alterações. Após análise, identifique a alternativa que apresenta apenas as proposições CORRETAS.",
@@ -748,7 +794,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação Ortográfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"No pior dos casos, o fenômeno deu origem ao que ficou conhecido como Sephora Kids, uma legião de jovens e pré-adolescentes que consomem cosméticos antienvelhecimento de um jeito claramente insalubre.\" Com base no uso do hífen e nas alterações ocorridas nos vocábulos, conforme determinado pelo Novo Acordo Ortográfico, analise as afirmativas a seguir: I. Quando o prefixo 'pré' se demarca como tônico, ou seja, quando possui autonomia fonética, o uso do hífen se faz necessário, como observa-se na palavra 'pré-adolescentes. No entanto, nos casos em que o prefixo 'pré' se apresenta como átono, ele não é acompanhado do uso do hífen. Assim estão corretas as formas 'preexistente' e 'predeterminado'. II. O acento agudo dos ditongos abertos caiu somente em palavras paroxítonas, permanecendo assim acentuadas as palavras oxítonas como 'anzóis' e porta-jóias. III. O vocábulo 'antienvelhecimento' não é hifenizado, uma vez que a vogal inicial do segundo elemento é diferente da vogal final do prefixo. Em contrapartida, a palavra 'anti-inflamatório' mantém o hífen, seguindo a regra inversa. IV. O verbo 'pôr' não sofreu alteração e continua sendo grafado com acento circunflexo, a fim de diferenciá-lo da preposição átona 'por'. Após análise, assinale a alternativa que apresenta as proposições CORRETAS.",
@@ -764,7 +811,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Novo Acordo Ortográfico",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa CORRETA quanto às regras estabelecidas pelo Novo Acordo Ortográfico da Língua Portuguesa.",
@@ -779,7 +827,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Regras Ortográficas (Novo Acordo Ortográfico)",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação da língua portuguesa, assinale a alternativa correta.",
@@ -795,7 +844,8 @@ var QUESTOES_BANCO = {
                 "banca": "Ápice Consultoria",
                 "ano": 2026,
                 "assunto": "Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a ortografia oficial das palavras destacadas nos trechos acima, é CORRETO afirmar que:",
@@ -810,7 +860,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "**Acordo Ortográfico** e Regras de Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "colocacaoPronominal": [
@@ -828,7 +879,8 @@ var QUESTOES_BANCO = {
                 "banca": "CESPE",
                 "ano": 2023,
                 "assunto": "Colocação Pronominal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "concordancia": [
@@ -846,7 +898,8 @@ var QUESTOES_BANCO = {
                 "banca": "FCC",
                 "ano": 2022,
                 "assunto": "Concordância Verbal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A escrita correta das palavras envolve o uso adequado dos acentos gráficos. Considerando as regras da língua portuguesa, é correto afirmar que:",
@@ -861,7 +914,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama",
                 "ano": 2026,
                 "assunto": "**Acentuação Gráfica**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A respeito da correta ortografia, marque as alternativas com V (verdadeiro) ou F (falso) e assinale a correta. ( ) Usaremos “há” quando houver ideia de tempo passado ou com sentido de existir. ( ) A preposição “a” ocorre quando aparece ideia de distância ou futuro. ( ) Mal pode aparecer como substantivo, advérbio (geralmente de modo) e conjunção (com valor temporal). ( ) A expressão mau é sempre um adjetivo.",
@@ -876,7 +930,8 @@ var QUESTOES_BANCO = {
                 "banca": "MSConcursos",
                 "ano": 2026,
                 "assunto": "Concordância Verbal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "“Daqui ___ algum tempo, haverá mais pessoas no planeta do que ___ atualmente.” Os espaços em branco acima podem ser preenchidos corretamente, na mesma ordem, por:",
@@ -892,7 +947,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": 2026,
                 "assunto": "Concordância Verbal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Sobre a palavra “têm” no trecho “As folhas têm pequenos orifícios em suas superfícies”, retirado do texto, analise as seguintes assertivas: I. É classificada como verbo. II. Está corretamente acentuada, pois a expressão “pequenos orifícios” está no plural. III. Perderia o acento gráfico caso a expressão “as folhas” fosse substituída por “a folha”. Quais estão corretas?",
@@ -908,7 +964,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Concordância Verbal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras da língua portuguesa, é correto afirmar que:",
@@ -923,7 +980,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama Consult",
                 "ano": 2026,
                 "assunto": null,
-                "tipo": null
+                "tipo": null,
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:",
@@ -938,7 +996,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama Consult",
                 "ano": 2026,
                 "assunto": "Concordância Nominal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Sobre a palavra “têm” no trecho “As folhas têm pequenos orifícios em suas superfícies”, retirado do texto, analise as seguintes assertivas:",
@@ -954,7 +1013,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Concordância Verbal",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "hiatos": [
@@ -971,7 +1031,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Acentuação e Morfologia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Em relação às mudanças implementadas pelo Novo Acordo Ortográfico da Língua Portuguesa, analise os itens abaixo e assinale a alternativa correta. I. O alfabeto da Língua Portuguesa passa a ter 27 letras, com a incorporação das letras K, W e Y, que se empregam na grafia de nomes próprios, palavras deles derivadas e em abreviações. II. Cai o acento circunflexo do hiato EE dos verbos LER, DAR, CRER, VER e derivados. III. Cai o acento diferencial, apesar de permanecer nas palavras PÔDE e PÔR, e facultativamente , poder-se acentuar o substantivo FÔRMA. Estão corretos:",
@@ -986,7 +1047,8 @@ var QUESTOES_BANCO = {
                 "banca": "PROMUN",
                 "ano": 2026,
                 "assunto": "Novo Acordo Ortográfico da Língua Portuguesa",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"A pressão sobre os recursos hídricos tem acelerado a adoção de tecnologias voltadas à eficiência produtiva.\" Com base nas regras de acentuação dos vocábulos presentes no trecho, bem como daqueles que estão fora do contexto apresentado, julgue as afirmativas: I. O vocábulo 'hídricos' recebe acento gráfico por se classificar como proparoxítono, o que determina inequivocamente a tonicidade na antepenúltima sílaba, eliminando qualquer ambiguidade quanto à sua pronúncia. II. O vocábulo 'proteína' segue a regra de acentuação dos vocábulos que formam hiato com 'i' e 'u' tônico. Mesma regra que se aplica aos vocábulos 'juízes' e 'zodíaco'. III. Os vocábulos 'pressão' e 'adoção' têm a mesma classificação tônica do vocábulo 'digitais'. IV. O vocábulo 'tem' é exemplo de palavra que recebe acento diferencial, quando empregado na terceira pessoa do plural do presente do indicativo. Os verbos 'convir' e 'provir' também apresentam acento diferencial nesse mesmo modo e tempo. Assinale a alternativa que apresenta apenas as proposições CORRETAS.",
@@ -1002,7 +1064,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Q4013336\nPortuguês\nOrtografia ,\nAcentuação Gráfica: Proparoxítonas, Paroxítonas, Oxítonas e Hiatos",
@@ -1015,7 +1078,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": null,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "certo_errado"
+                "tipo": "certo_errado",
+                "flashcard": null
           }
     ],
     "hifen": [
@@ -1032,7 +1096,8 @@ var QUESTOES_BANCO = {
                 "banca": "MSConcursos",
                 "ano": 2026,
                 "assunto": "Uso do Hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A palavra “arqui-inimigo” está hifenizada devidamente, o que não ocorre na escrita do vocábulo:",
@@ -1047,7 +1112,8 @@ var QUESTOES_BANCO = {
                 "banca": "MSConcursos",
                 "ano": 2026,
                 "assunto": "**Hifenização**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente, observando o uso do hífen conforme o último Acordo Ortográfico.",
@@ -1063,7 +1129,8 @@ var QUESTOES_BANCO = {
                 "banca": "FEPESE",
                 "ano": 2026,
                 "assunto": "Ortografia e Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "De acordo com as normas ortográficas vigentes sobre o emprego do hífen, qual das palavras a seguir está grafada corretamente?",
@@ -1078,7 +1145,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Hífen e Acentuação",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa em que os usos do hífen e de acentuação gráfica estão corretos, de acordo com as regras do Acordo Ortográfico:",
@@ -1094,7 +1162,8 @@ var QUESTOES_BANCO = {
                 "banca": "FEPESE",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considere as seguintes frases: 1. \"O microondas da minha avó quebrou depois de vinte anos de uso.\" 2. \"O anti-inflamatório prescrito pelo médico deve ser tomado a cada oito horas.\" 3. \"A autoescola onde fiz minhas aulas práticas fica no centro da cidade.\" 4. \"O contrarregra da peça teatral esqueceu de ligar os microfones.\" Sobre a grafia das palavras destacadas, conforme as regras do atual Acordo Ortográfico da Língua Portuguesa, analise as assertivas abaixo: I. Em \"microondas\", o emprego sem hífen está correto, pois se aplica a seguinte regra: quando o prefixo termina com a mesma vogal que inicia o segundo elemento, o hífen deve ser retirado. II. Em \"anti-inflamatório\", o hífen foi corretamente empregado, uma vez que o prefixo \"anti-\" termina em vogal \"i\" e o segundo elemento \"inflamatório\" inicia com a mesma vogal \"i\", exigindo hífen. III. Em \"autoescola\", a ausência de hífen está correta, pois o prefixo \"auto-\" termina em vogal e o segundo elemento \"escola\" inicia com vogal diferente, caso em que não se emprega hífen. IV. Em \"contrarregra\", a grafia apresentada está correta, pois quando o prefixo termina em vogal e o segundo elemento inicia com \"r\", dobra-se o \"r\" e suprime-se o hífen. Estão CORRETAS apenas as assertivas:",
@@ -1110,7 +1179,8 @@ var QUESTOES_BANCO = {
                 "banca": "INAZ",
                 "ano": 2026,
                 "assunto": "Acordo Ortográfico da Língua Portuguesa",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Outra mudança crucial é o fim da simples autodeclaração de idade. Dessa forma, exige-se que as plataformas implementem mecanismos robustos de aferição de idade que comprovem a faixa etária sem necessariamente coletar dados de identidade pessoal.\" O vocábulo 'autodeclaração' não possui hífen, assim como os vocábulos das alternativas a seguir, EXCETO:",
@@ -1125,7 +1195,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Vocabulário e Hifenização",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"A nova legislação, em vigor desde a terça-feira (17/3), estabelece diretrizes para proteger o público infanto-juvenil nos meios digitais, e é vista por especialistas como um marco na proteção das crianças e adolescentes no mundo virtual.\" O vocábulo 'infanto-juvenil' está corretamente grafado com hífen, assim como os das alternativas a seguir, EXCETO:",
@@ -1140,7 +1211,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa de vocábulo corretamente acentuado:",
@@ -1155,7 +1227,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": 2026,
                 "assunto": "**Vocábulos Acentuados**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Nós, meros Homo sapiens, somos \"bem-vindos para observar\" o que acontece no Moltbook, diz a empresa, mas não podemos postar.\" O vocábulo 'bem-vindos' está grafado corretamente com hífen. Agora, analise o emprego do hífen nos vocábulos presentes nas alternativas a seguir e assinale aquela que apresenta forma grafada INCORRETA, de acordo com as normas ortográficas vigentes, seja pelo uso indevido do hífen, seja por sua ausência.",
@@ -1171,7 +1244,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Pesquisa sobre Bem-Estar da Universidade de Oxford, no Reino Unido, e pela Rede de Soluções para o Desenvolvimento Sustentável das Nações Unidas.\" O vocábulo 'bem-estar' está grafado corretamente com hífen. Analise, agora, a grafia das palavras compostas nas alternativas a seguir: I. Guarda-marinha e ervilha de cheiro. II. Marca-passo e benquerer. III. Mal-estar e circum-navegação. IV. Preestabelecido e paraquedas. V. Cor-de-rosa e cor de açafrão. Após a análise dos vocábulos grafados com ou sem hífen, assinale a alternativa que apresenta apenas palavras CORRETAS.",
@@ -1187,7 +1261,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Vocábulos compostos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Nos métodos convencionais, o tingimento envolve pré-tratamento do tecido, aplicação de corantes, fixação a vapor e sucessivos ciclos de lavagem para remoção de resíduos.\" O uso do hífen em palavras formadas pelo prefixo 'pre', como em 'pré-tratamento', depende de algumas circunstâncias relacionadas à tonicidade. Com base nisso, analise a afirmativa sobre a grafia dessas palavras. I. O vocábulo 'preestabelecer' está grafado sem hífen corretamente. II. A forma 'pré-esclerose' está grafada com hífen corretamente. III. Os vocábulos 'predizer' e 'predeterminado' estão grafados sem hífen corretamente. IV. Os vocábulos 'pré-datado', 'pré-escolar' e 'pré-história' estão grafados corretamente com hífen. Em relação às afirmações, assinale a alternativa que contenha apenas as opções CORRETAS.",
@@ -1203,7 +1278,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Grafia de Palavras com Prefixo 'Pre'",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Estes dois estudos são os mais recentes de uma série de inovações que vêm oferecendo aos neurocientistas uma nova visão do funcionamento interno do cérebro humano e fornecendo oportunidades de ajudar pessoas incapazes de se comunicar de outra maneira.\" O vocábulo 'neurocientistas' não possui hífen. Considerando o emprego do hífen em palavras compostas, identifique a alternativa que apresenta um vocábulo grafado de forma INCORRETA, com ou sem hífen.",
@@ -1219,7 +1295,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Emprego do Hífen em Palavras Compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "\"Crianças e adolescentes ganham a partir dessa terça-feira (17) uma importante ferramenta de proteção com a entrada em vigor do Estatuto Digital da Criança e do Adolescente (também chamado de ECA Digital).\" O vocábulo 'terça-feira' encontra-se corretamente grafado com hífen. Analise, a seguir, o uso do hífen nas alternativas apresentadas e assinale aquela que contém algum vocábulo grafado de forma INCORRETA.",
@@ -1235,7 +1312,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Uso do Hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando o emprego do hífen em palavras compostas, analise a palavra 'infraestrutura', assim como outros vocábulos fora do contexto apresentado e identifique a alternativa INCORRETA.",
@@ -1251,7 +1329,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Emprego do Hífen em Palavras Compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "O vocábulo 'bioenergia' apresenta-se corretamente grafado sem hífen. Considerando o uso ou não do hífen em palavras compostas, identifique a alternativa que apresenta pelo menos um vocábulo grafado de forma INCORRETA.",
@@ -1267,7 +1346,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Uso do Hífen em Palavras Compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "O vocábulo 'autodeclaração' não possui hífen, assim como os vocábulos das alternativas a seguir, EXCETO:",
@@ -1282,7 +1362,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Hifenização",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Análise das palavras compostas com hífen: I. Guarda-marinha e ervilha de cheiro. II. Marca-passo e benquerer. III. Mal-estar e circum-navegação. IV. Preestabelecido e paraquedas. V. Cor-de-rosa e cor de açafrão.",
@@ -1298,7 +1379,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Palavras compostas com hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando o emprego do hífen em palavras compostas, identifique a alternativa que apresenta um vocábulo grafado de forma INCORRETA, com ou sem hífen.",
@@ -1314,7 +1396,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Emprego do Hífen em Palavras Compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Análise das palavras compostas grafadas com ou sem hífen.",
@@ -1330,7 +1413,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Palavras compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "O vocábulo 'terça-feira' encontra-se corretamente grafado com hífen. Analise, a seguir, o uso do hífen nas alternativas apresentadas e assinale aquela que contém algum vocábulo grafado de forma INCORRETA.",
@@ -1346,7 +1430,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Uso do Hífen",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "digrafos": [
@@ -1363,7 +1448,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Dígrafos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nas palavras FILHOS, EXPLORADA e INTELIGÊNCIA, presentes na charge, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F): () Na palavra FILHOS, a união das consoantes L e H forma um dígrafo, pois essas duas letras juntas representam obrigatoriamente um único e inseparável som na fala. () A correta separação em sílabas da palavra EXPLORADA divide-a normativamente em EX-PLO-RA-DA, sendo ela classificada na Língua Portuguesa como uma palavra polissílaba. () O vocábulo INTELIGÊNCIA recebe o seu acento gráfico de forma obrigatória porque a sílaba tônica recai na última sílaba, sendo classificado pelas regras gramaticais como uma palavra oxítona. Qual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
@@ -1378,7 +1464,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Língua Portuguesa",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nas regras ortográficas, e observando o verbo destacado, assinale a alternativa CORRETA.",
@@ -1393,7 +1480,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE Concursos",
                 "ano": 2026,
                 "assunto": "Regras Ortográficas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Não ocorre dígrafos em:",
@@ -1408,7 +1496,8 @@ var QUESTOES_BANCO = {
                 "banca": "Gama Consult",
                 "ano": 2026,
                 "assunto": "**Dígrafos**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa CORRETA quanto à identificação de dígrafo na frase.",
@@ -1423,7 +1512,8 @@ var QUESTOES_BANCO = {
                 "banca": "AMEOSC",
                 "ano": 2026,
                 "assunto": "Dígrafos e Trígrafos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "ortografia": [
@@ -1441,7 +1531,8 @@ var QUESTOES_BANCO = {
                 "banca": "Ápice",
                 "ano": 2026,
                 "assunto": "**Convenções de Escrita**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Analise as partes que seguem: A palavra desperdício tem a mesma origem e pertence à mesma família de palavras do verbo desperdiçar (1ª parte). O substantivo limpeza é derivado do adjetivo limpo e obedece à regra ortográfica que exige a escrita com a consoante Z na formação de substantivos abstratos derivados de adjetivos (2ª parte). O adjetivo desnecessário é formado pela derivação prefixal com o acréscimo de um prefixo à palavra base, mecanismo que imprime diretamente ao novo termo um sentido de negação ou de oposição (3ª parte). Acerca das partes, pode-se afirmar que:",
@@ -1457,7 +1548,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Derivação de Palavras",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação e de ortografia, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir, retirados do texto. • “Não são patologias propriamente ditas, dessas com nome, sobrenome e código no receituário, mas preocupam médicos e pacientes por seus impactos cada vez mais expressivos no __________”. • “distúrbios físicos e mentais que hoje protagonizam pesquisas científicas e são alvo de novas leis para resguardar __________ de todas as idades de um aparelho que cabe no bolso”. • “E não é só o __________ psíquico que será cobrado no futuro”.",
@@ -1472,7 +1564,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação e Ortografia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Assinale a alternativa em que a grafia da palavra está correta, conforme Novo Acordo Ortográfico da Língua Portuguesa.",
@@ -1487,7 +1580,8 @@ var QUESTOES_BANCO = {
                 "banca": "MPE-GO",
                 "ano": 2026,
                 "assunto": "Regras Ortográficas do Novo Acordo Ortográfico",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "“Nós vamos __________ o seu pedido.” Marque a alternativa que apresenta uma palavra escrita corretamente, preenchendo o espaço em branco acima.",
@@ -1503,7 +1597,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": 2026,
                 "assunto": "Vocabulário e Ortografia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Marque a opção em que todas as palavras apresentadas sofreram mudança com o Novo Acordo Ortográfico da Língua Portuguesa, com vigência obrigatória a partir de 1º de janeiro de 2016 e estão escritas em conformidade com a nova regra da ortografia.",
@@ -1518,7 +1613,8 @@ var QUESTOES_BANCO = {
                 "banca": "PROMUN",
                 "ano": 2026,
                 "assunto": "Novo Acordo Ortográfico da Língua Portuguesa",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a ortografia das palavras dentro do Novo Acordo Ortográfico, assinale a alternativa abaixo em que todas as palavras estão grafadas corretamente.",
@@ -1533,7 +1629,8 @@ var QUESTOES_BANCO = {
                 "banca": "PROMUN",
                 "ano": 2026,
                 "assunto": "**Ortografia no Novo Acordo Ortográfico**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a ortografia oficial vigente, assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas do trecho a seguir, retirado do texto: “Era um retrato da minha pressa, da minha ambição, e da minha cren....a quase in....ênua de que o tempo obedeceria às minhas planilhas. Incon....ientemente, talvez a gente planeje tanto [...]”.",
@@ -1549,7 +1646,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Ortografia Oficial",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "De acordo com o Acordo Ortográfico da Língua Portuguesa, a frase inteiramente CORRETA quanto à grafia, acentuação e emprego de maiúsculas/siglas é:",
@@ -1565,7 +1663,8 @@ var QUESTOES_BANCO = {
                 "banca": "INAZ",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Q4020885\nPortuguês\nOrtografia",
@@ -1578,7 +1677,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": null,
                 "assunto": "**Ortografia**",
-                "tipo": "certo_errado"
+                "tipo": "certo_errado",
+                "flashcard": null
           },
           {
                 "enunciado": "Q4015621\nPortuguês\nOrtografia ,\nGrafia e Emprego de Iniciais Maiúsculas",
@@ -1591,7 +1691,8 @@ var QUESTOES_BANCO = {
                 "banca": "Desconhecida",
                 "ano": null,
                 "assunto": "Ortografia, Grafia e Emprego de Iniciais Maiúsculas",
-                "tipo": "certo_errado"
+                "tipo": "certo_errado",
+                "flashcard": null
           },
           {
                 "enunciado": "A grafia correta dos vocábulos na língua portuguesa deve observar as normas estabelecidas pelo Acordo Ortográfico vigente e as orientações do Vocabulário Ortográfico da Língua Portuguesa (VOLP). Assinale a alternativa em que todas as palavras estão grafadas corretamente:",
@@ -1606,7 +1707,8 @@ var QUESTOES_BANCO = {
                 "banca": "FRONTE",
                 "ano": 2026,
                 "assunto": "Normas Ortográficas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as normas de ortografia oficial e as alterações introduzidas pelo mais recente Acordo Ortográfico da Língua Portuguesa, assinale a alternativa em que todas as palavras atendem plenamente aos preceitos gramaticais vigentes.",
@@ -1621,7 +1723,8 @@ var QUESTOES_BANCO = {
                 "banca": "IDECAN",
                 "ano": 2026,
                 "assunto": "Ortografia Oficial e Acordo Ortográfico",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Levando em conta os aspectos fonológicos da língua, abrangendo a prosódia e a ortoepia, tanto dos vocábulos presentes no texto quanto de outros alheios a esse contexto, analise as afirmativas a seguir:",
@@ -1637,7 +1740,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "**Prosódia e Ortografia**",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as palavras acentuadas presentes no texto e a normatização do Acordo Ortográfico vigente, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F):",
@@ -1652,7 +1756,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE Concursos",
                 "ano": 2026,
                 "assunto": "Acordo Ortográfico",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "A respeito da correta ortografia, marque as alternativas com V (verdadeiro) ou F (falso) e assinale a correta.",
@@ -1667,7 +1772,8 @@ var QUESTOES_BANCO = {
                 "banca": "MSConcursos",
                 "ano": 2026,
                 "assunto": "Ortografia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando as regras de acentuação e de ortografia, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir...",
@@ -1682,7 +1788,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação e Ortografia",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Em relação às mudanças implementadas pelo Novo Acordo Ortográfico da Língua Portuguesa, analise os itens abaixo e assinale a alternativa correta.",
@@ -1697,7 +1804,8 @@ var QUESTOES_BANCO = {
                 "banca": "PROMUN",
                 "ano": 2026,
                 "assunto": "Novo Acordo Ortográfico da Língua Portuguesa",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Considerando a ortografia oficial vigente, assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas do trecho a seguir, retirado do texto:",
@@ -1713,7 +1821,8 @@ var QUESTOES_BANCO = {
                 "banca": "FUNDATEC",
                 "ano": 2026,
                 "assunto": "Ortografia Oficial",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Analisar a grafia das palavras compostas nas alternativas a seguir.",
@@ -1729,7 +1838,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Grafia de Palavras Compostas",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base nisso, analise a afirmativa sobre a grafia dessas palavras.",
@@ -1745,7 +1855,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Grafia das Palavras",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "classesGramaticais": [
@@ -1763,7 +1874,8 @@ var QUESTOES_BANCO = {
                 "banca": "Instituto",
                 "ano": 2026,
                 "assunto": "Acentuação das Palavras",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Leia o fragmento abaixo de um edital de concurso público: \"5.2.1. A inscrição do candidato implicará o conhecimento e a tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não poderá alegar desconhecimento.\" Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
@@ -1779,7 +1891,8 @@ var QUESTOES_BANCO = {
                 "banca": "INAZ",
                 "ano": 2026,
                 "assunto": "Concorrência Pública",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
@@ -1795,7 +1908,8 @@ var QUESTOES_BANCO = {
                 "banca": "INAZ do Pará",
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "paronimosHomonimos": [
@@ -1813,7 +1927,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Parônimos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "O vocábulo 'descrição' é parônimo de 'discrição', pois ambos apresentam semelhança na grafia e na pronúncia, mas possuem significados distintos. Agora, analise o emprego de outras palavras parônimas nos trechos a seguir:",
@@ -1829,7 +1944,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Parônimos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           },
           {
                 "enunciado": "Identifique a alternativa que apresenta apenas as frases CORRETAS quanto ao emprego de parônimos.",
@@ -1845,7 +1961,8 @@ var QUESTOES_BANCO = {
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Parônimos",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
     "fonemas": [
@@ -1863,7 +1980,8 @@ var QUESTOES_BANCO = {
                 "banca": "LEGALLE Concursos",
                 "ano": 2026,
                 "assunto": "Regras de Acentuação e Relação entre Fonemas e Grafias",
-                "tipo": "multipla_escolha"
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
   }
