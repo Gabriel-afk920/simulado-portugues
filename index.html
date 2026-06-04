@@ -195,6 +195,25 @@
     .option-item.correct .option-letter { color: #22c55e; }
     .option-item.wrong   .option-letter { color: #ef4444; }
 
+    /* ── Cabeçalho de questão de concurso público ── */
+    .concurso-header {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+      background: #0c1a2e; border: 1px solid #1e3a5f;
+      border-left: 4px solid #0ea5e9;
+      border-radius: 6px; padding: 8px 12px;
+      margin-bottom: 14px; font-size: 0.82rem;
+    }
+    .concurso-banca {
+      font-weight: 700; color: #38bdf8; letter-spacing: 0.03em;
+    }
+    .concurso-assunto {
+      color: #94a3b8; font-style: italic;
+    }
+    .concurso-tipo {
+      background: #1e3a4a; color: #7dd3fc;
+      border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; font-weight: 600;
+    }
+
     .explanation-box {
       margin-top: 18px; background: #1e293b;
       border-left: 4px solid #a78bfa; border-radius: 10px;
@@ -2662,7 +2681,16 @@ function renderQuestao() {
   document.getElementById('progress-info').textContent = `Questão ${indiceAtual + 1} de ${total}`;
   document.getElementById('progress-bar').style.width  = progPct + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
-  document.getElementById('question-text').innerHTML   = q.enunciado;
+
+  // Cabeçalho no formato de questão de concurso público
+  let cabecalho = '';
+  if (q.banca || q.ano) {
+    const partes = [q.banca, q.ano].filter(Boolean).join(' — ');
+    const assunto = q.assunto ? `<span class="concurso-assunto">${q.assunto}</span>` : '';
+    const tipo = q.tipo === 'certo_errado' ? '<span class="concurso-tipo">Certo ou Errado</span>' : '';
+    cabecalho = `<div class="concurso-header"><span class="concurso-banca">${partes}</span>${assunto}${tipo}</div>`;
+  }
+  document.getElementById('question-text').innerHTML = cabecalho + q.enunciado;
 
   const timerEl = document.getElementById('timer-box');
   timerEl.textContent = tempoRestante;
