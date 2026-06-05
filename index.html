@@ -3647,74 +3647,118 @@ ir('screen-home');
   var teorias = {
 
     silabasAcentuacao_extra: `
-<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — ACENTUAÇÃO GRÁFICA</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Tonicidade e regras de acentuação</p></div>
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — ACENTUAÇÃO GRÁFICA</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Regras de acentuação e tonicidade</p></div>
 
-<h3>1. Tonicidade — a base da acentuação gráfica</h3>
-<p>Toda palavra tem uma sílaba pronunciada com mais intensidade: a <strong>sílaba tônica</strong>. Identificar qual é essa sílaba é o <strong>primeiro passo obrigatório</strong> antes de aplicar qualquer regra de acento — porque todas as regras são baseadas em "se a palavra for oxítona…", "se for paroxítona…", "se for proparoxítona…".</p>
+<h3>Por que acentuar?</h3>
+<p>O acento gráfico serve para indicar a sílaba tônica quando ela <strong>não coincide com o padrão esperado</strong> da língua. A maioria das palavras em português é paroxítona — portanto paroxítonas com terminações comuns <strong>não</strong> recebem acento.</p>
+
+<h3>Regras de Acentuação Gráfica (Novo Acordo Ortográfico)</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Tipo de palavra</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Quando recebe acento</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Proparoxítonas</td>
+      <td style="padding:9px 11px;color:#94a3b8;"><strong>TODAS</strong> recebem acento — sem exceção</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">médico, lâmpada, sábado, ônibus, público</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Oxítonas</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Terminadas em <strong>-a(s), -e(s), -o(s), -em, -ens</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">café, avó, também, parabéns, está, armazém</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Paroxítonas</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Terminadas em <strong>-l, -r, -x, -n, -ps, -ã(s), -ão(s), ditongo</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">difícil, açúcar, tórax, hífen, fórceps, órfã, órgão, série</td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Hiato i/u tônicos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">i ou u após vogal, sem -nh depois</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">saída, saúde, baú. <em>Não: rainha, moinho (nh impede)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>O que o Novo Acordo Ortográfico eliminou (2009)</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#4c0519;color:#f9a8d4;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #881337;">O que foi eliminado</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #881337;">Antes (errado hoje)</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #881337;">Depois (correto)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Acento diferencial em homógrafas paroxítonas</td><td style="padding:8px 10px;color:#f87171;">pára, pélo, pólo, fôrma</td><td style="padding:8px 10px;color:#86efac;">para, pelo, polo, forma</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Trema (ü)</td><td style="padding:8px 10px;color:#f87171;">freqüência, lingüiça, qüestão</td><td style="padding:8px 10px;color:#86efac;">frequência, linguiça, questão</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Ditongo aberto -éi, -ói em paroxítonas</td><td style="padding:8px 10px;color:#f87171;">idéia, jóia, assembléia</td><td style="padding:8px 10px;color:#86efac;">ideia, joia, assembleia</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;">Acento em -oo- e -ee- de paroxítonas</td><td style="padding:8px 10px;color:#f87171;">vôo, enjôo, crêem, lêem</td><td style="padding:8px 10px;color:#86efac;">voo, enjoo, creem, leem</td></tr>
+  </tbody>
+</table>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:14px;">Mantêm-se: <em>pôde × pode</em> (diferencial verbal aceito) e <em>pôr × por</em> (verbo × preposição).</p>
+
+<h3>Tonicidade — como aplicar as regras com precisão</h3>
+<p>Conhecida a regra de acentuação, falta identificar <strong>qual regra se aplica</strong> à palavra em análise. Para isso, usa-se a <strong>tonicidade</strong>: a posição da sílaba tônica dentro da palavra.</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
   <thead>
     <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
       <th style="padding:9px 11px;border-bottom:2px solid #334155;">Classificação</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Definição</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplos (tônica em MAIÚSCULA)</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Sílaba tônica</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Regra de acento que se aplica</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplos</th>
     </tr>
   </thead>
   <tbody>
     <tr style="border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Oxítona</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>última</strong> sílaba</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">ca-FÉ, pa-PEL, so-FÁ, tam-BÉM, pa-ra-BÉNS</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Última sílaba</td>
+      <td style="padding:9px 11px;color:#86efac;">Acento se terminar em -a(s), -e(s), -o(s), -em, -ens</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">ca-<strong>FÉ</strong>, a-<strong>VÓ</strong>, tam-<strong>BÉM</strong></td>
     </tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Paroxítona</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>penúltima</strong> sílaba</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">CA-sa, LÁ-pis, ca-DER-no, fá-CIL, A-çú-car</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Penúltima sílaba</td>
+      <td style="padding:9px 11px;color:#86efac;">Acento se a terminação for incomum (-l, -r, -x, etc.)</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><strong>FÁ</strong>-cil, a-<strong>ZÚ</strong>-car, <strong>ÓR</strong>-gão</td>
     </tr>
     <tr style="border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Proparoxítona</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>antepenúltima</strong> sílaba</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">MÉ-di-co, PÁ-gi-na, ÔN-i-bus, SÍ-la-ba, ÚL-ti-mo</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Antepenúltima sílaba</td>
+      <td style="padding:9px 11px;color:#86efac;">SEMPRE acento — sem exceção</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><strong>MÉ</strong>-di-co, <strong>PÁ</strong>-gi-na, <strong>ÔN</strong>-i-bus</td>
     </tr>
   </tbody>
 </table>
 
 <div class="exemplo-box">
-  <strong>Como identificar a sílaba tônica:</strong><br><br>
-  1. Divida a palavra em sílabas.<br>
-  2. Pronuncie em voz alta — a sílaba mais "pesada" é a tônica.<br>
-  3. Conte da direita para a esquerda: última (oxítona), penúltima (paroxítona), antepenúltima (proparoxítona).<br><br>
-  <em>médico</em> → mé-di-co → 3 sílabas → tônica em mé → é a 3ª contando da direita → <strong>proparoxítona</strong><br>
-  <em>janela</em> → ja-ne-la → 3 sílabas → tônica em ne → é a 2ª contando da direita → <strong>paroxítona</strong><br>
-  <em>café</em>   → ca-fé     → 2 sílabas → tônica em fé → é a 1ª contando da direita → <strong>oxítona</strong>
+  <strong>Passo a passo para acentuar qualquer palavra:</strong><br><br>
+  1. Divida em sílabas: <em>médico</em> → mé · di · co<br>
+  2. Identifique a tônica (sílaba mais forte): <strong>mé</strong><br>
+  3. Classifique pela posição: tônica na 3ª da direita → <strong>proparoxítona</strong><br>
+  4. Aplique a regra: proparoxítona → <strong>sempre leva acento</strong> → mé<strong>́</strong>dico ✓<br><br>
+  <em>janela</em> → ja · ne · la → tônica: <strong>ne</strong> → penúltima → paroxítona → termina em -a (comum) → <strong>sem acento</strong> ✓<br>
+  <em>café</em> → ca · fé → tônica: <strong>fé</strong> → última → oxítona → termina em -e → <strong>leva acento</strong> ✓
 </div>
 
 <div class="dica-box">
-  <div class="dica-title">Regra prática — maioria das palavras em português</div>
+  <div class="dica-title">Dicas — Acentuação Gráfica</div>
   <ul>
-    <li>A grande maioria das palavras do português é <strong>paroxítona</strong>. Isso significa que a língua espera que a tônica caia na penúltima.</li>
-    <li>O acento gráfico existe exatamente para sinalizar quando a tônica <strong>foge do padrão</strong> paroxítono — seja para a última (oxítona), para a antepenúltima (proparoxítona), ou quando é paroxítona com terminação que não é óbvia.</li>
-    <li>Toda proparoxítona recebe acento — sem exceção. São tão raras que a língua sempre as marca.</li>
-    <li>Monossílabas tônicas: pé, pá, pó, só, mês, nós, vós, ré → acentuadas. Átonas: de, se, me, te → não.</li>
+    <li>A maioria das palavras em português é <strong>paroxítona</strong> — o padrão. Só marca quando a terminação é incomum.</li>
+    <li>Toda <strong>proparoxítona</strong> leva acento, sem nenhuma exceção.</li>
+    <li>"Voo", "ideia", "geleia", "assembleia" — sem acento após o Acordo de 2009.</li>
+    <li>Trema existe hoje apenas em nomes estrangeiros: Müller, Günter, Bündchen.</li>
+    <li>Monossílabas tônicas acentuadas: pé, pá, pó, só, mês, nós, vós, ré. Átonas: de, se, me, te, o, a.</li>
+    <li>Para resolver questões: identifique a tonicidade <em>antes</em> de consultar a regra — esse é o caminho correto.</li>
   </ul>
 </div>
 
-<h3>2. Por que acentuar?</h3>
-<p>O acento gráfico serve para indicar a sílaba tônica quando ela <strong>não coincide com o padrão esperado</strong> da língua. A maioria das palavras em português é paroxítona — portanto paroxítonas com terminações comuns <strong>não</strong> recebem acento.</p>
-<h3>Regras principais (Novo Acordo Ortográfico)</h3>
-<ul>
-<li><strong>Proparoxítonas:</strong> TODAS recebem acento. Ex.: médico, lâmpada, sábado.</li>
-<li><strong>Oxítonas</strong> terminadas em -a(s), -e(s), -o(s), -em, -ens: recebem acento. Ex.: café, avó, também, parabéns.</li>
-<li><strong>Paroxítonas</strong> com terminações incomuns: recebem acento. Ex.: lápis, álbum, fácil, júri, vírus, ímã.</li>
-<li><strong>Hiatos i e u tônicos</strong> (após vogal, não seguidos de nh): recebem acento. Ex.: saída, saúde, baú. <em>Exceção: não acentua quando seguido de nh: rainha, moinho.</em></li>
-</ul>
-<h3>O que o Novo Acordo eliminou (2009)</h3>
-<ul>
-<li>Acento diferencial: <em>pára/para, pélo/pelo</em> — <strong>não se usa mais</strong>.</li>
-<li>Trema: <em>lingüiça, qüestão</em> — <strong>não se usa mais</strong> (exceto em nomes próprios estrangeiros).</li>
-<li>Acento no ditongo aberto -éi, -ói em paroxítonas: <em>idéia, jóia</em> → <strong>ideia, joia</strong>.</li>
-<li>Acento em -oo- e -ee- de paroxítonas: <em>vôo, crêem</em> → <strong>voo, creem</strong>.</li>
-</ul>
 <div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 3 — CRASE</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">O uso do acento grave (à)</p></div>
 <h3>O que é crase?</h3>
 <p>Crase é a <strong>fusão</strong> da preposição <em>a</em> com o artigo <em>a(s)</em>. Representa-se pelo acento grave: <strong>à / às</strong>. Só ocorre antes de palavras femininas que aceitam o artigo <em>a</em>.</p>
