@@ -1781,11 +1781,11 @@ const TEMAS = [
     id: "silabasAcentuacao", nome: "Sílabas e Acentuação", icon: "✍️", desc: "Divisão silábica e acentos",
     teoria: `
 <div class="sil-grid">
-  <div id="btn-sil-p1" class="sil-card" onclick="silToggle('sil-p1')"><div class="sil-icon">📚</div><div class="sil-nome">Sílabas</div><div class="sil-desc">Divisão silábica e separação</div></div>
+  <div id="btn-sil-p1" class="sil-card sil-open" onclick="silToggle('sil-p1')"><div class="sil-icon">📚</div><div class="sil-nome">Sílabas</div><div class="sil-desc">Divisão silábica e separação</div></div>
   <div id="btn-sil-p2" class="sil-card" onclick="silToggle('sil-p2')"><div class="sil-icon">✏️</div><div class="sil-nome">Acentuação Gráfica</div><div class="sil-desc">Regras, tonicidade e sufixos</div></div>
   <div id="btn-sil-p3" class="sil-card" onclick="silToggle('sil-p3')"><div class="sil-icon" style="font-size:1.5rem;font-style:italic;font-weight:700;">À</div><div class="sil-nome">Crase</div><div class="sil-desc">Uso do acento grave</div></div>
 </div>
-<div id="sil-p1" class="sil-sec">
+<div id="sil-p1" class="sil-sec sil-open">
 <div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:0 0 20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — SÍLABAS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Divisão silábica e separação de palavras</p></div>
 
 <h3>O que é Sílaba?</h3>
@@ -3326,6 +3326,7 @@ function silToggle(id) {
     }
   });
 }
+window.silToggle = silToggle;
 
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
