@@ -1067,20 +1067,6 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null
           },
-          {
-                "enunciado": "Q4013336\nPortuguês\nOrtografia ,\nAcentuação Gráfica: Proparoxítonas, Paroxítonas, Oxítonas e Hiatos",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: Desconhecida. Assunto: Acentuação Gráfica.",
-                "banca": "Desconhecida",
-                "ano": null,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "certo_errado",
-                "flashcard": null
-          }
     ],
     "hifen": [
           {
@@ -1664,20 +1650,6 @@ var QUESTOES_BANCO = {
                 "ano": 2026,
                 "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha",
-                "flashcard": null
-          },
-          {
-                "enunciado": "Q4020885\nPortuguês\nOrtografia",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: Desconhecida. Assunto: **Ortografia**.",
-                "banca": "Desconhecida",
-                "ano": null,
-                "assunto": "**Ortografia**",
-                "tipo": "certo_errado",
                 "flashcard": null
           },
           {
