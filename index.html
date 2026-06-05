@@ -2683,7 +2683,7 @@ document.getElementById('btn-ir-estudar').addEventListener('click', () => {
 });
 
 document.getElementById('btn-ir-simulado').addEventListener('click', () => {
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
@@ -2695,10 +2695,13 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
-function renderTemaGrid(gridId, onClickFn) {
+const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabasAcentuacao','tonicidade','hifen'];
+
+function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);
   grid.innerHTML = '';
   TEMAS.forEach(t => {
+    if (excluir && excluir.includes(t.id)) return;
     const card = document.createElement('div');
     card.className = 'tema-card';
     card.dataset.id = t.id;
