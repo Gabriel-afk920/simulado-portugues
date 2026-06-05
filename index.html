@@ -1769,72 +1769,51 @@ const TEMAS = [
   {
     id: "silabasAcentuacao", nome: "Sílabas e Acentuação", icon: "✍️", desc: "Divisão silábica e acentos",
     teoria: `
-<h3>Sílaba</h3>
-<p>Sílaba é o menor grupo de sons pronunciado numa só emissão de voz. <strong>Toda sílaba tem pelo menos uma vogal</strong> como núcleo.</p>
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:0 0 20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — SÍLABAS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Divisão silábica e separação de palavras</p></div>
 
-<h3>Classificação das palavras quanto ao número de sílabas</h3>
-<div class="exemplo-box">
-  <strong>Monossílabas</strong> (1 sílaba): pá, sol, flor, mãe<br>
-  <strong>Dissílabas</strong> (2 sílabas): ca-sa, me-sa, sol-ta<br>
-  <strong>Trissílabas</strong> (3 sílabas): ca-der-no, lá-pis não, á-gui-a<br>
-  <strong>Polissílabas</strong> (4+ sílabas): bi-ci-cle-ta, pa-ra-le-le-pí-pe-do
-</div>
+<h3>O que é Sílaba?</h3>
+<p>Sílaba é o menor grupo de sons pronunciado numa só emissão de voz. <strong>Toda sílaba tem pelo menos uma vogal</strong> como núcleo — sem vogal, não há sílaba.</p>
+
+<h3>Classificação quanto ao número de sílabas</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 14px;">
+  <thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Classificação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Nº de sílabas</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Monossílaba</td><td style="padding:8px 10px;color:#94a3b8;">1</td><td style="padding:8px 10px;color:#cbd5e1;">pá, sol, flor, mãe, mar, pão, fé</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Dissílaba</td><td style="padding:8px 10px;color:#94a3b8;">2</td><td style="padding:8px 10px;color:#cbd5e1;">ca-sa, me-sa, li-vro, pei-xe</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Trissílaba</td><td style="padding:8px 10px;color:#94a3b8;">3</td><td style="padding:8px 10px;color:#cbd5e1;">ca-der-no, lá-pis→ lá-pis (2!), á-gui-a</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Polissílaba</td><td style="padding:8px 10px;color:#94a3b8;">4 ou mais</td><td style="padding:8px 10px;color:#cbd5e1;">bi-ci-cle-ta, pa-ra-le-le-pí-pe-do</td></tr>
+  </tbody>
+</table>
 
 <h3>Regras de separação silábica</h3>
-<ul>
-  <li><strong>Dígrafos inseparáveis:</strong> ch, lh, nh, rr, ss, sc, sç, xc, gu, qu ficam juntos na mesma sílaba.</li>
-  <li><strong>Encontros consonantais:</strong> bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr, vl, vr ficam juntos.</li>
-  <li><strong>Hiato:</strong> as duas vogais são separadas.</li>
-  <li><strong>Ditongo + consoante:</strong> ficam juntos na mesma sílaba.</li>
-  <li><strong>Prefixos:</strong> sub-locar, trans-por — separa-se na fronteira do prefixo.</li>
-</ul>
-<div class="exemplo-box">
-  <em>psicologia</em> → psi-co-lo-gi-a (ps inicial: inseparável)<br>
-  <em>problema</em> → pro-ble-ma (bl inseparável)<br>
-  <em>abstrair</em> → abs-tra-ir<br>
-  <em>sublinhar</em> → sub-li-nhar
-</div>
+<table style="width:100%;border-collapse:collapse;font-size:0.84rem;margin:10px 0 14px;">
+  <thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Situação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Regra</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo</th></tr></thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Dígrafo inseparável (ch, lh, nh, rr, ss, sc, sç, xc)</td><td style="padding:8px 10px;color:#94a3b8;">Fica junto na mesma sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">ca-<strong>rr</strong>o, ni-<strong>nh</strong>o, pa-<strong>ss</strong>o</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Encontro consonantal (bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr)</td><td style="padding:8px 10px;color:#94a3b8;">Fica junto na mesma sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">pro-<strong>bl</strong>e-ma, a-<strong>tr</strong>a-ir</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Hiato (duas vogais em sílabas diferentes)</td><td style="padding:8px 10px;color:#94a3b8;">Separa as vogais</td><td style="padding:8px 10px;color:#cbd5e1;">sa-<strong>ú</strong>-de, po-<strong>e</strong>-ma</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Ditongo (vogal + semivogal)</td><td style="padding:8px 10px;color:#94a3b8;">Fica junto na mesma sílaba</td><td style="padding:8px 10px;color:#cbd5e1;">pei-xe, rei, cau-sa</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">Consoante sozinha entre vogais</td><td style="padding:8px 10px;color:#94a3b8;">Fica com a vogal seguinte</td><td style="padding:8px 10px;color:#cbd5e1;">a-<strong>m</strong>or, ca-<strong>s</strong>a</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;">Fronteira de prefixo</td><td style="padding:8px 10px;color:#94a3b8;">Separa na junção do prefixo</td><td style="padding:8px 10px;color:#cbd5e1;"><strong>sub</strong>-li-nhar, <strong>trans</strong>-por-te</td></tr>
+  </tbody>
+</table>
 
-<h3>Classificação quanto à posição da sílaba tônica</h3>
 <div class="exemplo-box">
-  <strong>Oxítona</strong> — tônica na última sílaba: ca-FÉ, pa-PEL, sol-DAR<br>
-  <strong>Paroxítona</strong> — tônica na penúltima: CA-sa, já-NELA não → ca-DER-no, LÁ-pis<br>
-  <strong>Proparoxítona</strong> — tônica na antepenúltima: MÉ-di-co, PÁ-gi-na, ÚL-ti-mo
+  <em>psicologia</em>  → psi-co-lo-gi-a &nbsp;(ps: grupo inicial inseparável)<br>
+  <em>problema</em>    → pro-ble-ma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(bl inseparável)<br>
+  <em>abstrair</em>    → abs-tra-ir &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(str: grupo + hiato ai)<br>
+  <em>sublinhar</em>   → sub-li-nhar &nbsp;&nbsp;&nbsp;&nbsp;(fronteira do prefixo sub-)<br>
+  <em>saúde</em>       → sa-ú-de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(hiato: ú tônico = sílaba separada)
 </div>
-<p>Todas as proparoxítonas são acentuadas graficamente. Paroxítonas e oxítonas seguem regras específicas.</p>
-
-<h3>Regras de Acentuação Gráfica</h3>
-<p><strong>Oxítonas</strong> — acentuam-se as terminadas em: <em>a(s), e(s), o(s), em, ens</em></p>
-<div class="exemplo-box">
-  café, avó, armazém, parabéns, está
-</div>
-<p><strong>Paroxítonas</strong> — acentuam-se as terminadas em: <em>l, r, x, n, ps, ã(s), ão(s), ditongo oral ou nasal</em></p>
-<div class="exemplo-box">
-  difícil, açúcar, tórax, hífen, fórceps, órfã, órgão, série, história
-</div>
-<p><strong>Proparoxítonas</strong> — <em>todas</em> são acentuadas:</p>
-<div class="exemplo-box">
-  médico, lâmpada, ônibus, pálido, sílaba
-</div>
-
-<h3>Acordo Ortográfico de 2009 — principais mudanças</h3>
-<ul>
-  <li>Eliminação do <strong>trema</strong> (ü): "freqüência" → <em>frequência</em>; "qüestão" → <em>questão</em>.</li>
-  <li>Eliminação do acento em <strong>ditongos abertos ei, oi em paroxítonas</strong>: "idéia" → <em>ideia</em>; "heróico" mantém (oxítona).</li>
-  <li>Eliminação do acento diferencial em paroxítonas homógrafas: <em>para</em> (verbo e preposição), <em>pelo</em> (verbo e artigo+substantivo), <em>pelo</em>.</li>
-  <li><em>Vôo → voo</em>, <em>enjôo → enjoo</em>: acento circunflexo eliminado em monossílabas/paroxítonas com oo/ee.</li>
-  <li>Mantêm-se: <em>pôde × pode</em> (diferencial verbal ainda aceito), <em>pôr × por</em>.</li>
-</ul>
 
 <div class="dica-box">
-  <div class="dica-title">Dicas para prova</div>
+  <div class="dica-title">Dicas — Sílabas</div>
   <ul>
-    <li>Toda proparoxítona leva acento — sem exceção.</li>
-    <li>"Voo", "ideia", "geleia", "assembleia" — sem acento após 2009.</li>
-    <li>Trema só existe em nomes estrangeiros: Müller, Günter.</li>
-    <li>Paroxítonas terminadas em vogal (a, e, o) não levam acento: "amigo", "janela", "mesa".</li>
-    <li>Cuidado com "fácil" (paroxítona terminada em l → acentuada) × "facil" (errado).</li>
-    <li>Monossílabos tônicos: pé, pá, pó, só, mês, nós, vós, ré — acentuados. Átonos: de, se, me, te — não.</li>
+    <li>Toda sílaba tem obrigatoriamente uma vogal — conte vogais para contar sílabas.</li>
+    <li>Ditongo = uma sílaba. Hiato = duas sílabas. Essa diferença é a mais cobrada.</li>
+    <li>Dígrafos (ch, lh, nh, rr, ss, sc, sç, xc, gu+e/i, qu+e/i) nunca se separam.</li>
+    <li>Encontros consonantais inseparáveis (bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr) ficam juntos.</li>
+    <li><em>i</em> ou <em>u</em> com acento gráfico (í, ú) = sempre hiato, nunca fica junto com vogal anterior.</li>
   </ul>
 </div>`,
     questoes: [
@@ -3668,8 +3647,59 @@ ir('screen-home');
   var teorias = {
 
     silabasAcentuacao_extra: `
-<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — ACENTUAÇÃO GRÁFICA</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Quando e por que colocar acento nas palavras</p></div>
-<h3>Por que acentuar?</h3>
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — ACENTUAÇÃO GRÁFICA</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Tonicidade e regras de acentuação</p></div>
+
+<h3>1. Tonicidade — a base da acentuação gráfica</h3>
+<p>Toda palavra tem uma sílaba pronunciada com mais intensidade: a <strong>sílaba tônica</strong>. Identificar qual é essa sílaba é o <strong>primeiro passo obrigatório</strong> antes de aplicar qualquer regra de acento — porque todas as regras são baseadas em "se a palavra for oxítona…", "se for paroxítona…", "se for proparoxítona…".</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Classificação</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Definição</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplos (tônica em MAIÚSCULA)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Oxítona</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>última</strong> sílaba</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">ca-FÉ, pa-PEL, so-FÁ, tam-BÉM, pa-ra-BÉNS</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Paroxítona</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>penúltima</strong> sílaba</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">CA-sa, LÁ-pis, ca-DER-no, fá-CIL, A-çú-car</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Proparoxítona</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Tônica na <strong>antepenúltima</strong> sílaba</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">MÉ-di-co, PÁ-gi-na, ÔN-i-bus, SÍ-la-ba, ÚL-ti-mo</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Como identificar a sílaba tônica:</strong><br><br>
+  1. Divida a palavra em sílabas.<br>
+  2. Pronuncie em voz alta — a sílaba mais "pesada" é a tônica.<br>
+  3. Conte da direita para a esquerda: última (oxítona), penúltima (paroxítona), antepenúltima (proparoxítona).<br><br>
+  <em>médico</em> → mé-di-co → 3 sílabas → tônica em mé → é a 3ª contando da direita → <strong>proparoxítona</strong><br>
+  <em>janela</em> → ja-ne-la → 3 sílabas → tônica em ne → é a 2ª contando da direita → <strong>paroxítona</strong><br>
+  <em>café</em>   → ca-fé     → 2 sílabas → tônica em fé → é a 1ª contando da direita → <strong>oxítona</strong>
+</div>
+
+<div class="dica-box">
+  <div class="dica-title">Regra prática — maioria das palavras em português</div>
+  <ul>
+    <li>A grande maioria das palavras do português é <strong>paroxítona</strong>. Isso significa que a língua espera que a tônica caia na penúltima.</li>
+    <li>O acento gráfico existe exatamente para sinalizar quando a tônica <strong>foge do padrão</strong> paroxítono — seja para a última (oxítona), para a antepenúltima (proparoxítona), ou quando é paroxítona com terminação que não é óbvia.</li>
+    <li>Toda proparoxítona recebe acento — sem exceção. São tão raras que a língua sempre as marca.</li>
+    <li>Monossílabas tônicas: pé, pá, pó, só, mês, nós, vós, ré → acentuadas. Átonas: de, se, me, te → não.</li>
+  </ul>
+</div>
+
+<h3>2. Por que acentuar?</h3>
 <p>O acento gráfico serve para indicar a sílaba tônica quando ela <strong>não coincide com o padrão esperado</strong> da língua. A maioria das palavras em português é paroxítona — portanto paroxítonas com terminações comuns <strong>não</strong> recebem acento.</p>
 <h3>Regras principais (Novo Acordo Ortográfico)</h3>
 <ul>
