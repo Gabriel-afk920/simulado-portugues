@@ -3118,6 +3118,26 @@ ir('screen-home');
     var tema = TEMAS.find(function(t){ return t.id === temaId; });
     if (tema) tema.questoes = QUESTOES_BANCO.questoes[temaId];
   }
+
+  // ── 4. Seção combinada: Fonética e Ortografia ────────────────────────────────
+  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabasAcentuacao','tonicidade'];
+  var qFon = [];
+  IDS_FON.forEach(function(id) {
+    var t = TEMAS.find(function(t){ return t.id === id; });
+    if (t && t.questoes.length) qFon = qFon.concat(t.questoes);
+  });
+  if (qFon.length > 0) {
+    var idxExist = TEMAS.findIndex(function(t){ return t.id === 'fonetica_ortografia'; });
+    if (idxExist > -1) TEMAS.splice(idxExist, 1);
+    TEMAS.unshift({
+      id: 'fonetica_ortografia',
+      nome: 'Fonética e Ortografia',
+      icon: '📖',
+      desc: 'Todos os temas reunidos — ' + qFon.length + ' questões',
+      teoria: '<h3>Fonética e Ortografia</h3><p>Esta seção reúne todos os temas de fonética e ortografia.</p>',
+      questoes: qFon
+    });
+  }
 })();
 </script>
 </body>
