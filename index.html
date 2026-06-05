@@ -2376,7 +2376,7 @@ const TEMAS = [
 ,
   {
     id: "tonicidade", nome: "Tonicidade", icon: "🎯", desc: "Sílaba tônica e sufixos",
-    teoria: `<div style="background:linear-gradient(135deg,#0c4a6e,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — TONICIDADE</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Classificação das palavras pela posição da sílaba tônica</p></div>
+    teoria: `<h3>Classificação das palavras pela posição da sílaba tônica</h3>
 
 <h3>O que é Tonicidade?</h3>
 <p><strong>Tonicidade</strong> é a propriedade que define qual sílaba de uma palavra carrega maior intensidade. Toda palavra com duas ou mais sílabas tem exatamente uma <strong>sílaba tônica</strong> — as demais são <strong>sílabas átonas</strong>.</p>
@@ -3581,6 +3581,7 @@ ir('screen-home');
   if (typeof QUESTOES_BANCO === 'undefined') return;
 
   // ── 1. Garante que silabasAcentuacao existe (renomeia tonicidade se necessário) ─
+  var tonTeoria = '';
   var sil = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
   var ton = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
   if (!sil && ton) {
@@ -3591,7 +3592,7 @@ ir('screen-home');
   } else if (sil && ton) {
     sil.nome   = 'Sílabas e Acentuação';
     sil.desc   = 'Sílabas, tonicidade, acentuação gráfica e crase';
-    sil.teoria = sil.teoria + ton.teoria;
+    tonTeoria  = ton.teoria;
     TEMAS.splice(TEMAS.indexOf(ton), 1);
   }
   ['crase', 'acentuacaoGrafica'].forEach(function(id) {
@@ -4089,7 +4090,16 @@ ir('screen-home');
 
   // Aplica teoria extra ao silabasAcentuacao
   var silTema = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
-  if (silTema) silTema.teoria = (silTema.teoria || '') + teorias.silabasAcentuacao_extra;
+  if (silTema) {
+    var extra = teorias.silabasAcentuacao_extra;
+    if (tonTeoria) {
+      var p3idx = extra.indexOf('PARTE 3 — CRASE');
+      if (p3idx > 0) { while (p3idx > 0 && extra[p3idx] !== '\n') p3idx--; }
+      silTema.teoria = (silTema.teoria || '') + (p3idx > 0 ? extra.slice(0, p3idx) + '\n' + tonTeoria + extra.slice(p3idx) : extra + tonTeoria);
+    } else {
+      silTema.teoria = (silTema.teoria || '') + extra;
+    }
+  }
 
   // Aplica teoria aos temas com teoria vazia
   ['hifen','concordancia','colocacaoPronominal','paronimosHomonimos','classesGramaticais'].forEach(function(id) {
