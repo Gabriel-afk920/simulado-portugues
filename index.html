@@ -3093,10 +3093,15 @@ ir('screen-home');
 (function() {
   if (typeof QUESTOES_BANCO === 'undefined') return;
 
-  // ── 1. Funde tonicidade, crase e acentuacaoGrafica em silabasAcentuacao ──────
+  // ── 1. Garante que silabasAcentuacao existe (renomeia tonicidade se necessário) ─
   var sil = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
   var ton = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
-  if (sil && ton) {
+  if (!sil && ton) {
+    ton.id   = 'silabasAcentuacao';
+    ton.nome = 'Sílabas e Acentuação';
+    ton.desc = 'Sílabas, tonicidade, acentuação gráfica e crase';
+    sil = ton;
+  } else if (sil && ton) {
     sil.nome   = 'Sílabas e Acentuação';
     sil.desc   = 'Sílabas, tonicidade, acentuação gráfica e crase';
     sil.teoria = sil.teoria + ton.teoria;
@@ -3112,6 +3117,16 @@ ir('screen-home');
     if (!TEMAS.find(function(t){ return t.id === id; })) {
       var m = QUESTOES_BANCO.novosTemas[id];
       TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, teoria: '', questoes: [] });
+    }
+  }
+  // Temas do banco não declarados em novosTemas
+  var extrasImplicitos = {
+    classesGramaticais: { nome: 'Classes Gramaticais', icon: '📚', desc: 'As 10 classes de palavras do português' }
+  };
+  for (var xid in extrasImplicitos) {
+    if (QUESTOES_BANCO.questoes[xid] && !TEMAS.find(function(t){ return t.id === xid; })) {
+      var xm = extrasImplicitos[xid];
+      TEMAS.push({ id: xid, nome: xm.nome, icon: xm.icon, desc: xm.desc, teoria: '', questoes: [] });
     }
   }
 
@@ -3141,6 +3156,218 @@ ir('screen-home');
       questoes: qFon
     });
   }
+  // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────
+  var teorias = {
+
+    silabasAcentuacao_extra: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — ACENTUAÇÃO GRÁFICA</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Quando e por que colocar acento nas palavras</p></div>
+<h3>Por que acentuar?</h3>
+<p>O acento gráfico serve para indicar a sílaba tônica quando ela <strong>não coincide com o padrão esperado</strong> da língua. A maioria das palavras em português é paroxítona — portanto paroxítonas com terminações comuns <strong>não</strong> recebem acento.</p>
+<h3>Regras principais (Novo Acordo Ortográfico)</h3>
+<ul>
+<li><strong>Proparoxítonas:</strong> TODAS recebem acento. Ex.: médico, lâmpada, sábado.</li>
+<li><strong>Oxítonas</strong> terminadas em -a(s), -e(s), -o(s), -em, -ens: recebem acento. Ex.: café, avó, também, parabéns.</li>
+<li><strong>Paroxítonas</strong> com terminações incomuns: recebem acento. Ex.: lápis, álbum, fácil, júri, vírus, ímã.</li>
+<li><strong>Hiatos i e u tônicos</strong> (após vogal, não seguidos de nh): recebem acento. Ex.: saída, saúde, baú. <em>Exceção: não acentua quando seguido de nh: rainha, moinho.</em></li>
+</ul>
+<h3>O que o Novo Acordo eliminou (2009)</h3>
+<ul>
+<li>Acento diferencial: <em>pára/para, pélo/pelo</em> — <strong>não se usa mais</strong>.</li>
+<li>Trema: <em>lingüiça, qüestão</em> — <strong>não se usa mais</strong> (exceto em nomes próprios estrangeiros).</li>
+<li>Acento no ditongo aberto -éi, -ói em paroxítonas: <em>idéia, jóia</em> → <strong>ideia, joia</strong>.</li>
+<li>Acento em -oo- e -ee- de paroxítonas: <em>vôo, crêem</em> → <strong>voo, creem</strong>.</li>
+</ul>
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:20px 0;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 3 — CRASE</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">O uso do acento grave (à)</p></div>
+<h3>O que é crase?</h3>
+<p>Crase é a <strong>fusão</strong> da preposição <em>a</em> com o artigo <em>a(s)</em>. Representa-se pelo acento grave: <strong>à / às</strong>. Só ocorre antes de palavras femininas que aceitam o artigo <em>a</em>.</p>
+<h3>Teste para saber se há crase</h3>
+<p>Substitua o termo feminino por um masculino equivalente. Se aparecer <strong>"ao"</strong>, usa crase; se aparecer <strong>"a"</strong> sem artigo, não usa.</p>
+<div class="exemplo-box">Fui <strong>à</strong> escola. → Fui <strong>ao</strong> colégio. ✓ (usa crase)<br>Vou <strong>a</strong> pé. → Vou <strong>a</strong> pé. (sem artigo, sem crase)</div>
+<h3>Uso OBRIGATÓRIO da crase</h3>
+<ul>
+<li>Antes de substantivos femininos: <em>Refiro-me <strong>à</strong> proposta.</em></li>
+<li>Antes de pronomes possessivos femininos: <em>Refiro-me <strong>à</strong> sua proposta.</em></li>
+<li>Expressões de horas: <em><strong>às</strong> 8h, <strong>à</strong> meia-noite.</em></li>
+<li>Expressões femininas fixas: <em><strong>à</strong> toa, <strong>à</strong> vontade, <strong>à</strong> medida que.</em></li>
+</ul>
+<h3>Uso PROIBIDO da crase</h3>
+<ul>
+<li>Antes de verbos: <em>Estou disposto <strong>a</strong> trabalhar.</em></li>
+<li>Antes de palavras masculinas: <em>Refiro-me <strong>a</strong> um problema.</em></li>
+<li>Antes de pronomes pessoais, demonstrativos neutros (isto, isso, aquilo), indefinidos (alguma, nenhuma): <em>Dei <strong>a</strong> ela.</em></li>
+<li>Antes de nomes de cidades (sem adjunto): <em>Fui <strong>a</strong> Paris.</em></li>
+</ul>
+<h3>Uso FACULTATIVO da crase</h3>
+<ul>
+<li>Antes de pronomes possessivos femininos: <em>Refiro-me <strong>à/a</strong> sua casa.</em></li>
+<li>Antes de nomes femininos de pessoas: <em>Dirija-se <strong>à/a</strong> Maria.</em></li>
+<li>Antes de nomes de cidades com adjunto: <em>Voltei <strong>à/a</strong> Roma antiga.</em></li>
+</ul>`,
+
+    hifen: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">HÍFEN — Novo Acordo Ortográfico (2009)</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Regras de hifenização em palavras compostas e com prefixos</p></div>
+<h3>1. Palavras compostas</h3>
+<p>Palavras formadas por dois ou mais elementos que juntos expressam um conceito único.</p>
+<ul>
+<li><strong>Com hífen:</strong> quando os elementos mantêm autonomia ou há possibilidade de ambiguidade. Ex.: <em>guarda-chuva, beija-flor, pão-duro, bem-estar, recém-nascido, porta-voz.</em></li>
+<li><strong>Sem hífen:</strong> quando a fusão é total e o conjunto forma uma única unidade fonética. Ex.: <em>girassol, mandachuva, planalto, malmequer.</em></li>
+</ul>
+<h3>2. Prefixos — regra fundamental</h3>
+<p>A regra central do Novo Acordo: o hífen depende da <strong>letra inicial do segundo elemento</strong>.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;">
+<thead><tr style="background:#0c4a6e;color:#7dd3fc;"><th style="padding:8px 10px;">Situação</th><th style="padding:8px 10px;">Regra</th><th style="padding:8px 10px;">Exemplos</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;">2º elemento começa com <strong>h</strong></td><td style="padding:8px 10px;color:#4ade80;">USA hífen</td><td style="padding:8px 10px;color:#cbd5e1;">anti-higiênico, super-homem, sub-humano</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;">2º elemento começa com <strong>mesma letra</strong> do prefixo</td><td style="padding:8px 10px;color:#4ade80;">USA hífen</td><td style="padding:8px 10px;color:#cbd5e1;">micro-ondas, anti-inflamatório, sub-bibliotecário</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;">2º elemento começa com <strong>vogal diferente</strong></td><td style="padding:8px 10px;color:#f87171;">SEM hífen</td><td style="padding:8px 10px;color:#cbd5e1;">autoescola, semiaberto, contraindicado, extraoficial</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;">2º elemento começa com <strong>consoante</strong></td><td style="padding:8px 10px;color:#f87171;">SEM hífen</td><td style="padding:8px 10px;color:#cbd5e1;">antivírus, supermercado, semicírculo, contrarreforma</td></tr>
+</tbody></table>
+<h3>3. Prefixos que sempre pedem hífen</h3>
+<ul>
+<li><strong>ex-</strong> (sentido de estado anterior): <em>ex-presidente, ex-namorado.</em></li>
+<li><strong>vice-</strong>: <em>vice-presidente, vice-diretor.</em></li>
+<li><strong>grão- / grã-</strong>: <em>grão-mestre, grã-duquesa.</em></li>
+<li><strong>além-, aquém-, recém-, sem-</strong>: <em>além-mar, recém-casado, sem-teto.</em></li>
+</ul>
+<h3>4. Prefixos que NUNCA pedem hífen (por consoante)</h3>
+<p>Anti, auto, contra, extra, infra, intra, micro, mini, proto, pseudo, semi, sobre, sub, super, ultra — não usam hífen quando o segundo elemento começa com consoante diferente.</p>
+<div class="exemplo-box">antivírus ✓ &nbsp;|&nbsp; autopeças ✓ &nbsp;|&nbsp; supermercado ✓ &nbsp;|&nbsp; ultrassom ✓</div>
+<h3>5. Expressões fixas com hífen</h3>
+<p><em>bem-estar, mal-estar, bem-vindo, boa-fé, má-fé, cor-de-rosa, fim-de-semana (ou fim de semana), água-de-colônia.</em></p>`,
+
+    concordancia: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">CONCORDÂNCIA VERBAL E NOMINAL</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Harmonia entre sujeito/verbo e substantivo/adjetivo</p></div>
+<h3>CONCORDÂNCIA VERBAL — Regra geral</h3>
+<p>O verbo concorda em <strong>número e pessoa</strong> com o sujeito.</p>
+<div class="exemplo-box">Os alunos <strong>estudam</strong> todos os dias. (sujeito plural → verbo plural)</div>
+<h3>Casos especiais de Concordância Verbal</h3>
+<ul>
+<li><strong>Sujeito composto antes do verbo:</strong> verbo no plural. <em>Pedro e Maria <strong>vieram</strong>.</em></li>
+<li><strong>Sujeito composto após o verbo:</strong> pode concordar com o mais próximo ou ir ao plural. <em>Vieram Pedro e Maria / Veio Pedro e Maria.</em></li>
+<li><strong>Sujeito composto com "ou" (exclusão):</strong> verbo no singular. <em>Pedro ou Maria <strong>virá</strong>.</em></li>
+<li><strong>"A maioria de", "a maior parte de":</strong> verbo no singular (ou plural pelo sentido). <em>A maioria dos alunos <strong>foi</strong> aprovada.</em></li>
+<li><strong>Pronome relativo "que":</strong> verbo concorda com o antecedente. <em>Sou eu que <strong>faço</strong>. / És tu que <strong>fazes</strong>.</em></li>
+<li><strong>Pronome relativo "quem":</strong> verbo vai para a 3ª pessoa. <em>Sou eu quem <strong>faz</strong>.</em></li>
+<li><strong>"Haver" impessoal (existir/ocorrer):</strong> sempre singular. <em><strong>Há</strong> muitos problemas. <strong>Houve</strong> conflitos.</em></li>
+<li><strong>"Fazer" impessoal (tempo/fenômeno):</strong> sempre singular. <em><strong>Faz</strong> dois anos. <strong>Fazia</strong> calor.</em></li>
+<li><strong>Verbos com sujeito "tudo, nada, ninguém, alguém":</strong> singular. <em>Tudo <strong>correu</strong> bem.</em></li>
+<li><strong>Porcentagens:</strong> concorda com o numeral ou com o substantivo seguinte. <em>50% dos votos <strong>foram</strong> válidos. / 50% do eleitorado <strong>votou</strong>.</em></li>
+</ul>
+<h3>CONCORDÂNCIA NOMINAL — Regra geral</h3>
+<p>O adjetivo, o artigo, o numeral e o pronome concordam em <strong>gênero e número</strong> com o substantivo.</p>
+<div class="exemplo-box">As <strong>belas</strong> flores <strong>vermelhas</strong> perfumavam o jardim.</div>
+<h3>Casos especiais de Concordância Nominal</h3>
+<ul>
+<li><strong>Adjetivo após vários substantivos de gêneros diferentes:</strong> vai para o masculino plural. <em>O pai e a mãe estavam <strong>preocupados</strong>.</em></li>
+<li><strong>Adjetivo antes de vários substantivos:</strong> concorda com o mais próximo. <em><strong>Belo</strong> pai e filha.</em></li>
+<li><strong>"Mesmo", "próprio", "só", "obrigado":</strong> concordam com o substantivo/pronome. <em>Ela mesma <strong>disse</strong>. / Ela está <strong>só</strong>. / Obrigada (dito por mulher).</em></li>
+<li><strong>"Muito, pouco, caro, barato, longe" como advérbio:</strong> invariáveis. <em>Elas falaram <strong>muito</strong>. Os preços custaram <strong>caro</strong>.</em></li>
+<li><strong>"Menos" é sempre invariável:</strong> <em>Tenho <strong>menos</strong> dúvidas.</em> (nunca "menas")</li>
+<li><strong>"Anexo / incluso":</strong> concordam com o substantivo. <em>Segue <strong>anexa</strong> a cópia. / <strong>Inclusos</strong> os documentos.</em></li>
+<li><strong>"Em anexo":</strong> invariável. <em>Segue <strong>em anexo</strong> a cópia.</em></li>
+</ul>`,
+
+    colocacaoPronominal: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">COLOCAÇÃO PRONOMINAL</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Posição dos pronomes oblíquos átonos: me, te, se, o, a, lhe, nos, vos, os, as, lhes</p></div>
+<h3>As três posições</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;">
+<thead><tr style="background:#0c4a6e;color:#7dd3fc;"><th style="padding:8px 10px;">Posição</th><th style="padding:8px 10px;">Onde está o pronome</th><th style="padding:8px 10px;">Exemplo</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Próclise</td><td style="padding:8px 10px;color:#cbd5e1;">ANTES do verbo</td><td style="padding:8px 10px;color:#fde68a;">Não <strong>me</strong> diga isso.</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#38bdf8;font-weight:700;">Mesóclise</td><td style="padding:8px 10px;color:#cbd5e1;">NO MEIO do verbo (futuro e condicional)</td><td style="padding:8px 10px;color:#fde68a;">Dir-<strong>te</strong>-ei a verdade.</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f59e0b;font-weight:700;">Ênclise</td><td style="padding:8px 10px;color:#cbd5e1;">DEPOIS do verbo</td><td style="padding:8px 10px;color:#fde68a;">Diga-<strong>me</strong> a verdade.</td></tr>
+</tbody></table>
+<h3>PRÓCLISE — quando é obrigatória</h3>
+<p>Palavras que <strong>atraem</strong> o pronome para antes do verbo:</p>
+<ul>
+<li><strong>Palavras negativas:</strong> não, nunca, jamais, ninguém, nada. <em>Nunca <strong>me</strong> decepcionei.</em></li>
+<li><strong>Pronomes relativos:</strong> que, quem, onde, cujo. <em>Foi ela que <strong>me</strong> avisou.</em></li>
+<li><strong>Pronomes indefinidos:</strong> alguém, ninguém, tudo, nada, muito, pouco. <em>Alguém <strong>te</strong> procurou.</em></li>
+<li><strong>Conjunções subordinativas:</strong> quando, se, porque, embora, como, conforme. <em>Quando <strong>se</strong> cansa, descansa.</em></li>
+<li><strong>Advérbios:</strong> apenas, já, ainda, sempre, só, bem, mal, talvez. <em>Já <strong>lhe</strong> disse.</em></li>
+<li><strong>Pronomes demonstrativos:</strong> isto, isso, aquilo. <em>Isso <strong>me</strong> preocupa.</em></li>
+<li><strong>Frases exclamativas e interrogativas:</strong> <em>Quanto <strong>me</strong> custa!</em></li>
+</ul>
+<h3>MESÓCLISE — quando ocorre</h3>
+<p>Usada na língua culta formal com verbos no <strong>futuro do presente</strong> e <strong>futuro do pretérito</strong>, quando não há palavra atrativa.</p>
+<div class="exemplo-box">Direi → Dir-te-ei &nbsp;|&nbsp; Faria → Far-me-ia &nbsp;|&nbsp; Daremos → Dar-lhe-emos</div>
+<h3>ÊNCLISE — quando é usada</h3>
+<p>É a posição padrão na <strong>língua escrita formal</strong> quando não há palavra atrativa.</p>
+<ul>
+<li>Em início de frase (na língua culta): <em>Diga-<strong>me</strong> a verdade.</em></li>
+<li>Após vírgula: <em>Venha cedo, traga-<strong>me</strong> os documentos.</em></li>
+<li>Com verbos no imperativo afirmativo: <em>Sente-<strong>se</strong>! Fale-<strong>me</strong>!</em></li>
+</ul>
+<div class="dica-box"><div class="dica-title">Atenção — proibido em concursos</div><ul><li>Pronome no início de frase: ❌ <em>Me diga a verdade.</em> (errado na norma culta)</li><li>Ênclise com futuro sem mesóclise quando não há atrativo: preferir mesóclise na escrita formal.</li></ul></div>`,
+
+    paronimosHomonimos: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARÔNIMOS E HOMÔNIMOS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Palavras que se confundem na escrita ou na pronúncia</p></div>
+<h3>Parônimos</h3>
+<p>Palavras com <strong>grafia e pronúncia parecidas</strong>, mas com significados diferentes.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;">
+<thead><tr style="background:#0c4a6e;color:#7dd3fc;"><th style="padding:8px 10px;">Par</th><th style="padding:8px 10px;">Significado</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>absolver</strong> / <strong>absorver</strong></td><td style="padding:8px 10px;color:#cbd5e1;">perdoar / sugar, absorver</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>aprender</strong> / <strong>apreender</strong></td><td style="padding:8px 10px;color:#cbd5e1;">adquirir conhecimento / prender, confiscar</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>comprimento</strong> / <strong>cumprimento</strong></td><td style="padding:8px 10px;color:#cbd5e1;">extensão / saudação, ato de cumprir</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>descriminar</strong> / <strong>discriminar</strong></td><td style="padding:8px 10px;color:#cbd5e1;">inocentar de crime / distinguir, separar, tratar diferente</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>deferir</strong> / <strong>diferir</strong></td><td style="padding:8px 10px;color:#cbd5e1;">conceder, deferir um pedido / ser diferente, adiar</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>emigrar</strong> / <strong>imigrar</strong></td><td style="padding:8px 10px;color:#cbd5e1;">sair do país / entrar no país</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>flagrante</strong> / <strong>fragrante</strong></td><td style="padding:8px 10px;color:#cbd5e1;">evidente, em ato / perfumado</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>iminente</strong> / <strong>eminente</strong></td><td style="padding:8px 10px;color:#cbd5e1;">prestes a ocorrer / ilustre, elevado</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>ratificar</strong> / <strong>retificar</strong></td><td style="padding:8px 10px;color:#cbd5e1;">confirmar / corrigir</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>tráfego</strong> / <strong>tráfico</strong></td><td style="padding:8px 10px;color:#cbd5e1;">trânsito / comércio ilegal</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;"><strong>seção</strong> / <strong>sessão</strong> / <strong>cessão</strong></td><td style="padding:8px 10px;color:#cbd5e1;">divisão / reunião / ato de ceder</td></tr>
+</tbody></table>
+<h3>Homônimos</h3>
+<p>Palavras com <strong>mesma grafia ou pronúncia</strong>, mas significados diferentes.</p>
+<ul>
+<li><strong>Homófonos:</strong> mesma pronúncia, grafia diferente. <em>acender (ligar) / ascender (subir) · conserto (reparo) / concerto (musical) · caça (animal) / casa.</em></li>
+<li><strong>Homógrafos:</strong> mesma grafia, pronúncia diferente. <em>colher (verbo: pegar) / colher (substantivo: utensílio) · jogo (do verbo jogar) / jôgo (antigo).</em></li>
+<li><strong>Homônimos perfeitos:</strong> mesma grafia E mesma pronúncia. <em>manga (fruta) / manga (de camisa) · canto (música) / canto (canto da sala).</em></li>
+</ul>`,
+
+    classesGramaticais: `
+<div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">CLASSES GRAMATICAIS (CLASSES DE PALAVRAS)</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">As 10 classes do português e como identificá-las</p></div>
+<h3>Visão Geral</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;">
+<thead><tr style="background:#0c4a6e;color:#7dd3fc;"><th style="padding:8px 10px;">Classe</th><th style="padding:8px 10px;">Função</th><th style="padding:8px 10px;">Varia em</th><th style="padding:8px 10px;">Exemplo</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Substantivo</td><td style="padding:8px 10px;color:#cbd5e1;">Nomeia seres, lugares, sentimentos</td><td style="padding:8px 10px;color:#94a3b8;">gênero, número</td><td style="padding:8px 10px;color:#fde68a;">casa, amor, Brasil</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Artigo</td><td style="padding:8px 10px;color:#cbd5e1;">Determina o substantivo</td><td style="padding:8px 10px;color:#94a3b8;">gênero, número</td><td style="padding:8px 10px;color:#fde68a;">o, a, os, as, um, uma</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Adjetivo</td><td style="padding:8px 10px;color:#cbd5e1;">Caracteriza o substantivo</td><td style="padding:8px 10px;color:#94a3b8;">gênero, número, grau</td><td style="padding:8px 10px;color:#fde68a;">belo, alto, inteligente</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Numeral</td><td style="padding:8px 10px;color:#cbd5e1;">Indica quantidade ou ordem</td><td style="padding:8px 10px;color:#94a3b8;">gênero, número</td><td style="padding:8px 10px;color:#fde68a;">um, dois, primeiro, dobro</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Pronome</td><td style="padding:8px 10px;color:#cbd5e1;">Substitui ou acompanha o substantivo</td><td style="padding:8px 10px;color:#94a3b8;">pessoa, gênero, número</td><td style="padding:8px 10px;color:#fde68a;">eu, ele, meu, que, alguém</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Verbo</td><td style="padding:8px 10px;color:#cbd5e1;">Indica ação, estado ou fenômeno</td><td style="padding:8px 10px;color:#94a3b8;">pessoa, número, tempo, modo</td><td style="padding:8px 10px;color:#fde68a;">correr, ser, chover</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Advérbio</td><td style="padding:8px 10px;color:#cbd5e1;">Modifica verbo, adjetivo ou outro advérbio</td><td style="padding:8px 10px;color:#94a3b8;">invariável (grau apenas)</td><td style="padding:8px 10px;color:#fde68a;">muito, ontem, aqui, bem</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Preposição</td><td style="padding:8px 10px;color:#cbd5e1;">Liga palavras indicando relação</td><td style="padding:8px 10px;color:#94a3b8;">invariável</td><td style="padding:8px 10px;color:#fde68a;">de, em, para, por, com, a</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Conjunção</td><td style="padding:8px 10px;color:#cbd5e1;">Liga orações ou palavras</td><td style="padding:8px 10px;color:#94a3b8;">invariável</td><td style="padding:8px 10px;color:#fde68a;">e, mas, porque, quando, se</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Interjeição</td><td style="padding:8px 10px;color:#cbd5e1;">Exprime emoção ou reação</td><td style="padding:8px 10px;color:#94a3b8;">invariável</td><td style="padding:8px 10px;color:#fde68a;">Ah! Ufa! Olá! Parabéns!</td></tr>
+</tbody></table>
+<h3>Classes variáveis × invariáveis</h3>
+<ul>
+<li><strong>Variáveis</strong> (flexionam): substantivo, artigo, adjetivo, numeral, pronome, verbo.</li>
+<li><strong>Invariáveis</strong> (não flexionam): advérbio, preposição, conjunção, interjeição.</li>
+</ul>
+<h3>Como identificar a classe em concursos</h3>
+<ul>
+<li><strong>Substantivo:</strong> pode ser precedido de artigo (<em>o amor, a justiça</em>).</li>
+<li><strong>Adjetivo × Advérbio:</strong> se modifica substantivo = adjetivo; se modifica verbo/adjetivo e não varia = advérbio.</li>
+<li><strong>Palavra com mais de uma classe:</strong> analise a função na frase. <em>Falei muito</em> (advérbio) / <em>Muito aluno faltou</em> (pronome indefinido).</li>
+<li><strong>Conjunção × Preposição:</strong> conjunção liga orações ou palavras da mesma classe; preposição liga palavras de classes diferentes.</li>
+</ul>`
+  };
+
+  // Aplica teoria extra ao silabasAcentuacao
+  var silTema = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
+  if (silTema) silTema.teoria = (silTema.teoria || '') + teorias.silabasAcentuacao_extra;
+
+  // Aplica teoria aos temas com teoria vazia
+  ['hifen','concordancia','colocacaoPronominal','paronimosHomonimos','classesGramaticais'].forEach(function(id) {
+    var t = TEMAS.find(function(t){ return t.id === id; });
+    if (t && teorias[id]) t.teoria = teorias[id];
+  });
+
 })();
 </script>
 </body>
