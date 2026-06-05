@@ -90,6 +90,17 @@
     .tema-card .nome { font-weight: 600; font-size: 0.95rem; }
     .tema-card .desc { font-size: 0.78rem; color: #94a3b8; margin-top: 4px; }
 
+    /* ── ACCORDION SÍLABAS E ACENTUAÇÃO ── */
+    .sil-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px; margin-bottom:24px; }
+    .sil-card { background:#1e293b; border:2px solid #334155; border-radius:12px; padding:18px 14px; cursor:pointer; transition:border-color 0.2s,background 0.2s; text-align:center; }
+    .sil-card:hover { border-color:#38bdf8; background:#1e3a4a; }
+    .sil-card.sil-open { border-color:#38bdf8; background:#0c4a6e; }
+    .sil-card .sil-icon { font-size:1.8rem; margin-bottom:6px; }
+    .sil-card .sil-nome { font-weight:600; font-size:0.95rem; }
+    .sil-card .sil-desc { font-size:0.78rem; color:#94a3b8; margin-top:4px; }
+    .sil-sec { display:none; }
+    .sil-sec.sil-open { display:block; }
+
     /* ══════════════════════════════
        TELA DE TEORIA
     ══════════════════════════════ */
@@ -1769,8 +1780,6 @@ const TEMAS = [
   {
     id: "silabasAcentuacao", nome: "Sílabas e Acentuação", icon: "✍️", desc: "Divisão silábica e acentos",
     teoria: `
-<style>.sil-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:24px;}.sil-card{background:#1e293b;border:2px solid #334155;border-radius:12px;padding:18px 14px;cursor:pointer;transition:border-color 0.2s,background 0.2s;text-align:center;}.sil-card:hover{border-color:#38bdf8;background:#1e3a4a;}.sil-card.sil-open{border-color:#38bdf8;background:#0c4a6e;}.sil-icon{font-size:1.8rem;margin-bottom:6px;}.sil-nome{font-weight:600;font-size:0.95rem;}.sil-desc{font-size:0.78rem;color:#94a3b8;margin-top:4px;}.sil-sec{display:none;}.sil-sec.sil-open{display:block;}</style>
-<script>function silToggle(id){['sil-p1','sil-p2','sil-p3'].forEach(function(sid){var sec=document.getElementById(sid);var btn=document.getElementById('btn-'+sid);if(!sec)return;if(sid===id){var op=sec.classList.contains('sil-open');sec.classList.toggle('sil-open',!op);if(btn)btn.classList.toggle('sil-open',!op);}else{sec.classList.remove('sil-open');if(btn)btn.classList.remove('sil-open');}});}</script>
 <div class="sil-grid">
   <div id="btn-sil-p1" class="sil-card" onclick="silToggle('sil-p1')"><div class="sil-icon">📚</div><div class="sil-nome">Sílabas</div><div class="sil-desc">Divisão silábica e separação</div></div>
   <div id="btn-sil-p2" class="sil-card" onclick="silToggle('sil-p2')"><div class="sil-icon">✏️</div><div class="sil-nome">Acentuação Gráfica</div><div class="sil-desc">Regras, tonicidade e sufixos</div></div>
@@ -3298,6 +3307,25 @@ let shuffleMap    = {};
 let timerInterval = null;
 let tempoRestante = TEMPO;
 let respondeu     = false;
+
+// ══════════════════════════════════════════════════════════
+//  ACCORDION — SÍLABAS E ACENTUAÇÃO
+// ══════════════════════════════════════════════════════════
+function silToggle(id) {
+  ['sil-p1','sil-p2','sil-p3'].forEach(function(sid) {
+    var sec = document.getElementById(sid);
+    var btn = document.getElementById('btn-' + sid);
+    if (!sec) return;
+    if (sid === id) {
+      var op = sec.classList.contains('sil-open');
+      sec.classList.toggle('sil-open', !op);
+      if (btn) btn.classList.toggle('sil-open', !op);
+    } else {
+      sec.classList.remove('sil-open');
+      if (btn) btn.classList.remove('sil-open');
+    }
+  });
+}
 
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
