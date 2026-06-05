@@ -1681,20 +1681,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null
           },
           {
-                "enunciado": "Q4015621\nPortuguês\nOrtografia ,\nGrafia e Emprego de Iniciais Maiúsculas",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: Desconhecida. Assunto: Ortografia, Grafia e Emprego de Iniciais Maiúsculas.",
-                "banca": "Desconhecida",
-                "ano": null,
-                "assunto": "Ortografia, Grafia e Emprego de Iniciais Maiúsculas",
-                "tipo": "certo_errado",
-                "flashcard": null
-          },
-          {
                 "enunciado": "A grafia correta dos vocábulos na língua portuguesa deve observar as normas estabelecidas pelo Acordo Ortográfico vigente e as orientações do Vocabulário Ortográfico da Língua Portuguesa (VOLP). Assinale a alternativa em que todas as palavras estão grafadas corretamente:",
                 "opcoes": [
                       "A pretensão do sindicato é que a paralização seja pacífica, evitando qualquer tipo de suscitação de violência durante o trajeto.",
