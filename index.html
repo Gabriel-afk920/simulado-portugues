@@ -3416,7 +3416,10 @@ function selecionarTemaQuiz(id, card) {
   document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   temaAtual = TEMAS.find(t => t.id === id);
-  document.getElementById('btn-iniciar').disabled = false;
+  const semQuestoes = !temaAtual.questoes.length;
+  const btn = document.getElementById('btn-iniciar');
+  btn.disabled    = semQuestoes;
+  btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
 }
 
 document.getElementById('btn-iniciar').addEventListener('click', () => {
@@ -3438,6 +3441,7 @@ function shuffle(arr) {
 function iniciarSimulado(tema) {
   temaAtual    = tema;
   questoes     = shuffle(tema.questoes);
+  if (!questoes.length) return;
   indiceAtual  = 0;
   pontuacao    = 0;
   respostas    = [];
