@@ -91,15 +91,6 @@
     .tema-card .desc { font-size: 0.78rem; color: #94a3b8; margin-top: 4px; }
 
     /* ── ACCORDION SÍLABAS E ACENTUAÇÃO ── */
-    .sil-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px; margin-bottom:24px; }
-    .sil-card { background:#1e293b; border:2px solid #334155; border-radius:12px; padding:18px 14px; cursor:pointer; transition:border-color 0.2s,background 0.2s; text-align:center; }
-    .sil-card:hover { border-color:#38bdf8; background:#1e3a4a; }
-    .sil-card.sil-open { border-color:#38bdf8; background:#0c4a6e; }
-    .sil-card .sil-icon { font-size:1.8rem; margin-bottom:6px; }
-    .sil-card .sil-nome { font-weight:600; font-size:0.95rem; }
-    .sil-card .sil-desc { font-size:0.78rem; color:#94a3b8; margin-top:4px; }
-    .sil-sec { display:none; }
-    .sil-sec.sil-open { display:block; }
 
     /* ══════════════════════════════
        TELA DE TEORIA
@@ -1778,14 +1769,8 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "silabasAcentuacao", nome: "Sílabas e Acentuação", icon: "✍️", desc: "Divisão silábica e acentos",
+    id: "silabas", nome: "Sílabas", icon: "📚", desc: "Divisão silábica e separação",
     teoria: `
-<div class="sil-grid">
-  <div id="btn-sil-p1" class="sil-card sil-open" onclick="silToggle('sil-p1')"><div class="sil-icon">📚</div><div class="sil-nome">Sílabas</div><div class="sil-desc">Divisão silábica e separação</div></div>
-  <div id="btn-sil-p2" class="sil-card" onclick="silToggle('sil-p2')"><div class="sil-icon">✏️</div><div class="sil-nome">Acentuação Gráfica</div><div class="sil-desc">Regras, tonicidade e sufixos</div></div>
-  <div id="btn-sil-p3" class="sil-card" onclick="silToggle('sil-p3')"><div class="sil-icon" style="font-size:1.5rem;font-style:italic;font-weight:700;">À</div><div class="sil-nome">Crase</div><div class="sil-desc">Uso do acento grave</div></div>
-</div>
-<div id="sil-p1" class="sil-sec sil-open">
 <div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:0 0 20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — SÍLABAS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Divisão silábica e separação de palavras</p></div>
 
 <h3>O que é Sílaba?</h3>
@@ -1833,7 +1818,13 @@ const TEMAS = [
     <li><em>i</em> ou <em>u</em> com acento gráfico (í, ú) = sempre hiato, nunca fica junto com vogal anterior.</li>
   </ul>
 </div>
-</div>`,
+`,
+    questoes: []
+  },
+  // ─────────────────────────────────────────
+  {
+    id: "acentuacaoGrafica", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
+    teoria: '',
     questoes: [
       { enunciado: 'Qual é a separação silábica correta de "psicologia"?', opcoes: ["psi-co-lo-gi-a","p-si-co-lo-gi-a","psi-col-o-gi-a","psi-co-lo-gia"], correta: 0, explicacao: 'psi-co-lo-gi-a: 5 sílabas. O grupo <em>ps</em> permanece unido.' },
       { enunciado: 'Qual palavra é <strong>oxítona</strong>?', opcoes: ["árvore","janela","café","lápis"], correta: 2, explicacao: '"Café" (ca-FÉ): tônica na última sílaba = oxítona.' },
@@ -1916,6 +1907,12 @@ const TEMAS = [
     ,
       { enunciado: 'Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:', opcoes: ["A palavra &quot;tácita&quot; pode ser substituída por &quot;explícita&quot; sem prejuízo do sentido original, pois são sinônimas no contexto.", "O termo &quot;às quais&quot; poderia ser substituído por &quot;as quais&quot; sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo &quot;alegar&quot; não exige preposição.", "A palavra &quot;implicará&quot; está acentuada por ser uma proparoxítona terminada em &quot;a&quot;, seguindo a mesma regra de palavras como &quot;sofá&quot; e &quot;cajá&quot;.", "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.", "A palavra &quot;edital&quot; não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de &quot;técnica&quot; e &quot;público&quot;."], correta: 3, explicacao: 'Gabarito: D — Banca: INAZ do Pará (2026)' }
     ]
+  },
+  // ─────────────────────────────────────────
+  {
+    id: "crase", nome: "Crase", icon: "À", desc: "Uso do acento grave",
+    teoria: '',
+    questoes: []
   },
   // ─────────────────────────────────────────
   {
@@ -3308,25 +3305,6 @@ let timerInterval = null;
 let tempoRestante = TEMPO;
 let respondeu     = false;
 
-// ══════════════════════════════════════════════════════════
-//  ACCORDION — SÍLABAS E ACENTUAÇÃO
-// ══════════════════════════════════════════════════════════
-function silToggle(id) {
-  ['sil-p1','sil-p2','sil-p3'].forEach(function(sid) {
-    var sec = document.getElementById(sid);
-    var btn = document.getElementById('btn-' + sid);
-    if (!sec) return;
-    if (sid === id) {
-      var op = sec.classList.contains('sil-open');
-      sec.classList.toggle('sil-open', !op);
-      if (btn) btn.classList.toggle('sil-open', !op);
-    } else {
-      sec.classList.remove('sil-open');
-      if (btn) btn.classList.remove('sil-open');
-    }
-  });
-}
-window.silToggle = silToggle;
 
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
@@ -3364,7 +3342,7 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
-const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabasAcentuacao','tonicidade','hifen'];
+const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
 
 function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);
@@ -3766,25 +3744,13 @@ ir('screen-home');
 (function() {
   if (typeof QUESTOES_BANCO === 'undefined') return;
 
-  // ── 1. Garante que silabasAcentuacao existe (renomeia tonicidade se necessário) ─
+  // ── 1. Extrai teoria de tonicidade para acentuacaoGrafica ─────────────────
   var tonTeoria = '';
-  var sil = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
   var ton = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
-  if (!sil && ton) {
-    ton.id   = 'silabasAcentuacao';
-    ton.nome = 'Sílabas e Acentuação';
-    ton.desc = 'Sílabas, tonicidade, acentuação gráfica e crase';
-    sil = ton;
-  } else if (sil && ton) {
-    sil.nome   = 'Sílabas e Acentuação';
-    sil.desc   = 'Sílabas, tonicidade, acentuação gráfica e crase';
-    tonTeoria  = ton.teoria;
+  if (ton) {
+    tonTeoria = ton.teoria;
     TEMAS.splice(TEMAS.indexOf(ton), 1);
   }
-  ['crase', 'acentuacaoGrafica'].forEach(function(id) {
-    var idx = TEMAS.findIndex(function(t){ return t.id === id; });
-    if (idx > -1) TEMAS.splice(idx, 1);
-  });
 
   // ── 2. Cria temas novos se necessário ────────────────────────────────────────
   for (var id in QUESTOES_BANCO.novosTemas) {
@@ -3807,12 +3773,13 @@ ir('screen-home');
   // ── 3. Substitui todas as questões pelas questões de concurso do banco ───────
   TEMAS.forEach(function(t) { t.questoes = []; });
   for (var temaId in QUESTOES_BANCO.questoes) {
-    var tema = TEMAS.find(function(t){ return t.id === temaId; });
+    var targetId = temaId === 'silabasAcentuacao' ? 'acentuacaoGrafica' : temaId;
+    var tema = TEMAS.find(function(t){ return t.id === targetId; });
     if (tema) tema.questoes = QUESTOES_BANCO.questoes[temaId];
   }
 
   // ── 4. Seção combinada: Fonética e Ortografia ────────────────────────────────
-  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabasAcentuacao','tonicidade','hifen'];
+  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
   var qFon = [];
   IDS_FON.forEach(function(id) {
     var t = TEMAS.find(function(t){ return t.id === id; });
@@ -4278,15 +4245,19 @@ ir('screen-home');
 </ul>`
   };
 
-  // Aplica teoria extra ao silabasAcentuacao
-  var silTema = TEMAS.find(function(t){ return t.id === 'silabasAcentuacao'; });
-  if (silTema) {
+  // Aplica teoria a acentuacaoGrafica e crase a partir de silabasAcentuacao_extra
+  var acentTema = TEMAS.find(function(t){ return t.id === 'acentuacaoGrafica'; });
+  var craseTema = TEMAS.find(function(t){ return t.id === 'crase'; });
+  if (acentTema || craseTema) {
     var extra = teorias.silabasAcentuacao_extra;
-    var p3idx = extra.indexOf('<!-- CLOSE_P2 -->');
-    var merged = p3idx > -1
-      ? extra.slice(0, p3idx) + (tonTeoria ? '\n' + tonTeoria + '\n' : '') + extra.slice(p3idx)
-      : extra + (tonTeoria ? '\n' + tonTeoria : '');
-    silTema.teoria = (silTema.teoria || '') + merged;
+    var splitMarker = '<!-- CLOSE_P2 --></div>';
+    var splitIdx = extra.indexOf(splitMarker);
+    var p2raw = splitIdx > -1 ? extra.slice(0, splitIdx) : extra;
+    var p3raw = splitIdx > -1 ? extra.slice(splitIdx + splitMarker.length) : '';
+    p2raw = p2raw.replace(/^[\s\S]*?<div[^>]*id="sil-p2"[^>]*>\n?/, '');
+    p3raw = p3raw.replace(/^\s*<div[^>]*id="sil-p3"[^>]*>\n?/, '').replace(/\n?<\/div>\s*$/, '');
+    if (acentTema) acentTema.teoria = p2raw + (tonTeoria ? '\n' + tonTeoria : '');
+    if (craseTema) craseTema.teoria = p3raw;
   }
 
   // Aplica teoria aos temas com teoria vazia
