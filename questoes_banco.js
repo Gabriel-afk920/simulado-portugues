@@ -902,7 +902,89 @@ var QUESTOES_BANCO = {
                 "flashcard": null
           },
           {
-                “enunciado”: “Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:”,
+                "enunciado": "A escrita correta das palavras envolve o uso adequado dos acentos gráficos. Considerando as regras da língua portuguesa, é correto afirmar que:",
+                "opcoes": [
+                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
+                      "A divisão silábica permite identificar o número de sílabas das palavras.",
+                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
+                      "A concordância verbal estabelece relação entre sujeito e verbo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.</strong>. Fonte: Gama/2026. Assunto: **Acentuação Gráfica**.",
+                "banca": "Gama",
+                "ano": 2026,
+                "assunto": "**Acentuação Gráfica**",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "A respeito da correta ortografia, marque as alternativas com V (verdadeiro) ou F (falso) e assinale a correta. ( ) Usaremos “há” quando houver ideia de tempo passado ou com sentido de existir. ( ) A preposição “a” ocorre quando aparece ideia de distância ou futuro. ( ) Mal pode aparecer como substantivo, advérbio (geralmente de modo) e conjunção (com valor temporal). ( ) A expressão mau é sempre um adjetivo.",
+                "opcoes": [
+                      "V – V – V – V.",
+                      "V – F – V – V.",
+                      "V – V – V – F.",
+                      "F – V – V – V"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V – V – V – F.</strong>. Fonte: MSConcursos/2026. Assunto: Concordância Verbal.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Concordância Verbal",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "“Daqui ___ algum tempo, haverá mais pessoas no planeta do que ___ atualmente.” Os espaços em branco acima podem ser preenchidos corretamente, na mesma ordem, por:",
+                "opcoes": [
+                      "“a” e “á”.",
+                      "“a” e “há”.",
+                      "“á” e “há”.",
+                      "“há” e “há”.",
+                      "“á” e “ha”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“á” e “há”.</strong>. Fonte: Desconhecida/2026. Assunto: Concordância Verbal.",
+                "banca": "Desconhecida",
+                "ano": 2026,
+                "assunto": "Concordância Verbal",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "Sobre a palavra “têm” no trecho “As folhas têm pequenos orifícios em suas superfícies”, retirado do texto, analise as seguintes assertivas: I. É classificada como verbo. II. Está corretamente acentuada, pois a expressão “pequenos orifícios” está no plural. III. Perderia o acento gráfico caso a expressão “as folhas” fosse substituída por “a folha”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: FUNDATEC/2026. Assunto: Concordância Verbal.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Concordância Verbal",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "Considerando as regras da língua portuguesa, é correto afirmar que:",
+                "opcoes": [
+                      "O uso de sinais de pontuação organiza as ideias dentro de um texto.",
+                      "A divisão silábica permite identificar o número de sílabas das palavras.",
+                      "Algumas palavras recebem acento para indicar a sílaba mais forte na pronúncia.",
+                      "A concordância verbal estabelece relação entre sujeito e verbo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O uso de sinais de pontuação organiza as ideias dentro de um texto.</strong>. Fonte: Gama Consult/2026. Assunto: .",
+                "banca": "Gama Consult",
+                "ano": 2026,
+                "assunto": null,
+                "tipo": null,
+                "flashcard": null
+          },
+          {
+                "enunciado": "Considerando a norma padrão da língua portuguesa, é correto afirmar que a organização das palavras:",
                 "opcoes": [
                       "Considera a divisão silábica das palavras, separando-as conforme a pronúncia.",
                       "Considera a classificação das palavras em substantivos, verbos e adjetivos.",
@@ -916,9 +998,26 @@ var QUESTOES_BANCO = {
                 "assunto": "Concordância Nominal",
                 "tipo": "multipla_escolha",
                 "flashcard": null
+          },
+          {
+                "enunciado": "Sobre a palavra “têm” no trecho “As folhas têm pequenos orifícios em suas superfícies”, retirado do texto, analise as seguintes assertivas:",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: FUNDATEC/2026. Assunto: Concordância Verbal.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Concordância Verbal",
+                "tipo": "multipla_escolha",
+                "flashcard": null
           }
     ],
-    “hiatos”: [
+    "hiatos": [
           {
                 "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir: I. A palavra “basicamente” é formada por derivação sufixal. II. É obrigatório o uso do hífen em “bem-estar” para formar uma unidade semântica. III. As palavras “francês” e “só” são acentuadas conforme a regra do hiato. Quais estão corretas?",
                 "opcoes": [
@@ -1718,7 +1817,59 @@ var QUESTOES_BANCO = {
                 "flashcard": null
           }
     ],
-    "classesGramaticais": [],
+    "classesGramaticais": [
+          {
+                "enunciado": "Considerando os vocábulos retirados do texto, assinale a alternativa em que todas as palavras são acentuadas exatamente pela mesma regra gramatical.",
+                "opcoes": [
+                      "País - níveis - também.",
+                      "Hídrico - cúbicos - plásticas.",
+                      "Água - resíduos - rápida.",
+                      "Você - papéis - práticos.",
+                      "Reciclável - matéria - cooperativas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>País - níveis - também.</strong>. Fonte: Instituto/2026. Assunto: Acentuação das Palavras.",
+                "banca": "Instituto",
+                "ano": 2026,
+                "assunto": "Acentuação das Palavras",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "Leia o fragmento abaixo de um edital de concurso público: \"5.2.1. A inscrição do candidato implicará o conhecimento e a tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não poderá alegar desconhecimento.\" Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
+                "opcoes": [
+                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
+                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
+                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
+                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
+                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ/2026. Assunto: Concorrência Pública.",
+                "banca": "INAZ",
+                "ano": 2026,
+                "assunto": "Concorrência Pública",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "Com base no fragmento e nas regras ortográficas vigentes, assinale a alternativa CORRETA:",
+                "opcoes": [
+                      "A palavra \"tácita\" pode ser substituída por \"explícita\" sem prejuízo do sentido original, pois são sinônimas no contexto.",
+                      "O termo \"às quais\" poderia ser substituído por \"as quais\" sem acento indicativo de crase, mantendo a correção gramatical, uma vez que a regência do verbo \"alegar\" não exige preposição.",
+                      "A palavra \"implicará\" está acentuada por ser uma proparoxítona terminada em \"a\", seguindo a mesma regra de palavras como \"sofá\" e \"cajá\".",
+                      "O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.",
+                      "A palavra \"edital\" não é acentuada por ser uma paroxítona, seguindo a mesma regra de acentuação de \"técnica\" e \"público\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O texto permite inferir que, ao se inscrever, o candidato concorda automaticamente com todas as regras do edital, mesmo que não as tenha lido.</strong>. Fonte: INAZ do Pará/2026. Assunto: Acentuação Gráfica.",
+                "banca": "INAZ do Pará",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          }
+    ],
     "paronimosHomonimos": [
           {
                 "enunciado": "\"Alguns meses depois, pesquisadores japoneses revelaram uma técnica de \"legendar a mente\", capaz de gerar descrições precisas e detalhadas do que uma pessoa está observando ou imaginando.\" O vocábulo 'descrição' é parônimo de 'discrição', pois ambos apresentam semelhança na grafia e na pronúncia, mas possuem significados distintos. Agora, analise o emprego de outras palavras parônimas nos trechos a seguir: I. Deu entrada na linha número 2 o trem expresso precedente de Braga. II. O policial registrou o roubo em flagrante, prendendo o suspeito imediatamente. III. É inaceitável destratar colegas de trabalho, pois isso compromete o ambiente profissional. IV. O advogado agiu com extrema discrição ao lidar com as informações confidenciais do cliente. Após a análise, identifique a alternativa que apresenta apenas as frases CORRETAS quanto ao emprego de parônimos.",
@@ -1731,6 +1882,40 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Parônimos.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Parônimos",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "O vocábulo 'descrição' é parônimo de 'discrição', pois ambos apresentam semelhança na grafia e na pronúncia, mas possuem significados distintos. Agora, analise o emprego de outras palavras parônimas nos trechos a seguir:",
+                "opcoes": [
+                      "I, II e IV, apenas.",
+                      "I e IV, apenas.",
+                      "II e IV, apenas.",
+                      "I, II, III e IV.",
+                      "II, III e IV, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Parônimos.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Parônimos",
+                "tipo": "multipla_escolha",
+                "flashcard": null
+          },
+          {
+                "enunciado": "Identifique a alternativa que apresenta apenas as frases CORRETAS quanto ao emprego de parônimos.",
+                "opcoes": [
+                      "I, II e IV, apenas.",
+                      "II, III e IV, apenas.",
+                      "I e IV, apenas.",
+                      "II e IV, apenas.",
+                      "I, II, III e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Parônimos.",
                 "banca": "IGEDUC",
                 "ano": 2026,
                 "assunto": "Parônimos",
