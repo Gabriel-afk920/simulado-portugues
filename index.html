@@ -362,6 +362,16 @@
   </div>
 
   <!-- ════════════════════════════
+       TELA: SUB-TEMAS FONÉTICA E ORTOGRAFIA
+  ════════════════════════════ -->
+  <div id="screen-study-fonetica" class="hidden">
+    <button class="btn-ghost" id="btn-back-study-fonetica">← Estudar</button>
+    <h1>📖 Fonética e Ortografia</h1>
+    <p class="subtitle">Selecione um subtema para ver a teoria</p>
+    <div class="tema-grid" id="study-fonetica-grid"></div>
+  </div>
+
+  <!-- ════════════════════════════
        TELA: CONTEÚDO DA TEORIA
   ════════════════════════════ -->
   <div id="screen-study-content">
@@ -3309,7 +3319,7 @@ let respondeu     = false;
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
 // ══════════════════════════════════════════════════════════
-const TELAS = ['screen-home','screen-study-topics','screen-study-content',
+const TELAS = ['screen-home','screen-study-topics','screen-study-fonetica','screen-study-content',
                'screen-quiz-topics','screen-quiz','screen-result'];
 
 function ir(id) {
@@ -3325,7 +3335,7 @@ function ir(id) {
 //  HOME
 // ══════════════════════════════════════════════════════════
 document.getElementById('btn-ir-estudar').addEventListener('click', () => {
-  renderTemaGrid('study-tema-grid', abrirTeoria);
+  renderTemaGrid('study-tema-grid', abrirTeoria, IDS_FONETICA_ORTOGRAFIA);
   ir('screen-study-topics');
 });
 
@@ -3361,7 +3371,28 @@ function renderTemaGrid(gridId, onClickFn, excluir) {
 // ══════════════════════════════════════════════════════════
 //  SEÇÃO ESTUDAR
 // ══════════════════════════════════════════════════════════
+let origemTeoria = 'screen-study-topics';
+
 function abrirTeoria(id) {
+  if (id === 'fonetica_ortografia') {
+    const grid = document.getElementById('study-fonetica-grid');
+    grid.innerHTML = '';
+    IDS_FONETICA_ORTOGRAFIA.forEach(subId => {
+      const sub = TEMAS.find(x => x.id === subId);
+      if (!sub) return;
+      const card = document.createElement('div');
+      card.className = 'tema-card';
+      card.innerHTML = `<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div><div class="desc">${sub.desc}</div>`;
+      card.addEventListener('click', () => {
+        origemTeoria = 'screen-study-fonetica';
+        abrirTeoria(sub.id);
+      });
+      grid.appendChild(card);
+    });
+    ir('screen-study-fonetica');
+    return;
+  }
+
   const t = TEMAS.find(x => x.id === id);
   temaAtual = t;
 
@@ -3379,8 +3410,17 @@ function abrirTeoria(id) {
   ir('screen-study-content');
 }
 
-document.getElementById('btn-back-study-topics').addEventListener('click', () => ir('screen-study-topics'));
-document.getElementById('btn-back-study-topics-2').addEventListener('click', () => ir('screen-study-topics'));
+document.getElementById('btn-back-study-fonetica').addEventListener('click', () => ir('screen-study-topics'));
+document.getElementById('btn-back-study-topics').addEventListener('click', () => {
+  const dest = origemTeoria;
+  origemTeoria = 'screen-study-topics';
+  ir(dest);
+});
+document.getElementById('btn-back-study-topics-2').addEventListener('click', () => {
+  const dest = origemTeoria;
+  origemTeoria = 'screen-study-topics';
+  ir(dest);
+});
 
 document.getElementById('btn-fazer-simulado-da-teoria').addEventListener('click', () => {
   if (!temaAtual) return;
@@ -3645,7 +3685,7 @@ document.getElementById('btn-home-result').addEventListener('click', () => {
 
 document.getElementById('btn-estudar-result').addEventListener('click', () => {
   if (temaAtual) {
-    renderTemaGrid('study-tema-grid', abrirTeoria);
+    renderTemaGrid('study-tema-grid', abrirTeoria, IDS_FONETICA_ORTOGRAFIA);
     abrirTeoria(temaAtual.id);
   }
 });
