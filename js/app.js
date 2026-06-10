@@ -304,8 +304,7 @@ document.getElementById('btn-pular').addEventListener('click', () => {
 });
 
 document.getElementById('btn-desistir').addEventListener('click', () => {
-  clearInterval(timerInterval);
-  ir('screen-quiz-topics');
+  mostrarResultado();
 });
 
 // ══════════════════════════════════════════════════════════
