@@ -180,6 +180,10 @@ function renderQuestao() {
   document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
 
+  // Mostra botão de teoria só se a questão tiver temas_relacionados
+  const btnTeoria = document.getElementById('btn-consultar-teoria');
+  btnTeoria.style.display = (q.temas_relacionados && q.temas_relacionados.length) ? '' : 'none';
+
   // Cabeçalho no formato de questão de concurso público
   let cabecalho = '';
   if (q.banca || q.ano) {
@@ -312,6 +316,12 @@ document.getElementById('btn-desistir').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 function mostrarResultado() {
   clearInterval(timerInterval);
+  // Fecha painel de teoria se estiver aberto
+  document.getElementById('teoria-overlay').classList.remove('visivel');
+  document.getElementById('teoria-panel').classList.remove('visivel');
+  document.getElementById('teoria-overlay').classList.add('hidden');
+  document.getElementById('teoria-panel').classList.add('hidden');
+  _timerPausado = false;
   ir('screen-result');
 
   const total = questoes.length;
@@ -470,6 +480,76 @@ document.getElementById('btn-card-anterior').addEventListener('click', () => {
 document.getElementById('btn-card-proximo').addEventListener('click', () => {
   if (cartaoIndice < cartoesLista.length - 1) { cartaoIndice++; renderCartao(); }
 });
+
+// ══════════════════════════════════════════════════════════
+//  PAINEL DE TEORIA
+// ══════════════════════════════════════════════════════════
+let _timerPausado = false;
+let _tempoPausado = 0;
+
+function abrirPainelTeoria() {
+  const q = questoes[indiceAtual];
+  if (!q || !q.temas_relacionados || !q.temas_relacionados.length) return;
+
+  // Pausa o timer enquanto o usuário consulta a teoria
+  if (timerInterval && !respondeu) {
+    clearInterval(timerInterval);
+    _tempoPausado = tempoRestante;
+    _timerPausado = true;
+  }
+
+  // Monta o conteúdo com todos os temas relacionados
+  const body = document.getElementById('teoria-panel-body');
+  body.innerHTML = '';
+  q.temas_relacionados.forEach(temaId => {
+    const t = TEMAS.find(x => x.id === temaId);
+    if (!t) return;
+    const div = document.createElement('div');
+    div.className = 'teoria-panel-tema';
+    div.innerHTML = `<h2>${t.icon} ${t.nome}</h2><div class="teoria-body">${t.teoria}</div>`;
+    body.appendChild(div);
+  });
+  body.scrollTop = 0;
+
+  const overlay = document.getElementById('teoria-overlay');
+  const panel   = document.getElementById('teoria-panel');
+  overlay.classList.remove('hidden');
+  panel.classList.remove('hidden');
+  requestAnimationFrame(() => {
+    overlay.classList.add('visivel');
+    panel.classList.add('visivel');
+  });
+}
+
+function fecharPainelTeoria() {
+  const overlay = document.getElementById('teoria-overlay');
+  const panel   = document.getElementById('teoria-panel');
+  overlay.classList.remove('visivel');
+  panel.classList.remove('visivel');
+  setTimeout(() => {
+    overlay.classList.add('hidden');
+    panel.classList.add('hidden');
+  }, 300);
+
+  // Retoma o timer de onde parou
+  if (_timerPausado && !respondeu) {
+    _timerPausado = false;
+    tempoRestante = _tempoPausado;
+    const timerEl = document.getElementById('timer-box');
+    timerEl.textContent = tempoRestante;
+    timerInterval = setInterval(() => {
+      tempoRestante--;
+      timerEl.textContent = tempoRestante;
+      if      (tempoRestante <= 10) timerEl.className = 'timer-box danger';
+      else if (tempoRestante <= 20) timerEl.className = 'timer-box warning';
+      if (tempoRestante <= 0) { clearInterval(timerInterval); registrarResposta(-1); }
+    }, 1000);
+  }
+}
+
+document.getElementById('btn-consultar-teoria').addEventListener('click', abrirPainelTeoria);
+document.getElementById('btn-fechar-teoria').addEventListener('click', fecharPainelTeoria);
+document.getElementById('teoria-overlay').addEventListener('click', fecharPainelTeoria);
 
 // ══════════════════════════════════════════════════════════
 //  INICIALIZAÇÃO
