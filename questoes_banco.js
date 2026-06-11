@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 10/06/2026, 20:54:36 — 112 questões incluídas
+// 11/06/2026, 20:16:41 — 103 questões incluídas
 
 var QUESTOES_BANCO = {
   "novosTemas": {
@@ -477,26 +477,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Considerando nas regras de acentuação dos vocábulos presentes no trecho e no texto-base, marque (V), para as afirmativas verdadeiras, ou (F), para as falsas:",
-        "opcoes": [
-          "F, F, V, V.",
-          "V, V, V, V.",
-          "F, F, V, F.",
-          "V, V, V, F.",
-          "V, V, F, F."
-        ],
-        "correta": 3,
-        "explicacao": "Gabarito: <strong>V, V, V, F.</strong>. Fonte: IGEDUC/2026. Assunto: Regras de Acentuação.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Regras de Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
-      {
         "enunciado": "Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.",
         "opcoes": [
           "Regra da proparoxítona – científica e prática.",
@@ -513,26 +493,6 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Considerando as regras de acentuação, analise as afirmativas a seguir e marque com V, as afirmativas verdadeiras, ou com F, as falsas.",
-        "opcoes": [
-          "V, F, F, V",
-          "F, V, V, V",
-          "F, V, F, F",
-          "V, V, F, F",
-          "F, V, F, V"
-        ],
-        "correta": 1,
-        "explicacao": "Gabarito: <strong>F, V, V, V</strong>. Fonte: IGEDUC/2026. Assunto: Regras de Acentuação.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Regras de Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
           "acentuacaoGrafica"
         ]
       },
@@ -631,26 +591,6 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Com fundamento nas normas de acentuação gráfica aplicáveis aos vocábulos constantes do trecho, bem como àqueles que o extrapolam, assinale V, para as proposições verdadeiras, e F, para as falsas.",
-        "opcoes": [
-          "V, V, F, F, F.",
-          "V, V, V, V, V.",
-          "F, F, F, F, F.",
-          "F, F, F, V, F.",
-          "V, F, V, V, V."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>V, V, F, F, F.</strong>. Fonte: IGEDUC/2026. Assunto: Normas de Acentuação Gráfica.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Normas de Acentuação Gráfica",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
           "acentuacaoGrafica"
         ]
       },
@@ -791,25 +731,6 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "A respeito da correta ortografia, marque as alternativas com V (verdadeiro) ou F (falso) e assinale a correta. ( ) Usaremos \"há\" quando houver ideia de tempo passado ou com sentido de existir. ( ) A preposição \"a\" ocorre quando aparece ideia de distância ou futuro. ( ) Mal pode aparecer como substantivo, advérbio (geralmente de modo) e conjunção (com valor temporal). ( ) A expressão mau é sempre um adjetivo.",
-        "opcoes": [
-          "V – V – V – V.",
-          "V – F – V – V.",
-          "V – V – V – F.",
-          "F – V – V – V"
-        ],
-        "correta": 2,
-        "explicacao": "Gabarito: <strong>V – V – V – F.</strong>. Fonte: MSConcursos/2026. Assunto: Ortografia.",
-        "banca": "MSConcursos",
-        "ano": 2026,
-        "assunto": "Ortografia",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
         ]
       },
       {
@@ -1019,26 +940,6 @@ var QUESTOES_BANCO = {
         "banca": "AMEOSC",
         "ano": 2026,
         "assunto": "Regras de Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "\"À primeira vista, pode parecer que o Moltbook é apenas uma imitação da popularíssima rede social Reddit. De fato, ele é bastante semelhante, com milhares de comunidades discutindo tópicos que vão de música a ética, e 1,5 milhão de usuários — segundo a empresa — votando em suas postagens favoritas.\" Com fundamento nas normas de acentuação gráfica aplicáveis aos vocábulos constantes do trecho, bem como àqueles que o extrapolam, assinale V, para as proposições verdadeiras, e F, para as falsas. (__) O vocábulo 'popularíssima' recebe acento gráfico em conformidade com a mesma norma que fundamenta o acento em de 'feiíssimo'. Diversamente, 'sanduíche' submete-se a critério distinto nos termos das regras específicas aplicáveis a essa configuração vocálica. (__) A forma verbal 'vão' submete-se ao mesmo regime de acentuação gráfica aplicado ao vocábulo 'é', já que, em ambas as ocorrências, trata-se de monossílabos tônicos constituídos por uma única sílaba fonética, que, em razão de sua tonicidade e estrutura formal, justificam a incidência do acento gráfico. (__) O vocábulo 'usuários' constitui exemplo de forma cuja classificação pode suscitar mais de uma interpretação quanto à posição da sílaba tônica. Isso porque sua delimitação silábica, como paroxítona terminada em ditongo crescente ou como proparoxítona, depende da análise fonético-fonológica adotada, uma vez que a distinção entre ditongo e hiato interfere diretamente na determinação da sílaba tônica formal. (__) O vocábulo 'favoritas' classifica-se como palavra paroxítona, à semelhança de 'filantropo' e 'recorde', vocábulos igualmente paroxítonos que, nos termos das regras gerais de acentuação da língua portuguesa, não recebem acento gráfico. (__) O vocábulo 'rede' apresenta grafia única. Diversamente, 'sutil' constitui exemplo de palavra de dupla prosódia. Registra-se, de um lado, a forma 'sutil', oxítona, sem acento gráfico, consagrada no uso contemporâneo com o sentido de 'delicado', 'tênue' ou 'refinado'. De outro, atesta-se a variante 'sútil', de emprego raro ou arcaizante, utilizada com o significado de adjetivo relacionado a algo costurado. Após análise das afirmativas, identifique a alternativa CORRETA.",
-        "opcoes": [
-          "V, V, F, F, F.",
-          "V, V, V, V, V.",
-          "F, F, F, F, F.",
-          "F, F, F, V, F.",
-          "V, F, V, V, V."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>V, V, F, F, F.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Acentuação Gráfica",
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
@@ -1722,25 +1623,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Com base nas palavras FILHOS, EXPLORADA e INTELIGÊNCIA, presentes na charge, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F): () Na palavra FILHOS, a união das consoantes L e H forma um dígrafo, pois essas duas letras juntas representam obrigatoriamente um único e inseparável som na fala. () A correta separação em sílabas da palavra EXPLORADA divide-a normativamente em EX-PLO-RA-DA, sendo ela classificada na Língua Portuguesa como uma palavra polissílaba. () O vocábulo INTELIGÊNCIA recebe o seu acento gráfico de forma obrigatória porque a sílaba tônica recai na última sílaba, sendo classificado pelas regras gramaticais como uma palavra oxítona. Qual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
-        "opcoes": [
-          "V-V.F.",
-          "F-V-V",
-          "V-F-V",
-          "F-F-V."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>V-V.F.</strong>. Fonte: Instituto/2026. Assunto: Língua Portuguesa.",
-        "banca": "Instituto",
-        "ano": 2026,
-        "assunto": "Língua Portuguesa",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "digrafos"
-        ]
-      },
-      {
         "enunciado": "Com base nas regras ortográficas, e observando o verbo destacado, assinale a alternativa CORRETA.",
         "opcoes": [
           "A palavra em destaque está incorreta e deveria obrigatoriamente ser escrita com cedilha.",
@@ -2034,44 +1916,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Considerando as palavras acentuadas presentes no texto e a normatização do Acordo Ortográfico vigente, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F):",
-        "opcoes": [
-          "V - V- F",
-          "F - V- V",
-          "V - F - F",
-          "F - F - V"
-        ],
-        "correta": 2,
-        "explicacao": "Gabarito: <strong>V - F - F</strong>. Fonte: LEGALLE Concursos/2026. Assunto: Acordo Ortográfico.",
-        "banca": "LEGALLE Concursos",
-        "ano": 2026,
-        "assunto": "Acordo Ortográfico",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
-        ]
-      },
-      {
-        "enunciado": "A respeito da correta ortografia, marque as alternativas com V (verdadeiro) ou F (falso) e assinale a correta.",
-        "opcoes": [
-          "V – V – V – V.",
-          "V – F – V – V.",
-          "V – V – V – F.",
-          "F – V – V – V"
-        ],
-        "correta": 1,
-        "explicacao": "Gabarito: <strong>V – F – V – V.</strong>. Fonte: MSConcursos/2026. Assunto: Ortografia.",
-        "banca": "MSConcursos",
-        "ano": 2026,
-        "assunto": "Ortografia",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
-        ]
-      },
-      {
         "enunciado": "Considerando as regras de acentuação e de ortografia, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir...",
         "opcoes": [
           "dia a dia – cidadões – bem-estar",
@@ -2214,27 +2058,6 @@ var QUESTOES_BANCO = {
         ]
       }
     ],
-    "fonemas": [
-      {
-        "enunciado": "Considerando as regras de relação entre fonemas e grafias e de acentuação, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F):",
-        "opcoes": [
-          "F - V - F.",
-          "V - V - F.",
-          "V - F - V.",
-          "V - V - V.",
-          "F - F - V."
-        ],
-        "correta": 3,
-        "explicacao": "Gabarito: <strong>V - V - V.</strong>. Fonte: LEGALLE Concursos/2026. Assunto: Regras de Acentuação e Relação entre Fonemas e Grafias.",
-        "banca": "LEGALLE Concursos",
-        "ano": 2026,
-        "assunto": "Regras de Acentuação e Relação entre Fonemas e Grafias",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      }
-    ]
+    "fonemas": []
   }
 };
