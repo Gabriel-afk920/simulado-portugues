@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 11/06/2026, 20:16:41 — 103 questões incluídas
+// 11/06/2026, 20:31:54 — 94 questões incluídas
 
 var QUESTOES_BANCO = {
   "novosTemas": {
@@ -517,25 +517,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir:",
-        "opcoes": [
-          "Apenas I.",
-          "Apenas II.",
-          "Apenas I e II.",
-          "Apenas I e III."
-        ],
-        "correta": 2,
-        "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: FUNDATEC/2026. Assunto: Acentuação e Morfologia.",
-        "banca": "FUNDATEC",
-        "ano": 2026,
-        "assunto": "Acentuação e Morfologia",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
-      {
         "enunciado": "No trecho ‘o mundo está difícil para todo mundo’, a palavra destacada recebe acento gráfico porque é:",
         "opcoes": [
           "oxítona terminada em ‘L’.",
@@ -591,66 +572,6 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Com base nas regras de acentuação, analise as afirmativas relativas aos vocábulos presentes no texto, assim como àqueles que aparecem fora de contexto.",
-        "opcoes": [
-          "I, II, III e IV.",
-          "I, III e IV, apenas.",
-          "I, II e III, apenas.",
-          "II e III, apenas.",
-          "I e II, apenas."
-        ],
-        "correta": 1,
-        "explicacao": "Gabarito: <strong>I, III e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Regras de Acentuação.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Regras de Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Com base nas regras de acentuação dos vocábulos presentes no trecho, bem como daqueles que estão fora do contexto apresentado, julgue as afirmativas:",
-        "opcoes": [
-          "II e IV, apenas.",
-          "I, II e III, apenas.",
-          "II e III, apenas.",
-          "I, III e IV, apenas.",
-          "I, II, III e IV."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>II e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Regras de Acentuação.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Regras de Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Considerando a acentuação dos vocábulos presentes no texto, bem como daqueles apresentados fora de contexto, analise as afirmativas a seguir:",
-        "opcoes": [
-          "III e IV, apenas.",
-          "I e IV, apenas.",
-          "II e III, apenas.",
-          "I, II, III e IV.",
-          "I, II e III, apenas."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>III e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Acentuação",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
           "acentuacaoGrafica"
         ]
       },
@@ -1463,26 +1384,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Considerando o emprego do hífen em palavras compostas, analise a palavra 'infraestrutura', assim como outros vocábulos fora do contexto apresentado e identifique a alternativa INCORRETA.",
-        "opcoes": [
-          "I, II, III e IV.",
-          "I, II, III, apenas.",
-          "I, III e IV, apenas.",
-          "I e III, apenas.",
-          "II e IV, apenas."
-        ],
-        "correta": 3,
-        "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Emprego do Hífen em Palavras Compostas.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Emprego do Hífen em Palavras Compostas",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "hifen"
-        ]
-      },
-      {
         "enunciado": "O vocábulo 'bioenergia' apresenta-se corretamente grafado sem hífen. Considerando o uso ou não do hífen em palavras compostas, identifique a alternativa que apresenta pelo menos um vocábulo grafado de forma INCORRETA.",
         "opcoes": [
           "Os fones supra-auriculares foram distribuídos aos participantes, seguindo os horários preestabelecidos pelo organizador do evento.",
@@ -1555,26 +1456,6 @@ var QUESTOES_BANCO = {
         "banca": "IGEDUC",
         "ano": 2026,
         "assunto": "Emprego do Hífen em Palavras Compostas",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "hifen"
-        ]
-      },
-      {
-        "enunciado": "Análise das palavras compostas grafadas com ou sem hífen.",
-        "opcoes": [
-          "II e V, apenas.",
-          "IV e V, apenas.",
-          "I e II, apenas.",
-          "II, III, IV e V, apenas.",
-          "I, IV e V, apenas."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>II e V, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Palavras compostas.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Palavras compostas",
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
@@ -1896,26 +1777,6 @@ var QUESTOES_BANCO = {
         ]
       },
       {
-        "enunciado": "Levando em conta os aspectos fonológicos da língua, abrangendo a prosódia e a ortoepia, tanto dos vocábulos presentes no texto quanto de outros alheios a esse contexto, analise as afirmativas a seguir:",
-        "opcoes": [
-          "II e III, apenas.",
-          "I e III, apenas.",
-          "I, apenas.",
-          "I e II, apenas.",
-          "I, III e IV, apenas."
-        ],
-        "correta": 2,
-        "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: **Prosódia e Ortografia**.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "**Prosódia e Ortografia**",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
-        ]
-      },
-      {
         "enunciado": "Considerando as regras de acentuação e de ortografia, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir...",
         "opcoes": [
           "dia a dia – cidadões – bem-estar",
@@ -1967,46 +1828,6 @@ var QUESTOES_BANCO = {
         "banca": "FUNDATEC",
         "ano": 2026,
         "assunto": "Ortografia Oficial",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
-        ]
-      },
-      {
-        "enunciado": "Analisar a grafia das palavras compostas nas alternativas a seguir.",
-        "opcoes": [
-          "I, IV e V, apenas.",
-          "II, III, IV e V, apenas.",
-          "IV e V, apenas.",
-          "II e V, apenas.",
-          "I e II, apenas."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>I, IV e V, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Grafia de Palavras Compostas.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Grafia de Palavras Compostas",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "ortografia"
-        ]
-      },
-      {
-        "enunciado": "Com base nisso, analise a afirmativa sobre a grafia dessas palavras.",
-        "opcoes": [
-          "I, II e IV, apenas.",
-          "I, III e IV, apenas.",
-          "I, II e III, apenas.",
-          "III e IV, apenas.",
-          "I, II, III e IV."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>I, II e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Grafia das Palavras.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Grafia das Palavras",
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
