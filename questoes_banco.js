@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 11/06/2026, 20:31:54 — 94 questões incluídas
+// 11/06/2026, 20:46:37 — 93 questões incluídas
 
 var QUESTOES_BANCO = {
   "novosTemas": {
@@ -572,26 +572,6 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
-          "acentuacaoGrafica"
-        ]
-      },
-      {
-        "enunciado": "Analise a classificação das palavras 'médico' e 'vesícula' quanto à posição da sílaba tônica e à acentuação gráfica.",
-        "opcoes": [
-          "II e IV, apenas.",
-          "I e IV, apenas.",
-          "I, apenas.",
-          "I e II, apenas.",
-          "I, II, III e IV estão incorretas."
-        ],
-        "correta": 1,
-        "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: Acentuação Gráfica.",
-        "banca": "IGEDUC",
-        "ano": 2026,
-        "assunto": "Acentuação Gráfica",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
           "acentuacaoGrafica"
         ]
       },
