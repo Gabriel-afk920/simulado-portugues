@@ -2,17 +2,18 @@
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO = 30;
-let temaAtual     = null;
-let questoes      = [];
-let indiceAtual   = 0;
-let pontuacao     = 0;
-let respostas     = [];
-let respostasMap  = {};
-let shuffleMap    = {};
-let timerInterval = null;
-let tempoRestante = TEMPO;
-let respondeu     = false;
+const TEMPO_SIMULADO = 10 * 60; // 10 minutos
+let temaAtual        = null;
+let questoes         = [];
+let indiceAtual      = 0;
+let pontuacao        = 0;
+let respostas        = [];
+let respostasMap     = {};
+let shuffleMap       = {};
+let teoriaConsultada = {};
+let timerInterval    = null;
+let tempoSimulado    = TEMPO_SIMULADO;
+let respondeu        = false;
 
 
 // ══════════════════════════════════════════════════════════
@@ -155,22 +156,40 @@ function shuffle(arr) {
   return a;
 }
 
+function _fmtTempo(s) {
+  const m = Math.floor(s / 60);
+  return `${m}:${String(s % 60).padStart(2, '0')}`;
+}
+
 function iniciarSimulado(tema) {
-  temaAtual    = tema;
-  questoes     = shuffle(tema.questoes);
+  temaAtual        = tema;
+  questoes         = shuffle(tema.questoes);
   if (!questoes.length) return;
-  indiceAtual  = 0;
-  pontuacao    = 0;
-  respostas    = [];
-  respostasMap = {};   // { indice: { escolhida, acertou, shuffled } }
-  shuffleMap   = {};   // guarda a ordem das opções por questão
+  indiceAtual      = 0;
+  pontuacao        = 0;
+  respostas        = [];
+  respostasMap     = {};
+  shuffleMap       = {};
+  teoriaConsultada = {};
+  tempoSimulado    = TEMPO_SIMULADO;
+
+  clearInterval(timerInterval);
+  const timerEl = document.getElementById('timer-box');
+  timerEl.textContent = _fmtTempo(tempoSimulado);
+  timerEl.className   = 'timer-box';
+  timerInterval = setInterval(() => {
+    tempoSimulado--;
+    timerEl.textContent = _fmtTempo(tempoSimulado);
+    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
+    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
+    if (tempoSimulado <= 0) { clearInterval(timerInterval); mostrarResultado(); }
+  }, 1000);
+
   ir('screen-quiz');
   renderQuestao();
 }
 
 function renderQuestao() {
-  clearInterval(timerInterval);
-
   const q         = questoes[indiceAtual];
   const total     = questoes.length;
   const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
@@ -194,23 +213,6 @@ function renderQuestao() {
   }
   document.getElementById('question-text').innerHTML = cabecalho + q.enunciado;
 
-  // Timer: só inicia se a questão ainda não foi respondida
-  const timerEl = document.getElementById('timer-box');
-  if (!jaResp) {
-    tempoRestante       = TEMPO;
-    timerEl.textContent = tempoRestante;
-    timerEl.className   = 'timer-box';
-    timerInterval = setInterval(() => {
-      tempoRestante--;
-      timerEl.textContent = tempoRestante;
-      if      (tempoRestante <= 10) timerEl.className = 'timer-box danger';
-      else if (tempoRestante <= 20) timerEl.className = 'timer-box warning';
-      if (tempoRestante <= 0) { clearInterval(timerInterval); registrarResposta(-1); }
-    }, 1000);
-  } else {
-    timerEl.textContent = '—';
-    timerEl.className   = 'timer-box';
-  }
 
   // Ordem das opções: reutiliza se já foi gerada para esta questão
   if (!shuffleMap[indiceAtual]) shuffleMap[indiceAtual] = shuffle(q.opcoes.map((_, i) => i));
@@ -259,14 +261,15 @@ function renderQuestao() {
 function registrarResposta(escolhida) {
   if (respondeu) return;
   respondeu = true;
-  clearInterval(timerInterval);
 
-  const q       = questoes[indiceAtual];
-  const acertou = escolhida === q.correta;
-  if (acertou) pontuacao++;
+  const q             = questoes[indiceAtual];
+  const acertou       = escolhida === q.correta;
+  const usouTeoria    = !!teoriaConsultada[indiceAtual];
+  const pts           = acertou ? (usouTeoria ? 0.5 : 1) : 0;
+  pontuacao          += pts;
 
   respostasMap[indiceAtual] = {
-    acertou, escolhida,
+    acertou, escolhida, pts, usouTeoria,
     corretaIdx: q.correta,
     enunciado:  q.enunciado,
     opcoes:     q.opcoes,
@@ -316,44 +319,28 @@ document.getElementById('btn-desistir').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 function mostrarResultado() {
   clearInterval(timerInterval);
-  // Fecha painel de teoria se estiver aberto
   document.getElementById('teoria-overlay').classList.remove('visivel');
   document.getElementById('teoria-panel').classList.remove('visivel');
   document.getElementById('teoria-overlay').classList.add('hidden');
   document.getElementById('teoria-panel').classList.add('hidden');
-  _timerPausado = false;
   ir('screen-result');
 
   const total = questoes.length;
-  const pct   = Math.round((pontuacao / total) * 100);
+  const pts   = pontuacao;
+  const pct   = Math.round((pts / total) * 100);
 
   document.getElementById('result-tema').textContent = `Tema: ${temaAtual.nome}`;
-  document.getElementById('score-num').textContent   = pontuacao;
+  document.getElementById('score-num').textContent   = pts % 1 === 0 ? pts : pts.toFixed(1);
   document.getElementById('score-total').textContent = total;
 
   let msg, sub;
-  if      (pct === 100) { msg = 'Perfeito!';            sub = 'Você acertou tudo. Domínio total do conteúdo!'; }
-  else if (pct >= 70)   { msg = 'Muito bem!';           sub = `${pct}% de aproveitamento. Continue assim!`; }
-  else if (pct >= 50)   { msg = 'Bom desempenho!';      sub = `${pct}% de aproveitamento. Revise os pontos errados.`; }
-  else                  { msg = 'Continue praticando!'; sub = `${pct}% de aproveitamento. Estude a teoria e tente novamente.`; }
+  if      (pct === 100) { msg = 'Perfeito!';            sub = 'Você acertou tudo sem consultar a teoria!'; }
+  else if (pct >= 70)   { msg = 'Muito bem!';           sub = `${pts.toFixed(1)} de ${total} pontos. Continue assim!`; }
+  else if (pct >= 50)   { msg = 'Bom desempenho!';      sub = `${pts.toFixed(1)} de ${total} pontos. Revise os pontos errados.`; }
+  else                  { msg = 'Continue praticando!'; sub = `${pts.toFixed(1)} de ${total} pontos. Estude a teoria e tente novamente.`; }
 
   document.getElementById('score-msg').textContent = msg;
   document.getElementById('score-sub').textContent = sub;
-
-  // Recalcula pontuação real (conta só as que foram respondidas corretamente)
-  let acertos = 0;
-  questoes.forEach((_, idx) => {
-    if (respostasMap[idx] && respostasMap[idx].acertou) acertos++;
-  });
-  document.getElementById('score-num').textContent = acertos;
-  const pctReal = Math.round((acertos / total) * 100);
-  let msgR, subR;
-  if      (pctReal === 100) { msgR = 'Perfeito!';            subR = 'Você acertou tudo. Domínio total do conteúdo!'; }
-  else if (pctReal >= 70)   { msgR = 'Muito bem!';           subR = `${pctReal}% de aproveitamento. Continue assim!`; }
-  else if (pctReal >= 50)   { msgR = 'Bom desempenho!';      subR = `${pctReal}% de aproveitamento. Revise os pontos errados.`; }
-  else                      { msgR = 'Continue praticando!'; subR = `${pctReal}% de aproveitamento. Estude a teoria e tente novamente.`; }
-  document.getElementById('score-msg').textContent = msgR;
-  document.getElementById('score-sub').textContent = subR;
 
   const reviewList = document.getElementById('review-list');
   reviewList.innerHTML = '';
@@ -366,11 +353,13 @@ function mostrarResultado() {
       div.innerHTML = `<div class="ri-q">${idx + 1}. ${eq}…</div><div class="ri-resp"><span class="err">⏭ Pulada</span></div>`;
     } else {
       div.className = `review-item ${r.acertou ? 'acertou' : 'errou'}`;
-      const eq = r.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
-      const rt = r.escolhida === -1 ? '(tempo esgotado)' : r.opcoes[r.escolhida];
-      const ct = r.opcoes[r.corretaIdx];
+      const eq     = r.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
+      const rt     = r.opcoes[r.escolhida];
+      const ct     = r.opcoes[r.corretaIdx];
+      const ptLabel = r.pts === 1 ? '1 pt' : r.pts === 0.5 ? '0,5 pt' : '0 pt';
+      const teoriaTag = r.usouTeoria ? ' <span class="ri-teoria-tag">📖 teoria consultada</span>' : '';
       div.innerHTML = `
-        <div class="ri-q">${idx + 1}. ${eq}…</div>
+        <div class="ri-q">${idx + 1}. ${eq}… <span class="ri-pts">${ptLabel}</span>${teoriaTag}</div>
         <div class="ri-resp">
           ${r.acertou
             ? `<span class="ok">✔ ${ct}</span>`
@@ -484,19 +473,12 @@ document.getElementById('btn-card-proximo').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 //  PAINEL DE TEORIA
 // ══════════════════════════════════════════════════════════
-let _timerPausado = false;
-let _tempoPausado = 0;
-
 function abrirPainelTeoria() {
   const q = questoes[indiceAtual];
   if (!q || !q.temas_relacionados || !q.temas_relacionados.length) return;
 
-  // Pausa o timer enquanto o usuário consulta a teoria
-  if (timerInterval && !respondeu) {
-    clearInterval(timerInterval);
-    _tempoPausado = tempoRestante;
-    _timerPausado = true;
-  }
+  // Marca que teoria foi consultada nesta questão (penalidade de 0,5pt se acertar)
+  if (!respondeu) teoriaConsultada[indiceAtual] = true;
 
   const temaIds = q.temas_relacionados;
   if (temaIds.length === 1) {
@@ -568,20 +550,6 @@ function fecharPainelTeoria() {
     panel.classList.add('hidden');
   }, 300);
 
-  // Retoma o timer de onde parou
-  if (_timerPausado && !respondeu) {
-    _timerPausado = false;
-    tempoRestante = _tempoPausado;
-    const timerEl = document.getElementById('timer-box');
-    timerEl.textContent = tempoRestante;
-    timerInterval = setInterval(() => {
-      tempoRestante--;
-      timerEl.textContent = tempoRestante;
-      if      (tempoRestante <= 10) timerEl.className = 'timer-box danger';
-      else if (tempoRestante <= 20) timerEl.className = 'timer-box warning';
-      if (tempoRestante <= 0) { clearInterval(timerInterval); registrarResposta(-1); }
-    }, 1000);
-  }
 }
 
 document.getElementById('btn-consultar-teoria').addEventListener('click', abrirPainelTeoria);

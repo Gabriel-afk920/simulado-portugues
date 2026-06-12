@@ -375,6 +375,16 @@
     }
     .teoria-panel-body .teoria-body { margin-bottom: 0; }
 
+    /* ── REVISÃO — PONTUAÇÃO ── */
+    .ri-pts {
+      font-size: 0.78rem; font-weight: 700;
+      color: #38bdf8; margin-left: 6px;
+    }
+    .ri-teoria-tag {
+      font-size: 0.75rem; color: #94a3b8;
+      margin-left: 6px;
+    }
+
     /* ── TEORIA — SELETOR DE TEMAS ── */
     .teoria-selector-titulo {
       color: #64748b; font-size: 0.85rem;
