@@ -498,18 +498,13 @@ function abrirPainelTeoria() {
     _timerPausado = true;
   }
 
-  // Monta o conteúdo com todos os temas relacionados
-  const body = document.getElementById('teoria-panel-body');
-  body.innerHTML = '';
-  q.temas_relacionados.forEach(temaId => {
-    const t = TEMAS.find(x => x.id === temaId);
-    if (!t) return;
-    const div = document.createElement('div');
-    div.className = 'teoria-panel-tema';
-    div.innerHTML = `<h2>${t.icon} ${t.nome}</h2><div class="teoria-body">${t.teoria}</div>`;
-    body.appendChild(div);
-  });
-  body.scrollTop = 0;
+  const temaIds = q.temas_relacionados;
+  if (temaIds.length === 1) {
+    const t = TEMAS.find(x => x.id === temaIds[0]);
+    if (t) _mostrarConteudoTema(t, temaIds);
+  } else {
+    _mostrarSeletorTemas(temaIds);
+  }
 
   const overlay = document.getElementById('teoria-overlay');
   const panel   = document.getElementById('teoria-panel');
@@ -519,6 +514,48 @@ function abrirPainelTeoria() {
     overlay.classList.add('visivel');
     panel.classList.add('visivel');
   });
+}
+
+function _mostrarSeletorTemas(temaIds) {
+  const body = document.getElementById('teoria-panel-body');
+  body.innerHTML = '';
+
+  const titulo = document.createElement('p');
+  titulo.className = 'teoria-selector-titulo';
+  titulo.textContent = 'Selecione o tema que deseja consultar:';
+  body.appendChild(titulo);
+
+  temaIds.forEach(temaId => {
+    const t = TEMAS.find(x => x.id === temaId);
+    if (!t) return;
+    const btn = document.createElement('button');
+    btn.className = 'teoria-tema-btn';
+    btn.innerHTML = `<span class="teoria-tema-icon">${t.icon}</span><span class="teoria-tema-nome">${t.nome}</span>`;
+    btn.addEventListener('click', () => _mostrarConteudoTema(t, temaIds));
+    body.appendChild(btn);
+  });
+
+  body.scrollTop = 0;
+}
+
+function _mostrarConteudoTema(t, temaIds) {
+  const body = document.getElementById('teoria-panel-body');
+  body.innerHTML = '';
+
+  if (temaIds.length > 1) {
+    const btnVoltar = document.createElement('button');
+    btnVoltar.className = 'teoria-voltar-btn';
+    btnVoltar.innerHTML = '← Voltar aos temas';
+    btnVoltar.addEventListener('click', () => _mostrarSeletorTemas(temaIds));
+    body.appendChild(btnVoltar);
+  }
+
+  const div = document.createElement('div');
+  div.className = 'teoria-panel-tema';
+  div.innerHTML = `<h2>${t.icon} ${t.nome}</h2><div class="teoria-body">${t.teoria}</div>`;
+  body.appendChild(div);
+
+  body.scrollTop = 0;
 }
 
 function fecharPainelTeoria() {

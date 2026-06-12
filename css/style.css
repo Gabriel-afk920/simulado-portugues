@@ -375,6 +375,33 @@
     }
     .teoria-panel-body .teoria-body { margin-bottom: 0; }
 
+    /* ── TEORIA — SELETOR DE TEMAS ── */
+    .teoria-selector-titulo {
+      color: #64748b; font-size: 0.85rem;
+      margin: 0 0 16px; text-align: center;
+    }
+    .teoria-tema-btn {
+      display: flex; align-items: center; gap: 14px;
+      width: 100%; padding: 14px 16px;
+      background: #1e293b; border: 1px solid #334155;
+      border-radius: 12px; color: #e2e8f0;
+      cursor: pointer; margin-bottom: 10px;
+      text-align: left;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .teoria-tema-btn:hover { background: #273548; border-color: #38bdf8; }
+    .teoria-tema-icon { font-size: 1.6rem; flex-shrink: 0; }
+    .teoria-tema-nome { font-size: 0.95rem; font-weight: 500; line-height: 1.3; }
+    .teoria-voltar-btn {
+      display: block; background: none; border: none;
+      border-bottom: 1px solid #334155;
+      color: #38bdf8; font-size: 0.88rem;
+      cursor: pointer; padding: 0 0 14px;
+      margin-bottom: 18px; width: 100%;
+      text-align: left;
+    }
+    .teoria-voltar-btn:hover { color: #7dd3fc; }
+
     /* ── UTILITÁRIOS ── */
     .hidden { display: none !important; }
     .divider {
