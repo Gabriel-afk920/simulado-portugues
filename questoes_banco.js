@@ -1114,7 +1114,7 @@ var QUESTOES_BANCO = {
         ]
       }
     ],
-    “hiatos”: [
+    "hiatos": [
       {
         "enunciado": "Em relação às mudanças implementadas pelo Novo Acordo Ortográfico da Língua Portuguesa, analise os itens abaixo e assinale a alternativa correta. I. O alfabeto da Língua Portuguesa passa a ter 27 letras, com a incorporação das letras K, W e Y, que se empregam na grafia de nomes próprios, palavras deles derivadas e em abreviações. II. Cai o acento circunflexo do hiato EE dos verbos LER, DAR, CRER, VER e derivados. III. Cai o acento diferencial, apesar de permanecer nas palavras PÔDE e PÔR, e facultativamente , poder-se acentuar o substantivo FÔRMA. Estão corretos:",
         "opcoes": [
@@ -1163,7 +1163,7 @@ var QUESTOES_BANCO = {
     ],
     "hifen": [
       {
-        "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir: I. A palavra "basicamente" é formada por derivação sufixal. II. É obrigatório o uso do hífen em "bem-estar" para formar uma unidade semântica. III. As palavras "francês" e "só" são acentuadas conforme a regra do hiato. Quais estão corretas?",
+        "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir: I. A palavra “basicamente” é formada por derivação sufixal. II. É obrigatório o uso do hífen em “bem-estar” para formar uma unidade semântica. III. As palavras “francês” e “só” são acentuadas conforme a regra do hiato. Quais estão corretas?",
         "opcoes": [
           "Apenas I.",
           "Apenas II.",
