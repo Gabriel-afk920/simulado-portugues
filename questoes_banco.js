@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 11/06/2026, 23:51:49 — 93 questões incluídas
+// 12/06/2026, 20:49:23 — 93 questões incluídas
 
 var QUESTOES_BANCO = {
   "novosTemas": {
@@ -40,8 +40,7 @@ var QUESTOES_BANCO = {
         "tipo": "certo_errado",
         "flashcard": null,
         "temas_relacionados": [
-          "classesGramaticais",
-          "concordancia"
+          "interpretacao"
         ]
       },
       {
@@ -1133,8 +1132,8 @@ var QUESTOES_BANCO = {
         "temas_relacionados": [
           "acentuacaoGrafica",
           "hiatos",
-          "ortografia",
-          "classesGramaticais"
+          "hifen",
+          "formacaoPalavras"
         ]
       },
       {
@@ -1155,8 +1154,8 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "acentuacaoGrafica",
-          "tonicidade",
           "hiatos",
+          "ortografia",
           "classesGramaticais"
         ]
       }
@@ -1178,9 +1177,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "formacaoPalavras",
-          "hifen",
-          "acentuacaoGrafica"
+          "hifen"
         ]
       },
       {
@@ -1257,7 +1254,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "hifen",
+          "acentuacaoGrafica"
         ]
       },
       {
@@ -1278,7 +1276,7 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "hifen",
-          "acentuacaoGrafica"
+          "formacaoPalavras"
         ]
       },
       {
@@ -1298,8 +1296,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen",
-          "formacaoPalavras"
+          "hifen"
         ]
       },
       {
@@ -1337,7 +1334,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "acentuacaoGrafica"
         ]
       },
       {
@@ -1356,7 +1353,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "hifen"
         ]
       },
       {
@@ -1396,7 +1393,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "hifen",
+          "formacaoPalavras",
+          "tonicidade"
         ]
       },
       {
@@ -1416,9 +1415,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen",
-          "formacaoPalavras",
-          "tonicidade"
+          "hifen"
         ]
       },
       {
@@ -1905,7 +1902,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "INCOMPLETA"
+          "ortografia"
         ]
       },
       {
