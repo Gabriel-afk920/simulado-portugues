@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 11/06/2026, 20:46:37 — 93 questões incluídas
+// 11/06/2026, 23:51:49 — 93 questões incluídas
 
 var QUESTOES_BANCO = {
   "novosTemas": {
@@ -40,8 +40,8 @@ var QUESTOES_BANCO = {
         "tipo": "certo_errado",
         "flashcard": null,
         "temas_relacionados": [
-          "silabas",
-          "acentuacaoGrafica"
+          "classesGramaticais",
+          "concordancia"
         ]
       },
       {
@@ -61,7 +61,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "crase"
+          "crase",
+          "classesGramaticais"
         ]
       },
       {
@@ -81,7 +82,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "crase"
+          "crase",
+          "classesGramaticais"
         ]
       },
       {
@@ -100,6 +102,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "silabas",
           "acentuacaoGrafica"
         ]
       },
@@ -119,6 +122,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "silabas",
+          "tonicidade",
+          "classesGramaticais",
+          "formacaoPalavras",
           "acentuacaoGrafica"
         ]
       },
@@ -139,6 +146,7 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
+          "classesGramaticais",
           "acentuacaoGrafica"
         ]
       },
@@ -158,6 +166,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "silabas",
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -179,7 +189,8 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -199,7 +210,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "silabas",
+          "acentuacaoGrafica",
+          "tonicidade",
+          "classesGramaticais"
         ]
       },
       {
@@ -219,7 +233,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "silabas",
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -239,6 +255,7 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -258,6 +275,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "silabas",
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -277,7 +296,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "silabas",
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -296,7 +317,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "silabas",
+          "acentuacaoGrafica",
+          "hiatos"
         ]
       },
       {
@@ -315,6 +338,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "silabas",
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -334,7 +359,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "silabas"
         ]
       },
       {
@@ -354,8 +381,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "silabas",
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "classesGramaticais"
         ]
       },
       {
@@ -374,7 +401,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -395,6 +423,7 @@ var QUESTOES_BANCO = {
         "flashcard": null,
         "temas_relacionados": [
           "silabas",
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -415,6 +444,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "ortografia",
           "acentuacaoGrafica"
         ]
       },
@@ -434,7 +464,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "silabas"
         ]
       },
       {
@@ -454,7 +486,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "silabas",
+          "tonicidade"
         ]
       },
       {
@@ -473,6 +507,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "tonicidade",
           "acentuacaoGrafica"
         ]
       },
@@ -492,8 +527,8 @@ var QUESTOES_BANCO = {
         "tipo": null,
         "flashcard": null,
         "temas_relacionados": [
-          "silabas",
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -512,8 +547,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "silabas",
-          "acentuacaoGrafica"
+          "ortografia",
+          "concordancia"
         ]
       },
       {
@@ -532,7 +567,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -551,7 +587,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -571,8 +608,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "silabas",
-          "acentuacaoGrafica"
+          "paronimosHomonimos",
+          "ortografia"
         ]
       },
       {
@@ -592,7 +629,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "silabas",
+          "tonicidade"
         ]
       },
       {
@@ -612,7 +651,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "crase"
         ]
       },
       {
@@ -631,7 +672,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       },
       {
@@ -651,7 +693,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "paronimosHomonimos"
         ]
       },
       {
@@ -671,7 +714,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "classesGramaticais"
         ]
       }
     ],
@@ -690,7 +734,8 @@ var QUESTOES_BANCO = {
         "tipo": "certo_errado",
         "flashcard": null,
         "temas_relacionados": [
-          "ditongos"
+          "ditongos",
+          "tonicidade"
         ]
       },
       {
@@ -728,7 +773,11 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "acentuacaoGrafica",
+          "ditongos",
+          "tonicidade",
+          "hifen",
+          "formacaoPalavras"
         ]
       },
       {
@@ -747,7 +796,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos"
         ]
       },
       {
@@ -767,7 +818,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos"
         ]
       },
       {
@@ -787,7 +840,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos"
         ]
       },
       {
@@ -806,7 +861,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "ditongos",
+          "tonicidade"
         ]
       },
       {
@@ -825,7 +882,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos",
+          "classesGramaticais"
         ]
       },
       {
@@ -844,7 +904,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos",
+          "hiatos"
         ]
       },
       {
@@ -864,7 +927,11 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos",
+          "hiatos",
+          "classesGramaticais"
         ]
       },
       {
@@ -884,7 +951,12 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos",
+          "hifen",
+          "formacaoPalavras",
+          "classesGramaticais"
         ]
       },
       {
@@ -903,7 +975,11 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ditongos"
+          "acentuacaoGrafica",
+          "ditongos",
+          "tonicidade",
+          "hifen",
+          "formacaoPalavras"
         ]
       },
       {
@@ -923,7 +999,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "ditongos"
         ]
       },
       {
@@ -942,7 +1020,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "ditongos",
+          "tonicidade"
         ]
       }
     ],
@@ -964,7 +1044,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "colocacaoPronominal"
+          "colocacaoPronominal",
+          "classesGramaticais"
         ]
       }
     ],
@@ -1005,7 +1086,10 @@ var QUESTOES_BANCO = {
         "tipo": null,
         "flashcard": null,
         "temas_relacionados": [
-          "concordancia"
+          "concordancia",
+          "acentuacaoGrafica",
+          "tonicidade",
+          "silabas"
         ]
       },
       {
@@ -1024,30 +1108,13 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "concordancia"
+          "classesGramaticais",
+          "silabas",
+          "acentuacaoGrafica"
         ]
       }
     ],
-    "hiatos": [
-      {
-        "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir: I. A palavra “basicamente” é formada por derivação sufixal. II. É obrigatório o uso do hífen em “bem-estar” para formar uma unidade semântica. III. As palavras “francês” e “só” são acentuadas conforme a regra do hiato. Quais estão corretas?",
-        "opcoes": [
-          "Apenas I.",
-          "Apenas II.",
-          "Apenas I e II.",
-          "Apenas I e III."
-        ],
-        "correta": 0,
-        "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2026. Assunto: Acentuação e Morfologia.",
-        "banca": "FUNDATEC",
-        "ano": 2026,
-        "assunto": "Acentuação e Morfologia",
-        "tipo": "multipla_escolha",
-        "flashcard": null,
-        "temas_relacionados": [
-          "acentuacaoGrafica"
-        ]
-      },
+    “hiatos”: [
       {
         "enunciado": "Em relação às mudanças implementadas pelo Novo Acordo Ortográfico da Língua Portuguesa, analise os itens abaixo e assinale a alternativa correta. I. O alfabeto da Língua Portuguesa passa a ter 27 letras, com a incorporação das letras K, W e Y, que se empregam na grafia de nomes próprios, palavras deles derivadas e em abreviações. II. Cai o acento circunflexo do hiato EE dos verbos LER, DAR, CRER, VER e derivados. III. Cai o acento diferencial, apesar de permanecer nas palavras PÔDE e PÔR, e facultativamente , poder-se acentuar o substantivo FÔRMA. Estão corretos:",
         "opcoes": [
@@ -1064,7 +1131,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hiatos"
+          "acentuacaoGrafica",
+          "hiatos",
+          "ortografia",
+          "classesGramaticais"
         ]
       },
       {
@@ -1084,11 +1154,35 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "acentuacaoGrafica",
+          "tonicidade",
+          "hiatos",
+          "classesGramaticais"
         ]
       }
     ],
     "hifen": [
+      {
+        "enunciado": "Sobre acentuação e morfologia, analise as assertivas a seguir: I. A palavra "basicamente" é formada por derivação sufixal. II. É obrigatório o uso do hífen em "bem-estar" para formar uma unidade semântica. III. As palavras "francês" e "só" são acentuadas conforme a regra do hiato. Quais estão corretas?",
+        "opcoes": [
+          "Apenas I.",
+          "Apenas II.",
+          "Apenas I e II.",
+          "Apenas I e III."
+        ],
+        "correta": 0,
+        "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2026. Assunto: Acentuação e Morfologia.",
+        "banca": "FUNDATEC",
+        "ano": 2026,
+        "assunto": "Acentuação e Morfologia",
+        "tipo": "multipla_escolha",
+        "flashcard": null,
+        "temas_relacionados": [
+          "formacaoPalavras",
+          "hifen",
+          "acentuacaoGrafica"
+        ]
+      },
       {
         "enunciado": "Reportando-se ao uso, ou não do hífen, indique a alternativa incorreta.",
         "opcoes": [
@@ -1144,7 +1238,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "hifen"
         ]
       },
       {
@@ -1163,7 +1257,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "hifen"
         ]
       },
       {
@@ -1183,6 +1277,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "hifen",
           "acentuacaoGrafica"
         ]
       },
@@ -1203,7 +1298,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "hifen",
+          "formacaoPalavras"
         ]
       },
       {
@@ -1260,7 +1356,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "acentuacaoGrafica"
         ]
       },
       {
@@ -1320,7 +1416,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "hifen"
+          "hifen",
+          "formacaoPalavras",
+          "tonicidade"
         ]
       },
       {
@@ -1499,7 +1597,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "digrafos"
+          "digrafos",
+          "ortografia"
         ]
       },
       {
@@ -1559,7 +1658,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "hifen"
         ]
       },
       {
@@ -1579,6 +1679,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
+          "ortografia",
           "formacaoPalavras"
         ]
       },
@@ -1598,7 +1699,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "ortografia",
+          "acentuacaoGrafica",
+          "hifen"
         ]
       },
       {
@@ -1617,7 +1720,8 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "hifen"
         ]
       },
       {
@@ -1656,7 +1760,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "hifen",
+          "acentuacaoGrafica"
         ]
       },
       {
@@ -1675,7 +1781,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "acentuacaoGrafica",
+          "hifen"
         ]
       },
       {
@@ -1715,7 +1823,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "ortografia",
+          "acentuacaoGrafica",
+          "hifen"
         ]
       },
       {
@@ -1753,7 +1863,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "ortografia",
+          "acentuacaoGrafica",
+          "hifen"
         ]
       },
       {
@@ -1772,7 +1884,9 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "acentuacaoGrafica"
+          "ortografia",
+          "acentuacaoGrafica",
+          "hifen"
         ]
       },
       {
@@ -1791,7 +1905,7 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "ortografia"
+          "INCOMPLETA"
         ]
       },
       {
@@ -1833,7 +1947,10 @@ var QUESTOES_BANCO = {
         "tipo": "multipla_escolha",
         "flashcard": null,
         "temas_relacionados": [
-          "classesGramaticais"
+          "classesGramaticais",
+          "crase",
+          "acentuacaoGrafica",
+          "tonicidade"
         ]
       }
     ],
