@@ -2808,5 +2808,339 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   </ul>
 </div>`,
     questoes: []
+  },
+
+  // ─────────────────────────────────────────
+  {
+    id: "hifen", nome: "Hífen", icon: "➖", desc: "Uso do hífen e palavras compostas",
+    teoria: `
+<h3>O que é o Hífen?</h3>
+<p>O hífen é um sinal gráfico usado para unir elementos em palavras compostas e derivadas por prefixação. As regras atuais seguem o <strong>Acordo Ortográfico de 1990</strong>, em vigor desde 2009.</p>
+
+<h3>Prefixos: Quando usar o hífen?</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Situação</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Regra</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">2ª palavra começa com H</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Sempre usa hífen</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">anti-higiênico, sobre-humano, semi-herbáceo</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixo termina igual ao início da 2ª</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Vogal + vogal → hífen</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">anti-inflamatório, auto-observação, micro-ondas</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixos sub-, sob-, ad-, ob-, ab-</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de R</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">sub-reino, ob-reptício</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixo circum-, pan-</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de vogal, H ou M</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">circum-adjacente, pan-americano</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Demais casos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Sem hífen — aglomera</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">antiaéreo, reescrever, minissaia, extralegal</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Palavras Compostas</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Com hífen</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Sem hífen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#cbd5e1;">Substantivos e adjetivos compostos com elementos bem individualizados: <em>guarda-chuva, bem-estar, amor-perfeito</em></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">Compostos com elemento de ligação (de, da, e): <em>cão de guarda, pão de mel, mula sem cabeça</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#cbd5e1;">Compostos com palavras repetidas ou imitativas: <em>zum-zum, reco-reco, pingue-pongue</em></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">Compostos fundidos (aglutinação): <em>girassol, passatempo, pontapé</em></td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#cbd5e1;">Locuções com cor composta: <em>azul-marinho, verde-escuro</em></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">Cores simples modificadas por palavra: <em>verde oliva, azul petróleo</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Casos Especiais</h3>
+<ul>
+  <li><strong>além-, aquém-, recém-, sem-, vice-</strong>: sempre com hífen → <em>recém-nascido, vice-presidente, sem-terra</em></li>
+  <li><strong>ex-</strong> no sentido de "que foi": sempre hífen → <em>ex-presidente, ex-diretor</em></li>
+  <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
+</ul>
+
+<div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
+<strong style="color:#38bdf8;">Dicas para a prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>H sempre pede hífen</strong>: qualquer prefixo + palavra iniciada por H → hífen obrigatório.</li>
+  <li><strong>Vogal igual pede hífen</strong>: micro + ondas → micro-ondas (o+o). Vogais diferentes → sem hífen: autoescola (o+e).</li>
+  <li><strong>Recém sempre tem hífen</strong>: recém-formado, recém-chegado — sem exceção.</li>
+  <li><strong>R e S dobram</strong> em vez de usar hífen: anti+religioso = antirreligioso; mini+saia = minissaia.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  // ─────────────────────────────────────────
+  {
+    id: "concordancia", nome: "Concordância", icon: "🤝", desc: "Concordância verbal e nominal",
+    teoria: `
+<h3>O que é Concordância?</h3>
+<p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
+
+<h3>Concordância Verbal — Regras Gerais</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Sujeito</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Verbo</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Simples singular</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Singular</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>O aluno estudou.</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Composto (anteposto)</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Plural</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Pedro e Ana viajaram.</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Composto (posposto)</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Plural ou núcleo mais próximo</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Viajaram/Viajou Pedro e Ana.</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Coletivo</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Singular</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>A turma chegou.</em></td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;">A maioria de + plural</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Singular ou plural (ambos corretos)</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>A maioria dos alunos concordou/concordaram.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Casos Especiais — Concordância Verbal</h3>
+<ul>
+  <li><strong>Verbo SER</strong> com predicativo: concorda com o predicativo → <em>Tudo são flores. / A causa são os livros.</em></li>
+  <li><strong>Mais de um</strong>: verbo no singular → <em>Mais de um aluno saiu.</em></li>
+  <li><strong>Pronome relativo QUE</strong>: verbo concorda com o antecedente → <em>Fui eu que errei. / Foste tu que erraste.</em></li>
+  <li><strong>Sujeito oracional</strong>: verbo na 3ª pessoa do singular → <em>Convém que todos cheguem.</em></li>
+  <li><strong>Verbos impessoais</strong> (haver, fazer, ir + tempo): sempre singular → <em>Havia muitas pessoas. Faz dois anos.</em></li>
+</ul>
+
+<h3>Concordância Nominal — Regras</h3>
+<ul>
+  <li><strong>Adjetivo posposto a vários substantivos</strong>: concorda com o mais próximo (se diferentes gêneros) ou vai ao plural → <em>camisa e calça branca / brancas.</em></li>
+  <li><strong>Adjetivo anteposto</strong>: concorda com o mais próximo → <em>Bela canção e poema.</em></li>
+  <li><strong>Anexo, incluso, obrigado, quite, próprio, mesmo</strong>: concordam com o substantivo → <em>A aluna está quite. Os dados estão anexos.</em></li>
+  <li><strong>Bastante, caro, barato</strong> como advérbio: invariável → <em>Elas falam bastante.</em></li>
+</ul>
+
+<div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
+<strong style="color:#38bdf8;">Dicas para a prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>HAVER = existir → invariável</strong>: nunca "haviam pessoas" — correto: "havia pessoas".</li>
+  <li><strong>Sujeito posposto</strong>: identifique o sujeito real antes de concordar — o verbo pode enganar.</li>
+  <li><strong>"É proibido/necessário/permitido"</strong> sem artigo: invariável → <em>É proibido entrada.</em></li>
+  <li><strong>Palavras de tratamento</strong> (Vossa Excelência): verbo na 3ª pessoa → <em>Vossa Excelência concordou.</em></li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  // ─────────────────────────────────────────
+  {
+    id: "colocacaoPronominal", nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
+    teoria: `
+<h3>O que é Colocação Pronominal?</h3>
+<p>Estuda a posição dos <strong>pronomes oblíquos átonos</strong> (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo. Há três posições possíveis:</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Posição</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Nome</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Antes do verbo</td>
+      <td style="padding:9px 11px;color:#94a3b8;font-weight:700;">Próclise</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Não <strong>me</strong> diga isso.</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Depois do verbo</td>
+      <td style="padding:9px 11px;color:#94a3b8;font-weight:700;">Ênclise</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Diga-<strong>me</strong> isso.</em></td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;">No meio do verbo</td>
+      <td style="padding:9px 11px;color:#94a3b8;font-weight:700;">Mesóclise</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Dir-<strong>me</strong>-ei isso.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Próclise — Quando o pronome vem ANTES</h3>
+<p>É obrigatória quando há palavras atrativas antes do verbo:</p>
+<ul>
+  <li><strong>Palavras negativas</strong>: não, nunca, jamais, nada, ninguém → <em>Não me conta.</em></li>
+  <li><strong>Pronomes relativos</strong>: que, quem, cujo → <em>Quem te disse isso?</em></li>
+  <li><strong>Conjunções subordinativas</strong>: quando, se, porque → <em>Quando me viu, sorriu.</em></li>
+  <li><strong>Advérbios sem pausa</strong>: sempre, já, aqui, ontem → <em>Aqui se faz, aqui se paga.</em></li>
+  <li><strong>Pronomes indefinidos ou demonstrativos</strong>: alguém, tudo, isso → <em>Tudo nos surpreendeu.</em></li>
+</ul>
+
+<h3>Ênclise — Quando o pronome vem DEPOIS</h3>
+<ul>
+  <li>Verbo no início da frase (sem palavra atrativa): <em>Conte-me tudo.</em></li>
+  <li>Verbo no imperativo afirmativo: <em>Faz isso, vá-se embora.</em></li>
+  <li>Verbo no infinitivo impessoal: <em>É preciso fazê-lo.</em></li>
+  <li>Verbo no gerúndio sem <em>em</em>: <em>Estava contando-me a história.</em></li>
+</ul>
+
+<h3>Mesóclise — No meio do verbo</h3>
+<p>Usada com verbos no <strong>futuro do presente</strong> ou <strong>futuro do pretérito</strong> quando não há palavra atrativa:</p>
+<ul>
+  <li><em>Contar-te-ei tudo.</em> (contarei + te)</li>
+  <li><em>Dir-lhe-ia a verdade.</em> (diria + lhe)</li>
+</ul>
+
+<div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
+<strong style="color:#38bdf8;">Dicas para a prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Início absoluto de frase → ênclise</strong>: nunca se começa frase com pronome oblíquo átono em português formal.</li>
+  <li><strong>Palavra negativa → próclise</strong>: "não te digo" é correto; "não digo-te" é errado.</li>
+  <li><strong>Futuro sem atrativo → mesóclise</strong>: mas na prática, a próclise também é aceita em contexto informal.</li>
+  <li><strong>Em + gerúndio → próclise</strong>: <em>Em se tratando disso…</em></li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  // ─────────────────────────────────────────
+  {
+    id: "paronimosHomonimos", nome: "Parônimos e Homônimos", icon: "🔄", desc: "Palavras parecidas com sentidos distintos",
+    teoria: `
+<h3>Definições</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Termo</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Definição</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;font-weight:700;">Parônimos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Grafia/pronúncia parecidas, mas significados diferentes</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>descrição × discrição</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;font-weight:700;">Homônimos homófonos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Mesma pronúncia, grafias e sentidos diferentes</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>cela (prisão) × sela (de cavalo)</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;font-weight:700;">Homônimos homógrafos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Mesma grafia, pronúncia e sentidos diferentes</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>manga (fruta) × manga (de camisa)</em></td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;font-weight:700;">Homônimos perfeitos</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Mesma grafia, mesma pronúncia, sentidos diferentes</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>são (saudável) × são (forma de ser)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Parônimos Mais Cobrados em Prova</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Par</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>descrição</strong> × <strong>discrição</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">descrever algo × ser discreto</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>comprimento</strong> × <strong>cumprimento</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">tamanho × saudação / cumprir</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>flagrante</strong> × <strong>fragrante</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">pego no ato × perfumado</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>emigrar</strong> × <strong>imigrar</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">sair do país × entrar no país</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>tráfico</strong> × <strong>tráfego</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">comércio ilegal × trânsito</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>mandado</strong> × <strong>mandato</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">ordem judicial × período de cargo</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;"><strong>retificar</strong> × <strong>ratificar</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">corrigir × confirmar/aprovar</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;"><strong>seção</strong> × <strong>sessão</strong> × <strong>cessão</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">divisão × reunião × ato de ceder</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Homônimos Mais Cobrados</h3>
+<ul>
+  <li><strong>a / à / há</strong>: preposição × crase × verbo haver (tempo) → <em>Fui a Brasília. / Fui à cidade. / Há dois anos.</em></li>
+  <li><strong>mal / mau</strong>: advérbio/substantivo × adjetivo → <em>Ele se saiu mal. / Ele é um mau aluno.</em></li>
+  <li><strong>mas / mais</strong>: conjunção adversativa × advérbio → <em>Tentei, mas não consegui. / Preciso de mais tempo.</em></li>
+  <li><strong>onde / aonde</strong>: lugar onde está × lugar para onde vai → <em>A cidade onde moro. / Aonde você vai?</em></li>
+</ul>
+
+<div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
+<strong style="color:#38bdf8;">Dicas para a prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Parônimo</strong>: a diferença está na escrita → leia com atenção cada letra.</li>
+  <li><strong>descrição/discrição</strong>: "i" de discrição = "invisível" (discreto não aparece).</li>
+  <li><strong>ratificar</strong> (confirmar) tem "rati" de "ratificação de tratado" — algo já decidido.</li>
+  <li><strong>seção/sessão/cessão</strong>: seção = corte/parte; sessão = sentar (reunião); cessão = ceder.</li>
+</ul>
+</div>`,
+    questoes: []
   }
 ];
