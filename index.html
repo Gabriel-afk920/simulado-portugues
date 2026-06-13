@@ -30,13 +30,6 @@
         <div class="hc-desc">Escolha um tema e responda questões com cronômetro e gabarito comentado</div>
       </div>
     </div>
-    <div class="home-actions" style="margin-top:16px;">
-      <div class="home-card blue" id="btn-ir-cartoes" style="grid-column:1/-1;">
-        <div class="hc-icon">🃏</div>
-        <div class="hc-title">Cartões de Estudo</div>
-        <div class="hc-desc">Questão na frente · Conteúdo completo do assunto no verso</div>
-      </div>
-    </div>
   </div>
 
   <!-- ════════════════════════════
@@ -82,47 +75,6 @@
     <p class="subtitle">Escolha um tema para iniciar</p>
     <div class="tema-grid" id="quiz-tema-grid"></div>
     <button class="btn btn-primary" id="btn-iniciar" disabled>Iniciar Simulado</button>
-  </div>
-
-  <!-- ════════════════════════════
-       TELA: SELEÇÃO DE TEMA (CARTÕES)
-  ════════════════════════════ -->
-  <div id="screen-card-topics" class="hidden">
-    <button class="btn-ghost" id="btn-back-card-home">← Voltar</button>
-    <h1>Cartões de Estudo</h1>
-    <p class="subtitle">Escolha um tema</p>
-    <div class="tema-grid" id="card-tema-grid"></div>
-  </div>
-
-  <!-- ════════════════════════════
-       TELA: CARTÃO
-  ════════════════════════════ -->
-  <div id="screen-cards" class="hidden">
-    <button class="btn-ghost" id="btn-back-card-topics">← Temas</button>
-    <div class="topic-tag" id="card-topic-tag"></div>
-
-    <div class="card-wrap" id="card-wrap">
-      <div class="card-inner">
-        <!-- Frente: questão + alternativas -->
-        <div class="card-face card-frente">
-          <div id="card-concurso-header"></div>
-          <div id="card-enunciado" style="font-size:0.95rem;line-height:1.7;color:#e2e8f0;margin-bottom:16px;"></div>
-          <ul id="card-opcoes" style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;"></ul>
-          <p class="card-hint">Toque para ver o conteúdo do verso →</p>
-        </div>
-        <!-- Verso: conteúdo do assunto -->
-        <div class="card-face card-verso">
-          <div id="card-verso-conteudo"></div>
-          <p class="card-hint">← Toque para voltar à questão</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-nav">
-      <button class="btn btn-secondary" id="btn-card-anterior" style="flex:1;">← Anterior</button>
-      <span class="card-counter" id="card-counter">1 / 10</span>
-      <button class="btn btn-secondary" id="btn-card-proximo" style="flex:1;">Próximo →</button>
-    </div>
   </div>
 
   <!-- ════════════════════════════
