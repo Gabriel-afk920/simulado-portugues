@@ -75,13 +75,22 @@
       background: #1e293b; border: 2px solid #334155;
       border-radius: 12px; padding: 18px 14px;
       cursor: pointer; transition: border-color 0.2s, background 0.2s;
-      text-align: center;
+      text-align: center; position: relative;
     }
     .tema-card:hover     { border-color: #38bdf8; background: #1e3a4a; }
     .tema-card.selected  { border-color: #38bdf8; background: #0c4a6e; }
     .tema-card .icon { font-size: 1.8rem; margin-bottom: 6px; }
     .tema-card .nome { font-weight: 600; font-size: 0.95rem; }
     .tema-card .desc { font-size: 0.78rem; color: #94a3b8; margin-top: 4px; }
+    .perf-badge {
+      position: absolute; top: 8px; right: 8px;
+      font-size: 0.68rem; font-weight: 700; color: #0f172a;
+      padding: 2px 7px; border-radius: 10px; line-height: 1.4;
+    }
+    .score-hist {
+      color: #64748b; font-size: 0.82rem; margin: 4px 0 12px;
+    }
+    .score-hist strong { color: #94a3b8; }
 
     /* ── ACCORDION SÍLABAS E ACENTUAÇÃO ── */
 

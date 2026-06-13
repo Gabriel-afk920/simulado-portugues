@@ -1,5 +1,20 @@
 ﻿
 // ══════════════════════════════════════════════════════════
+//  HISTÓRICO DE DESEMPENHO (localStorage)
+// ══════════════════════════════════════════════════════════
+function _historico() {
+  try { return JSON.parse(localStorage.getItem('desempenho') || '{}'); } catch { return {}; }
+}
+function _salvarSessao(temaId, acertos, total) {
+  const h = _historico();
+  if (!h[temaId]) h[temaId] = { acertos: 0, total: 0, sessoes: 0 };
+  h[temaId].acertos += acertos;
+  h[temaId].total   += total;
+  h[temaId].sessoes += 1;
+  localStorage.setItem('desempenho', JSON.stringify(h));
+}
+
+// ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
 const TEMPO_SIMULADO = 10 * 60; // 10 minutos
@@ -56,13 +71,23 @@ const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','hiatos','fonemas','ortog
 
 function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);
+  const hist = _historico();
   grid.innerHTML = '';
   TEMAS.forEach(t => {
     if (excluir && excluir.includes(t.id)) return;
     const card = document.createElement('div');
     card.className = 'tema-card';
     card.dataset.id = t.id;
-    card.innerHTML = `<div class="icon">${t.icon}</div><div class="nome">${t.nome}</div><div class="desc">${t.desc}</div>`;
+
+    let badge = '';
+    const h = hist[t.id];
+    if (h && h.total > 0) {
+      const pct = Math.round((h.acertos / h.total) * 100);
+      const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
+      badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
+    }
+
+    card.innerHTML = `${badge}<div class="icon">${t.icon}</div><div class="nome">${t.nome}</div><div class="desc">${t.desc}</div>`;
     card.addEventListener('click', () => onClickFn(t.id, card));
     grid.appendChild(card);
   });
@@ -341,6 +366,18 @@ function mostrarResultado() {
 
   document.getElementById('score-msg').textContent = msg;
   document.getElementById('score-sub').textContent = sub;
+
+  // Salva e exibe histórico
+  const acertosSessao = Object.values(respostasMap).filter(r => r.acertou).length;
+  _salvarSessao(temaAtual.id, acertosSessao, total);
+  const hist = _historico()[temaAtual.id];
+  const histEl = document.getElementById('score-hist');
+  if (hist && hist.sessoes > 1) {
+    const pctH = Math.round((hist.acertos / hist.total) * 100);
+    histEl.innerHTML = `Histórico acumulado: <strong>${hist.acertos}/${hist.total}</strong> acertos em <strong>${hist.sessoes}</strong> sessões — ${pctH}%`;
+  } else {
+    histEl.textContent = '';
+  }
 
   const reviewList = document.getElementById('review-list');
   reviewList.innerHTML = '';
