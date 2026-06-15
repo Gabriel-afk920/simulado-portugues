@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 15/06/2026, 18:32:10 — 213 questões incluídas
+// 15/06/2026, 18:39:40 — 213 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -40,7 +40,7 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": "<h3>Interpretação de Texto: Conceitos Básicos</h3>\n<p>O processo de interpretação de texto envolve a compreensão do significado e da mensagem transmitida pelo autor através da linguagem escrita.</p>\n\n<h3>Tipo de Linguagem</h3>\n<ul>\n  <li><strong>Linguagem Formal:</strong> Utilizada em contextos profissionais, acadêmicos ou oficiais. Exemplo: relatórios, artigos científicos, leis.</li>\n  <li><strong>Linguagem Informal:</strong> Utilizada em contextos sociais, familiares ou de lazer. Exemplo: mensagens de texto, redes sociais, cartões de aniversário.</li>\n</ul>\n\n<h3>Características do Texto</h3>\n<ul>\n  <li><strong>Tone:</strong> O tom do texto pode ser objetivo, subjetivo, formal ou informal. Exemplo: um artigo científico tem um tom objetivo, enquanto uma carta de amor tem um tom subjetivo.</li>\n  <li><strong>Pontuação e Sintaxe:</strong> A pontuação e a sintaxe utilizadas no texto podem influenciar a interpretação do leitor. Exemplo: uso de vírgulas, pontos de interrogação ou exclamação.</li>\n</ul>\n\n<h3>Contextualização</h3>\n<p>A contextualização é fundamental para entender o significado do texto. É importante considerar o contexto em que o texto foi escrito e a intenção do autor.</p>\n\n<h3>Exemplos Práticos</h3>\n<ul>\n  <li><strong>Texto de propaganda:</strong> Um anúncio publicitário pode ter linguagem formal ou informal, dependendo da marca e do público-alvo. Exemplo: um anúncio de luxo tem linguagem formal, enquanto um anúncio de uma loja de roupas tem linguagem informal.</li>\n  <li><strong>Texto jornalístico:</strong> Um artigo de jornal pode ter linguagem objetiva ou subjetiva, dependendo do estilo do jornal e da intenção do autor. Exemplo: um artigo de notícias tem linguagem objetiva, enquanto uma coluna de opinião tem linguagem subjetiva.</li>\n</ul>\n\n<h3>Conclusão</h3>\n<p>A interpretação de texto é um processo complexo que envolve a consideração de vários fatores, incluindo o tipo de linguagem, as características do texto e a contextualização. É importante desenvolver habilidades críticas para entender o significado e a mensagem transmitida pelo autor.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -60,7 +60,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Uso da Crase</h3>\n<p>A crase é a junção de duas palavras que começam por vogal, geralmente para evitar a repetição de sons idênticos.</p>\n\n<h3>Regras para o Uso da Crase</h3>\n<ul>\n  <li><strong>Palavra anterior em \"o\" ou \"os\"</strong>: quando a palavra anterior termina em \"o\" ou \"os\", a crase é obrigatória. Exemplo: \"O uso do livro é muito grande.\"</li>\n  <li><strong>Palavra anterior em \"e\" ou \"em\"</strong>: quando a palavra anterior termina em \"e\" ou \"em\", a crase é facultativa, mas comum em textos literários e poéticos. Exemplo: \"O amor é eterno.\" (crase facultativa)</li>\n  <li><strong>Palavras que começam por vogal</strong>: quando duas palavras começam por vogal, a crase é obrigatória para evitar a repetição de sons idênticos. Exemplo: \"A água é azul.\"</li>\n  <li><strong>Exceções</strong>: existem algumas exceções ao uso da crase, como em expressões idiomáticas ou em textos que buscam efeitos literários. Exemplo: \"Onde está o meu chapéu?\" (crase facultativa para efeito literário)</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>A crase é frequentemente usada em textos poéticos ou literários, onde a repetição de sons idênticos pode ser considerada monótona. Exemplo: \"A alma é eterna e imortal.\"</p>\n\n<h3>Conclusão</h3>\n<p>O uso da crase é uma regra importante na língua portuguesa, pois ajuda a evitar a repetição de sons idênticos e a criar textos mais harmoniosos. Lembre-se de que a crase é obrigatória em certas situações e facultativa em outras.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "crase",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -80,7 +81,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Uso da Crase</h3>\n<p>A crase é a junção de duas palavras que começam por vogal, geralmente para evitar a repetição de sons idênticos.</p>\n\n<h3>Regras para o Uso da Crase</h3>\n<ul>\n  <li><strong>Palavra anterior em \"o\" ou \"os\"</strong>: quando a palavra anterior termina em \"o\" ou \"os\", a crase é obrigatória. Exemplo: \"O uso do livro é muito grande.\"</li>\n  <li><strong>Palavra anterior em \"e\" ou \"em\"</strong>: quando a palavra anterior termina em \"e\" ou \"em\", a crase é facultativa, mas comum em textos literários e poéticos. Exemplo: \"O amor é eterno.\" (crase facultativa)</li>\n  <li><strong>Palavras que começam por vogal</strong>: quando duas palavras começam por vogal, a crase é obrigatória para evitar a repetição de sons idênticos. Exemplo: \"A água é azul.\"</li>\n  <li><strong>Exceções</strong>: existem algumas exceções ao uso da crase, como em expressões idiomáticas ou em textos que buscam efeitos literários. Exemplo: \"Onde está o meu chapéu?\" (crase facultativa para efeito literário)</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>A crase é frequentemente usada em textos poéticos ou literários, onde a repetição de sons idênticos pode ser considerada monótona. Exemplo: \"A alma é eterna e imortal.\"</p>\n\n<h3>Conclusão</h3>\n<p>O uso da crase é uma regra importante na língua portuguesa, pois ajuda a evitar a repetição de sons idênticos e a criar textos mais harmoniosos. Lembre-se de que a crase é obrigatória em certas situações e facultativa em outras.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "crase",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -99,7 +101,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Acentuação e Morfologia</strong></h3>\n\n<p>As regras de acentuação e morfologia são fundamentais para a formação correta da língua portuguesa em textos escritos.</p>\n\n<h3><strong>O que é Acentuação?</strong></h3>\n\n<ul>\n  <li>A acentuação é o processo de marcação das vogais com acento agudo (á, é, í, ó, ú) ou grave (à, ê, î, ô, û) para indicar a pronúncia correta das palavras.</li>\n  <li>É importante para evitar ambiguidade e garantir a compreensão do texto.</li>\n</ul>\n\n<h3><strong>O que é Morfologia?</strong></h3>\n\n<ul>\n  <li>A morfologia estuda as mudanças de forma das palavras, como a formação de novas palavras a partir de outras existentes.</li>\n  <li>É fundamental para entender como as palavras se relacionam entre si e como elas são formadas.</li>\n</ul>\n\n<h3><strong>Regras Básicas de Acentuação</strong></h3>\n\n<ul>\n  <li>Palavras que terminam em -ção, -ção, -são, -são, -ço, -ço, -te, -te, -me, -me, -ne, -ne, -rém, -rém, -lhe, -lhe, -lhos, -lhos, -vos, -vos, -mos, -mos, -nos, -nos, -ros, -ros, -ssem, -ssem, -trem, -trem, -vós, -vós, -vos, -vos, -lhes, -lhes, -os, -os, -as, -as, -em, -em, -am, -am, -ão, -ão, -ô, -ô, -ê, -ê, -î, -î, -ô, -ô, -û, -û, -é, -é, -í, -í, -ó, -ó, -ú, -ú.</li>\n  <li>Palavras que terminam em -al, -il, -ol, -ul, -em, -im, -om, -um, -ar, -ir, -or, -ur, -er, -ir, -or, -ur, -ão, -ão, -ô, -ô, -ê, -ê, -î, -î, -ô, -ô, -û, -û, -é, -é, -í, -í, -ó, -ó, -ú, -ú.</li>\n</ul>\n\n<h3><strong>Exemplos Práticos de Acentuação</strong></h3>\n\n<ul>\n  <li>Palavras que terminam em -ção: ação, ação, ação, ação, ação, ação, ação, ação.</li>\n  <li>Palavras que terminam em -ão: ação, ação, ação, ação, ação, ação, ação, ação.</li>\n</ul>\n\n<h3><strong>Regras Básicas de Morfologia</strong></h3>\n\n<ul>\n  <li>A formação das palavras pode ocorrer por meio da adição ou perda de letras, como na formação do plural.</li>\n  <li>A mudança de forma das palavras pode ser feita por meio da substituição de letras, como na formação do feminino.</li>\n</ul>\n\n<h3><strong>Exemplos Práticos de Morfologia</strong></h3>\n\n<ul>\n  <li>Formação do plural: casa -> casas, livro -> livros.</li>\n  <li>Formação do feminino: homem -> mulher, pai -> mãe.</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -118,7 +121,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Acentuação: Revisão Básica</strong></h3>\n<p>O acento gráfico é um sinal que indica como deve ser pronunciada uma letra em determinadas palavras do português.</p>\n\n<h3><strong>Tipos de Acentos</strong></h3>\n<ul>\n  <li><em>Acento agudo (á, é, í, ó, ú)</em>: Indica que a vogal deve ser pronunciada com um som mais alto e fechado.</li>\n  <li><em>Acento circunflexo (^)</em>: Indica que a vogal deve ser pronunciada com um som mais aberto e prolongado.</li>\n  <li><em>Acento grave (`)</em>: Indica que a vogal deve ser pronunciada com um som mais baixo e fechado.</li>\n</ul>\n\n<h3><strong>Regras de Acentuação</strong></h3>\n<p>Para determinar se uma palavra deve ter acento gráfico, devemos considerar as seguintes regras:</p>\n<ul>\n  <li><em>Vogais em sílabas finais</em>: As vogais em sílabas finais de palavras não são acentuadas.</li>\n  <li><em>Vogais em sílabas anteriores</em>: As vogais em sílabas anteriores de palavras são acentuadas, exceto se forem seguidas por uma consoante.</li>\n  <li><em>Palavras com prefixos e sufixos</em>: Os prefixos e sufixos não alteram a regra de acentuação da palavra.</li>\n</ul>\n\n<h3><strong>Exemplos Práticos</strong></h3>\n<p>Confira os exemplos abaixo:</p>\n<ul>\n  <li><em>Água</em>: A vogal \"a\" é acentuada porque está em uma sílaba anterior.</li>\n  <li><em>Aluno</em>: A vogal \"u\" não é acentuada porque está em uma sílaba final.</li>\n  <li><em>Revisão</em>: A vogal \"i\" é acentuada porque está em uma sílaba anterior e precedida por uma consoante.</li>\n</ul>\n\n<h3><strong>Acentuação em Conjugação de Verbos</strong></h3>\n<p>Os verbos também seguem regras específicas de acentuação:</p>\n<ul>\n  <li><em>Verbos terminados em -ar</em>: Os verbos terminados em -ar, como \"amar\" e \"estudar\", têm o acento gráfico na vogal \"a\".</li>\n  <li><em>Verbos terminados em -er</em>: Os verbos terminados em -er, como \"fazer\" e \"dizer\", têm o acento gráfico na vogal \"e\".</li>\n  <li><em>Verbos terminados em -ir</em>: Os verbos terminados em -ir, como \"vir\" e \"sair\", têm o acento gráfico na vogal \"i\".</li>\n</ul>\n\n<h3><strong>Acentuação em Palavras Compostas</strong></h3>\n<p>As palavras compostas também seguem regras específicas de acentuação:</p>\n<ul>\n  <li><em>Palavras compostas com prefixos e sufixos</em>: Os prefixos e sufixos não alteram a regra de acentuação da palavra.</li>\n  <li><em>Palavras compostas com vogais em sílabas anteriores</em>: As vogais em sílabas anteriores das palavras compostas são acentuadas, exceto se forem seguidas por uma consoante.</li>\n</ul>\n\n<h3><strong>Conclusão</strong></h3>\n<p>A acentuação é um aspecto fundamental da língua portuguesa e deve ser estudada com cuidado para evitar erros em concursos públicos. Lembre-se de que as regras de acentuação são específicas para cada tipo de palavra e devem ser aplicadas com atenção.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "classesGramaticais",
+                      "formacaoPalavras"
                 ]
           },
           {
@@ -137,7 +143,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Classificação de Palavras</h3>\n<p>A classificação de palavras é fundamental para entender a estrutura e o significado das palavras em português.</p>\n\n<ul>\n  <li><strong>Palavras comuns:</strong> São as palavras que não têm uma forma específica ou especial. Exemplos: casa, livro, cidade.</li>\n  <li><strong>Palavras próprias:</strong> São as palavras que têm uma forma específica e são usadas para se referir a pessoas, lugares ou coisas específicas. Exemplos: João, Rio de Janeiro, Universidade.</li>\n</ul>\n\n<h3>Acentuação das Palavras</h3>\n<p>A acentuação é fundamental para entender o significado e a pronúncia das palavras em português.</p>\n\n<ul>\n  <li><strong>Palavras agudas:</strong> São as palavras que terminam em vogal. Exemplos: casa, livro, cidade.</li>\n  <li><strong>Palavras graves:</strong> São as palavras que terminam em consoante. Exemplos: João, Rio de Janeiro, Universidade.</li>\n</ul>\n\n<h3>Conjugação Verbais</h3>\n<p>A conjugação verbal é fundamental para entender a forma como os verbos são usados em português.</p>\n\n<ul>\n  <li><strong>Verbos regulares:</strong> São os verbos que seguem as regras de conjugação. Exemplos: caminhar, cantar, dançar.</li>\n  <li><strong>Verbos irregulares:</strong> São os verbos que não seguem as regras de conjugação. Exemplos: ser, estar, ter.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Aqui estão alguns exemplos práticos para ilustrar a classificação de palavras e acentuação:</p>\n\n<ul>\n  <li><strong>Casa:</strong> É uma palavra comum que termina em vogal, portanto é aguda.</li>\n  <li><strong>João:</strong> É uma palavra própria que termina em consoante, portanto é grave.</li>\n</ul>\n\n<h3>Regras para Acentuação</h3>\n<p>Aqui estão as regras para acentuação das palavras:</p>\n\n<ul>\n  <li><strong>Palavras agudas:</strong> São acentuadas com um acento agudo (á, é, í, ó, ú).</li>\n  <li><strong>Palavras graves:</strong> Não são acentuadas.</li>\n</ul>\n\n<h3>Exemplos de Acentuação</h3>\n<p>Aqui estão alguns exemplos de acentuação das palavras:</p>\n\n<ul>\n  <li><strong>Casa:</strong> cá-sa (aguda)</li>\n  <li><strong>João:</strong> jô-ão (grave)</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "classesGramaticais",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -156,7 +164,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>**Acentuação Gráfica: Definição e Importância**</h3>\n<p>A acentuação gráfica é um aspecto fundamental da língua portuguesa que visa indicar a pronúncia correta de palavras em textos escritos. Ela ajuda a evitar ambiguidades e a manter a coerência na comunicação.</p>\n\n<h3>**Tipos de Acentos Gráficos**</h3>\n<ul>\n  <li><strong>Acento Agudo (á, é, í, ó, ú)</strong>: Indica que a vogal é aberta e pronunciada com um som mais alto.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a vogal é fechada e pronunciada com um som mais baixo.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a vogal é aberta e pronunciada com um som mais alto, mas com uma entonação diferente do agudo.</li>\n</ul>\n\n<h3>**Regras para Uso de Acentos Gráficos**</h3>\n<p>As regras para uso de acentos gráficos são fundamentais para evitar erros e garantir a clareza da comunicação. Aqui estão algumas das principais regras:</p>\n\n<ul>\n  <li><strong>Acento Agudo (á, é, í, ó, ú)</strong>: É usado em palavras que terminam com as vogais \"a\", \"e\", \"i\" ou \"o\" e são seguidas de uma consoante.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: É usado em palavras que terminam com a vogal \"e\" e são seguidas de uma consoante.</li>\n  <li><strong>Acento Grave (`)</strong>: É usado em palavras que terminam com as vogais \"a\", \"e\" ou \"i\" e são seguidas de uma consoante.</li>\n</ul>\n\n<h3>**Exemplos Práticos**</h3>\n<p>Para ilustrar melhor as regras, aqui estão alguns exemplos práticos:</p>\n\n<ul>\n  <li><strong>Palavras que terminam com \"a\" e são seguidas de consoante:</strong> casa, água, café.</li>\n  <li><strong>Palavras que terminam com \"e\" e são seguidas de consoante:</strong> café, futebol, telefone.</li>\n  <li><strong>Palavras que terminam com \"i\" e são seguidas de consoante:</strong> água, férias, cinema.</li>\n</ul>\n\n<h3>**Dicas para Uso Correto de Acentos Gráficos**</h3>\n<p>Aqui estão algumas dicas importantes para uso correto de acentos gráficos:</p>\n\n<ul>\n  <li><strong>Lembre-se das regras!</strong> As regras são fundamentais para evitar erros e garantir a clareza da comunicação.</li>\n  <li><strong>Verifique as palavras!</strong> Certifique-se de que está usando o acento correto em cada palavra.</li>\n  <li><strong>Pratique, pratique, pratique!</strong> A prática é fundamental para dominar as regras e usar os acentos gráficos corretamente.</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -175,7 +184,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Organização de Palavras em Listas</h3>\n\n<p>A organização de palavras em listas é uma técnica fundamental para facilitar a consulta e a compreensão de textos. É importante saber como organizar as palavras corretamente para evitar erros e garantir a clareza do texto.</p>\n\n<h3>Regras para Organização de Palavras</h3>\n\n<ul>\n  <li><strong>Ordem Alfabética:</strong> As palavras devem ser organizadas em ordem alfabética, considerando a letra inicial de cada palavra. Por exemplo: \"abacate\", \"banana\", \"cereja\".</li>\n  <li><strong>Ordem Numérica:</strong> Quando as palavras forem números, elas devem ser organizadas em ordem numérica crescente ou decrescente. Por exemplo: \"1\", \"2\", \"3\" ou \"10\", \"9\", \"8\".</li>\n  <li><strong>Ordem Cronológica:</strong> As palavras que se referem a datas devem ser organizadas em ordem cronológica, considerando a data mais antiga para a mais recente. Por exemplo: \"segunda-feira\", \"terça-feira\", \"quarta-feira\".</li>\n  <li><strong>Ordem Lógica:</strong> As palavras que se referem a conceitos ou ideias devem ser organizadas em ordem lógica, considerando a relação entre as ideias. Por exemplo: \"causa\", \"efeito\", \"consequência\".</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Considere o seguinte texto:</p>\n\n<ul>\n  <li><em>\"Os alunos devem estudar para a prova, que acontece em 15 de junho. A prova é importante para a aprovação no curso.\" </em></li>\n</ul>\n\n<p>Para organizar as palavras corretamente, podemos seguir as regras abaixo:</p>\n\n<ul>\n  <li><strong>Ordem Alfabética:</strong> \"A\", \"alunos\", \"aprovação\", \"curso\", \"devem\", \"efeito\", \"em\", \"importante\", \"julho\", \"para\", \"prova\".</li>\n  <li><strong>Ordem Numérica:</strong> \"15\", \"2023\" (se for necessário incluir a data do ano).</li>\n  <li><strong>Ordem Cronológica:</strong> \"segunda-feira\", \"terça-feira\", \"quarta-feira\" (se for necessário incluir datas específicas).</li>\n  <li><strong>Ordem Lógica:</strong> \"causa\", \"efeito\", \"consequência\" (se for necessário organizar conceitos ou ideias).</li>\n</ul>\n\n<h3>Dicas para Organização de Palavras em Listas</h3>\n\n<p>Para garantir a clareza e a eficiência ao organizar palavras em listas, é importante:</p>\n\n<ul>\n  <li><strong>Ler o texto cuidadosamente;</strong></li>\n  <li><strong>Identificar as palavras-chave;</strong></li>\n  <li><strong>Aplique as regras de organização corretas.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -194,7 +204,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>**O que são as Proparoxítonas?**</h3>\n<p>As proparoxítonas são palavras que têm a sílaba tônica na penúltima posição e a sílaba átona na antepenúltima. Isso significa que a palavra tem um acento agudo no penúltimo sinal e o acento grave no antepenúltimo.</p>\n\n<h3>**Exemplos de Proparoxítonas**</h3>\n<ul>\n  <li><strong>Alcance</strong></li>\n  <li><strong>Arrebatamento</strong></li>\n  <li><strong>Cantoria</strong></li>\n  <li><strong>Construção</strong></li>\n</ul>\n\n<h3>**Regras para Identificar as Proparoxítonas**</h3>\n<p>Para identificar se uma palavra é proparoxítona, siga as seguintes regras:</p>\n<ul>\n  <li>Verifique a sílaba tônica da palavra. Ela deve estar na penúltima posição.</li>\n  <li>Verifique a sílaba átona da palavra. Ela deve estar na antepenúltima posição.</li>\n</ul>\n\n<h3>**Exemplos de Palavras que Não São Proparoxítonas**</h3>\n<p>Algumas palavras podem ter uma aparência semelhante às proparoxítonas, mas não são. Por exemplo:</p>\n<ul>\n  <li><strong>Alcance</strong> (é proparoxítona)</li>\n  <li><strong>Arrebatamento</strong> (não é proparoxítona)</li>\n</ul>\n\n<h3>**Dicas para Lembrei-Te**</h3>\n<p>Para lembrar-se de como identificar as proparoxítonas, tente os seguintes truques:</p>\n<ul>\n  <li>Lembre-se de que a sílaba tônica é a que tem o acento agudo.</li>\n  <li>Lembre-se de que a sílaba átona é a que tem o acento grave.</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -214,7 +226,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Vogais Acentuadas</strong></h3>\n<p>A acentuação das vogais é uma regra importante na língua portuguesa para concursos públicos.</p>\n\n<h3>Regras de Acentuação das Vogais</h3>\n<ul>\n  <li><em>Palavras que terminam em -ção, -ção, -são e -ço:</em></li>\n  <ul>\n    <li>A acentuação da vogal \"e\" é feita quando a palavra termina em -ção ou -ção.</li>\n    <li>Exemplo: nação, paixão</li>\n  </ul>\n  <li><em>Palavras que terminam em -são:</em></li>\n  <ul>\n    <li>A acentuação da vogal \"e\" é feita quando a palavra termina em -são.</li>\n    <li>Exemplo: nação, paixão</li>\n  </ul>\n  <li><em>Palavras que terminam em -ço:</em></li>\n  <ul>\n    <li>A acentuação da vogal \"e\" é feita quando a palavra termina em -ço.</li>\n    <li>Exemplo: álcool, café</li>\n  </ul>\n</ul>\n\n<h3>Palavras que Seguem Outra Regra</h3>\n<p>Existem palavras que seguem outra regra de acentuação das vogais. Essas palavras são:</p>\n<ul>\n  <li><strong>exceção</strong></li>\n  <li><strong>ação</strong></li>\n  <li><strong>ação</strong></li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Aqui estão alguns exemplos práticos de como aplicar as regras de acentuação das vogais:</p>\n<ul>\n  <li><em>Palavras que terminam em -ção ou -ção:</em></li>\n    <ul>\n      <li>nação</li>\n      <li>paixão</li>\n    </ul>\n  <li><em>Palavras que terminam em -são:</em></li>\n    <ul>\n      <li>ação</li>\n      <li>exceção</li>\n    </ul>\n  <li><em>Palavras que terminam em -ço:</em></li>\n    <ul>\n      <li>álcool</li>\n      <li>café</li>\n    </ul>\n</ul>\n\n<h3>Dicas Importantes</h3>\n<p>Aqui estão algumas dicas importantes para lembrar ao aplicar as regras de acentuação das vogais:</p>\n<ul>\n  <li><em>Lembre-se de que a acentuação da vogal \"e\" é feita quando a palavra termina em -ção, -ção, -são ou -ço.</em></li>\n  <li><em>Se a palavra não seguir nenhuma dessas regras, ela pode ter uma outra regra de acentuação das vogais.</em></li>\n</ul>\n\n<h3>Prática e Exercícios</h3>\n<p>Agora que você já sabe as regras de acentuação das vogais, é hora de praticar! Tente resolver alguns exercícios para se sentir mais confortável com essas regras.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -233,7 +246,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Regras Ortográficas: Entendendo a Importância</strong></h3>\n<p>A ortografia é um aspecto fundamental da língua portuguesa, pois ajuda a manter a unidade e a coerência na escrita entre os países lusófonos. As regras ortográficas são estabelecidas por acordos oficiais para uniformizar a escrita da língua.</p>\n\n<h3><strong>Tipos de Acentuação</strong></h3>\n<ul>\n  <li>Acento Agudo (<em>á, é, í, ó, ú</em>): Indica que a vogal é aberta e tem um som mais longo. Exemplo: Canadá.</li>\n  <li>Acento Circunflexo (<em>â, ê, î, ô, û</em>): Indica que a vogal é fechada e tem um som mais curto. Exemplo: Mão.</li>\n  <li>Acento Grave (<em>à, è, ì, ò, ù</em>): Indica que a vogal é aberta e tem um som mais longo, mas com uma entonação diferente do acento agudo. Exemplo: Cântico.</li>\n  <li>Acento Terno (<em>ã, õ</em>): Indica que a vogal é nasalizada. Exemplo: Mão.</li>\n</ul>\n\n<h3><strong>Uso de Acentos em Palavras Estrangeiras</strong></h3>\n<p>As palavras estrangeiras são escritas com acentuação conforme sua pronúncia original. Exemplos:</p>\n<ul>\n  <li>Photografia (fotografia)</li>\n  <li>Telephone (telefone)</li>\n</ul>\n\n<h3><strong>Regras Específicas de Acentuação</strong></h3>\n<p>Algumas regras específicas devem ser observadas:</p>\n<ul>\n  <li>Acentos em palavras que terminam com -ção ou -são: Exemplo, nação.</li>\n  <li>Acentos em palavras que têm a vogal \"e\" no final: Exemplo, café.</li>\n</ul>\n\n<h3><strong>Importância da Acentuação Correta</strong></h3>\n<p>A acentuação correta é fundamental para evitar confusões e manter a coerência na escrita. Além disso, ajuda a preservar a identidade cultural e linguística dos países lusófonos.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -253,7 +267,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -272,7 +287,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação das Palavras</h3>\n\n<p>As palavras em português podem ter acentos para indicar como elas são pronunciadas. Existem quatro tipos de acentos: agudo (á, é, í, ó, ú), circunflexo (â, ê, î, ô, û), grave (à, è, ì, ò, ù) e til (ã, õ).</p>\n\n<h3>Regras de Acentuação</h3>\n\n<ul>\n  <li><strong>Acento Agudo:</strong> é usado para indicar que a sílaba tônica é aberta. Exemplos: cá, pé, dó.</li>\n  <li><strong>Acento Circunflexo:</strong> é usado para indicar que a sílaba tônica é fechada. Exemplos: café, fênix, ônibus.</li>\n  <li><strong>Acento Grave:</strong> é usado para indicar que a sílaba tônica é aberta e que o som da vogal é mais longo. Exemplos: café, fênix, ônibus.</li>\n  <li><strong>Acento Til:</strong> é usado para indicar que a sílaba tônica é fechada e que o som da vogal é mais curto. Exemplos: café, fênix, ônibus.</li>\n</ul>\n\n<h3>Regras Específicas</h3>\n\n<ul>\n  <li><strong>Acento nas Palavras com \"e\" Final:</strong> quando uma palavra termina em \"e\", o acento é circunflexo. Exemplos: café, fênix.</li>\n  <li><strong>Acento nas Palavras com \"i\" Final:</strong> quando uma palavra termina em \"i\", o acento é agudo. Exemplos: café, fênix.</li>\n  <li><strong>Acento nas Palavras com \"u\" Final:</strong> quando uma palavra termina em \"u\", o acento é circunflexo. Exemplos: café, fênix.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Para resolver questões de acentuação das palavras, é importante lembrar que as regras são aplicadas às sílabas tônicas. Além disso, é fundamental saber identificar os tipos de vogais e como elas se comportam em diferentes contextos.</p>\n\n<h3>Dicas para Resolução de Questões</h3>\n\n<ul>\n  <li>Lembre-se das regras de acentuação e aplique-as às sílabas tônicas.</li>\n  <li>Identifique os tipos de vogais e como elas se comportam em diferentes contextos.</li>\n  <li>Verifique se as palavras estão com o acento correto para a sílaba tônica.</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -292,7 +308,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação</h3>\n\n<p>A acentuação é um dos aspectos mais importantes da língua portuguesa e é fundamental para a compreensão correta do significado das palavras.</p>\n\n<h3>Tipos de Acentos</h3>\n\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra.</li>\n  <li><strong>Acento Grave (`)</strong>: é usado para indicar que o acento recai sobre a última sílaba da palavra.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra e também indica a mudança de significado da palavra.</li>\n</ul>\n\n<h3>Regras de Acentuação</h3>\n\n<p><em>Palavras paroxítonas:</em> são aquelas em que o acento recai sobre a última sílaba. Exemplos: <strong>inteligência</strong>, <strong>tecnologia</strong>.</p>\n\n<p><em>Palavras proparoxítonas:</em> são aquelas em que o acento recai sobre a penúltima sílaba. Exemplos: <strong>crítica</strong>, <strong>profissões</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final</h3>\n\n<p><em>Palavras que terminam em -ão:</em> são acentuadas com acento agudo. Exemplos: <strong>já</strong>, <strong>maisão</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final</h3>\n\n<p><em>Palavras que terminam em -s:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e têm consoante anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>canção</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Sem Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e não têm consoante anterior:</em> são acentuadas com acento grave. Exemplos: <strong>maisão</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e têm vowel anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Sem Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e não têm vowel anterior:</em> são acentuadas com acento grave. Exemplos: <strong>ações</strong>, <strong>profissões</strong>.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "hiatos"
                 ]
           },
           {
@@ -312,7 +330,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação das Palavras</h3>\n\n<p>As palavras em português podem ter acentos para indicar como elas são pronunciadas. Existem quatro tipos de acentos: agudo (á, é, í, ó, ú), circunflexo (â, ê, î, ô, û), grave (à, è, ì, ò, ù) e til (ã, õ).</p>\n\n<h3>Regras de Acentuação</h3>\n\n<ul>\n  <li><strong>Acento Agudo:</strong> é usado para indicar que a sílaba tônica é aberta. Exemplos: cá, pé, dó.</li>\n  <li><strong>Acento Circunflexo:</strong> é usado para indicar que a sílaba tônica é fechada. Exemplos: café, fênix, ônibus.</li>\n  <li><strong>Acento Grave:</strong> é usado para indicar que a sílaba tônica é aberta e que o som da vogal é mais longo. Exemplos: café, fênix, ônibus.</li>\n  <li><strong>Acento Til:</strong> é usado para indicar que a sílaba tônica é fechada e que o som da vogal é mais curto. Exemplos: café, fênix, ônibus.</li>\n</ul>\n\n<h3>Regras Específicas</h3>\n\n<ul>\n  <li><strong>Acento nas Palavras com \"e\" Final:</strong> quando uma palavra termina em \"e\", o acento é circunflexo. Exemplos: café, fênix.</li>\n  <li><strong>Acento nas Palavras com \"i\" Final:</strong> quando uma palavra termina em \"i\", o acento é agudo. Exemplos: café, fênix.</li>\n  <li><strong>Acento nas Palavras com \"u\" Final:</strong> quando uma palavra termina em \"u\", o acento é circunflexo. Exemplos: café, fênix.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Para resolver questões de acentuação das palavras, é importante lembrar que as regras são aplicadas às sílabas tônicas. Além disso, é fundamental saber identificar os tipos de vogais e como elas se comportam em diferentes contextos.</p>\n\n<h3>Dicas para Resolução de Questões</h3>\n\n<ul>\n  <li>Lembre-se das regras de acentuação e aplique-as às sílabas tônicas.</li>\n  <li>Identifique os tipos de vogais e como elas se comportam em diferentes contextos.</li>\n  <li>Verifique se as palavras estão com o acento correto para a sílaba tônica.</li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -332,7 +351,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "silabas"
                 ]
           },
           {
@@ -352,7 +372,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -371,7 +392,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Definição de Palavras Paroxítonas</h3>\n<p>As palavras paroxítonas são aquelas em que a sílaba tônica é a penúltima da palavra.</p>\n\n<h3>Exemplos de Palavras Paroxítonas</h3>\n<ul>\n  <li><strong>Amigo</strong></li>\n  <li><strong>Cidade</strong></li>\n  <li><strong>Comida</strong></li>\n  <li><strong>Estudo</strong></li>\n</ul>\n\n<h3>Características das Palavras Paroxítonas</h3>\n<p>As palavras paroxítonas têm a sílaba tônica na penúltima posição da palavra. Isso significa que, se você remover as sílabas finais de uma palavra paroxítona, o som da sílaba anterior mudará.</p>\n\n<h3>Diferença entre Palavras Paroxítonas e Proparoxítonas</h3>\n<p>As palavras proparoxítonas são aquelas em que a sílaba tônica é a terceira penúltima da palavra. Por exemplo:</p>\n<ul>\n  <li><strong>Amoroso</strong></li>\n  <li><strong>Cantoria</strong></li>\n  <li><strong>Comunicação</strong></li>\n</ul>\n\n<h3>Exercícios Práticos</h3>\n<p>Para praticar a identificação de palavras paroxítonas, tente classificar as seguintes palavras:</p>\n<ul>\n  <li><strong>Amor</strong></li>\n  <li><strong>Cidade</strong></li>\n  <li><strong>Comida</strong></li>\n  <li><strong>Estudo</strong></li>\n</ul>\n\n<h3>Observações Finais</h3>\n<p>Lembre-se de que a identificação de palavras paroxítonas depende da análise da sílaba tônica e das sílabas finais da palavra. Com prática, você se tornará mais habilidoso em identificar essas palavras.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -390,7 +411,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação Gráfica</h3>\n\n<p>A acentuação gráfica é um dos aspectos mais importantes da língua portuguesa, pois ajuda a indicar a pronúncia correta das palavras e a manter a consistência na escrita.</p>\n\n<h3>Classificação das Palavras Quanto à Tonicidade</h3>\n\n<p>As palavras podem ser classificadas quanto à tonicidade em:</p>\n<ul>\n  <li><strong>Palavras tônicas</strong>: são as que têm o acento tônico na penúltima sílaba.</li>\n  <li><strong>Palavras átonas</strong>: são as que não têm o acento tônico na penúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>país</em> (palavra tônica)</li>\n  <li><em>os</em> (palavra átona)</li>\n</ul>\n\n<h3>Acentuação das Palavras Tônicas</h3>\n\n<p>As palavras tônicas seguem as seguintes regras de acentuação:</p>\n<ul>\n  <li>O acento tônico é colocado na penúltima sílaba.</li>\n  <li>Se a palavra terminar em -ção, o acento tônico é colocado na antepenúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>náusea</em></li>\n  <li><em>ação</em></li>\n</ul>\n\n<h3>Acentuação das Palavras Átonas</h3>\n\n<p>As palavras átonas seguem as seguintes regras de acentuação:</p>\n<ul>\n  <li>O acento tônico é colocado na sílaba anterior à última.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>os</em></li>\n  <li><em>das</em></li>\n</ul>\n\n<h3>Uso do Hífen e da Acentuação Gráfica</h3>\n\n<p>O hífen é usado para indicar a união de palavras que formam um único conceito ou significado.</p>\n\n<ul>\n  <li><strong>Hífen em palavras compostas:</strong> o hífen é colocado entre as duas partes da palavra composta.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>cozinheiro</em></li>\n</ul>\n\n<h3>Regras do Acordo Ortográfico</h3>\n\n<p>O Acordo Ortográfico estabelece as regras para a acentuação gráfica das palavras em português.</p>\n\n<ul>\n  <li><strong>Acento agudo:</strong> é usado para indicar o acento tônico na sílaba anterior à última.</li>\n  <li><strong>Acento circunflexo:</strong> é usado para indicar o acento tônico na penúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>mãe</em></li>\n  <li><em>náusea</em></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -409,7 +431,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Ortografia e Acentuação</h3>\n<p>O Acordo Ortográfico de 1990 estabeleceu novas regras para a ortografia e acentuação do português brasileiro.</p>\n\n<h3>Uso do Hífen</h3>\n<ul>\n  <li><strong>Hífen duplo:</strong> usado para indicar que as palavras estão unidas, como em \"cozinheiro-chefe\" ou \"super-mercado\".</li>\n  <li><strong>Hífen simples:</strong> usado para separar palavras compostas de duas sílabas, como em \"banheira\" ou \"casa-grande\".</li>\n  <li><strong>Não usar hífen:</strong> em palavras compostas de três sílabas ou mais, como em \"supermercado\" ou \"cozinheiro-chefe-adjunto\".</li>\n</ul>\n\n<h3>Acentuação das Palavras</h3>\n<p>O acento é usado para indicar o som da vogal. Existem dois tipos de acentos:</p>\n\n<ul>\n  <li><strong>Acento agudo (á, é, í, ó, ú):</strong> indica que a vogal tem um som mais alto.</li>\n  <li><strong>Acento circunflexo (^):</strong> usado para indicar que a vogal tem um som mais aberto.</li>\n  <li><strong>Acento grave (`):</strong> usado para indicar que a vogal tem um som mais fechado.</li>\n</ul>\n\n<h3>Regras Especiais</h3>\n<ul>\n  <li><strong>Palavras estrangeiras:</strong> mantêm sua grafia original, como em \"restaurant\" ou \"hotel\".</li>\n  <li><strong>Palavras compostas:</strong> seguem as regras de ortografia e acentuação do português brasileiro.</li>\n  <li><strong>Nomes próprios:</strong> mantêm sua grafia original, como em \"João\" ou \"Rio de Janeiro\".</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para resolver questões de ortografia e acentuação, é importante lembrar das regras estabelecidas pelo Acordo Ortográfico.</p>\n\n<ul>\n  <li><strong>Verifique o uso do hífen:</strong> em palavras compostas de duas sílabas ou mais.</li>\n  <li><strong>Acentue as vogais:</strong> para indicar o som correto da palavra.</li>\n  <li><strong>Verifique a grafia das palavras estrangeiras:</strong> mantêm sua grafia original.</li>\n</ul>\n\n<h3>Conclusão</h3>\n<p>O conhecimento das regras de ortografia e acentuação é fundamental para resolver questões de concursos públicos.</p>\n\n<p>Com essas regras em mente, você estará preparado para enfrentar qualquer questão relacionada à ortografia e acentuação do português brasileiro.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -428,7 +451,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "silabas"
                 ]
           },
           {
@@ -447,7 +471,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "silabas"
                 ]
           },
           {
@@ -466,7 +491,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Acentuação: Revisão Básica</strong></h3>\n<p>O acento gráfico é um sinal que indica como deve ser pronunciada uma letra em determinadas palavras do português.</p>\n\n<h3><strong>Tipos de Acentos</strong></h3>\n<ul>\n  <li><em>Acento agudo (á, é, í, ó, ú)</em>: Indica que a vogal deve ser pronunciada com um som mais alto e fechado.</li>\n  <li><em>Acento circunflexo (^)</em>: Indica que a vogal deve ser pronunciada com um som mais aberto e prolongado.</li>\n  <li><em>Acento grave (`)</em>: Indica que a vogal deve ser pronunciada com um som mais baixo e fechado.</li>\n</ul>\n\n<h3><strong>Regras de Acentuação</strong></h3>\n<p>Para determinar se uma palavra deve ter acento gráfico, devemos considerar as seguintes regras:</p>\n<ul>\n  <li><em>Vogais em sílabas finais</em>: As vogais em sílabas finais de palavras não são acentuadas.</li>\n  <li><em>Vogais em sílabas anteriores</em>: As vogais em sílabas anteriores de palavras são acentuadas, exceto se forem seguidas por uma consoante.</li>\n  <li><em>Palavras com prefixos e sufixos</em>: Os prefixos e sufixos não alteram a regra de acentuação da palavra.</li>\n</ul>\n\n<h3><strong>Exemplos Práticos</strong></h3>\n<p>Confira os exemplos abaixo:</p>\n<ul>\n  <li><em>Água</em>: A vogal \"a\" é acentuada porque está em uma sílaba anterior.</li>\n  <li><em>Aluno</em>: A vogal \"u\" não é acentuada porque está em uma sílaba final.</li>\n  <li><em>Revisão</em>: A vogal \"i\" é acentuada porque está em uma sílaba anterior e precedida por uma consoante.</li>\n</ul>\n\n<h3><strong>Acentuação em Conjugação de Verbos</strong></h3>\n<p>Os verbos também seguem regras específicas de acentuação:</p>\n<ul>\n  <li><em>Verbos terminados em -ar</em>: Os verbos terminados em -ar, como \"amar\" e \"estudar\", têm o acento gráfico na vogal \"a\".</li>\n  <li><em>Verbos terminados em -er</em>: Os verbos terminados em -er, como \"fazer\" e \"dizer\", têm o acento gráfico na vogal \"e\".</li>\n  <li><em>Verbos terminados em -ir</em>: Os verbos terminados em -ir, como \"vir\" e \"sair\", têm o acento gráfico na vogal \"i\".</li>\n</ul>\n\n<h3><strong>Acentuação em Palavras Compostas</strong></h3>\n<p>As palavras compostas também seguem regras específicas de acentuação:</p>\n<ul>\n  <li><em>Palavras compostas com prefixos e sufixos</em>: Os prefixos e sufixos não alteram a regra de acentuação da palavra.</li>\n  <li><em>Palavras compostas com vogais em sílabas anteriores</em>: As vogais em sílabas anteriores das palavras compostas são acentuadas, exceto se forem seguidas por uma consoante.</li>\n</ul>\n\n<h3><strong>Conclusão</strong></h3>\n<p>A acentuação é um aspecto fundamental da língua portuguesa e deve ser estudada com cuidado para evitar erros em concursos públicos. Lembre-se de que as regras de acentuação são específicas para cada tipo de palavra e devem ser aplicadas com atenção.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -486,7 +511,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação Gráfica</h3>\n\n<p>A acentuação gráfica é um dos aspectos mais importantes da língua portuguesa, pois ajuda a indicar a pronúncia correta das palavras e a manter a consistência na escrita.</p>\n\n<h3>Classificação das Palavras Quanto à Tonicidade</h3>\n\n<p>As palavras podem ser classificadas quanto à tonicidade em:</p>\n<ul>\n  <li><strong>Palavras tônicas</strong>: são as que têm o acento tônico na penúltima sílaba.</li>\n  <li><strong>Palavras átonas</strong>: são as que não têm o acento tônico na penúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>país</em> (palavra tônica)</li>\n  <li><em>os</em> (palavra átona)</li>\n</ul>\n\n<h3>Acentuação das Palavras Tônicas</h3>\n\n<p>As palavras tônicas seguem as seguintes regras de acentuação:</p>\n<ul>\n  <li>O acento tônico é colocado na penúltima sílaba.</li>\n  <li>Se a palavra terminar em -ção, o acento tônico é colocado na antepenúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>náusea</em></li>\n  <li><em>ação</em></li>\n</ul>\n\n<h3>Acentuação das Palavras Átonas</h3>\n\n<p>As palavras átonas seguem as seguintes regras de acentuação:</p>\n<ul>\n  <li>O acento tônico é colocado na sílaba anterior à última.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>os</em></li>\n  <li><em>das</em></li>\n</ul>\n\n<h3>Uso do Hífen e da Acentuação Gráfica</h3>\n\n<p>O hífen é usado para indicar a união de palavras que formam um único conceito ou significado.</p>\n\n<ul>\n  <li><strong>Hífen em palavras compostas:</strong> o hífen é colocado entre as duas partes da palavra composta.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>cozinheiro</em></li>\n</ul>\n\n<h3>Regras do Acordo Ortográfico</h3>\n\n<p>O Acordo Ortográfico estabelece as regras para a acentuação gráfica das palavras em português.</p>\n\n<ul>\n  <li><strong>Acento agudo:</strong> é usado para indicar o acento tônico na sílaba anterior à última.</li>\n  <li><strong>Acento circunflexo:</strong> é usado para indicar o acento tônico na penúltima sílaba.</li>\n</ul>\n\n<p>Exemplo:</p>\n<ul>\n  <li><em>mãe</em></li>\n  <li><em>náusea</em></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -505,7 +530,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Introdução ao Novo Acordo Ortográfico da Língua Portuguesa</h3>\n<p>O Novo Acordo Ortográfico da Língua Portuguesa é um acordo internacional que visa padronizar a ortografia da língua portuguesa em Portugal e no Brasil. Foi assinado em 2006 e entrou em vigor em 1990, mas com algumas mudanças implementadas posteriormente.</p>\n\n<h3>Regras de Mudança Ortográfica</h3>\n<p>O Novo Acordo Ortográfico trouxe várias regras de mudança ortográfica para a língua portuguesa. Algumas das principais mudanças incluem:</p>\n<ul>\n  <li><strong>Perda do \"c\" em diante de \"i\" e \"e\" (exceto em palavras estrangeiras)</strong></li>\n  <li><strong>Mudança da grafia de algumas palavras, como \"além\" para \"alem\", \"bem\" para \"bem\", etc.</strong></li>\n  <li><strong>Adoção do acento agudo em palavras que não tinham acentuação anteriormente</strong></li>\n  <li><strong>Mudança da grafia de algumas letras, como \"ç\" para \"s\"</strong></li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Aqui estão alguns exemplos práticos das mudanças implementadas pelo Novo Acordo Ortográfico:</p>\n<ul>\n  <li><em>Além</em> (antigo) → <em>Alem</em> (novo)</li>\n  <li><em>Bem</em> (sem mudança)</li>\n  <li><em>Cidade</em> (sem mudança)</li>\n  <li><em>Rei</em> (sem mudança)</li>\n</ul>\n\n<h3>Importância do Novo Acordo Ortográfico</h3>\n<p>O Novo Acordo Ortográfico é importante porque padroniza a ortografia da língua portuguesa em Portugal e no Brasil, facilitando a comunicação entre os países lusófonos. Além disso, ajuda a evitar erros de ortografia e a manter a consistência na escrita.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia",
+                      "concordancia"
                 ]
           },
           {
@@ -524,7 +550,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -543,7 +569,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -562,7 +588,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação</h3>\n\n<p>A acentuação é um dos aspectos mais importantes da língua portuguesa e é fundamental para a compreensão correta do significado das palavras.</p>\n\n<h3>Tipos de Acentos</h3>\n\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra.</li>\n  <li><strong>Acento Grave (`)</strong>: é usado para indicar que o acento recai sobre a última sílaba da palavra.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra e também indica a mudança de significado da palavra.</li>\n</ul>\n\n<h3>Regras de Acentuação</h3>\n\n<p><em>Palavras paroxítonas:</em> são aquelas em que o acento recai sobre a última sílaba. Exemplos: <strong>inteligência</strong>, <strong>tecnologia</strong>.</p>\n\n<p><em>Palavras proparoxítonas:</em> são aquelas em que o acento recai sobre a penúltima sílaba. Exemplos: <strong>crítica</strong>, <strong>profissões</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final</h3>\n\n<p><em>Palavras que terminam em -ão:</em> são acentuadas com acento agudo. Exemplos: <strong>já</strong>, <strong>maisão</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final</h3>\n\n<p><em>Palavras que terminam em -s:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e têm consoante anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>canção</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Sem Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e não têm consoante anterior:</em> são acentuadas com acento grave. Exemplos: <strong>maisão</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e têm vowel anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Sem Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e não têm vowel anterior:</em> são acentuadas com acento grave. Exemplos: <strong>ações</strong>, <strong>profissões</strong>.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "paronimosHomonimos",
+                      "ortografia"
                 ]
           },
           {
@@ -582,7 +609,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "silabas"
                 ]
           },
           {
@@ -601,7 +629,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "crase"
                 ]
           },
           {
@@ -621,7 +650,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Concordância Verbal: Definição e Importância</h3>\n<p>A concordância verbal é um dos aspectos mais importantes da língua portuguesa, pois regula a relação entre os verbos e os sujeitos em uma frase.</p>\n\n<h3>Tipos de Concordância Verbal</h3>\n<ul>\n  <li><strong>Concordância com o sujeito:</strong> O verbo concorda com o sujeito em número (singular ou plural) e pessoa (primeira, segunda ou terceira).</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que é uma pessoa)</li>\n    <li>Exemplo: \"Eles estudam\" (sujeito é eles, que é um grupo de pessoas)</li>\n  </ul>\n  <li><strong>Concordância com o objeto:</strong> O verbo concorda com o objeto em número e gênero.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo a língua\" (objeto é a língua, que é um substantivo feminino)</li>\n    <li>Exemplo: \"Eles estudam as línguas\" (objeto são as línguas, que são substantivos femininos)</li>\n  </ul>\n</ul>\n\n<h3>Regras de Concordância Verbal</h3>\n<ul>\n  <li><strong>Verbo no singular:</strong> O verbo é usado no singular quando o sujeito é uma pessoa ou um grupo de pessoas.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que é uma pessoa)</li>\n    <li>Exemplo: \"Eles estudam\" (sujeito é eles, que é um grupo de pessoas)</li>\n  </ul>\n  <li><strong>Verbo no plural:</strong> O verbo é usado no plural quando o sujeito é um grupo de coisas ou uma ideia abstrata.</li>\n  <ul>\n    <li>Exemplo: \"As crianças estudam\" (sujeito são as crianças, que é um grupo de pessoas)</li>\n    <li>Exemplo: \"A língua portuguesa é falada por muitas pessoas\" (sujeito é a língua portuguesa, que é uma ideia abstrata)</li>\n  </ul>\n</ul>\n\n<h3>Concordância com o Tempo e o Modo</h3>\n<p>O verbo também concorda com o tempo e o modo do sujeito.</p>\n<ul>\n  <li><strong>Tempo:</strong> O verbo é usado no presente, passado ou futuro de acordo com o tempo do sujeito.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que está estudando no presente)</li>\n    <li>Exemplo: \"Eles estudaram\" (sujeito é eles, que estudou no passado)</li>\n  </ul>\n  <li><strong>Modo:</strong> O verbo é usado no modo indicativo ou subjuntivo de acordo com o sujeito.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que está estudando no modo indicativo)</li>\n    <li>Exemplo: \"Eles estudem\" (sujeito é eles, que está estudando no modo subjuntivo)</li>\n  </ul>\n</ul>\n\n<h3>Conclusão</h3>\n<p>A concordância verbal é um aspecto fundamental da língua portuguesa e regula a relação entre os verbos e os sujeitos em uma frase.</p>\n<p>É importante lembrar que o verbo concorda com o sujeito em número, pessoa, tempo e modo.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -641,7 +670,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia",
+                      "paronimosHomonimos"
                 ]
           },
           {
@@ -661,7 +691,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -681,7 +712,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia"
                 ]
           },
           {
@@ -701,7 +732,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -721,7 +752,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -741,7 +772,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia"
                 ]
           },
           {
@@ -761,7 +792,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -780,7 +811,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -800,7 +831,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação</h3>\n\n<p>A acentuação é um dos aspectos mais importantes da língua portuguesa e é fundamental para a compreensão correta do significado das palavras.</p>\n\n<h3>Tipos de Acentos</h3>\n\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra.</li>\n  <li><strong>Acento Grave (`)</strong>: é usado para indicar que o acento recai sobre a última sílaba da palavra.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra e também indica a mudança de significado da palavra.</li>\n</ul>\n\n<h3>Regras de Acentuação</h3>\n\n<p><em>Palavras paroxítonas:</em> são aquelas em que o acento recai sobre a última sílaba. Exemplos: <strong>inteligência</strong>, <strong>tecnologia</strong>.</p>\n\n<p><em>Palavras proparoxítonas:</em> são aquelas em que o acento recai sobre a penúltima sílaba. Exemplos: <strong>crítica</strong>, <strong>profissões</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final</h3>\n\n<p><em>Palavras que terminam em -ão:</em> são acentuadas com acento agudo. Exemplos: <strong>já</strong>, <strong>maisão</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final</h3>\n\n<p><em>Palavras que terminam em -s:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e têm consoante anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>canção</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Sem Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e não têm consoante anterior:</em> são acentuadas com acento grave. Exemplos: <strong>maisão</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e têm vowel anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Sem Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e não têm vowel anterior:</em> são acentuadas com acento grave. Exemplos: <strong>ações</strong>, <strong>profissões</strong>.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "ortografia"
                 ]
           },
           {
@@ -819,7 +850,8 @@ var QUESTOES_BANCO = {
                 "tipo": null,
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "digrafos",
+                      "ortografia"
                 ]
           },
           {
@@ -838,7 +870,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -857,7 +889,8 @@ var QUESTOES_BANCO = {
                 "tipo": null,
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos"
                 ]
           },
           {
@@ -876,7 +909,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -895,7 +928,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "paronimosHomonimos"
                 ]
           },
           {
@@ -915,7 +949,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -934,7 +968,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -953,7 +987,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -973,7 +1007,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "crase",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -993,7 +1029,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "hifen"
                 ]
           },
           {
@@ -1013,7 +1049,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação</h3>\n\n<p>A acentuação é um dos aspectos mais importantes da língua portuguesa e é fundamental para a compreensão correta do significado das palavras.</p>\n\n<h3>Tipos de Acentos</h3>\n\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra.</li>\n  <li><strong>Acento Grave (`)</strong>: é usado para indicar que o acento recai sobre a última sílaba da palavra.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra e também indica a mudança de significado da palavra.</li>\n</ul>\n\n<h3>Regras de Acentuação</h3>\n\n<p><em>Palavras paroxítonas:</em> são aquelas em que o acento recai sobre a última sílaba. Exemplos: <strong>inteligência</strong>, <strong>tecnologia</strong>.</p>\n\n<p><em>Palavras proparoxítonas:</em> são aquelas em que o acento recai sobre a penúltima sílaba. Exemplos: <strong>crítica</strong>, <strong>profissões</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final</h3>\n\n<p><em>Palavras que terminam em -ão:</em> são acentuadas com acento agudo. Exemplos: <strong>já</strong>, <strong>maisão</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final</h3>\n\n<p><em>Palavras que terminam em -s:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e têm consoante anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>canção</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Sem Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e não têm consoante anterior:</em> são acentuadas com acento grave. Exemplos: <strong>maisão</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e têm vowel anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Sem Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e não têm vowel anterior:</em> são acentuadas com acento grave. Exemplos: <strong>ações</strong>, <strong>profissões</strong>.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1033,7 +1069,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Acentuação</h3>\n\n<p>A acentuação é um dos aspectos mais importantes da língua portuguesa e é fundamental para a compreensão correta do significado das palavras.</p>\n\n<h3>Tipos de Acentos</h3>\n\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra.</li>\n  <li><strong>Acento Grave (`)</strong>: é usado para indicar que o acento recai sobre a última sílaba da palavra.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: é usado para indicar que o acento recai sobre a penúltima sílaba da palavra e também indica a mudança de significado da palavra.</li>\n</ul>\n\n<h3>Regras de Acentuação</h3>\n\n<p><em>Palavras paroxítonas:</em> são aquelas em que o acento recai sobre a última sílaba. Exemplos: <strong>inteligência</strong>, <strong>tecnologia</strong>.</p>\n\n<p><em>Palavras proparoxítonas:</em> são aquelas em que o acento recai sobre a penúltima sílaba. Exemplos: <strong>crítica</strong>, <strong>profissões</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final</h3>\n\n<p><em>Palavras que terminam em -ão:</em> são acentuadas com acento agudo. Exemplos: <strong>já</strong>, <strong>maisão</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final</h3>\n\n<p><em>Palavras que terminam em -s:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e têm consoante anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>canção</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Vowel Final e Sem Consoante Anterior</h3>\n\n<p><em>Palavras que terminam em -ão e não têm consoante anterior:</em> são acentuadas com acento grave. Exemplos: <strong>maisão</strong>, <strong>ação</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e têm vowel anterior:</em> são acentuadas com acento agudo. Exemplos: <strong>alunos</strong>, <strong>professores</strong>.</p>\n\n<h3>Acentuação de Palavras com Consoante Final e Sem Vowel Anterior</h3>\n\n<p><em>Palavras que terminam em -s e não têm vowel anterior:</em> são acentuadas com acento grave. Exemplos: <strong>ações</strong>, <strong>profissões</strong>.</p>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1053,7 +1089,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos"
                 ]
           },
           {
@@ -1073,7 +1110,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Acentuação Gráfica: Revisão Básica</h3>\n<p>O acento gráfico é um sinal utilizado para indicar a pronúncia correta de uma palavra em português.</p>\n\n<h3>Tipos de Acentos</h3>\n<ul>\n  <li><strong>Acento Agudo (´)</strong>: Indica que a sílaba a qual está associado é tônica, ou seja, tem o peso da pronúncia.</li>\n  <li><strong>Acento Circunflexo (^)</strong>: Indica que a sílaba a qual está associado é átona, mas não pode ser confundido com uma vogal fechada.</li>\n  <li><strong>Acento Grave (`)</strong>: Indica que a palavra deve ser pronunciada com um tom mais baixo do que o normal.</li>\n</ul>\n\n<h3>Palavras Acentuadas pelo Motivo da Sílaba Tônica</h3>\n<p>As palavras que são acentuadas pelo motivo da sílaba tônica são aquelas em que uma das sílabas tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras paroxítonas:</strong> São as palavras em que a sílaba tônica está na penúltima posição. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras proparoxítonas:</strong> São as palavras em que a sílaba tônica está na antepenúltima posição. Exemplos: reciclagem, hídrico, biológico.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para determinar se uma palavra deve ser acentuada pelo motivo da sílaba tônica, basta verificar se a sílaba que está sendo acentuada tem o peso da pronúncia.</p>\n<ul>\n  <li><strong>Palavras com acento agudo:</strong> São as palavras em que uma das sílabas é tônica. Exemplos: água, fogo, tempo.</li>\n  <li><strong>Palavras sem acento agudo:</strong> São as palavras em que nenhuma das sílabas é tônica. Exemplos: casa, livro, cidade.</li>\n</ul>\n\n<h3>Dicas para Resolução de Questões</h3>\n<p>Para resolver questões sobre acentuação gráfica, siga os passos abaixo:</p>\n<ul>\n  <li><strong>Verifique se a palavra é paroxítona ou proparoxítona.</strong></li>\n  <li><strong>Determine se a sílaba que está sendo acentuada tem o peso da pronúncia.</strong></li>\n  <li><strong>Se sim, a palavra deve ser acentuada pelo motivo da sílaba tônica.</strong></li>\n</ul>\n\n<h3>Exemplos de Questões</h3>\n<p>Aqui estão alguns exemplos de questões que podem ser utilizadas para praticar a resolução de problemas sobre acentuação gráfica:</p>\n<ul>\n  <li><strong>Assinale a alternativa que apresenta corretamente o motivo do uso do acento agudo na palavra “atrás” e palavras que são acentuadas pelo mesmo motivo.</strong></li>\n  <li><strong>Determine, dentre as alternativas a seguir, a que apresenta o conjunto de palavras acentuadas pelo mesmo motivo.</strong></li>\n</ul>",
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1093,7 +1130,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1112,7 +1149,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ortografia"
                 ]
           },
           {
@@ -1131,7 +1169,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1150,7 +1188,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1169,7 +1207,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1188,7 +1226,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ortografia"
                 ]
           },
           {
@@ -1207,7 +1246,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -1225,7 +1266,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "crase"
                 ]
           },
           {
@@ -1244,7 +1286,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1264,7 +1306,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1284,7 +1326,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1304,7 +1348,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1324,7 +1368,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "hiatos"
                 ]
           },
           {
@@ -1343,7 +1388,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1363,7 +1408,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "hiatos"
                 ]
           },
           {
@@ -1382,7 +1428,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1401,7 +1447,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1420,7 +1468,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1439,7 +1489,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ortografia",
+                      "formacaoPalavras"
                 ]
           },
           {
@@ -1459,7 +1511,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1478,7 +1532,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1498,7 +1552,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1517,7 +1571,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1536,7 +1590,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1556,7 +1610,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1575,7 +1629,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1594,7 +1648,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1613,7 +1667,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1632,7 +1686,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1651,7 +1705,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1671,7 +1725,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1691,7 +1745,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1714,7 +1768,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1733,7 +1787,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1753,7 +1807,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1772,7 +1826,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1792,7 +1846,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1812,7 +1866,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1831,7 +1885,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1851,7 +1905,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1871,7 +1925,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1890,7 +1944,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1910,7 +1964,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1930,7 +1984,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1950,7 +2004,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1969,7 +2023,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -1989,7 +2043,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2008,7 +2062,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2027,7 +2081,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2046,7 +2100,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2065,7 +2119,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2084,7 +2138,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2103,7 +2157,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2122,7 +2176,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2142,7 +2196,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2162,7 +2216,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2182,7 +2236,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabasAcentuacao"
+                      "acentuacaoGrafica"
                 ]
           }
     ],
@@ -2201,7 +2255,8 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": "<h3><strong>Ditongos: Conceitos e Exemplos</strong></h3>\n\n<p>Os ditongos são combinações de vogais que formam uma única sílaba em um som único. Existem dois tipos de ditongos: oral e nasal.</p>\n\n<h3><strong>Ditongo Oral</strong></h3>\n\n<ul>\n  <li>O ditongo oral é formado por duas vogais que se unem para produzir um som único, sem a intervenção da língua no ar.</li>\n  <li>Exemplos de ditongos orais:</li>\n  <ul>\n    <li><strong>oi</strong></li>\n    <li><strong>ou</strong></li>\n    <li><strong>ei</strong></li>\n    <li><strong>au</strong></li>\n  </ul>\n</ul>\n\n<h3><strong>Ditongo Decrescente Oral Tônico</strong></h3>\n\n<ul>\n  <li>O ditongo decrescente oral tônico é um tipo especial de ditongo oral que apresenta uma vogal mais alta seguida por outra vogal mais baixa.</li>\n  <li>Exemplos de ditongos decrescentes orais tônico:</li>\n  <ul>\n    <li><strong>saudade</strong></li>\n    <li><strong>café</strong></li>\n    <li><strong>filme</strong></li>\n  </ul>\n</ul>\n\n<h3><strong>Ditongo Nasal</strong></h3>\n\n<ul>\n  <li>O ditongo nasal é formado por uma vogal seguida pela letra \"m\" ou \"n\", que produzem um som nasal.</li>\n  <li>Exemplos de ditongos nasais:</li>\n  <ul>\n    <li><strong>âmo</strong></li>\n    <li><strong>ôno</strong></li>\n    <li><strong>ême</strong></li>\n  </ul>\n</ul>\n\n<h3><strong>Exemplos de Palavras que Contêm Ditongos</strong></h3>\n\n<ul>\n  <li><strong>saudade</strong> (ditongo decrescente oral tônico)</li>\n  <li><strong>café</strong> (ditongo decrescente oral tônico)</li>\n  <li><strong>filme</strong> (ditongo decrescente oral tônico)</li>\n  <li><strong>âmo</strong> (ditongo nasal)</li>\n  <li><strong>ôno</strong> (ditongo nasal)</li>\n</ul>\n\n<h3><strong>Conclusão</strong></h3>\n\n<p>A compreensão dos ditongos é fundamental para a análise de palavras e expressões em português. Ao conhecer os diferentes tipos de ditongos, você estará melhor preparado para resolver questões de concursos públicos que envolvam este assunto.</p>",
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2242,7 +2297,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Colocação Pronominal: Regras e Exemplos</h3>\n\n<p>A colocação pronominal é um conceito fundamental na língua portuguesa, especialmente em concursos públicos. É importante entender as regras que determinam a posição dos pronomes oblíquos átonos em relação ao verbo.</p>\n\n<h3>Definição de Pronomes Oblíquos Átonos</h3>\n\n<p><strong>Pronomes oblíquos átonos</strong> são aqueles que indicam o objeto indireto ou o complemento do verbo. Exemplos incluem:</p>\n<ul>\n  <li>mim, ti, si, ele, ela, nós, vós, eles, elas</li>\n</ul>\n\n<h3>Regras de Colocação Pronominal</h3>\n\n<p>A colocação pronominal é influenciada por várias regras. Aqui estão as principais:</p>\n\n<ul>\n  <li><strong>Pronomes oblíquos átonos antes do verbo:</strong> Quando o pronome oblíquo átono vem antes do verbo, geralmente indica que o objeto é indireto. Exemplos:</li>\n  <ul>\n    <li>\"Eu lhe dei um presente.\" (lhe é um pronome oblíquo átono)</li>\n    <li>\"Ela me disse que...\" (me é um pronome oblíquio átono)</li>\n  </ul>\n  <li><strong>Pronomes oblíquos átonos após o verbo:</strong> Quando o pronome oblíquo átono vem após o verbo, geralmente indica que o objeto é direto. Exemplos:</li>\n  <ul>\n    <li>\"Eu dei-lhe um presente.\" (dei-lhe é uma forma de colocação pronominal com o pronome oblíquo átono após o verbo)</li>\n    <li>\"Ela disse-me que...\" (disse-me é uma forma de colocação pronominal com o pronome oblíquio átono após o verbo)</li>\n  </ul>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Aqui estão alguns exemplos práticos para ilustrar a colocação pronominal:</p>\n\n<ul>\n  <li>\"Eu lhe dei um presente.\" (lhe é um pronome oblíquo átono antes do verbo)</li>\n  <li>\"Ela me disse que...\" (me é um pronome oblíquio átono antes do verbo)</li>\n  <li>\"Eu dei-lhe um presente.\" (dei-lhe é uma forma de colocação pronominal com o pronome oblíquo átono após o verbo)</li>\n  <li>\"Ela disse-me que...\" (disse-me é uma forma de colocação pronominal com o pronome oblíquio átono após o verbo)</li>\n</ul>\n\n<h3>Conclusão</h3>\n\n<p>A colocação pronominal é um conceito fundamental na língua portuguesa. É importante entender as regras que determinam a posição dos pronomes oblíquos átonos em relação ao verbo para resolver questões de concursos públicos com sucesso.</p>",
                 "temas_relacionados": [
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "crase",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2342,7 +2399,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Vocábulo e Expressão</strong></h3>\n\n<p>Um vocábulo é uma palavra que tem um significado específico em uma língua. Já uma expressão é uma combinação de palavras que formam um sentido único.</p>\n\n<h3><strong>Tipos de Vocábulos</strong></h3>\n\n<ul>\n  <li><em>Palavras comuns:</em> São as palavras que se usam diariamente em nossa língua, como \"casa\", \"carro\" e \"computador\".</li>\n  <li><em>Palavras técnicas:</em> São as palavras que são específicas de uma área ou profissão, como \"cirurgião\" ou \"engenheiro\".</li>\n  <li><em>Palavras estrangeiras:</em> São as palavras que vêm de outras línguas e são incorporadas à nossa língua, como \"computer\" (do inglês) ou \" café\" (do francês).</li>\n</ul>\n\n<h3><strong>Tipos de Expressões</strong></h3>\n\n<ul>\n  <li><em>Expressões idiomáticas:</em> São expressões que têm um significado diferente do som das palavras, como \"tomar o pulso\" (significa \"avaliar a situação\") ou \"estar na mão\" (significa \"estar sob controle\").</li>\n  <li><em>Expressões figurativas:</em> São expressões que usam metáforas ou comparações para descrever algo, como \"o sol nasceu alto no céu\" (metáfora) ou \"ela é uma flor em meio ao jardim da vida\" (comparação).</li>\n</ul>\n\n<h3><strong>Exemplos de Vocábulos e Expressões</h3></strong>\n\n<ul>\n  <li>\"O professor é um guia no caminho da aprendizagem.\" (expressão idiomática)</li>\n  <li>\"Ela é uma estrela em meio à escuridão do mundo.\" (expressão figurativa)</li>\n  <li>\"A palavra 'computador' é estrangeira e vem do inglês.\" (vocábulo)</li>\n</ul>\n\n<h3><strong>Conhecendo as Regras</h3></strong>\n\n<ul>\n  <li>Um vocábulo pode ter mais de uma definição, dependendo do contexto em que é usado.</li>\n  <li>Uma expressão idiomática pode ter um significado diferente do som das palavras.</li>\n  <li>Uma expressão figurativa usa metáforas ou comparações para descrever algo.</li>\n</ul>\n\n<h3><strong>Prática e Exercícios</h3></strong>\n\n<p>Para praticar, tente identificar os tipos de vocábulos e expressões em textos ou frases que você conhece. Além disso, tente criar suas próprias expressões idiomáticas e figurativas!</p>",
                 "temas_relacionados": [
-                      "concordancia"
+                      "concordancia",
+                      "acentuacaoGrafica",
+                      "silabas"
                 ]
           },
           {
@@ -2362,7 +2421,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Concordância Verbal: Definição e Importância</h3>\n<p>A concordância verbal é um dos aspectos mais importantes da língua portuguesa, pois regula a relação entre os verbos e os sujeitos em uma frase.</p>\n\n<h3>Tipos de Concordância Verbal</h3>\n<ul>\n  <li><strong>Concordância com o sujeito:</strong> O verbo concorda com o sujeito em número (singular ou plural) e pessoa (primeira, segunda ou terceira).</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que é uma pessoa)</li>\n    <li>Exemplo: \"Eles estudam\" (sujeito é eles, que é um grupo de pessoas)</li>\n  </ul>\n  <li><strong>Concordância com o objeto:</strong> O verbo concorda com o objeto em número e gênero.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo a língua\" (objeto é a língua, que é um substantivo feminino)</li>\n    <li>Exemplo: \"Eles estudam as línguas\" (objeto são as línguas, que são substantivos femininos)</li>\n  </ul>\n</ul>\n\n<h3>Regras de Concordância Verbal</h3>\n<ul>\n  <li><strong>Verbo no singular:</strong> O verbo é usado no singular quando o sujeito é uma pessoa ou um grupo de pessoas.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que é uma pessoa)</li>\n    <li>Exemplo: \"Eles estudam\" (sujeito é eles, que é um grupo de pessoas)</li>\n  </ul>\n  <li><strong>Verbo no plural:</strong> O verbo é usado no plural quando o sujeito é um grupo de coisas ou uma ideia abstrata.</li>\n  <ul>\n    <li>Exemplo: \"As crianças estudam\" (sujeito são as crianças, que é um grupo de pessoas)</li>\n    <li>Exemplo: \"A língua portuguesa é falada por muitas pessoas\" (sujeito é a língua portuguesa, que é uma ideia abstrata)</li>\n  </ul>\n</ul>\n\n<h3>Concordância com o Tempo e o Modo</h3>\n<p>O verbo também concorda com o tempo e o modo do sujeito.</p>\n<ul>\n  <li><strong>Tempo:</strong> O verbo é usado no presente, passado ou futuro de acordo com o tempo do sujeito.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que está estudando no presente)</li>\n    <li>Exemplo: \"Eles estudaram\" (sujeito é eles, que estudou no passado)</li>\n  </ul>\n  <li><strong>Modo:</strong> O verbo é usado no modo indicativo ou subjuntivo de acordo com o sujeito.</li>\n  <ul>\n    <li>Exemplo: \"Eu estudo\" (sujeito é eu, que está estudando no modo indicativo)</li>\n    <li>Exemplo: \"Eles estudem\" (sujeito é eles, que está estudando no modo subjuntivo)</li>\n  </ul>\n</ul>\n\n<h3>Conclusão</h3>\n<p>A concordância verbal é um aspecto fundamental da língua portuguesa e regula a relação entre os verbos e os sujeitos em uma frase.</p>\n<p>É importante lembrar que o verbo concorda com o sujeito em número, pessoa, tempo e modo.</p>",
                 "temas_relacionados": [
-                      "concordancia"
+                      "classesGramaticais",
+                      "silabas",
+                      "acentuacaoGrafica"
                 ]
           }
     ],
@@ -2459,7 +2520,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen"
+                      "hifen",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2479,7 +2541,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen"
+                      "hifen",
+                      "formacaoPalavras"
                 ]
           },
           {
@@ -2538,7 +2601,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2598,7 +2661,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen"
+                      "hifen",
+                      "formacaoPalavras",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2833,7 +2898,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3><strong>Regras Ortográficas: Entendendo a Importância</strong></h3>\n<p>A ortografia é um aspecto fundamental da língua portuguesa, pois ajuda a manter a unidade e a coerência na escrita entre os países lusófonos. As regras ortográficas são estabelecidas por acordos oficiais para uniformizar a escrita da língua.</p>\n\n<h3><strong>Tipos de Acentuação</strong></h3>\n<ul>\n  <li>Acento Agudo (<em>á, é, í, ó, ú</em>): Indica que a vogal é aberta e tem um som mais longo. Exemplo: Canadá.</li>\n  <li>Acento Circunflexo (<em>â, ê, î, ô, û</em>): Indica que a vogal é fechada e tem um som mais curto. Exemplo: Mão.</li>\n  <li>Acento Grave (<em>à, è, ì, ò, ù</em>): Indica que a vogal é aberta e tem um som mais longo, mas com uma entonação diferente do acento agudo. Exemplo: Cântico.</li>\n  <li>Acento Terno (<em>ã, õ</em>): Indica que a vogal é nasalizada. Exemplo: Mão.</li>\n</ul>\n\n<h3><strong>Uso de Acentos em Palavras Estrangeiras</strong></h3>\n<p>As palavras estrangeiras são escritas com acentuação conforme sua pronúncia original. Exemplos:</p>\n<ul>\n  <li>Photografia (fotografia)</li>\n  <li>Telephone (telefone)</li>\n</ul>\n\n<h3><strong>Regras Específicas de Acentuação</strong></h3>\n<p>Algumas regras específicas devem ser observadas:</p>\n<ul>\n  <li>Acentos em palavras que terminam com -ção ou -são: Exemplo, nação.</li>\n  <li>Acentos em palavras que têm a vogal \"e\" no final: Exemplo, café.</li>\n</ul>\n\n<h3><strong>Importância da Acentuação Correta</strong></h3>\n<p>A acentuação correta é fundamental para evitar confusões e manter a coerência na escrita. Além disso, ajuda a preservar a identidade cultural e linguística dos países lusófonos.</p>",
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ortografia"
                 ]
           },
           {
@@ -2874,7 +2940,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Convenções de Escrita</h3>\n\n<p>A escrita é uma forma de comunicação que envolve a representação simbólica da linguagem por meio de sinais gráficos. As convenções de escrita são regras e padrões estabelecidos para a representação desses sinais, visando facilitar a compreensão e a interpretação do texto.</p>\n\n<h3>Tipos de Convenções de Escrita</h3>\n\n<ul>\n  <li><strong>Convenções Ortográficas:</strong> Relacionadas à forma como as palavras são escritas, incluindo a disposição das letras, a pontuação e os sinais diacríticos.</li>\n  <li><strong>Convenções Puntuais:</strong> Referem-se à utilização de sinais de pontuação para separar e organizar o texto.</li>\n  <li><strong>Convenções de Formatação:</strong> Envolve a disposição visual do texto, incluindo espaçamento, alinhamento e margens.</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Exemplo 1: A palavra \"café\" é escrita com \"c\" maiúscula porque:</p>\n<ul>\n  <li><strong>A primeira letra da palavra é uma consoante.</strong></li>\n  <li><strong>A palavra não começa com um artigo ou preposição.</strong></li>\n</ul>\n\n<p>Exemplo 2: A frase \"A casa é azul\" é escrita com vírgula antes do \"e\" porque:</p>\n<ul>\n  <li><strong>O vírgula indica a separação entre duas orações independentes.</strong></li>\n</ul>\n\n<h3>Importância das Convenções de Escrita</h3>\n\n<p>A observância das convenções de escrita é fundamental para garantir a clareza e a compreensão do texto. Elas ajudam a evitar ambiguidades e a facilitar a leitura e interpretação do conteúdo.</p>",
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "hifen"
                 ]
           },
           {
@@ -2894,7 +2961,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras de Ortografia e Acentuação</h3>\n<p>O Acordo Ortográfico de 1990 estabeleceu novas regras para a ortografia e acentuação do português brasileiro.</p>\n\n<h3>Uso do Hífen</h3>\n<ul>\n  <li><strong>Hífen duplo:</strong> usado para indicar que as palavras estão unidas, como em \"cozinheiro-chefe\" ou \"super-mercado\".</li>\n  <li><strong>Hífen simples:</strong> usado para separar palavras compostas de duas sílabas, como em \"banheira\" ou \"casa-grande\".</li>\n  <li><strong>Não usar hífen:</strong> em palavras compostas de três sílabas ou mais, como em \"supermercado\" ou \"cozinheiro-chefe-adjunto\".</li>\n</ul>\n\n<h3>Acentuação das Palavras</h3>\n<p>O acento é usado para indicar o som da vogal. Existem dois tipos de acentos:</p>\n\n<ul>\n  <li><strong>Acento agudo (á, é, í, ó, ú):</strong> indica que a vogal tem um som mais alto.</li>\n  <li><strong>Acento circunflexo (^):</strong> usado para indicar que a vogal tem um som mais aberto.</li>\n  <li><strong>Acento grave (`):</strong> usado para indicar que a vogal tem um som mais fechado.</li>\n</ul>\n\n<h3>Regras Especiais</h3>\n<ul>\n  <li><strong>Palavras estrangeiras:</strong> mantêm sua grafia original, como em \"restaurant\" ou \"hotel\".</li>\n  <li><strong>Palavras compostas:</strong> seguem as regras de ortografia e acentuação do português brasileiro.</li>\n  <li><strong>Nomes próprios:</strong> mantêm sua grafia original, como em \"João\" ou \"Rio de Janeiro\".</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Para resolver questões de ortografia e acentuação, é importante lembrar das regras estabelecidas pelo Acordo Ortográfico.</p>\n\n<ul>\n  <li><strong>Verifique o uso do hífen:</strong> em palavras compostas de duas sílabas ou mais.</li>\n  <li><strong>Acentue as vogais:</strong> para indicar o som correto da palavra.</li>\n  <li><strong>Verifique a grafia das palavras estrangeiras:</strong> mantêm sua grafia original.</li>\n</ul>\n\n<h3>Conclusão</h3>\n<p>O conhecimento das regras de ortografia e acentuação é fundamental para resolver questões de concursos públicos.</p>\n\n<p>Com essas regras em mente, você estará preparado para enfrentar qualquer questão relacionada à ortografia e acentuação do português brasileiro.</p>",
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "formacaoPalavras"
                 ]
           },
           {
@@ -2913,7 +2981,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Hífen e Acentuação</h3>\n\n<p>O hífen é um sinal gráfico utilizado para indicar a união de duas palavras em uma só, separando-as com um traço horizontal.</p>\n\n<h3>Regras para o Emprego do Hífen</h3>\n\n<ul>\n  <li><strong>Palavras compostas:</strong> O hífen é usado entre as partes de uma palavra composta, como \"terra-vermelha\" ou \"mãe-padrinha\".</li>\n  <li><strong>Palavras que começam com a mesma letra:</strong> Quando duas palavras começam com a mesma letra, o hífen é usado para separá-las, como \"coisa-certa\" ou \"mais-um\".</li>\n  <li><strong>Palavras que têm significado diferente quando juntas:</strong> O hífen é usado para indicar que as palavras têm um significado diferente quando juntas, como \"homem-verde\" (uma pessoa verde) e \"homem-vermelho\" (um homem vermelho).</li>\n  <li><strong>Palavras que são contraindicações:</strong> O hífen é usado para indicar que as palavras são contraindicações, como \"não-possível\" ou \"sem-vergonha\".</li>\n</ul>\n\n<h3>Acentuação das Palavras Compostas</h3>\n\n<p>As regras de acentuação das palavras compostas são as seguintes:</p>\n\n<ul>\n  <li><strong>Palavras compostas com prefixo:</strong> O acento é colocado na última sílaba da palavra composta, como \"des-esperar\" ou \"re-revisar\".</li>\n  <li><strong>Palavras compostas com sufixo:</strong> O acento é colocado na penúltima sílaba da palavra composta, como \"amor-oso\" ou \"feliz-mente\".</li>\n  <li><strong>Palavras compostas com hífen:</strong> O acento é colocado na última sílaba da palavra composta, antes do hífen, como \"terra-vermelha\" ou \"mãe-padrinha\".</li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n\n<p>Aqui estão alguns exemplos práticos de emprego do hífen e acentuação das palavras compostas:</p>\n\n<ul>\n  <li>\"terra-vermelha\" (com hífen)</li>\n  <li>\"mãe-padrinha\" (com hífen)</li>\n  <li>\"coisa-certa\" (sem hífen, pois as palavras começam com a mesma letra)</li>\n  <li>\"homem-verde\" (com hífen, pois as palavras têm significado diferente quando juntas)</li>\n</ul>",
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
                 ]
           },
           {
@@ -2932,7 +3002,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Regras Ortográficas do Novo Acordo Ortográfico</h3>\n\n<p>O Novo Acordo Ortográfico da Língua Portuguesa foi implementado em 2009 e trouxe mudanças significativas na ortografia do português. É importante entender essas regras para evitar erros comuns em concursos públicos.</p>\n\n<h3>Regra 1: Acentuação das palavras que terminam em -ção</h3>\n\n<p>De acordo com o Novo Acordo Ortográfico, as palavras que terminam em -ção devem ter acento agudo na sílaba tônica. Exemplos:</p>\n<ul>\n  <li><strong>baboseira</strong></li>\n  <li><strong>ação</strong></li>\n  <li><strong>paixão</strong></li>\n</ul>\n\n<h3>Regra 2: Acentuação das palavras que terminam em -ção e têm a sílaba tônica no final da palavra</h3>\n\n<p>Se a palavra terminar em -ção e tiver a sílaba tônica no final, o acento agudo deve ser colocado na sílaba anterior. Exemplos:</p>\n<ul>\n  <li><strong>ação</strong></li>\n  <li><strong>paixão</strong></li>\n  <li><strong>ação</strong></li>\n</ul>\n\n<h3>Regra 3: Acentuação das palavras que terminam em -ção e têm a sílaba tônica no meio da palavra</h3>\n\n<p>Se a palavra terminar em -ção e tiver a sílaba tônica no meio, o acento agudo deve ser colocado na sílaba tônica. Exemplos:</p>\n<ul>\n  <li><strong>baboseira</strong></li>\n  <li><strong>ação</strong></li>\n  <li><strong>paixão</strong></li>\n</ul>\n\n<h3>Regra 4: Acentuação das palavras que terminam em -ção e têm a sílaba tônica no início da palavra</h3>\n\n<p>Se a palavra terminar em -ção e tiver a sílaba tônica no início, o acento agudo deve ser colocado na sílaba tônica. Exemplos:</p>\n<ul>\n  <li><strong>baboseira</strong></li>\n  <li><strong>ação</strong></li>\n  <li><strong>paixão</strong></li>\n</ul>\n\n<h3>Dicas para resolver questões de acentuação</h3>\n\n<p>Para resolver questões de acentuação, é importante lembrar que:</p>\n<ul>\n  <li>O acento agudo deve ser colocado na sílaba tônica.</li>\n  <li>As palavras que terminam em -ção devem ter o acento agudo na sílaba tônica.</li>\n  <li>Se a palavra tiver a sílaba tônica no final, o acento agudo deve ser colocado na sílaba anterior.</li>\n</ul>\n\n<h3>Exemplos práticos</h3>\n\n<p>Considere os seguintes exemplos:</p>\n<ul>\n  <li><strong>baboseira</strong></li>\n  <li><strong>ação</strong></li>\n  <li><strong>paixão</strong></li>\n</ul>\n\n<h3>Conclusão</h3>\n\n<p>Aprender as regras ortográficas do Novo Acordo Ortográfico é fundamental para evitar erros comuns em concursos públicos. Lembre-se de que o acento agudo deve ser colocado na sílaba tônica e que as palavras que terminam em -ção devem ter o acento agudo na sílaba tônica.</p>",
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "hifen"
                 ]
           },
           {
@@ -2971,7 +3042,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": "<h3>Introdução ao Novo Acordo Ortográfico da Língua Portuguesa</h3>\n<p>O Novo Acordo Ortográfico da Língua Portuguesa é um acordo internacional que visa padronizar a ortografia da língua portuguesa em Portugal e no Brasil. Foi assinado em 2006 e entrou em vigor em 1990, mas com algumas mudanças implementadas posteriormente.</p>\n\n<h3>Regras de Mudança Ortográfica</h3>\n<p>O Novo Acordo Ortográfico trouxe várias regras de mudança ortográfica para a língua portuguesa. Algumas das principais mudanças incluem:</p>\n<ul>\n  <li><strong>Perda do \"c\" em diante de \"i\" e \"e\" (exceto em palavras estrangeiras)</strong></li>\n  <li><strong>Mudança da grafia de algumas palavras, como \"além\" para \"alem\", \"bem\" para \"bem\", etc.</strong></li>\n  <li><strong>Adoção do acento agudo em palavras que não tinham acentuação anteriormente</strong></li>\n  <li><strong>Mudança da grafia de algumas letras, como \"ç\" para \"s\"</strong></li>\n</ul>\n\n<h3>Exemplos Práticos</h3>\n<p>Aqui estão alguns exemplos práticos das mudanças implementadas pelo Novo Acordo Ortográfico:</p>\n<ul>\n  <li><em>Além</em> (antigo) → <em>Alem</em> (novo)</li>\n  <li><em>Bem</em> (sem mudança)</li>\n  <li><em>Cidade</em> (sem mudança)</li>\n  <li><em>Rei</em> (sem mudança)</li>\n</ul>\n\n<h3>Importância do Novo Acordo Ortográfico</h3>\n<p>O Novo Acordo Ortográfico é importante porque padroniza a ortografia da língua portuguesa em Portugal e no Brasil, facilitando a comunicação entre os países lusófonos. Além disso, ajuda a evitar erros de ortografia e a manter a consistência na escrita.</p>",
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "hifen",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2991,7 +3064,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
                 ]
           },
           {
@@ -3030,7 +3105,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
                 ]
           },
           {
@@ -3070,7 +3147,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
                 ]
           },
           {
@@ -3090,7 +3169,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
                 ]
           },
           {
@@ -3149,7 +3230,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "acentuacaoGrafica",
+                      "classesGramaticais",
+                      "ortografia",
+                      "formacaoPalavras",
+                      "hifen"
                 ]
           },
           {
@@ -3168,6 +3253,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos",
                       "ortografia"
                 ]
           },
@@ -3362,7 +3449,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "paronimosHomonimos"
                 ]
           },
           {
@@ -3438,7 +3526,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "paronimosHomonimos"
                 ]
           },
           {
@@ -3535,7 +3624,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia"
+                      "ortografia",
+                      "paronimosHomonimos"
                 ]
           },
           {
@@ -4077,7 +4167,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paronimosHomonimos"
+                      "crase",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -4198,7 +4289,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "acentuacaoGrafica",
+                      "hiatos",
+                      "hifen",
+                      "formacaoPalavras"
                 ]
           }
     ],
