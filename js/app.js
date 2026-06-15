@@ -367,9 +367,10 @@ function mostrarResultado() {
   document.getElementById('score-msg').textContent = msg;
   document.getElementById('score-sub').textContent = sub;
 
-  // Salva e exibe histórico
+  // Salva e exibe histórico — só se pelo menos uma questão foi respondida
+  const respondidas   = Object.keys(respostasMap).length;
   const acertosSessao = Object.values(respostasMap).filter(r => r.acertou).length;
-  _salvarSessao(temaAtual.id, acertosSessao, total);
+  if (respondidas > 0) _salvarSessao(temaAtual.id, acertosSessao, respondidas);
   const hist = _historico()[temaAtual.id];
   const histEl = document.getElementById('score-hist');
   if (hist && hist.sessoes > 1) {
