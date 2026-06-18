@@ -101,7 +101,7 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
-const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
+const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','encontrosConsonantais','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
 
 function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);

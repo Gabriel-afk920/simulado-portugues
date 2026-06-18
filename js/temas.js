@@ -963,6 +963,60 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
+    id: "encontrosConsonantais", nome: "Encontros Consonantais", icon: "🔗", desc: "Consoantes consecutivas na mesma sílaba",
+    teoria: `
+<h3>O que é Encontro Consonantal?</h3>
+<p>Encontro consonantal é a sequência de <strong>duas ou mais consoantes consecutivas</strong> dentro de uma mesma palavra, sem vogal entre elas. Diferente do dígrafo, cada consoante <strong>mantém seu próprio fonema</strong>.</p>
+<p><strong>Como identificar:</strong> encontre letras consonantais adjacentes — se cada uma produz um som distinto (não somam para um único som), trata-se de encontro consonantal, não dígrafo.</p>
+
+<div class="exemplo-box">
+  <strong>Dígrafo vs. Encontro Consonantal:</strong><br><br>
+  <em>ch</em> em <em>chave</em> → 2 letras, <strong>1 fonema</strong> /ʃ/ → dígrafo<br>
+  <em>bl</em> em <em>blusa</em> → 2 letras, <strong>2 fonemas</strong> /b/ + /l/ → encontro consonantal<br>
+</div>
+
+<h3>Tipos de Encontro Consonantal</h3>
+<h4>1. Encontros Perfeitos (ou Próprios)</h4>
+<p>Ficam <strong>na mesma sílaba</strong> — consoante + R ou L formando sílaba junto à vogal seguinte.</p>
+<table>
+  <tr><th>Padrão</th><th>Exemplos</th></tr>
+  <tr><td>consoante + R</td><td>bra-ço, cri-me, dra-ma, fre-te, gra-ça, pra-to, tre-cho</td></tr>
+  <tr><td>consoante + L</td><td>bla-sé, cla-ro, fla-ma, gla-cial, pla-no, bli-tzar</td></tr>
+</table>
+
+<h4>2. Encontros Imperfeitos (ou Impróprios)</h4>
+<p>Ficam em <strong>sílabas diferentes</strong> — a divisão silábica ocorre entre as consoantes.</p>
+<div class="exemplo-box">
+  <em>rit-mo</em> → rt dividido<br>
+  <em>ad-vo-ga-do</em> → dv dividido<br>
+  <em>ap-to</em> → pt dividido<br>
+  <em>ob-je-to</em> → bj dividido<br>
+</div>
+
+<h3>Regra de Divisão Silábica</h3>
+<ul>
+  <li><strong>Consoante + R ou L</strong> → ficam juntas (não se separam): <em>a-<u>bl</u>a-ção</em>, <em>a-<u>br</u>ir</em></li>
+  <li><strong>Demais encontros</strong> → separam-se: <em>rit-mo</em>, <em>ac-to</em>, <em>pers-pi-caz</em></li>
+  <li><strong>Três consoantes seguidas</strong> → a última fica com a vogal seguinte: <em>mons-tro</em>, <em>pers-tro</em></li>
+</ul>
+
+<h3>Atenção: Consoantes Iniciais</h3>
+<p>Quando a palavra <em>começa</em> por encontro consonantal, as duas consoantes ficam na 1ª sílaba: <em>pneu</em>, <em>gno-mo</em>, <em>psi-có-lo-go</em>.</p>
+
+<div class="exemplo-box">
+  <strong>Encontros mais cobrados em concurso:</strong><br>
+  <em>bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr, vr</em> → perfeitos (mesma sílaba)<br>
+  <em>cc, ct, pt, gn, mn, ps, pn, tm, bm</em> → imperfeitos (sílabas diferentes)
+</div>
+`,
+    exercicios: [
+      { enunciado: 'Em qual palavra há encontro consonantal perfeito?', opcoes: ['chave','blusa','assim','carro'], correta: 1, explicacao: '<em>blusa</em> tem bl — dois fonemas distintos na mesma sílaba. <em>chave</em> tem ch (dígrafo), <em>assim</em> tem ss (dígrafo), <em>carro</em> tem rr (dígrafo).' },
+      { enunciado: 'Assinale a alternativa em que ocorre encontro consonantal <strong>imperfeito</strong>.', opcoes: ['prato','crime','ritmo','bloco'], correta: 2, explicacao: '<em>ritmo</em> → rit-mo: o encontro rt fica em sílabas diferentes — encontro imperfeito. Os demais (pr, cr, bl) ficam na mesma sílaba — perfeitos.' },
+      { enunciado: 'Dígrafo e encontro consonantal são a mesma coisa?', opcoes: ['Sim, são sinônimos','Não — no dígrafo as duas letras somam um único fonema; no encontro cada uma mantém o seu fonema','Sim, quando ficam na mesma sílaba','Não — o dígrafo sempre fica em sílabas diferentes'], correta: 1, explicacao: 'No dígrafo (ch, lh, rr…) duas letras = 1 fonema. No encontro consonantal (bl, tr, ct…) cada consoante = 1 fonema distinto.' }
+    ]
+  },
+  // ─────────────────────────────────────────
+  {
     id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
 <h3>1. O que é Hiato?</h3>
