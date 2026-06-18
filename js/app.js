@@ -15,6 +15,44 @@ function _salvarSessao(temaId, acertos, total) {
 }
 
 // ══════════════════════════════════════════════════════════
+//  SISTEMA ADAPTATIVO DE DIFICULDADE (localStorage)
+// ══════════════════════════════════════════════════════════
+function _qHash(q) {
+  return (q.banca || '') + '_' + (q.ano || '') + '_' + q.enunciado.substring(0, 50);
+}
+function _qDificuldade() {
+  try { return JSON.parse(localStorage.getItem('qdif') || '{}'); } catch { return {}; }
+}
+function _qPeso(q) {
+  const d = _qDificuldade()[_qHash(q)];
+  if (!d) return 1;
+  if (d.d > 0) return 3;
+  if (d.m > 0 && d.s === 0) return 1.5;
+  if (d.s >= 2) return 0.2;
+  return 1;
+}
+function _atualizarQDif(q, acertou, usouTeoria) {
+  const d = _qDificuldade();
+  const k = _qHash(q);
+  if (!d[k]) d[k] = { s: 0, m: 0, d: 0 };
+  if (!acertou)        d[k].d++;
+  else if (usouTeoria) d[k].m++;
+  else                 d[k].s++;
+  localStorage.setItem('qdif', JSON.stringify(d));
+}
+function shuffleAdaptativo(arr) {
+  const hard = [], med = [], normal = [], easy = [];
+  arr.forEach(q => {
+    const p = _qPeso(q);
+    if (p >= 3)        hard.push(q);
+    else if (p >= 1.5) med.push(q);
+    else if (p <= 0.3) easy.push(q);
+    else               normal.push(q);
+  });
+  return [...shuffle(hard), ...shuffle(med), ...shuffle(normal), ...shuffle(easy)];
+}
+
+// ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
 const TEMPO_SIMULADO = 10 * 60; // 10 minutos
@@ -188,7 +226,7 @@ function _fmtTempo(s) {
 
 function iniciarSimulado(tema) {
   temaAtual        = tema;
-  questoes         = shuffle(tema.questoes);
+  questoes         = shuffleAdaptativo(tema.questoes);
   if (!questoes.length) return;
   indiceAtual      = 0;
   pontuacao        = 0;
@@ -232,9 +270,8 @@ function renderQuestao() {
   let cabecalho = '';
   if (q.banca || q.ano) {
     const partes  = [q.banca, q.ano].filter(Boolean).join(' — ');
-    const assunto = q.assunto ? `<span class="concurso-assunto">${q.assunto}</span>` : '';
     const tipo    = q.tipo === 'certo_errado' ? '<span class="concurso-tipo">Certo ou Errado</span>' : '';
-    cabecalho = `<div class="concurso-header"><span class="concurso-banca">${partes}</span>${assunto}${tipo}</div>`;
+    cabecalho = `<div class="concurso-header"><span class="concurso-banca">${partes}</span>${tipo}</div>`;
   }
   document.getElementById('question-text').innerHTML = cabecalho + q.enunciado;
 
@@ -301,6 +338,7 @@ function registrarResposta(escolhida) {
     explicacao: q.explicacao,
     banca:      q.banca, ano: q.ano
   };
+  _atualizarQDif(q, acertou, usouTeoria);
 
   document.querySelectorAll('.option-item').forEach(li => {
     li.classList.add('disabled');
