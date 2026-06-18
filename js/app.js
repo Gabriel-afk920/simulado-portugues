@@ -478,6 +478,14 @@ document.getElementById('btn-estudar-result').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 //  PAINEL DE TEORIA
 // ══════════════════════════════════════════════════════════
+const _TRIO_FENOMENOS = ['ditongos', 'tritongos', 'hiatos'];
+
+function _expandirTemasTrio(ids) {
+  if (ids.some(id => _TRIO_FENOMENOS.includes(id)))
+    return [...new Set([..._TRIO_FENOMENOS, ...ids])];
+  return ids;
+}
+
 function abrirPainelTeoria() {
   const q = questoes[indiceAtual];
   if (!q || !q.temas_relacionados || !q.temas_relacionados.length) return;
@@ -485,7 +493,7 @@ function abrirPainelTeoria() {
   // Marca que teoria foi consultada nesta questão (penalidade de 0,5pt se acertar)
   if (!respondeu) teoriaConsultada[indiceAtual] = true;
 
-  const temaIds = q.temas_relacionados;
+  const temaIds = _expandirTemasTrio(q.temas_relacionados);
   if (temaIds.length === 1) {
     const t = TEMAS.find(x => x.id === temaIds[0]);
     if (t) _mostrarConteudoTema(t, temaIds);
