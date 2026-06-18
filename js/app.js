@@ -193,24 +193,10 @@ document.getElementById('btn-fazer-simulado-da-teoria').addEventListener('click'
 function selecionarTemaQuiz(id, card) {
   if (id === 'fonetica_ortografia') {
     const grid = document.getElementById('quiz-fonetica-grid');
-    grid.innerHTML = '';
-    const hist = _historico();
-    IDS_FONETICA_ORTOGRAFIA.forEach(subId => {
-      const sub = TEMAS.find(x => x.id === subId);
-      if (!sub || !sub.questoes || !sub.questoes.length) return;
-      const div = document.createElement('div');
-      div.className = 'tema-card';
-      let badge = '';
-      const h = hist[subId];
-      if (h && h.total > 0) {
-        const pct = Math.round((h.acertos / h.total) * 100);
-        const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
-        badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
-      }
-      div.innerHTML = `${badge}<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div><div class="desc">${sub.desc}</div>`;
-      div.addEventListener('click', () => iniciarSimulado(sub));
-      grid.appendChild(div);
-    });
+    const subtemasDisponiveis = IDS_FONETICA_ORTOGRAFIA
+      .map(id => TEMAS.find(x => x.id === id))
+      .filter(sub => sub && sub.questoes && sub.questoes.length);
+    _renderSubtemasQuiz(subtemasDisponiveis);
     ir('screen-quiz-fonetica');
     return;
   }
@@ -225,6 +211,62 @@ function selecionarTemaQuiz(id, card) {
 
 document.getElementById('btn-iniciar').addEventListener('click', () => {
   if (temaAtual) iniciarSimulado(temaAtual);
+});
+
+// ── Seleção múltipla de subtemas (Fonética e Ortografia no Simulado) ──
+let _subtemasQuizSelecionados = new Set();
+
+function _renderSubtemasQuiz(subs) {
+  _subtemasQuizSelecionados.clear();
+  const grid = document.getElementById('quiz-fonetica-grid');
+  const btnIniciar = document.getElementById('btn-iniciar-fonetica');
+  grid.innerHTML = '';
+  const hist = _historico();
+
+  subs.forEach(sub => {
+    const div = document.createElement('div');
+    div.className = 'tema-card';
+    div.dataset.subId = sub.id;
+    let badge = '';
+    const h = hist[sub.id];
+    if (h && h.total > 0) {
+      const pct = Math.round((h.acertos / h.total) * 100);
+      const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
+      badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
+    }
+    div.innerHTML = `${badge}<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div><div class="desc">${sub.desc}</div>`;
+    div.addEventListener('click', () => {
+      if (_subtemasQuizSelecionados.has(sub.id)) {
+        _subtemasQuizSelecionados.delete(sub.id);
+        div.classList.remove('selected');
+      } else {
+        _subtemasQuizSelecionados.add(sub.id);
+        div.classList.add('selected');
+      }
+      btnIniciar.disabled = _subtemasQuizSelecionados.size === 0;
+    });
+    grid.appendChild(div);
+  });
+  btnIniciar.disabled = true;
+}
+
+document.getElementById('btn-select-all-fonetica').addEventListener('click', () => {
+  const btnIniciar = document.getElementById('btn-iniciar-fonetica');
+  document.querySelectorAll('#quiz-fonetica-grid .tema-card').forEach(card => {
+    card.classList.add('selected');
+    _subtemasQuizSelecionados.add(card.dataset.subId);
+  });
+  btnIniciar.disabled = false;
+});
+
+document.getElementById('btn-iniciar-fonetica').addEventListener('click', () => {
+  if (_subtemasQuizSelecionados.size === 0) return;
+  const questoesCombinadas = [];
+  _subtemasQuizSelecionados.forEach(subId => {
+    const sub = TEMAS.find(x => x.id === subId);
+    if (sub && sub.questoes) questoesCombinadas.push(...sub.questoes);
+  });
+  iniciarSimulado({ id: 'fonetica_mix', nome: 'Fonética e Ortografia', questoes: questoesCombinadas });
 });
 
 // ══════════════════════════════════════════════════════════
