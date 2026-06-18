@@ -375,7 +375,7 @@ document.getElementById('btn-voltar-temas').addEventListener('click', () => {
   document.getElementById('teoria-panel').classList.remove('visivel');
   document.getElementById('teoria-overlay').classList.add('hidden');
   document.getElementById('teoria-panel').classList.add('hidden');
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
@@ -458,7 +458,7 @@ function mostrarResultado() {
 document.getElementById('btn-retry').addEventListener('click', () => iniciarSimulado(temaAtual));
 
 document.getElementById('btn-home-result').addEventListener('click', () => {
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
