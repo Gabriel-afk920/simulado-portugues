@@ -373,6 +373,18 @@ document.getElementById('btn-pular').addEventListener('click', () => {
   else mostrarResultado();
 });
 
+document.getElementById('btn-voltar-temas').addEventListener('click', () => {
+  clearInterval(timerInterval);
+  document.getElementById('teoria-overlay').classList.remove('visivel');
+  document.getElementById('teoria-panel').classList.remove('visivel');
+  document.getElementById('teoria-overlay').classList.add('hidden');
+  document.getElementById('teoria-panel').classList.add('hidden');
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
+  temaAtual = null;
+  document.getElementById('btn-iniciar').disabled = true;
+  ir('screen-quiz-topics');
+});
+
 document.getElementById('btn-desistir').addEventListener('click', () => {
   mostrarResultado();
 });
