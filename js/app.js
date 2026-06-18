@@ -41,15 +41,11 @@ function _atualizarQDif(q, acertou, usouTeoria) {
   localStorage.setItem('qdif', JSON.stringify(d));
 }
 function shuffleAdaptativo(arr) {
-  const hard = [], med = [], normal = [], easy = [];
-  arr.forEach(q => {
-    const p = _qPeso(q);
-    if (p >= 3)        hard.push(q);
-    else if (p >= 1.5) med.push(q);
-    else if (p <= 0.3) easy.push(q);
-    else               normal.push(q);
-  });
-  return [...shuffle(hard), ...shuffle(med), ...shuffle(normal), ...shuffle(easy)];
+  // Weighted random shuffle: peso × random → sort. Questões difíceis tendem a aparecer
+  // mais cedo, mas o random garante ordem diferente a cada sessão.
+  const items = arr.map(q => ({ q, score: _qPeso(q) * Math.random() }));
+  items.sort((a, b) => b.score - a.score);
+  return items.map(x => x.q);
 }
 
 // ══════════════════════════════════════════════════════════
