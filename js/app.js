@@ -69,7 +69,7 @@ let respondeu        = false;
 //  NAVEGAÇÃO ENTRE TELAS
 // ══════════════════════════════════════════════════════════
 const TELAS = ['screen-home','screen-study-topics','screen-study-fonetica','screen-study-content',
-               'screen-quiz-topics','screen-quiz','screen-result'];
+               'screen-quiz-topics','screen-quiz-fonetica','screen-quiz','screen-result'];
 
 function ir(id) {
   TELAS.forEach(t => {
@@ -170,6 +170,7 @@ function abrirTeoria(id) {
 }
 
 document.getElementById('btn-back-study-fonetica').addEventListener('click', () => ir('screen-study-topics'));
+document.getElementById('btn-back-quiz-fonetica').addEventListener('click', () => ir('screen-quiz-topics'));
 document.getElementById('btn-back-study-topics').addEventListener('click', () => {
   const dest = origemTeoria;
   origemTeoria = 'screen-study-topics';
@@ -190,6 +191,29 @@ document.getElementById('btn-fazer-simulado-da-teoria').addEventListener('click'
 //  SEÇÃO SIMULADO — seleção de tema
 // ══════════════════════════════════════════════════════════
 function selecionarTemaQuiz(id, card) {
+  if (id === 'fonetica_ortografia') {
+    const grid = document.getElementById('quiz-fonetica-grid');
+    grid.innerHTML = '';
+    const hist = _historico();
+    IDS_FONETICA_ORTOGRAFIA.forEach(subId => {
+      const sub = TEMAS.find(x => x.id === subId);
+      if (!sub || !sub.questoes || !sub.questoes.length) return;
+      const div = document.createElement('div');
+      div.className = 'tema-card';
+      let badge = '';
+      const h = hist[subId];
+      if (h && h.total > 0) {
+        const pct = Math.round((h.acertos / h.total) * 100);
+        const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
+        badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
+      }
+      div.innerHTML = `${badge}<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div><div class="desc">${sub.desc}</div>`;
+      div.addEventListener('click', () => iniciarSimulado(sub));
+      grid.appendChild(div);
+    });
+    ir('screen-quiz-fonetica');
+    return;
+  }
   document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   temaAtual = TEMAS.find(t => t.id === id);
