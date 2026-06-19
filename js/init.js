@@ -1,13 +1,8 @@
 ﻿(function() {
   if (typeof QUESTOES_BANCO === 'undefined') return;
 
-  // ── 1. Extrai teoria de tonicidade para acentuacaoGrafica ─────────────────
-  var tonTeoria = '';
-  var ton = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
-  if (ton) {
-    tonTeoria = ton.teoria;
-    TEMAS.splice(TEMAS.indexOf(ton), 1);
-  }
+  // ── 1. (reservado) ────────────────────────────────────────────────────────────
+  // tonicidade agora é tema independente — não remover do TEMAS
 
   // ── 2. Cria temas novos se necessário ────────────────────────────────────────
   for (var id in QUESTOES_BANCO.novosTemas) {
@@ -36,7 +31,7 @@
   }
 
   // ── 4. Seção combinada: Fonética e Ortografia ────────────────────────────────
-  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
+  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','encontrosConsonantais','hifen'];
   var qFon = [];
   IDS_FON.forEach(function(id) {
     var t = TEMAS.find(function(t){ return t.id === id; });
@@ -513,7 +508,7 @@
     var p3raw = splitIdx > -1 ? extra.slice(splitIdx + splitMarker.length) : '';
     p2raw = p2raw.replace(/^[\s\S]*?<div[^>]*id="sil-p2"[^>]*>\n?/, '');
     p3raw = p3raw.replace(/^\s*<div[^>]*id="sil-p3"[^>]*>\n?/, '').replace(/\n?<\/div>\s*$/, '');
-    if (acentTema) acentTema.teoria = p2raw + (tonTeoria ? '\n' + tonTeoria : '');
+    if (acentTema) acentTema.teoria = p2raw;
     if (craseTema) craseTema.teoria = p3raw;
   }
 
