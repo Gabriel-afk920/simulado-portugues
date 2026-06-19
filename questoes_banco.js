@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 19/06/2026, 19:47:32 — 1117 questões incluídas
+// 19/06/2026, 19:59:41 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -19270,26 +19270,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Sabe-se que na Língua Portuguesa Oficial do Brasil: “A sílaba tônica pode aparecer apenas em três posições: ou ela é a última (café), ou ela é penúltima (amizade) ou ela é a antepenúltima (médico)” (Sacconi, 2008, p. 25). A partir dessa explicação, assinale a alternativa que preencha correta e respectivamente as lacunas. I. São denominados ______ os vocábulos cuja sílaba tônica recai na última sílaba. II. Denominam-se ______ os vocábulos cuja sílaba tônica recai na penúltima sílaba. III. Os vocábulos cuja sílaba tônica recai na antepenúltima sílaba, são denominados ______.",
-                "opcoes": [
-                      "I - parônimos; II - oxímoros; III - prosopopeias",
-                      "I - oxítonos; II - paroxítonos; III - proparoxítonos",
-                      "I - prosopopeias; II - oxítonos; III - paroxítonos",
-                      "I - proparoxítonos; II - monossílabos; III - paradoxos",
-                      "I - proparoxítonos; II - oxítonos; III - paroxítonos"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I - oxítonos; II - paroxítonos; III - proparoxítonos</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
-                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "oxitonas"
-                ]
-          },
-          {
                 "enunciado": "Em relação ao número de sílabas e à tonicidade de palavras do texto, assinale a alternativa correta.",
                 "opcoes": [
                       "“médio” possui duas sílabas, sendo oxítona.",
@@ -19750,25 +19730,6 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>II e IV apenas.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2023. Assunto: tonicidade.",
                 "banca": "Universidade do Extremo Sul Catarinense - UNESC",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "oxitonas"
-                ]
-          },
-          {
-                "enunciado": "Analise as assertivas seguintes: I.No texto, existem exemplos de concordâncias ideológicas, entre elas, podemos citar: \"todos sabemos\"; \"todos reconhecemos\". II.As palavras \"ambição\" e \"então\" são oxítonas com som nasal. III.Na frase: \"nas pequenas coisas que temos na vida\", temos um trissílabo paroxítono que faz antônimo com \"grandes\"; temos um pronome relativo após um substantivo dissílabo paroxítono. IV.Na frase: \"A felicidade não deve ser colocada como um objetivo a ser alcançado\" - temos exemplos de conjunções subordinativas conformativas. V.Na frase: \"Você tem mil razões para se sentir feliz\" - temos um numeral que se classifica como multiplicativo. Marque a alternativa com a opção CORRETA.",
-                "opcoes": [
-                      "I, II, III, IV e V.",
-                      "Apenas II, IV e V.",
-                      "Apenas I, II e III.",
-                      "Apenas I, II e IV."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas I, II e III.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -20609,26 +20570,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "As palavras abaixo estão todas grafadas propositalmente sem acentos gráficos. Assinale a opção em que todos os vocábulos são paroxítonos.",
-                "opcoes": [
-                      "avaro / pudico / erudito.",
-                      "aziago / tulipa / refem.",
-                      "Nobel / etiope / rubrica.",
-                      "filantropo / estalido / lampada.",
-                      "recem / textil / decano."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Nobel / etiope / rubrica.</strong>. Fonte: Fundação Getúlio Vargas - FGV/2024. Assunto: tonicidade.",
-                "banca": "Fundação Getúlio Vargas - FGV",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Analise as sequências de palavras a seguir e assinale a alternativa em que as palavras dadas se classifiquem, quanto à tonicidade, em proparoxítona - oxítona - paroxítona - oxítona, respectivamente.",
                 "opcoes": [
                       "funilaria - baú - hotel - azul.",
@@ -20659,6 +20600,26 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>paralisação (oxítona); taciturno (paroxítona); transeunte (paroxítona); rubrica (paroxítona)</strong>. Fonte: Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE/2024. Assunto: tonicidade.",
                 "banca": "Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Sabe-se que na Língua Portuguesa Oficial do Brasil: “A sílaba tônica pode aparecer apenas em três posições: ou ela é a última (café), ou ela é penúltima (amizade) ou ela é a antepenúltima (médico)” (Sacconi, 2008, p. 25). A partir dessa explicação, assinale a alternativa que preencha correta e respectivamente as lacunas. I. São denominados ______ os vocábulos cuja sílaba tônica recai na última sílaba. II. Denominam-se ______ os vocábulos cuja sílaba tônica recai na penúltima sílaba. III. Os vocábulos cuja sílaba tônica recai na antepenúltima sílaba, são denominados ______.",
+                "opcoes": [
+                      "I - parônimos; II - oxímoros; III - prosopopeias",
+                      "I - oxítonos; II - paroxítonos; III - proparoxítonos",
+                      "I - prosopopeias; II - oxítonos; III - paroxítonos",
+                      "I - proparoxítonos; II - monossílabos; III - paradoxos",
+                      "I - proparoxítonos; II - oxítonos; III - paroxítonos"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I - oxítonos; II - paroxítonos; III - proparoxítonos</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -21632,6 +21593,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras abaixo estão todas grafadas propositalmente sem acentos gráficos. Assinale a opção em que todos os vocábulos são paroxítonos.",
+                "opcoes": [
+                      "avaro / pudico / erudito.",
+                      "aziago / tulipa / refem.",
+                      "Nobel / etiope / rubrica.",
+                      "filantropo / estalido / lampada.",
+                      "recem / textil / decano."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nobel / etiope / rubrica.</strong>. Fonte: Fundação Getúlio Vargas - FGV/2024. Assunto: tonicidade.",
+                "banca": "Fundação Getúlio Vargas - FGV",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
                 "enunciado": "Observe as palavras a seguir. 1. Notícia; 2. Convenção; 3. Parabéns; 4. Câmera. Assinale a alternativa CORRETA.",
                 "opcoes": [
                       "A única palavra paroxítona é a 4.",
@@ -21755,6 +21736,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Trissílabas e paroxítonas;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
                 "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas seguintes: I.No texto, existem exemplos de concordâncias ideológicas, entre elas, podemos citar: \"todos sabemos\"; \"todos reconhecemos\". II.As palavras \"ambição\" e \"então\" são oxítonas com som nasal. III.Na frase: \"nas pequenas coisas que temos na vida\", temos um trissílabo paroxítono que faz antônimo com \"grandes\"; temos um pronome relativo após um substantivo dissílabo paroxítono. IV.Na frase: \"A felicidade não deve ser colocada como um objetivo a ser alcançado\" - temos exemplos de conjunções subordinativas conformativas. V.Na frase: \"Você tem mil razões para se sentir feliz\" - temos um numeral que se classifica como multiplicativo. Marque a alternativa com a opção CORRETA.",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "Apenas II, IV e V.",
+                      "Apenas I, II e III.",
+                      "Apenas I, II e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I, II e III.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
