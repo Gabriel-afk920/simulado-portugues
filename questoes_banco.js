@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 19/06/2026, 19:42:58 — 1117 questões incluídas
+// 19/06/2026, 19:47:32 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -18315,6 +18315,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Acerca de aspectos gramaticais diversos, analise as partes que seguem: (1a parte): pirâmide (/.76) é uma proparoxitona; análise (l.30) é uma paroxitona; ninguém (/.13) é uma oxitona. (2a parte): a palavra moderação é um sinônimo de parcimônia (/.12). (3a parte): À linha 14, os travessões poderiam ser substituídos por vírgulas. (4a parte): A palavra livraço (/.55) está no grau superlativo absoluto analítico de superioridade. Das partes, NÃO se pode afirmar que:",
+                "opcoes": [
+                      "A 4a está incorreta.",
+                      "Metade delas está correta.",
+                      "A 2a está correta, assim como a 3a.",
+                      "A 1a está incorreta, assim como a 2a."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A 4a está incorreta.</strong>. Fonte: Legalle Concursos/2025. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
                 "opcoes": [
                       "Anéis.",
@@ -20121,25 +20140,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Na oração “No Brasil, a situação também é drástica.”, a palavra destacada pode ser classificada como:",
-                "opcoes": [
-                      "Dissílaba",
-                      "Oxítona",
-                      "Proparoxítona",
-                      "Paroxítona"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Dissílaba</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: tonicidade.",
-                "banca": "Prefeitura de Bombinhas - SC",
-                "ano": 2026,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Identifique a alternativa em que a sequência de palavras segue, respectivamente, esta ordem: oxítona, paroxítona, proparoxítona.",
                 "opcoes": [
                       "nós – ninguém – clássica.",
@@ -20190,25 +20190,6 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Apenas I e II estão corretas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Acerca de aspectos gramaticais diversos, analise as partes que seguem: (1a parte): pirâmide (/.76) é uma proparoxitona; análise (l.30) é uma paroxitona; ninguém (/.13) é uma oxitona. (2a parte): a palavra moderação é um sinônimo de parcimônia (/.12). (3a parte): À linha 14, os travessões poderiam ser substituídos por vírgulas. (4a parte): A palavra livraço (/.55) está no grau superlativo absoluto analítico de superioridade. Das partes, NÃO se pode afirmar que:",
-                "opcoes": [
-                      "A 4a está incorreta.",
-                      "Metade delas está correta.",
-                      "A 2a está correta, assim como a 3a.",
-                      "A 1a está incorreta, assim como a 2a."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A 4a está incorreta.</strong>. Fonte: Legalle Concursos/2025. Assunto: tonicidade.",
-                "banca": "Legalle Concursos",
                 "ano": 2025,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -20278,26 +20259,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
-                "opcoes": [
-                      "proparoxítona e oxítona.",
-                      "proparoxítona e paroxítona.",
-                      "paroxítona e oxítona.",
-                      "paroxítona e paroxítona.",
-                      "oxítona e proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>proparoxítona e oxítona.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Considerando a tonicidade das palavras a seguir, retiradas do texto, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA. ( ) \"Hinduísmo\" é proparoxiítona. ( ) \"Marrons\" é paroxítona. ( ) \"Possível\" é paroxítona. ( ) \"Século\" é proparoxítona. ( ) \"Mostarda\" é oxítona.",
                 "opcoes": [
                       "F, V, F, V, V.",
@@ -20318,25 +20279,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Analise as assertivas a seguir a respeito dos aspectos ortográficos de algumas palavras do texto. I. \"mulher\" é uma palavra oxítona e dissílaba, enquanto o seu plural (\"mulheres\"), é paroxítona e trissílaba. . Em \"exausto\", palavra polissílaba, ocorre hiato. . Em \"máquina\" e \"chaves\" há dígrafo. IV. \"leite\" e \"olhos\" possuem o mesmo número de fonemas. Está CORRETO o que se afirma em:",
-                "opcoes": [
-                      "II, III e IV, apenas.",
-                      "I e IV, apenas.",
-                      "I e III, apenas.",
-                      "II, apenas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
-                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "De acordo com a classificação das palavras quanto à posição da sílaba tônica, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: (__) Açúcar é proparoxítona. (__) Responsável é paroxítona. (__) Endócrinos é paroxítona.",
                 "opcoes": [
                       "C - C - E.",
@@ -20347,44 +20289,6 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>E - C - E.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: tonicidade.",
                 "banca": "Prefeitura de Catas Altas",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “psicóloga” é classificada como:",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "Monossílaba tônica."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Monossílaba tônica.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: tonicidade.",
-                "banca": "EDUCA Assessoria Educacional - EDUCA",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
-                "opcoes": [
-                      "Curió; canário; e vítima.",
-                      "Otário; pássaros; e sabiá.",
-                      "Fêmea; aborígine; e divórcio.",
-                      "Cinelândia; indústria; e história."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Fêmea; aborígine; e divórcio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
-                "banca": "Instituto Consulplan",
                 "ano": 2025,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -20433,26 +20337,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
-                "opcoes": [
-                      "comandante, tumulto, disponível.",
-                      "escopeta, alguém, minutos.",
-                      "sorrateiramente, andando, três.",
-                      "janelas, humanos, assombrado.",
-                      "tenente, polícia, viatura."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>comandante, tumulto, disponível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
-                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Sobre a palavra “hipotética”, é correto afirmar que:",
                 "opcoes": [
                       "É paroxítona.",
@@ -20492,26 +20376,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Quanto à tonicidade, as palavras câncer, eletrônicos, além, sérios, cápsulas são classificadas, RESPECTIVAMENTE, como:",
-                "opcoes": [
-                      "Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.",
-                      "Proparoxítona, proparoxítona, paroxítona, paroxítona, proparoxítona.",
-                      "Paroxítona, paroxítona, paroxítona, proparoxítona, proparoxítona.",
-                      "Paroxítona, paroxítona, oxítona, proparoxítona, paroxítona.",
-                      "Paroxítona, proparoxítona, oxítona, paroxítona, proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
-                "banca": "EDUCA Assessoria Educacional - EDUCA",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona, uma paroxítona e uma proparoxítona, respectivamente.",
                 "opcoes": [
                       "Abacaxi | hífen | técnico.",
@@ -20541,26 +20405,6 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>2, 1, 2, 3.</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2024. Assunto: tonicidade.",
                 "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "No que diz respeito à tonicidade, analise as afirmações a seguir: I.A palavra \"sanitárias\", no que diz respeito à tonicidade, pode ser classificada como ____________. II.A palavra \"saúde\" consiste em uma ____________. III.A palavra \"proporção\", no que diz respeito à tonicidade, pode ser classificada como ____________. IV.A palavra \"útil\" consiste em uma ____________. V.A palavra \"obesidade\" pode ser classificada como ____________. Assinale a alternativa que correta e respectivamente preenche as lacunas nos excertos:",
-                "opcoes": [
-                      "proparoxítona - oxítona - proparoxítona - oxítona - paroxítona.",
-                      "proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.",
-                      "paroxítona - oxítona - paroxítona - oxítona - oxítona.",
-                      "paroxítona - proparoxítona - paroxítona - proparoxítona - proparoxítona.",
-                      "oxítona - paroxítona - oxítona - paroxítona - paroxítona."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
-                "banca": "Universidade de Blumenau - FURB",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -20667,26 +20511,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Ainda sobre o trecho “As malas rente aos pés dos dois também se valiam daquele abrigo”, observe a palavra “pés”, em destaque. Do ponto de vista silábico, “pés” pode ser classificada como:",
-                "opcoes": [
-                      "monossílaba.",
-                      "dissílaba.",
-                      "trissílaba.",
-                      "polissílaba.",
-                      "oxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>monossílaba.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
-                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Leia as afirmações abaixo e assinale V (verdadeiro) ou F (falso): (__)As formas verbais 'Têm' e 'lê' são exemplos de verbos que permaneceram com acento, para diferenciar a forma singular da de plural. (__)O vocábulo 'razoável' e 'saúde' recebem acento pela regra das palavras que formam hiato. (__)'Médica' e 'básico' são proparoxítonas. (__)'Além' e 'olhar' são oxítonas. (__)'Psicoativas' não é hifenizada, assim como 'autoescola'. A sequência que preenche os parênteses corretamente é:",
                 "opcoes": [
                       "F, F, V, V, V.",
@@ -20726,65 +20550,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Levando-se em conta a posição da sílaba tônica, a palavra “ultrassom”, presente no texto, é um(a):",
-                "opcoes": [
-                      "Monossílabo átono.",
-                      "Monossílabo tônico.",
-                      "Proparoxítona.",
-                      "Paroxítona.",
-                      "Oxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
-                "opcoes": [
-                      "Sabiá.",
-                      "Bíceps.",
-                      "Espetáculo.",
-                      "Brócolis."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Bíceps.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "No trecho \" O Brasil lidera o ranking de casos de ansiedade e depressão na América Latina\", as palavras destacadas classificam-se quanto à tonicidade, respectivamente, como",
-                "opcoes": [
-                      "paroxítona e oxítona.",
-                      "paroxítona e paroxítona.",
-                      "proparoxítona e oxítona.",
-                      "proparoxítona e paroxítona.",
-                      "oxítona e paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>paroxítona e oxítona.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "As questões 09 e 10 referem-se à tirinha abaixo. Sobre o texto do primeiro quadrinho, assinale a alternativa correta.",
                 "opcoes": [
                       "“História” tem 08 fonemas.",
@@ -20805,64 +20570,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Quanto à posição da sílaba tônica, as palavras ridículo – débil - ninguém - árvore são classificadas respectivamente como:",
-                "opcoes": [
-                      "Proparoxítona – paroxítona – oxítona - proparoxítona.",
-                      "Proparoxítona – paroxítona – paroxítona - paroxítona.",
-                      "Paroxítona – proparoxítona – oxítona - proparoxítona.",
-                      "Paroxítona – paroxítona – oxítona - paroxítona.",
-                      "Proparoxítona – proparoxítona – oxítona - proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Proparoxítona – paroxítona – oxítona - proparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
-                "banca": "EDUCA Assessoria Educacional - EDUCA",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em relação à posição da sílaba tônica, as palavras denunciar, gratuito e ouvidoria são, respectivamente, classificadas como:",
-                "opcoes": [
-                      "Proparoxítona, paroxítona e oxítona.",
-                      "Proparoxítona, paroxítona e paroxítona.",
-                      "Oxítona, paroxítona e oxítona.",
-                      "Oxítona, paroxítona e paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona e oxítona.</strong>. Fonte: Gama Consultoria/2024. Assunto: tonicidade.",
-                "banca": "Gama Consultoria",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A classificação das palavras do texto, (perdida, razão, frágil, divina), quanto ao acento tônico são respectivamente:",
-                "opcoes": [
-                      "Proparoxítona, oxítona, paroxítona, paroxítona.",
-                      "Paroxítona, oxítona, paroxítona, paroxítona.",
-                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
-                      "Oxítona, oxítona, paroxítona, paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Proparoxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Marque a alternativa cujos vocábulos apresentam a seguinte ordem de classificação quanto à tonicidade: oxítona, paroxítona e proparoxítona.",
                 "opcoes": [
                       "juriti - hifens - rubrica",
@@ -20873,26 +20580,6 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>juriti - hifens - rubrica</strong>. Fonte: Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica/2024. Assunto: tonicidade.",
                 "banca": "Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As palavras destacadas em “Com seu processador IA de última geração, permite a compatibilidade entre diversos dispositivos, criando uma conexão integrada entre televisores, smartphones e outros aparelhos do mesmo ecossistema”. São, respectivamente, classificadas como:",
-                "opcoes": [
-                      "oxítona, paroxítona e proparoxítona.",
-                      "paroxítona, paroxítona e proparoxítona.",
-                      "oxítona, proparoxítona e paroxítona.",
-                      "oxítona, paroxítona e paroxítona.",
-                      "paroxítona, oxítona e proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>oxítona, paroxítona e proparoxítona.</strong>. Fonte: Instituto Tupy/2024. Assunto: tonicidade.",
-                "banca": "Instituto Tupy",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -20962,65 +20649,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "De acordo com a classificação das palavras quanto ao acento tônico, no texto (única, acaso, até), são respectivamente:",
-                "opcoes": [
-                      "Paroxítona, paroxítona, oxítona.",
-                      "Proparoxítona, paroxítona, paroxítona.",
-                      "Proparoxítona, paroxítona, oxítona.",
-                      "Oxítona, paroxítona, proparoxítona.",
-                      "Proparoxítona, oxítona, oxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Paroxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A classificação das palavras do texto, (milhares, você, telefonema, coração), quanto ao acento tônico são respectivamente:",
-                "opcoes": [
-                      "Paroxítona, oxítona, paroxítona, oxítona.",
-                      "Paroxítona, oxítona, proparoxítona, paroxítona.",
-                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
-                      "Oxítona, oxítona, paroxítona, paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "“Em 2014, Netinho foi campeão sul-americano com apenas 17 anos, além de medalha de ouro no mundial juvenil e nas Olimpíadas da Juventude.” Quanto à posição da sílaba tônica, as palavras destacadas são classificadas RESPECTIVAMENTE como:",
-                "opcoes": [
-                      "Oxítona – paroxítona – oxítona – proparoxítona - paroxítona.",
-                      "Oxítona – paroxítona – paroxítona – paroxítona - paroxítona.",
-                      "Paroxítona – proparoxítona – oxítona – proparoxítona - oxítona.",
-                      "Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.",
-                      "Oxítona – oxítona - proparoxítona – paroxítona - paroxítona."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
-                "banca": "EDUCA Assessoria Educacional - EDUCA",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Assinale a opção que apresenta a grafia e a classificação corretas de todas as palavras.",
                 "opcoes": [
                       "paralização (oxítona); taciturno (paroxítona); tranzeunte (paroxítona); rubrica (proparoxítona)",
@@ -21040,26 +20668,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Leia o panfleto. De acordo com a posição da sílaba tônica, as palavras: “alerta”, “criadouros”, “médica” e necessária”, presentes no panfleto, podem ser classificadas respectivamente como:",
-                "opcoes": [
-                      "proparoxítona, proparoxítona, paroxítona e paroxítona.",
-                      "oxítona, paroxítona, proparoxítona e proparoxítona.",
-                      "proparoxítona, oxítona, proparoxítona e paroxítona.",
-                      "paroxítona, oxítona, proparoxítona e paroxítona.",
-                      "paroxítona, paroxítona, proparoxítona e proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>proparoxítona, proparoxítona, paroxítona e paroxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
-                "banca": "ÁPICE Concursos Públicos - APICE",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Em se tratando de sílaba tônica das palavras, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência correta: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Açúcar. ( ) Pêssego. ( ) Caju.",
                 "opcoes": [
                       "3 - 2 - 1.",
@@ -21070,46 +20678,6 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quanto à posição da sílaba tônica, as palavras até - óbitos - órgãos - após são classificadas RESPECTIVAMENTE como:",
-                "opcoes": [
-                      "Oxítona – proparoxítona –paroxítona - oxítona.",
-                      "Oxítona – paroxítona – oxítona - oxítona.",
-                      "Oxítona – paroxítona – paroxítona - paroxítona.",
-                      "Paroxítona – paroxítona – proparoxítona - oxítona.",
-                      "Paroxítona – proparoxítona – oxítona - paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítona – proparoxítona –paroxítona - oxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
-                "banca": "EDUCA Assessoria Educacional - EDUCA",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Releia e responda: “Como se precisássemos de máquina fotográfica para guardar na memória as coisas que nos são caras!” Conforme as regras de acentuação gráfica constantes do sistema ortográfico vigente na língua portuguesa, as palavras grifadas, respectivamente, são assim classificadas:",
-                "opcoes": [
-                      "proparoxítona / paroxítona / paroxítona terminada em ditongo crescente",
-                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo decrescente",
-                      "paroxítona / proparoxítona / proparoxítona",
-                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo crescente",
-                      "paroxítona / oxítona / proparoxítona"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>paroxítona / proparoxítona / proparoxítona</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
-                "banca": "FACET Concursos - FACET",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -21149,25 +20717,6 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>2 - 3 - 1 - 3 - 3 - 2 - 3 - 3</strong>. Fonte: Universidade de Blumenau - FURB/2023. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Releia o trecho a seguir. “Ela era ruim em matemática [...]'' À palavra destacada, quanto à posição da sílaba tônica, é classificada como",
-                "opcoes": [
-                      "átona.",
-                      "oxitona.",
-                      "paroxitona.",
-                      "proparoxitona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>átona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
-                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -21217,45 +20766,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Além disso, a síndrome também está associada a pessoas com câncer de pulmão, cólon, mama, tireoide etc. As duas palavras que são acentuadas exatamente pela mesma regra são:",
-                "opcoes": [
-                      "câncer - cólon",
-                      "além - também",
-                      "também está",
-                      "está - pulmão"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>câncer - cólon</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quando se analisa qual das sílabas de “aniversário” é a mais forte, percebe-se que tal palavra é uma:",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "Monossílabo átono.",
-                      "Monossílabo tônico."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "O primeiro parágrafo do texto apresenta, quanto à acentuação gráfica:",
                 "opcoes": [
                       "Cinco palavras oxítonas, e pelo menos duas terminadas em “a”.",
@@ -21267,44 +20777,6 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Três monossílabos tônicos.</strong>. Fonte: Instituto Ágata/2023. Assunto: tonicidade.",
                 "banca": "Instituto Ágata",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Ainda em relação ao trecho “Na literatura, nas telas do cinema, deparamos com suposições futurísticas que chegamos a duvidar ou até criticar.” As palavras destacadas, são respectivamente:",
-                "opcoes": [
-                      "paroxítona – oxítona – proparoxítona;",
-                      "paroxítona – paroxítona – proparoxítona;",
-                      "todas são paroxítonas;",
-                      "há duas oxítonas e uma proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>paroxítona – oxítona – proparoxítona;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
-                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Considere os vocábulos “reminiscentemente” e “jardim” (10º§). Quanto ao número de sílabas e à disposição da sílaba tônica, é correto classificá-las, respectivamente, como",
-                "opcoes": [
-                      "polissílaba e paroxítona; dissílaba e oxítona.",
-                      "trissílaba e proparoxítona; dissílaba e paroxítona.",
-                      "dissílaba e oxítona; monossílaba e proparoxítona.",
-                      "monossílaba e proparoxítona; trissílaba e paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>polissílaba e paroxítona; dissílaba e oxítona.</strong>. Fonte: Instituto Consulplan/2023. Assunto: tonicidade.",
-                "banca": "Instituto Consulplan",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -21344,43 +20816,6 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Enquanto a regra atual da Língua Portuguesa determina que o acento agudo é utilizado em palavras proparoxítonas apenas para indicar a sílaba mais forte; nas palavras oxítonas esse acento é usado para indicar quando o vocábulo é um verbo.\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quanto à vogal tônica, as palavras são classificadas em oxítonas, paroxítonas e proparoxítonas. Assinalar a alternativa em que há uma palavra oxítona:",
-                "opcoes": [
-                      "Manganês.",
-                      "Explícito.",
-                      "Garagem.",
-                      "Louvável.",
-                      "Látex."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Explícito.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
@@ -21448,26 +20883,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "A palavra “fenômeno”, por ter tonicidade na antepenúltima sílaba, é classificada como:",
-                "opcoes": [
-                      "Paroxítona.",
-                      "Oxítona.",
-                      "Proparoxítona.",
-                      "Monossílabo tônico.",
-                      "Monossílabo átono."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Monossílabo tônico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Considere as classificações com foco na acentuação e assinale a alternativa correta. (I) A primeira palavra é oxítona. (II) A segunda palavra é paroxítona. (III) A terceira palavra é proparoxítona. (IV) A quarta palavra é um monossílabo tônico.",
                 "opcoes": [
                       "(I) nós: (II) variável; (III) contratação; (IV) só.",
@@ -21508,25 +20923,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "As palavras ACÉM, PONTAPÉ, DETÉM, ANÉIS são acentuadas seguindo a regra das:",
-                "opcoes": [
-                      "Paroxítonas",
-                      "Oxítonas",
-                      "Proparoxítonas",
-                      "Monossílabos tônicos"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Monossílabos tônicos</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2023. Assunto: tonicidade.",
-                "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Preencha a segunda coluna de acordo com a primeira: (1) médico (2) pediatra (3) fazer ( ) oxítona ( ) paroxítona ( ) proparoxítona",
                 "opcoes": [
                       "3 - 2 – 1.",
@@ -21548,6 +20944,25 @@ var QUESTOES_BANCO = {
     ],
     "proparoxitonas": [
           {
+                "enunciado": "Na oração “No Brasil, a situação também é drástica.”, a palavra destacada pode ser classificada como:",
+                "opcoes": [
+                      "Dissílaba",
+                      "Oxítona",
+                      "Proparoxítona",
+                      "Paroxítona"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dissílaba</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
                 "opcoes": [
                       "A palavra “diretamente” é proparoxítona.",
@@ -21568,6 +20983,164 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "oxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>proparoxítona e oxítona.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “psicóloga” é classificada como:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílaba tônica."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílaba tônica.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "Curió; canário; e vítima.",
+                      "Otário; pássaros; e sabiá.",
+                      "Fêmea; aborígine; e divórcio.",
+                      "Cinelândia; indústria; e história."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Fêmea; aborígine; e divórcio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à tonicidade, as palavras câncer, eletrônicos, além, sérios, cápsulas são classificadas, RESPECTIVAMENTE, como:",
+                "opcoes": [
+                      "Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, proparoxítona, paroxítona, paroxítona, proparoxítona.",
+                      "Paroxítona, paroxítona, paroxítona, proparoxítona, proparoxítona.",
+                      "Paroxítona, paroxítona, oxítona, proparoxítona, paroxítona.",
+                      "Paroxítona, proparoxítona, oxítona, paroxítona, proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No que diz respeito à tonicidade, analise as afirmações a seguir: I.A palavra \"sanitárias\", no que diz respeito à tonicidade, pode ser classificada como ____________. II.A palavra \"saúde\" consiste em uma ____________. III.A palavra \"proporção\", no que diz respeito à tonicidade, pode ser classificada como ____________. IV.A palavra \"útil\" consiste em uma ____________. V.A palavra \"obesidade\" pode ser classificada como ____________. Assinale a alternativa que correta e respectivamente preenche as lacunas nos excertos:",
+                "opcoes": [
+                      "proparoxítona - oxítona - proparoxítona - oxítona - paroxítona.",
+                      "proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.",
+                      "paroxítona - oxítona - paroxítona - oxítona - oxítona.",
+                      "paroxítona - proparoxítona - paroxítona - proparoxítona - proparoxítona.",
+                      "oxítona - paroxítona - oxítona - paroxítona - paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Ainda sobre o trecho “As malas rente aos pés dos dois também se valiam daquele abrigo”, observe a palavra “pés”, em destaque. Do ponto de vista silábico, “pés” pode ser classificada como:",
+                "opcoes": [
+                      "monossílaba.",
+                      "dissílaba.",
+                      "trissílaba.",
+                      "polissílaba.",
+                      "oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>monossílaba.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Levando-se em conta a posição da sílaba tônica, a palavra “ultrassom”, presente no texto, é um(a):",
+                "opcoes": [
+                      "Monossílabo átono.",
+                      "Monossílabo tônico.",
+                      "Proparoxítona.",
+                      "Paroxítona.",
+                      "Oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho \" O Brasil lidera o ranking de casos de ansiedade e depressão na América Latina\", as palavras destacadas classificam-se quanto à tonicidade, respectivamente, como",
+                "opcoes": [
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "oxítona e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona e oxítona.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
                 "enunciado": "Marque a alternativa em que a classificação da palavra está correta:",
                 "opcoes": [
                       "Arquipélago - substantivo abstrato, trissílabo, proparoxítona.",
@@ -21578,6 +21151,104 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Arquipélago - substantivo abstrato, trissílabo, proparoxítona.</strong>. Fonte: Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK/2024. Assunto: tonicidade.",
                 "banca": "Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, as palavras ridículo – débil - ninguém - árvore são classificadas respectivamente como:",
+                "opcoes": [
+                      "Proparoxítona – paroxítona – oxítona - proparoxítona.",
+                      "Proparoxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – proparoxítona – oxítona - proparoxítona.",
+                      "Paroxítona – paroxítona – oxítona - paroxítona.",
+                      "Proparoxítona – proparoxítona – oxítona - proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona – paroxítona – oxítona - proparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à posição da sílaba tônica, as palavras denunciar, gratuito e ouvidoria são, respectivamente, classificadas como:",
+                "opcoes": [
+                      "Proparoxítona, paroxítona e oxítona.",
+                      "Proparoxítona, paroxítona e paroxítona.",
+                      "Oxítona, paroxítona e oxítona.",
+                      "Oxítona, paroxítona e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona e oxítona.</strong>. Fonte: Gama Consultoria/2024. Assunto: tonicidade.",
+                "banca": "Gama Consultoria",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "A classificação das palavras do texto, (perdida, razão, frágil, divina), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Proparoxítona, oxítona, paroxítona, paroxítona.",
+                      "Paroxítona, oxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras destacadas em “Com seu processador IA de última geração, permite a compatibilidade entre diversos dispositivos, criando uma conexão integrada entre televisores, smartphones e outros aparelhos do mesmo ecossistema”. São, respectivamente, classificadas como:",
+                "opcoes": [
+                      "oxítona, paroxítona e proparoxítona.",
+                      "paroxítona, paroxítona e proparoxítona.",
+                      "oxítona, proparoxítona e paroxítona.",
+                      "oxítona, paroxítona e paroxítona.",
+                      "paroxítona, oxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>oxítona, paroxítona e proparoxítona.</strong>. Fonte: Instituto Tupy/2024. Assunto: tonicidade.",
+                "banca": "Instituto Tupy",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a classificação das palavras quanto ao acento tônico, no texto (única, acaso, até), são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, paroxítona, oxítona.",
+                      "Proparoxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, paroxítona, oxítona.",
+                      "Oxítona, paroxítona, proparoxítona.",
+                      "Proparoxítona, oxítona, oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -21606,6 +21277,105 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A classificação das palavras do texto, (milhares, você, telefonema, coração), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, oxítona, paroxítona, oxítona.",
+                      "Paroxítona, oxítona, proparoxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "“Em 2014, Netinho foi campeão sul-americano com apenas 17 anos, além de medalha de ouro no mundial juvenil e nas Olimpíadas da Juventude.” Quanto à posição da sílaba tônica, as palavras destacadas são classificadas RESPECTIVAMENTE como:",
+                "opcoes": [
+                      "Oxítona – paroxítona – oxítona – proparoxítona - paroxítona.",
+                      "Oxítona – paroxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – proparoxítona – oxítona – proparoxítona - oxítona.",
+                      "Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.",
+                      "Oxítona – oxítona - proparoxítona – paroxítona - paroxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Leia o panfleto. De acordo com a posição da sílaba tônica, as palavras: “alerta”, “criadouros”, “médica” e necessária”, presentes no panfleto, podem ser classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona, proparoxítona, paroxítona e paroxítona.",
+                      "oxítona, paroxítona, proparoxítona e proparoxítona.",
+                      "proparoxítona, oxítona, proparoxítona e paroxítona.",
+                      "paroxítona, oxítona, proparoxítona e paroxítona.",
+                      "paroxítona, paroxítona, proparoxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>proparoxítona, proparoxítona, paroxítona e paroxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, as palavras até - óbitos - órgãos - após são classificadas RESPECTIVAMENTE como:",
+                "opcoes": [
+                      "Oxítona – proparoxítona –paroxítona - oxítona.",
+                      "Oxítona – paroxítona – oxítona - oxítona.",
+                      "Oxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – paroxítona – proparoxítona - oxítona.",
+                      "Paroxítona – proparoxítona – oxítona - paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona – proparoxítona –paroxítona - oxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Releia e responda: “Como se precisássemos de máquina fotográfica para guardar na memória as coisas que nos são caras!” Conforme as regras de acentuação gráfica constantes do sistema ortográfico vigente na língua portuguesa, as palavras grifadas, respectivamente, são assim classificadas:",
+                "opcoes": [
+                      "proparoxítona / paroxítona / paroxítona terminada em ditongo crescente",
+                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo decrescente",
+                      "paroxítona / proparoxítona / proparoxítona",
+                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo crescente",
+                      "paroxítona / oxítona / proparoxítona"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>paroxítona / proparoxítona / proparoxítona</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
+                "banca": "FACET Concursos - FACET",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
                 "enunciado": "Em qual alternativa a palavra está corretamente classificada quanto à sua acentuação tônica?",
                 "opcoes": [
                       "Pólen (proparoxítona)",
@@ -21624,9 +21394,203 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "proparoxitonas"
                 ]
+          },
+          {
+                "enunciado": "Releia o trecho a seguir. “Ela era ruim em matemática [...]'' À palavra destacada, quanto à posição da sílaba tônica, é classificada como",
+                "opcoes": [
+                      "átona.",
+                      "oxitona.",
+                      "paroxitona.",
+                      "proparoxitona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>átona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quando se analisa qual das sílabas de “aniversário” é a mais forte, percebe-se que tal palavra é uma:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílabo átono.",
+                      "Monossílabo tônico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Ainda em relação ao trecho “Na literatura, nas telas do cinema, deparamos com suposições futurísticas que chegamos a duvidar ou até criticar.” As palavras destacadas, são respectivamente:",
+                "opcoes": [
+                      "paroxítona – oxítona – proparoxítona;",
+                      "paroxítona – paroxítona – proparoxítona;",
+                      "todas são paroxítonas;",
+                      "há duas oxítonas e uma proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona – oxítona – proparoxítona;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considere os vocábulos “reminiscentemente” e “jardim” (10º§). Quanto ao número de sílabas e à disposição da sílaba tônica, é correto classificá-las, respectivamente, como",
+                "opcoes": [
+                      "polissílaba e paroxítona; dissílaba e oxítona.",
+                      "trissílaba e proparoxítona; dissílaba e paroxítona.",
+                      "dissílaba e oxítona; monossílaba e proparoxítona.",
+                      "monossílaba e proparoxítona; trissílaba e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>polissílaba e paroxítona; dissílaba e oxítona.</strong>. Fonte: Instituto Consulplan/2023. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à vogal tônica, as palavras são classificadas em oxítonas, paroxítonas e proparoxítonas. Assinalar a alternativa em que há uma palavra oxítona:",
+                "opcoes": [
+                      "Manganês.",
+                      "Explícito.",
+                      "Garagem.",
+                      "Louvável.",
+                      "Látex."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Explícito.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “fenômeno”, por ter tonicidade na antepenúltima sílaba, é classificada como:",
+                "opcoes": [
+                      "Paroxítona.",
+                      "Oxítona.",
+                      "Proparoxítona.",
+                      "Monossílabo tônico.",
+                      "Monossílabo átono."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabo tônico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras ACÉM, PONTAPÉ, DETÉM, ANÉIS são acentuadas seguindo a regra das:",
+                "opcoes": [
+                      "Paroxítonas",
+                      "Oxítonas",
+                      "Proparoxítonas",
+                      "Monossílabos tônicos"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabos tônicos</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2023. Assunto: tonicidade.",
+                "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
           }
     ],
     "paroxitonas": [
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito dos aspectos ortográficos de algumas palavras do texto. I. \"mulher\" é uma palavra oxítona e dissílaba, enquanto o seu plural (\"mulheres\"), é paroxítona e trissílaba. . Em \"exausto\", palavra polissílaba, ocorre hiato. . Em \"máquina\" e \"chaves\" há dígrafo. IV. \"leite\" e \"olhos\" possuem o mesmo número de fonemas. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "II, III e IV, apenas.",
+                      "I e IV, apenas.",
+                      "I e III, apenas.",
+                      "II, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
+                "opcoes": [
+                      "comandante, tumulto, disponível.",
+                      "escopeta, alguém, minutos.",
+                      "sorrateiramente, andando, três.",
+                      "janelas, humanos, assombrado.",
+                      "tenente, polícia, viatura."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>comandante, tumulto, disponível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
+                "opcoes": [
+                      "Sabiá.",
+                      "Bíceps.",
+                      "Espetáculo.",
+                      "Brócolis."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Bíceps.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
           {
                 "enunciado": "Assinale a alternativa INCORRETA quanto à classificação das palavras de acordo com a posição da sílaba tônica.",
                 "opcoes": [
@@ -21739,6 +21703,42 @@ var QUESTOES_BANCO = {
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Além disso, a síndrome também está associada a pessoas com câncer de pulmão, cólon, mama, tireoide etc. As duas palavras que são acentuadas exatamente pela mesma regra são:",
+                "opcoes": [
+                      "câncer - cólon",
+                      "além - também",
+                      "também está",
+                      "está - pulmão"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>câncer - cólon</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Enquanto a regra atual da Língua Portuguesa determina que o acento agudo é utilizado em palavras proparoxítonas apenas para indicar a sílaba mais forte; nas palavras oxítonas esse acento é usado para indicar quando o vocábulo é um verbo.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas"
