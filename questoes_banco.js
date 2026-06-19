@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 18/06/2026, 17:44:30 — 545 questões incluídas
+// 19/06/2026, 18:50:20 — 1113 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -10637,6 +10637,11146 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "fonemas"
+                ]
+          }
+    ],
+    "silabasAcentuacao": [
+          {
+                "enunciado": "A palavra que NÃO apresenta encontro consonantal é:",
+                "opcoes": [
+                      "Cliente.",
+                      "Glúten.",
+                      "Muro.",
+                      "Lustre."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cliente.</strong>. Fonte: Objetiva Concursos/2026. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quando duas consoantes se encontram e os dois sons são pronunciados, temos um encontro consonantal. Aponte a alternativa abaixo em que isso ocorre.",
+                "opcoes": [
+                      "Luva.",
+                      "Água.",
+                      "Caneta.",
+                      "Fio.",
+                      "Livro."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Livro.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "crase",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "\"Tramita na Câmara dos Deputados um projeto de lei que altera a Lei Maria da Penha para afastar agressores das vítimas quando ambos atuarem no serviço público.\" Considerando os encontros consonantais, os dígrafos e os encontros vocálicos, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "O vocábulo 'Tramita' apresenta encontro consonantal, em 'público' há encontro consonantal e em 'para' há o mesmo número de letras e fonemas.",
+                      "O vocábulo 'agressores' apresenta dígrafo consonantal, em 'vítimas' todas as letras são pronunciadas e em 'Lei' há um encontro vocálico.",
+                      "O vocábulo 'Câmara' apresenta um encontro vocálico, em 'que' há um dígrafo consonantal e em 'Deputados' o número de letras é igual ao número de fonemas.",
+                      "O vocábulo 'Maria' apresenta encontro vocálico; em 'Lei' há um ditongo e em 'encontro' há mais letras do que fonemas.",
+                      "O vocábulo 'projeto' apresenta encontro consonantal, em 'ambos' há mais letras do que fonemas e em 'Penha' há dígrafo consonantal inseparável."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'Tramita' apresenta encontro consonantal, em 'público' há encontro consonantal e em 'para' há o mesmo número de letras e fonemas.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2026. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "crase",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo e marque a alternativa que apresenta ocorrência de encontro consonantal:",
+                "opcoes": [
+                      "você, faça, favor.",
+                      "deu, me, zango.",
+                      "desculpe, outro, perdoar.",
+                      "bonita, Deus, com."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>desculpe, outro, perdoar.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as alternativas a seguir e marque aquela que apresenta palavras com dígrafo e encontro consonantal:",
+                "opcoes": [
+                      "direção, cada, sua.",
+                      "tudo, para, como.",
+                      "eles, saúde, empresas.",
+                      "lembro, milhares, assistência."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>lembro, milhares, assistência.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "classesGramaticais",
+                      "formacaoPalavras"
+                ]
+          },
+          {
+                "enunciado": "Na lista abaixo, a alternativa em que todas as palavras apresentam encontro consonantal é:",
+                "opcoes": [
+                      "prato, bloco, grito, clima.",
+                      "chuva, chave, grama, classe.",
+                      "freio, praia, caixa, muito.",
+                      "massa, cabeça, caroço, cidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>prato, bloco, grito, clima.</strong>. Fonte: JVL Concursos/2026. Assunto: encontrosConsonantais.",
+                "banca": "JVL Concursos",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "classesGramaticais",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra em que ocorre um encontro consonantal.",
+                "opcoes": [
+                      "pobreza",
+                      "nível",
+                      "menor",
+                      "série"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pobreza</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2026. Assunto: encontrosConsonantais.",
+                "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"Em 2025, a prova voltou a valer como certificado de conclusão da educação básica para quem não terminou a escola, como o Diogo. Mas o Inep, órgão do Ministério da Educação responsável pelo Enem, ainda não emitiu o documento que ele precisa para se matricular na faculdade de Psicologia. O medo é de perder a vaga.\" Com base na fonética e na fonologia, complete as lacunas dos enunciados a seguir: I.O vocábulo___apresenta encontro consonantal, dígrafo vocálico e encontro vocálico. II.O vocábulo ___ apresenta dígrafo consonantal, pois duas letras representam o som de uma única consoante. III.O vocábulo___ apresenta o mesmo número de letras e fonemas, uma vez que todas as letras são pronunciadas. IV.O vocábulo___apresenta mais letras do que fonemas. A sequência que completa as lacunas correta e respectivamente é:",
+                "opcoes": [
+                      "Conclusão, quem, certificado, documento",
+                      "Órgão, que, matricular, precisa.",
+                      "Educação, que, ainda, Psicologia.",
+                      "Órgão, quem, documento, ainda.",
+                      "Ministério, terminou, como, escola."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Educação, que, ainda, Psicologia.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2026. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Determine onde não temos encontros consonantais.",
+                "opcoes": [
+                      "Clave.",
+                      "Crise.",
+                      "Franco.",
+                      "País."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>País.</strong>. Fonte: MS Concursos/2026. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras extraídas do texto e marque a alternativa que apresenta encontro consonantal:",
+                "opcoes": [
+                      "adotar, peso, alimentos.",
+                      "proteínas, fibras, entre.",
+                      "ingestão, ideal, devem.",
+                      "acordo, opção, peso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>proteínas, fibras, entre.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Ocorrem encontros consonantais em todas as palavras da alternativa:",
+                "opcoes": [
+                      "Assistir - nossa - disse",
+                      "Tivessem - ocorrido - arredores",
+                      "Setembro - entrada - declarações",
+                      "Acho - mulheres - pessoas"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Setembro - entrada - declarações</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: encontrosConsonantais.",
+                "banca": "Projetos para Municípios - PROMUN",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Aponte a palavra com um encontro consonantal.",
+                "opcoes": [
+                      "Ovo.",
+                      "Casa.",
+                      "Prato.",
+                      "Areia.",
+                      "Dia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Prato.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta encontro consonantal?",
+                "opcoes": [
+                      "Manobras.",
+                      "Férias.",
+                      "Paradas.",
+                      "Direção.",
+                      "Velocidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Manobras.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que NÃO tem um encontro consonantal.",
+                "opcoes": [
+                      "Primeiro.",
+                      "Milênios.",
+                      "Outros.",
+                      "Descobrir."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Primeiro.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra não apresenta encontro consonantal?",
+                "opcoes": [
+                      "Flor",
+                      "Descente",
+                      "Curto",
+                      "Magnitude"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Flor</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: encontrosConsonantais.",
+                "banca": "Evolução Consultoria - Instituto Evo",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dígrafo, encontro consonantal, ditongo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Em qual das palavras abaixo ocorre encontro consonantal?",
+                "opcoes": [
+                      "Chave.",
+                      "Milho.",
+                      "Carro.",
+                      "Passo.",
+                      "Clima."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Clima.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"A esse quadro se soma um contexto político e cultural que agrava o peso sobre os ombros docentes: a voz crítica e política do professor — talvez sua ferramenta basilar — vem sendo sistematicamente contestada, tolhida, vigiada.\" Com base na fonologia e na fonética, assinale V para as afirmativas verdadeiras e F para as falsas. (__)O vocábulo 'quadro' apresenta, em sua estrutura fonológica, um encontro consonantal formado por duas consoantes distintas, e um dígrafo consonantal representado pelas letras 'qu', que correspondem a um único fonema; já o vocábulo 'sua' contém um encontro vocálico inseparável. (__)O vocábulo 'ferramenta' apresenta, em sua estrutura fonológica, um dígrafo consonantal, formado por duas letras que representam um único fonema, e também um dígrafo vocálico, no qual duas letras produzem um único som vocálico. (__)O vocábulo 'contestada' apresenta um encontro consonantal disjunto e um dígrafo vocálico. (__) O vocábulo 'sistematicamente' possui igualmente o mesmo número de letras e fonemas. Já o vocábulo 'tolhida' apresenta número de letras diferente do número de fonemas. A sequência que preenche corretamente os itens acima, de cima para baixo, é:",
+                "opcoes": [
+                      "V, V, F, V.",
+                      "V, F, V, V.",
+                      "V, V, V, V.",
+                      "F, V, V, F.",
+                      "F, V, F, F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>F, V, F, F.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Antes de se embrenhar nas páginas de Mad Maria\", identifique o tipo de encontro consonantal presente na palavra \"embrenhar\".",
+                "opcoes": [
+                      "Encontro consonantal do tipo \"s\" + \"c\".",
+                      "Encontro consonantal do tipo \"m\" + \"b\".",
+                      "Encontro consonantal do tipo \"b\" + \"r\".",
+                      "Encontro consonantal do tipo \"n\" + \"h\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal do tipo \"s\" + \"c\".</strong>. Fonte: Instituto Unique/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Unique",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta um encontro consonantal (duas ou mais consoantes juntas na mesma sílaba)?",
+                "opcoes": [
+                      "Aquecimento.",
+                      "Estudo.",
+                      "Inundação.",
+                      "Clima.",
+                      "Aumento."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Aquecimento.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Em “complexos” e em “explícito”, palavras presentes no texto, a letra “x” representa, respectivamente, os fonemas _________. Nos dois vocábulos, observa-se a ocorrência de _________________. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+                "opcoes": [
+                      "/cs/ e /s/ – encontros consonantais perfeitos",
+                      "/ss/ e /s/ – dígrafos consonantais",
+                      "/z/ e /cs/ – dígrafos vocálicos",
+                      "/s/ e /ss/ – encontros vocálicos",
+                      "/s/ e /s/ – encontros consonantais"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>/ss/ e /s/ – dígrafos consonantais</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Acerca de aspectos gramaticais diversos, como acentuação, conjugação verbal e fonologia, julgue as afirmativas abaixo como verdadeiras (V) ou falsas (F): (__) As palavras \"histórica\", \"últimos\" e \"’dramática\" são todas proparoxítonas. (__) As palavras \"pesquisa\" e \"chamado\" possuem dígrafo consonantal; as palavras \"mudanças\" e \"maio\" possuem dígrafo vocálico. (__) O verbo \"aumentaram\" refere-se à terceira pessoa do plural e está conjugado no pretérito perfeito do modo indicativo. (__) As palavras \"secretário\", \"floresta\" e \"desmatada\" possuem encontro consonantal perfeito. Preenche corretamente os parênteses acima:",
+                "opcoes": [
+                      "F - V - V - F.",
+                      "V - V - F - F.",
+                      "V - F - V - F.",
+                      "F - F - V - V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V - V - F - F.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa na qual todas as palavras são formadas por encontros consonantais:",
+                "opcoes": [
+                      "livros – pessoas.",
+                      "leitura – praticada.",
+                      "anteriores – pesquisa.",
+                      "retratos – entrevistados."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>anteriores – pesquisa.</strong>. Fonte: Instituto Darwin - Darwin/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“A iniciativa promove a colaboração e o intercâmbio entre as instituições, estudantes e acadêmicos por meio de programas de pesquisa.” Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Em “iniciativa”, ocorre um hiato.",
+                      "Em “colaboração”, ocorre um dífono nasal.",
+                      "Em “meio”, ocorre um tritongo.",
+                      "Em “programas”, ocorre apenas um encontro consonantal.",
+                      "Em “pesquisa”, ocorre um ditongo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Em “pesquisa”, ocorre um ditongo.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: encontrosConsonantais.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "concordancia"
+                ]
+          },
+          {
+                "enunciado": "A palavra que NÃO apresenta encontro consonantal é:",
+                "opcoes": [
+                      "Psicólogo.",
+                      "Saara.",
+                      "Blusa.",
+                      "Pneu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Psicólogo.</strong>. Fonte: Objetiva Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta uma palavra com encontro consonantal?",
+                "opcoes": [
+                      "Litros.",
+                      "Minutos.",
+                      "Automóvel.",
+                      "Medidas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Litros.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: encontrosConsonantais.",
+                "banca": "Prefeitura de Catas Altas",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras apresentam encontros consonantais:",
+                "opcoes": [
+                      "tudo, forma, como.",
+                      "plantas, contra, pragas.",
+                      "jardins, tipos, seres.",
+                      "causar, então, podem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>causar, então, podem.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paronimosHomonimos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a única alternativa que faz a classificação correta dos fonemas presentes na palavra “psicodélicas”, disponível no texto 3.",
+                "opcoes": [
+                      "A palavra contém 7 consoantes, dois encontros consonantais, 4 vogais e um encontro vocálico.",
+                      "A palavra contém 7 consoantes e 5 vogais, com um encontro consonantal imperfeito.",
+                      "A palavra contém 7 consoantes e 5 vogais, com um encontro consonantal perfeito.",
+                      "A palavra contém 5 consoantes e 5 vogais, com um encontro consonantal perfeito.",
+                      "A palavra contém 5 consoantes, um encontro consonantal imperfeito, 5 vogais e um encontro vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra contém 7 consoantes, dois encontros consonantais, 4 vogais e um encontro vocálico.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra abaixo contém encontro consonantal?",
+                "opcoes": [
+                      "Sapatos.",
+                      "Geladeira.",
+                      "Limpeza.",
+                      "Janela.",
+                      "Poeira."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Limpeza.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas e assinale a alternativa que aponta as corretas. I. Na palavra “aumentativo”, há um ditongo e um dígrafo. II. Na palavra “casebre”, há um encontro consonantal. III. Na palavra “fronteira”, há dois encontros consonantais e um ditongo. IV. Na palavra “melhor”, há um dígrafo.",
+                "opcoes": [
+                      "Apenas II e III.",
+                      "Apenas I, III e IV.",
+                      "Apenas II e IV.",
+                      "I, II, III e IV.",
+                      "Apenas I, II e IV."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I, III e IV.</strong>. Fonte: Instituto AOCP/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto AOCP",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal como em “blusa”.",
+                "opcoes": [
+                      "Água.",
+                      "Palácio.",
+                      "Guaraná.",
+                      "Precioso.",
+                      "Divino."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "paronimosHomonimos"
+                ]
+          },
+          {
+                "enunciado": "Encontro consonantal é a sequência de duas ou mais consoantes na mesma palavra, mantendo-se cada som distinto na pronúncia, como em \"próximo\" e \"clínica\". Com base nisso, assinale a única alternativa em que NÃO há uma palavra com encontro consonantal:",
+                "opcoes": [
+                      "Transplante.",
+                      "Fibromialgia.",
+                      "Imunológico.",
+                      "Psicoterapia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Transplante.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ocorre respectivamente um encontro consonantal perfeito e um imperfeito:",
+                "opcoes": [
+                      "praga e tetra.",
+                      "ritmo e afta.",
+                      "blusa e pacto.",
+                      "rapto e brasa.",
+                      "acne e brejo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>praga e tetra.</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se a presença de encontro consonantal nas palavras, analisar os itens. I. Cliente. II. Sorte. III. Admirar. Está CORRETO o que se afirma:",
+                "opcoes": [
+                      "Apenas no item I.",
+                      "Apenas no item II.",
+                      "Apenas nos itens I e III.",
+                      "Em todos os itens."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Em todos os itens.</strong>. Fonte: Objetiva Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que há um encontro consonantal.",
+                "opcoes": [
+                      "Rolha.",
+                      "Cortiça.",
+                      "Vinho.",
+                      "Nativa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Cortiça.</strong>. Fonte: Objetiva Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As duas palavras que NÃO apresentam encontro consonantal estão na alternativa:",
+                "opcoes": [
+                      "afta, pacto.",
+                      "ritmo, blusa.",
+                      "couro, cautela.",
+                      "flanela, cognato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>afta, pacto.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IDEAP - IDEAP",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as informações apresentadas para a palavra em destaque estejam corretas.",
+                "opcoes": [
+                      "Chave: 5 letras, 4 fonemas, um dígrafo.",
+                      "Falso: 5 letras, 5 fonemas, um tritongo",
+                      "Prédio: 6 letras, 6 fonemas, encontro consonantal e hiato.",
+                      "Cuidado: 7 letras, 6 fonemas, um ditongo crescente e um tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chave: 5 letras, 4 fonemas, um dígrafo.</strong>. Fonte: HC Assessoria Administrativa/2025. Assunto: encontrosConsonantais.",
+                "banca": "HC Assessoria Administrativa",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as letras sublinhadas nas palavras são classificadas como encontro consonantal.",
+                "opcoes": [
+                      "Humilhante, grato, aspirina.",
+                      "Humildes, nobres, carga.",
+                      "Terrível, prática, onde.",
+                      "Exemplo, tensão, isso",
+                      "Grega, barriga, alma."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Humilhante, grato, aspirina.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Muitas pessoas perdem as pequenas alegrias, enquanto aguardam a grande felicidade.” (Pearl S. Buck) Na estruturação desse pensamento, é possível encontrarmos:",
+                "opcoes": [
+                      "05 dígrafos, 04 encontros consonantais e 06 ditongos.",
+                      "04 dígrafos, 04 encontros consonantais e 05 ditongos.",
+                      "05 dígrafos, 04 encontros consonantais e 05 ditongos.",
+                      "02 dígrafos, 08 encontros consonantais e 06 ditongos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>05 dígrafos, 04 encontros consonantais e 06 ditongos.</strong>. Fonte: Objetiva Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Em geral, OS aminoácidos funcionam como os ingredientes principais para formar as proteínas, que por sua vez desempenham funções vitais, como a construção muscular\". Assinale a alternativa que contenha apenas encontros consonantais.",
+                "opcoes": [
+                      "Aminoácidos - vitais",
+                      "Proteínas funções",
+                      "Ingredientes - principais",
+                      "Formar - muscular"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Aminoácidos - vitais</strong>. Fonte: Universidade Patativa do Assaré - UPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "Universidade Patativa do Assaré - UPA",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "A palavra que contém encontro consonantal (quando duas ou mais consoantes aparecem juntas) é:",
+                "opcoes": [
+                      "Beber.",
+                      "Água.",
+                      "Brilho.",
+                      "Pele.",
+                      "Motivos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brilho.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise: “Querendo pregar uma peça na outra, serviu sopa num prato raso.” Na palavra destacada, há a presença de um:",
+                "opcoes": [
+                      "Encontro consonantal;",
+                      "Dígrafo;",
+                      "Hiato;",
+                      "Ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dígrafo;</strong>. Fonte: Prefeitura de Bombinhas - SC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Lajedo do Pai Mateus”, o termo “Pai”:",
+                "opcoes": [
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um hiato.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um tritongo.",
+                      "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: encontrosConsonantais.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"A partir de hoje, todas as galinhas d'angola serão magras e sentirão fraqueza constante! − disparou o melro com voz de trovão.\" Com base na fonética, marque com (V) as afirmativas verdadeiras ou com (F) as falsas. (__)A palavra 'galinha' possui um dígrafo inseparável e possui o mesmo número de sílabas da palavra 'ideia'. (__)A palavra 'partir' possui encontro consonantal separável e é uma palavra dissílaba, assim como 'pneu'. (__)As palavras 'hoje' e 'trovão' são palavras dissílabas e possuem encontros consonantais. (__)A palavra 'magra' possui duas sílabas e um encontro consonantal inseparável. A sequência que preenche corretamente os parênteses é:",
+                "opcoes": [
+                      "F, V, F, F.",
+                      "V, V, V, V.",
+                      "V, F, F, V.",
+                      "F, F, V, F."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V, V, V, V.</strong>. Fonte: Unochapecó/2025. Assunto: encontrosConsonantais.",
+                "banca": "Unochapecó",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paronimosHomonimos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que contém todas as palavras com encontro consonantal da charge abaixo: Menino (Pai, você sabe quem mexeu no meu cofrinho?) Pai (Só falo na presença do meu advogado)",
+                "opcoes": [
+                      "Corrupção – Cofrinho – Presença – Advogado.",
+                      "Mexeu – Falo – Presença – Meu.",
+                      "Pai – Sabe – Cofrinho – Falo.",
+                      "Você – Mexeu - Quem – Meu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Corrupção – Cofrinho – Presença – Advogado.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IDEAP - IDEAP",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Determine a alternativa onde não temos encontros consonantais.",
+                "opcoes": [
+                      "Saída.",
+                      "Prato.",
+                      "Broche.",
+                      "Placa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Saída.</strong>. Fonte: MS Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras a seguir aparecem no texto. A que apresenta um encontro consonantal é",
+                "opcoes": [
+                      "alunos.",
+                      "área.",
+                      "cada.",
+                      "pessoas.",
+                      "travestidas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>travestidas.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe a palavra “flor” e assinale a alternativa correta sobre a presença de encontro consonantal:",
+                "opcoes": [
+                      "A palavra \"flor\" tem um dígrafo consonantal.",
+                      "A palavra \"flor\" tem encontro consonantal fl.",
+                      "A palavra \"flor\" não possui encontro consonantal.",
+                      "A palavra \"flor\" tem encontro vocálico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra \"flor\" tem encontro consonantal fl.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "crase",
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "A palavra interpretativismo, presente na oração “O positivismo e o interpretativismo são as duas principais tradições no desenvolvimento da pesquisa social”, caracteriza‑se por apresentar três encontros consonantais, sendo dois imperfeitos e um perfeito.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto Quadrix - Quadrix/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Quadrix - Quadrix",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que o conjunto das palavras evidencia que o mesmo som consonantal é representado ortograficamente de quatro formas distintas.",
+                "opcoes": [
+                      "nacionalidades; considerar; sua; discriminação.",
+                      "nacionalidades; pessoas; tradições; sotaque.",
+                      "questão; cultura; intelectualmente; sotaque.",
+                      "físico; caracterizam; inferiorizar; acusar.",
+                      "desrespeitosos; acusar; físico; fazer."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>nacionalidades; pessoas; tradições; sotaque.</strong>. Fonte: Núcleo de Concursos e Promoção de Eventos - NUCEPE UESPI/2025. Assunto: encontrosConsonantais.",
+                "banca": "Núcleo de Concursos e Promoção de Eventos - NUCEPE UESPI",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre aspectos relacionados à formação de palavras e à fonologia, analise as assertivas abaixo sobre algumas palavras presentes no texto e assinale V, se verdadeiras, ou F, se falsas. I. O vocábulo “inadequado” possui um prefixo que expressa negação. II. Em “ciclo” e “carbono”, observa-se a ocorrência de encontros consonantais. III. A palavra “tóxico” tem o mesmo número de letras e fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas l e II.",
+                      "Apenas Il e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Acerca dos seus conhecimentos sobre dígrafo e encontros vocálicos e consonontais, marque a alternativa CORRETA.",
+                "opcoes": [
+                      "Em “bichinha” temos apenas um dígrafo e um encontro consonantal.",
+                      "Em “bichinha” e “água” (Texto II) temos, na sequência, encontro vocálico e dígrafo.",
+                      "Em “subindo” e “titela” (Texto III) temos, na sequência, encontro consonantal e dígrafos.",
+                      "Em “bichinha” temos três dígrafos e um encontro consonantal.",
+                      "Em “bichinha” e “água” (Texto II) temos, na sequência, dígrafos e encontro vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em “bichinha” temos apenas um dígrafo e um encontro consonantal.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: encontrosConsonantais.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmativas sobre algumas palavras do texto. I. Na palavra \"estridente\", ocorre um encontro consonantal perfeito e dois imperfeitos. II. A palavra \"nevoeiros\" apresenta hiato e ditongo decrescente. III. A palavra \"açoite\" contém um dígrafo. IV. Na palavra \"doudas\", há tritongo. V. Na palavra \"chicote\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II e V, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, II, III, IV e V.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “corpo”, as letras sublinhadas representam:",
+                "opcoes": [
+                      "Um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um dígrafo (um único som).",
+                      "Uma vogal e uma consoante.",
+                      "Uma consoante e uma vogal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um encontro vocálico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a primeira palavra apresenta encontro consonantal perfeito e a segunda, dígrafo vocálico.",
+                "opcoes": [
+                      "guriazinha – aqui",
+                      "perguntando – segurança",
+                      "prevenir – encontrada",
+                      "objetivo – nossa",
+                      "câmera – parar"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>guriazinha – aqui</strong>. Fonte: Fundação La Salle/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação La Salle",
+                "ano": 2025,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na expressão “doença cardíaca isquêmica”, o segmento destacado é um exemplo de:",
+                "opcoes": [
+                      "hiato",
+                      "dígrafo",
+                      "ditongo",
+                      "tritongo",
+                      "encontro consonantal"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: encontrosConsonantais.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As alternativas abaixo apresentam encontros consonantais, porém, somente uma contém uma sequencia de dígrafos. Indique a resposta correta quanto a essa afirmação.",
+                "opcoes": [
+                      "Franqueza – digno – apto.",
+                      "Exsudar(suor) – descer – exceto.",
+                      "Pranto – pteridófito(samambaia) – pneumático.",
+                      "Cromado – opcional – psicólogo.",
+                      "Mnemônico( Memória) – ritmo – broca."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Exsudar(suor) – descer – exceto.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limitada - LJ/2024. Assunto: encontrosConsonantais.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limitada - LJ",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “música”, é INCORRETO afirmar que:",
+                "opcoes": [
+                      "Sua separação silábica é: mú-si-ca.",
+                      "Contém acento agudo.",
+                      "É trissílaba.",
+                      "Está flexionada no singular.",
+                      "Contém encontro consonantal."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Contém acento agudo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Quando vamos ao supermercado, codificamos onde estacionamos o carro, mas quando entramos na loja, ocupamo-nos de outras coisas. Assinale a opção que contenha apenas encontro consonantal:",
+                "opcoes": [
+                      "supermercado.",
+                      "coisas.",
+                      "outras.",
+                      "codificamos.",
+                      "estacionamos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>supermercado.</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hiatos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Uma dura fase marcada por conflitos e dificuldades. É assim que especialistas resumem a forma como o envelhecimento dos pais é encarado diversas vezes. A opção que contém apenas encontros consonantais é:",
+                "opcoes": [
+                      "marcada − forma",
+                      "dificuldades − resumem",
+                      "diversas − especialistas",
+                      "vezes − assim",
+                      "conflitos − fase"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>marcada − forma</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "A respeito da fonética e fonologia da língua portuguesa, analise as assertivas e assinale a alternativa que aponta as corretas. I. No trecho “[...] a identificação de vítimas da chuva e enchentes que atingiram o Rio Grande do Sul.”, o termo destacado apresenta cinco letras e quatro fonemas. II. Em “[...] a identificação de vítimas da chuva e enchentes que atingiram o Rio Grande do Sul.”, os elementos destacados são exemplos de encontros consonantais. III. No trecho “O trabalho faz parte de um protocolo internacional que orienta as ações para casos de acidentes ou eventos climáticos [...]”, as palavras destacadas apresentam, ao todo, dois encontros consonantais e um dígrafo. IV. Em “O grupo é composto por papiloscopistas, médicos legistas, peritos criminais, psiquiatras [...]”, os elementos destacados são exemplos de dígrafos.",
+                "opcoes": [
+                      "Apenas I e II.",
+                      "Apenas II e IV.",
+                      "Apenas III e IV.",
+                      "Apenas I e III.",
+                      "Apenas I e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Instituto AOCP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto AOCP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A relação do motorista de aplicativo com a plataforma é um vínculo de emprego? Ou ele é um trabalhador independente que contrata a tecnologia dessas empresas? Assinale a opção que contenha encontro consonantal e vocálico, simultaneamente, em pelo menos um dos vocábulos.",
+                "opcoes": [
+                      "aplicativo - plataforma",
+                      "um - que",
+                      "de - ou",
+                      "tecnologia - dessas",
+                      "motorista - trabalhador"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>aplicativo - plataforma</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Falavam de sofrimentos. A palavra sofrimentos tem",
+                "opcoes": [
+                      "10 fonemas; 1 dígrafo e 1 encontro consonantal.",
+                      "10 fonemas, 2 dígrafos e 2 encontros consonantais.",
+                      "11 fonemas, 2 dígrafos e 2 encontros consonantais.",
+                      "11 fonemas, 3 dígrafos e 1 encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>10 fonemas; 1 dígrafo e 1 encontro consonantal.</strong>. Fonte: Fundação Mariana Resende Costa - FUMARC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Mariana Resende Costa - FUMARC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No título da fábula acima, temos, nas palavras “cigarra” e “formiga”, respectivamente:",
+                "opcoes": [
+                      "um dígrafo consonantal e um encontro consonantal.",
+                      "um dígrafo vocálico e um encontro consonantal.",
+                      "um encontro vocálico e um dígrafo consonantal.",
+                      "um encontro consonantal e um encontro vocálico.",
+                      "um dígrafo consonantal e um dígrafo vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>um dígrafo consonantal e um encontro consonantal.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A classificação do encontro vocálico ou consonantal não está correta em:",
+                "opcoes": [
+                      "faz(em) - (ditongo nasal).",
+                      "(pr)ova - (encontro consonantal).",
+                      "p(aí)ses - (ditongo decrescente).",
+                      "e(qu)ivale - (dígrafo)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>(pr)ova - (encontro consonantal).</strong>. Fonte: Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que as palavras apresentam SOMENTE encontros consonantais:",
+                "opcoes": [
+                      "Clarice, compromisso, produzia.",
+                      "Ariadne, salvação, obra.",
+                      "verossímil, construção, tempo.",
+                      "imersão, cósmico, mulheres.",
+                      "inscreve, projeta, narradora."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Clarice, compromisso, produzia.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com todas as palavras escritas com encontro consonantal, tendo um verbo escrito na forma nominal do infinitivo.",
+                "opcoes": [
+                      "Amor; puro; tenho.",
+                      "Ternura; tentar; puro.",
+                      "Confie; maciez; sentimentos.",
+                      "Declarar; encontre; gratidão.",
+                      "Sempre; expressão; ações."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Declarar; encontre; gratidão.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com as palavras escritas com encontro consonantal e dígrafo.",
+                "opcoes": [
+                      "Trás; transformação.",
+                      "Brilhar; trabalhe.",
+                      "Segredo; repleto.",
+                      "Traga; consigo.",
+                      "Precisa; porque."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Brilhar; trabalhe.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Biologia” possui:",
+                "opcoes": [
+                      "Dois encontros consonantais.",
+                      "Dois encontros vocálicos.",
+                      "Um encontro vocálico.",
+                      "Um dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dois encontros vocálicos.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Sobre a formação do vocábulo “conscientização”, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Apresenta somente um dígrafo vocálico.",
+                      "Apresenta um hiato.",
+                      "Apresenta um encontro consonantal perfeito.",
+                      "É constituído por sete sílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apresenta somente um dígrafo vocálico.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Analise o excerto, julgue os itens e, depois, marque a alternativa que contém apenas os itens corretos Nossa relação com a Lua vai ter de mudar. Até hoje, ela foi principalmente um astro que nos causou encantamento, inspiração e uma boa dose de misticismo. Mas já estamos na caminhada para tornar a Lua outra coisa –um lugar, que vamos visitar e explorar (em todos os sentidos) com frequência. I. No vocábulo “relação” há o mesmo tipo de ditongo que há em “em”. II. O vocábulo “frequência’ tem o mesmo número de letras e de fonemas que existe em “inspiração”. III. Tanto em “misticismo” quanto em “encantamento” tem-se a presença de encontros consonantais imperfeitos. IV. Em “sentido”, “que” e “com” tem-se a presença de dígrafos de natureza distinta. Estão corretos os itens.",
+                "opcoes": [
+                      "I, II e IV.",
+                      "I, II e III.",
+                      "II, III e IV.",
+                      "I, III e IV.",
+                      "II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II e IV.</strong>. Fonte: Instituto Legatus - Legatus/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Legatus - Legatus",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ortografia",
+                      "formacaoPalavras"
+                ]
+          },
+          {
+                "enunciado": "Os encontros vocálicos e consonantais são decorrentes de uniões que acontecem nas palavras. Desta forma, assinale a alternativa em que ocorre um dígrafo consonantal.",
+                "opcoes": [
+                      "Ferramentas.",
+                      "Produtividade.",
+                      "Algoritmos.",
+                      "Científica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ferramentas.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "“Foi Olavo Bilac que, em parnasianíssimo soneto, tratou a Língua Portuguesa por ‘última flor do Lácio, inculta e bela’.” No total, as palavras destacadas no trecho apresentam",
+                "opcoes": [
+                      "5 encontros consonantais, 4 dígrafos, 4 ditongos e 1 hiato.",
+                      "5 encontros consonantais, 3 dígrafos, 3 ditongos e 1 hiato.",
+                      "4 encontros consonantais, 4 dígrafos, 3 ditongos e 2 hiatos.",
+                      "6 encontros consonantais, 4 dígrafos, 5 ditongos e 1 hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>5 encontros consonantais, 4 dígrafos, 4 ditongos e 1 hiato.</strong>. Fonte: Instituto Avalia/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ambas as palavras apre-sentam encontros consonantais.",
+                "opcoes": [
+                      "Amigos - Amigo.",
+                      "Outro - Tem.",
+                      "Teu - Possui.",
+                      "Também - Discrição.",
+                      "Não - Abras."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Também - Discrição.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo consonantal.",
+                "opcoes": [
+                      "Santo.",
+                      "Também.",
+                      "Machismo.",
+                      "Fim."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Machismo.</strong>. Fonte: Integri Brasil Assessoria e Consultoria/2024. Assunto: encontrosConsonantais.",
+                "banca": "Integri Brasil Assessoria e Consultoria",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta na qual todas as palavras são formadas por encontros consonantais.",
+                "opcoes": [
+                      "história – planeta.",
+                      "observadas – Terra.",
+                      "mudanças – climáticas.",
+                      "evolutiva – intrinsecamente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>história – planeta.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta um encontro consonantal?",
+                "opcoes": [
+                      "Casos.",
+                      "Fácil.",
+                      "Pressão.",
+                      "Valor.",
+                      "Água."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pressão.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com encontro consonantal.",
+                "opcoes": [
+                      "Público.",
+                      "Vezes.",
+                      "Água.",
+                      "Segura.",
+                      "Rede."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Público.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras retiradas da tirinha possui um encontro consonantal?",
+                "opcoes": [
+                      "Pia.",
+                      "Mãe.",
+                      "Deixar.",
+                      "Provar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Provar.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra com encontro consonantal (duas consoantes juntas) é:",
+                "opcoes": [
+                      "Pacífica.",
+                      "Flores.",
+                      "Judeus.",
+                      "Número.",
+                      "Feriado."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Flores.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com relação à morfologia da língua portuguesa, analise as assertivas: I – As letras rg da palavra largou é um encontro consonantal perfeito. II – Dela é um pronome possessivo. III – O verbo tomar está no presente do indicativo. IV – A letra A usada no início das duas primeiras frases é um artigo definido. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, II e III",
+                      "II, III e IV",
+                      "II e IV",
+                      "III e IV"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II e III</strong>. Fonte: Policon Tecnologia e Gestão/2024. Assunto: encontrosConsonantais.",
+                "banca": "Policon Tecnologia e Gestão",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Há, inclusive, um nome para definir esse senso de obrigação dos filhos em apoiar pais mais velhos: responsabilidade filial. A opção que contém apenas encontros vocálicos é:",
+                "opcoes": [
+                      "há - para",
+                      "dos − nome",
+                      "mais - responsabilidade",
+                      "pais - obrigação",
+                      "apoiar − filial"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>pais - obrigação</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra com encontro consonantal é:",
+                "opcoes": [
+                      "Amigo.",
+                      "Impacto.",
+                      "Peludo.",
+                      "Feliz.",
+                      "Ativo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Impacto.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra apresenta dígrafo consonantal?",
+                "opcoes": [
+                      "Nutricionais.",
+                      "Palmeira.",
+                      "Brasil.",
+                      "Nordestinos.",
+                      "Arroz."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Arroz.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise, como verdadeiras (V) ou falsas (F), as afirmativas abaixo sobre o título do livro em que a crônica acima está presente: “Pensar é transgredir”. I- No que tange à quantidade de sílabas, as palavras “pensar”, “é” e “transgredir” são classificadas, respectivamente, como dissílaba, monossílaba e trissílaba; II-Em termos morfológicos, classificamos as palavras em questão, respectivamente, como “substantivo”, “conjunção” e “verbo”; III- Na palavra “transgredir”, temos apenas um encontro consonantal e um dígrafo vocálico; IV- A separação silábica correta da palavra “transgredir”, considerando os encontros vocálicos, é “trans-gre-dir”. Após análise das afirmativas, conclui-se que a sequência correta é:",
+                "opcoes": [
+                      "V; V; F; F.",
+                      "V; V; F; V.",
+                      "V; V; V; V.",
+                      "F; V; V; F.",
+                      "V; F; F; F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V; F; F; F.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia o texto a seguir, de autoria do cientista Marcelo Gleiser, no livro O Despertar do universo consciente (Rio de Janeiro: Record, 2024, p. 37-38): A curiosidade inspira a imaginação e eleva a vida para além da trivialidade da rotina diária. Isso sempre foi verdade, mas raramente com a intensidade explosiva do grupo de filósofos que floresceu por volta dos séculos VI e IV a.C. na Grécia Antiga, os chamados pré-socráticos. Até então, a explicação para os fenômenos naturais – desde desastres como enchentes e erupções vulcânicas até eventos misteriosos como eclipses e a aparição de cometas – era de que eles eram “causados” por entidades divinas. O Sol, por exemplo, cruzava os céus diariamente do leste ao oeste carregado pela carruagem flamejante do deus Hélio. No hinduísmo, o deus Shiva cria e destrói o cosmo ciclicamente com a sua dança, moldando a matéria das formas que existem na natureza até o momento de destruí-la mais uma vez. Culturas espalhadas pelo mundo, tanto no passado quanto no presente, oferecem explicações míticas dos fenômenos naturais, narrativas poéticas que interpretam forças e eventos que parecem existir numa dimensão além da compreensão humana. Mitos são histórias que unificam grupos, que definem os valores e as crenças de uma cultura. Seu poder está na fé que as pessoas depositam neles, não no fato de estarem “certos” ou “errados”. Leia as afirmativas a seguir, feitas sobre aspectos diversos do texto: I. Foram os filósofos pré-socráticos que deram início a uma nova forma de conhecimento humano, diferente da que vigorava até então. II. Apresentam dígrafo as seguintes palavras constantes do texto: “floresceu”, “espalhadas”, “crenças”, “enchentes”. III. Apresentam encontro consonantal imperfeito as seguintes palavras: “compreensão”, “hinduísmo”, “verdade”, “vulcânicas”. IV. O vocábulo “trivialidade”, constante do primeiro período, tem o significado de “algo extraordinário”. V. O primeiro período do texto é composto por duas orações; o sujeito da primeira é “a curiosidade” e o da segunda é “a vida”. VI. Como ideia subjacente ao que está escrito, percebe-se que os mitos são tão importantes quanto a ciência. Assinale a alternativa CORRETA:",
+                "opcoes": [
+                      "Somente as afirmativas I e II são verdadeiras.",
+                      "Somente as afirmativas I, III e IV são verdadeiras.",
+                      "Somente as afirmativas I, III e VI são verdadeiras.",
+                      "Somente as afirmativas II, III, V e VI são verdadeiras.",
+                      "Somente as afirmativas II, IV, V e VI são verdadeiras."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Somente as afirmativas I e II são verdadeiras.</strong>. Fonte: Comissão permanente de Concursos - UFAM - COMPEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Comissão permanente de Concursos - UFAM - COMPEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas com base em palavras do texto: I. Na palavra \"Abelardo\", ocorre um hiato entre as letras \"a\" e \"o\". II. Em \"escritura\", encontramos um ditongo na combinação das letras \"u\" e \"r\". III. A palavra \"construção\" apresenta um encontro consonantal entre as letras \"s\" e \"t\". Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, apenas.",
+                      "III, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: Fênix Instituto Ltda/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre as relações entre letras, fonemas e as famílias de palavras: I. “Letrado” e “chuveiro” apresentam encontros consonantais. II. “Chuvisco” e “chuvarada” pertencem à mesma família de palavras. III. “Quente” e “quartel” apresentam dígrafos. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No aspecto fonético, os encontros vocálicos dão origem aos ditongos, aos hiatos e aos tritongos; já em relação às consoantes, têm-se os encontros consonantais e os digrafos consonantais. Considerando-se tais fenômenos, compreende-se que o",
+                "opcoes": [
+                      "encontro consonantal é o seguimento imediato de duas ou mais consoantes de um mesmo vocábulo — tal como se dá nas palavras “passo” e “malha”.",
+                      "ditongo crescente se dá quando a semivogal vem antes da vogal — como ocorre em “pai”, “mãe” e “rei”.",
+                      "ditongo decrescente ocorre quando a semivogal vem depois da vogal —- como em “água”, “cárie” e “mágoa”.",
+                      "hiato é o encontro de duas vogais em sílabas diferentes, que guardam sua individualidade fonética - como ocorre em “minguam” e “enxaguei”.",
+                      "dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>hiato é o encontro de duas vogais em sílabas diferentes, que guardam sua individualidade fonética - como ocorre em “minguam” e “enxaguei”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta uma palavra que tem encontro consonantal?",
+                "opcoes": [
+                      "Vela.",
+                      "Elas.",
+                      "Paris.",
+                      "Livre.",
+                      "Maior."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Livre.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A compreensão das relações entre fonemas e grafias auxilia na análise linguística de um texto. No trecho descobertas anteriores (150), a palavra anteriores apresenta:",
+                "opcoes": [
+                      "Um digrafo vocálico e um hiato.",
+                      "Um ditongo crescente e um dígrafo consonantal.",
+                      "Um ditongo decrescente e um encontro consonantal.",
+                      "Um dígrafo vocálico e um ditongo crescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um digrafo vocálico e um hiato.</strong>. Fonte: Legalle Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Legalle Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras a seguir possui um encontro consonantal situado em sílabas diferentes?",
+                "opcoes": [
+                      "Blusa.",
+                      "Livro.",
+                      "Prato.",
+                      "Barco."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Blusa.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que apresenta um exemplo correto de dígrafo e de encontro consonantal respectivamente?",
+                "opcoes": [
+                      "\"Chave\" e \"criar\"",
+                      "\"Jogo\" e \"pastel\"",
+                      "\"Galho\" e \"tempo\"",
+                      "\"Tarde\" e \"canção\""
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"Chave\" e \"criar\"</strong>. Fonte: Funatec/2024. Assunto: encontrosConsonantais.",
+                "banca": "Funatec",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à palavra “vizinho”, marque a alternativa correta.",
+                "opcoes": [
+                      "Possui um encontro consonantal.",
+                      "Possui dois encontros vocálicos.",
+                      "Possui um encontro vocálico.",
+                      "Possui um dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Possui dois encontros vocálicos.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo tem um encontro consonantal?",
+                "opcoes": [
+                      "Produtos.",
+                      "Animal.",
+                      "Saber.",
+                      "Casas.",
+                      "Luvas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Produtos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal.",
+                "opcoes": [
+                      "Problemas.",
+                      "Dor.",
+                      "Cabeça.",
+                      "Dose.",
+                      "Remédio."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Problemas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "NÃO há encontro consonantal em qual das alternativas abaixo?",
+                "opcoes": [
+                      "Estrada – Deserta.",
+                      "Quando – Repente.",
+                      "Chocou-se – Pelo.",
+                      "Asfalto – Seguinte.",
+                      "Consciência – Vendo-se."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Estrada – Deserta.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere o trecho: “Direito conferido a alguém”. Na palavra “alguém” temos:",
+                "opcoes": [
+                      "dois dígrafos.",
+                      "um encontro consonantal e um dígrafo.",
+                      "dois encontros consonantais.",
+                      "um encontro consonantal e dois dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dois dígrafos.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa, que contenha uma palavra com encontro consonantal.",
+                "opcoes": [
+                      "Bonito.",
+                      "Hoje.",
+                      "Caso.",
+                      "Regra."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Regra.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Durante a leitura de um livro, Ana deparou-se com algumas palavras que continham um fenômeno linguístico peculiar. Observando atentamente, ela percebeu que algumas letras, quando combinadas, formavam um único som. Esse fenômeno é conhecido como:",
+                "opcoes": [
+                      "Sílaba Tônica.",
+                      "Encontro Consonantal.",
+                      "Dígrafo.",
+                      "Vogal Nasal.",
+                      "Tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sílaba Tônica.</strong>. Fonte: Centro Universitário de Mineiros - UNIFIMES/2024. Assunto: encontrosConsonantais.",
+                "banca": "Centro Universitário de Mineiros - UNIFIMES",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando do Texto 1, os grupos de letras encontrados nas palavras “lavoura”, “repentista” e “pressas” são, respectivamente, chamados de",
+                "opcoes": [
+                      "ditongo e encontros consonantais inseparáveis.",
+                      "ditongos e encontros consonantais inseparáveis e separáveis.",
+                      "ditongo, dígrafo, encontros consonantais separáveis, encontro consonantal inseparável e dígrafos.",
+                      "encontros vocálicos e dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>ditongo e encontros consonantais inseparáveis.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acerca dos encontros entre os fonemas, está correto o que se afirma em:",
+                "opcoes": [
+                      "Em “pessoas sem família” temos, respectivamente: um dígrafo, um hiato, um ditongo decrescente e um ditongo crescente.",
+                      "Em “que dormem” temos, respectivamente: um ditongo crescente, um encontro consonantal imperfeito e um dígrafo vocálico.",
+                      "Em “sem decoração festiva” temos, respectivamente: um dígrafo vocálico, um ditongo decrescente e um encontro consonantal imperfeito.",
+                      "Em “esperando a publicidade enaltecer” temos, respectivamente: dois encontros consonantais imperfeitos, um encontro consonantal perfeito e um encontro consonantal imperfeito.",
+                      "Em “antes da meia-noite” temos, respectivamente: um encontro consonantal imperfeito, um ditongo decrescente, um hiato e um ditongo decrescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em “pessoas sem família” temos, respectivamente: um dígrafo, um hiato, um ditongo decrescente e um ditongo crescente.</strong>. Fonte: Instituto Legatus - Legatus/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Legatus - Legatus",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise foneticamente a palavra “desconhecidos”. Ela apresenta:",
+                "opcoes": [
+                      "Apenas dígrafo.",
+                      "Apenas encontro consonantal.",
+                      "Dígrafo e ditongo aberto.",
+                      "Dígrafo e encontro consonantal.",
+                      "Nem dígrafo, nem encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em língua portuguesa encontramos diversos encontros consonantais, alguns que ocorrem na mesma sílaba, outros que ocorrem em sílabas diferentes e até outros menos comuns, como os dífonos. Sabendo disso, assinale abaixo a única opção que contém uma palavra em que encontramos um dífono.",
+                "opcoes": [
+                      "Excelente",
+                      "Digno",
+                      "Étnico",
+                      "Complexo",
+                      "Especial"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Étnico</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que a letra “X” representa, em seu som, um encontro consonantal:",
+                "opcoes": [
+                      "Sintaxe.",
+                      "Exemplo.",
+                      "Feixe.",
+                      "Fixar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sintaxe.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que NÃO há encontro consonantal (duas consoantes) na palavra.",
+                "opcoes": [
+                      "Branca.",
+                      "Estrela.",
+                      "Grande.",
+                      "Filtro.",
+                      "Balela."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Branca.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O encontro consonantal e o dígrafo são fenômenos linguísticos que ocorrem na língua portuguesa, influenciando a escrita e a pronúncia de palavras. Todas as palavras a seguir contém dígrafo, EXCETO:",
+                "opcoes": [
+                      "Chuvisco.",
+                      "Correto.",
+                      "Clareira.",
+                      "Ressignificar.",
+                      "Apanhados."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chuvisco.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Abaré - Ete",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O terceiro parágrafo aborda a questão da semelhança fonética entre as palavras “livro” e “livre”. Ambas apresentam uma sequência de duas consoantes. Assinale a alternativa correta quanto à classificação e à exemplificação da gramática normativa para o fenômeno fonético que ocorre nas palavras destacadas acima:",
+                "opcoes": [
+                      "Digrafo (exemplo: banho).",
+                      "Encontro consonantal (exemplo: sublingual).",
+                      "Digrafo (exemplo: guerra).",
+                      "Encontro consonantal (exemplo: descer).",
+                      "Digrafo (exemplo: exceção)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Encontro consonantal (exemplo: sublingual).</strong>. Fonte: Escola Preparatória de Cadetes do Exército - ESPCEX/2024. Assunto: encontrosConsonantais.",
+                "banca": "Escola Preparatória de Cadetes do Exército - ESPCEX",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que há um encontro consonantal:",
+                "opcoes": [
+                      "Obtenção.",
+                      "Corrida",
+                      "Caminhada.",
+                      "Chuva."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Obtenção.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra contém encontro consonantal?",
+                "opcoes": [
+                      "Suor.",
+                      "Parada.",
+                      "Substância.",
+                      "Número.",
+                      "Janelas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Substância.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra que contém um encontro consonantal é:",
+                "opcoes": [
+                      "Legado.",
+                      "Piloto.",
+                      "Velório.",
+                      "Coração.",
+                      "Esporte."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Esporte.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa correta a respeito das palavras “carroça” e “agulha”.",
+                "opcoes": [
+                      "Ambas possuem dígrafo.",
+                      "Apenas “carroça” possui dígrafo.",
+                      "Ambas possuem encontro vocálico.",
+                      "Apenas “agulha” possui encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ambas possuem dígrafo.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Os termos “cítricas”, “crônicas” e “imunológico” possuem algo em comum. Em relação a esse aspecto, assinalar a alternativa CORRETA:",
+                "opcoes": [
+                      "São proparoxítonas, ou seja, a sílaba tônica está na antepenúltima sílaba.",
+                      "São paroxítonas, isto é, a sílaba mais forte é a penúltima.",
+                      "Possuem encontro consonantal.",
+                      "São palavras do gênero feminino."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>São palavras do gênero feminino.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra \"demográfica\", analise as assertivas: I. Apresenta um hiato. II. É composta por cinco sílabas. III. Contém um encontro consonantal. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "II e III, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: Fênix Instituto Ltda/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das seguintes palavras apresenta encontro vocálico e encontro consonantal?",
+                "opcoes": [
+                      "Próximo.",
+                      "Cuidado.",
+                      "Brasileiros.",
+                      "Tarefas.",
+                      "Movimento."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Próximo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “crônicas”, é correto afirmar que:",
+                "opcoes": [
+                      "É proparoxítona.",
+                      "Apresenta 2 encontros consonantais.",
+                      "É paroxítona.",
+                      "É polissílaba.",
+                      "Apresenta dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Apresenta dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal.",
+                "opcoes": [
+                      "Recursos.",
+                      "Naturais.",
+                      "Futuro.",
+                      "Poluição.",
+                      "Cidades."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Recursos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se o trecho “Muitas vezes pensei quão interessantemente podia ser escrita uma revista, por um autor que quisesse, isto é, que pudesse, pormenorizar, passo a passo, os processos pelos quais qualquer uma de suas composições atingia seu ponto de acabamento.”, analisar os itens. I. Há seis ocorrências do dígrafo consonantal -ss. II. Há sete ocorrências do dígrafo consonantal -qu. III. Há mais de uma ocorrência de encontro consonantal. Está CORRETO o que se afirma:",
+                "opcoes": [
+                      "Apenas no item I.",
+                      "Apenas no item II.",
+                      "Apenas nos itens I e III.",
+                      "Em todos os itens."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Em todos os itens.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “obtidos”, sublinhada no último parágrafo, é, quanto à fonologia, um exemplo de palavra com:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Tritongo.",
+                      "Encontro consonantal.",
+                      "Hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dígrafo.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O encontro entre as letras ocasiona certos eventos fonéticos. Aponte a alternativa com a descrição CORRETA da ocorrência dessas relações.",
+                "opcoes": [
+                      "O encontro consonantal em ‘Brasil’ (linha 16) ocorre entre as letras ‘s’ e ‘l’ em destaque.",
+                      "‘Ferroviários’ (linha 33) e ‘trabalhadores’ (linha 34) apresentam dígrafos destacados, respectivamente.",
+                      "‘Obrigatória’ (linha 07) apresenta um dígrafo em destaque.",
+                      "‘Prever’ (linha 09) tem um dígrafo inverso destacado.",
+                      "‘Pneus’ (linha 26) apresenta um dígrafo em destaque."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>‘Obrigatória’ (linha 07) apresenta um dígrafo em destaque.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acerca da análise linguística do vocábulo “conscientização”, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "É composto por um hiato entre a segunda e a terceira sílabas.",
+                      "Possui dígrafo na terceira sílaba.",
+                      "É composto por um encontro consonantal na primeira sílaba.",
+                      "Está no grau aumentativo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>É composto por um hiato entre a segunda e a terceira sílabas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na charge apresentada, o termo “almoço” possui em sua construção a ocorrência de um",
+                "opcoes": [
+                      "hiato, já que na divisão silábica, os sons vocálicos da sílaba “al-” não são separados.",
+                      "dígrafo, provocado pela união das consoantes “l” e “m”.",
+                      "encontro consonantal imperfeito, pois as consoantes “l” e “m” pertencem a sílabas diferentes.",
+                      "ditongo, pois as letras “a” e “l”, ambas com sons vocálicos, pertencem a sílabas diferentes.",
+                      "encontro consonantal perfeito, uma vez que as consoantes “l” e “m” possuem sons distintos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>encontro consonantal imperfeito, pois as consoantes “l” e “m” pertencem a sílabas diferentes.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras retiradas do texto possuem pelo menos um encontro consonantal.",
+                "opcoes": [
+                      "“Floresta”, “medo” e “homem”.",
+                      "“Floresta”, “fascinado” e “sorriu”.",
+                      "“Ele”, “colheu” e “vermelho”.",
+                      "“Sorriu”, “belas” e “feliz”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“Floresta”, “fascinado” e “sorriu”.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na palavra OPINIÃO, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um hiato e um dígrafo",
+                      "um hiato e um ditongo",
+                      "um encontro consonantal e um hiato",
+                      "um encontro consonantal e um dígrafo"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>um hiato e um dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: encontrosConsonantais.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com encontro vocálico e consonantal.",
+                "opcoes": [
+                      "Brasil.",
+                      "Obrigatoriedade.",
+                      "Publicado.",
+                      "Feito.",
+                      "Local."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Obrigatoriedade.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à fonética e fonologia das palavras, analise os itens abaixo: I. Em “desigual”, ocorre um tritongo. II. Em “preconceituosa”, ocorrem dois ditongos decrescentes. III. Em “discriminação”, ocorre um encontro consonantal disjunto. IV. Em “preconceito”, ocorre um encontro consonantal puro e um hiato. V. Em “estereótipos”, ocorre um encontro consonantal disjunto e um hiato. Assinale a alternativa correta sobre os encontros vocálicos e encontros consonantais citados acima.",
+                "opcoes": [
+                      "Somente os itens I e V estão corretos.",
+                      "Somente os itens II e IV estão corretos.",
+                      "Somente os itens II, III e IV estão corretos.",
+                      "Somente os itens I, III e V estão corretos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Somente os itens I e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando os processos fonológicos e de formação de palavras da Língua Portuguesa, analise as assertivas a seguir: I. As palavras “amanhecido” e “expatriado” são formadas por derivação parassintética. II. A palavra “companhia” contém um encontro consonantal e um dígrafo. III. “Padaria” é uma palavra que contém um ditongo aberto. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras destacadas no trecho \"Cerca de um bilhão de indivíduos apresentam pelo menos um problema relacionado à saúde mental\" encontramos",
+                "opcoes": [
+                      "1 encontro consonantal disjunto, 2 encontros consonantais puros e 1 dígrafo.",
+                      "2 encontros consonantais disjuntos, 1 encontro consonantal puro e 1 dígrafo",
+                      "2 encontros consonantais disjuntos e dois puros.",
+                      "3 encontros consonantais puros e um dígrafo",
+                      "1 encontro consonantal disjunto e 3 encontros consonantais puros."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>3 encontros consonantais puros e um dígrafo</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Encontro consonantal é quando duas ou mais consoantes aparecem juntas em uma palavra, sem vogal entre elas. Sabendo-se disso, assinale a alternativa correta sobre os encontros consonantais nas palavras a seguir.",
+                "opcoes": [
+                      "“crônicas” – apresenta um encontro consonantal disjunto.",
+                      "“doenças” – apresenta um encontro consonantal disjunto.",
+                      "“frequência” – apresenta um encontro consonantal puro.",
+                      "“importantes” – apresenta um encontro consonantal puro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“crônicas” – apresenta um encontro consonantal disjunto.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Um encontro consonantal ocorre quando duas ou mais consoantes aparecem juntas na mesma sílaba ou em sílabas diferentes. Um dígrafo é a combinação de duas letras que representam um único som. Nesse sentido, assinale a alternativa correta sobre a classificação do encontro consonantal e do dígrafo.",
+                "opcoes": [
+                      "O qu e o gu (em palavras como querer e guerra) são encontros consonantais disjuntos.",
+                      "As palavras \"brisa\" e \"aflição\" são exemplos de dígrafos. As duas consoantes se juntam para formar um único som.",
+                      "O ch (chave, machado), o Ih (palha, milharal), não são grupos consonantais, nem encontros disjuntos: são dígrafos.",
+                      "As palavras \"ritmo\" e \"afta\" se juntam para formar um encontro consonantal inseparável."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O qu e o gu (em palavras como querer e guerra) são encontros consonantais disjuntos.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A letra X, fonologicamente, tem um som que se confunde com um encontro consonantal na palavra:",
+                "opcoes": [
+                      "Feixe.",
+                      "Enxerto.",
+                      "Exalar.",
+                      "Táxi."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Enxerto.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Nasci na Itália e vim pequena para o Brasil. Meu pai era lavrador e trabalhou duro nas fazendas de café”. De acordo com a Gramática Normativa da Língua Portuguesa, há encontro consonantal também na palavra destacada da alternativa:",
+                "opcoes": [
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nasci na Itália e vim pequena para o Brasil.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal imperfeito.",
+                "opcoes": [
+                      "Bolha – floresta – disjunto – carroceria.",
+                      "Afta – objeto – magnético - advogado.",
+                      "Bolsa – chuva – teclado – caderno.",
+                      "Onde – filtro – calçada – pássaro.",
+                      "Livro – máquina – igual – caixa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Afta – objeto – magnético - advogado.</strong>. Fonte: Instituto Avalia/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A bala que se diz perdida está encontradíssima, zunindo por aí... A palavra encontradíssima tem",
+                "opcoes": [
+                      "11 fonemas; 1 dígrafo e 2 encontros consonantais.",
+                      "12 fonemas, 3 dígrafos e 1 encontro consonantal.",
+                      "13 fonemas, 4 dígrafos e 1 encontro consonantal.",
+                      "14 fonemas, 2 dígrafos e 2 encontros consonantais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>11 fonemas; 1 dígrafo e 2 encontros consonantais.</strong>. Fonte: Fundação Mariana Resende Costa - FUMARC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Mariana Resende Costa - FUMARC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras “ Vênus”, “superfície” e “Mercúrio” têm algo em comum. Sendo assim, assinalar a alternativa CORRETA:",
+                "opcoes": [
+                      "O mesmo número de vogais e consoantes.",
+                      "Ditongo aberto e por isso são acentuadas na sílaba tônica.",
+                      "São compostas por encontros consonantais.",
+                      "São acentuadas na penúltima sílaba e por isso são paroxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O mesmo número de vogais e consoantes.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra que apresenta encontro consonantal é:",
+                "opcoes": [
+                      "Dica.",
+                      "Painel.",
+                      "Obesidade.",
+                      "Manobras.",
+                      "Famosa."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Manobras.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observando a pronúncia dos vocábulos “abstratas”, “psíquico” e “apocalipse”, retirados do texto, pode-se afirmar, conforme Bechara, que há a ocorrência de ___________, tendência do Português brasileiro para ___________ de uma ___________ entre as ___________ desses encontros. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+                "opcoes": [
+                      "epêntese – inclusão – vogal – consoantes",
+                      "realização fonética – exclusão – vogal – consoantes",
+                      "epêntese – supressão – consoante – consoantes",
+                      "realização fonética – inserção – consoante – vogais",
+                      "encontro consonantal – supressão – consoante – vogais"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>epêntese – inclusão – vogal – consoantes</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras têm encontro consonantal em",
+                "opcoes": [
+                      "produção – trocaram – fábrica.",
+                      "chocolate – exclusivamente – líder.",
+                      "prêmio – plano – cacau.",
+                      "comissão – classificados – melhor."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>produção – trocaram – fábrica.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual todas as palavras apresentam encontros consonantais.",
+                "opcoes": [
+                      "gleba, blusa, árvore.",
+                      "trigo, peixe, abacate.",
+                      "glória, ingestão, faca.",
+                      "psicologia, observou, lua.",
+                      "drama, flanela, teclado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>gleba, blusa, árvore.</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise os vocábulos das linhas 19, 23 e 26. O que há de comum nessas três linhas do texto?",
+                "opcoes": [
+                      "Nas três linhas há vocábulos com dígrafo consonantal.",
+                      "Nas três linhas há vocábulos proparoxítonos.",
+                      "Nas três linhas há conjunções adversativas.",
+                      "Nas três linhas há pronomes.",
+                      "Nas três linhas há verbos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nas três linhas há vocábulos com dígrafo consonantal.</strong>. Fonte: Legalle Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Legalle Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“O esquema vacinal completo, incluindo as doses de reforço, quando recomendado, é essencial para evitar formas graves e óbitos pela “doença”, destaca a pasta.” Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Na palavra “esquema”, há um dífono formado por “qu”.",
+                      "Na palavra “graves”, há um encontro consonantal.",
+                      "Na palavra “doença” há um ditongo formado por “oe”.",
+                      "A palavra “quando” é trissílaba.",
+                      "Na palavra “essencial”, “ia” é um ditongo crescente."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra “quando” é trissílaba.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: encontrosConsonantais.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Aludindo-se a encontros consonantais, marque a alternativa indevida.",
+                "opcoes": [
+                      "Atrás.",
+                      "Creme.",
+                      "Subdelegado.",
+                      "Café."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na palavra traumáticas, há um encontro consonantal, o qual ocorre entre as letras:",
+                "opcoes": [
+                      "T e R.",
+                      "T e M.",
+                      "M e A.",
+                      "A e S."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>T e R.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra manguezais (l.7), conforme utilizada no texto, apresenta características linguísticas específicas. Sobre tais características, analise as assertivas: I. Há um dígrafo vocálico na primeira sílaba. II. Há um dígrafo consonantal na segunda sílaba. III. Há um encontro consonantal implícito na última sílaba. Das assertivas, pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas as assertivas I e II estão corretas.",
+                      "Apenas as assertivas II e III estão corretas.",
+                      "Apenas as assertivas I e III estão corretas.",
+                      "As assertivas I, II e III estão corretas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As assertivas I, II e III estão corretas.</strong>. Fonte: Legalle Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Legalle Concursos",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando que a Fonologia é a parte da gramática que estuda os fonemas, analise as assertivas e assinale a alternativa que aponta a(s) correta(s) l. Em “E isso acontece ao ouvir música, tocar um instrumento ou cantar [...]”, os elementos destacados são exemplos de encontros consonantais. II. No trecho “[...] a explicação é que certas composições podem nos conectar com o artista em questão [..]”, os elementos destacados são exemplos de dígrafos. III. Em “[...] capacidade das células endoteliais [...] de regular o fluxo de sangue [...]”, a palavra destacada tem cinco letras e seis fonemas, uma vez que apresenta seis sons distintos.",
+                "opcoes": [
+                      "Apenas I e II.",
+                      "Apenas l e III.",
+                      "Apenas II e III.",
+                      "Apenas II.",
+                      "Apenas III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Instituto AOCP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto AOCP",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro vocálico.",
+                "opcoes": [
+                      "Poeta – charuto – advogado – guerra.",
+                      "Oceano – Criciúma – ouro – quarto.",
+                      "Tosse – cuia – magnífico – distraído.",
+                      "Quitanda – tranquilo – mundo – galho.",
+                      "Limão – laranja – filtro – planeta."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Oceano – Criciúma – ouro – quarto.</strong>. Fonte: Instituto Avalia/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras TUNGSTÊNICO, ABSORTO, QUENTE, GUARDIÃO e EXCEPCIONAL, temos:",
+                "opcoes": [
+                      "Dois encontros consonantais, dois dígrafos, um dígrafo e um encontro consonantal.",
+                      "Dois encontros consonantais, um dígrafo, um encontro vocálico, um dígrafo e um encontro consonantal.",
+                      "Dois encontros consonantais, um dígrafo, um encontro vocálico e dois encontros consonantais.",
+                      "Dois encontros consonantais, um encontro vocálico, dois dígrafos e um encontro consonantal.",
+                      "Dois encontros consonantais, três encontros vocálicos, um encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dois encontros consonantais, dois dígrafos, um dígrafo e um encontro consonantal.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limitada - LJ/2024. Assunto: encontrosConsonantais.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limitada - LJ",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando a definição de dígrafos/encontros consonantais, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "Não há encontro consonantal em \"imagem\".",
+                      "Há um encontro consonantal em \"lembrar\".",
+                      "Há um dígrafo consonantal em \"parques\".",
+                      "Há um dígrafo consonantal em \"quando\".",
+                      "Há tanto dígrafo consonantal quanto encontro consonantal em \"trabalho\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Não há encontro consonantal em \"imagem\".</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2024,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre um encontro consonantal, ou seja, o encontro de duas consoantes.",
+                "opcoes": [
+                      "Dia.",
+                      "Campo.",
+                      "País.",
+                      "Homem.",
+                      "Familiar."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Campo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe o seguinte texto: “... acha uma lindeza os barcos veleiros coloridos ...” Considere as palavras ‘acha’ – ‘veleiros’ – ‘pretendentes’ e analise as afirmativas: I. Identifica-se a ocorrência de dígrafo em ‘acha’. II. Em ‘veleiros’ apresenta-se ditongo crescente. III. Tem-se um encontro consonantal em ‘barcos’. É correto o que se afirma:",
+                "opcoes": [
+                      "Apenas em I.",
+                      "Apenas em II.",
+                      "Apenas em I e II.",
+                      "Apenas em I e III.",
+                      "Apenas em II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas em I.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre palavras do texto: I. No trecho “Diante de um cotidiano agitado, com várias obrigações e compromissos”, a palavra sublinhada é um adjetivo. II. A palavra “pintura” é trissílaba. III. As palavras “simples” e “trazer” apresentam encontro consonantal. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "I, II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas III.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorra encontro consonantal.",
+                "opcoes": [
+                      "Taça.",
+                      "Copa.",
+                      "Colonos.",
+                      "Surpresa.",
+                      "Futebol."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Surpresa.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque as palavras escritas com encontro consonantal e que têm igual número de silabas.",
+                "opcoes": [
+                      "Aquilo; dentro.",
+                      "Supremo; descubra.",
+                      "Degraus; procure",
+                      "Grandes; preciso.",
+                      "Simplesmente; conseguem."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Supremo; descubra.</strong>. Fonte: Instituto Seprod/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Seprod",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra que apresenta encontro consonantal é",
+                "opcoes": [
+                      "sonho.",
+                      "pessoas.",
+                      "Brasil.",
+                      "saúde."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brasil.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em qual das seguintes palavras há um encontro consonantal?",
+                "opcoes": [
+                      "Vestígios.",
+                      "Chamada.",
+                      "Ferramentas.",
+                      "Assim.",
+                      "Aquilo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Vestígios.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Por outro lado, é inóspito, exceto por um mar cintilante muito distante, tão grande que contém a mesma quantidade de água de todos os oceanos da Terra reunidos. Assinale a opção que contenha apenas encontros consonantais:",
+                "opcoes": [
+                      "inóspito - cintilante",
+                      "Terra - reunidos",
+                      "outro - exceto",
+                      "água - oceanos"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>inóspito - cintilante</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A solidão é uma sensação de desconexão, de não pertencimento a um grupo social, que traz implicações emocionais e comportamentais. Assinale a opção que contenha apenas encontros consonantais.",
+                "opcoes": [
+                      "implicações - emocionais",
+                      "solidão - comportamentais",
+                      "pertencimento - grupo",
+                      "sensação - desconexão"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>implicações - emocionais</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorra um encontro consonantal.",
+                "opcoes": [
+                      "Livre.",
+                      "Café.",
+                      "Bebida.",
+                      "Óculos.",
+                      "Valores."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Livre.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “sério” possui:",
+                "opcoes": [
+                      "Um dígrafo e um encontro consonantal.",
+                      "Um dígrafo e um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um encontro vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um dígrafo e um encontro consonantal.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Outra razão bastante frequente para o abandono dos medicamentos são os efeitos indesejados sobre o corpo. Em relação a questões ortográficas, é correto afirmar que, no vocábulo:",
+                "opcoes": [
+                      "'bastante', há um encontro vocálico e dois encontros consonantais.",
+                      "'outra', há encontro vocálico seguido de encontro consonantal.",
+                      "'medicamentos', tem-se dois encontros consonantais.",
+                      "'indesejados', não há encontro vocálico nem encontro consonantal.",
+                      "'frequente', percebe-se a presença de dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>'outra', há encontro vocálico seguido de encontro consonantal.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Universidade do Extremo Sul Catarinense - UNESC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal.",
+                "opcoes": [
+                      "Rainha/ Sete/ estamos.",
+                      "Cinco/ Dois/ fique.",
+                      "Alice/ conta/ disse.",
+                      "entende/ salpicando/ perguntou."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>entende/ salpicando/ perguntou.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Correspondem respectivamente a duas palavras com encontro consonantais:",
+                "opcoes": [
+                      "Favorita – Até.",
+                      "Trailer – Sinal.",
+                      "Estava – Dirigindo.",
+                      "Pela – Jogado.",
+                      "Estrada – Vala."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Favorita – Até.</strong>. Fonte: ADVISE/2023. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho da letra da música de Raul Seixas e responda o que se pede. “E nas IGREJAS nem um sino a badalar Pois sabiam que os fiéis também não tavam lá E os fiéis não SAÍRAM pra rezar Pois sabiam que o padre também não tava lá E o aluno não saiu para estudar Pois sabia o PROFESSOR também não tava lá E o professor não saiu pra lecionar Pois sabia que não TINHA mais nada pra ensinar (...)” As palavras em destaque nos versos são, respectivamente:",
+                "opcoes": [
+                      "Encontro consonantal, hiato, dígrafo, dígrafo.",
+                      "Dígrafo, ditongo, dígrafo, dígrafo.",
+                      "Encontro consonantal, hiato, hiato, dígrafo.",
+                      "Ditongo, hiato, dígrafo, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo, dígrafo.</strong>. Fonte: Fundação Universidade do Oeste de Santa Catarina - Funoesc/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade do Oeste de Santa Catarina - Funoesc",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Essa espécie tem um desenvolvimento muito rápido - em apenas horas após a fecundação, a maioria dos órgãos dele já funciona. Para ter ideia, um peixe cresce em um dia o equivalente ao que um embrião humano demora um mês. Disponível em:(https://curtlink.com/wLo6rh7. Adaptado.) Assinale a opção que contenha somente palavras com encontros consonantais.",
+                "opcoes": [
+                      "órgãos - essa",
+                      "fecundação - equivalente",
+                      "desenvolvimento - cresce",
+                      "funciona - embrião"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>órgãos - essa</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta quanto à descrição da palavra do ponto de vista fonético:",
+                "opcoes": [
+                      "brilhantismo – dois encontros consonantais e um dígrafo.",
+                      "sobrevenha – dois dígrafos e nenhum encontro consonantal.",
+                      "ganhei – um ditongo e nenhum dígrafo.",
+                      "continuou – um dígrafo e um encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>brilhantismo – dois encontros consonantais e um dígrafo.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em qual das palavras abaixo ocorre um encontro consonantal?",
+                "opcoes": [
+                      "Lixo.",
+                      "Atitudes.",
+                      "Vegetariano.",
+                      "Papel.",
+                      "Extratos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Extratos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras abaixo apresentam encontro consonantal, EXCETO:",
+                "opcoes": [
+                      "Marinheiros.",
+                      "Artefato.",
+                      "Príncipe.",
+                      "Crenças"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Artefato.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2023. Assunto: encontrosConsonantais.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A combinação das letras no vocábulo ‘oxigênio’ apresenta.",
+                "opcoes": [
+                      "um encontro consonantal.",
+                      "um dígrafo.",
+                      "um hiato.",
+                      "um dífono."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra escrita com um encontro consonantal e um hiato; e uma palavra escrita com ditongo nasal, respectivamente.",
+                "opcoes": [
+                      "Escritor; não.",
+                      "Atento; desinteressado.",
+                      "Presumia; oração.",
+                      "Fim; apropriar.",
+                      "Infanticida; como."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Escritor; não.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorra encontro consonantal.",
+                "opcoes": [
+                      "Saúde.",
+                      "Amigos.",
+                      "Infarto.",
+                      "Hábitos.",
+                      "Coração."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Infarto.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação a determinados vocábulos retirados do texto, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. ( ) Nas palavras “programa” e “computadores”, evidencia-se a ocorrência de encontros consonantais, dígrafos e encontros vocálicos. ( ) Na palavra “novembro” há dígrafo vocálico, assim como na palavra “consultoria”. ( ) Nos vocábulos “sistema” e “tumores”, o número de letras e de fonemas é igual. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V.",
+                      "V – F – F.",
+                      "F – F – V.",
+                      "V – V – F.",
+                      "F – V – V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>F – F – V.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam hiato.",
+                "opcoes": [
+                      "Afiado – igual – sei – pátria.",
+                      "Juízes – herói – moeda – viu.",
+                      "Elogio – hiato – saúde – gênio.",
+                      "Noite – jeito – quão – Uruguai.",
+                      "Raiz – baú – madeira – gratuito."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Afiado – igual – sei – pátria.</strong>. Fonte: Instituto Avalia/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras abaixo apresentam encontro consonantal, EXCETO:",
+                "opcoes": [
+                      "Calma.",
+                      "Opinião.",
+                      "Obrigações.",
+                      "Estranho.",
+                      "Respeite."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Calma.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta uma palavra na qual ocorre um encontro consonantal é:",
+                "opcoes": [
+                      "Sabor.",
+                      "Legado.",
+                      "Povo.",
+                      "Símbolo.",
+                      "Queijo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Símbolo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Sabor.",
+                      "Branco.",
+                      "Brisa.",
+                      "Abrir."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Branco.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre um encontro consonantal.",
+                "opcoes": [
+                      "Cidreira.",
+                      "Bebida.",
+                      "Humor.",
+                      "Saúde.",
+                      "Saudável."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cidreira.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Um exemplo de encontro consonantal é encontrado na seguinte palavra, retirada do texto:",
+                "opcoes": [
+                      "Graça.",
+                      "Roubou.",
+                      "Além.",
+                      "Raposa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Graça.</strong>. Fonte: GUALIMP Assessoria e Consultoria Ltda - GUALIMP/2023. Assunto: encontrosConsonantais.",
+                "banca": "GUALIMP Assessoria e Consultoria Ltda - GUALIMP",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “planeta” (linha 01) temos",
+                "opcoes": [
+                      "dígrafo vocálico.",
+                      "dígrafo consonantal.",
+                      "encontro consonantal.",
+                      "hiato.",
+                      "ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dígrafo vocálico.</strong>. Fonte: Instituto Nacional de Qualificação e Capacitação - INQC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Nacional de Qualificação e Capacitação - INQC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras: há, chope, engarrafadas é correto o que se afirma em:",
+                "opcoes": [
+                      "Há dígrafos em há e chope.",
+                      "Há encontro consonantal somente em engarrafadas.",
+                      "Há dígrafo em chope e engarrafadas.",
+                      "Há dígrafo em todas as palavras."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há dígrafos em há e chope.</strong>. Fonte: Fundação Universidade do Oeste de Santa Catarina - Funoesc/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade do Oeste de Santa Catarina - Funoesc",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Jogador.",
+                      "Palavra.",
+                      "Crocodilo.",
+                      "Plano."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Palavra.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “grogues” é correto afirmar:",
+                "opcoes": [
+                      "Há dois encontros vocálicos.",
+                      "Possui um ditongo e um hiato.",
+                      "Possui um dígrafo.",
+                      "Possui três sílabas.",
+                      "Possui dois encontros consonantais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há dois encontros vocálicos.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "NÃO há encontro consonantal em qual dos vocábulos abaixo?",
+                "opcoes": [
+                      "“adaptados”.",
+                      "“pior”.",
+                      "“perda”.",
+                      "“dentes”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“adaptados”.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta um substantivo abstrato escrito com encontro consonantal e hiato; e um pronome escrito com hiato.",
+                "opcoes": [
+                      "Alegria; sua.",
+                      "Indignos; melhor.",
+                      "Crescer; sorrir.",
+                      "Sempre; conflitos.",
+                      "Hábitos; felicidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Alegria; sua.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra oxítona escrita com dígrafo e com duas palavras escritas com encontro consonantal, respectivamente.",
+                "opcoes": [
+                      "Qual; importa; chegar.",
+                      "Porque; frente; indícios.",
+                      "Nossos; conseguir; demonstrar.",
+                      "Ninguém; sempre; grande.",
+                      "Jamais; principal; olhar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nossos; conseguir; demonstrar.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta uma palavra com encontro consonantal?",
+                "opcoes": [
+                      "Compreender.",
+                      "Saudável.",
+                      "Ter.",
+                      "Ajudam.",
+                      "Básicas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Compreender.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Você.",
+                      "Tecla.",
+                      "Acre.",
+                      "Lacrar."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tecla.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Mas cerca de um quarto da população não consegue se exercitar nem por meia hora. Assinale a opção cujo termo contenha encontro consonantal.",
+                "opcoes": [
+                      "quarto.",
+                      "hora.",
+                      "nem.",
+                      "meia.",
+                      "população."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>quarto.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “contribuindo” possui:",
+                "opcoes": [
+                      "Quatro encontros consonantais e nenhum dígrafo.",
+                      "Três encontros consonantais e nenhum dígrafo.",
+                      "Dois encontros consonantais e um dígrafo.",
+                      "Um encontro consonantal e dois dígrafos.",
+                      "Nenhum encontro consonantal e três dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Quatro encontros consonantais e nenhum dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre encontro consonantal.",
+                "opcoes": [
+                      "Lugar.",
+                      "Item.",
+                      "Saúde.",
+                      "Jornada.",
+                      "Hábito."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Jornada.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "encontrosConsonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "Mesa, tábua, régua.",
+                      "Livro, prova, caderno.",
+                      "Parabéns, até, medicação.",
+                      "Óculos, parâmetros, título."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mesa, tábua, régua.</strong>. Fonte: Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH/2026. Assunto: tonicidade.",
+                "banca": "Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra mobilidade, presente no Texto III, possui:",
+                "opcoes": [
+                      "três sílabas e é oxítona.",
+                      "quatro sílabas e é oxítona.",
+                      "cinco sílabas e é proparoxítona.",
+                      "quatro sílabas e é paroxítona.",
+                      "cinco sílabas e é paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>três sílabas e é oxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2026. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A identificação da sílaba tônica é fundamental para a correta classificação das palavras quanto à tonicidade. Considerando vocábulos presentes no texto, analise as assertivas. I. A palavra espelho é paroxítona, com sílaba tônica em pe. II. A palavra você é oxítona, com sílaba tônica em cê. III. A palavra capítulo é paroxítona, com sílaba tônica em pí. Das assertivas, pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas as assertivas I e II estão corretas.",
+                      "Apenas as assertivas I e III estão corretas.",
+                      "Apenas as assertivas II e III estão corretas.",
+                      "As assertivas I, II e III estão corretas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas as assertivas I e II estão corretas.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: tonicidade.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na oração “No Brasil, a situação também é drástica.”, a palavra destacada pode ser classificada como:",
+                "opcoes": [
+                      "Dissílaba",
+                      "Oxítona",
+                      "Proparoxítona",
+                      "Paroxítona"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dissílaba</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à tonicidade, é exemplo de oxítona a palavra:",
+                "opcoes": [
+                      "Disciplina.",
+                      "Assistencial.",
+                      "Ambiguidade.",
+                      "Subjetividade."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Assistencial.</strong>. Fonte: Gama Consultoria/2026. Assunto: tonicidade.",
+                "banca": "Gama Consultoria",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Identifique a alternativa em que a sequência de palavras segue, respectivamente, esta ordem: oxítona, paroxítona, proparoxítona.",
+                "opcoes": [
+                      "nós – ninguém – clássica.",
+                      "há – negligência – passíveis.",
+                      "Ninguém – frequência – clássica.",
+                      "pedagógico – frequência- ninguém.",
+                      "fé – coração – clássica"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>pedagógico – frequência- ninguém.</strong>. Fonte: Prefeitura de Pescaria Brava/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Pescaria Brava",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho no tempo em que tudo é descartável, a palavra descartável recebe acento gráfico porque:",
+                "opcoes": [
+                      "É oxítona terminada em L.",
+                      "É paroxítona terminada em L.",
+                      "É proparoxítona terminada em L.",
+                      "É paroxítona terminada em hiato decrescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>É oxítona terminada em L.</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise a palavra PLANETA, presente no título da charge. De acordo com as regras oficiais, ela é classificada de forma CORRETA como:",
+                "opcoes": [
+                      "Oxítona, porque a sílaba mais forte é a última (TA).",
+                      "Paroxítona, porque a sílaba mais forte é a penúltima (NE).",
+                      "Proparoxítona, porque a sílaba mais forte é a antepenúltima (PLA).",
+                      "Monossílaba átona, porque possui apenas uma sílaba na sua escrita e não tem força na fala."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona, porque a sílaba mais forte é a última (TA).</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
+                "opcoes": [
+                      "A palavra “diretamente” é proparoxítona.",
+                      "A palavra “ataca” é paroxítona.",
+                      "A palavra “doença” é oxítona.",
+                      "A palavra “sistema” é proparoxítona.",
+                      "A palavra “imunológico” é paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra “diretamente” é proparoxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo quanto à classificação da sílaba tônica e relacione corretamente cada uma delas à sua respectiva categoria. Em seguida, assinale a alternativa que apresenta a sequência correta. 1. (__) Cérebro. 2. (__) Além. 3. (__) Impossível. 4. (__) Plástico. 5. (__) Pesquisa. Categorias:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "1-C / 2-A / 3-B / 4-C / 5-B.",
+                      "1-B / 2-C / 3-A / 4-C / 5-B.",
+                      "1-C / 2-A / 3-B / 4-B / 5-A.",
+                      "1-C / 2-B / 3-A / 4-B / 5-A"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta corretamente a separação silábica e a classificação da sílaba tônica da palavra?",
+                "opcoes": [
+                      "Ci-ên-cia: Oxitona.",
+                      "A-pa-i-xo-na-do: Proparoxitona.",
+                      "Bra-si-lei-ro: Proparoxitona.",
+                      "Ca-fé: Oxítona.",
+                      "Sa-ú-de: Proparoxitona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ci-ên-cia: Oxitona.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto à sua classificação devido à tonicidade: Primeira coluna: classificação de tonicidade 1.Paroxítona 2.Oxítona 3.Proparoxítona Segunda coluna: palavras do texto (__)Idosos. (__)Temperaturas. (__)Óbitos. (__)Localidades. (__)Mortalidade. (__)Crianças. (__)Pressão. (__)Pesquisa. (__)Estudos. (__)Variações. Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "3 − 1 − 3 − 2 − 2 − 1 − 2 − 1 − 2 − 2.",
+                      "2 − 2 − 1 − 2 − 2 − 2 − 3 − 2 − 2 − 3.",
+                      "3 − 3 − 2 − 3 − 3 − 3 − 1 − 3 − 3 − 1.",
+                      "1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.",
+                      "1 − 3 − 3 − 3 − 1 − 2 − 2 − 1 − 1 − 3."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.</strong>. Fonte: Universidade de Blumenau - FURB/2025. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra classificada como oxítona, ou seja, cuja última sílaba seja a mais forte.",
+                "opcoes": [
+                      "Homenagem.",
+                      "Carimbo.",
+                      "Lugar.",
+                      "Nomes.",
+                      "Eterno."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Lugar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho “Para a minha surpresa, ele disse: e eu que estive lendo você ontem!” (1º§), a palavra grifada recebe acento por ser oxítona. Assinale a alternativa cuja palavra em destaque recebe acento por fazer parte do mesmo grupo.",
+                "opcoes": [
+                      "“Chico é lindo e é tímido, e é triste.” (2º§)",
+                      "“Eu lhe disse: mas você também é, […]” (4º§)",
+                      "“[...] ouvia tudo de Beethoven que tínhamos e pedia mais, [...]” (4º§)",
+                      "“[...] gostaria de dizer-lhe alguma coisa – o quê? – que diminuísse a sua tristeza.” (2º§)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“Chico é lindo e é tímido, e é triste.” (2º§)</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a classificação da tonicidade das palavras orgânico, saúde e periódico, analise as assertivas a seguir: I. A palavra \"orgânico\" é proparoxítona, pois a sílaba tônica é a antepenúltima. II. A palavra \"saúde\" é paroxítona, pois a sílaba tônica é a penúltima. III. A palavra \"periódico\" é paroxítona, pois a sílaba tônica é a penúltima. Das assertivas, é correto afirmar que:",
+                "opcoes": [
+                      "Apenas II e III estão corretas",
+                      "Apenas I e II estão corretas.",
+                      "Apenas III está correta.",
+                      "I, II e III estão corretas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I e II estão corretas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acerca de aspectos gramaticais diversos, analise as partes que seguem: (1a parte): pirâmide (/.76) é uma proparoxitona; análise (l.30) é uma paroxitona; ninguém (/.13) é uma oxitona. (2a parte): a palavra moderação é um sinônimo de parcimônia (/.12). (3a parte): À linha 14, os travessões poderiam ser substituídos por vírgulas. (4a parte): A palavra livraço (/.55) está no grau superlativo absoluto analítico de superioridade. Das partes, NÃO se pode afirmar que:",
+                "opcoes": [
+                      "A 4a está incorreta.",
+                      "Metade delas está correta.",
+                      "A 2a está correta, assim como a 3a.",
+                      "A 1a está incorreta, assim como a 2a."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A 4a está incorreta.</strong>. Fonte: Legalle Concursos/2025. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém uma palavra oxítona, uma palavra paroxítona e uma palavra proparoxítona, nessa ordem",
+                "opcoes": [
+                      "Minério, métricas, visível.",
+                      "Também, visível, métricas.",
+                      "Métricas, visível, também.",
+                      "Geológico, também, minério.",
+                      "Minério, geológico, visível."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Minério, métricas, visível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
+                "opcoes": [
+                      "Anéis.",
+                      "Lápis.",
+                      "Caráter.",
+                      "Ciúme.",
+                      "Heroico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Lápis.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Próxima.",
+                      "Após.",
+                      "Sábado.",
+                      "Notícias.",
+                      "Última."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Próxima.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "Título | xenófobo | zodíaco.",
+                      "Néctar | órfã | tênis.",
+                      "Jiló | javali | vatapá.",
+                      "Oásis | réptil | jiboia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Jiló | javali | vatapá.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A respeito da classificação silábica, relacionar as colunas e assinalar a sequência correspondente. (1) A sílaba mais forte é a última sílaba da palavra. (2) A sílaba mais forte é a penúltima sílaba da palavra. (3) A sílaba mais forte é a antepenúltima sílaba da palavra. ( ) Proparoxítona. ( ) Oxítona. ( ) Paroxítona.",
+                "opcoes": [
+                      "1 - 2 - 3.",
+                      "3 - 1 - 2.",
+                      "1 - 3 - 2.",
+                      "2 - 1 - 3.",
+                      "3 - 2 - 1."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 - 1 - 2.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que não é uma palavra oxítona:",
+                "opcoes": [
+                      "Açaí",
+                      "Café",
+                      "Chapéu",
+                      "Álbum"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Açaí</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: tonicidade.",
+                "banca": "Evolução Consultoria - Instituto Evo",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "oxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>proparoxítona e oxítona.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Cúpula.",
+                      "Logísticas.",
+                      "Intercâmbio.",
+                      "Paraná.",
+                      "Polícia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cúpula.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, é oxítona apenas:",
+                "opcoes": [
+                      "matemático.",
+                      "cadáver.",
+                      "maracujá.",
+                      "impreterível.",
+                      "simpaticíssima."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>matemático.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ambos os vocábulos são oxítonas:",
+                "opcoes": [
+                      "gratuito – fortuito",
+                      "protótipo – antífona",
+                      "rubrica – bígamo",
+                      "ereter – erudito",
+                      "cateter – ruim"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>protótipo – antífona</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2025. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, indique a alternativa cujo vocábulo é classificado corretamente.",
+                "opcoes": [
+                      "Cérebro – Oxítona.",
+                      "Nucal – Paroxítona.",
+                      "Fósseis – Paroxítona.",
+                      "Músculo – Paroxítona.",
+                      "Anatomistas – Proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cérebro – Oxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando a tonicidade das palavras a seguir, retiradas do texto, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA. ( ) \"Hinduísmo\" é proparoxiítona. ( ) \"Marrons\" é paroxítona. ( ) \"Possível\" é paroxítona. ( ) \"Século\" é proparoxítona. ( ) \"Mostarda\" é oxítona.",
+                "opcoes": [
+                      "F, V, F, V, V.",
+                      "V, F, F, F, F.",
+                      "F, V, V, F, V.",
+                      "F, F, V, V, F.",
+                      "V, V, F, V, F."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>F, V, V, F, V.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as palavras a seguir relacionadas, extraídas da crônica, assinale a alternativa que contém apenas palavras oxítonas.",
+                "opcoes": [
+                      "“Entrei”; “deparei”; e “olhei”.",
+                      "“Respeitar”; “gritou”; e “ideia”.",
+                      "“Apertar”; “alegria”; e “amiga”.",
+                      "“Visitar”; “adiante”; e “sobretudo”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“Respeitar”; “gritou”; e “ideia”.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta APENAS palavras oxítonas.",
+                "opcoes": [
+                      "Espacial, florestais, eficaz.",
+                      "Invasão, também, Grécia.",
+                      "País, frio, europeias.",
+                      "Razão, tempo, pior.",
+                      "Vegetação, estação, Catastrófico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>País, frio, europeias.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2025. Assunto: tonicidade.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras a seguir são oxítonas, exceto:",
+                "opcoes": [
+                      "funil.",
+                      "oco.",
+                      "pinel.",
+                      "causal.",
+                      "véu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>funil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito dos aspectos ortográficos de algumas palavras do texto. I. \"mulher\" é uma palavra oxítona e dissílaba, enquanto o seu plural (\"mulheres\"), é paroxítona e trissílaba. . Em \"exausto\", palavra polissílaba, ocorre hiato. . Em \"máquina\" e \"chaves\" há dígrafo. IV. \"leite\" e \"olhos\" possuem o mesmo número de fonemas. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "II, III e IV, apenas.",
+                      "I e IV, apenas.",
+                      "I e III, apenas.",
+                      "II, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que apresenta um vocábulo oxítono.",
+                "opcoes": [
+                      "nova",
+                      "não",
+                      "nomofóbico",
+                      "esperava",
+                      "esclareceu"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>nomofóbico</strong>. Fonte: Instituto Quadrix - Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Quadrix - Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a classificação das palavras quanto à posição da sílaba tônica, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: (__) Açúcar é proparoxítona. (__) Responsável é paroxítona. (__) Endócrinos é paroxítona.",
+                "opcoes": [
+                      "C - C - E.",
+                      "E - C - C.",
+                      "C - E – C.",
+                      "E - C - E."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>E - C - E.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: tonicidade.",
+                "banca": "Prefeitura de Catas Altas",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “psicóloga” é classificada como:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílaba tônica."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílaba tônica.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "Curió; canário; e vítima.",
+                      "Otário; pássaros; e sabiá.",
+                      "Fêmea; aborígine; e divórcio.",
+                      "Cinelândia; indústria; e história."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Fêmea; aborígine; e divórcio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cujas palavras, retiradas do texto, são, respectivamente, paroxítona, oxítona e proparoxítona:",
+                "opcoes": [
+                      "anunciando, processo, democrática.",
+                      "propaganda, cidadão e política.",
+                      "moderado, camiseta, limpinha.",
+                      "apreensivo, esconde, fábrica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>anunciando, processo, democrática.</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2024. Assunto: tonicidade.",
+                "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Das palavras retiradas do texto, assinale a palavra que é oxítona:",
+                "opcoes": [
+                      "café;",
+                      "econômico;",
+                      "difícil;",
+                      "banco."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>café;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2024. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto à sua respectiva classificação quanto à tonicidade: Primeira coluna: tonicidade (1) oxítona (2) proparoxítona (3) paroxítona Segunda coluna: palavras do texto (__) semente (__) Ártico (__) Guerras (__) Enchentes (__) Arquipélago (__) Também Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "3 − 1 − 2 − 3 − 1 − 2.",
+                      "3 − 2 − 3 − 3 − 2 − 1.",
+                      "1 − 2 − 3 − 3 − 2 − 1.",
+                      "2 − 3 − 2 − 2 − 3 − 1.",
+                      "1 − 2 − 1 − 1 − 2 − 3."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 − 2 − 3 − 3 − 2 − 1.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
+                "opcoes": [
+                      "comandante, tumulto, disponível.",
+                      "escopeta, alguém, minutos.",
+                      "sorrateiramente, andando, três.",
+                      "janelas, humanos, assombrado.",
+                      "tenente, polícia, viatura."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>comandante, tumulto, disponível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “hipotética”, é correto afirmar que:",
+                "opcoes": [
+                      "É paroxítona.",
+                      "Tem 10 letras e 9 fonemas.",
+                      "Apresenta dígrafo.",
+                      "É oxítona.",
+                      "Tem 10 letras e 10 fonemas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apresenta dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Relacione as colunas de forma que, para cada palavra da coluna da direita, haja uma classificação quanto à posição da sílaba forte. Em seguida, marque a opção que contém a sequência CORRETA, na ordem de cima para baixo: 1 - Monossílabo tônico 2 - Oxítona 3 - Paroxítona 4 - Proparoxítona ( ) Exercício ( ) Público ( ) Céu ( ) Veículo ( ) Pé ( ) Rotina ( ) Bebê",
+                "opcoes": [
+                      "4-3-1-4-1-3-2.",
+                      "4-4-2-3-1-4-4.",
+                      "3-4-1-4-1-3-2.",
+                      "3-4-2-4-1-3-3."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3-4-1-4-1-3-2.</strong>. Fonte: CRS - Polícia Militar de Minas Gerais - CRS PMMG/2024. Assunto: tonicidade.",
+                "banca": "CRS - Polícia Militar de Minas Gerais - CRS PMMG",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com palavras oxítonas escritas ditongo nasal.",
+                "opcoes": [
+                      "Camões; quão.",
+                      "Não; canção.",
+                      "Paixão; ações.",
+                      "São; fascinação.",
+                      "Coração; tão."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Camões; quão.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A vogal tônica grafada -i das palavras oxítonas terminadas em -r dos verbos terminados em -air e -uir não recebe acento agudo quando combinadas com -lo(s), -la(s), como em \"atrai-lo\".\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As formas verbais oxítonas, ao serem conjugadas com os pronomes clíticos -lo(s) ou -la(s), recebem acento circunflexo nas vogais tônicas fechadas -e ou -o quando ocorre a perda da consoante final -r, -s, ou -z. Exemplos incluem detê-lo(s), fazê-la(s), vê-la(s), compô-la(s), repôla(s), pô-la(s).\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase: “O diagnóstico deve ser feito por uma equipe multidisciplinar, formada por psicólogo, fonoaudiólogo e psicopedagogo clínico.” As palavras destacadas se classificam quanto a sílaba tônica como:",
+                "opcoes": [
+                      "Oxítonas.",
+                      "Paroxítonas.",
+                      "Proparoxítonas.",
+                      "Trissílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítonas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à tonicidade, as palavras câncer, eletrônicos, além, sérios, cápsulas são classificadas, RESPECTIVAMENTE, como:",
+                "opcoes": [
+                      "Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, proparoxítona, paroxítona, paroxítona, proparoxítona.",
+                      "Paroxítona, paroxítona, paroxítona, proparoxítona, proparoxítona.",
+                      "Paroxítona, paroxítona, oxítona, proparoxítona, paroxítona.",
+                      "Paroxítona, proparoxítona, oxítona, paroxítona, proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona, uma paroxítona e uma proparoxítona, respectivamente.",
+                "opcoes": [
+                      "Abacaxi | hífen | técnico.",
+                      "Júri | até | paralelepípedo.",
+                      "Pêsames | película | geleia.",
+                      "Açaí | alguém | alcateia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Abacaxi | hífen | técnico.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com posição da sílaba tônica das palavras, verifique a numeração respectiva da Coluna (1) associando à Coluna (2) e responda, a alternativa CORRETA: COLUNA 01 01.Oxítonas 02. Paroxítonas 03.Proparoxítonas COLUNA 02 (___) Encomenda, fracasso, usada. (___) Amor, melhor, sucuri. (___) Oliva, padre, ecossistema. (___) Átomo, unânime, zoólogo. A ordem corre\u0001a de preenchimen\u0001o da numeração nos parên\u0001eses, respectvamen\u0001e, é:",
+                "opcoes": [
+                      "1, 2, 3, 1.",
+                      "2, 1, 2, 3.",
+                      "2, 3, 1, 2.",
+                      "2, 1, 3, 2."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2, 1, 2, 3.</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
+                "opcoes": [
+                      "Atlântica, país.",
+                      "Mata, já.",
+                      "responsável, agora.",
+                      "até, país."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Atlântica, país.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
+                "opcoes": [
+                      "esportivo.",
+                      "holandês.",
+                      "símbolos.",
+                      "paralímpicos.",
+                      "jogos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>símbolos.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras destacadas são oxítonas.",
+                "opcoes": [
+                      "“Na comparação das cidades do top 10 do ranking com o desempenho do PIB de 2020, Xaxim, com aumento de 27%, e Xanxerê, com alta de 23,8%, são as que mais se destacaram.”",
+                      "“Entre as regiões, o Vale do Itajaí foi novamente a mais rica de Santa Catarina, aumentando a vantagem sobre o Norte catarinense, área com o segundo melhor desempenho do Estado.",
+                      "“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“",
+                      "“Principal cidade da região, Chapecó teve o maior volume de PIB por municípios na região, com R$ 13,6 bilhões de riquezas produzidas na cidade naquele ano.",
+                      "“A soma das riquezas produzidas pelas 118 cidades da região foi de R$ 71,6 bilhões, o que corresponde a 16,7% do total do PIB catarinense.”"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas: I. A palavra “água-de-colônia” leva hífen pelo mesmo motivo de “co-autor”. II. As palavras “coliseu” e “guaraná” são oxítonas. III. As palavras “variável” e “chocolate” apresentam o mesmo número de fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No que diz respeito à tonicidade, analise as afirmações a seguir: I.A palavra \"sanitárias\", no que diz respeito à tonicidade, pode ser classificada como ____________. II.A palavra \"saúde\" consiste em uma ____________. III.A palavra \"proporção\", no que diz respeito à tonicidade, pode ser classificada como ____________. IV.A palavra \"útil\" consiste em uma ____________. V.A palavra \"obesidade\" pode ser classificada como ____________. Assinale a alternativa que correta e respectivamente preenche as lacunas nos excertos:",
+                "opcoes": [
+                      "proparoxítona - oxítona - proparoxítona - oxítona - paroxítona.",
+                      "proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.",
+                      "paroxítona - oxítona - paroxítona - oxítona - oxítona.",
+                      "paroxítona - proparoxítona - paroxítona - proparoxítona - proparoxítona.",
+                      "oxítona - paroxítona - oxítona - paroxítona - paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta todas as palavras oxítonas escritas com ditongo nasal.",
+                "opcoes": [
+                      "Tão; realizações; não.",
+                      "Paixão; quão; gratidão.",
+                      "Coração; tão; posição.",
+                      "Quão; tão; vibrações;",
+                      "Então; atenção; comparação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tão; realizações; não.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando a classificação das palavras de acordo com sua sílaba tônica, sabe-se que há três tipos distintos: oxítona, paroxítona e proparoxítona. Diante de tal, o conjunto de palavras em que todas apresentam a mesma classificação tônica que o termo “Mitologia” é:",
+                "opcoes": [
+                      "Heroico – narrativas – publicado – naturalista.",
+                      "Nórdicas – artística – república – estudo.",
+                      "Tratando – ocidental – periódicos –livros.",
+                      "Épocas – bibliográfico – símbolos – blog.",
+                      "Heróis – analíticos – século – recurso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Nórdicas – artística – república – estudo.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, em destaque no excerto indicado, classifica-se como oxítona apenas:",
+                "opcoes": [
+                      "cachorro.",
+                      "carnívoro.",
+                      "subespécie.",
+                      "animal.",
+                      "humano."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>carnívoro.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
+                "opcoes": [
+                      "raposa, baixo, disse.",
+                      "corvo, coisa, cauda.",
+                      "você, cair, abrir.",
+                      "cérebro, bonitas, bico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>você, cair, abrir.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sabe-se que a sílaba tônica é aquela pronunciada com mais intensidade em uma palavra e que, de acordo com a tonicidade, elas podem ser classificadas como oxítona, paroxítona e proparoxítona. Diante do exposto, identifique a alternativa, na qual as palavras apresentadas podem ser classificadas, respectivamente, como oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "Climax — cromossomo — fórceps.",
+                      "Ágape - látex - ciclope.",
+                      "Nobel — âmbar — anátema.",
+                      "Aloés — cartomancia — filantropo.",
+                      "Harém - crisântemo — arquétipo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ágape - látex - ciclope.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras, quanto à sílaba tônica, são oxítonas em:",
+                "opcoes": [
+                      "Noites, carinhosamente, arte.",
+                      "Falantes, ligadas, feminina.",
+                      "Sultão, amor, mulher.",
+                      "Orifício, alonga, chato.",
+                      "Homem, noites, possível."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Sultão, amor, mulher.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à classificação da sílaba tônica, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Órbita. ( ) Café. ( ) Galáxia. ( ) Pêssego. ( ) Meteorito.",
+                "opcoes": [
+                      "1 - 3 - 1 - 2 - 3.",
+                      "2 - 1 - 2 - 1 - 3.",
+                      "3 - 2 - 3 - 1 - 2.",
+                      "3 - 1 - 2 - 3 - 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>3 - 1 - 2 - 3 - 2.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se a classificação quanto à tonicidade das palavras, avaliar se as afirmativas são certas (C) ou erradas (E) e assinalar a sequência correspondente. ( ) “Sapato” é paroxítona. ( ) “Varíola” é proparoxítona. ( ) “Inverno” é proparoxítona. ( ) “Escola” é oxítona.",
+                "opcoes": [
+                      "C - C - E - E.",
+                      "E - E - C - C.",
+                      "C - E - E - C.",
+                      "E - C - C - E."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>C - C - E - E.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A divisão silábica é o processo de separar as sílabas de uma palavra de acordo com as regras da língua portuguesa, facilitando a sua pronúncia e compreensão. Já a tonicidade refere-se à sílaba da palavra que é pronunciada com maior intensidade ou ênfase, o que pode influenciar o significado e a entonação da palavra na fala. Ambos os conceitos são importantes para a correta pronúncia e compreensão das palavras em português. Nesse contexto, indique a alternativa CORRETA em relação à classificação da divisão silábica e da tonicidade:",
+                "opcoes": [
+                      "Até - monossílabo - monossílabo tônico.",
+                      "Sutil - dissílaba - paroxítona.",
+                      "Condor - dissílaba - oxítona.",
+                      "Rubrica - trissílada - proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Até - monossílabo - monossílabo tônico.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona, assim como a palavra “sofá”?",
+                "opcoes": [
+                      "Insônia.",
+                      "Vício.",
+                      "Hábito.",
+                      "Saudável.",
+                      "Além."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Insônia.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Ainda sobre o trecho “As malas rente aos pés dos dois também se valiam daquele abrigo”, observe a palavra “pés”, em destaque. Do ponto de vista silábico, “pés” pode ser classificada como:",
+                "opcoes": [
+                      "monossílaba.",
+                      "dissílaba.",
+                      "trissílaba.",
+                      "polissílaba.",
+                      "oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>monossílaba.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que contém apenas palavras oxítonas:",
+                "opcoes": [
+                      "Sofá, Amapá, Café",
+                      "Última, Próxima, Tráfico",
+                      "Lápis, Próprio, Parábola.",
+                      "Mesmo, saudade, tempo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sofá, Amapá, Café</strong>. Fonte: Funatec/2024. Assunto: tonicidade.",
+                "banca": "Funatec",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia as afirmações abaixo e assinale V (verdadeiro) ou F (falso): (__)As formas verbais 'Têm' e 'lê' são exemplos de verbos que permaneceram com acento, para diferenciar a forma singular da de plural. (__)O vocábulo 'razoável' e 'saúde' recebem acento pela regra das palavras que formam hiato. (__)'Médica' e 'básico' são proparoxítonas. (__)'Além' e 'olhar' são oxítonas. (__)'Psicoativas' não é hifenizada, assim como 'autoescola'. A sequência que preenche os parênteses corretamente é:",
+                "opcoes": [
+                      "F, F, V, V, V.",
+                      "V, V, V, F, F.",
+                      "V, F, V, V, F.",
+                      "V, V, V, V, V.",
+                      "F, V, V, F, V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V, V, V, F, F.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2024. Assunto: tonicidade.",
+                "banca": "Universidade do Extremo Sul Catarinense - UNESC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à classificação das palavras de acordo com a posição da sílaba tônica, assinale a alternativa incorreta.",
+                "opcoes": [
+                      "Monossílabos átonos: são pronunciados com pouca intensidade. Exemplo: a.",
+                      "Monossílabos tônicos: são pronunciados com bastante intensidade. Exemplo: noz.",
+                      "Oxítonas: a tônica é a última sílaba da palavra. Exemplo: maçã.",
+                      "Paroxìtona: a tônica é a penúltima sílaba da palavra. Exemplo: pérolas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílabos átonos: são pronunciados com pouca intensidade. Exemplo: a.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Levando-se em conta a posição da sílaba tônica, a palavra “ultrassom”, presente no texto, é um(a):",
+                "opcoes": [
+                      "Monossílabo átono.",
+                      "Monossílabo tônico.",
+                      "Proparoxítona.",
+                      "Paroxítona.",
+                      "Oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando a norma-padrão da Língua Portuguesa, analise as assertivas a seguir: I. As palavras “saída” e “pátria” são acentuadas conforme a regra do hiato. II. A palavra “velejador” é oxítona e átona. III. Não é obrigatório o uso do hífen em palavras justapostas, como “couveflor”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
+                "opcoes": [
+                      "Sabiá.",
+                      "Bíceps.",
+                      "Espetáculo.",
+                      "Brócolis."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Bíceps.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho \" O Brasil lidera o ranking de casos de ansiedade e depressão na América Latina\", as palavras destacadas classificam-se quanto à tonicidade, respectivamente, como",
+                "opcoes": [
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "oxítona e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona e oxítona.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa com uma palavra oxítona:",
+                "opcoes": [
+                      "Tinta",
+                      "Lápis",
+                      "Fubá",
+                      "Navalha"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Lápis</strong>. Fonte: Instituto de Gestão de Cidades - IGECS/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Gestão de Cidades - IGECS",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a classificação da palavra está correta:",
+                "opcoes": [
+                      "Arquipélago - substantivo abstrato, trissílabo, proparoxítona.",
+                      "Réptil - substantivo comum, trissílabo, oxítona.",
+                      "Pneumático - substantivo derivado, polissílabo, proparoxítona.",
+                      "Saúde - substantivo concreto, dissílabo, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Arquipélago - substantivo abstrato, trissílabo, proparoxítona.</strong>. Fonte: Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK/2024. Assunto: tonicidade.",
+                "banca": "Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa INCORRETA quanto à classificação das palavras de acordo com a posição da sílaba tônica.",
+                "opcoes": [
+                      "espécies (l. 47) - proparoxítona.",
+                      "Atlântica (l. 41) - proparoxítona.",
+                      "açúcar (l.36) - paroxítona.",
+                      "período (l.23) - paroxítona",
+                      "até (l.14) - oxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>período (l.23) - paroxítona</strong>. Fonte: Legalle Concursos/2024. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir quanto à tonicidade e assinale a alternativa em que a palavra dada é oxítona.",
+                "opcoes": [
+                      "hostil.",
+                      "aeromoça.",
+                      "espelho.",
+                      "patente.",
+                      "esperança."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hostil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona (última sílaba tônica).",
+                "opcoes": [
+                      "Cuidado.",
+                      "Açúcar.",
+                      "Saúde.",
+                      "Fósforo.",
+                      "Verão."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Açúcar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As questões 09 e 10 referem-se à tirinha abaixo. Sobre o texto do primeiro quadrinho, assinale a alternativa correta.",
+                "opcoes": [
+                      "“História” tem 08 fonemas.",
+                      "“Ciências” e “português” são oxítonas.",
+                      "“Português” tem 09 fonemas.",
+                      "“Matemática” é proparoxítona, e “português” é oxítona.",
+                      "“História” e “português” são paroxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“História” tem 08 fonemas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Insípido.",
+                      "Delícia.",
+                      "Fubá.",
+                      "Básico.",
+                      "Américas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Insípido.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a opção que indica a palavra cuja classificação da sílaba tônica NÃO está corretamente apresentada.",
+                "opcoes": [
+                      "hidratação [OXÍTONA].",
+                      "engavetamento [PAROXÍTONA].",
+                      "fonoaudiologia [PAROXÍTONA].",
+                      "planejamento [PROPAROXÍTONA].",
+                      "processamento [PAROXÍTONA]."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hidratação [OXÍTONA].</strong>. Fonte: Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, as palavras ridículo – débil - ninguém - árvore são classificadas respectivamente como:",
+                "opcoes": [
+                      "Proparoxítona – paroxítona – oxítona - proparoxítona.",
+                      "Proparoxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – proparoxítona – oxítona - proparoxítona.",
+                      "Paroxítona – paroxítona – oxítona - paroxítona.",
+                      "Proparoxítona – proparoxítona – oxítona - proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona – paroxítona – oxítona - proparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à posição da sílaba tônica, as palavras denunciar, gratuito e ouvidoria são, respectivamente, classificadas como:",
+                "opcoes": [
+                      "Proparoxítona, paroxítona e oxítona.",
+                      "Proparoxítona, paroxítona e paroxítona.",
+                      "Oxítona, paroxítona e oxítona.",
+                      "Oxítona, paroxítona e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona e oxítona.</strong>. Fonte: Gama Consultoria/2024. Assunto: tonicidade.",
+                "banca": "Gama Consultoria",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Sétimo.",
+                      "Patrimônio.",
+                      "Último.",
+                      "Canadá.",
+                      "Território."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sétimo.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A classificação das palavras do texto, (perdida, razão, frágil, divina), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Proparoxítona, oxítona, paroxítona, paroxítona.",
+                      "Paroxítona, oxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa cujos vocábulos apresentam a seguinte ordem de classificação quanto à tonicidade: oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "juriti - hifens - rubrica",
+                      "nobel - córtex - ciclope",
+                      "mister - avaro - binóculo",
+                      "carcará - condor - crisântemo"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>juriti - hifens - rubrica</strong>. Fonte: Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica/2024. Assunto: tonicidade.",
+                "banca": "Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Se caracterizam como oxítonas palavras que possuem a sílaba tônica estabelecida na última sílaba. Ex: \"avô\" e \"café\".\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe as seguintes palavras, retiradas da receita: “prato”, “panela”, “refogue”, “francesa” e “minutos”. Selecione a alternativa que indica o ponto em comum entre elas.",
+                "opcoes": [
+                      "Todas são oxítonas, pois a sílaba tônica é a última.",
+                      "Todas são paroxítonas, pois a sílaba tônica é a penúltima.",
+                      "Todas são proparoxítonas, pois a sílaba tônica é a antepenúltima.",
+                      "Todas são paroxítonas, pois a sílaba tônica é a última.",
+                      "Todas são proparoxítonas, pois a sílaba tônica é a penúltima."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Todas são oxítonas, pois a sílaba tônica é a última.</strong>. Fonte: Ntcs - NTCS/2024. Assunto: tonicidade.",
+                "banca": "Ntcs - NTCS",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras destacadas em “Com seu processador IA de última geração, permite a compatibilidade entre diversos dispositivos, criando uma conexão integrada entre televisores, smartphones e outros aparelhos do mesmo ecossistema”. São, respectivamente, classificadas como:",
+                "opcoes": [
+                      "oxítona, paroxítona e proparoxítona.",
+                      "paroxítona, paroxítona e proparoxítona.",
+                      "oxítona, proparoxítona e paroxítona.",
+                      "oxítona, paroxítona e paroxítona.",
+                      "paroxítona, oxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>oxítona, paroxítona e proparoxítona.</strong>. Fonte: Instituto Tupy/2024. Assunto: tonicidade.",
+                "banca": "Instituto Tupy",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que as palavras são oxítonas:",
+                "opcoes": [
+                      "Metrô | suflê.",
+                      "Subsídio | gênero.",
+                      "Memória | imaginário.",
+                      "Silêncio | básico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Metrô | suflê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA a respeito da palavra “trânsito”.",
+                "opcoes": [
+                      "Possui duas sílabas e é paroxítona.",
+                      "Possui duas sílabas e é proparoxítona.",
+                      "Possui três sílabas e é oxítona.",
+                      "Possui três sílabas e é paroxítona.",
+                      "Possui três sílabas e é proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Possui duas sílabas e é paroxítona.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2024. Assunto: tonicidade.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona é:",
+                "opcoes": [
+                      "Tórax.",
+                      "Caju.",
+                      "Nômade.",
+                      "Tríceps.",
+                      "Lápide."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tórax.</strong>. Fonte: Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM/2024. Assunto: tonicidade.",
+                "banca": "Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acentuam-se todos os casos de palavras oxítonas mencionados a seguir, com exceção de:",
+                "opcoes": [
+                      "palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em.",
+                      "formas verbais oxítonas terminadas na vogal tônica aberta grafada -a, quando conjugadas com os pronomes clíticos lo(s) ou la(s).",
+                      "palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.",
+                      "palavras oxítonas terminadas com os ditongos abertos grafados -éi, -éu ou -ói.",
+                      "palavras oxítonas terminadas nas vogais tônicas fechadas que se grafam -e ou -o."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras a seguir seguem uma sequência. Assinale a alternativa em que a sequência corresponde a: (I) oxítona– (II) hiato – (III) proparoxítona.",
+                "opcoes": [
+                      "I - também - II países - III é.",
+                      "I - ginástica - II saúde - III desportiva.",
+                      "I - está - II também - III - países.",
+                      "I - ginástica - II países - III competições.",
+                      "I - também - II saúde - III olímpicos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I - ginástica - II países - III competições.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras abaixo estão todas grafadas propositalmente sem acentos gráficos. Assinale a opção em que todos os vocábulos são paroxítonos.",
+                "opcoes": [
+                      "avaro / pudico / erudito.",
+                      "aziago / tulipa / refem.",
+                      "Nobel / etiope / rubrica.",
+                      "filantropo / estalido / lampada.",
+                      "recem / textil / decano."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nobel / etiope / rubrica.</strong>. Fonte: Fundação Getúlio Vargas - FGV/2024. Assunto: tonicidade.",
+                "banca": "Fundação Getúlio Vargas - FGV",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação às palavras oxítonas, assinalar a alternativa correspondente a essa classificação:",
+                "opcoes": [
+                      "Xícara.",
+                      "Têxtil.",
+                      "Árvore.",
+                      "Abajur."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Xícara.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as sequências de palavras a seguir e assinale a alternativa em que as palavras dadas se classifiquem, quanto à tonicidade, em proparoxítona - oxítona - paroxítona - oxítona, respectivamente.",
+                "opcoes": [
+                      "funilaria - baú - hotel - azul.",
+                      "espetáculo - comédia - balde - anil.",
+                      "paralelepípedo - viril - fracasso - amor.",
+                      "diagrama - cal - bulímico - pó.",
+                      "dádiva - caqui - calidez - local."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>funilaria - baú - hotel - azul.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a classificação das palavras quanto ao acento tônico, no texto (única, acaso, até), são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, paroxítona, oxítona.",
+                      "Proparoxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, paroxítona, oxítona.",
+                      "Oxítona, paroxítona, proparoxítona.",
+                      "Proparoxítona, oxítona, oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta um par de palavras oxítonas (a última sílaba é tônica).",
+                "opcoes": [
+                      "Social – saúde.",
+                      "Metódicos – níveis.",
+                      "Abril – além.",
+                      "Azul – características.",
+                      "Neurológico – diagnóstico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Social – saúde.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a palavra destacada está corretamente classificada entre colchetes.",
+                "opcoes": [
+                      "“agora elas serão colegas de sala e vão cursar Ciências: Biologia e Química” [PAROXÍTONA].",
+                      "“vão viver a experiência de cursarem a graduação juntas” [OXÍTONA].",
+                      "“Já Kate, vai para segunda graduação” [PAROXÍTONA].",
+                      "“para melhorar o currículo” [PROPAROXÍTONA]"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“para melhorar o currículo” [PROPAROXÍTONA]</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Indique a alternativa em que todas as palavras são oxítonas devido à mesma regra.",
+                "opcoes": [
+                      "Poder – tudo – fungir.",
+                      "Agora – vamos – será.",
+                      "Entender – precisar – esquecer.",
+                      "Se – pra – fugir.",
+                      "Ninguém – tudo – também."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Entender – precisar – esquecer.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A classificação das palavras do texto, (milhares, você, telefonema, coração), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, oxítona, paroxítona, oxítona.",
+                      "Paroxítona, oxítona, proparoxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Em 2014, Netinho foi campeão sul-americano com apenas 17 anos, além de medalha de ouro no mundial juvenil e nas Olimpíadas da Juventude.” Quanto à posição da sílaba tônica, as palavras destacadas são classificadas RESPECTIVAMENTE como:",
+                "opcoes": [
+                      "Oxítona – paroxítona – oxítona – proparoxítona - paroxítona.",
+                      "Oxítona – paroxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – proparoxítona – oxítona – proparoxítona - oxítona.",
+                      "Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.",
+                      "Oxítona – oxítona - proparoxítona – paroxítona - paroxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que apresenta a grafia e a classificação corretas de todas as palavras.",
+                "opcoes": [
+                      "paralização (oxítona); taciturno (paroxítona); tranzeunte (paroxítona); rubrica (proparoxítona)",
+                      "paralisação (oxítona); tassiturno (paroxítona); transeunte (paroxítona); rubrica (paroxítona)",
+                      "paralização (oxítona); tassiturno (paroxítona); tranzeunte (paroxítona); rubrica (proparoxítona)",
+                      "paralisação (oxítona); taciturno (paroxítona); transeunte (paroxítona); rubrica (paroxítona)"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>paralisação (oxítona); taciturno (paroxítona); transeunte (paroxítona); rubrica (paroxítona)</strong>. Fonte: Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE/2024. Assunto: tonicidade.",
+                "banca": "Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia o panfleto. De acordo com a posição da sílaba tônica, as palavras: “alerta”, “criadouros”, “médica” e necessária”, presentes no panfleto, podem ser classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona, proparoxítona, paroxítona e paroxítona.",
+                      "oxítona, paroxítona, proparoxítona e proparoxítona.",
+                      "proparoxítona, oxítona, proparoxítona e paroxítona.",
+                      "paroxítona, oxítona, proparoxítona e paroxítona.",
+                      "paroxítona, paroxítona, proparoxítona e proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>proparoxítona, proparoxítona, paroxítona e paroxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito da palavra “natal” (l. 11): I. Trata-se de um substantivo. II. A palavra é oxítona quanto à posição da sílaba tônica. III. Um sinônimo dela seria a palavra “festivo”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras dadas são oxítonas.",
+                "opcoes": [
+                      "armazém; funil; bambu.",
+                      "mandíbula; áspero; eclético.",
+                      "bordado; estante; espelho.",
+                      "vulnerável; espiritual; cantina.",
+                      "interoperabilidade; espectro; amável."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>mandíbula; áspero; eclético.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras “sensível”, “tonalidade” e “escuros”, que ocorrem no texto, têm em comum:",
+                "opcoes": [
+                      "a tonicidade, sendo todas oxítonas.",
+                      "a segmentação silábica, sendo todas trissílabas.",
+                      "a tonicidade, sendo todas paroxítonas.",
+                      "o processo de formação, sendo todas formadas por derivação sufixal.",
+                      "o processo de formação, sendo todas formadas por composição."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a tonicidade, sendo todas oxítonas.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Cametá” é oxítona, assim como",
+                "opcoes": [
+                      "Breves.",
+                      "Bragança.",
+                      "Marituba.",
+                      "Manacapuru."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Manacapuru.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras a seguir. 1. Notícia; 2. Convenção; 3. Parabéns; 4. Câmera. Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "A única palavra paroxítona é a 4.",
+                      "São paroxítonas as palavras 1 e 2.",
+                      "As palavras 2 e 3 são oxítonas.",
+                      "As palavras 3 e 4 são proparoxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A única palavra paroxítona é a 4.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Para acentuar corretamente palavras oxítonas, é suficiente considerar que todas as palavras com a última sílaba tônica recebem acento, independentemente de terminarem em -a, -e, -o, -em, -ens.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sabe-se que na Língua Portuguesa Oficial do Brasil: “A sílaba tônica pode aparecer apenas em três posições: ou ela é a última (café), ou ela é penúltima (amizade) ou ela é a antepenúltima (médico)” (Sacconi, 2008, p. 25). A partir dessa explicação, assinale a alternativa que preencha correta e respectivamente as lacunas. I. São denominados ______ os vocábulos cuja sílaba tônica recai na última sílaba. II. Denominam-se ______ os vocábulos cuja sílaba tônica recai na penúltima sílaba. III. Os vocábulos cuja sílaba tônica recai na antepenúltima sílaba, são denominados ______.",
+                "opcoes": [
+                      "I - parônimos; II - oxímoros; III - prosopopeias",
+                      "I - oxítonos; II - paroxítonos; III - proparoxítonos",
+                      "I - prosopopeias; II - oxítonos; III - paroxítonos",
+                      "I - proparoxítonos; II - monossílabos; III - paradoxos",
+                      "I - proparoxítonos; II - oxítonos; III - paroxítonos"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I - oxítonos; II - paroxítonos; III - proparoxítonos</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de sílaba tônica das palavras, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência correta: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Açúcar. ( ) Pêssego. ( ) Caju.",
+                "opcoes": [
+                      "3 - 2 - 1.",
+                      "1 - 2 - 3.",
+                      "2 - 1 - 3.",
+                      "2 - 3 - 1."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, as palavras até - óbitos - órgãos - após são classificadas RESPECTIVAMENTE como:",
+                "opcoes": [
+                      "Oxítona – proparoxítona –paroxítona - oxítona.",
+                      "Oxítona – paroxítona – oxítona - oxítona.",
+                      "Oxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – paroxítona – proparoxítona - oxítona.",
+                      "Paroxítona – proparoxítona – oxítona - paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona – proparoxítona –paroxítona - oxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao número de sílabas e à tonicidade de palavras do texto, assinale a alternativa correta.",
+                "opcoes": [
+                      "“médio” possui duas sílabas, sendo oxítona.",
+                      "“matemática” possui quatro sílabas, sendo proparoxítona.",
+                      "“críticos” possui três sílabas, sendo paroxítona.",
+                      "“matrículas” possui quatro sílabas, sendo proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“médio” possui duas sílabas, sendo oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Após.",
+                      "Época.",
+                      "Polícia.",
+                      "Crônicas.",
+                      "Infância."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Após.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é classificada como OXÍTONA?",
+                "opcoes": [
+                      "Mané.",
+                      "Lúcido.",
+                      "Bônus.",
+                      "Sol."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mané.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Releia e responda: “Como se precisássemos de máquina fotográfica para guardar na memória as coisas que nos são caras!” Conforme as regras de acentuação gráfica constantes do sistema ortográfico vigente na língua portuguesa, as palavras grifadas, respectivamente, são assim classificadas:",
+                "opcoes": [
+                      "proparoxítona / paroxítona / paroxítona terminada em ditongo crescente",
+                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo decrescente",
+                      "paroxítona / proparoxítona / proparoxítona",
+                      "proparoxítona / proparoxítona / paroxítona terminada em ditongo crescente",
+                      "paroxítona / oxítona / proparoxítona"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>paroxítona / proparoxítona / proparoxítona</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
+                "banca": "FACET Concursos - FACET",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
+                "opcoes": [
+                      "hiato.",
+                      "oxítona.",
+                      "paroxítona.",
+                      "proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>oxítona.</strong>. Fonte: Instituto Verbena/2024. Assunto: tonicidade.",
+                "banca": "Instituto Verbena",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
+                "opcoes": [
+                      "Penúltima, sendo uma palavra paroxítona.",
+                      "Antepenúltima, sendo uma palavra proparoxítona.",
+                      "Última, sendo uma palavra oxítona.",
+                      "Antepenúltima, sendo uma palavra oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Penúltima, sendo uma palavra paroxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras paixão, gargalhadas, depósito, trêmulo, e assinale a alternativa que apresenta, pela ordem, a classificação dessas palavras quanto a posição das sílabas tônicas:",
+                "opcoes": [
+                      "Oxítona, paroxítona, paroxitona, proparoxítona.",
+                      "Oxítona, paroxítona, proparoxitona, proparoxítona.",
+                      "Oxítona, proparoxítona, paroxitona, proparoxítona.",
+                      "Oxítona, paroxítona, proparoxitona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona, paroxítona, paroxitona, proparoxítona.</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2024. Assunto: tonicidade.",
+                "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras oxítonas têm a sílaba tônica na última sílaba. Assinalar a palavra que NÃO é uma oxítona.",
+                "opcoes": [
+                      "Bambolê.",
+                      "Alegre.",
+                      "Ruim.",
+                      "Principal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Bambolê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em qual alternativa a palavra está corretamente classificada quanto à sua acentuação tônica?",
+                "opcoes": [
+                      "Pólen (proparoxítona)",
+                      "Café (oxítona)",
+                      "Atrás (proparoxítona)",
+                      "Símbolo (oxítona)",
+                      "Árvore (paroxítona)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Pólen (proparoxítona)</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a classificação da palavra em relação à sílaba tônica está correta.",
+                "opcoes": [
+                      "urso (oxítona)",
+                      "néctar (oxítona)",
+                      "místico (paroxítona)",
+                      "fazenda (paroxítona)",
+                      "sentimento (proparoxítona)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>urso (oxítona)</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém uma palavra oxítona:",
+                "opcoes": [
+                      "Bisturi.",
+                      "Recorde.",
+                      "Corajoso.",
+                      "Fósforo.",
+                      "Responsáveis."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Fósforo.</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
+                "banca": "FACET Concursos - FACET",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Entre as seguintes palavras, retiradas do texto, assinale a alternativa que apresenta uma oxítona.",
+                "opcoes": [
+                      "Própria.",
+                      "Vários.",
+                      "Explicação.",
+                      "Psicóloga.",
+                      "Máximo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Própria.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto \"Paraense de 18 anos cria tijolo de caroço de açaí\" à sua classificação quanto à tonicidade: Primeira coluna: Classificação da tonicidade (1)Proparoxítona (2)Oxítona (3)Paroxítona Segunda coluna: Palavras do texto (_) Acaí (_) Bagaço (_) Matemática (_) Tijolo (_) Possível (_) Pará (_) Projeto (_) Barbosa Assinale a alternativa que apresenta a associação entre as colunas:",
+                "opcoes": [
+                      "1 - 2 - 2 - 3 - 2 - 1 - 3 -1",
+                      "2 - 3 - 1 - 3 - 3 - 2 - 3 - 3",
+                      "3 - 1 - 2 - 1 - 1 - 3 - 1 - 1",
+                      "1 - 2 - 3 - 2 - 2 - 1 - 2 - 2",
+                      "2 - 1 - 2 - 3 - 1 - 1 - 2 - 2"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2 - 3 - 1 - 3 - 3 - 2 - 3 - 3</strong>. Fonte: Universidade de Blumenau - FURB/2023. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O QUE É COOPERATIVISMO Mais que um modelo de negócios, o cooperativismo é uma filosofia de vida que busca transformar o mundo em um lugar mais justo, feliz, equilibrado e com melhores oportunidades para todos. Um caminho que mostra que é possível unir desenvolvimento econômico e desenvolvimento social, produtividade e sustentabilidade, o individual e o coletivo. Tudo começa quando pessoas se juntam em torno de um mesmo objetivo, em uma organização onde todos são donos do próprio negócio. E continua com um ciclo que traz ganhos para as pessoas, para o país e para o planeta. Fonte: https://paracooperativo.coop.br/coop erativismo/o-que-e-cooperativismo. Acesso em: 20 dez. 2022. Considerando o que foi apresentado, assinale a opção correta:",
+                "opcoes": [
+                      "A palavra “econômico” é paroxítona.",
+                      "A palavra “continua” é proparoxítona.",
+                      "A palavra “negócios” é oxítona.",
+                      "A palavra “sustentabilidade” é paroxítona.",
+                      "A palavra “individual” é proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra “econômico” é paroxítona.</strong>. Fonte: Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil/2023. Assunto: tonicidade.",
+                "banca": "Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Perifrástica.",
+                      "Monossilábica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
+                "banca": "SC Treinamentos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa na qual a palavra NÃO é oxítona:",
+                "opcoes": [
+                      "Dominós.",
+                      "Porém.",
+                      "Você.",
+                      "Terra."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Porém.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
+                "opcoes": [
+                      "Claro (paroxítona).",
+                      "Pérola (proparoxítona).",
+                      "Mexerica (proparoxítona).",
+                      "Pó (oxítona)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Claro (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Releia o trecho a seguir. “Ela era ruim em matemática [...]'' À palavra destacada, quanto à posição da sílaba tônica, é classificada como",
+                "opcoes": [
+                      "átona.",
+                      "oxitona.",
+                      "paroxitona.",
+                      "proparoxitona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>átona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
+                "opcoes": [
+                      "Disputará (oxítona).",
+                      "Caderno (paroxítona).",
+                      "Fenômeno (proparoxítona).",
+                      "Jogador (proparoxítona)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Disputará (oxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cujas duas palavras possuem a mesma classificação quanto ao acento tônico:",
+                "opcoes": [
+                      "Réu e Ponte.",
+                      "Translúcido e sublingual.",
+                      "Tórax e Mão.",
+                      "Fôlego e Estrela.",
+                      "Companhia e Zombaria."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Translúcido e sublingual.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limitada - LJ/2023. Assunto: tonicidade.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limitada - LJ",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras à sua classificação em decorrência de sua acentuação: Primeira coluna: classificação (1) Oxítona (2) Proparoxítona (3) Paroxítona Segunda coluna: palavras (__) Japonês, Geração, Emissão. (__) Carro, Mobilidade, Energia. (__) Veículo, Elétrico, Petróleo. Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "2 - 3 - 1",
+                      "3 - 2 - 1",
+                      "1 - 2 - 3",
+                      "1 - 3 - 2",
+                      "2 - 1 - 3"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>1 - 3 - 2</strong>. Fonte: Universidade de Blumenau - FURB/2023. Assunto: tonicidade.",
+                "banca": "Universidade de Blumenau - FURB",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Além disso, a síndrome também está associada a pessoas com câncer de pulmão, cólon, mama, tireoide etc. As duas palavras que são acentuadas exatamente pela mesma regra são:",
+                "opcoes": [
+                      "câncer - cólon",
+                      "além - também",
+                      "também está",
+                      "está - pulmão"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>câncer - cólon</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quando se analisa qual das sílabas de “aniversário” é a mais forte, percebe-se que tal palavra é uma:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílabo átono.",
+                      "Monossílabo tônico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O primeiro parágrafo do texto apresenta, quanto à acentuação gráfica:",
+                "opcoes": [
+                      "Cinco palavras oxítonas, e pelo menos duas terminadas em “a”.",
+                      "Três monossílabos tônicos.",
+                      "Uma oxítona, dois monossílabos átonos e um tônico.",
+                      "Seis palavras acentuadas graficamente.",
+                      "Quatro palavras, entre elas uma paroxítona terminada em ditongo crescente."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Três monossílabos tônicos.</strong>. Fonte: Instituto Ágata/2023. Assunto: tonicidade.",
+                "banca": "Instituto Ágata",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à tonicidade dos vocábulos de Língua Portuguesa, assinale a alternativa correta:",
+                "opcoes": [
+                      "a palavra homem é oxítona",
+                      "a palavra café é paroxítona",
+                      "a palavra sentimento é proparoxítona",
+                      "a palavra pensamento é proparoxítona",
+                      "a palavra repórter é paroxítona"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a palavra homem é oxítona</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sentir-se cansada após um dia cheio de trabalho, pode ser considerado algo fácil. Contudo, quando esse cansaço é excessivo e vem acompanhado de outros sintomas, como fadiga, exaustão, estafa e esgotamento, é importante buscar ajuda médica. A palavra acentuada por ser uma oxítona é:",
+                "opcoes": [
+                      "é.",
+                      "exaustão.",
+                      "médica.",
+                      "fácil.",
+                      "após."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>médica.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com as palavras oxítonas com ditongo nasal.",
+                "opcoes": [
+                      "Tem; não.",
+                      "Boa; são.",
+                      "Ação; sensação.",
+                      "Vão; você.",
+                      "Mão; explicação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tem; não.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Ainda em relação ao trecho “Na literatura, nas telas do cinema, deparamos com suposições futurísticas que chegamos a duvidar ou até criticar.” As palavras destacadas, são respectivamente:",
+                "opcoes": [
+                      "paroxítona – oxítona – proparoxítona;",
+                      "paroxítona – paroxítona – proparoxítona;",
+                      "todas são paroxítonas;",
+                      "há duas oxítonas e uma proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona – oxítona – proparoxítona;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "É comum a relação entre a doença e movimentos repetitivos, como a digitação no computador, porém, não há comprovação. Assinale a opção CORRETA quanto às regras de acentuação gráfica.",
+                "opcoes": [
+                      "porém: acentuada por ser uma oxítona termina em 'em'.",
+                      "relação: acentuada por ser uma oxítona terminada em 'o'.",
+                      "é: acentuada por ser uma oxítona terminada em 'e'.",
+                      "há: acentuada por ser uma oxítona terminada em 'a'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>porém: acentuada por ser uma oxítona termina em 'em'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere os vocábulos “reminiscentemente” e “jardim” (10º§). Quanto ao número de sílabas e à disposição da sílaba tônica, é correto classificá-las, respectivamente, como",
+                "opcoes": [
+                      "polissílaba e paroxítona; dissílaba e oxítona.",
+                      "trissílaba e proparoxítona; dissílaba e paroxítona.",
+                      "dissílaba e oxítona; monossílaba e proparoxítona.",
+                      "monossílaba e proparoxítona; trissílaba e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>polissílaba e paroxítona; dissílaba e oxítona.</strong>. Fonte: Instituto Consulplan/2023. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A separação silábica é o processo de dividir uma palavra em suas sílabas componentes, seguindo regras específicas. A tonicidade refere-se ao destaque dado a uma sílaba na pronúncia de uma palavra. A sílaba tônica recebe maior intensidade e duração. A determinação da sílaba tônica segue regras diferentes dependendo do padrão da palavra (oxítona, paroxítona, proparoxítona). A correta separação silábica e identificação da sílaba tônica são importantes para a pronúncia eficaz e compreensão das palavras. Diante do exposto, assinale a alternativa em que há uma palavra proparoxítona, uma paroxítona e uma oxítona, respectivamente.",
+                "opcoes": [
+                      "Tirinha, hoje, até.",
+                      "Será, última, nunca.",
+                      "Última, nunca, será.",
+                      "Nunca, será, última.",
+                      "Até, tirinha, hoje."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tirinha, hoje, até.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2023. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona, ou seja, tem a última sílaba tônica?",
+                "opcoes": [
+                      "Perfume.",
+                      "Assombro.",
+                      "Alguém.",
+                      "Caídas.",
+                      "Morte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Alguém.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde todos os exemplos são palavras oxítonas:",
+                "opcoes": [
+                      "geleia - anhembi - anzol",
+                      "aqui – gato - azul",
+                      "avental - azul - condor",
+                      "alcateia – lobo – sapo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>avental - azul - condor</strong>. Fonte: Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH/2023. Assunto: tonicidade.",
+                "banca": "Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas relacionadas à palavra “feminina”, presente na charge. I. Possui o mesmo radical que a palavra “feminismo”. II. A desinência nominal indica o gênero da palavra. III. Possui quatro sílabas e, quanto à tonicidade, é classificada como oxítona. IV. Morfologicamente, cumpre função de adjetivo. É correto o que se afi rma apenas em",
+                "opcoes": [
+                      "II e IV.",
+                      "II e III.",
+                      "I e IV.",
+                      "I e III.",
+                      "I, II e IV."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e IV.</strong>. Fonte: Fundação Universidade de Tocantis - UNITINS/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade de Tocantis - UNITINS",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona.",
+                "opcoes": [
+                      "Saudável.",
+                      "Porém.",
+                      "Cérebro.",
+                      "Saúde.",
+                      "Último."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Saudável.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se as classes de palavras, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. (_) Régua. (_) Cômodo. (_) Jacaré.",
+                "opcoes": [
+                      "1 - 2 - 3.",
+                      "3 - 2 - 1.",
+                      "2 - 1 - 3.",
+                      "2 - 3 - 1.",
+                      "3 - 1 - 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Enquanto a regra atual da Língua Portuguesa determina que o acento agudo é utilizado em palavras proparoxítonas apenas para indicar a sílaba mais forte; nas palavras oxítonas esse acento é usado para indicar quando o vocábulo é um verbo.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "estereótipo, camaleão, metrô.",
+                      "febril, apreciação, neném.",
+                      "verbos, ananás, cafezal.",
+                      "caldo, bússola, música.",
+                      "tênis, verduras, página."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>caldo, bússola, música.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2023. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque as palavras oxítonas escritas com ditongo nasal.",
+                "opcoes": [
+                      "Não; tradição.",
+                      "Transmissão; abstrações.",
+                      "Tão; abstrações.",
+                      "Também; são."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Não; tradição.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à vogal tônica, as palavras são classificadas em oxítonas, paroxítonas e proparoxítonas. Assinalar a alternativa em que há uma palavra oxítona:",
+                "opcoes": [
+                      "Manganês.",
+                      "Explícito.",
+                      "Garagem.",
+                      "Louvável.",
+                      "Látex."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Explícito.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a tonicidade das palavras, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Didático. ( ) Anzóis. ( ) Tátil.",
+                "opcoes": [
+                      "1 - 2 - 3.",
+                      "2 - 1 - 3.",
+                      "3 - 1 - 2",
+                      "1 - 3 - 2."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3 - 1 - 2</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Maçã” é uma palavra classificada como oxítona. Com isso, assinalar a alternativa que apresenta ambas as palavras com a mesma classificação:",
+                "opcoes": [
+                      "Potássio | Benéfico.",
+                      "Abacaxi | Alecrim.",
+                      "Saúde | Físico.",
+                      "Abelha | Zebra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Potássio | Benéfico.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "É incorreto afirmar sobre o vocábulo \"aporofobia\":",
+                "opcoes": [
+                      "é polissílaba.",
+                      "é uma palavra composta.",
+                      "é oxítona.",
+                      "é substantivo abstrato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>é oxítona.</strong>. Fonte: Fundação CETAP/2023. Assunto: tonicidade.",
+                "banca": "Fundação CETAP",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre os componentes estruturais do segundo e do terceiro períodos do (2º§), analise as assertivas: I.No segmento: \"Acredito que a maioria das pessoas se automedica por sugestão de amigos, leitura, fascinação\" − temos sujeito elíptico de primeira pessoa do singular do presente do modo indicativo; conjunção subordinativa integrante; três termos (amigos, leitura, fascinação) que exercem função sintática de complemento nominal de \"sugestão\". II.A palavra \"fascinação\" é oxítona sem acento gráfico que justifique a tonicidade, porque TIL é marca suprassegmental de nasalização da vogal. III.A locução verbal \"tentar manter\" está seguida de objeto direto representado por \"juventude\". IV.O trecho: \"Qualquer que seja a causa, os resultados podem ser danosos\" − inicia com pronome indefinido que faz plural interno; termina com adjetivo com função sintática de predicativo do sujeito \"os resultados\". Marque a opção correta.",
+                "opcoes": [
+                      "II e IV apenas.",
+                      "I, II, III e IV.",
+                      "I, II e III apenas.",
+                      "III e IV apenas.",
+                      "I, III e IV apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II e IV apenas.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2023. Assunto: tonicidade.",
+                "banca": "Universidade do Extremo Sul Catarinense - UNESC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras “importa”, “recurso” e “consumo”, retiradas do texto são, respectivamente:",
+                "opcoes": [
+                      "Trissílabas e paroxítonas;",
+                      "Uma polissílaba e duas trissílabas;",
+                      "Trissílabas, sendo duas paroxítonas e uma oxítona;",
+                      "As duas das extremidades são trissílabas e a do meio polissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Trissílabas e paroxítonas;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas seguintes: I.No texto, existem exemplos de concordâncias ideológicas, entre elas, podemos citar: \"todos sabemos\"; \"todos reconhecemos\". II.As palavras \"ambição\" e \"então\" são oxítonas com som nasal. III.Na frase: \"nas pequenas coisas que temos na vida\", temos um trissílabo paroxítono que faz antônimo com \"grandes\"; temos um pronome relativo após um substantivo dissílabo paroxítono. IV.Na frase: \"A felicidade não deve ser colocada como um objetivo a ser alcançado\" - temos exemplos de conjunções subordinativas conformativas. V.Na frase: \"Você tem mil razões para se sentir feliz\" - temos um numeral que se classifica como multiplicativo. Marque a alternativa com a opção CORRETA.",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "Apenas II, IV e V.",
+                      "Apenas I, II e III.",
+                      "Apenas I, II e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I, II e III.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a posição da sílaba tônica nas palavras, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Jiboia. ( ) Suflê. ( ) Órgão. ( ) Subsídio.",
+                "opcoes": [
+                      "2 - 2 - 1 - 3.",
+                      "3 - 2 - 1 - 2.",
+                      "1 - 3 - 3 - 2.",
+                      "2 - 1 - 2 - 3."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2 - 1 - 2 - 3.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “armário”, presente no segundo quadrinho do texto III, é uma",
+                "opcoes": [
+                      "paroxítona.",
+                      "oxítona.",
+                      "proparoxítona.",
+                      "dissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acém, detém, deténs, entretém, entreténs: são exemplos de palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em e -ens.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que ambas as palavras são oxítonas:",
+                "opcoes": [
+                      "Imaginário | Pavê.",
+                      "História | Sólido.",
+                      "Fácil | Amável.",
+                      "Café | Ninguém."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Imaginário | Pavê.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual dos trios de vocábulos abaixo é formado por palavras oxítonas?",
+                "opcoes": [
+                      "meia | ceia | colmeia.",
+                      "jarra | cimitarra | queijo.",
+                      "cafuné | xilindró | urubu.",
+                      "item | amigo | mesa."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cafuné | xilindró | urubu.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “fenômeno”, por ter tonicidade na antepenúltima sílaba, é classificada como:",
+                "opcoes": [
+                      "Paroxítona.",
+                      "Oxítona.",
+                      "Proparoxítona.",
+                      "Monossílabo tônico.",
+                      "Monossílabo átono."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabo tônico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Estudar essas almas perdidas é importante, segundo a astrônoma, do Instituto de Astrofísica das Ilhas Canárias. De acordo com as regras de acentuação, existe(m) na frase:",
+                "opcoes": [
+                      "Duas proparoxítonas.",
+                      "Um oxítona acentuada terminada em 'e'.",
+                      "Uma paroxítona acentuada por terminar em 's'.",
+                      "Três proparoxítonas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um oxítona acentuada terminada em 'e'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
+                "opcoes": [
+                      "Túnel.",
+                      "Refém.",
+                      "Dócil.",
+                      "Fácil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Túnel.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere as classificações com foco na acentuação e assinale a alternativa correta. (I) A primeira palavra é oxítona. (II) A segunda palavra é paroxítona. (III) A terceira palavra é proparoxítona. (IV) A quarta palavra é um monossílabo tônico.",
+                "opcoes": [
+                      "(I) nós: (II) variável; (III) contratação; (IV) só.",
+                      "(I) precisará; (II) série; (III) mínimo; (IV) há.",
+                      "(I) nós: (II) variável; (III) você; (IV) só.",
+                      "(I) mas: (II) estratégia; (III) contratação; (IV) irá.",
+                      "(I) você: (II) mínimo; (III) estratégia; (IV) é."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>(I) precisará; (II) série; (III) mínimo; (IV) há.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
+                "opcoes": [
+                      "Baixas.",
+                      "Principal.",
+                      "Inverno.",
+                      "Quantidade.",
+                      "Corpo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Principal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra oxítona escrita com dígrafo e com duas palavras escritas com encontro consonantal, respectivamente.",
+                "opcoes": [
+                      "Qual; importa; chegar.",
+                      "Porque; frente; indícios.",
+                      "Nossos; conseguir; demonstrar.",
+                      "Ninguém; sempre; grande.",
+                      "Jamais; principal; olhar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nossos; conseguir; demonstrar.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta a única palavra, das retiradas do texto, que NÃO é paroxítona:",
+                "opcoes": [
+                      "Morte.",
+                      "Edifício.",
+                      "Água.",
+                      "Jardim."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Edifício.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa errada.",
+                "opcoes": [
+                      "Duro (paroxítona).",
+                      "Lâmpada (proparoxítona).",
+                      "Pé (oxítona).",
+                      "Milhão (paroxítona)."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Milhão (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras café, cipó e coração são oxítonas, pois a sílaba tônica se encontra demarcada na última sílaba.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Essas instituições financeiras, por sua vez, falam com o Banco do Brasil para conseguir as moedas.”, a palavra sublinhada é CORRETAMENTE classificada como:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação tônica das palavras, marque a alternativa onde temos apenas oxítonas.",
+                "opcoes": [
+                      "Café – porém – urubu.",
+                      "Fácil – vírus – tênis.",
+                      "Ética – século – espetáculo.",
+                      "Picolé – guarani – hipótese."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Café – porém – urubu.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
+                "opcoes": [
+                      "Brasil.",
+                      "Gênero.",
+                      "Psicólogo.",
+                      "Emprego.",
+                      "Família."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Gênero.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a palavra que NÃO é oxítona:",
+                "opcoes": [
+                      "amém;",
+                      "nuvem;",
+                      "refém;",
+                      "porém."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>nuvem;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe os vocábulos subtraídos do texto. Assinale a alternativa que contenha as seguintes sequências RESPECTIVAMENTE em suas especificações: monossílabo tônico – oxítona – paroxítona e proparoxítona.",
+                "opcoes": [
+                      "vida – café – todos – preencheram.",
+                      "não – como – talvez – decoração.",
+                      "é – café – automóveis – próximo.",
+                      "é – não – talvez – vai.",
+                      "vai – talvez – não – é."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>é – café – automóveis – próximo.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre a tonicidade das palavras, assinalar a alternativa que contém uma palavra oxítona:",
+                "opcoes": [
+                      "Anil.",
+                      "Cansaço.",
+                      "Felicidade.",
+                      "Particularidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Anil.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Releia este trecho. “[...] Departamento Florestal de Mianmar, país asiático.” Assinale a alternativa que apresenta as classificações corretas da palavra destacada quanto ao número de sílabas e à sílaba tônica.",
+                "opcoes": [
+                      "Monossílaba– Paroxítona.",
+                      "Trissílaba– Oxítona.",
+                      "Dissílaba– Oxítona.",
+                      "Polissílaba– Proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílaba– Paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras ACÉM, PONTAPÉ, DETÉM, ANÉIS são acentuadas seguindo a regra das:",
+                "opcoes": [
+                      "Paroxítonas",
+                      "Oxítonas",
+                      "Proparoxítonas",
+                      "Monossílabos tônicos"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Monossílabos tônicos</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2023. Assunto: tonicidade.",
+                "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Sábado.",
+                      "Evangélica.",
+                      "Católicos.",
+                      "Ceará.",
+                      "Cerimônia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sábado.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2023. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
+                "opcoes": [
+                      "Tamanduá.",
+                      "Repórter.",
+                      "Látex.",
+                      "Almíscar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tamanduá.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Relativamente a aspectos gramaticais, leia as assertivas: I. Os três vocábulos com acento circunflexo do texto são oxítonos. II. trabalhadores é o único vocábulo polissílabo da tirinha. III. Os dois-pontos (:) empregados no terceiro quadrinho iniciam uma citação. Pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas II e III estão corretas.",
+                      "Apenas I está correta.",
+                      "Apenas I e II estão corretas.",
+                      "I, II e III estão corretas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I está correta.</strong>. Fonte: Instituto de Estudos Superiores do Extremo Sul - IESES/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Estudos Superiores do Extremo Sul - IESES",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir, a respeito da palavra “insuperáveis” (l. 17): I. A palavra foi formada a partir do verbo “superar” por dois processos consecutivos de derivação: sufixal, primeiro, e prefixal, depois. II. Pode-se apontar como sinônimo possível para essa palavra o vocábulo “invencíveis”. III. Em sua forma singular, a palavra torna-se oxítona. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Preencha a segunda coluna de acordo com a primeira: (1) médico (2) pediatra (3) fazer ( ) oxítona ( ) paroxítona ( ) proparoxítona",
+                "opcoes": [
+                      "3 - 2 – 1.",
+                      "1 - 3 – 2.",
+                      "2 - 1 – 3.",
+                      "1 - 2 – 3."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3 - 2 – 1.</strong>. Fonte: PCN Concursos Públicos/2023. Assunto: tonicidade.",
+                "banca": "PCN Concursos Públicos",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Cortês, dê, dês (de dar), lê, lês: são exemplos de palavras oxítonas terminadas nas vogais tônicas fechadas grafadas -e ou -o, seguidas ou não de -s.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          }
+    ],
+    "digrafos": [
+          {
+                "enunciado": "Os dígrafos podem ser classificados em consonantais e vocálicos. Nesse sentido, qual das palavras a seguir possui no mínimo 1 dígrafo vocálico?",
+                "opcoes": [
+                      "hormônios.",
+                      "melhora.",
+                      "corrigir.",
+                      "intestino."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>melhora.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que o dígrafo da palavra está corretamente identificado.",
+                "opcoes": [
+                      "Problemas (bl).",
+                      "Certeza (rt).",
+                      "Saúde (aú).",
+                      "Pratos (pr).",
+                      "Gostinho (nh)."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Gostinho (nh).</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra não apresenta dígrafo:",
+                "opcoes": [
+                      "Problema",
+                      "Melhor",
+                      "Errado",
+                      "Professora"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Melhor</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: digrafos.",
+                "banca": "Projetos para Municípios - PROMUN",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Fonemas são os sons da fala (unidade sonora), enquanto letras são sua representação escrita; um dígrafo é quando duas letras se juntam para formar um único fonema (um só som), havendo dígrafos consonantais e vocálicos, o que causa uma diferença entre o número de letras e o número de sons em uma palavra. Nesse sentido, qual das alternativas apresenta uma palavra do texto composto por dígrafo vocálico?",
+                "opcoes": [
+                      "possível.",
+                      "presença.",
+                      "história.",
+                      "escolher."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possível.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta uma palavra com dígrafo em sua formação?",
+                "opcoes": [
+                      "Interesse.",
+                      "Aventura.",
+                      "Brasil.",
+                      "Especialistas.",
+                      "Desafios."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Interesse.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Chalé – Terreno.",
+                      "Prefeitura – Terreno.",
+                      "Frente – Fechado.",
+                      "Proposta – Necessário.",
+                      "Sobrado – Estrutural."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chalé – Terreno.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo (encontro de duas letras que emitem um único som na pronúncia).",
+                "opcoes": [
+                      "Saúde.",
+                      "Artificial.",
+                      "Conselho.",
+                      "Distorcida."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Conselho.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a identificação de dígrafos consonantais e vocálicos nas palavras “sussurros” e “assentar”, complete corretamente as lacunas, indicando, respectivamente, o número de dígrafos presentes em cada vocábulo: Na palavra “sussurros” há ______ dígrafos, e na palavra “assentar” há ______ dígrafos.",
+                "opcoes": [
+                      "dois e um.",
+                      "dois e dois.",
+                      "um e um.",
+                      "três e um.",
+                      "um e dois."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um e um.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto à configuração fonética de vocábulos do texto, é CORRETO afirmar que:",
+                "opcoes": [
+                      "Em colorido, há dígrafo consonantal em or.",
+                      "Em chacina, há dígrafo consonantal em ch.",
+                      "Em conviver, há dígrafo vocálico em vi.",
+                      "Em passamos, há dígrafo vocálico em ss.",
+                      "Em qualquer, há dígrafo consonantal em ambas as ocorrências de qu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em colorido, há dígrafo consonantal em or.</strong>. Fonte: Legalle Concursos/2026. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Fraturar – Chefe.",
+                      "Brasileiro – Sucesso.",
+                      "Mergulho – Espinhal.",
+                      "Protocolo – Ocorreu.",
+                      "Promissora – Aplicado."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Mergulho – Espinhal.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Tramita na Câmara dos Deputados um projeto de lei que altera a Lei Maria da Penha para afastar agressores das vítimas quando ambos atuarem no serviço público.\" Considerando os encontros consonantais, os dígrafos e os encontros vocálicos, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "O vocábulo 'Tramita' apresenta encontro consonantal, em 'público' há encontro consonantal e em 'para' há o mesmo número de letras e fonemas.",
+                      "O vocábulo 'agressores' apresenta dígrafo consonantal, em 'vítimas' todas as letras são pronunciadas e em 'Lei' há um encontro vocálico.",
+                      "O vocábulo 'Câmara' apresenta um encontro vocálico, em 'que' há um dígrafo consonantal e em 'Deputados' o número de letras é igual ao número de fonemas.",
+                      "O vocábulo 'Maria' apresenta encontro vocálico; em 'Lei' há um ditongo e em 'encontro' há mais letras do que fonemas.",
+                      "O vocábulo 'projeto' apresenta encontro consonantal, em 'ambos' há mais letras do que fonemas e em 'Penha' há dígrafo consonantal inseparável."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'Tramita' apresenta encontro consonantal, em 'público' há encontro consonantal e em 'para' há o mesmo número de letras e fonemas.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras abaixo e marque a alternativa que apresenta, apenas, vocábulos com dígrafos consonantai",
+                "opcoes": [
+                      "gosto, coisa, mas.",
+                      "arranjava, esse, lhe.",
+                      "morena, igual, com.",
+                      "quando, falar, mal."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>arranjava, esse, lhe.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Privada – Processo.",
+                      "Regressiva – Correta.",
+                      "Carga – Esse.",
+                      "Checagem – Marca.",
+                      "Ocorrer – Sistema."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Regressiva – Correta.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a palavra contenha um dígrafo consonantal.",
+                "opcoes": [
+                      "Medo.",
+                      "Farda.",
+                      "Existe.",
+                      "Deixar.",
+                      "Passou."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Passou.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra do Texto I com dígrafo consonantal.",
+                "opcoes": [
+                      "tempo.",
+                      "filho.",
+                      "vida.",
+                      "mesa.",
+                      "agora."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>filho.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2026. Assunto: digrafos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com relação ao número de fonemas e dígrafos de vocábulos do texto, é INCORRETO afirmar que:",
+                "opcoes": [
+                      "Em corrosiva ocorre 1 dígrafo consonantal.",
+                      "A palavra nunca possui 4 fonemas e 1 dígrafo.",
+                      "A palavra pessoas possui 1 dígrafo consonantal.",
+                      "Na palavra momento não há ocorrência de dígrafos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Na palavra momento não há ocorrência de dígrafos.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Vezes – Confessou.",
+                      "Crime – Assassinato.",
+                      "Sobre – Preso.",
+                      "Processo – Linha.",
+                      "Recorreram – Abordado."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Processo – Linha.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando que dígrafo ocorre quando duas letras representam um único fonema, assinale a alternativa correta quanto às ocorrências presentes no período \"Ao reconhecer como certos comportamentos são percebidos, muitas pessoas descobrem que a imagem de autoridade excessiva ou frieza não corresponde ao que desejam transmitir\".",
+                "opcoes": [
+                      "Há dígrafos consonantais em \"muitas\" e \"pessoas\", e dígrafos vocálicos em \"reconhecer\" e \"corresponde\".",
+                      "Há dígrafos consonantais em \"imagem\", \"autoridade\" e \"transmitir\", e dígrafo vocálico em \"pessoas\" e \"muitos\".",
+                      "Há dígrafos consonantais em \"reconhecer\" e \"excessiva\", e dígrafos vocálicos em \"comportamentos\" e \"descobrem\".",
+                      "Há dígrafo consonantal em \"frieza\" e \"pessoas\" e dígrafos vocálicos em \"descobrem\" e \"desejam\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há dígrafos consonantais em \"muitas\" e \"pessoas\", e dígrafos vocálicos em \"reconhecer\" e \"corresponde\".</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto ao número de fonemas e dígrafos (vocálicos e consonantais), é INCORRETO afirmar que:",
+                "opcoes": [
+                      "imperfeitos possui 10 fonemas e 1 dígrafo.",
+                      "apressadinha possui 11 fonemas e 2 dígrafos.",
+                      "mulher possui 5 fonemas e 1 dígrafo.",
+                      "mantenha possui 6 fonemas e 1 dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>imperfeitos possui 10 fonemas e 1 dígrafo.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Em 2025, a prova voltou a valer como certificado de conclusão da educação básica para quem não terminou a escola, como o Diogo. Mas o Inep, órgão do Ministério da Educação responsável pelo Enem, ainda não emitiu o documento que ele precisa para se matricular na faculdade de Psicologia. O medo é de perder a vaga.\" Com base na fonética e na fonologia, complete as lacunas dos enunciados a seguir: I.O vocábulo___apresenta encontro consonantal, dígrafo vocálico e encontro vocálico. II.O vocábulo ___ apresenta dígrafo consonantal, pois duas letras representam o som de uma única consoante. III.O vocábulo___ apresenta o mesmo número de letras e fonemas, uma vez que todas as letras são pronunciadas. IV.O vocábulo___apresenta mais letras do que fonemas. A sequência que completa as lacunas correta e respectivamente é:",
+                "opcoes": [
+                      "Conclusão, quem, certificado, documento",
+                      "Órgão, que, matricular, precisa.",
+                      "Educação, que, ainda, Psicologia.",
+                      "Órgão, quem, documento, ainda.",
+                      "Ministério, terminou, como, escola."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Educação, que, ainda, Psicologia.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na ortografia da língua portuguesa, o emprego de ss e rr obedece a regularidades específicas no interior das palavras, o que exige atenção à formação e à escrita correta dos vocábulos. Considerando esse aspecto, assinale a alternativa em que o conjunto de palavras apresenta uma grafia incorreta.",
+                "opcoes": [
+                      "Passarela — carreira — assobio.",
+                      "Ressaca — terrível — enrriquecer.",
+                      "Corretíssimo — carroça — agressivo.",
+                      "Barreira — presságio — arrumação."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ressaca — terrível — enrriquecer.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra, retirada do texto, apresenta dígrafo:",
+                "opcoes": [
+                      "Grosa.",
+                      "Brenha.",
+                      "Verso.",
+                      "Pobre."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Brenha.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2026. Assunto: digrafos.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na análise fonológica das palavras, deve-se considerar que o número de fonemas nem sempre corresponde ao número de letras, além de identificar a presença de dígrafos vocálicos ou consonantais. Considerando as palavras birra, máquina, conservadorismo e confesso, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "birra possui 4 fonemas e apresenta 1 dígrafo consonantal.",
+                      "confesso possui 6 fonemas e apresenta 1 dígrafo consonantal e 1 dígrafo vocálico.",
+                      "máquina possui 6 fonemas e apresenta 1 dígrafo consonantal.",
+                      "conservadorismo possui 14 fonemas e não apresenta dígrafo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>conservadorismo possui 14 fonemas e não apresenta dígrafo.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras NÃO possuam dígrafos:",
+                "opcoes": [
+                      "Carinho – Pessoas.",
+                      "Detalhes – Processo.",
+                      "Esclerose – Grato.",
+                      "Acarreta – Falhas.",
+                      "Progressão – Caminhar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Carinho – Pessoas.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Dígrafos ocorrem quando duas letras representam um único som (fonema). Dígrafos vocálicos produzem sons vocálicos nasais. Dígrafos consonantais representam um som consonantal único. Nesse sentido, são exemplos de palavras compostas por dígrafos, EXCETO:",
+                "opcoes": [
+                      "pausa.",
+                      "pequeno.",
+                      "gradiente.",
+                      "desemprego."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>pequeno.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com base nas palavras presentes no título e nos balões da charge, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F): ( ) Na palavra TRABALHO, a junção das consoantes L e H constitui um dígrafo, pois ambas as letras representam juntas um único fonema, e a sua separação silábica normativa obedece à forma TRA - BA - LHO. ( ) O vocábulo MENTAL classifica-se morfologicamente como um adjetivo, e a sua sílaba tônica recai com maior intensidade sobre a última sílaba, caracterizando estruturalmente uma palavra oxítona. ( ) Na palavra SAÚDE, a união das vogais A e U forma um encontro classificado como ditongo inseparável, motivo pelo qual a sua correta divisão silábica possui apenas duas sílabas indivisíveis: SAU - DE. Qual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+                "opcoes": [
+                      "V - V - F.",
+                      "F - V - V.",
+                      "V - F - V.",
+                      "F - F - V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V - V - F.</strong>. Fonte: Legalle Concursos/2026. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Não ocorre dígrafos em:",
+                "opcoes": [
+                      "desinteresse.",
+                      "completamente.",
+                      "proteger.",
+                      "conquistar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>desinteresse.</strong>. Fonte: Gama Consultoria/2026. Assunto: digrafos.",
+                "banca": "Gama Consultoria",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"No primeiro episódio, o tema será saúde mental, assunto cada vez mais urgente no debate público e nas redes sociais. Padilha recebe a psicóloga e criadora de conteúdo Karen Scavacini e a cientista social e influenciadora Nataly Neri.\" Considerando os vocábulos presentes no trecho e no texto-base, identifique a alternativa em que todas as palavras apresentam dígrafo.",
+                "opcoes": [
+                      "Assunto e mental.",
+                      "Psicóloga e criadora.",
+                      "Padilha e primeiro.",
+                      "Acesso e percurso."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Assunto e mental.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Das palavras a seguir, qual NÃO possui dígrafo?",
+                "opcoes": [
+                      "chão.",
+                      "minha.",
+                      "precisa.",
+                      "aterrador."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>chão.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo consonantal, como na palavra “carro”.",
+                "opcoes": [
+                      "Peles.",
+                      "Músicos.",
+                      "Maestro.",
+                      "Chiado.",
+                      "Regente."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chiado.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra do poema apresenta dígrafo consonantal?",
+                "opcoes": [
+                      "Colchão.",
+                      "Árvore.",
+                      "Viadutos.",
+                      "Lixo.",
+                      "Fome."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Colchão.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Todos os vocábulos a seguir apresentam dígrafo vocálico ou consonantal, EXCETO:",
+                "opcoes": [
+                      "Respeitar.",
+                      "Ataques.",
+                      "Pacientes.",
+                      "Fantasia.",
+                      "Banho."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ataques.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo (duas letras com um som).",
+                "opcoes": [
+                      "Solar.",
+                      "Garrafa.",
+                      "Esforço.",
+                      "Calor.",
+                      "Lazer."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Garrafa.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Identifique a alternativa que contém apenas DÍGRAFOS consonantais.",
+                "opcoes": [
+                      "Chuva, Arroz, Massa.",
+                      "Bloco, Prata, Creme.",
+                      "Campo, Ponte, Lindo.",
+                      "Apto, Subsolo, Ritmo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chuva, Arroz, Massa.</strong>. Fonte: Prefeitura de Farias Brito - CE/2026. Assunto: digrafos.",
+                "banca": "Prefeitura de Farias Brito - CE",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Observe as alternativas abaixo e marque aquela na qual todas as palavras apresentam dígrafos consonantais:",
+                "opcoes": [
+                      "gente, muito, logo, ali.",
+                      "estivessem, chegamos, caminhos, compromissos.",
+                      "gente, diante, quem, casa.",
+                      "sempre, mundo, viajar, aberta."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>estivessem, chegamos, caminhos, compromissos.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na língua portuguesa, os dígrafos podem ser classificados como consonantais ou vocálicos. Nesse sentido, qual das alternativas a seguir apresenta um vocábulo composto apenas por dígrafo consonantal?",
+                "opcoes": [
+                      "erro.",
+                      "intacto.",
+                      "levando.",
+                      "inchadas.",
+                      "enquanto."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>erro.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta um dígrafo consonantal em uma das palavras retiradas do texto:",
+                "opcoes": [
+                      "mudanças.",
+                      "trabalho.",
+                      "impacto.",
+                      "mercado.",
+                      "propagada."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>mudanças.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2026. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Essa mudança também afeta a escrita, pois está associada à diminuição dos hábitos de leitura. Assinale a alternativa CORRETA quanto à identificação de dígrafo na frase.",
+                "opcoes": [
+                      "A palavra \"associada\" apresenta dígrafo consonantal em \"ss\", representando um único som.",
+                      "A palavra \"leitura\" apresenta dígrafo vocálico em \"ei\", pois o encontro de duas vogais forma um único som indivisível na pronúncia.",
+                      "A palavra \"escrita\" apresenta dígrafo consonantal em \"cr\", pois o encontro de consoantes representa um único som articulado.",
+                      "A palavra \"também\" apresenta dígrafo vocálico em \"ém\", pois a presença do acento indica nasalização representada por duas letras."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra \"associada\" apresenta dígrafo consonantal em \"ss\", representando um único som.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando os vocábulos churrasco, desenvoltura e enterrada e a presença de dígrafos consonantais e vocálicos, além da diferença entre letras e fonemas, analise as assertivas: I. Em churrasco, há dois dígrafos consonantais, e a palavra apresenta 7 fonemas. II. Em desenvoltura, há um dígrafo vocálico e a palavra apresenta 11 fonemas. III. Em enterrada, há dois dígrafos, um vocálico e um consonantal, e a palavra apresenta 7 fonemas. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, II e III.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa INCORRETA quanto ao emprego de S, SS, Ç, C, SC ou XC.",
+                "opcoes": [
+                      "Excesso",
+                      "Ascensão",
+                      "Exceção",
+                      "Concessão",
+                      "Pretenção"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ascensão</strong>. Fonte: Instituto de Gestão em Educação, Capacitação e Aperfeiçoamento Profissional - IGECAP/2026. Assunto: digrafos.",
+                "banca": "Instituto de Gestão em Educação, Capacitação e Aperfeiçoamento Profissional - IGECAP",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras extraídas do texto e marque a alternativa que contém dígrafos consonantais:",
+                "opcoes": [
+                      "corporal, tempo, forma.",
+                      "boa, ricos, bebidas.",
+                      "escolha, que, isso.",
+                      "fibras, dia, mas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>escolha, que, isso.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA quanto à ocorrência de dígrafos consonantais nas palavras: gargalhada, porteiro, revista e caminho.",
+                "opcoes": [
+                      "As palavras gargalhada e caminho apresentam dígrafos consonantais.",
+                      "Somente a palavra revista apresenta dígrafo consonantal.",
+                      "Todas as palavras apresentam dígrafos consonantais, pois possuem encontros de consoantes.",
+                      "Apenas as palavras porteiro e revista apresentam dígrafos consonantais.",
+                      "Somente a palavra porteiro apresenta dígrafo consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As palavras gargalhada e caminho apresentam dígrafos consonantais.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2026. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir e marque a alternativa que apresenta um hiato, um dígrafo, um ditongo crescente e um tritongo respectivamente:",
+                "opcoes": [
+                      "tópico, crônico, ansiolíticos, filósofo",
+                      "saúde, antidepressivos, lobotomia, averiguei.",
+                      "recaía, médico, silêncio, outros.",
+                      "psíquico, deletérios, submetia, cérebro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Pessoas – Bairro.",
+                      "Brasil – Milhões.",
+                      "Outubro – Encarregado.",
+                      "Programa – Assinou.",
+                      "Interessados – Projetos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Pessoas – Bairro.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na lista abaixo, a alternativa em que todas as palavras apresentam dígrafo consonantal é:",
+                "opcoes": [
+                      "prato, clima, grito, bloco.",
+                      "casa, mapa, menino, pedra.",
+                      "caixa, feira, peixe, muito.",
+                      "chave, folha, ninho, carro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>chave, folha, ninho, carro.</strong>. Fonte: JVL Concursos/2026. Assunto: digrafos.",
+                "banca": "JVL Concursos",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras (retiradas do texto) apresentam dígrafo consonantal.",
+                "opcoes": [
+                      "Chego – colega – corredor.",
+                      "Chego – maquininha – corredor.",
+                      "Maquininha – vergonha – fila.",
+                      "Corredor – promessas – cafeína.",
+                      "Balcão – ritual – intervalo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Chego – maquininha – corredor.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: digrafos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "“O silêncio envolvia Augusto enquanto ele observava a movimentação suave dos funcionários da estação.” Considerando que, na língua portuguesa, nem sempre há correspondência direta entre letras e fonemas, especialmente em palavras que apresentam dígrafos, encontros consonantais ou encontros vocálicos, assinale a alternativa cuja palavra apresenta igualdade entre o número de letras e o número de fonemas, sem ocorrência de dígrafo ou ditongo.",
+                "opcoes": [
+                      "silêncio",
+                      "suave",
+                      "dos",
+                      "estação"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>estação</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: digrafos.",
+                "banca": "Prefeitura de Barra do Bugres - MT",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que NÃO tem dígrafo (encontro de duas letras que emitem um único som na pronúncia).",
+                "opcoes": [
+                      "Aranhas.",
+                      "Teias.",
+                      "Estresse.",
+                      "Galhos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Aranhas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A relação entre as letras e os fonemas revela particularidades na escrita de diversas palavras. Considerando isso, leia o trecho inicial da fala do menino na charge: MAS ESSE NEGÓCIO. Considerando a grafia das palavras, é CORRETO afirmar que.",
+                "opcoes": [
+                      "A palavra ESSE apresenta um encontro consonantal, pois as duas consoantes representam sons diferentes no momento da fala.",
+                      "O vocábulo NEGÓCIO possui uma dígrafo perfeito, já que as vogais juntas formam um único som nasal.",
+                      "A palavra ESSE possui um dígrafo, pois as duas letras grafadas juntas (ss) representam um único fonema na fala.",
+                      "As letras da palavra MAS formam um encontro vocálico classificado como hiato.",
+                      "A separação silábica correta da palavra ESSE orienta que as duas consoantes devem ser mantidas sempre juntas na mesma sílaba: e-sse."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A palavra ESSE possui um dígrafo, pois as duas letras grafadas juntas (ss) representam um único fonema na fala.</strong>. Fonte: Legalle Concursos/2026. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra que apresenta um dígrafo é:",
+                "opcoes": [
+                      "Pleito.",
+                      "Crucifixo.",
+                      "Milhões.",
+                      "Atadura.",
+                      "Fulcro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Milhões.</strong>. Fonte: Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM/2026. Assunto: digrafos.",
+                "banca": "Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos consonantais foram empregados no terceiro parágrafo do texto? (Observação: considere as repetições.)",
+                "opcoes": [
+                      "Dois dígrafos.",
+                      "Quatro dígrafos.",
+                      "Seis dígrafos.",
+                      "Nenhum dígrafo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Nenhum dígrafo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dígrafo, encontro consonantal, ditongo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo contém um dígrafo, assim como a palavra “bilhões”?",
+                "opcoes": [
+                      "Cédula.",
+                      "Débito.",
+                      "Cheque.",
+                      "Loteria.",
+                      "Sorte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Cheque.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra abaixo apresenta dígrafo?",
+                "opcoes": [
+                      "Gestores.",
+                      "Atualidade.",
+                      "Felicidade.",
+                      "Trabalho.",
+                      "Resultados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Trabalho.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale alternativa que apresenta uma palavra que contém dígrafo.",
+                "opcoes": [
+                      "Tapetes.",
+                      "Cortinas.",
+                      "Azulejo.",
+                      "Cômodo.",
+                      "Banheiro."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Banheiro.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo, assim como a palavra \"escolha\".",
+                "opcoes": [
+                      "Livro.",
+                      "Família.",
+                      "Leitura.",
+                      "Medalha.",
+                      "Mobília."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Medalha.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras apresentem dígrafos:",
+                "opcoes": [
+                      "Estado – Clínico.",
+                      "Procurar – Caso.",
+                      "Madrugada – Bebidas.",
+                      "Ressaca – Morreu.",
+                      "Morte – Possível."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ressaca – Morreu.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras abaixo: Chuva - Loucura - Coração - Primavera Qual delas possui um dígrafo?",
+                "opcoes": [
+                      "Primavera.",
+                      "Loucura.",
+                      "Coração.",
+                      "Chuva."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Coração.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2025. Assunto: digrafos.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra chave, identifique se há dígrafo:",
+                "opcoes": [
+                      "Sim, ch é dígrafo consonantal.",
+                      "Sim, av é dígrafo consonantal.",
+                      "Não possui dígrafo.",
+                      "Sim, e é dígrafo vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sim, ch é dígrafo consonantal.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"A esse quadro se soma um contexto político e cultural que agrava o peso sobre os ombros docentes: a voz crítica e política do professor — talvez sua ferramenta basilar — vem sendo sistematicamente contestada, tolhida, vigiada.\" Com base na fonologia e na fonética, assinale V para as afirmativas verdadeiras e F para as falsas. (__)O vocábulo 'quadro' apresenta, em sua estrutura fonológica, um encontro consonantal formado por duas consoantes distintas, e um dígrafo consonantal representado pelas letras 'qu', que correspondem a um único fonema; já o vocábulo 'sua' contém um encontro vocálico inseparável. (__)O vocábulo 'ferramenta' apresenta, em sua estrutura fonológica, um dígrafo consonantal, formado por duas letras que representam um único fonema, e também um dígrafo vocálico, no qual duas letras produzem um único som vocálico. (__)O vocábulo 'contestada' apresenta um encontro consonantal disjunto e um dígrafo vocálico. (__) O vocábulo 'sistematicamente' possui igualmente o mesmo número de letras e fonemas. Já o vocábulo 'tolhida' apresenta número de letras diferente do número de fonemas. A sequência que preenche corretamente os itens acima, de cima para baixo, é:",
+                "opcoes": [
+                      "V, V, F, V.",
+                      "V, F, V, V.",
+                      "V, V, V, V.",
+                      "F, V, V, F.",
+                      "F, V, F, F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>F, V, F, F.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual NÃO haja a ocorrência de um dígrafo.",
+                "opcoes": [
+                      "Linda.",
+                      "Cedilha.",
+                      "Ombro.",
+                      "Jejum.",
+                      "Calem."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Cedilha.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "De acordo com os diferentes tipos de dígrafos, avaliar se as afirmativas são certas (C) ou erradas (E) e assinalar a sequência correspondente. ( ) “Igualdade” apresenta dígrafo vocálico. ( ) “Plantio” apresenta dígrafo consonantal. ( ) “Discernir” apresenta dígrafo consonantal. ( ) “Ampliar” apresenta dígrafo vocálico.",
+                "opcoes": [
+                      "E - E - E - C.",
+                      "C - C - E - E.",
+                      "E - C - E - C.",
+                      "C - E - C - E.",
+                      "E - E - C - C."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>C - E - C - E.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra \"equiparando\", analise as afirmativas abaixo: I. A palavra possui dois dígrafos. II. O número total de letras é 11, mas o número de fonemas é 10. III. Os dígrafos presentes são \"qu\" e \"rr\". Está correto o que se afirma em:",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II e III.",
+                      "Apenas I e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se a fonologia e a ocorrência de dígrafo nas palavras abaixo, analisar os itens. I. Quiabo. II. Escola. III. Igual. IV. Guisado. Está CORRETO o que se afirma:",
+                "opcoes": [
+                      "Apenas no item I.",
+                      "Apenas nos itens II e III.",
+                      "Apenas nos itens I, III e IV.",
+                      "Apenas nos itens I e IV."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas nos itens I e IV.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todos os dígrafos estejam escritos corretamente:",
+                "opcoes": [
+                      "passar - arremeço - caminho - flexa",
+                      "nasça - falha - flexa - ascensão",
+                      "ascensão - falha - flecha - arremesso",
+                      "flecha - eceto - cachorro - naça"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ascensão - falha - flecha - arremesso</strong>. Fonte: FAMA Assessoria e Consultoria em Gestão Pública/2025. Assunto: digrafos.",
+                "banca": "FAMA Assessoria e Consultoria em Gestão Pública",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Cigarro.",
+                      "Pessoas.",
+                      "Fechado.",
+                      "Decreto.",
+                      "Bairros."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cigarro.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Professor.",
+                      "Terra.",
+                      "Março.",
+                      "Processos.",
+                      "Chineses."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Professor.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A fonologia estuda os sons da língua em seu funcionamento estrutural, analisando como eles se organizam e produzem sentido dentro do sistema linguístico. Nesse campo, destacam-se os encontros vocálicos, encontros consonantais e dígrafos. Nesse contexto, assinale a alternativa cuja palavras em destaque NÃO apresente um dígrafo:",
+                "opcoes": [
+                      "...e ilumina este mundo no primeiro choro saudando a luz.",
+                      "Umas demoras mais, outras são quase tão rápidas quanto a queda de um raio...",
+                      "As tempestades passam e dão lugar a um sol mais limpo e mais brilhante...",
+                      "...além de qualquer possibilidade, até mesmo para o sonho."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>...além de qualquer possibilidade, até mesmo para o sonho.</strong>. Fonte: Instituto ACCESS - ACCESS/2025. Assunto: digrafos.",
+                "banca": "Instituto ACCESS - ACCESS",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando os conceitos de letra e fonema e de dígrafos vocálicos e consonantais, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Não há dígrafos consonantais em \"tenho\" e \"filha\".",
+                      "Há mais letras do que fonemas em \"isso\", \"porque\", \"tenho\" e \"filha\".",
+                      "A quantidade de letras corresponde ao número de fonemas em \"diplomamos\" e \"mandando\".",
+                      "Há tanto dígrafos consonantais quanto vocálicos em \"isso\" e \"porque\".",
+                      "Há somente dígrafos vocálicos em \"mandando\" e \"mesmo\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Não há dígrafos consonantais em \"tenho\" e \"filha\".</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A respeito dos aspectos gramaticais do trecho e das regras ortográficas da norma culta, analise as proposições a seguir: I.A palavra \"fracassadas\" exerce função de adjetivo, qualificando o substantivo \"pessoas\", com o qual concorda em gênero e número. II.A palavra \"sucesso \" possui dígrafo consonantal, o que interfere diretamente na divisão silábica normativa. III.A palavra \"pérolas\" é acentuada por ser uma proparoxítona. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "I, II e III.",
+                      "II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Junho.",
+                      "Atleta.",
+                      "Minha.",
+                      "Milhão.",
+                      "Professora."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Junho.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos consonantais foram empregados no terceiro parágrafo do texto? (Observação: considere as repetições.)",
+                "opcoes": [
+                      "Seis dígrafos.",
+                      "Nenhum dígrafo.",
+                      "Quatro dígrafos.",
+                      "Dois dígrafos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Nenhum dígrafo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas e assinale a alternativa que aponta as corretas. I. Na palavra “aumentativo”, há um ditongo e um dígrafo. II. Na palavra “casebre”, há um encontro consonantal. III. Na palavra “fronteira”, há dois encontros consonantais e um ditongo. IV. Na palavra “melhor”, há um dígrafo.",
+                "opcoes": [
+                      "Apenas II e III.",
+                      "Apenas I, III e IV.",
+                      "Apenas II e IV.",
+                      "I, II, III e IV.",
+                      "Apenas I, II e IV."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I, III e IV.</strong>. Fonte: Instituto AOCP/2025. Assunto: digrafos.",
+                "banca": "Instituto AOCP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir, retiradas do texto, e assinale a única que NÃO é composta por dígrafo.",
+                "opcoes": [
+                      "Guerra.",
+                      "Mulheres.",
+                      "Escritoras.",
+                      "Professoras."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Guerra.</strong>. Fonte: Instituto Consulplan/2025. Assunto: digrafos.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No texto, alguns vocábulos contêm dígrafos, ou seja, combinações de duas letras que formam um único som. Sabendo disso, assinale a alternativa que indica a palavra que NÃO apresenta dígrafo.",
+                "opcoes": [
+                      "milhões (l.46).",
+                      "travessias (l.15).",
+                      "hegemonia (l.40).",
+                      "escoamento (l.29)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>milhões (l.46).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a palavra “calamidade” (l. 04), analise as assertivas a seguir, assinalando V, se verdadeiras, ou F, se falsas. ( ) Um significado válido para a palavra, considerando sua ocorrência no texto, é “catástrofe”. ( ) A palavra é classificada morfologicamente como um adjetivo uniforme, pois não apresenta variação de gênero, existindo apenas no feminino. ( ) Trata-se de uma palavra com cinco sílabas na qual não ocorrem dígrafos nem encontros consonantais. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V.",
+                      "V – F – F.",
+                      "V – F – V.",
+                      "F – V – F.",
+                      "F – V – V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V – F – V.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que duas palavras apresentam dígrafo:",
+                "opcoes": [
+                      "exceção, guidão.",
+                      "omissão, projeto.",
+                      "capricho, agreste.",
+                      "aquário, digno."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>exceção, guidão.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: digrafos.",
+                "banca": "Instituto IDEAP - IDEAP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo (encontro de duas letras que representam o mesmo som), como as duas letras “s” na palavra “pressão”.",
+                "opcoes": [
+                      "Meses.",
+                      "Rápidas.",
+                      "Gaguejar.",
+                      "Leitura.",
+                      "Talento."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Gaguejar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No texto “A covardia do cotidiano”, aparecem palavras que, embora simples na escrita, apresentam particularidades na contagem de fonemas, resultantes da correspondência entre letras e sons. Analise as palavras a seguir e assinale a alternativa INCORRETA quanto ao número de fonemas e dígrafos.",
+                "opcoes": [
+                      "“manso” → possui 5 fonemas e nenhum dígrafo.",
+                      "“hienas” → possui 5 fonemas e nenhum dígrafo.",
+                      "“censura” → apresenta 6 fonemas e 1 dígrafo.",
+                      "“trilhas” → contém 6 fonemas e 1 dígrafo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“censura” → apresenta 6 fonemas e 1 dígrafo.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta dígrafo consonantal.",
+                "opcoes": [
+                      "Caderno.",
+                      "Abacate.",
+                      "Palheiro.",
+                      "Árvore."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Palheiro.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA onde todos os vocábulos apresentam dígrafos consonantais.",
+                "opcoes": [
+                      "Caminhar – essencial – milhões.",
+                      "Depressão – declínio – problema.",
+                      "Triglicerídeos – cognitiva – corporal.",
+                      "Esquelético – cardiovasculares – energia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Caminhar – essencial – milhões.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2025. Assunto: digrafos.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando que dígrafo é um fenômeno caracterizado pela representação de um único som por duas letras, assinale a alternativa cuja palavra em destaque apresenta um dígrafo.",
+                "opcoes": [
+                      "Com beijos demorados SEGURANDO a maçaneta.",
+                      "Todos nós sabemos que o MINEIRO gosta de uma boa trova.",
+                      "No sofá, perguntas sobre a pessoa VISITADA.",
+                      "Mineiro dá tchau para alguém e REINICIA a conversa."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>No sofá, perguntas sobre a pessoa VISITADA.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2025. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a palavra não apresenta dígrafo.",
+                "opcoes": [
+                      "Excluído",
+                      "Excêntrico",
+                      "Excelente",
+                      "Exceção",
+                      "Descer"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Excelente</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Verdade – Frutas.",
+                      "Calor – Passa.",
+                      "Graus – Carinho.",
+                      "Cheiro – Brilha.",
+                      "Chocolates – Triste."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Cheiro – Brilha.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No trecho do texto apresentado, qual das palavras abaixo contém um dígrafo?",
+                "opcoes": [
+                      "Juíza.",
+                      "outros.",
+                      "Carvoeiros.",
+                      "jovem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>jovem.</strong>. Fonte: Renascer Soluções e Serviços/2025. Assunto: digrafos.",
+                "banca": "Renascer Soluções e Serviços",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
+                "opcoes": [
+                      "Chocolate – Global.",
+                      "Ferramentas – Vidro.",
+                      "Junho – Barras.",
+                      "Pessoas – Cultivo.",
+                      "Espalhadas – Outra."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Junho – Barras.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo e marque a alternativa na qual todas elas apresentam dígrafos:",
+                "opcoes": [
+                      "mulheres, pequeno, isso, olhar, quando.",
+                      "questão, sempre, ainda, grande, atrasa.",
+                      "antecipa, sensível, vingar, existem, basta.",
+                      "discorda, acontecer, isso, disso, pequeno."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>mulheres, pequeno, isso, olhar, quando.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2025. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir sobre termos retirados do texto: I. Os termos “descontrole” e “insegurança” apresentam prefixos de negação em sua formação. II. O vocábulo “excessivo” apresenta 2 dígrafos. III. Em “acolhidas” há nove fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua dígrafo:",
+                "opcoes": [
+                      "Secreta.",
+                      "Corredor.",
+                      "Público.",
+                      "Obras.",
+                      "Grupo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Corredor.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo.",
+                "opcoes": [
+                      "Empresa.",
+                      "Ultravioleta.",
+                      "Serra.",
+                      "Concreto.",
+                      "Protetor."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Serra.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Tanto na palavra “Farroupilha”, presente no trecho “Quatro ou cinco grupos diferentes de alunos do Farroupilha estiveram lá em casa numa mesma missão, designada por seu professor de Português”, como na palavra “necessariamente”, presente no trecho “Escrever bem é escrever claro, não necessariamente certo”, identificam‑se dois dígrafos.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto Quadrix - Quadrix/2025. Assunto: digrafos.",
+                "banca": "Instituto Quadrix - Quadrix",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que está presente uma palavra que contém um dígrafo.",
+                "opcoes": [
+                      "Morena.",
+                      "Cajú.",
+                      "Sertão.",
+                      "Túnel.",
+                      "Leque."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Leque.</strong>. Fonte: FACET Concursos - FACET/2025. Assunto: digrafos.",
+                "banca": "FACET Concursos - FACET",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir: I. A palavra “bem-vindo” leva hífen pelo mesmo motivo de “porco-espinho”. II. As palavras “câmbio” e “verde” são paroxítonas. III. As palavras “gula” e “guerra” apresentam dígrafos. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “trabalho” é escrita com o dígrafo LH. Quais palavras são escritas com o mesmo dígrafo?",
+                "opcoes": [
+                      "Chuva - terra",
+                      "Infância - venturoso",
+                      "Orgulhoso - colheita",
+                      "Maduro – semear"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chuva - terra</strong>. Fonte: Instituto de Pesquisas Econômicas - IPEFAE/2025. Assunto: digrafos.",
+                "banca": "Instituto de Pesquisas Econômicas - IPEFAE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “chacina”, no primeiro quadrinho da charge, tem um dígrafo que representa uma consoante. Também se verifica este tipo de dígrafo em:",
+                "opcoes": [
+                      "“assistir”.",
+                      "“baile”.",
+                      "“aspargo”.",
+                      "“relação”.",
+                      "“divertido”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“assistir”.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: digrafos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Dá-se o nome de dígrafos ao grupo de letras que simbolizam apenas um som. Nesse sentido, assinale a palavra que contém dígrafo.",
+                "opcoes": [
+                      "“Deus” (2º§)",
+                      "“verdade” (3º§)",
+                      "“paraíso” (12º§)",
+                      "“impossível” (9º§)"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“impossível” (9º§)</strong>. Fonte: Instituto Consulplan/2025. Assunto: digrafos.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto ao número de dígrafos e fonemas, qual das palavras a seguir é composta por 9 fonemas e 1 dígrafo?",
+                "opcoes": [
+                      "envolver.",
+                      "indesejadas.",
+                      "impedir.",
+                      "intrusivas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>envolver.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre regras gramaticais da língua portuguesa, analise as assertivas abaixo: I. A palavra “trabalhadora” tem um encontro consonantal e um dígrafo. II. As palavras “humildade” e “saciedade” têm o mesmo número de fonemas. III. A palavra “mão” não conta com um encontro vocálico porque a vogal nasal “ã” não entra nessa categoria. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A relação entre letras e sons na Língua Portuguesa nem sempre é direta, especialmente quando há presença de dígrafos. Com base na análise das palavras a seguir, analise as assertivas quanto ao número de letras e fonemas, bem como à identificação correta dos dígrafos: I. A palavra “descanso” possui 7 fonemas, apresentando 1 dígrafo vocálico. II. A palavra “ressentimento” possui 11 fonemas, apresentando 2 dígrafos consonantais. III. A palavra “barulhento” possui 8 fonemas, contendo 1 dígrafo vocálico e 1 dígrafo consonantal. Está correto o que se afirma em:",
+                "opcoes": [
+                      "Apenas I e III.",
+                      "Apenas II.",
+                      "Apenas I.",
+                      "I, II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com base na estrutura fonológica das palavras do texto, assinale a alternativa CORRETA sobre o número de fonemas e a ocorrência de dígrafos.",
+                "opcoes": [
+                      "envelhecimento (l.54) - possui 11 fonemas e 3 dígrafos.",
+                      "acesso (l.45) - possui 6 fonemas e nenhum dígrafo.",
+                      "acolhimento (l.57) - possui 10 fonemas e 1 dígrafo.",
+                      "tratamento (l.51) - possui 8 fonemas e 2 dígrafos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>acesso (l.45) - possui 6 fonemas e nenhum dígrafo.</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Os pesquisadores enfatizam que as plantas não são sencientes. Os sons são produzidos por meio de efeitos físicos causados por uma mudança em suas condições locais.\" No que diz respeito à fonologia, à ortoepia e à prosódia, marque com (V) as afirmativas verdadeiras e com (F) as falsas. (__)A palavra 'que' apresenta um dígrafo consonantal, assim como ocorre com os vocábulos: chave, olho e corro. (__)A palavra 'enfatizam' apresenta dígrafo vocálico, encontro de uma vogal seguida de uma consoante, que resulta num fonema vocálico. (__)A palavra 'físicos' é pronunciada como proparoxítona, assim como a palavra 'rúbrica', que leva acento por esta razão. (__)O vocábulo 'meio' apresenta um tritongo, por esse motivo o encontro vocálico não pode ser separado. A sequência que preenche corretamente os parênteses é:",
+                "opcoes": [
+                      "F, V, F, V.",
+                      "F, V, V, V.",
+                      "F, F, V, V.",
+                      "V, F, V, F.",
+                      "V, V, F, F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>V, F, V, F.</strong>. Fonte: Instituto ACCESS - ACCESS/2025. Assunto: digrafos.",
+                "banca": "Instituto ACCESS - ACCESS",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra em destaque não possui dígrafo:",
+                "opcoes": [
+                      "Em seguida, seus donos sentam-se no sofá da sala e ligam a televisão.",
+                      "Finalmente Tony conseguiria descrever o que acontecia com seu leite?",
+                      "Após alguns dias, cansado de tanto investigar, Tony deita no chão da sala para descansar.",
+                      "Porém, se ele espera algumas horas, seu leite volta a apresentar aquelas estranhas características."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Porém, se ele espera algumas horas, seu leite volta a apresentar aquelas estranhas características.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa abaixo em que todas as palavras apresentam dígrafo:",
+                "opcoes": [
+                      "blusa, branco, trabalho, orgulho.",
+                      "descer, piscina, queijo, flauta.",
+                      "planta, clima, quarto, pronuncia.",
+                      "ninho, pássaro, coelho, chuva."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>ninho, pássaro, coelho, chuva.</strong>. Fonte: Prefeitura de Curiúva/2025. Assunto: digrafos.",
+                "banca": "Prefeitura de Curiúva",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Todas as alternativas abaixo apresentam dígrafo consonantal, EXCETO:",
+                "opcoes": [
+                      "Discernir.",
+                      "Águia.",
+                      "Querer.",
+                      "Exceção.",
+                      "Ambidestro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Discernir.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A fonética procura analisar detalhadamente os sons produzidos por uma língua. A seguir, são apresentadas afirmativas sobre esses detalhes dos sons produzidos na fala dos vocábulos extraídos do texto. Analise-as: I.A letra 'h' do vocábulo 'história' não representa nenhum fonema. II.A letra 'z' do vocábulo 'utilizado' e a letra 's' do vocábulo 'analisar', representam o mesmo fonema. III.A palavra 'pesca' apresenta um dígrafo. IV.A separação de sílaba da palavra 'excessiva' é ex-ce-ssi-va. V.O vocábulo 'agua' apresenta um ditongo crescente, assim como os vocábulos 'quaresma' e ''série'. Estão corretas as afirmativas:",
+                "opcoes": [
+                      "Apenas I, II e V.",
+                      "Apenas III, IV e V.",
+                      "Apenas I e II.",
+                      "Apenas II e V.",
+                      "Apenas I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I, II e V.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com um maior número de grafemas do que de fonemas devido à ocorrência de um dígrafo.",
+                "opcoes": [
+                      "Apaziguado.",
+                      "Profícuo.",
+                      "Quimérico.",
+                      "Discricionário.",
+                      "Taxímetro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Quimérico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam dígrafo consonantal.",
+                "opcoes": [
+                      "Ferramentas, tarefas, apoio, caderno.",
+                      "Falhas, manuais, colegas, quadro.",
+                      "Pátio, livros, carteiras, alunos.",
+                      "Chave, mochila, telha, chegada.",
+                      "Sala, parede, alunos, cartazes."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chave, mochila, telha, chegada.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam dígrafo consonantal.",
+                "opcoes": [
+                      "Chão, cartazes, pátio, alunos.",
+                      "Chegar, sala, turma, mesa.",
+                      "Pátio, livros, carteiras, alunos.",
+                      "Chão, chegar, telha, caminho.",
+                      "Sala, parede, alunos, cartazes."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chão, chegar, telha, caminho.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a fonologia, relacionar as colunas e assinalar a sequência correspondente. (1) Dígrafo consonantal. (2) Dígrafo vocálico. ( ) Arranhar. ( ) Chave. ( ) Impulso. ( ) Umbanda.",
+                "opcoes": [
+                      "2 - 1 - 1 - 2.",
+                      "1 - 2 - 2 - 1.",
+                      "1 - 1 - 2 - 2.",
+                      "2 - 2 - 1 - 1.",
+                      "1 - 2 - 2 - 2."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>1 - 1 - 2 - 2.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta uma palavra que contém dígrafo?",
+                "opcoes": [
+                      "Ferramentas.",
+                      "Explica.",
+                      "Resto.",
+                      "Ilumine.",
+                      "Especialista."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ferramentas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual dos vocábulos listados a seguir apresenta um dígrafo vocálico?",
+                "opcoes": [
+                      "Sucesso.",
+                      "Assíduo.",
+                      "Queijo.",
+                      "Bambo.",
+                      "Morro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sucesso.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a configuração fonética de vocábulos do texto, qual das alternativas possui uma palavra que NÃO apresenta dígrafo na sua formação?",
+                "opcoes": [
+                      "distância.",
+                      "atravessa.",
+                      "olhando.",
+                      "humano."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>atravessa.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as informações apresentadas para a palavra em destaque estejam corretas.",
+                "opcoes": [
+                      "Chave: 5 letras, 4 fonemas, um dígrafo.",
+                      "Falso: 5 letras, 5 fonemas, um tritongo",
+                      "Prédio: 6 letras, 6 fonemas, encontro consonantal e hiato.",
+                      "Cuidado: 7 letras, 6 fonemas, um ditongo crescente e um tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chave: 5 letras, 4 fonemas, um dígrafo.</strong>. Fonte: HC Assessoria Administrativa/2025. Assunto: digrafos.",
+                "banca": "HC Assessoria Administrativa",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra apresente dígrafo:",
+                "opcoes": [
+                      "Encantada.",
+                      "Produção.",
+                      "Ferramentas.",
+                      "Beleza."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Produção.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: digrafos.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "“Muitas pessoas perdem as pequenas alegrias, enquanto aguardam a grande felicidade.” (Pearl S. Buck) Na estruturação desse pensamento, é possível encontrarmos:",
+                "opcoes": [
+                      "05 dígrafos, 04 encontros consonantais e 06 ditongos.",
+                      "04 dígrafos, 04 encontros consonantais e 05 ditongos.",
+                      "05 dígrafos, 04 encontros consonantais e 05 ditongos.",
+                      "02 dígrafos, 08 encontros consonantais e 06 ditongos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>05 dígrafos, 04 encontros consonantais e 06 ditongos.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a formação da palavra “reumatológicas”, analise as assertivas a seguir, assinalando V, se verdadeiras, ou F, se falsas. ( ) Não há a ocorrência de ditongos. ( ) Trata-se de uma proparoxítona. ( ) Não há a ocorrência de dígrafos. ( ) A palavra é composta por 5 sílabas. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V – F.",
+                      "V – F – F – V.",
+                      "V – V – F – V.",
+                      "F – V – V – F.",
+                      "F – F – V – F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>F – V – V – F.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras a seguir apresenta dois dígrafos consonantais?",
+                "opcoes": [
+                      "Qualquer.",
+                      "Melancólica.",
+                      "Quatro.",
+                      "Velhinha.",
+                      "Piscinas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Qualquer.</strong>. Fonte: Instituto Avalia/2025. Assunto: digrafos.",
+                "banca": "Instituto Avalia",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"E, para conseguirmos ir de uma parte a outra, precisamos de alguns elementos de conexão, como passarelas e faixas de pedestres.\" A palavra 'passarelas' foi grafada corretamente com o dígrafo 'ss'. Analise os vocábulos a seguir e identifique aquele em que o dígrafo foi empregado de forma INCORRETA.",
+                "opcoes": [
+                      "caranguejo.",
+                      "inprevisto.",
+                      "ascensão.",
+                      "Ilhama."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>inprevisto.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "O baço é de alto risco porque tem muitos vasos sanguíneos e, portanto, bastante sangue, mas é circundado apenas por uma cápsula fina que pode se romper em caso de trauma. Assinale a alternativa que contenha apenas dígrafos consonantais.",
+                "opcoes": [
+                      "porque − sangue",
+                      "baço − caso",
+                      "sanguíneos − circundado",
+                      "trauma − alto"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>porque − sangue</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise: “Querendo pregar uma peça na outra, serviu sopa num prato raso.” Na palavra destacada, há a presença de um:",
+                "opcoes": [
+                      "Encontro consonantal;",
+                      "Dígrafo;",
+                      "Hiato;",
+                      "Ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dígrafo;</strong>. Fonte: Prefeitura de Bombinhas - SC/2025. Assunto: digrafos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Cheio.",
+                      "Pessoas.",
+                      "Projetos.",
+                      "Aterros.",
+                      "Bilhões."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cheio.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo retirada do texto.",
+                "opcoes": [
+                      "Passo.",
+                      "Alarme.",
+                      "Saúde.",
+                      "Verdade.",
+                      "Sinal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Passo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra não possua dígrafo:",
+                "opcoes": [
+                      "Público.",
+                      "Escolhida.",
+                      "Reconhece.",
+                      "Ressaltou.",
+                      "Ferramenta."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Escolhida.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra não possua dígrafo:",
+                "opcoes": [
+                      "Vinho.",
+                      "Garrafas.",
+                      "Milhares.",
+                      "Absorvido.",
+                      "Missa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Vinho.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"A partir de hoje, todas as galinhas d'angola serão magras e sentirão fraqueza constante! − disparou o melro com voz de trovão.\" Com base na fonética, marque com (V) as afirmativas verdadeiras ou com (F) as falsas. (__)A palavra 'galinha' possui um dígrafo inseparável e possui o mesmo número de sílabas da palavra 'ideia'. (__)A palavra 'partir' possui encontro consonantal separável e é uma palavra dissílaba, assim como 'pneu'. (__)As palavras 'hoje' e 'trovão' são palavras dissílabas e possuem encontros consonantais. (__)A palavra 'magra' possui duas sílabas e um encontro consonantal inseparável. A sequência que preenche corretamente os parênteses é:",
+                "opcoes": [
+                      "F, V, F, F.",
+                      "V, V, V, V.",
+                      "V, F, F, V.",
+                      "F, F, V, F."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V, V, V, V.</strong>. Fonte: Unochapecó/2025. Assunto: digrafos.",
+                "banca": "Unochapecó",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com relação ao número de fonemas e dígrafos de vocábulos do texto, assinale a única alternativa com uma análise INCORRETA.",
+                "opcoes": [
+                      "Enquanto falhas possui 5 fonemas e 1 dígrafo, chances possui 5 fonemas e 2 dígrafos.",
+                      "Assim como essa possui 3 fonemas e 1 dígrafo, Hoje também possui 3 fonemas e 1 dígrafo.",
+                      "O número de fonemas de expectativa é o dobro do número de fonemas de conselho.",
+                      "Enquanto novamente possui 8 fonemas e 1 dígrafo, impossível possui 8 fonemas e 2 dígrafos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O número de fonemas de expectativa é o dobro do número de fonemas de conselho.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na configuração fonética de palavras da lingua portuguesa, eventualmente, há ocorrências de fonemas e, digrafos Nesse sentido, qual das palavras a seguir é a única que NÃO possui digrafo?",
+                "opcoes": [
+                      "tempos (l.55).",
+                      "churrasco (/.53).",
+                      "atividade (/.41).",
+                      "estimulante (/.40)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>churrasco (/.53).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto ao número de fonemas e dígrafos, a palavra erros é composta por:",
+                "opcoes": [
+                      "4 fonemas e 1 dígrafo.",
+                      "6 fonemas e 1 dígrafo.",
+                      "4 fonemas e 2 dígrafos.",
+                      "5 fonemas e nenhum dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>4 fonemas e 1 dígrafo.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo e marque a alternativa na qual todas elas apresentam dígrafos:",
+                "opcoes": [
+                      "barulhos, pequi, conhecem, assim.",
+                      "gostaria, tantas, que, ruas.",
+                      "acrescentar, truz, aqueles, não.",
+                      "escritos, correto, coisas, conseguir."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>barulhos, pequi, conhecem, assim.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2025. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras possuem dígrafos.",
+                "opcoes": [
+                      "queijo, excesso, nascer, olhadela.",
+                      "psicólogo, aquático, fixo, mangueira.",
+                      "guincho, pneu, chave, ritmo.",
+                      "águia, exceto, máximo, campo.",
+                      "descer, técnico, subsolo, carroça."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>queijo, excesso, nascer, olhadela.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo.",
+                "opcoes": [
+                      "Romã.",
+                      "Dinheiro.",
+                      "Sorte.",
+                      "Cardápio.",
+                      "Receitas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dinheiro.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Todas as alternativas a seguir apresentam palavras com dígrafo, EXCETO:",
+                "opcoes": [
+                      "Cultura.",
+                      "Trabalhamos.",
+                      "Associada.",
+                      "Irritabilidade.",
+                      "Pressão."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Trabalhamos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras a seguir contém dígrafo?",
+                "opcoes": [
+                      "Rotina.",
+                      "Pesquisa.",
+                      "Trégua.",
+                      "Ócio.",
+                      "Pais."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pesquisa.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém dígrafo separável.",
+                "opcoes": [
+                      "vagando.",
+                      "criança.",
+                      "passeio.",
+                      "vontade."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>criança.</strong>. Fonte: Fundação CETAP/2025. Assunto: digrafos.",
+                "banca": "Fundação CETAP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa abaixo onde todas as palavras apresentam dígrafo.",
+                "opcoes": [
+                      "Prato – blusa – trevo.",
+                      "Placa – branco – claro.",
+                      "Fruta – grilo – primo.",
+                      "Chuva – guerra – palha.",
+                      "Atlas – cravo – drama."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chuva – guerra – palha.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que há um dígrafo consonantal, presente também em uma palavra do trecho “...e que apenas conserva o hábito externo...” Assinale a alternativa com dígrafo da mesma natureza.",
+                "opcoes": [
+                      "Chave.",
+                      "Bicho.",
+                      "Externo.",
+                      "Rastro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chave.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2025. Assunto: digrafos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa na qual há dígrafo em todas as palavras:",
+                "opcoes": [
+                      "procure, outras, agem.",
+                      "certo, risco, uso.",
+                      "pessoas, pesquisar, melhor.",
+                      "conta, outra, aqueles."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>pessoas, pesquisar, melhor.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2025. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras a seguir apresenta um dígrafo consonantal? Assinale a alternativa correta.",
+                "opcoes": [
+                      "Retrato.",
+                      "Chorar.",
+                      "Vê-se.",
+                      "Ninho."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Chorar.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2025. Assunto: digrafos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito dos aspectos ortográficos de algumas palavras do texto. I. \"mulher\" é uma palavra oxítona e dissílaba, enquanto o seu plural (\"mulheres\"), é paroxítona e trissílaba. . Em \"exausto\", palavra polissílaba, ocorre hiato. . Em \"máquina\" e \"chaves\" há dígrafo. IV. \"leite\" e \"olhos\" possuem o mesmo número de fonemas. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "II, III e IV, apenas.",
+                      "I e IV, apenas.",
+                      "I e III, apenas.",
+                      "II, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Errado.",
+                      "Professora.",
+                      "Pessoa.",
+                      "Problema.",
+                      "Melhor."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Errado.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre o número de fonemas e dígrafos das palavras introvertido (l.49), filha (l.51), acompanhadas (l.55) e narrativa (l.41) , assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "introvertido possui 11 fonemas e 1 dígrafo.",
+                      "filha possui 4 fonemas e 1 dígrafo.",
+                      "acompanhadas possui 1 O fonemas e 2 dígrafos.",
+                      "narrativa possui 9 fonemas e 1 dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>introvertido possui 11 fonemas e 1 dígrafo.</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém, respectivamente, um ditongo crescente e um dígrafo.",
+                "opcoes": [
+                      "Sociais e personalização.",
+                      "Tênue e provenientes.",
+                      "Frustração e intermediário.",
+                      "democracia e ascensão.",
+                      "Meios e essas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sociais e personalização.</strong>. Fonte: Instituto Legatus - Legatus/2025. Assunto: digrafos.",
+                "banca": "Instituto Legatus - Legatus",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos (consonantais e vocálicos) existem na expressão “dar murro em ponta de faca”?",
+                "opcoes": [
+                      "3.",
+                      "4.",
+                      "2.",
+                      "0.",
+                      "1."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a classificação correta das palavras abaixo:",
+                "opcoes": [
+                      "possível – cientistas – espacial – mudanças. Todas as palavras são paroxítonas.",
+                      "nesse – conter – sublinhou – Terra. Somente uma palavra não possui dígrafo.",
+                      "destruição – estaria – energia – sociedade. Todas as palavras contêm hiato e não há ditongo.",
+                      "aquecimento – compromisso – atenuadas – humanidade. Todas as palavras têm a mesma quantidade de fonemas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possível – cientistas – espacial – mudanças. Todas as palavras são paroxítonas.</strong>. Fonte: Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica/2025. Assunto: digrafos.",
+                "banca": "Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sabendo-se que dígrafos são duplas de letras que representam, na ortografia da Língua Portuguesa, apenas um som (fonema), dentre as opções a seguir, aquela em que todas as palavras retiradas do texto possuem dígrafo é a seguinte:",
+                "opcoes": [
+                      "carreira – qual – segurança – chamados – trabalho.",
+                      "fim – regularidade – recorremos – aquelas – repressão.",
+                      "conhecimento – queremos – torres – adstrito – mulheres",
+                      "profissão – exemplo – integrantes – aquelas – chamados.",
+                      "algum – inclusão – contribuir – signatários – quanto"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>carreira – qual – segurança – chamados – trabalho.</strong>. Fonte: COSEAC/2025. Assunto: digrafos.",
+                "banca": "COSEAC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo.",
+                "opcoes": [
+                      "Amigos.",
+                      "Redes.",
+                      "Vida.",
+                      "Checar.",
+                      "Social."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Checar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com base nos diferentes dígrafos, relacionar as colunas e assinalar a sequência correspondente. (1) Dígrafo consonantal. (2) Dígrafo vocálico. ( ) Molhado. ( ) Cansado. ( ) Impulso. ( ) Águia.",
+                "opcoes": [
+                      "2 - 1 - 1 - 2.",
+                      "1 - 2 - 2 - 1.",
+                      "1 - 2 - 2 - 2.",
+                      "2 - 1 - 1 - 1."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>1 - 2 - 2 - 1.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta um dígrafo consonantal e um vocálico, respectivamente.",
+                "opcoes": [
+                      "Plantar | carroceiro.",
+                      "Querido | campo.",
+                      "Ambulante | guerreiro.",
+                      "Ninho | palha."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ninho | palha.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Eles ganharam popularidade pela promessa de melhorar o sistema imunológico, ou seja, aumentar a capacidade do corpo de se defender contra doenças e infecções\". Assinale a alternativa que contenha apenas dígrafos consonantais.",
+                "opcoes": [
+                      "Promessa - melhorar.",
+                      "Corpo - sistema.",
+                      "Defender - aumentar.",
+                      "Ganharam - infecções."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Promessa - melhorar.</strong>. Fonte: Universidade Patativa do Assaré - UPA/2025. Assunto: digrafos.",
+                "banca": "Universidade Patativa do Assaré - UPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Texto 2 (questões 12 e 13) <https://revistagalileu.globo.com/Cultura/Livros/noticia/2016/01/20-tirinhas-sobre-paixao-por-livros.html> Assinale a opção em que a palavra destacada apresenta um dígrafo.",
+                "opcoes": [
+                      "“Para aventuras em lugares distantes...",
+                      "“Consulte seu bibliotecário!”",
+                      "“E muito de nós mesmos...”",
+                      "“Descobrir novos países...”",
+                      "“Conhecer um pouco das outras pessoas...”"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“Para aventuras em lugares distantes...</strong>. Fonte: Serviço de Seleção do Pessoal da Marinha - SSPM/2025. Assunto: digrafos.",
+                "banca": "Serviço de Seleção do Pessoal da Marinha - SSPM",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A limpeza, em geral, é associada à sujeira visível. No entanto, quando se fala de calçados, o perigo vai além do que se pode ver: sob a superfície, escondem-se microrganismos e partículas potencialmente mais prejudiciais do que barro ou grama seca. Assinale a alternativa que contenha apenas dígrafo consonantal:",
+                "opcoes": [
+                      "grama − prejudiciais",
+                      "microrganismos − partículas",
+                      "calçados − potencialmente",
+                      "associada − barro"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>associada − barro</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2025. Assunto: digrafos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "São sequências (palavras) que se diferenciam por apenas um fonema (som), como, por exemplo, “mala” e “bala”. O trecho refere-se à definição de:",
+                "opcoes": [
+                      "Alofones.",
+                      "Sons variantes.",
+                      "Ditongos nasais.",
+                      "Dígrafos.",
+                      "Pares mínimos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Pares mínimos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que há um ditongo e um dígrafo, respectivamente:",
+                "opcoes": [
+                      "Caixa – chuva",
+                      "Poesia – carro",
+                      "Ciência – quente",
+                      "Oceano – passar"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Caixa – chuva</strong>. Fonte: HC Assessoria Administrativa/2025. Assunto: digrafos.",
+                "banca": "HC Assessoria Administrativa",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre os aspectos fonéticos de vocábulos do texto, analise os vocábulos a seguir: I. investimentos (l.44) Il. equipamentos (l.38) Il. possibilidade (l.14) IV. infraestrutura (l.5) Com base na contagem de fonemas e na identificação dos digrafos presentes, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Apenas IV contém nenhum dígrafo e apresenta o mesmo número de fonemas que o número de letras.",
+                      "Apenas l e II possuem o mesmo número de fonemas, ambos com 12, e um dígrafo vocálico cada.",
+                      "Os vocábulos II e III possuem, cada um, 12 fonemas e dois dígrafos consonantais.",
+                      "As palavras I, II e III contêm um dígrafo cada e têm mais letras do que fonemas.",
+                      "Em IV, há um dígrafo e 13 fonemas, sendo o dígrafo classificado como vocálico."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Em IV, há um dígrafo e 13 fonemas, sendo o dígrafo classificado como vocálico.</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a ocorrência de dígrafos vocálicos e consonantais na língua portuguesa, qual alternativa apresenta o número de fonemas e dígrafos da palavra envelhecer?",
+                "opcoes": [
+                      "8 fonemas e 2 dígrafos.",
+                      "7 fonemas e 3 dígrafos.",
+                      "9 fonemas e 1 dígrafo.",
+                      "10 fonemas e nenhum dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>8 fonemas e 2 dígrafos.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Todas as alternativas abaixo apresentam dígrafo vocálico, EXCETO:",
+                "opcoes": [
+                      "Visconde.",
+                      "Álbum.",
+                      "Limbo.",
+                      "Aguaceiro."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Álbum.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra não apresente dígrafo:",
+                "opcoes": [
+                      "Pessoas.",
+                      "Deflagrou.",
+                      "Estarrecedor.",
+                      "Chegou.",
+                      "Processos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Pessoas.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "O dígrafo constitui-se de duas letras representando um só fonema. Sabendo disso, assinale, a seguir, a alternativa cuja palavra possui um dígrafo consonantal.",
+                "opcoes": [
+                      "Descendente;",
+                      "Abdicar;",
+                      "Submeter;",
+                      "Transporte;",
+                      "Abrupto."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Descendente;</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Acerca dos seus conhecimentos sobre dígrafo e encontros vocálicos e consonontais, marque a alternativa CORRETA.",
+                "opcoes": [
+                      "Em “bichinha” temos apenas um dígrafo e um encontro consonantal.",
+                      "Em “bichinha” e “água” (Texto II) temos, na sequência, encontro vocálico e dígrafo.",
+                      "Em “subindo” e “titela” (Texto III) temos, na sequência, encontro consonantal e dígrafos.",
+                      "Em “bichinha” temos três dígrafos e um encontro consonantal.",
+                      "Em “bichinha” e “água” (Texto II) temos, na sequência, dígrafos e encontro vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em “bichinha” temos apenas um dígrafo e um encontro consonantal.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: digrafos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmativas sobre algumas palavras do texto. I. Na palavra \"estridente\", ocorre um encontro consonantal perfeito e dois imperfeitos. II. A palavra \"nevoeiros\" apresenta hiato e ditongo decrescente. III. A palavra \"açoite\" contém um dígrafo. IV. Na palavra \"doudas\", há tritongo. V. Na palavra \"chicote\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II e V, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, II, III, IV e V.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “corpo”, as letras sublinhadas representam:",
+                "opcoes": [
+                      "Um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um dígrafo (um único som).",
+                      "Uma vogal e uma consoante.",
+                      "Uma consoante e uma vogal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um encontro vocálico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Novas possibilidades surgem praticamente todos os dias e, embora a IA não seja uma panaceia, as escolhas que fazemos hoje têm o potencial de reacender o desenvolvimento humano e abrir novos caminhos e possibilidades\", acredita ele”. A partir da análise gramatical dos componentes do fragmento acima, pode-se dizer que todas as afirmações abaixo estão corretas, EXCETO.",
+                "opcoes": [
+                      "O verbo “surgem” classifica-se como Intransitivo.",
+                      "A conjunção “embora” classifica-se como subordinativa concessiva e poderia ser substituída por “conquanto”.",
+                      "A forma verbal “têm” encontra-se acentuada pela regra do acento diferencial e possui o vocábulo “escolhas” como referência de concordância.",
+                      "Os vocábulos “escolhas”, “caminhos” e “possibilidades” possuem dígrafos nas suas respectivas escritas.",
+                      "Em “...acredita ele”, o termo destacado exerce função sintática de complemento verbal."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A forma verbal “têm” encontra-se acentuada pela regra do acento diferencial e possui o vocábulo “escolhas” como referência de concordância.</strong>. Fonte: Instituto ISET - ISET/2025. Assunto: digrafos.",
+                "banca": "Instituto ISET - ISET",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre palavras presentes no texto: I. A palavra “recém-nascida” leva hífen pelo mesmo motivo de “Disse-me”. II. As palavras “Passando” e “caminhada” apresentam dígrafos. III. A palavra “última” não é acentuada pelo mesmo motivo de “imóvel”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando as relações entre fonemas e suas grafias e a ocorrência dos dígrafos, analise as assertivas a seguir: I. Em palavras como “falam”, “batem” e “alguém”, temos a presença de dígrafos nasais. II. Nas palavras “aguado” e “aquático”, não há a presença de dígrafos, pois cada uma das letras corresponde a fonemas distintos. III. Em todas as palavras a seguir, há a presença de dígrafos: piscina, limpo, querida. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possui dígrafo:",
+                "opcoes": [
+                      "Leitura.",
+                      "Pessoa.",
+                      "Liberdade.",
+                      "Tempo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pessoa.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: digrafos.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando o trecho retirado do texto “Um dia ela me verá com o rosto completamente craquelado, miúda, corcunda pelo peso dos anos transcorridos”, analise as assertivas a seguir, assinalando V, se verdadeiras, ou F, se falsas. ( ) Há dígrafos em “completamente” e “craquelado”. ( ) Há um hiato em “miúda”. ( ) Os vocábulos “rosto” e “corcunda” são oxítonos. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "F – V – F.",
+                      "F – F – V.",
+                      "F – V – V.",
+                      "V – F – V.",
+                      "V – V – F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>F – V – F.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na expressão “doença cardíaca isquêmica”, o segmento destacado é um exemplo de:",
+                "opcoes": [
+                      "hiato",
+                      "dígrafo",
+                      "ditongo",
+                      "tritongo",
+                      "encontro consonantal"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: digrafos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta palavra com dígrafo (duas letras que representam um som) é:",
+                "opcoes": [
+                      "Febre.",
+                      "Maneira.",
+                      "Processos.",
+                      "Humano.",
+                      "Cotidianas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Processos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta duas palavras com dígrafo:",
+                "opcoes": [
+                      "pertinho - caneca",
+                      "machismo - emprego",
+                      "cresço - litro",
+                      "correto - lápis",
+                      "excelência - escola"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pertinho - caneca</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: digrafos.",
+                "banca": "Instituto Abaré - Ete",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto a dígrafos que representam consoantes, assinale a alternativa incorreta.",
+                "opcoes": [
+                      "Mundo.",
+                      "Ganhar.",
+                      "Galho.",
+                      "Passo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mundo.</strong>. Fonte: MS Concursos/2024. Assunto: digrafos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"O oxigênio também poderia se difundir para dentro da bolha\". Os vocábulos destacados acima possuem em sua forma dígrafo, fenômeno linguístico que consiste na união de duas letras que, juntas, representam um único fonema. A seguir, identifique a alternativa que apresenta todas as palavras grafadas corretamente com dígrafos:",
+                "opcoes": [
+                      "anbiguidade, embarcar, vislumbrar.",
+                      "emgrenagem, cheiro, chifre",
+                      "emprescindível, enchente, embarcar.",
+                      "excesso, imprescindível, nascer."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>excesso, imprescindível, nascer.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra do texto que contém dígrafo (duas letras que representam um som) é:",
+                "opcoes": [
+                      "Data.",
+                      "Lugares.",
+                      "Sorte.",
+                      "Espiritual.",
+                      "Pessoas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Pessoas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Das palavras abaixo, retiradas do texto, a única que possui um dígrafo, nasal ou não, é:",
+                "opcoes": [
+                      "Doutorado.",
+                      "Tema.",
+                      "Defendeu.",
+                      "Comunicar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Defendeu.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra apresenta dígrafo.",
+                "opcoes": [
+                      "Governo.",
+                      "Desastre.",
+                      "Matéria.",
+                      "Pesquisa.",
+                      "Brasileiros."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pesquisa.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “reciclar”, é correto afirmar que:",
+                "opcoes": [
+                      "Contém encontro vocálico.",
+                      "Contém 3 consoantes e 5 vogais.",
+                      "Contém 7 letras.",
+                      "Contém dígrafo.",
+                      "É uma palavra trissílaba."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>É uma palavra trissílaba.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta um dígrafo, ou seja, duas letras que emitem um só som.",
+                "opcoes": [
+                      "Portas.",
+                      "Garrafa.",
+                      "Cidades",
+                      "Números.",
+                      "Apetite."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Garrafa.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Flutuações dos níveis do neurotransmissor dopamina nessas regiões podem mediar nossa sensibilidade a estímulos de reforço, como alimentos ou substâncias de uso abusivo. (Fonte: https://www.bbc.com/portuguese/articles/ce786w66xwro.adaptado) Assinale a opção que contenha dois dígrafos.",
+                "opcoes": [
+                      "neurotransmissor − nossa.",
+                      "estímulos − alimentos.",
+                      "flutuações − alimentos.",
+                      "sensibilidade − abusivo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>neurotransmissor − nossa.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em \"Sou composta por urgências\" as palavras \"composta\" e \"urgências\" possuem dígrafos, ou seja, o encontro de duas letras que formam um único som, ou seja, um único fonema.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: digrafos.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual todas as palavras contêm dígrafos.",
+                "opcoes": [
+                      "Setentona – editoras – poucas.",
+                      "Sucessivos – espalhavam – enchente.",
+                      "Livros – casca – ininterrupta.",
+                      "Antiga – apoio – obsoleta.",
+                      "História – setor – feira."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Sucessivos – espalhavam – enchente.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a palavra que contém dígrafo, ou seja, duas letras que representam um som.",
+                "opcoes": [
+                      "Muscular.",
+                      "Horas.",
+                      "Coluna.",
+                      "Tapete.",
+                      "Caminhando."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Caminhando.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta dígrafo (grupo de duas letras que representam um único fonema) é:",
+                "opcoes": [
+                      "Cautela.",
+                      "Pressão.",
+                      "Estudos.",
+                      "Sódio.",
+                      "Tarefa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pressão.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam dígrafos consonantais:",
+                "opcoes": [
+                      "disseminação, implicações e integridade.",
+                      "desigualdade, essenciais e explorar.",
+                      "conscientização, equilíbrio e excessiva.",
+                      "desinformação, qualificados e tecnologia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>conscientização, equilíbrio e excessiva.</strong>. Fonte: Instituto Águia/2024. Assunto: digrafos.",
+                "banca": "Instituto Águia",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir quanto à realização sonora e a grafia que apresentam. Aquela que apresenta digrafo é:",
+                "opcoes": [
+                      "tigela.",
+                      "trigo.",
+                      "guerra.",
+                      "apóstolo.",
+                      "exclamação."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>guerra.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: digrafos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "As palavras “benefício”, “relatório” e \"emergência”, presentes no texto, têm algo em comum. Sendo assim, assinalar a alternativa CORRETA:",
+                "opcoes": [
+                      "São proparoxítonas.",
+                      "São paroxítonas.",
+                      "Têm ditongo aberto.",
+                      "Têm dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>São proparoxítonas.</strong>. Fonte: Objetiva Concursos/2024. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Envelhecida.",
+                      "Terra.",
+                      "Problema.",
+                      "Bolha.",
+                      "Missão."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Envelhecida.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: digrafos.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que há dígrafos em todas as palavras.",
+                "opcoes": [
+                      "aquilo - intenso - borbulhante - homem.",
+                      "pobre - retardados - perfumada - débil.",
+                      "ama - afirma - egoísmo - tiro.",
+                      "porta - viver - lutou - fez."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>aquilo - intenso - borbulhante - homem.</strong>. Fonte: Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP/2024. Assunto: digrafos.",
+                "banca": "Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra a seguir que não apresenta dígrafo é:",
+                "opcoes": [
+                      "incompetente.",
+                      "trabalho.",
+                      "armário.",
+                      "sucessão.",
+                      "prescindir."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>trabalho.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: digrafos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A classificação do encontro vocálico ou consonantal não está correta em:",
+                "opcoes": [
+                      "(pr)ova - (encontro consonantal).",
+                      "p(aí)ses - (ditongo decrescente).",
+                      "e(qu)ivale - (dígrafo).",
+                      "faz(em) - (ditongo nasal)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>(pr)ova - (encontro consonantal).</strong>. Fonte: Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP/2024. Assunto: digrafos.",
+                "banca": "Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que a palavra NÃO é composta por dígrafo consonantal:",
+                "opcoes": [
+                      "Desenvolvimento.",
+                      "Florescência.",
+                      "Desabrochar.",
+                      "Crescimento."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Desabrochar.</strong>. Fonte: Objetiva Concursos/2024. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
                 ]
           }
     ],
