@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 19/06/2026, 19:59:41 — 1117 questões incluídas
+// 19/06/2026, 20:03:20 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -58,7 +58,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tonicidade"
+                      "tonicidade",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -77,7 +79,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -96,11 +99,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "ditongos",
+                      "acentuacaoGrafica",
                       "tonicidade",
                       "hifen",
-                      "formacaoPalavras"
+                      "formacaoPalavras",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -119,9 +124,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos"
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -141,9 +148,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos"
+                      "tritongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -163,9 +174,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos"
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -184,9 +197,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "ditongos",
-                      "tonicidade"
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -205,10 +220,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos",
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "tritongos",
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -227,10 +245,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ]
           },
           {
@@ -249,11 +268,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos",
                       "hiatos",
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -272,12 +293,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos",
                       "hifen",
                       "formacaoPalavras",
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "hiatos"
                 ]
           },
           {
@@ -296,8 +318,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "ditongos",
+                      "acentuacaoGrafica",
                       "tonicidade",
                       "hifen",
                       "formacaoPalavras"
@@ -319,9 +341,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "ditongos"
+                      "paroxitonas"
                 ]
           },
           {
@@ -340,9 +363,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "ditongos",
-                      "tonicidade"
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "digrafos",
+                      "silabas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -361,7 +388,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -400,7 +429,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -419,7 +450,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -438,7 +471,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -457,7 +493,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -477,7 +516,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -515,7 +557,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -535,7 +579,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -554,7 +601,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -573,7 +621,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -590,7 +640,8 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -610,7 +661,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -629,7 +683,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -668,7 +724,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -726,7 +784,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -745,7 +806,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -804,7 +866,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -823,7 +888,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -842,7 +908,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -899,7 +970,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas",
+                      "proparoxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -918,7 +992,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -937,7 +1013,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -956,7 +1034,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -975,7 +1054,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -1014,7 +1096,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1033,7 +1118,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1053,7 +1140,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1073,7 +1162,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1092,7 +1185,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1111,7 +1206,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -1130,7 +1226,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1149,7 +1247,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1169,7 +1269,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -1188,7 +1289,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -1227,7 +1330,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1247,7 +1351,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -1266,7 +1372,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -1286,7 +1393,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1306,7 +1417,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1325,7 +1438,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1345,7 +1459,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "ortografia"
                 ]
           },
           {
@@ -1384,7 +1499,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1403,7 +1522,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1422,7 +1542,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -1482,7 +1603,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -1521,7 +1644,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -1540,7 +1665,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1560,7 +1687,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1579,7 +1708,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1617,7 +1748,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -1675,7 +1808,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1694,7 +1829,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1713,7 +1850,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1732,7 +1870,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1752,7 +1891,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1772,7 +1912,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -1792,7 +1933,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "fonemas"
                 ]
           },
           {
@@ -1812,7 +1955,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "paroxitonas"
                 ]
           },
           {
@@ -1831,7 +1975,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1850,7 +1996,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1870,7 +2018,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -1890,7 +2041,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1910,7 +2063,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1930,7 +2085,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -1949,7 +2105,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1968,7 +2127,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -1987,7 +2148,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -2007,7 +2172,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2026,7 +2193,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2045,7 +2214,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2064,7 +2234,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -2103,7 +2276,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -2122,7 +2298,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2161,7 +2339,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2180,7 +2360,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2199,7 +2381,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2218,7 +2402,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -2238,7 +2424,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -2255,7 +2444,8 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "paroxitonas"
                 ]
           },
           {
@@ -2295,7 +2485,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -2315,7 +2506,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -2334,7 +2527,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2374,7 +2569,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2414,7 +2611,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -2433,7 +2636,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2452,7 +2656,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -2472,7 +2680,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2491,7 +2700,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -2510,7 +2724,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2569,7 +2785,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2588,7 +2805,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2608,7 +2827,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2627,7 +2848,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2646,7 +2868,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2665,7 +2889,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2684,7 +2909,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "fonemas"
                 ]
           },
           {
@@ -2703,7 +2931,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -2723,7 +2955,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -2742,7 +2977,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2762,7 +2999,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2782,7 +3020,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -2801,7 +3043,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2820,7 +3064,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2840,7 +3085,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2860,7 +3107,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -2879,7 +3128,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2899,7 +3150,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2918,7 +3171,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2957,7 +3212,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -2977,7 +3236,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2996,7 +3257,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3016,7 +3278,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3055,7 +3319,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -3075,7 +3342,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -3094,7 +3363,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -3114,7 +3385,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3133,7 +3405,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3152,7 +3426,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3172,7 +3448,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3192,7 +3471,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3212,7 +3493,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3252,7 +3537,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -3272,7 +3560,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3292,7 +3584,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3311,7 +3604,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3331,7 +3627,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3350,7 +3648,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "ortografia"
                 ]
           },
           {
@@ -3369,7 +3668,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -3388,7 +3690,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3428,7 +3731,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -3447,7 +3752,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -3467,7 +3773,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3526,7 +3834,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3545,7 +3855,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3565,7 +3876,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3584,7 +3897,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -3603,7 +3920,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3622,7 +3940,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3680,7 +3999,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -3700,7 +4022,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -3720,7 +4043,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3739,7 +4064,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3759,7 +4085,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3778,7 +4105,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3797,7 +4126,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -3817,7 +4149,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -3876,7 +4209,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -3895,7 +4231,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3914,7 +4251,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "digrafos",
+                      "ortografia"
                 ]
           },
           {
@@ -3933,7 +4272,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3953,7 +4293,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           }
     ],
@@ -3975,7 +4318,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -3994,7 +4339,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4013,7 +4360,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4032,7 +4381,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4052,7 +4403,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "tonicidade"
                 ]
           },
           {
@@ -4071,7 +4427,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4090,7 +4448,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4109,7 +4469,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -4128,7 +4491,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -4147,7 +4513,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4166,7 +4534,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4185,7 +4555,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4204,7 +4576,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4223,7 +4597,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -4243,7 +4620,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4262,7 +4642,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4281,7 +4663,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4301,7 +4685,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4320,7 +4707,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4339,7 +4728,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4359,7 +4751,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "proparoxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -4378,7 +4774,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -4397,7 +4798,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4416,7 +4819,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4435,7 +4840,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -4454,7 +4862,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4474,7 +4884,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4494,7 +4906,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4513,7 +4929,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4532,7 +4950,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4551,7 +4971,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4571,7 +4993,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4590,7 +5016,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4610,7 +5038,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4630,7 +5060,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4669,7 +5103,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4688,7 +5124,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4726,7 +5164,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4746,7 +5186,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4766,7 +5208,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4785,7 +5229,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -4805,7 +5251,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4824,7 +5272,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4883,7 +5333,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -4902,7 +5355,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4921,7 +5376,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4941,7 +5398,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -4961,7 +5421,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4981,7 +5443,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -5000,7 +5468,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -5019,7 +5491,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5039,7 +5513,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5058,7 +5534,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "fonemas"
                 ]
           },
           {
@@ -5077,7 +5556,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -5097,7 +5580,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -5116,7 +5602,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5135,7 +5623,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5155,7 +5645,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5174,7 +5666,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5194,7 +5688,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "tonicidade"
                 ]
           },
           {
@@ -5214,7 +5712,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5234,7 +5734,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5254,7 +5756,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -5274,7 +5779,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5312,7 +5819,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5332,7 +5842,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5351,7 +5865,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5371,7 +5888,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5391,7 +5910,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5411,7 +5932,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5449,7 +5972,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -5488,7 +6014,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5507,7 +6035,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -5527,7 +6058,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5547,7 +6081,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5566,7 +6101,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5586,7 +6123,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5606,7 +6145,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -5625,7 +6167,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5663,7 +6207,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5703,7 +6249,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -5722,7 +6271,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5741,7 +6292,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5760,7 +6313,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5779,7 +6334,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -5798,7 +6356,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5817,7 +6377,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5836,7 +6398,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5856,7 +6421,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -5875,7 +6443,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5934,7 +6504,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -5954,7 +6526,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -6012,7 +6588,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6032,7 +6611,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6052,7 +6635,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6071,7 +6658,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6091,7 +6680,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6110,7 +6701,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6129,7 +6722,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -6148,7 +6745,16 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "fonemas"
                 ]
           },
           {
@@ -6168,7 +6774,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6187,7 +6796,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6206,7 +6817,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6244,7 +6857,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6263,7 +6878,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6282,7 +6900,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6302,7 +6922,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -6322,7 +6945,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6341,7 +6967,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6379,7 +7007,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6399,7 +7029,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6419,7 +7051,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6439,7 +7073,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6458,7 +7095,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6478,7 +7117,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6497,7 +7138,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6516,7 +7159,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6535,7 +7180,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6555,7 +7202,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6574,7 +7225,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -6594,7 +7248,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6613,7 +7269,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -6632,7 +7291,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6652,7 +7313,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6672,7 +7335,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6692,7 +7359,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -6712,7 +7381,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6732,7 +7404,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6770,7 +7445,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tritongos"
+                      "tritongos",
+                      "hiatos"
                 ]
           }
     ],
@@ -6791,10 +7467,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "hiatos",
+                      "acentuacaoGrafica",
                       "hifen",
-                      "formacaoPalavras"
+                      "formacaoPalavras",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6813,10 +7491,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
                       "hiatos",
+                      "acentuacaoGrafica",
                       "ortografia",
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "ditongos"
                 ]
           },
           {
@@ -6835,10 +7514,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
+                      "hiatos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos",
-                      "classesGramaticais"
+                      "classesGramaticais",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6857,7 +7538,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6877,7 +7560,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "tonicidade"
                 ]
           },
           {
@@ -6897,7 +7585,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6916,7 +7606,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6935,7 +7627,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "ortografia"
                 ]
           },
           {
@@ -6954,7 +7649,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -6973,7 +7670,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -6992,7 +7692,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7012,7 +7713,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -7031,7 +7733,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas",
+                      "paroxitonas",
+                      "tonicidade",
+                      "ortografia",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -7050,7 +7758,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7069,7 +7779,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7088,7 +7800,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7107,7 +7821,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos"
                 ]
           },
           {
@@ -7147,7 +7864,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -7167,7 +7885,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7205,7 +7926,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7224,7 +7947,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7262,7 +7986,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7301,7 +8027,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7320,7 +8049,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7339,7 +8070,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7398,7 +8130,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7417,7 +8152,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7436,7 +8172,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -7455,7 +8196,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7474,7 +8217,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7493,7 +8237,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "ortografia"
                 ]
           },
           {
@@ -7512,7 +8259,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7531,7 +8281,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7551,7 +8303,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7571,7 +8325,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7590,7 +8348,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "crase"
                 ]
           },
           {
@@ -7609,7 +8368,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7666,7 +8427,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7686,7 +8449,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -7705,7 +8469,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7724,7 +8490,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -7743,7 +8514,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "paroxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -7782,7 +8557,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7802,7 +8578,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7822,7 +8601,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7860,7 +8643,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7880,7 +8664,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7900,7 +8686,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "oxitonas"
                 ]
           },
           {
@@ -7939,7 +8727,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7958,7 +8750,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -7978,7 +8771,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -7997,7 +8792,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8017,7 +8814,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8036,7 +8835,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8093,7 +8894,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -8112,7 +8915,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8131,7 +8936,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8150,7 +8956,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8170,7 +8977,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8190,7 +8998,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "fonemas"
                 ]
           },
           {
@@ -8209,7 +9019,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8228,7 +9040,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -8248,7 +9063,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8268,7 +9085,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8287,7 +9106,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -8306,7 +9128,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -8326,7 +9152,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8345,7 +9173,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8364,7 +9194,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8423,7 +9254,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -8443,7 +9275,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -8462,7 +9297,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8481,7 +9318,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8521,7 +9360,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -8540,7 +9380,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8580,7 +9422,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -8599,7 +9443,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8618,7 +9464,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8638,7 +9485,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -8658,7 +9508,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -8677,7 +9529,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -8697,7 +9551,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8737,7 +9593,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -8775,7 +9637,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8794,7 +9657,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -8814,7 +9681,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8833,7 +9701,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -8852,7 +9725,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8872,7 +9747,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8891,7 +9767,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8910,7 +9788,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -8930,7 +9809,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -8949,7 +9830,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8968,7 +9850,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -8987,7 +9870,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "fonemas"
                 ]
           },
           {
@@ -9006,7 +9892,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -9045,7 +9935,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos"
                 ]
           },
           {
@@ -9064,7 +9957,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9084,7 +9979,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9123,7 +10019,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9142,7 +10040,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9162,7 +10061,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9181,7 +10082,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9201,7 +10104,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9221,7 +10126,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -9240,7 +10149,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9260,7 +10170,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9280,7 +10192,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -9299,7 +10214,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -9319,7 +10236,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9338,7 +10256,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9357,7 +10277,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9377,7 +10299,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9397,7 +10322,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9436,7 +10363,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9455,7 +10385,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9475,7 +10408,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9495,7 +10432,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9514,7 +10455,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9533,7 +10477,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -9552,7 +10499,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9591,7 +10539,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9611,7 +10561,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9630,7 +10582,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9650,7 +10603,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9669,7 +10624,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9707,7 +10663,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -9726,7 +10685,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9745,7 +10705,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -9784,7 +10747,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9804,7 +10768,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9823,7 +10788,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -9842,7 +10809,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos"
                 ]
           },
           {
@@ -9881,7 +10851,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9920,7 +10891,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -9940,7 +10912,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -9960,7 +10934,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10018,7 +10993,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -10038,7 +11016,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10057,7 +11038,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -10077,7 +11060,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -10097,7 +11082,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -10117,7 +11105,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10137,7 +11126,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -10156,7 +11148,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "crase"
                 ]
           },
           {
@@ -10175,7 +11169,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10194,7 +11189,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -10214,7 +11211,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10274,7 +11272,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10312,7 +11313,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -10331,7 +11334,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10350,7 +11354,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10388,7 +11395,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -10407,7 +11416,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10426,7 +11437,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10446,7 +11458,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10466,7 +11482,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10565,7 +11582,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -10584,7 +11604,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -10604,7 +11626,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -10623,7 +11648,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -10643,7 +11669,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           }
     ],
@@ -10725,7 +11752,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -10763,7 +11793,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -10821,7 +11852,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -10938,7 +11971,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -10996,7 +12032,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -11036,7 +12075,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -11075,7 +12116,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -11095,7 +12137,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -11114,7 +12158,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "proparoxitonas"
                 ]
           },
           {
@@ -11153,7 +12199,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -11230,7 +12279,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -11270,7 +12320,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -11405,7 +12457,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -11444,7 +12501,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -11502,7 +12561,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -11522,7 +12584,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -11541,7 +12607,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -11618,7 +12686,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11655,7 +12724,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ortografia"
                 ]
           },
           {
@@ -11675,7 +12745,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -11695,7 +12766,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -11715,7 +12789,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11735,7 +12810,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -11755,7 +12834,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11775,7 +12855,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11795,7 +12876,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -11815,7 +12900,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11835,7 +12921,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -11895,7 +12982,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -11934,7 +13023,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -11954,7 +13045,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -11973,7 +13065,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -12033,7 +13127,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12052,7 +13147,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12071,7 +13167,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -12091,7 +13190,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -12110,7 +13212,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12129,7 +13232,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -12168,7 +13274,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12345,7 +13452,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12365,7 +13473,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -12385,7 +13495,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12404,7 +13515,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -12424,7 +13537,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -12444,7 +13559,13 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -12483,7 +13604,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -12502,7 +13628,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -12521,7 +13648,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12540,7 +13668,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12619,7 +13748,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12658,7 +13788,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "tritongos",
+                      "digrafos",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -12677,7 +13811,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -12697,7 +13833,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -12717,7 +13857,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -12737,7 +13879,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -12796,7 +13939,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12816,7 +13960,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12894,7 +14039,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12913,7 +14059,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -12932,7 +14082,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -12972,7 +14124,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -13011,7 +14167,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13030,7 +14187,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -13050,7 +14210,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13069,7 +14230,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -13089,7 +14253,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -13128,7 +14296,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -13167,7 +14339,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -13187,7 +14362,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -13207,7 +14384,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13245,7 +14423,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -13323,7 +14503,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -13342,7 +14524,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "silabas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -13441,7 +14627,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "proparoxitonas"
                 ]
           },
           {
@@ -13461,7 +14649,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -13518,7 +14708,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -13538,7 +14730,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -13578,7 +14772,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13598,7 +14793,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13638,7 +14834,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -13658,7 +14856,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -13698,7 +14897,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "silabas"
                 ]
           },
           {
@@ -13814,7 +15014,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13834,7 +15035,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -13892,7 +15094,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -13930,7 +15135,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -13988,7 +15195,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -14008,7 +15217,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -14048,7 +15259,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14068,7 +15281,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos"
                 ]
           },
           {
@@ -14186,7 +15400,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -14205,7 +15422,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -14244,7 +15462,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -14283,7 +15505,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos"
                 ]
           },
           {
@@ -14303,7 +15526,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "oxitonas"
                 ]
           },
           {
@@ -14382,7 +15607,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -14482,7 +15708,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14621,7 +15848,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -14719,7 +15949,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14758,7 +15989,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14777,7 +16009,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14797,7 +16030,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -14816,7 +16051,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ortografia"
                 ]
           },
           {
@@ -14854,7 +16090,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14893,7 +16130,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -14912,7 +16150,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "silabas",
+                      "oxitonas",
+                      "tonicidade",
+                      "fonemas"
                 ]
           },
           {
@@ -15146,7 +16389,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15165,7 +16409,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -15224,7 +16469,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15243,7 +16489,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -15321,7 +16570,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -15360,7 +16612,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -15419,7 +16676,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15577,7 +16837,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -15636,7 +16898,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -15733,7 +16996,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15753,7 +17017,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -15772,7 +17037,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "proparoxitonas"
                 ]
           },
           {
@@ -15831,7 +17097,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15889,7 +17157,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -15947,7 +17217,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16122,7 +17393,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16161,7 +17433,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16238,7 +17511,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "paroxitonas",
+                      "hifen"
                 ]
           },
           {
@@ -16315,7 +17590,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16335,7 +17611,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -16354,7 +17632,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16373,7 +17652,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16393,7 +17673,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "tritongos",
+                      "encontrosConsonantais",
+                      "proparoxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -16471,7 +17755,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "silabas",
+                      "fonemas"
                 ]
           },
           {
@@ -16491,7 +17778,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16629,7 +17917,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -16667,7 +17960,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -16687,7 +17982,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "silabas",
+                      "proparoxitonas"
                 ]
           },
           {
@@ -16764,7 +18062,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -16863,7 +18164,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -16882,7 +18185,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16901,7 +18205,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -16920,7 +18225,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17134,7 +18440,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "hiatos",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -17173,7 +18484,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17193,7 +18505,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos"
                 ]
           },
           {
@@ -17232,7 +18545,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "paroxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -17252,7 +18569,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -17388,7 +18707,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "fonemas"
                 ]
           },
           {
@@ -17407,7 +18728,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos"
                 ]
           },
           {
@@ -17427,7 +18749,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17446,7 +18769,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17485,7 +18809,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -17525,7 +18852,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17545,7 +18873,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -17565,7 +18894,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -17585,7 +18918,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -17625,7 +18959,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "hifen"
                 ]
           },
           {
@@ -17645,7 +18980,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas",
+                      "ortografia"
                 ]
           },
           {
@@ -17684,7 +19021,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "hiatos",
+                      "oxitonas"
                 ]
           },
           {
@@ -17704,7 +19043,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -17782,7 +19125,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17861,7 +19205,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "silabas"
                 ]
           },
           {
@@ -17917,7 +19262,8 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -17977,7 +19323,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
@@ -18016,7 +19363,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ortografia"
                 ]
           },
           {
@@ -18035,7 +19383,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -18113,7 +19464,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -18173,7 +19526,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -18192,7 +19548,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18211,7 +19568,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "hiatos",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -18230,7 +19590,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -18252,7 +19615,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18272,7 +19639,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18292,7 +19662,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas"
                 ]
           },
           {
@@ -18330,7 +19701,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -18488,7 +19861,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18606,7 +19983,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos"
                 ]
           },
           {
@@ -18659,7 +20037,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18678,7 +20060,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18758,7 +20142,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "fonemas",
+                      "hifen"
                 ]
           },
           {
@@ -18778,7 +20164,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos"
                 ]
           },
           {
@@ -18817,7 +20204,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18837,7 +20226,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18896,7 +20287,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "hiatos",
+                      "hifen"
                 ]
           },
           {
@@ -18935,7 +20328,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18955,7 +20349,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -18995,7 +20391,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19032,7 +20432,9 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19052,7 +20454,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19111,7 +20517,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -19150,7 +20558,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas"
                 ]
           },
           {
@@ -19190,7 +20599,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19230,7 +20641,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19266,7 +20680,9 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19285,7 +20701,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19343,7 +20763,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "hiatos",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -19362,7 +20785,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19382,7 +20807,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19442,7 +20871,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -19480,7 +20911,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19500,7 +20935,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19540,7 +20978,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos"
                 ]
           },
           {
@@ -19559,7 +20998,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -19579,7 +21019,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19618,7 +21060,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19677,7 +21121,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos"
                 ]
           },
           {
@@ -19715,7 +21160,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas"
                 ]
           },
           {
@@ -19735,7 +21181,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19752,7 +21199,9 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -19809,7 +21258,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -19868,7 +21319,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -19885,7 +21338,9 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -19904,7 +21359,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -19981,7 +21439,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas"
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -20097,7 +21556,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20117,7 +21579,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20137,7 +21602,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20156,7 +21624,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -20176,7 +21647,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20196,7 +21670,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20216,7 +21693,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20236,7 +21717,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20255,7 +21739,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
                 ]
           },
           {
@@ -20274,7 +21761,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20294,7 +21784,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20314,7 +21807,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "digrafos",
+                      "paroxitonas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -20333,7 +21830,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20352,7 +21853,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "hifen"
                 ]
           },
           {
@@ -20371,7 +21876,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20391,7 +21900,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20411,7 +21924,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20430,7 +21947,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20449,7 +21970,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20468,7 +21992,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20488,7 +22016,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "hiatos",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "hifen"
                 ]
           },
           {
@@ -20507,7 +22039,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20527,7 +22061,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -20546,7 +22084,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "hifen"
                 ]
           },
           {
@@ -20566,7 +22108,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "hiatos",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20586,7 +22131,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20605,7 +22153,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "ortografia"
                 ]
           },
           {
@@ -20625,7 +22177,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20644,7 +22200,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20663,7 +22223,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20683,7 +22247,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20723,7 +22290,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20743,7 +22313,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "ditongos",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -20763,7 +22337,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20783,7 +22361,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20802,7 +22383,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20821,7 +22405,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20840,7 +22427,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20860,7 +22451,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20880,7 +22474,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20899,7 +22496,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           }
     ],
@@ -20920,7 +22520,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -20940,7 +22543,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -20960,7 +22566,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -20979,7 +22588,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -20998,7 +22611,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21018,7 +22633,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21038,7 +22656,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21058,7 +22679,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21078,7 +22701,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21098,7 +22725,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21117,7 +22747,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21137,7 +22769,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21156,7 +22792,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21175,7 +22815,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21195,7 +22837,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21215,7 +22859,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21234,7 +22880,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21253,7 +22901,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21273,7 +22923,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21293,7 +22947,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21313,7 +22971,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21333,7 +22995,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "ditongos",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -21353,7 +23019,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21372,7 +23040,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21392,7 +23064,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21411,7 +23086,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21430,7 +23107,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21450,7 +23131,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21470,7 +23153,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21489,7 +23176,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "proparoxitonas"
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           }
     ],
@@ -21510,7 +23199,12 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "oxitonas",
+                      "fonemas"
                 ]
           },
           {
@@ -21530,7 +23224,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21549,7 +23244,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21569,7 +23268,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21589,7 +23292,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21628,7 +23334,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21647,7 +23355,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21667,7 +23379,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21686,7 +23400,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21722,7 +23440,10 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21741,7 +23462,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21760,7 +23483,8 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21779,7 +23503,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas"
                 ]
           },
           {
@@ -21817,7 +23544,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -21836,7 +23567,11 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas"
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           }
     ],
