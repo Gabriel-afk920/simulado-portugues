@@ -56,7 +56,7 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO_SIMULADO = 10 * 60; // 10 minutos
+const TEMPO_SIMULADO = 30 * 60; // 30 minutos
 let temaAtual        = null;
 let questoes         = [];
 let indiceAtual      = 0;
@@ -66,6 +66,7 @@ let respostasMap     = {};
 let shuffleMap       = {};
 let teoriaConsultada = {};
 let timerInterval    = null;
+let simuladoPausado  = false;
 let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (reseta ao sair para temas)
 let tempoSimulado    = TEMPO_SIMULADO;
 let respondeu        = false;
@@ -305,10 +306,13 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
   tempoSimulado    = TEMPO_SIMULADO;
 
   clearInterval(timerInterval);
+  simuladoPausado = false;
+  document.getElementById('btn-pausar').textContent = '⏸ Pausar';
   const timerEl = document.getElementById('timer-box');
   timerEl.textContent = _fmtTempo(tempoSimulado);
   timerEl.className   = 'timer-box';
   timerInterval = setInterval(() => {
+    if (simuladoPausado) return;
     tempoSimulado--;
     timerEl.textContent = _fmtTempo(tempoSimulado);
     if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
@@ -457,6 +461,27 @@ document.getElementById('btn-voltar-temas').addEventListener('click', () => {
 
 document.getElementById('btn-desistir').addEventListener('click', () => {
   mostrarResultado();
+});
+
+document.getElementById('btn-pausar').addEventListener('click', () => {
+  simuladoPausado = !simuladoPausado;
+  const btn = document.getElementById('btn-pausar');
+  const quizBody = document.getElementById('question-text');
+  if (simuladoPausado) {
+    btn.textContent = '▶ Continuar';
+    btn.style.borderColor = '#22c55e';
+    btn.style.color       = '#22c55e';
+    document.getElementById('options-list').style.visibility   = 'hidden';
+    document.getElementById('explanation-box').style.visibility = 'hidden';
+    quizBody.style.filter = 'blur(4px)';
+  } else {
+    btn.textContent = '⏸ Pausar';
+    btn.style.borderColor = '#6366f1';
+    btn.style.color       = '#6366f1';
+    document.getElementById('options-list').style.visibility   = '';
+    document.getElementById('explanation-box').style.visibility = '';
+    quizBody.style.filter = '';
+  }
 });
 
 // ══════════════════════════════════════════════════════════
