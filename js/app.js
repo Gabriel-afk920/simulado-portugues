@@ -40,12 +40,17 @@ function _atualizarQDif(q, acertou, usouTeoria) {
   else                 d[k].s++;
   localStorage.setItem('qdif', JSON.stringify(d));
 }
-function shuffleAdaptativo(arr) {
-  // Weighted random shuffle: peso × random → sort. Questões difíceis tendem a aparecer
-  // mais cedo, mas o random garante ordem diferente a cada sessão.
-  const items = arr.map(q => ({ q, score: _qPeso(q) * Math.random() }));
-  items.sort((a, b) => b.score - a.score);
-  return items.map(x => x.q);
+function shuffleAdaptativo(arr, excluir = new Set()) {
+  const pesar = (qs) => {
+    const items = qs.map(q => ({ q, score: _qPeso(q) * Math.random() }));
+    items.sort((a, b) => b.score - a.score);
+    return items.map(x => x.q);
+  };
+  if (!excluir.size) return pesar(arr);
+  const naoVistas = arr.filter(q => !excluir.has(_qHash(q)));
+  const vistas    = arr.filter(q =>  excluir.has(_qHash(q)));
+  // Questões não vistas primeiro (adaptive), vistas só se esgotar o pool
+  return [...pesar(naoVistas), ...pesar(vistas)];
 }
 
 // ══════════════════════════════════════════════════════════
@@ -61,6 +66,7 @@ let respostasMap     = {};
 let shuffleMap       = {};
 let teoriaConsultada = {};
 let timerInterval    = null;
+let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (reseta ao sair para temas)
 let tempoSimulado    = TEMPO_SIMULADO;
 let respondeu        = false;
 
@@ -286,9 +292,9 @@ function _fmtTempo(s) {
   return `${m}:${String(s % 60).padStart(2, '0')}`;
 }
 
-function iniciarSimulado(tema) {
+function iniciarSimulado(tema, excluirHashes = new Set()) {
   temaAtual        = tema;
-  questoes         = shuffleAdaptativo(tema.questoes);
+  questoes         = shuffleAdaptativo(tema.questoes, excluirHashes);
   if (!questoes.length) return;
   indiceAtual      = 0;
   pontuacao        = 0;
@@ -316,6 +322,7 @@ function iniciarSimulado(tema) {
 
 function renderQuestao() {
   const q         = questoes[indiceAtual];
+  qsVistasNaSessao.add(_qHash(q));  // marca questão como vista nesta sessão
   const total     = questoes.length;
   const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
   respondeu       = jaResp;
@@ -443,6 +450,7 @@ document.getElementById('btn-voltar-temas').addEventListener('click', () => {
   document.getElementById('teoria-panel').classList.add('hidden');
   renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
+  qsVistasNaSessao = new Set();
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
 });
@@ -521,11 +529,15 @@ function mostrarResultado() {
   });
 }
 
-document.getElementById('btn-retry').addEventListener('click', () => iniciarSimulado(temaAtual));
+document.getElementById('btn-retry').addEventListener('click', () => {
+  // Passa as questões já vistas: retry mostrará primeiro as que o usuário ainda não respondeu
+  iniciarSimulado(temaAtual, new Set(qsVistasNaSessao));
+});
 
 document.getElementById('btn-home-result').addEventListener('click', () => {
   renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
+  qsVistasNaSessao = new Set();
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
 });
