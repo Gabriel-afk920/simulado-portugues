@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 19/06/2026, 19:14:48 — 1117 questões incluídas
+// 19/06/2026, 19:42:58 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -22,6 +22,21 @@ var QUESTOES_BANCO = {
       "nome": "Colocação Pronominal",
       "icon": "📍",
       "desc": "Posição dos pronomes oblíquos"
+    },
+    "oxitonas": {
+      "nome": "Oxítonas",
+      "icon": "🔺",
+      "desc": "Sílaba tônica na última sílaba"
+    },
+    "paroxitonas": {
+      "nome": "Paroxítonas",
+      "icon": "🔸",
+      "desc": "Sílaba tônica na penúltima sílaba"
+    },
+    "proparoxitonas": {
+      "nome": "Proparoxítonas",
+      "icon": "🔹",
+      "desc": "Sílaba tônica na antepenúltima sílaba"
     }
   },
   questoes: {
@@ -18121,7 +18136,7 @@ var QUESTOES_BANCO = {
                 ]
           }
     ],
-    "tonicidade": [
+    "oxitonas": [
           {
                 "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
                 "opcoes": [
@@ -18134,11 +18149,11 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Mesa, tábua, régua.</strong>. Fonte: Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH/2026. Assunto: tonicidade.",
                 "banca": "Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH",
                 "ano": 2026,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "oxitonas"
                 ]
           },
           {
@@ -18154,13 +18169,1938 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>três sílabas e é oxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2026. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2026,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "oxitonas"
                 ]
           },
+          {
+                "enunciado": "Quanto à tonicidade, é exemplo de oxítona a palavra:",
+                "opcoes": [
+                      "Disciplina.",
+                      "Assistencial.",
+                      "Ambiguidade.",
+                      "Subjetividade."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Assistencial.</strong>. Fonte: Gama Consultoria/2026. Assunto: tonicidade.",
+                "banca": "Gama Consultoria",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho no tempo em que tudo é descartável, a palavra descartável recebe acento gráfico porque:",
+                "opcoes": [
+                      "É oxítona terminada em L.",
+                      "É paroxítona terminada em L.",
+                      "É proparoxítona terminada em L.",
+                      "É paroxítona terminada em hiato decrescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>É oxítona terminada em L.</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise a palavra PLANETA, presente no título da charge. De acordo com as regras oficiais, ela é classificada de forma CORRETA como:",
+                "opcoes": [
+                      "Oxítona, porque a sílaba mais forte é a última (TA).",
+                      "Paroxítona, porque a sílaba mais forte é a penúltima (NE).",
+                      "Proparoxítona, porque a sílaba mais forte é a antepenúltima (PLA).",
+                      "Monossílaba átona, porque possui apenas uma sílaba na sua escrita e não tem força na fala."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona, porque a sílaba mais forte é a última (TA).</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo quanto à classificação da sílaba tônica e relacione corretamente cada uma delas à sua respectiva categoria. Em seguida, assinale a alternativa que apresenta a sequência correta. 1. (__) Cérebro. 2. (__) Além. 3. (__) Impossível. 4. (__) Plástico. 5. (__) Pesquisa. Categorias:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "1-C / 2-A / 3-B / 4-C / 5-B.",
+                      "1-B / 2-C / 3-A / 4-C / 5-B.",
+                      "1-C / 2-A / 3-B / 4-B / 5-A.",
+                      "1-C / 2-B / 3-A / 4-B / 5-A"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta corretamente a separação silábica e a classificação da sílaba tônica da palavra?",
+                "opcoes": [
+                      "Ci-ên-cia: Oxitona.",
+                      "A-pa-i-xo-na-do: Proparoxitona.",
+                      "Bra-si-lei-ro: Proparoxitona.",
+                      "Ca-fé: Oxítona.",
+                      "Sa-ú-de: Proparoxitona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ci-ên-cia: Oxitona.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra classificada como oxítona, ou seja, cuja última sílaba seja a mais forte.",
+                "opcoes": [
+                      "Homenagem.",
+                      "Carimbo.",
+                      "Lugar.",
+                      "Nomes.",
+                      "Eterno."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Lugar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho “Para a minha surpresa, ele disse: e eu que estive lendo você ontem!” (1º§), a palavra grifada recebe acento por ser oxítona. Assinale a alternativa cuja palavra em destaque recebe acento por fazer parte do mesmo grupo.",
+                "opcoes": [
+                      "“Chico é lindo e é tímido, e é triste.” (2º§)",
+                      "“Eu lhe disse: mas você também é, […]” (4º§)",
+                      "“[...] ouvia tudo de Beethoven que tínhamos e pedia mais, [...]” (4º§)",
+                      "“[...] gostaria de dizer-lhe alguma coisa – o quê? – que diminuísse a sua tristeza.” (2º§)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“Chico é lindo e é tímido, e é triste.” (2º§)</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
+                "opcoes": [
+                      "Anéis.",
+                      "Lápis.",
+                      "Caráter.",
+                      "Ciúme.",
+                      "Heroico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Lápis.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Próxima.",
+                      "Após.",
+                      "Sábado.",
+                      "Notícias.",
+                      "Última."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Próxima.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "Título | xenófobo | zodíaco.",
+                      "Néctar | órfã | tênis.",
+                      "Jiló | javali | vatapá.",
+                      "Oásis | réptil | jiboia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Jiló | javali | vatapá.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que não é uma palavra oxítona:",
+                "opcoes": [
+                      "Açaí",
+                      "Café",
+                      "Chapéu",
+                      "Álbum"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Açaí</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: tonicidade.",
+                "banca": "Evolução Consultoria - Instituto Evo",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Cúpula.",
+                      "Logísticas.",
+                      "Intercâmbio.",
+                      "Paraná.",
+                      "Polícia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cúpula.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, é oxítona apenas:",
+                "opcoes": [
+                      "matemático.",
+                      "cadáver.",
+                      "maracujá.",
+                      "impreterível.",
+                      "simpaticíssima."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>matemático.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ambos os vocábulos são oxítonas:",
+                "opcoes": [
+                      "gratuito – fortuito",
+                      "protótipo – antífona",
+                      "rubrica – bígamo",
+                      "ereter – erudito",
+                      "cateter – ruim"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>protótipo – antífona</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2025. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, indique a alternativa cujo vocábulo é classificado corretamente.",
+                "opcoes": [
+                      "Cérebro – Oxítona.",
+                      "Nucal – Paroxítona.",
+                      "Fósseis – Paroxítona.",
+                      "Músculo – Paroxítona.",
+                      "Anatomistas – Proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cérebro – Oxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando as palavras a seguir relacionadas, extraídas da crônica, assinale a alternativa que contém apenas palavras oxítonas.",
+                "opcoes": [
+                      "“Entrei”; “deparei”; e “olhei”.",
+                      "“Respeitar”; “gritou”; e “ideia”.",
+                      "“Apertar”; “alegria”; e “amiga”.",
+                      "“Visitar”; “adiante”; e “sobretudo”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“Respeitar”; “gritou”; e “ideia”.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta APENAS palavras oxítonas.",
+                "opcoes": [
+                      "Espacial, florestais, eficaz.",
+                      "Invasão, também, Grécia.",
+                      "País, frio, europeias.",
+                      "Razão, tempo, pior.",
+                      "Vegetação, estação, Catastrófico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>País, frio, europeias.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2025. Assunto: tonicidade.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras a seguir são oxítonas, exceto:",
+                "opcoes": [
+                      "funil.",
+                      "oco.",
+                      "pinel.",
+                      "causal.",
+                      "véu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>funil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que apresenta um vocábulo oxítono.",
+                "opcoes": [
+                      "nova",
+                      "não",
+                      "nomofóbico",
+                      "esperava",
+                      "esclareceu"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>nomofóbico</strong>. Fonte: Instituto Quadrix - Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Quadrix - Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Das palavras retiradas do texto, assinale a palavra que é oxítona:",
+                "opcoes": [
+                      "café;",
+                      "econômico;",
+                      "difícil;",
+                      "banco."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>café;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2024. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com palavras oxítonas escritas ditongo nasal.",
+                "opcoes": [
+                      "Camões; quão.",
+                      "Não; canção.",
+                      "Paixão; ações.",
+                      "São; fascinação.",
+                      "Coração; tão."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Camões; quão.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A vogal tônica grafada -i das palavras oxítonas terminadas em -r dos verbos terminados em -air e -uir não recebe acento agudo quando combinadas com -lo(s), -la(s), como em \"atrai-lo\".\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As formas verbais oxítonas, ao serem conjugadas com os pronomes clíticos -lo(s) ou -la(s), recebem acento circunflexo nas vogais tônicas fechadas -e ou -o quando ocorre a perda da consoante final -r, -s, ou -z. Exemplos incluem detê-lo(s), fazê-la(s), vê-la(s), compô-la(s), repôla(s), pô-la(s).\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Na frase: “O diagnóstico deve ser feito por uma equipe multidisciplinar, formada por psicólogo, fonoaudiólogo e psicopedagogo clínico.” As palavras destacadas se classificam quanto a sílaba tônica como:",
+                "opcoes": [
+                      "Oxítonas.",
+                      "Paroxítonas.",
+                      "Proparoxítonas.",
+                      "Trissílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítonas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
+                "opcoes": [
+                      "Atlântica, país.",
+                      "Mata, já.",
+                      "responsável, agora.",
+                      "até, país."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Atlântica, país.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "São palavras oxitonas:",
+                "opcoes": [
+                      "beira; fúria; figo.",
+                      "cantil; nó; céu.",
+                      "círio; avó; perfeito.",
+                      "ambiente; catástrofe; mundo.",
+                      "tenaz; carniça; música."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>beira; fúria; figo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
+                "opcoes": [
+                      "esportivo.",
+                      "holandês.",
+                      "símbolos.",
+                      "paralímpicos.",
+                      "jogos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>símbolos.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras destacadas são oxítonas.",
+                "opcoes": [
+                      "“Na comparação das cidades do top 10 do ranking com o desempenho do PIB de 2020, Xaxim, com aumento de 27%, e Xanxerê, com alta de 23,8%, são as que mais se destacaram.”",
+                      "“Entre as regiões, o Vale do Itajaí foi novamente a mais rica de Santa Catarina, aumentando a vantagem sobre o Norte catarinense, área com o segundo melhor desempenho do Estado.",
+                      "“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“",
+                      "“Principal cidade da região, Chapecó teve o maior volume de PIB por municípios na região, com R$ 13,6 bilhões de riquezas produzidas na cidade naquele ano.",
+                      "“A soma das riquezas produzidas pelas 118 cidades da região foi de R$ 71,6 bilhões, o que corresponde a 16,7% do total do PIB catarinense.”"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas: I. A palavra “água-de-colônia” leva hífen pelo mesmo motivo de “co-autor”. II. As palavras “coliseu” e “guaraná” são oxítonas. III. As palavras “variável” e “chocolate” apresentam o mesmo número de fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta todas as palavras oxítonas escritas com ditongo nasal.",
+                "opcoes": [
+                      "Tão; realizações; não.",
+                      "Paixão; quão; gratidão.",
+                      "Coração; tão; posição.",
+                      "Quão; tão; vibrações;",
+                      "Então; atenção; comparação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tão; realizações; não.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, em destaque no excerto indicado, classifica-se como oxítona apenas:",
+                "opcoes": [
+                      "cachorro.",
+                      "carnívoro.",
+                      "subespécie.",
+                      "animal.",
+                      "humano."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>carnívoro.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
+                "opcoes": [
+                      "raposa, baixo, disse.",
+                      "corvo, coisa, cauda.",
+                      "você, cair, abrir.",
+                      "cérebro, bonitas, bico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>você, cair, abrir.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras, quanto à sílaba tônica, são oxítonas em:",
+                "opcoes": [
+                      "Noites, carinhosamente, arte.",
+                      "Falantes, ligadas, feminina.",
+                      "Sultão, amor, mulher.",
+                      "Orifício, alonga, chato.",
+                      "Homem, noites, possível."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Sultão, amor, mulher.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona, assim como a palavra “sofá”?",
+                "opcoes": [
+                      "Insônia.",
+                      "Vício.",
+                      "Hábito.",
+                      "Saudável.",
+                      "Além."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Insônia.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que contém apenas palavras oxítonas:",
+                "opcoes": [
+                      "Sofá, Amapá, Café",
+                      "Última, Próxima, Tráfico",
+                      "Lápis, Próprio, Parábola.",
+                      "Mesmo, saudade, tempo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sofá, Amapá, Café</strong>. Fonte: Funatec/2024. Assunto: tonicidade.",
+                "banca": "Funatec",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a norma-padrão da Língua Portuguesa, analise as assertivas a seguir: I. As palavras “saída” e “pátria” são acentuadas conforme a regra do hiato. II. A palavra “velejador” é oxítona e átona. III. Não é obrigatório o uso do hífen em palavras justapostas, como “couveflor”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa com uma palavra oxítona:",
+                "opcoes": [
+                      "Tinta",
+                      "Lápis",
+                      "Fubá",
+                      "Navalha"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Lápis</strong>. Fonte: Instituto de Gestão de Cidades - IGECS/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Gestão de Cidades - IGECS",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir quanto à tonicidade e assinale a alternativa em que a palavra dada é oxítona.",
+                "opcoes": [
+                      "hostil.",
+                      "aeromoça.",
+                      "espelho.",
+                      "patente.",
+                      "esperança."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hostil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona (última sílaba tônica).",
+                "opcoes": [
+                      "Cuidado.",
+                      "Açúcar.",
+                      "Saúde.",
+                      "Fósforo.",
+                      "Verão."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Açúcar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Insípido.",
+                      "Delícia.",
+                      "Fubá.",
+                      "Básico.",
+                      "Américas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Insípido.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a opção que indica a palavra cuja classificação da sílaba tônica NÃO está corretamente apresentada.",
+                "opcoes": [
+                      "hidratação [OXÍTONA].",
+                      "engavetamento [PAROXÍTONA].",
+                      "fonoaudiologia [PAROXÍTONA].",
+                      "planejamento [PROPAROXÍTONA].",
+                      "processamento [PAROXÍTONA]."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hidratação [OXÍTONA].</strong>. Fonte: Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Sétimo.",
+                      "Patrimônio.",
+                      "Último.",
+                      "Canadá.",
+                      "Território."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sétimo.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Se caracterizam como oxítonas palavras que possuem a sílaba tônica estabelecida na última sílaba. Ex: \"avô\" e \"café\".\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe as seguintes palavras, retiradas da receita: “prato”, “panela”, “refogue”, “francesa” e “minutos”. Selecione a alternativa que indica o ponto em comum entre elas.",
+                "opcoes": [
+                      "Todas são oxítonas, pois a sílaba tônica é a última.",
+                      "Todas são paroxítonas, pois a sílaba tônica é a penúltima.",
+                      "Todas são proparoxítonas, pois a sílaba tônica é a antepenúltima.",
+                      "Todas são paroxítonas, pois a sílaba tônica é a última.",
+                      "Todas são proparoxítonas, pois a sílaba tônica é a penúltima."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Todas são oxítonas, pois a sílaba tônica é a última.</strong>. Fonte: Ntcs - NTCS/2024. Assunto: tonicidade.",
+                "banca": "Ntcs - NTCS",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que as palavras são oxítonas:",
+                "opcoes": [
+                      "Metrô | suflê.",
+                      "Subsídio | gênero.",
+                      "Memória | imaginário.",
+                      "Silêncio | básico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Metrô | suflê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona é:",
+                "opcoes": [
+                      "Tórax.",
+                      "Caju.",
+                      "Nômade.",
+                      "Tríceps.",
+                      "Lápide."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tórax.</strong>. Fonte: Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM/2024. Assunto: tonicidade.",
+                "banca": "Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Acentuam-se todos os casos de palavras oxítonas mencionados a seguir, com exceção de:",
+                "opcoes": [
+                      "palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em.",
+                      "formas verbais oxítonas terminadas na vogal tônica aberta grafada -a, quando conjugadas com os pronomes clíticos lo(s) ou la(s).",
+                      "palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.",
+                      "palavras oxítonas terminadas com os ditongos abertos grafados -éi, -éu ou -ói.",
+                      "palavras oxítonas terminadas nas vogais tônicas fechadas que se grafam -e ou -o."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação às palavras oxítonas, assinalar a alternativa correspondente a essa classificação:",
+                "opcoes": [
+                      "Xícara.",
+                      "Têxtil.",
+                      "Árvore.",
+                      "Abajur."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Xícara.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta um par de palavras oxítonas (a última sílaba é tônica).",
+                "opcoes": [
+                      "Social – saúde.",
+                      "Metódicos – níveis.",
+                      "Abril – além.",
+                      "Azul – características.",
+                      "Neurológico – diagnóstico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Social – saúde.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Indique a alternativa em que todas as palavras são oxítonas devido à mesma regra.",
+                "opcoes": [
+                      "Poder – tudo – fungir.",
+                      "Agora – vamos – será.",
+                      "Entender – precisar – esquecer.",
+                      "Se – pra – fugir.",
+                      "Ninguém – tudo – também."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Entender – precisar – esquecer.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito da palavra “natal” (l. 11): I. Trata-se de um substantivo. II. A palavra é oxítona quanto à posição da sílaba tônica. III. Um sinônimo dela seria a palavra “festivo”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras dadas são oxítonas.",
+                "opcoes": [
+                      "armazém; funil; bambu.",
+                      "mandíbula; áspero; eclético.",
+                      "bordado; estante; espelho.",
+                      "vulnerável; espiritual; cantina.",
+                      "interoperabilidade; espectro; amável."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>mandíbula; áspero; eclético.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras “sensível”, “tonalidade” e “escuros”, que ocorrem no texto, têm em comum:",
+                "opcoes": [
+                      "a tonicidade, sendo todas oxítonas.",
+                      "a segmentação silábica, sendo todas trissílabas.",
+                      "a tonicidade, sendo todas paroxítonas.",
+                      "o processo de formação, sendo todas formadas por derivação sufixal.",
+                      "o processo de formação, sendo todas formadas por composição."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a tonicidade, sendo todas oxítonas.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Cametá” é oxítona, assim como",
+                "opcoes": [
+                      "Breves.",
+                      "Bragança.",
+                      "Marituba.",
+                      "Manacapuru."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Manacapuru.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Para acentuar corretamente palavras oxítonas, é suficiente considerar que todas as palavras com a última sílaba tônica recebem acento, independentemente de terminarem em -a, -e, -o, -em, -ens.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sabe-se que na Língua Portuguesa Oficial do Brasil: “A sílaba tônica pode aparecer apenas em três posições: ou ela é a última (café), ou ela é penúltima (amizade) ou ela é a antepenúltima (médico)” (Sacconi, 2008, p. 25). A partir dessa explicação, assinale a alternativa que preencha correta e respectivamente as lacunas. I. São denominados ______ os vocábulos cuja sílaba tônica recai na última sílaba. II. Denominam-se ______ os vocábulos cuja sílaba tônica recai na penúltima sílaba. III. Os vocábulos cuja sílaba tônica recai na antepenúltima sílaba, são denominados ______.",
+                "opcoes": [
+                      "I - parônimos; II - oxímoros; III - prosopopeias",
+                      "I - oxítonos; II - paroxítonos; III - proparoxítonos",
+                      "I - prosopopeias; II - oxítonos; III - paroxítonos",
+                      "I - proparoxítonos; II - monossílabos; III - paradoxos",
+                      "I - proparoxítonos; II - oxítonos; III - paroxítonos"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I - oxítonos; II - paroxítonos; III - proparoxítonos</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao número de sílabas e à tonicidade de palavras do texto, assinale a alternativa correta.",
+                "opcoes": [
+                      "“médio” possui duas sílabas, sendo oxítona.",
+                      "“matemática” possui quatro sílabas, sendo proparoxítona.",
+                      "“críticos” possui três sílabas, sendo paroxítona.",
+                      "“matrículas” possui quatro sílabas, sendo proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“médio” possui duas sílabas, sendo oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Após.",
+                      "Época.",
+                      "Polícia.",
+                      "Crônicas.",
+                      "Infância."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Após.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é classificada como OXÍTONA?",
+                "opcoes": [
+                      "Mané.",
+                      "Lúcido.",
+                      "Bônus.",
+                      "Sol."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mané.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
+                "opcoes": [
+                      "hiato.",
+                      "oxítona.",
+                      "paroxítona.",
+                      "proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>oxítona.</strong>. Fonte: Instituto Verbena/2024. Assunto: tonicidade.",
+                "banca": "Instituto Verbena",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras oxítonas têm a sílaba tônica na última sílaba. Assinalar a palavra que NÃO é uma oxítona.",
+                "opcoes": [
+                      "Bambolê.",
+                      "Alegre.",
+                      "Ruim.",
+                      "Principal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Bambolê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a classificação da palavra em relação à sílaba tônica está correta.",
+                "opcoes": [
+                      "urso (oxítona)",
+                      "néctar (oxítona)",
+                      "místico (paroxítona)",
+                      "fazenda (paroxítona)",
+                      "sentimento (proparoxítona)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>urso (oxítona)</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém uma palavra oxítona:",
+                "opcoes": [
+                      "Bisturi.",
+                      "Recorde.",
+                      "Corajoso.",
+                      "Fósforo.",
+                      "Responsáveis."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Fósforo.</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
+                "banca": "FACET Concursos - FACET",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Entre as seguintes palavras, retiradas do texto, assinale a alternativa que apresenta uma oxítona.",
+                "opcoes": [
+                      "Própria.",
+                      "Vários.",
+                      "Explicação.",
+                      "Psicóloga.",
+                      "Máximo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Própria.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Perifrástica.",
+                      "Monossilábica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
+                "banca": "SC Treinamentos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa na qual a palavra NÃO é oxítona:",
+                "opcoes": [
+                      "Dominós.",
+                      "Porém.",
+                      "Você.",
+                      "Terra."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Porém.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
+                "opcoes": [
+                      "Disputará (oxítona).",
+                      "Caderno (paroxítona).",
+                      "Fenômeno (proparoxítona).",
+                      "Jogador (proparoxítona)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Disputará (oxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à tonicidade dos vocábulos de Língua Portuguesa, assinale a alternativa correta:",
+                "opcoes": [
+                      "a palavra homem é oxítona",
+                      "a palavra café é paroxítona",
+                      "a palavra sentimento é proparoxítona",
+                      "a palavra pensamento é proparoxítona",
+                      "a palavra repórter é paroxítona"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a palavra homem é oxítona</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sentir-se cansada após um dia cheio de trabalho, pode ser considerado algo fácil. Contudo, quando esse cansaço é excessivo e vem acompanhado de outros sintomas, como fadiga, exaustão, estafa e esgotamento, é importante buscar ajuda médica. A palavra acentuada por ser uma oxítona é:",
+                "opcoes": [
+                      "é.",
+                      "exaustão.",
+                      "médica.",
+                      "fácil.",
+                      "após."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>médica.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com as palavras oxítonas com ditongo nasal.",
+                "opcoes": [
+                      "Tem; não.",
+                      "Boa; são.",
+                      "Ação; sensação.",
+                      "Vão; você.",
+                      "Mão; explicação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tem; não.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "É comum a relação entre a doença e movimentos repetitivos, como a digitação no computador, porém, não há comprovação. Assinale a opção CORRETA quanto às regras de acentuação gráfica.",
+                "opcoes": [
+                      "porém: acentuada por ser uma oxítona termina em 'em'.",
+                      "relação: acentuada por ser uma oxítona terminada em 'o'.",
+                      "é: acentuada por ser uma oxítona terminada em 'e'.",
+                      "há: acentuada por ser uma oxítona terminada em 'a'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>porém: acentuada por ser uma oxítona termina em 'em'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona, ou seja, tem a última sílaba tônica?",
+                "opcoes": [
+                      "Perfume.",
+                      "Assombro.",
+                      "Alguém.",
+                      "Caídas.",
+                      "Morte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Alguém.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde todos os exemplos são palavras oxítonas:",
+                "opcoes": [
+                      "geleia - anhembi - anzol",
+                      "aqui – gato - azul",
+                      "avental - azul - condor",
+                      "alcateia – lobo – sapo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>avental - azul - condor</strong>. Fonte: Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH/2023. Assunto: tonicidade.",
+                "banca": "Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas relacionadas à palavra “feminina”, presente na charge. I. Possui o mesmo radical que a palavra “feminismo”. II. A desinência nominal indica o gênero da palavra. III. Possui quatro sílabas e, quanto à tonicidade, é classificada como oxítona. IV. Morfologicamente, cumpre função de adjetivo. É correto o que se afi rma apenas em",
+                "opcoes": [
+                      "II e IV.",
+                      "II e III.",
+                      "I e IV.",
+                      "I e III.",
+                      "I, II e IV."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e IV.</strong>. Fonte: Fundação Universidade de Tocantis - UNITINS/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade de Tocantis - UNITINS",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona.",
+                "opcoes": [
+                      "Saudável.",
+                      "Porém.",
+                      "Cérebro.",
+                      "Saúde.",
+                      "Último."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Saudável.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "estereótipo, camaleão, metrô.",
+                      "febril, apreciação, neném.",
+                      "verbos, ananás, cafezal.",
+                      "caldo, bússola, música.",
+                      "tênis, verduras, página."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>caldo, bússola, música.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2023. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque as palavras oxítonas escritas com ditongo nasal.",
+                "opcoes": [
+                      "Não; tradição.",
+                      "Transmissão; abstrações.",
+                      "Tão; abstrações.",
+                      "Também; são."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Não; tradição.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "“Maçã” é uma palavra classificada como oxítona. Com isso, assinalar a alternativa que apresenta ambas as palavras com a mesma classificação:",
+                "opcoes": [
+                      "Potássio | Benéfico.",
+                      "Abacaxi | Alecrim.",
+                      "Saúde | Físico.",
+                      "Abelha | Zebra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Potássio | Benéfico.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "É incorreto afirmar sobre o vocábulo \"aporofobia\":",
+                "opcoes": [
+                      "é polissílaba.",
+                      "é uma palavra composta.",
+                      "é oxítona.",
+                      "é substantivo abstrato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>é oxítona.</strong>. Fonte: Fundação CETAP/2023. Assunto: tonicidade.",
+                "banca": "Fundação CETAP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sobre os componentes estruturais do segundo e do terceiro períodos do (2º§), analise as assertivas: I.No segmento: \"Acredito que a maioria das pessoas se automedica por sugestão de amigos, leitura, fascinação\" − temos sujeito elíptico de primeira pessoa do singular do presente do modo indicativo; conjunção subordinativa integrante; três termos (amigos, leitura, fascinação) que exercem função sintática de complemento nominal de \"sugestão\". II.A palavra \"fascinação\" é oxítona sem acento gráfico que justifique a tonicidade, porque TIL é marca suprassegmental de nasalização da vogal. III.A locução verbal \"tentar manter\" está seguida de objeto direto representado por \"juventude\". IV.O trecho: \"Qualquer que seja a causa, os resultados podem ser danosos\" − inicia com pronome indefinido que faz plural interno; termina com adjetivo com função sintática de predicativo do sujeito \"os resultados\". Marque a opção correta.",
+                "opcoes": [
+                      "II e IV apenas.",
+                      "I, II, III e IV.",
+                      "I, II e III apenas.",
+                      "III e IV apenas.",
+                      "I, III e IV apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II e IV apenas.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2023. Assunto: tonicidade.",
+                "banca": "Universidade do Extremo Sul Catarinense - UNESC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas seguintes: I.No texto, existem exemplos de concordâncias ideológicas, entre elas, podemos citar: \"todos sabemos\"; \"todos reconhecemos\". II.As palavras \"ambição\" e \"então\" são oxítonas com som nasal. III.Na frase: \"nas pequenas coisas que temos na vida\", temos um trissílabo paroxítono que faz antônimo com \"grandes\"; temos um pronome relativo após um substantivo dissílabo paroxítono. IV.Na frase: \"A felicidade não deve ser colocada como um objetivo a ser alcançado\" - temos exemplos de conjunções subordinativas conformativas. V.Na frase: \"Você tem mil razões para se sentir feliz\" - temos um numeral que se classifica como multiplicativo. Marque a alternativa com a opção CORRETA.",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "Apenas II, IV e V.",
+                      "Apenas I, II e III.",
+                      "Apenas I, II e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I, II e III.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Acém, detém, deténs, entretém, entreténs: são exemplos de palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em e -ens.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que ambas as palavras são oxítonas:",
+                "opcoes": [
+                      "Imaginário | Pavê.",
+                      "História | Sólido.",
+                      "Fácil | Amável.",
+                      "Café | Ninguém."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Imaginário | Pavê.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual dos trios de vocábulos abaixo é formado por palavras oxítonas?",
+                "opcoes": [
+                      "meia | ceia | colmeia.",
+                      "jarra | cimitarra | queijo.",
+                      "cafuné | xilindró | urubu.",
+                      "item | amigo | mesa."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cafuné | xilindró | urubu.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Estudar essas almas perdidas é importante, segundo a astrônoma, do Instituto de Astrofísica das Ilhas Canárias. De acordo com as regras de acentuação, existe(m) na frase:",
+                "opcoes": [
+                      "Duas proparoxítonas.",
+                      "Um oxítona acentuada terminada em 'e'.",
+                      "Uma paroxítona acentuada por terminar em 's'.",
+                      "Três proparoxítonas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um oxítona acentuada terminada em 'e'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
+                "opcoes": [
+                      "Túnel.",
+                      "Refém.",
+                      "Dócil.",
+                      "Fácil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Túnel.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
+                "opcoes": [
+                      "Baixas.",
+                      "Principal.",
+                      "Inverno.",
+                      "Quantidade.",
+                      "Corpo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Principal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra oxítona escrita com dígrafo e com duas palavras escritas com encontro consonantal, respectivamente.",
+                "opcoes": [
+                      "Qual; importa; chegar.",
+                      "Porque; frente; indícios.",
+                      "Nossos; conseguir; demonstrar.",
+                      "Ninguém; sempre; grande.",
+                      "Jamais; principal; olhar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nossos; conseguir; demonstrar.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras café, cipó e coração são oxítonas, pois a sílaba tônica se encontra demarcada na última sílaba.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Essas instituições financeiras, por sua vez, falam com o Banco do Brasil para conseguir as moedas.”, a palavra sublinhada é CORRETAMENTE classificada como:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação tônica das palavras, marque a alternativa onde temos apenas oxítonas.",
+                "opcoes": [
+                      "Café – porém – urubu.",
+                      "Fácil – vírus – tênis.",
+                      "Ética – século – espetáculo.",
+                      "Picolé – guarani – hipótese."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Café – porém – urubu.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
+                "opcoes": [
+                      "Brasil.",
+                      "Gênero.",
+                      "Psicólogo.",
+                      "Emprego.",
+                      "Família."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Gênero.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a palavra que NÃO é oxítona:",
+                "opcoes": [
+                      "amém;",
+                      "nuvem;",
+                      "refém;",
+                      "porém."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>nuvem;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sobre a tonicidade das palavras, assinalar a alternativa que contém uma palavra oxítona:",
+                "opcoes": [
+                      "Anil.",
+                      "Cansaço.",
+                      "Felicidade.",
+                      "Particularidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Anil.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Sábado.",
+                      "Evangélica.",
+                      "Católicos.",
+                      "Ceará.",
+                      "Cerimônia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sábado.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2023. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
+                "opcoes": [
+                      "Tamanduá.",
+                      "Repórter.",
+                      "Látex.",
+                      "Almíscar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tamanduá.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Relativamente a aspectos gramaticais, leia as assertivas: I. Os três vocábulos com acento circunflexo do texto são oxítonos. II. trabalhadores é o único vocábulo polissílabo da tirinha. III. Os dois-pontos (:) empregados no terceiro quadrinho iniciam uma citação. Pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas II e III estão corretas.",
+                      "Apenas I está correta.",
+                      "Apenas I e II estão corretas.",
+                      "I, II e III estão corretas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I está correta.</strong>. Fonte: Instituto de Estudos Superiores do Extremo Sul - IESES/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Estudos Superiores do Extremo Sul - IESES",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir, a respeito da palavra “insuperáveis” (l. 17): I. A palavra foi formada a partir do verbo “superar” por dois processos consecutivos de derivação: sufixal, primeiro, e prefixal, depois. II. Pode-se apontar como sinônimo possível para essa palavra o vocábulo “invencíveis”. III. Em sua forma singular, a palavra torna-se oxítona. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Cortês, dê, dês (de dar), lê, lês: são exemplos de palavras oxítonas terminadas nas vogais tônicas fechadas grafadas -e ou -o, seguidas ou não de -s.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          }
+    ],
+    "tonicidade": [
           {
                 "enunciado": "A identificação da sílaba tônica é fundamental para a correta classificação das palavras quanto à tonicidade. Considerando vocábulos presentes no texto, analise as assertivas. I. A palavra espelho é paroxítona, com sílaba tônica em pe. II. A palavra você é oxítona, com sílaba tônica em cê. III. A palavra capítulo é paroxítona, com sílaba tônica em pí. Das assertivas, pode-se afirmar que:",
                 "opcoes": [
@@ -18173,7 +20113,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Apenas as assertivas I e II estão corretas.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: tonicidade.",
                 "banca": "Fênix Instituto Ltda",
                 "ano": 2026,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18192,26 +20132,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Dissílaba</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: tonicidade.",
                 "banca": "Prefeitura de Bombinhas - SC",
                 "ano": 2026,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quanto à tonicidade, é exemplo de oxítona a palavra:",
-                "opcoes": [
-                      "Disciplina.",
-                      "Assistencial.",
-                      "Ambiguidade.",
-                      "Subjetividade."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Assistencial.</strong>. Fonte: Gama Consultoria/2026. Assunto: tonicidade.",
-                "banca": "Gama Consultoria",
-                "ano": 2026,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18231,107 +20152,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>pedagógico – frequência- ninguém.</strong>. Fonte: Prefeitura de Pescaria Brava/2026. Assunto: tonicidade.",
                 "banca": "Prefeitura de Pescaria Brava",
                 "ano": 2026,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "No trecho no tempo em que tudo é descartável, a palavra descartável recebe acento gráfico porque:",
-                "opcoes": [
-                      "É oxítona terminada em L.",
-                      "É paroxítona terminada em L.",
-                      "É proparoxítona terminada em L.",
-                      "É paroxítona terminada em hiato decrescente."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>É oxítona terminada em L.</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
-                "banca": "Legalle Concursos",
-                "ano": 2026,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise a palavra PLANETA, presente no título da charge. De acordo com as regras oficiais, ela é classificada de forma CORRETA como:",
-                "opcoes": [
-                      "Oxítona, porque a sílaba mais forte é a última (TA).",
-                      "Paroxítona, porque a sílaba mais forte é a penúltima (NE).",
-                      "Proparoxítona, porque a sílaba mais forte é a antepenúltima (PLA).",
-                      "Monossílaba átona, porque possui apenas uma sílaba na sua escrita e não tem força na fala."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítona, porque a sílaba mais forte é a última (TA).</strong>. Fonte: Legalle Concursos/2026. Assunto: tonicidade.",
-                "banca": "Legalle Concursos",
-                "ano": 2026,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
-                "opcoes": [
-                      "A palavra “diretamente” é proparoxítona.",
-                      "A palavra “ataca” é paroxítona.",
-                      "A palavra “doença” é oxítona.",
-                      "A palavra “sistema” é proparoxítona.",
-                      "A palavra “imunológico” é paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A palavra “diretamente” é proparoxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
-                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as palavras abaixo quanto à classificação da sílaba tônica e relacione corretamente cada uma delas à sua respectiva categoria. Em seguida, assinale a alternativa que apresenta a sequência correta. 1. (__) Cérebro. 2. (__) Além. 3. (__) Impossível. 4. (__) Plástico. 5. (__) Pesquisa. Categorias:",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "1-C / 2-A / 3-B / 4-C / 5-B.",
-                      "1-B / 2-C / 3-A / 4-C / 5-B.",
-                      "1-C / 2-A / 3-B / 4-B / 5-A.",
-                      "1-C / 2-B / 3-A / 4-B / 5-A"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Qual alternativa apresenta corretamente a separação silábica e a classificação da sílaba tônica da palavra?",
-                "opcoes": [
-                      "Ci-ên-cia: Oxitona.",
-                      "A-pa-i-xo-na-do: Proparoxitona.",
-                      "Bra-si-lei-ro: Proparoxitona.",
-                      "Ca-fé: Oxítona.",
-                      "Sa-ú-de: Proparoxitona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Ci-ên-cia: Oxitona.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18351,46 +20172,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.</strong>. Fonte: Universidade de Blumenau - FURB/2025. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra classificada como oxítona, ou seja, cuja última sílaba seja a mais forte.",
-                "opcoes": [
-                      "Homenagem.",
-                      "Carimbo.",
-                      "Lugar.",
-                      "Nomes.",
-                      "Eterno."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Lugar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "No trecho “Para a minha surpresa, ele disse: e eu que estive lendo você ontem!” (1º§), a palavra grifada recebe acento por ser oxítona. Assinale a alternativa cuja palavra em destaque recebe acento por fazer parte do mesmo grupo.",
-                "opcoes": [
-                      "“Chico é lindo e é tímido, e é triste.” (2º§)",
-                      "“Eu lhe disse: mas você também é, […]” (4º§)",
-                      "“[...] ouvia tudo de Beethoven que tínhamos e pedia mais, [...]” (4º§)",
-                      "“[...] gostaria de dizer-lhe alguma coisa – o quê? – que diminuísse a sua tristeza.” (2º§)"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>“Chico é lindo e é tímido, e é triste.” (2º§)</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
-                "banca": "Instituto Consulplan",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18409,7 +20191,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Apenas I e II estão corretas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18428,7 +20210,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>A 4a está incorreta.</strong>. Fonte: Legalle Concursos/2025. Assunto: tonicidade.",
                 "banca": "Legalle Concursos",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18448,7 +20230,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Minério, métricas, visível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18468,66 +20250,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>As palavras “África” e “possuíam” são classificadas como oxítona e paroxítona, nessa ordem.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
-                "opcoes": [
-                      "Anéis.",
-                      "Lápis.",
-                      "Caráter.",
-                      "Ciúme.",
-                      "Heroico."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Lápis.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
-                "opcoes": [
-                      "Próxima.",
-                      "Após.",
-                      "Sábado.",
-                      "Notícias.",
-                      "Última."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Próxima.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa em que todas as palavras são oxítonas.",
-                "opcoes": [
-                      "Título | xenófobo | zodíaco.",
-                      "Néctar | órfã | tênis.",
-                      "Jiló | javali | vatapá.",
-                      "Oásis | réptil | jiboia."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Jiló | javali | vatapá.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18547,26 +20270,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3 - 1 - 2.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que não é uma palavra oxítona:",
-                "opcoes": [
-                      "Açaí",
-                      "Café",
-                      "Chapéu",
-                      "Álbum"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Açaí</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: tonicidade.",
-                "banca": "Evolução Consultoria - Instituto Evo",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18586,87 +20290,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>proparoxítona e oxítona.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
-                "opcoes": [
-                      "Cúpula.",
-                      "Logísticas.",
-                      "Intercâmbio.",
-                      "Paraná.",
-                      "Polícia."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Cúpula.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Dentre as palavras a seguir, é oxítona apenas:",
-                "opcoes": [
-                      "matemático.",
-                      "cadáver.",
-                      "maracujá.",
-                      "impreterível.",
-                      "simpaticíssima."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>matemático.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa onde ambos os vocábulos são oxítonas:",
-                "opcoes": [
-                      "gratuito – fortuito",
-                      "protótipo – antífona",
-                      "rubrica – bígamo",
-                      "ereter – erudito",
-                      "cateter – ruim"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>protótipo – antífona</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2025. Assunto: tonicidade.",
-                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quanto à posição da sílaba tônica, indique a alternativa cujo vocábulo é classificado corretamente.",
-                "opcoes": [
-                      "Cérebro – Oxítona.",
-                      "Nucal – Paroxítona.",
-                      "Fósseis – Paroxítona.",
-                      "Músculo – Paroxítona.",
-                      "Anatomistas – Proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Cérebro – Oxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: tonicidade.",
-                "banca": "ÁPICE Concursos Públicos - APICE",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18686,66 +20310,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>F, V, V, F, V.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
                 "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Considerando as palavras a seguir relacionadas, extraídas da crônica, assinale a alternativa que contém apenas palavras oxítonas.",
-                "opcoes": [
-                      "“Entrei”; “deparei”; e “olhei”.",
-                      "“Respeitar”; “gritou”; e “ideia”.",
-                      "“Apertar”; “alegria”; e “amiga”.",
-                      "“Visitar”; “adiante”; e “sobretudo”."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>“Respeitar”; “gritou”; e “ideia”.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
-                "banca": "Instituto Consulplan",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta APENAS palavras oxítonas.",
-                "opcoes": [
-                      "Espacial, florestais, eficaz.",
-                      "Invasão, também, Grécia.",
-                      "País, frio, europeias.",
-                      "Razão, tempo, pior.",
-                      "Vegetação, estação, Catastrófico."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>País, frio, europeias.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2025. Assunto: tonicidade.",
-                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
-                "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Todas as palavras a seguir são oxítonas, exceto:",
-                "opcoes": [
-                      "funil.",
-                      "oco.",
-                      "pinel.",
-                      "causal.",
-                      "véu."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>funil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18764,27 +20329,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: tonicidade.",
                 "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2025,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a opção que apresenta um vocábulo oxítono.",
-                "opcoes": [
-                      "nova",
-                      "não",
-                      "nomofóbico",
-                      "esperava",
-                      "esclareceu"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>nomofóbico</strong>. Fonte: Instituto Quadrix - Quadrix/2025. Assunto: tonicidade.",
-                "banca": "Instituto Quadrix - Quadrix",
-                "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18803,7 +20348,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>E - C - E.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: tonicidade.",
                 "banca": "Prefeitura de Catas Altas",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18822,7 +20367,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílaba tônica.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: tonicidade.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18841,7 +20386,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Fêmea; aborígine; e divórcio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
                 "banca": "Instituto Consulplan",
                 "ano": 2025,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18860,26 +20405,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>anunciando, processo, democrática.</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2024. Assunto: tonicidade.",
                 "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Das palavras retiradas do texto, assinale a palavra que é oxítona:",
-                "opcoes": [
-                      "café;",
-                      "econômico;",
-                      "difícil;",
-                      "banco."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>café;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2024. Assunto: tonicidade.",
-                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18899,7 +20425,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3 − 2 − 3 − 3 − 2 − 1.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18919,7 +20445,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>comandante, tumulto, disponível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18939,7 +20465,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Apresenta dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -18958,80 +20484,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3-4-1-4-1-3-2.</strong>. Fonte: CRS - Polícia Militar de Minas Gerais - CRS PMMG/2024. Assunto: tonicidade.",
                 "banca": "CRS - Polícia Militar de Minas Gerais - CRS PMMG",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa com palavras oxítonas escritas ditongo nasal.",
-                "opcoes": [
-                      "Camões; quão.",
-                      "Não; canção.",
-                      "Paixão; ações.",
-                      "São; fascinação.",
-                      "Coração; tão."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Camões; quão.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A vogal tônica grafada -i das palavras oxítonas terminadas em -r dos verbos terminados em -air e -uir não recebe acento agudo quando combinadas com -lo(s), -la(s), como em \"atrai-lo\".\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As formas verbais oxítonas, ao serem conjugadas com os pronomes clíticos -lo(s) ou -la(s), recebem acento circunflexo nas vogais tônicas fechadas -e ou -o quando ocorre a perda da consoante final -r, -s, ou -z. Exemplos incluem detê-lo(s), fazê-la(s), vê-la(s), compô-la(s), repôla(s), pô-la(s).\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Na frase: “O diagnóstico deve ser feito por uma equipe multidisciplinar, formada por psicólogo, fonoaudiólogo e psicopedagogo clínico.” As palavras destacadas se classificam quanto a sílaba tônica como:",
-                "opcoes": [
-                      "Oxítonas.",
-                      "Paroxítonas.",
-                      "Proparoxítonas.",
-                      "Trissílabas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítonas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19051,7 +20504,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19070,7 +20523,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Abacaxi | hífen | técnico.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19089,106 +20542,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>2, 1, 2, 3.</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2024. Assunto: tonicidade.",
                 "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
-                "opcoes": [
-                      "Atlântica, país.",
-                      "Mata, já.",
-                      "responsável, agora.",
-                      "até, país."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Atlântica, país.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
-                "banca": "Fundação Aroeira - Fundacao Aroeira",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "São palavras oxitonas:",
-                "opcoes": [
-                      "beira; fúria; figo.",
-                      "cantil; nó; céu.",
-                      "círio; avó; perfeito.",
-                      "ambiente; catástrofe; mundo.",
-                      "tenaz; carniça; música."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>beira; fúria; figo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
-                "opcoes": [
-                      "esportivo.",
-                      "holandês.",
-                      "símbolos.",
-                      "paralímpicos.",
-                      "jogos."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>símbolos.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa em que todas as palavras destacadas são oxítonas.",
-                "opcoes": [
-                      "“Na comparação das cidades do top 10 do ranking com o desempenho do PIB de 2020, Xaxim, com aumento de 27%, e Xanxerê, com alta de 23,8%, são as que mais se destacaram.”",
-                      "“Entre as regiões, o Vale do Itajaí foi novamente a mais rica de Santa Catarina, aumentando a vantagem sobre o Norte catarinense, área com o segundo melhor desempenho do Estado.",
-                      "“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“",
-                      "“Principal cidade da região, Chapecó teve o maior volume de PIB por municípios na região, com R$ 13,6 bilhões de riquezas produzidas na cidade naquele ano.",
-                      "“A soma das riquezas produzidas pelas 118 cidades da região foi de R$ 71,6 bilhões, o que corresponde a 16,7% do total do PIB catarinense.”"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>“A participação do Oeste no PIB produzido em todas as regiões oscilou pouco menos de um ponto percentual para baixo.“</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as seguintes assertivas: I. A palavra “água-de-colônia” leva hífen pelo mesmo motivo de “co-autor”. II. As palavras “coliseu” e “guaraná” são oxítonas. III. As palavras “variável” e “chocolate” apresentam o mesmo número de fonemas. Quais estão corretas?",
-                "opcoes": [
-                      "Apenas II.",
-                      "Apenas III.",
-                      "Apenas I e II.",
-                      "Apenas II e III.",
-                      "I, II e III."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19208,27 +20562,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.</strong>. Fonte: Universidade de Blumenau - FURB/2024. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa que apresenta todas as palavras oxítonas escritas com ditongo nasal.",
-                "opcoes": [
-                      "Tão; realizações; não.",
-                      "Paixão; quão; gratidão.",
-                      "Coração; tão; posição.",
-                      "Quão; tão; vibrações;",
-                      "Então; atenção; comparação."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Tão; realizações; não.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19248,46 +20582,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Nórdicas – artística – república – estudo.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Dentre as palavras a seguir, em destaque no excerto indicado, classifica-se como oxítona apenas:",
-                "opcoes": [
-                      "cachorro.",
-                      "carnívoro.",
-                      "subespécie.",
-                      "animal.",
-                      "humano."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>carnívoro.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Observe as palavras quanto a posição da sílaba tônica e marque a alternativa cujas palavras são todas oxítonas:",
-                "opcoes": [
-                      "raposa, baixo, disse.",
-                      "corvo, coisa, cauda.",
-                      "você, cair, abrir.",
-                      "cérebro, bonitas, bico."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>você, cair, abrir.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
-                "banca": "Fundação Aroeira - Fundacao Aroeira",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19307,27 +20602,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Ágape - látex - ciclope.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Todas as palavras, quanto à sílaba tônica, são oxítonas em:",
-                "opcoes": [
-                      "Noites, carinhosamente, arte.",
-                      "Falantes, ligadas, feminina.",
-                      "Sultão, amor, mulher.",
-                      "Orifício, alonga, chato.",
-                      "Homem, noites, possível."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Sultão, amor, mulher.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19346,7 +20621,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3 - 1 - 2 - 3 - 2.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19365,7 +20640,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>C - C - E - E.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19384,27 +20659,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Até - monossílabo - monossílabo tônico.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: tonicidade.",
                 "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Qual das palavras abaixo é oxítona, assim como a palavra “sofá”?",
-                "opcoes": [
-                      "Insônia.",
-                      "Vício.",
-                      "Hábito.",
-                      "Saudável.",
-                      "Além."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Insônia.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19424,26 +20679,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>monossílaba.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a opção que contém apenas palavras oxítonas:",
-                "opcoes": [
-                      "Sofá, Amapá, Café",
-                      "Última, Próxima, Tráfico",
-                      "Lápis, Próprio, Parábola.",
-                      "Mesmo, saudade, tempo."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Sofá, Amapá, Café</strong>. Fonte: Funatec/2024. Assunto: tonicidade.",
-                "banca": "Funatec",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19463,7 +20699,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>V, V, V, F, F.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2024. Assunto: tonicidade.",
                 "banca": "Universidade do Extremo Sul Catarinense - UNESC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19482,7 +20718,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílabos átonos: são pronunciados com pouca intensidade. Exemplo: a.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
                 "banca": "MS Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19502,27 +20738,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Considerando a norma-padrão da Língua Portuguesa, analise as assertivas a seguir: I. As palavras “saída” e “pátria” são acentuadas conforme a regra do hiato. II. A palavra “velejador” é oxítona e átona. III. Não é obrigatório o uso do hífen em palavras justapostas, como “couveflor”. Quais estão corretas?",
-                "opcoes": [
-                      "Apenas II.",
-                      "Apenas III.",
-                      "Apenas I e II.",
-                      "Apenas II e III.",
-                      "I, II e III."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19541,7 +20757,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Bíceps.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19561,105 +20777,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>paroxítona e oxítona.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa com uma palavra oxítona:",
-                "opcoes": [
-                      "Tinta",
-                      "Lápis",
-                      "Fubá",
-                      "Navalha"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Lápis</strong>. Fonte: Instituto de Gestão de Cidades - IGECS/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Gestão de Cidades - IGECS",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa em que a classificação da palavra está correta:",
-                "opcoes": [
-                      "Arquipélago - substantivo abstrato, trissílabo, proparoxítona.",
-                      "Réptil - substantivo comum, trissílabo, oxítona.",
-                      "Pneumático - substantivo derivado, polissílabo, proparoxítona.",
-                      "Saúde - substantivo concreto, dissílabo, paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Arquipélago - substantivo abstrato, trissílabo, proparoxítona.</strong>. Fonte: Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK/2024. Assunto: tonicidade.",
-                "banca": "Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa INCORRETA quanto à classificação das palavras de acordo com a posição da sílaba tônica.",
-                "opcoes": [
-                      "espécies (l. 47) - proparoxítona.",
-                      "Atlântica (l. 41) - proparoxítona.",
-                      "açúcar (l.36) - paroxítona.",
-                      "período (l.23) - paroxítona",
-                      "até (l.14) - oxítona."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>período (l.23) - paroxítona</strong>. Fonte: Legalle Concursos/2024. Assunto: tonicidade.",
-                "banca": "Legalle Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as palavras a seguir quanto à tonicidade e assinale a alternativa em que a palavra dada é oxítona.",
-                "opcoes": [
-                      "hostil.",
-                      "aeromoça.",
-                      "espelho.",
-                      "patente.",
-                      "esperança."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>hostil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta palavra oxítona (última sílaba tônica).",
-                "opcoes": [
-                      "Cuidado.",
-                      "Açúcar.",
-                      "Saúde.",
-                      "Fósforo.",
-                      "Verão."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Açúcar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19679,47 +20797,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>“História” tem 08 fonemas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
-                "opcoes": [
-                      "Insípido.",
-                      "Delícia.",
-                      "Fubá.",
-                      "Básico.",
-                      "Américas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Insípido.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a opção que indica a palavra cuja classificação da sílaba tônica NÃO está corretamente apresentada.",
-                "opcoes": [
-                      "hidratação [OXÍTONA].",
-                      "engavetamento [PAROXÍTONA].",
-                      "fonoaudiologia [PAROXÍTONA].",
-                      "planejamento [PROPAROXÍTONA].",
-                      "processamento [PAROXÍTONA]."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>hidratação [OXÍTONA].</strong>. Fonte: Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19739,7 +20817,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Proparoxítona – paroxítona – oxítona - proparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19758,27 +20836,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona e oxítona.</strong>. Fonte: Gama Consultoria/2024. Assunto: tonicidade.",
                 "banca": "Gama Consultoria",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
-                "opcoes": [
-                      "Sétimo.",
-                      "Patrimônio.",
-                      "Último.",
-                      "Canadá.",
-                      "Território."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Sétimo.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19797,7 +20855,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Proparoxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
                 "banca": "MS Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19816,44 +20874,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>juriti - hifens - rubrica</strong>. Fonte: Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica/2024. Assunto: tonicidade.",
                 "banca": "Diretoria de Ensino da Aeronáutica - DIRENS Aeronautica",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Se caracterizam como oxítonas palavras que possuem a sílaba tônica estabelecida na última sílaba. Ex: \"avô\" e \"café\".\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Observe as seguintes palavras, retiradas da receita: “prato”, “panela”, “refogue”, “francesa” e “minutos”. Selecione a alternativa que indica o ponto em comum entre elas.",
-                "opcoes": [
-                      "Todas são oxítonas, pois a sílaba tônica é a última.",
-                      "Todas são paroxítonas, pois a sílaba tônica é a penúltima.",
-                      "Todas são proparoxítonas, pois a sílaba tônica é a antepenúltima.",
-                      "Todas são paroxítonas, pois a sílaba tônica é a última.",
-                      "Todas são proparoxítonas, pois a sílaba tônica é a penúltima."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Todas são oxítonas, pois a sílaba tônica é a última.</strong>. Fonte: Ntcs - NTCS/2024. Assunto: tonicidade.",
-                "banca": "Ntcs - NTCS",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19873,86 +20894,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>oxítona, paroxítona e proparoxítona.</strong>. Fonte: Instituto Tupy/2024. Assunto: tonicidade.",
                 "banca": "Instituto Tupy",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa em que as palavras são oxítonas:",
-                "opcoes": [
-                      "Metrô | suflê.",
-                      "Subsídio | gênero.",
-                      "Memória | imaginário.",
-                      "Silêncio | básico."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Metrô | suflê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa CORRETA a respeito da palavra “trânsito”.",
-                "opcoes": [
-                      "Possui duas sílabas e é paroxítona.",
-                      "Possui duas sílabas e é proparoxítona.",
-                      "Possui três sílabas e é oxítona.",
-                      "Possui três sílabas e é paroxítona.",
-                      "Possui três sílabas e é proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Possui duas sílabas e é paroxítona.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2024. Assunto: tonicidade.",
-                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona é:",
-                "opcoes": [
-                      "Tórax.",
-                      "Caju.",
-                      "Nômade.",
-                      "Tríceps.",
-                      "Lápide."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Tórax.</strong>. Fonte: Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM/2024. Assunto: tonicidade.",
-                "banca": "Instituto Nacional Especializado em Pesquisas e Apoio aos Municípios - INEPAM",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Acentuam-se todos os casos de palavras oxítonas mencionados a seguir, com exceção de:",
-                "opcoes": [
-                      "palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em.",
-                      "formas verbais oxítonas terminadas na vogal tônica aberta grafada -a, quando conjugadas com os pronomes clíticos lo(s) ou la(s).",
-                      "palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.",
-                      "palavras oxítonas terminadas com os ditongos abertos grafados -éi, -éu ou -ói.",
-                      "palavras oxítonas terminadas nas vogais tônicas fechadas que se grafam -e ou -o."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>palavras oxítonas homógrafas mas heterofônicas, como traço distintivo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19972,7 +20914,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>I - ginástica - II países - III competições.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
                 "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -19992,26 +20934,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Nobel / etiope / rubrica.</strong>. Fonte: Fundação Getúlio Vargas - FGV/2024. Assunto: tonicidade.",
                 "banca": "Fundação Getúlio Vargas - FGV",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em relação às palavras oxítonas, assinalar a alternativa correspondente a essa classificação:",
-                "opcoes": [
-                      "Xícara.",
-                      "Têxtil.",
-                      "Árvore.",
-                      "Abajur."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Xícara.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20031,7 +20954,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>funilaria - baú - hotel - azul.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20051,66 +20974,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Paroxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
                 "banca": "MS Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta um par de palavras oxítonas (a última sílaba é tônica).",
-                "opcoes": [
-                      "Social – saúde.",
-                      "Metódicos – níveis.",
-                      "Abril – além.",
-                      "Azul – características.",
-                      "Neurológico – diagnóstico."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Social – saúde.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa em que a palavra destacada está corretamente classificada entre colchetes.",
-                "opcoes": [
-                      "“agora elas serão colegas de sala e vão cursar Ciências: Biologia e Química” [PAROXÍTONA].",
-                      "“vão viver a experiência de cursarem a graduação juntas” [OXÍTONA].",
-                      "“Já Kate, vai para segunda graduação” [PAROXÍTONA].",
-                      "“para melhorar o currículo” [PROPAROXÍTONA]"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>“para melhorar o currículo” [PROPAROXÍTONA]</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Consultoria e Concursos - ITAME",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Indique a alternativa em que todas as palavras são oxítonas devido à mesma regra.",
-                "opcoes": [
-                      "Poder – tudo – fungir.",
-                      "Agora – vamos – será.",
-                      "Entender – precisar – esquecer.",
-                      "Se – pra – fugir.",
-                      "Ninguém – tudo – também."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Entender – precisar – esquecer.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
-                "banca": "ÁPICE Concursos Públicos - APICE",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20129,7 +20993,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
                 "banca": "MS Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20149,7 +21013,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Paroxítona – paroxítona – oxítona – paroxítonaproparoxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20168,7 +21032,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>paralisação (oxítona); taciturno (paroxítona); transeunte (paroxítona); rubrica (paroxítona)</strong>. Fonte: Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE/2024. Assunto: tonicidade.",
                 "banca": "Comissão Executiva do Vestibular da Universidade Estadual do Ceará - CEV UECE",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20188,142 +21052,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>proparoxítona, proparoxítona, paroxítona e paroxítona.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: tonicidade.",
                 "banca": "ÁPICE Concursos Públicos - APICE",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as assertivas a seguir a respeito da palavra “natal” (l. 11): I. Trata-se de um substantivo. II. A palavra é oxítona quanto à posição da sílaba tônica. III. Um sinônimo dela seria a palavra “festivo”. Quais estão corretas?",
-                "opcoes": [
-                      "Apenas I.",
-                      "Apenas II.",
-                      "Apenas I e II.",
-                      "Apenas I e III.",
-                      "Apenas II e III."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa em que todas as palavras dadas são oxítonas.",
-                "opcoes": [
-                      "armazém; funil; bambu.",
-                      "mandíbula; áspero; eclético.",
-                      "bordado; estante; espelho.",
-                      "vulnerável; espiritual; cantina.",
-                      "interoperabilidade; espectro; amável."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>mandíbula; áspero; eclético.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As palavras “sensível”, “tonalidade” e “escuros”, que ocorrem no texto, têm em comum:",
-                "opcoes": [
-                      "a tonicidade, sendo todas oxítonas.",
-                      "a segmentação silábica, sendo todas trissílabas.",
-                      "a tonicidade, sendo todas paroxítonas.",
-                      "o processo de formação, sendo todas formadas por derivação sufixal.",
-                      "o processo de formação, sendo todas formadas por composição."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a tonicidade, sendo todas oxítonas.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “Cametá” é oxítona, assim como",
-                "opcoes": [
-                      "Breves.",
-                      "Bragança.",
-                      "Marituba.",
-                      "Manacapuru."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Manacapuru.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Observe as palavras a seguir. 1. Notícia; 2. Convenção; 3. Parabéns; 4. Câmera. Assinale a alternativa CORRETA.",
-                "opcoes": [
-                      "A única palavra paroxítona é a 4.",
-                      "São paroxítonas as palavras 1 e 2.",
-                      "As palavras 2 e 3 são oxítonas.",
-                      "As palavras 3 e 4 são proparoxítonas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A única palavra paroxítona é a 4.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: tonicidade.",
-                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Para acentuar corretamente palavras oxítonas, é suficiente considerar que todas as palavras com a última sílaba tônica recebem acento, independentemente de terminarem em -a, -e, -o, -em, -ens.\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Sabe-se que na Língua Portuguesa Oficial do Brasil: “A sílaba tônica pode aparecer apenas em três posições: ou ela é a última (café), ou ela é penúltima (amizade) ou ela é a antepenúltima (médico)” (Sacconi, 2008, p. 25). A partir dessa explicação, assinale a alternativa que preencha correta e respectivamente as lacunas. I. São denominados ______ os vocábulos cuja sílaba tônica recai na última sílaba. II. Denominam-se ______ os vocábulos cuja sílaba tônica recai na penúltima sílaba. III. Os vocábulos cuja sílaba tônica recai na antepenúltima sílaba, são denominados ______.",
-                "opcoes": [
-                      "I - parônimos; II - oxímoros; III - prosopopeias",
-                      "I - oxítonos; II - paroxítonos; III - proparoxítonos",
-                      "I - prosopopeias; II - oxítonos; III - paroxítonos",
-                      "I - proparoxítonos; II - monossílabos; III - paradoxos",
-                      "I - proparoxítonos; II - oxítonos; III - paroxítonos"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I - oxítonos; II - paroxítonos; III - proparoxítonos</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2024. Assunto: tonicidade.",
-                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20342,7 +21071,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20362,65 +21091,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Oxítona – proparoxítona –paroxítona - oxítona.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tonicidade.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em relação ao número de sílabas e à tonicidade de palavras do texto, assinale a alternativa correta.",
-                "opcoes": [
-                      "“médio” possui duas sílabas, sendo oxítona.",
-                      "“matemática” possui quatro sílabas, sendo proparoxítona.",
-                      "“críticos” possui três sílabas, sendo paroxítona.",
-                      "“matrículas” possui quatro sílabas, sendo proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>“médio” possui duas sílabas, sendo oxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
-                "opcoes": [
-                      "Após.",
-                      "Época.",
-                      "Polícia.",
-                      "Crônicas.",
-                      "Infância."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Após.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Qual das palavras abaixo é classificada como OXÍTONA?",
-                "opcoes": [
-                      "Mané.",
-                      "Lúcido.",
-                      "Bônus.",
-                      "Sol."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Mané.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20440,45 +21111,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>paroxítona / proparoxítona / proparoxítona</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
                 "banca": "FACET Concursos - FACET",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
-                "opcoes": [
-                      "hiato.",
-                      "oxítona.",
-                      "paroxítona.",
-                      "proparoxítona."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>oxítona.</strong>. Fonte: Instituto Verbena/2024. Assunto: tonicidade.",
-                "banca": "Instituto Verbena",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
-                "opcoes": [
-                      "Penúltima, sendo uma palavra paroxítona.",
-                      "Antepenúltima, sendo uma palavra proparoxítona.",
-                      "Última, sendo uma palavra oxítona.",
-                      "Antepenúltima, sendo uma palavra oxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Penúltima, sendo uma palavra paroxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20497,106 +21130,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Oxítona, paroxítona, paroxitona, proparoxítona.</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2024. Assunto: tonicidade.",
                 "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
                 "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As palavras oxítonas têm a sílaba tônica na última sílaba. Assinalar a palavra que NÃO é uma oxítona.",
-                "opcoes": [
-                      "Bambolê.",
-                      "Alegre.",
-                      "Ruim.",
-                      "Principal."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Bambolê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em qual alternativa a palavra está corretamente classificada quanto à sua acentuação tônica?",
-                "opcoes": [
-                      "Pólen (proparoxítona)",
-                      "Café (oxítona)",
-                      "Atrás (proparoxítona)",
-                      "Símbolo (oxítona)",
-                      "Árvore (paroxítona)"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Pólen (proparoxítona)</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2024. Assunto: tonicidade.",
-                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa em que a classificação da palavra em relação à sílaba tônica está correta.",
-                "opcoes": [
-                      "urso (oxítona)",
-                      "néctar (oxítona)",
-                      "místico (paroxítona)",
-                      "fazenda (paroxítona)",
-                      "sentimento (proparoxítona)"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>urso (oxítona)</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tonicidade.",
-                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que contém uma palavra oxítona:",
-                "opcoes": [
-                      "Bisturi.",
-                      "Recorde.",
-                      "Corajoso.",
-                      "Fósforo.",
-                      "Responsáveis."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Fósforo.</strong>. Fonte: FACET Concursos - FACET/2024. Assunto: tonicidade.",
-                "banca": "FACET Concursos - FACET",
-                "ano": 2024,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Entre as seguintes palavras, retiradas do texto, assinale a alternativa que apresenta uma oxítona.",
-                "opcoes": [
-                      "Própria.",
-                      "Vários.",
-                      "Explicação.",
-                      "Psicóloga.",
-                      "Máximo."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Própria.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20616,85 +21150,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>2 - 3 - 1 - 3 - 3 - 2 - 3 - 3</strong>. Fonte: Universidade de Blumenau - FURB/2023. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "O QUE É COOPERATIVISMO Mais que um modelo de negócios, o cooperativismo é uma filosofia de vida que busca transformar o mundo em um lugar mais justo, feliz, equilibrado e com melhores oportunidades para todos. Um caminho que mostra que é possível unir desenvolvimento econômico e desenvolvimento social, produtividade e sustentabilidade, o individual e o coletivo. Tudo começa quando pessoas se juntam em torno de um mesmo objetivo, em uma organização onde todos são donos do próprio negócio. E continua com um ciclo que traz ganhos para as pessoas, para o país e para o planeta. Fonte: https://paracooperativo.coop.br/coop erativismo/o-que-e-cooperativismo. Acesso em: 20 dez. 2022. Considerando o que foi apresentado, assinale a opção correta:",
-                "opcoes": [
-                      "A palavra “econômico” é paroxítona.",
-                      "A palavra “continua” é proparoxítona.",
-                      "A palavra “negócios” é oxítona.",
-                      "A palavra “sustentabilidade” é paroxítona.",
-                      "A palavra “individual” é proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A palavra “econômico” é paroxítona.</strong>. Fonte: Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil/2023. Assunto: tonicidade.",
-                "banca": "Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "Perifrástica.",
-                      "Monossilábica."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
-                "banca": "SC Treinamentos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa na qual a palavra NÃO é oxítona:",
-                "opcoes": [
-                      "Dominós.",
-                      "Porém.",
-                      "Você.",
-                      "Terra."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Porém.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
-                "opcoes": [
-                      "Claro (paroxítona).",
-                      "Pérola (proparoxítona).",
-                      "Mexerica (proparoxítona).",
-                      "Pó (oxítona)."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Claro (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20713,26 +21169,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>átona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
                 "banca": "FUNDEP Gestão de Concursos - FUNDEP",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
-                "opcoes": [
-                      "Disputará (oxítona).",
-                      "Caderno (paroxítona).",
-                      "Fenômeno (proparoxítona).",
-                      "Jogador (proparoxítona)."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Disputará (oxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20752,7 +21189,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Translúcido e sublingual.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limitada - LJ/2023. Assunto: tonicidade.",
                 "banca": "LJ Assessoria e Planejamento Administrativo Limitada - LJ",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20772,7 +21209,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>1 - 3 - 2</strong>. Fonte: Universidade de Blumenau - FURB/2023. Assunto: tonicidade.",
                 "banca": "Universidade de Blumenau - FURB",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20791,7 +21228,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>câncer - cólon</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
                 "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20811,7 +21248,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílabo átono.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20831,67 +21268,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Três monossílabos tônicos.</strong>. Fonte: Instituto Ágata/2023. Assunto: tonicidade.",
                 "banca": "Instituto Ágata",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em relação à tonicidade dos vocábulos de Língua Portuguesa, assinale a alternativa correta:",
-                "opcoes": [
-                      "a palavra homem é oxítona",
-                      "a palavra café é paroxítona",
-                      "a palavra sentimento é proparoxítona",
-                      "a palavra pensamento é proparoxítona",
-                      "a palavra repórter é paroxítona"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a palavra homem é oxítona</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Sentir-se cansada após um dia cheio de trabalho, pode ser considerado algo fácil. Contudo, quando esse cansaço é excessivo e vem acompanhado de outros sintomas, como fadiga, exaustão, estafa e esgotamento, é importante buscar ajuda médica. A palavra acentuada por ser uma oxítona é:",
-                "opcoes": [
-                      "é.",
-                      "exaustão.",
-                      "médica.",
-                      "fácil.",
-                      "após."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>médica.</strong>. Fonte: Associação dos Municípios do Alto Uruguai Catarinense - AMAUC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Alto Uruguai Catarinense - AMAUC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa com as palavras oxítonas com ditongo nasal.",
-                "opcoes": [
-                      "Tem; não.",
-                      "Boa; são.",
-                      "Ação; sensação.",
-                      "Vão; você.",
-                      "Mão; explicação."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Tem; não.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20910,26 +21287,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>paroxítona – oxítona – proparoxítona;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
                 "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "É comum a relação entre a doença e movimentos repetitivos, como a digitação no computador, porém, não há comprovação. Assinale a opção CORRETA quanto às regras de acentuação gráfica.",
-                "opcoes": [
-                      "porém: acentuada por ser uma oxítona termina em 'em'.",
-                      "relação: acentuada por ser uma oxítona terminada em 'o'.",
-                      "é: acentuada por ser uma oxítona terminada em 'e'.",
-                      "há: acentuada por ser uma oxítona terminada em 'a'."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>porém: acentuada por ser uma oxítona termina em 'em'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20948,7 +21306,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>polissílaba e paroxítona; dissílaba e oxítona.</strong>. Fonte: Instituto Consulplan/2023. Assunto: tonicidade.",
                 "banca": "Instituto Consulplan",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -20968,86 +21326,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Tirinha, hoje, até.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2023. Assunto: tonicidade.",
                 "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Qual das palavras abaixo é oxítona, ou seja, tem a última sílaba tônica?",
-                "opcoes": [
-                      "Perfume.",
-                      "Assombro.",
-                      "Alguém.",
-                      "Caídas.",
-                      "Morte."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Alguém.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa onde todos os exemplos são palavras oxítonas:",
-                "opcoes": [
-                      "geleia - anhembi - anzol",
-                      "aqui – gato - azul",
-                      "avental - azul - condor",
-                      "alcateia – lobo – sapo"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>avental - azul - condor</strong>. Fonte: Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH/2023. Assunto: tonicidade.",
-                "banca": "Assessoria e Gestão Integrada em Recursos Humanos S/C Ltda. ME - AGIRH",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as assertivas relacionadas à palavra “feminina”, presente na charge. I. Possui o mesmo radical que a palavra “feminismo”. II. A desinência nominal indica o gênero da palavra. III. Possui quatro sílabas e, quanto à tonicidade, é classificada como oxítona. IV. Morfologicamente, cumpre função de adjetivo. É correto o que se afi rma apenas em",
-                "opcoes": [
-                      "II e IV.",
-                      "II e III.",
-                      "I e IV.",
-                      "I e III.",
-                      "I, II e IV."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>I, II e IV.</strong>. Fonte: Fundação Universidade de Tocantis - UNITINS/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade de Tocantis - UNITINS",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona.",
-                "opcoes": [
-                      "Saudável.",
-                      "Porém.",
-                      "Cérebro.",
-                      "Saúde.",
-                      "Último."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Saudável.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21067,7 +21346,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21084,47 +21363,8 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
                 "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
-                "opcoes": [
-                      "estereótipo, camaleão, metrô.",
-                      "febril, apreciação, neném.",
-                      "verbos, ananás, cafezal.",
-                      "caldo, bússola, música.",
-                      "tênis, verduras, página."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>caldo, bússola, música.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2023. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque as palavras oxítonas escritas com ditongo nasal.",
-                "opcoes": [
-                      "Não; tradição.",
-                      "Transmissão; abstrações.",
-                      "Tão; abstrações.",
-                      "Também; são."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Não; tradição.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade"
@@ -21143,7 +21383,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Explícito.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21162,84 +21402,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3 - 1 - 2</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "“Maçã” é uma palavra classificada como oxítona. Com isso, assinalar a alternativa que apresenta ambas as palavras com a mesma classificação:",
-                "opcoes": [
-                      "Potássio | Benéfico.",
-                      "Abacaxi | Alecrim.",
-                      "Saúde | Físico.",
-                      "Abelha | Zebra."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Potássio | Benéfico.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "É incorreto afirmar sobre o vocábulo \"aporofobia\":",
-                "opcoes": [
-                      "é polissílaba.",
-                      "é uma palavra composta.",
-                      "é oxítona.",
-                      "é substantivo abstrato."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>é oxítona.</strong>. Fonte: Fundação CETAP/2023. Assunto: tonicidade.",
-                "banca": "Fundação CETAP",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Sobre os componentes estruturais do segundo e do terceiro períodos do (2º§), analise as assertivas: I.No segmento: \"Acredito que a maioria das pessoas se automedica por sugestão de amigos, leitura, fascinação\" − temos sujeito elíptico de primeira pessoa do singular do presente do modo indicativo; conjunção subordinativa integrante; três termos (amigos, leitura, fascinação) que exercem função sintática de complemento nominal de \"sugestão\". II.A palavra \"fascinação\" é oxítona sem acento gráfico que justifique a tonicidade, porque TIL é marca suprassegmental de nasalização da vogal. III.A locução verbal \"tentar manter\" está seguida de objeto direto representado por \"juventude\". IV.O trecho: \"Qualquer que seja a causa, os resultados podem ser danosos\" − inicia com pronome indefinido que faz plural interno; termina com adjetivo com função sintática de predicativo do sujeito \"os resultados\". Marque a opção correta.",
-                "opcoes": [
-                      "II e IV apenas.",
-                      "I, II, III e IV.",
-                      "I, II e III apenas.",
-                      "III e IV apenas.",
-                      "I, III e IV apenas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>II e IV apenas.</strong>. Fonte: Universidade do Extremo Sul Catarinense - UNESC/2023. Assunto: tonicidade.",
-                "banca": "Universidade do Extremo Sul Catarinense - UNESC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As palavras “importa”, “recurso” e “consumo”, retiradas do texto são, respectivamente:",
-                "opcoes": [
-                      "Trissílabas e paroxítonas;",
-                      "Uma polissílaba e duas trissílabas;",
-                      "Trissílabas, sendo duas paroxítonas e uma oxítona;",
-                      "As duas das extremidades são trissílabas e a do meio polissílaba."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Trissílabas e paroxítonas;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
-                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21258,26 +21421,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>flácido – incrível – sorrir</strong>. Fonte: Instituto Social Univida/2023. Assunto: tonicidade.",
                 "banca": "Instituto Social Univida",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as assertivas seguintes: I.No texto, existem exemplos de concordâncias ideológicas, entre elas, podemos citar: \"todos sabemos\"; \"todos reconhecemos\". II.As palavras \"ambição\" e \"então\" são oxítonas com som nasal. III.Na frase: \"nas pequenas coisas que temos na vida\", temos um trissílabo paroxítono que faz antônimo com \"grandes\"; temos um pronome relativo após um substantivo dissílabo paroxítono. IV.Na frase: \"A felicidade não deve ser colocada como um objetivo a ser alcançado\" - temos exemplos de conjunções subordinativas conformativas. V.Na frase: \"Você tem mil razões para se sentir feliz\" - temos um numeral que se classifica como multiplicativo. Marque a alternativa com a opção CORRETA.",
-                "opcoes": [
-                      "I, II, III, IV e V.",
-                      "Apenas II, IV e V.",
-                      "Apenas I, II e III.",
-                      "Apenas I, II e IV."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas I, II e III.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21296,81 +21440,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>2 - 1 - 2 - 3.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
                 "banca": "Objetiva Concursos",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “armário”, presente no segundo quadrinho do texto III, é uma",
-                "opcoes": [
-                      "paroxítona.",
-                      "oxítona.",
-                      "proparoxítona.",
-                      "dissílaba."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
-                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Acém, detém, deténs, entretém, entreténs: são exemplos de palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em e -ens.\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa em que ambas as palavras são oxítonas:",
-                "opcoes": [
-                      "Imaginário | Pavê.",
-                      "História | Sólido.",
-                      "Fácil | Amável.",
-                      "Café | Ninguém."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Imaginário | Pavê.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Qual dos trios de vocábulos abaixo é formado por palavras oxítonas?",
-                "opcoes": [
-                      "meia | ceia | colmeia.",
-                      "jarra | cimitarra | queijo.",
-                      "cafuné | xilindró | urubu.",
-                      "item | amigo | mesa."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>cafuné | xilindró | urubu.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21390,45 +21460,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílabo tônico.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Estudar essas almas perdidas é importante, segundo a astrônoma, do Instituto de Astrofísica das Ilhas Canárias. De acordo com as regras de acentuação, existe(m) na frase:",
-                "opcoes": [
-                      "Duas proparoxítonas.",
-                      "Um oxítona acentuada terminada em 'e'.",
-                      "Uma paroxítona acentuada por terminar em 's'.",
-                      "Três proparoxítonas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Um oxítona acentuada terminada em 'e'.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: tonicidade.",
-                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
-                "opcoes": [
-                      "Túnel.",
-                      "Refém.",
-                      "Dócil.",
-                      "Fácil."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Túnel.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21448,179 +21480,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>(I) precisará; (II) série; (III) mínimo; (IV) há.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
                 "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
-                "opcoes": [
-                      "Baixas.",
-                      "Principal.",
-                      "Inverno.",
-                      "Quantidade.",
-                      "Corpo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Principal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa com uma palavra oxítona escrita com dígrafo e com duas palavras escritas com encontro consonantal, respectivamente.",
-                "opcoes": [
-                      "Qual; importa; chegar.",
-                      "Porque; frente; indícios.",
-                      "Nossos; conseguir; demonstrar.",
-                      "Ninguém; sempre; grande.",
-                      "Jamais; principal; olhar."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Nossos; conseguir; demonstrar.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Marque a alternativa que apresenta a única palavra, das retiradas do texto, que NÃO é paroxítona:",
-                "opcoes": [
-                      "Morte.",
-                      "Edifício.",
-                      "Água.",
-                      "Jardim."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Edifício.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa errada.",
-                "opcoes": [
-                      "Duro (paroxítona).",
-                      "Lâmpada (proparoxítona).",
-                      "Pé (oxítona).",
-                      "Milhão (paroxítona)."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Milhão (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "As palavras café, cipó e coração são oxítonas, pois a sílaba tônica se encontra demarcada na última sílaba.\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Na frase “Essas instituições financeiras, por sua vez, falam com o Banco do Brasil para conseguir as moedas.”, a palavra sublinhada é CORRETAMENTE classificada como:",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "Monossílaba."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Oxítona.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Quanto à acentuação tônica das palavras, marque a alternativa onde temos apenas oxítonas.",
-                "opcoes": [
-                      "Café – porém – urubu.",
-                      "Fácil – vírus – tênis.",
-                      "Ética – século – espetáculo.",
-                      "Picolé – guarani – hipótese."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Café – porém – urubu.</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
-                "banca": "MS Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta palavra oxítona.",
-                "opcoes": [
-                      "Brasil.",
-                      "Gênero.",
-                      "Psicólogo.",
-                      "Emprego.",
-                      "Família."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Gênero.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a palavra que NÃO é oxítona:",
-                "opcoes": [
-                      "amém;",
-                      "nuvem;",
-                      "refém;",
-                      "porém."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>nuvem;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
-                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21640,45 +21500,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>é – café – automóveis – próximo.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
                 "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Sobre a tonicidade das palavras, assinalar a alternativa que contém uma palavra oxítona:",
-                "opcoes": [
-                      "Anil.",
-                      "Cansaço.",
-                      "Felicidade.",
-                      "Particularidade."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Anil.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Releia este trecho. “[...] Departamento Florestal de Mianmar, país asiático.” Assinale a alternativa que apresenta as classificações corretas da palavra destacada quanto ao número de sílabas e à sílaba tônica.",
-                "opcoes": [
-                      "Monossílaba– Paroxítona.",
-                      "Trissílaba– Oxítona.",
-                      "Dissílaba– Oxítona.",
-                      "Polissílaba– Proparoxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Monossílaba– Paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
-                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21697,85 +21519,7 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Monossílabos tônicos</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2023. Assunto: tonicidade.",
                 "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
                 "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
-                "opcoes": [
-                      "Sábado.",
-                      "Evangélica.",
-                      "Católicos.",
-                      "Ceará.",
-                      "Cerimônia."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Sábado.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2023. Assunto: tonicidade.",
-                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
-                "opcoes": [
-                      "Tamanduá.",
-                      "Repórter.",
-                      "Látex.",
-                      "Almíscar."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Tamanduá.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Relativamente a aspectos gramaticais, leia as assertivas: I. Os três vocábulos com acento circunflexo do texto são oxítonos. II. trabalhadores é o único vocábulo polissílabo da tirinha. III. Os dois-pontos (:) empregados no terceiro quadrinho iniciam uma citação. Pode-se afirmar que:",
-                "opcoes": [
-                      "Apenas II e III estão corretas.",
-                      "Apenas I está correta.",
-                      "Apenas I e II estão corretas.",
-                      "I, II e III estão corretas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Apenas I está correta.</strong>. Fonte: Instituto de Estudos Superiores do Extremo Sul - IESES/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Estudos Superiores do Extremo Sul - IESES",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Analise as assertivas a seguir, a respeito da palavra “insuperáveis” (l. 17): I. A palavra foi formada a partir do verbo “superar” por dois processos consecutivos de derivação: sufixal, primeiro, e prefixal, depois. II. Pode-se apontar como sinônimo possível para essa palavra o vocábulo “invencíveis”. III. Em sua forma singular, a palavra torna-se oxítona. Quais estão corretas?",
-                "opcoes": [
-                      "Apenas I.",
-                      "Apenas II.",
-                      "Apenas I e II.",
-                      "Apenas I e III.",
-                      "Apenas II e III."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
@@ -21794,28 +21538,305 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>3 - 2 – 1.</strong>. Fonte: PCN Concursos Públicos/2023. Assunto: tonicidade.",
                 "banca": "PCN Concursos Públicos",
                 "ano": 2023,
-                "assunto": "Tonicidade",
+                "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade"
                 ]
-          },
+          }
+    ],
+    "proparoxitonas": [
           {
-                "enunciado": "Cortês, dê, dês (de dar), lê, lês: são exemplos de palavras oxítonas terminadas nas vogais tônicas fechadas grafadas -e ou -o, seguidas ou não de -s.\nC) Certo\nE) Errado",
+                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
                 "opcoes": [
-                      "Certo",
-                      "Errado"
+                      "A palavra “diretamente” é proparoxítona.",
+                      "A palavra “ataca” é paroxítona.",
+                      "A palavra “doença” é oxítona.",
+                      "A palavra “sistema” é proparoxítona.",
+                      "A palavra “imunológico” é paroxítona."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto de Apoio à Gestão e Educação - IGEDUC/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Apoio à Gestão e Educação - IGEDUC",
-                "ano": 2023,
-                "assunto": "Tonicidade",
-                "tipo": "certo_errado",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra “diretamente” é proparoxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade"
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a classificação da palavra está correta:",
+                "opcoes": [
+                      "Arquipélago - substantivo abstrato, trissílabo, proparoxítona.",
+                      "Réptil - substantivo comum, trissílabo, oxítona.",
+                      "Pneumático - substantivo derivado, polissílabo, proparoxítona.",
+                      "Saúde - substantivo concreto, dissílabo, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Arquipélago - substantivo abstrato, trissílabo, proparoxítona.</strong>. Fonte: Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK/2024. Assunto: tonicidade.",
+                "banca": "Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a palavra destacada está corretamente classificada entre colchetes.",
+                "opcoes": [
+                      "“agora elas serão colegas de sala e vão cursar Ciências: Biologia e Química” [PAROXÍTONA].",
+                      "“vão viver a experiência de cursarem a graduação juntas” [OXÍTONA].",
+                      "“Já Kate, vai para segunda graduação” [PAROXÍTONA].",
+                      "“para melhorar o currículo” [PROPAROXÍTONA]"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“para melhorar o currículo” [PROPAROXÍTONA]</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em qual alternativa a palavra está corretamente classificada quanto à sua acentuação tônica?",
+                "opcoes": [
+                      "Pólen (proparoxítona)",
+                      "Café (oxítona)",
+                      "Atrás (proparoxítona)",
+                      "Símbolo (oxítona)",
+                      "Árvore (paroxítona)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Pólen (proparoxítona)</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2024. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          }
+    ],
+    "paroxitonas": [
+          {
+                "enunciado": "Assinale a alternativa INCORRETA quanto à classificação das palavras de acordo com a posição da sílaba tônica.",
+                "opcoes": [
+                      "espécies (l. 47) - proparoxítona.",
+                      "Atlântica (l. 41) - proparoxítona.",
+                      "açúcar (l.36) - paroxítona.",
+                      "período (l.23) - paroxítona",
+                      "até (l.14) - oxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>período (l.23) - paroxítona</strong>. Fonte: Legalle Concursos/2024. Assunto: tonicidade.",
+                "banca": "Legalle Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA a respeito da palavra “trânsito”.",
+                "opcoes": [
+                      "Possui duas sílabas e é paroxítona.",
+                      "Possui duas sílabas e é proparoxítona.",
+                      "Possui três sílabas e é oxítona.",
+                      "Possui três sílabas e é paroxítona.",
+                      "Possui três sílabas e é proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Possui duas sílabas e é paroxítona.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2024. Assunto: tonicidade.",
+                "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras a seguir. 1. Notícia; 2. Convenção; 3. Parabéns; 4. Câmera. Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "A única palavra paroxítona é a 4.",
+                      "São paroxítonas as palavras 1 e 2.",
+                      "As palavras 2 e 3 são oxítonas.",
+                      "As palavras 3 e 4 são proparoxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A única palavra paroxítona é a 4.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: tonicidade.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
+                "opcoes": [
+                      "Penúltima, sendo uma palavra paroxítona.",
+                      "Antepenúltima, sendo uma palavra proparoxítona.",
+                      "Última, sendo uma palavra oxítona.",
+                      "Antepenúltima, sendo uma palavra oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Penúltima, sendo uma palavra paroxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "O QUE É COOPERATIVISMO Mais que um modelo de negócios, o cooperativismo é uma filosofia de vida que busca transformar o mundo em um lugar mais justo, feliz, equilibrado e com melhores oportunidades para todos. Um caminho que mostra que é possível unir desenvolvimento econômico e desenvolvimento social, produtividade e sustentabilidade, o individual e o coletivo. Tudo começa quando pessoas se juntam em torno de um mesmo objetivo, em uma organização onde todos são donos do próprio negócio. E continua com um ciclo que traz ganhos para as pessoas, para o país e para o planeta. Fonte: https://paracooperativo.coop.br/coop erativismo/o-que-e-cooperativismo. Acesso em: 20 dez. 2022. Considerando o que foi apresentado, assinale a opção correta:",
+                "opcoes": [
+                      "A palavra “econômico” é paroxítona.",
+                      "A palavra “continua” é proparoxítona.",
+                      "A palavra “negócios” é oxítona.",
+                      "A palavra “sustentabilidade” é paroxítona.",
+                      "A palavra “individual” é proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra “econômico” é paroxítona.</strong>. Fonte: Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil/2023. Assunto: tonicidade.",
+                "banca": "Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa indevida.",
+                "opcoes": [
+                      "Claro (paroxítona).",
+                      "Pérola (proparoxítona).",
+                      "Mexerica (proparoxítona).",
+                      "Pó (oxítona)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Claro (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras “importa”, “recurso” e “consumo”, retiradas do texto são, respectivamente:",
+                "opcoes": [
+                      "Trissílabas e paroxítonas;",
+                      "Uma polissílaba e duas trissílabas;",
+                      "Trissílabas, sendo duas paroxítonas e uma oxítona;",
+                      "As duas das extremidades são trissílabas e a do meio polissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Trissílabas e paroxítonas;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “armário”, presente no segundo quadrinho do texto III, é uma",
+                "opcoes": [
+                      "paroxítona.",
+                      "oxítona.",
+                      "proparoxítona.",
+                      "dissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta a única palavra, das retiradas do texto, que NÃO é paroxítona:",
+                "opcoes": [
+                      "Morte.",
+                      "Edifício.",
+                      "Água.",
+                      "Jardim."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Edifício.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando da correta classificação das palavras, quanto à posição da sílaba tônica, marque a alternativa errada.",
+                "opcoes": [
+                      "Duro (paroxítona).",
+                      "Lâmpada (proparoxítona).",
+                      "Pé (oxítona).",
+                      "Milhão (paroxítona)."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Milhão (paroxítona).</strong>. Fonte: MS Concursos/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Releia este trecho. “[...] Departamento Florestal de Mianmar, país asiático.” Assinale a alternativa que apresenta as classificações corretas da palavra destacada quanto ao número de sílabas e à sílaba tônica.",
+                "opcoes": [
+                      "Monossílaba– Paroxítona.",
+                      "Trissílaba– Oxítona.",
+                      "Dissílaba– Oxítona.",
+                      "Polissílaba– Proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílaba– Paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
                 ]
           }
     ],
