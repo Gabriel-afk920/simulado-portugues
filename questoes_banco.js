@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 19/06/2026, 18:59:28 — 1113 questões incluídas
+// 19/06/2026, 19:14:48 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -16131,6 +16131,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Analise as assertivas a seguir com base na relação entre fonemas e dígrafos de palavras do texto: l. Na palavra coordenando (/55), há I fonemas e 2 dígrafos. ll. Na palavra pequenos (i.56), há 7 fonemas e 1 dígrafo. lll. Na palavra tamanho (1.43), há 6 fonemas e 1 dígrafo. Está(ão) CORRETA(S)",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas ll.",
+                      "Apenas lll.",
+                      "Apenas ll e lll."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas ll e lll.</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "banca": "Legalle Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo.",
                 "opcoes": [
                       "Empresa.",
@@ -18437,6 +18456,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Leia o fragmento e analise as assertivas que seguem: “Em 2022, a mina South Deep, localizada na África do Sul, possuía as maiores reservas conhecidas de ouro” (4º§).",
+                "opcoes": [
+                      "As palavras “África” e “possuíam” são classificadas como oxítona e paroxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são classificadas como proparoxítona e paroxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são ambas classificadas como paroxítonas.",
+                      "As palavras “África” e “possuíam” são classificadas como proparoxítona e oxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são classificadas como paroxítona e proparoxítona, nessa ordem."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As palavras “África” e “possuíam” são classificadas como oxítona e paroxítona, nessa ordem.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
                 "opcoes": [
                       "Anéis.",
@@ -19068,6 +19107,26 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Atlântica, país.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: tonicidade.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "São palavras oxitonas:",
+                "opcoes": [
+                      "beira; fúria; figo.",
+                      "cantil; nó; céu.",
+                      "círio; avó; perfeito.",
+                      "ambiente; catástrofe; mundo.",
+                      "tenaz; carniça; música."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>beira; fúria; figo.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2024,
                 "assunto": "Tonicidade",
                 "tipo": "multipla_escolha",
@@ -21179,6 +21238,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Trissílabas e paroxítonas;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
                 "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2023,
+                "assunto": "Tonicidade",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir e indique a alternativa que apresenta respectivamente uma palavra oxítona, uma paroxítona e uma proparoxítona.",
+                "opcoes": [
+                      "parlamento – hortelã – hipótese",
+                      "ninguém – felicidade – científico",
+                      "flácido – incrível – sorrir",
+                      "felicidade – gráfico – dançar"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>flácido – incrível – sorrir</strong>. Fonte: Instituto Social Univida/2023. Assunto: tonicidade.",
+                "banca": "Instituto Social Univida",
                 "ano": 2023,
                 "assunto": "Tonicidade",
                 "tipo": "multipla_escolha",
