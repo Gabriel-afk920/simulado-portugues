@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 21/06/2026, 15:43:34 — 1117 questões incluídas
+// 21/06/2026, 16:02:59 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2352,8 +2352,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, hiato.",
                       "Hiato, hiato, tritongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -2416,8 +2416,8 @@ var QUESTOES_BANCO = {
                       "A palavra “mais” é dissílaba.",
                       "Na palavra “atrevia”, “ia” é um ditongo decrescente."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>A palavra “mais” é dissílaba.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: ditongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Na palavra “rugia” há um hiato.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: ditongos.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -2797,8 +2797,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, hiato.",
                       "Hiato, hiato, tritongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -3529,8 +3529,8 @@ var QUESTOES_BANCO = {
                       "A palavra “apoiou” é polissílaba.",
                       "O vocábulo “muito” é dissílabo."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>A palavra “apoiou” é polissílaba.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: ditongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>No vocábulo “apoiou”, há um tritongo formado por ”iou”.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: ditongos.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -3660,8 +3660,8 @@ var QUESTOES_BANCO = {
                       "Os trechos I e II apresentam ditongos.",
                       "Os trechos II e III apresentam hiatos."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Os trechos I e III apresentam dígrafos.</strong>. Fonte: Creative Group/2024. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Os trechos II e III apresentam hiatos.</strong>. Fonte: Creative Group/2024. Assunto: ditongos.",
                 "banca": "Creative Group",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -5390,8 +5390,8 @@ var QUESTOES_BANCO = {
                       "A palavra “mais” é dissílaba.",
                       "Na palavra “atrevia”, “ia” é um ditongo decrescente."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>A palavra “mais” é dissílaba.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tritongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Na palavra “rugia” há um hiato.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: tritongos.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -5483,8 +5483,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, hiato.",
                       "Hiato, hiato, tritongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -9372,8 +9372,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, hiato.",
                       "Hiato, hiato, tritongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -9477,8 +9477,8 @@ var QUESTOES_BANCO = {
                       "A palavra “mais” é dissílaba.",
                       "Na palavra “atrevia”, “ia” é um ditongo decrescente."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>A palavra “mais” é dissílaba.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: hiatos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Na palavra “rugia” há um hiato.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2024. Assunto: hiatos.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -9759,8 +9759,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, hiato.",
                       "Hiato, hiato, tritongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -10469,8 +10469,8 @@ var QUESTOES_BANCO = {
                       "Os trechos I e II apresentam ditongos.",
                       "Os trechos II e III apresentam hiatos."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Os trechos I e III apresentam dígrafos.</strong>. Fonte: Creative Group/2024. Assunto: hiatos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Os trechos II e III apresentam hiatos.</strong>. Fonte: Creative Group/2024. Assunto: hiatos.",
                 "banca": "Creative Group",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -11618,8 +11618,8 @@ var QUESTOES_BANCO = {
                       "“mais” há duas sílabas - dissílaba.",
                       "“precisei” há quatro sílabas - polissílaba."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>“agradecer” há um dígrafo.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2023. Assunto: hiatos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“pessoas” há um hiato.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2023. Assunto: hiatos.",
                 "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2023,
                 "assunto": "Hiatos",
@@ -14785,8 +14785,8 @@ var QUESTOES_BANCO = {
                       "Há um dígrafo consonantal em \"quando\".",
                       "Há tanto dígrafo consonantal quanto encontro consonantal em \"trabalho\"."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Não há encontro consonantal em \"imagem\".</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Há um dígrafo consonantal em \"quando\".</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2024. Assunto: encontrosConsonantais.",
                 "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -20919,29 +20919,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Em relação à tonicidade dos vocábulos de Língua Portuguesa, assinale a alternativa correta:",
-                "opcoes": [
-                      "a palavra homem é oxítona",
-                      "a palavra café é paroxítona",
-                      "a palavra sentimento é proparoxítona",
-                      "a palavra pensamento é proparoxítona",
-                      "a palavra repórter é paroxítona"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a palavra homem é oxítona</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2023. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "oxitonas",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Sentir-se cansada após um dia cheio de trabalho, pode ser considerado algo fácil. Contudo, quando esse cansaço é excessivo e vem acompanhado de outros sintomas, como fadiga, exaustão, estafa e esgotamento, é importante buscar ajuda médica. A palavra acentuada por ser uma oxítona é:",
                 "opcoes": [
                       "é.",
@@ -22527,29 +22504,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
-                "opcoes": [
-                      "A palavra “diretamente” é proparoxítona.",
-                      "A palavra “ataca” é paroxítona.",
-                      "A palavra “doença” é oxítona.",
-                      "A palavra “sistema” é proparoxítona.",
-                      "A palavra “imunológico” é paroxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A palavra “diretamente” é proparoxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
-                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
                 "opcoes": [
                       "proparoxítona e oxítona.",
@@ -23026,6 +22980,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
+                "opcoes": [
+                      "Penúltima, sendo uma palavra paroxítona.",
+                      "Antepenúltima, sendo uma palavra proparoxítona.",
+                      "Última, sendo uma palavra oxítona.",
+                      "Antepenúltima, sendo uma palavra oxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Antepenúltima, sendo uma palavra proparoxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "Em qual alternativa a palavra está corretamente classificada quanto à sua acentuação tônica?",
                 "opcoes": [
                       "Pólen (proparoxítona)",
@@ -23207,6 +23184,29 @@ var QUESTOES_BANCO = {
     ],
     "paroxitonas": [
           {
+                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
+                "opcoes": [
+                      "A palavra “diretamente” é proparoxítona.",
+                      "A palavra “ataca” é paroxítona.",
+                      "A palavra “doença” é oxítona.",
+                      "A palavra “sistema” é proparoxítona.",
+                      "A palavra “imunológico” é paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra “ataca” é paroxítona.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "Analise as assertivas a seguir a respeito dos aspectos ortográficos de algumas palavras do texto. I. \"mulher\" é uma palavra oxítona e dissílaba, enquanto o seu plural (\"mulheres\"), é paroxítona e trissílaba. . Em \"exausto\", palavra polissílaba, ocorre hiato. . Em \"máquina\" e \"chaves\" há dígrafo. IV. \"leite\" e \"olhos\" possuem o mesmo número de fonemas. Está CORRETO o que se afirma em:",
                 "opcoes": [
                       "II, III e IV, apenas.",
@@ -23340,29 +23340,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
-                "opcoes": [
-                      "Penúltima, sendo uma palavra paroxítona.",
-                      "Antepenúltima, sendo uma palavra proparoxítona.",
-                      "Última, sendo uma palavra oxítona.",
-                      "Antepenúltima, sendo uma palavra oxítona."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Penúltima, sendo uma palavra paroxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "paroxitonas",
-                      "silabas",
-                      "proparoxitonas",
-                      "oxitonas",
-                      "tonicidade"
-                ]
-          },
-          {
                 "enunciado": "O QUE É COOPERATIVISMO Mais que um modelo de negócios, o cooperativismo é uma filosofia de vida que busca transformar o mundo em um lugar mais justo, feliz, equilibrado e com melhores oportunidades para todos. Um caminho que mostra que é possível unir desenvolvimento econômico e desenvolvimento social, produtividade e sustentabilidade, o individual e o coletivo. Tudo começa quando pessoas se juntam em torno de um mesmo objetivo, em uma organização onde todos são donos do próprio negócio. E continua com um ciclo que traz ganhos para as pessoas, para o país e para o planeta. Fonte: https://paracooperativo.coop.br/coop erativismo/o-que-e-cooperativismo. Acesso em: 20 dez. 2022. Considerando o que foi apresentado, assinale a opção correta:",
                 "opcoes": [
                       "A palavra “econômico” é paroxítona.",
@@ -23371,8 +23348,8 @@ var QUESTOES_BANCO = {
                       "A palavra “sustentabilidade” é paroxítona.",
                       "A palavra “individual” é proparoxítona."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>A palavra “econômico” é paroxítona.</strong>. Fonte: Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil/2023. Assunto: tonicidade.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra “sustentabilidade” é paroxítona.</strong>. Fonte: Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil/2023. Assunto: tonicidade.",
                 "banca": "Instituto Nacional de Educação, Pesquisa, Instrução e Segurança Pública - Inep Brasil",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
@@ -23424,6 +23401,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à tonicidade dos vocábulos de Língua Portuguesa, assinale a alternativa correta:",
+                "opcoes": [
+                      "a palavra homem é oxítona",
+                      "a palavra café é paroxítona",
+                      "a palavra sentimento é proparoxítona",
+                      "a palavra pensamento é proparoxítona",
+                      "a palavra repórter é paroxítona"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>a palavra repórter é paroxítona</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
