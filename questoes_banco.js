@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 22/06/2026, 20:38:28 — 1117 questões incluídas
+// 22/06/2026, 20:47:59 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -3596,8 +3596,8 @@ var QUESTOES_BANCO = {
                       "Somente os itens II, III e IV estão corretos.",
                       "Somente os itens I, III e V estão corretos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Somente os itens I e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Somente os itens I, III e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: ditongos.",
                 "banca": "Instituto Darwin - Darwin",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -5857,8 +5857,8 @@ var QUESTOES_BANCO = {
                       "Somente os itens II, III e IV estão corretos.",
                       "Somente os itens I, III e V estão corretos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Somente os itens I e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: tritongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Somente os itens I, III e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: tritongos.",
                 "banca": "Instituto Darwin - Darwin",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -10447,8 +10447,8 @@ var QUESTOES_BANCO = {
                       "Somente os itens II, III e IV estão corretos.",
                       "Somente os itens I, III e V estão corretos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Somente os itens I e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: hiatos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Somente os itens I, III e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: hiatos.",
                 "banca": "Instituto Darwin - Darwin",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -14331,8 +14331,8 @@ var QUESTOES_BANCO = {
                       "Somente os itens II, III e IV estão corretos.",
                       "Somente os itens I, III e V estão corretos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Somente os itens I e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Somente os itens I, III e V estão corretos.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
                 "banca": "Instituto Darwin - Darwin",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
