@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 05:09:40 — 401 questões incluídas
+// 23/06/2026, 15:55:18 — 398 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -347,8 +347,8 @@ var QUESTOES_BANCO = {
                       "Saúde • Possuir",
                       "Uruguai • Construir"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Saída • Ruim</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2025. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dois • Patrão</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2025. Assunto: ditongos.",
                 "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
                 "ano": 2025,
                 "assunto": "Ditongos",
@@ -378,25 +378,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "hiatos"
-                ]
-          },
-          {
-                "enunciado": "Qual das palavras a seguir, extraídas do texto, apresenta um ditongo decrescente?",
-                "opcoes": [
-                      "Saída.",
-                      "Chiado.",
-                      "Reinado.",
-                      "Espalhado."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Saída.</strong>. Fonte: Instituto Consulplan/2025. Assunto: ditongos.",
-                "banca": "Instituto Consulplan",
-                "ano": 2025,
-                "assunto": "Ditongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "ditongos"
                 ]
           },
           {
@@ -879,26 +860,6 @@ var QUESTOES_BANCO = {
                       "digrafos",
                       "silabas",
                       "fonemas"
-                ]
-          },
-          {
-                "enunciado": "Na palavra “réu” há um exemplo de ditongo, o que também ocorre em:",
-                "opcoes": [
-                      "baú.",
-                      "herói.",
-                      "raízes.",
-                      "cafeína.",
-                      "saúde."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>baú.</strong>. Fonte: Ministério da Defesa - Marinha - ComDN/2024. Assunto: ditongos.",
-                "banca": "Ministério da Defesa - Marinha - ComDN",
-                "ano": 2024,
-                "assunto": "Ditongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "ditongos"
                 ]
           },
           {
@@ -1566,26 +1527,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos"
-                ]
-          },
-          {
-                "enunciado": "A palavra “noite” contém um encontro vocálico do tipo ditongo. Qual das palavras abaixo também contém esse tipo de encontro vocálico?",
-                "opcoes": [
-                      "Porta.",
-                      "Raízes.",
-                      "Paçoca.",
-                      "Navalha.",
-                      "Alçapão."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Raízes.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2024,
-                "assunto": "Ditongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "ditongos"
                 ]
           },
           {
