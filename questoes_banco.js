@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 22/06/2026, 20:47:59 — 1117 questões incluídas
+// 22/06/2026, 21:45:46 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2603,8 +2603,8 @@ var QUESTOES_BANCO = {
                       "hiato é o encontro de duas vogais em sílabas diferentes, que guardam sua individualidade fonética - como ocorre em “minguam” e “enxaguei”.",
                       "dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>encontro consonantal é o seguimento imediato de duas ou mais consoantes de um mesmo vocábulo — tal como se dá nas palavras “passo” e “malha”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: ditongos.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: ditongos.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -5435,8 +5435,8 @@ var QUESTOES_BANCO = {
                       "hiato é o encontro de duas vogais em sílabas diferentes, que guardam sua individualidade fonética - como ocorre em “minguam” e “enxaguei”.",
                       "dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>encontro consonantal é o seguimento imediato de duas ou mais consoantes de um mesmo vocábulo — tal como se dá nas palavras “passo” e “malha”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tritongos.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tritongos.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -8570,8 +8570,8 @@ var QUESTOES_BANCO = {
                       "I, III e V, apenas.",
                       "I, II e III, apenas."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>I, II, III, IV e V.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: hiatos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: hiatos.",
                 "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2025,
                 "assunto": "Hiatos",
@@ -9585,8 +9585,8 @@ var QUESTOES_BANCO = {
                       "hiato é o encontro de duas vogais em sílabas diferentes, que guardam sua individualidade fonética - como ocorre em “minguam” e “enxaguei”.",
                       "dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>encontro consonantal é o seguimento imediato de duas ou mais consoantes de um mesmo vocábulo — tal como se dá nas palavras “passo” e “malha”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: hiatos.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dígrafo é o emprego de duas letras para a representação gráfica de um só fonema, já que uma delas é letra diacriítica - como em “chá” e “exceto”.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: hiatos.",
                 "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -15209,8 +15209,8 @@ var QUESTOES_BANCO = {
                       "Fim; apropriar.",
                       "Infanticida; como."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Escritor; não.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Presumia; oração.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
                 "banca": "MS Concursos",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
