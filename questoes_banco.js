@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 16:10:37 — 409 questões incluídas
+// 23/06/2026, 16:25:04 — 420 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2759,6 +2759,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinalar a alternativa que NÃO apresenta hiato.",
+                "opcoes": [
+                      "Maçã.",
+                      "Faísca.",
+                      "Juízo.",
+                      "Saúde."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Maçã.</strong>. Fonte: Objetiva Concursos/2025. Assunto: hiatos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Sobre a classificação silábica, assinalar a alternativa em que só há palavras com hiato.",
                 "opcoes": [
                       "Igreja | poesia | série.",
@@ -4267,25 +4286,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Qual palavra não apresenta encontro consonantal?",
-                "opcoes": [
-                      "Flor",
-                      "Descente",
-                      "Curto",
-                      "Magnitude"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Curto</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: encontrosConsonantais.",
-                "banca": "Evolução Consultoria - Instituto Evo",
-                "ano": 2025,
-                "assunto": "Encontros Consonantais",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "encontrosConsonantais"
-                ]
-          },
-          {
                 "enunciado": "Em qual das palavras abaixo ocorre encontro consonantal?",
                 "opcoes": [
                       "Chave.",
@@ -4365,6 +4365,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual palavra abaixo contém encontro consonantal?",
+                "opcoes": [
+                      "Sapatos.",
+                      "Geladeira.",
+                      "Limpeza.",
+                      "Janela.",
+                      "Poeira."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Limpeza.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal como em “blusa”.",
                 "opcoes": [
                       "Água.",
@@ -4424,6 +4444,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinalar a alternativa em que há um encontro consonantal.",
+                "opcoes": [
+                      "Rolha.",
+                      "Cortiça.",
+                      "Vinho.",
+                      "Nativa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Cortiça.</strong>. Fonte: Objetiva Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "As duas palavras que NÃO apresentam encontro consonantal estão na alternativa:",
                 "opcoes": [
                       "afta, pacto.",
@@ -4454,6 +4493,25 @@ var QUESTOES_BANCO = {
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Brilho.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que contém todas as palavras com encontro consonantal da charge abaixo: Menino (Pai, você sabe quem mexeu no meu cofrinho?) Pai (Só falo na presença do meu advogado)",
+                "opcoes": [
+                      "Corrupção – Cofrinho – Presença – Advogado.",
+                      "Mexeu – Falo – Presença – Meu.",
+                      "Pai – Sabe – Cofrinho – Falo.",
+                      "Você – Mexeu - Quem – Meu."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Corrupção – Cofrinho – Presença – Advogado.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IDEAP - IDEAP",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -4879,8 +4937,8 @@ var QUESTOES_BANCO = {
                       "Asfalto – Seguinte.",
                       "Consciência – Vendo-se."
                 ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Consciência – Vendo-se.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Chocou-se – Pelo.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
                 "banca": "ADVISE",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -4901,6 +4959,25 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>Regra.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
                 "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que a letra “X” representa, em seu som, um encontro consonantal:",
+                "opcoes": [
+                      "Sintaxe.",
+                      "Exemplo.",
+                      "Feixe.",
+                      "Fixar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sintaxe.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -5030,6 +5107,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal.",
+                "opcoes": [
+                      "Recursos.",
+                      "Naturais.",
+                      "Futuro.",
+                      "Poluição.",
+                      "Cidades."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Recursos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Um encontro consonantal ocorre quando duas ou mais consoantes aparecem juntas na mesma sílaba ou em sílabas diferentes. Um dígrafo é a combinação de duas letras que representam um único som. Nesse sentido, assinale a alternativa correta sobre a classificação do encontro consonantal e do dígrafo.",
                 "opcoes": [
                       "O qu e o gu (em palavras como querer e guerra) são encontros consonantais disjuntos.",
@@ -5048,6 +5145,26 @@ var QUESTOES_BANCO = {
                       "encontrosConsonantais",
                       "digrafos",
                       "silabas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal imperfeito.",
+                "opcoes": [
+                      "Bolha – floresta – disjunto – carroceria.",
+                      "Afta – objeto – magnético - advogado.",
+                      "Bolsa – chuva – teclado – caderno.",
+                      "Onde – filtro – calçada – pássaro.",
+                      "Livro – máquina – igual – caixa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Afta – objeto – magnético - advogado.</strong>. Fonte: Instituto Avalia/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5082,6 +5199,26 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>produção – trocaram – fábrica.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
                 "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre um encontro consonantal, ou seja, o encontro de duas consoantes.",
+                "opcoes": [
+                      "Dia.",
+                      "Campo.",
+                      "País.",
+                      "Homem.",
+                      "Familiar."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Campo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -5169,6 +5306,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal.",
+                "opcoes": [
+                      "Rainha/ Sete/ estamos.",
+                      "Cinco/ Dois/ fique.",
+                      "Alice/ conta/ disse.",
+                      "entende/ salpicando/ perguntou."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>entende/ salpicando/ perguntou.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Em qual das palavras abaixo ocorre um encontro consonantal?",
                 "opcoes": [
                       "Lixo.",
@@ -5208,6 +5364,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que ocorra encontro consonantal.",
+                "opcoes": [
+                      "Saúde.",
+                      "Amigos.",
+                      "Infarto.",
+                      "Hábitos.",
+                      "Coração."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Infarto.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Todas as palavras abaixo apresentam encontro consonantal, EXCETO:",
                 "opcoes": [
                       "Calma.",
@@ -5218,6 +5394,26 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Opinião.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta uma palavra na qual ocorre um encontro consonantal é:",
+                "opcoes": [
+                      "Sabor.",
+                      "Legado.",
+                      "Povo.",
+                      "Símbolo.",
+                      "Queijo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Símbolo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -5357,6 +5553,26 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Você.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
                 "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre encontro consonantal.",
+                "opcoes": [
+                      "Lugar.",
+                      "Item.",
+                      "Saúde.",
+                      "Jornada.",
+                      "Hábito."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Jornada.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
