@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 15:55:18 — 398 questões incluídas
+// 23/06/2026, 16:10:37 — 409 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -549,6 +549,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que contém, respectivamente, um ditongo crescente e um dígrafo.",
+                "opcoes": [
+                      "Sociais e personalização.",
+                      "Tênue e provenientes.",
+                      "Frustração e intermediário.",
+                      "democracia e ascensão.",
+                      "Meios e essas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tênue e provenientes.</strong>. Fonte: Instituto Legatus - Legatus/2025. Assunto: ditongos.",
+                "banca": "Instituto Legatus - Legatus",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Em qual das palavras a seguir ocorre um ditongo?",
                 "opcoes": [
                       "Biscoito",
@@ -631,6 +652,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Dígrafos e encontros vocálicos são diferenciados pelos seus sons. Sobre essas diferenças, relacionar as colunas e assinalar a sequência correspondente. (1) Dígrafo. (2) Encontro vocálico. ( ) Disjuntivo. ( ) Querido. ( ) Baú. ( ) Casais.",
+                "opcoes": [
+                      "1 - 1 - 1 - 2.",
+                      "2 - 1 - 2 - 1.",
+                      "2 - 2 - 1 - 2.",
+                      "1 - 1 - 2 - 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>1 - 1 - 2 - 2.</strong>. Fonte: Objetiva Concursos/2024. Assunto: ditongos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (demônio, continuar, aí), são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -671,6 +712,27 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "tritongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta, respectivamente, o dígrafo e a classificação do encontro vocálico presentes no vocábulo “exceção”.",
+                "opcoes": [
+                      "Dígrafo: çã; Encontro vocálico: hiato.",
+                      "Dígrafo: xc; Encontro vocálico: ditongo.",
+                      "Dígrafo: xc; Encontro vocálico: hiato.",
+                      "Dígrafo: çã; Encontro vocálico: ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dígrafo: xc; Encontro vocálico: ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -3029,6 +3091,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual alternativa apresenta, respectivamente, o dígrafo e a classificação do encontro vocálico presentes no vocábulo “exceção”.",
+                "opcoes": [
+                      "Dígrafo: çã; Encontro vocálico: hiato.",
+                      "Dígrafo: xc; Encontro vocálico: ditongo.",
+                      "Dígrafo: xc; Encontro vocálico: hiato.",
+                      "Dígrafo: çã; Encontro vocálico: ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dígrafo: xc; Encontro vocálico: ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "No tocante a encontros vocálicos, as palavras do texto (dias, aí, duas) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -4947,6 +5030,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Um encontro consonantal ocorre quando duas ou mais consoantes aparecem juntas na mesma sílaba ou em sílabas diferentes. Um dígrafo é a combinação de duas letras que representam um único som. Nesse sentido, assinale a alternativa correta sobre a classificação do encontro consonantal e do dígrafo.",
+                "opcoes": [
+                      "O qu e o gu (em palavras como querer e guerra) são encontros consonantais disjuntos.",
+                      "As palavras \"brisa\" e \"aflição\" são exemplos de dígrafos. As duas consoantes se juntam para formar um único som.",
+                      "O ch (chave, machado), o Ih (palha, milharal), não são grupos consonantais, nem encontros disjuntos: são dígrafos.",
+                      "As palavras \"ritmo\" e \"afta\" se juntam para formar um encontro consonantal inseparável."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O ch (chave, machado), o Ih (palha, milharal), não são grupos consonantais, nem encontros disjuntos: são dígrafos.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "A palavra que apresenta encontro consonantal é:",
                 "opcoes": [
                       "Dica.",
@@ -5601,6 +5705,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "\"No primeiro episódio, o tema será saúde mental, assunto cada vez mais urgente no debate público e nas redes sociais. Padilha recebe a psicóloga e criadora de conteúdo Karen Scavacini e a cientista social e influenciadora Nataly Neri.\" Considerando os vocábulos presentes no trecho e no texto-base, identifique a alternativa em que todas as palavras apresentam dígrafo.",
+                "opcoes": [
+                      "Assunto e mental.",
+                      "Psicóloga e criadora.",
+                      "Padilha e primeiro.",
+                      "Acesso e percurso."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Assunto e mental.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2026. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Das palavras a seguir, qual NÃO possui dígrafo?",
                 "opcoes": [
                       "chão.",
@@ -6055,26 +6178,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa na qual NÃO haja a ocorrência de um dígrafo.",
-                "opcoes": [
-                      "Linda.",
-                      "Cedilha.",
-                      "Ombro.",
-                      "Jejum.",
-                      "Calem."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Linda.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Na palavra \"equiparando\", analise as afirmativas abaixo: I. A palavra possui dois dígrafos. II. O número total de letras é 11, mas o número de fonemas é 10. III. Os dígrafos presentes são \"qu\" e \"rr\". Está correto o que se afirma em:",
                 "opcoes": [
                       "Apenas I.",
@@ -6270,26 +6373,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa em que a palavra não apresenta dígrafo.",
-                "opcoes": [
-                      "Excluído",
-                      "Excêntrico",
-                      "Excelente",
-                      "Exceção",
-                      "Descer"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Excêntrico</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2025. Assunto: digrafos.",
-                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
                 "opcoes": [
                       "Verdade – Frutas.",
@@ -6301,6 +6384,25 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>Cheiro – Brilha.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No trecho do texto apresentado, qual das palavras abaixo contém um dígrafo?",
+                "opcoes": [
+                      "Juíza.",
+                      "outros.",
+                      "Carvoeiros.",
+                      "jovem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>jovem.</strong>. Fonte: Renascer Soluções e Serviços/2025. Assunto: digrafos.",
+                "banca": "Renascer Soluções e Serviços",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -6587,16 +6689,16 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Considerando a configuração fonética de vocábulos do texto, qual das alternativas possui uma palavra que NÃO apresenta dígrafo na sua formação?",
+                "enunciado": "Assinale a alternativa cuja palavra apresente dígrafo:",
                 "opcoes": [
-                      "distância.",
-                      "atravessa.",
-                      "olhando.",
-                      "humano."
+                      "Encantada.",
+                      "Produção.",
+                      "Ferramentas.",
+                      "Beleza."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>distância.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
-                "banca": "Fênix Instituto Ltda",
+                "explicacao": "Gabarito: <strong>Encantada.</strong>. Fonte: EDUCA Assessoria Educacional - EDUCA/2025. Assunto: digrafos.",
+                "banca": "EDUCA Assessoria Educacional - EDUCA",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -6713,8 +6815,8 @@ var QUESTOES_BANCO = {
                       "atividade (/.41).",
                       "estimulante (/.40)."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tempos (l.55).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>atividade (/.41).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
                 "banca": "Legalle Concursos",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -6825,6 +6927,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que contém dígrafo separável.",
+                "opcoes": [
+                      "vagando.",
+                      "criança.",
+                      "passeio.",
+                      "vontade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>vagando.</strong>. Fonte: Fundação CETAP/2025. Assunto: digrafos.",
+                "banca": "Fundação CETAP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Marque a alternativa abaixo onde todas as palavras apresentam dígrafo.",
                 "opcoes": [
                       "Prato – blusa – trevo.",
@@ -6922,6 +7043,49 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que contém, respectivamente, um ditongo crescente e um dígrafo.",
+                "opcoes": [
+                      "Sociais e personalização.",
+                      "Tênue e provenientes.",
+                      "Frustração e intermediário.",
+                      "democracia e ascensão.",
+                      "Meios e essas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tênue e provenientes.</strong>. Fonte: Instituto Legatus - Legatus/2025. Assunto: digrafos.",
+                "banca": "Instituto Legatus - Legatus",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Sabendo-se que dígrafos são duplas de letras que representam, na ortografia da Língua Portuguesa, apenas um som (fonema), dentre as opções a seguir, aquela em que todas as palavras retiradas do texto possuem dígrafo é a seguinte:",
+                "opcoes": [
+                      "carreira – qual – segurança – chamados – trabalho.",
+                      "fim – regularidade – recorremos – aquelas – repressão.",
+                      "conhecimento – queremos – torres – adstrito – mulheres",
+                      "profissão – exemplo – integrantes – aquelas – chamados.",
+                      "algum – inclusão – contribuir – signatários – quanto"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>profissão – exemplo – integrantes – aquelas – chamados.</strong>. Fonte: COSEAC/2025. Assunto: digrafos.",
+                "banca": "COSEAC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas",
+                      "ortografia"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo.",
                 "opcoes": [
                       "Amigos.",
@@ -6980,6 +7144,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Texto 2 (questões 12 e 13) <https://revistagalileu.globo.com/Cultura/Livros/noticia/2016/01/20-tirinhas-sobre-paixao-por-livros.html> Assinale a opção em que a palavra destacada apresenta um dígrafo.",
+                "opcoes": [
+                      "“Para aventuras em lugares distantes...",
+                      "“Consulte seu bibliotecário!”",
+                      "“E muito de nós mesmos...”",
+                      "“Descobrir novos países...”",
+                      "“Conhecer um pouco das outras pessoas...”"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“Para aventuras em lugares distantes...</strong>. Fonte: Serviço de Seleção do Pessoal da Marinha - SSPM/2025. Assunto: digrafos.",
+                "banca": "Serviço de Seleção do Pessoal da Marinha - SSPM",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que há um ditongo e um dígrafo, respectivamente:",
                 "opcoes": [
                       "Caixa – chuva",
@@ -7007,8 +7191,8 @@ var QUESTOES_BANCO = {
                       "Limbo.",
                       "Aguaceiro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Visconde.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Aguaceiro.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
                 "banca": "Objetiva Concursos",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -7183,6 +7367,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Das palavras abaixo, retiradas do texto, a única que possui um dígrafo, nasal ou não, é:",
+                "opcoes": [
+                      "Doutorado.",
+                      "Tema.",
+                      "Defendeu.",
+                      "Comunicar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Defendeu.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: digrafos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa cuja palavra apresenta dígrafo.",
                 "opcoes": [
                       "Governo.",
@@ -7323,6 +7526,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que há dígrafos em todas as palavras.",
+                "opcoes": [
+                      "aquilo - intenso - borbulhante - homem.",
+                      "pobre - retardados - perfumada - débil.",
+                      "ama - afirma - egoísmo - tiro.",
+                      "porta - viver - lutou - fez."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>aquilo - intenso - borbulhante - homem.</strong>. Fonte: Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP/2024. Assunto: digrafos.",
+                "banca": "Centro de Extensão, Treinamento e Aperfeiçoamento Profissional Ltda - CETAP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "A palavra a seguir que não apresenta dígrafo é:",
                 "opcoes": [
                       "incompetente.",
@@ -7331,8 +7553,8 @@ var QUESTOES_BANCO = {
                       "sucessão.",
                       "prescindir."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>incompetente.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>armário.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: digrafos.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2024,
                 "assunto": "Dígrafos",
