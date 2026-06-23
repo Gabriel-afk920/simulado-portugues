@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 17:18:54 — 432 questões incluídas
+// 23/06/2026, 20:37:17 — 443 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -403,6 +403,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual das palavras a seguir, extraídas do texto, apresenta um ditongo decrescente?",
+                "opcoes": [
+                      "Saída.",
+                      "Chiado.",
+                      "Reinado.",
+                      "Espalhado."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Reinado.</strong>. Fonte: Instituto Consulplan/2025. Assunto: ditongos.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (questionador, pessoa, emocional) são respectivamente:",
                 "opcoes": [
                       "Ditongo, ditongo, ditongo.",
@@ -777,27 +796,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "No tocante a encontros vocálicos, as palavras do texto (dias, aí, duas) são respectivamente:",
-                "opcoes": [
-                      "Hiato, hiato, hiato.",
-                      "Ditongo, ditongo, ditongo.",
-                      "Ditongo, ditongo, hiato.",
-                      "Hiato, hiato, tritongo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Ditongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "ditongos",
-                      "tritongos",
-                      "hiatos"
-                ]
-          },
-          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (primeira, outra, corações) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -947,6 +945,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “réu” há um exemplo de ditongo, o que também ocorre em:",
+                "opcoes": [
+                      "baú.",
+                      "herói.",
+                      "raízes.",
+                      "cafeína.",
+                      "saúde."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>herói.</strong>. Fonte: Ministério da Defesa - Marinha - ComDN/2024. Assunto: ditongos.",
+                "banca": "Ministério da Defesa - Marinha - ComDN",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (própria, aliviar, curioso) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -986,6 +1004,26 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "hiatos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Verifica-se um ditongo decrescente em:",
+                "opcoes": [
+                      "pleito.",
+                      "demência.",
+                      "agiota.",
+                      "vácuo.",
+                      "iguais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pleito.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
                 ]
           },
           {
@@ -1386,6 +1424,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Todas as palavras a seguir apresentam ditongo, exceto:",
+                "opcoes": [
+                      "freio.",
+                      "cordilheira.",
+                      "antiquário.",
+                      "faísca.",
+                      "museu."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>faísca.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Assinale, a seguir, a alternativa que apresenta palavras com hiato, ditongo e tritongo, nessa ordem",
                 "opcoes": [
                       "Rio; fluido; averiguou;",
@@ -1611,6 +1669,26 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “noite” contém um encontro vocálico do tipo ditongo. Qual das palavras abaixo também contém esse tipo de encontro vocálico?",
+                "opcoes": [
+                      "Porta.",
+                      "Raízes.",
+                      "Paçoca.",
+                      "Navalha.",
+                      "Alçapão."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Alçapão.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
                 ]
           },
           {
@@ -2043,6 +2121,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual das alternativas NÃO apresenta tritongo?",
+                "opcoes": [
+                      "Saguões.",
+                      "Leitura.",
+                      "Averiguou.",
+                      "Delinquiu."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Leitura.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tritongos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (própria, aliviar, curioso) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -2237,6 +2334,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Selecione a alternativa que tenha apenas palavras com tritongo.",
+                "opcoes": [
+                      "Enxaguei, tranquilo.",
+                      "Alcool, leão.",
+                      "Iguais, quais.",
+                      "Quieto, cai."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Iguais, quais.</strong>. Fonte: Prefeitura de São Bento do Sapucaí/2024. Assunto: tritongos.",
+                "banca": "Prefeitura de São Bento do Sapucaí",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Assinale, a seguir, a alternativa que apresenta palavras com hiato, ditongo e tritongo, nessa ordem",
                 "opcoes": [
                       "Rio; fluido; averiguou;",
@@ -2303,6 +2419,45 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em qual das palavras abaixo ocorre um tritongo?",
+                "opcoes": [
+                      "Expediente.",
+                      "Paraguai.",
+                      "História.",
+                      "Amigo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Paraguai.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: tritongos.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Texto: “Em uma viagem ao Paraguai, Maria ficou encantada com a exuberância das Cataratas do Iguaçu. A beleza dos lugares visitados proporcionou a ela recordações inesquecíveis.” Qual palavra no texto apresenta um tritongo?",
+                "opcoes": [
+                      "Viagem.",
+                      "Encantada.",
+                      "Exuberância.",
+                      "Paraguai.",
+                      "Cataratas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Paraguai.</strong>. Fonte: Centro Universitário de Mineiros - UNIFIMES/2024. Assunto: tritongos.",
+                "banca": "Centro Universitário de Mineiros - UNIFIMES",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (curiosidade, arrepiado, urgência) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -2324,6 +2479,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinalar a alternativa que apresenta um tritongo:",
+                "opcoes": [
+                      "Iguais.",
+                      "Saúde.",
+                      "Rei.",
+                      "Baú."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Iguais.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tritongos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Ainda no texto, quanto a encontros vocálicos, as palavras (aí, água, cardíaco, geladeira) são respectivamente:",
                 "opcoes": [
                       "Ditongo, hiato, ditongo, hiato.",
@@ -2342,6 +2516,26 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Identifique dentre as opções abaixo a presença de um tritongo:",
+                "opcoes": [
+                      "Cochilo.",
+                      "Massa.",
+                      "Grogue.",
+                      "Iguais.",
+                      "Efeito."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Iguais.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2023. Assunto: tritongos.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2023,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
                 ]
           },
           {
@@ -2430,6 +2624,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual alternativa abaixo apresenta um tritongo?",
+                "opcoes": [
+                      "Papai.",
+                      "Sabão.",
+                      "Iguais.",
+                      "Álcool."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Iguais.</strong>. Fonte: SHDIAS Consultoria e Assessoria - SHDIAS/2022. Assunto: tritongos.",
+                "banca": "SHDIAS Consultoria e Assessoria - SHDIAS",
+                "ano": 2022,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Com relação aos encontros vocálicos, assinale a alternativa em que a série de palavras apresenta, respectivamente, um ditongo, um tritongo e um hiato.",
                 "opcoes": [
                       "Dia, iguais, noite",
@@ -2449,6 +2662,25 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contenha uma palavra com tritongo nasal:",
+                "opcoes": [
+                      "Enxáguam.",
+                      "Paraguai.",
+                      "Uruguai.",
+                      "Iguais,"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Paraguai.</strong>. Fonte: SHDIAS Consultoria e Assessoria - SHDIAS/2022. Assunto: tritongos.",
+                "banca": "SHDIAS Consultoria e Assessoria - SHDIAS",
+                "ano": 2022,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
                 ]
           },
           {
@@ -2476,27 +2708,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Qual tipo de encontro vocálico é encontrado na palavra abaixo? - Zoológico.",
-                "opcoes": [
-                      "Ditongo crescente.",
-                      "Tritongo.",
-                      "Ditongo decrescente.",
-                      "Hiato."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Ditongo crescente.</strong>. Fonte: SHDIAS Consultoria e Assessoria - SHDIAS/2022. Assunto: tritongos.",
-                "banca": "SHDIAS Consultoria e Assessoria - SHDIAS",
-                "ano": 2022,
-                "assunto": "tritongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tritongos",
-                      "ditongos",
-                      "hiatos"
-                ]
-          },
-          {
                 "enunciado": "Assinale a alternativa onde temos sequencialmente ditongo, hiato e tritongo.",
                 "opcoes": [
                       "Saída / água / atuei.",
@@ -2515,6 +2726,44 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A alternativa cuja palavra apresenta o encontro vocálico Tritongo é apresentada em:",
+                "opcoes": [
+                      "Atuou",
+                      "Companhia",
+                      "Bilhões",
+                      "Iguais"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Atuou</strong>. Fonte: Consel Concursos - Consel/2019. Assunto: tritongos.",
+                "banca": "Consel Concursos - Consel",
+                "ano": 2019,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente um tritongo nasal:",
+                "opcoes": [
+                      "Queijo.",
+                      "Enxaguou.",
+                      "Saguão.",
+                      "Nenhuma das alternativas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Enxaguou.</strong>. Fonte: Excelência Seleções e Concursos Públicos - Excelencia/2018. Assunto: tritongos.",
+                "banca": "Excelência Seleções e Concursos Públicos - Excelencia",
+                "ano": 2018,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
                 ]
           },
           {
@@ -3173,27 +3422,6 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "ditongos",
                       "digrafos"
-                ]
-          },
-          {
-                "enunciado": "No tocante a encontros vocálicos, as palavras do texto (dias, aí, duas) são respectivamente:",
-                "opcoes": [
-                      "Hiato, hiato, hiato.",
-                      "Ditongo, ditongo, ditongo.",
-                      "Ditongo, ditongo, hiato.",
-                      "Hiato, hiato, tritongo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
-                "banca": "MS Concursos",
-                "ano": 2024,
-                "assunto": "Hiatos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "hiatos",
-                      "ditongos",
-                      "tritongos"
                 ]
           },
           {
@@ -4460,25 +4688,6 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Encontros Consonantais",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "encontrosConsonantais"
-                ]
-          },
-          {
-                "enunciado": "Encontro consonantal é a sequência de duas ou mais consoantes na mesma palavra, mantendo-se cada som distinto na pronúncia, como em \"próximo\" e \"clínica\". Com base nisso, assinale a única alternativa em que NÃO há uma palavra com encontro consonantal:",
-                "opcoes": [
-                      "Transplante.",
-                      "Fibromialgia.",
-                      "Imunológico.",
-                      "Psicoterapia."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Imunológico.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: encontrosConsonantais.",
-                "banca": "Fênix Instituto Ltda",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -6445,26 +6654,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo, assim como a palavra \"escolha\".",
-                "opcoes": [
-                      "Livro.",
-                      "Família.",
-                      "Leitura.",
-                      "Medalha.",
-                      "Mobília."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Medalha.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Assinale a alternativa na qual as duas palavras apresentem dígrafos:",
                 "opcoes": [
                       "Estado – Clínico.",
@@ -8230,6 +8419,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta todas as palavras oxítonas escritas com ditongo nasal.",
+                "opcoes": [
+                      "Tão; realizações; não.",
+                      "Paixão; quão; gratidão.",
+                      "Coração; tão; posição.",
+                      "Quão; tão; vibrações;",
+                      "Então; atenção; comparação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tão; realizações; não.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "ditongos"
                 ]
           },
           {
