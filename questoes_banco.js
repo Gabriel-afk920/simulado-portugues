@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 22/06/2026, 23:42:55 — 1117 questões incluídas
+// 23/06/2026, 04:15:38 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -11766,8 +11766,8 @@ var QUESTOES_BANCO = {
                       "desculpe, outro, perdoar.",
                       "bonita, Deus, com."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>você, faça, favor.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>desculpe, outro, perdoar.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
@@ -11824,8 +11824,8 @@ var QUESTOES_BANCO = {
                       "menor",
                       "série"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>nível</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2026. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pobreza</strong>. Fonte: Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli/2026. Assunto: encontrosConsonantais.",
                 "banca": "Ganzaroli Assessoria, Consultoria e Concursos - Ganzaroli",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
@@ -11943,8 +11943,8 @@ var QUESTOES_BANCO = {
                       "Direção.",
                       "Velocidade."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Férias.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Manobras.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
@@ -12108,8 +12108,8 @@ var QUESTOES_BANCO = {
                       "Clima.",
                       "Aumento."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Inundação.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Clima.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -12232,8 +12232,8 @@ var QUESTOES_BANCO = {
                       "Automóvel.",
                       "Medidas."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Automóvel.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Litros.</strong>. Fonte: Prefeitura de Catas Altas/2025. Assunto: encontrosConsonantais.",
                 "banca": "Prefeitura de Catas Altas",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -12659,8 +12659,8 @@ var QUESTOES_BANCO = {
                       "pessoas.",
                       "travestidas."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>área.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: encontrosConsonantais.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>travestidas.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -13306,8 +13306,8 @@ var QUESTOES_BANCO = {
                       "Valor.",
                       "Água."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Fácil.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pressão.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -13365,8 +13365,8 @@ var QUESTOES_BANCO = {
                       "Número.",
                       "Feriado."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Pacífica.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Flores.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -13701,8 +13701,8 @@ var QUESTOES_BANCO = {
                       "Dose.",
                       "Remédio."
                 ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Remédio.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Problemas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -14909,8 +14909,8 @@ var QUESTOES_BANCO = {
                       "Brasil.",
                       "saúde."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>saúde.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2023. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brasil.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -14987,8 +14987,8 @@ var QUESTOES_BANCO = {
                       "Óculos.",
                       "Valores."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Café.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Livre.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15231,8 +15231,8 @@ var QUESTOES_BANCO = {
                       "Hábitos.",
                       "Coração."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Saúde.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Infarto.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15294,8 +15294,8 @@ var QUESTOES_BANCO = {
                       "Estranho.",
                       "Respeite."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Obrigações.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Opinião.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15353,8 +15353,8 @@ var QUESTOES_BANCO = {
                       "Saúde.",
                       "Saudável."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Saúde.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cidreira.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15540,8 +15540,8 @@ var QUESTOES_BANCO = {
                       "Ajudam.",
                       "Básicas."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Saudável.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Compreender.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
