@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 17:04:17 — 431 questões incluídas
+// 23/06/2026, 17:18:54 — 432 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -4323,6 +4323,25 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Milênios.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra não apresenta encontro consonantal?",
+                "opcoes": [
+                      "Flor",
+                      "Descente",
+                      "Curto",
+                      "Magnitude"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Curto</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: encontrosConsonantais.",
+                "banca": "Evolução Consultoria - Instituto Evo",
+                "ano": 2025,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
