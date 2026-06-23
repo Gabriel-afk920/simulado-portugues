@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 16:49:32 — 425 questões incluídas
+// 23/06/2026, 17:04:17 — 431 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -225,6 +225,31 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "“O silêncio envolvia Augusto enquanto ele observava a movimentação suave dos funcionários da estação.” Considerando que, na língua portuguesa, nem sempre há correspondência direta entre letras e fonemas, especialmente em palavras que apresentam dígrafos, encontros consonantais ou encontros vocálicos, assinale a alternativa cuja palavra apresenta igualdade entre o número de letras e o número de fonemas, sem ocorrência de dígrafo ou ditongo.",
+                "opcoes": [
+                      "silêncio",
+                      "suave",
+                      "dos",
+                      "estação"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dos</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: ditongos.",
+                "banca": "Prefeitura de Barra do Bugres - MT",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
+                ]
+          },
+          {
                 "enunciado": "De acordo com os tipos de ditongos, relacionar as colunas e assinalar a sequência correspondente. (1) Ditongo crescente. (2) Ditongo decrescente. ( ) Aguento. ( ) Herói. ( ) Quase. ( ) Leite.",
                 "opcoes": [
                       "1 - 1 - 2 - 2.",
@@ -243,7 +268,8 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos"
+                      "hiatos",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -265,7 +291,8 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos",
+                      "hifen",
+                      "formacaoPalavras",
                       "classesGramaticais"
                 ]
           },
@@ -289,8 +316,7 @@ var QUESTOES_BANCO = {
                       "acentuacaoGrafica",
                       "tonicidade",
                       "hifen",
-                      "formacaoPalavras",
-                      "classesGramaticais"
+                      "formacaoPalavras"
                 ]
           },
           {
@@ -312,9 +338,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras"
+                      "tonicidade"
                 ]
           },
           {
@@ -355,9 +379,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "ditongos"
                 ]
           },
           {
@@ -5194,6 +5216,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "“Nasci na Itália e vim pequena para o Brasil. Meu pai era lavrador e trabalhou duro nas fazendas de café”. De acordo com a Gramática Normativa da Língua Portuguesa, há encontro consonantal também na palavra destacada da alternativa:",
+                "opcoes": [
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil.",
+                      "Nasci na Itália e vim pequena para o Brasil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nasci na Itália e vim pequena para o Brasil.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal imperfeito.",
                 "opcoes": [
                       "Bolha – floresta – disjunto – carroceria.",
@@ -6263,6 +6305,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "“O silêncio envolvia Augusto enquanto ele observava a movimentação suave dos funcionários da estação.” Considerando que, na língua portuguesa, nem sempre há correspondência direta entre letras e fonemas, especialmente em palavras que apresentam dígrafos, encontros consonantais ou encontros vocálicos, assinale a alternativa cuja palavra apresenta igualdade entre o número de letras e o número de fonemas, sem ocorrência de dígrafo ou ditongo.",
+                "opcoes": [
+                      "silêncio",
+                      "suave",
+                      "dos",
+                      "estação"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dos</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: digrafos.",
+                "banca": "Prefeitura de Barra do Bugres - MT",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais",
+                      "fonemas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra que NÃO tem dígrafo (encontro de duas letras que emitem um único som na pronúncia).",
                 "opcoes": [
                       "Aranhas.",
@@ -6431,6 +6495,26 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Sim, ch é dígrafo consonantal.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: digrafos.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual NÃO haja a ocorrência de um dígrafo.",
+                "opcoes": [
+                      "Linda.",
+                      "Cedilha.",
+                      "Ombro.",
+                      "Jejum.",
+                      "Calem."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Linda.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -6971,6 +7055,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Considerando a configuração fonética de vocábulos do texto, qual das alternativas possui uma palavra que NÃO apresenta dígrafo na sua formação?",
+                "opcoes": [
+                      "distância.",
+                      "atravessa.",
+                      "olhando.",
+                      "humano."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>distância.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa cuja palavra apresente dígrafo:",
                 "opcoes": [
                       "Encantada.",
@@ -7463,6 +7566,26 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "digrafos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a ocorrência de dígrafos vocálicos e consonantais na língua portuguesa, qual alternativa apresenta o número de fonemas e dígrafos da palavra envelhecer?",
+                "opcoes": [
+                      "8 fonemas e 2 dígrafos.",
+                      "7 fonemas e 3 dígrafos.",
+                      "9 fonemas e 1 dígrafo.",
+                      "10 fonemas e nenhum dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>8 fonemas e 2 dígrafos.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
                 ]
           },
           {
