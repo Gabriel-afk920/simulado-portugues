@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 16:25:04 — 420 questões incluídas
+// 23/06/2026, 16:49:32 — 425 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -3024,6 +3024,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: hiatos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Analise as afirmativas sobre algumas palavras do texto. I. Na palavra \"estridente\", ocorre um encontro consonantal perfeito e dois imperfeitos. II. A palavra \"nevoeiros\" apresenta hiato e ditongo decrescente. III. A palavra \"açoite\" contém um dígrafo. IV. Na palavra \"doudas\", há tritongo. V. Na palavra \"chicote\", há dígrafo. Está CORRETO o que se afirma em:",
                 "opcoes": [
                       "I, II e V, apenas.",
@@ -4538,6 +4561,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -6589,6 +6635,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que a palavra não apresenta dígrafo.",
+                "opcoes": [
+                      "Excluído",
+                      "Excêntrico",
+                      "Excelente",
+                      "Exceção",
+                      "Descer"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Excluído</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2025. Assunto: digrafos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa na qual as duas palavras possuam dígrafos:",
                 "opcoes": [
                       "Verdade – Frutas.",
@@ -7419,6 +7485,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I, II, III, IV e V.",
+                      "II, IV e V, apenas.",
+                      "I, II e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, III e V, apenas.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2025. Assunto: digrafos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa cuja palavra não apresente dígrafo:",
                 "opcoes": [
                       "Pessoas.",
@@ -7772,6 +7861,25 @@ var QUESTOES_BANCO = {
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>armário.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: digrafos.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que a palavra NÃO é composta por dígrafo consonantal:",
+                "opcoes": [
+                      "Desenvolvimento.",
+                      "Florescência.",
+                      "Desabrochar.",
+                      "Crescimento."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Desenvolvimento.</strong>. Fonte: Objetiva Concursos/2024. Assunto: digrafos.",
+                "banca": "Objetiva Concursos",
                 "ano": 2024,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
