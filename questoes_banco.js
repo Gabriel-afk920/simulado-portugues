@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 04:15:38 — 1117 questões incluídas
+// 23/06/2026, 05:05:00 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -463,8 +463,8 @@ var QUESTOES_BANCO = {
                       "recaía, médico, silêncio, outros.",
                       "psíquico, deletérios, submetia, cérebro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>saúde, antidepressivos, lobotomia, averiguei.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: ditongos.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -485,8 +485,8 @@ var QUESTOES_BANCO = {
                       "dos",
                       "estação"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>silêncio</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: ditongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dos</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: ditongos.",
                 "banca": "Prefeitura de Barra do Bugres - MT",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -1904,8 +1904,8 @@ var QUESTOES_BANCO = {
                       "Ocorreu; deixar.",
                       "Preciosos; mãos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Abraça; aventuras.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ocorreu; deixar.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -2140,8 +2140,8 @@ var QUESTOES_BANCO = {
                       "Um dígrafo nasal e um dígrafo comum.",
                       "Três sílabas, oito letras e oito fonemas."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um hiato.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -3509,8 +3509,8 @@ var QUESTOES_BANCO = {
                       "faísca.",
                       "museu."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>freio.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>faísca.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -3552,8 +3552,8 @@ var QUESTOES_BANCO = {
                       "um encontro consonantal e um hiato",
                       "um encontro consonantal e um dígrafo"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>um hiato e um dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: ditongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: ditongos.",
                 "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -4589,8 +4589,8 @@ var QUESTOES_BANCO = {
                       "recaía, médico, silêncio, outros.",
                       "psíquico, deletérios, submetia, cérebro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: tritongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>saúde, antidepressivos, lobotomia, averiguei.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: tritongos.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "tritongos",
@@ -5834,8 +5834,8 @@ var QUESTOES_BANCO = {
                       "um encontro consonantal e um hiato",
                       "um encontro consonantal e um dígrafo"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>um hiato e um dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: tritongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: tritongos.",
                 "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -7813,8 +7813,8 @@ var QUESTOES_BANCO = {
                       "recaía, médico, silêncio, outros.",
                       "psíquico, deletérios, submetia, cérebro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: hiatos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>saúde, antidepressivos, lobotomia, averiguei.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: hiatos.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "Hiatos",
@@ -9120,8 +9120,8 @@ var QUESTOES_BANCO = {
                       "Um dígrafo nasal e um dígrafo comum.",
                       "Três sílabas, oito letras e oito fonemas."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um hiato.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -10424,8 +10424,8 @@ var QUESTOES_BANCO = {
                       "um encontro consonantal e um hiato",
                       "um encontro consonantal e um dígrafo"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>um hiato e um dígrafo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: hiatos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: hiatos.",
                 "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -11724,8 +11724,8 @@ var QUESTOES_BANCO = {
                       "Fio.",
                       "Livro."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Água.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Livro.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
                 "banca": "Instituto IACP",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
@@ -12334,8 +12334,8 @@ var QUESTOES_BANCO = {
                       "Precioso.",
                       "Divino."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Água.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -12534,8 +12534,8 @@ var QUESTOES_BANCO = {
                       "Pele.",
                       "Motivos."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Água.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brilho.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -13266,8 +13266,8 @@ var QUESTOES_BANCO = {
                       "Machismo.",
                       "Fim."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Santo.</strong>. Fonte: Integri Brasil Assessoria e Consultoria/2024. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Machismo.</strong>. Fonte: Integri Brasil Assessoria e Consultoria/2024. Assunto: encontrosConsonantais.",
                 "banca": "Integri Brasil Assessoria e Consultoria",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -13424,8 +13424,8 @@ var QUESTOES_BANCO = {
                       "Feliz.",
                       "Ativo."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Feliz.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Impacto.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -13931,8 +13931,8 @@ var QUESTOES_BANCO = {
                       "Ressignificar.",
                       "Apanhados."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Chuvisco.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Clareira.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: encontrosConsonantais.",
                 "banca": "Instituto Abaré - Ete",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -14012,8 +14012,8 @@ var QUESTOES_BANCO = {
                       "Coração.",
                       "Esporte."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Velório.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Esporte.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -14096,8 +14096,8 @@ var QUESTOES_BANCO = {
                       "Tarefas.",
                       "Movimento."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Cuidado.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brasileiros.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -14140,8 +14140,8 @@ var QUESTOES_BANCO = {
                       "Poluição.",
                       "Cidades."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Poluição.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Recursos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -14806,8 +14806,8 @@ var QUESTOES_BANCO = {
                       "Homem.",
                       "Familiar."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>País.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Campo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15168,8 +15168,8 @@ var QUESTOES_BANCO = {
                       "Príncipe.",
                       "Crenças"
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Príncipe.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2023. Assunto: encontrosConsonantais.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Marinheiros.</strong>. Fonte: Consultoria Público-Privada - Instituto CONSULPAM/2023. Assunto: encontrosConsonantais.",
                 "banca": "Consultoria Público-Privada - Instituto CONSULPAM",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15620,8 +15620,8 @@ var QUESTOES_BANCO = {
                       "Jornada.",
                       "Hábito."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Item.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Jornada.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15922,8 +15922,8 @@ var QUESTOES_BANCO = {
                       "mesa.",
                       "agora."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tempo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2026. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>filho.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2026. Assunto: digrafos.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16122,8 +16122,8 @@ var QUESTOES_BANCO = {
                       "gradiente.",
                       "desemprego."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>pequeno.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pausa.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
                 "banca": "Fênix Instituto Ltda",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16264,8 +16264,8 @@ var QUESTOES_BANCO = {
                       "Fantasia.",
                       "Banho."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ataques.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Respeitar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16362,8 +16362,8 @@ var QUESTOES_BANCO = {
                       "mercado.",
                       "propagada."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>mudanças.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2026. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>trabalho.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2026. Assunto: digrafos.",
                 "banca": "ÁPICE Concursos Públicos - APICE",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16481,8 +16481,8 @@ var QUESTOES_BANCO = {
                       "recaía, médico, silêncio, outros.",
                       "psíquico, deletérios, submetia, cérebro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>saúde, antidepressivos, lobotomia, averiguei.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16562,8 +16562,8 @@ var QUESTOES_BANCO = {
                       "dos",
                       "estação"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>silêncio</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dos</strong>. Fonte: Prefeitura de Barra do Bugres - MT/2026. Assunto: digrafos.",
                 "banca": "Prefeitura de Barra do Bugres - MT",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -17727,8 +17727,8 @@ var QUESTOES_BANCO = {
                       "Exceção.",
                       "Ambidestro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Discernir.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Ambidestro.</strong>. Fonte: Objetiva Concursos/2025. Assunto: digrafos.",
                 "banca": "Objetiva Concursos",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -18297,8 +18297,8 @@ var QUESTOES_BANCO = {
                       "Irritabilidade.",
                       "Pressão."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Trabalhamos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cultura.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -19117,8 +19117,8 @@ var QUESTOES_BANCO = {
                       "emprescindível, enchente, embarcar.",
                       "excesso, imprescindível, nascer."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>anbiguidade, embarcar, vislumbrar.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: digrafos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>excesso, imprescindível, nascer.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2024. Assunto: digrafos.",
                 "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2024,
                 "assunto": "Dígrafos",
@@ -19335,8 +19335,8 @@ var QUESTOES_BANCO = {
                       "conscientização, equilíbrio e excessiva.",
                       "desinformação, qualificados e tecnologia."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>disseminação, implicações e integridade.</strong>. Fonte: Instituto Águia/2024. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>conscientização, equilíbrio e excessiva.</strong>. Fonte: Instituto Águia/2024. Assunto: digrafos.",
                 "banca": "Instituto Águia",
                 "ano": 2024,
                 "assunto": "Dígrafos",
@@ -19916,8 +19916,8 @@ var QUESTOES_BANCO = {
                       "causal.",
                       "véu."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>funil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>oco.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2025,
                 "assunto": "Tonicidade (Misto)",
@@ -21103,6 +21103,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Quanto à vogal tônica, as palavras são classificadas em oxítonas, paroxítonas e proparoxítonas. Assinalar a alternativa em que há uma palavra oxítona:",
+                "opcoes": [
+                      "Manganês.",
+                      "Explícito.",
+                      "Garagem.",
+                      "Louvável.",
+                      "Látex."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Manganês.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
                 "enunciado": "“Maçã” é uma palavra classificada como oxítona. Com isso, assinalar a alternativa que apresenta ambas as palavras com a mesma classificação:",
                 "opcoes": [
                       "Potássio | Benéfico.",
@@ -21616,8 +21638,8 @@ var QUESTOES_BANCO = {
                       "Geológico, também, minério.",
                       "Minério, geológico, visível."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Minério, métricas, visível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Também, visível, métricas.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tonicidade.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
                 "assunto": "Tonicidade (Misto)",
@@ -21723,6 +21745,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "Curió; canário; e vítima.",
+                      "Otário; pássaros; e sabiá.",
+                      "Fêmea; aborígine; e divórcio.",
+                      "Cinelândia; indústria; e história."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Curió; canário; e vítima.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa cujas palavras, retiradas do texto, são, respectivamente, paroxítona, oxítona e proparoxítona:",
                 "opcoes": [
                       "anunciando, processo, democrática.",
@@ -21763,6 +21807,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
+                "opcoes": [
+                      "comandante, tumulto, disponível.",
+                      "escopeta, alguém, minutos.",
+                      "sorrateiramente, andando, três.",
+                      "janelas, humanos, assombrado.",
+                      "tenente, polícia, viatura."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>sorrateiramente, andando, três.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
                       "paroxitonas",
                       "oxitonas"
                 ]
@@ -21848,30 +21914,6 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>2, 1, 2, 3.</strong>. Fonte: Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT/2024. Assunto: tonicidade.",
                 "banca": "Fundação de Apoio ao Desenvolvimento Científico do Vale do Piquiri - FADCT",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "tonicidade",
-                      "silabas",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
-                ]
-          },
-          {
-                "enunciado": "Considerando a classificação das palavras de acordo com sua sílaba tônica, sabe-se que há três tipos distintos: oxítona, paroxítona e proparoxítona. Diante de tal, o conjunto de palavras em que todas apresentam a mesma classificação tônica que o termo “Mitologia” é:",
-                "opcoes": [
-                      "Heroico – narrativas – publicado – naturalista.",
-                      "Nórdicas – artística – república – estudo.",
-                      "Tratando – ocidental – periódicos –livros.",
-                      "Épocas – bibliográfico – símbolos – blog.",
-                      "Heróis – analíticos – século – recurso."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Nórdicas – artística – república – estudo.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
-                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -22350,8 +22392,8 @@ var QUESTOES_BANCO = {
                       "flácido – incrível – sorrir",
                       "felicidade – gráfico – dançar"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>parlamento – hortelã – hipótese</strong>. Fonte: Instituto Social Univida/2023. Assunto: tonicidade.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ninguém – felicidade – científico</strong>. Fonte: Instituto Social Univida/2023. Assunto: tonicidade.",
                 "banca": "Instituto Social Univida",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
@@ -22523,27 +22565,6 @@ var QUESTOES_BANCO = {
                       "paroxitonas",
                       "oxitonas",
                       "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
-                "opcoes": [
-                      "Curió; canário; e vítima.",
-                      "Otário; pássaros; e sabiá.",
-                      "Fêmea; aborígine; e divórcio.",
-                      "Cinelândia; indústria; e história."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Fêmea; aborígine; e divórcio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
-                "banca": "Instituto Consulplan",
-                "ano": 2025,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
                 ]
           },
           {
@@ -23091,28 +23112,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Quanto à vogal tônica, as palavras são classificadas em oxítonas, paroxítonas e proparoxítonas. Assinalar a alternativa em que há uma palavra oxítona:",
-                "opcoes": [
-                      "Manganês.",
-                      "Explícito.",
-                      "Garagem.",
-                      "Louvável.",
-                      "Látex."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Explícito.</strong>. Fonte: Objetiva Concursos/2023. Assunto: tonicidade.",
-                "banca": "Objetiva Concursos",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
-                ]
-          },
-          {
                 "enunciado": "A palavra “fenômeno”, por ter tonicidade na antepenúltima sílaba, é classificada como:",
                 "opcoes": [
                       "Paroxítona.",
@@ -23207,24 +23206,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
+                "enunciado": "Considerando a classificação das palavras de acordo com sua sílaba tônica, sabe-se que há três tipos distintos: oxítona, paroxítona e proparoxítona. Diante de tal, o conjunto de palavras em que todas apresentam a mesma classificação tônica que o termo “Mitologia” é:",
                 "opcoes": [
-                      "comandante, tumulto, disponível.",
-                      "escopeta, alguém, minutos.",
-                      "sorrateiramente, andando, três.",
-                      "janelas, humanos, assombrado.",
-                      "tenente, polícia, viatura."
+                      "Heroico – narrativas – publicado – naturalista.",
+                      "Nórdicas – artística – república – estudo.",
+                      "Tratando – ocidental – periódicos –livros.",
+                      "Épocas – bibliográfico – símbolos – blog.",
+                      "Heróis – analíticos – século – recurso."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>comandante, tumulto, disponível.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: tonicidade.",
-                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "explicacao": "Gabarito: <strong>Heroico – narrativas – publicado – naturalista.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas",
-                      "oxitonas"
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
