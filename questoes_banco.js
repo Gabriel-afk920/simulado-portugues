@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 22/06/2026, 23:06:28 — 1117 questões incluídas
+// 22/06/2026, 23:42:55 — 1117 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -6326,8 +6326,8 @@ var QUESTOES_BANCO = {
                       "tritongo",
                       "dígrafo"
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>dígrafo</strong>. Fonte: Prefeitura de Bombinhas - SC/2023. Assunto: tritongos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hiato</strong>. Fonte: Prefeitura de Bombinhas - SC/2023. Assunto: tritongos.",
                 "banca": "Prefeitura de Bombinhas - SC",
                 "ano": 2023,
                 "assunto": "tritongos",
@@ -8529,8 +8529,8 @@ var QUESTOES_BANCO = {
                       "Saúde",
                       "Rápido"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Feijão</strong>. Fonte: Integri Brasil Assessoria e Consultoria/2025. Assunto: hiatos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Saúde</strong>. Fonte: Integri Brasil Assessoria e Consultoria/2025. Assunto: hiatos.",
                 "banca": "Integri Brasil Assessoria e Consultoria",
                 "ano": 2025,
                 "assunto": "Hiatos",
@@ -12004,8 +12004,8 @@ var QUESTOES_BANCO = {
                       "Curto",
                       "Magnitude"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Flor</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Curto</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: encontrosConsonantais.",
                 "banca": "Evolução Consultoria - Instituto Evo",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -12430,8 +12430,8 @@ var QUESTOES_BANCO = {
                       "couro, cautela.",
                       "flanela, cognato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>afta, pacto.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>couro, cautela.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
                 "banca": "Instituto IDEAP - IDEAP",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -13911,8 +13911,8 @@ var QUESTOES_BANCO = {
                       "Filtro.",
                       "Balela."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Branca.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Balela.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -15477,8 +15477,8 @@ var QUESTOES_BANCO = {
                       "“perda”.",
                       "“dentes”."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>“adaptados”.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: encontrosConsonantais.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“pior”.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: encontrosConsonantais.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
@@ -15681,8 +15681,8 @@ var QUESTOES_BANCO = {
                       "Errado",
                       "Professora"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Melhor</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: digrafos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Problema</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: digrafos.",
                 "banca": "Projetos para Municípios - PROMUN",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16103,8 +16103,8 @@ var QUESTOES_BANCO = {
                       "Acarreta – Falhas.",
                       "Progressão – Caminhar."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Carinho – Pessoas.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Esclerose – Grato.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2026. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16166,8 +16166,8 @@ var QUESTOES_BANCO = {
                       "proteger.",
                       "conquistar."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>desinteresse.</strong>. Fonte: Gama Consultoria/2026. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>proteger.</strong>. Fonte: Gama Consultoria/2026. Assunto: digrafos.",
                 "banca": "Gama Consultoria",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16204,8 +16204,8 @@ var QUESTOES_BANCO = {
                       "precisa.",
                       "aterrador."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>chão.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>precisa.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
                 "banca": "Fênix Instituto Ltda",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16584,8 +16584,8 @@ var QUESTOES_BANCO = {
                       "Estresse.",
                       "Galhos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Aranhas.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Teias.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -16969,8 +16969,8 @@ var QUESTOES_BANCO = {
                       "Processos.",
                       "Chineses."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Professor.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Março.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -17050,8 +17050,8 @@ var QUESTOES_BANCO = {
                       "Milhão.",
                       "Professora."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Junho.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Atleta.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -17110,8 +17110,8 @@ var QUESTOES_BANCO = {
                       "Escritoras.",
                       "Professoras."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Guerra.</strong>. Fonte: Instituto Consulplan/2025. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Escritoras.</strong>. Fonte: Instituto Consulplan/2025. Assunto: digrafos.",
                 "banca": "Instituto Consulplan",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -17129,8 +17129,8 @@ var QUESTOES_BANCO = {
                       "hegemonia (l.40).",
                       "escoamento (l.29)."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>milhões (l.46).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>hegemonia (l.40).</strong>. Fonte: Legalle Concursos/2025. Assunto: digrafos.",
                 "banca": "Legalle Concursos",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -18077,8 +18077,8 @@ var QUESTOES_BANCO = {
                       "Aterros.",
                       "Bilhões."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Cheio.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Projetos.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -18824,8 +18824,8 @@ var QUESTOES_BANCO = {
                       "Chegou.",
                       "Processos."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Pessoas.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Deflagrou.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -19398,8 +19398,8 @@ var QUESTOES_BANCO = {
                       "Bolha.",
                       "Missão."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Envelhecida.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: digrafos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Problema.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: digrafos.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2024,
                 "assunto": "Dígrafos",
