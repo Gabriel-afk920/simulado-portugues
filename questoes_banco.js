@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 23/06/2026, 20:37:17 — 443 questões incluídas
+// 24/06/2026, 13:52:03 — 528 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -85,6 +85,34 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “caminhões”, o encontro vocálico “ões” é classificado, na Língua Portuguesa, como",
+                "opcoes": [
+                      "ditongo oral crescente, com a semivogal antes da vogal em uma mesma sílaba da palavra.",
+                      "ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.",
+                      "hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.",
+                      "tritongo oral crescente, com semivogal, vogal e semivogal organizadas em uma só sílaba.",
+                      "encontro consonantal inicial, formado pela união de duas consoantes na mesma sílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: ditongos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "hifen",
+                      "formacaoPalavras",
+                      "tritongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Falando-se de encontros vocálicos, as palavras do texto, (rio, caos, dias), são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, tritongo.",
@@ -103,8 +131,6 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
                       "tritongos",
                       "hiatos"
                 ]
@@ -178,6 +204,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa cujas palavras são acentuadas por serem paroxítonas terminadas em ditongo:",
+                "opcoes": [
+                      "país, psicólogo, saúde.",
+                      "décadas, alguém, lógica.",
+                      "trajetória, contínuo, território.",
+                      "vínculo, também, há."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>trajetória, contínuo, território.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: ditongos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "classesGramaticais",
+                      "paroxitonas"
+                ]
+          },
+          {
                 "enunciado": "“Disgramado te alevanta dexa di cê [priguiçoso O home qui num trabaia Num pode cumê gostoso É que trabaiá é muito bom, nué minha véa Mais é um poco arriscoso” (Ai D'eu Sodade – Xangai) Uma das características do trecho da canção acima é a diminuição de elementos em ditongos. Assinale a alternativa em que ambas as palavras se enquadram nesse caso.",
                 "opcoes": [
                       "cumê – trabaiá",
@@ -196,7 +245,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "acentuacaoGrafica",
-                      "tonicidade"
+                      "tonicidade",
+                      "hiatos"
                 ]
           },
           {
@@ -218,9 +268,9 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
+                      "hiatos",
                       "classesGramaticais",
                       "tritongos",
-                      "hiatos",
                       "digrafos"
                 ]
           },
@@ -243,10 +293,39 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos",
+                      "hifen",
+                      "formacaoPalavras",
+                      "classesGramaticais",
                       "digrafos",
                       "encontrosConsonantais",
                       "fonemas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto IACP/2026. Assunto: ditongos.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "hifen",
+                      "formacaoPalavras",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -267,9 +346,30 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "acentuacaoGrafica",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "As palavras \"couro\", \"ruído\" e \"Paraguai\" apresentam, correta e respectivamente, os seguintes encontros vocálicos principais:",
+                "opcoes": [
+                      "Ditongo, Ditongo, Hiato",
+                      "Tritongo, Ditongo, Ditongo",
+                      "Ditongo, Hiato, Tritongo",
+                      "Hiato, Hiato, Tritongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, Hiato, Tritongo</strong>. Fonte: Departamento de Água e Esgoto de Bauru - DAE/2025. Assunto: ditongos.",
+                "banca": "Departamento de Água e Esgoto de Bauru - DAE",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos",
-                      "classesGramaticais"
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -288,12 +388,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
-                      "classesGramaticais"
+                      "ditongos"
                 ]
           },
           {
@@ -312,11 +407,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras"
+                      "ditongos"
                 ]
           },
           {
@@ -336,9 +427,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "ditongos"
                 ]
           },
           {
@@ -357,9 +446,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "ditongos"
                 ]
           },
           {
@@ -412,6 +499,25 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Reinado.</strong>. Fonte: Instituto Consulplan/2025. Assunto: ditongos.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Das palavras a seguir, retiradas do texto, assinale a única cujo encontro vocálico é classificado como ditongo.",
+                "opcoes": [
+                      "Patroa.",
+                      "Mineira.",
+                      "Sociedade.",
+                      "Internacional."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Mineira.</strong>. Fonte: Instituto Consulplan/2025. Assunto: ditongos.",
                 "banca": "Instituto Consulplan",
                 "ano": 2025,
                 "assunto": "Ditongos",
@@ -527,6 +633,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "No fragmento “Lajedo do Pai Mateus”, o termo “Pai”:",
+                "opcoes": [
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um hiato.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um tritongo.",
+                      "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: ditongos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (pouco, deleita, depois) são respectivamente:",
                 "opcoes": [
                       "Ditongo, ditongo, ditongo.",
@@ -630,6 +760,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Há, respectivamente, um hiato e um ditongo decrescente no seguinte par de palavras:",
+                "opcoes": [
+                      "Molusco | inseticida.",
+                      "Passagem | alumiar.",
+                      "Poleiro | juízo.",
+                      "Vassalo | abelhudo.",
+                      "Caraíba | camafeu."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Caraíba | camafeu.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: ditongos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que há um ditongo e um dígrafo, respectivamente:",
                 "opcoes": [
                       "Caixa – chuva",
@@ -713,6 +864,68 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual palavra tem um encontro vocálico?",
+                "opcoes": [
+                      "Brigadeiro.",
+                      "Chocolate.",
+                      "Doce.",
+                      "Pó.",
+                      "Favorito."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Brigadeiro.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com todas as palavras escritas com encontro vocálico.",
+                "opcoes": [
+                      "Alfabeto; lindo; quão.",
+                      "Muitas; dedicação; obter.",
+                      "Letras; declarar; voz.",
+                      "Canção; meu; tesouro.",
+                      "Ações; puro; tão."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Canção; meu; tesouro.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "O vocábulo “antirracista” possui, em sua escrita,",
+                "opcoes": [
+                      "dois dígrafos consonantais.",
+                      "um ditongo crescente e um hiato.",
+                      "um dígrafo vocálico e um consonantal.",
+                      "dois dígrafos vocálicos.",
+                      "dois ditongos decrescentes."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dois ditongos decrescentes.</strong>. Fonte: Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE/2024. Assunto: ditongos.",
+                "banca": "Fundação de Cultura e Apoio ao Ensino Pesquisa e Extensão - FUNCEPE",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (demônio, continuar, aí), são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -756,24 +969,44 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Qual alternativa apresenta, respectivamente, o dígrafo e a classificação do encontro vocálico presentes no vocábulo “exceção”.",
+                "enunciado": "Em “prejudicial” (L.15), há caso de",
                 "opcoes": [
-                      "Dígrafo: çã; Encontro vocálico: hiato.",
-                      "Dígrafo: xc; Encontro vocálico: ditongo.",
-                      "Dígrafo: xc; Encontro vocálico: hiato.",
-                      "Dígrafo: çã; Encontro vocálico: ditongo."
+                      "hiato.",
+                      "ditongo crescente.",
+                      "ditongo decrescente.",
+                      "tritongo."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>Dígrafo: xc; Encontro vocálico: ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "explicacao": "Gabarito: <strong>ditongo crescente.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: ditongos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
                 "ano": 2024,
                 "assunto": "Ditongos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos"
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Há, inclusive, um nome para definir esse senso de obrigação dos filhos em apoiar pais mais velhos: responsabilidade filial. A opção que contém apenas encontros vocálicos é:",
+                "opcoes": [
+                      "mais - responsabilidade",
+                      "dos − nome",
+                      "apoiar − filial",
+                      "há - para",
+                      "pais - obrigação"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>apoiar − filial</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: ditongos.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
                 ]
           },
           {
@@ -945,6 +1178,46 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em “Saúde” (L.8), há um exemplo de",
+                "opcoes": [
+                      "ditongo crescente.",
+                      "tritongo.",
+                      "ditongo decrescente.",
+                      "hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: ditongos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras retiradas do texto possuem encontro vocálico.",
+                "opcoes": [
+                      "Lua e Régia.",
+                      "Vitória e Terra.",
+                      "Flor e estrelas.",
+                      "Terra e índia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Lua e Régia.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: ditongos.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Na palavra “réu” há um exemplo de ditongo, o que também ocorre em:",
                 "opcoes": [
                       "baú.",
@@ -986,6 +1259,48 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "O encontro vocálico encontrado em “pedreira” é um ditongo decrescente. O mesmo tipo de ditongo também se encontra em:",
+                "opcoes": [
+                      "ouriço.",
+                      "rosácea.",
+                      "pátria.",
+                      "equino.",
+                      "névoa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>ouriço.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "O encontro vocálico refere-se ao agrupamento de vogais e semivogais em uma mesma palavra. Esse agrupamento pode acontecer na mesma sílaba ou em sílabas diferentes. Desse modo, selecione a alternativa onde há um encontro vocálico corretamente classificado.",
+                "opcoes": [
+                      "“[...] passava as noites em claro [...]” (linha 2) (hiato).",
+                      "“[...] a esperar a resposta à sua primeira carta [...]” (linhas 2 e 3) (ditongo crescente).",
+                      "“[...] os suores pálidos dos moribundos (linha 7) [...] (ditongo decrescente).",
+                      "“[...] sua ansiedade se complicou [...]” (linha 3) (ditongo decrescente).",
+                      "“[...] tinha o pulso tênue [...]” (linha 7) (ditongo crescente)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“[...] os suores pálidos dos moribundos (linha 7) [...] (ditongo decrescente).</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: ditongos.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "Analise as seguintes assertivas com base em palavras do texto: I. Na palavra \"Abelardo\", ocorre um hiato entre as letras \"a\" e \"o\". II. Em \"escritura\", encontramos um ditongo na combinação das letras \"u\" e \"r\". III. A palavra \"construção\" apresenta um encontro consonantal entre as letras \"s\" e \"t\". Está correto o que se afirma em:",
                 "opcoes": [
                       "I, apenas.",
@@ -1018,6 +1333,48 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>pleito.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: ditongos.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “SAÚDE”, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um ditongo",
+                      "dois ditongos",
+                      "dois hiatos",
+                      "um hiato"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>dois hiatos</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: ditongos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "São palavras em que ocorrem encontros vocálicos:",
+                "opcoes": [
+                      "Canto – Morto.",
+                      "Motoqueiro – Sua.",
+                      "Passava – Com.",
+                      "Moto – Por.",
+                      "Uma – Passarinho."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Motoqueiro – Sua.</strong>. Fonte: ADVISE/2024. Assunto: ditongos.",
+                "banca": "ADVISE",
                 "ano": 2024,
                 "assunto": "Ditongos",
                 "tipo": "multipla_escolha",
@@ -1089,17 +1446,16 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "A palavra “peixe” contém um encontro vocálico do tipo ditongo. Assinale a alternativa em que a palavra também tem um ditongo.",
+                "enunciado": "Assinale a alternativa em que todas as palavras possuem um encontro vocálico.",
                 "opcoes": [
-                      "Caixote.",
-                      "Saída.",
-                      "Paraguai.",
-                      "Ruído.",
-                      "Felino."
+                      "Céu e lua.",
+                      "Medo e giz.",
+                      "Tronco e sol.",
+                      "Massa e queijo."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>Caixote.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "explicacao": "Gabarito: <strong>Céu e lua.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: ditongos.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
                 "ano": 2024,
                 "assunto": "Ditongos",
                 "tipo": "multipla_escolha",
@@ -1189,6 +1545,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "O vocábulo “primeiro” possui um encontro vocálico denominado ____________, e é composto por _____ fonemas. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "hiato; 8 fonemas.",
+                      "tritongo; 9 fonemas.",
+                      "ditongo; 9 fonemas.",
+                      "ditongo; 8 fonemas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ditongo; 9 fonemas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "fonemas"
                 ]
           },
           {
@@ -1362,6 +1740,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Analise foneticamente a palavra “desconhecidos”. Ela apresenta:",
+                "opcoes": [
+                      "Apenas dígrafo.",
+                      "Apenas encontro consonantal.",
+                      "Dígrafo e ditongo aberto.",
+                      "Dígrafo e encontro consonantal.",
+                      "Nem dígrafo, nem encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que há um ditongo decrescente.",
                 "opcoes": [
                       "Precaução.",
@@ -1378,6 +1778,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “tanque” (L.29), há",
+                "opcoes": [
+                      "um dígrafo.",
+                      "dois dígrafos.",
+                      "um ditongo.",
+                      "um hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um ditongo.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: ditongos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -1441,6 +1862,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com encontro vocálico e consonantal.",
+                "opcoes": [
+                      "Brasil.",
+                      "Obrigatoriedade.",
+                      "Publicado.",
+                      "Feito.",
+                      "Local."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Obrigatoriedade.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1589,6 +2031,48 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Mas essa necessidade de ensaio pode ser outra causa do esquecimento diário. Assinale a opção que contenha apenas encontro vocálico:",
+                "opcoes": [
+                      "outra.",
+                      "causa.",
+                      "essa.",
+                      "esquecimento.",
+                      "necessidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>outra.</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: ditongos.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “faísca”, há a presença de um:",
+                "opcoes": [
+                      "Monossílaba;",
+                      "Tritongo;",
+                      "Ditongo;",
+                      "Hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Prefeitura de Bombinhas - SC/2024. Assunto: ditongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (aurora, cabeleira, açoitar) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -1648,6 +2132,28 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "tritongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pássaro” apresenta:",
+                "opcoes": [
+                      "tritongo.",
+                      "hiato.",
+                      "dígrafo.",
+                      "ditongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dígrafo.</strong>. Fonte: Fenaz do Pará/2024. Assunto: ditongos.",
+                "banca": "Fenaz do Pará",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -1796,6 +2302,31 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “caminhões”, o encontro vocálico “ões” é classificado, na Língua Portuguesa, como",
+                "opcoes": [
+                      "ditongo oral crescente, com a semivogal antes da vogal em uma mesma sílaba da palavra.",
+                      "ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.",
+                      "hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.",
+                      "tritongo oral crescente, com semivogal, vogal e semivogal organizadas em uma só sílaba.",
+                      "encontro consonantal inicial, formado pela união de duas consoantes na mesma sílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: tritongos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (surpreendente, simplória, vocabulário), são respectivamente:",
                 "opcoes": [
                       "Ditongo, hiato, hiato.",
@@ -1882,6 +2413,50 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto IACP/2026. Assunto: tritongos.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "As palavras \"couro\", \"ruído\" e \"Paraguai\" apresentam, correta e respectivamente, os seguintes encontros vocálicos principais:",
+                "opcoes": [
+                      "Ditongo, Ditongo, Hiato",
+                      "Tritongo, Ditongo, Ditongo",
+                      "Ditongo, Hiato, Tritongo",
+                      "Hiato, Hiato, Tritongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, Hiato, Tritongo</strong>. Fonte: Departamento de Água e Esgoto de Bauru - DAE/2025. Assunto: tritongos.",
+                "banca": "Departamento de Água e Esgoto de Bauru - DAE",
+                "ano": 2025,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (questionador, pessoa, emocional) são respectivamente:",
                 "opcoes": [
                       "Ditongo, ditongo, ditongo.",
@@ -1965,6 +2540,30 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Lajedo do Pai Mateus”, o termo “Pai”:",
+                "opcoes": [
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um hiato.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um tritongo.",
+                      "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tritongos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2077,6 +2676,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em “prejudicial” (L.15), há caso de",
+                "opcoes": [
+                      "hiato.",
+                      "ditongo crescente.",
+                      "ditongo decrescente.",
+                      "tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo crescente.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: tritongos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (não, meu, dois) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -2110,6 +2730,27 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>Hiato, hiato, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
                 "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em “Saúde” (L.8), há um exemplo de",
+                "opcoes": [
+                      "ditongo crescente.",
+                      "tritongo.",
+                      "ditongo decrescente.",
+                      "hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: tritongos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
                 "ano": 2024,
                 "assunto": "tritongos",
                 "tipo": "multipla_escolha",
@@ -2161,6 +2802,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “SAÚDE”, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um ditongo",
+                      "dois ditongos",
+                      "dois hiatos",
+                      "um hiato"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>dois hiatos</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: tritongos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (angústia, saída, sua) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -2201,6 +2864,28 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "O vocábulo “primeiro” possui um encontro vocálico denominado ____________, e é composto por _____ fonemas. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "hiato; 8 fonemas.",
+                      "tritongo; 9 fonemas.",
+                      "ditongo; 9 fonemas.",
+                      "ditongo; 8 fonemas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ditongo; 9 fonemas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tritongos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "fonemas"
                 ]
           },
           {
@@ -2353,6 +3038,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “obtidos”, sublinhada no último parágrafo, é, quanto à fonologia, um exemplo de palavra com:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Tritongo.",
+                      "Encontro consonantal.",
+                      "Hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Encontro consonantal.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tritongos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale, a seguir, a alternativa que apresenta palavras com hiato, ditongo e tritongo, nessa ordem",
                 "opcoes": [
                       "Rio; fluido; averiguou;",
@@ -2438,6 +3145,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “faísca”, há a presença de um:",
+                "opcoes": [
+                      "Monossílaba;",
+                      "Tritongo;",
+                      "Ditongo;",
+                      "Hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Prefeitura de Bombinhas - SC/2024. Assunto: tritongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "Texto: “Em uma viagem ao Paraguai, Maria ficou encantada com a exuberância das Cataratas do Iguaçu. A beleza dos lugares visitados proporcionou a ela recordações inesquecíveis.” Qual palavra no texto apresenta um tritongo?",
                 "opcoes": [
                       "Viagem.",
@@ -2476,6 +3205,28 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pássaro” apresenta:",
+                "opcoes": [
+                      "tritongo.",
+                      "hiato.",
+                      "dígrafo.",
+                      "ditongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dígrafo.</strong>. Fonte: Fenaz do Pará/2024. Assunto: tritongos.",
+                "banca": "Fenaz do Pará",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -2560,6 +3311,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “moeda”, há a presença de um:",
+                "opcoes": [
+                      "hiato",
+                      "ditongo",
+                      "tritongo",
+                      "dígrafo"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hiato</strong>. Fonte: Prefeitura de Bombinhas - SC/2023. Assunto: tritongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2023,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Como se denomina o encontro vocálico presente na palavra \"coitadas\"?",
                 "opcoes": [
                       "Ditongo.",
@@ -2624,6 +3397,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em qual das alternativas abaixo não encontramos ocorrência de encontro vocálico?",
+                "opcoes": [
+                      "Aplicou – Goleiro.",
+                      "Coisa – Marcou.",
+                      "Diante – Crianças.",
+                      "Maior – Preocupa.",
+                      "Disso – Impassível."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Aplicou – Goleiro.</strong>. Fonte: ADVISE/2022. Assunto: tritongos.",
+                "banca": "ADVISE",
+                "ano": 2022,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Qual alternativa abaixo apresenta um tritongo?",
                 "opcoes": [
                       "Papai.",
@@ -2662,6 +3455,30 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “brasileira” (l. 24) é correto afirmar que apresenta:",
+                "opcoes": [
+                      "Hiato.",
+                      "Tritongo.",
+                      "9 fonemas.",
+                      "Encontro consonantal.",
+                      "Dígrafo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Encontro consonantal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2022. Assunto: tritongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2022,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
                 ]
           },
           {
@@ -2902,6 +3719,33 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “caminhões”, o encontro vocálico “ões” é classificado, na Língua Portuguesa, como",
+                "opcoes": [
+                      "ditongo oral crescente, com a semivogal antes da vogal em uma mesma sílaba da palavra.",
+                      "ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.",
+                      "hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.",
+                      "tritongo oral crescente, com semivogal, vogal e semivogal organizadas em uma só sílaba.",
+                      "encontro consonantal inicial, formado pela união de duas consoantes na mesma sílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: hiatos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "classesGramaticais",
+                      "ditongos",
+                      "tritongos",
+                      "silabas",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Falando-se de encontros vocálicos, as palavras do texto, (rio, caos, dias), são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, tritongo.",
@@ -2918,9 +3762,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "classesGramaticais",
                       "ditongos",
                       "tritongos"
                 ]
@@ -2991,23 +3832,47 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "No fragmento “Modestamente, também nunca escrevi um tuíte na vida” (primeiro período do segundo parágrafo do texto 12A3-II), o vocábulo “tuíte” apresenta um hiato. Um trecho do texto que contém vocábulo no qual também se verifica a ocorrência de hiato é",
+                "enunciado": "Assinale a alternativa em que o encontro vocálico destacado é CORRETAMENTE classificado como hiato.",
                 "opcoes": [
-                      "“deduzo que ninguém tem saído perdendo”.",
-                      "“O máximo que faço é whatsappar”.",
-                      "“o escritor peruano nunca tuitou na vida”.",
-                      "“Sei que parece esdrúxulo viver no século 21 (...)”.",
-                      "“mas, como isso não lhes altera a cotação do dólar (...)”."
+                      "A palavra \"feira\" apresenta hiato entre e e i.",
+                      "A palavra \"Paraguai\" apresenta hiato entre as letras u, a, i.",
+                      "Em \"saída\", ocorre hiato, pois as vogais a e í pertencem a sílabas diferentes.",
+                      "Em \"pai\", há hiato entre as vogais a e i.",
+                      "A palavra \"quase\" apresenta hiato entre u e a."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>“deduzo que ninguém tem saído perdendo”.</strong>. Fonte: Centro de Seleção e de Promoção de Eventos UnB - CESPE CEBRASPE/2026. Assunto: hiatos.",
-                "banca": "Centro de Seleção e de Promoção de Eventos UnB - CESPE CEBRASPE",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Em \"saída\", ocorre hiato, pois as vogais a e í pertencem a sílabas diferentes.</strong>. Fonte: FAFIPA Fundação de Apoio - FAFIPA/2026. Assunto: hiatos.",
+                "banca": "FAFIPA Fundação de Apoio - FAFIPA",
                 "ano": 2026,
                 "assunto": "Hiatos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos"
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto IACP/2026. Assunto: hiatos.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -3027,6 +3892,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "As palavras \"couro\", \"ruído\" e \"Paraguai\" apresentam, correta e respectivamente, os seguintes encontros vocálicos principais:",
+                "opcoes": [
+                      "Ditongo, Ditongo, Hiato",
+                      "Tritongo, Ditongo, Ditongo",
+                      "Ditongo, Hiato, Tritongo",
+                      "Hiato, Hiato, Tritongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, Hiato, Tritongo</strong>. Fonte: Departamento de Água e Esgoto de Bauru - DAE/2025. Assunto: hiatos.",
+                "banca": "Departamento de Água e Esgoto de Bauru - DAE",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -3174,6 +4060,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "No fragmento “Lajedo do Pai Mateus”, o termo “Pai”:",
+                "opcoes": [
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um hiato.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um tritongo.",
+                      "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: hiatos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Leia a frase abaixo e responda à pergunta. Ele foi à aula de português para entender a diferença entre \"saída\" e \"saia\". Considerando a frase acima, analise as afirmações a seguir: I. Há um hiato na palavra \"saída\". II. O uso da crase em \"à aula\" está correto. III. Na frase, a palavra \"saia\" possui um hiato. Quais afirmativas estão CORRETAS?",
                 "opcoes": [
                       "I e II.",
@@ -3295,6 +4205,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Há, respectivamente, um hiato e um ditongo decrescente no seguinte par de palavras:",
+                "opcoes": [
+                      "Molusco | inseticida.",
+                      "Passagem | alumiar.",
+                      "Poleiro | juízo.",
+                      "Vassalo | abelhudo.",
+                      "Caraíba | camafeu."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Caraíba | camafeu.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2025. Assunto: hiatos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Sobre os aspectos fonológicos presentes nas palavras do texto, considere as assertivas a seguir. I. Na palavra \"verdadeiro\", ocorre um encontro consonantal imperfeito e um ditongo decrescente. II. A palavra \"outrem\" apresenta um hiato. III. A palavra \"possível\" contém um dígrafo. IV. Na palavra \"alma\", há um encontro consonantal perfeito. V. Na palavra \"sonhar\", há dígrafo. Está CORRETO o que se afirma em:",
                 "opcoes": [
                       "I, II, III, IV e V.",
@@ -3385,6 +4316,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em “prejudicial” (L.15), há caso de",
+                "opcoes": [
+                      "hiato.",
+                      "ditongo crescente.",
+                      "ditongo decrescente.",
+                      "tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo crescente.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: hiatos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que a palavra destacada contém um hiato.",
                 "opcoes": [
                       "O coelho saltou ágil entre as árvores, desaparecendo na floresta densa.",
@@ -3401,27 +4353,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
-                ]
-          },
-          {
-                "enunciado": "Qual alternativa apresenta, respectivamente, o dígrafo e a classificação do encontro vocálico presentes no vocábulo “exceção”.",
-                "opcoes": [
-                      "Dígrafo: çã; Encontro vocálico: hiato.",
-                      "Dígrafo: xc; Encontro vocálico: ditongo.",
-                      "Dígrafo: xc; Encontro vocálico: hiato.",
-                      "Dígrafo: çã; Encontro vocálico: ditongo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Dígrafo: xc; Encontro vocálico: ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
-                "ano": 2024,
-                "assunto": "Hiatos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "hiatos",
-                      "ditongos",
-                      "digrafos"
                 ]
           },
           {
@@ -3532,6 +4463,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em “Saúde” (L.8), há um exemplo de",
+                "opcoes": [
+                      "ditongo crescente.",
+                      "tritongo.",
+                      "ditongo decrescente.",
+                      "hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: hiatos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Com base no encontro vocálico das palavras, assinale a alternativa em que todas possuem hiato.",
                 "opcoes": [
                       "Saúde – coelho – moeda.",
@@ -3572,6 +4524,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "O encontro vocálico refere-se ao agrupamento de vogais e semivogais em uma mesma palavra. Esse agrupamento pode acontecer na mesma sílaba ou em sílabas diferentes. Desse modo, selecione a alternativa onde há um encontro vocálico corretamente classificado.",
+                "opcoes": [
+                      "“[...] passava as noites em claro [...]” (linha 2) (hiato).",
+                      "“[...] a esperar a resposta à sua primeira carta [...]” (linhas 2 e 3) (ditongo crescente).",
+                      "“[...] os suores pálidos dos moribundos (linha 7) [...] (ditongo decrescente).",
+                      "“[...] sua ansiedade se complicou [...]” (linha 3) (ditongo decrescente).",
+                      "“[...] tinha o pulso tênue [...]” (linha 7) (ditongo crescente)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“[...] os suores pálidos dos moribundos (linha 7) [...] (ditongo decrescente).</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2024. Assunto: hiatos.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "Analise as seguintes assertivas com base em palavras do texto: I. Na palavra \"Abelardo\", ocorre um hiato entre as letras \"a\" e \"o\". II. Em \"escritura\", encontramos um ditongo na combinação das letras \"u\" e \"r\". III. A palavra \"construção\" apresenta um encontro consonantal entre as letras \"s\" e \"t\". Está correto o que se afirma em:",
                 "opcoes": [
                       "I, apenas.",
@@ -3590,6 +4564,28 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "ditongos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “SAÚDE”, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um ditongo",
+                      "dois ditongos",
+                      "dois hiatos",
+                      "um hiato"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>dois hiatos</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: hiatos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -3777,6 +4773,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "O vocábulo “primeiro” possui um encontro vocálico denominado ____________, e é composto por _____ fonemas. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "hiato; 8 fonemas.",
+                      "tritongo; 9 fonemas.",
+                      "ditongo; 9 fonemas.",
+                      "ditongo; 8 fonemas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ditongo; 9 fonemas.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "fonemas"
+                ]
+          },
+          {
                 "enunciado": "Encontros vocálicos são encontros de vogais ou semivogais, sem consoantes intermediárias. Eles acontecem na mesma ou em outra sílaba. Na palavra \"tropeiros\", qual tipo de encontro vocálico está presente?",
                 "opcoes": [
                       "Ditongo.",
@@ -3906,6 +4924,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “tanque” (L.29), há",
+                "opcoes": [
+                      "um dígrafo.",
+                      "dois dígrafos.",
+                      "um ditongo.",
+                      "um hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um ditongo.</strong>. Fonte: Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano/2024. Assunto: hiatos.",
+                "banca": "Instituto Access - Instituto de Acesso à Educação, Capacitação Profissional e Desenvolvimento Humano",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (dia, especial, boa) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -3946,6 +4985,28 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "ditongos",
                       "tritongos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “obtidos”, sublinhada no último parágrafo, é, quanto à fonologia, um exemplo de palavra com:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Tritongo.",
+                      "Encontro consonantal.",
+                      "Hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Encontro consonantal.</strong>. Fonte: Objetiva Concursos/2024. Assunto: hiatos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4074,6 +5135,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
+                "opcoes": [
+                      "hiato.",
+                      "oxítona.",
+                      "paroxítona.",
+                      "proparoxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: Instituto Verbena/2024. Assunto: hiatos.",
+                "banca": "Instituto Verbena",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (paixão, roubadas, coisas) são respectivamente:",
                 "opcoes": [
                       "Ditongo, ditongo, ditongo.",
@@ -4091,6 +5174,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “faísca”, há a presença de um:",
+                "opcoes": [
+                      "Monossílaba;",
+                      "Tritongo;",
+                      "Ditongo;",
+                      "Hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Prefeitura de Bombinhas - SC/2024. Assunto: hiatos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "silabas"
                 ]
           },
           {
@@ -4156,6 +5261,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “pássaro” apresenta:",
+                "opcoes": [
+                      "tritongo.",
+                      "hiato.",
+                      "dígrafo.",
+                      "ditongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dígrafo.</strong>. Fonte: Fenaz do Pará/2024. Assunto: hiatos.",
+                "banca": "Fenaz do Pará",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "google.com.br Tratando-se de encontros vocálicos, as palavras do texto (Realismo, transparência, saúde) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -4194,6 +5321,29 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “planeta” (linha 01) temos",
+                "opcoes": [
+                      "dígrafo vocálico.",
+                      "dígrafo consonantal.",
+                      "encontro consonantal.",
+                      "hiato.",
+                      "ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>encontro consonantal.</strong>. Fonte: Instituto Nacional de Qualificação e Capacitação - INQC/2023. Assunto: hiatos.",
+                "banca": "Instituto Nacional de Qualificação e Capacitação - INQC",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4298,6 +5448,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “meteorologista”, há ______ sílabas e um encontro vocálico do tipo _____. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "7 sílabas; ditongo.",
+                      "7 sílabas; hiato.",
+                      "6 sílabas; hiato.",
+                      "6 sílabas; ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>7 sílabas; hiato.</strong>. Fonte: Fênix Instituto Ltda/2023. Assunto: hiatos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -4501,6 +5672,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Determine onde não temos encontros consonantais.",
+                "opcoes": [
+                      "Clave.",
+                      "Crise.",
+                      "Franco.",
+                      "País."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>País.</strong>. Fonte: MS Concursos/2026. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Observe as palavras extraídas do texto e marque a alternativa que apresenta encontro consonantal:",
                 "opcoes": [
                       "adotar, peso, alimentos.",
@@ -4511,6 +5701,25 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>proteínas, fibras, entre.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Ocorrem encontros consonantais em todas as palavras da alternativa:",
+                "opcoes": [
+                      "Assistir - nossa - disse",
+                      "Tivessem - ocorrido - arredores",
+                      "Setembro - entrada - declarações",
+                      "Acho - mulheres - pessoas"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Setembro - entrada - declarações</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: encontrosConsonantais.",
+                "banca": "Projetos para Municípios - PROMUN",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -4537,6 +5746,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -4598,6 +5830,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "No trecho \"Antes de se embrenhar nas páginas de Mad Maria\", identifique o tipo de encontro consonantal presente na palavra \"embrenhar\".",
+                "opcoes": [
+                      "Encontro consonantal do tipo \"s\" + \"c\".",
+                      "Encontro consonantal do tipo \"m\" + \"b\".",
+                      "Encontro consonantal do tipo \"b\" + \"r\".",
+                      "Encontro consonantal do tipo \"n\" + \"h\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal do tipo \"s\" + \"c\".</strong>. Fonte: Instituto Unique/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Unique",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Qual das palavras abaixo apresenta um encontro consonantal (duas ou mais consoantes juntas na mesma sílaba)?",
                 "opcoes": [
                       "Aquecimento.",
@@ -4616,6 +5867,47 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "silabas"
+                ]
+          },
+          {
+                "enunciado": "Em “complexos” e em “explícito”, palavras presentes no texto, a letra “x” representa, respectivamente, os fonemas _________. Nos dois vocábulos, observa-se a ocorrência de _________________. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+                "opcoes": [
+                      "/cs/ e /s/ – encontros consonantais perfeitos",
+                      "/ss/ e /s/ – dígrafos consonantais",
+                      "/z/ e /cs/ – dígrafos vocálicos",
+                      "/s/ e /ss/ – encontros vocálicos",
+                      "/s/ e /s/ – encontros consonantais"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>/ss/ e /s/ – dígrafos consonantais</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa na qual todas as palavras são formadas por encontros consonantais:",
+                "opcoes": [
+                      "livros – pessoas.",
+                      "leitura – praticada.",
+                      "anteriores – pesquisa.",
+                      "retratos – entrevistados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>retratos – entrevistados.</strong>. Fonte: Instituto Darwin - Darwin/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4657,6 +5949,46 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Marque a alternativa em que todas as palavras apresentam encontros consonantais:",
+                "opcoes": [
+                      "tudo, forma, como.",
+                      "plantas, contra, pragas.",
+                      "jardins, tipos, seres.",
+                      "causar, então, podem."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>plantas, contra, pragas.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a única alternativa que faz a classificação correta dos fonemas presentes na palavra “psicodélicas”, disponível no texto 3.",
+                "opcoes": [
+                      "A palavra contém 7 consoantes, dois encontros consonantais, 4 vogais e um encontro vocálico.",
+                      "A palavra contém 7 consoantes e 5 vogais, com um encontro consonantal imperfeito.",
+                      "A palavra contém 7 consoantes e 5 vogais, com um encontro consonantal perfeito.",
+                      "A palavra contém 5 consoantes e 5 vogais, com um encontro consonantal perfeito.",
+                      "A palavra contém 5 consoantes, um encontro consonantal imperfeito, 5 vogais e um encontro vocálico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A palavra contém 7 consoantes e 5 vogais, com um encontro consonantal perfeito.</strong>. Fonte: Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Educacional, Cultural e Assistencial Nacional - IDECAN",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "fonemas"
+                ]
+          },
+          {
                 "enunciado": "Qual palavra abaixo contém encontro consonantal?",
                 "opcoes": [
                       "Sapatos.",
@@ -4667,26 +5999,6 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Limpeza.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Encontros Consonantais",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "encontrosConsonantais"
-                ]
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal como em “blusa”.",
-                "opcoes": [
-                      "Água.",
-                      "Palácio.",
-                      "Guaraná.",
-                      "Precioso.",
-                      "Divino."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -4775,6 +6087,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "No fragmento “Lajedo do Pai Mateus”, o termo “Pai”:",
+                "opcoes": [
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um hiato.",
+                      "possui duas sílabas e é um exemplo de encontro vocálico, pois há um tritongo.",
+                      "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
+                      "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: encontrosConsonantais.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "Marque a alternativa que contém todas as palavras com encontro consonantal da charge abaixo: Menino (Pai, você sabe quem mexeu no meu cofrinho?) Pai (Só falo na presença do meu advogado)",
                 "opcoes": [
                       "Corrupção – Cofrinho – Presença – Advogado.",
@@ -4785,6 +6121,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Corrupção – Cofrinho – Presença – Advogado.</strong>. Fonte: Instituto IDEAP - IDEAP/2025. Assunto: encontrosConsonantais.",
                 "banca": "Instituto IDEAP - IDEAP",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Determine a alternativa onde não temos encontros consonantais.",
+                "opcoes": [
+                      "Saída.",
+                      "Prato.",
+                      "Broche.",
+                      "Placa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Saída.</strong>. Fonte: MS Concursos/2025. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -4811,6 +6166,26 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Observe a palavra “flor” e assinale a alternativa correta sobre a presença de encontro consonantal:",
+                "opcoes": [
+                      "A palavra \"flor\" tem um dígrafo consonantal.",
+                      "A palavra \"flor\" tem encontro consonantal fl.",
+                      "A palavra \"flor\" não possui encontro consonantal.",
+                      "A palavra \"flor\" tem encontro vocálico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra \"flor\" tem encontro consonantal fl.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -4861,6 +6236,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “corpo”, as letras sublinhadas representam:",
+                "opcoes": [
+                      "Um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um dígrafo (um único som).",
+                      "Uma vogal e uma consoante.",
+                      "Uma consoante e uma vogal."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um encontro consonantal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que a primeira palavra apresenta encontro consonantal perfeito e a segunda, dígrafo vocálico.",
                 "opcoes": [
                       "guriazinha – aqui",
@@ -4900,6 +6296,66 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quando vamos ao supermercado, codificamos onde estacionamos o carro, mas quando entramos na loja, ocupamo-nos de outras coisas. Assinale a opção que contenha apenas encontro consonantal:",
+                "opcoes": [
+                      "supermercado.",
+                      "coisas.",
+                      "outras.",
+                      "codificamos.",
+                      "estacionamos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>supermercado.</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Uma dura fase marcada por conflitos e dificuldades. É assim que especialistas resumem a forma como o envelhecimento dos pais é encarado diversas vezes. A opção que contém apenas encontros consonantais é:",
+                "opcoes": [
+                      "marcada − forma",
+                      "dificuldades − resumem",
+                      "diversas − especialistas",
+                      "vezes − assim",
+                      "conflitos − fase"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>marcada − forma</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que as palavras apresentam SOMENTE encontros consonantais:",
+                "opcoes": [
+                      "Clarice, compromisso, produzia.",
+                      "Ariadne, salvação, obra.",
+                      "verossímil, construção, tempo.",
+                      "imersão, cósmico, mulheres.",
+                      "inscreve, projeta, narradora."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ariadne, salvação, obra.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -4964,6 +6420,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que ambas as palavras apre-sentam encontros consonantais.",
+                "opcoes": [
+                      "Amigos - Amigo.",
+                      "Outro - Tem.",
+                      "Teu - Possui.",
+                      "Também - Discrição.",
+                      "Não - Abras."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Também - Discrição.</strong>. Fonte: ADVISE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo consonantal.",
                 "opcoes": [
                       "Santo.",
@@ -4981,6 +6457,25 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta na qual todas as palavras são formadas por encontros consonantais.",
+                "opcoes": [
+                      "história – planeta.",
+                      "observadas – Terra.",
+                      "mudanças – climáticas.",
+                      "evolutiva – intrinsecamente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>história – planeta.</strong>. Fonte: Instituto Darwin - Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin - Darwin",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5054,6 +6549,26 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Flores.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Há, inclusive, um nome para definir esse senso de obrigação dos filhos em apoiar pais mais velhos: responsabilidade filial. A opção que contém apenas encontros vocálicos é:",
+                "opcoes": [
+                      "há - para",
+                      "dos − nome",
+                      "mais - responsabilidade",
+                      "pais - obrigação",
+                      "apoiar − filial"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>apoiar − filial</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -5245,6 +6760,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Considere o trecho: “Direito conferido a alguém”. Na palavra “alguém” temos:",
+                "opcoes": [
+                      "dois dígrafos.",
+                      "um encontro consonantal e um dígrafo.",
+                      "dois encontros consonantais.",
+                      "um encontro consonantal e dois dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dois dígrafos.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Marque a alternativa, que contenha uma palavra com encontro consonantal.",
                 "opcoes": [
                       "Bonito.",
@@ -5261,6 +6796,28 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Analise foneticamente a palavra “desconhecidos”. Ela apresenta:",
+                "opcoes": [
+                      "Apenas dígrafo.",
+                      "Apenas encontro consonantal.",
+                      "Dígrafo e ditongo aberto.",
+                      "Dígrafo e encontro consonantal.",
+                      "Nem dígrafo, nem encontro consonantal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -5403,6 +6960,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Sobre a palavra “crônicas”, é correto afirmar que:",
+                "opcoes": [
+                      "É proparoxítona.",
+                      "Apresenta 2 encontros consonantais.",
+                      "É paroxítona.",
+                      "É polissílaba.",
+                      "Apresenta dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>É proparoxítona.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal.",
                 "opcoes": [
                       "Recursos.",
@@ -5413,6 +6994,48 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Recursos.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra “obtidos”, sublinhada no último parágrafo, é, quanto à fonologia, um exemplo de palavra com:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Tritongo.",
+                      "Encontro consonantal.",
+                      "Hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Encontro consonantal.</strong>. Fonte: Objetiva Concursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com encontro vocálico e consonantal.",
+                "opcoes": [
+                      "Brasil.",
+                      "Obrigatoriedade.",
+                      "Publicado.",
+                      "Feito.",
+                      "Local."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Obrigatoriedade.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
@@ -5523,6 +7146,46 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa na qual todas as palavras apresentam encontros consonantais.",
+                "opcoes": [
+                      "gleba, blusa, árvore.",
+                      "trigo, peixe, abacate.",
+                      "glória, ingestão, faca.",
+                      "psicologia, observou, lua.",
+                      "drama, flanela, teclado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>gleba, blusa, árvore.</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro vocálico.",
+                "opcoes": [
+                      "Poeta – charuto – advogado – guerra.",
+                      "Oceano – Criciúma – ouro – quarto.",
+                      "Tosse – cuia – magnífico – distraído.",
+                      "Quitanda – tranquilo – mundo – galho.",
+                      "Limão – laranja – filtro – planeta."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Oceano – Criciúma – ouro – quarto.</strong>. Fonte: Instituto Avalia/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que ocorre um encontro consonantal, ou seja, o encontro de duas consoantes.",
                 "opcoes": [
                       "Dia.",
@@ -5602,6 +7265,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Por outro lado, é inóspito, exceto por um mar cintilante muito distante, tão grande que contém a mesma quantidade de água de todos os oceanos da Terra reunidos. Assinale a opção que contenha apenas encontros consonantais:",
+                "opcoes": [
+                      "inóspito - cintilante",
+                      "Terra - reunidos",
+                      "outro - exceto",
+                      "água - oceanos"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>inóspito - cintilante</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que ocorra um encontro consonantal.",
                 "opcoes": [
                       "Livre.",
@@ -5622,6 +7304,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “sério” possui:",
+                "opcoes": [
+                      "Um dígrafo e um encontro consonantal.",
+                      "Um dígrafo e um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um encontro vocálico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Um encontro vocálico.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que todas as palavras apresentam encontro consonantal.",
                 "opcoes": [
                       "Rainha/ Sete/ estamos.",
@@ -5632,6 +7334,45 @@ var QUESTOES_BANCO = {
                 "correta": 3,
                 "explicacao": "Gabarito: <strong>entende/ salpicando/ perguntou.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Correspondem respectivamente a duas palavras com encontro consonantais:",
+                "opcoes": [
+                      "Favorita – Até.",
+                      "Trailer – Sinal.",
+                      "Estava – Dirigindo.",
+                      "Pela – Jogado.",
+                      "Estrada – Vala."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Estava – Dirigindo.</strong>. Fonte: ADVISE/2023. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Essa espécie tem um desenvolvimento muito rápido - em apenas horas após a fecundação, a maioria dos órgãos dele já funciona. Para ter ideia, um peixe cresce em um dia o equivalente ao que um embrião humano demora um mês. Disponível em:(https://curtlink.com/wLo6rh7. Adaptado.) Assinale a opção que contenha somente palavras com encontros consonantais.",
+                "opcoes": [
+                      "órgãos - essa",
+                      "fecundação - equivalente",
+                      "desenvolvimento - cresce",
+                      "funciona - embrião"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>fecundação - equivalente</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2023,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -5779,6 +7520,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “planeta” (linha 01) temos",
+                "opcoes": [
+                      "dígrafo vocálico.",
+                      "dígrafo consonantal.",
+                      "encontro consonantal.",
+                      "hiato.",
+                      "ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>encontro consonantal.</strong>. Fonte: Instituto Nacional de Qualificação e Capacitação - INQC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Nacional de Qualificação e Capacitação - INQC",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
                 "opcoes": [
                       "Jogador.",
@@ -5875,6 +7639,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra “contribuindo” possui:",
+                "opcoes": [
+                      "Quatro encontros consonantais e nenhum dígrafo.",
+                      "Três encontros consonantais e nenhum dígrafo.",
+                      "Dois encontros consonantais e um dígrafo.",
+                      "Um encontro consonantal e dois dígrafos.",
+                      "Nenhum encontro consonantal e três dígrafos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Quatro encontros consonantais e nenhum dígrafo.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -6275,26 +8060,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo consonantal, como na palavra “carro”.",
-                "opcoes": [
-                      "Peles.",
-                      "Músicos.",
-                      "Maestro.",
-                      "Chiado.",
-                      "Regente."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Chiado.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2026,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Qual palavra do poema apresenta dígrafo consonantal?",
                 "opcoes": [
                       "Colchão.",
@@ -6594,26 +8359,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Qual das palavras abaixo contém um dígrafo, assim como a palavra “bilhões”?",
-                "opcoes": [
-                      "Cédula.",
-                      "Débito.",
-                      "Cheque.",
-                      "Loteria.",
-                      "Sorte."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Cheque.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Qual palavra abaixo apresenta dígrafo?",
                 "opcoes": [
                       "Gestores.",
@@ -6850,26 +8595,6 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo (encontro de duas letras que representam o mesmo som), como as duas letras “s” na palavra “pressão”.",
-                "opcoes": [
-                      "Meses.",
-                      "Rápidas.",
-                      "Gaguejar.",
-                      "Leitura.",
-                      "Talento."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Gaguejar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
-                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
                 "enunciado": "Assinalar a alternativa que apresenta dígrafo consonantal.",
                 "opcoes": [
                       "Caderno.",
@@ -7076,26 +8801,6 @@ var QUESTOES_BANCO = {
                 "correta": 4,
                 "explicacao": "Gabarito: <strong>Leque.</strong>. Fonte: FACET Concursos - FACET/2025. Assunto: digrafos.",
                 "banca": "FACET Concursos - FACET",
-                "ano": 2025,
-                "assunto": "Dígrafos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "digrafos"
-                ]
-          },
-          {
-                "enunciado": "A palavra “chacina”, no primeiro quadrinho da charge, tem um dígrafo que representa uma consoante. Também se verifica este tipo de dígrafo em:",
-                "opcoes": [
-                      "“assistir”.",
-                      "“baile”.",
-                      "“aspargo”.",
-                      "“relação”.",
-                      "“divertido”."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>“assistir”.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: digrafos.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -7904,6 +9609,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra “corpo”, as letras sublinhadas representam:",
+                "opcoes": [
+                      "Um encontro vocálico.",
+                      "Um encontro consonantal.",
+                      "Um dígrafo (um único som).",
+                      "Uma vogal e uma consoante.",
+                      "Uma consoante e uma vogal."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um encontro consonantal.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa cuja palavra possui dígrafo:",
                 "opcoes": [
                       "Leitura.",
@@ -8399,26 +10125,6 @@ var QUESTOES_BANCO = {
                       "oxitonas",
                       "silabas",
                       "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
-                "opcoes": [
-                      "esportivo.",
-                      "holandês.",
-                      "símbolos.",
-                      "paralímpicos.",
-                      "jogos."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>holandês.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
-                "banca": "Instituto Avança São Paulo - Avanca SP",
-                "ano": 2024,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "oxitonas"
                 ]
           },
           {
@@ -9119,6 +10825,122 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe os vocábulos subtraídos do texto. Assinale a alternativa que contenha as seguintes sequências RESPECTIVAMENTE em suas especificações: monossílabo tônico – oxítona – paroxítona e proparoxítona.",
+                "opcoes": [
+                      "vida – café – todos – preencheram.",
+                      "não – como – talvez – decoração.",
+                      "é – café – automóveis – próximo.",
+                      "é – não – talvez – vai.",
+                      "vai – talvez – não – é."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>vida – café – todos – preencheram.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          }
+    ],
+    "paroxitonas": [
+          {
+                "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
+                "opcoes": [
+                      "hiato.",
+                      "oxítona.",
+                      "paroxítona.",
+                      "proparoxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: Instituto Verbena/2024. Assunto: tonicidade.",
+                "banca": "Instituto Verbena",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "hiatos",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra \"encontro\" tem a sílaba tônica na posição:",
+                "opcoes": [
+                      "Penúltima, sendo uma palavra paroxítona.",
+                      "Antepenúltima, sendo uma palavra proparoxítona.",
+                      "Última, sendo uma palavra oxítona.",
+                      "Antepenúltima, sendo uma palavra oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Penúltima, sendo uma palavra paroxítona.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra “armário”, presente no segundo quadrinho do texto III, é uma",
+                "opcoes": [
+                      "paroxítona.",
+                      "oxítona.",
+                      "proparoxítona.",
+                      "dissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona.</strong>. Fonte: FUNDEP Gestão de Concursos - FUNDEP/2023. Assunto: tonicidade.",
+                "banca": "FUNDEP Gestão de Concursos - FUNDEP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "silabas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          }
+    ],
+    "proparoxitonas": [
+          {
+                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Perifrástica.",
+                      "Monossilábica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
+                "banca": "SC Treinamentos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
                       "proparoxitonas",
                       "paroxitonas",
                       "oxitonas"
