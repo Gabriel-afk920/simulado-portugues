@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 25/06/2026, 14:12:10 — 580 questões incluídas
+// 25/06/2026, 14:20:38 — 592 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -11029,6 +11029,66 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Cúpula.",
+                      "Logísticas.",
+                      "Intercâmbio.",
+                      "Paraná.",
+                      "Polícia."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Paraná.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2025. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, é oxítona apenas:",
+                "opcoes": [
+                      "matemático.",
+                      "cadáver.",
+                      "maracujá.",
+                      "impreterível.",
+                      "simpaticíssima."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>maracujá.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ambos os vocábulos são oxítonas:",
+                "opcoes": [
+                      "gratuito – fortuito",
+                      "protótipo – antífona",
+                      "rubrica – bígamo",
+                      "ereter – erudito",
+                      "cateter – ruim"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>cateter – ruim</strong>. Fonte: Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE/2025. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Apoio e Desenvolvimento Executivo - IBADE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta APENAS palavras oxítonas.",
                 "opcoes": [
                       "Espacial, florestais, eficaz.",
@@ -11061,6 +11121,25 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>oco.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Das palavras retiradas do texto, assinale a palavra que é oxítona:",
+                "opcoes": [
+                      "café;",
+                      "econômico;",
+                      "difícil;",
+                      "banco."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>café;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2024. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
+                "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -11175,6 +11254,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual das palavras abaixo é oxítona, assim como a palavra “sofá”?",
+                "opcoes": [
+                      "Insônia.",
+                      "Vício.",
+                      "Hábito.",
+                      "Saudável.",
+                      "Além."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Além.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa com uma palavra oxítona:",
                 "opcoes": [
                       "Tinta",
@@ -11191,6 +11290,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir quanto à tonicidade e assinale a alternativa em que a palavra dada é oxítona.",
+                "opcoes": [
+                      "hostil.",
+                      "aeromoça.",
+                      "espelho.",
+                      "patente.",
+                      "esperança."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hostil.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "tonicidade"
                 ]
           },
           {
@@ -11226,6 +11346,26 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Fubá.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Sétimo.",
+                      "Patrimônio.",
+                      "Último.",
+                      "Canadá.",
+                      "Território."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Canadá.</strong>. Fonte: Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO/2024. Assunto: tonicidade.",
                 "banca": "Fundação de Apoioao Desenvolvimento Unicentro - FAU UNICENTRO",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
@@ -11356,6 +11496,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras oxítonas têm a sílaba tônica na última sílaba. Assinalar a palavra que NÃO é uma oxítona.",
+                "opcoes": [
+                      "Bambolê.",
+                      "Alegre.",
+                      "Ruim.",
+                      "Principal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Bambolê.</strong>. Fonte: Objetiva Concursos/2024. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que contém uma palavra oxítona:",
                 "opcoes": [
                       "Bisturi.",
@@ -11433,6 +11594,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "oxitonas",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona, ou seja, tem a última sílaba tônica?",
+                "opcoes": [
+                      "Perfume.",
+                      "Assombro.",
+                      "Alguém.",
+                      "Caídas.",
+                      "Morte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Alguém.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "silabas",
+                      "tonicidade"
                 ]
           },
           {
@@ -11608,6 +11791,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Brasil.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2023. Assunto: tonicidade.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a palavra que NÃO é oxítona:",
+                "opcoes": [
+                      "amém;",
+                      "nuvem;",
+                      "refém;",
+                      "porém."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>amém;</strong>. Fonte: MB Gestão Pública Ltda. EPP - MAXIMA Auditoria/2023. Assunto: tonicidade.",
+                "banca": "MB Gestão Pública Ltda. EPP - MAXIMA Auditoria",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -11837,6 +12039,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Considere as classificações com foco na acentuação e assinale a alternativa correta. (I) A primeira palavra é oxítona. (II) A segunda palavra é paroxítona. (III) A terceira palavra é proparoxítona. (IV) A quarta palavra é um monossílabo tônico.",
+                "opcoes": [
+                      "(I) nós: (II) variável; (III) contratação; (IV) só.",
+                      "(I) precisará; (II) série; (III) mínimo; (IV) há.",
+                      "(I) nós: (II) variável; (III) você; (IV) só.",
+                      "(I) mas: (II) estratégia; (III) contratação; (IV) irá.",
+                      "(I) você: (II) mínimo; (III) estratégia; (IV) é."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>(I) nós: (II) variável; (III) contratação; (IV) só.</strong>. Fonte: Instituto Brasileiro de Formação e Capacitação - IBFC/2023. Assunto: tonicidade.",
+                "banca": "Instituto Brasileiro de Formação e Capacitação - IBFC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Observe os vocábulos subtraídos do texto. Assinale a alternativa que contenha as seguintes sequências RESPECTIVAMENTE em suas especificações: monossílabo tônico – oxítona – paroxítona e proparoxítona.",
                 "opcoes": [
                       "vida – café – todos – preencheram.",
@@ -12037,6 +12262,25 @@ var QUESTOES_BANCO = {
                       "silabas",
                       "proparoxitonas",
                       "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa que apresenta a única palavra, das retiradas do texto, que NÃO é paroxítona:",
+                "opcoes": [
+                      "Morte.",
+                      "Edifício.",
+                      "Água.",
+                      "Jardim."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Jardim.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2023. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
                 ]
           }
     ],
