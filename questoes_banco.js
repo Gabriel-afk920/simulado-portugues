@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 24/06/2026, 13:52:03 — 528 questões incluídas
+// 25/06/2026, 14:12:10 — 580 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -42,6 +42,28 @@ var QUESTOES_BANCO = {
   questoes: {
     "ditongos": [
           {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (princípio, infância, convívio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tonicidade",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tênue, ódio, sua), são respectivamente:",
                 "opcoes": [
                       "Ditongo, hiato, hiato.",
@@ -58,7 +80,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tonicidade",
                       "tritongos",
                       "hiatos"
                 ]
@@ -80,6 +101,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "hifen",
+                      "formacaoPalavras",
                       "tritongos",
                       "hiatos"
                 ]
@@ -104,8 +129,6 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
                       "tritongos",
                       "hiatos",
                       "silabas",
@@ -183,6 +206,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (livraria, melodia, mistério, alegria), são:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo, hiato.",
+                      "Ditongo, ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato, hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "classesGramaticais",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Analise as palavras extraídas do texto e marque a alternativa que apresenta ocorrência de encontro vocálico, formando ditongo:",
                 "opcoes": [
                       "pintou, eu, sei.",
@@ -200,7 +246,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "acentuacaoGrafica",
-                      "tonicidade"
+                      "tonicidade",
+                      "hiatos"
                 ]
           },
           {
@@ -222,8 +269,35 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
+                      "hiatos",
                       "classesGramaticais",
                       "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (rio, lua, dias), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "hifen",
+                      "formacaoPalavras",
+                      "classesGramaticais",
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -246,6 +320,53 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
+                      "hifen",
+                      "formacaoPalavras"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (alegria, diárias, energia), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Hiato, ditongo, tritongo",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (profissional, cirurgias, continuará), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "tritongos",
                       "hiatos"
                 ]
           },
@@ -266,11 +387,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hiatos",
-                      "classesGramaticais",
                       "tritongos",
+                      "hiatos",
                       "digrafos"
                 ]
           },
@@ -291,11 +409,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
-                      "classesGramaticais",
                       "digrafos",
                       "encontrosConsonantais",
                       "fonemas"
@@ -319,10 +432,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
                       "tritongos",
                       "hiatos",
                       "encontrosConsonantais"
@@ -344,9 +453,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "ditongos"
                 ]
           },
           {
@@ -366,8 +473,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
                       "tritongos",
                       "hiatos"
                 ]
@@ -641,8 +746,8 @@ var QUESTOES_BANCO = {
                       "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
                       "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: ditongos.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
                 "assunto": "Ditongos",
@@ -822,6 +927,26 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "digrafos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (alegria, covardia, início) são, respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2025. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1111,6 +1236,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “Biologia” possui:",
+                "opcoes": [
+                      "Dois encontros consonantais.",
+                      "Dois encontros vocálicos.",
+                      "Um encontro vocálico.",
+                      "Um dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dois encontros vocálicos.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: ditongos.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (todavia, nódoas, espécie) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -1218,6 +1364,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (idiotice, anestesia, miséria) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Na palavra “réu” há um exemplo de ditongo, o que também ocorre em:",
                 "opcoes": [
                       "baú.",
@@ -1247,6 +1414,48 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Ditongo, ditongo, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (silêncio, lua, interior) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (imperioso, dia, glória) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Ditongos",
@@ -1656,6 +1865,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (essencial, filosofia, inocência) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a opção que apresenta uma palavra cuja sílaba tônica contém um ditongo decrescente.",
                 "opcoes": [
                       "Emergência.",
@@ -1762,6 +1991,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (elogio, cortesia, convivência) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo.",
+                      "Tritongo, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que há um ditongo decrescente.",
                 "opcoes": [
                       "Precaução.",
@@ -1820,6 +2071,29 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "tritongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Às vezes dou a minha opinião”, o termo “dou”:",
+                "opcoes": [
+                      "é um exemplo de encontro consonantal, pois há um ditongo, assim como acontece na palavra “baixo”.",
+                      "é um exemplo de encontro vocálico, pois há um hiato, assim como acontece na palavra “saúde”.",
+                      "é um exemplo de encontro vocálico, pois há um tritongo, assim como acontece na palavra “água”.",
+                      "é um exemplo de encontro vocálico, pois há um ditongo, assim como acontece na palavra “lousa”.",
+                      "é um exemplo de encontro consonantal, pois há um hiato, como acontece na palavra “triângulo”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>é um exemplo de encontro vocálico, pois há um hiato, assim como acontece na palavra “saúde”.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: ditongos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -1883,6 +2157,26 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Aponte a alternativa em que o encontro vocálico das palavras ressaltadas está descrito corretamente.",
+                "opcoes": [
+                      "\"Afinal, cada célula em nosso corpo tem uma origem, que veio dos nossos pais \" (hiato)",
+                      "O lendário cientista Leonard Hayflick faleceu no início de agosto. (ditongo crescente)",
+                      "\"A pesquisa foi feita com células individuais [...]\" (ditongo crescente)",
+                      "\"[...] elas entram em uma fase chamada senescência \" (ditongo decrescente)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>\"A pesquisa foi feita com células individuais [...]\" (ditongo crescente)</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: ditongos.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2256,6 +2550,26 @@ var QUESTOES_BANCO = {
                       "digrafos",
                       "ortografia"
                 ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (mistério, pior, domínio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
           }
     ],
     "tritongos": [
@@ -2290,6 +2604,27 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (princípio, infância, convívio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "tritongos",
@@ -2388,6 +2723,90 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "hiatos",
                       "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (livraria, melodia, mistério, alegria), são:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo, hiato.",
+                      "Ditongo, ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato, hiato.",
+                      "Hiato, ditongo, ditongo, ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (rio, lua, dias), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (alegria, diárias, energia), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Hiato, ditongo, tritongo",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (profissional, cirurgias, continuará), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2551,8 +2970,8 @@ var QUESTOES_BANCO = {
                       "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
                       "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tritongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: tritongos.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
                 "assunto": "tritongos",
@@ -2651,6 +3070,27 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "digrafos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (alegria, covardia, início) são, respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2025. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2025,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2778,6 +3218,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (idiotice, anestesia, miséria) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
@@ -2985,6 +3446,28 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (elogio, cortesia, convivência) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo.",
+                      "Tritongo, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: tritongos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "tritongos",
@@ -3671,6 +4154,30 @@ var QUESTOES_BANCO = {
     ],
     "hiatos": [
           {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (princípio, infância, convívio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "acentuacaoGrafica",
+                      "hifen",
+                      "formacaoPalavras",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tênue, ódio, sua), são respectivamente:",
                 "opcoes": [
                       "Ditongo, hiato, hiato.",
@@ -3688,8 +4195,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "acentuacaoGrafica",
-                      "hifen",
-                      "formacaoPalavras",
+                      "ortografia",
+                      "classesGramaticais",
                       "ditongos",
                       "tritongos"
                 ]
@@ -3712,7 +4219,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "acentuacaoGrafica",
-                      "ortografia",
+                      "tonicidade",
                       "classesGramaticais",
                       "ditongos",
                       "tritongos"
@@ -3736,13 +4243,11 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "classesGramaticais",
                       "ditongos",
                       "tritongos",
                       "silabas",
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "tonicidade"
                 ]
           },
           {
@@ -3798,6 +4303,89 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (livraria, melodia, mistério, alegria), são:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo, hiato.",
+                      "Ditongo, ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato, hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (rio, lua, dias), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (alegria, diárias, energia), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Hiato, ditongo, tritongo",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (profissional, cirurgias, continuará), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: hiatos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "Hiatos",
@@ -4068,8 +4656,8 @@ var QUESTOES_BANCO = {
                       "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
                       "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: hiatos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: hiatos.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
                 "assunto": "Hiatos",
@@ -4270,6 +4858,26 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "digrafos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (alegria, covardia, início) são, respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2025. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -4503,6 +5111,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (idiotice, anestesia, miséria) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (própria, aliviar, curioso) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -4512,6 +5141,48 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Ditongo, ditongo, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (silêncio, lua, interior) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (imperioso, dia, glória) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -4881,6 +5552,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (essencial, filosofia, inocência) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Na palavra poeira vê-se três vogais, qual o nome dado a esse tipo de encontro vocálico?",
                 "opcoes": [
                       "Ditongo crescente",
@@ -4912,6 +5603,28 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (elogio, cortesia, convivência) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, tritongo.",
+                      "Tritongo, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
                 "banca": "MS Concursos",
                 "ano": 2024,
                 "assunto": "Hiatos",
@@ -4966,6 +5679,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "No fragmento “Às vezes dou a minha opinião”, o termo “dou”:",
+                "opcoes": [
+                      "é um exemplo de encontro consonantal, pois há um ditongo, assim como acontece na palavra “baixo”.",
+                      "é um exemplo de encontro vocálico, pois há um hiato, assim como acontece na palavra “saúde”.",
+                      "é um exemplo de encontro vocálico, pois há um tritongo, assim como acontece na palavra “água”.",
+                      "é um exemplo de encontro vocálico, pois há um ditongo, assim como acontece na palavra “lousa”.",
+                      "é um exemplo de encontro consonantal, pois há um hiato, como acontece na palavra “triângulo”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>é um exemplo de encontro vocálico, pois há um hiato, assim como acontece na palavra “saúde”.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2024. Assunto: hiatos.",
+                "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (cio, pão, chão) são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, ditongo",
@@ -5007,6 +5743,26 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "digrafos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Aponte a alternativa em que o encontro vocálico das palavras ressaltadas está descrito corretamente.",
+                "opcoes": [
+                      "\"Afinal, cada célula em nosso corpo tem uma origem, que veio dos nossos pais \" (hiato)",
+                      "O lendário cientista Leonard Hayflick faleceu no início de agosto. (ditongo crescente)",
+                      "\"A pesquisa foi feita com células individuais [...]\" (ditongo crescente)",
+                      "\"[...] elas entram em uma fase chamada senescência \" (ditongo decrescente)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>\"A pesquisa foi feita com células individuais [...]\" (ditongo crescente)</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: hiatos.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
                 ]
           },
           {
@@ -5303,6 +6059,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (mistério, pior, domínio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2024. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (cervídeos, fêmea, hemisfério, aparência) são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, hiato, ditongo",
@@ -5509,6 +6285,30 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “grogues” é correto afirmar:",
+                "opcoes": [
+                      "Há dois encontros vocálicos.",
+                      "Possui um ditongo e um hiato.",
+                      "Possui um dígrafo.",
+                      "Possui três sílabas.",
+                      "Possui dois encontros consonantais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há dois encontros vocálicos.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2023. Assunto: hiatos.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -5720,6 +6520,26 @@ var QUESTOES_BANCO = {
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Setembro - entrada - declarações</strong>. Fonte: Projetos para Municípios - PROMUN/2026. Assunto: encontrosConsonantais.",
                 "banca": "Projetos para Municípios - PROMUN",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Aponte a palavra com um encontro consonantal.",
+                "opcoes": [
+                      "Ovo.",
+                      "Casa.",
+                      "Prato.",
+                      "Areia.",
+                      "Dia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Prato.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
                 "ano": 2026,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -6009,6 +6829,45 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal como em “blusa”.",
+                "opcoes": [
+                      "Água.",
+                      "Palácio.",
+                      "Guaraná.",
+                      "Precioso.",
+                      "Divino."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Encontro consonantal é a sequência de duas ou mais consoantes na mesma palavra, mantendo-se cada som distinto na pronúncia, como em \"próximo\" e \"clínica\". Com base nisso, assinale a única alternativa em que NÃO há uma palavra com encontro consonantal:",
+                "opcoes": [
+                      "Transplante.",
+                      "Fibromialgia.",
+                      "Imunológico.",
+                      "Psicoterapia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Imunológico.</strong>. Fonte: Fênix Instituto Ltda/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa onde ocorre respectivamente um encontro consonantal perfeito e um imperfeito:",
                 "opcoes": [
                       "praga e tetra.",
@@ -6095,8 +6954,8 @@ var QUESTOES_BANCO = {
                       "possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.",
                       "possui uma sílaba e é um exemplo de encontro consonantal, pois há um hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro consonantal, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>possui uma sílaba e é um exemplo de encontro vocálico, pois há um ditongo.</strong>. Fonte: Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB/2025. Assunto: encontrosConsonantais.",
                 "banca": "Comissão Permanente de Concursos da Universidade Estadual da Paraíba - CPCON UEPB",
                 "ano": 2025,
                 "assunto": "Encontros Consonantais",
@@ -6390,6 +7249,26 @@ var QUESTOES_BANCO = {
                 "correta": 1,
                 "explicacao": "Gabarito: <strong>Brilhar; trabalhe.</strong>. Fonte: MS Concursos/2024. Assunto: encontrosConsonantais.",
                 "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Biologia” possui:",
+                "opcoes": [
+                      "Dois encontros consonantais.",
+                      "Dois encontros vocálicos.",
+                      "Um encontro vocálico.",
+                      "Um dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Dois encontros vocálicos.</strong>. Fonte: Instituto de Consultoria e Concursos - ITAME/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto de Consultoria e Concursos - ITAME",
                 "ano": 2024,
                 "assunto": "Encontros Consonantais",
                 "tipo": "multipla_escolha",
@@ -7562,6 +8441,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Sobre a palavra “grogues” é correto afirmar:",
+                "opcoes": [
+                      "Há dois encontros vocálicos.",
+                      "Possui um ditongo e um hiato.",
+                      "Possui um dígrafo.",
+                      "Possui três sílabas.",
+                      "Possui dois encontros consonantais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há dois encontros vocálicos.</strong>. Fonte: Instituto Vicente Nelson - IVIN/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Vicente Nelson - IVIN",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas"
+                ]
+          },
+          {
                 "enunciado": "NÃO há encontro consonantal em qual dos vocábulos abaixo?",
                 "opcoes": [
                       "“adaptados”.",
@@ -8060,6 +8963,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo consonantal, como na palavra “carro”.",
+                "opcoes": [
+                      "Peles.",
+                      "Músicos.",
+                      "Maestro.",
+                      "Chiado.",
+                      "Regente."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chiado.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2026. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Qual palavra do poema apresenta dígrafo consonantal?",
                 "opcoes": [
                       "Colchão.",
@@ -8359,6 +9282,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Qual das palavras abaixo contém um dígrafo, assim como a palavra “bilhões”?",
+                "opcoes": [
+                      "Cédula.",
+                      "Débito.",
+                      "Cheque.",
+                      "Loteria.",
+                      "Sorte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Cheque.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Qual palavra abaixo apresenta dígrafo?",
                 "opcoes": [
                       "Gestores.",
@@ -8389,6 +9332,26 @@ var QUESTOES_BANCO = {
                 ],
                 "correta": 4,
                 "explicacao": "Gabarito: <strong>Banheiro.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo, assim como a palavra \"escolha\".",
+                "opcoes": [
+                      "Livro.",
+                      "Família.",
+                      "Leitura.",
+                      "Medalha.",
+                      "Mobília."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Medalha.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
                 "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -9967,6 +10930,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Quanto à tonicidade, é exemplo de oxítona a palavra:",
+                "opcoes": [
+                      "Disciplina.",
+                      "Assistencial.",
+                      "Ambiguidade.",
+                      "Subjetividade."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Assistencial.</strong>. Fonte: Gama Consultoria/2026. Assunto: tonicidade.",
+                "banca": "Gama Consultoria",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta uma palavra classificada como oxítona, ou seja, cuja última sílaba seja a mais forte.",
                 "opcoes": [
                       "Homenagem.",
@@ -10695,6 +11678,29 @@ var QUESTOES_BANCO = {
     ],
     "tonicidade": [
           {
+                "enunciado": "Identifique a alternativa em que a sequência de palavras segue, respectivamente, esta ordem: oxítona, paroxítona, proparoxítona.",
+                "opcoes": [
+                      "nós – ninguém – clássica.",
+                      "há – negligência – passíveis.",
+                      "Ninguém – frequência – clássica.",
+                      "pedagógico – frequência- ninguém.",
+                      "fé – coração – clássica"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>nós – ninguém – clássica.</strong>. Fonte: Prefeitura de Pescaria Brava/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Pescaria Brava",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que contém uma palavra oxítona, uma palavra paroxítona e uma palavra proparoxítona, nessa ordem",
                 "opcoes": [
                       "Minério, métricas, visível.",
@@ -10854,6 +11860,117 @@ var QUESTOES_BANCO = {
                 ]
           }
     ],
+    "proparoxitonas": [
+          {
+                "enunciado": "A classificação das palavras do texto, (perdida, razão, frágil, divina), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Proparoxítona, oxítona, paroxítona, paroxítona.",
+                      "Paroxítona, oxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, paroxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a classificação das palavras quanto ao acento tônico, no texto (única, acaso, até), são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, paroxítona, oxítona.",
+                      "Proparoxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, paroxítona, oxítona.",
+                      "Oxítona, paroxítona, proparoxítona.",
+                      "Proparoxítona, oxítona, oxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A classificação das palavras do texto, (milhares, você, telefonema, coração), quanto ao acento tônico são respectivamente:",
+                "opcoes": [
+                      "Paroxítona, oxítona, paroxítona, oxítona.",
+                      "Paroxítona, oxítona, proparoxítona, paroxítona.",
+                      "Proparoxítona, oxítona, paroxítona, proparoxítona.",
+                      "Oxítona, oxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona, oxítona, paroxítona, oxítona.</strong>. Fonte: MS Concursos/2024. Assunto: tonicidade.",
+                "banca": "MS Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Perifrástica.",
+                      "Monossilábica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
+                "banca": "SC Treinamentos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considere os vocábulos “reminiscentemente” e “jardim” (10º§). Quanto ao número de sílabas e à disposição da sílaba tônica, é correto classificá-las, respectivamente, como",
+                "opcoes": [
+                      "polissílaba e paroxítona; dissílaba e oxítona.",
+                      "trissílaba e proparoxítona; dissílaba e paroxítona.",
+                      "dissílaba e oxítona; monossílaba e proparoxítona.",
+                      "monossílaba e proparoxítona; trissílaba e paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>polissílaba e paroxítona; dissílaba e oxítona.</strong>. Fonte: Instituto Consulplan/2023. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          }
+    ],
     "paroxitonas": [
           {
                 "enunciado": "Na primeira estrofe da canção, o termo “subida” é caracterizado como",
@@ -10919,30 +12036,6 @@ var QUESTOES_BANCO = {
                       "paroxitonas",
                       "silabas",
                       "proparoxitonas",
-                      "oxitonas"
-                ]
-          }
-    ],
-    "proparoxitonas": [
-          {
-                "enunciado": "Em que categoria gramatical se encaixa a palavra \"fécula\"?",
-                "opcoes": [
-                      "Oxítona.",
-                      "Paroxítona.",
-                      "Proparoxítona.",
-                      "Perifrástica.",
-                      "Monossilábica."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: SC Treinamentos/2023. Assunto: tonicidade.",
-                "banca": "SC Treinamentos",
-                "ano": 2023,
-                "assunto": "Tonicidade (Misto)",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ]
           }
