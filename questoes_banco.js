@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 25/06/2026, 14:20:38 — 592 questões incluídas
+// 25/06/2026, 15:18:31 — 608 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -1655,6 +1655,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “peixe” contém um encontro vocálico do tipo ditongo. Assinale a alternativa em que a palavra também tem um ditongo.",
+                "opcoes": [
+                      "Caixote.",
+                      "Saída.",
+                      "Paraguai.",
+                      "Ruído.",
+                      "Felino."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Caixote.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que todas as palavras possuem um encontro vocálico.",
                 "opcoes": [
                       "Céu e lua.",
@@ -2139,6 +2159,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra OPINIÃO, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um hiato e um dígrafo",
+                      "um hiato e um ditongo",
+                      "um encontro consonantal e um hiato",
+                      "um encontro consonantal e um dígrafo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: ditongos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta palavra com encontro vocálico e consonantal.",
                 "opcoes": [
                       "Brasil.",
@@ -2157,6 +2201,26 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra “ideia”, encontrada no texto, deixou de ser acentuada em função do Acordo Ortográfico de 1990. Outro ditongo aberto que teve o acento suprimido é:",
+                "opcoes": [
+                      "Plateia.",
+                      "Heroi.",
+                      "Chapeu.",
+                      "Papeis."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Plateia.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
+                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "ortografia"
                 ]
           },
           {
@@ -3543,6 +3607,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra OPINIÃO, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um hiato e um dígrafo",
+                      "um hiato e um ditongo",
+                      "um encontro consonantal e um hiato",
+                      "um encontro consonantal e um dígrafo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: tritongos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Assinale, a seguir, a alternativa que apresenta palavras com hiato, ditongo e tritongo, nessa ordem",
                 "opcoes": [
                       "Rio; fluido; averiguou;",
@@ -4504,6 +4592,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa incorreta se na palavra contém hiato:",
+                "opcoes": [
+                      "Baú;",
+                      "Coelho;",
+                      "Crianças;",
+                      "Herói;"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Baú;</strong>. Fonte: Evolução Consultoria - Instituto Evo/2025. Assunto: hiatos.",
+                "banca": "Evolução Consultoria - Instituto Evo",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinalar a alternativa que NÃO apresenta hiato.",
                 "opcoes": [
                       "Maçã.",
@@ -5108,6 +5215,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Dados da Organização Mundial da Saúde (OMS) mostram que o brasileiro viverá cada vez mais: a expectativa de vida, que era de 69,8 anos no início dos anos 2000, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), hoje é de 75,5 anos. O vocábulo que possui a divisão silábica correta com presença de hiato é:",
+                "opcoes": [
+                      "Geo-gra-fia",
+                      "Bra-si-le-i-ro",
+                      "Or-ga-ni-za-çã-o",
+                      "Es-ta-tís-ti-ca",
+                      "Sa-ú-de"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Geo-gra-fia</strong>. Fonte: Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP/2024. Assunto: hiatos.",
+                "banca": "Instituto de Avaliação, Seleção e Pesquisa LTDA - IASP",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ortografia"
                 ]
           },
           {
@@ -5740,6 +5868,30 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
+                      "tritongos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Na palavra OPINIÃO, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um hiato e um dígrafo",
+                      "um hiato e um ditongo",
+                      "um encontro consonantal e um hiato",
+                      "um encontro consonantal e um dígrafo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: hiatos.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
                       "tritongos",
                       "digrafos",
                       "encontrosConsonantais"
@@ -7905,6 +8057,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na palavra OPINIÃO, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um hiato e um dígrafo",
+                      "um hiato e um ditongo",
+                      "um encontro consonantal e um hiato",
+                      "um encontro consonantal e um dígrafo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato e um ditongo</strong>. Fonte: SELECON Instituto Nacional de Seleções e Concursos - SELECON/2024. Assunto: encontrosConsonantais.",
+                "banca": "SELECON Instituto Nacional de Seleções e Concursos - SELECON",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresenta palavra com encontro vocálico e consonantal.",
                 "opcoes": [
                       "Brasil.",
@@ -9558,6 +9734,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com dígrafo (encontro de duas letras que representam o mesmo som), como as duas letras “s” na palavra “pressão”.",
+                "opcoes": [
+                      "Meses.",
+                      "Rápidas.",
+                      "Gaguejar.",
+                      "Leitura.",
+                      "Talento."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Gaguejar.</strong>. Fonte: Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "Fundação Universidade Empresa de Tecnologia e Ciências - FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinalar a alternativa que apresenta dígrafo consonantal.",
                 "opcoes": [
                       "Caderno.",
@@ -9764,6 +9960,45 @@ var QUESTOES_BANCO = {
                 "correta": 4,
                 "explicacao": "Gabarito: <strong>Leque.</strong>. Fonte: FACET Concursos - FACET/2025. Assunto: digrafos.",
                 "banca": "FACET Concursos - FACET",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “trabalho” é escrita com o dígrafo LH. Quais palavras são escritas com o mesmo dígrafo?",
+                "opcoes": [
+                      "Chuva - terra",
+                      "Infância - venturoso",
+                      "Orgulhoso - colheita",
+                      "Maduro – semear"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chuva - terra</strong>. Fonte: Instituto de Pesquisas Econômicas - IPEFAE/2025. Assunto: digrafos.",
+                "banca": "Instituto de Pesquisas Econômicas - IPEFAE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “chacina”, no primeiro quadrinho da charge, tem um dígrafo que representa uma consoante. Também se verifica este tipo de dígrafo em:",
+                "opcoes": [
+                      "“assistir”.",
+                      "“baile”.",
+                      "“aspargo”.",
+                      "“relação”.",
+                      "“divertido”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“assistir”.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: digrafos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -9980,6 +10215,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>Qualquer.</strong>. Fonte: Instituto Avalia/2025. Assunto: digrafos.",
                 "banca": "Instituto Avalia",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"E, para conseguirmos ir de uma parte a outra, precisamos de alguns elementos de conexão, como passarelas e faixas de pedestres.\" A palavra 'passarelas' foi grafada corretamente com o dígrafo 'ss'. Analise os vocábulos a seguir e identifique aquele em que o dígrafo foi empregado de forma INCORRETA.",
+                "opcoes": [
+                      "caranguejo.",
+                      "inprevisto.",
+                      "ascensão.",
+                      "Ilhama."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>inprevisto.</strong>. Fonte: Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC/2025. Assunto: digrafos.",
+                "banca": "Associação dos Municípios do Extremo Oeste de Santa Catarina - AMEOSC",
                 "ano": 2025,
                 "assunto": "Dígrafos",
                 "tipo": "multipla_escolha",
@@ -10971,6 +11225,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
+                "opcoes": [
+                      "Anéis.",
+                      "Lápis.",
+                      "Caráter.",
+                      "Ciúme.",
+                      "Heroico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Anéis.</strong>. Fonte: Objetiva Concursos/2025. Assunto: tonicidade.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
                 "opcoes": [
                       "Próxima.",
@@ -11187,6 +11461,26 @@ var QUESTOES_BANCO = {
                       "oxitonas",
                       "silabas",
                       "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
+                "opcoes": [
+                      "esportivo.",
+                      "holandês.",
+                      "símbolos.",
+                      "paralímpicos.",
+                      "jogos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>holandês.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
                 ]
           },
           {
@@ -11467,6 +11761,25 @@ var QUESTOES_BANCO = {
                 "correta": 0,
                 "explicacao": "Gabarito: <strong>armazém; funil; bambu.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: tonicidade.",
                 "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Cametá” é oxítona, assim como",
+                "opcoes": [
+                      "Breves.",
+                      "Bragança.",
+                      "Marituba.",
+                      "Manacapuru."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Manacapuru.</strong>. Fonte: Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP/2024. Assunto: tonicidade.",
+                "banca": "Fundação de Amparo e Desenvolvimento da Pesquisa - FADESP",
                 "ano": 2024,
                 "assunto": "Tonicidade (Misto)",
                 "tipo": "multipla_escolha",
@@ -12086,6 +12399,29 @@ var QUESTOES_BANCO = {
           }
     ],
     "proparoxitonas": [
+          {
+                "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
+                "opcoes": [
+                      "Sabiá.",
+                      "Bíceps.",
+                      "Espetáculo.",
+                      "Brócolis."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Espetáculo.</strong>. Fonte: Instituto de Desenvolvimento Institucional Brasileiro - IDIB/2024. Assunto: tonicidade.",
+                "banca": "Instituto de Desenvolvimento Institucional Brasileiro - IDIB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "silabas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
           {
                 "enunciado": "A classificação das palavras do texto, (perdida, razão, frágil, divina), quanto ao acento tônico são respectivamente:",
                 "opcoes": [
