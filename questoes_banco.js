@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 25/06/2026, 15:18:31 — 608 questões incluídas
+// 25/06/2026, 15:30:57 — 617 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -1301,26 +1301,25 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "A palavra “Deixando” (linha 1 do texto) possui:",
+                "enunciado": "Nos vocábulos \"boi\", \"jeito\" e \"baú\", os encontros vocálicos que ocorrem são classificados, na ordem em que aparecem, como:",
                 "opcoes": [
-                      "Um dígrafo nasal e um hiato.",
-                      "Um dígrafo nasal e um ditongo.",
-                      "Um dígrafo nasal e um dígrafo comum.",
-                      "Três sílabas, oito letras e oito fonemas."
+                      "Hiato, ditongo e hiato.",
+                      "Ditongo, tritongo e ditongo.",
+                      "Ditongo, ditongo e hiato.",
+                      "Tritongo, hiato e tritongo.",
+                      "Hiato, tritongo e hiato."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: ditongos.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo e hiato.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: ditongos.",
+                "banca": "Instituto Abaré - Ete",
                 "ano": 2024,
                 "assunto": "Ditongos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
-                      "silabas",
-                      "fonemas"
+                      "tritongos",
+                      "hiatos"
                 ]
           },
           {
@@ -1905,6 +1904,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras destacadas do texto 1: saída, pesquisa, boas, travesseiro e iguais apresentam, respectivamente:",
+                "opcoes": [
+                      "hiato, ditongo, ditongo, tritongo e ditongo.",
+                      "ditongo, tritongo, hiato, ditongo e tritongo.",
+                      "hiato, hiato, ditongo, ditongo e hiato.",
+                      "ditongo, hiato, ditongo, hiato e tritongo.",
+                      "hiato, ditongo, hiato, ditongo e tritongo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>hiato, ditongo, hiato, ditongo e tritongo.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: ditongos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a opção que apresenta uma palavra cuja sílaba tônica contém um ditongo decrescente.",
                 "opcoes": [
                       "Emergência.",
@@ -2241,6 +2262,26 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras “quatro” e “quero” ocorre respectivamente:",
+                "opcoes": [
+                      "Dígrafo e Dígrafo.",
+                      "Ditongo decrescente e Ditongo crescente.",
+                      "Ditongo crescente e Ditongo decrescente.",
+                      "Ditongo crescente e Dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo decrescente e Ditongo crescente.</strong>. Fonte: Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK/2024. Assunto: ditongos.",
+                "banca": "Instituto Social da Cidadania - Juscelino Kubitschek - Instituto JK",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos"
                 ]
           },
           {
@@ -3245,6 +3286,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Nos vocábulos \"boi\", \"jeito\" e \"baú\", os encontros vocálicos que ocorrem são classificados, na ordem em que aparecem, como:",
+                "opcoes": [
+                      "Hiato, ditongo e hiato.",
+                      "Ditongo, tritongo e ditongo.",
+                      "Ditongo, ditongo e hiato.",
+                      "Tritongo, hiato e tritongo.",
+                      "Hiato, tritongo e hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo e hiato.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: tritongos.",
+                "banca": "Instituto Abaré - Ete",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Em “Saúde” (L.8), há um exemplo de",
                 "opcoes": [
                       "ditongo crescente.",
@@ -3468,6 +3531,28 @@ var QUESTOES_BANCO = {
                 "correta": 2,
                 "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: tritongos.",
                 "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "As palavras destacadas do texto 1: saída, pesquisa, boas, travesseiro e iguais apresentam, respectivamente:",
+                "opcoes": [
+                      "hiato, ditongo, ditongo, tritongo e ditongo.",
+                      "ditongo, tritongo, hiato, ditongo e tritongo.",
+                      "hiato, hiato, ditongo, ditongo e hiato.",
+                      "ditongo, hiato, ditongo, hiato e tritongo.",
+                      "hiato, ditongo, hiato, ditongo e tritongo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>hiato, ditongo, hiato, ditongo e tritongo.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: tritongos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
                 "ano": 2024,
                 "assunto": "tritongos",
                 "tipo": "multipla_escolha",
@@ -4136,6 +4221,29 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras \"Uruguai\" e \"saúde\" apresentam, respectivamente:",
+                "opcoes": [
+                      "1 tritongo e 1 ditongo",
+                      "1 hiato e 1 tritongo",
+                      "1 hiato e 1 dígrafo",
+                      "1 ditongo e 1 hiato",
+                      "1 tritongo e 1 hiato"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>1 tritongo e 1 hiato</strong>. Fonte: Universidade Federal do Acre - UFAC/2018. Assunto: tritongos.",
+                "banca": "Universidade Federal do Acre - UFAC",
+                "ano": 2018,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa que apresente um tritongo nasal:",
                 "opcoes": [
                       "Queijo.",
@@ -4209,6 +4317,28 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Caída, história, quais.</strong>. Fonte: MS Concursos/2017. Assunto: tritongos.",
                 "banca": "MS Concursos",
                 "ano": 2017,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "As palavras “sueco”, “jeito” e “quão” apresentam, respectivamente,",
+                "opcoes": [
+                      "um ditongo, um ditongo e um tritongo.",
+                      "um hiato, um ditongo e um tritongo.",
+                      "um hiato, um hiato e um tritongo.",
+                      "um hiato, um ditongo e um ditongo.",
+                      "um ditongo, um hiato e um ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>um ditongo, um ditongo e um tritongo.</strong>. Fonte: Instituto AOCP/2016. Assunto: tritongos.",
+                "banca": "Instituto AOCP",
+                "ano": 2016,
                 "assunto": "tritongos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -5155,16 +5285,17 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
-                "enunciado": "A palavra “Deixando” (linha 1 do texto) possui:",
+                "enunciado": "Nos vocábulos \"boi\", \"jeito\" e \"baú\", os encontros vocálicos que ocorrem são classificados, na ordem em que aparecem, como:",
                 "opcoes": [
-                      "Um dígrafo nasal e um hiato.",
-                      "Um dígrafo nasal e um ditongo.",
-                      "Um dígrafo nasal e um dígrafo comum.",
-                      "Três sílabas, oito letras e oito fonemas."
+                      "Hiato, ditongo e hiato.",
+                      "Ditongo, tritongo e ditongo.",
+                      "Ditongo, ditongo e hiato.",
+                      "Tritongo, hiato e tritongo.",
+                      "Hiato, tritongo e hiato."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um ditongo.</strong>. Fonte: Instituto de Desenvolvimento Social e Tecnologia - IDESG/2024. Assunto: hiatos.",
-                "banca": "Instituto de Desenvolvimento Social e Tecnologia - IDESG",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo e hiato.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: hiatos.",
+                "banca": "Instituto Abaré - Ete",
                 "ano": 2024,
                 "assunto": "Hiatos",
                 "tipo": "multipla_escolha",
@@ -5172,9 +5303,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos",
-                      "digrafos",
-                      "silabas",
-                      "fonemas"
+                      "tritongos"
                 ]
           },
           {
@@ -5697,6 +5826,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "As palavras destacadas do texto 1: saída, pesquisa, boas, travesseiro e iguais apresentam, respectivamente:",
+                "opcoes": [
+                      "hiato, ditongo, ditongo, tritongo e ditongo.",
+                      "ditongo, tritongo, hiato, ditongo e tritongo.",
+                      "hiato, hiato, ditongo, ditongo e hiato.",
+                      "ditongo, hiato, ditongo, hiato e tritongo.",
+                      "hiato, ditongo, hiato, ditongo e tritongo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>hiato, ditongo, hiato, ditongo e tritongo.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2024. Assunto: hiatos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -7347,6 +7498,27 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "No título da fábula acima, temos, nas palavras “cigarra” e “formiga”, respectivamente:",
+                "opcoes": [
+                      "um dígrafo consonantal e um encontro consonantal.",
+                      "um dígrafo vocálico e um encontro consonantal.",
+                      "um encontro vocálico e um dígrafo consonantal.",
+                      "um encontro consonantal e um encontro vocálico.",
+                      "um dígrafo consonantal e um dígrafo vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>um dígrafo consonantal e um encontro consonantal.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2024. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
                 ]
           },
           {
@@ -12399,6 +12571,29 @@ var QUESTOES_BANCO = {
           }
     ],
     "proparoxitonas": [
+          {
+                "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "oxítona e proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>proparoxítona e paroxítona.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2025. Assunto: tonicidade.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
           {
                 "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
                 "opcoes": [
