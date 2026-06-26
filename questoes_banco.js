@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 25/06/2026, 15:30:57 — 617 questões incluídas
+// 26/06/2026, 15:45:15 — 628 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2070,6 +2070,28 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra \"sociedade\", há ______ sílabas e um encontro vocálico do tipo _____. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "5 sílabas; ditongo.",
+                      "6 sílabas; hiato.",
+                      "4 sílabas; hiato.",
+                      "4 sílabas; ditongo.",
+                      "5 sílabas; hiato."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>5 sílabas; hiato.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: ditongos.",
+                "banca": "Instituto Abaré - Ete",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
                 ]
           },
           {
@@ -4181,6 +4203,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale, abaixo, a alternativa que apresenta, respectivamente, um ditongo, um tritongo e um hiato:",
+                "opcoes": [
+                      "Vaidade, radiouvinte, tucumãí;",
+                      "Praia, meio, saída;",
+                      "Cio, saída, quota;",
+                      "Cãibra, caule, ouro;",
+                      "Piauí, rainha, glúten."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Vaidade, radiouvinte, tucumãí;</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2021. Assunto: tritongos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2021,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa onde temos sequencialmente ditongo, hiato e tritongo.",
                 "opcoes": [
                       "Saída / água / atuei.",
@@ -5410,6 +5454,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Assinale a alternativa em que o encontro vocálico que ocorre na palavra dada configura hiato.",
+                "opcoes": [
+                      "democracia.",
+                      "unção.",
+                      "queixa.",
+                      "mãe.",
+                      "lantejoula."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>democracia.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: hiatos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (silêncio, lua, interior) são respectivamente:",
                 "opcoes": [
                       "Hiato, hiato, hiato.",
@@ -5428,6 +5492,48 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "ditongos",
                       "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras dadas apresentam hiato.",
+                "opcoes": [
+                      "cafeína, poente, secretaria.",
+                      "quando, ainda, leite.",
+                      "padrão, viagem, conexão.",
+                      "fúria, pai, coentro.",
+                      "magia, prévia, manteiga."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cafeína, poente, secretaria.</strong>. Fonte: Instituto Avança São Paulo - Avanca SP/2024. Assunto: hiatos.",
+                "banca": "Instituto Avança São Paulo - Avanca SP",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra \"sociedade\", há ______ sílabas e um encontro vocálico do tipo _____. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "5 sílabas; hiato.",
+                      "4 sílabas; ditongo.",
+                      "6 sílabas; hiato.",
+                      "5 sílabas; ditongo.",
+                      "4 sílabas; hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>5 sílabas; hiato.</strong>. Fonte: Instituto Abaré - Ete/2024. Assunto: hiatos.",
+                "banca": "Instituto Abaré - Ete",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "silabas"
                 ]
           },
           {
@@ -6382,6 +6488,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Marque a alternativa com uma palavra escrita com um encontro consonantal e um hiato; e uma palavra escrita com ditongo nasal, respectivamente.",
+                "opcoes": [
+                      "Escritor; não.",
+                      "Atento; desinteressado.",
+                      "Presumia; oração.",
+                      "Fim; apropriar.",
+                      "Infanticida; como."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Presumia; oração.</strong>. Fonte: MS Concursos/2023. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
                 "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (cervídeos, fêmea, hemisfério, aparência) são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, hiato, ditongo",
@@ -6400,6 +6528,25 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale, dentre as opções, abaixo, de palavras retiradas do texto, aquela em que há um hiato:",
+                "opcoes": [
+                      "“Cairo”.",
+                      "“construção”.",
+                      "“gracioso”.",
+                      "“queixo”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“gracioso”.</strong>. Fonte: Instituto Unique/2023. Assunto: hiatos.",
+                "banca": "Instituto Unique",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
                 ]
           },
           {
@@ -6568,6 +6715,46 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale qual das palavras abaixo apresenta um hiato.",
+                "opcoes": [
+                      "Menos.",
+                      "Problemas.",
+                      "Devia.",
+                      "Ter."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Devia.</strong>. Fonte: Instituto Cearense de Educação, Cultura e Ecologia - ICECE/2023. Assunto: hiatos.",
+                "banca": "Instituto Cearense de Educação, Cultura e Ecologia - ICECE",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A combinação das letras no vocábulo ‘oxigênio’ apresenta.",
+                "opcoes": [
+                      "um encontro consonantal.",
+                      "um dígrafo.",
+                      "um hiato.",
+                      "um dífono."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: hiatos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -8645,6 +8832,49 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A combinação das letras no vocábulo ‘oxigênio’ apresenta.",
+                "opcoes": [
+                      "um encontro consonantal.",
+                      "um dígrafo.",
+                      "um hiato.",
+                      "um dífono."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um hiato.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra escrita com um encontro consonantal e um hiato; e uma palavra escrita com ditongo nasal, respectivamente.",
+                "opcoes": [
+                      "Escritor; não.",
+                      "Atento; desinteressado.",
+                      "Presumia; oração.",
+                      "Fim; apropriar.",
+                      "Infanticida; como."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Presumia; oração.</strong>. Fonte: MS Concursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos"
                 ]
           },
           {
