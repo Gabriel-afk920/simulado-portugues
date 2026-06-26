@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 26/06/2026, 15:45:15 — 628 questões incluídas
+// 26/06/2026, 16:20:33 — 642 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -136,6 +136,30 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na frase “Saúde também é papo de homem”, observa-se a ocorrência de:",
+                "opcoes": [
+                      "hiato em “homem”",
+                      "hiato na palavra “saúde”.",
+                      "ditongo decrescente em “papo”.",
+                      "ditongo crescente em “também”",
+                      "tritongo em “homem”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>hiato na palavra “saúde”.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2026. Assunto: ditongos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "acentuacaoGrafica",
+                      "tonicidade",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Falando-se de encontros vocálicos, as palavras do texto, (rio, caos, dias), são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, tritongo.",
@@ -201,6 +225,7 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
+                      "classesGramaticais",
                       "tritongos",
                       "hiatos"
                 ]
@@ -224,7 +249,6 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "classesGramaticais",
                       "hiatos"
                 ]
           },
@@ -247,7 +271,8 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos"
+                      "hiatos",
+                      "classesGramaticais"
                 ]
           },
           {
@@ -269,7 +294,8 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "acentuacaoGrafica",
                       "tonicidade",
-                      "hiatos",
+                      "hifen",
+                      "formacaoPalavras",
                       "classesGramaticais",
                       "paroxitonas"
                 ]
@@ -295,7 +321,6 @@ var QUESTOES_BANCO = {
                       "tonicidade",
                       "hifen",
                       "formacaoPalavras",
-                      "classesGramaticais",
                       "tritongos",
                       "hiatos"
                 ]
@@ -319,9 +344,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras"
+                      "tonicidade"
                 ]
           },
           {
@@ -364,8 +387,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
                       "tritongos",
                       "hiatos"
                 ]
@@ -475,6 +496,29 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "tritongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: ditongos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -2701,6 +2745,28 @@ var QUESTOES_BANCO = {
     ],
     "tritongos": [
           {
+                "enunciado": "Na frase “Saúde também é papo de homem”, observa-se a ocorrência de:",
+                "opcoes": [
+                      "hiato em “homem”",
+                      "hiato na palavra “saúde”.",
+                      "ditongo decrescente em “papo”.",
+                      "ditongo crescente em “também”",
+                      "tritongo em “homem”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>hiato na palavra “saúde”.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2026. Assunto: tritongos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Falando-se de encontros vocálicos, as palavras do texto, (rio, caos, dias), são respectivamente:",
                 "opcoes": [
                       "Hiato, ditongo, tritongo.",
@@ -3908,6 +3974,27 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras do texto (sujeito, outros, mediador) são respectivamente:",
+                "opcoes": [
+                      "Ditongo – ditongo – ditongo.",
+                      "Ditongo – ditongo – hiato.",
+                      "Hiato – ditongo – hiato.",
+                      "Ditongo – ditongo – tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo – ditongo – ditongo.</strong>. Fonte: MS Concursos/2023. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinalar a alternativa que apresenta um tritongo:",
                 "opcoes": [
                       "Iguais.",
@@ -4350,6 +4437,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Na última estrofe do poema, temos encontros vocálicos nas palavras “exuberância”, “seus” e “saúde”. Assinale a sequência correta destas palavras:",
+                "opcoes": [
+                      "Ditongo – ditongo – hiato.",
+                      "Tritongo – ditongo – hiato.",
+                      "Ditongo – hiato – hiato.",
+                      "Hiato – ditongo – hiato.",
+                      "Ditongo – tritongo hiato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato – ditongo – hiato.</strong>. Fonte: MS Concursos/2018. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2018,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa onde temos sequencialmente um ditongo, um hiato e um tritongo.",
                 "opcoes": [
                       "Enjoar, faixa, Uruguai.",
@@ -4510,6 +4619,28 @@ var QUESTOES_BANCO = {
                       "silabas",
                       "encontrosConsonantais",
                       "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Saúde também é papo de homem”, observa-se a ocorrência de:",
+                "opcoes": [
+                      "hiato em “homem”",
+                      "hiato na palavra “saúde”.",
+                      "ditongo decrescente em “papo”.",
+                      "ditongo crescente em “também”",
+                      "tritongo em “homem”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>hiato na palavra “saúde”.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2026. Assunto: hiatos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2026,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ]
           },
           {
@@ -4821,6 +4952,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: hiatos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -6573,6 +6727,50 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "As palavras do texto (sujeito, outros, mediador) são respectivamente:",
+                "opcoes": [
+                      "Ditongo – ditongo – ditongo.",
+                      "Ditongo – ditongo – hiato.",
+                      "Hiato – ditongo – hiato.",
+                      "Ditongo – ditongo – tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo – ditongo – ditongo.</strong>. Fonte: MS Concursos/2023. Assunto: hiatos.",
+                "banca": "MS Concursos",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Acerca da palavra “VÍCIO” (segunda palavra do quinto parágrafo), podemos afirmar, EXCETO:",
+                "opcoes": [
+                      "Trata-se de uma palavra dissílaba.",
+                      "É exemplo de palavra paroxítona.",
+                      "Apresenta um ditongo crescente.",
+                      "Contém um hiato.",
+                      "Se acentua pela mesma regra de “mágoa” e “início”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Contém um hiato.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limitada - LJ/2023. Assunto: hiatos.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limitada - LJ",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "silabas",
+                      "paroxitonas"
+                ]
+          },
+          {
                 "enunciado": "Assinale a alternativa em que se podem ver palavras que apresentam, respectivamente, um ditongo decrescente, um hiato e um ditongo crescente.",
                 "opcoes": [
                       "feixe | leite | saúde",
@@ -6715,6 +6913,28 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "hiatos",
                       "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho da letra da música de Raul Seixas e responda o que se pede. “E nas IGREJAS nem um sino a badalar Pois sabiam que os fiéis também não tavam lá E os fiéis não SAÍRAM pra rezar Pois sabiam que o padre também não tava lá E o aluno não saiu para estudar Pois sabia o PROFESSOR também não tava lá E o professor não saiu pra lecionar Pois sabia que não TINHA mais nada pra ensinar (...)” As palavras em destaque nos versos são, respectivamente:",
+                "opcoes": [
+                      "Encontro consonantal, hiato, dígrafo, dígrafo.",
+                      "Dígrafo, ditongo, dígrafo, dígrafo.",
+                      "Encontro consonantal, hiato, hiato, dígrafo.",
+                      "Ditongo, hiato, dígrafo, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo, dígrafo.</strong>. Fonte: Fundação Universidade do Oeste de Santa Catarina - Funoesc/2023. Assunto: hiatos.",
+                "banca": "Fundação Universidade do Oeste de Santa Catarina - Funoesc",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais"
                 ]
           },
           {
@@ -7117,6 +7337,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: encontrosConsonantais.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
                 ]
           },
           {
@@ -8777,6 +9020,28 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Leia o trecho da letra da música de Raul Seixas e responda o que se pede. “E nas IGREJAS nem um sino a badalar Pois sabiam que os fiéis também não tavam lá E os fiéis não SAÍRAM pra rezar Pois sabiam que o padre também não tava lá E o aluno não saiu para estudar Pois sabia o PROFESSOR também não tava lá E o professor não saiu pra lecionar Pois sabia que não TINHA mais nada pra ensinar (...)” As palavras em destaque nos versos são, respectivamente:",
+                "opcoes": [
+                      "Encontro consonantal, hiato, dígrafo, dígrafo.",
+                      "Dígrafo, ditongo, dígrafo, dígrafo.",
+                      "Encontro consonantal, hiato, hiato, dígrafo.",
+                      "Ditongo, hiato, dígrafo, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo, dígrafo.</strong>. Fonte: Fundação Universidade do Oeste de Santa Catarina - Funoesc/2023. Assunto: encontrosConsonantais.",
+                "banca": "Fundação Universidade do Oeste de Santa Catarina - Funoesc",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
                 "enunciado": "Essa espécie tem um desenvolvimento muito rápido - em apenas horas após a fecundação, a maioria dos órgãos dele já funciona. Para ter ideia, um peixe cresce em um dia o equivalente ao que um embrião humano demora um mês. Disponível em:(https://curtlink.com/wLo6rh7. Adaptado.) Assinale a opção que contenha somente palavras com encontros consonantais.",
                 "opcoes": [
                       "órgãos - essa",
@@ -9699,6 +9964,26 @@ var QUESTOES_BANCO = {
                 ]
           },
           {
+                "enunciado": "Considerando os vocábulos churrasco, desenvoltura e enterrada e a presença de dígrafos consonantais e vocálicos, além da diferença entre letras e fonemas, analise as assertivas: I. Em churrasco, há dois dígrafos consonantais, e a palavra apresenta 7 fonemas. II. Em desenvoltura, há um dígrafo vocálico e a palavra apresenta 11 fonemas. III. Em enterrada, há dois dígrafos, um vocálico e um consonantal, e a palavra apresenta 7 fonemas. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, II e III.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: Fênix Instituto Ltda/2026. Assunto: digrafos.",
+                "banca": "Fênix Instituto Ltda",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
                 "enunciado": "Analise as palavras extraídas do texto e marque a alternativa que contém dígrafos consonantais:",
                 "opcoes": [
                       "corporal, tempo, forma.",
@@ -9857,6 +10142,29 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras PRECONCEITO, SAÚDE e MINHA são identificados, respectivamente.",
+                "opcoes": [
+                      "Dígrafo, encontro consonantal, ditongo.",
+                      "Ditongo, encontro consonantal, dígrafo.",
+                      "Dígrafo, hiato, encontro consonantal.",
+                      "Encontro consonantal, dígrafo, hiato.",
+                      "Encontro consonantal, hiato, dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo.</strong>. Fonte: ÁPICE Concursos Públicos - APICE/2025. Assunto: digrafos.",
+                "banca": "ÁPICE Concursos Públicos - APICE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           },
           {
