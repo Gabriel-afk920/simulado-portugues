@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:47:24 — 229 questões incluídas
+// 27/06/2026, 04:52:21 — 229 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2668,8 +2668,8 @@ var QUESTOES_BANCO = {
                       "Tritongo;",
                       "Hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Monossílaba;</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: ditongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato.</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: ditongos.",
                 "banca": "Prefeitura de Bombinhas - SC",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -2734,8 +2734,8 @@ var QUESTOES_BANCO = {
                       "Hiato, ditongo, tritongo.",
                       "Ditongo, ditongo, ditongo."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -2755,8 +2755,8 @@ var QUESTOES_BANCO = {
                       "Hiato, hiato, hiato.",
                       "Ditongo, hiato, hiato."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -2776,8 +2776,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, ditongo.",
                       "Hiato, ditongo, tritongo."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "Ditongos",
@@ -2818,8 +2818,8 @@ var QUESTOES_BANCO = {
                       "Apenas nos itens I, III e IV.",
                       "Apenas nos itens II, III e IV."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Apenas nos itens I e II.</strong>. Fonte: Objetiva Concursos/2025. Assunto: ditongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas nos itens I e III.</strong>. Fonte: Objetiva Concursos/2025. Assunto: ditongos.",
                 "banca": "Objetiva Concursos",
                 "ano": 2025,
                 "assunto": "Ditongos",
@@ -4078,8 +4078,8 @@ var QUESTOES_BANCO = {
                       "recaía, médico, silêncio, outros.",
                       "psíquico, deletérios, submetia, cérebro."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>saúde, antidepressivos, lobotomia, averiguei.</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
                 "banca": "Fundação Aroeira - Fundacao Aroeira",
                 "ano": 2026,
                 "assunto": "Dígrafos",
@@ -4376,8 +4376,8 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, ditongo.",
                       "Hiato, hiato, hiato."
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Hiato, ditongo, tritongo.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "tritongos",
@@ -4398,8 +4398,8 @@ var QUESTOES_BANCO = {
                       "tritongo oral crescente, com semivogal, vogal e semivogal organizadas em uma só sílaba.",
                       "encontro consonantal inicial, formado pela união de duas consoantes na mesma sílaba."
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: tritongos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: tritongos.",
                 "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
                 "ano": 2026,
                 "assunto": "tritongos",
