@@ -577,12 +577,24 @@ document.getElementById('btn-estudar-result').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 //  PAINEL DE TEORIA
 // ══════════════════════════════════════════════════════════
-const _TRIO_FENOMENOS = ['ditongos', 'tritongos', 'hiatos'];
+const _TRIO_FENOMENOS   = ['ditongos', 'tritongos', 'hiatos'];
+const _GRUPO_TONICIDADE = ['oxitonas', 'paroxitonas', 'proparoxitonas', 'tonicidade', 'acentuacaoGrafica'];
 
 function _expandirTemasTrio(ids) {
-  if (ids.some(id => _TRIO_FENOMENOS.includes(id)))
-    return [...new Set([..._TRIO_FENOMENOS, ...ids])];
-  return ids;
+  const set = new Set(ids);
+
+  // Colapsar sub-temas de tonicidade → apenas 'tonicidade'
+  if (_GRUPO_TONICIDADE.some(id => set.has(id))) {
+    for (const id of _GRUPO_TONICIDADE) set.delete(id);
+    set.add('tonicidade');
+    // Remover temas fonológicos que aparecem só como exemplos em questões de tonicidade
+    for (const id of [..._TRIO_FENOMENOS, 'digrafos', 'encontrosConsonantais', 'fonemas', 'silabas', 'ortografia']) set.delete(id);
+  } else if (_TRIO_FENOMENOS.some(id => set.has(id))) {
+    // Expandir trio fonológico → mostrar os três sempre juntos
+    for (const id of _TRIO_FENOMENOS) set.add(id);
+  }
+
+  return [...set];
 }
 
 function abrirPainelTeoria() {

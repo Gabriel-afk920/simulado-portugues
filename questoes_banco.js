@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:29:21 — 210 questões incluídas
+// 27/06/2026, 04:33:01 — 210 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2786,8 +2786,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "ditongos",
-                      "hiatos",
                       "proparoxitonas",
                       "paroxitonas"
                 ]
@@ -2808,8 +2806,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "hiatos"
+                      "acentuacaoGrafica"
                 ]
           },
           {
@@ -2826,8 +2823,7 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "ditongos"
+                      "acentuacaoGrafica"
                 ]
           }
     ],
@@ -4111,12 +4107,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "ditongos",
-                      "hiatos",
                       "proparoxitonas",
                       "paroxitonas",
-                      "oxitonas",
-                      "ortografia"
+                      "oxitonas"
                 ]
           },
           {
@@ -4137,7 +4130,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "ditongos",
                       "paroxitonas",
                       "oxitonas"
                 ]
@@ -4159,8 +4151,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "ditongos",
-                      "hiatos",
                       "proparoxitonas",
                       "paroxitonas",
                       "oxitonas"
@@ -4183,10 +4173,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "ditongos",
                       "paroxitonas",
                       "oxitonas",
-                      "ortografia",
                       "acentuacaoGrafica"
                 ]
           },
@@ -4208,9 +4196,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "ditongos",
-                      "hiatos",
-                      "silabas",
                       "paroxitonas"
                 ]
           }
@@ -4233,10 +4218,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas",
-                      "ditongos",
-                      "silabas",
                       "oxitonas",
-                      "ortografia",
                       "acentuacaoGrafica"
                 ]
           },
@@ -4254,8 +4236,7 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas",
-                      "ditongos"
+                      "paroxitonas"
                 ]
           },
           {
@@ -4275,7 +4256,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas",
-                      "ditongos",
                       "proparoxitonas",
                       "oxitonas",
                       "acentuacaoGrafica"
@@ -4296,8 +4276,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas",
-                      "ditongos",
-                      "silabas",
                       "oxitonas",
                       "tonicidade"
                 ]
@@ -4316,8 +4294,7 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paroxitonas",
-                      "ditongos"
+                      "paroxitonas"
                 ]
           },
           {
@@ -4337,9 +4314,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "paroxitonas",
-                      "ditongos",
-                      "hiatos",
-                      "silabas",
                       "proparoxitonas"
                 ]
           }
@@ -4429,7 +4403,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "oxitonas",
-                      "ditongos",
                       "proparoxitonas",
                       "paroxitonas"
                 ]
@@ -4448,9 +4421,7 @@ var QUESTOES_BANCO = {
                 "tipo": "certo_errado",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas",
-                      "ditongos",
-                      "silabas"
+                      "oxitonas"
                 ]
           },
           {
@@ -4470,8 +4441,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "oxitonas",
-                      "ditongos"
+                      "oxitonas"
                 ]
           },
           {
@@ -4492,8 +4462,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "oxitonas",
-                      "ditongos",
-                      "silabas",
                       "tonicidade"
                 ]
           }
