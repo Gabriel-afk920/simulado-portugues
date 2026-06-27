@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:12:59 — 210 questões incluídas
+// 27/06/2026, 04:29:21 — 210 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2767,7 +2767,7 @@ var QUESTOES_BANCO = {
                 ]
           }
     ],
-    "silabas": [
+    "acentuacaoGrafica": [
           {
                 "enunciado": "Quando praticamos um ato de gentileza — ou somos tocados por um — o cérebro celebra. \"Atos gentis ativam áreas ligadas ao prazer e à gratificação, liberando dopamina, serotonina, endorfina e oxitocina, os chamados 'hormônios da felicidade'\", explica Eduardo Shinyashiki, neuropsicólogo especialista no desenvolvimento de competências socioemocionais. Essas substâncias reduzem o estresse, fortalecem o sistema imunológico e criam uma sensação genuína de conexão. Até mesmo assistir a um gesto gentil desperta reações positivas no cérebro . \"A empatia está gravada na nossa biologia . Somos feitos para cooperar\", conta. A respeito da acentuação gráfica, analise as sentenças e registre V, para verdadeiras, e F, para falsas: (__)As palavras áreas , neuropsicólogo e cérebro são acentuadas pela mesma regra: são palavras proparoxítonas. (__)As palavras hormônios e biologia são paroxítonas, mas apresentam situações distintas que pedem ou não a acentuação. No caso de hormônios , tem-se uma paroxítona terminada em ditongo oral (singular ou plural) e, por isso, é acentuada. Já no caso de biologia , não recebe acento gráfico porque é uma paroxítona terminada em -a. (__)A palavra genuína recebe acento porque o \"i\" representa a segunda vogal tônica de um hiato. Assinale a alternativa que apresenta a sequência correta:",
                 "opcoes": [
@@ -2778,83 +2778,55 @@ var QUESTOES_BANCO = {
                       "V − F − F."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>V − V − V.</strong>. Fonte: FURB/2025. Assunto: silabas.",
+                "explicacao": "Gabarito: <strong>V − V − V.</strong>. Fonte: FURB/2025. Assunto: acentuacaoGrafica.",
                 "banca": "FURB",
                 "ano": 2025,
-                "assunto": "Sílabas",
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabas",
+                      "acentuacaoGrafica",
                       "ditongos",
                       "hiatos",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "acentuacaoGrafica"
+                      "paroxitonas"
                 ]
           },
           {
-                "enunciado": "Assinale a opção que apresenta uma palavra cuja sílaba tônica contém um ditongo decrescente.",
+                "enunciado": "Assinale a afirmação INCORRETA:",
                 "opcoes": [
-                      "Emergência.",
-                      "Planificação.",
-                      "Readequação.",
-                      "Prevenção.",
-                      "Reconstrução."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Readequação.</strong>. Fonte: IBADE/2024. Assunto: silabasAcentuacao.",
-                "banca": "IBADE",
-                "ano": 2024,
-                "assunto": "silabasAcentuacao",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "ditongos",
-                      "tonicidade"
-                ]
-          },
-          {
-                "enunciado": "“Tenho que agradecer às pessoas das mais humildes, que, na hora que precisei, me deram um coração novo”. Sobre as palavras destacadas, é CORRETO afirmar que em:",
-                "opcoes": [
-                      "“tenho” há um encontro consonantal",
-                      "“agradecer” há um dígrafo.",
-                      "“pessoas” há um hiato.",
-                      "“mais” há duas sílabas - dissílaba.",
-                      "“precisei” há quatro sílabas - polissílaba."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>“pessoas” há um hiato.</strong>. Fonte: EDUCA/2023. Assunto: silabasAcentuacao.",
-                "banca": "EDUCA",
-                "ano": 2023,
-                "assunto": "silabasAcentuacao",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "hiatos",
-                      "digrafos",
-                      "encontrosConsonantais"
-                ]
-          },
-          {
-                "enunciado": "É um exemplo de separação de sílabas de palavras com ditongos.",
-                "opcoes": [
-                      "di-a.",
-                      "i-dei-a.",
-                      "sa-ú-de.",
-                      "fi-el."
+                      "A correta divisão silábica da palavra obsoleto é ob-so-le-to.",
+                      "O hiato está presente nas palavras período, crucial e noites.",
+                      "As palavras escritório e memória recebem acento gráfico pela mesma regra.",
+                      "A flexão de plural do substantivo composto terça-feira é terças-feiras."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>i-dei-a.</strong>. Fonte: JVL Concursos/2024. Assunto: silabasAcentuacao.",
-                "banca": "JVL Concursos",
-                "ano": 2024,
-                "assunto": "silabasAcentuacao",
+                "explicacao": "Gabarito: <strong>O hiato está presente nas palavras período, crucial e noites.</strong>. Fonte: Prefeitura de Catas Altas - MG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Catas Altas - MG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabas",
+                      "acentuacaoGrafica",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir.\nAs palavras que contêm ditongos crescentes, como \"ia\" e \"ie\", não recebem acento gráfico em nenhuma situação, independentemente de sua posição na palavra. Exemplos como \"familia\", \"serie\" e \"julia\" são sempre escritos sem acento, pois os ditongos crescentes não influenciam a acentuação.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
                       "ditongos"
                 ]
           }
@@ -4243,46 +4215,6 @@ var QUESTOES_BANCO = {
                 ]
           }
     ],
-    "acentuacaoGrafica": [
-          {
-                "enunciado": "Assinale a afirmação INCORRETA:",
-                "opcoes": [
-                      "A correta divisão silábica da palavra obsoleto é ob-so-le-to.",
-                      "O hiato está presente nas palavras período, crucial e noites.",
-                      "As palavras escritório e memória recebem acento gráfico pela mesma regra.",
-                      "A flexão de plural do substantivo composto terça-feira é terças-feiras."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>O hiato está presente nas palavras período, crucial e noites.</strong>. Fonte: Prefeitura de Catas Altas - MG/2025. Assunto: acentuacaoGrafica.",
-                "banca": "Prefeitura de Catas Altas - MG",
-                "ano": 2025,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "hiatos"
-                ]
-          },
-          {
-                "enunciado": "Julgue o item a seguir.\nAs palavras que contêm ditongos crescentes, como \"ia\" e \"ie\", não recebem acento gráfico em nenhuma situação, independentemente de sua posição na palavra. Exemplos como \"familia\", \"serie\" e \"julia\" são sempre escritos sem acento, pois os ditongos crescentes não influenciam a acentuação.\nC) Certo\nE) Errado",
-                "opcoes": [
-                      "Certo",
-                      "Errado"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: acentuacaoGrafica.",
-                "banca": "IGEDUC",
-                "ano": 2024,
-                "assunto": "Acentuação Gráfica",
-                "tipo": "certo_errado",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "ditongos"
-                ]
-          }
-    ],
     "paroxitonas": [
           {
                 "enunciado": "Considerando as regras de acentuação gráfica de acordo com o Novo Acordo Ortográfico da Língua Portuguesa, assinale a alternativa correta em relação à palavra \"ideias\" presente na frase \"Porque, sinceramente, a última coisa que queríamos era que ela tivesse mais ideias...\":",
@@ -4409,6 +4341,73 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "silabas",
                       "proparoxitonas"
+                ]
+          }
+    ],
+    "silabas": [
+          {
+                "enunciado": "Assinale a opção que apresenta uma palavra cuja sílaba tônica contém um ditongo decrescente.",
+                "opcoes": [
+                      "Emergência.",
+                      "Planificação.",
+                      "Readequação.",
+                      "Prevenção.",
+                      "Reconstrução."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Readequação.</strong>. Fonte: IBADE/2024. Assunto: silabasAcentuacao.",
+                "banca": "IBADE",
+                "ano": 2024,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "ditongos",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "“Tenho que agradecer às pessoas das mais humildes, que, na hora que precisei, me deram um coração novo”. Sobre as palavras destacadas, é CORRETO afirmar que em:",
+                "opcoes": [
+                      "“tenho” há um encontro consonantal",
+                      "“agradecer” há um dígrafo.",
+                      "“pessoas” há um hiato.",
+                      "“mais” há duas sílabas - dissílaba.",
+                      "“precisei” há quatro sílabas - polissílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“pessoas” há um hiato.</strong>. Fonte: EDUCA/2023. Assunto: silabasAcentuacao.",
+                "banca": "EDUCA",
+                "ano": 2023,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "hiatos",
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "É um exemplo de separação de sílabas de palavras com ditongos.",
+                "opcoes": [
+                      "di-a.",
+                      "i-dei-a.",
+                      "sa-ú-de.",
+                      "fi-el."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>i-dei-a.</strong>. Fonte: JVL Concursos/2024. Assunto: silabasAcentuacao.",
+                "banca": "JVL Concursos",
+                "ano": 2024,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "ditongos"
                 ]
           }
     ],

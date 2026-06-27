@@ -1008,6 +1008,20 @@ const TEMAS = [
   <em>bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr, vr</em> → perfeitos (mesma sílaba)<br>
   <em>cc, ct, pt, gn, mn, ps, pn, tm, bm</em> → imperfeitos (sílabas diferentes)
 </div>
+
+<h3>Palavras com encontros raros — cobradas em prova</h3>
+<p>Algumas palavras com encontros consonantais incomuns aparecem com frequência em questões. Entender a separação silábica delas é diferencial:</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Palavra</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Separação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Encontro</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">tungstênico</td><td style="padding:8px 10px;color:#cbd5e1;">tungs-tê-ni-co</td><td style="padding:8px 10px;color:#a78bfa;">ngs+t</td><td style="padding:8px 10px;color:#94a3b8;">Imperfeito (sílabas diferentes)</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">absorto</td><td style="padding:8px 10px;color:#cbd5e1;">ab-sor-to</td><td style="padding:8px 10px;color:#a78bfa;">bs</td><td style="padding:8px 10px;color:#94a3b8;">Imperfeito (b e s em sílabas diferentes)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">excepcional</td><td style="padding:8px 10px;color:#cbd5e1;">ex-cep-ci-o-nal</td><td style="padding:8px 10px;color:#a78bfa;">xc + pc</td><td style="padding:8px 10px;color:#94a3b8;">Imperfeito (xc em sílabas diferentes)</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">guardião</td><td style="padding:8px 10px;color:#cbd5e1;">guar-di-ão</td><td style="padding:8px 10px;color:#a78bfa;">gu+rd</td><td style="padding:8px 10px;color:#94a3b8;">rd imperfeito; gu+a = ditongo (u pronunciado)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">quente</td><td style="padding:8px 10px;color:#cbd5e1;">quen-te</td><td style="padding:8px 10px;color:#a78bfa;">qu+n</td><td style="padding:8px 10px;color:#94a3b8;">Atenção: qu = dígrafo (u mudo), não encontro consonantal</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">ritmo</td><td style="padding:8px 10px;color:#cbd5e1;">rit-mo</td><td style="padding:8px 10px;color:#a78bfa;">tm</td><td style="padding:8px 10px;color:#94a3b8;">Imperfeito (t e m em sílabas diferentes)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">psicologia</td><td style="padding:8px 10px;color:#cbd5e1;">psi-co-lo-gi-a</td><td style="padding:8px 10px;color:#a78bfa;">ps</td><td style="padding:8px 10px;color:#94a3b8;">Perfeito inicial (ps ficam juntos na 1ª sílaba)</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;">pneu</td><td style="padding:8px 10px;color:#cbd5e1;">pneu (1 sílaba)</td><td style="padding:8px 10px;color:#a78bfa;">pn</td><td style="padding:8px 10px;color:#94a3b8;">Perfeito inicial (pn ficam juntos)</td></tr>
+</tbody></table>
+<div class="dica-box"><div class="dica-title">Como não confundir dígrafo × encontro consonantal</div>Dígrafo: duas letras, <strong>1 fonema</strong> (ch, lh, nh, rr, ss, qu, gu). Encontro consonantal: cada consoante tem <strong>seu próprio fonema</strong> (bl, tr, ct, ps). Teste: separe as consoantes e veja se cada uma ainda tem som — se sim, é encontro.</div>
 `,
     exercicios: [
       { enunciado: 'Em qual palavra há encontro consonantal perfeito?', opcoes: ['chave','blusa','assim','carro'], correta: 1, explicacao: '<em>blusa</em> tem bl — dois fonemas distintos na mesma sílaba. <em>chave</em> tem ch (dígrafo), <em>assim</em> tem ss (dígrafo), <em>carro</em> tem rr (dígrafo).' },
@@ -1316,6 +1330,27 @@ const TEMAS = [
   <em>mal</em>: m-a-l = 3 fonemas, 3 letras (igual)
 </div>
 
+<h3>Como contar fonemas passo a passo</h3>
+<p>Para palavras longas ou complexas, siga este roteiro:</p>
+<ol style="color:#cbd5e1;padding-left:1.2em;line-height:1.9;">
+  <li><strong>Escreva a palavra letra por letra</strong> e marque cada grupo especial.</li>
+  <li><strong>Elimine letras mudas:</strong> h inicial, u em qu/gu+e/i.</li>
+  <li><strong>Substitua dígrafos por 1 fonema:</strong> ch, lh, nh, ss, rr, qu, gu → cada um vale 1.</li>
+  <li><strong>Expanda o x quando necessário:</strong> x=/ks/ → conta como 2.</li>
+  <li><strong>Vogais nasalizadas por m/n antes de consoante</strong> (campo, canto) → a vogal nasalizada é 1 fonema, m/n não contam separado.</li>
+  <li><strong>Some o resultado.</strong></li>
+</ol>
+<div class="exemplo-box">
+  <strong>contextualização</strong> (16 letras → 15 fonemas):<br>
+  c-o-n-t-e-x(=/ks/)-t-u-a-l-i-z-a-ç-ã-o<br>
+  Letras: c·o·n·t·e·x·t·u·a·l·i·z·a·ç·ã·o = 16<br>
+  x = /ks/ → +1 fonema; ã nasalizada (an = 1 fonema + n muda o timbre) → 16 − 1 (n vira nasal) + 0 = 15 fonemas<br><br>
+  <strong>cachorro</strong> (7 letras → 5 fonemas):<br>
+  ca-<strong>ch</strong>-o-<strong>rr</strong>-o → ch=1, rr=1 → c+a+1+o+1+o = 6 fonemas<br><br>
+  <strong>menino</strong> (6 letras → 6 fonemas):<br>
+  m-e-n-i-n-o = 6 (sem dígrafos, sem h, sem x ambíguo) → 6 fonemas
+</div>
+
 <div class="dica-box">
   <div class="dica-title">Dicas para prova</div>
   <ul>
@@ -1399,7 +1434,57 @@ const TEMAS = [
   // ─────────────────────────────────────────
   {
     id: "acentuacaoGrafica", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
-    teoria: '',
+    teoria: `<h3>O que é Acentuação Gráfica?</h3>
+<p>Acentuação gráfica é o conjunto de regras que determina quando uma palavra recebe acento escrito (´ agudo ou ^ circunflexo). O acento sempre indica a <strong>sílaba tônica</strong> — a sílaba de maior intensidade da palavra.</p>
+<div class="dica-box"><div class="dica-title">Princípio básico</div>O acento gráfico só é escrito quando a posição da sílaba tônica não pode ser deduzida pela terminação da palavra. Se a terminação já "avisa" onde está a tônica, o acento é dispensado.</div>
+
+<h3>1. As três classes de tonicidade</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Classe</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tônica em</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Acento?</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Oxítona</td><td style="padding:8px 10px;color:#cbd5e1;">Última sílaba</td><td style="padding:8px 10px;color:#a78bfa;">Só nas terminações -á/-é/-ê/-ó/-ô/-ém/-éns/-éu/-ói</td><td style="padding:8px 10px;color:#fde68a;">ca-<strong>fé</strong>, so-<strong>fá</strong>, tam-<strong>bém</strong>, cha-<strong>péu</strong></td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#38bdf8;font-weight:700;">Paroxítona</td><td style="padding:8px 10px;color:#cbd5e1;">Penúltima sílaba</td><td style="padding:8px 10px;color:#a78bfa;">Só quando a terminação "esperaria" oxítona: -l, -r, -n, -x, -ã, -ão, -us, -is, -ei…</td><td style="padding:8px 10px;color:#fde68a;"><strong>fá</strong>-cil, <strong>ví</strong>-rus, <strong>ór</strong>-gão, <strong>lá</strong>-pis</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f59e0b;font-weight:700;">Proparoxítona</td><td style="padding:8px 10px;color:#cbd5e1;">Antepenúltima sílaba</td><td style="padding:8px 10px;color:#a78bfa;">Sempre — sem exceção</td><td style="padding:8px 10px;color:#fde68a;"><strong>mé</strong>-di-co, <strong>á</strong>-re-as, neu-ro-psi-<strong>có</strong>-lo-go</td></tr>
+</tbody></table>
+
+<h3>2. Oxítonas — quando acentuar</h3>
+<p>Oxítonas só recebem acento quando terminam em vogal tônica (a/e/o com acento) ou nos ditongos abertos finais:</p>
+<div class="exemplo-box">
+  <strong>-á/-ás:</strong> sofá, vatapá &nbsp;·&nbsp; <strong>-é/-és:</strong> café, pé, revés &nbsp;·&nbsp; <strong>-ê/-ês:</strong> bebê, inglês<br>
+  <strong>-ó/-ós:</strong> avó, cipó &nbsp;·&nbsp; <strong>-ô/-ôs:</strong> avô, metrô &nbsp;·&nbsp; <strong>-ém/-éns:</strong> também, parabéns<br>
+  <strong>-éu/-éus:</strong> chapéu, troféu &nbsp;·&nbsp; <strong>-ói/-óis:</strong> herói, heróis, lençóis
+</div>
+<p>Terminações <strong>sem acento</strong>: -r, -l, -z, -x, -i, -u, -im, -um → oxítonas por terminação, dispensam acento.</p>
+<div class="exemplo-box">falar, papel, feliz, aqui, bambu, jardim, algum</div>
+
+<h3>3. Paroxítonas — quando acentuar</h3>
+<p>Paroxítonas dispensam acento nas terminações comuns (-a, -e, -o, -am, -em, -agem). Precisam de acento quando a terminação normalmente geraria oxítona:</p>
+<div class="exemplo-box">
+  <strong>-l:</strong> fácil, fóssil, útil &nbsp;·&nbsp; <strong>-r:</strong> açúcar, caráter &nbsp;·&nbsp; <strong>-n:</strong> hífen, abdômen<br>
+  <strong>-x:</strong> tórax, látex &nbsp;·&nbsp; <strong>-us:</strong> vírus, bônus &nbsp;·&nbsp; <strong>-is:</strong> lápis, tênis<br>
+  <strong>-ão:</strong> órgão, bênção &nbsp;·&nbsp; <strong>-ã:</strong> ímã, órfã &nbsp;·&nbsp; <strong>-ei:</strong> jóquei, vôlei
+</div>
+
+<h3>4. Proparoxítonas — sempre acentuadas</h3>
+<p>Toda palavra com tônica na antepenúltima sílaba tem acento — sem exceção. Reconheça pelos sufixos:</p>
+<div class="exemplo-box">
+  <strong>-ico:</strong> médico, público &nbsp;·&nbsp; <strong>-imo:</strong> ótimo, máximo &nbsp;·&nbsp; <strong>-ulo:</strong> título, módulo<br>
+  <strong>-ênio:</strong> oxigênio &nbsp;·&nbsp; <strong>-logo:</strong> psicólogo &nbsp;·&nbsp; <strong>-fico:</strong> científico<br>
+  Palavras com acento na antepenúltima: áreas, cérebro, neuropsicólogo (ne-u-ro-psi-<strong>có</strong>-lo-go)
+</div>
+
+<h3>5. Hiato e Acentuação</h3>
+<p>O <strong>i</strong> e o <strong>u</strong> tônicos formam hiato e recebem acento quando:</p>
+<ul>
+  <li>Aparecem sozinhos ou com -s na sílaba: <em>sa-<strong>í</strong>-da</em>, <em>pa-<strong>ís</strong></em>, <em>ge-nu-<strong>í</strong>-na</em></li>
+  <li>Exceção pós-Acordo 2009: <em>feiura</em>, <em>baiuca</em> — não acentuam mais quando seguidos de ditongo na mesma sílaba</li>
+</ul>
+
+<h3>6. Acordo Ortográfico de 2009 — o que mudou</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Antes (pré-2009)</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Depois (pós-2009)</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Regra</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">vôo, enjôo, vôos</td><td style="padding:8px 10px;color:#4ade80;">voo, enjoo, voos</td><td style="padding:8px 10px;color:#94a3b8;">Hiato com vogais iguais (oo, ee) — acento eliminado</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">pára, péla, pólo, fôrma</td><td style="padding:8px 10px;color:#4ade80;">para, pela, polo, forma</td><td style="padding:8px 10px;color:#94a3b8;">Acento diferencial eliminado (exceto pôde/pode e pôr/por)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">idéia, heróico, europeu</td><td style="padding:8px 10px;color:#4ade80;">ideia, heroico, europeu</td><td style="padding:8px 10px;color:#94a3b8;">Ditongo aberto em meio de palavra — acento eliminado</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">pôde (passado) / pode (presente)</td><td style="padding:8px 10px;color:#4ade80;">Mantido: pôde × pode</td><td style="padding:8px 10px;color:#94a3b8;">Acento diferencial preservado para distinguir formas verbais</td></tr>
+</tbody></table>`,
     questoes: [
       { enunciado: 'Qual é a separação silábica correta de "psicologia"?', opcoes: ["psi-co-lo-gi-a","p-si-co-lo-gi-a","psi-col-o-gi-a","psi-co-lo-gia"], correta: 0, explicacao: 'psi-co-lo-gi-a: 5 sílabas. O grupo <em>ps</em> permanece unido.' },
       { enunciado: 'Qual palavra é <strong>oxítona</strong>?', opcoes: ["árvore","janela","café","lápis"], correta: 2, explicacao: '"Café" (ca-FÉ): tônica na última sílaba = oxítona.' },
@@ -2512,6 +2597,82 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     ,
       { enunciado: 'A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:', opcoes: ["A classificação das palavras depende da quantidade de letras presentes.", "As palavras oxítonas apresentam a sílaba tônica na última posição.", "A tonicidade é determinada apenas pelo uso de sinais gráficos.", "A posição da sílaba tônica varia conforme o tipo de frase."], correta: 1, explicacao: 'Gabarito: B — Banca: Gama (2026)' }
     ]
+  },
+  // ─────────────────────────────────────────
+  {
+    id: "oxitonas", nome: "Oxítonas", icon: "🔺", desc: "Sílaba tônica na última sílaba",
+    teoria: `<h3>O que é uma Oxítona?</h3>
+<p><strong>Oxítona</strong> é a palavra cuja <strong>sílaba tônica</strong> (mais intensa) está na <strong>última</strong> sílaba. É o oposto da paroxítona.</p>
+<div class="exemplo-box">ca-<strong>FÉ</strong> &nbsp;·&nbsp; so-<strong>FÁ</strong> &nbsp;·&nbsp; tam-<strong>BÉM</strong> &nbsp;·&nbsp; cha-<strong>PÉU</strong> &nbsp;·&nbsp; he-<strong>RÓI</strong> &nbsp;·&nbsp; fa-<strong>LAR</strong> &nbsp;·&nbsp; pa-<strong>PEL</strong></div>
+
+<h3>Oxítonas COM acento gráfico</h3>
+<p>Recebem acento quando terminam em vogal tônica ou ditongo aberto final — porque essas terminações "deveriam" ser paroxítonas sem acento:</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Terminação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-á, -ás</td><td style="padding:8px 10px;color:#fde68a;">sofá, maracá, vatapá, chás</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-é, -és, -ê, -ês</td><td style="padding:8px 10px;color:#fde68a;">café, pé, revés; bebê, você, inglês</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ó, -ós, -ô, -ôs</td><td style="padding:8px 10px;color:#fde68a;">avó, cipó; avô, metrô, metrôs</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ém, -éns</td><td style="padding:8px 10px;color:#fde68a;">também, porém, armazém; parabéns, reféns</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-éu, -éus</td><td style="padding:8px 10px;color:#fde68a;">chapéu, troféu, céu, chapéus</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ói, -óis</td><td style="padding:8px 10px;color:#fde68a;">herói, heróis, lençóis, anéis</td></tr>
+</tbody></table>
+
+<h3>Oxítonas SEM acento gráfico</h3>
+<p>Quando terminam em consoante ou nas vogais -i/-u, a própria terminação já indica que a última sílaba é tônica — acento dispensado:</p>
+<div class="exemplo-box">
+  <strong>-r:</strong> falar, comer, amor, partir &nbsp;·&nbsp; <strong>-l:</strong> papel, animal, azul, sol<br>
+  <strong>-z:</strong> voz, feliz, capaz, nariz &nbsp;·&nbsp; <strong>-i:</strong> aqui, ali, abacaxi<br>
+  <strong>-u:</strong> tabu, bambu, peru, caju &nbsp;·&nbsp; <strong>-im/-ins:</strong> jardim, jardins<br>
+  <strong>-um/-uns:</strong> algum, nenhum, alguns
+</div>
+
+<h3>Oxítonas com ditongo nasal final (sem acento)</h3>
+<p>Oxítonas terminadas em ditongo nasal <strong>não</strong> recebem acento:</p>
+<div class="exemplo-box">
+  saguão, refrão, coração, verão, irmão, limão, avião<br>
+  <em>Atenção: terminam em -ão tônico → oxítonas SEM acento</em><br>
+  Compare: <strong>ór</strong>-gão (paroxítona COM acento) × sa-<strong>guão</strong> (oxítona SEM acento)
+</div>
+<div class="dica-box"><div class="dica-title">Como identificar</div>Conta as sílabas da direita para a esquerda. Se a mais intensa é a 1ª (última da palavra), é oxítona. Terminações -r, -l, -z, -x, -i, -u, -im, -um = oxítonas sem acento. Terminações com vogal acentuada no final = oxítonas com acento.</div>`,
+    questoes: []
+  },
+  // ─────────────────────────────────────────
+  {
+    id: "paroxitonas", nome: "Paroxítonas", icon: "🔸", desc: "Sílaba tônica na penúltima sílaba",
+    teoria: `<h3>O que é uma Paroxítona?</h3>
+<p><strong>Paroxítona</strong> é a palavra cuja <strong>sílaba tônica</strong> está na <strong>penúltima</strong> sílaba. É o padrão mais comum do português — a maioria das palavras sem acento gráfico é paroxítona.</p>
+<div class="exemplo-box"><strong>CA</strong>-sa &nbsp;·&nbsp; <strong>BO</strong>-lo &nbsp;·&nbsp; <strong>JO</strong>-vem &nbsp;·&nbsp; <strong>FÁ</strong>-cil &nbsp;·&nbsp; <strong>VÍ</strong>-rus &nbsp;·&nbsp; <strong>ÓR</strong>-gão &nbsp;·&nbsp; <strong>LÁ</strong>-pis</div>
+
+<h3>Paroxítonas SEM acento gráfico (terminações comuns)</h3>
+<p>Quando a terminação já é o padrão esperado do português, o acento é dispensado:</p>
+<div class="exemplo-box">
+  <strong>-a/-as:</strong> casa, mesas &nbsp;·&nbsp; <strong>-e/-es:</strong> parte, montes &nbsp;·&nbsp; <strong>-o/-os:</strong> livro, carros<br>
+  <strong>-am:</strong> falam, cantam &nbsp;·&nbsp; <strong>-em/-ens:</strong> comem, jovens<br>
+  <strong>-agem/-igem/-ugem:</strong> viagem, origem, ferrugem
+</div>
+
+<h3>Paroxítonas COM acento gráfico</h3>
+<p>Quando a terminação normalmente geraria uma oxítona, o acento é necessário para avisar: <em>"a tônica está na penúltima, não na última."</em></p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Terminação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Por quê?</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-l</td><td style="padding:8px 10px;color:#fde68a;">fácil, fóssil, difícil, útil, réptil</td><td style="padding:8px 10px;color:#94a3b8;">-l sem acento → oxítona (papel)</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-r</td><td style="padding:8px 10px;color:#fde68a;">açúcar, caráter, éter</td><td style="padding:8px 10px;color:#94a3b8;">-r sem acento → oxítona (falar)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-n</td><td style="padding:8px 10px;color:#fde68a;">hífen, abdômen</td><td style="padding:8px 10px;color:#94a3b8;">-n indica paroxítona só com acento</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-x</td><td style="padding:8px 10px;color:#fde68a;">tórax, látex, ônix</td><td style="padding:8px 10px;color:#94a3b8;">-x sem acento → oxítona (fax)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-us</td><td style="padding:8px 10px;color:#fde68a;">vírus, bônus, câmpus, húmus</td><td style="padding:8px 10px;color:#94a3b8;">Terminação incomum → acento obrigatório</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-is</td><td style="padding:8px 10px;color:#fde68a;">lápis, tênis, grátis, oásis</td><td style="padding:8px 10px;color:#94a3b8;">-is sem acento → oxítona (país)</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ão / -ã</td><td style="padding:8px 10px;color:#fde68a;">órgão, bênção; ímã, órfã</td><td style="padding:8px 10px;color:#94a3b8;">-ão/-ã sem acento → oxítona (saguão, refrão)</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ei/-eis</td><td style="padding:8px 10px;color:#fde68a;">jóquei, vôlei, jóqueis</td><td style="padding:8px 10px;color:#94a3b8;">Ditongo final → oxítona esperada; acento avisa paroxítona</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-um/-uns, -on/-ons</td><td style="padding:8px 10px;color:#fde68a;">fórum, álbum; elétron, prótons</td><td style="padding:8px 10px;color:#94a3b8;">Terminações tensas → paroxítona sinalizada</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-i</td><td style="padding:8px 10px;color:#fde68a;">júri, táxi, alibi</td><td style="padding:8px 10px;color:#94a3b8;">-i sem acento → oxítona (aqui)</td></tr>
+</tbody></table>
+
+<h3>Paroxítonas terminadas em ditongo oral — Acordo 2009</h3>
+<p>Antes do Acordo Ortográfico de 2009, paroxítonas terminadas em ditongo aberto (-éi, -éu, -ói) recebiam acento em meio de palavra. Após o Acordo, esse acento foi eliminado:</p>
+<div class="exemplo-box">
+  <strong>Antes:</strong> idéia, heróico, assembléia, alcatéia<br>
+  <strong>Depois (atual):</strong> ideia, heroico, assembleia, alcateia
+</div>
+<div class="dica-box"><div class="dica-title">Macete rápido</div>Paroxítona = penúltima. Palavra sem acento? Provavelmente paroxítona (-a, -e, -o, -em, -agem). Com terminação "estranha" (-l, -r, -n, -x, -us, -ão) + acento? Paroxítona marcada. Com -ão SEM acento (saguão, refrão, limão)? Oxítona!</div>`,
+    questoes: []
   },
   // ─────────────────────────────────────────
   {
