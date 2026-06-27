@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:00:11 — 114 questões incluídas
+// 27/06/2026, 04:07:54 — 115 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -481,6 +481,25 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "ditongos",
                       "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Há hiato em:",
+                "opcoes": [
+                      "emoções",
+                      "fáceis",
+                      "passou",
+                      "saída"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>saída</strong>. Fonte: FUMARC/2016. Assunto: hiatos.",
+                "banca": "FUMARC",
+                "ano": 2016,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
                 ]
           },
           {
@@ -2034,8 +2053,8 @@ var QUESTOES_BANCO = {
                       "I e II.",
                       "I e III. Resposta correta"
                 ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>II.</strong>. Fonte: FCM/2022. Assunto: encontrosConsonantais.",
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I e III. Resposta correta</strong>. Fonte: FCM/2022. Assunto: encontrosConsonantais.",
                 "banca": "FCM",
                 "ano": 2022,
                 "assunto": "Encontros Consonantais",
