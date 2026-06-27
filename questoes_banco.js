@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:52:21 — 229 questões incluídas
+// 27/06/2026, 04:58:02 — 229 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -2712,8 +2712,8 @@ var QUESTOES_BANCO = {
                       "Hiato, ditongo, tritongo.",
                       "Ditongo, ditongo, ditongo."
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
                 "assunto": "Ditongos",
