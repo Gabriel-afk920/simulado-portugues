@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:33:01 — 210 questões incluídas
+// 27/06/2026, 04:47:24 — 229 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -674,6 +674,27 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>hiato, ditongo e hiato.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2023. Assunto: hiatos.",
                 "banca": "LJ Assessoria e Planejamento Administrativo Limita",
                 "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "Em relação aos encontros vocálicos, avaliar se as afirmativas são certas (C) ou erradas (E) e assinalar a sequência correspondente. ( ) “Doer” apresenta hiato. ( ) “Aorta” apresenta ditongo decrescente. ( ) “Enxaguou” apresenta tritongo. ( ) Juízo” apresenta hiato.",
+                "opcoes": [
+                      "C - E - C - C.",
+                      "E - C - E - E.",
+                      "C - E - C - E.",
+                      "E - C - E - C."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>C - E - C - C.</strong>. Fonte: Objetiva Concursos/2025. Assunto: hiatos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
                 "assunto": "Hiatos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -2638,6 +2659,199 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "hiatos"
                 ]
+          },
+          {
+                "enunciado": "Analise a citação abaixo: “(...) pessoas com menor renda ou escolaridade e moradores de áreas rurais.” Na palavra destacada, há a presença de:",
+                "opcoes": [
+                      "Monossílaba;",
+                      "Ditongo;",
+                      "Tritongo;",
+                      "Hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílaba;</strong>. Fonte: Prefeitura de Bombinhas - SC/2026. Assunto: ditongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Saúde também é papo de homem”, observa-se a ocorrência de:",
+                "opcoes": [
+                      "hiato em “homem”",
+                      "hiato na palavra “saúde”.",
+                      "ditongo decrescente em “papo”.",
+                      "ditongo crescente em “também”",
+                      "tritongo em “homem”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>hiato na palavra “saúde”.</strong>. Fonte: Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE/2026. Assunto: ditongos.",
+                "banca": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tia, tédio, biografia), são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tênue, ódio, sua), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Falando-se de encontros vocálicos, as palavras do texto, (rio, caos, dias), são respectivamente:",
+                "opcoes": [
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (rio, lua, dias), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (alegria, diárias, energia), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, hiato, hiato.",
+                      "Hiato, ditongo, tritongo",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Considerando os processos fonológicos, analisar os itens. I. Em “enxáguem”, temos um tritongo nasal. II. Em “papagaio” e “meio”, temos exemplo de tritongo. III. Em “Piauí”, temos dois hiatos e um ditongo. IV. Em “samba” e “antigo”, temos encontro consonantal. Está CORRETO o que se afirma:",
+                "opcoes": [
+                      "Apenas nos itens I e II.",
+                      "Apenas nos itens I e III.",
+                      "Apenas nos itens I, III e IV.",
+                      "Apenas nos itens II, III e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas nos itens I e II.</strong>. Fonte: Objetiva Concursos/2025. Assunto: ditongos.",
+                "banca": "Objetiva Concursos",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "As palavras \"couro\", \"ruído\" e \"Paraguai\" apresentam, correta e respectivamente, os seguintes encontros vocálicos principais:",
+                "opcoes": [
+                      "Ditongo, Ditongo, Hiato",
+                      "Tritongo, Ditongo, Ditongo",
+                      "Ditongo, Hiato, Tritongo",
+                      "Hiato, Hiato, Tritongo"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo, Hiato, Tritongo</strong>. Fonte: Departamento de Água e Esgoto de Bauru - DAE/2025. Assunto: ditongos.",
+                "banca": "Departamento de Água e Esgoto de Bauru - DAE",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
           }
     ],
     "fonemas": [
@@ -3438,6 +3652,29 @@ var QUESTOES_BANCO = {
                       "silabas",
                       "paroxitonas"
                 ]
+          },
+          {
+                "enunciado": "A palavra “pai” apresenta qual encontro vocálico?",
+                "opcoes": [
+                      "Hiato.",
+                      "Ditongo.",
+                      "Um encontro consonantal falso.",
+                      "Tritongo.",
+                      "Dois hiatos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
           }
     ],
     "digrafos": [
@@ -3832,6 +4069,28 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "encontrosConsonantais"
                 ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir e marque a alternativa que apresenta um hiato, um dígrafo, um ditongo crescente e um tritongo respectivamente:",
+                "opcoes": [
+                      "tópico, crônico, ansiolíticos, filósofo",
+                      "saúde, antidepressivos, lobotomia, averiguei.",
+                      "recaía, médico, silêncio, outros.",
+                      "psíquico, deletérios, submetia, cérebro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>tópico, crônico, ansiolíticos, filósofo</strong>. Fonte: Fundação Aroeira - Fundacao Aroeira/2026. Assunto: digrafos.",
+                "banca": "Fundação Aroeira - Fundacao Aroeira",
+                "ano": 2026,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
           }
     ],
     "tritongos": [
@@ -4079,6 +4338,157 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: Instituto Access/2024. Assunto: tritongos.",
                 "banca": "Instituto Access",
                 "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto, (livraria, melodia, mistério, alegria), são:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo, hiato.",
+                      "Ditongo, ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato, hiato.",
+                      "Hiato, ditongo, ditongo, ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (necessário, tatuagem, mágoa), são respectivamente:",
+                "opcoes": [
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, ditongo, tritongo.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “caminhões”, o encontro vocálico “ões” é classificado, na Língua Portuguesa, como",
+                "opcoes": [
+                      "ditongo oral crescente, com a semivogal antes da vogal em uma mesma sílaba da palavra.",
+                      "ditongo nasal decrescente, com vogal seguida de semivogal nasalizada na mesma sílaba tônica.",
+                      "hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.",
+                      "tritongo oral crescente, com semivogal, vogal e semivogal organizadas em uma só sílaba.",
+                      "encontro consonantal inicial, formado pela união de duas consoantes na mesma sílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>hiato entre duas vogais iguais, que ficam em sílabas diferentes e formam duas pronúncias separadas.</strong>. Fonte: Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE/2026. Assunto: tritongos.",
+                "banca": "Fundação de Apoio à Cultura, à Pesquisa e ao Desenvolvimento Institucional, Científico e Tecnológico - CETREDE",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (surpreendente, simplória, vocabulário), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto (princípio, infância, convívio) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato.",
+                      "Hiato, ditongo, tritongo.",
+                      "Ditongo, ditongo, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (profissional, cirurgias, continuará), são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, ditongo, tritongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, hiato, hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2026,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Leia o texto para responder à próxima questão. O verbo amar. (J.G. de Araújo Jorge). Te amei: era de longe que te olhava e de longe me olhavas vagamente... Ah, quanta coisa nesse tempo a gente sente, que a alma da gente faz escrava. Te amava: como inquieto adolescente, tremendo ao te enlaçar, e te enlaçava adivinhando esse mistério ardente do mundo, em cada beijo que te dava. Te amo: e ao te amar assim, vou conjugando os tempos todos desse amor, enquanto segue a vida, vivendo, e eu, vou te amando... Te amar: é mais que um verbo, é a minha lei, e é por ti que o repito no meu canto: te amei, te amava, te amo e te amarei! Em se tratando de encontros vocálicos, as palavras do texto (coisa, beijo, lei) são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, tritongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MS Concursos/2025. Assunto: tritongos.",
+                "banca": "MS Concursos",
+                "ano": 2025,
                 "assunto": "tritongos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
