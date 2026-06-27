@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 27/06/2026, 04:07:54 — 115 questões incluídas
+// 27/06/2026, 04:12:59 — 210 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -560,6 +560,120 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MSConcursos/2024. Assunto: hiatos.",
                 "banca": "MSConcursos",
                 "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
+                ]
+          },
+          {
+                "enunciado": "O conjunto de palavras formadas por hiatos encontra-se em:",
+                "opcoes": [
+                      "Entrou / animais.",
+                      "Manguezal / período.",
+                      "Realizadas / apreendido.",
+                      "Reprodução / dia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Realizadas / apreendido.</strong>. Fonte: FADESP/2024. Assunto: hiatos.",
+                "banca": "FADESP",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "As palavras do poema (vieste, poeta, Anchieta), são respectivamente:",
+                "opcoes": [
+                      "Hiato / hiato / hiato.",
+                      "Hiato / hiato / ditongo.",
+                      "Ditongo / ditongo / ditongo.",
+                      "Hiato / ditongo / hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato / hiato / hiato.</strong>. Fonte: MSConcursos/2021. Assunto: hiatos.",
+                "banca": "MSConcursos",
+                "ano": 2021,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item subsequente.\nDevido à regra do “i” e “u” hiatos tônicos, devem ser acentuados os vocábulos “saúde”, “juízo” e “taínha”.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: hiatos.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale qual das palavras abaixo apresenta um hiato.",
+                "opcoes": [
+                      "Menos.",
+                      "Problemas.",
+                      "Devia.",
+                      "Ter."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Devia.</strong>. Fonte: ICECE/2023. Assunto: hiatos.",
+                "banca": "ICECE",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Com base nos aspectos linguísticos, de estrutura e de conteúdo, julgue o item.\nO vocábulo “raízes” (linha 9) recebeu acento em obediência à conhecida “regra do hiato”, assim como a palavra “democráticas” (linha 21).\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2023. Assunto: hiatos.",
+                "banca": "Quadrix",
+                "ano": 2023,
+                "assunto": "Hiatos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Nos vocábulos “rio”, “peito” e “moído”, os encontros vocálicos que ocorrem são classificados, na ordem em que aparecem, como",
+                "opcoes": [
+                      "hiato, ditongo e hiato.",
+                      "ditongo, ditongo e hiato.",
+                      "hiato, tritongo e hiato.",
+                      "tritongo, hiato e tritongo.",
+                      "ditongo, tritongo e ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hiato, ditongo e hiato.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2023. Assunto: hiatos.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limita",
+                "ano": 2023,
                 "assunto": "Hiatos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -1621,6 +1735,909 @@ var QUESTOES_BANCO = {
                       "digrafos",
                       "silabas"
                 ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (louco, noite, cuida) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo.",
+                      "Ditongo, ditongo, tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir: I. A palavra “milênio” tem um encontro vocálico do tipo ditongo. II. As palavras “pontiagudo” e “errôneo” têm dígrafos. III. “Herdeiro” e “canetada” têm o mesmo número de letras, mas não de fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes afirmações sobre o texto: I. A palavra \"vieses\" apresenta um encontro vocálico. II. A palavra \"online\" é um exemplo de estrangeirismo adaptado à ortografia da língua portuguesa. III. O dígrafo que ocorre na palavra \"imagens\" é identificado pela combinação \"ns\" que representa um único som. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I, II e III.",
+                      "III, apenas.",
+                      "I, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: IDESG/2024. Assunto: ditongos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "As palavras iugoslavo, rastaquera e introito são consideradas ditongos. Diante do exposto, assinale a alternativa que apresenta a respectiva classificação dos ditongos.",
+                "opcoes": [
+                      "Ditongo decrescente, ditongo crescente, ditongo crescente",
+                      "Ditongo crescente, ditongo crescente, ditongo crescente",
+                      "Ditongo crescente, ditongo crescente e ditongo decrescente",
+                      "Ditongo crescente, ditongo decrescente, ditongo decrescente",
+                      "Ditongo crescente, ditongo decrescente, ditongo crescente"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo crescente, ditongo crescente e ditongo decrescente</strong>. Fonte: IBFC/2024. Assunto: ditongos.",
+                "banca": "IBFC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "As palavras destacadas do texto 1: saída, pesquisa, boas, travesseiro e iguais apresentam, respectivamente:",
+                "opcoes": [
+                      "hiato, ditongo, ditongo, tritongo e ditongo.",
+                      "ditongo, tritongo, hiato, ditongo e tritongo.",
+                      "hiato, hiato, ditongo, ditongo e hiato.",
+                      "ditongo, hiato, ditongo, hiato e tritongo.",
+                      "hiato, ditongo, hiato, ditongo e tritongo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>hiato, ditongo, hiato, ditongo e tritongo.</strong>. Fonte: FEPESE/2024. Assunto: ditongos.",
+                "banca": "FEPESE",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta ditongo decrescente.",
+                "opcoes": [
+                      "Muito.",
+                      "Cerrado.",
+                      "Iguais.",
+                      "Baú."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Muito.</strong>. Fonte: OBJETIVA/2024. Assunto: ditongos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (muito, saudades, noite) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo.",
+                      "Hiato, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de encontros vocálicos, as palavras do texto (céu, meu, outra) são respectivamente:",
+                "opcoes": [
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo.",
+                      "Hiato, ditongo, ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No tocante aos encontros vocálicos sublinhados, é correto afirmar que",
+                "opcoes": [
+                      "“águia” tem um tritongo.",
+                      "“rainha” tem um ditongo decrescente.",
+                      "“piavam” tem um hiato.",
+                      "“chorou” tem um ditongo crescente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“piavam” tem um hiato.</strong>. Fonte: UECE-CEV/2023. Assunto: ditongos.",
+                "banca": "UECE-CEV",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta encontro vocálico?",
+                "opcoes": [
+                      "desmaio",
+                      "debaixo",
+                      "cravo",
+                      "brigou",
+                      "chorar"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>debaixo</strong>. Fonte: CONTEMAX/2024. Assunto: ditongos.",
+                "banca": "CONTEMAX",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Imagem associada para resolução da questão Quando o filho chegou em casa, a mãe preocupada quis logo saber o motivo de ela ter recebido um recadinho da professora. – A professora disse que lhe fez perguntas hoje e você não respondeu nada. – Mãe, só estava seguindo ordens. – Ordens? De quem? – Suas. – Minhas? E que ordens são essas? – De nunca responder à professora. De acordo com as palavras do texto, marque a alternativa onde temos um ditongo.Mãe.",
+                "opcoes": [
+                      "Mãe.",
+                      "Suas.",
+                      "Preocupada.",
+                      "Ordens."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mãe.</strong>. Fonte: MSConcursos/2022. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2022,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “mamão” contém um encontro vocálico do tipo ditongo. Assinale a alternativa em que a palavra também contenha esse tipo de encontro vocálico.",
+                "opcoes": [
+                      "Cinema.",
+                      "Gateiro.",
+                      "Sincero.",
+                      "Paraguai.",
+                      "Salsicha."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Gateiro.</strong>. Fonte: FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "\"Ambiente\" e \"atual\" apresentam qual tipo de encontro vocálico, respectivamente?",
+                "opcoes": [
+                      "Hiato e hiato",
+                      "Ditongo e ditongo",
+                      "Hiato e ditongo",
+                      "Ditongo e hiato"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato e hiato</strong>. Fonte: DAE de Bauru - SP/2024. Assunto: ditongos.",
+                "banca": "DAE de Bauru - SP",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Quanto a encontros vocálicos, especificamente sobre os ditongos, segundo nos ensina Bechara, são feitas as seguintes afirmações: I. Ditongo é o encontro de uma vogal e de uma semivogal, ou vice-versa, na mesma sílaba. Sendo a vogal a base da sílaba ou o elemento silábico, é ela o som vocálico que, no ditongo, se ouve distintamente. II. Os ditongos podem ser crescentes e decrescentes (dependendo da posição da vogal e da semivogal), orais e nasais (dependendo se fechados ou abertos). III. Os ditongos, como os demais encontros vocálicos, podem ocorrer no interior da palavra (ditos intraverbais) ou pela aproximação, por fonética sintática, de duas ou mais palavras (ditos interverbais). Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Leia a seguinte passagem do texto III. “Com cerca de 20 centímetros de altura, o mamífero originalmente habitava o estado do Rio de Janeiro até o litoral, conforme relatos dos séculos 16 e 17. Hoje, no entanto, ocorre apenas no interior do estado, na região chamada bacia do rio São João, principalmente em Rio das Ostras, Cabo Frio e Macaé.” Sobre os aspectos ortográficos, analise as afirmativas a seguir. I. A expressão “Rio de Janeiro” contém um hiato no vocábulo “Rio” e um ditongo na palavra “Janeiro”. II. “Rio das Ostras”, “Cabo Frio” e “Macaé” estão escritas com iniciais maiúsculas porque indicam nomes de cidades mineiras. III. Os termos “centímetros”, “habitava”, “mamífero”, “litoral” e “chamada” estão grafadas com iniciais minúsculas porque exemplificam adjetivos. Está(ão) correta(s) a(s) afirmativa(s)",
+                "opcoes": [
+                      "I, apenas.",
+                      "III, apenas.",
+                      "I e II, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2024. Assunto: ditongos.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Sobre encontros vocálicos, conforme Bechara, analise as assertivas. I. Os ditongos, encontro de uma vogal e de uma semivogal, ou vice-versa, na mesma sílaba, podem ocorrer no interior da palavra, ou pela aproximação, por fonética sintática, de duas ou mais palavras. II. O encontro de duas vogais em sílabas diferentes por guardarem sua individualidade fonética é chamado hiato. Isto se dá porque a passagem da primeira para a segunda se faz mediante um movimento brusco, com interrupção da voz. III. Os tritongos representam o encontro de duas vogais e de uma semivogal numa mesma sílaba. Nos tritongos nasais, a última semivogal sempre vem representada graficamente, como em “minguam”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmações sobre os elementos linguísticos presentes no texto I: ( ) Na primeira sílaba da palavra “automação” há um ditongo decrescente, enquanto que, em “europeia”, um ditongo crescente. ( ) No primeiro parágrafo, “inteligência artificial” foi usado como sinônimo de “automação”. ( ) Os vocábulos “consequências”, “economia” e “notícias” são considerados polissílabos. ( ) Na frase: “Felizmente, nem tudo são más notícias”, caso a palavra destacada fosse substituída por “anúncio”, além das adaptações de concordância verbal, o adjetivo anterior seria substituído pelo vocábulo “mal”. Considerando-se V para as afirmativas verdadeiras e F para as falsas, pode-se dizer que a sequência correta é:",
+                "opcoes": [
+                      "V – V – F – F",
+                      "F – F – V – V",
+                      "F – V – V – F",
+                      "F – V – V – V",
+                      "F – V – F – F"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>F – V – F – F</strong>. Fonte: ISET/2024. Assunto: ditongos.",
+                "banca": "ISET",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (paixão, roubadas, coisas) são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (cio, pão, chão) são respectivamente:",
+                "opcoes": [
+                      "Hiato, ditongo, ditongo",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo.",
+                      "Hiato, ditongo, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, ditongo, ditongo</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (bandeira, saudade) são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo.",
+                      "Hiato, hiato.",
+                      "Ditongo, hiato.",
+                      "Hiato, ditongo.",
+                      "Ditongo, tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (eis, céu, meu) são respectivamente:",
+                "opcoes": [
+                      "Ditongo, ditongo, ditongo.",
+                      "Hiato, hiato, hiato.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em se tratando de encontros vocálicos, as palavras do texto (companhia, coisa, feito) são respectivamente:",
+                "opcoes": [
+                      "Hiato, ditongo, ditongo.",
+                      "Ditongo, ditongo, ditongo.",
+                      "Ditongo, ditongo, hiato.",
+                      "Hiato, hiato, hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Hiato, ditongo, ditongo.</strong>. Fonte: MSConcursos/2024. Assunto: ditongos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Dígrafos e encontros vocálicos são diferenciados pelos seus sons. Sobre essas diferenças, relacionar as colunas e assinalar a sequência correspondente. (1) Dígrafo. (2) Encontro vocálico. ( ) Disjuntivo. ( ) Querido. ( ) Baú. ( ) Casais.",
+                "opcoes": [
+                      "1 - 1 - 1 - 2.",
+                      "2 - 1 - 2 - 1.",
+                      "2 - 2 - 1 - 2.",
+                      "1 - 1 - 2 - 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>1 - 1 - 2 - 2.</strong>. Fonte: OBJETIVA/2024. Assunto: ditongos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Os encontros vocálicos ocorrem quando uma palavra tem o som de duas ou mais vogais em sequência, mesmo que em sílabas separadas. A alternativa que apresenta a correlação adequada entre o encontro vocálico destacado e sua respectiva classificação é:",
+                "opcoes": [
+                      "“[...] sofrem preconceito em decorrência de sua raça [...]” – ditongo crescente.",
+                      "“[...] para nossas sociedades e para a economia” – hiato.",
+                      "“O trabalho de cuidado é essencial” – ditongo decrescente.",
+                      "“[...] compõem dois terços da força de trabalho [...]” – hiato.",
+                      "“[...] pessoas com doenças e deficiências físicas e mentais [...]” – tritongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“[...] para nossas sociedades e para a economia” – hiato.</strong>. Fonte: IDECAN/2024. Assunto: ditongos.",
+                "banca": "IDECAN",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra tem um encontro vocálico?",
+                "opcoes": [
+                      "Brigadeiro.",
+                      "Chocolate.",
+                      "Doce.",
+                      "Pó.",
+                      "Favorito."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Brigadeiro.</strong>. Fonte: FUNDATEC/2024. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que ocorre ditongo:",
+                "opcoes": [
+                      "Navio.",
+                      "Saguão.",
+                      "Peixe.",
+                      "Saída."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Peixe.</strong>. Fonte: OBJETIVA/2023. Assunto: ditongos.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta um ditongo:",
+                "opcoes": [
+                      "beijo",
+                      "calça",
+                      "cabelo",
+                      "maestro"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>beijo</strong>. Fonte: Prefeitura de Bombinhas - SC/2021. Assunto: ditongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2021,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Ditongos, tritongos e hiatos são os nomes dados aos encontros vocálicos da língua portuguesa. Em qual das alternativas a seguir o exemplo de cada um desses encontros está correto?",
+                "opcoes": [
+                      "SAÚDE contém um hiato, RAINHA possui um ditongo, e LEIGO apresenta um tritongo.",
+                      "MEIGO contém um hiato, ÁGUA possui um ditongo, e PAÍS apresenta um tritongo.",
+                      "SAÚDE contém um hiato, ÁGUA possui um ditongo, e QUAIS apresenta um tritongo.",
+                      "MAGIA contém um hiato, ALAÚDE possui um ditongo, e QUAIS apresenta um tritongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>SAÚDE contém um hiato, ÁGUA possui um ditongo, e QUAIS apresenta um tritongo.</strong>. Fonte: GUALIMP/2021. Assunto: ditongos.",
+                "banca": "GUALIMP",
+                "ano": 2021,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Esta questão incide sobre o 2º parágrafo do texto e avalia conhecimentos sobre acentuação gráfica, fonemas, encontros vocálicos e dígrafos. Sendo assim, assinale a alternativa correta.",
+                "opcoes": [
+                      "Em “comportamento” e “pensam”, o grafema “m” representa, nas sílabas destacadas, a nasalidade das vogais que a antecedem, formando ditongos nasais.",
+                      "A palavra “reunem” deveria receber acento gráfico (“reúnem”), porque o “u” não forma ditongo com a vogal anterior e não forma sílaba com a consoante seguinte.",
+                      "Em “agentes”, “singulares” e “investigam”, o grafema “g” representa um mesmo fonema: /9/.",
+                      "Em “enquanto” e “Quântico”, a sequência “qu” representa digrafo.",
+                      "Em “reunem”, a última sílaba contém um digrafo nasal."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra “reunem” deveria receber acento gráfico (“reúnem”), porque o “u” não forma ditongo com a vogal anterior e não forma sílaba com a consoante seguinte.</strong>. Fonte: Fundação FAPEC/2021. Assunto: ditongos.",
+                "banca": "Fundação FAPEC",
+                "ano": 2021,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "fonemas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a ÚNICA alternativa abaixo em que a palavra apresenta um encontro vocálico.",
+                "opcoes": [
+                      "Chegou",
+                      "Nada",
+                      "Legal",
+                      "Comigo",
+                      "Cavalo"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chegou</strong>. Fonte: ADVISE/2021. Assunto: ditongos.",
+                "banca": "ADVISE",
+                "ano": 2021,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "“Tenho plena consciência de que cada vez que tiro foto com um leitor numa sessão de autógrafos, aquela foto estará no Facebook em poucos segundos.”. Ao analisar os encontros vocálicos presentes nas palavras destacadas no trecho do Texto acima, é correto afirmar que",
+                "opcoes": [
+                      "na palavra “consciência” temos um ditongo oral decrescente.",
+                      "na palavra “sessão” temos um ditongo nasal decrescente.",
+                      "na palavra “autógrafos” temos um ditongo oral crescente.",
+                      "na palavra “leitor” temos um hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>na palavra “sessão” temos um ditongo nasal decrescente.</strong>. Fonte: Instituto Darwin/2024. Assunto: ditongos.",
+                "banca": "Instituto Darwin",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "“Farei o possível para entrar nele com o pé direito, mas, quando perceber, ele é que terá entrado em mim, não dará para recuar.”. Ao analisar os encontros vocálicos presentes nas palavras destacadas no trecho do Texto acima, é correto afirmar que",
+                "opcoes": [
+                      "na palavra “direito” temos um ditongo oral crescente.",
+                      "na palavra “possível” temos um ditongo oral decrescente.",
+                      "na palavra “recuar” temos um ditongo oral crescente.",
+                      "na palavra “possível” temos um hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>na palavra “possível” temos um ditongo oral decrescente.</strong>. Fonte: Instituto Darwin/2024. Assunto: ditongos.",
+                "banca": "Instituto Darwin",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras sublinhadas têm ao menos um ditongo.",
+                "opcoes": [
+                      "Ministros e ministras atuarão nas duas comunidades da paróquia e no Santuário de Azambuja.",
+                      "Com o acesso garantido à Série B do Campeonato Brasileiro de 2024, o Brusque já se movimenta para a montagem do elenco, com saídas e renovações de contratos.",
+                      "Nossa infraestrutura e tecnologia atendem às maiores e mais importantes marcas do ramo têxtil com uma capacidade produtiva de 700 toneladas por mês.",
+                      "Segundo informações preliminares do Corpo de Bombeiros, as construções foram evacuadas e não há feridos.",
+                      "A Fenarreco é uma das festas mais tradicionais do sul do país e foi inspirada pela festa alemã, mas tem a sua própria história com muita comida e cultura."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>A Fenarreco é uma das festas mais tradicionais do sul do país e foi inspirada pela festa alemã, mas tem a sua própria história com muita comida e cultura.</strong>. Fonte: FEPESE/2024. Assunto: ditongos.",
+                "banca": "FEPESE",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras destacadas quanto aos encontros vocálicos, encontros consonantais, dígrafos, divisão silábica e acentuação, e responda: Qual das alternativas abaixo descreve corretamente a análise das duas palavras?",
+                "opcoes": [
+                      "Sussurra apresenta 1 dígrafo apenas e acrescentava apresenta dois.",
+                      "Infância e difícil são acentuadas por serem paroxítonas com as terminações previstas na norma padrão.",
+                      "Quando e palhaço apresentam dígrafos qu e lh.",
+                      "Restaurante é oxítona e será é monossílabo tônico, por isso é acentuada.",
+                      "Funcionário apresenta ditongo crescente e você é monossílabo tônico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Infância e difícil são acentuadas por serem paroxítonas com as terminações previstas na norma padrão.</strong>. Fonte: Instituto Darwin/2023. Assunto: ditongos.",
+                "banca": "Instituto Darwin",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "São palavras em que ocorrem encontros vocálicos:",
+                "opcoes": [
+                      "Canto – Morto.",
+                      "Motoqueiro – Sua.",
+                      "Passava – Com.",
+                      "Moto – Por.",
+                      "Uma – Passarinho."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Motoqueiro – Sua.</strong>. Fonte: ADVISE/2024. Assunto: ditongos.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “meteorologista”, há ______ sílabas e um encontro vocálico do tipo _____. Qual alternativa preenche, CORRETA e respectivamente, as lacunas acima?",
+                "opcoes": [
+                      "7 sílabas; ditongo.",
+                      "7 sílabas; hiato.",
+                      "6 sílabas; hiato.",
+                      "6 sílabas; ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>7 sílabas; hiato.</strong>. Fonte: Instituto Fênix/2023. Assunto: ditongos.",
+                "banca": "Instituto Fênix",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta um ditongo:",
+                "opcoes": [
+                      "País.",
+                      "Saguão.",
+                      "Saída.",
+                      "Pouco."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pouco.</strong>. Fonte: OBJETIVA/2023. Assunto: ditongos.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item que se segue.\nO acento circunflexo em “ênfase” é usado para indicar a ocorrência de um ditongo.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: ditongos.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra na qual haja encontro vocálico.",
+                "opcoes": [
+                      "Zumbi.",
+                      "Novembro.",
+                      "Resistência.",
+                      "Controverso.",
+                      "Líder."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Resistência.</strong>. Fonte: FUNDATEC/2023. Assunto: ditongos.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "São exemplos de utilização do \"X\" depois de ditongos os seguintes vocábulos: caixa, deixa e peixe.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: ditongos.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua ditongo:",
+                "opcoes": [
+                      "acidente.",
+                      "emergência.",
+                      "saído.",
+                      "hospital.",
+                      "falha."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>emergência.</strong>. Fonte: FAU/2023. Assunto: ditongos.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Um único dia sem tomar remédios como os usados no tratamento de depressão e ansiedade altera sinais químicos do cérebro. Assinale a opção cujos vocábulos contenham apenas encontros vocálicos.",
+                "opcoes": [
+                      "usados - tratamento - depressão.",
+                      "dia - tomar - remédios.",
+                      "sinais - químicos - cérebro.",
+                      "dia - remédios - sinais.",
+                      "depressão - ansiedade - sinais."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>dia - remédios - sinais.</strong>. Fonte: Unesc/2023. Assunto: ditongos.",
+                "banca": "Unesc",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Leia o texto a seguir, início do capítulo “O Homem Sábio”, constante do livro 1822, de Laurentino Gomes (São Paulo: Globo, 2015 p. 143, adaptado): Dois anos depois da Independência do Brasil, José Bonifácio de Andrada e Silva pediu autorização ao rei dom João VI para voltar a Santos, cidade em que nascera, no litoral paulista. Depois de viver muitos anos na Europa, sentia-se velho e cansado. De acordo com sua psicologia, queria morrer em paz ao lado dos familiares. Como era funcionário graduado da coroa portuguesa, dependia de aprovação para continuar a receber seus vencimentos no Brasil. Os pedidos, insistentes, se repetiam havia uma década, contudo eram sempre negados. “Estou doente, aflito e cansado”, queixava-se a dom Rodrigo de Sousa Coutinho, futuro conde de Linhares, já em 26 de maio de 1806. “Logo que acabe meu tempo em Coimbra, vou deitar-me sem mágoa aos pés de Sua Alteza Real (o príncipe regente dom João) para que me deixe ir acabar o resto dos meus cansados dias nos vácuos dos sertões do Brasil a cultivar o que é meu”. Assinale a alternativa INCORRETA a respeito de encontros vocálicos e consonantais do texto:",
+                "opcoes": [
+                      "Apresentam ditongos nasais as seguintes palavras: “repetiam”, “autorização”, “muitos”.",
+                      "Apresentam ditongos decrescentes as seguintes palavras: “depois”, “Sousa”, “deixe”.",
+                      "Apresentam encontros consonantais perfeitos as seguintes palavras: “psicologia”, “Rodrigo”, “Brasil”.",
+                      "Apresentam encontros consonantais imperfeitos as seguintes palavras: “voltar”, “cansados”, “Alteza”.",
+                      "Apresentam ditongos crescentes as seguintes palavras: “Bonifácio”, “vácuos”, “mágoa”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apresentam encontros consonantais imperfeitos as seguintes palavras: “voltar”, “cansados”, “Alteza”.</strong>. Fonte: COMVEST UFAM/2023. Assunto: ditongos.",
+                "banca": "COMVEST UFAM",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Como se denomina o encontro vocálico presente na palavra \"coitadas\"?",
+                "opcoes": [
+                      "Ditongo.",
+                      "Tritongo.",
+                      "Hiato.",
+                      "Não há encontro vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ditongo.</strong>. Fonte: Instituto Fênix/2023. Assunto: ditongos.",
+                "banca": "Instituto Fênix",
+                "ano": 2023,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
           }
     ],
     "fonemas": [
@@ -1710,6 +2727,43 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "hiatos",
                       "silabas"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item subsequente.\nA identificação e a classificação dos fonemas na língua portuguesa podem ser realizadas com precisão sem a necessidade de distinguir entre sons vocálicos e consonantais, uma vez que todos os fonemas compartilham propriedades acústicas e articulatórias semelhantes.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: fonemas.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Fonemas",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Em relação aos vocábulos salientados no texto, de acordo com Bechara, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas. ( ) Segundo o referido autor, algumas consoantes são grafadas com a mesma letra, fato que provoca dúvidas ortográficas; por outro lado, há letras que representam mais de um fonema, como é o caso da letra “x” em “complexo” (l. 01). ( ) São vogais nasais as que, em sua produção, ressoam nas fossas nasais. É um fenômeno de ressonância e não da saída do ar, o que opõe os fonemas orais aos nasais. Essa produção se evidencia no vocábulo “fundamentais” (linha 03). ( ) No português brasileiro, há tendência para inclusão de uma vogal epentética entre as consoantes desses encontros, de que decorre a pronúncia “adapitabilidade” (l. 02). A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V.",
+                      "V – F – V.",
+                      "F – V – F.",
+                      "V – F – F.",
+                      "F – F – V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V – V – V.</strong>. Fonte: FUNDATEC/2024. Assunto: fonemas.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
                 ]
           }
     ],
@@ -2095,6 +3149,327 @@ var QUESTOES_BANCO = {
                       "silabas",
                       "fonemas"
                 ]
+          },
+          {
+                "enunciado": "Em se tratando do Texto 1, os grupos de letras encontrados nas palavras “lavoura”, “repentista” e “pressas” são, respectivamente, chamados de",
+                "opcoes": [
+                      "ditongo e encontros consonantais inseparáveis.",
+                      "ditongos e encontros consonantais inseparáveis e separáveis.",
+                      "ditongo, dígrafo, encontros consonantais separáveis, encontro consonantal inseparável e dígrafos.",
+                      "encontros vocálicos e dígrafos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ditongo, dígrafo, encontros consonantais separáveis, encontro consonantal inseparável e dígrafos.</strong>. Fonte: Instituto Access/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise foneticamente a palavra “desconhecidos”. Ela apresenta:",
+                "opcoes": [
+                      "Apenas dígrafo.",
+                      "Apenas encontro consonantal.",
+                      "Dígrafo e ditongo aberto.",
+                      "Dígrafo e encontro consonantal.",
+                      "Nem dígrafo, nem encontro consonantal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Dígrafo e encontro consonantal.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A relação do motorista de aplicativo com a plataforma é um vínculo de emprego? Ou ele é um trabalhador independente que contrata a tecnologia dessas empresas? Assinale a opção que contenha encontro consonantal e vocálico, simultaneamente, em pelo menos um dos vocábulos.",
+                "opcoes": [
+                      "aplicativo - plataforma",
+                      "um - que",
+                      "de - ou",
+                      "tecnologia - dessas",
+                      "motorista - trabalhador"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>tecnologia - dessas</strong>. Fonte: AMAUC/2024. Assunto: encontrosConsonantais.",
+                "banca": "AMAUC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho do texto I a seguir. “[...] o biólogo e psicólogo Oskar Pfungst decidiu testar as habilidades do cavalo em diferentes condições: usando outras pessoas para questionar Hans; isolando o questionador e o cavalo do público; variando se Hans podia ver o questionador ou não; e até se o questionador sabia as respostas ou não.” Com relação aos aspectos ortográficos, assinale a alternativa correta.",
+                "opcoes": [
+                      "Os substantivos “biólogo” e “psicólogo possuem número diferente de sílabas gramaticais.",
+                      "As palavras escritas com letras iniciais maiúsculas indicam nomes de altos cargos profissionais.",
+                      "O termo “questionador” apresenta na sua grafia um dígrafo, um ditongo e um encontro consonantal, entre outros.",
+                      "A ordem alfabética certa dos vocábulos da frase “testar as habilidades do cavalo” é: as; do; cavalo; habilidades; testar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O termo “questionador” apresenta na sua grafia um dígrafo, um ditongo e um encontro consonantal, entre outros.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Analise a separação silábica, a classificação tônica e os encontros vocálicos e consonantais e assinale a alternativa em que ocorre falha:",
+                "opcoes": [
+                      "pe-tró-leo / paroxítona / encontro consonantal(tr) / ditongo(eo).",
+                      "res-pec-ti-va-men-te / paroxitona / encontro consonantal (ct) / dígrafo (men).",
+                      "cor-ro-bo-ran-do / paroxítona / encontro consonantal(rr) / digrafo(an).",
+                      "So-vi-é-ti-ca / proparoxitona / hiato(i-é)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cor-ro-bo-ran-do / paroxítona / encontro consonantal(rr) / digrafo(an).</strong>. Fonte: Fundação CETAP/2021. Assunto: encontrosConsonantais.",
+                "banca": "Fundação CETAP",
+                "ano": 2021,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das seguintes palavras apresenta encontro vocálico e encontro consonantal?",
+                "opcoes": [
+                      "Próximo.",
+                      "Cuidado.",
+                      "Brasileiros.",
+                      "Tarefas.",
+                      "Movimento."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brasileiros.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "'O planeta Terra talvez continuasse fazendo parte da Via Láctea'. É CORRETO afirmar que o vocábulo:",
+                "opcoes": [
+                      "'Láctea' apresenta um encontro consonantal e dois vocálicos.",
+                      "'planeta' possui um encontro vocálico e um consonantal.",
+                      "'continuasse' possui um encontro consonantal, um vocálico e um dígrafo.",
+                      "'terra' consiste de um encontro consonantal e um dígrafo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>'continuasse' possui um encontro consonantal, um vocálico e um dígrafo.</strong>. Fonte: AMEOSC/2022. Assunto: encontrosConsonantais.",
+                "banca": "AMEOSC",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra que contém um encontro consonantal é:",
+                "opcoes": [
+                      "Legado.",
+                      "Piloto.",
+                      "Velório.",
+                      "Coração.",
+                      "Esporte."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Esporte.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Considerando os processos fonológicos e de formação de palavras da Língua Portuguesa, analise as assertivas a seguir: I.    As palavras “amanhecido” e “expatriado” são formadas por derivação parassintética. II.   A palavra “companhia” contém um encontro consonantal e um dígrafo. III. “Padaria” é uma palavra que contém um ditongo aberto. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “programação”, os elementos sublinhados constituem um exemplo de:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Encontro consonantal perfeito.",
+                      "Encontro consonantal imperfeito.",
+                      "Ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Encontro consonantal perfeito.</strong>. Fonte: Instituto Fênix/2023. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Fênix",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "São palavras da narrativa acima que apresentam, ambas, tanto encontro vocálico quanto encontro consonantal:",
+                "opcoes": [
+                      "Confiança – Estacionamento.",
+                      "Granada – Com.",
+                      "Rompante – Puxou.",
+                      "Jogou – Fogo.",
+                      "Extintor – Nervosa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Confiança – Estacionamento.</strong>. Fonte: ADVISE/2022. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "O vocábulo ‘distraído’ , presente no texto II, apresenta, na sequência:",
+                "opcoes": [
+                      "um dígrafo e um encontro consonantal.",
+                      "um dífono e um ditongo.",
+                      "um encontro consonantal e um hiato.",
+                      "um hiato e um ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um encontro consonantal e um hiato.</strong>. Fonte: Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A combinação das letras no vocábulo ‘oxigênio’ apresenta.",
+                "opcoes": [
+                      "um encontro consonantal.",
+                      "um dígrafo.",
+                      "um hiato.",
+                      "um dífono."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>um dífono.</strong>. Fonte: Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Outra razão bastante frequente para o abandono dos medicamentos são os efeitos indesejados sobre o corpo. Em relação a questões ortográficas, é correto afirmar que, no vocábulo:",
+                "opcoes": [
+                      "'bastante', há um encontro vocálico e dois encontros consonantais.",
+                      "'outra', há encontro vocálico seguido de encontro consonantal.",
+                      "'medicamentos', tem-se dois encontros consonantais.",
+                      "'indesejados', não há encontro vocálico nem encontro consonantal.",
+                      "'frequente', percebe-se a presença de dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>'outra', há encontro vocálico seguido de encontro consonantal.</strong>. Fonte: Unesc/2023. Assunto: encontrosConsonantais.",
+                "banca": "Unesc",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque o que não se comprova no segmento transcrito a seguir: “Por obrigação profissional e por obsessão nas horas vagas, costumo conversar muito sobre livros”.",
+                "opcoes": [
+                      "A frase está estruturada com hipérbato ou inversão.",
+                      "A palavra: “obrigação” está escrita com encontro consonantal e ditongo nasal.",
+                      "A expressão “nas horas vagas” tem sentido adverbial de tempo, formado de contração prepositiva, substantivo e adjetivo no feminino plural.",
+                      "A única oração do segmento está escrita com sujeito elíptico; verbos de primeira conjugação formando locução verbal; antítese de pouco; preposição essencial dissílaba paroxítona com encontro consonantal, e um dissílabo paroxítono que tem “biblioteca” como seu coletivo.",
+                      "A frase está escrita com exemplo de gradação e pleonasmo vicioso."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>A frase está escrita com exemplo de gradação e pleonasmo vicioso.</strong>. Fonte: MS Concursos e Consultoria/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Concursos e Consultoria",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "silabas",
+                      "paroxitonas"
+                ]
           }
     ],
     "digrafos": [
@@ -2224,6 +3599,270 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "digrafos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No trecho “O primeiro texto que publiquei em jornal foi uma crônica. Devia ter eu lá uns 16 ou 17 anos. E aí fui tomando gosto. Dos jornais de Juiz de Fora, passei para os jornais e revistas de Belo Horizonte...”. As palavras sublinhadas no trecho, apresentam, respectivamente,",
+                "opcoes": [
+                      "ditongo decrescente / tritongo / dígrafo.",
+                      "tritongo / ditongo crescente / dígrafo.",
+                      "dígrafo / hiato / ditongo crescente.",
+                      "ditongo crescente / tritongo / dígrafo.",
+                      "dígrafo / hiato / hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>ditongo decrescente / tritongo / dígrafo.</strong>. Fonte: FUNCEPE/2024. Assunto: digrafos.",
+                "banca": "FUNCEPE",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “Deixando” (linha 1 do texto) possui:",
+                "opcoes": [
+                      "Um dígrafo nasal e um hiato.",
+                      "Um dígrafo nasal e um ditongo.",
+                      "Um dígrafo nasal e um dígrafo comum.",
+                      "Três sílabas, oito letras e oito fonemas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um dígrafo nasal e um ditongo.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que, na primeira palavra, há um dígrafo; na segunda, um ditongo; na terceira, um hiato.",
+                "opcoes": [
+                      "advérbios — eficientes — cáries",
+                      "discussões — leitores — inúteis",
+                      "errado — acabou — prejuízo",
+                      "obscuras — arcaico — aceita"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>errado — acabou — prejuízo</strong>. Fonte: FUMARC/2024. Assunto: digrafos.",
+                "banca": "FUMARC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “pássaro” apresenta:",
+                "opcoes": [
+                      "tritongo.",
+                      "hiato.",
+                      "dígrafo.",
+                      "ditongo",
+                      "1"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: INAZ do Pará/2024. Assunto: digrafos.",
+                "banca": "INAZ do Pará",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Marque o que não se comprova no verso: \"E João pode, neste mesmo instante, vir bater à nossa porta\".",
+                "opcoes": [
+                      "No verso, temos termos escritos com dígrafos e hiatos.",
+                      "Inicia com conjunção coordenativa aditiva.",
+                      "A crase é imposta pela regência verbal.",
+                      "As vírgulas estão separando o primeiro verbo da locução verbal."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>No verso, temos termos escritos com dígrafos e hiatos.</strong>. Fonte: AMEOSC/2023. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "hiatos",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Sobre a estrutura dos versos: \"E havia uma gramática que dizia assim: / Substantivo (concreto) é tudo quanto indica /Pessoa, animal ou coisa: João, sabiá, caneta\" − analise as assertivas: I.Os verbos: \"havia / dizia\" são de segunda conjugação, comprovada pela vogal temática \"E\" da forma nominal do infinitivo; ambos enunciam ideia contínua no pretérito imperfeito do modo indicativo, na terceira pessoa do singular. II.A expressão: \"uma gramática\" exemplifica concordância nominal. III.No verso: \"E havia uma gramática que dizia assim:\" − comprovamos: uma conjunção coordenativa monossílaba; um termo dissílabo paroxítono; um substantivo polissílabo proparoxítono seguido de pronome relativo monossílabo escrito com dígrafo; um termo advérbio dissílabo escrito com dígrafo, que tem o mesmo sentido semântico contextual de: \"desse modo\" ou \"dessa forma\". IV.A última sílaba de \"animal\" tem um ditongo pronunciado sem ser gráfico, pois a letra final tem o som de \"u\", servindo de semivogal para \"a\" - na formação de um ditongo oral decrescente. VO binômio: \"pessoa\"; \"quanto\" se identifica pela quantidade de sílabas gramaticais; pela classificação da tonicidade e por ambos os termos estarem escritos com dígrafo. Marque a alternativa com a opção correta.",
+                "opcoes": [
+                      "Apenas I, III e V.",
+                      "I, II, III, IV e V.",
+                      "Apenas I, II, III e IV.",
+                      "Apenas II, IV e V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I, II, III e IV.</strong>. Fonte: AMEOSC/2023. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a afirmativa correta.",
+                "opcoes": [
+                      "A vírgula não deve ser empregada antes da conjunção “e”, mesmo que ela venha repetida, como em: “Entregou-lhe o seu amor e o seu nome e seu lar e sua honra e sua vida”, ou quando separa duas orações aditivas com sujeitos diferentes.",
+                      "O emprego da mesóclise, a exemplo de “dar-lhe-ia”, “repetir-se-á”, “encontrá-lo-íamos”, “abraçar-nos-iam” é um arcaísmo linguístico rejeitado pelas normas da língua padrão.",
+                      "Em “Qual das duas colocações parece mais natural para o leitor brasileiro contemporâneo?”, todos os substantivos são formados por derivação e todos os adjetivos são palavras primitivas.",
+                      "Em “O que o fazia sofrer era aquela semivida de moça, mergulhada na loucura e na modéstia”, há quatro dígrafos e três ditongos crescentes.",
+                      "O plural dos nomes terminados com a letra “l” é feito com base em quatro regras distintas, a exemplo de: mal/males, animal/animais, estéril/ estéreis, fuzil/fuzis."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>O plural dos nomes terminados com a letra “l” é feito com base em quatro regras distintas, a exemplo de: mal/males, animal/animais, estéril/ estéreis, fuzil/fuzis.</strong>. Fonte: FEPESE/2024. Assunto: digrafos.",
+                "banca": "FEPESE",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “tanque” (L.29), há",
+                "opcoes": [
+                      "um dígrafo.",
+                      "dois dígrafos.",
+                      "um ditongo.",
+                      "um hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>dois dígrafos.</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre palavras retiradas do texto: I.   “Habilidade” apresenta menos fonemas do que letras. II.  “Professor” apresenta um dígrafo, portanto, possui mais letras do que fonemas. III. “Trabalhando” apresenta dois dígrafos: consonantal e vocálico. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho da letra da música de Raul Seixas e responda o que se pede. “E nas IGREJAS nem um sino a badalar Pois sabiam que os fiéis também não tavam lá E os fiéis não SAÍRAM pra rezar Pois sabiam que o padre também não tava lá E o aluno não saiu para estudar Pois sabia o PROFESSOR também não tava lá E o professor não saiu pra lecionar Pois sabia que não TINHA mais nada pra ensinar (...)” As palavras em destaque nos versos são, respectivamente:",
+                "opcoes": [
+                      "Encontro consonantal, hiato, dígrafo, dígrafo.",
+                      "Dígrafo, ditongo, dígrafo, dígrafo.",
+                      "Encontro consonantal, hiato, hiato, dígrafo.",
+                      "Ditongo, hiato, dígrafo, dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Encontro consonantal, hiato, dígrafo, dígrafo.</strong>. Fonte: Unoesc/2023. Assunto: digrafos.",
+                "banca": "Unoesc",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "No vocábulo desprezar, encontramos",
+                "opcoes": [
+                      "um dígrafo vocálico.",
+                      "um dígrafo consonantal.",
+                      "um encontro vocálico.",
+                      "um encontro consonantal.",
+                      "um ditongo vocálico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>um encontro consonantal.</strong>. Fonte: IDIB/2023. Assunto: digrafos.",
+                "banca": "IDIB",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Julgue os itens a seguir: 01 – Em “clara” e “livro” temos exemplos de encontro consonantal perfeito. 02 – Nas palavras “piada” e “ciúme” temos exemplos de hiato. 04 – Em “guerra”, “ninho” e “carro”, temos um total de quatro dígrafos. 08 – Em “tranquilo” e “quase”, temo um total de zero dígrafos. O somatório das alternativas corretas é:",
+                "opcoes": [
+                      "14",
+                      "10",
+                      "07",
+                      "15",
+                      "11"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>07</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2023. Assunto: digrafos.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limita",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "hiatos",
+                      "encontrosConsonantais"
                 ]
           }
     ],
@@ -2371,6 +4010,115 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tritongos"
                 ]
+          },
+          {
+                "enunciado": "Assinale, a seguir, a alternativa que apresenta palavras com hiato, ditongo e tritongo, nessa ordem",
+                "opcoes": [
+                      "Rio; fluido; averiguou;",
+                      "Deságuam; saguão; rainha;",
+                      "Saúde; saída; item;",
+                      "Enquanto; sêmen; boquiaberta;",
+                      "Zoológico; tríduo; ruim."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Rio; fluido; averiguou;</strong>. Fonte: APICE/2024. Assunto: tritongos.",
+                "banca": "APICE",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Na palavra “SAÚDE”, há:",
+                "opcoes": [
+                      "um tritongo",
+                      "um ditongo",
+                      "dois ditongos",
+                      "dois hiatos",
+                      "um hiato"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>um hiato</strong>. Fonte: SELECON/2024. Assunto: tritongos.",
+                "banca": "SELECON",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "“Irritado, o Leão rugia cada vez mais alto, mas ninguém se atrevia a aproximar-se dele.” Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Na palavra “irritado”, há um dífono formado por “rr”.",
+                      "Na palavra “Leão”, as três vogais “eao” formam um tritongo.",
+                      "Na palavra “rugia” há um hiato.",
+                      "A palavra “mais” é dissílaba.",
+                      "Na palavra “atrevia”, “ia” é um ditongo decrescente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Na palavra “rugia” há um hiato.</strong>. Fonte: EDUCA/2024. Assunto: tritongos.",
+                "banca": "EDUCA",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa onde temos a sequência ditongo, hiato e tritongo.",
+                "opcoes": [
+                      "Estourei / frouxar / saguão.",
+                      "Patrão / ameixa / quais.",
+                      "Infância / Raul / enxaguou.",
+                      "Ciência / tranquilo / anoiteceu."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Infância / Raul / enxaguou.</strong>. Fonte: MSConcursos/2021. Assunto: tritongos.",
+                "banca": "MSConcursos",
+                "ano": 2021,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Em “prejudicial” (L.15), há caso de",
+                "opcoes": [
+                      "hiato.",
+                      "ditongo crescente.",
+                      "ditongo decrescente.",
+                      "tritongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hiato.</strong>. Fonte: Instituto Access/2024. Assunto: tritongos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "tritongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tritongos",
+                      "ditongos",
+                      "hiatos"
+                ]
           }
     ],
     "tonicidade": [
@@ -2469,6 +4217,30 @@ var QUESTOES_BANCO = {
                       "ortografia",
                       "acentuacaoGrafica"
                 ]
+          },
+          {
+                "enunciado": "Acerca da palavra “VÍCIO” (segunda palavra do quinto parágrafo), podemos afirmar, EXCETO:",
+                "opcoes": [
+                      "Trata-se de uma palavra dissílaba.",
+                      "É exemplo de palavra paroxítona.",
+                      "Apresenta um ditongo crescente.",
+                      "Contém um hiato.",
+                      "Se acentua pela mesma regra de “mágoa” e “início”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Contém um hiato.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2023. Assunto: tonicidade.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limita",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "paroxitonas"
+                ]
           }
     ],
     "acentuacaoGrafica": [
@@ -2490,6 +4262,24 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir.\nAs palavras que contêm ditongos crescentes, como \"ia\" e \"ie\", não recebem acento gráfico em nenhuma situação, independentemente de sua posição na palavra. Exemplos como \"familia\", \"serie\" e \"julia\" são sempre escritos sem acento, pois os ditongos crescentes não influenciam a acentuação.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "ditongos"
                 ]
           }
     ],
@@ -2516,6 +4306,196 @@ var QUESTOES_BANCO = {
                       "oxitonas",
                       "ortografia",
                       "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item subsequente.\nA palavra \"pônei\" é acentuada de acordo com as regras da língua portuguesa porque é uma palavra paroxítona terminada em ditongo crescente.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: tonicidade.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação gráfica das palavras inteligência, satisfatório, importância e propício, é correto afirmar que são acentuadas.",
+                "opcoes": [
+                      "Por se tratar de proparoxítonas.",
+                      "Porque são oxítonas terminadas em vogal.",
+                      "Por serem paroxítonas terminadas em ditongo crescente.",
+                      "Devido a terminação em ditongo nasal das oxítonas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Por serem paroxítonas terminadas em ditongo crescente.</strong>. Fonte: GANZAROLI/2021. Assunto: tonicidade.",
+                "banca": "GANZAROLI",
+                "ano": 2021,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "ditongos",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item que se segue.\nAs palavras “ideia”, “plateia” e “assembleia” não mais se acentuam porque os ditongos abertos estão na sílaba tônica de paroxítonas, não oxítonas.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "ditongos",
+                      "silabas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir.\nOs ditongos abertos “éi” e “ói” são acentuados, de acordo com a regra das palavras paroxítonas.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Ao elaborar uma prova de Português, uma professora produziu o seguinte gabarito acerca da questão 7, que abordava acentuação e separação silábica. A palavra ambulância é corretamente separada da seguinte forma: AM - BU - LÂN - CIA. Com relação à análise feita pela professora, é correto afirmar que",
+                "opcoes": [
+                      "a palavra está separada corretamente, pois se trata de uma proparoxítona e termina em ditongo crescente.",
+                      "a palavra está separada corretamente, pois se trata de uma paroxítona e termina em ditongo crescente.",
+                      "a palavra não está separada corretamente, pois, na última sílaba, apresenta um hiato.",
+                      "a palavra não está separada corretamente, pois se trata de uma paroxítona e termina em ditongo decrescente."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a palavra está separada corretamente, pois se trata de uma paroxítona e termina em ditongo crescente.</strong>. Fonte: Unoesc/2023. Assunto: tonicidade.",
+                "banca": "Unoesc",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "proparoxitonas"
+                ]
+          }
+    ],
+    "oxitonas": [
+          {
+                "enunciado": "A palavra “ignorância” (linha 2 do texto) é acentuada por ser paroxítona terminada em ditongo crescente. Algumas gramáticas também a consideram como “proparoxítonas eventuais” ou “proparoxítonas acidentais”. A única opção abaixo que NÃO se encaixa nesse mesmo caso específico é:",
+                "opcoes": [
+                      "Próprio.",
+                      "Inteligência.",
+                      "Indignação",
+                      "Adversário."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Indignação</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "ditongos",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Acém, detém, deténs, entretém, entreténs: são exemplos de palavras oxítonas com mais de uma sílaba terminadas no ditongo nasal grafado -em e -ens.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "ditongos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Marque as palavras oxítonas escritas com ditongo nasal gráfico.",
+                "opcoes": [
+                      "Não; leem.",
+                      "Publicações; edições.",
+                      "Talvez; quem.",
+                      "Anual; então.",
+                      "Começaram; não."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Publicações; edições.</strong>. Fonte: MS Concursos e Consultoria/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos e Consultoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com palavras oxítonas escritas com ditongo nasal na sílaba tônica.",
+                "opcoes": [
+                      "Relação; imperdoável.",
+                      "Não; devassidão.",
+                      "Violentação; tentações.",
+                      "Correção; imponha.",
+                      "Exemplo; neologismos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Violentação; tentações.</strong>. Fonte: MS Concursos e Consultoria/2023. Assunto: tonicidade.",
+                "banca": "MS Concursos e Consultoria",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "ditongos",
+                      "silabas",
+                      "tonicidade"
                 ]
           }
     ],
