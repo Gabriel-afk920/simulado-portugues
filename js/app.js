@@ -368,11 +368,35 @@ function _renderSubtemasQuiz(subs) {
         _subtemasQuizSelecionados.add(sub.id);
         div.classList.add('selected');
       }
-      btnIniciar.disabled = _subtemasQuizSelecionados.size === 0;
+      _atualizarBtnFonetica(btnIniciar);
     });
     grid.appendChild(div);
   });
   btnIniciar.disabled = true;
+}
+
+function _atualizarBtnFonetica(btn) {
+  const btnIniciar = btn || document.getElementById('btn-iniciar-fonetica');
+  if (_subtemasQuizSelecionados.size === 0) {
+    btnIniciar.disabled = true;
+    btnIniciar.textContent = 'Iniciar Simulado';
+    return;
+  }
+  const feitas = _feitasGet('fonetica_mix');
+  let total = 0, feito = 0;
+  _subtemasQuizSelecionados.forEach(subId => {
+    const sub = TEMAS.find(x => x.id === subId);
+    if (!sub) return;
+    sub.questoes.forEach(q => {
+      total++;
+      if (feitas.has(_qHash(q))) feito++;
+    });
+  });
+  const restantes = total - feito;
+  btnIniciar.disabled = false;
+  btnIniciar.textContent = restantes === 0
+    ? `Iniciar Simulado (nova rodada — ${total} questões)`
+    : `Iniciar Simulado (${restantes} restantes)`;
 }
 
 document.getElementById('btn-select-all-fonetica').addEventListener('click', () => {
@@ -381,7 +405,7 @@ document.getElementById('btn-select-all-fonetica').addEventListener('click', () 
     card.classList.add('selected');
     _subtemasQuizSelecionados.add(card.dataset.subId);
   });
-  btnIniciar.disabled = false;
+  _atualizarBtnFonetica(btnIniciar);
 });
 
 document.getElementById('btn-iniciar-fonetica').addEventListener('click', () => {
