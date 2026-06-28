@@ -414,18 +414,19 @@ function _fmtTempo(s) {
 function iniciarSimulado(tema, excluirHashes = new Set()) {
   temaAtual = tema;
 
-  // Excluir questões já feitas em simulados anteriores
+  // Filtrar hard: remover questões já respondidas em simulados anteriores
   const feitas = _feitasGet(tema.id);
-  for (const h of feitas) excluirHashes.add(h);
-  questoes = shuffleAdaptativo(tema.questoes, excluirHashes);
+  let pool = feitas.size ? tema.questoes.filter(q => !feitas.has(_qHash(q))) : tema.questoes;
 
   // Pool esgotado: resetar e começar nova rodada
-  if (!questoes.length) {
+  if (!pool.length && tema.questoes.length) {
     _feitasReset(tema.id);
-    questoes = shuffleAdaptativo(tema.questoes);
+    pool = tema.questoes;
     const aviso = document.getElementById('aviso-rodada');
     if (aviso) { aviso.style.display = ''; setTimeout(() => { aviso.style.display = 'none'; }, 4000); }
   }
+
+  questoes = shuffleAdaptativo(pool, excluirHashes);
   indiceAtual      = 0;
   pontuacao        = 0;
   respostas        = [];
