@@ -141,12 +141,22 @@ document.getElementById('btn-ir-estudar').addEventListener('click', () => {
   ir('screen-study-topics');
 });
 
-document.getElementById('btn-ir-simulado').addEventListener('click', () => {
+function _abrirTelaSimulado() {
   renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
-});
+
+  // Auto-detectar sessão salva e pré-selecionar o card correto
+  try {
+    const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
+    if (!s || !s.temaId) return;
+    const card = document.querySelector(`#quiz-tema-grid [data-id="${s.temaId}"]`);
+    if (card) card.click();
+  } catch {}
+}
+
+document.getElementById('btn-ir-simulado').addEventListener('click', _abrirTelaSimulado);
 
 document.getElementById('btn-back-study-home').addEventListener('click', () => ir('screen-home'));
 document.getElementById('btn-back-quiz-home').addEventListener('click',  () => ir('screen-home'));
@@ -545,11 +555,8 @@ document.getElementById('btn-voltar-temas').addEventListener('click', () => {
   document.getElementById('teoria-panel').classList.remove('visivel');
   document.getElementById('teoria-overlay').classList.add('hidden');
   document.getElementById('teoria-panel').classList.add('hidden');
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
-  temaAtual = null;
   qsVistasNaSessao = new Set();
-  document.getElementById('btn-iniciar').disabled = true;
-  ir('screen-quiz-topics');
+  _abrirTelaSimulado();
 });
 
 document.getElementById('btn-desistir').addEventListener('click', () => {
@@ -654,11 +661,8 @@ document.getElementById('btn-retry').addEventListener('click', () => {
 });
 
 document.getElementById('btn-home-result').addEventListener('click', () => {
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
-  temaAtual = null;
   qsVistasNaSessao = new Set();
-  document.getElementById('btn-iniciar').disabled = true;
-  ir('screen-quiz-topics');
+  _abrirTelaSimulado();
 });
 
 document.getElementById('btn-estudar-result').addEventListener('click', () => {
