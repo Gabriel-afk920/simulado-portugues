@@ -432,6 +432,15 @@ function _iniciarTimerQuestao() {
   }, 1000);
 }
 
+function _atualizarPlacar() {
+  const respondidas = Object.keys(respostasMap).length;
+  const certas      = Object.values(respostasMap).filter(r => r.acertou).length;
+  const erradas     = respondidas - certas;
+  document.getElementById('placar-respondidas').textContent = respondidas + ' respondidas';
+  document.getElementById('placar-certas').textContent      = '✔ ' + certas;
+  document.getElementById('placar-erradas').textContent     = '✗ ' + erradas;
+}
+
 function renderQuestao() {
   const q         = questoes[indiceAtual];
   qsVistasNaSessao.add(_qHash(q));  // marca questão como vista nesta sessão
@@ -448,6 +457,7 @@ function renderQuestao() {
     _iniciarTimerQuestao();
   }
 
+  _atualizarPlacar();
   document.getElementById('progress-info').textContent = `Questão ${indiceAtual + 1} de ${total}`;
   document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
@@ -530,6 +540,7 @@ function registrarResposta(escolhida) {
     banca:      q.banca, ano: q.ano
   };
   _atualizarQDif(q, acertou, usouTeoria);
+  _atualizarPlacar();
   _salvarSessaoAtiva();
 
   document.querySelectorAll('.option-item').forEach(li => {
