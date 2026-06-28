@@ -151,8 +151,24 @@ function _abrirTelaSimulado() {
   try {
     const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
     if (!s || !s.temaId) return;
-    const card = document.querySelector(`#quiz-tema-grid [data-id="${s.temaId}"]`);
-    if (card) card.click();
+    if (s.temaId === 'fonetica_mix') {
+      // Sessão de Fonética: reconstruir tema com todas as questões disponíveis
+      temaAtual = {
+        id: 'fonetica_mix',
+        nome: 'Fonética e Ortografia',
+        questoes: IDS_FONETICA_ORTOGRAFIA.flatMap(id => {
+          const t = TEMAS.find(x => x.id === id);
+          return t ? t.questoes : [];
+        }),
+      };
+      const respondidas = Object.keys(s.respostasMap || {}).length;
+      document.getElementById('continuar-info').textContent =
+        `questão ${s.indiceAtual + 1} de ${s.questaoHashes.length} · ${respondidas} respondidas`;
+      document.getElementById('continuar-box').style.display = '';
+    } else {
+      const card = document.querySelector(`#quiz-tema-grid [data-id="${s.temaId}"]`);
+      if (card) card.click();
+    }
   } catch {}
 }
 
