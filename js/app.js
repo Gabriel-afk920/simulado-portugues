@@ -15,6 +15,22 @@ function _salvarSessao(temaId, acertos, total) {
 }
 
 // ══════════════════════════════════════════════════════════
+//  QUESTÕES FEITAS — exclusão inter-simulados por tema
+// ══════════════════════════════════════════════════════════
+function _feitasKey(temaId) { return 'feitas_' + temaId; }
+function _feitasGet(temaId) {
+  try { return new Set(JSON.parse(localStorage.getItem(_feitasKey(temaId)) || '[]')); } catch { return new Set(); }
+}
+function _feitasAdd(temaId, hash) {
+  const s = _feitasGet(temaId);
+  s.add(hash);
+  localStorage.setItem(_feitasKey(temaId), JSON.stringify([...s]));
+}
+function _feitasReset(temaId) {
+  localStorage.removeItem(_feitasKey(temaId));
+}
+
+// ══════════════════════════════════════════════════════════
 //  SESSÃO ATIVA — continuar de onde parou
 // ══════════════════════════════════════════════════════════
 function _salvarSessaoAtiva() {
@@ -282,10 +298,15 @@ function selecionarTemaQuiz(id, card) {
   document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   temaAtual = TEMAS.find(t => t.id === id);
-  const semQuestoes = !temaAtual.questoes.length;
+  const total       = temaAtual.questoes.length;
+  const feitas      = _feitasGet(id).size;
+  const restantes   = Math.max(0, total - feitas);
+  const semQuestoes = total === 0;
   const btn = document.getElementById('btn-iniciar');
   btn.disabled    = semQuestoes;
-  btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
+  btn.textContent = semQuestoes  ? 'Sem questões disponíveis'
+                  : restantes === 0 ? `Iniciar Simulado (nova rodada — ${total} questões)`
+                  : `Iniciar Simulado (${restantes} restantes)`;
 
   const sessao = _sessaoAtiva(id);
   const box    = document.getElementById('continuar-box');
@@ -391,9 +412,20 @@ function _fmtTempo(s) {
 }
 
 function iniciarSimulado(tema, excluirHashes = new Set()) {
-  temaAtual        = tema;
-  questoes         = shuffleAdaptativo(tema.questoes, excluirHashes);
-  if (!questoes.length) return;
+  temaAtual = tema;
+
+  // Excluir questões já feitas em simulados anteriores
+  const feitas = _feitasGet(tema.id);
+  for (const h of feitas) excluirHashes.add(h);
+  questoes = shuffleAdaptativo(tema.questoes, excluirHashes);
+
+  // Pool esgotado: resetar e começar nova rodada
+  if (!questoes.length) {
+    _feitasReset(tema.id);
+    questoes = shuffleAdaptativo(tema.questoes);
+    const aviso = document.getElementById('aviso-rodada');
+    if (aviso) { aviso.style.display = ''; setTimeout(() => { aviso.style.display = 'none'; }, 4000); }
+  }
   indiceAtual      = 0;
   pontuacao        = 0;
   respostas        = [];
@@ -539,6 +571,7 @@ function registrarResposta(escolhida) {
     explicacao: q.explicacao,
     banca:      q.banca, ano: q.ano
   };
+  _feitasAdd(temaAtual.id, _qHash(q));
   _atualizarQDif(q, acertou, usouTeoria);
   _atualizarPlacar();
   _salvarSessaoAtiva();
