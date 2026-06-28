@@ -15,22 +15,6 @@ function _salvarSessao(temaId, acertos, total) {
 }
 
 // ══════════════════════════════════════════════════════════
-//  QUESTÕES FEITAS — exclusão inter-simulados por tema
-// ══════════════════════════════════════════════════════════
-function _feitasKey(temaId) { return 'feitas_' + temaId; }
-function _feitasGet(temaId) {
-  try { return new Set(JSON.parse(localStorage.getItem(_feitasKey(temaId)) || '[]')); } catch { return new Set(); }
-}
-function _feitasAdd(temaId, hash) {
-  const s = _feitasGet(temaId);
-  s.add(hash);
-  localStorage.setItem(_feitasKey(temaId), JSON.stringify([...s]));
-}
-function _feitasReset(temaId) {
-  localStorage.removeItem(_feitasKey(temaId));
-}
-
-// ══════════════════════════════════════════════════════════
 //  SESSÃO ATIVA — continuar de onde parou
 // ══════════════════════════════════════════════════════════
 function _salvarSessaoAtiva() {
@@ -298,15 +282,10 @@ function selecionarTemaQuiz(id, card) {
   document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   temaAtual = TEMAS.find(t => t.id === id);
-  const total       = temaAtual.questoes.length;
-  const feitas      = _feitasGet(id).size;
-  const restantes   = Math.max(0, total - feitas);
-  const semQuestoes = total === 0;
+  const semQuestoes = !temaAtual.questoes.length;
   const btn = document.getElementById('btn-iniciar');
   btn.disabled    = semQuestoes;
-  btn.textContent = semQuestoes  ? 'Sem questões disponíveis'
-                  : restantes === 0 ? `Iniciar Simulado (nova rodada — ${total} questões)`
-                  : `Iniciar Simulado (${restantes} restantes)`;
+  btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
 
   const sessao = _sessaoAtiva(id);
   const box    = document.getElementById('continuar-box');
@@ -377,26 +356,8 @@ function _renderSubtemasQuiz(subs) {
 
 function _atualizarBtnFonetica(btn) {
   const btnIniciar = btn || document.getElementById('btn-iniciar-fonetica');
-  if (_subtemasQuizSelecionados.size === 0) {
-    btnIniciar.disabled = true;
-    btnIniciar.textContent = 'Iniciar Simulado';
-    return;
-  }
-  const feitas = _feitasGet('fonetica_mix');
-  let total = 0, feito = 0;
-  _subtemasQuizSelecionados.forEach(subId => {
-    const sub = TEMAS.find(x => x.id === subId);
-    if (!sub) return;
-    sub.questoes.forEach(q => {
-      total++;
-      if (feitas.has(_qHash(q))) feito++;
-    });
-  });
-  const restantes = total - feito;
-  btnIniciar.disabled = false;
-  btnIniciar.textContent = restantes === 0
-    ? `Iniciar Simulado (nova rodada — ${total} questões)`
-    : `Iniciar Simulado (${restantes} restantes)`;
+  btnIniciar.disabled    = _subtemasQuizSelecionados.size === 0;
+  btnIniciar.textContent = 'Iniciar Simulado';
 }
 
 document.getElementById('btn-select-all-fonetica').addEventListener('click', () => {
@@ -437,20 +398,7 @@ function _fmtTempo(s) {
 
 function iniciarSimulado(tema, excluirHashes = new Set()) {
   temaAtual = tema;
-
-  // Filtrar hard: remover questões já respondidas em simulados anteriores
-  const feitas = _feitasGet(tema.id);
-  let pool = feitas.size ? tema.questoes.filter(q => !feitas.has(_qHash(q))) : tema.questoes;
-
-  // Pool esgotado: resetar e começar nova rodada
-  if (!pool.length && tema.questoes.length) {
-    _feitasReset(tema.id);
-    pool = tema.questoes;
-    const aviso = document.getElementById('aviso-rodada');
-    if (aviso) { aviso.style.display = ''; setTimeout(() => { aviso.style.display = 'none'; }, 4000); }
-  }
-
-  questoes = shuffleAdaptativo(pool, excluirHashes);
+  questoes  = shuffleAdaptativo(tema.questoes, excluirHashes);
   indiceAtual      = 0;
   pontuacao        = 0;
   respostas        = [];
@@ -567,14 +515,12 @@ function renderQuestao() {
   }
 
   // Botões de navegação
-  const btnAnterior = document.getElementById('btn-anterior');
-  const btnPular    = document.getElementById('btn-pular');
-  const btnNext     = document.getElementById('btn-next');
+  const btnPular = document.getElementById('btn-pular');
+  const btnNext  = document.getElementById('btn-next');
 
-  btnAnterior.style.display = indiceAtual > 0 ? '' : 'none';
-  btnPular.style.display    = jaResp ? 'none' : '';
-  btnNext.style.display     = jaResp ? '' : 'none';
-  btnNext.textContent       = indiceAtual + 1 < total ? 'Próxima questão →' : 'Ver resultado';
+  btnPular.style.display = jaResp ? 'none' : '';
+  btnNext.style.display  = jaResp ? '' : 'none';
+  btnNext.textContent    = indiceAtual + 1 < total ? 'Próxima questão →' : 'Ver resultado';
 }
 
 function registrarResposta(escolhida) {
@@ -596,7 +542,6 @@ function registrarResposta(escolhida) {
     explicacao: q.explicacao,
     banca:      q.banca, ano: q.ano
   };
-  _feitasAdd(temaAtual.id, _qHash(q));
   _atualizarQDif(q, acertou, usouTeoria);
   _atualizarPlacar();
   _salvarSessaoAtiva();
@@ -624,9 +569,6 @@ document.getElementById('btn-next').addEventListener('click', () => {
   else mostrarResultado();
 });
 
-document.getElementById('btn-anterior').addEventListener('click', () => {
-  if (indiceAtual > 0) { indiceAtual--; renderQuestao(); }
-});
 
 document.getElementById('btn-pular').addEventListener('click', () => {
   indiceAtual++;
