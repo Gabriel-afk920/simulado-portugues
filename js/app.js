@@ -50,7 +50,7 @@ function _restaurarSessaoAtiva(s, tema) {
   respostasMap     = s.respostasMap || {};
   shuffleMap       = s.shuffleMap  || {};
   teoriaConsultada = s.teoriaConsultada || {};
-  tempoSimulado    = s.tempoSimulado ?? TEMPO_SIMULADO;
+  tempoSimulado    = TEMPO_POR_QUESTAO;
 
   clearInterval(timerInterval);
   simuladoPausado = false;
@@ -114,7 +114,7 @@ let teoriaConsultada = {};
 let timerInterval    = null;
 let simuladoPausado  = false;
 let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (reseta ao sair para temas)
-let tempoSimulado    = TEMPO_SIMULADO;
+let tempoSimulado    = TEMPO_POR_QUESTAO;
 let respondeu        = false;
 
 
@@ -374,8 +374,6 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
   respostasMap     = {};
   shuffleMap       = {};
   teoriaConsultada = {};
-  tempoSimulado    = TEMPO_SIMULADO;
-
   clearInterval(timerInterval);
   simuladoPausado = false;
   document.getElementById('btn-pausar').textContent = '⏸ Pausar';
