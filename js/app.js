@@ -26,7 +26,6 @@ function _salvarSessaoAtiva() {
     respostasMap,
     shuffleMap,
     teoriaConsultada,
-    tempoSimulado,
     pontuacao,
   };
   localStorage.setItem('sessao_ativa', JSON.stringify(estado));
@@ -56,17 +55,6 @@ function _restaurarSessaoAtiva(s, tema) {
   clearInterval(timerInterval);
   simuladoPausado = false;
   document.getElementById('btn-pausar').textContent = '⏸ Pausar';
-  const timerEl = document.getElementById('timer-box');
-  timerEl.textContent = _fmtTempo(tempoSimulado);
-  timerEl.className   = tempoSimulado <= 60 ? 'timer-box danger' : tempoSimulado <= 120 ? 'timer-box warning' : 'timer-box';
-  timerInterval = setInterval(() => {
-    if (simuladoPausado) return;
-    tempoSimulado--;
-    timerEl.textContent = _fmtTempo(tempoSimulado);
-    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
-    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
-    if (tempoSimulado <= 0) { clearInterval(timerInterval); mostrarResultado(); }
-  }, 1000);
 
   ir('screen-quiz');
   renderQuestao();
@@ -114,7 +102,7 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO_SIMULADO = 30 * 60; // 30 minutos
+const TEMPO_POR_QUESTAO = 90; // 90 segundos por questão
 let temaAtual        = null;
 let questoes         = [];
 let indiceAtual      = 0;
@@ -391,6 +379,14 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
   clearInterval(timerInterval);
   simuladoPausado = false;
   document.getElementById('btn-pausar').textContent = '⏸ Pausar';
+
+  ir('screen-quiz');
+  renderQuestao();
+}
+
+function _iniciarTimerQuestao() {
+  clearInterval(timerInterval);
+  tempoSimulado = TEMPO_POR_QUESTAO;
   const timerEl = document.getElementById('timer-box');
   timerEl.textContent = _fmtTempo(tempoSimulado);
   timerEl.className   = 'timer-box';
@@ -398,13 +394,18 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
     if (simuladoPausado) return;
     tempoSimulado--;
     timerEl.textContent = _fmtTempo(tempoSimulado);
-    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
-    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
-    if (tempoSimulado <= 0) { clearInterval(timerInterval); mostrarResultado(); }
+    if      (tempoSimulado <= 20) timerEl.className = 'timer-box danger';
+    else if (tempoSimulado <= 40) timerEl.className = 'timer-box warning';
+    if (tempoSimulado <= 0) {
+      clearInterval(timerInterval);
+      registrarResposta(-1);
+      setTimeout(() => {
+        indiceAtual++;
+        if (indiceAtual < questoes.length) renderQuestao();
+        else mostrarResultado();
+      }, 2000);
+    }
   }, 1000);
-
-  ir('screen-quiz');
-  renderQuestao();
 }
 
 function renderQuestao() {
@@ -413,6 +414,15 @@ function renderQuestao() {
   const total     = questoes.length;
   const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
   respondeu       = jaResp;
+
+  if (jaResp) {
+    clearInterval(timerInterval);
+    const timerEl = document.getElementById('timer-box');
+    timerEl.textContent = '0:00';
+    timerEl.className   = 'timer-box';
+  } else {
+    _iniciarTimerQuestao();
+  }
 
   document.getElementById('progress-info').textContent = `Questão ${indiceAtual + 1} de ${total}`;
   document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
@@ -479,6 +489,7 @@ function renderQuestao() {
 function registrarResposta(escolhida) {
   if (respondeu) return;
   respondeu = true;
+  clearInterval(timerInterval);
 
   const q             = questoes[indiceAtual];
   const acertou       = escolhida === q.correta;
