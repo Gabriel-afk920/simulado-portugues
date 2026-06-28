@@ -74,7 +74,14 @@
     <h1>Simulado</h1>
     <p class="subtitle">Escolha um tema para iniciar</p>
     <div class="tema-grid" id="quiz-tema-grid"></div>
-    <button class="btn btn-primary" id="btn-iniciar" disabled>Iniciar Simulado</button>
+    <div id="continuar-box" style="display:none;margin-top:12px;padding:12px 14px;background:#1e293b;border:1px solid #334155;border-radius:10px;">
+      <p style="margin:0 0 10px;font-size:0.88rem;color:#94a3b8;">Simulado em andamento — <span id="continuar-info"></span></p>
+      <div style="display:flex;gap:10px;">
+        <button class="btn btn-primary" id="btn-continuar" style="flex:1;">Continuar</button>
+        <button class="btn btn-secondary" id="btn-novo-simulado" style="flex:1;">Novo simulado</button>
+      </div>
+    </div>
+    <button class="btn btn-primary" id="btn-iniciar" disabled style="margin-top:12px;">Iniciar Simulado</button>
   </div>
 
   <!-- ════════════════════════════

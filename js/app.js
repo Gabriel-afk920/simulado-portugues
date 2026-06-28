@@ -15,6 +15,64 @@ function _salvarSessao(temaId, acertos, total) {
 }
 
 // ══════════════════════════════════════════════════════════
+//  SESSÃO ATIVA — continuar de onde parou
+// ══════════════════════════════════════════════════════════
+function _salvarSessaoAtiva() {
+  if (!temaAtual || !questoes.length) return;
+  const estado = {
+    temaId:           temaAtual.id,
+    questaoHashes:    questoes.map(_qHash),
+    indiceAtual,
+    respostasMap,
+    shuffleMap,
+    teoriaConsultada,
+    tempoSimulado,
+    pontuacao,
+  };
+  localStorage.setItem('sessao_ativa', JSON.stringify(estado));
+}
+
+function _sessaoAtiva(temaId) {
+  try {
+    const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
+    return s && s.temaId === temaId && s.indiceAtual < (s.questaoHashes || []).length ? s : null;
+  } catch { return null; }
+}
+
+function _limparSessaoAtiva() {
+  localStorage.removeItem('sessao_ativa');
+}
+
+function _restaurarSessaoAtiva(s, tema) {
+  temaAtual        = tema;
+  questoes         = s.questaoHashes.map(h => tema.questoes.find(q => _qHash(q) === h)).filter(Boolean);
+  indiceAtual      = s.indiceAtual;
+  pontuacao        = s.pontuacao || 0;
+  respostasMap     = s.respostasMap || {};
+  shuffleMap       = s.shuffleMap  || {};
+  teoriaConsultada = s.teoriaConsultada || {};
+  tempoSimulado    = s.tempoSimulado ?? TEMPO_SIMULADO;
+
+  clearInterval(timerInterval);
+  simuladoPausado = false;
+  document.getElementById('btn-pausar').textContent = '⏸ Pausar';
+  const timerEl = document.getElementById('timer-box');
+  timerEl.textContent = _fmtTempo(tempoSimulado);
+  timerEl.className   = tempoSimulado <= 60 ? 'timer-box danger' : tempoSimulado <= 120 ? 'timer-box warning' : 'timer-box';
+  timerInterval = setInterval(() => {
+    if (simuladoPausado) return;
+    tempoSimulado--;
+    timerEl.textContent = _fmtTempo(tempoSimulado);
+    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
+    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
+    if (tempoSimulado <= 0) { clearInterval(timerInterval); mostrarResultado(); }
+  }, 1000);
+
+  ir('screen-quiz');
+  renderQuestao();
+}
+
+// ══════════════════════════════════════════════════════════
 //  SISTEMA ADAPTATIVO DE DIFICULDADE (localStorage)
 // ══════════════════════════════════════════════════════════
 function _qHash(q) {
@@ -214,10 +272,35 @@ function selecionarTemaQuiz(id, card) {
   const btn = document.getElementById('btn-iniciar');
   btn.disabled    = semQuestoes;
   btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
+
+  const sessao = _sessaoAtiva(id);
+  const box    = document.getElementById('continuar-box');
+  if (sessao && !semQuestoes) {
+    const respondidas = Object.keys(sessao.respostasMap || {}).length;
+    document.getElementById('continuar-info').textContent =
+      `questão ${sessao.indiceAtual + 1} de ${sessao.questaoHashes.length} · ${respondidas} respondidas`;
+    box.style.display = '';
+  } else {
+    box.style.display = 'none';
+  }
 }
 
 document.getElementById('btn-iniciar').addEventListener('click', () => {
-  if (temaAtual) iniciarSimulado(temaAtual);
+  if (temaAtual) { _limparSessaoAtiva(); iniciarSimulado(temaAtual); }
+});
+
+document.getElementById('btn-continuar').addEventListener('click', () => {
+  if (!temaAtual) return;
+  const s = _sessaoAtiva(temaAtual.id);
+  if (s) _restaurarSessaoAtiva(s, temaAtual);
+});
+
+document.getElementById('btn-novo-simulado').addEventListener('click', () => {
+  if (temaAtual) {
+    _limparSessaoAtiva();
+    document.getElementById('continuar-box').style.display = 'none';
+    iniciarSimulado(temaAtual);
+  }
 });
 
 // ── Seleção múltipla de subtemas (Fonética e Ortografia no Simulado) ──
@@ -412,6 +495,7 @@ function registrarResposta(escolhida) {
     banca:      q.banca, ano: q.ano
   };
   _atualizarQDif(q, acertou, usouTeoria);
+  _salvarSessaoAtiva();
 
   document.querySelectorAll('.option-item').forEach(li => {
     li.classList.add('disabled');
@@ -488,6 +572,7 @@ document.getElementById('btn-pausar').addEventListener('click', () => {
 //  RESULTADO
 // ══════════════════════════════════════════════════════════
 function mostrarResultado() {
+  _limparSessaoAtiva();
   clearInterval(timerInterval);
   document.getElementById('teoria-overlay').classList.remove('visivel');
   document.getElementById('teoria-panel').classList.remove('visivel');
