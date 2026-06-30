@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 30/06/2026, 11:12:46 — 891 questões incluídas
+// 30/06/2026, 14:15:03 — 1443 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -1509,6 +1509,87 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>saúde</strong>. Fonte: FUMARC/2013. Assunto: hiatos.",
                 "banca": "FUMARC",
                 "ano": 2013,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras retiradas do texto são acentuadas graficamente pela ocorrência de um hiato.",
+                "opcoes": [
+                      "embaúbas / raízes / ruínas",
+                      "caída / primórdios / fiéis",
+                      "colônias / embaúbas / própria",
+                      "dormência / prédios / raízes",
+                      "espécies / ruínas / caída"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>embaúbas / raízes / ruínas</strong>. Fonte: UEM/2024. Assunto: hiatos.",
+                "banca": "UEM",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"É uma atitude egoísta mutilar o animal para resolver um problema assim\", a palavra \"egoísta\" está corretamente acentuada conforme a regra de acentuação gráfica que:",
+                "opcoes": [
+                      "estabelece a obrigatoriedade de acentuar todas as palavras proparoxítonas, independentemente da formação de hiato.",
+                      "determina que o \"i\" e o \"u\" tônicos sejam acentuados quando formam hiato com a vogal anterior, estando sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".",
+                      "preconiza que o \"i\" e o \"u\" átonos sejam acentuados quando formam hiato com a vogal anterior, estando sozinhos na sílaba ou acompanhados apenas de \"s\".",
+                      "exige a acentuação do \"i\" em todas as palavras paroxítonas terminadas em \"a\", devido à presença do hiato na última sílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>determina que o \"i\" e o \"u\" tônicos sejam acentuados quando formam hiato com a vogal anterior, estando sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".</strong>. Fonte: IBAM/2025. Assunto: hiatos.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "São palavras acentuadas pela regra dos hiatos:",
+                "opcoes": [
+                      "países e substituíveis.",
+                      "míope e ético.",
+                      "possível e crítico.",
+                      "inteligência e relatório"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>países e substituíveis.</strong>. Fonte: COMPERVE - UFRN/2024. Assunto: hiatos.",
+                "banca": "COMPERVE - UFRN",
+                "ano": 2024,
+                "assunto": "Hiatos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa incorreta se na palavra contém hiato:",
+                "opcoes": [
+                      "Baú;",
+                      "Coelho;",
+                      "Crianças;",
+                      "Herói;"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Herói;</strong>. Fonte: EVO Concursos/2025. Assunto: hiatos.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
                 "assunto": "Hiatos",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -7668,6 +7749,31 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "digrafos"
                 ]
+          },
+          {
+                "enunciado": "Conforme a Nova Acordo Ortográfico, o termo “ideia”, perdeu acento por qual regra especial de acentuação gráfica? Assinale a alternativa correta.",
+                "opcoes": [
+                      "Ditongo aberto em palavra paroxítona.",
+                      "Ditongo aberto em palavra oxítona.",
+                      "Ditongo aberto em palavras com “éi”, “éu”, “ói”.",
+                      "Ditongo aberto em palavras proparoxítonas.",
+                      "Nenhuma das alternativas anteriores."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ditongo aberto em palavras com “éi”, “éu”, “ói”.</strong>. Fonte: MS Consultoria/2024. Assunto: ditongos.",
+                "banca": "MS Consultoria",
+                "ano": 2024,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "ortografia",
+                      "acentuacaoGrafica"
+                ]
           }
     ],
     "fonemas": [
@@ -8279,6 +8385,46 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "fonemas"
                 ]
+          },
+          {
+                "enunciado": "As palavras podem estabelecer diversas formas de associação. Quando essa relação se dá por meio do sentido, constitui-se um campo semântico. Nesse caso, não se trata de sinônimos ou antônimos, mas de uma proximidade de significado dentro de determinado contexto. Com base nisso, analise as afirmativas a seguir: I.A polissemia ocorre quando uma mesma forma apresenta mais de um significado, cada um pertencente a diferentes campos semânticos. Assim, não se deve entender a polissemia como imprecisão de sentido, pois cada significado é definido e específico. Um exemplo é o verbo 'andar', que possui diversos significados na língua portuguesa. II.As palavras 'flor', 'jardim' e 'perfume' constituem campo semântico, pois embora não pertençam a um grupo delimitado, a associação entre elas é evidente. III.A sinonímia ocorre quando duas ou mais palavras têm o significado idêntico ao outro, podendo ser utilizada uma em substituição da outra, sem que haja alteração de sentido, independentemente do contexto. IV.A homonímia é a propriedade de duas ou mais formas, inteiramente distintas pela significação ou função, terem a mesma estrutura fonológica, os mesmos fonemas, dispostos na mesma ordem e subordinados ao mesmo tipo de acentuação. É correto o que se afirma em:",
+                "opcoes": [
+                      "II e III, apenas.",
+                      "I, II, III e IV.",
+                      "I e IV, apenas.",
+                      "I, II e IV, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, II e IV, apenas.</strong>. Fonte: AMEOSC/2025. Assunto: fonemas.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre aspectos ortográficos e fonológicos da Língua Portuguesa: I. A palavra “sub-reino” leva hífen pelo mesmo motivo de “super-revista”. II. A palavra “devêssemos” é acentuada pelo mesmo motivo de “exército”. III. As palavras “timbre” e “colar” apresentam o mesmo número de fonemas. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FUNDATEC/2025. Assunto: fonemas.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "hifen"
+                ]
           }
     ],
     "acentuacaoGrafica": [
@@ -8584,6 +8730,5267 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de relação entre fonemas e grafias e de acentuação, analise as assertivas abaixo e julgue-as em Verdadeiras (V) ou Falsas (F): ( ) O vocábulo país recebe obrigatoriamente o acento agudo no texto por formar um claro hiato no qual a vogal tônica em evidência é a letra i, que se encontra totalmente isolada na sílaba. ( ) As palavras essenciais e lítio são acentuadas com total base na exata mesma regra: ambas integram o grupo das paroxítonas terminadas em ditongo. ( ) A pequena forma verbal têm, evidenciada no trecho uma vez que estes têm mais foco, recebe o acento circunflexo diferencial com a finalidade de marcar obrigatoriamente a concordância verbal com o pronome antecedente. Qual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+                "opcoes": [
+                      "F - V - F.",
+                      "V - V - F.",
+                      "V - F - V.",
+                      "V - V - V.",
+                      "F - F - V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V - F - V.</strong>. Fonte: LEGALLE Concursos/2026. Assunto: acentuacaoGrafica.",
+                "banca": "LEGALLE Concursos",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "São vocábulos classificados como proparoxítonos, EXCETO:",
+                "opcoes": [
+                      "símbolo.",
+                      "música.",
+                      "ícone.",
+                      "interpretará."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>interpretará.</strong>. Fonte: IESES/2022. Assunto: acentuacaoGrafica.",
+                "banca": "IESES",
+                "ano": 2022,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que todas as palavras destacadas do texto CG2A1 são acentuadas de acordo com a mesma regra de acentuação gráfica.",
+                "opcoes": [
+                      "“científica”; 'acessível'; 'diálogo' (último parágrafo)",
+                      "“notícias”; “difíceis”; “fácil” (primeiro parágrafo)",
+                      "'referências'; 'memoráveis'; 'ciência' (terceiro parágrafo)",
+                      "“francês”; 'referência'; 'caía' (quarto parágrafo)",
+                      "'científicos'; 'impenetráveis'; 'ciência' (segundo parágrafo)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>'referências'; 'memoráveis'; 'ciência' (terceiro parágrafo)</strong>. Fonte: CESPE / CEBRASPE/2026. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item seguinte, relativo às ideias e a aspectos linguísticos do texto apresentado.\nO emprego do acento gráfico nas palavras “públicos” e “intérprete” justifica-se pela mesma regra de acentuação: todos os vocábulos proparoxítonos são acentuados.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras estão acentuadas corretamente.",
+                "opcoes": [
+                      "Eles vem amanhã, e ele também vêm.",
+                      "Eles vêm amanhã, e ele também vêm.",
+                      "Eles vem amanhã, e ele também vem.",
+                      "Eles vêm amanhã, e ele também vem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Eles vêm amanhã, e ele também vem.</strong>. Fonte: JVL Concursos/2026. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação dos vocábulos presentes no texto-base, identifique a alternativa incorreta.",
+                "opcoes": [
+                      "O vocábulo 'poderá' é oxítono e recebe acento para se diferenciar da forma do presente do indicativo na terceira pessoa do plural.",
+                      "O vocábulo 'até' recebe acento por ser uma oxítona terminada em 'e', o que justifica a acentuação.",
+                      "O vocábulo 'última' apresenta tonicidade na antepenúltima sílaba, classificando-se, assim, como proparoxítono, cuja acentuação é obrigatória.",
+                      "O vocábulo 'túneis' é uma paroxítona terminada em 'eis', o que justifica a acentuação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'poderá' é oxítono e recebe acento para se diferenciar da forma do presente do indicativo na terceira pessoa do plural.</strong>. Fonte: IDCAP/2026. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Durante o atendimento ao público, o recepcionista deve utilizar a forma correta das palavras em documentos e comunicações. Assinale a alternativa em que todas as palavras estão corretamente acentuadas, conforme as regras de acentuação gráfica do português.",
+                "opcoes": [
+                      "Jóia – Idéia – Saúde.",
+                      "Herói – País – Café.",
+                      "Héroi – Páis – Cafè.",
+                      "Heroí – Paíz – Café."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Herói – País – Café.</strong>. Fonte: ICECE/2026. Assunto: acentuacaoGrafica.",
+                "banca": "ICECE",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são acentuadas pela mesma regra de acentuação:",
+                "opcoes": [
+                      "Pó, avô, xícara.",
+                      "Saúde, táxi, herói.",
+                      "Lápis, café, vovó.",
+                      "Pássaro, lâmpada, árvore."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pássaro, lâmpada, árvore.</strong>. Fonte: MPE-GO/2025. Assunto: acentuacaoGrafica.",
+                "banca": "MPE-GO",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando a organização do texto precedente, seus sentidos e sua estrutura gramatical, julgue o item que se segue.\nOs vocábulos “experiência”, “usuário”, “conteúdo” e “audiência” são acentuados de acordo com a mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2026. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a palavra que NÃO deveria ter recebido acento:",
+                "opcoes": [
+                      "Cônsul.",
+                      "Bônus.",
+                      "Piauí.",
+                      "Idéia.",
+                      "Álbum."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Idéia.</strong>. Fonte: Instituto IACP/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No que concerne ao sistema ortográfico vigente, a acentuação gráfica segue regras fixas que não admitem exceções, simplificando assim o aprendizado e a aplicação das normas de escrita em língua portuguesa.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto IBED/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto IBED",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O sistema ortográfico vigente preconiza que o uso do acento agudo em palavras paroxítonas terminadas em 'ditongo crescente' é facultativo, por ser uma marcação gráfica que visa apenas à musicalidade da palavra, não influenciando na sua correta pronúncia ou significado.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto IBED/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto IBED",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A pluralização do sujeito muda o acento da palavra em:",
+                "opcoes": [
+                      "\"Ele te faz refém, te mantém em cativeiro (...)\".",
+                      "\"(...) e deixá-la sair.\".",
+                      "(...) o que você quer (...)\"",
+                      "\"(...) também existe uma fera.\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"Ele te faz refém, te mantém em cativeiro (...)\".</strong>. Fonte: Fundação CETAP/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Fundação CETAP",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Será genuína sabedoria de vida de quem possui algo de justo em si mesmo, se, em caso de necessidade, souber limitar as próprias carências, a fim de preservar ou ampliar a sua liberdade, isto é, se souber contentar-se com o menos possível para a sua pessoa nas relações inevitáveis com o universo humano.” Arthur Schopenhauer De acordo com a leitura do texto acima, pode-se afirmar que:",
+                "opcoes": [
+                      "As palavras “genuína”, “carências” e “inevitáveis” estão acentuadas de acordo com as regras vigentes de acentuação gráfica.",
+                      "no trecho “Será genuína sabedoria de vida de quem possui algo de justo em si mesmo...”, há um vocábulo com a grafia incorreta.",
+                      "a oração “...se, em caso de necessidade, souber limitar as próprias carências...”, expressa valor semântico de consequência.",
+                      "No trecho “...a fim de preservar ou ampliar a sua liberdade, isto é, se souber contentar-se com o menos possível...”, a expressão “isto é” expressa valor semântico de conclusão.",
+                      "No trecho “...para a sua pessoa nas relações inevitáveis com o universo humano.”, a palavra “humano” foi empregada no singular para estabelecer uma relação de regência verbal com o termo “universo”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As palavras “genuína”, “carências” e “inevitáveis” estão acentuadas de acordo com as regras vigentes de acentuação gráfica.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A respeito dos aspectos gramaticais do texto, julgue o item seguinte.\nAs palavras “hipertensão” e “mãe” são exemplos de termos oxítonos encontrados no texto.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"Entre eles existem os que têm o corpo coberto de escamas (lagartos e serpentes), os que têm placas dérmicas, que são estruturas ósseas embutidas na pele (jacarés), ou aqueles com carapaças (jabutis, tartarugas e cágados). Todos depositam seus ovos na terra, portanto não precisam da água para reprodução.\" Com base nas regras de acentuação dos vocábulos presentes no trecho, analise as afirmativas a seguir e identifique a INCORRETA.",
+                "opcoes": [
+                      "O vocábulo \"dérmicas\" recebe acento por ser uma palavra paroxítona terminada em \"a\" seguida de \"s\".",
+                      "O vocábulo \"jacarés\" recebe acento por ser uma oxítona terminada em \"e\" seguida de \"s\".",
+                      "O vocábulo \"têm\" é um exemplo de palavra que possui acento diferencial.",
+                      "O vocábulo \"cágados\" recebe acento por ser uma palavra proparoxítona, que deve ser obrigatoriamente acentuada.",
+                      "Os vocábulos \"embutidas\", \"carapaças\" e \"tartarugas\" apresentam a mesma classificação quanto à acentuação tônica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo \"dérmicas\" recebe acento por ser uma palavra paroxítona terminada em \"a\" seguida de \"s\".</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Pressões acadêmicas e exclusões se somam a formas de violência explícitas ou simbólicas. O psicanalista Alexandre sugere que docentes recebam preparo para lidar com a saúde mental [...]. De acordo com as regras de acentuação, é correto afirmar que há:",
+                "opcoes": [
+                      "um vocábulo que recebeu acento diferencial após o novo acordo ortográfico vigente.",
+                      "um vocábulo acentuado por ser uma exceção à regra das paroxítonas.",
+                      "três vocábulos acentuados por serem proparoxítonos legítimos.",
+                      "dois vocábulos acentuados por serem oxítonos terminados em \"es\".",
+                      "um vocábulo acentuado por ser paroxítono terminado em ditongo nasal."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>três vocábulos acentuados por serem proparoxítonos legítimos.</strong>. Fonte: IDCAP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas e acentuadas CORRETAMENTE, de acordo com a norma-padrão.",
+                "opcoes": [
+                      "Herói, jiboia, gratúito, saída.",
+                      "Circúito, ideia, baú, café.",
+                      "Itens, crêem, pacíência, enjôo.",
+                      "Veêm, ruím, saúde, âmbito.",
+                      "Pônei, constrói, refém, ícone."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Pônei, constrói, refém, ícone.</strong>. Fonte: INAZ do Pará/2025. Assunto: acentuacaoGrafica.",
+                "banca": "INAZ do Pará",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que NÃO ocorre desvio ortográfico, de norma ou de pontuação. Fonte: https://butantan.gov.br/ (texto publicado em 19/04/2023) – COM ALTERAÇÕES",
+                "opcoes": [
+                      "Tipicamente, no entanto, os negacionistas não tem o hábito de se abrir para o novo e aceitar visões distintas daquelas que já possui.",
+                      "Esse resultado é comparado com outro cenário, também analisado a partir de dados empíricos e dai se obtêm a conclusão final.",
+                      "O termo se popularizou depois que o historiador francês Henry Rousso passou a usá-lo para se referir a grupos e indivíduos que negavam a existência das câmaras de gás e o extermínio em massa de judeus.",
+                      "Isso não é negacionismo: a ciência, a medida em que avança, vai aumentando o número de informações que temos a cerca do mundo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O termo se popularizou depois que o historiador francês Henry Rousso passou a usá-lo para se referir a grupos e indivíduos que negavam a existência das câmaras de gás e o extermínio em massa de judeus.</strong>. Fonte: UNIOESTE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "UNIOESTE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que apresenta um vocábulo oxítono.",
+                "opcoes": [
+                      "nova",
+                      "não",
+                      "nomofóbico",
+                      "esperava",
+                      "esclareceu"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>esclareceu</strong>. Fonte: Quadrix/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sobre as regras de acentuação, assinalar a alternativa INCORRETA.",
+                "opcoes": [
+                      "Levam acento agudo ou circunflexo os monossílabos terminados nas vogais tônicas abertas ou fechadas grafadas -a(s), -e(s), -o(s).",
+                      "As palavras paroxítonas terminadas em -um, -uns recebem acento agudo na sílaba tônica.",
+                      "Levam acento agudo ou circunflexo os oxítonos terminados em -a(s), -e(s), -i(s).",
+                      "Todos os proparoxítonos levam acento agudo ou circunflexo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Levam acento agudo ou circunflexo os oxítonos terminados em -a(s), -e(s), -i(s).</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A alternativa em que há erro de acentuação gráfica:",
+                "opcoes": [
+                      "Muitas pessoas vêem as campanhas de conscientização do autismo com empatia.",
+                      "Todos têm que saber as características do autismo, para que se tenha uma sociedade com mais respeito.",
+                      "A campanha de 2022 vem trazendo o tema “Lugar de autista é em todo lugar”.",
+                      "Os cartazes da campanha são distribuídos de forma gratuita pelo site.",
+                      "No dia 2 de abril, as pessoas saíram de azul em homenagem à conscientização do autismo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Muitas pessoas vêem as campanhas de conscientização do autismo com empatia.</strong>. Fonte: IF-PA/2022. Assunto: acentuacaoGrafica.",
+                "banca": "IF-PA",
+                "ano": 2022,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual todas as palavras sigam a mesma regra de acentuação:",
+                "opcoes": [
+                      "Amável − irmã − órfão − fácil",
+                      "Méis − coronéis − céu − chapéu",
+                      "Vêm − detém − pôde − fôrma",
+                      "Café − útil − armazém − automóvel",
+                      "Lâmpada − ônibus − caráter − próton"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Méis − coronéis − céu − chapéu</strong>. Fonte: FURB/2023. Assunto: acentuacaoGrafica.",
+                "banca": "FURB",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere os agrupamentos de palavras abaixo. I. metade (l.01), agudo (l.08), democracia (l.11) II. Sérgio (l.05), coronéis (l.27) e inércia (l.30) III. país (l.07), Raízes (l.10) e arcaísmo (l.29) Em quais agrupamentos todas as palavras seguem a mesma regra ortográfica quanto ao uso ou não de acento gráfico?",
+                "opcoes": [
+                      "Apenas em I.",
+                      "Apenas em II.",
+                      "Apenas em III.",
+                      "Apenas em l e II.",
+                      "Apenas em I e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Apenas em I e III.</strong>. Fonte: MPE-RS/2025. Assunto: acentuacaoGrafica.",
+                "banca": "MPE-RS",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que se apresenta totalmente de acordo com a norma-padrão da Língua Portuguesa.",
+                "opcoes": [
+                      "Vêm-se resultados satisfatórios naquela pesquisa.",
+                      "Vêem-se resultados satisfatórios naquela pesquisa.",
+                      "Vem-se resultados satisfatórios naquela pesquisa.",
+                      "Vê-se resultados satisfatórios naquela pesquisa.",
+                      "Veem-se resultados satisfatórios naquela pesquisa."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Veem-se resultados satisfatórios naquela pesquisa.</strong>. Fonte: Avança SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo e assinale a alternativa correta. I. A frase lançando cuidadosamente no papel a sua bonita letra apresenta sentido conotativo. II. O sinal que aparece em d'água é chamado de apóstrofo, utilizado, nesse caso, na supressão da letra e na palavra de, tornando-a mais curta na forma contraída. III. São paroxítonos os vocábulos escritório e papéis.",
+                "opcoes": [
+                      "Apenas I e II estão corretas.",
+                      "Apenas II e III estão corretas.",
+                      "Apenas I e III estão incorretas.",
+                      "I, II e III estão incorretas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I e II estão corretas.</strong>. Fonte: IESES/2023. Assunto: acentuacaoGrafica.",
+                "banca": "IESES",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Das palavras apresentadas, em apenas um dos pares o uso de acento gráfico não é justificado pela mesma regra. Assinale a alternativa que contém esse par de palavras.",
+                "opcoes": [
+                      "“têm” e “vêm”.",
+                      "“Vênus” e “possível”",
+                      "“constituída” e “martírio”.",
+                      "“ridículo” e “fenômeno”.",
+                      "“sábia” e “ingênua”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“constituída” e “martírio”.</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em qual das alternativas as palavras estão TODAS escritas da forma correta?",
+                "opcoes": [
+                      "Caçador/açougue/chuveiro/casaco",
+                      "Cassador/assougue/xuveiro/cazaco",
+                      "Caçador/açouge/chuveiro/cazaco",
+                      "Caçador/assouge/xuveiro/casaco"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Caçador/açougue/chuveiro/casaco</strong>. Fonte: Educax Educacional/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Educax Educacional",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com base nas mudanças introduzidas pelo Novo Acordo Ortográfico da Língua Portuguesa, e considerando a forma destacada no trecho “E a abelha, alheia, seguia seu voo”, assinale a alternativa correta quanto à justificativa para a grafia da palavra “voo”.",
+                "opcoes": [
+                      "O acento na palavra “voo” foi mantido apenas nos casos em que aparece em final de frase, para manter a clareza da pronúncia.",
+                      "O vocábulo “voo” não sofreu alteração ortográfica, pois o Acordo não contempla monossílabos terminados em ditongos abertos nem em encontros vocálicos iguais.",
+                      "A palavra “voo” perdeu o acento circunflexo por determinação do Acordo, que eliminou o acento em palavras terminadas em “oo” que antes eram acentuadas.",
+                      "A palavra “voo” manteve sua acentuação, pois é uma forma verbal de “voar”, e o Novo Acordo não alterou a grafia de verbos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A palavra “voo” perdeu o acento circunflexo por determinação do Acordo, que eliminou o acento em palavras terminadas em “oo” que antes eram acentuadas.</strong>. Fonte: Prefeitura de Inimutaba - MG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Inimutaba - MG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cujas duas palavras possuem a mesma classificação quanto ao acento tônico:",
+                "opcoes": [
+                      "Réu e Ponte.",
+                      "Translúcido e sublingual.",
+                      "Tórax e Mão.",
+                      "Fôlego e Estrela.",
+                      "Companhia e Zombaria."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Companhia e Zombaria.</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2023. Assunto: acentuacaoGrafica.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limita",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são acentuadas pela mesma razão.",
+                "opcoes": [
+                      "náufrago – fotógrafo – mecânica – homeopático.",
+                      "fragrância – herói – glúten – véu.",
+                      "álibi – paciência – destrói – céu.",
+                      "baú – milionário – ânimo – exigência."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>náufrago – fotógrafo – mecânica – homeopático.</strong>. Fonte: Itame/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Itame",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A alternativa em que difere a justificativa de acentuação gráfica",
+                "opcoes": [
+                      "publicitário.",
+                      "sábia.",
+                      "fácil.",
+                      "bênção."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>fácil.</strong>. Fonte: Fundação CETAP/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Fundação CETAP",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A alternativa em que difere a justificativa de acentuação gráfica é:",
+                "opcoes": [
+                      "publicitário.",
+                      "fácil.",
+                      "bênção.",
+                      "sábia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>fácil.</strong>. Fonte: Fundação CETAP/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Fundação CETAP",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item que se segue, relativo a aspectos linguísticos do texto CG1A1 e ao vocabulário nele empregado.\nA eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item subsequente.\nGraficamente, acentuam-se os seguintes monossílabos tônicos: chá e pá.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"Um projeto do governo do Reino Unido para limpar bitucas de cigarro, que envolveu mais de 500 voluntarios, constatou que, após a limpeza, \"as bitucas de cigarro eram os itens plásticos mais numerosos, seguidas por tampas de bebidas e embalagens de alimentos\".\nNo trecho acima do texto, há o emprego de exatamente uma palavra sem a acentuação correta nos termos da Norma Culta da Língua Portuguesa.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia atentamente a sentença a seguir: O operador, ao identificar um ____ no sistema hidráulico, agiu com ____. Ele verificou se o ____ estava estável e usou uma chave especial para evitar vazamentos, seguindo o protocolo de segurança. Assinale a alternativa que completa correta e sequencialmente a sentença anterior, obedecendo às regras de acentuação gráfica da língua portuguesa.",
+                "opcoes": [
+                      "ruído / prudencia / nível",
+                      "ruído / prudência / nível",
+                      "ruido / prudência / nível",
+                      "ruido / prudência / nivél"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ruído / prudência / nível</strong>. Fonte: Instituto Access/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação gráfica, assinale a alternativa cujas palavras são todas proparoxítonas:",
+                "opcoes": [
+                      "Década- térmica- países- histórico.",
+                      "Térmica- dióxido- época- década.",
+                      "fósseis- década- térmica- histórico.",
+                      "média- térmica- fósseis- épоса.",
+                      "época- países- histórico- dê."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Térmica- dióxido- época- década.</strong>. Fonte: IF-MT/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IF-MT",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Outra categoria acrescentada aos manuais foi o transtorno invasivo do desenvolvimento sem outra especificação (PDD-NOS, na sigla em inglês), uma espécie de diagnóstico guarda-chuva que também contribuiu para a alta nas estatísticas. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "o vocábulo \"estatísticas\" é acentuado por ser proparoxítono, ou seja, possui a sílaba tônica na antepenúltima posição, o que exige acento gráfico obrigatório.",
+                      "o vocábulo \"também\" é acentuado por ser monossílabo tônico terminado em nasal, exigindo o uso do acento gráfico",
+                      "o vocábulo \"inglês\" é acentuado por ser oxítono terminado em \"s\", com a vogal tônica marcada por acento agudo.",
+                      "o vocábulo \"especificação\" recebe acento por ser uma oxítona terminada em \"ão\", formando ditongo com a vogal anterior."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>o vocábulo \"estatísticas\" é acentuado por ser proparoxítono, ou seja, possui a sílaba tônica na antepenúltima posição, o que exige acento gráfico obrigatório.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "O atum enlatado é uma opção prática e nutritiva, rica em proteínas de alta qualidade, ômega-3, vitaminas do complexo B e minerais essenciais. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há dois vocábulos acentuados por serem proparoxítonos legítimos.",
+                      "um vocábulo recebe acento por ser oxítono terminado em \"o\".",
+                      "permaneceu com acento diferencial após o novo acordo ortográfico vigente.",
+                      "\"prática\" e \"proteínas\" são vocábulos acentuados pela mesma regra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>há dois vocábulos acentuados por serem proparoxítonos legítimos.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Com base nas mudanças introduzidas pelo Novo Acordo Ortográfico da Língua Portuguesa, e considerando a forma destacada no trecho \"E a abelha, alheia, seguia seu voo\", assinale a alternativa correta quanto à justificativa para a grafia da palavra \"voo\":",
+                "opcoes": [
+                      "O acento na palavra \"voo\" foi mantido apenas nos casos em que aparece em final de frase, para manter a clareza da pronúncia",
+                      "O vocábulo \"voo\" não sofreu alteração ortográfica, pois o Acordo não contempla monossílabos terminados em ditongos abertos nem em encontros vocálicos iguais.",
+                      "A palavra \"voo\" perdeu o acento circunflexo por determinação do Acordo, que eliminou o acento em palavras terminadas em \"oo\" que antes eram acentuadas.",
+                      "A palavra \"voo\" manteve sua acentuação, pois é uma forma verbal derivada de \"voar\", e o Novo Acordo não alterou a grafia de verbos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A palavra \"voo\" perdeu o acento circunflexo por determinação do Acordo, que eliminou o acento em palavras terminadas em \"oo\" que antes eram acentuadas.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "E preferiu deixar seu retorno para o período já previsto de rotação programada da tripulação que permanece da estação espacial, mesmo que isso significasse manter os dois no espaço por vários meses. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há um vocábulo acentuado por ser proparoxítono legítimo.",
+                      "\"já\" recebe acento por ser um vocábulo oxítono terminado em \"a\".",
+                      "há três vocábulos acentuados por serem oxítonos terminados em \"o\".",
+                      "\"período\" é acentuado por ser um vocábulo paroxítono terminado em ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>há um vocábulo acentuado por ser proparoxítono legítimo.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "São todos termos oxítonos encontrados no texto, EXCETO:",
+                "opcoes": [
+                      "final",
+                      "professor.",
+                      "público.",
+                      "emoção."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>público.</strong>. Fonte: FRONTE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FRONTE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras “inglês” e “apresentá-la”, empregadas no texto, são acentuadas graficamente em razão de regras de acentuação distintas.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Qconcursos/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“No Brasil, influências indígenas, africanas e europeias se misturaram ao longo dos séculos [...]” Assim como em europeias, o acento gráfico caiu em desuso no termo destacado em",
+                "opcoes": [
+                      "Os seres humanos são heroicos.",
+                      "Os espanhois são um grupo étnico nativo da Espanha.",
+                      "Os meis são substâncias espessas, doces e acastanhadas.",
+                      "O chapeu Panamá, apesar do nome, é de origem equatoriana.",
+                      "A República dos Coroneis é caracterizada pelo poder exercido pelas oligarquias estaduais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Os seres humanos são heroicos.</strong>. Fonte: IDECAN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IDECAN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As nossas memórias não são, na verdade, tão confiáveis quanto pensamos. Mas que nível de esquecimento é normal? Analisemos as evidências. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'confiáveis' e 'nível' são vocábulos acentuados por serem paroxítonos pertencentes à mesma terminação.",
+                      "há três vocábulos proparoxítonos presentes na frase e, consequentemente, acentuados.",
+                      "'memórias' e 'evidências' são vocábulos acentuados pela mesma regra.",
+                      "os vocábulos 'são − é' possuem a mesma regra de acentuação, embora com terminações diferentes.",
+                      "'não' e 'são' recebem acento por serem monossílabos tônicos terminados em 'o'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>'memórias' e 'evidências' são vocábulos acentuados pela mesma regra.</strong>. Fonte: IASP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Mas, por trás dessa teimosia, apontam especialistas, estão características atribuídas à idade avançada. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'trás' é acentuado por ser monossílabo tônico terminado em 'a(s)'.",
+                      "monossílabos tônicos terminados em 'a' são acentuados, como no caso de 'à'.",
+                      "há dois monossílabos tônicos acentuados terminado em 'a(s)'.",
+                      "há dois vocábulos acentuados por serem proparoxítonos.",
+                      "'atribuídas' é acentuado por ser um vocábulo paroxítono."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>'trás' é acentuado por ser monossílabo tônico terminado em 'a(s)'.</strong>. Fonte: IASP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Julgue o seguinte item, referente a aspectos linguísticos do texto CB2A1.\nOs vocábulos “próprio”, “ciência” e “área” são acentuados graficamente de acordo com a mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com as regras de acentuação, qual das seguintes palavras NÃO deve receber acento gráfico, considerando a norma padrão?",
+                "opcoes": [
+                      "Tecnico",
+                      "Útil",
+                      "Raio-X",
+                      "Fêmur"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Raio-X</strong>. Fonte: Prefeitura de Monte Belo - MG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Monte Belo - MG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras “País”, “daí”, “gaúcho” e “útil” são acentuadas graficamente de acordo com a mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que os três vocábulos são acentuados pela mesma razão, ou seja, pela mesma regra.",
+                "opcoes": [
+                      "inviável - papéis – prejuízo.",
+                      "descartável – elétrico – réu.",
+                      "artístico – psíquico – evoluído.",
+                      "paraíso – raízes – ciúmes."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>paraíso – raízes – ciúmes.</strong>. Fonte: Itame/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Itame",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a sentença cujo termo destacado tenha sido acentuado seguindo uma regra distinta a dos demais.",
+                "opcoes": [
+                      "“Até se tornar servidor estadual [...]\".",
+                      "“[...] escondidos atrás do balcão [...]\".",
+                      "“[...] quando entrou em depressão após perder o emprego [...]\".",
+                      "“[...] instalado na antiga Hospedaria dos Imigrantes, no Brás [...]\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“[...] instalado na antiga Hospedaria dos Imigrantes, no Brás [...]\".</strong>. Fonte: IDIB/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “romântica” é considerada uma proparoxítona, pois",
+                "opcoes": [
+                      "possui a última sílaba acentuada.",
+                      "possui a penúltima sílaba acentuada.",
+                      "possui a antepenúltima sílaba acentuada.",
+                      "possui acento circunflexo na primeira sílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>possui a antepenúltima sílaba acentuada.</strong>. Fonte: Itame/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Itame",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa cuja palavra possui a mesma regra de acentuação gráfica que “Ninguém”.",
+                "opcoes": [
+                      "Assédio.",
+                      "Gênero.",
+                      "Porém.",
+                      "Fórum."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Porém.</strong>. Fonte: Itame/2023. Assunto: acentuacaoGrafica.",
+                "banca": "Itame",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as 2 palavras perderam o acento com o Novo Acordo Ortográfico.",
+                "opcoes": [
+                      "país - crônica.",
+                      "Cérebro - Coréia.",
+                      "idéias - VÔOS.",
+                      "será - águia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>idéias - VÔOS.</strong>. Fonte: CETAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CETAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analisar as palavras abaixo e assinalar a alternativa em que todas estão acentuadas CORRETAMENTE:",
+                "opcoes": [
+                      "Rêtrato | Lâmpada | Máscara.",
+                      "Papél | Cômoda | Responsável.",
+                      "Médico | Silêncio | Invisível.",
+                      "Fôlha | Câmara | Documentário."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Médico | Silêncio | Invisível.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém monossílabo acentuado não pela regra geral.",
+                "opcoes": [
+                      "têm.",
+                      "é.",
+                      "nós.",
+                      "já."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>têm.</strong>. Fonte: CETAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CETAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Algumas regras que constituem o Novo Acordo Ortográfico foram destacadas a seguir. No entanto, uma delas apresenta um erro de interpretação, assinale-a:",
+                "opcoes": [
+                      "Dentre as formas possíveis de emprego das letras “k”, “w” e “y”, destacam-se as seguintes situações: em antropônimos originários de outras línguas e seus derivados; e em topônimos originários de outras línguas e seus derivados.",
+                      "O “h” inicial é empregado por força da etimologia ou em virtude de adoção convencional.",
+                      "O emprego do “e” e do “i”, assim como o do “o” e do “u”, em sílaba átona, regula-se fundamentalmente pela etimologia e por particularidades da história das palavras.",
+                      "O uso do acento circunflexo é facultativo quando faz referência à 3ª pessoa do singular do pretérito perfeito do indicativo (verbo poder).",
+                      "O trema, sinal de diérese, é inteiramente suprimido em palavras portuguesas ou aportuguesadas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O uso do acento circunflexo é facultativo quando faz referência à 3ª pessoa do singular do pretérito perfeito do indicativo (verbo poder).</strong>. Fonte: Avança SP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise os seguintes vocábulos extraídos do poema: contente – Oxalá – ranchos – último – árvores – lá. Com base nas regras de acentuação, assinale quais desses vocábulos são proparoxítonos.",
+                "opcoes": [
+                      "Árvores, lá e contente.",
+                      "Contente e ranchos.",
+                      "Oxalá, último e lá.",
+                      "Último e árvores."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Último e árvores.</strong>. Fonte: IESES/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IESES",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo está acentuada corretamente?",
+                "opcoes": [
+                      "LÁPIS.",
+                      "PESSÊGO.",
+                      "CHÁPEU.",
+                      "BÁU."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>LÁPIS.</strong>. Fonte: IDESG/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que as palavras foram acentuadas, respectivamente, pelo mesmo motivo que os termos destacados em: I. ... faixas etárias usadas. II. ... diversos fatores pedagógicos ... III.... na cultura e na economia do país... IV. ... nem tempo hábil...",
+                "opcoes": [
+                      "álbuns – tríceps – ímãs – ônix.",
+                      "caído – consciência – bisavô – sótão.",
+                      "difícil – legítimo – convés – fórum.",
+                      "frágeis – mágico – baús – cônsul."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>frágeis – mágico – baús – cônsul.</strong>. Fonte: JVL Concursos/2024. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que contém apenas palavras CORRETAMENTE acentuadas:",
+                "opcoes": [
+                      "Açúcar | abóbora | açaí.",
+                      "Récorde | javalí | raíz.",
+                      "Cupuaçú | heróico | vôo.",
+                      "Boné | abacaxí | babá."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Açúcar | abóbora | açaí.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cujas palavras retiradas do texto tenham sido acentuadas conforme regras distintas entre si.",
+                "opcoes": [
+                      "Média – país – relatório.",
+                      "Aliás – República – econômico.",
+                      "Países – Já – últimas.",
+                      "Islândia – Somália – Suíça.",
+                      "Três – é – saúde."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Países – Já – últimas.</strong>. Fonte: ISET/2025. Assunto: acentuacaoGrafica.",
+                "banca": "ISET",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as sentenças a seguir e assinale aquela em que não ocorre desvio ortográfico.",
+                "opcoes": [
+                      "Comprei cravos da índia para enfeitar os docinhos da festa.",
+                      "As pessoas que conheci neste ano são verdadeiras bençãos para mim.",
+                      "Os professores não têm tempo para esses garotos mal-educados.",
+                      "As máquinas continham engrenagens espiróides.",
+                      "Poucas são as pessoas que entendem à respeito das cripto-moedas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os professores não têm tempo para esses garotos mal-educados.</strong>. Fonte: Avança SP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a regra de acentuação gráfica, assinale a alternativa que apresenta uma palavra acentuada incorretamente.",
+                "opcoes": [
+                      "Tênue.",
+                      "Tóia.",
+                      "Ávido.",
+                      "Namastê."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tóia.</strong>. Fonte: MSConcursos/2024. Assunto: acentuacaoGrafica.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que os termos destacados são acentuados pelo mesmo motivo.",
+                "opcoes": [
+                      "“[...] ocorre uma sobrecarga emocional e física, que mantém o corpo em estado constante de alerta [...]”.",
+                      "“[...] apesar de que a prática tende a ser mais difícil que a teoria.”.",
+                      "“Ela ressalta, porém, que é necessário garantir que não haja sobrecarga ou invasão de espaço pessoal.”.",
+                      "“[...] já que toda a estratégia é baseada em conteúdo qualificado e pesquisas.”.",
+                      "“[...] os níveis globais de saúde mental caíram drasticamente durante a pandemia de Covid-19 [...]”."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“[...] os níveis globais de saúde mental caíram drasticamente durante a pandemia de Covid-19 [...]”.</strong>. Fonte: INSTITUTO AOCP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "INSTITUTO AOCP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo está grafada INCORRETAMENTE quanto à colocação do acento gráfico?",
+                "opcoes": [
+                      "chimpanzé",
+                      "robô",
+                      "cúbico",
+                      "colméia"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>colméia</strong>. Fonte: JVL Concursos/2024. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação gráfica, percebe-se que as notações léxicas estão ausentes de algumas palavras. Nesse caso, quantas palavras são obrigatoriamente acentuadas conforme as regras estabelecidas pela gramática?",
+                "opcoes": [
+                      "Três",
+                      "Duas",
+                      "Quatro",
+                      "Cinco",
+                      "Seis"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Seis</strong>. Fonte: LJ Assessoria e Planejamento Administrativo Limita/2024. Assunto: acentuacaoGrafica.",
+                "banca": "LJ Assessoria e Planejamento Administrativo Limita",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Várias das palavras contidas nas alternativas abaixo possuem, por atendimento às normas gramaticais, acento gráfico. Assinale a alternativa em que todas as palavras deveriam estar acentuadas por serem palavras proparoxítonas:",
+                "opcoes": [
+                      "Inexoravel – Robo – lampada – bau.",
+                      "Fogareu – matematica – lambari – confusao.",
+                      "formula – forum – abobora – ministerio.",
+                      "periodo – esdruxula – fosforo – fabula."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>periodo – esdruxula – fosforo – fabula.</strong>. Fonte: HL/2024. Assunto: acentuacaoGrafica.",
+                "banca": "HL",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Imagem associada para resolução da questão Disponível em: https://www.louveira.sp.gov.br/conteudo/prefeiturasegue-com-acoes-e-campanhas-de-conscientizacao-no-transito. Acesso em: 28 set. 2023. Analisando o texto, é correto afirmar:",
+                "opcoes": [
+                      "A falta de pontuação prejudica o sentido do texto, impedindo a compreensão da mensagem.",
+                      "O uso de “a gente”, em vez de “nós”, evidencia um discurso inadequado no contexto comunicativo.",
+                      "A expressão “é como” poderia ser substituída, sem perda de sentido, por “bem como”, no contexto.",
+                      "As palavras “distância” e “trânsito” são acentuadas segundo regras de acentuação diferentes."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As palavras “distância” e “trânsito” são acentuadas segundo regras de acentuação diferentes.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Hoje em dia, as pessoas acreditam que estar bem consigo mesmas é apresentar um cartão de visita de uma boa aparência, do externo, daquilo que é visível, do que se pode ter, onde tantas vezes uma tristeza profunda se esconde por trás de um sorriso disfarçado.” Soraya Rodrigues de Aragão Com base nas regras de acentuação gráfica, é CORRETO afirmar que:",
+                "opcoes": [
+                      "A palavra “pessoas” deveria estar com acento circunflexo no “o”.",
+                      "As palavras “aparência” e “visível” estão acentuadas adequadamente.",
+                      "A palavra “boa” deveria estar com acento circunflexo no “o”.",
+                      "A palavra “tristeza” deveria estar com acento circunflexo no “e”.",
+                      "A palavra “disfarçado” deveria estar com acento agudo no “a”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>As palavras “aparência” e “visível” estão acentuadas adequadamente.</strong>. Fonte: AEVSF/FACAPE/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com referência ao texto e a seus aspectos linguísticos e gramaticais, julgue o item seguinte.\nOs vocábulos “possível”, “projéteis” e “psicológicos” apresentam acento gráfico em razão da mesma regra de acentuação.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com relação aos aspectos linguísticos e gramaticais do texto, julgue o item seguinte.\nAs palavras “considerável”, “longínquos” e “ruína” são grafadas com acento em razão da mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras retiradas do texto obedecem à mesma regra de acentuação gráfica.",
+                "opcoes": [
+                      "sabiás / círculos / espécies",
+                      "fiéis / primórdios / árvores",
+                      "memória / história / aliás",
+                      "símbolos / inestimável / neotrópicos",
+                      "gênero / inóspitos / específico"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>gênero / inóspitos / específico</strong>. Fonte: UEM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "UEM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação gráfica, a relação de palavras em que todas estão de acordo com o atual Acordo Ortográfico é:",
+                "opcoes": [
+                      "platéia – saudável – aminoácido – história.",
+                      "gluten – fórum – místico – têm (plural)",
+                      "atrás – más – assembléia – heroi.",
+                      "estreia – órgão – enjoo – veem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>estreia – órgão – enjoo – veem.</strong>. Fonte: Itame/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Nos Estados Unidos, mais de 25% da população está exposta a ar considerado não saudável pela Agência de Proteção Ambiental do país, segundo um relatório de uma organização climática. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'está' e 'país' são vocábulos com terminações diferentes, mas acentuados pela mesma regra.",
+                      "'relatório' e 'agência' são vocábulos acentuados pela mesma regra.",
+                      "'saudável' recebe acento pela formação do hiato entre o 'u' tônico e a vogal 'a'.",
+                      "há quatro vocábulos proparoxítonos presentes na frase."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>'relatório' e 'agência' são vocábulos acentuados pela mesma regra.</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa com palavras acentuadas INCORRETAMENTE.",
+                "opcoes": [
+                      "Cerébro | solêira.",
+                      "Pólen | inglês.",
+                      "Além | mantém.",
+                      "Gêmeo | férias."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cerébro | solêira.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras estão acentuadas CORRETAMENTE.",
+                "opcoes": [
+                      "Contém | pânico | relógio.",
+                      "Amárgo | saude | pólen.",
+                      "Água | podêr | corrêio.",
+                      "Fugír | ciência | cha."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Contém | pânico | relógio.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"O abacate também é um grande aliado para melhorar o perfil de alto colesterol e açúcar no sangue, explica a especialista.\" O vocábulo 'saudável' está acentuado corretamente. identifique a alternativa em que os vocábulos também estão acentuados CORRETAMENTE:",
+                "opcoes": [
+                      "mórbido, república, juízes.",
+                      "heróico, paciência, árvore.",
+                      "prótons, idéia, espátula.",
+                      "juíz, estática, fórum."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>mórbido, república, juízes.</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"As palavras esdrúxulas são todas sempre acentuadas.\" Assinale a alternativa que exemplifica essa regra:",
+                "opcoes": [
+                      "atrás.",
+                      "também.",
+                      "ônibus.",
+                      "próprio."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ônibus.</strong>. Fonte: CETAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CETAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com nossos cálculos, dez espécies de caranguejos eremitas utilizam esse tipo de abrigo, observado em todas as regiões tropicais da Terra. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'cálculos' é acentuado por ser um vocábulo proparoxítono.",
+                      "'regiões' é um vocábulo acentuado por ser oxítono terminado em 'e(s)'.",
+                      "'espécies' recebe acento circunflexo por ser uma paroxítona terminada em ditongo.",
+                      "um vocábulo é acentuado por ter acento diferencial segundo o novo acordo ortográfico.",
+                      "há três vocábulos acentuados por serem proparoxítonos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>'cálculos' é acentuado por ser um vocábulo proparoxítono.</strong>. Fonte: AMAUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMAUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir e identifique qual delas está corretamente acentuada de acordo com as regras de acentuação gráfica.",
+                "opcoes": [
+                      "Javáli.",
+                      "Ítem.",
+                      "Pinguím.",
+                      "Bebê."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Bebê.</strong>. Fonte: IDESG/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a assertiva em que todos os vocábulos foram acentuados pela mesma regra de acentuação gráfica.",
+                "opcoes": [
+                      "Próprio – Família – Responsáveis.",
+                      "Reféns – Só – Ciúme.",
+                      "Tivéssemos – Acreditássemos – Fiéis.",
+                      "Defendêssemos – Família – Reclamações.",
+                      "Contrárias – É – Mudássemos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Próprio – Família – Responsáveis.</strong>. Fonte: Instituto Ágata/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Ágata",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra “insípida” leva acento pelo mesmo motivo que a palavra:",
+                "opcoes": [
+                      "Caráter.",
+                      "Árvore.",
+                      "Vírus.",
+                      "Café.",
+                      "Nós."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Árvore.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "[Questão Inédita] Assinale a alternativa com a informação correta.",
+                "opcoes": [
+                      "As palavras contribuíram, raízes, combustível, saúde e proteínas recebem acento gráfico em razão de uma mesma regra.",
+                      "Em “Muitas dessas contribuições, no entanto, são desconhecidas”, a expressão “no entanto” pode ser substituída pela conjunção adversativa “mas” sem que se altere o sentido nem produza falha gramatical.",
+                      "Em “era um alimento básico na era pré-colombiana” (5º parágrafo), observa-se a palavra “era” (com o mesmo som e grafia), mas em funções diferentes. Esse mesmo fenômeno ocorre na frase “Eu jogo o jogo”.",
+                      "Em “como a medicina, a biologia, a matemática, a engenharia e a agricultura”, caso se troque a conjunção “e” por uma vírgula, perde-se a indicação de último elemento da enumeração, ou seja, do fechamento dos itens enumerados, e cria-se com a mudança a impressão de que mais elementos poderiam ser acrescentados.",
+                      "Nos trechos “indígenas norte-americanos” e “era pré-colombiana”, observa-se uma mesma regra no uso do hífen para ambas as formações."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Em “como a medicina, a biologia, a matemática, a engenharia e a agricultura”, caso se troque a conjunção “e” por uma vírgula, perde-se a indicação de último elemento da enumeração, ou seja, do fechamento dos itens enumerados, e cria-se com a mudança a impressão de que mais elementos poderiam ser acrescentados.</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Identifique a alternativa que contém 2 vocábulos destacados classificados como proparoxítonos e 1 como monossílabo tônico acentuado, independentemente da ordem.\"",
+                "opcoes": [
+                      "Estudos revelam que comunidades indígenas pré-coloniais já praticavam formas de urbanismo, fazendo das indigeneidades urbanas um fenômeno ancestral",
+                      "Quando se fala em Amazônia , a primeira imagem que vem à cabeça da maioria das pessoas é uma rica paisagem natural composta pelos magníficos biomas amazônicos.",
+                      "Belém (PA), com uma população de 1,3 milhão de pessoas, são as maiores cidades da região. Além dessas duas megacidades, a Amazônia abriga várias outras áreas urbanas de grande e médio porte espalhadas por essa vasta floresta.",
+                      "Além dessas duas megacidades, a Amazônia abriga várias outras áreas urbanas de grande e médio porte espalhadas por essa vasta floresta."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Estudos revelam que comunidades indígenas pré-coloniais já praticavam formas de urbanismo, fazendo das indigeneidades urbanas um fenômeno ancestral</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Não digo o nome também por segredo”, o termo “também™ recebe acentuação gráfica pela mesma razão que:",
+                "opcoes": [
+                      "essência.",
+                      "própria.",
+                      "íntima.",
+                      "bônus.",
+                      "parabéns."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>parabéns.</strong>. Fonte: CPCON/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual palavra está escrita errada quanto ao uso do acento?",
+                "opcoes": [
+                      "Lápis",
+                      "Pássaro",
+                      "Café",
+                      "Leao",
+                      "Fósforo"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Leao</strong>. Fonte: Prefeitura de Pejuçara - RS/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Pejuçara - RS",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmativas abaixo: 1. O acento gráfico da palavra destacada em “Pelé nunca pôde ser espontâneo…” é facultativo. 2. A palavra o, em “…sempre foi um jogador comprometido consigo próprio, com o que poderia representar”, morfologicamente, é um pronome. 3. Em “… se Pelé é jogador mais completo que já tivemos num campo de futebol, Garrincha é um pouco menos, não foi um jogador perfeito, tinha defeitos sérios até, mas Garrincha também foi mais do que Pelé.”, poderíamos reescrever o trecho sublinhado, sem infração à norma culta e sem alteração semântica por “… por ser Pelé jogador mais completo que já tivemos num campo de futebol…”. Assinale a alternativa que indica todas as afirmativas corretas.",
+                "opcoes": [
+                      "É correta apenas a afirmativa 1.",
+                      "É correta apenas a afirmativa 2.",
+                      "É correta apenas a afirmativa 3.",
+                      "São corretas apenas as afirmativas 2 e 3.",
+                      "São corretas as afirmativas 1, 2 e 3."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>É correta apenas a afirmativa 2.</strong>. Fonte: FEPESE/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FEPESE",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se o uso, de acordo com a norma-padrão da língua, da acentuação, é incorreto:",
+                "opcoes": [
+                      "As nações européias temem a recessão econômica.",
+                      "A ideia é simbólica, porém deve ser escutada com muita atenção.",
+                      "A Inteligência Artificial está revolucionando a tecnologia.",
+                      "O vício a ser tratado com as ferramentas corretas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As nações européias temem a recessão econômica.</strong>. Fonte: IGDRH/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGDRH",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que as palavras obedecem à mesma regra de acordo com a acentuação gráfica:",
+                "opcoes": [
+                      "raízes, século, pás",
+                      "pés, rouxinóis, vírus",
+                      "café, invés, porém",
+                      "parabéns, cafeína, mês"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>café, invés, porém</strong>. Fonte: Prefeitura de Catas Altas - MG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Catas Altas - MG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Eles testaram essas substâncias em bactérias cultivadas em laboratório e em camundongos com pneumonia e sepse. Os pesquisadores relataram que os resultados foram comparáveis aos de alguns antibióticos já estabelecidos. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "O número de vocábulos acentuados por serem proparoxítonos é de cinco.",
+                      "O vocábulo \"já\" é acentuado por ser oxítono terminado em \"a\".",
+                      "Há quatro vocábulos acentuados por serem paroxítonos terminados em ditongo.",
+                      "\"comparáveis\" recebe acento por ser um vocábulo proparoxítono."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Há quatro vocábulos acentuados por serem paroxítonos terminados em ditongo.</strong>. Fonte: Instituto Access/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em “O médico ponderou...” (3§) o termo destacado foi acentuado pela mesma razão que:",
+                "opcoes": [
+                      "Desnecessário.",
+                      "Você.",
+                      "Consciência.",
+                      "É.",
+                      "Rápida."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Rápida.</strong>. Fonte: IVIN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IVIN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras “judô, bônus, ângulo, acadêmico” há presença de acentos da Ortografia Oficial denominados",
+                "opcoes": [
+                      "agudos.",
+                      "tiles ou tis.",
+                      "circunflexos.",
+                      "graves.",
+                      "diferenciais."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>circunflexos.</strong>. Fonte: IV - UFG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IV - UFG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O objetivo da Reforma Ortográfica é garantir que a língua escrita esteja de acordo com o que é falado e, também, com as convenções sociais vigentes. A ilustração humorística que segue satiriza, com humor, uma realidade e especificidade dessa Reforma. Imagem associada para resolução da questão Disponível em::<https://blogdoenem.com.br/exercicios-sobre-acentuacao>. Acesso em: 07 jan. 2025. De acordo com as regras de acentuação gráfica atuais, a palavra que deve ser retificada para a forma correta é",
+                "opcoes": [
+                      "acento.",
+                      "jogue.",
+                      "refórma.",
+                      "ortográfica.",
+                      "boia."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>boia.</strong>. Fonte: IV - UFG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IV - UFG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acentuação gráfica prevê regras específicas para oxítonas, paroxítonas e proparoxítonas, de acordo com a ortografia oficial. A identificação CORRETA do acento é fundamental para a clareza na escrita e para evitar ambiguidades textuais. Marque a alternativa que segue a convenção de acentuação de palavras proparoxítonas:",
+                "opcoes": [
+                      "“heroico”, pois o acento cai na sílaba final, dispensando a marca visual.",
+                      "“arábico”, com a vogal ‘a’ tônica na antepenúltima sílaba, recebendo acento agudo.",
+                      "“tatu”, por se tratar de paroxítona acentuada na segunda sílaba, exigindo acento grave.",
+                      "“anuário”, pois apresenta hiato no meio da palavra, recebendo acento circunflexo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“arábico”, com a vogal ‘a’ tônica na antepenúltima sílaba, recebendo acento agudo.</strong>. Fonte: JVL Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação, analise as afirmativas: I. O vocábulo 'alcoólicas' segue a mesma regra de 'amálgama'. II. Os vocábulos 'país' e 'saúde' são acentuados pela mesma regra. III. Caso haja a supressão do acento do vocábulo 'até', ele continuará a existir na língua portuguesa, porém mudará de classe gramatical. IV. O vocábulo 'além' é classificado como oxítono, assim como o vocábulo 'ruim'. V. O acento de 'há' simboliza marca de plural. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, II, III e IV.",
+                      "Apenas I, III e V.",
+                      "Apenas II e III.",
+                      "Apenas I e II."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I, II, III e IV.</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação, analise as afirmativas e identifique CORRETA:",
+                "opcoes": [
+                      "Os vocábulos 'difícil' e 'variáveis' são paroxítonos.",
+                      "O vocábulo 'experiências' é paroxítono, assim como 'Nobel'.",
+                      "O vocábulo 'cérebro' é acentuado, pela mesma regra, o vocábulo 'policromo' deve ser acentuado.",
+                      "Os vocábulos 'viés' e 'decisões' são acentuados pela mesma regra das oxítonas terminadas em 'es'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'difícil' e 'variáveis' são paroxítonos.</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação, analise as afirmativas: I.Nos vocábulos 'contém' e 'contêm' o acento diferencial é empregado para sinalizar a mudança de classe gramatical. II.O vocábulo 'você' é acentuado pela mesma regra de 'vê' e 'lê'. III.O vocábulo 'possível' é paroxítono, assim como 'pudico' e 'néctar'. IV.O vocábulo 'proibida' foi grafado incorretamente, pois deveria ser acentuado, já que forma hiato com 'i'. V.O vocábulo 'física' é uma proparoxítono, assim como 'boêmio'. Estão corretas:",
+                "opcoes": [
+                      "Apenas II e V.",
+                      "Apenas I, II e IV.",
+                      "Apenas I, II, III e IV.",
+                      "Apenas III e V."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas III e V.</strong>. Fonte: IDCAP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Na passagem “(...) o envolvimento das mesmas com a novidade tem sido notável” (§9), a regra que determinou a acentuação da palavra destacada é a mesma da opção:",
+                "opcoes": [
+                      "Belíssimo.",
+                      "Hidráulicos.",
+                      "Francês.",
+                      "Confortável.",
+                      "Básico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Confortável.</strong>. Fonte: IVIN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IVIN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "[Questão Inédita] Assinale a alternativa em que as palavras são acentuadas graficamente pelos mesmos motivos que justificam, respectivamente, as acentuações de: país, será, América.",
+                "opcoes": [
+                      "extraído, já, rústico",
+                      "índice, sofá, órgãos",
+                      "útil, há, trágico",
+                      "baú, até, estereótipo",
+                      "saúde, Pará, régua"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>baú, até, estereótipo</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra acentuada INCORRETAMENTE de acordo com as regras de acentuação gráfica da língua portuguesa:",
+                "opcoes": [
+                      "O médico recomendou que eu tomasse o remédio antes de dormir.",
+                      "A colaboração entre as equipes resultou em uma parceria frutífera, trazendo muitos benefícios para o projeto.",
+                      "Ele disse que a última semana foi muito cansativa.",
+                      "O bombeiro fez um ato heróico ao salvar a criança presa nas chamas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O bombeiro fez um ato heróico ao salvar a criança presa nas chamas.</strong>. Fonte: Diretoria de Ensino da Região de Jaboticabal - SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Diretoria de Ensino da Região de Jaboticabal - SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com relação à tipologia, às ideias e a aspectos linguísticos do texto precedente, julgue o item a seguir.\nAs palavras “pirólise” e “agrícolas” (último período do terceiro parágrafo) são acentuadas graficamente de acordo com a mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho “Livro combate a arrogância, um dos males do século” (2° §), a palavra em destaque esta acentuada de acordo com a norma culta. Nas opções abaixo, todas as palavras também receberam o acento gráfico corretamente, EXCETO:",
+                "opcoes": [
+                      "heróico.",
+                      "abundância.",
+                      "hífen.",
+                      "têxtil.",
+                      "fênix."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>heróico.</strong>. Fonte: Marinha/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Marinha",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir, retiradas do texto, quanto à acentuação gráfica. Verifica-se que são acentuadas pela mesma regra ortográfica apenas as palavras:",
+                "opcoes": [
+                      "dubá; fábula; obó.",
+                      "ázimo; paraíso; viúva.",
+                      "psicológico; socrático; retórica.",
+                      "pé; açúcar; ló.",
+                      "pássaros; céu; dólar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>psicológico; socrático; retórica.</strong>. Fonte: Avança SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, o que justifica a acentuação das palavras INALIENÁVEIS, INDIVÍDUO e OBSERVÂNCIA é:",
+                "opcoes": [
+                      "Acentuam-se as palavras paroxítonas terminadas em ditongos.",
+                      "Acentuam-se as palavras paroxítonas terminadas em -i seguido ou não de -s, são graficamente acentuadas.",
+                      "Recebem acento gráfico todas as paroxítonas que têm terminação -om ou -ons.",
+                      "São acentuadas as palavras paroxítonas terminadas em -us.",
+                      "São acentuadas todas as palavras paroxítonas terminadas em -um e -uns."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Acentuam-se as palavras paroxítonas terminadas em ditongos.</strong>. Fonte: IDCAP/2023. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2023,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras a seguir, retiradas do texto, que recebem a acentuação gráfica pela mesma regra ortográfica são apenas:",
+                "opcoes": [
+                      "moído; túnel; até.",
+                      "desagradável; modéstia; chá.",
+                      "monótona; página; límpido.",
+                      "vício; física; alguém.",
+                      "horríveis; aí; remédio."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>monótona; página; límpido.</strong>. Fonte: Avança SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica está INCORRETA apenas em:",
+                "opcoes": [
+                      "A menina ficou órfã ainda na infância.",
+                      "É um privilégio poder trabalhar com ele.",
+                      "A saída do voo será durante a madrugada.",
+                      "As jibóias atacaram o cachorro.",
+                      "Os irmãos de Ana não vêm para o jantar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As jibóias atacaram o cachorro.</strong>. Fonte: Avança SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“A primavera chegará, mesmo que ninguém mais saiba seu nome, nem acredite no calendário, nem possua jardim para recebê-la. A inclinação do sol vai marcando outras sombras; e os habitantes da mata, essas criaturas naturais que ainda circulam pelo ar e pelo chão, começam a preparar sua vida para a primavera que chega. Finos clarins que não ouvimos devem soar por dentro da terra, nesse mundo confidencial das raízes, — e arautos sutis acordarão as cores e os perfumes e a alegria de nascer, no espírito das flores.” Cecília Meireles As palavras, retiradas do texto, são acentuadas pela mesma regra de acentuação gráfica na alternativa:",
+                "opcoes": [
+                      "“calendário” e “ninguém”.",
+                      "“raízes’ e “espírito”.",
+                      "“calendário” e “raízes”.",
+                      "“ninguém” e “recebê-la”.",
+                      "“chegará” e” recebê-la”."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“chegará” e” recebê-la”.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas sobre algumas palavras retiradas da charge e assinale V, se verdadeiras, ou F, se falsas. ( ) Se o acento da palavra “médio” for retirado, essa palavra continuará existindo na Língua Portuguesa, vinda do verbo “mediar”. ( ) Em relação à palavra “básicas”, se o acento for retirado, essa palavra não existirá na Língua Portuguesa. ( ) Se o acento em “é” for retirado, a palavra passará a ser a preposição “e”. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V.",
+                      "V – F – F.",
+                      "F – F – F.",
+                      "F – V – V.",
+                      "V – V – F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V – V – F.</strong>. Fonte: FUNDATEC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa onde todas as palavras estão corretamente acentuadas:",
+                "opcoes": [
+                      "dói – jóquei – balaústre – álibi",
+                      "baú – herói – idéia – armazéns",
+                      "feiúra – série – má – bíceps",
+                      "enjôo – chá – tórax – táxi",
+                      "látex – fórum – jurí – caí"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dói – jóquei – balaústre – álibi</strong>. Fonte: IBADE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBADE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a palavra está acentuada CORRETAMENTE:",
+                "opcoes": [
+                      "Hidraulico;",
+                      "Hidráulico;",
+                      "Hidrâulico;",
+                      "Hidraúlico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Hidráulico;</strong>. Fonte: Máxima/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Máxima",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras apresentam a grafia CORRETA quanto à acentuação.",
+                "opcoes": [
+                      "Miúdo | juízes | baú.",
+                      "Enjôo | assembléia | juíz.",
+                      "Jóia | sómente | cheínho.",
+                      "Fácilmente | cafézinho | moínho."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Miúdo | juízes | baú.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "“Diante do risco de esgotamento dos recursos naturais, cresce a necessidade de soluções alternativas a partir da árvore, um recurso renovável que é capaz de gerar, hoje, novas fontes ambientalmente corretas para a sociedade e que possam contribuir, por exemplo, para a redução significativa do uso do plástico e de outros produtos de origem fóssil. O olhar para o futuro do novo Propósito está também no reforço do conceito forte-e-gentil, que apresenta o equilíbrio entre a busca por resultados e a maneira com a qual a Suzano se relaciona com seus diversos públicos. Orientada sempre pela certeza de que o mundo que queremos depende do que fazemos e, também, do jeito como fazemos, buscando ser melhores a cada dia.” Disponível em: https://www.suzano.com.br (adaptado) Em relação ao texto, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "As palavras “árvore” e “renovável” são acentuadas, graficamente, de acordo com a mesma regra de acentuação gráfica.",
+                      "O valor semântico da oração “...que é capaz de gerar, hoje, novas fontes ambientalmente corretas para a sociedade...” é de consequência.",
+                      "Na oração “...que possam contribuir, por exemplo, para a redução significativa do uso do plástico e de outros produtos de origem fóssil.” contém um vocábulo grafado inadequadamente.",
+                      "Em “O olhar para o futuro do novo Propósito está também no reforço do conceito forte-egentil, que apresenta o equilíbrio entre a busca por resultados e a maneira com a qual a Suzano se relaciona com seus diversos públicos.”, a expressão “por resultados” completa a significação do nome “busca”.",
+                      "O período “Orientada sempre pela certeza de que o mundo que queremos depende do que fazemos e, também, do jeito como fazemos, buscando ser melhores a cada dia.” contém uma oração com valor semântico de causa."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Em “O olhar para o futuro do novo Propósito está também no reforço do conceito forte-egentil, que apresenta o equilíbrio entre a busca por resultados e a maneira com a qual a Suzano se relaciona com seus diversos públicos.”, a expressão “por resultados” completa a significação do nome “busca”.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a única palavra que está corretamente acentuada.",
+                "opcoes": [
+                      "Lâmpada.",
+                      "Corredôr.",
+                      "Professôra.",
+                      "Camundóngo.",
+                      "Fôrça."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Lâmpada.</strong>. Fonte: FGV/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FGV",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra recebe acento gráfico pela mesma regra de acentuação da palavra “silêncio”.",
+                "opcoes": [
+                      "série",
+                      "cérebro",
+                      "ninguém",
+                      "heroísmo"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>série</strong>. Fonte: FUNDEP (Gestão de Concursos)/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que mostra dois vocábulos proparoxítonos (os vocábulos estão, propositadamente, sem acento gráfico).",
+                "opcoes": [
+                      "aziago / avaro.",
+                      "catedra / faceta.",
+                      "interim / rubrica.",
+                      "decano / hieroglifo.",
+                      "etiope / aerodromo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>etiope / aerodromo.</strong>. Fonte: FGV/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FGV",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa incorreta quanto ao emprego da acentuação:",
+                "opcoes": [
+                      "O secretário recebeu um bônus por seu desempenho",
+                      "Não convém que você convide seu irmão para o natal.",
+                      "Em razão do acidente automobilístico, a criança ficou órfã.",
+                      "Esse livro foi publicado sob a rúbrica de romance."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Esse livro foi publicado sob a rúbrica de romance.</strong>. Fonte: MPE-GO/2025. Assunto: acentuacaoGrafica.",
+                "banca": "MPE-GO",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em consonância com o Novo Acordo Ortográfico, destaque a alternativa incorreta.",
+                "opcoes": [
+                      "Acento diferencial em palavras homógrafas deixa de ser empregado.",
+                      "Acento circunflexo deixa de ser empregado em palavras terminadas em “eem” e hiato “oo”.",
+                      "Paroxítonas com os ditongos abertos “ei” e “oi” perdem o acento.",
+                      "Oxítonas com ditongo aberto “eu”, “ei” e “oi” perdem o acento.",
+                      "Paroxítonas com “i” e “u” tônico depois de ditongo perdem o acento."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Oxítonas com ditongo aberto “eu”, “ei” e “oi” perdem o acento.</strong>. Fonte: Avança SP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmativas a seguir, tendo em vista a estrutura linguística do texto. I- A palavra “geléia”, atualmente, deve ser grafada sem o acento agudo, pois o Novo Acordo Ortográfico suprimiu o acento gráfico dos ditongos éi, ói, e éu, nas palavras paroxítonas. II- O pronome “lhe” foi usado proclítico, mas, de acordo com a norma, poderia ter sido usado enclítico, já que não se verifica a presença de palavra atrativa. III- As vírgulas foram usadas, de acordo com a norma, para separar os elementos de uma enumeração os quais exercem a mesma função sintática IV- O texto é formado por um período composto por três orações indicadas pelas presenças dos verbos “faz”, “pergunta” e “darão”. V- O período que compõe o texto é misto, já que é formado pelos processos de coordenação e subordinação. Estão CORRETAS as afirmativas",
+                "opcoes": [
+                      "I, II e III, apenas.",
+                      "I, II, III e IV, apenas.",
+                      "II, III e V, apenas.",
+                      "III, IV e V, apenas.",
+                      "I, III, IV e V, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, III, IV e V, apenas.</strong>. Fonte: FADENOR/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FADENOR",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "No que se refere às regras de acentuação gráfica vigentes, assinale a alternativa que apresenta a sequência de palavras com o uso ou ausência correta de acentos.",
+                "opcoes": [
+                      "Heroico / herói.",
+                      "Asteroide / paranóia.",
+                      "Ideia / heróico.",
+                      "Jiboia / plebéia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Heroico / herói.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação aos acentos, qual das palavras está escrita INCORRETAMENTE?",
+                "opcoes": [
+                      "História.",
+                      "Açúcar.",
+                      "Feijão.",
+                      "Régra."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Régra.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia com atenção a afirmativa abaixo: A influencia da forma como falamos com as crianças é grande na evolução do vocabulário delas. Qual dos termos presentes na afirmativa acima possui erro de acentuação?",
+                "opcoes": [
+                      "influencia.",
+                      "evolução.",
+                      "vocabulário.",
+                      "forma."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>influencia.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras devem, obrigatoriamente, receber acento gráfico.",
+                "opcoes": [
+                      "Influencia | paralelepípedo | instancia.",
+                      "Café | relógio | frágil.",
+                      "Jóia | gramática | constrói.",
+                      "Geléia | jibóia | caráter."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Café | relógio | frágil.</strong>. Fonte: OBJETIVA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assim como “tênis”, qual das palavras abaixo deveria estar acentuada?",
+                "opcoes": [
+                      "Boxe.",
+                      "Judo.",
+                      "Atletismo.",
+                      "Surfe.",
+                      "Remo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Judo.</strong>. Fonte: FUNDATEC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que possui um termo com erro de acentuação nos termos da Norma Culta da Língua Portuguesa:",
+                "opcoes": [
+                      "Choro de criança é um grande incomodo para todos.",
+                      "O professor disse que a prova será na próxima semana.",
+                      "Ontem à noite, assistimos um filme emocionante no cinema",
+                      "A criança brincou no parque até o pôr do sol."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Choro de criança é um grande incomodo para todos.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assim como a palavra “Grécia”, qual das palavras a seguir também deve ser acentuada?",
+                "opcoes": [
+                      "Brasil.",
+                      "Argentina.",
+                      "Cuba.",
+                      "Italia.",
+                      "Espanha."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Italia.</strong>. Fonte: FUNDATEC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "[Questão Inédita] As palavras retiradas do texto \"após\" e \"secretária\" apresentam a mesma regra de acentuação gráfica que as seguintes palavras, respectivamente:",
+                "opcoes": [
+                      "combatê-la, último",
+                      "também, judiciário",
+                      "está, pública",
+                      "notícias, já",
+                      "análise, será"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>também, judiciário</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "[Questão Inédita] As palavras retiradas do texto “prêmio” e “há” apresentam a mesma regra de acentuação gráfica que as seguintes palavras, respectivamente:",
+                "opcoes": [
+                      "décadas, público",
+                      "história, três",
+                      "lamentável, última",
+                      "essência, língua",
+                      "parabéns, também"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>história, três</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A opção em que todas as palavras estão corretamente acentuadas é:",
+                "opcoes": [
+                      "juízo / raíz / Grajaú.",
+                      "geléia / papéis / espanhóis.",
+                      "sótão /órfão / fácil.",
+                      "África / apóstolo / acróbata.",
+                      "viuvo / aprecio / saúde."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>sótão /órfão / fácil.</strong>. Fonte: FGV/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FGV",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Os ratos que utilizaram a droga eram conhecidos como vovós supermodelos no laboratório devido à sua aparência jovem. (Fonte: https://www.bbc.com/portuguese/articles/czd9 4gdn270o.adaptado) De acordo com as regras de acentuação, é correto afirmar que",
+                "opcoes": [
+                      "'vovós' e 'à' são acentuados pela mesma regra gramatical.",
+                      "há três vocábulos que recebem acento por serem proparoxítonos.",
+                      "o acento no vocábulo 'à' constitui um acento diferencial pelo novo acordo.",
+                      "há dois vocábulos acentuados por serem paroxítonos terminados em ditongo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>há dois vocábulos acentuados por serem paroxítonos terminados em ditongo.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando o 3º§ do texto – “No Brasil, a Assistência Farmacêutica é considerada como um conjunto de procedimentos necessários à promoção, prevenção e recuperação da saúde, individual e coletiva, centrado no medicamento, englobando as atividades de pesquisa, produção, distribuição, armazenamento, prescrição e dispensação, esta última entendida como o ato essencialmente de orientação quanto ao uso adequado dos medicamentos e sendo privativa do profissional farmacêutico.”, pode-se afirmar quanto aos vocábulos acentuados graficamente que há:",
+                "opcoes": [
+                      "Um vocábulo que, ao retirar o acento, forma uma nova palavra.",
+                      "Dois vocábulos que, ao retirar o acento, formam novas palavras.",
+                      "Três vocábulos que, ao receberem a marca de plural “s”, passam a ser acentuados.",
+                      "Caso os acentos gráficos fossem retirados de “última” e “farmacêutico”, essas palavras se tornariam oxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um vocábulo que, ao retirar o acento, forma uma nova palavra.</strong>. Fonte: Instituto Consulplan/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Duas palavras do texto que recebem acento gráfico em decorrência de diferentes regras ortográficas são:",
+                "opcoes": [
+                      "saúde - disponível",
+                      "índices - estatística",
+                      "famílias - publicitário",
+                      "alimentício - dependência"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>saúde - disponível</strong>. Fonte: SECPLAN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "SECPLAN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras abaixo são acentuadas pela mesma regra de acentuação gráfica da palavra “árvores”, EXCETO:",
+                "opcoes": [
+                      "líquido",
+                      "lâmpada",
+                      "pássaro",
+                      "vírus"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>vírus</strong>. Fonte: GANZAROLI/2024. Assunto: acentuacaoGrafica.",
+                "banca": "GANZAROLI",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Há ERRO de ACENTUAÇÃO gráfica, de acordo com o Novo Acordo Ortográfico, em:",
+                "opcoes": [
+                      "Participamos da assembleia ontem.",
+                      "Ele foi declarado o herói do jogo.",
+                      "Tivemos uma idéia brilhante.",
+                      "Fiz um excelente voo no retorno."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Tivemos uma idéia brilhante.</strong>. Fonte: Prefeitura de Bauru - SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Bauru - SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a palavra destacada do texto tenha sido acentuada seguindo regra distinta da das demais.",
+                "opcoes": [
+                      "além",
+                      "também",
+                      "está",
+                      "daí",
+                      "será"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>daí</strong>. Fonte: IDECAN/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDECAN",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a norma-padrão, a expressão “às vezes” recebe o acento grave, indicativo de crase, em todos os quadros da tirinha porque",
+                "opcoes": [
+                      "é uma locução adverbial de tempo, formada por artigo + substantivo.",
+                      "é uma locução adverbial feminina, preposicionada, introduzida por preposição “a” e de núcleo feminino.",
+                      "é uma locução adverbial feminina, preposicionada, introduzida por preposição que não pode ser confundida com artigo “a”.",
+                      "é uma locução adverbial de tempo, introduzida por preposição “a” e de núcleo feminino.",
+                      "é uma locução adverbial de tempo, introduzida por preposição “a” + numeral."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>é uma locução adverbial de tempo, introduzida por preposição “a” e de núcleo feminino.</strong>. Fonte: CEFET-MG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CEFET-MG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "As palavras do trecho \"Estão presentes até o último suspiro dos pais, traduzindo suas últimas palavras como tradutores da transcendência. E, mesmo após a partida, os filhos mineiros não se despedem de imediato; choram ao longo dos anos, com lágrimas que saciam a saudade\" estão corretamente acentuadas, assim como as palavras da frase que seguem.",
+                "opcoes": [
+                      "O amor dos mineiros por seus pais é um legado gratuíto e inestimável, que atravessa gerações como um tributo à memória e ao afeto.",
+                      "Os mineiros, como o condôr que sobrevoa altaneiro, carregam em seu coração a altitude das memórias e o cuidado profundo com seus pais, protegendo o passado como quem guarda um ninho sagrado.",
+                      "O cuidado dos mineiros com seus pais é uma verdadeira homilia vivida, um sermão de amor e reverência, onde cada gesto traduz a importância da memória e da gratidão no altar da família.",
+                      "Diferente do ávaro que acumula riquezas materiais, os mineiros acumulam memórias e afeto, valorizando os laços familiares acima de qualquer bem terreno."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O cuidado dos mineiros com seus pais é uma verdadeira homilia vivida, um sermão de amor e reverência, onde cada gesto traduz a importância da memória e da gratidão no altar da família.</strong>. Fonte: IBAM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com base no novo Acordo Ortográfico, a palavra \"joia\", presente em \"Tudo joia?\", perdeu o acento gráfico pois:",
+                "opcoes": [
+                      "o \"i\" está em posição de hiato tônico.",
+                      "é uma paroxítona que contém ditongo aberto tônico \"ÉI\" ou \"ÓI\".",
+                      "devido à abolição dos acentos em palavras com \"ÉI\" ou \"ÓI\".",
+                      "segue as regras das palavras homônimas com acento diferencial."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>é uma paroxítona que contém ditongo aberto tônico \"ÉI\" ou \"ÓI\".</strong>. Fonte: IBAM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Com base no trecho \"Enquanto isso, meus amigos gaúchos não resistiram: seis deles estavam abraçados ao vaso sanitário, já sonhando com o voo de volta.\", assinale a alternativa correta quanto à regra de acentuação gráfica aplicada à palavra \"voo\".",
+                "opcoes": [
+                      "A palavra \"voo\" deveria ser acentuada para diferenciar-se da forma verbal \"vôo\" (pretérito do verbo \"voar\"), mas perdeu o acento com a reforma ortográfica de 2009.",
+                      "A palavra \"voo\" não é acentuada porque, mesmo sendo um hiato, não forma paroxítona terminada em vogal e, por isso, segue as regras de não acentuação.",
+                      "A palavra \"voo\" deixou de ser acentuada, pois segundo as regras de acentuação do novo acordo ortográfico, foi abolido o acento circunflexo nos ditongos \"oo\" nas palavras paroxítonas.",
+                      "A palavra \"voo\" não recebe acento gráfico porque se trata de um monossílabo tônico terminado em vogal, que não se enquadra nas regras de acentuação dos monossílabos tônicos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A palavra \"voo\" deixou de ser acentuada, pois segundo as regras de acentuação do novo acordo ortográfico, foi abolido o acento circunflexo nos ditongos \"oo\" nas palavras paroxítonas.</strong>. Fonte: IBAM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Com base no texto de Fabrício Carpinejar, analise as palavras destacadas e suas respectivas justificativas quanto à acentuação gráfica. Assinale a alternativa que apresenta a explicação correta para a palavra acentuada: já, gaúcho, sequência e até.",
+                "opcoes": [
+                      "A palavra \"já\" é acentuada por ser uma oxítona terminada em \"a\" e estar dentro das regras de acentuação da língua portuguesa, conferindo a ênfase necessária para a leitura correta.",
+                      "A palavra \"gaúcho\" é acentuada pois acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".",
+                      "A palavra \"até\" é acentuada por ser um monossílabo átono terminado em vogal aberta. O acento é usado para marcar a tonicidade da última sílaba e diferenciá-la de palavras átonas ou de pronúncia similar.",
+                      "A palavra \"sequência\" é acentuada por ser uma paroxítona terminada em ditongo crescente, conhecidas também com proparoxítonas aparentes."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"sequência\" é acentuada por ser uma paroxítona terminada em ditongo crescente, conhecidas também com proparoxítonas aparentes.</strong>. Fonte: IBAM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Com base nas novas regras de acentuação do Acordo Ortográfico de 1990, a palavra \"ideia\", presente no trecho \"isso me pareceu estranho, pois costumamos buscar respostas. No entanto, refletindo mais tarde, percebi a profundidade dessa ideia\", perdeu o acento gráfico. Qual é a explicação para essa mudança?",
+                "opcoes": [
+                      "A palavra \"ideia\" perdeu o acento porque, com o novo Acordo Ortográfico, todas as palavras terminadas em -ia agora devem ser acentuadas.",
+                      "A palavra \"ideia\" perdeu o acento por causa das mudanças nas regras de acentuação do novo Acordo Ortográfico, pois os ditongos abertos éi e ói em palavras paroxítonas não são mais acentuados.",
+                      "O acento em \"ideia\" foi eliminado por conta da nova classificação das palavras paroxítonas, que não recebem mais acento gráfico.",
+                      "A palavra \"ideia\" perdeu o acento devido à mudança nas regras de acentuação das paroxítonas, que agora não exigem acento gráfico nas palavras terminadas em -ia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra \"ideia\" perdeu o acento por causa das mudanças nas regras de acentuação do novo Acordo Ortográfico, pois os ditongos abertos éi e ói em palavras paroxítonas não são mais acentuados.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sobre o uso da acentuação gráfica nas palavras em destaque no trecho: \"Essa avalanche afetou a INTELIGÊNCIA e o discernimento, marcando o DECLÍNIO da civilização TERRÁQUEA\", é correto afirmar que:",
+                "opcoes": [
+                      "recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes).",
+                      "uma dessas palavras não deveria receber acento gráfico, pois não segue as novas regras do Acordo Ortográfico.",
+                      "duas palavras recebem acento gráfico por serem proparoxítonas terminadas em ditongo aberto.",
+                      "recebem acento gráfico por serem oxítonas terminadas em vogal aberta."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes).</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Mas o pequeno coto que resta no corpo do bebê ainda pode ser útil por um curto período de tempo, especialmente em recém-nascidos que não estão bem. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há dois vocábulos que conservaram o acento diferencial após o novo acordo ortográfico.",
+                      "\"período\" é um vocábulo acentuado por ser proparoxítono.",
+                      "\"útil\" recebe acento por ser um vocábulo terminado em \"il\".",
+                      "há dois vocábulos acentuados por serem oxítonos terminados em \"o\"."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>\"período\" é um vocábulo acentuado por ser proparoxítono.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "É assim também que os transplantes parciais de fígado permitem que o órgão do doador volte a crescer até um tamanho normal e totalmente funcional. De acordo com as regras de acentuação, é correto afirmar que há:",
+                "opcoes": [
+                      "Dois vocábulos acentuados por serem oxítonos terminados em \"e\".",
+                      "Um vocábulo acentuado por ser paroxítono terminado em ditongo nasal.",
+                      "Dois vocábulos acentuados por serem proparoxítonos.",
+                      "Dois vocábulos acentuados por serem monossílabos tônicos terminados em \"e\"."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Um vocábulo acentuado por ser paroxítono terminado em ditongo nasal.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Esse fenômeno é popularmente conhecido como rios voadores, que descreve os grandes fluxos de umidade que vêm da Amazônia. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há dois vocábulos acentuados por serem paroxítonos terminados em ditongo.",
+                      "\"é\" recebe acento por ser um vocábulo oxítono terminado em \"e\".",
+                      "o acento no vocábulo \"vêm\" é um acento diferencial que permaneceu após o novo acordo ortográfico.",
+                      "há três vocábulos acentuados por serem proparoxítonos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>o acento no vocábulo \"vêm\" é um acento diferencial que permaneceu após o novo acordo ortográfico.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O ovo é bastante popular entre atletas e fisiculturistas porque, além de ser um alimento de baixo custo e fácil preparo, possui proteínas de alta qualidade, colaborando para a construção e a reparação muscular. Assinale a alternativa correta de acordo com as regras de acentuação gráfica.",
+                "opcoes": [
+                      "\"Construção\" e \"reparação\" recebem acento grave por serem vocábulos oxítonos terminados em \"o\".",
+                      "\"Fácil\" é acentuado por ser um vocábulo paroxítono terminado em \"il\".",
+                      "O vocábulo \"proteína\" é acentuado porque segue a regra de acentuação do \"i\" tônico em hiato.",
+                      "Os vocábulos \"é − além\" recebem acento por serem vocábulos oxítonos terminados em \"e − em\" respectivamente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O vocábulo \"proteína\" é acentuado porque segue a regra de acentuação do \"i\" tônico em hiato.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O trabalho ajuda a desvendar um dos maiores mistérios da história climática do nosso planeta: o que aconteceu há novecentos mil a um milhão de anos. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'mistérios' e 'história' são vocábulos acentuados por regras distintas.",
+                      "'milhão' recebe acento por ser um vocábulo oxítono terminado em 'o'.",
+                      "há apenas um vocábulo acentuado por ser proparoxítono.",
+                      "'há' recebe acento por ser um vocábulo oxítono terminado em 'a'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>há apenas um vocábulo acentuado por ser proparoxítono.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Enfrentamos um dilema crucial: saber quando é melhor ser automático na utilização de agentes autônomos de IA e quando necessário tomar a decisão. Assinale a alternativa correta de acordo com as regras de acentuação gráfica.",
+                "opcoes": [
+                      "\"Decisão\" recebe acento por ser um vocábulo oxítono terminado em \"o\".",
+                      "Há dois vocábulos proparoxítonos (e acentuados) presentes na frase.",
+                      "\"Utilização\" e \"necessário\" são acentuados pela mesma regra.",
+                      "Há um vocábulo que permaneceu com acento diferencial após o novo acordo da língua portuguesa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Há dois vocábulos proparoxítonos (e acentuados) presentes na frase.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"Segundo a ciência, há, sim, algum benefício em saborear momentos rápidos de alegria − também conhecidos como microalegrias.\" Assinale a alternativa correta de acordo com as regras de acentuação gráfica.",
+                "opcoes": [
+                      "\"ciência\" e \"benefício\" são vocábulos acentuados por serem paroxítonos terminados em ditongo.",
+                      "o vocábulo \"há\" permaneceu com acento diferencial após o novo acordo ortográfico da língua portuguesa.",
+                      "\"também\" recebe acento por ser um monossílabo tônico com terminação \"em\".",
+                      "há três vocábulos acentuados por serem proparoxítonos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"ciência\" e \"benefício\" são vocábulos acentuados por serem paroxítonos terminados em ditongo.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"O anúncio despertou críticas de ativistas contra o discurso de ódio na internet, que dizem que o ambiente online ficará menos seguro com a mudança. Já outros elogiaram o CEO da Meta\". De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há dois vocábulos acentuados por serem oxítonos terminados em \"a\".",
+                      "há dois vocábulos acentuados por serem proparoxítonos.",
+                      "\"já\" recebe acento agudo por ser um vocábulo monossílabo tônico terminado em \"a\".",
+                      "\"críticas\" e \"ódio\" são acentuados por serem paroxítonos terminados em ditongo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>\"já\" recebe acento agudo por ser um vocábulo monossílabo tônico terminado em \"a\".</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"Fechei o registro e contatei a ASSISTÊNCIA técnica, que explicou que o RESERVATÓRIO principal havia rompido devido à pressão excessiva\", sobre o uso da acentuação gráfica nas palavras em destaque, é correto afirmar que:",
+                "opcoes": [
+                      "recebem acento gráfico por serem oxítonas terminadas em vogal aberta.",
+                      "uma dessas palavras não deveria receber acento gráfico, pois não segue as novas regras do Acordo Ortográfico.",
+                      "recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes).",
+                      "recebem acento gráfico por serem proparoxítonas terminadas em ditongo aberto."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes).</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"Gente que abre a casa e nos faz sentir da família\", sobre o uso da acentuação gráfica na palavra \"família\", é correto afirmar que:",
+                "opcoes": [
+                      "recebe acento gráfico por ser uma paroxítona terminada em ditongo crescente.",
+                      "recebe acento gráfico por ser uma proparoxítona verdadeira, conforme as regras do Acordo Ortográfico.",
+                      "não deveria receber acento gráfico, pois não segue as novas normas do Acordo Ortográfico.",
+                      "recebe acento gráfico por ser uma oxítona terminada em vogal aberta."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>recebe acento gráfico por ser uma paroxítona terminada em ditongo crescente.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Cada página rasgada dói na alma\", a palavra \"dói\" está corretamente acentuada. Sobre sua acentuação gráfica, analise as afirmativas e escolha a alternativa correta.",
+                "opcoes": [
+                      "Está incorreta, pois a regra de acentuação para palavras com ditongos abertos foi abolida pelo Acordo Ortográfico.",
+                      "Está incorreta, pois palavras monossílabas tônicas não devem ser acentuadas, mesmo que contenham ditongos abertos.",
+                      "Está correta, pois \"dói\" é uma palavra monossílaba tônica formada por ditongo aberto terminado em \"ói\", seguindo as regras de acentuação gráfica.",
+                      "Está correta, pois palavras terminadas em ditongo sempre recebem acento gráfico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Está correta, pois \"dói\" é uma palavra monossílaba tônica formada por ditongo aberto terminado em \"ói\", seguindo as regras de acentuação gráfica.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a justificativa correta da acentuação da palavra AVÓ em \"Atendendo a um pedido da minha AVÓ, levei uma velha tia solteirona de São Paulo ao sul da Bahia\":",
+                "opcoes": [
+                      "Acentuam-se os monossílabos tônicos terminados em O.",
+                      "Acentuam-se os monossílabos átonos terminados em O.",
+                      "Acentuam-se as oxítonas homônimas \"avô\" e \"avó\" para diferenciação.",
+                      "Acentuam-se as oxítonas terminadas em O."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Acentuam-se as oxítonas terminadas em O.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho: Muitos sexagenários compartilham dessa visão, enquanto outros mantem suas mochilas cheias de pedras, construindo fortalezas sombrias e rancorosas. Sobre o uso da acentuação gráfica na palavra \"sexagenários\", é correto afirmar que:",
+                "opcoes": [
+                      "É acentuada por ser uma palavra oxítona terminada em vogal aberta.",
+                      "Não deve ser acentuada, pois não está de acordo com as novas normas do Acordo Ortográfico.",
+                      "Recebe acento gráfico por ser uma proparoxítona finalizada em ditongo aberto.",
+                      "Possui acento gráfico por ser uma palavra paroxítona terminada em um ditongo crescente, também conhecida como proparoxítona aparente."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Possui acento gráfico por ser uma palavra paroxítona terminada em um ditongo crescente, também conhecida como proparoxítona aparente.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sobre o uso da acentuação gráfica nas palavras em destaque no trecho: \"Essa avalanche afetou a INTELIGÊNCIA e o discernimento, marcando o DECLÍNIO da civilização TERRÁQUEA\", é correto afirmar que:",
+                "opcoes": [
+                      "uma dessas palavras não deveria receber acento gráfico, pois não segue as novas regras do Acordo Ortográfico.",
+                      "recebem acento gráfico por serem oxítonas terminadas em vogal aberta.",
+                      "duas palavras recebem acento gráfico por serem proparoxítonas terminadas em ditongo aberto.",
+                      "recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes)."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>recebem acento gráfico por serem paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes).</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Realizei a sua estreia não numa academia, não numa esteira, não nas andanças pelo parque, mas no cinema\", a palavra \"estreia\" está grafada corretamente de acordo com o Novo Acordo Ortográfico da Língua Portuguesa. Sobre a regra de acentuação gráfica aplicada a essa palavra, é correto afirmar que:",
+                "opcoes": [
+                      "não possui mais acento gráfico, pois o Novo Acordo Ortográfico aboliu o uso do acento nas palavras paroxítonas com ditongos abertos \"ei\" e \"oi\" em palavras de uso corrente.",
+                      "permaneceu com acento gráfico porque é uma palavra proparoxítona, regra que não sofreu alteração com o Novo Acordo Ortográfico.",
+                      "permaneceu sem acento gráfico, pois já era grafada assim antes do Novo Acordo Ortográfico.",
+                      "continua sem acento gráfico, mas por ser paroxítona com ditongo crescente, não foi afetada pelo Novo Acordo Ortográfico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>não possui mais acento gráfico, pois o Novo Acordo Ortográfico aboliu o uso do acento nas palavras paroxítonas com ditongos abertos \"ei\" e \"oi\" em palavras de uso corrente.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Com base nas novas regras de acentuação do Acordo Ortográfico de 1990, a palavra \"ideia\", presente no trecho \"isso me pareceu estranho, pois costumamos buscar respostas. No entanto, refletindo mais tarde, percebi a profundidade dessa ideia\", perdeu o acento gráfico. Qual é a explicação para essa mudança?",
+                "opcoes": [
+                      "O acento em \"ideia\" foi eliminado por conta da nova classificação das palavras paroxítonas, que não recebem mais acento gráfico.",
+                      "A palavra \"ideia\" perdeu o acento porque, com o novo Acordo Ortográfico, todas as palavras terminadas em -ia agora devem ser acentuadas.",
+                      "A palavra \"ideia\" perdeu o acento devido à mudança nas regras de acentuação das paroxítonas, que agora não exigem acento gráfico nas palavras terminadas em -ia.",
+                      "A palavra \"ideia\" perdeu o acento por causa das mudanças nas regras de acentuação do novo Acordo Ortográfico, pois os ditongos abertos éi e ói em palavras paroxítonas não são mais acentuados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"ideia\" perdeu o acento por causa das mudanças nas regras de acentuação do novo Acordo Ortográfico, pois os ditongos abertos éi e ói em palavras paroxítonas não são mais acentuados.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"No início, a saída de água tornou-se lenta, mas logo percebi que era uma pausa necessária, aproveitando a lentidão para apreciar a beleza da água\", a palavra \"saída\" é acentuada por:",
+                "opcoes": [
+                      "possuir uma sílaba tônica no final da palavra, o que requer acento gráfico.",
+                      "ter a vogal \"a\" tônica na penúltima sílaba, exigindo acento.",
+                      "ser uma paroxítona e possui um ditongo crescente.",
+                      "ser formar um hiato com a vogal anterior e ter o \"i\" tônico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>ser formar um hiato com a vogal anterior e ter o \"i\" tônico.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra devêssemos em \"Talvez devêssemos ser maduros sem perder o sorriso...\" está corretamente acentuada assim como a palavra:",
+                "opcoes": [
+                      "herói.",
+                      "assembléia.",
+                      "rúbrica.",
+                      "récorde."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>herói.</strong>. Fonte: IBAM/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Dentre os vocábulos \"interdependentes\", \"irremediavelmente\", \"independentemente\" e \"superioridade\", é(são) proparoxítono(s):",
+                "opcoes": [
+                      "Somente um deles.",
+                      "Nenhum deles.",
+                      "Todos eles.",
+                      "Dois deles."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Nenhum deles.</strong>. Fonte: IDESG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual(is) das quatro ocorrências da vogal A em destaque com números sobrescritos no artigo necessita(m) de ser acompanhada(s) pelo acento grave?",
+                "opcoes": [
+                      "Todas as ocorrências.",
+                      "A segunda e a terceira ocorrências.",
+                      "Somente a primeira ocorrência.",
+                      "Somente a quarta ocorrência."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Somente a quarta ocorrência.</strong>. Fonte: IDESG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O box abaixo foi extraído de um livro didático de Língua Portuguesa do Ensino Fundamental II. No box, constam questionamentos que visam orientar a leitura de uma imagem apresentada na abertura da unidade temática e estabelecer relações entre a imagem apresentada e o conhecimento dos alunos sobre o assunto. Leia o box e analise as assertivas em relação ao texto apresentado: Imagem associada para resolução da questão Fonte: COSTA, Cibele Lopresti; NOGUEIRA, Everaldo; GRETA, Marchetti. Geração Alpha Língua Portuguesa, 7. 5 ed. São Paulo, SM, 2023, p. 53. I- Apalavra “indígenas” recebeu acentuação gráfica em razão da mesma regra de acentuação da palavra “médica”. II- Apalavra “você” recebeu acentuação gráfica em razão da mesma regra de acentuação da palavra “já”. III- Apalavra “água” recebe acentuação gráfica em razão da mesma regra de acentuação da palavra “ingênuo”. IV- Apalavra “por quê” recebeu acentuação gráfica para marcar o valor substantivo do termo. É CORRETO o que se afirma apenas em:",
+                "opcoes": [
+                      "I e II.",
+                      "II e III.",
+                      "III e IV.",
+                      "I e IV.",
+                      "I e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: CPCON/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Dentre os vocábulos \"interdependentes\", \"irremediavelmente\", \"independentemente\" e \"superioridade\", é(são) proparoxítono(s):",
+                "opcoes": [
+                      "Nenhum deles.",
+                      "Todos eles.",
+                      "Somente um deles.",
+                      "Dois deles."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nenhum deles.</strong>. Fonte: IDESG/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho transcrito “Aprende que as circunstâncias e os ambientes têm influência sobre nós, mas nós somos responsáveis por nós mesmos.” (3º§), a expressão em destaque é acentuada pela mesma razão que a seguinte palavra:",
+                "opcoes": [
+                      "Está.",
+                      "Última.",
+                      "Flexível.",
+                      "Influência."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Flexível.</strong>. Fonte: Instituto Consulplan/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere este conceito sobre acentuação: Recebe o acento agudo os vocábulos oxítonos que terminam em “a, e, o\" abertos. Analise as alternativas a seguir e assinale aquela que está de acordo com o conceito apresentado.",
+                "opcoes": [
+                      "Frágil.",
+                      "Necessária.",
+                      "Crítica.",
+                      "Através."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Através.</strong>. Fonte: IBFC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBFC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A acentuação das palavras indica intensidade em que as sílabas se apresentam quando pronunciadas, podendo ser em maior ou menor grau. As palavras a seguir possuem a mesma classificação devido à sua acentuação. No entanto, há uma que se DISTINGUE das demais; assinale-a.",
+                "opcoes": [
+                      "Atrás.",
+                      "Última.",
+                      "Público.",
+                      "Fórmulas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Atrás.</strong>. Fonte: Instituto Consulplan/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Como minha casa era muito segura, com grades nas janelas e trancas internas nas portas, não fiquei muito preocupado”, o termo “preocupado” é classificado, consoante o número de sílabas, como:",
+                "opcoes": [
+                      "oxítono, pois possui quatro sílabas.",
+                      "dissílabo, pois possui duas sílabas.",
+                      "polissílabo, pois possui exatamente quatro sílabas.",
+                      "trissílabo, pois possui três sílabas.",
+                      "polissílabo, pois possui mais de três sílabas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>polissílabo, pois possui mais de três sílabas.</strong>. Fonte: CPCON/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os vocábulos “desdém” e “única” recebem o acento gráfico, respectivamente, pela mesma regra de:",
+                "opcoes": [
+                      "“catimbó” e “órgão”.",
+                      "“parabéns” e “súplica”.",
+                      "“anzóis” e “amável”.",
+                      "“aluguéis” e “ímpeto”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“parabéns” e “súplica”.</strong>. Fonte: UNIVIDA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "UNIVIDA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase \"Nem todos têm um time para chamar de seu\", a forma verbal \"têm\" foi acentuada pelo seguinte motivo:",
+                "opcoes": [
+                      "Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do singular ou do plural, no presente do indicativo.",
+                      "Acentuam-se as palavras monossílabas tônicas quando terminadas por \"em\".",
+                      "Acentuam-se todos os vocábulos oxítonos quando forem terminados por \"em\".",
+                      "Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do plural do presente do indicativo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do plural do presente do indicativo.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"A retomada dos concursos públicos em todas as esferas federativas, após o período crítico da pandemia, é um dos fatores que contribuíram para o aumento no número de servidores públicos no Brasil.\" De acordo com as regras de acentuação, deverão ser acentuados pela mesma regra do vocábulo 'contribuíram' os vocábulos identificados nas alternativas, EXCETO:",
+                "opcoes": [
+                      "contrai-la.",
+                      "raizes.",
+                      "Grajau.",
+                      "baiuca."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>baiuca.</strong>. Fonte: AMEOSC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase \"Nem todos têm um time para chamar de seu\", a forma verbal \"têm\" foi acentuada pelo seguinte motivo:",
+                "opcoes": [
+                      "Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do plural do presente do indicativo.",
+                      "Acentuam-se todos os vocábulos oxítonos quando forem terminados por \"em\".",
+                      "Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do singular ou do plural, no presente do indicativo.",
+                      "Acentuam-se as palavras monossílabas tônicas quando terminadas por \"em\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Acentua-se o verbo \"ter\", quando empregado na 3.ª pessoa do plural do presente do indicativo.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O trecho “Em C&T, duas hipóteses básicas tiveram influência decisiva sobre o seu progresso: [...]” (3º§) evidencia três vocábulos que apresentam sinais de acentuação gráfica; concernente a tal evento, analise as afirmativas a seguir. I. Dois desses termos apresentam a mesma justificativa para a acentuação gráfica. II. Caso o acento seja retirado do vocábulo “influência” poderá ocorrer alteração semântica. III. Os três vocábulos apresentados denotam a mesma justificativa quanto à acentuação. IV. Em caso de alteração quanto à flexão de número, haverá modificação em relação ao acento empregado nos três vocábulos. Está correto o que se afirma apenas em",
+                "opcoes": [
+                      "I e II.",
+                      "I e III.",
+                      "II e III.",
+                      "I, II e IV.",
+                      "II, III e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II.</strong>. Fonte: Instituto Consulplan/2021. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2021,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica dos vocábulos retirados do texto, a alternativa que apresenta afirmação CORRETA é:",
+                "opcoes": [
+                      "Os vocábulos \"atraídas\" e \"diária\" são acentuadas, pois são paroxítonas que formam hiato.",
+                      "Dependendo do contexto, as formas \"coco\" e \"côco\" estão corretas.",
+                      "O vocábulo \"geleia\", perdeu o acento, pois possui ditongo aberto, assim como \"papeis\".",
+                      "Os vocábulo \"diária\" é acentuado pela mesma regra de \"paciência\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Os vocábulo \"diária\" é acentuado pela mesma regra de \"paciência\".</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, identifique a alternativa CORRETA:",
+                "opcoes": [
+                      "Os vocábulos \"trágico\" e \"últimos\" são proparoxítonas, assim como \"écloga\" e \"cânhamo\".",
+                      "O vocábulo \"País\" é acentuada pela mesma regra de acentuação de \"juíz\".",
+                      "Os vocábulos \"já\" e \"após\" são acentuados pela mesma regra de \"pá\" e \"nós\", respectivamente.",
+                      "O vocábulo \"porém\" é uma oxítona acentuada, assim como \"interím\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Os vocábulos \"trágico\" e \"últimos\" são proparoxítonas, assim como \"écloga\" e \"cânhamo\".</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma afirmação INCORRETA.",
+                "opcoes": [
+                      "O verbo ‘ter’, em “já tem mais de 200 assinaturas”, deveria receber acento circunflexo, para adequar-se às regras de concordância verbal.",
+                      "Na expressão “o início de um despertar que tem colocado a extrema direita e figuras bolsonaristas na defensiva sobre esse tema”, o verbo em destaque está conjugado na 3ª pessoa do singular.",
+                      "Falta acento grave, indicativo de crase, no segundo ‘a’ desta expressão: “e estão começando a manifestar apoio a proposta”.",
+                      "É obrigatório o uso de acento agudo no substantivo destacado em “estão levando uma onda de críticas nas redes sociais”, pois trata-se de uma palavra proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O verbo ‘ter’, em “já tem mais de 200 assinaturas”, deveria receber acento circunflexo, para adequar-se às regras de concordância verbal.</strong>. Fonte: UNIOESTE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "UNIOESTE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, analise os vocábulos retirados do texto: I.Os vocábulos \"chimpanzés\" é uma oxítona acentuada , assim como \"uretér\". II.O vocábulo \"líder\" é paroxítona assim como \"táctil\". III.Os vocábulos \"além\" é uma oxítona acentuada pela mesma regra de \"ruím\". IV.Os vocábulos \"específico\" e \"analgésicas\" são acentuados pela mesma regra de \"êxodo\" e \"anátema\". V.O acento de \"específico\" pode ser removido, porém isso alterará tanto a classe gramatical quanto o significado da palavra. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, II e IV.",
+                      "Apenas II e IV.",
+                      "Apenas II, IV e V.",
+                      "Apenas I, III e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas II, IV e V.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica está correta em:",
+                "opcoes": [
+                      "Idéia, saúde, juri.",
+                      "Saúde, juízes, ônibus.",
+                      "Lápis, heroi, paises.",
+                      "Cafe, soma, deus."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Saúde, juízes, ônibus.</strong>. Fonte: Prefeitura de Chopinzinho - PR/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Prefeitura de Chopinzinho - PR",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, identifique a alternativa CORRETA:",
+                "opcoes": [
+                      "O vocábulo \"porém\" é uma oxítona acentuada, assim como \"interím\".",
+                      "Os vocábulos \"já\" e \"após\" são acentuados pela mesma regra de \"pá\" e \"nós\", respectivamente.",
+                      "O vocábulo \"País\" é acentuada pela mesma regra de acentuação de \"juíz\".",
+                      "Os vocábulos \"trágico\" e \"últimos\" são proparoxítonas, assim como \"écloga\" e \"cânhamo\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Os vocábulos \"trágico\" e \"últimos\" são proparoxítonas, assim como \"écloga\" e \"cânhamo\".</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “próxima” segue a mesma regra de acentuação que a palavra:",
+                "opcoes": [
+                      "País.",
+                      "Constituídas.",
+                      "Tímido.",
+                      "Negócio."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Tímido.</strong>. Fonte: CONSULPAM/2024. Assunto: acentuacaoGrafica.",
+                "banca": "CONSULPAM",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Por ocasião da vigência do Novo Acordo Ortográfico, algumas palavras perderam o acento agudo, a exemplo de “ideia”. Dentre as palavras a seguir, a única em que esta alteração não ocorreu e, portanto está grafada INCORRETAMENTE é:",
+                "opcoes": [
+                      "Paranoico.",
+                      "Heroi.",
+                      "Assembleia.",
+                      "Joia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Heroi.</strong>. Fonte: PROMUN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "PROMUN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta o par de palavras acentuadas pela mesma Regra de Acentuação.",
+                "opcoes": [
+                      "Câmara, júri.",
+                      "Açúcar, inefável.",
+                      "Sofá, tórax.",
+                      "Saída, caráter."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Açúcar, inefável.</strong>. Fonte: IBFC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBFC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que preencha correta e respectivamente as lacunas destacadas no texto apresentado anteriormente.",
+                "opcoes": [
+                      "Identifica / partes / à / a.",
+                      "Identificam / parte / a / à.",
+                      "Identifica / parte / à / a.",
+                      "Identificam / partes / à / à."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Identificam / partes / à / à.</strong>. Fonte: IBFC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IBFC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa com palavras acentuadas CORRETAMENTE.",
+                "opcoes": [
+                      "Abacáte |máio.",
+                      "Música | juízo.",
+                      "Vomitô | ultímo.",
+                      "Cônto | caválo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Música | juízo.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Sobre os vocábulos “privá-lo” e “mantê-lo”, retirados do texto, analise as assertivas a seguir: I. São verbos no infinitivo seguidos de pronomes. II. Recebem acento gráfico por serem vocábulos paroxítonos. III. A partícula “lo”, nos dois casos, poderia ser substituída por “ele” sem prejuízo da correção gramatical. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que todas as palavras não recebem acento gráfico devido a sua tonicidade na penúltima sílaba (paroxítonas) e a sua terminação.",
+                "opcoes": [
+                      "distinção – distintos – contribuir – intitulado – captura",
+                      "intitulados – distintos – atitudes – cumprimento – embora",
+                      "processo – civil – penais – essencial – policiais",
+                      "embora – contribuir – civil – policiais – repressão",
+                      "penais – captura – gestão – atividades – essencial"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>intitulados – distintos – atitudes – cumprimento – embora</strong>. Fonte: COSEAC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "COSEAC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja acentuada pela mesma regra de acentuação da palavra resistência:",
+                "opcoes": [
+                      "Séculos.",
+                      "Calendário.",
+                      "Até.",
+                      "Católicos.",
+                      "Período."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Calendário.</strong>. Fonte: FAU/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra acentuada pela mesma regra de acentuação da palavra possível:",
+                "opcoes": [
+                      "Públicas.",
+                      "Eletrônicos.",
+                      "Distância.",
+                      "Histórico.",
+                      "Difícil."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Difícil.</strong>. Fonte: FAU/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Até mesmo pegar algo tão simples como uma caneta, e movê-la por nossos dedos e adotar uma posição para escrever envolve uma integração perfeita entre o corpo e o cérebro. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'movê' permaneceu com seu acento diferencial após o novo acordo ortográfico da língua portuguesa.",
+                      "existem dois vocábulos acentuados por serem oxítonos terminados em 'e'.",
+                      "há dois vocábulos acentuados por serem oxítonos terminados em 'o'.",
+                      "'tão' e 'posição' recebem acento pela mesma regra gramatical."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>existem dois vocábulos acentuados por serem oxítonos terminados em 'e'.</strong>. Fonte: ACAFE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "ACAFE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Alguns educadores debatem se a lei está em consonância com as atividades escolares, como no caso de Débora Garofalo. A máquina pode contribuir para o processo de ensino-aprendizagem, mas não vai substituir o professor. De acordo com as regras de acentuação gráfica, é correto afirmar que:",
+                "opcoes": [
+                      "\"está\" recebe acento por ser um vocábulo oxítono terminado em \"a\".",
+                      "existem quatro vocábulos acentuados por serem proparoxítonos.",
+                      "\"consonância\" recebe acento por ser um vocábulo paroxítono terminado em ditongo nasal.",
+                      "há um vocábulo acentuado por ser monossílabo tônico terminado em \"o\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"está\" recebe acento por ser um vocábulo oxítono terminado em \"a\".</strong>. Fonte: ACAFE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "ACAFE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cujos vocábulos são acentuados pela mesma regra de acentuação gráfica:",
+                "opcoes": [
+                      "Também, químicas, estão",
+                      "Tendência, substâncias, média",
+                      "Centígrado, média, ozônio",
+                      "Ozônio, século, responsáveis"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tendência, substâncias, média</strong>. Fonte: PROMUN/2025. Assunto: acentuacaoGrafica.",
+                "banca": "PROMUN",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação tônica e gráfica das palavras retiradas do texto, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "“colaboração” e instituições” recebem acento gráfico pela mesma regra de acentuação.",
+                      "“acadêmicos’ e “última” recebem acento gráfico pela mesma regra de acentuação.",
+                      "“além” e “nós” são palavras oxítonas.",
+                      "São palavras proparoxítonas “artesanato” e “programa”.",
+                      "Segundo o Novo Acordo Ortográfico, as palavras “memória” e “experiências” podem ser consideradas oxítonas ou paroxítonas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“acadêmicos’ e “última” recebem acento gráfico pela mesma regra de acentuação.</strong>. Fonte: EDUCA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EDUCA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que deveria estar acentuada.",
+                "opcoes": [
+                      "Hospital.",
+                      "Leite.",
+                      "Mochila.",
+                      "Borracha.",
+                      "Guarana."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Guarana.</strong>. Fonte: FUNDATEC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão acentuadas corretamente.",
+                "opcoes": [
+                      "Lápis, baú, feiúra.",
+                      "Assembléia, idéia, céu.",
+                      "Fiéis, troféu, véu.",
+                      "Heróico, assembléia, baú.",
+                      "Troféu,anzóis, Bocaiúva."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Fiéis, troféu, véu.</strong>. Fonte: CETREDE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a acentuação gráfica está INCORRETA.",
+                "opcoes": [
+                      "O funcionário foi fácil de encontrar.",
+                      "A equipe está muito saudável.",
+                      "O gestor demonstrou grande habilidade e paciencia na condução do projeto.",
+                      "O relatório foi entregue antes do término do prazo.",
+                      "O novo planejamento visa ampliá-los."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O gestor demonstrou grande habilidade e paciencia na condução do projeto.</strong>. Fonte: CETREDE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A palavra que deve, obrigatoriamente, ser acentuada é:",
+                "opcoes": [
+                      "Existira.",
+                      "Biblico.",
+                      "Inicio.",
+                      "Suplica."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Biblico.</strong>. Fonte: Gama Consult/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Gama Consult",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão acentuadas corretamente.",
+                "opcoes": [
+                      "Táxi – lápis.",
+                      "Sáida – faísca.",
+                      "Vírus – albúns.",
+                      "Automóvel –cádaver.",
+                      "Assembléia– Idéia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Táxi – lápis.</strong>. Fonte: CETREDE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de ortografia da Língua Portuguesa, analise as assertivas a seguir: I. A palavra “pôde” (pretérito perfeito do indicativo do verbo “poder”) é acentuada por ser uma oxítona terminada em “e”. II. A palavra “anti-inflamatório” é grafada com hífen por se tratar de uma palavra composta formada por um prefixo terminado em vogal “i” e um radical iniciado por “i”. III. A palavra “herói” perdeu o acento agudo com o Novo Acordo Ortográfico. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas II.</strong>. Fonte: FUNDATEC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, aquela que recebe o acento gráfico por ser uma oxítona terminada em O(S) é",
+                "opcoes": [
+                      "“xilindró”.",
+                      "“dó”.",
+                      "“ânimo”.",
+                      "“pôs”.",
+                      "“íon”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“xilindró”.</strong>. Fonte: CETREDE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “possível” (linha 39) é acentuada em virtude de ter a mesma classificação da palavra",
+                "opcoes": [
+                      "mínimo.",
+                      "até.",
+                      "sátiras.",
+                      "vítima.",
+                      "conteúdo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>conteúdo.</strong>. Fonte: UECE-CEV/2025. Assunto: acentuacaoGrafica.",
+                "banca": "UECE-CEV",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta:",
+                "opcoes": [
+                      "Jiboia; bóia; leem;",
+                      "Jibóia; boia; lêem;",
+                      "Jibóia; bóia; lêem;",
+                      "Jiboia; boia; leem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Jiboia; boia; leem.</strong>. Fonte: EVO Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta:",
+                "opcoes": [
+                      "Assembleia; vôo; microondas; tireoide;",
+                      "Assembléia; voo; micro-ondas; tireóide;",
+                      "Assembleia; voo; micro-ondas; tireoide;",
+                      "Assembléia; vôo; microondas; tireoide."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Assembleia; voo; micro-ondas; tireoide;</strong>. Fonte: EVO Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que deveria estar acentuada.",
+                "opcoes": [
+                      "Brasileiro.",
+                      "Florestal.",
+                      "Crime.",
+                      "Fogareu.",
+                      "Matagal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Fogareu.</strong>. Fonte: FUNDATEC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Esses motoristas têm baixa percepção de risco...”, a palavra “têm” possui acento gráfico por ser",
+                "opcoes": [
+                      "monossílabo tônico pronunciado com mais intensidade.",
+                      "oxítona terminada em ditongo nasal.",
+                      "forma da terceira pessoa plural do presente do indicativo do verbo \"ter\".",
+                      "paroxítona terminada em dígrafo nasal."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>forma da terceira pessoa plural do presente do indicativo do verbo \"ter\".</strong>. Fonte: IV - UFG/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IV - UFG",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa incorreta quanto a acentuação gráfica:",
+                "opcoes": [
+                      "Éden- edens",
+                      "Sêmen -semens",
+                      "Hífen- hífens",
+                      "Pólen- polens"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hífen- hífens</strong>. Fonte: EVO Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A única frase em que todas as palavras estão corretamente acentuadas é:",
+                "opcoes": [
+                      "A joia foi levada à assembleia dos fiéis.",
+                      "Todos os que crêem em Deus estão aqui.",
+                      "Os passageiros sentiram grande enjôo no vôo.",
+                      "A idéia de levar uma jibóia ao palco foi péssima."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A joia foi levada à assembleia dos fiéis.</strong>. Fonte: SELECON/2025. Assunto: acentuacaoGrafica.",
+                "banca": "SELECON",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa incorreta quanto a acentuação das palavras:",
+                "opcoes": [
+                      "Heróico;",
+                      "Cáustico;",
+                      "Rústico;",
+                      "Míope;"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Heróico;</strong>. Fonte: EVO Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a nova ortografia da Língua Portuguesa, qual das palavras abaixo não leva mais acento?",
+                "opcoes": [
+                      "Pôde.",
+                      "Açaí.",
+                      "Café.",
+                      "Pólo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pólo.</strong>. Fonte: JVL Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"Aqui estamos todos a bailar e cantar, pois descobrimos que a vida é curta e a lua é bela.\" Qual das palavras abaixo segue a mesma regra de acentuação gráfica da palavra \"é\"?",
+                "opcoes": [
+                      "Você.",
+                      "Ônibus.",
+                      "Pé.",
+                      "Café."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pé.</strong>. Fonte: JVL Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "JVL Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"A fumaça das queimadas que tem encoberto cidades do Norte, Centro-Oeste, Sudeste e Sul do país...\" Identifique o trecho que apresenta vocábulo acentuado pela mesma regra de acentuação da destacada no trecho",
+                "opcoes": [
+                      "\"Ele é extremamente tóxico porque se liga à hemoglobina nas células sanguíneas, impedindo que o oxigênio seja transportado para os tecidos do nosso corpo.\"",
+                      "\"A exposição prolongada ao PM2.5 também pode agravar doenças respiratórias crônicas, como asma e bronquite.\"",
+                      "\"Por isso, a Organização Mundial da Saúde (OMS) estabeleceu que a concentração anual média de PM2.5 não deve ultrapassar 5 µg/m³ para minimizar riscos à saúde.\"",
+                      "\"Ou seja, isso faz com que nossos órgãos fiquem privados de oxigênio, fundamental para a vida.\""
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>\"Por isso, a Organização Mundial da Saúde (OMS) estabeleceu que a concentração anual média de PM2.5 não deve ultrapassar 5 µg/m³ para minimizar riscos à saúde.\"</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A respeito da acentuação gráfica de certas palavras, avaliar se as afirmativas são certas (C) ou erradas (E) e assinalar a sequência correspondente. ( ) As palavras “capítulo”, “lâmpada” e “Mossoró” devem, obrigatoriamente, receber acento gráfico. ( ) As palavras “baú” e “país” são acentuadas pela mesma regra. ( ) As palavras “heroico” e “feiura” não devem ser acentuadas, assim como “ideia”.",
+                "opcoes": [
+                      "C − C − E.",
+                      "E − E − C.",
+                      "C − E − E.",
+                      "E − C − C."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>E − C − C.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Aponte a informação errônea sobre as novas regras de acentuação de verbos dispostas no Acordo Ortográfico.",
+                "opcoes": [
+                      "As formas no Presente e Passado no Indicativo do verbo ‘poder’ na 3ª pessoa do singular sofrem diferenciação pelo acento.",
+                      "‘Parar’ na 3ª pessoa do singular no Presente do Indicativo não leva mais acento.",
+                      "‘Forma’ com pronúncia aberta, verbo ou substantivo, é sempre sem acento.",
+                      "A utilização do acento na 1ª pessoa do singular do Presente do Indicativo dos verbos ‘voar’ e ‘enjoar’ é facultativa.",
+                      "A preposição ‘por’ e o verbo homófono são distinguidos pelo acento diferencial."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A utilização do acento na 1ª pessoa do singular do Presente do Indicativo dos verbos ‘voar’ e ‘enjoar’ é facultativa.</strong>. Fonte: ADVISE/2024. Assunto: acentuacaoGrafica.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contenha alguma (s) palavra(s) acentuada(s) incorretamente(s):",
+                "opcoes": [
+                      "fêmur; dócil; assembléia;",
+                      "cortês; robô; álbum;",
+                      "bílis; júri; vírus;",
+                      "zângão; têxtil; plâncton;"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>fêmur; dócil; assembléia;</strong>. Fonte: EVO Concursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise a frase a seguir: \"A educação de qualidade só tem contribuído para o desenvolvimento social e econômico, tornando possível que pessoas de diferentes origens e contextos possam alcançar seus objetivos e transformar suas realidades; além disso, as políticas públicas têm desempenhado um papel fundamental nesse processo, garantindo que o acesso ao conhecimento seja um direito de todos.\" Em relação a acentuação gráfica das palavras dessa frase, assinale a alternativa que apresenta justificativa CORRETA:",
+                "opcoes": [
+                      "têm - acentuam-se os monossílabos tônicos terminadas em \"EM\".",
+                      "contribuído - Acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"- nh\".",
+                      "possível - acentuam-se as paroxítonas terminadas em L.",
+                      "só - acentuam-se as óxitonas terminadas em \"Ó\"."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>possível - acentuam-se as paroxítonas terminadas em L.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Está corretamente acentuada apenas a palavra:",
+                "opcoes": [
+                      "platéia.",
+                      "contíguo.",
+                      "pólos.",
+                      "vôo.",
+                      "feiúra."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>contíguo.</strong>. Fonte: Avança SP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A alternativa abaixo que apresenta vocábulos, retirados do texto, acentuados pela mesma regra é:",
+                "opcoes": [
+                      "Diárias e adolescência.",
+                      "Açúcar e óleo.",
+                      "Década e vários.",
+                      "Óleo e folículos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Diárias e adolescência.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A mesma justificativa de acentuação gráfica pode ser identificada no grupo indicado em:",
+                "opcoes": [
+                      "é, já, vítima.",
+                      "contrário, é, também.",
+                      "indício, cível, aparência.",
+                      "critérios, indivíduo, distúrbio.",
+                      "após, inconveniência, também."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>critérios, indivíduo, distúrbio.</strong>. Fonte: Instituto Consulplan/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação gráfica, assinale a alternativa em que todas as palavras estão acentuadas corretamente:",
+                "opcoes": [
+                      "álibi, ímã, relógio.",
+                      "biquini, pastél, lápis.",
+                      "amavel, orgão, fósforo.",
+                      "lapis, mínimo, bônus."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>álibi, ímã, relógio.</strong>. Fonte: Instituto Fênix/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Fênix",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras “constituíram” e “País”, no terceiro parágrafo do texto, são acentuadas pela",
+                "opcoes": [
+                      "mesma regra, que é a presença de ditongo crescente no final da palavra.",
+                      "regra de acentuação das palavras proparoxítonas, cuja sílaba tônica se localiza na antepenúltima sílaba.",
+                      "regra de acentuação das palavras paroxítonas terminadas em “l”, “m” ou “s”.",
+                      "mesma regra, que é a presença de ditongo decrescente seguido de consoante.",
+                      "mesma regra, que é a presença de hiato com “i” isolado na sílaba ou seguido de “s”."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>mesma regra, que é a presença de hiato com “i” isolado na sílaba ou seguido de “s”.</strong>. Fonte: Quadrix/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Quadrix",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "De acordo com o site Toda Matéria, a acentuação gráfica consiste na colocação de acento ortográfico para indicar a pronúncia de uma vogal ou marcar a sílaba tônica de uma palavra. Sobre a acentuação, há uma regra que diz que \"as letras i ou u, quando tônicas, recebem acento quando são a segunda vogal de um hiato\". Disponível em: www.todamateria.com.br. Sabendo disso, assinale a única das palavras a seguir cuja acentuação gráfica está correta e se explica com base na regra de acentuação mencionada neste enunciado.",
+                "opcoes": [
+                      "Preciso tomar cafeína para ter mais energia ao longo do dia.",
+                      "O agressor está proíbido de se aproximar da vítima.",
+                      "As eleições para prefeitos no Brasil são um assunto seríssimo.",
+                      "A Vila Madalena é um dos bairros mais boêmios da cidade de São Paulo.",
+                      "A feiúra era uma das principais características do personagem Macunaíma."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Preciso tomar cafeína para ter mais energia ao longo do dia.</strong>. Fonte: IDECAN/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDECAN",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras estão INCORRETAMENTE acentuadas.",
+                "opcoes": [
+                      "Êxodo | álbuns | atraí−lo.",
+                      "Redimí−la | rúbrica | urubú.",
+                      "Mausoléu | bíceps | réptil.",
+                      "Líquen | lúmen | tórax."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Redimí−la | rúbrica | urubú.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação gráfica, assinalar a alternativa INCORRETA.",
+                "opcoes": [
+                      "Filântropo.",
+                      "Rubrica.",
+                      "Árvore.",
+                      "Libido."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Filântropo.</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A respeito da acentuação gráfica, assinalar a alternativa que preenche as lacunas abaixo CORRETAMENTE. O _________ riscou os _________ com o _________.",
+                "opcoes": [
+                      "bisneto | papéizinhos | lapis",
+                      "bisnéto | papeizinhos | lapís",
+                      "bisneto | papéizinhos | lápis",
+                      "bisneto | papeizinhos | lápis"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>bisneto | papeizinhos | lápis</strong>. Fonte: OBJETIVA/2025. Assunto: acentuacaoGrafica.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra cujo uso do acento gráfico se justifica por regra distinta das demais.",
+                "opcoes": [
+                      "Concebê-lo.",
+                      "Atrás.",
+                      "Também.",
+                      "Está.",
+                      "Intuímos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Intuímos.</strong>. Fonte: FUNDATEC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta vocábulos que pertencem à mesma regra de acentuação de 'você', 'acadêmica' e 'já', respectivamente, é:",
+                "opcoes": [
+                      "permitirá, máximo, fé.",
+                      "cajá, fóssil, má.",
+                      "nós, árvore, cará.",
+                      "dê, lúmen, pá.",
+                      "café, estratégia, Amapá"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>permitirá, máximo, fé.</strong>. Fonte: AMAUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMAUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que mostra dois vocábulos com possibilidade de dupla pronúncia (os vocábulos estão propositalmente sem acento gráfico).",
+                "opcoes": [
+                      "crisantemo / hieroglifo.",
+                      "projetil / antifrase.",
+                      "Gibraltar / reptil.",
+                      "recorde / leucocito.",
+                      "zangão / arquetipo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>crisantemo / hieroglifo.</strong>. Fonte: FGV/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FGV",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação, identifique a alternativa CORRETA:",
+                "opcoes": [
+                      "As formas verbais 'vêm', 'têm' e 'há' são acentuados, por indicarem marca de plural.",
+                      "A forma verbal 'leem', com o Novo Acordo Ortográfico, não leva acento, por fazer parte das paroxítonas que apresentam ditongo aberto.",
+                      "Os vocábulos 'pelo' (contração por+o) e 'pelo' ( substantivo masculino) não são acentuados, pois de acordo com o Novo Acordo Ortográfico, não se usa acento gráfico em palavras paroxítonas para diferençá-las de outras palavras delas homógrafas.",
+                      "Os vocábulos 'avós' e 'cães' são oxítonos acentuados pela mesma regra.",
+                      "Os vocábulos 'acredito', 'vida' e 'melhor', quanto à posição da sílaba tônica, são classificados como paroxítonos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'pelo' (contração por+o) e 'pelo' ( substantivo masculino) não são acentuados, pois de acordo com o Novo Acordo Ortográfico, não se usa acento gráfico em palavras paroxítonas para diferençá-las de outras palavras delas homógrafas.</strong>. Fonte: AMAUC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMAUC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Desatualizada Em relação à acentuação dos vocálicos extraídos do texto e de outros fora do contexto, marque com (V) verdadeiro ou com (F) falso, para as seguintes afirmativas: (__)Os vocábulos 'impossíveis' e 'impermeáveis' são acentuados pela mesma regra. (__)A forma verbal 'mantém', com o Novo Acordo Ortográfico, passou a ser acentuado, assim como os verbos 'ter' e 'vir'. (__)O vocábulo 'também' é uma oxítona , da mesma forma que o vocábulo 'éden'. (__)Os vocábulos 'até, 'há' e 'nós' são acentuados pela mesma regra. (__)Com o Novo acordo Ortográfico, o vocábulo 'para' passou a ser acentuado como 'pára' quando representa o verbo 'parar', para diferenciar-se da preposição 'para'. A sequência correta que preenche os espaços é:",
+                "opcoes": [
+                      "V, F, F, F, F.",
+                      "F, F, V, V, V.",
+                      "V, V, V, F, F.",
+                      "F, V, F, F, V.",
+                      "F, F, F, F, V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, F, F, F, F.</strong>. Fonte: AMAUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "AMAUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo e identifique qual delas possui acento gráfico corretamente empregado:",
+                "opcoes": [
+                      "Juizes.",
+                      "Países.",
+                      "Pinguím.",
+                      "Baiúca."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Países.</strong>. Fonte: MARANATHA Assessoria/2025. Assunto: acentuacaoGrafica.",
+                "banca": "MARANATHA Assessoria",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"Os alunos da escola, a Forge Valley School, disseram que demoraram um pouco para se acostumar com a ideia\". O vocábulo 'ideia' está grafado corretamente sem acento, de acordo com o Novo Acordo Ortográfico, . Nos enunciados a seguir, os vocábulos também estão grafados corretamente, EXCETO:",
+                "opcoes": [
+                      "A epopeia, também conhecida por poesia épica ou heróica, se trata de um gênero literário que é datado desde a Antiguidade.",
+                      "A fabulosa história desse herói foi recuperada 48 séculos depois de seu reinado e, mais uma vez, encantou historiadores e o público leigo.",
+                      "Com certeza, você apenas água as plantas.",
+                      "Prepare-se para mergulhar no universo da pesca com os anzóis que estão dominando as águas em 2024!"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A epopeia, também conhecida por poesia épica ou heróica, se trata de um gênero literário que é datado desde a Antiguidade.</strong>. Fonte: ACAFE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "ACAFE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Mas, durante o período em que você está realmente envolvido na tarefa de criar filhos, um único dia dura uma eternidade. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'Você' e 'está' são acentuados por serem vocábulos monossílabos tônicos terminados em 'e − a' respectivamente.",
+                      "Há dois vocábulos proparoxítonos presentes na frase.",
+                      "Há um vocábulo acentuado por ser paroxítono terminado em ditongo.",
+                      "O acento diferencial em 'período' continuou segundo o novo acordo ortográfico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Há dois vocábulos proparoxítonos presentes na frase.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"Isso é incomum para este período. Normalmente, tais inscrições em amuletos eram escritas em grego ou hebraico, falou.\" Quanto à acentuação tônica e gráfica dos vocábulos extraídos do texto, identifique a alternativa INCORRETA:",
+                "opcoes": [
+                      "O vocábulo 'hebraico' não recebe mais acento, pois os ditongos abertos 'éi', 'ói' e 'ai', com o Novo Acordo Ortográfico, não são mais acentuados.",
+                      "São oxítonas os vocábulos 'incomum', 'falou' e 'inscrições'.",
+                      "O vocábulo 'período' é acentuado pela mesma regra das outras palavras encontradas no texto como 'minúsculo' é 'século'.",
+                      "Os vocábulos 'cemitério' e 'sítios' são acentuados pela mesma regra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'hebraico' não recebe mais acento, pois os ditongos abertos 'éi', 'ói' e 'ai', com o Novo Acordo Ortográfico, não são mais acentuados.</strong>. Fonte: ACAFE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "ACAFE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O subdiagnóstico é provável especialmente no caso de meninas, mulheres e minorias raciais, por razões que incluem rótulos inadequados que acompanham os estereótipos. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'provável' é acentuado por ser um vocábulo paroxítono terminado em L.",
+                      "um vocábulo recebe acento por ser oxítono terminado em 'e(s)'.",
+                      "há quatro vocábulos proparoxítonos presentes na frase.",
+                      "'é' recebe acento por ser um vocábulo oxítono terminado em 'e'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>'provável' é acentuado por ser um vocábulo paroxítono terminado em L.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale o período abaixo que apresenta um exemplo CORRETO de verbo que perdeu acento segundo a reforma ortográfica:",
+                "opcoes": [
+                      "“A “ego-história” está sempre ameaçada pelas rememorações das experiências, não como foram, mas como deviam ter sido para adequar-se ao presente do indivíduo.”",
+                      "“Devo dizer que a tarefa se tornou mais complexa e mais problemática do que pensavam os colegas que publicam esta excelente revista,”",
+                      "“...ler é também apoderar-se de textos que, muitas vezes, não são nem escritos, nem verbais.”",
+                      "“Nas sociedades do mundo digital todos leem e sempre se lê, para comunicar, informar-se, jogar.”",
+                      "“Se apropriam sobretudo dos textos breves das redes sociais.”"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“Nas sociedades do mundo digital todos leem e sempre se lê, para comunicar, informar-se, jogar.”</strong>. Fonte: Intelectus/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Intelectus",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Escolha dentre as alternativas abaixo a que NÃO corresponde à correta acentuação gráfica:",
+                "opcoes": [
+                      "Os candidatos que vêm de longe não veem a hora de chegar a Amapá.",
+                      "Cabralzinho é herói nacional porque defendeu os interesses do Brasil de forma heroica.",
+                      "Pracuuba faz fronteira com Amapá. Ambos detêm expressivo território.",
+                      "Quem não pôde se inscrever no concurso não pode fazer a prova.",
+                      "Seria importante propôr à Câmara de Amapá uma lei de proteção às aves migratórias."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Seria importante propôr à Câmara de Amapá uma lei de proteção às aves migratórias.</strong>. Fonte: Intelectus/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Intelectus",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O subdiagnóstico é provável especialmente no caso de meninas, mulheres e minorias raciais, por razões que incluem rótulos inadequados que acompanham os estereótipos. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "um vocábulo recebe acento por ser oxítono terminado em 'e(s)'.",
+                      "'provável' é acentuado por ser um vocábulo paroxítono terminado em L.",
+                      "há quatro vocábulos proparoxítonos presentes na frase.",
+                      "'é' recebe acento por ser um vocábulo oxítono terminado em 'e'."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>'provável' é acentuado por ser um vocábulo paroxítono terminado em L.</strong>. Fonte: Instituto Access/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "De acordo com as regras de acentuação das palavras, assinale a alternativa correta que apresenta palavra(s) acentuada(s) pela mesma razão que as palavras em destaque no período: “O envelhecimento é um processo natural que envolve alterações fisiológicas, estruturais e químicas nas células das pessoas.”.",
+                "opcoes": [
+                      "Com fé e esperança, conseguiremos construir um mundo mais justo e mais generoso.",
+                      "O repórter investigativo descobriu documentos sigilosos que comprometem policiais.",
+                      "A saúde é negligenciada pela maioria dos homens que acabam morrendo mais cedo.",
+                      "A efetivação de políticas públicas são poderosas ferramentas para aumentar a longevidade."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A efetivação de políticas públicas são poderosas ferramentas para aumentar a longevidade.</strong>. Fonte: Instituto Darwin/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Darwin",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "[Questão Inédita] Marque a alternativa em que a regra da primeira palavra é diferente das demais.",
+                "opcoes": [
+                      "vídeo, está, raízes",
+                      "ódio, área, também",
+                      "próxima, tendência, últimos",
+                      "político, sociólogo, Ciência",
+                      "será, substituída, até"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>vídeo, está, raízes</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A acentuação é o modo de proferir um som ou grupo de sons com mais relevo do que outros, com maior intensidade. O acento de intensidade se manifesta no vocábulo considerado isoladamente ou ligado na enunciação da oração. ( Evanildo Bechara) Quanto à acentuação dos vocábulos retirados do texto, analise as afirmativas a seguir e identifique aquela que apresenta uma informação INCORRETA:",
+                "opcoes": [
+                      "Os vocábulos 'chora', 'velhice' e 'bonito' apresentam a mesma classificação quanto à posição da sílaba tônica.",
+                      "O vocábulo 'polícia' é um exemplo de que o acento de intensidade desempenha importante papel linguístico, decisivo para a significação da palavra(polícia/policia).",
+                      "Os vocábulos 'ciências' e 'histórias' são exemplos de palavras que podem apresentar duas classificações quanto à posição do acento tônico.",
+                      "Os vocábulos 'após', 'até' e 'aí' são acentuados pela mesma regra."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'após', 'até' e 'aí' são acentuados pela mesma regra.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmativas relacionadas à acentuação dos vocábulos retirados do texto. A seguir, identifique aquela que apresenta uma informação INCORRETA:",
+                "opcoes": [
+                      "Os vocábulos \"processar', 'situações' e 'também' são palavras oxítonas.",
+                      "A forma verbal 'podem' é a forma flexionada do verbo 'poder'. Esse verbo é um exemplo de palavra que possui acento diferencial quando flexionada na 3ª pessoa do singular do pretérito perfeito do indicativo.",
+                      "Os vocábulos 'situação' e 'preocupação' são oxítonos terminados em 'o', por isso recebem acento gráfico.",
+                      "Os vocábulos 'episódio', 'frequência' e 'repertório' podem ser classificados de duas formas quanto à posição da sílaba tônica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'situação' e 'preocupação' são oxítonos terminados em 'o', por isso recebem acento gráfico.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Uma razão para criança gostar de programas repetidos é o  que  podemos  chamar  de  \"efeito  input\",  não considerado um conceito novo na ciência cognitiva. (Fonte: https://www.bbc.com/portuguese/articles/c0lg061w184o.adaptado) De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "\"ciência\" recebe acento por ser um vocábulo paroxítono terminado em ditongo.",
+                      "o verbo \"é\" conservou o acento diferencial após o novo acordo ortográfico da língua portuguesa.",
+                      "\"razão\" é acentuado por ser um vocábulo oxítono terminado em \"o\".",
+                      "\"não\" recebe acento por ser um monossílabo tônico terminado em \"o\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"ciência\" recebe acento por ser um vocábulo paroxítono terminado em ditongo.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a acentuação das palavras em língua portuguesa, analise as assertivas a seguir: I. A palavra “vivências”, caso o acento circunflexo fosse suprimido, formaria um verbo conjugado na segunda pessoa do singular (tu). II. A palavra “ninguém”, caso o acento agudo fosse suprimido, formaria uma palavra inexistente em língua portuguesa. III. A forma verbal “é”, caso o acento agudo fosse suprimido, formaria a conjunção aditiva “e”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FUNDATEC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Na frase “Trouxe-a para casa e coloquei-a no copo com água.” (1º§), a palavra “água” recebe acento pelo mesmo motivo que, EXCETO:",
+                "opcoes": [
+                      "Tênue.",
+                      "Trégua.",
+                      "Ingênuo.",
+                      "Parabéns."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Parabéns.</strong>. Fonte: Instituto Consulplan/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O acento gráfico na palavra “artrópodes”, que ocorre no texto, decorre da mesma regra que acentua todas as palavras a seguir, exceto:",
+                "opcoes": [
+                      "fábricas.",
+                      "científico.",
+                      "sintéticos.",
+                      "escalável.",
+                      "ácido."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>escalável.</strong>. Fonte: Avança SP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho de Cem Anos de Solidão, a palavra “café” aparece acentuada. Com base nas regras de acentuação gráfica, assinale a alternativa que explica corretamente o uso do acento nesse caso:",
+                "opcoes": [
+                      "A palavra “café” é uma paroxítona terminada em “e”, sendo acentuada para marcar a sílaba tônica.",
+                      "Trata-se de uma oxítona terminada em “e”, recebendo o acento gráfico com a regra geral.",
+                      "O acento é aplicado para diferenciar “café” de outra palavra com grafia semelhante, conforme regra de acento diferencial.",
+                      "A palavra “café” é um monossílabo tônico que termina em vogal aberta, justificando o uso do acento gráfico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Trata-se de uma oxítona terminada em “e”, recebendo o acento gráfico com a regra geral.</strong>. Fonte: ABCP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "ABCP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Os vulcões subaquáticos também desempenham um papel importante na salinidade dos oceanos. Durante as erupções, eles libertam uma mistura de minerais e gases dissolvidos que enriquecem a água do mar com uma variedade de íons. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'vulcões' e 'erupções' são vocábulos acentuados por serem oxítonos terminados em 'e(s)'.",
+                      "um vocábulo permaneceu com o acento diferencial após o novo acordo ortográfico da língua portuguesa.",
+                      "'íons' recebe acento por ser um vocábulo paroxítono terminado em 'on(s)'.",
+                      "há três vocábulos acentuados por serem proparoxítonos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>'íons' recebe acento por ser um vocábulo paroxítono terminado em 'on(s)'.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os vulcões subaquáticos também desempenham um papel importante na salinidade dos oceanos. Durante as erupções, eles libertam uma mistura de minerais e gases dissolvidos que enriquecem a água do mar com uma variedade de íons. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há três vocábulos acentuados por serem proparoxítonos.",
+                      "'íons' recebe acento por ser um vocábulo paroxítono terminado em 'on(s)'.",
+                      "'vulcões' e 'erupções' são vocábulos acentuados por serem oxítonos terminados em 'e(s)'.",
+                      "um vocábulo permaneceu com o acento diferencial após o novo acordo ortográfico da língua portuguesa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>'íons' recebe acento por ser um vocábulo paroxítono terminado em 'on(s)'.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Esses robôs são programas em funcionamento constante que afetam o comércio online há anos. Mas, desde a pandemia de covid-19, a transação eletrônica aumentou consideravelmente. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'robôs' recebe acento por ser um vocábulo oxítono terminado em 'o' seguido de 's'.",
+                      "'eletrônica' recebe acento baseado em duas regras distintas: proparoxítona e paroxítona terminada em 'a'.",
+                      "há três vocábulos acentuados por serem proparoxítonos.",
+                      "há dois vocábulos monossílabos tônicos acentuados pela mesma regra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>'robôs' recebe acento por ser um vocábulo oxítono terminado em 'o' seguido de 's'.</strong>. Fonte: Unesc/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Unesc",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Antes de tomar a medida drástica da tela, as autoridades colocaram sinais de trânsito. Repetidos avisos dos guardas de segurança também foram ignorados. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há dois vocábulos acentuados por serem proparoxítonos.",
+                      "\"também\" é acentuado por ser um monossílabo oxítono com terminação \"em\"",
+                      "\"drástica\" e \"trânsito\" são vocábulos acentuados por regras distintas.",
+                      "há um vocábulo que permaneceu com acento diferencial segundo o novo acordo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>há dois vocábulos acentuados por serem proparoxítonos.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A Suécia não apenas lidera em termos de taxas de divórcio, mas também é líder mundial quando se trata de dividir a guarda das crianças igualmente. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "há três vocábulos proparoxítonos presentes na frase.",
+                      "há um vocábulo acentuado por ser paroxítono terminado em ditongo nasal.",
+                      "'líder' é acentuado por ser um vocábulo paroxítono terminado em 'er'.",
+                      "o vocábulo 'é' recebe acento por ser um monossílabo tônico terminado em 'e'."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>o vocábulo 'é' recebe acento por ser um monossílabo tônico terminado em 'e'.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Ele tinha chances de ganhar porque é muito difícil fazer o que ele fez: a identificação de uma doença em todo o seu ciclo, desde o animal até o seu desenvolvimento. De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      "'difícil' é um vocábulo acentuado por ser paroxítono terminado em L.",
+                      "há um vocábulo acentuado por ser um oxítono terminado em 'o'.",
+                      "há dois vocábulos acentuados por serem proparoxítonos.",
+                      "os vocábulos 'é − até' recebem acento por serem oxítonos terminados em 'e'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>'difícil' é um vocábulo acentuado por ser paroxítono terminado em L.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sustentando-se apenas no AOLP 1990, assinale a alternativa cujo teor está INCORRETO.",
+                "opcoes": [
+                      "Recebem acento gráfico, em razão de regras distintas, os termos “aí” e “trás”.",
+                      "As formas verbais “está” e “assumirá” são acentuadas em virtude da mesma regra.",
+                      "As palavras “lógica” e “negócios” apresentam acento gráfico por serem ambas proparoxítonas reais.",
+                      "São acentuados graficamente os vocábulos “é” e “já”, por eles terminarem nas vogais tônicas abertas -a, -e ou -o."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>As palavras “lógica” e “negócios” apresentam acento gráfico por serem ambas proparoxítonas reais.</strong>. Fonte: IMPARH/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IMPARH",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As regras de acentuação são essenciais para a boa comunicação. Desse modo, assinale a alternativa que apresenta as palavras que estão acentuadas de acordo com a gramática normativa.",
+                "opcoes": [
+                      "A assembléia decidiu que o vôo sairá às 15h.",
+                      "O sistema antiaéreo entrará em manutenção às 19h.",
+                      "As abelhas vivem dentro de uma colméia durante dez anos.",
+                      "O herói executou o seu feito mais heróico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O sistema antiaéreo entrará em manutenção às 19h.</strong>. Fonte: IDIB/2024. Assunto: acentuacaoGrafica.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta, respectivamente, palavras acentuadas pelas mesmas regras de PAÍS, FANTÁSTICO e TÓRAX:",
+                "opcoes": [
+                      "Saúde, fácil, táxi.",
+                      "Herói, árvore, ônix.",
+                      "Prejuízo, máximo, difícil.",
+                      "Chulé, artístico, órgão.",
+                      "Nenhuma das alternativas anteriores."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Prejuízo, máximo, difícil.</strong>. Fonte: FucapSul/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FucapSul",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia com atenção as afirmativas abaixo: I.Os heróis de gibi me encantavam quando era criança. II.Felipe pediu que jogássemos fora os papéis velhos. III.Desejo-lhe parabéns pelas conquistas. IV.Ainda guardo com carinho o chapéu de meu velho avô. V.Marcela era refém das vontades de seu filho. Sabe-se que na Língua Portuguesa diversos podem ser os motivos que levam um termo a ser acentuado. Em quais afirmativas lidas há o emprego de palavra que recebe o acento agudo pelo mesmo motivo do termo caubói?",
+                "opcoes": [
+                      "II, III e IV.",
+                      "I, II e IV.",
+                      "I, III e V.",
+                      "III e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, II e IV.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Os vocábulos abaixo admitem tanto a forma acentuada quanto a não acentuada, EXCETO:",
+                "opcoes": [
+                      "silêncio.",
+                      "próximo.",
+                      "país.",
+                      "círculo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>próximo.</strong>. Fonte: FAFIPA/2024. Assunto: acentuacaoGrafica.",
+                "banca": "FAFIPA",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia com atenção as alternativas abaixo e assinale aquela que possui um termo com erro de acentuação:",
+                "opcoes": [
+                      "Margaridas são o tipo de flôr preferido de minha sogra.",
+                      "Bruno não era uma pessoa de caráter.",
+                      "O comitê olímpico brasileiro já definiu a hospedagem dos atletas.",
+                      "O álbum de fotos do meu casamento ficou belo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Margaridas são o tipo de flôr preferido de minha sogra.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o próximo item, em relação às ideias e a aspectos linguísticos do texto precedente.\nOs vocábulos “república” e “cárcere” são acentuados graficamente de acordo com a mesma regra de acentuação gráfica.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Leia com atenção as afirmativas abaixo: I.O sorvete que estavam oferecendo era gratuíto. II.É proibído estacionar neste lugar. III.Marcelo tem uma enorme falta de higiêne. IV.As árvores foram arrancadas desde a raíz. V.O médico recomendou que bebesse muita água de côco. Em quais das afirmativas lidas há erro de acentuação?",
+                "opcoes": [
+                      "I, III e V.",
+                      "I, II, III, IV e V.",
+                      "II, III e IV.",
+                      "I, II, IV e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, II, III, IV e V.</strong>. Fonte: IGEDUC/2025. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir, em relação à separação silábica, à translineação e à acentuação tônica e gráfica de vocábulos empregados no texto 19A1.\nOs vocábulos “semântico”, “sintático” e “linguísticas” são acentuados graficamente de acordo com a regra de acentuação gráfica das palavras proparoxítonas.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir, em relação à separação silábica, à translineação e à acentuação tônica e gráfica de vocábulos empregados no texto 19A1.\nOs vocábulos “lado”, “produto”, “natalina” e “objetivo” possuem a mesma classificação quanto à posição do acento tônico.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: acentuacaoGrafica.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Há incorreção quanto à acentuação gráfica apenas em:",
+                "opcoes": [
+                      "exceção.",
+                      "quântico.",
+                      "asteróide.",
+                      "heroína.",
+                      "fútil."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>asteróide.</strong>. Fonte: Avança SP/2024. Assunto: acentuacaoGrafica.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, identifique a alternativa correta:",
+                "opcoes": [
+                      "O vocábulo 'líder' é oxítona acentuada, assim como 'ônix'.",
+                      "Os vocábulos 'aéreos' e 'vários' são acentuados pela mesma regra.",
+                      "O vocábulo 'país' é acentuado pela mesma regra de 'feiúra'.",
+                      "O vocábulo 'Jerusalém' é acentuado por ser uma oxítona terminada em ditongo decrescente."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'aéreos' e 'vários' são acentuados pela mesma regra.</strong>. Fonte: AMEOSC/2024. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas"
                 ]
           }
     ],
@@ -16056,6 +21463,29 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "digrafos"
                 ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja afirmação esteja incorreta:",
+                "opcoes": [
+                      "As palavras \"expressar\", \"burrice\", \"entender\" e \"controle\" possuem dígrafos (encontro de duas letras que representam um único fonema, ou seja, um único som) em sua estrutura.",
+                      "A palavra decidir pode ter como sinônimo optar; a palavra egoísmo pode ter como sinônimo individualismo e como antônimo altruísmo; já a palavra adversidade pode ter como sinônimo obstáculo e como antônimo facilidade.",
+                      "Na frase \"Mas, em alguns momentos, não decidir é a melhor decisão que a gente pode tomar\" a concordância verbal e a concordância nominal foram corretamente observadas.",
+                      "A palavra \"egoísmo\" é acentuada pela seguinte regra: Acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".",
+                      "Na frase \"O mais difícil na vida não é jogar a pedra, mas manter a pedra no chão\", a vírgula é usada para separar duas orações coordenadas introduzidas pela conjunção \"mas\", que indica contraste."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"egoísmo\" é acentuada pela seguinte regra: Acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".</strong>. Fonte: AMAUC/2025. Assunto: digrafos.",
+                "banca": "AMAUC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "hiatos",
+                      "silabas",
+                      "fonemas"
+                ]
           }
     ],
     "tritongos": [
@@ -17398,6 +22828,1187 @@ var QUESTOES_BANCO = {
                       "proparoxitonas",
                       "crase"
                 ]
+          },
+          {
+                "enunciado": "Identifique a alternativa em que a sequência de palavras segue, respectivamente, esta ordem: oxítona, paroxítona, proparoxítona.",
+                "opcoes": [
+                      "nós – ninguém – clássica.",
+                      "há – negligência – passíveis.",
+                      "Ninguém – frequência – clássica.",
+                      "pedagógico – frequência- ninguém.",
+                      "fé – coração – clássica"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ninguém – frequência – clássica.</strong>. Fonte: Prefeitura de Pescaria Brava - SC/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Pescaria Brava - SC",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as palavras retiradas do texto estão corretamente classificadas quanto à posição da sílaba tônica, como oxítona (O), paroxítona (P) e proparoxítona (PP):",
+                "opcoes": [
+                      "evasão (O) – índice (PP) – alunos (P).",
+                      "país (P) – público (PP) – escolar (O).",
+                      "atraso (P) – séries (O) – básica (PP).",
+                      "ensino (O) – jovens (P) – déficit (PP)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>evasão (O) – índice (PP) – alunos (P).</strong>. Fonte: Prefeitura de Bauru - SP/2026. Assunto: tonicidade.",
+                "banca": "Prefeitura de Bauru - SP",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras em destaque quanto à acentuação gráfica: \"Crianças descalças chamaram a atenção de Betty Mae Agi e de sua irmã , Brenda, quando elas estavam fazendo trabalho voluntário em Angola. A viagem para o país do continente africano foi uma troca: abriram mão da festa de formatura do curso de Biomedicina e foram trabalhar como biomédicas.\" Analise as sentenças a seguir e registre V, para verdadeiras, e F, para falsas: (__)A palavra \"irmã\" é uma oxítona terminada em -ã , por isso não é acentuada. (__)\"Voluntário\" é acentuada por ser uma paroxítona terminada em ditongo oral. (__)A acentuação de \"país\" acontece para diferenciá-la de \"pais\" (plural de pai, por exemplo). (__)A palavra \"biomédicas\" segue a regra das paroxítonas terminadas em -a(s). Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "F − F − V − F.",
+                      "F − F − F − V.",
+                      "V − V − V − V.",
+                      "F − V − F − V.",
+                      "V − V − F − F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V − V − F − F.</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Há no texto dezessete palavras sublinhadas. Julgue as assertivas a seguir considerando essas palavras e registre V, para verdadeiras, e F, para falsas: (__)Duas palavras acentuadas atendem à regra das palavras oxítonas terminadas em -em. (__)Quatro palavras acentuadas atendem à regra das palavras paroxítonas terminadas em ditongo oral átono, seja ele crescente ou decrescente. (__)Seis palavras acentuadas atendem à regra das palavras proparoxítonas. (__)Uma palavra acentuada atende à regra das palavras oxítonas terminadas em -a/-as. (__)Três palavras acentuadas atendem às regras das monossílabas tônicas. (__)Uma palavra acentuada atende à regra dos hiatos. Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "F − V − V − F − V − V.",
+                      "V − F − F − F − V − V.",
+                      "F − V − V − V − F − F.",
+                      "V − F − F − F − F − F.",
+                      "V − F − V − V − V − V."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V − F − V − V − V − V.</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Leia as afirmativas a seguir sobre sílaba tônica, marcando V para as verdadeiras e F para as falsas. ( ) A palavra “café” é oxítona, pois a última sílaba (fé) é a tônica. ( ) A palavra “lâmpada” é proparoxítona, pois a antepenúltima sílaba (lâm) recebe a tonicidade. ( ) A palavra “coração” é proparoxítona, porque a penúltima sílaba (ra) é a mais forte. ( ) A palavra “difícil” é paroxítona, já que a sílaba tônica recai sobre a penúltima (fí). Marque a alternativa correta:",
+                "opcoes": [
+                      "V – V – V – V.",
+                      "V – V – F – V.",
+                      "V – F – F – V.",
+                      "V – V – F – F."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V – V – F – V.</strong>. Fonte: Instituto IDEAP/2025. Assunto: tonicidade.",
+                "banca": "Instituto IDEAP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa cuja sequência de palavras apresente a classificação correta quanto a posição da sílaba tônica: oxítona, paroxítona e proparoxítona, respectivamente:",
+                "opcoes": [
+                      "Sustentável, adoção, população.",
+                      "Qualidade, manejo, humanas.",
+                      "Médio, impacto, sustentável.",
+                      "Atmosférica, híbrida, avanço.",
+                      "Produção, sustentável, atmosférica."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Produção, sustentável, atmosférica.</strong>. Fonte: Ápice Consultoria/2025. Assunto: tonicidade.",
+                "banca": "Ápice Consultoria",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto \"Paraense de 18 anos cria tijolo de caroço de açaí\" à sua classificação quanto à tonicidade: Primeira coluna: Classificação da tonicidade (1)Proparoxítona (2)Oxítona (3)Paroxítona Segunda coluna: Palavras do texto (__)Açaí (__)Bagaço (__)Matemática (__)Tijolo (__)Possível (__)Pará (__)Projeto (__)Barbosa Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "3 − 1 − 2 − 1 − 1 − 3 − 1 − 1",
+                      "1 − 2 − 2 − 3 − 2 − 1 − 3 − 1",
+                      "2 − 1 − 2 − 3 − 1 − 1 − 2 − 2",
+                      "2 − 3 − 1 − 3 − 3 − 2 − 3 − 3",
+                      "1 − 2 − 3 − 2 − 2 − 1 − 2 − 2"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2 − 3 − 1 − 3 − 3 − 2 − 3 − 3</strong>. Fonte: FURB/2023. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale, a seguir, a alternativa que apresenta, respectivamente, um exemplo de palavra oxítona, paroxítona e proparoxítona.",
+                "opcoes": [
+                      "Curió; canário; e vítima.",
+                      "Otário; pássaros; e sabiá.",
+                      "Fêmea; aborígine; e divórcio.",
+                      "Cinelândia; indústria; e história."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Curió; canário; e vítima.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a sílaba tônica da palavra “temperatura”.",
+                "opcoes": [
+                      "Tem.",
+                      "–pe–",
+                      "–ra–",
+                      "–tu–",
+                      "–ra"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>–tu–</strong>. Fonte: FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir e indique a alternativa que apresenta respectivamente uma palavra oxítona, uma paroxítona e uma proparoxítona.",
+                "opcoes": [
+                      "parlamento – hortelã – hipótese",
+                      "ninguém – felicidade – científico",
+                      "flácido – incrível – sorrir",
+                      "felicidade – gráfico – dançar"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ninguém – felicidade – científico</strong>. Fonte: UNIVIDA/2023. Assunto: tonicidade.",
+                "banca": "UNIVIDA",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas apresenta uma palavra paroxítona e uma palavra proparoxítona, respectivamente?",
+                "opcoes": [
+                      "Técnica – necessários.",
+                      "Direção – acadêmica.",
+                      "Também – importância.",
+                      "Características – psicóloga.",
+                      "Açúcar – dúvidas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Açúcar – dúvidas.</strong>. Fonte: FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas apresenta uma palavra paroxítona e uma palavra proparoxítona, respectivamente?",
+                "opcoes": [
+                      "Técnica – prática.",
+                      "Caráter – estímulos.",
+                      "Será – também.",
+                      "Difícil – benefícios.",
+                      "Análise – vários."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Caráter – estímulos.</strong>. Fonte: FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à classificação da sílaba tônica, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Oxítona. (2) Paroxítona. (3) Proparoxítona. ( ) Órbita. ( ) Café. ( ) Galáxia. ( ) Pêssego. ( ) Meteorito.",
+                "opcoes": [
+                      "1 - 3 - 1 - 2 - 3.",
+                      "2 - 1 - 2 - 1 - 3.",
+                      "3 - 2 - 3 - 1 - 2.",
+                      "3 - 1 - 2 - 3 - 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>3 - 1 - 2 - 3 - 2.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto à sua respectiva classificação quanto à tonicidade: Primeira coluna: tonicidade (1) oxítona (2) proparoxítona (3) paroxítona Segunda coluna: palavras do texto (__) semente (__) Ártico (__) Guerras (__) Enchentes (__) Arquipélago (__) Também Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "1 − 2 − 3 − 3 − 2 − 1.",
+                      "3 − 2 − 3 − 3 − 2 − 1.",
+                      "2 − 3 − 2 − 2 − 3 − 1.",
+                      "1 − 2 − 1 − 1 − 2 − 3.",
+                      "3 − 1 − 2 − 3 − 1 − 2."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 − 2 − 3 − 3 − 2 − 1.</strong>. Fonte: FURB/2024. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação gráfica da língua portuguesa, analise as assertivas e assinale a alternativa que aponta a(s) correta(s). I. Em “O gasto energético de data centers [...] poderá dobrar no mundo em 2026 [...]”, o termo destacado acentua-se por ser uma oxítona terminada em “a”. II. Em “[...] elementos terras-raras e outros minerais, como silício, cobre e lítio [...]”, os termos destacados acentuam-se por razões distintas. III. No trecho “[...] conjunto de práticas, técnicas e procedimentos aplicados à fabricação [...]”, os termos destacados correspondem a paroxítonas terminadas em “s”, por isso são acentuados. IV. No trecho “[...] várias práticas têm sido propostas, como elevar a eficiência energética de hardwares e softwares [...]”, os termos em destaque acentuam-se pela mesma razão.",
+                "opcoes": [
+                      "Apenas I e III.",
+                      "Apenas I.",
+                      "Apenas I, II e III.",
+                      "Apenas II e IV.",
+                      "Apenas III e IV."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: INSTITUTO AOCP/2025. Assunto: tonicidade.",
+                "banca": "INSTITUTO AOCP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"Através do sonho podemos fazer a descoberta de nós mesmos. Sonhar é abrir um portal para a mudança. O que ousamos sonhar é a semente de um outro modelo de mundo, mais próximo de quem realmente somos.\" Dulce Magalhães Com base no texto, assinale a alternativa CORRETA:",
+                "opcoes": [
+                      "A palavra “através” é acentuada pela mesma regra da palavra “próximo”.",
+                      "Em “Sonhar é abrir um portal para a mudança.”, o termo sublinhado estabelece com a palavra “portal” uma relação de regência nominal.",
+                      "A expressão “de nós mesmos” poderia ser retirada sem alteração do sentido original do texto.",
+                      "O trecho “sonhar é a semente de um outro modelo de mundo...” foi construído na voz passiva.",
+                      "A forma verbal “somos” foi empregada de forma inadequada no que se refere â concordância."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Em “Sonhar é abrir um portal para a mudança.”, o termo sublinhado estabelece com a palavra “portal” uma relação de regência nominal.</strong>. Fonte: AEVSF/FACAPE/2024. Assunto: tonicidade.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "“Com grande diversidade ambiental, a Bacia do São Francisco contempla fragmentos de diferentes biomas: floresta atlântica, cerrado, caatinga, costeiros e insulares. O cerrado cobre, praticamente, metade da área da bacia – de Minas Gerais ao oeste e sul da Bahia, enquanto a caatinga predomina no nordeste baiano, onde as condições climáticas são mais severas. Um exemplar da floresta atlântica, devastada pelo uso agrícola e pastagens, ocorre no Alto São Francisco, principalmente nas cabeceiras.” https://cbhsaofrancisco.org.br Considerando as regras de acentuação gráfica, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "As palavras “atlântica” e “climáticas” são acentuadas pela mesma regra.",
+                      "A palavra “caatinga” deveria estar acentuada.",
+                      "A palavra “área” é acentuada por ser oxítona terminada em “a”.",
+                      "A palavra “agrícola” é acentuada por ser paroxítona terminada em “a”",
+                      "A palavra “cabeceiras” deveria estar acentuada na vogal sublinhada."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As palavras “atlântica” e “climáticas” são acentuadas pela mesma regra.</strong>. Fonte: AEVSF/FACAPE/2024. Assunto: tonicidade.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A respeito da classificação silábica, relacionar as colunas e assinalar a sequência correspondente. (1) A sílaba mais forte é a última sílaba da palavra. (2) A sílaba mais forte é a penúltima sílaba da palavra. (3) A sílaba mais forte é a antepenúltima sílaba da palavra. ( ) Proparoxítona. ( ) Oxítona. ( ) Paroxítona.",
+                "opcoes": [
+                      "1 - 2 - 3.",
+                      "3 - 1 - 2.",
+                      "1 - 3 - 2.",
+                      "2 - 1 - 3.",
+                      "3 - 2 - 1."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 - 1 - 2.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto à sua classificação devido à tonicidade: Primeira coluna: classificação de tonicidade 1.Paroxítona 2.Oxítona 3.Proparoxítona Segunda coluna: palavras do texto (__)Idosos. (__)Temperaturas. (__)Óbitos. (__)Localidades. (__)Mortalidade. (__)Crianças. (__)Pressão. (__)Pesquisa. (__)Estudos. (__)Variações. Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "3 − 3 − 2 − 3 − 3 − 3 − 1 − 3 − 3 − 1.",
+                      "3 − 1 − 3 − 2 − 2 − 1 − 2 − 1 − 2 − 2.",
+                      "1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.",
+                      "1 − 3 − 3 − 3 − 1 − 2 − 2 − 1 − 1 − 3.",
+                      "2 − 2 − 1 − 2 − 2 − 2 − 3 − 2 − 2 − 3."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Associe a segunda coluna de acordo com a primeira, que relaciona palavras do texto à sua classificação devido à tonicidade: Primeira coluna: classificação de tonicidade 1.Paroxítona 2.Oxítona 3.Proparoxítona Segunda coluna: palavras do texto (__)Idosos. (__)Temperaturas. (__)Óbitos. (__)Localidades. (__)Mortalidade. (__)Crianças. (__)Pressão. (__)Pesquisa. (__)Estudos. (__)Variações. Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "3 − 1 − 3 − 2 − 2 − 1 − 2 − 1 − 2 − 2.",
+                      "2 − 2 − 1 − 2 − 2 − 2 − 3 − 2 − 2 − 3.",
+                      "3 − 3 − 2 − 3 − 3 − 3 − 1 − 3 − 3 − 1.",
+                      "1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.",
+                      "1 − 3 − 3 − 3 − 1 − 2 − 2 − 1 − 1 − 3."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>1 − 1 − 3 − 1 − 1 − 1 − 2 − 1 − 1 − 2.</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Avalie as afirmativas a seguir e identifique aquela que apresenta uma afirmação correta quanto à acentuação.",
+                "opcoes": [
+                      "O vocábulo 'modificáveis' é acentuada pela mesma regra de 'aloés'.",
+                      "O vocábulo 'histórica' é acentuado pela mesma regra de 'Niágara'.",
+                      "A supressão do acento de 'pública' implicará em uma mudança de classificação, passando de proparoxítona para oxítona.",
+                      "O vocábulo 'saúde' é uma paroxítona acentuada pela mesma regra de 'diária'."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O vocábulo 'histórica' é acentuado pela mesma regra de 'Niágara'.</strong>. Fonte: IDCAP/2024. Assunto: tonicidade.",
+                "banca": "IDCAP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a classificação das palavras quanto à posição da sílaba tônica, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: (__) Açúcar é proparoxítona. (__) Responsável é paroxítona. (__) Endócrinos é paroxítona.",
+                "opcoes": [
+                      "C - C - E.",
+                      "E - C - C.",
+                      "C - E – C.",
+                      "E - C - E."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>E - C - E.</strong>. Fonte: Prefeitura de Catas Altas - MG/2025. Assunto: tonicidade.",
+                "banca": "Prefeitura de Catas Altas - MG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"[...] de quando eu e minha irmã éramos crianças [...]\" termo destacado tem a O mesma tonicidade da palavra demarcada na alternativa",
+                "opcoes": [
+                      "As Olimpíadas surgiram na Grécia Antiga, por volta de 776 a. C.",
+                      "Aljôfar é uma gota de água em formato de pérola.",
+                      "A fênix é um pássaro da mitologia grega.",
+                      "O néctar é uma substância vital para a reprodução de muitas plantas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As Olimpíadas surgiram na Grécia Antiga, por volta de 776 a. C.</strong>. Fonte: IDIB/2024. Assunto: tonicidade.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Sobre as regras de acentuação das palavras tênis e músculos, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Tênis é acentuada por ser uma paroxítona terminada em \"-is\", e músculos é acentuada por ser proparoxítona.",
+                      "Tênis é acentuada por ser uma oxítona terminada em \"-is\", e músculos é acentuada por ser paroxítona.",
+                      "Tênis e músculos são acentuadas por serem ambas paroxítonas.",
+                      "Tênis e músculos são acentuadas por serem ambas proparoxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tênis é acentuada por ser uma paroxítona terminada em \"-is\", e músculos é acentuada por ser proparoxítona.</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, relacionar as colunas e assinalar a sequência correspondente. (1) São acentuadas por serem proparoxítonas. (2) São acentuadas por serem oxítonas terminadas em ditongo aberto. (3) São acentuadas por serem paroxítonas que terminam em “l, n, r, x, s”. (4) Oxítonas não acentuadas. ( ) Grátis | réptil | líquen. ( ) Troféu | chapéu | ilhéu. ( ) Árabe | lírico | recôncavo. ( ) Nobel | abacaxi | guarani",
+                "opcoes": [
+                      "4 - 1 - 2 - 3.",
+                      "2 - 3 - 4 - 1.",
+                      "3 - 2 - 1 - 4.",
+                      "1 - 4 - 3 - 2."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3 - 2 - 1 - 4.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se as regras de acentuação, avaliar se as afirmativas são certas (C) ou erradas (E) e assinalar a sequência correspondente. ( ) “Sistemática” é uma proparoxítona. ( ) “Relativamente” é uma paroxítona. ( ) “Repetitiva” é uma proparoxítona.",
+                "opcoes": [
+                      "C - E - E.",
+                      "C - C - E.",
+                      "E - E - E.",
+                      "E - C - C."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>C - C - E.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Três amigas chamadas Patrícia se associaram para montar uma pizzaria. Elas utilizaram a primeira sílaba do nome delas repetida três vezes para formar o nome do restaurante. Cada uma delas sugeriu uma pronúncia, o que gerou uma discussão de como a palavra deveria ser acentuada: I. Se a sílaba tônica for o primeiro Pa, a escrita deveria ser Pápapa, pois a palavra seria proparoxítona, e todas as proparoxítonas devem ser acentuadas. II. Se a sílaba tônica for o segundo pa, a escrita deveria ser Papápa, pois seria o caso de uma paroxítona terminada em a, o que requer o acento. III. Se a sílaba tônica for o último pa, a escrita deveria ser Papapá, pois a palavra seria uma oxítona terminada em a, devendo obrigatoriamente ser acentuada. Assinale a alternativa correta.",
+                "opcoes": [
+                      "Somente a proposição II está correta.",
+                      "Somente a proposição III está correta.",
+                      "Somente as proposições I e II estão corretas.",
+                      "Somente a proposição I está correta.",
+                      "Somente as proposições I e III estão corretas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Somente as proposições I e III estão corretas.</strong>. Fonte: UFSC/2025. Assunto: tonicidade.",
+                "banca": "UFSC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Texto 10 Imagem associada para resolução da questão CARROL, L. Aventuras de Alice no País das Maravilhas; Através do Espelho e o que Alice encontrou por lá. Rio de Janeiro: Zahar, 2009, p. 240. Com base no texto 10 e na variedade padrão da língua escrita, indique a alternativa correta.",
+                "opcoes": [
+                      "As formas verbais “pôde” (linha 03) e “Podem” (linha 13) denotam possibilidade.",
+                      "A palavra “Francamente” (linha 09) corresponde a um advérbio modalizador emotivo, que verbaliza as reações do falante em face do conteúdo proposicional.",
+                      "A forma verbal “Mandaria” (linha 07) é empregada na descrição de um evento que certamente acontecerá, não estando na dependência de outros eventos.",
+                      "As palavras “caísse” (linha 03), “lábios” (linha 03), “própria” (linha 05) e “horrível” (linha 09) são acentuadas pela mesma regra.",
+                      "A expressão verbal “Andou escutando” (linha 10) descreve um evento em curso no momento da narrativa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra “Francamente” (linha 09) corresponde a um advérbio modalizador emotivo, que verbaliza as reações do falante em face do conteúdo proposicional.</strong>. Fonte: UFSC/2025. Assunto: tonicidade.",
+                "banca": "UFSC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que justifica CORRETAMENTE e RESPECTIVAMENTE o acento das palavras em destaque “os exercícios aeróbios são benéficos em moderada intensidade (60%- 75% da frequência cardíaca máxima ajustada para a idade), duas a três vezes por semana...).",
+                "opcoes": [
+                      "é paroxítona terminada em ditongo oral aberto; é proparoxítona terminada em ditongo oral.",
+                      "é paroxítona terminada em ditongo oral crescente; é proparoxítona e toda proparoxítona deve ser acentuada.",
+                      "é proparoxítona e toda proparoxítona deve ser acentuada; é paroxítona terminada em ditongo oral.",
+                      "é paroxítona terminada em ditongo oral; é paroxítona terminada com vogal oral."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>é paroxítona terminada em ditongo oral crescente; é proparoxítona e toda proparoxítona deve ser acentuada.</strong>. Fonte: Prefeitura de Bauru - SP/2025. Assunto: tonicidade.",
+                "banca": "Prefeitura de Bauru - SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao uso da acentuação gráfica nas palavras em destaque no trecho \"Seu pronunciamento é uma sentença obrigatória, uma sondagem diária da fidelidade\", é correto afirmar que elas recebem acento por serem:",
+                "opcoes": [
+                      "proparoxítonas terminada em ditongo aberto.",
+                      "oxítonas terminada em vogal aberta.",
+                      "paroxítonas terminadas em ditongo crescente (aparenta ser uma proparoxítona).",
+                      "paroxítonas que foram incluídas em novas regras do Acordo Ortográfico Vigente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>paroxítonas terminadas em ditongo crescente (aparenta ser uma proparoxítona).</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise o trecho a seguir: Esses dias um político brasileiro fez uma série de gafes em entrevistas com jornalistas portugueses, mostrando que certos indivíduos são mestres em embromação e desfaçatez. Como se diz em Lisboa: \"o pavão, quanto mais levanta a cauda, mais se lhe vê o rabo\". De acordo com as regras de acentuação, é correto afirmar que:",
+                "opcoes": [
+                      ") \"político\" e \"indivíduos\" seguem a mesma regra de acentuação: a das paroxítonas.",
+                      "há uma palavra que manteve o acento diferencial após o novo acordo ortográfico.",
+                      "\"vê\" é acentuado por ser uma palavra oxítona terminada em \"e\".",
+                      "\"série\" é acentuado por ser uma paroxítona terminada em ditongo crescente (proparoxítona aparente)."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>\"série\" é acentuado por ser uma paroxítona terminada em ditongo crescente (proparoxítona aparente).</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo quanto à classificação da sílaba tônica e relacione corretamente cada uma delas à sua respectiva categoria. Em seguida, assinale a alternativa que apresenta a sequência correta. 1. (__) Cérebro. 2. (__) Além. 3. (__) Impossível. 4. (__) Plástico. 5. (__) Pesquisa. Categorias:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "1-C / 2-A / 3-B / 4-B / 5-A.",
+                      "1-C / 2-B / 3-A / 4-B / 5-A",
+                      "1-B / 2-C / 3-A / 4-C / 5-B.",
+                      "1-C / 2-A / 3-B / 4-C / 5-B."
+                ],
+                "correta": 6,
+                "explicacao": "Gabarito: <strong>1-C / 2-A / 3-B / 4-C / 5-B.</strong>. Fonte: IDESG/2025. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considere a seguinte frase: \"Com a vida imersa em plásticos, era esperado que, em algum momento, diminutos fragmentos do material fossem encontrados até mesmo no mais protegido dos órgãos humanos, o cérebro.\" Assinale a alternativa que classifica corretamente as palavras destacadas na frase, conforme as regras de acentuação gráfica da língua portuguesa:",
+                "opcoes": [
+                      "\"Plásticos\" e \"cérebro\" são proparoxítonas acentuadas por serem terminadas em \"o\"; \"até\" é uma oxítona acentuada por ser monossílaba tônica; \"órgãos\" é uma proparoxítona acentuada.",
+                      "\"Plásticos\" e \"cérebro\" são proparoxítonas acentuadas; \"até\" é uma paroxítona terminada em \"e\"; \"órgãos\" é uma oxítona terminada em ditongo nasal.",
+                      "\"Plásticos\" e \"órgãos\" são paroxítonas acentuadas por serem terminadas em consoante; \"até\" é uma oxítona acentuada por ser monossílaba tônica; \"cérebro\" é uma proparoxítona não acentuada.",
+                      "\"Plásticos\" e \"cérebro\" são proparoxítonas acentuadas; \"até\" é uma oxítona terminada em vogal tônica; \"órgãos\" é uma paroxítona terminada em ditongo nasal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>\"Plásticos\" e \"cérebro\" são proparoxítonas acentuadas; \"até\" é uma oxítona terminada em vogal tônica; \"órgãos\" é uma paroxítona terminada em ditongo nasal.</strong>. Fonte: IDESG/2025. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que reúne duas palavras paroxítonas e uma palavra oxítona, nesta ordem:",
+                "opcoes": [
+                      "comandante, tumulto, disponível.",
+                      "escopeta, alguém, minutos.",
+                      "sorrateiramente, andando, três.",
+                      "janelas, humanos, assombrado.",
+                      "tenente, polícia, viatura."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>sorrateiramente, andando, três.</strong>. Fonte: CPCON/2024. Assunto: tonicidade.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta, respectivamente, a justificativa correta para acentuação das seguintes palavras: Imagem associada para resolução da questão",
+                "opcoes": [
+                      "acentuam-se todas as proparoxítonas; oxítona terminada em vogal -a; paroxítona terminada em l; monossílabo tônico terminado em -e(s).",
+                      "acentua-se todo -u tônico formando hiato; oxítona terminada em vogal átona; paroxítona terminada em l; monossílabo tônico terminado em -e(s).",
+                      "acentuam-se as proparoxítonas terminadas em vogal; oxítona terminada em vogal átona; paroxítona terminada em l; monossílabo átono terminado em -e(s).",
+                      "acentuam-se todas as proparoxítonas; oxítona terminada em vogal; oxítona terminada em l; monossílabo tônico terminado em -e(s)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>acentuam-se todas as proparoxítonas; oxítona terminada em vogal -a; paroxítona terminada em l; monossílabo tônico terminado em -e(s).</strong>. Fonte: Itame/2024. Assunto: tonicidade.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "\" Para os agricultores, não se trata apenas de fazer vinho, mas também de sobrevivência, resiliência e de abraçar as novas possibilidades que vêm diante das mudanças climáticas.\" Em relação à acentuação dos vocábulos acima, analise as afirmativas a seguir: I.\"também\" é oxítona, assim como \"haréns\". II.\"sobrevivência\" e \"resiliência\" são proparoxítonas. III.\"vêm\" com o novo acordo, passou a ser acentuada para diferenciar da forma \"vem\" (sem acento)no singular. IV.\"climáticas\" é proparoxítona , assim como \"filântropo\" e \"límpido\". Estão corretas:",
+                "opcoes": [
+                      "Apenas I e II.",
+                      "Apenas II, III e IV.",
+                      "Apenas I, II e IV.",
+                      "Apenas II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os vocábulos 'rápido', 'gás' e 'países' são classificados em, respectivamente, proparoxítona, monossílaba e paroxítona, da mesma forma que os da alternativa:",
+                "opcoes": [
+                      "crisântemo, vóz, saúde.",
+                      "leucócito, géis, húmus.",
+                      "íbero, nós, catéter.",
+                      "bátavo, réu, látex."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>leucócito, géis, húmus.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras práticas, concluída, três, trajetória são acentuadas por serem, respectivamente,",
+                "opcoes": [
+                      "paroxítona, paroxítona terminada em vogal, monossílabo átono, paroxítona terminada em ditongo.",
+                      "proparoxítona, hiato, monossílabo tônico, proparoxítona terminada em ditongo.",
+                      "proparoxítona, hiato, monossílabo tônico, paroxítona terminada em ditongo.",
+                      "proparoxítona, ditongo crescente, monossílabo tônico, proparoxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>proparoxítona, hiato, monossílabo tônico, paroxítona terminada em ditongo.</strong>. Fonte: Inovaty/2025. Assunto: tonicidade.",
+                "banca": "Inovaty",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Leia o fragmento e analise as assertivas que seguem: “Em 2022, a mina South Deep, localizada na África do Sul, possuía as maiores reservas conhecidas de ouro” (4º§).",
+                "opcoes": [
+                      "As palavras “África” e “possuíam” são classificadas como oxítona e paroxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são classificadas como proparoxítona e paroxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são ambas classificadas como paroxítonas.",
+                      "As palavras “África” e “possuíam” são classificadas como proparoxítona e oxítona, nessa ordem.",
+                      "As palavras “África” e “possuíam” são classificadas como paroxítona e proparoxítona, nessa ordem."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>As palavras “África” e “possuíam” são classificadas como proparoxítona e paroxítona, nessa ordem.</strong>. Fonte: CPCON/2025. Assunto: tonicidade.",
+                "banca": "CPCON",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém uma palavra oxítona, uma palavra paroxítona e uma palavra proparoxítona, nessa ordem.",
+                "opcoes": [
+                      "Minério, métricas, visível.",
+                      "Também, visível, métricas.",
+                      "Métricas, visível, também.",
+                      "Geológico, também, minério.",
+                      "Minério, geológico, visível."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Também, visível, métricas.</strong>. Fonte: CPCON/2025. Assunto: tonicidade.",
+                "banca": "CPCON",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica se baseia na ideia de desambiguizar a pronúncia das palavras, sendo ela uma convenção aceita por seus pares e pautada em regras estabelecidas por gramáticos, não sendo as mesmas em todos os idiomas. Assinale a alternativa que apresente explicação INCORRETA a respeito da palavra acentuada que recebe destaque nos excertos abaixo:",
+                "opcoes": [
+                      "Perca dói menos por ser mais trivial”. (Ditongo oral aberto em palavras oxítonas)",
+                      "[...] nada têm de folclóricas. (Monossílabo tônico terminado em “em”)",
+                      "[...] nada têm de folclóricas. (Palavra proparoxítona, todas elas são acentuadas)",
+                      "Da série “só acontece comigo” (Paroxítona terminada em ditongo crescente)",
+                      "Dei uma risada e segui meu rumo também. (Oxítona terminada em “em”)"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>[...] nada têm de folclóricas. (Monossílabo tônico terminado em “em”)</strong>. Fonte: PS Concursos/2025. Assunto: tonicidade.",
+                "banca": "PS Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Observe as palavras destacadas e assinale a alternativa que contém a classificação correta de acordo com as regras de acentuação: I. pá (O som da pá ao bater no chão fez um barulho forte.) II. também (Ele também participou da competição.) III. fácil (A tarefa era mais fácil do que parecia.) IV. sílaba (Identificar a sílaba tônica é importante para a acentuação correta.)",
+                "opcoes": [
+                      "I - Monossílabo tônico; II - Paroxítona; III - Oxítona; IV - Proparoxítona",
+                      "I - Oxítona; II - Monossílabo tônico; III - Proparoxítona; IV – Paroxítona",
+                      "I - Monossílabo átono; II - Oxítona; III - Proparoxítona; IV – Paroxítona",
+                      "I - Monossílabo tônico; II - Oxítona; III - Paroxítona; IV – Proparoxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I - Monossílabo tônico; II - Oxítona; III - Paroxítona; IV – Proparoxítona.</strong>. Fonte: FRONTE/2024. Assunto: tonicidade.",
+                "banca": "FRONTE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Conforme o Novo Acordo Ortográfico e as regras de acentuação gráfica, assinale a alternativa com a colocação mais coerente sobre a classificação das palavras do texto.",
+                "opcoes": [
+                      "‘Atrás’ (linha 16) só é oxítona quando está no plural.",
+                      "‘Nômade’ (linha 21) só é proparoxítona quando está no plural.",
+                      "‘Dá’ (linha 20) é um monossílabo tônico.",
+                      "‘África’ (linha 03) é paroxítona.",
+                      "‘Sábia’ (linha 03) e ‘sabiá’ possuem a mesma classificação."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>‘Dá’ (linha 20) é um monossílabo tônico.</strong>. Fonte: ADVISE/2024. Assunto: tonicidade.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Conforme o Novo Acordo Ortográfico e as regras de acentuação gráfica, assinale a alternativa com a colocação menos coerente sobre a classificação das palavras do texto.",
+                "opcoes": [
+                      "‘Após’ (linha 03) é monossílabo tônico.",
+                      "‘Será’ (linha 13) é oxítona.",
+                      "‘Errônea’ (linha 23) é proparoxítona.",
+                      "‘Também’ (linha 23) é oxítona.",
+                      "‘Estômago’ (linha 10) não é paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>‘Após’ (linha 03) é monossílabo tônico.</strong>. Fonte: ADVISE/2024. Assunto: tonicidade.",
+                "banca": "ADVISE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No excerto que segue, as palavras em destaque (negrito e sublinhado) são acentuadas a partir das mesmas regras: \"As plataformas digitais de trabalho representam um campo de batalha fundamental para os direitos trabalhistas nos próximos anos. O aumento de 45% nas denúncias envolvendo condições precárias de trabalho em plataformas, registrado pelo Ministério Público do Trabalho (2023), evidencia a urgência de uma regulação específica que garanta proteção social efetiva para esses trabalhadores. A questão central não é apenas o reconhecimento do vínculo empregatício , mas a construção de um novo marco regulatório que dê conta das especificidades dessa forma de organização do trabalho.\" Analise as assertivas e marque V, para verdadeiras, e F, para falsas: (__)As palavras em negrito são paroxítonas e são acentuadas, com acento agudo ou circunflexo, porque terminam em ditongo oral átono. (__)As palavras sublinhadas são paroxítonas e são acentuadas porque terminam em \"a\" ou \"o\", seguidas ou não de plural. (__)As palavras sublinhadas são proparoxítonas, logo todas são acentuadas, indicando como sílaba tônica a antepenúltima sílaba. (__)As palavras em negrito são oxítonas e todas as oxítonas são acentuadas, independente da terminação. Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "V − F − F − V.",
+                      "V − V − V − F.",
+                      "F − V − F − V.",
+                      "V − F − V − F.",
+                      "F − F − V − V."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>V − F − V − F.</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação dos vocábulos retirados do texto, analise as afirmativas a seguir: I. 'concluíram' é acentuada pela mesma regra de 'raízes'. II. Quanto à posição da sílaba tônica, 'também' é uma oxítona, da mesma forma que 'farol' e 'depois'. III.' árvores' é acentuada por ser proparoxítona, pela mesma regra, a palavra 'filantropo' deverá ser acentuada. IV. 'nós ' possui uma única sílaba, assim como 'mais'. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, II e IV.",
+                      "Apenas II, III e IV.",
+                      "Apenas II e III.",
+                      "Apenas II e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I, II e IV.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação e às classes gramaticais, marque com V(verdadeiro) ou com F(falso) para as  afirmativas abaixo: (__) Tem o mesmo plural que 'adaptações', o substantivo 'cidadão'. (__) Em 'saúde fragilizada' , 'fragilizada' é um substantivo no feminino, assim como 'fragilidade'. (__)  'térmicos' e 'diuréticos' são proparoxítonas. (__) 'saúde' é paroxítona , assim como 'macio'. (__) 'remédios' tem a mesma regra de acentuação que 'diárias'. (__) 'reação' tem o mesmo plural que 'alemão'. A alternativa que preenche os espaços CORRETAMENTE é:",
+                "opcoes": [
+                      "V, F, V, V, F, F.",
+                      "F, F, V, V, V, F.",
+                      "F, V, F, V, V, V.",
+                      "V, V, F, F, V, V.",
+                      "F, F, V, F, V, F."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>F, F, V, V, V, F.</strong>. Fonte: Unesc/2024. Assunto: tonicidade.",
+                "banca": "Unesc",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os vocábulos “atraído” e “miúdas”, utilizados no segundo parágrafo do texto, recebem o acento gráfico pelo fato de:",
+                "opcoes": [
+                      "serem palavras proparoxítonas.",
+                      "serem palavras oxítonas terminadas em A e em O.",
+                      "serem palavras paroxítonas terminadas em ditongo.",
+                      "serem palavras oxítonas terminadas em ditongos abertos.",
+                      "apresentarem hiatos em que o I e o U formam uma sílaba."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>apresentarem hiatos em que o I e o U formam uma sílaba.</strong>. Fonte: Fundação CETREDE/2024. Assunto: tonicidade.",
+                "banca": "Fundação CETREDE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque com (V) para verdadeiro ou com (F) para falso as afirmações referentes à acentuação e à ortografia dos vocábulos extraídos do trecho a seguir: \" O término do reinado dos dinossauros é um dos temas mais estudados pelos paleontólogos. Mas como começou a história desses répteis? Já se fez essa pergunta?\" (__)O vocábulo 'término' é uma proparoxítona. (__)O vocábulo 'répteis' é uma paroxítona, assim como 'têxtil'. (__)O vocábulo 'dinossauros' é escrito com 'ss', assim como os vocábulos 'dissimulado', 'impressão' e 'essência'. (__)São monossílabas as palavras 'é', 'já'' e 'mais'. A sequência correta é:",
+                "opcoes": [
+                      "V, V, V, V.",
+                      "V, F, V, F.",
+                      "V, F, V, V.",
+                      "F, V, V, V.",
+                      "F, F, V, V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, V, V, V.</strong>. Fonte: AMAUC/2025. Assunto: tonicidade.",
+                "banca": "AMAUC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "De acordo com as palavras em destaque: \"Eu queria ser professor de português, mas desisti pelo salário, explicou Vitor de Assis, aluno do 3º ano do Centro de Ensino Médio Tiradentes. Embora o Tocantins pague ao professor o segundo melhor piso do país, ainda é um salário pouco competitivo ao jovem, se comparado ao pago aos médicos e engenheiros, por exemplo.” Marque alternativa que NÃO CONTENHA uma justificativa plausível para a acentuação gráfica de qualquer uma das três palavras em destaque:",
+                "opcoes": [
+                      "Monossílabo tônico terminado em “is”",
+                      "“is” tônico em hiato com a vogal anterior.",
+                      "Palavra proparoxítona.",
+                      "Paroxítona terminada em ditongo crescente.",
+                      "Oxítona terminada em “e” seguido de “s”"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Monossílabo tônico terminado em “is”</strong>. Fonte: Intelectus/2025. Assunto: tonicidade.",
+                "banca": "Intelectus",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "\"Um único atum-rabilho atinge o preço de mais de uma tonelada de atum-bonito, a menor e mais abundante espécie de atum. O alto preço levou à pesca excessiva e a enorme demanda global por sushi reduziu gravemente a população da espécie, que chegou à beira da extinção em 2010.\" \"O atum-rabilho-do-atlântico se alimenta em águas do litoral da América do Norte, da Europa e da África. Eles desovam no Golfo do México e no mar Mediterrâneo.\" Quanto à acentuação dos vocábulos extraídos dos trechos, analise as afirmativas a seguir e identifique a que apresenta uma afirmação INCORRETA:",
+                "opcoes": [
+                      "O vocábulo 'águas' quanto a posição da sílaba tônica é uma paroxítona, assim como 'preço' e 'gravemente'.",
+                      "Os vocábulos 'atum' e 'extinção' são oxítonas.",
+                      "O vocábulo 'espécie' pode ser considerado uma palavra proparoxítona.",
+                      "Os vocábulos 'único' e 'Atlântico' são acentuadas por serem proparoxítonas.",
+                      "Os vocábulos 'Austrália' e 'África' são acentuados por representarem nomes de países."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Os vocábulos 'Austrália' e 'África' são acentuados por representarem nomes de países.</strong>. Fonte: AMAUC/2025. Assunto: tonicidade.",
+                "banca": "AMAUC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras ortográficas e às de acentuação, assinale com V(verdadeiro) ou com F(falso) para as afirmativas a seguir: I. O advérbio 'bem', ao contrário de 'mal', pode não se aglutinar com o segundo elemento quando ele começa por consoante: bem-nascido, malnascido, mas, em muitos compostos, 'bem' aglutina-se com o segundo elemento: benfeito, benquerença. II. Emprega-se o hífen nas formações em que o prefixo ou pseudoprefixo termina na mesma vogal pela qual começa o segundo elemento como: anti-inflacionário e sobre-edificar. III. Não se emprega o hífen nas formações com os prefixos tônicos 'pós' e 'pré', como nos exemplos: pósgraduação e próafricano. IV. Acentuam-se todas as proparoxítonas, incluem-se neste preceito os vocábulos terminados em encontros vocálicos que costumam ser pronunciados como ditongos crescentes: área, espontâneo, ignorância, mágoa. V. Recebem acento as palavras paroxítonas quando as vogais 'i' e 'u' ocorrem na sílaba tônica precedidas de ditongo, como: 'baiúca', 'teiú' e 'saúde'. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, II e IV.",
+                      "Apenas II, III e IV.",
+                      "Apenas I, III e V.",
+                      "Apenas II, IV e V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I, II e IV.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta a afirmativa correta em relação à acentuação dos vocábulos do texto é:",
+                "opcoes": [
+                      "As palavras 'submersível' e 'confiável' são acentuadas por serem oxítonas terminadas em 'l' .",
+                      "A palavra 'análise' está corretamente acentuada por ser proparoxítona, pela mesma regra, o vocábulo 'pudico' deverá ser acentuado.",
+                      "A supressão do acento gráfico da palavra \"pública\" resultará na alteração de uma proparoxítona para uma paroxítona, além de mudar sua classe gramatical.",
+                      "A palavra 'submersível' é uma paroxítona , assim como 'depois'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A supressão do acento gráfico da palavra \"pública\" resultará na alteração de uma proparoxítona para uma paroxítona, além de mudar sua classe gramatical.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
           }
     ],
     "paroxitonas": [
@@ -18238,6 +24849,1180 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "paroxitonas"
                 ]
+          },
+          {
+                "enunciado": "Analise as afirmativas abaixo. – A palavra “cidade” é paroxítona. II – As palavras “éramos” e “contundente” são proparoxítonas. III – A palavra “computador” é oxítona. Das afirmativas acima, qual(is) está(ão) correta(s)?",
+                "opcoes": [
+                      "Apenas a I.",
+                      "Apenas a II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: Fundação La Salle/2022. Assunto: tonicidade.",
+                "banca": "Fundação La Salle",
+                "ano": 2022,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "São palavras paroxítonas retiradas do texto, EXCETO:",
+                "opcoes": [
+                      "Frágeis.",
+                      "Último.",
+                      "Idade.",
+                      "Tempo.",
+                      "Responsável."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Último.</strong>. Fonte: FUNDATEC/2026. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Segundo as regras ortográficas vigentes, a acentuação gráfica de paroxítonas terminadas em 'ditongo crescente' é obrigatória, diferentemente do que ocorre com as paroxítonas terminadas em 'em' ou 'ens', que não possuem acento, independentemente do dígrafo vocálico que as anteceda.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto IBED/2026. Assunto: tonicidade.",
+                "banca": "Instituto IBED",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa abaixo apresenta corretamente uma palavra seguida da sua classificação?",
+                "opcoes": [
+                      "Leve: oxítona.",
+                      "Café: paroxítona.",
+                      "Manhã: proparoxítona.",
+                      "Difícil: paroxítona.",
+                      "Diferença: proparoxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Difícil: paroxítona.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Sabe-se que a sílaba tônica é aquela com alta intensidade na pronúncia e que há somente uma por palavra. Inerente a estes fundamentos, assinale a alternativa que indica a palavra e sua classificação junto a posição da sílaba tônica.",
+                "opcoes": [
+                      "Magnitude, paroxítona.",
+                      "Pequim, proparoxítona.",
+                      "Extinto, oxítona.",
+                      "Populações, paroxítona.",
+                      "Incluem, oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Magnitude, paroxítona.</strong>. Fonte: IDECAN/2025. Assunto: tonicidade.",
+                "banca": "IDECAN",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "O emprego correto da acentuação gráfica segue regras claras e sistemáticas da ortografia portuguesa, como a acentuação de oxítonas terminadas em 'a', 'e', 'o' seguidas ou não de 's', ditongos abertos e hiatos. Palavras como 'público', 'caráter' e 'também' são acentuadas por serem, respectivamente, proparoxítona, paroxítona terminada em 'r' e oxítona terminada em 'em'. A alteração de uma única letra, como em 'área' para 'áuria' (paroxítona terminada em ditongo), não interfere necessariamente na regra de acentuação aplicável, desde que a classificação quanto à tonicidade e terminação permaneça inalterada.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Instituto IBED/2025. Assunto: tonicidade.",
+                "banca": "Instituto IBED",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a sílaba tônica da palavra, ou seja, a sílaba “mais forte”, esteja corretamente sublinhada.",
+                "opcoes": [
+                      "Riscos.",
+                      "Problema.",
+                      "Orçamento.",
+                      "Registro.",
+                      "Volume."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Volume.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Considerando o texto seus aspectos de forma e conteúdo, julgue o item a seguir.\nNo título, a palavra “dói” foi acentuada pela mesma regra ortográfica que incide sobre a palavra “açaí”.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se à acentuação tônica, assinale a alternativa onde as palavras são paroxítonas.",
+                "opcoes": [
+                      "Gibi, guarani.",
+                      "Lágrima, armazém.",
+                      "Automóvel, camelo.",
+                      "Durex, música."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Automóvel, camelo.</strong>. Fonte: MSConcursos/2025. Assunto: tonicidade.",
+                "banca": "MSConcursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Com base no texto e na consideração das suas características de forma e conteúdo, julgue o item a seguir.\nEm “O evento reunirá profissionais e estudantes de Ciências Contábeis”, segundo o Acordo Ortográfico vigente, a forma verbal “reunirá” foi acentuada pela mesma regra aplicável a “convocá‑la”.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a classificação das palavras de acordo com sua sílaba tônica, sabe-se que há três tipos distintos: oxítona, paroxítona e proparoxítona. Diante de tal, o conjunto de palavras em que todas apresentam a mesma classificação tônica que o termo “Mitologia” é:",
+                "opcoes": [
+                      "Heroico – narrativas – publicado – naturalista.",
+                      "Nórdicas – artística – república – estudo.",
+                      "Tratando – ocidental – periódicos –livros.",
+                      "Épocas – bibliográfico – símbolos – blog.",
+                      "Heróis – analíticos – século – recurso."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Heroico – narrativas – publicado – naturalista.</strong>. Fonte: IDECAN/2024. Assunto: tonicidade.",
+                "banca": "IDECAN",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Das palavras retiradas do texto assinale a alternativa em que uma das palavras NÃO é paroxítona.",
+                "opcoes": [
+                      "importa – fazemos – vivemos;",
+                      "destruindo – nascentes – provavelmente;",
+                      "elemento – animais – representativo;",
+                      "pessoas – valores – aspectos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>elemento – animais – representativo;</strong>. Fonte: Máxima/2023. Assunto: tonicidade.",
+                "banca": "Máxima",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se de acentuação tônica, assinale a alternativa onde só há palavras paroxítonas.",
+                "opcoes": [
+                      "Tomada, esquisito.",
+                      "Gramática, caju.",
+                      "Anzol, civil.",
+                      "Crepom, época."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tomada, esquisito.</strong>. Fonte: MSConcursos/2025. Assunto: tonicidade.",
+                "banca": "MSConcursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, marque a alternativa em que as palavras são paroxítonas.",
+                "opcoes": [
+                      "secretária – escritório.",
+                      "agência – televisão.",
+                      "último – até.",
+                      "próximo – tímido."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>secretária – escritório.</strong>. Fonte: Aroeira/2023. Assunto: tonicidade.",
+                "banca": "Aroeira",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras retiradas do texto 1 são paroxítonas.",
+                "opcoes": [
+                      "fiquei • tempo • parou",
+                      "minutos • atrás • senhor",
+                      "sinceramente • encontramos • cara",
+                      "apressadinho • policial • amanhã",
+                      "bonito • enfim • espera"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>sinceramente • encontramos • cara</strong>. Fonte: FEPESE/2025. Assunto: tonicidade.",
+                "banca": "FEPESE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa, onde temos apenas palavras paroxítonas.",
+                "opcoes": [
+                      "Médico / tulipa / árvore.",
+                      "Abóbora / recorde / melancólico.",
+                      "Fácil / casa / banco.",
+                      "Sádico / ruim / túmulo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Fácil / casa / banco.</strong>. Fonte: MSConcursos/2023. Assunto: tonicidade.",
+                "banca": "MSConcursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em qual alternativa todas as palavras são paroxítonas?",
+                "opcoes": [
+                      "Porteiro, obrigação e flor.",
+                      "Porteiro, bebida e delicada.",
+                      "Delicada, médico e bebida.",
+                      "Médico, novidades e atento."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Porteiro, bebida e delicada.</strong>. Fonte: Itame/2023. Assunto: tonicidade.",
+                "banca": "Itame",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra paroxítona:",
+                "opcoes": [
+                      "Médica.",
+                      "Súbito.",
+                      "Eletrônico.",
+                      "Última.",
+                      "Início."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Início.</strong>. Fonte: FAU/2023. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja paroxítona:",
+                "opcoes": [
+                      "Hábitos.",
+                      "Frequência",
+                      "Doméstico.",
+                      "Já.",
+                      "Patógenos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Frequência</strong>. Fonte: FAU/2023. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra paroxítona.",
+                "opcoes": [
+                      "Responsável.",
+                      "Análise.",
+                      "População.",
+                      "Páginas.",
+                      "Além."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Responsável.</strong>. Fonte: FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que explica corretamente por que a palavra \"saúde\" foi acentuada.",
+                "opcoes": [
+                      "Por ser uma palavra proparoxítona, naturalmente recebe acento.",
+                      "Por ser uma oxítona terminada em ditongo.",
+                      "Em palavras paroxítonas que formam um hiato com “i” ou “u”, as vogais devem ser acentuadas.",
+                      "A acentuação de \"saúde\" segue a exceção das palavras monossílabas tônicas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Em palavras paroxítonas que formam um hiato com “i” ou “u”, as vogais devem ser acentuadas.</strong>. Fonte: Gama Consult/2023. Assunto: tonicidade.",
+                "banca": "Gama Consult",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O nome “Octávio”, que aparece no texto, pode ser analisado tanto como paroxítona quanto como proparoxítona (chamada de “proparoxítona acidental” ou “proparoxítona eventual”). Marque a opção que apresenta um termo que só pode ser analisado como paroxítona:",
+                "opcoes": [
+                      "realização.",
+                      "medalhas.",
+                      "intermunicipal.",
+                      "em."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>medalhas.</strong>. Fonte: FRONTE/2025. Assunto: tonicidade.",
+                "banca": "FRONTE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a correta classificação de palavras do Texto 1 quanto à acentuação:",
+                "opcoes": [
+                      "Químico − tóxico − pesquisa − adolescente (paroxítonas).",
+                      "Econômicos − dados − jogo − metodologia (oxítonas).",
+                      "Apostar − atual − emocionais − diagnóstico (oxítonas).",
+                      "Café − atrás − vender − prazer (proparoxítonas).",
+                      "Saúde − dados − finanças − consumo (paroxítonas)."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Saúde − dados − finanças − consumo (paroxítonas).</strong>. Fonte: FURB/2025. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Releia a legenda do cartum. \"Chat GPT bate recorde como plataforma com crescimento mais rápido da história\". A pronúncia culta da palavra destacada é paroxítona, assim como a do vocábulo:",
+                "opcoes": [
+                      "ibero.",
+                      "cateter.",
+                      "ruim.",
+                      "Nobel.",
+                      "interim."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>ibero.</strong>. Fonte: Marinha/2024. Assunto: tonicidade.",
+                "banca": "Marinha",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja paroxítona:",
+                "opcoes": [
+                      "Eletrônica.",
+                      "Inquérito.",
+                      "Polícia.",
+                      "Até.",
+                      "Ilícito."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Polícia.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja paroxítona:",
+                "opcoes": [
+                      "Práticas.",
+                      "Necessária.",
+                      "Síncronas.",
+                      "Mínimos.",
+                      "Após."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Necessária.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras “sensível”, “tonalidade” e “escuros”, que ocorrem no texto, têm em comum:",
+                "opcoes": [
+                      "a tonicidade, sendo todas oxítonas.",
+                      "a segmentação silábica, sendo todas trissílabas.",
+                      "a tonicidade, sendo todas paroxítonas.",
+                      "o processo de formação, sendo todas formadas por derivação sufixal.",
+                      "o processo de formação, sendo todas formadas por composição."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>a tonicidade, sendo todas paroxítonas.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Observe as afirmações a seguir: I- Em “é contagiante a alegria” (1 º parágrafo), o termo sublinhado é o predicativo do sujeito. II- Em “as primeiras civilizações europeias já tinham festas específicas para celebrar tanto a chegada da primavera... quanto o solstício de verão” (2 º parágrafo), a preposição “para” tem o sentido de finalidade. III- Em “com um sotaque próprio” (2 º parágrafo), a palavra em destaque foi usada com sentido conotativo. IV- As palavras “até” e “mês” são acentuadas pela mesma regra. Quais são as corretas:",
+                "opcoes": [
+                      "I e II.",
+                      "I e IV.",
+                      "II e III.",
+                      "II, III e IV.",
+                      "III e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>II e III.</strong>. Fonte: Qconcursos/2025. Assunto: tonicidade.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A tonicidade das palavras em Português é determinada pela sílaba tônica, ou seja, a sílaba que é pronunciada com maior intensidade ou força. Quanto à tonicidade das palavras, assinale a afirmativa correta.",
+                "opcoes": [
+                      "“Era uma borboleta.” (1º§) – proparoxítona.",
+                      "“[…] vitrinas de conservas […]” (2º§) – paroxítona.",
+                      "“[…] vendo vagamente outras coisas […] (4º§) – oxítona.",
+                      "“[…] minha borboleta amarela […] (4º§) – proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“[…] vitrinas de conservas […]” (2º§) – paroxítona.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa CORRETA sobre a tonicidade das palavras, no fragmento: “A doença ataca diretamente o sistema imunológico” (1º§).",
+                "opcoes": [
+                      "A palavra “diretamente” é proparoxítona.",
+                      "A palavra “ataca” é paroxítona.",
+                      "A palavra “doença” é oxítona.",
+                      "A palavra “sistema” é proparoxítona.",
+                      "A palavra “imunológico” é paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra “ataca” é paroxítona.</strong>. Fonte: CPCON/2025. Assunto: tonicidade.",
+                "banca": "CPCON",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica indica a pronúncia e a sílaba tônica da palavra. Assim, assinalar a alternativa em que ambas as palavras deveriam ser acentuadas:",
+                "opcoes": [
+                      "Enjoo | óculos.",
+                      "Pera | açai.",
+                      "Onibus | ideia.",
+                      "Decimo | vigesimo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Decimo | vigesimo.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas sobre o emprego de palavras e expressões no texto: I. A palavra \"detox\" é um exemplo de empréstimo linguístico do inglês, adaptado ao português para descrever um conceito de dieta. II. \"Álcool\" é acentuado graficamente seguindo a regra de acentuação das paroxítonas terminadas em \"l\". III. A expressão \"dietas da moda\" utiliza a forma \"da\" como uma contração da preposição \"de\" com o artigo definido \"a\", indicando posse. Das assertivas, pode-se afirmar que:",
+                "opcoes": [
+                      "Apenas I e II estão corretas.",
+                      "Apenas I e III estão corretas.",
+                      "Apenas I está correta.",
+                      "I, II e III estão corretas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I está correta.</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra a seguir cuja classificação quanto à tonicidade é a de paroxítona é:",
+                "opcoes": [
+                      "vulnerável.",
+                      "pá.",
+                      "café.",
+                      "gramática.",
+                      "basílica."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>vulnerável.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Considere o excerto seguinte e depois assinale a alternativa INCORRETA. \"Ao longo do tempo, a obra foi embargada e retomada. Pelo visto, os avisos dos meus vizinhos eram bem fundamentados: a imobiliária nunca entregou as casas prontas.\" (sétimo parágrafo).",
+                "opcoes": [
+                      "Os dois empregos do ponto final servem para encerrar uma afirmação.",
+                      "A primeira vírgula foi empregada para isolar uma expressão adverbial.",
+                      "Os dois-pontos foram empregados para introduzir um esclarecimento.",
+                      "A expressão \"Pelo visto\" poderia ser substituída por \"ao que parece\", sem prejuízo ao sentido do texto",
+                      "As palavras \"imobiliária\" e \"destruída\" são paroxítonas terminadas em \"a\" e, por isso, são acentuadas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>As palavras \"imobiliária\" e \"destruída\" são paroxítonas terminadas em \"a\" e, por isso, são acentuadas.</strong>. Fonte: UEM/2024. Assunto: tonicidade.",
+                "banca": "UEM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, é paroxítona apenas:",
+                "opcoes": [
+                      "fuzil.",
+                      "ápice.",
+                      "elemental.",
+                      "axioma.",
+                      "política."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>axioma.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra paroxítona retirada do texto.",
+                "opcoes": [
+                      "Fisiológico.",
+                      "Física.",
+                      "Desejável.",
+                      "Televisão.",
+                      "Propósito."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Desejável.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras abaixo são paroxítonas, EXCETO:",
+                "opcoes": [
+                      "Açúcar;",
+                      "Álbum;",
+                      "Ciúme;",
+                      "Pássaro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pássaro.</strong>. Fonte: Máxima/2025. Assunto: tonicidade.",
+                "banca": "Máxima",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque uma alternativa em que todas as palavras são paroxítonas.",
+                "opcoes": [
+                      "Café, sofá e chulé.",
+                      "Caráter, vírus e açúcar.",
+                      "Café, vírus e matemática.",
+                      "Gramática, açúcar e árvore."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Caráter, vírus e açúcar.</strong>. Fonte: Itame/2024. Assunto: tonicidade.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra paroxítona:",
+                "opcoes": [
+                      "Vítima.",
+                      "Cenógrafa.",
+                      "Possível.",
+                      "Público.",
+                      "Está."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Possível.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra acentuada por ser uma paroxítona terminada em ditongo decrescente é:",
+                "opcoes": [
+                      "frágil",
+                      "mídias",
+                      "terríveis",
+                      "números"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>terríveis</strong>. Fonte: SECPLAN/2025. Assunto: tonicidade.",
+                "banca": "SECPLAN",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe o páragrafo a seguir: Na capital mineira, os cumprimentos se dividem em três grupos. O \"Tudo bom?\" é prático e direto, típico de quem está com pressa e prefere evitar longas interações. Já o \"Beleza?\" é descontraído e reflete uma vida leve, com foco no prazer e na arte, geralmente usado pelos descolados e amantes de uma rotina essencial. Acerca da acentuação das palavras, analise as afirmações que seguem: I. A palavra \"descontraído\" é acentuada pois acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\". II. As palavras \"está\" e \"já\" são acentuadas pois oxítonas com sílaba tônica terminada em vogal tônica - a, - e, e, -o, seguidas ou não de -s, são acentuadas. III. As palavras \"prático\" e \"típico\" são acentuadas pois todas as proparoxítonas são acentuadas. Está correto o que se afirma em:",
+                "opcoes": [
+                      "III, apenas.",
+                      "I e III, apenas.",
+                      "I e II, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>III, apenas.</strong>. Fonte: IBAM/2024. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmações feitas sobre a acentuação gráfica de algumas palavras do texto. I. As palavras \"JÁ\" e \"ESTÁ\" são acentuadas por serem oxítonas terminadas em \"A\". II. A palavra \"LAMENTÁVEL\" é acentuada por ser uma paroxítona terminada em \"L\". III. As palavras \"ÉPOCA\" \"EQUÍVOCOS\" são acentuadas por serem proparoxítonas. Está correto o que se afirma em:",
+                "opcoes": [
+                      "II e III, apenas.",
+                      "I, II e III.",
+                      "I e II, apenas.",
+                      "I e III, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmações feitas sobre a acentuação gráfica de algumas palavras do texto. I. As palavras \"JÁ\" e \"ESTÁ\" são acentuadas por serem oxítonas terminadas em \"A\". II. A palavra \"LAMENTÁVEL\" é acentuada por ser uma paroxítona terminada em \"L\". III. As palavras \"ÉPOCA\" \"EQUÍVOCOS\" são acentuadas por serem proparoxítonas. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, II e III.",
+                      "I e III, apenas.",
+                      "I e II, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"E à medida que ficamos mais velhos, reclamar é mais fácil que sorrir.\", a palavra \"fácil\" é acentuada porque é uma:",
+                "opcoes": [
+                      "paroxítona terminada em \"L\".",
+                      "oxítona terminada em \"L\".",
+                      "paroxítona terminada em ditongo aberto.",
+                      "paroxítona terminada em ditongo crescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paroxítona terminada em \"L\".</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Todas as palavras a seguir, que ocorrem no texto, são paroxítonas, exceto:",
+                "opcoes": [
+                      "“eternidade”.",
+                      "“poeta”.",
+                      "“inenarrável”.",
+                      "“oceano”.",
+                      "“líquida”."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“líquida”.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “galáxia” é uma paroxítona como a palavra na alternativa:",
+                "opcoes": [
+                      "Universo.",
+                      "Informação.",
+                      "Astrônomos.",
+                      "Partículas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Universo.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras a seguir foram retiradas do texto; trata-se de uma palavra paroxítona:",
+                "opcoes": [
+                      "Está.",
+                      "Alguém.",
+                      "Cérebro.",
+                      "Preferível.",
+                      "Descobrirá."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Preferível.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras “Caráter” e “Bíceps” recebem Acento Gráfico porque:",
+                "opcoes": [
+                      "Ambas são oxítonas.",
+                      "Ambas são paroxítonas.",
+                      "Ambas são proparoxítonas.",
+                      "A primeira é paroxítona e a segunda é proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ambas são paroxítonas.</strong>. Fonte: ADM&TEC/2024. Assunto: tonicidade.",
+                "banca": "ADM&TEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra ASSOMBRO é:",
+                "opcoes": [
+                      "trissílaba e oxítona",
+                      "trissílaba e paroxítona",
+                      "polissílaba e oxítona",
+                      "polissílaba e paroxítona"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>trissílaba e paroxítona</strong>. Fonte: SELECON/2025. Assunto: tonicidade.",
+                "banca": "SELECON",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, aquela que é classificada quanto à tonicidade como paroxítona é:",
+                "opcoes": [
+                      "matemática.",
+                      "bárbaro.",
+                      "espículas.",
+                      "inesquecível.",
+                      "cafuné."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>inesquecível.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que contenha a regra de acentuação das seguintes palavras retiradas do texto: “aniversário”, “família” e “secretária”.",
+                "opcoes": [
+                      "Acentuam-se todas as palavras oxítonas terminadas em “io” e “ia”.",
+                      "Acentuam-se todas as palavras proparoxítonas.",
+                      "Acentuam-se as palavras paroxítonas terminadas em ditongo oral.",
+                      "Acentuam-se os monossílabos tônicos terminados em a, e, o, seguidos ou não de s.",
+                      "Acentuam-se as palavras paroxítonas tônicas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Acentuam-se as palavras paroxítonas terminadas em ditongo oral.</strong>. Fonte: UFCG/2025. Assunto: tonicidade.",
+                "banca": "UFCG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto às regras de acentuação, prosódia e aspectos fonológicos, marque com V(verdadeiro) ou com F(falso) para as afirmações a seguir: (__)Não são acentuadas as palavras paroxítonas com os ditongos abertos 'ei' e 'oi' como boleia, ideia, assembleia, porém os vocábulos 'blêizer e 'contêiner' recebem acento porque se enquadram na regra geral de paroxítonas acentuadas terminadas em 'r'. (__)O vocábulo 'juiz' não é acentuada, pois, embora na segunda sílaba o 'i' represente a segunda vogal tônica de um hiato, ele forma sílaba com 'z'. (__)Os vocábulos 'bênção', 'boêmia' e 'projétil' possuem dupla prosódia, portanto estão corretos também 'benção', 'boemia' e 'projetil'. (__)Os vocábulos, 'uréter' e 'catéter' são paroxítonas terminadas em 'r', por isso são acentuadas. (__)Os vocábulos 'gratuito' e 'leucemia' são paroxítonas. A sequência que preenche corretamente os parênteses acima é:",
+                "opcoes": [
+                      "V, V, V, F, V.",
+                      "F, V, F, F, V.",
+                      "F, F, V, V, V.",
+                      "F, V, V, F, F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, V, V, F, V.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual é a sílaba tônica da palavra “tratamento”?",
+                "opcoes": [
+                      "Tra.",
+                      "Ta.",
+                      "Men.",
+                      "To."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Men.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra “equilíbrio” (1º parágrafo) é uma paroxítona assim como:",
+                "opcoes": [
+                      "Jornalístico.",
+                      "Paraíso.",
+                      "Zodíaco.",
+                      "Imundície."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Imundície.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação gráfica, analise as afirmativas a seguir: I. O vocábulo 'queríamos' tem a mesma regra de acentuação de 'juízes'. II. Embora não apresentem a mesma regra de acentuação, 'tâmeis' é uma paroxítona, assim como 'baía'. III. 'até' é oxítona acentuada, assim como 'café'. IV. 'fácil' é acentuada , pois é uma oxítona terminada em 'l'. V. A palavra 'audiência' pode ser considerada tanto paroxítona quanto proparoxítona. Estão corretas:",
+                "opcoes": [
+                      "Apenas II, III e   V.",
+                      "Apenas I, II e III.",
+                      "Apenas I, III e V.",
+                      "Apenas II , IV e V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II, III e   V.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A sílaba tônica de uma palavra é a emitida com mais ênfase. De acordo com a tonicidade, a palavra pode ser oxítona, paroxítona e proparoxítona. Considerando a palavra \"literária\", assinale a alternativa em que a palavra apresenta a mesma silaba tônica.",
+                "opcoes": [
+                      "Sabiá.",
+                      "Bíceps.",
+                      "Espetáculo.",
+                      "Brócolis."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Bíceps.</strong>. Fonte: IDIB/2024. Assunto: tonicidade.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Considerando os critérios de classificação dos vocábulos quanto à acentuação tônica, indique em qual das alternativas ambas as palavras são PAROXÍTONAS.",
+                "opcoes": [
+                      "Ideia; nasci.",
+                      "Higiene; anzol.",
+                      "Vizinho; item.",
+                      "Gratuito; azul."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Vizinho; item.</strong>. Fonte: FAFIPA/2024. Assunto: tonicidade.",
+                "banca": "FAFIPA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando os sentidos e aspectos linguísticos do texto 9A1, julgue o item seguinte.\nOs vocábulos “língua” e “história” são acentuados graficamente em razão da regra que determina que se acentuem palavras paroxítonas terminadas em ditongo crescente, seguido, ou não, de s.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: tonicidade.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "paroxitonas"
+                ]
           }
     ],
     "oxitonas": [
@@ -18459,6 +26244,839 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "oxitonas"
                 ]
+          },
+          {
+                "enunciado": "Em relação às regras de acentuação gráfica, considerando as palavras em destaque, assinale a alternativa que a justificativa entre parênteses está INCORRETA.",
+                "opcoes": [
+                      "Sorriso amarelo, postura artificial, desempenho para o PÚBLICO . (PÚBLICO - Todas as proparoxítonas são acentuadas)",
+                      "Bonitas mesmo somos quando NINGUÉM está nos vendo. (NINGUÉM - Acentuam-se as oxítonas terminadas em EM).",
+                      "... estou aqui com você, SÓ eu estou te vendo. (SÓ - Acentuam-se as oxítonas terminadas em O).",
+                      "E assim que a porta do banheiro for aberta já não SERÁ mais dona de si mesma. (SERÁ - Acentuam-se as oxítonas terminadas em A)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>... estou aqui com você, SÓ eu estou te vendo. (SÓ - Acentuam-se as oxítonas terminadas em O).</strong>. Fonte: AMEOSC/2022. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2022,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:",
+                "opcoes": [
+                      "A classificação das palavras depende da quantidade de letras presentes.",
+                      "As palavras oxítonas apresentam a sílaba tônica na última posição.",
+                      "A tonicidade é determinada apenas pelo uso de sinais gráficos.",
+                      "A posição da sílaba tônica varia conforme o tipo de frase."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>As palavras oxítonas apresentam a sílaba tônica na última posição.</strong>. Fonte: Gama Consult/2026. Assunto: tonicidade.",
+                "banca": "Gama Consult",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Quanto à tonicidade, indique a alternativa que aponte uma palavra que se classifica de modo diferente da palavra “sociabilidade”:",
+                "opcoes": [
+                      "Cultural.",
+                      "Mundo.",
+                      "Telefonia.",
+                      "Registro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Cultural.</strong>. Fonte: Gama Consult/2026. Assunto: tonicidade.",
+                "banca": "Gama Consult",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "Mesa, tábua, régua.",
+                      "Livro, prova, caderno.",
+                      "Parabéns, até, medicação.",
+                      "Óculos, parâmetros, título."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Parabéns, até, medicação.</strong>. Fonte: AGIRH/2026. Assunto: tonicidade.",
+                "banca": "AGIRH",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Se a palavra “óculos” fosse escrita “oculós”, ela:",
+                "opcoes": [
+                      "continuaria sendo uma proparoxítona.",
+                      "seria uma paroxítona.",
+                      "seria uma oxítona.",
+                      "seria uma palavra esdrúxula.",
+                      "seria proparoxítona e oxítona ao mesmo tempo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>seria uma oxítona.</strong>. Fonte: Instituto IACP/2026. Assunto: tonicidade.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise o trecho a seguir: “Além do impacto sobre a saúde pública, o esgoto não tratado intensifica a crise climática ao liberar metano, um dos gases mais potentes na intensificação do efeito estufa”. Sobre a acentuação gráfica das palavras destacadas, analise os itens abaixo: I. em “além”, tem-se uma palavra paroxítona terminada em “em”; II. em “saúde”, tem-se uma palavra paroxítona acentuada devido ao “u” tônico de um hiato; III. em “pública”, o acento não é mais necessário desde a reforma promovida pelo Novo Acordo Ortográfico; IV. em “climática”, tem-se uma palavra proparoxítona acentuada por terminar na vogal “a”. A partir dos itens acima, assinale a alternativa correta.",
+                "opcoes": [
+                      "Somente os itens I e II estão corretos.",
+                      "Somente o item II está correto.",
+                      "Somente os itens III e IV estão corretos.",
+                      "Somente o item IV está correto."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Somente o item II está correto.</strong>. Fonte: Instituto Seletiva/2025. Assunto: tonicidade.",
+                "banca": "Instituto Seletiva",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra oxítona (última sílaba mais forte).",
+                "opcoes": [
+                      "Ansiedade.",
+                      "Esperança.",
+                      "Tolice.",
+                      "Alguns.",
+                      "Muleta."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Alguns.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Acerca das estruturas linguísticas e gramaticais do texto, julgue o item a seguir.\nNo trecho “Por sua vez, as atividades de medicina veterinária preventiva têm seu princípio na pré‑história e continuam até o primeiro século da Era Cristã.”, a forma verbal “têm” leva acento tônico por se tratar de palavra oxítona terminada em “‑em”.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando o texto seus aspectos de forma e conteúdo, julgue o item a seguir.\nEm “Fabiano zapeou o professor João Zito, e lhe contou sobre tê‑lo”, o verbo foi acentuado por equivaler a uma palavra oxítona.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Como são chamadas as palavras cuja sílaba tônica está na última posição:",
+                "opcoes": [
+                      "oxítonas;",
+                      "paroxítonas;",
+                      "proparoxítonas;",
+                      "polissílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>oxítonas;</strong>. Fonte: Máxima/2025. Assunto: tonicidade.",
+                "banca": "Máxima",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, é oxítona apenas:",
+                "opcoes": [
+                      "matemático.",
+                      "cadáver.",
+                      "maracujá.",
+                      "impreterível.",
+                      "simpaticíssima."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>maracujá.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta uma palavra oxítona:",
+                "opcoes": [
+                      "Tamanduá.",
+                      "Repórter.",
+                      "Látex.",
+                      "Almíscar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tamanduá.</strong>. Fonte: OBJETIVA/2023. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é oxítona?",
+                "opcoes": [
+                      "Querida.",
+                      "Tristeza.",
+                      "Objetivo.",
+                      "Amor.",
+                      "Médica."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Amor.</strong>. Fonte: FUNDATEC/2023. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa onde temos duas palavras oxítonas.",
+                "opcoes": [
+                      "Nobel, ruim.",
+                      "Avaro, caracteres.",
+                      "Aeródromo, álcool.",
+                      "Ávido, estratégia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nobel, ruim.</strong>. Fonte: MSConcursos/2023. Assunto: tonicidade.",
+                "banca": "MSConcursos",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item subsequente.\nAs palavras café, cipó e coração são oxítonas, pois a sílaba tônica se encontra demarcada na última sílaba.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: tonicidade.",
+                "banca": "IGEDUC",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja oxítona:",
+                "opcoes": [
+                      "Cúpula.",
+                      "Logísticas.",
+                      "Intercâmbio.",
+                      "Paraná.",
+                      "Polícia."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Paraná.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho “(...) a prática cada vez mais comum de apenas \"passar os olhos\" superficialmente...” (3º parágrafo), a palavra em destaque foi acentuada pelo mesmo motivo que todas abaixo, exceto:",
+                "opcoes": [
+                      "Números.",
+                      "Cérebro.",
+                      "Atrás.",
+                      "Múltiplos.",
+                      "Símbolo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Atrás.</strong>. Fonte: IVIN/2024. Assunto: tonicidade.",
+                "banca": "IVIN",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando as palavras a seguir relacionadas, extraídas da crônica, assinale a alternativa que contém apenas palavras oxítonas.",
+                "opcoes": [
+                      "“Entrei”; “deparei”; e “olhei”.",
+                      "“Respeitar”; “gritou”; e “ideia”.",
+                      "“Apertar”; “alegria”; e “amiga”.",
+                      "“Visitar”; “adiante”; e “sobretudo”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“Entrei”; “deparei”; e “olhei”.</strong>. Fonte: Instituto Consulplan/2025. Assunto: tonicidade.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é classificada como OXÍTONA?",
+                "opcoes": [
+                      "Mané.",
+                      "Lúcido.",
+                      "Bônus.",
+                      "Sol."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mané.</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Dentre as palavras a seguir, em destaque no excerto indicado, classifica-se como oxítona apenas:",
+                "opcoes": [
+                      "cachorro.",
+                      "carnívoro.",
+                      "subespécie.",
+                      "animal.",
+                      "humano."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>animal.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras são oxítonas.",
+                "opcoes": [
+                      "Título | xenófobo | zodíaco.",
+                      "Néctar | órfã | tênis.",
+                      "Jiló | javali | vatapá.",
+                      "Oásis | réptil | jiboia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Jiló | javali | vatapá.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ambos os vocábulos são oxítonas:",
+                "opcoes": [
+                      "gratuito – fortuito.",
+                      "protótipo – antífona.",
+                      "rubrica – bígamo.",
+                      "ereter – erudito.",
+                      "cateter – ruim."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>cateter – ruim.</strong>. Fonte: IBADE/2025. Assunto: tonicidade.",
+                "banca": "IBADE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra acentuada pela mesma regra de “destruído” é:",
+                "opcoes": [
+                      "Luís.",
+                      "indígena.",
+                      "história.",
+                      "política.",
+                      "título."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Luís.</strong>. Fonte: CETAP/2024. Assunto: tonicidade.",
+                "banca": "CETAP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra oxítona:",
+                "opcoes": [
+                      "Próxima.",
+                      "Após.",
+                      "Sábado.",
+                      "Notícias.",
+                      "Última."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Após.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “feijão”, da qual o texto trata, é uma oxítona como a palavra:",
+                "opcoes": [
+                      "Anéis.",
+                      "Lápis.",
+                      "Caráter.",
+                      "Ciúme.",
+                      "Heroico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Anéis.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Observe o trecho: “O extrativismo vegetal, a agricultura e a pecuária bubalina são as principais atividades econômicas desenvolvidas no Marajó”. Analisando o enunciado, temos: I. Sujeito composto; II. Verbo na 3ª pessoa do plural concorda com sujeito; III. O verbo é de ligação. IV. A palavra “Marajó” é oxítona e deve ser acentuada obrigatoriamente. Marque os itens que são corretos.",
+                "opcoes": [
+                      "Apenas I, II e IV.",
+                      "Apenas I, III e IV.",
+                      "Apenas I, II e III.",
+                      "Apenas I e IV.",
+                      "I, II, III, IV."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II, III, IV.</strong>. Fonte: Instituto Ágata/2024. Assunto: tonicidade.",
+                "banca": "Instituto Ágata",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considere a frase retirada do texto \"Comida é dinheiro vivo\", de Fabrício Carpinejar: \"Será uma maldição de penúria para três gerações de sua árvore genealógica.\" Sobre as palavras destacadas na frase (penúria, árvore, genealógica, será, e três), analise as regras de acentuação gráfica e assinale a alternativa cuja regra esteja incorreta.",
+                "opcoes": [
+                      "A palavra penúria é acentuada por ser uma paroxítona terminada em ditongo crescente (proparoxítona aparente).",
+                      "As palavras genealógica e árvore recebem acento gráfico por serem proparoxítonas, e todas as proparoxítonas são acentuadas pela norma gramatical.",
+                      "A palavra será é acentuada por ser uma oxítona terminada em \"a\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.",
+                      "A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.</strong>. Fonte: IBAM/2024. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considere a frase retirada do texto \"Comida é dinheiro vivo\", de Fabrício Carpinejar: \"Será uma maldição de penúria para três gerações de sua árvore genealógica.\" Sobre as palavras destacadas na frase (penúria, árvore, genealógica, será, e três), analise as regras de acentuação gráfica e assinale a alternativa cuja regra esteja incorreta.",
+                "opcoes": [
+                      "A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.",
+                      "As palavras genealógica e árvore recebem acento gráfico por serem proparoxítonas, e todas as proparoxítonas são acentuadas pela norma gramatical.",
+                      "A palavra será é acentuada por ser uma oxítona terminada em \"a\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.",
+                      "A palavra penúria é acentuada por ser uma paroxítona terminada em ditongo crescente (proparoxítona aparente)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.</strong>. Fonte: IBAM/2024. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação gráfica, assinale a alternativa que apresenta uma justificativa incorreta da acentuação da palavra em destaque.",
+                "opcoes": [
+                      "Se a saia era deixada no segundo cabide, LÁ ela estaria. Acentuam-se as oxítonas com terminação A.",
+                      "Até o CÚMULO de bandidos abrirem facilmente a porta do carro. Acentuam-se todas as proparoxítonas.",
+                      "Ela percebeu que, ALÉM das manias iniciais, outras surgiram. Acentuam-se as oxítonas com terminação EM.",
+                      "Ela era quadrada, atrasava qualquer homem e falava mais que todas as mulheres da FAMÍLIA juntas. Acentuam-se as paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Se a saia era deixada no segundo cabide, LÁ ela estaria. Acentuam-se as oxítonas com terminação A.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma justificativa incorreta em relação à acentuação gráfica das palavras em destaque nas frases a seguir.",
+                "opcoes": [
+                      "... teve filhos e cuidou de tudo sem um ÚNICO telefonema. Acentuam-se todas as proparoxítonas.",
+                      "No passado, o amor e os NEGÓCIOS não dependiam da onipresença digital. Acentuam-se as paroxítonas terminadas em ditongo crescente (proparoxítona aparente).",
+                      "Hoje em dia, o celular ESTÁ sempre presente... Acentuam-se as oxítonas terminadas em A.",
+                      "Ela, que SÓ usou telefone após os 50 anos... Acentuam-se as oxítonas terminadas em O."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ela, que SÓ usou telefone após os 50 anos... Acentuam-se as oxítonas terminadas em O.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma justificativa incorreta sobre a acentuação das palavras encontradas no texto.",
+                "opcoes": [
+                      "DÁ é acentuada por ser uma oxítona terminada em A.",
+                      "ESTÁVEL é acentuada por ser uma paroxítona terminada em L.",
+                      "PORÉM é acentuada por ser uma oxítona com terminação EM.",
+                      "FARÁ é acentuada por ser uma oxítona terminada em A."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>DÁ é acentuada por ser uma oxítona terminada em A.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma justificativa incorreta para a acentuação das palavras em destaque.",
+                "opcoes": [
+                      "Se POSSÍVEL, uma com a inscrição como em Atenas... Acentuam-se as paroxítonas terminadas em L.",
+                      "Acima, SÓ o seu filho Otávio. Acentuam-se as oxítonas terminadas em \"O\".",
+                      "Um erro assim custaria caro, TÍNHAMOS que evitar. Todas as proparoxítonas são acentuadas.",
+                      "... não existia Platão nas prateleiras do COMÉRCIO do terminal internacional. Acentuam-se as paroxítonas terminadas em ditongo crescente (proparoxítonas aparentes)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Acima, SÓ o seu filho Otávio. Acentuam-se as oxítonas terminadas em \"O\".</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras em destaque a seguir e assinale a que apresenta uma justificativa incorreta em relação a acentuação gráfica:",
+                "opcoes": [
+                      "LÁ, fui atendido por um senhor que teve dificuldade devido a um problema de visão, resultado de um AVC. LÁ recebe acentuação pois é uma oxítona com a terminação \"A\".",
+                      "No shopping, entrei numa loja onde não precisei falar com NINGUÉM: escolhi, experimentei, paguei no caixa automático e saí, tudo de forma rápida e prática. NINGUÉM recebe acentuação pois é uma oxítona com a terminação \"EM\".",
+                      "Depois, passei no supermercado do térreo, comprei alguns itens e novamente utilizei o caixa AUTOMÁTICO. AUTOMÁTICO recebe acentuação pois é uma proparoxítona.",
+                      "Ao sair da loja, fiquei refletindo sobre como andamos em busca de CONVENIÊNCIA, mas o calor humano e a emoção são insubstituíveis. CONVENIÊNCIA recebe acentuação pois é uma paroxítona terminada em ditongo crescente (proparoxítona aparente)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>LÁ, fui atendido por um senhor que teve dificuldade devido a um problema de visão, resultado de um AVC. LÁ recebe acentuação pois é uma oxítona com a terminação \"A\".</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras em destaque a seguir e assinale a que apresenta uma justificativa incorreta em relação a acentuação gráfica:",
+                "opcoes": [
+                      "No shopping, entrei numa loja onde não precisei falar com NINGUÉM: escolhi, experimentei, paguei no caixa automático e saí, tudo de forma rápida e prática. NINGUÉM recebe acentuação pois é uma oxítona com a terminação \"EM\".",
+                      "Depois, passei no supermercado do térreo, comprei alguns itens e novamente utilizei o caixa AUTOMÁTICO. AUTOMÁTICO recebe acentuação pois é uma proparoxítona.",
+                      "LÁ, fui atendido por um senhor que teve dificuldade devido a um problema de visão, resultado de um AVC. LÁ recebe acentuação pois é uma oxítona com a terminação \"A\".",
+                      "Ao sair da loja, fiquei refletindo sobre como andamos em busca de CONVENIÊNCIA, mas o calor humano e a emoção são insubstituíveis. CONVENIÊNCIA recebe acentuação pois é uma paroxítona terminada em ditongo crescente (proparoxítona aparente)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>LÁ, fui atendido por um senhor que teve dificuldade devido a um problema de visão, resultado de um AVC. LÁ recebe acentuação pois é uma oxítona com a terminação \"A\".</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Acerca das regras da acentuação gráfica, assinale a alternativa que possui uma justificativa INCORRETA.",
+                "opcoes": [
+                      "RÁPIDA − todas as proparoxítonas são acentuadas.",
+                      "VOCÊ − oxítona terminada em E.",
+                      "SÓ − oxítona terminada em Ó.",
+                      "ÁGUA − paroxítona terminada em ditongo crescente (proparoxítona aparente)."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>SÓ − oxítona terminada em Ó.</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Em relação à temática \"Acentuação Tônica e Gráfica\", analise as afirmações que seguem e assinale a afirmativa CORRETA:",
+                "opcoes": [
+                      "Em \"...o arrependimento do que foi ruim e, além disso, a tristeza do futuro irrealizado\", a palavra \"além\" é acentuada por ser uma oxítona com terminação \"EM\".",
+                      "Em \"É quando vocês não têm mais opção...\", a palavra \"têm\" é acentuada por ser uma monossílaba tônica com terminação \"EM\".",
+                      "Em \"Pode ser necessário, a única saída, mas é duro\", a palavra \"saída\" é acentuada pois são acentuados o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior.",
+                      "Em \"Por isso é tão difícil\", a palavra \"difícil\" é acentuada por ser uma paroxítona terminada em ditongo crescente aparente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em \"...o arrependimento do que foi ruim e, além disso, a tristeza do futuro irrealizado\", a palavra \"além\" é acentuada por ser uma oxítona com terminação \"EM\".</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Em relação à temática \"Acentuação Tônica e Gráfica\", analise as afirmações que seguem e assinale a afirmativa CORRETA:",
+                "opcoes": [
+                      "Em \"...o arrependimento do que foi ruim e, além disso, a tristeza do futuro irrealizado\", a palavra \"além\" é acentuada por ser uma oxítona com terminação \"EM\".",
+                      "Em \"Por isso é tão difícil\", a palavra \"difícil\" é acentuada por ser uma paroxítona terminada em ditongo crescente aparente.",
+                      "Em \"Pode ser necessário, a única saída, mas é duro\", a palavra \"saída\" é acentuada pois são acentuados o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior.",
+                      "Em \"É quando vocês não têm mais opção...\", a palavra \"têm\" é acentuada por ser uma monossílaba tônica com terminação \"EM\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Em \"...o arrependimento do que foi ruim e, além disso, a tristeza do futuro irrealizado\", a palavra \"além\" é acentuada por ser uma oxítona com terminação \"EM\".</strong>. Fonte: AMEOSC/2024. Assunto: tonicidade.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta corretamente a separação silábica e a classificação da sílaba tônica da palavra?",
+                "opcoes": [
+                      "Ci-ên-cia: Oxítona.",
+                      "A-pa-i-xo-na-do: Proparoxítona.",
+                      "Bra-si-lei-ro: Proparoxítona.",
+                      "Ca-fé: Oxítona.",
+                      "Sa-ú-de: Proparoxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ca-fé: Oxítona.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que não é uma palavra oxítona:",
+                "opcoes": [
+                      "Açaí",
+                      "Café",
+                      "Chapéu",
+                      "Álbum"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Álbum</strong>. Fonte: EVO Concursos/2025. Assunto: tonicidade.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “internacional”, que ocorre no texto, é oxítona, assim como:",
+                "opcoes": [
+                      "esportivo.",
+                      "holandês.",
+                      "símbolos.",
+                      "paralímpicos.",
+                      "jogos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>holandês.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considere a frase retirada do texto \"Comida é dinheiro vivo\", de Fabrício Carpinejar: \"Será uma maldição de penúria para três gerações de sua árvore genealógica.\" Sobre as palavras destacadas na frase (penúria, árvore, genealógica, será, e três), analise as regras de acentuação gráfica e assinale a alternativa cuja regra esteja incorreta.",
+                "opcoes": [
+                      "A palavra penúria é acentuada por ser uma paroxítona terminada em ditongo crescente (proparoxítona aparente).",
+                      "A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.",
+                      "As palavras genealógica e árvore recebem acento gráfico por serem proparoxítonas, e todas as proparoxítonas são acentuadas pela norma gramatical.",
+                      "A palavra será é acentuada por ser uma oxítona terminada em \"a\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A palavra três é acentuada por ser uma oxítona terminada em \"e\", o que a inclui na regra das oxítonas terminadas em \"a\", \"e\", \"o\", seguidas ou não de s.</strong>. Fonte: IBAM/2024. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "oxitonas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
           }
     ],
     "proparoxitonas": [
@@ -18503,6 +27121,1760 @@ var QUESTOES_BANCO = {
                       "proparoxitonas",
                       "paroxitonas"
                 ]
+          },
+          {
+                "enunciado": "São palavras proparoxítonas retiradas do texto, EXCETO:",
+                "opcoes": [
+                      "Árvores.",
+                      "Estômatos.",
+                      "Botânicos.",
+                      "Janelas.",
+                      "Bétula."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Janelas.</strong>. Fonte: FUNDATEC/2026. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta apenas palavras proparoxítonas.",
+                "opcoes": [
+                      "Até | didático | tênis.",
+                      "Árvore | bússola | crítico.",
+                      "Dócil | céu | peru.",
+                      "Recém | paralelepípedo | jiló."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Árvore | bússola | crítico.</strong>. Fonte: OBJETIVA/2026. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "\"Um pássaro novo caiu do ninho e foi confundido com as folhas secas e foi varrido e agora lutava pela liberdade.\" Identifique a alternativa que apresenta todas palavras acentuadas pela mesma regra que acentua a palavra 'pássaro'.",
+                "opcoes": [
+                      "hipopótamo, lírico e automóvel.",
+                      "zodíaco, árvore e oásis.",
+                      "oxítona, recôncavo e réptil.",
+                      "olimpíada, ridículo e zoológico.",
+                      "vítima, fósseis e xenófobo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>olimpíada, ridículo e zoológico.</strong>. Fonte: IDCAP/2026. Assunto: tonicidade.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho a seguir: “Companheiro da escrita, os livros tiveram grande importância para a realização de registros históricos. No Egito, utilizava-se o papiro.” Com base nas palavras destacadas, assinale a alternativa que classifica corretamente a sílaba tônica de cada uma, respectivamente:",
+                "opcoes": [
+                      "Proparoxítona – paroxítona – paroxítona – oxítona.",
+                      "Paroxítona – proparoxítona – proparoxítona – paroxítona.",
+                      "Paroxítona – proparoxítona – paroxítona – paroxítona.",
+                      "Proparoxítona – paroxítona – paroxítona – paroxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Paroxítona – proparoxítona – paroxítona – paroxítona.</strong>. Fonte: EDUCA/2026. Assunto: tonicidade.",
+                "banca": "EDUCA",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras são proparoxítonas:",
+                "opcoes": [
+                      "café, avó, você, também.",
+                      "árvore, túnel, lápis, fácil.",
+                      "médico, lâmpada, rápido, público.",
+                      "mesa, escola, janela, caderno."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>médico, lâmpada, rápido, público.</strong>. Fonte: JVL Concursos/2026. Assunto: tonicidade.",
+                "banca": "JVL Concursos",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras: José e Américas, quanto à acentuação tônica, são classificadas, respectivamente, como:",
+                "opcoes": [
+                      "paroxítona, paroxítona.",
+                      "oxítona, proparoxítona.",
+                      "paroxítona, oxítona.",
+                      "proparoxítona, paroxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>oxítona, proparoxítona.</strong>. Fonte: Máxima/2026. Assunto: tonicidade.",
+                "banca": "Máxima",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “paralelepípedo” é uma:",
+                "opcoes": [
+                      "Paroxítona.",
+                      "Paroproparoxítona.",
+                      "Oxiroxítona.",
+                      "Oxítona.",
+                      "Proparoxítona."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: Instituto IACP/2026. Assunto: tonicidade.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando sua acentuação, a palavra espetáculo é classificada como:",
+                "opcoes": [
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona.",
+                      "Monossílaba tônica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: Instituto Fênix/2026. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2026,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Observe com atenção a palavra destacada no fragmento a seguir: “...incerteza quanto à próxima refeição (grave), limitação na quantidade (moderada) ou composição inadequada dos alimentos disponíveis (leve).” De acordo com as normas gramaticais, a palavra acentuada pela mesma regra do vocábulo “disponíveis” é:",
+                "opcoes": [
+                      "você",
+                      "lápis",
+                      "fáceis",
+                      "próxima"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>fáceis</strong>. Fonte: SELECON/2025. Assunto: tonicidade.",
+                "banca": "SELECON",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras retiradas do texto são classificadas como proparoxítonas.",
+                "opcoes": [
+                      "Fórmula – ciência – início.",
+                      "Teoria – nível – possível.",
+                      "Índice – áreas – séries.",
+                      "Século – fenômeno – pílulas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Século – fenômeno – pílulas.</strong>. Fonte: EDUCA/2025. Assunto: tonicidade.",
+                "banca": "EDUCA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras da Língua Portuguesa podem ser classificadas, quanto à posição da sílaba tônica, em oxítonas, paroxítonas e proparoxítonas. Considerando palavras retiradas do texto, assinale a alternativa em que a palavra é proparoxítona.",
+                "opcoes": [
+                      "casas.",
+                      "ruínas.",
+                      "também.",
+                      "último."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>último.</strong>. Fonte: Fênix/2025. Assunto: tonicidade.",
+                "banca": "Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra proparoxítona.",
+                "opcoes": [
+                      "Cachorro.",
+                      "Animal.",
+                      "Papagaios.",
+                      "Gato.",
+                      "Clássicos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Clássicos.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As Rimas representam o recurso de combinação melódica e rítmica entre o final das palavras, ou seja, na última sílaba de cada palavra, recebendo denominações próprias à quantidade de sílabas de cada verso. Como exemplo, temos a primeira estrofe (primeiro quarteto) do soneto \"A um poeta\" de Olavo Bilac: \"rua\" rima com \"sua\"; \"aconchego\" rima com \"sossego\" − então temos o esquema de rimas ABBA (Rimas opostas ou interpoladas) es.hhmm)/mundoeducacao.uol.com.br/literatura/as-rimas-suas-combinacoes.htm) − (Adaptado) Longe do estéril turbilhão da rua (A) Beneditino escreve! No aconchego (B) Do claustro, na paciência e no sossego, (B) Trabalha e teima, e lima, e sofre e sua! (A) Nessa dimensão, marque a denominação dada às rimas feitas entre palavras proparoxítonas.",
+                "opcoes": [
+                      "Perfeita.",
+                      "Aguda.",
+                      "Grave.",
+                      "Esdrúxulas.",
+                      "Mista."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Esdrúxulas.</strong>. Fonte: IDCAP/2023. Assunto: tonicidade.",
+                "banca": "IDCAP",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "“Na literatura, nas telas do cinema deparamos com suposições futurísticas que chegamos a duvidar ou até criticar.” As palavras destacadas, são respectivamente:",
+                "opcoes": [
+                      "Paroxítona – oxítona – proparoxítona",
+                      "Paroxítona – paroxítona – proparoxítona",
+                      "Todas são paroxítonas",
+                      "Há duas oxítonas e uma proparoxítona"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Paroxítona – oxítona – proparoxítona</strong>. Fonte: Máxima/2025. Assunto: tonicidade.",
+                "banca": "Máxima",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os vocábulos “sólidos” e “últimos”, quanto à sílaba tônica, são classificados como:",
+                "opcoes": [
+                      "Proparoxítonos.",
+                      "Paroxítonos.",
+                      "Oxítonos.",
+                      "Átonos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítonos.</strong>. Fonte: IDESG/2023. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta a mesma tonicidade da palavra “pacífica” (5º parágrafo):",
+                "opcoes": [
+                      "Histórico.",
+                      "Gerações.",
+                      "Princípios.",
+                      "Desinformação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Histórico.</strong>. Fonte: OBJETIVA/2023. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Marque a opção que indica a palavra cuja classificação da sílaba tônica NÃO está corretamente apresentada.",
+                "opcoes": [
+                      "hidratação [OXÍTONA].",
+                      "engavetamento [PAROXÍTONA].",
+                      "fonoaudiologia [PAROXÍTONA].",
+                      "planejamento [PROPAROXÍTONA].",
+                      "processamento [PAROXÍTONA]."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>planejamento [PROPAROXÍTONA].</strong>. Fonte: FUNCEPE/2024. Assunto: tonicidade.",
+                "banca": "FUNCEPE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta a palavra que NÃO é proparoxítona:",
+                "opcoes": [
+                      "Automóvel.",
+                      "Relâmpago.",
+                      "Fábula.",
+                      "Árvore."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Automóvel.</strong>. Fonte: OBJETIVA/2022. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2022,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Leia o texto e atente para a tonicidade das palavras. Devia ter amado mais Ter chorado mais Ter visto o Sol nascer Devia ter arriscado mais E até errado mais Ter feito o que eu queria fazer Queria ter aceitado As pessoas como elas são Cada um sabe a alegria E a dor que traz no coração O acaso vai me proteger Enquanto eu andar distraído O acaso vai me proteger Enquanto eu andar BRITTO, Sérgio. Epitáfio, 2001. Fonte: https://www.letras.mus.br/ titas/48968/ acesso 18 Ago 2025 (Adaptado) Considerando a tonicidade das palavras em destaque no texto, a classificação dessas palavras, respectivamente, é:",
+                "opcoes": [
+                      "oxítona • oxítona • paroxítona • paroxítona",
+                      "paroxítona • oxítona • monossílabo tônico • paroxítona",
+                      "paroxítona • monossílabo tônico • oxítona • oxítona",
+                      "monossílabo tônico • oxítona • paroxítona • paroxítona",
+                      "monossílabo tônico • oxítona • paroxítona • oxítona"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>paroxítona • oxítona • monossílabo tônico • paroxítona</strong>. Fonte: FEPESE/2025. Assunto: tonicidade.",
+                "banca": "FEPESE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A alternativa em que todas as palavras são proparoxítonas é:",
+                "opcoes": [
+                      "fértil; amável; filantrópico; gélido.",
+                      "possível; destruído; lexicógrafo; visível.",
+                      "capítulo; cajuína; tácito; difícil.",
+                      "antropológico; cátedra; inexplicável; táxi.",
+                      "antipático; cinematográfico; espetáculo; ilícito."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>antipático; cinematográfico; espetáculo; ilícito.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta de acordo com a sílaba tônica das palavras, na frase 1.",
+                "opcoes": [
+                      "As palavras não acentuadas graficamente não têm sílaba tônica.",
+                      "Há duas palavras que levam acento gráfico obrigatório, pois são proparoxítonas.",
+                      "As palavras: “assunto” e “interesse” têm a mesma sílaba tônica e são oxítonas.",
+                      "A palavra “seu”, embora seja monossílaba, tem a sílaba tônica em “se”.",
+                      "São paroxítonas as palavras: “veja”, “seu” e “correspondente”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Há duas palavras que levam acento gráfico obrigatório, pois são proparoxítonas.</strong>. Fonte: FEPESE/2025. Assunto: tonicidade.",
+                "banca": "FEPESE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "As palavras proparoxítonas são classificadas como proparoxítonas reais e proparoxítonas aparentes. São proparoxítonas reais, EXCETO:",
+                "opcoes": [
+                      "Hispânica.",
+                      "Sistemático.",
+                      "Científico.",
+                      "Espécie."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Espécie.</strong>. Fonte: IESES/2023. Assunto: tonicidade.",
+                "banca": "IESES",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à estruturação linguística e gramatical do texto, julgue o item seguinte.\nNo texto, as formas “crônicas” e “intercambiáveis” são acentuadas em decorrência da mesma regra gramatical, segundo a qual todas as proparoxítonas são acentuadas.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que NÃO apresente palavra proparoxítona:",
+                "opcoes": [
+                      "sábado.",
+                      "vítima.",
+                      "responsável.",
+                      "inquérito.",
+                      "próximas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>responsável.</strong>. Fonte: FAU/2023. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja acentuada pela mesma regra da palavra sanitário:",
+                "opcoes": [
+                      "Após.",
+                      "Saúde.",
+                      "Gênero.",
+                      "Repertório.",
+                      "Específicos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Repertório.</strong>. Fonte: FAU/2023. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que está correta a justificativa da acentuação gráfica da palavra destacada:",
+                "opcoes": [
+                      "Delícia: oxítona terminada em ditongo;",
+                      "Armazém: paroxítona terminada em \"EM\";",
+                      "Públicas: proparoxítona",
+                      "Poética: paroxítona terminada em \"A\"."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Públicas: proparoxítona</strong>. Fonte: PROMUN/2023. Assunto: tonicidade.",
+                "banca": "PROMUN",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação, a palavra “inóspito” classifica-se como:",
+                "opcoes": [
+                      "oxítona.",
+                      "paroxítona.",
+                      "proparoxítona.",
+                      "átona.",
+                      "monossílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>proparoxítona.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise os seguintes vocábulos acentuados e, posteriormente, assinale a alternativa que apresenta uma análise correta: I. climáticos. II. último. III. combustíveis. IV. responsável.",
+                "opcoes": [
+                      "I e III são palavras paroxítonas.",
+                      "I e II são palavras proparoxítonas.",
+                      "III e IV são palavras oxítonas.",
+                      "II e IV são palavras paroxítonas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e II são palavras proparoxítonas.</strong>. Fonte: IESES/2024. Assunto: tonicidade.",
+                "banca": "IESES",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “público”, encontrada no primeiro parágrafo do texto, é acentuada pelo mesmo motivo que o seguinte termo:",
+                "opcoes": [
+                      "sábado.",
+                      "canções.",
+                      "após.",
+                      "programação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>sábado.</strong>. Fonte: FRONTE/2025. Assunto: tonicidade.",
+                "banca": "FRONTE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra proparoxítona, assim como “números”.",
+                "opcoes": [
+                      "Saúde.",
+                      "Conscientização",
+                      "Impossível.",
+                      "Psicológico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Psicológico.</strong>. Fonte: AGIRH/2024. Assunto: tonicidade.",
+                "banca": "AGIRH",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ocorre uma palavra proparoxítona.",
+                "opcoes": [
+                      "cabaré.",
+                      "céu.",
+                      "tátil.",
+                      "oftalmologista.",
+                      "pteridófitas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>pteridófitas.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra proparoxítona:",
+                "opcoes": [
+                      "Câncer.",
+                      "Notícia.",
+                      "Pódio.",
+                      "Ministério.",
+                      "Olímpico."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Olímpico.</strong>. Fonte: FAU/2024. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à posição da sílaba tônica, as palavras ridículo – débil - ninguém - árvore são classificadas respectivamente como:",
+                "opcoes": [
+                      "Proparoxítona – paroxítona – oxítona - proparoxítona.",
+                      "Proparoxítona – paroxítona – paroxítona - paroxítona.",
+                      "Paroxítona – proparoxítona – oxítona - proparoxítona.",
+                      "Paroxítona – paroxítona – oxítona - paroxítona.",
+                      "Proparoxítona – proparoxítona – oxítona - proparoxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona – paroxítona – oxítona - proparoxítona.</strong>. Fonte: EDUCA/2024. Assunto: tonicidade.",
+                "banca": "EDUCA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Os termos “cítricas”, “crônicas” e “imunológico” possuem algo em comum. Em relação a esse aspecto, assinalar a alternativa CORRETA:",
+                "opcoes": [
+                      "São proparoxítonas, ou seja, a sílaba tônica está na antepenúltima sílaba.",
+                      "São paroxítonas, isto é, a sílaba mais forte é a penúltima.",
+                      "Possuem encontro consonantal.",
+                      "São palavras do gênero feminino."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>São proparoxítonas, ou seja, a sílaba tônica está na antepenúltima sílaba.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas apresenta um vocábulo do texto classificado, quanto à sílaba tônica, como proparoxítono?",
+                "opcoes": [
+                      "Sótão.",
+                      "Íris.",
+                      "Espécie.",
+                      "Além."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Espécie.</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A alternativa em que todas as palavras são proparoxítonas e estão CORRETAMENTE acentuadas é:",
+                "opcoes": [
+                      "Mérito |técnica | réplica | anexo.",
+                      "Medico | ônibus | látex | têmpora.",
+                      "Caráter | método | cátedra | efêmero.",
+                      "Câmara | lâmpada | síndrome | flâmula."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Câmara | lâmpada | síndrome | flâmula.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo é acentuada por ser proparoxítona?",
+                "opcoes": [
+                      "PINCÉIS.",
+                      "ÔNUS.",
+                      "CLÁSSICO.",
+                      "FÉ."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>CLÁSSICO.</strong>. Fonte: IDESG/2024. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra seja proparoxítona:",
+                "opcoes": [
+                      "Após.",
+                      "Polícia.",
+                      "Possível.",
+                      "Perícia.",
+                      "Dinâmica."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Dinâmica.</strong>. Fonte: FAU/2024. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que contém uma proparoxítona:",
+                "opcoes": [
+                      "Sábado.",
+                      "Computador.",
+                      "Canção.",
+                      "Bauru."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Sábado.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Referindo-se à classificação das palavras quanto ao acento tônico, sinalize a alternativa incorreta.",
+                "opcoes": [
+                      "Bússola (proparoxítona).",
+                      "Amável (proparoxítona).",
+                      "Abacaxi (oxítona).",
+                      "Anhembi (oxítona)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Amável (proparoxítona).</strong>. Fonte: MSConcursos/2024. Assunto: tonicidade.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras proparoxítonas têm a antepenúltima sílaba como sílaba tônica. Assim, assinalar a alternativa que NÃO tem essa classificação:",
+                "opcoes": [
+                      "Ótico.",
+                      "Direção.",
+                      "Fenômeno.",
+                      "Rápido.",
+                      "Pássaro."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Direção.</strong>. Fonte: OBJETIVA/2024. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra ‘máquina’, que ocorre no texto, classifica-se quanto à tonicidade da mesma forma que a palavra:",
+                "opcoes": [
+                      "pé.",
+                      "medíocre.",
+                      "raízes.",
+                      "além.",
+                      "inevitável."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>medíocre.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra “álgebra” é classificada quanto à tonicidade como proparoxítona, assim como:",
+                "opcoes": [
+                      "conteúdo.",
+                      "notável.",
+                      "arábico.",
+                      "possível.",
+                      "Bagdá."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>arábico.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras indicadas são acentuadas pela mesma regra ortográfica.",
+                "opcoes": [
+                      "límpido; júri; veículo.",
+                      "solúvel; anárquico; indescritível.",
+                      "gramática; pêssego; analítico.",
+                      "ovíparo; herói; refém.",
+                      "táxi; fútil; crítica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>gramática; pêssego; analítico.</strong>. Fonte: Avança SP/2024. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "“Torço para que esse país um dia abra o olho e veja a importância da arte e da cultura na vida do ser humano. E valorize isso, como uma área extremamente importante na reconstrução desse mundo que está quase perdido. É preciso fazer as coisas funcionarem de maneira correta. Analisando a situação de baixo para cima e de cima para baixo, não só incentivando o artista, mas criando mecanismo para que a arte seja vista nesse país com outros olhos. Trabalhando inclusive, a prática de leitura que é um problema sério no Brasil.” Leandro Flores Com base nas regras se acentuação gráfica, analise os itens abaixo. I. A palavra “país” é acentuada porque há formação de um hiato em que a segunda vogal é o “i”. II. A palavra “mecanismo” deveria estar acentuada. III. A palavra “prática” é acentuada por ser proparoxítona. IV. Está CORRETO apenas o que se afirma em:",
+                "opcoes": [
+                      "I.",
+                      "II e III.",
+                      "I e III.",
+                      "I, II e III.",
+                      "III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: AEVSF/FACAPE/2024. Assunto: tonicidade.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica das palavras estereótipos e estatísticas é justificada por:",
+                "opcoes": [
+                      "Se tratar de proparoxítonas.",
+                      "Serem oxítonas terminadas em consoante.",
+                      "Se referirem às paroxítonas terminadas em -s.",
+                      "Terem a sílaba tônica posicionada em paroxítonas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Se tratar de proparoxítonas.</strong>. Fonte: GANZAROLI/2024. Assunto: tonicidade.",
+                "banca": "GANZAROLI",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra proparoxítona.",
+                "opcoes": [
+                      "Dê.",
+                      "Atenção.",
+                      "Possível.",
+                      "Trânsito.",
+                      "Mãos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Trânsito.</strong>. Fonte: FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No que diz respeito à tonicidade, analise as afirmações a seguir: I.A palavra \"sanitárias\", no que diz respeito à tonicidade, pode ser classificada como ____________. II.A palavra \"saúde\" consiste em uma ____________. III.A palavra \"proporção\", no que diz respeito à tonicidade, pode ser classificada como ____________. IV.A palavra \"útil\" consiste em uma ____________. V.A palavra \"obesidade\" pode ser classificada como ____________. Assinale a alternativa que correta e respectivamente preenche as lacunas nos excertos:",
+                "opcoes": [
+                      "proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.",
+                      "paroxítona - proparoxítona - paroxítona - proparoxítona - proparoxítona.",
+                      "proparoxítona - oxítona - proparoxítona - oxítona - paroxítona.",
+                      "oxítona - paroxítona - oxítona - paroxítona - paroxítona.",
+                      "paroxítona - oxítona - paroxítona - oxítona - oxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>proparoxítona - paroxítona - oxítona - paroxítona - paroxítona.</strong>. Fonte: FURB/2024. Assunto: tonicidade.",
+                "banca": "FURB",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra “clínica” recebe acentuação gráfica porque:",
+                "opcoes": [
+                      "É uma palavra oxítona finalizada com a vogal “o”.",
+                      "É uma palavra proparoxítona.",
+                      "É uma palavra paroxítona finalizada com ditongo.",
+                      "É uma palavra paroxítona terminada com a vogal “o”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>É uma palavra proparoxítona.</strong>. Fonte: Prefeitura de Bauru - SP/2025. Assunto: tonicidade.",
+                "banca": "Prefeitura de Bauru - SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Com relação às palavras acentuadas graficamente constantes do segundo parágrafo (l. 03 e 04), assinale a alternativa cujo conteúdo está CORRETO.",
+                "opcoes": [
+                      "A palavra “miséria” é acentuada porque é uma proparoxítona terminada em ditongo decrescente.",
+                      "Tendo em vista que a palavra “paupérrima” é proparoxítona, ela tem de receber acento gráfico.",
+                      "Por constituir exemplo de paroxítona terminada em ditongo nasal, o termo “além” se acentua.",
+                      "O vocábulo “colégios” deve-se acentuar, pois se trata de uma paroxítona terminada em hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Tendo em vista que a palavra “paupérrima” é proparoxítona, ela tem de receber acento gráfico.</strong>. Fonte: IMPARH/2024. Assunto: tonicidade.",
+                "banca": "IMPARH",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "A sequência que corresponde corretamente à ordem de classificação das palavras destacadas no texto acima, quanto à acentuação é:",
+                "opcoes": [
+                      "proparoxítona, oxítona, oxítona, paroxítona, proparoxítona.",
+                      "oxítona, oxítona, proparoxítona, proparoxítona, paroxítona.",
+                      "proparoxítona, paroxítona, oxítona, proparoxítona, oxítona.",
+                      "paroxítona, oxítona, oxítona, paroxítona, proparoxítona.",
+                      "oxítona, proparoxítona, oxítona, paroxítona, oxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>oxítona, oxítona, proparoxítona, proparoxítona, paroxítona.</strong>. Fonte: IBPTEC/2024. Assunto: tonicidade.",
+                "banca": "IBPTEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "São palavras acentuadas por serem proparoxítonas, EXCETO:",
+                "opcoes": [
+                      "Psicólogo.",
+                      "Clínico.",
+                      "Pássaros.",
+                      "Plausível.",
+                      "Exercícios."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Plausível.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “sérias” (primeiro parágrafo do texto Precisamos falar sobre “Janeiro Branco”) é acentuada pelo mesmo motivo que",
+                "opcoes": [
+                      "críticas.",
+                      "próximos.",
+                      "flexíveis.",
+                      "lápis.",
+                      "mútuas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>mútuas.</strong>. Fonte: FADESP/2025. Assunto: tonicidade.",
+                "banca": "FADESP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a acentuação de determinadas palavras extraídas dos Textos 1 e 2, assinale a alternativa correta.",
+                "opcoes": [
+                      "O acento em “isquêmico” indica que se trata de uma palavra paroxítona ou esdrúxula, uma vez que a tonicidade é identificada na antepenúltima sílaba.",
+                      "O acento em “cardíaco” indica que se trata de uma palavra paroxítona ou aguda, pois a tonicidade é constatada na penúltima sílaba.",
+                      "O acento em “alcoólicas” indica que se trata de uma palavra proparoxítona ou sobre-esdrúxula, visto que a tonicidade é observada na antepenúltima sílaba.",
+                      "O acento em “hemorrágico” indica que se trata de uma proparoxítona ou esdrúxula, haja vista que a tonicidade é verificada na antepenúltima sílaba.",
+                      "O acento em “emergência” indica que se trata de uma palavra paroxítona ou aguda, já que a tonicidade é apurada na penúltima sílaba."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O acento em “hemorrágico” indica que se trata de uma proparoxítona ou esdrúxula, haja vista que a tonicidade é verificada na antepenúltima sílaba.</strong>. Fonte: INSTITUTO AOCP/2024. Assunto: tonicidade.",
+                "banca": "INSTITUTO AOCP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Imagem associada para resolução da questão Disponível em: rigeo.sgb.gov.br Assinale a alternativa, no texto do quadro acima, em que a palavra está acentuada por ser proparoxítona não formada por hiato.",
+                "opcoes": [
+                      "“diagnóstico”.",
+                      "“município”.",
+                      "Afrânio”.",
+                      "“água”.",
+                      "“subterrânea”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“diagnóstico”.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: tonicidade.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que constitui a regra de acentuação aplicável para as seguintes palavras: “fotógrafo”,“trânsito” e “estético”:",
+                "opcoes": [
+                      "todas as palavras são paroxítonas;",
+                      "todas as palavras são proparoxítonas;",
+                      "todas as palavras terminam em vogal e por isto devem ser acentuadas;",
+                      "nenhuma das alternativas anteriores."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>todas as palavras são proparoxítonas;</strong>. Fonte: MPE-GO/2025. Assunto: tonicidade.",
+                "banca": "MPE-GO",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Releia o trecho do texto I a seguir: “[...] para cultivar uma presença digital que reflita a verdadeira complexidade e autenticidade da experiência humana, promovendo a valorização do indivíduo para além das métricas virtuais.” Sobre os aspectos fonéticos e ortográficos, analise as afirmativas a seguir: I. As palavras “indivíduo” e “métricas” são proparoxítonas, com acentuação tônica na antepenúltima sílaba. II. Os termos “uma”, “do” e “que” são monossílabos átonos proferidos de forma fraca e nunca são acentuados. III. Os substantivos “autenticidade” e “complexidade” foram escritos incorretamente devido a erros de digitação. Está(ão) correta(s) a(s) afirmativa(s)",
+                "opcoes": [
+                      "I, apenas.",
+                      "III, apenas.",
+                      "I e II, apenas.",
+                      "II e III, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2025. Assunto: tonicidade.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “número”, que aparece no texto, como na linha 17, é acentuada pelo mesmo motivo que outras palavras, também presentes no texto, que são",
+                "opcoes": [
+                      "“Após” e “comitê”.",
+                      "“Evoluíram” e “importância”.",
+                      "“Olímpicas” e “urbanístico”.",
+                      "“Além” e “subúrbios”",
+                      "“Há” e “têm”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“Olímpicas” e “urbanístico”.</strong>. Fonte: Quadrix/2024. Assunto: tonicidade.",
+                "banca": "Quadrix",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO seja proparoxítona:",
+                "opcoes": [
+                      "Século.",
+                      "Residência.",
+                      "Público.",
+                      "Propósitos.",
+                      "Panorâmicos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Residência.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa, cuja palavra NÃO seja proparoxítona:",
+                "opcoes": [
+                      "Inércia.",
+                      "Médicos.",
+                      "Clínica.",
+                      "Física.",
+                      "Hábitos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Inércia.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as palavras são acentuadas pela mesma regra:",
+                "opcoes": [
+                      "Através, escrevivência.",
+                      "Pública, literária.",
+                      "Própria, também.",
+                      "Demérito, acadêmica.",
+                      "Incrível, daí."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Demérito, acadêmica.</strong>. Fonte: FAU/2023. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2023,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a justificativa da acentuação da palavra MEDÍOCRE em \"Eu sou um motorista medíocre, não do tipo que acumula 40 pontos de infrações por ano, mas dirijo com limitações\".",
+                "opcoes": [
+                      "Todas as proparoxítonas são acentuadas.",
+                      "Os ditongos éi, ío e ói, sempre que tiverem pronúncia aberta em palavras paroxítonas e proparoxítonas, são acentuados.",
+                      "Acentuam-se o \"i\" e \"u\" tônicos quando formam hiato com a vogal posterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".",
+                      "Acentuam-se o \"i\" e \"u\" átonos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Todas as proparoxítonas são acentuadas.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a correta justificativa da acentuação gráfica da palavra \"diálogo\" em \"Recordo um diálogo que vivi com a minha filha, quando ela tinha 11 anos\".",
+                "opcoes": [
+                      "Acentuam-se o \"a\" e \"u\" tônicos quando formam hiato com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\", desde que não sejam seguidos por \"-nh\".",
+                      "Os ditongos éi, éu e iá, sempre que tiverem pronúncia aberta em palavras paroxítonas, são acentuados.",
+                      "Acentuam-se o \"a\" e \"u\" átonos quando formam ditongo com a vogal anterior, estando eles sozinhos na sílaba ou acompanhados apenas de \"s\".",
+                      "Todas as proparoxítonas são acentuadas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Todas as proparoxítonas são acentuadas.</strong>. Fonte: IBAM/2025. Assunto: tonicidade.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "As palavras abaixo foram retiradas do texto. Qual dos pares é constituído apenas por palavras proparoxítonas?",
+                "opcoes": [
+                      "Realização | postura.",
+                      "Responsáveis | má.",
+                      "Vértebras | músculos.",
+                      "Problema | até."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Vértebras | músculos.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a tonicidade das sílabas, as palavras sublinhadas no último parágrafo são:",
+                "opcoes": [
+                      "Proparoxítonas, pois a sílaba tônica é a antepenúltima.",
+                      "Oxítonas, pois a sílaba tônica é a penúltima.",
+                      "Paroxítonas, pois a sílaba tônica é a antepenúltima.",
+                      "Monossílabas, pois apresentam uma única unidade sonora."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítonas, pois a sílaba tônica é a antepenúltima.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Considerando a tonicidade das sílabas, as palavras sublinhas no último parágrafo são:",
+                "opcoes": [
+                      "Proparoxítonas.",
+                      "Oxítonas.",
+                      "Paroxítonas.",
+                      "Monossílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítonas.</strong>. Fonte: OBJETIVA/2025. Assunto: tonicidade.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa correta sobre a acentuação gráfica.",
+                "opcoes": [
+                      "São acentuadas as palavras paroxítonas terminadas em “a”, “e”, “o”, “am” e “em”.",
+                      "Está corretamente acentuada a palavra “hífens”.",
+                      "Acentua-se a palavra “rúbica” por ser uma proparoxítona.",
+                      "Todas as palavras proparoxítonas são acentuadas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Todas as palavras proparoxítonas são acentuadas.</strong>. Fonte: MPE-GO/2025. Assunto: tonicidade.",
+                "banca": "MPE-GO",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO seja proparoxítona:",
+                "opcoes": [
+                      "Anônima.",
+                      "Última.",
+                      "Lúdica.",
+                      "Técnica.",
+                      "Impensável."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Impensável.</strong>. Fonte: FAU/2025. Assunto: tonicidade.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No texto, as palavras glândulas, sebáceas e infância são acentuadas, RESPECTIVAMENTE, porque são:",
+                "opcoes": [
+                      "Proparoxítona, paroxítona, paroxítona.",
+                      "Proparoxítona, paroxítona, proparoxítona.",
+                      "Oxítona, proparoxítona, paroxítona.",
+                      "Paroxítona, oxítona, oxítona.",
+                      "Paroxítona, paroxítona, paroxítona."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Proparoxítona, paroxítona, paroxítona.</strong>. Fonte: IF-ES/2025. Assunto: tonicidade.",
+                "banca": "IF-ES",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra proparoxítona.",
+                "opcoes": [
+                      "Malte.",
+                      "Água.",
+                      "Bebida.",
+                      "Arroz.",
+                      "África."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>África.</strong>. Fonte: FUNDATEC/2025. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"prejuízos a órgãos vitais como os rins e o fígado\", a palavra fígado é classificada quanto à posição da sílaba tônica como:",
+                "opcoes": [
+                      "Oxítona, pois a última sílaba é a tônica.",
+                      "Paroxítona, pois a penúltima sílaba é a tônica.",
+                      "Proparoxítona, pois a antepenúltima sílaba é a tônica.",
+                      "Monossílaba tônica, pois possui apenas uma sílaba acentuada."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona, pois a antepenúltima sílaba é a tônica.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Em relação à tonicidade, as palavras “ávidos” e “ansiosos”, que ocorrem no texto, são classificadas respectivamente como:",
+                "opcoes": [
+                      "proparoxítona e oxítona.",
+                      "proparoxítona e paroxítona.",
+                      "paroxítona e oxítona.",
+                      "paroxítona e paroxítona.",
+                      "oxítona e proparoxítona."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>proparoxítona e paroxítona.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"falávamos que as bonecas eram nossas filhas\", a palavra \"falávamos\" segue corretamente as regras de acentuação do português. A palavra \"falávamos\" é acentuada corretamente porque:",
+                "opcoes": [
+                      "É uma paroxítona terminada em \"a\".",
+                      "É uma oxítona terminada em \"a\".",
+                      "É uma proparoxítona.",
+                      "É uma paroxítona terminada em consoante."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>É uma proparoxítona.</strong>. Fonte: Fênix Concursos/2024. Assunto: tonicidade.",
+                "banca": "Fênix Concursos",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “fenômeno” se caracteriza por ser :",
+                "opcoes": [
+                      "Oxítona",
+                      "Paroxítona",
+                      "Proparoxítona",
+                      "Monossílabo tônico"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Proparoxítona</strong>. Fonte: EVO Concursos/2025. Assunto: tonicidade.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que a palavra destacada está corretamente classificada entre colchetes:",
+                "opcoes": [
+                      "“agora elas serão colegas de sala e vão cursar Ciências: Biologia e Química” [PAROXÍTONA].",
+                      "“vão viver a experiência de cursarem a graduação juntas” [OXÍTONA].",
+                      "“Já Kate, vai para segunda graduação” [PAROXÍTONA].",
+                      "“para melhorar o currículo” [PROPAROXÍTONA]"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>“para melhorar o currículo” [PROPAROXÍTONA]</strong>. Fonte: Itame/2024. Assunto: tonicidade.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Quanto à acentuação gráfica e tonicidade das sílabas, a palavra \"análise\", presente no texto, é classificada como:",
+                "opcoes": [
+                      "Paroxítona terminada em \"e\".",
+                      "Proparoxítona.",
+                      "Oxítona terminada em \"e\".",
+                      "Paroxítona terminada em ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "A acentuação gráfica de palavras segue regras distintas na língua portuguesa. Nesse sentido, qual das palavras a seguir é acentuada por se tratar de uma proparoxítona?",
+                "opcoes": [
+                      "Canadá.",
+                      "órbita.",
+                      "visível.",
+                      "país."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>órbita.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas NÃO apresenta um vocábulo do texto acentuado por se tratar de uma palavra proparoxítona?",
+                "opcoes": [
+                      "médica.",
+                      "psicóloga.",
+                      "número.",
+                      "país."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>país.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a localização de sua sílaba tônica, “plásticos” é classificada como uma palavra:",
+                "opcoes": [
+                      "Monossílaba tônica.",
+                      "Oxítona.",
+                      "Paroxítona.",
+                      "Proparoxítona."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Proparoxítona.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "A palavra ‘angústia’ é uma proparoxítona aparente, assim como:",
+                "opcoes": [
+                      "facílimo.",
+                      "rápido.",
+                      "amídala.",
+                      "espécie.",
+                      "árbitro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>espécie.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmações que seguem: I.A palavra Lâmpada é acentuada por ser uma proparoxítona. II.A separação correta da palavra até é \"A - TÉ\". III.A palavra Previlégio está corretamente escrita. Está CORRETO o que se afirma em:",
+                "opcoes": [
+                      "II e III, apenas.",
+                      "I e II, apenas.",
+                      "I, apenas.",
+                      "I, II e III.",
+                      "I e III, apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: AMAUC/2024. Assunto: tonicidade.",
+                "banca": "AMAUC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Os conjuntos de palavras a seguir, retiradas do texto, apresentam diferentes regras de acentuação. Analise-os e identifique aquele em que todas as palavras dadas são classificadas como proparoxítonas aparentes.",
+                "opcoes": [
+                      "café; próprio; subúrbio.",
+                      "farmácia; colégio; notícia.",
+                      "médico; submersível; pé.",
+                      "magica; importância; ninguém.",
+                      "também; até; sério."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>farmácia; colégio; notícia.</strong>. Fonte: Avança SP/2025. Assunto: tonicidade.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta uma palavra do texto acentuada por se tratar de uma proparoxítona?",
+                "opcoes": [
+                      "rápido.",
+                      "saúde.",
+                      "também.",
+                      "está."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>rápido.</strong>. Fonte: Instituto Fênix/2025. Assunto: tonicidade.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas"
+                ]
+          },
+          {
+                "enunciado": "As palavras \"óbitos\" e \"saúde\" estão corretamente acentuadas de acordo com as regras da língua portuguesa. Assinale a alternativa que justifica corretamente a acentuação de ambas.",
+                "opcoes": [
+                      "\"Óbitos\" é acentuada por ser paroxítona terminada em \"os\", e \"saúde\" é acentuada por ser oxítona terminada em \"e\".",
+                      "\"Óbitos\" é acentuada por ser proparoxítona, e \"saúde\" é acentuada por conter um hiato em que a vogal tônica está isolada.",
+                      "Ambas são acentuadas por serem proparoxítonas.",
+                      "\"Óbitos\" é acentuada por conter um hiato, e \"saúde\" por ser paroxítona terminada em ditongo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>\"Óbitos\" é acentuada por ser proparoxítona, e \"saúde\" é acentuada por conter um hiato em que a vogal tônica está isolada.</strong>. Fonte: IDESG/2025. Assunto: tonicidade.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que justifica a acentuação das seguintes palavras: médico, psíquico, patológico, hipótese, máquina.",
+                "opcoes": [
+                      "Acentuadas por serem palavras monossilábicas.",
+                      "Acentuadas por serem palavras polissilábicas.",
+                      "Acentuadas por serem oxítonas terminadas em \"a\", \"e\", \"o\".",
+                      "Acentuadas por serem proparoxítonas.",
+                      "Acentuadas por serem paroxítonas terminadas em ditongo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Acentuadas por serem proparoxítonas.</strong>. Fonte: FAFIPA/2024. Assunto: tonicidade.",
+                "banca": "FAFIPA",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
           }
     ],
     "silabas": [
@@ -18540,6 +28912,917 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "silabas",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Atente ao verso a seguir e responda ao que se pede. “ Eu mostro o roxo no meu braço/Entrego teu baralho ” Sobre as palavras sublinhadas, é CORRETO afirmar que:",
+                "opcoes": [
+                      "todas se classificam morfologicamente como substantivos.",
+                      "todas se classificam como adjetivos.",
+                      "há um adjetivo e três verbos.",
+                      "todas se classificam como trissílabas.",
+                      "há quatro paroxítonas, sendo três dissílabas e uma trissílaba."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>há quatro paroxítonas, sendo três dissílabas e uma trissílaba.</strong>. Fonte: CPCON/2026. Assunto: silabasAcentuacao.",
+                "banca": "CPCON",
+                "ano": 2026,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se a separação silábica adotada no português do Brasil, é válido asseverar que foram acentuadas em face da mesma norma gramatical o par de vocábulos sublinhados em:",
+                "opcoes": [
+                      "\"o grande responsável\" e \"uma estratégia-chave\".",
+                      "\"os investidores buscam o equilíbrio\" e − \"vários riscos econômicos\".",
+                      "\"relógios Rolex\" e \"o equilíbrio de seus portfólios\".",
+                      "\"conhecidos por serem acessíveis\" e \"− relógios de ouro da empresa suíça\"."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>\"relógios Rolex\" e \"o equilíbrio de seus portfólios\".</strong>. Fonte: IBAM/2025. Assunto: silabas.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Em relação à acentuação gráfica, assinale, a seguir, a alternativa que apresenta palavras do texto que sejam trissílabas e proparoxítonas.",
+                "opcoes": [
+                      "Místico; súbito; e cérebro.",
+                      "Crônica; frequência; e céu.",
+                      "Purgatório; dramáticas; e águas.",
+                      "Câmera; imóveis; e complacência.",
+                      "Glória; cinematográfica; e frequência."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Místico; súbito; e cérebro.</strong>. Fonte: Instituto Consulplan/2025. Assunto: silabasAcentuacao.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "proparoxitonas",
+                      "acentuacaoGrafica"
+                ]
+          }
+    ],
+    "ortografia": [
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
+                "opcoes": [
+                      "Eu tinha uma ideia muito diferente sobre o hábito de exagero na alimentação.",
+                      "Houve uma revoada de gaivotas em cujo vôo as aves eram excelentes na organização.",
+                      "Não brinque com fogo, menino, senão as faiscas podem ferir a sua íris.",
+                      "Eu tambem preciso me dedicar à atuação excepcional para o meu sucesso profissional.",
+                      "Ele apóia os seus fundamentos em teorias exigidas pela assembleia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Eu tinha uma ideia muito diferente sobre o hábito de exagero na alimentação.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente:",
+                "opcoes": [
+                      "excessão – privilégio – paralizar",
+                      "exceção – privilégio – paralisar",
+                      "exceção – previlégio – paralizar",
+                      "excessão – previlégio – paralisar"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>exceção – privilégio – paralisar</strong>. Fonte: RH MAIS/2025. Assunto: ortografia.",
+                "banca": "RH MAIS",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "formacaoPalavras"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
+                "opcoes": [
+                      "Aconteceu uma explosão de idéias no percurso da dinâmica de grupo.",
+                      "Houve muitos empecilhos para a resolução dos problemas naquela gestão.",
+                      "As questões até então consideradas insoluveis foram conduzidas com maestria.",
+                      "Aconteceu uma manifestação preparatoria para a execução das ordens.",
+                      "Houve muito exageiro ao fazerem menção às atividades ilícitas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Houve muitos empecilhos para a resolução dos problemas naquela gestão.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão escritas corretamente, de acordo com as normas vigentes em Língua Portuguesa:",
+                "opcoes": [
+                      "Na feira, comi vários pasteis e ingeri vários tipos de suco.",
+                      "Foram muito exijentes os pedidos que você me fez anteontem.",
+                      "Os desejos e as virtudes às vezes são muito complexos e uteis.",
+                      "Quero parabenizá-lo pela conquista dos troféus no campeonato.",
+                      "Todos chegaram sãos e salvos, mas com exceço de bagagem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Quero parabenizá-lo pela conquista dos troféus no campeonato.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
+                "opcoes": [
+                      "Surgiram muitas idéias revolucionárias naquela sessão.",
+                      "Foi furtada uma coroa repleta de jóias raras, rubis e diamantes.",
+                      "Foi concedida uma situação de extrema excepcionalidade no forum da cidade.",
+                      "Você agiu cortêsmente diante das mazelas que avistou no local.",
+                      "Não sei se é lucidez ou paranoia, mas sei que algo horrendo está acontecendo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Não sei se é lucidez ou paranoia, mas sei que algo horrendo está acontecendo.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras atendem às normas vigentes de grafia em Língua Portuguesa.",
+                "opcoes": [
+                      "Comprei uma linda joia para a minha namorada, cheia de pérolas e rubis.",
+                      "Todas as pessoas que lêem muito têm um grande potencial para o crescimento.",
+                      "As idéias não surgem ao acaso; elas nascem, florescem e de repente desabrocham.",
+                      "Todos os ítens necessários à nossa empreitada foram adquiridos a tempo.",
+                      "O vôo da fênix é uma imagem mitológica muito forte em nossa cultura."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Comprei uma linda joia para a minha namorada, cheia de pérolas e rubis.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando o Acordo Ortográfico vigente, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir, retirados do texto. ● “Eles se perguntam a mesma coisa quando te _______”. ● “No entanto, naquela foto, eu tinha menos idade do que ela _______ hoje”. ● “[...] estes espelhos vivos (a feição atual de nossos velhos afetos) trazem tanto _______ como boas notícias”.",
+                "opcoes": [
+                      "vêem – têm – mas",
+                      "vêem – têm – más",
+                      "vêem – tem – más",
+                      "veem – tem – mas",
+                      "veem – tem – más"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>veem – tem – más</strong>. Fonte: FUNDATEC/2025. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que preenche a lacuna no texto CORRETAMENTE.",
+                "opcoes": [
+                      "monótomas",
+                      "monótonas",
+                      "monotonas",
+                      "monotómas"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>monótonas</strong>. Fonte: OBJETIVA/2025. Assunto: ortografia.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma expressão que está grafada de acordo com as normas vigente em Língua Portuguesa.",
+                "opcoes": [
+                      "Assembléia Legislativa",
+                      "Vôo dos pássaros",
+                      "Ítens obrigatórios",
+                      "Ideias heroicas",
+                      "Núvens carregadas"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ideias heroicas</strong>. Fonte: Avança SP/2025. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Com base nas frases baseadas no texto \"O Mistério e o Gato\" e nas normas ortográficas atuais da Língua Portuguesa, assinale a alternativa que apresenta uma palavra cuja grafia foi modificada pelo Novo Acordo Ortográfico.",
+                "opcoes": [
+                      "Seus donos colocavam o leite sempre no mesmo horário, esperando que ele o consumisse imediatamente.",
+                      "O gato passou a observar o ambiente com mais atenção, atento ao comportamento silencioso da família.",
+                      "Ao perceber que algo estranho acontecia com o leite, Tony teve uma ideia sobre o motivo da transformação.",
+                      "A aparência do leite mudava lentamente, ganhando cheiro forte e cor desagradável."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ao perceber que algo estranho acontecia com o leite, Tony teve uma ideia sobre o motivo da transformação.</strong>. Fonte: AMEOSC/2025. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a ortografia brasileira, todas as palavras estão redigidas corretamente em:",
+                "opcoes": [
+                      "No Brasil ordieno, estamos cada vez mais paranoicos por causa dos vôos atrasados.",
+                      "No Brasil hordieno, estamos cada vez mais paranoicos por causa dos voos atrasados.",
+                      "No Brasil odierno, estamos cada vez mais paranóicos por causa dos vôos atrasados.",
+                      "No Brasil hodierno, estamos cada vez mais paranoicos por causa dos voos atrasados.",
+                      "No Brasil hordieno, estamos cada vez mais paranóicos por causa dos voos atrasados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>No Brasil hodierno, estamos cada vez mais paranoicos por causa dos voos atrasados.</strong>. Fonte: CL Consultoria e Projetos/2025. Assunto: ortografia.",
+                "banca": "CL Consultoria e Projetos",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra “indígenas” no texto está corretamente acentuada. Considerando as regras de acentuação gráfica da língua portuguesa, por que a palavra “indígenas” recebe acento?",
+                "opcoes": [
+                      "Porque é uma proparoxítona, e todas as proparoxítonas são acentuadas.",
+                      "Porque é uma paroxítona terminada em “as”, que segundo as regras, deve ser acentuada.",
+                      "Porque é uma oxítona terminada em “as”, e todas as oxítonas nessa condição são acentuadas.",
+                      "Porque a acentuação serve para diferenciar significados (acento diferencial).",
+                      "Porque é uma palavra estrangeira adaptada ao português, exigindo acentuação especial."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Porque é uma proparoxítona, e todas as proparoxítonas são acentuadas.</strong>. Fonte: CEV-URCA/2024. Assunto: ortografia.",
+                "banca": "CEV-URCA",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "hifen",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo NÃO deveria ser acentuada segundo as regras do Novo Acordo Ortográfico?",
+                "opcoes": [
+                      "Saída.",
+                      "Água.",
+                      "Túnel.",
+                      "Herói.",
+                      "Vôo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Vôo.</strong>. Fonte: IBADE/2025. Assunto: ortografia.",
+                "banca": "IBADE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Quanto à escrita ortográfica das palavras abaixo, as que são consideradas adequadas às normas gramaticais vigentes são:",
+                "opcoes": [
+                      "Véu, juriti, Jacarei.",
+                      "Areia, sucuruí, balaústre.",
+                      "Fluído, vôo, Saara.",
+                      "Lagoinha, cinqüenta, herói.",
+                      "Enjoo, enxagüei, argui."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Areia, sucuruí, balaústre.</strong>. Fonte: INAZ do Pará/2024. Assunto: ortografia.",
+                "banca": "INAZ do Pará",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo a respeito do Texto II: I- Há um desvio ortográfico na grafia do termo “aperfeisoamento”, escrita com “s” em vez de “aperfeiçoamento”, grafado com “cêcedilha”. II- Há um desvio ortográfico na grafia do termo “aperfeisoamento”, escrita com “s” em vez de “aperfeissoamento”, grafado com “ss”. III- Há um desvio ortográfico na grafia do termo “empresa”, escrita com “s” em vez de “empreza”, grafado com “z”. IV- O termo “administrativo” deveria ter recebido acentuação gráfica. V- O termo “municipio” deveria ter recebido acentuação gráfica. É CORRETO o que se afirma apenas em:",
+                "opcoes": [
+                      "I e IV.",
+                      "II e IV.",
+                      "I e V.",
+                      "II e V.",
+                      "I e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e V.</strong>. Fonte: CPCON/2024. Assunto: ortografia.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "acentuacaoGrafica",
+                      "classesGramaticais",
+                      "formacaoPalavras",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A exemplo de “quê” (l. 13), assinale a alternativa na qual esse vocábulo está CORRETAMENTE acentuado.",
+                "opcoes": [
+                      "Mariana não sabe dizer por quê quer ser professora de crianças?",
+                      "A zona do manguezal por quê passam crianças e adolescentes será urbanizada?",
+                      "Os irmãos faltam às aulas a fim de quê? Eles precisam, de fato, contribuir na renda familiar?",
+                      "O irmão de Mariana não entende para quê precisa passar o dia inteiro no mangue, no auge de sua adolescência."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os irmãos faltam às aulas a fim de quê? Eles precisam, de fato, contribuir na renda familiar?</strong>. Fonte: IMPARH/2024. Assunto: ortografia.",
+                "banca": "IMPARH",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "tonicidade",
+                      "acentuacaoGrafica",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "Obedecendo à vigência do Acordo Ortográfico de 2009, as palavras que estão graficamente acentuadas, mas estão em desuso atual são:",
+                "opcoes": [
+                      "sóis, fiéis, anéis.",
+                      "jóquei, pônei, saudáveis.",
+                      "ímãs, sótãos, bênçãos.",
+                      "cinqüenta, conseqüências, tranqüilos.",
+                      "pós, fé, trás."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>cinqüenta, conseqüências, tranqüilos.</strong>. Fonte: IV - UFG/2025. Assunto: ortografia.",
+                "banca": "IV - UFG",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estejam corretamente acentuadas de acordo com as normas vigentes:",
+                "opcoes": [
+                      "“biologia”, “paíz”, “pônei”",
+                      "“árvore”, “juíza”, “táxi”",
+                      "“série”, “caminhao”, “intérprete”",
+                      "“fim-de-semana”, “heroi”, “cálculo”"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“árvore”, “juíza”, “táxi”</strong>. Fonte: JVL Concursos/2025. Assunto: ortografia.",
+                "banca": "JVL Concursos",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com a ortografia oficial:",
+                "opcoes": [
+                      "A paralização começou na segunda-feira.",
+                      "O uso dos hifens no texto está correto?",
+                      "Nunca coloque utencílios de metal no micro-ondas.",
+                      "Quantos ítens do estoque vendemos hoje?",
+                      "Amanhã, será divulgado o gabarito extraoficial das provas didaticas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O uso dos hifens no texto está correto?</strong>. Fonte: UNESPAR/2025. Assunto: ortografia.",
+                "banca": "UNESPAR",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "De acordo com o novo acordo ortográfico, qual das alternativas abaixo CORRETAMENTE:",
+                "opcoes": [
+                      "paranoico",
+                      "enjôo",
+                      "crêem",
+                      "anti-sequestro"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>paranoico</strong>. Fonte: ADM&TEC/2025. Assunto: ortografia.",
+                "banca": "ADM&TEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "De acordo com o Novo Acordo Ortográfico, a única alternativa abaixo, que apresenta a grafia CORRETA, é:",
+                "opcoes": [
+                      "Crêem.",
+                      "Antirrealista",
+                      "Vôo.",
+                      "Alcatéia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Antirrealista</strong>. Fonte: ADM&TEC/2025. Assunto: ortografia.",
+                "banca": "ADM&TEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Imagem associada para resolução da questão Com base no texto, acima, pode-se afirmar que:",
+                "opcoes": [
+                      "a grafia da palavra “insistente” está incorreta.",
+                      "a palavra “mantém” está acentuada incorretamente.",
+                      "há presença da função fática da linguagem.",
+                      "contém um desvio de concordância verbal.",
+                      "a grafia da palavra “escassês” está incorreta."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>a grafia da palavra “escassês” está incorreta.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: ortografia.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "“É inegável que a invenção do plástico foi um grande avanço para o mundo. Mas também é inegável que o plástico se tornou um grande problema para o mundo. Porque um material que foi criado para durar séculos, passou a ser usado uma única vez. Em uma questão de minutos, canudos, copos, mexedores e embalagens transformam-se em lixo. Ou melhor, numa quantidade inimaginável de lixo. O Brasil produz, todos os anos, 500 bilhões de itens de plástico descartáveis. Esses resíduos não possuem valor para a reciclagem. E, para piorar, uma parte enorme desses materiais descartados vai parar na natureza e, principalmente, nos oceanos.” Disponível em: https://pareotsunamideplastico. org (adaptado) Sobre as regras de acentuação gráfica, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "No período “É inegável que a invenção do plástico foi um grande avanço para o mundo.”, a palavra “inegável” é acentuada porque é paroxítona terminada em “vel”.",
+                      "No período “Porque um material que foi criado para durar séculos, passou a ser usado uma única vez.”, as palavras “séculos” e “única” são acentuadas porque são proparoxítonas.",
+                      "No período “Em uma questão de minutos, canudos, copos, mexedores e embalagens transformam-se em lixo. Ou melhor, numa quantidade inimaginável de lixo.”, a palavra “inimaginável” é acentuada porque é proparoxítona.",
+                      "No período “O Brasil produz, todos os anos, 500 bilhões de itens de plástico descartáveis.”, a palavra “plástico” é acentuada porque é paroxítona terminada em “o”.",
+                      "No período “Esses resíduos não possuem valor para a reciclagem. E, para piorar, uma parte enorme desses materiais descartados vai parar na natureza e, principalmente, nos oceanos.”, a palavra “resíduos” é acentuada porque o “i” forma hiato com a vogal anterior."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>No período “Porque um material que foi criado para durar séculos, passou a ser usado uma única vez.”, as palavras “séculos” e “única” são acentuadas porque são proparoxítonas.</strong>. Fonte: AEVSF/FACAPE/2025. Assunto: ortografia.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hiatos",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação gráfica, avalie as afirmativas a seguir relacionadas às palavras em destaque. I. [1], [3] e [4] estão acentuadas porque todas as palavras proparoxítonas devem ser acentuadas. II. [1], [4] e [5] estão acentuadas porque são palavras paroxítonas terminadas em vogais. III. [2] e [5] estão acentuadas porque a vogal \"i\" é uma sílaba tônica e forma hiato com a vogal anterior. IV. [2] e [5] estão acentuadas porque se acentuam todos os ditongos abertos. Estão corretas as afirmativas",
+                "opcoes": [
+                      "II e IV.",
+                      "I e III.",
+                      "I e IV.",
+                      "II e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FUNCERN/2022. Assunto: ortografia.",
+                "banca": "FUNCERN",
+                "ano": 2022,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "ditongos",
+                      "hiatos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "tonicidade",
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Guia-se unicamente pela sua experiência\" e \"Tanto que ele não lê o cardápio, estuda o cardápio\", as palavras \"experiência\" e \"lê\" são acentuadas graficamente. Analise as alternativas e identifique a justificativa correta para a acentuação dessas palavras.",
+                "opcoes": [
+                      "A palavra \"experiência\" é acentuada porque é uma paroxítona terminada em ditongo decrescente, e a palavra \"lê\" é acentuada porque é uma monossílaba átona terminada em \"e\".",
+                      "A palavra \"experiência\" é acentuada porque é uma proparoxítona terminada em ditongo crescente, e a palavra \"lê\" é acentuada porque é uma oxítona terminada em \"e\".",
+                      "A palavra \"experiência\" é acentuada porque é uma paroxítona terminada em ditongo aberto, e a palavra \"lê\" é acentuada porque é uma oxítona terminada em \"e\".",
+                      "A palavra \"experiência\" é acentuada porque é uma paroxítona terminada em ditongo crescente (proparoxítona aparente), e a palavra \"lê\" é acentuada porque é uma monossílaba tônica terminada em \"e\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"experiência\" é acentuada porque é uma paroxítona terminada em ditongo crescente (proparoxítona aparente), e a palavra \"lê\" é acentuada porque é uma monossílaba tônica terminada em \"e\".</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "ditongos",
+                      "silabas",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Considerando a palavra \"plateia\" no trecho \"Não tem medo da plateia no meio-fio\" e as regras estabelecidas pelo Novo Acordo Ortográfico, assinale a alternativa correta sobre a grafia e acentuação da palavra.",
+                "opcoes": [
+                      "A palavra \"plateia\" está grafada incorretamente, sem acento, pois o novo Acordo Ortográfico não altera a acentuação de palavras paroxítonas com a terminação \"ei\".",
+                      "A palavra \"plateia\" está grafada incorretamente, pois a nova ortografia exige que ela seja escrita com \"i\" simples, sem o \"e\" para seguir a norma ortográfica.",
+                      "A palavra \"plateia\" deveria ser grafada com o acento, pois as palavras paroxítonas terminadas em \"ei\" continuam a ser acentuadas, conforme as regras do novo Acordo Ortográfico.",
+                      "A palavra \"plateia\" é grafada sem acento, pois, de acordo com o Novo Acordo Ortográfico, os ditongos abertos \"ei\" e \"oi\" em palavras paroxítonas não são mais acentuados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"plateia\" é grafada sem acento, pois, de acordo com o Novo Acordo Ortográfico, os ditongos abertos \"ei\" e \"oi\" em palavras paroxítonas não são mais acentuados.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "paronimosHomonimos",
+                      "ditongos",
+                      "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "“Em sua obra-prima, o futuro Nobel de Literatura narra uma trama que perpassa sete gerações e tem como pano de fundo a idílica ‘Macondo’.” (1º§). Observa-se que a palavra “obra-prima” está corretamente grafada de acordo com o Novo Acordo Ortográfico da Língua Portuguesa – firmado em 2009. Nesse sentido, assinale a alternativa em que o hífen está empregado INCORRETAMENTE.",
+                "opcoes": [
+                      "Re-edição.",
+                      "Bem-estar.",
+                      "Recém-nascido.",
+                      "Anti-inflamatório."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Re-edição.</strong>. Fonte: Instituto Consulplan/2025. Assunto: ortografia.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em “É o que me dá ideia daquela feição nova.”, a palavra em destaque não é mais, segundo o Novo Acordo Ortográfico. Também não é mais acentuada a seguinte palavra:",
+                "opcoes": [
+                      "Mantêm.",
+                      "Sânscrito.",
+                      "Asteróide.",
+                      "Âmbito."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Asteróide.</strong>. Fonte: Gama Consult/2025. Assunto: ortografia.",
+                "banca": "Gama Consult",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todos os vocábulos estão grafados conforme as normas ortográficas vigentes.",
+                "opcoes": [
+                      "autorretrato - antissocial - contracheque.",
+                      "assembléia - platéia - rubrica.",
+                      "pelo - pólo - pêra.",
+                      "eles prevêem - ele argúi - eles vêm."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>autorretrato - antissocial - contracheque.</strong>. Fonte: ADM&TEC/2024. Assunto: ortografia.",
+                "banca": "ADM&TEC",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta de acordo com o novo acordo ortográfico:",
+                "opcoes": [
+                      "Ideia",
+                      "Feiúra",
+                      "Microondas",
+                      "Vôo"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ideia</strong>. Fonte: EVO Concursos/2025. Assunto: ortografia.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "paronimosHomonimos"
+                ]
+          },
+          {
+                "enunciado": "Q8.png (332×260) Só se encontram palavras que sofreram alterações ortográficas com a Nova Reforma em:",
+                "opcoes": [
+                      "graúna - androide;",
+                      "abençoo - mantem;",
+                      "feiura - bocaiuva;",
+                      "ideia - heróis;",
+                      "alcateia- orfão ."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>feiura - bocaiuva;</strong>. Fonte: IBADE/2024. Assunto: ortografia.",
+                "banca": "IBADE",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "“Tais como contos de fadas / Nunca mais hei de esquecê-las!” (quarta estrofe). O termo em destaque no segundo verso do par é acentuado porque segue a mesma regra vigente para a seguinte palavra:",
+                "opcoes": [
+                      "Céu.",
+                      "Estrelas.",
+                      "Cajá.",
+                      "Caju."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Cajá.</strong>. Fonte: FRONTE/2025. Assunto: ortografia.",
+                "banca": "FRONTE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Identifique a alternativa que apresenta um vocábulo que não é mais acentuada de acordo com o novo acordo ortográfico:",
+                "opcoes": [
+                      "\"...quando os seres humanos começaram a desenvolver práticas agrícolas...\"",
+                      "\"A domesticação de animais começou há milhares de anos, durante o período neolítico...\"",
+                      "\"Ao aprender a cultivar a terra, o homem do Neolítico aprendeu também a criar animais como reserva.\"",
+                      "Para se ter uma ideia, cientistas encontraram o crânio de um cão domesticado 33.000 anos atrás nas montanhas Altai, na Sibéria."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Para se ter uma ideia, cientistas encontraram o crânio de um cão domesticado 33.000 anos atrás nas montanhas Altai, na Sibéria.</strong>. Fonte: AMEOSC/2024. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Há erro de ortografia apenas em:",
+                "opcoes": [
+                      "São jovens púdicas aquelas que se resguardam.",
+                      "O banco solicitou uma rubrica ao final de cada página do contrato.",
+                      "Basta chover que aparecem diversos caracóis no quintal.",
+                      "O velho contava anedotas heroicas sempre que podia.",
+                      "A intimidade se cria no dia a dia."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>São jovens púdicas aquelas que se resguardam.</strong>. Fonte: Avança SP/2025. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "O Japão desfruta atualmente de uma explosão turística após a pandemia de covid-19 e um esforço do governo para atrair mais visitantes estrangeiros. Pela primeira vez, em março, o número de turistas da nação insular ultrapassou os três milhões. No texto apresentado, analise as alternativas abaixo, de acordo com a ortografia oficial.",
+                "opcoes": [
+                      "A palavra \"ultrapassou\", como verbo no pretérito imperfeito do indicativo, encontra-se grafada corretamente, embora, em determinadas conjugações, o \"L\" desapareça, como no caso do modo subjuntivo.",
+                      "A palavra \"turística\" pode ou não ser acentuada, pois, de acordo com o Novo Acordo Ortográfico, os vocábulos proparoxítonos, por terem a intensidade tônica na antepenúltima sílaba, fica explícito que se trata de um vocábulo proparoxítono.",
+                      "A grafia \"covid-19\" está correta, pois o termo \"covid\" segue a recomendação ortográfica do Novo Acordo Ortográfico, sendo uma sigla que mantém a primeira letra em minúscula, conforme as normas internacionais e as convenções científicas.",
+                      "A expressão \"da nação insular\" está correta, e o termo \"insular\" pode ser substituído por \"insulenha\", pois o adjetivo relacionado ao substantivo \"nação\" pode ser escrito de ambas as formas: \"insular\" e \"insulenha\"."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A grafia \"covid-19\" está correta, pois o termo \"covid\" segue a recomendação ortográfica do Novo Acordo Ortográfico, sendo uma sigla que mantém a primeira letra em minúscula, conforme as normas internacionais e as convenções científicas.</strong>. Fonte: IGEDUC/2025. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "paronimosHomonimos",
+                      "silabas",
+                      "proparoxitonas"
+                ]
+          }
+    ],
+    "classesGramaticais": [
+          {
+                "enunciado": "Assinale a afirmativa correta.",
+                "opcoes": [
+                      "Em “Senhor diretor, vossa senhoria está equivocado”, o adjetivo equivocado concorda em gênero e número com o substantivo vossa senhoria.",
+                      "Na frase “O substrato que é a matéria-prima para o cultivo de cogumelos, é esterilizado, e o fungo é adicionado a ele”, as vírgulas foram corretamente empregas.",
+                      "No período “A radiação solar também é a maior fonte de energia para o processo de evapotranspiração, cujo valor diário incidente sobre as plantas varia com a localização do vinhedo e com a época do ano”, a segunda oração inicia por uma conjunção subordinativa adverbial consecutiva.",
+                      "Na frase “Eram extraordinários seu talento e suas competências”, ocorre um predicativo do sujeito composto.",
+                      "No período “As baratas são comumente atraídas por restos de alimento deixados sobre o fogão e a pia, além do acúmulo de louça suja e resquícios de gordura sobre as superfícies”, há três palavras acentuadas graficamente com base na mesma regra."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Na frase “Eram extraordinários seu talento e suas competências”, ocorre um predicativo do sujeito composto.</strong>. Fonte: FEPESE/2023. Assunto: classesGramaticais.",
+                "banca": "FEPESE",
+                "ano": 2023,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase",
+                      "acentuacaoGrafica",
+                      "tonicidade"
+                ]
+          },
+          {
+                "enunciado": "Analise o período. Ou seja, ainda enfrentamos desafios de acesso à internet em diversas regiões no país. O uso do acento grave justifica-se porque há a fusão",
+                "opcoes": [
+                      "da preposição, exigida pelo substantivo “acesso”, com o artigo feminino admitido pelo substantivo “internet”.",
+                      "da preposição exigida pelo verbo “acessar” com o artigo feminino, admitido pelo substantivo “internet”.",
+                      "de duas preposições: a primeira exigida pelo verbo “enfrentar”, e a outra, pelo verbo acessar”.",
+                      "de dois artigos femininos: o primeiro admitido pelo substantivo “internet”, e o outro, pelo substantivo regiões."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>da preposição, exigida pelo substantivo “acesso”, com o artigo feminino admitido pelo substantivo “internet”.</strong>. Fonte: COMPERVE - UFRN/2024. Assunto: classesGramaticais.",
+                "banca": "COMPERVE - UFRN",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ]
+          }
+    ],
+    "concordancia": [
+          {
+                "enunciado": "Imagem associada para resolução da questão Na frase, acima, ocorre um desvio linguístico referente à:",
+                "opcoes": [
+                      "grafia de uma palavra.",
+                      "regência nominal.",
+                      "concordância verbal.",
+                      "regência verbal.",
+                      "acentuação gráfica."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>acentuação gráfica.</strong>. Fonte: AEVSF/FACAPE/2024. Assunto: concordancia.",
+                "banca": "AEVSF/FACAPE",
+                "ano": 2024,
+                "assunto": "Concordância",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "concordancia",
+                      "ortografia",
+                      "acentuacaoGrafica"
+                ]
+          }
+    ],
+    "hifen": [
+          {
+                "enunciado": "No que diz respeito às regras do novo acordo ortográfico, analise as afirmativas abaixo: I.Os vocábulos 'paraquedas', 'parabrisa' e 'mandachuva' continuarão a ser grafados sem hífen. II.Os vocábulos 'bem-vindo', 'recém-casado' e 'bem-querer' estão hifenizados corretamente. III.Serão hifenizados os adjetivos gentílicos derivados de nomes geográficos compostos que contenham ou não elemento de ligação como 'belo-horizontino' e 'mato-grossense-do-sul'. IV.O acento circunflexo não é mais empregado em palavras paroxítonas que terminam em 'êem' e em 'ôo' como 'veem' e 'abençoo'. V.São acentuadas as vogais tônicas 'i' e 'u' das palavras paroxítonas quando estas vogais estiverem precedidas de ditongo decrescente como 'feiúra' e 'bocaiúva.' VI. Estão grafados corretamente sem hífen os vocábulos: afrodescendente, eurocêntrico. VII.'Anti-inflamatório', 'micro-ondas' e 'eletro-ótica' são hifenizadas, pois nas formações com prefixos, emprega-se o hífen quando o 1º elemento termina por vogal igual à que inicia o 2º elemento. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, II, IV e VI.",
+                      "Apenas I, II, V e VII.",
+                      "Apenas II, III, IV, VI e VII.",
+                      "Apenas II, IV e VII."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas II, III, IV, VI e VII.</strong>. Fonte: AMEOSC/2024. Assunto: hifen.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Hífen",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hifen",
+                      "ditongos",
+                      "paroxitonas",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Em relação às regras de ortografia e às de acentuação analise as afirmativas: I.'bem-estar' é hifenizada, assim como afro-descendente. II.'micro-organismos' é hifenizada, pois emprega-se o hífen nas formações com prefixo quando o 1º elemento termina por vogal igual à que inicia o 2º elemento. III.'vírus' é uma paroxítona assim como 'caracteres'. IV.'saúde' é acentuada pela mesma regra de 'faísca'. Estão corretas:",
+                "opcoes": [
+                      "Apenas II, III e IV.",
+                      "Apenas II e IV.",
+                      "Apenas I, II e III.",
+                      "Apenas I, III e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas II, III e IV.</strong>. Fonte: AMEOSC/2024. Assunto: hifen.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Hífen",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "hifen",
+                      "paroxitonas",
                       "ortografia"
                 ]
           }
