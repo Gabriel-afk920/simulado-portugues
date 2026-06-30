@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 28/06/2026, 18:58:18 — 710 questões incluídas
+// 30/06/2026, 10:57:51 — 710 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
