@@ -102,7 +102,7 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO_POR_QUESTAO = 90; // 90 segundos por questão
+const TEMPO_POR_QUESTAO = 300; // 5 minutos por questão
 let temaAtual        = null;
 let questoes         = [];
 let indiceAtual      = 0;
@@ -423,8 +423,8 @@ function _iniciarTimerQuestao() {
     if (simuladoPausado) return;
     tempoSimulado--;
     timerEl.textContent = _fmtTempo(tempoSimulado);
-    if      (tempoSimulado <= 20) timerEl.className = 'timer-box danger';
-    else if (tempoSimulado <= 40) timerEl.className = 'timer-box warning';
+    if      (tempoSimulado <= 30) timerEl.className = 'timer-box danger';
+    else if (tempoSimulado <= 60) timerEl.className = 'timer-box warning';
     if (tempoSimulado <= 0) {
       clearInterval(timerInterval);
       registrarResposta(-1);
