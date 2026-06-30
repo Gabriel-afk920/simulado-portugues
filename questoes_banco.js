@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 30/06/2026, 10:57:51 — 710 questões incluídas
+// 30/06/2026, 11:12:46 — 891 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -7624,6 +7624,50 @@ var QUESTOES_BANCO = {
                       "silabas",
                       "tonicidade"
                 ]
+          },
+          {
+                "enunciado": "Na palavra “tenho”, há a presença de um:",
+                "opcoes": [
+                      "Polissílaba;",
+                      "Substantivo;",
+                      "Encontro vocálico;",
+                      "Dígrafo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Dígrafo.</strong>. Fonte: Prefeitura de Bombinhas - SC/2025. Assunto: ditongos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2025,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "digrafos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “passagens” (linha 04) apresenta",
+                "opcoes": [
+                      "dígrafo.",
+                      "tritongo.",
+                      "encontro vocálico.",
+                      "hiato.",
+                      "ditongo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dígrafo.</strong>. Fonte: COPESE - UFPI/2013. Assunto: ditongos.",
+                "banca": "COPESE - UFPI",
+                "ano": 2013,
+                "assunto": "Ditongos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
+                ]
           }
     ],
     "fonemas": [
@@ -8125,6 +8169,115 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "digrafos",
                       "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "\"Vários pontos da Lei ainda dependem de regulamentação para surtir efeito prático. O Poder Executivo terá, por exemplo, de regulamentar os requisitos mínimos de transparência, segurança e compartilhamento de informações de forma automática para os mecanismos de aferição de idade e de supervisão parental adotados pelos sistemas operacionais e pelas lojas de aplicativos.\" Considerando os aspectos fonológicos, prosódicos e ortoépicos dos vocábulos presentes no trecho, bem como daqueles fora do contexto apresentado, julgue as afirmativas a seguir: I. O vocábulo 'transparência' é uma palavra polissílaba, na qual todas as letras correspondem aos sons produzidos na fala, e apresenta duas consoantes dispostas em sequência, cujos sons são preservados individualmente, caracterizando um encontro consonantal. II. Nos vocábulos 'executivo' e 'requisitos', verifica-se a ocorrência de grafemas distintos que representam um mesmo fonema. III. O vocábulo 'compartilhamento' apresenta dígrafo, entendido como a sequência de duas letras que representam um único fonema. Esse fenômeno também se observa em palavras como 'chuva', 'arreio' e 'junto'. IV. A silabada consiste no deslocamento indevido do acento tônico de uma palavra, o que pode gerar dúvidas em sua pronúncia e resultar em erro de prosódia. Assim, ao pronunciar 'avaro' e 'caracteres' como paroxítonas, comete-se uma silabada, uma vez que a acentuação tônica correta dessas palavras não corresponde a essa classificação. V. Tanto a ortoépia quanto a prosódia tratam da pronúncia correta das palavras. A ortoépia refere-se à articulação adequada dos sons, enquanto a prosódia diz respeito à posição da sílaba tônica. Na frase 'Ele teve o previlégio de ver um caranqueijo na praia', observam-se dois desvios ortoépicos, refletindo pronúncias inadequadas que podem influenciar a grafia. Após análise, assinale as proposições CORRETAS.",
+                "opcoes": [
+                      "II, III, IV e V, apenas.",
+                      "I, II, IV e V, apenas.",
+                      "I, II e III, apenas.",
+                      "III, IV e V, apenas.",
+                      "II, III e V, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>II, III e V, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: fonemas.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "digrafos",
+                      "silabas",
+                      "encontrosConsonantais",
+                      "paroxitonas",
+                      "tonicidade",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Considerando a relação entre letras e fonemas de palavras do texto, é INCORRETO afirmar que:",
+                "opcoes": [
+                      "A palavra habita possui 5 fonemas e 1 dígrafo.",
+                      "A palavra entrada possui 6 fonemas e 1 dígrafo.",
+                      "A palavra escolher possui 7 fonemas e 1 dígrafo.",
+                      "A palavra lixo possui 4 fonemas e nenhum dígrafo.",
+                      "A palavra espaço possui 6 fonemas e nenhum dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A palavra habita possui 5 fonemas e 1 dígrafo.</strong>. Fonte: Instituto Fênix/2026. Assunto: fonemas.",
+                "banca": "Instituto Fênix",
+                "ano": 2026,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Correspondem respectivamente a duas palavras com encontro consonantais:",
+                "opcoes": [
+                      "Favorita – Até.",
+                      "Trailer – Sinal.",
+                      "Estava – Dirigindo.",
+                      "Pela – Jogado.",
+                      "Estrada – Vala."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Estava – Dirigindo.</strong>. Fonte: ADVISE/2023. Assunto: fonologia.",
+                "banca": "ADVISE",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Em termos fonéticos, “presente” e “mundo” são compostos, respectivamente, por:",
+                "opcoes": [
+                      "8 fonemas; 5 fonemas.",
+                      "7 fonemas e 1 dígrafo; 5 fonemas.",
+                      "8 fonemas; 4 fonemas e 1 dígrafo.",
+                      "6 fonemas e 2 dígrafos; 4 fonemas e 1 dígrafo.",
+                      "7 fonemas e 1 dígrafo; 4 fonemas e 1 dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>7 fonemas e 1 dígrafo; 4 fonemas e 1 dígrafo.</strong>. Fonte: Instituto Fênix/2024. Assunto: fonemas.",
+                "banca": "Instituto Fênix",
+                "ano": 2024,
+                "assunto": "Fonemas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas nas linhas 07 e 16.",
+                "opcoes": [
+                      "r – ç",
+                      "r – sc",
+                      "rr – ss",
+                      "rr – s",
+                      "r – ss"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>rr – ss</strong>. Fonte: FUNDATEC/2024. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
                 ]
           }
     ],
@@ -10832,6 +10985,1068 @@ var QUESTOES_BANCO = {
                       "hiatos",
                       "digrafos"
                 ]
+          },
+          {
+                "enunciado": "Essa espécie tem um desenvolvimento muito rápido - em apenas horas após a fecundação, a maioria dos órgãos dele já funciona. Para ter ideia, um peixe cresce em um dia o equivalente ao que um embrião humano demora um mês. Disponível em:(https://curtlink.com/wLo6rh7. Adaptado.) Assinale a opção que contenha somente palavras com encontros consonantais.",
+                "opcoes": [
+                      "órgãos - essa",
+                      "fecundação - equivalente",
+                      "desenvolvimento - cresce",
+                      "funciona - embrião"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>desenvolvimento - cresce</strong>. Fonte: AMEOSC/2022. Assunto: encontrosConsonantais.",
+                "banca": "AMEOSC",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Essa espécie tem um desenvolvimento muito rápido - em apenas horas após a fecundação, a maioria dos órgãos dele já funciona. Para ter ideia, um peixe cresce em um dia o equivalente ao que um embrião humano demora um mês. Disponível em:(https://curtlink.com/wLo6rh7. Adaptado.) Assinale a opção que contenha somente palavras com encontros consonantais.",
+                "opcoes": [
+                      "fecundação - equivalente",
+                      "desenvolvimento - cresce",
+                      "órgãos - essa",
+                      "funciona - embrião"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>desenvolvimento - cresce</strong>. Fonte: AMEOSC/2022. Assunto: encontrosConsonantais.",
+                "banca": "AMEOSC",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a palavra apresenta encontro consonantal perfeito.",
+                "opcoes": [
+                      "Perplexos.",
+                      "Revolta.",
+                      "Roupagens.",
+                      "Ecoou.",
+                      "Debaixo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Perplexos.</strong>. Fonte: FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras abaixo e marque a alternativa que apresenta ocorrência de encontro consonantal:",
+                "opcoes": [
+                      "você, faça, favor.",
+                      "deu, me, zango.",
+                      "desculpe, outro, perdoar.",
+                      "bonita, Deus, com."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>desculpe, outro, perdoar.</strong>. Fonte: Aroeira/2026. Assunto: encontrosConsonantais.",
+                "banca": "Aroeira",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Na lista abaixo, a alternativa em que todas as palavras apresentam encontro consonantal é:",
+                "opcoes": [
+                      "prato, bloco, grito, clima.",
+                      "chuva, chave, grama, classe.",
+                      "freio, praia, caixa, muito.",
+                      "massa, cabeça, caroço, cidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>prato, bloco, grito, clima.</strong>. Fonte: JVL Concursos/2026. Assunto: encontrosConsonantais.",
+                "banca": "JVL Concursos",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa com uma palavra escrita com um encontro consonantal e um hiato; e uma palavra escrita com ditongo nasal, respectivamente.",
+                "opcoes": [
+                      "Escritor; não.",
+                      "Atento; desinteressado.",
+                      "Presumia; oração.",
+                      "Fim; apropriar.",
+                      "Infanticida; como."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Presumia; oração.</strong>. Fonte: MS Consultoria/2023. Assunto: encontrosConsonantais.",
+                "banca": "MS Consultoria",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as letras sublinhadas nas palavras são classificadas como encontro consonantal.",
+                "opcoes": [
+                      "Humilhante, grato, aspirina.",
+                      "Humildes, nobres, carga.",
+                      "Terrível, prática, onde.",
+                      "Exemplo, tensão, isso.",
+                      "Grega, barriga, alma."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Humildes, nobres, carga.</strong>. Fonte: FAFIPA/2025. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Quando duas consoantes se encontram e os dois sons são pronunciados, temos um encontro consonantal. Aponte a alternativa abaixo em que isso ocorre.",
+                "opcoes": [
+                      "Luva.",
+                      "Água.",
+                      "Caneta.",
+                      "Fio.",
+                      "Livro."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Livro.</strong>. Fonte: Instituto IACP/2026. Assunto: encontrosConsonantais.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta encontro consonantal?",
+                "opcoes": [
+                      "Manobras.",
+                      "Férias.",
+                      "Paradas.",
+                      "Direção.",
+                      "Velocidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Manobras.</strong>. Fonte: FUNDATEC/2026. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Considere, entre as palavras retiradas do texto, a que apresenta, somente, encontro consonantal disjunto:",
+                "opcoes": [
+                      "Integração.",
+                      "Privacidade.",
+                      "Reorganiza.",
+                      "Extrapolam."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Reorganiza.</strong>. Fonte: Gama Consult/2026. Assunto: encontrosConsonantais.",
+                "banca": "Gama Consult",
+                "ano": 2026,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal como em “blusa”",
+                "opcoes": [
+                      "Água.",
+                      "Palácio.",
+                      "Guaraná.",
+                      "Precioso.",
+                      "Divino."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Precioso.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Ao transcrevermos fonologicamente as palavras abaixo, a letra X se confundirá com encontro consonantal em:",
+                "opcoes": [
+                      "Excelente.",
+                      "Exame.",
+                      "Enxame.",
+                      "Prolixo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Prolixo.</strong>. Fonte: OBJETIVA/2025. Assunto: encontrosConsonantais.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra interpretativismo, presente na oração “O positivismo e o interpretativismo são as duas principais tradições no desenvolvimento da pesquisa social”, caracteriza‑se por apresentar três encontros consonantais, sendo dois imperfeitos e um perfeito.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: encontrosConsonantais.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa em que todas as palavras apresentam encontros consonantais:",
+                "opcoes": [
+                      "tudo, forma, como.",
+                      "plantas, contra, pragas.",
+                      "jardins, tipos, seres.",
+                      "causar, então, podem."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>plantas, contra, pragas.</strong>. Fonte: Aroeira/2025. Assunto: encontrosConsonantais.",
+                "banca": "Aroeira",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que há um encontro consonantal.",
+                "opcoes": [
+                      "Rolha.",
+                      "Cortiça.",
+                      "Vinho.",
+                      "Nativa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Cortiça.</strong>. Fonte: OBJETIVA/2025. Assunto: encontrosConsonantais.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Bloco.",
+                      "Atlas.",
+                      "Pérola.",
+                      "Bíblia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pérola.</strong>. Fonte: MSConcursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MSConcursos",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa a qual em ambas as palavras ocorrem encontros consonantais.",
+                "opcoes": [
+                      "É – Um.",
+                      "Primeiro – Assalto.",
+                      "Eu – Falei.",
+                      "Falei – Um.",
+                      "Um – Eu."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Primeiro – Assalto.</strong>. Fonte: ADVISE/2023. Assunto: encontrosConsonantais.",
+                "banca": "ADVISE",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Pode-se afirmar que a palavra\" Enquanto\", no primeiro parágrafo do texto, contém:",
+                "opcoes": [
+                      "um dígrafo.",
+                      "um encontro consonantal.",
+                      "um dígrafo e um encontro consonantal.",
+                      "um encontro vocálico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>um dígrafo e um encontro consonantal.</strong>. Fonte: Aroeira/2023. Assunto: encontrosConsonantais.",
+                "banca": "Aroeira",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quando vamos ao supermercado, codificamos onde estacionamos o carro, mas quando entramos na loja, ocupamo-nos de outras coisas. Assinale a opção que contenha apenas encontro consonantal:",
+                "opcoes": [
+                      "outras.",
+                      "codificamos.",
+                      "coisas.",
+                      "supermercado.",
+                      "estacionamos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>supermercado.</strong>. Fonte: IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra em que ocorre um encontro consonantal.",
+                "opcoes": [
+                      "Barulho.",
+                      "Carroça.",
+                      "Passeio.",
+                      "Pássaros.",
+                      "Clareira."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Clareira.</strong>. Fonte: Instituto Avalia/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Avalia",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Quando vamos ao supermercado, codificamos onde estacionamos o carro, mas quando entramos na loja, ocupamo-nos de outras coisas. Assinale a opção que contenha apenas encontro consonantal:",
+                "opcoes": [
+                      "supermercado.",
+                      "coisas.",
+                      "outras.",
+                      "codificamos.",
+                      "estacionamos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>supermercado.</strong>. Fonte: IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Uma dura fase marcada por conflitos e dificuldades. É assim que especialistas resumem a forma como o envelhecimento dos pais é encarado diversas vezes. A opção que contém apenas encontros consonantais é:",
+                "opcoes": [
+                      "conflitos − fase",
+                      "diversas − especialistas",
+                      "marcada − forma",
+                      "dificuldades − resumem",
+                      "vezes − assim"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>marcada − forma</strong>. Fonte: IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Uma dura fase marcada por conflitos e dificuldades. É assim que especialistas resumem a forma como o envelhecimento dos pais é encarado diversas vezes. A opção que contém apenas encontros consonantais é:",
+                "opcoes": [
+                      "marcada − forma",
+                      "dificuldades − resumem",
+                      "diversas − especialistas",
+                      "vezes − assim",
+                      "conflitos − fase"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>marcada − forma</strong>. Fonte: IASP/2024. Assunto: encontrosConsonantais.",
+                "banca": "IASP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A palavra “obtidos”, sublinhada no último parágrafo, é, quanto à fonologia, um exemplo de palavra com:",
+                "opcoes": [
+                      "Dígrafo.",
+                      "Tritongo.",
+                      "Encontro consonantal.",
+                      "Hiato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Encontro consonantal.</strong>. Fonte: OBJETIVA/2024. Assunto: encontrosConsonantais.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "tritongos",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Aludindo-se a encontros consonantais, marque a alternativa indevida.",
+                "opcoes": [
+                      "Atrás.",
+                      "Creme.",
+                      "Subdelegado.",
+                      "Café."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café.</strong>. Fonte: MSConcursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "No texto, há um exemplo de encontro consonantal na palavra:",
+                "opcoes": [
+                      "raízes.",
+                      "México.",
+                      "cidade.",
+                      "clavícula.",
+                      "popular."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>clavícula.</strong>. Fonte: Fundação FAPEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "Fundação FAPEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que há um encontro consonantal:",
+                "opcoes": [
+                      "“sociedade”",
+                      "“Quem”",
+                      "“profissional”",
+                      "“Amador”"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“profissional”</strong>. Fonte: Itame/2025. Assunto: encontrosConsonantais.",
+                "banca": "Itame",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Considerando a fonética de palavras retiradas do texto, analise as seguintes assertivas e assinale V, se verdadeiras, ou F, se falsas. ( ) Na palavra “estresse”, há um dígrafo. ( ) A palavra “despertador” tem o mesmo número de letras e fonemas. ( ) É possível identificar encontro consonantal em “psicólogo”. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "F – F – V.",
+                      "F – V – V.",
+                      "F – V – F.",
+                      "V – V – V.",
+                      "V – F – F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>V – V – V.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas abaixo apresenta uma palavra com encontro consonantal?",
+                "opcoes": [
+                      "Litros.",
+                      "Minutos.",
+                      "Automóvel.",
+                      "Medidas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Litros.</strong>. Fonte: Prefeitura de Catas Altas - MG/2025. Assunto: encontrosConsonantais.",
+                "banca": "Prefeitura de Catas Altas - MG",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa onde ocorre respectivamente um encontro consonantal perfeito e um imperfeito:",
+                "opcoes": [
+                      "praga e tetra.",
+                      "ritmo e afta.",
+                      "blusa e pacto.",
+                      "rapto e brasa.",
+                      "acne e brejo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>blusa e pacto.</strong>. Fonte: IBADE/2025. Assunto: encontrosConsonantais.",
+                "banca": "IBADE",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho do texto I a seguir. \"[...] o biólogo e psicólogo Oskar Pfungst decidiu testar as habilidades do cavalo em diferentes condições: usando outras pessoas para questionar Hans; isolando o questionador e o cavalo do público; variando se Hans podia ver o questionador ou não; e até se o questionador sabia as respostas ou não.\" Com relação aos aspectos ortográficos, assinale a alternativa correta.",
+                "opcoes": [
+                      "Os substantivos \"biólogo\" e \"psicólogo\" possuem número diferente de sílabas gramaticais.",
+                      "As palavras escritas com letras iniciais maiúsculas indicam nomes de altos cargos profissionais.",
+                      "A ordem alfabética certa dos vocábulos da frase \"testar as habilidades do cavalo\" é: as; do; cavalo; habilidades; testar.",
+                      "O termo \"questionador\" apresenta na sua grafia um dígrafo, um ditongo e um encontro consonantal, entre outros."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O termo \"questionador\" apresenta na sua grafia um dígrafo, um ditongo e um encontro consonantal, entre outros.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos",
+                      "silabas",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta um encontro consonantal (duas ou mais consoantes juntas na mesma sílaba)?",
+                "opcoes": [
+                      "Aquecimento.",
+                      "Estudo.",
+                      "Inundação.",
+                      "Clima.",
+                      "Aumento."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Clima.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta uma palavra que tem encontro consonantal?",
+                "opcoes": [
+                      "Vela.",
+                      "Elas.",
+                      "Paris.",
+                      "Livre.",
+                      "Maior."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Livre.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "No fragmento “Às vezes dou a minha opinião”, o termo “dou”:",
+                "opcoes": [
+                      "é um exemplo de encontro consonantal, pois há um ditongo, assim como acontece na palavra “baixo”.",
+                      "é um exemplo de encontro vocálico, pois há um hiato, assim como acontece na palavra “saúde”.",
+                      "é um exemplo de encontro vocálico, pois há um tritongo, assim como acontece na palavra “água”.",
+                      "é um exemplo de encontro vocálico, pois há um ditongo, assim como acontece na palavra “lousa”.",
+                      "é um exemplo de encontro consonantal, pois há um hiato, como acontece na palavra “triângulo”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>é um exemplo de encontro vocálico, pois há um ditongo, assim como acontece na palavra “lousa”.</strong>. Fonte: CPCON/2024. Assunto: encontrosConsonantais.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Considerando os vocábulos “cognitiva” (l. 08) e “abstinência” (l. 14), analise as assertivas a seguir: I. Ambos os vocábulos possuem uma vogal pronunciada na oralidade entre os encontros consonantais -gn e -bs, respectivamente. II. Um sinônimo adequado para os vocábulos são, respectivamente, “perceptiva” e “abstenção”. III. De acordo com a ocorrência no texto, são palavras que pertencem a classes gramaticais diferentes. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Sobre regras gramaticais da língua portuguesa, analise as assertivas abaixo: I. A palavra “trabalhadora” tem um encontro consonantal e um dígrafo. II. As palavras “humildade” e “saciedade” têm o mesmo número de fonemas. III. A palavra “mão” não conta com um encontro vocálico porque a vogal nasal “ã” não entra nessa categoria. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "A palavra que contém encontro consonantal (quando duas ou mais consoantes aparecem juntas) é:",
+                "opcoes": [
+                      "Beber.",
+                      "Água.",
+                      "Brilho.",
+                      "Pele.",
+                      "Motivos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Brilho.</strong>. Fonte: FUNDATEC/2025. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Encontro consonantal é a sequência de duas ou mais consoantes na mesma palavra, mantendo-se cada som distinto na pronúncia, como em \"próximo\" e \"clínica\". Com base nisso, assinale a única alternativa em que NÃO há uma palavra com encontro consonantal:",
+                "opcoes": [
+                      "Transplante.",
+                      "Fibromialgia.",
+                      "Imunológico.",
+                      "Psicoterapia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Imunológico.</strong>. Fonte: Instituto Fênix/2025. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Encontro consonantal é quando duas ou mais consoantes aparecem juntas em uma palavra, sem vogal entre elas. Sabendo-se disso, assinale a alternativa correta sobre os encontros consonantais nas palavras a seguir.",
+                "opcoes": [
+                      "“crônicas” – apresenta um encontro consonantal disjunto.",
+                      "“doenças” – apresenta um encontro consonantal disjunto.",
+                      "“frequência” – apresenta um encontro consonantal puro.",
+                      "“importantes” – apresenta um encontro consonantal puro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“frequência” – apresenta um encontro consonantal puro.</strong>. Fonte: Instituto Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa correta na qual todas as palavras são formadas por encontros consonantais.",
+                "opcoes": [
+                      "história – planeta.",
+                      "observadas – Terra.",
+                      "mudanças – climáticas.",
+                      "evolutiva – intrinsecamente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>história – planeta.</strong>. Fonte: Instituto Darwin/2024. Assunto: encontrosConsonantais.",
+                "banca": "Instituto Darwin",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Indique quantos encontros consonantais há na tirinha analisada:",
+                "opcoes": [
+                      "Nenhum.",
+                      "Um.",
+                      "Dois.",
+                      "Três."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Três.</strong>. Fonte: DAE de Bauru - SP/2024. Assunto: encontrosConsonantais.",
+                "banca": "DAE de Bauru - SP",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Na palavra EQUILIBRADO, há:",
+                "opcoes": [
+                      "dois dígrafos",
+                      "dois encontros consonantais",
+                      "um hiato e um encontro consonantal",
+                      "um dígrafo e um encontro consonantal"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>um dígrafo e um encontro consonantal</strong>. Fonte: SELECON/2024. Assunto: encontrosConsonantais.",
+                "banca": "SELECON",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No título do texto, há, quanto ao número de encontros consonantais, apenas:",
+                "opcoes": [
+                      "1.",
+                      "2.",
+                      "3.",
+                      "4.",
+                      "5."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2.</strong>. Fonte: CONTEMAX/2024. Assunto: encontrosConsonantais.",
+                "banca": "CONTEMAX",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as palavras contêm encontro consonantal:",
+                "opcoes": [
+                      "elipse e choro.",
+                      "zeugma e omissão.",
+                      "elipse e aparece",
+                      "zeugma e elipse."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>zeugma e elipse.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2021. Assunto: encontrosConsonantais.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2021,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras a seguir possui um encontro consonantal situado em sílabas diferentes?",
+                "opcoes": [
+                      "Blusa.",
+                      "Livro.",
+                      "Prato.",
+                      "Barco."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Barco.</strong>. Fonte: Itame/2024. Assunto: encontrosConsonantais.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Placa.",
+                      "Pedregulho.",
+                      "Dragão.",
+                      "Vidro.",
+                      "Cores."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Cores.</strong>. Fonte: MSConcursos/2023. Assunto: encontrosConsonantais.",
+                "banca": "MSConcursos",
+                "ano": 2023,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa, onde não temos encontro consonantal.",
+                "opcoes": [
+                      "Duro.",
+                      "Pneu.",
+                      "Cobra.",
+                      "Adriana.",
+                      "Pedra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Duro.</strong>. Fonte: MSConcursos/2024. Assunto: encontrosConsonantais.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Nas palavras primeira (linha 2) e arrebatado (linha 7) há, respectivamente,",
+                "opcoes": [
+                      "dígrafo e encontro consonantal.",
+                      "encontro consonantal e encontro consonantal.",
+                      "encontro consonantal e dígrafo.",
+                      "dígrafo e dígrafo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>encontro consonantal e dígrafo.</strong>. Fonte: COMPERVE - UFRN/2008. Assunto: encontrosConsonantais.",
+                "banca": "COMPERVE - UFRN",
+                "ano": 2008,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que contém uma palavra em que ocorre encontro consonantal:",
+                "opcoes": [
+                      "Ator.",
+                      "Pneu.",
+                      "Pacote.",
+                      "Girafa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pneu.</strong>. Fonte: FAFIPA/2016. Assunto: encontrosConsonantais.",
+                "banca": "FAFIPA",
+                "ano": 2016,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "A fonética é o estudo dos sons da fala e trata dos fonemas, da pronúncia correta das palavras, da exata acentuação tônica e da configuração gráfica ou a escrita correta das palavras, denominada ortografia. Considere esse conceito e leia a tirinha. Imagem associada para resolução da questão Disponível em: <https://www.nsctotal.com.br/noticias/confira-a-tira-do-armandinho-desta-terca-feira-4>. Avalie o que se informa acerca das palavras que compõem o texto da tirinha. I – A palavra “extintas” deve ser acentuada, pois se trata de uma paroxítona terminada em “s”. II – A expressão “preguiças-gigantes” foi grafada com hífen porque corresponde a um adjetivo composto. III – O último quadrinho da tira traz alguns vocábulos formados por ditongo, dígrafo e encontro consonantal. Está correto apenas o que se afirma em",
+                "opcoes": [
+                      "II.",
+                      "III.",
+                      "I e II.",
+                      "I e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>III.</strong>. Fonte: FCM/2022. Assunto: encontrosConsonantais.",
+                "banca": "FCM",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "digrafos",
+                      "paroxitonas",
+                      "fonemas",
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que mostra uma palavra retirada do texto em que NÃO há encontro consonantal.",
+                "opcoes": [
+                      "traços.",
+                      "espadas.",
+                      "significativo.",
+                      "contatos.",
+                      "cirurgia."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>contatos.</strong>. Fonte: FUNDATEC/2022. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2022,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra com encontro consonantal.",
+                "opcoes": [
+                      "Recursos.",
+                      "Naturais.",
+                      "Futuro.",
+                      "Poluição.",
+                      "Cidades."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Recursos.</strong>. Fonte: FUNDATEC/2024. Assunto: encontrosConsonantais.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "“O esquema vacinal completo, incluindo as doses de reforço, quando recomendado, é essencial para evitar formas graves e óbitos pela “doença”, destaca a pasta.” Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Na palavra “esquema”, há um dífono formado por “qu”.",
+                      "Na palavra “graves”, há um encontro consonantal.",
+                      "Na palavra “doença” há um ditongo formado por “oe”.",
+                      "A palavra “quando” é trissílaba.",
+                      "Na palavra “essencial”, “ia” é um ditongo crescente."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Na palavra “graves”, há um encontro consonantal.</strong>. Fonte: EDUCA/2024. Assunto: encontrosConsonantais.",
+                "banca": "EDUCA",
+                "ano": 2024,
+                "assunto": "Encontros Consonantais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "silabas"
+                ]
           }
     ],
     "digrafos": [
@@ -12490,6 +13705,2356 @@ var QUESTOES_BANCO = {
                       "ditongos",
                       "tritongos",
                       "hiatos"
+                ]
+          },
+          {
+                "enunciado": "O uso das letras \"x\", \"s\" e \"z\", bem como o uso do dígrafo \"ch\", causa dúvidas na escrita da língua portuguesa. Entre os itens abaixo, assinale a alternativa em que uma das palavras destacadas está corretamente grafada.",
+                "opcoes": [
+                      "Aquela modelo era bastante exsibida.",
+                      "Não consegui chegar a nenhuma conclusão.",
+                      "Você precisa enchugar a louça agora mesmo!",
+                      "Ir à missa me trás muita paz.",
+                      "Sua resposta me pareceu deboxada."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Não consegui chegar a nenhuma conclusão.</strong>. Fonte: IDECAN/2024. Assunto: digrafos.",
+                "banca": "IDECAN",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Tanto na palavra “Farroupilha”, presente no trecho “Quatro ou cinco grupos diferentes de alunos do Farroupilha estiveram lá em casa numa mesma missão, designada por seu professor de Português”, como na palavra “necessariamente”, presente no trecho “Escrever bem é escrever claro, não necessariamente certo”, identificam‑se dois dígrafos.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: digrafos.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"O uso desses dados seguirá as regras da Lei Geral de Proteção de Dados (LGPD) e exigirá acordos legais com os órgãos que detêm essas informações.\" A palavra 'desses' está grafada corretamente com o dígrafo 'ss'. Analise as palavras abaixo e assinale a alternativa em que o mesmo dígrafo também está empregado corretamente:",
+                "opcoes": [
+                      "gesso, averssão, ingresso.",
+                      "abadessa, compressão, carrossel.",
+                      "arremesso, assanhar, imerssão.",
+                      "endossar, ascenssão, concessão."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>abadessa, compressão, carrossel.</strong>. Fonte: AMEOSC/2025. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A alternativa que apresenta apenas dígrafos vocálicos, são:",
+                "opcoes": [
+                      "Sangue, Lembrar, Alho, Lindo.",
+                      "Campo, Rombo, Nasço, Onda.",
+                      "Fundo, algum, pompa, exceção.",
+                      "Vento, rombo, sempre, empatar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Vento, rombo, sempre, empatar.</strong>. Fonte: PROMUN/2023. Assunto: digrafos.",
+                "banca": "PROMUN",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra não apresente dígrafo:",
+                "opcoes": [
+                      "Pessoas.",
+                      "Deflagrou.",
+                      "Estarrecedor.",
+                      "Chegou.",
+                      "Processos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Deflagrou.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Filhote.",
+                      "Cobra.",
+                      "Profissionais.",
+                      "Armadilhas.",
+                      "Necessário."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Cobra.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta duas palavras com dígrafo:",
+                "opcoes": [
+                      "pertinho - caneca",
+                      "cresço - litro",
+                      "excelência - escola",
+                      "correto - lápis",
+                      "machismo - emprego"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>machismo - emprego</strong>. Fonte: Instituto Abaré-eté/2024. Assunto: digrafos.",
+                "banca": "Instituto Abaré-eté",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo apresenta um dígrafo consonantal?",
+                "opcoes": [
+                      "SUJEIRA.",
+                      "INHAME.",
+                      "BAÍA.",
+                      "ALMOÇO."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>INHAME.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Filho.",
+                      "Morreram.",
+                      "Chamado.",
+                      "Esclarecer.",
+                      "Possível."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Esclarecer.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as palavras a seguir e assinale a alternativa em que ocorre dígrafo.",
+                "opcoes": [
+                      "água.",
+                      "quase.",
+                      "chá.",
+                      "ódio.",
+                      "máscara."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>chá.</strong>. Fonte: Avança SP/2024. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com dígrafo.",
+                "opcoes": [
+                      "Visual.",
+                      "Motorista.",
+                      "Celular.",
+                      "Sozinho.",
+                      "Traseiro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Sozinho.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "O dígrafo que ocorre em ‘tempestade’ é do mesmo tipo daquele que ocorre em:",
+                "opcoes": [
+                      "achismo.",
+                      "mundo.",
+                      "retaguarda.",
+                      "apóstrofo.",
+                      "resquício."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>mundo.</strong>. Fonte: Avança SP/2024. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que ambas as palavras possuem dígrafos.",
+                "opcoes": [
+                      "Chave; guerreiro.",
+                      "Contadora; primeira.",
+                      "Heróis; magia.",
+                      "Fadas; ouvir."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Chave; guerreiro.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Identifique qual das palavras a seguir apresenta dois dígrafos em sua composição.",
+                "opcoes": [
+                      "inchaço.",
+                      "aguado.",
+                      "inviável.",
+                      "lâmpada.",
+                      "chamam."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>inchaço.</strong>. Fonte: Avança SP/2024. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que a palavra destacada apresenta um dígrafo.",
+                "opcoes": [
+                      "\"Para aventuras em lugares distantes...”",
+                      "“Consulte seu bibliotecário!\"",
+                      "\"E muito de nós mesmos...\"",
+                      "“Descobrir novos países...\"",
+                      "“Conhecer um pouco das outras pessoas...”"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"Para aventuras em lugares distantes...”</strong>. Fonte: Marinha/2025. Assunto: digrafos.",
+                "banca": "Marinha",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das frases abaixo NÃO apresenta dígrafo consonantal?",
+                "opcoes": [
+                      "Ontem choveu muito.",
+                      "Sara é rica.",
+                      "Eu tenho muitas alergias.",
+                      "Nós corremos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Sara é rica.</strong>. Fonte: OBJETIVA/2025. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que apresenta dígrafo consonantal.",
+                "opcoes": [
+                      "Caderno.",
+                      "Abacate.",
+                      "Palheiro.",
+                      "Árvore."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Palheiro.</strong>. Fonte: OBJETIVA/2025. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Identifique a palavra que contém um dígrafo.",
+                "opcoes": [
+                      "Coelho.",
+                      "Lua.",
+                      "Pato.",
+                      "Mesa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Coelho.</strong>. Fonte: Itame/2024. Assunto: digrafos.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Sobre a palavra “mulheres”, assinale a alternativa correta.",
+                "opcoes": [
+                      "Apresenta 2 dígrafos.",
+                      "Está no singular.",
+                      "Contém 8 fonemas.",
+                      "Contém 7 letras.",
+                      "Apresenta 1 dígrafo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Apresenta 1 dígrafo.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas a seguir apresenta uma palavra com dígrafo?",
+                "opcoes": [
+                      "Corrida.",
+                      "Esporte.",
+                      "Cultura.",
+                      "Saudável.",
+                      "Jogos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Corrida.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Junho.",
+                      "Atleta.",
+                      "Minha.",
+                      "Milhão.",
+                      "Professora."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Atleta.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua dígrafo:",
+                "opcoes": [
+                      "Secreta.",
+                      "Corredor.",
+                      "Público.",
+                      "Obras.",
+                      "Grupo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Corredor.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Errado.",
+                      "Professora.",
+                      "Pessoa.",
+                      "Problema.",
+                      "Melhor."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Problema.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em cresceram emprega-se o dígrafo sc, que também é usado corretamente na palavra:",
+                "opcoes": [
+                      "di_iplinar",
+                      "e_edente",
+                      "di_eminar",
+                      "e_epcional"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>di_iplinar</strong>. Fonte: SECPLAN/2025. Assunto: digrafos.",
+                "banca": "SECPLAN",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em \"(...) o Instituto Socioambiental (ISA) também apresenta um posicionamento (...)\", sobre \"também\", não é correto afirmar:",
+                "opcoes": [
+                      "é um indicador de inclusão na frase.",
+                      "morfologicamente é adjetivo.",
+                      "é um dissílabo com dígrafo nasal.",
+                      "é oxítona, acentuado por terminação em \"-em\".",
+                      "é um termo ligado ao verbo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>morfologicamente é adjetivo.</strong>. Fonte: Fundação CETAP/2025. Assunto: digrafos.",
+                "banca": "Fundação CETAP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "O baço é de alto risco porque tem muitos vasos sanguíneos e, portanto, bastante sangue, mas é circundado apenas por uma cápsula fina que pode se romper em caso de trauma. Assinale a alternativa que contenha apenas dígrafos consonantais",
+                "opcoes": [
+                      "porque − sangue",
+                      "baço − caso",
+                      "sanguíneos − circundado",
+                      "trauma − alto"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>porque − sangue</strong>. Fonte: AMEOSC/2025. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos consonantais foram empregados no terceiro parágrafo do texto? (Observação: considere as repetições.)",
+                "opcoes": [
+                      "Dois dígrafos.",
+                      "Quatro dígrafos.",
+                      "Seis dígrafos.",
+                      "Nenhum dígrafo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Seis dígrafos.</strong>. Fonte: IDESG/2025. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"O oxigênio também poderia se difundir para dentro da bolha\". Os vocábulos destacados acima possuem em sua forma dígrafo, fenômeno linguístico que consiste na união de duas letras que, juntas, representam um único fonema. A seguir, identifique a alternativa que apresenta todas as palavras grafadas corretamente com dígrafos:",
+                "opcoes": [
+                      "anbiguidade, embarcar, vislumbrar.",
+                      "emgrenagem, cheiro, chifre",
+                      "emprescindível, enchente, embarcar.",
+                      "excesso, imprescindível, nascer."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>excesso, imprescindível, nascer.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir, sobre palavras retiradas do texto, levando em conta os conceitos relacionados à fonologia: I. A palavra “processamento” tem um dígrafo consonantal e um vocálico. II. Nas palavras “mudança” e “rolando” observa-se, em cada uma delas, o mesmo número de letras e fonemas. III. Em “agressividade” há a ocorrência de um encontro consonantal e de um dígrafo. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas I e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Apenas I e III.</strong>. Fonte: FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Com relação ao número de fonemas e dígrafos, é correto afirmar que “integral” possui:",
+                "opcoes": [
+                      "6 fonemas e 2 dígrafos.",
+                      "8 fonemas e nenhum dígrafo.",
+                      "8 fonemas e 1 dígrafo.",
+                      "7 fonemas e 1 dígrafo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>7 fonemas e 1 dígrafo.</strong>. Fonte: Instituto Fênix/2025. Assunto: digrafos.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Professor.",
+                      "Terra.",
+                      "Março.",
+                      "Processos.",
+                      "Chineses."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Março.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Cigarro.",
+                      "Pessoas.",
+                      "Fechado.",
+                      "Decreto.",
+                      "Bairros."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Decreto.</strong>. Fonte: FAU/2025. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Com base nos diferentes dígrafos, relacionar as colunas e assinalar a sequência correspondente. (1) Dígrafo consonantal. (2) Dígrafo vocálico. ( ) Molhado. ( ) Cansado. ( ) Impulso. ( ) Águia.",
+                "opcoes": [
+                      "2 − 1 − 1 − 2.",
+                      "1 − 2 − 2 − 1.",
+                      "1 − 2 − 2 − 2.",
+                      "2 − 1 − 1 − 1."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>1 − 2 − 2 − 1.</strong>. Fonte: OBJETIVA/2025. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "De acordo com a aplicação das normas constantes do sistema ortográfico da Língua Portuguesa, as palavras “congresso” e “quase”, respectivamente, contêm",
+                "opcoes": [
+                      "ditongo e tritongo.",
+                      "dígrafo e hiato.",
+                      "hiato e dígrafo.",
+                      "dígrafo e ditongo.",
+                      "dígrafo e tritongo. Resposta correta"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dígrafo e tritongo. Resposta correta</strong>. Fonte: CETREDE/2025. Assunto: digrafos.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos"
+                ]
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo sobre palavras presentes no texto: I. A palavra “recém-nascida” leva hífen pelo mesmo motivo de “Disse-me”. II. As palavras “Passando” e “caminhada” apresentam dígrafos. III. A palavra “última” não é acentuada pelo mesmo motivo de “imóvel”. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas II e III.</strong>. Fonte: FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Qual dos vocábulos listados a seguir apresenta um dígrafo vocálico?",
+                "opcoes": [
+                      "Sucesso.",
+                      "Assíduo.",
+                      "Queijo.",
+                      "Bambo.",
+                      "Morro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Bambo.</strong>. Fonte: CETREDE/2025. Assunto: digrafos.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos (consonantais e vocálicos) existem na expressão “dar murro em ponta de faca”?",
+                "opcoes": [
+                      "3.",
+                      "4.",
+                      "2.",
+                      "0.",
+                      "1."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3.</strong>. Fonte: CETREDE/2025. Assunto: digrafos.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “carro” contém um dígrafo. Qual das palavras abaixo também contém um dígrafo?",
+                "opcoes": [
+                      "Plano.",
+                      "Vidro.",
+                      "Francesa.",
+                      "Carroça.",
+                      "Música."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Carroça.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa em que todas as palavras têm dígrafos vocálicos.",
+                "opcoes": [
+                      "Falam | batem | cantam.",
+                      "Igual | escola | caixa.",
+                      "Cambalhota | incomum | ensinar.",
+                      "Cuidado | feijão | país."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Cambalhota | incomum | ensinar.</strong>. Fonte: OBJETIVA/2025. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que alguma (s) palavra (s) não seja(m) composta(s) por dígrafo(s):",
+                "opcoes": [
+                      "Quiabo, chuvisco, guisado;",
+                      "Escola; guisado, amplo;",
+                      "Cambalhota; ombro; umbanda;",
+                      "Conto, fundo, untar."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Escola; guisado, amplo;</strong>. Fonte: EVO Concursos/2025. Assunto: digrafos.",
+                "banca": "EVO Concursos",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra “chacina”, no primeiro quadrinho da charge, tem um dígrafo que representa uma consoante. Também se verifica este tipo de dígrafo em:",
+                "opcoes": [
+                      "“assistir”.",
+                      "“baile”.",
+                      "“aspargo”.",
+                      "“relação”.",
+                      "“divertido”."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>“assistir”.</strong>. Fonte: Avança SP/2025. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando as relações entre fonemas e suas grafias e a ocorrência dos dígrafos, analise as assertivas a seguir: I. Em palavras como “falam”, “batem” e “alguém”, temos a presença de dígrafos nasais. II. Nas palavras “aguado” e “aquático”, não há a presença de dígrafos, pois cada uma das letras corresponde a fonemas distintos. III. Em todas as palavras a seguir, há a presença de dígrafos: piscina, limpo, querida. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas II e III.</strong>. Fonte: FUNDATEC/2025. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Os lobos, que são constantemente apontados como os primeiros ancestrais dos cachorros.\" Os espaços das alternativas abaixo podem ser preenchidos com o mesmo dígrafo destacado do vocábulo do trecho acima, EXCETO em:",
+                "opcoes": [
+                      "ma.....ucar.",
+                      "in....ado",
+                      "recau....utar.",
+                      "en.....urrada."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>en.....urrada.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todos os dígrafos estejam escritos corretamente:",
+                "opcoes": [
+                      "passar - arremeço - caminho - flexa",
+                      "nasça - falha - flexa - ascensão",
+                      "ascensão - falha - flecha - arremesso",
+                      "flecha - eceto - cachorro - naça"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ascensão - falha - flecha - arremesso</strong>. Fonte: FAMA/2025. Assunto: digrafos.",
+                "banca": "FAMA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das alternativas apresenta um dígrafo vocálico e um consonantal, respectivamente?",
+                "opcoes": [
+                      "Imprevisto | ombro.",
+                      "Queijo | encontro.",
+                      "Mambo | águia.",
+                      "Palheta | pássaro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Mambo | águia.</strong>. Fonte: OBJETIVA/2025. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Analise as afirmações que seguem e assinale a que apresenta uma afirmação correta:",
+                "opcoes": [
+                      "A palavra \"sussurro\" tem como antônimo \"murmúrio\", enquanto \"dependência\" possui como sinônimo \"subordinação\".",
+                      "Todas as frases do texto são declarativas afirmativas e estão corretamente escritas.",
+                      "Nas palavras \"maravilhosa\", \"esquecer\" e \"justamente\" temos exemplos de dígrafos.",
+                      "A frase \"É talvez chegar em casa e contar seu dia e só sentir que teve um dia quando a gente conta como foi\" possui um erro de concordância verbal.",
+                      "O segundo período do texto está escrito em linguagem culta e sem erros de ortografia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Nas palavras \"maravilhosa\", \"esquecer\" e \"justamente\" temos exemplos de dígrafos.</strong>. Fonte: AMAUC/2025. Assunto: digrafos.",
+                "banca": "AMAUC",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Quanto ao número de dígrafos e fonemas, qual das palavras a seguir é composta por 9 fonemas e 1 dígrafo?",
+                "opcoes": [
+                      "envolver.",
+                      "indesejadas.",
+                      "impedir.",
+                      "intrusivas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>intrusivas.</strong>. Fonte: Instituto Fênix/2025. Assunto: digrafos.",
+                "banca": "Instituto Fênix",
+                "ano": 2025,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Considerando a definição de dígrafos/encontros consonantais, assinale a alternativa INCORRETA.",
+                "opcoes": [
+                      "Não há encontro consonantal em \"imagem\".",
+                      "Há um encontro consonantal em \"lembrar\".",
+                      "Há um dígrafo consonantal em \"parques\".",
+                      "Há um dígrafo consonantal em \"quando\".",
+                      "Há tanto dígrafo consonantal quanto encontro consonantal em \"trabalho\"."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Há um dígrafo consonantal em \"quando\".</strong>. Fonte: FAFIPA/2024. Assunto: digrafos.",
+                "banca": "FAFIPA",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "\"Ela participou de corridas de bigas (carruagens) de quatro1 cavalos seguidas2 [...]\" Em se tratando dos pares /qu/ e /gu/ nas palavras , quatro e seguidas , verdadeiro dizer que",
+                "opcoes": [
+                      "em 1 há dígrafo, mas em 2 não há.",
+                      "em 1 e em 2 há dígrafos.",
+                      "em 2 há dígrafo, mas em 1 não há.",
+                      "em 1 e em 2 não há dígrafos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>em 2 há dígrafo, mas em 1 não há.</strong>. Fonte: IDIB/2024. Assunto: digrafos.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quando duas consoantes aparecem juntas em uma palavra e o som de cada uma delas é mantido, tem-se o encontro consonantal; quando as duas consoantes formam um único fonema, tem-se um dígrafo. Nesse sentido, assinale a alternativa correta.",
+                "opcoes": [
+                      "Planta: dígrafo.",
+                      "Folhetim: dígrafo.",
+                      "Pseudônimo: dígrafo.",
+                      "Aclimado: dígrafo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Folhetim: dígrafo.</strong>. Fonte: IDIB/2024. Assunto: digrafos.",
+                "banca": "IDIB",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa cujo vocábulo destacado contém um dígrafo e ditongo crescente, respectivamente.",
+                "opcoes": [
+                      "Assombradas.",
+                      "Vergonha.",
+                      "Violência.",
+                      "Agressão.",
+                      "Ampliar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Violência.</strong>. Fonte: Instituto Legatus/2024. Assunto: digrafos.",
+                "banca": "Instituto Legatus",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos"
+                ]
+          },
+          {
+                "enunciado": "O encontro entre as letras ocasiona certos eventos fonéticos. Aponte a alternativa com a descrição correta da ocorrência dessas relações:",
+                "opcoes": [
+                      "Em “água” (linha 01) o termo destacado é um dígrafo.",
+                      "“Bolhas” (linha 11) tem um dígrafo em [lh].",
+                      "“Produto” (linha 10) apresenta um dígrafo em destaque.",
+                      "“Quando” (linha 23) apresenta o mesmo dígrafo de “inócua” (linha 26), ambos em destaque."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“Bolhas” (linha 11) tem um dígrafo em [lh].</strong>. Fonte: ABCP/2024. Assunto: digrafos.",
+                "banca": "ABCP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\" E embora essa pareça ser uma estratégia menos comum no reino vegetal...\" A alternativa abaixo que apresenta palavras grafadas corretamente com o mesmo dígrafo da palavra destacada no texto é:",
+                "opcoes": [
+                      "submissão, colosso.",
+                      "presságio, Suíssa.",
+                      "dissolução, macissa.",
+                      "cessão, embassado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>submissão, colosso.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\" E embora essa pareça ser uma estratégia menos comum no reino vegetal...\" A alternativa abaixo que apresenta palavras grafadas corretamente com o mesmo dígrafo da palavra destacada no texto é:",
+                "opcoes": [
+                      "dissolução, macissa.",
+                      "submissão, colosso.",
+                      "cessão, embassado.",
+                      "presságio, Suíssa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>submissão, colosso.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "O único par de palavras em que ambos os vocábulos apresentam o mesmo tipo de dígrafo, cujo valor é o de consoante, é:",
+                "opcoes": [
+                      "ambiente; chacota.",
+                      "excesso; piscina.",
+                      "assíduo; empírico.",
+                      "indiferente; chuva.",
+                      "psiquiatra; monte."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>excesso; piscina.</strong>. Fonte: Avança SP/2024. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "O outro tipo — chamado glia — compõe o resto. Estas pequenas células possuem um corpo central de formato oval, do qual emergem braços delgados semelhantes a ramificações. Assinale a opção em que todos os vocábulos possuem dígrafo consonantal.",
+                "opcoes": [
+                      "semelhantes - ramificações",
+                      "pequenas − braços",
+                      "chamado − pequenas",
+                      "possuem - emergem"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>chamado − pequenas</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa cuja palavra contenha dois dígrafos:",
+                "opcoes": [
+                      "Guitarra.",
+                      "Exceção.",
+                      "Assadura.",
+                      "Rainha."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Guitarra.</strong>. Fonte: OBJETIVA/2024. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Eles também acham que a sua cama é um paraíso.\" Os vocábulos que estão grafados corretamente com o mesmo dígrafo 'ch' da palavra destacada no texto são:",
+                "opcoes": [
+                      "Bicho e enchergar.",
+                      "Chalé e charada.",
+                      "Bolacha e deichar.",
+                      "Chilique e bechiga."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Chalé e charada.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"A burrice urbana galopa sem rédeas, e a inteligência parece engatar a marcha à ré.\" Sobre os aspectos fonéticos, assinale a alternativa cuja palavra NÃO possui dígrafo:",
+                "opcoes": [
+                      "engatar",
+                      "marcha",
+                      "burrice",
+                      "galopa"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>galopa</strong>. Fonte: ACAFE/2024. Assunto: digrafos.",
+                "banca": "ACAFE",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assim como a palavra “velhice” contém dígrafo, qual das palavras abaixo também contém dígrafo?",
+                "opcoes": [
+                      "Família.",
+                      "Corpo.",
+                      "Filete.",
+                      "Bilhete.",
+                      "Mobília."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Bilhete.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta palavra com dígrafo.",
+                "opcoes": [
+                      "Rezar.",
+                      "Ganhar.",
+                      "Mortos.",
+                      "Cemitérios.",
+                      "Túmulos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ganhar.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa na qual todas as palavras contêm dígrafos.",
+                "opcoes": [
+                      "Setentona – editoras – poucas.",
+                      "Sucessivos – espalhavam – enchente.",
+                      "Livros – casca – ininterrupta.",
+                      "Antiga – apoio – obsoleta.",
+                      "História – setor – feira."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Sucessivos – espalhavam – enchente.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "No trecho: \"A burrice urbana galopa sem rédeas, e a inteligência parece engatar a marcha à ré.\" Sobre os aspectos fonéticos, assinale a alternativa cuja palavra NÃO possui dígrafo:",
+                "opcoes": [
+                      "marcha",
+                      "engatar",
+                      "galopa",
+                      "burrice"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>galopa</strong>. Fonte: ACAFE/2024. Assunto: digrafos.",
+                "banca": "ACAFE",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Os gatos convivem com os seres humanos há milhares de anos. E, muito antes de os memes viralizarem na internet, eles têm nos confortado. Assinale a alternativa correta que contenha apenas dígrafo consonantal.",
+                "opcoes": [
+                      "Milhares",
+                      "Memes",
+                      "Viralizarem",
+                      "Humanos"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Milhares</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção que possui um dígrafo:",
+                "opcoes": [
+                      "Amapá;",
+                      "falar;",
+                      "agora;",
+                      "excesso."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>excesso.</strong>. Fonte: Prefeitura de Bombinhas - SC/2024. Assunto: digrafos.",
+                "banca": "Prefeitura de Bombinhas - SC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "“Elas têm sido alvo de discussões no mundo todo...”. Assinale a alternativa correta que apresenta uma palavra escrita com o dígrafo “SS”, assim como “discussões”.",
+                "opcoes": [
+                      "Assimetria.",
+                      "Inssendiário.",
+                      "Imprescindível.",
+                      "Convalescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Assimetria.</strong>. Fonte: Instituto Darwin/2024. Assunto: digrafos.",
+                "banca": "Instituto Darwin",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao conceito de dígrafos, analise as assertivas abaixo. I. Em palavras como \"galho\", \"chapéu\" e \"corrida\", o número de dígrafos é o mesmo. II. Nem todo agrupamento de duas letras forma um dígrafo; em \"vem\", por exemplo, o agrupamento “em” não constitui um dígrafo. III. Nas palavras \"amplo\", \"pombo\" e \"lindo\", há dígrafos vocálicos, uma vez que as letras m e n indicam nasalização da vogal anterior. IV. O dígrafo sempre aparece no mesmo número que os fonemas que representa em uma palavra. Assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Apenas as assertivas I, II e III estão corretas.",
+                      "Apenas as assertivas II e III estão corretas.",
+                      "Apenas as assertivas I e III estão corretas.",
+                      "Apenas as assertivas II e IV estão corretas.",
+                      "Todas as assertivas estão corretas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas as assertivas I, II e III estão corretas.</strong>. Fonte: INAZ do Pará/2024. Assunto: digrafos.",
+                "banca": "INAZ do Pará",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "A palavra a seguir que não apresenta dígrafo é:",
+                "opcoes": [
+                      "incompetente.",
+                      "trabalho.",
+                      "armário.",
+                      "sucessão.",
+                      "prescindir."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>armário.</strong>. Fonte: Avança SP/2024. Assunto: digrafos.",
+                "banca": "Avança SP",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "\"Eles também acham que a sua cama é um paraíso.\" Os vocábulos que estão grafados corretamente com o mesmo dígrafo 'ch' da palavra destacada no texto são:",
+                "opcoes": [
+                      "Chilique e bechiga.",
+                      "Bicho e enchergar.",
+                      "Bolacha e deichar.",
+                      "Chalé e charada."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Chalé e charada.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Maravilhas.",
+                      "Passeios.",
+                      "Público.",
+                      "Caminhar.",
+                      "Narrativas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Público.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das frases abaixo apresenta dígrafo?",
+                "opcoes": [
+                      "O menino era rápido.",
+                      "A bala verde é gostosa.",
+                      "Gostamos de jogar futebol.",
+                      "O pátio é feio.",
+                      "Ana deu uma cambalhota."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Ana deu uma cambalhota.</strong>. Fonte: OBJETIVA/2024. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em \"Sou composta por urgências\" as palavras \"composta\" e \"urgências\" possuem dígrafos, ou seja, o encontro de duas letras que formam um único som, ou seja, um único fonema.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: digrafos.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "A palavra “ferradura” contém um dígrafo, ou seja, duas letras que representam um único som. Qual das palavras abaixo também tem dígrafo?",
+                "opcoes": [
+                      "Planeta.",
+                      "Carrossel.",
+                      "Fritura.",
+                      "Régua.",
+                      "Arara."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Carrossel.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Guerra.",
+                      "Explodiu.",
+                      "Fechado.",
+                      "Terra.",
+                      "Passageiros."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Explodiu.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Barris.",
+                      "Carvalho.",
+                      "Propriedade.",
+                      "Interrupções.",
+                      "Reconhecido."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Propriedade.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Melhores.",
+                      "Braço.",
+                      "Profissional.",
+                      "Acesso.",
+                      "Conhecida."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Braço.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Dentre os vocábulos selecionados a seguir a partir do texto apresentado, indique o grupo em que todos apresentam em sua estrutura a presença de dígrafo.",
+                "opcoes": [
+                      "saudável, problema, deparar.",
+                      "prateleira, supermercado, parte.",
+                      "população, simplesmente, quais.",
+                      "alimentação, importantes, pessoa."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>alimentação, importantes, pessoa.</strong>. Fonte: Instituto Consulplan/2024. Assunto: digrafos.",
+                "banca": "Instituto Consulplan",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale alternativa que apresenta uma palavra com dígrafo.",
+                "opcoes": [
+                      "Graves.",
+                      "Costas.",
+                      "Calafrios.",
+                      "Pessoas.",
+                      "Roupas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pessoas.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo retiradas do texto NÃO possui dígrafo?",
+                "opcoes": [
+                      "compartilhar",
+                      "aglomerações",
+                      "tossir",
+                      "espirrar"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>aglomerações</strong>. Fonte: Instituto Referência/2024. Assunto: digrafos.",
+                "banca": "Instituto Referência",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se as repetições, as palavras “esporotricose”, “organismo”, “transmissores” e “pernambucanos” possuem, ao todo,",
+                "opcoes": [
+                      "dois dígrafos vocálicos e um dígrafo consonantal.",
+                      "somente três dígrafos consonantais.",
+                      "nenhum tipo de dígrafo.",
+                      "somente três dígrafos vocálicos.",
+                      "dois dígrafos consonantais e um dígrafo vocálico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>dois dígrafos vocálicos e um dígrafo consonantal.</strong>. Fonte: CETREDE/2024. Assunto: digrafos.",
+                "banca": "CETREDE",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra contendo um dígrafo corretamente identificado.",
+                "opcoes": [
+                      "água – O dígrafo é “ua”.",
+                      "vista – O dígrafo é “st”.",
+                      "chave – O dígrafo é “ch”.",
+                      "triste – O dígrafo é “tr”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>chave – O dígrafo é “ch”.</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa cuja palavra possui dígrafo, isto é, o encontro entre duas letras que formam um único som.",
+                "opcoes": [
+                      "Brasil",
+                      "Raízes.",
+                      "Quadrilha.",
+                      "Carioca."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Quadrilha.</strong>. Fonte: Itame/2024. Assunto: digrafos.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quanto a dígrafos que representam consoantes, assinale a alternativa incorreta.",
+                "opcoes": [
+                      "Mundo.",
+                      "Ganhar.",
+                      "Galho.",
+                      "Passo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mundo.</strong>. Fonte: MSConcursos/2024. Assunto: digrafos.",
+                "banca": "MSConcursos",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando que dígrafo é o encontro de duas letras que representam um único som, assinalar a alternativa que apresenta dígrafo.",
+                "opcoes": [
+                      "Forno.",
+                      "Céu.",
+                      "Lapiseira.",
+                      "Ferreiro."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ferreiro.</strong>. Fonte: OBJETIVA/2024. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a alternativa correta:",
+                "opcoes": [
+                      "Em ‘simplicidade aparente’, ‘simplicidade’ é um adjetivo.",
+                      "Em ‘imersão’ há um dígrafo.",
+                      "‘estímulo’ e ‘música’ são acentuadas pela mesma regra.",
+                      "Em ‘estímulos online’, ‘estímulos’ modifica o sentido de ‘online’.",
+                      "Em ‘sua simplicidade’, ‘sua’ é uma preposição."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>‘estímulo’ e ‘música’ são acentuadas pela mesma regra.</strong>. Fonte: IDHTEC/2024. Assunto: digrafos.",
+                "banca": "IDHTEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra apresenta dígrafo.",
+                "opcoes": [
+                      "Dengue.",
+                      "Casos.",
+                      "Prefeitura.",
+                      "Projeto.",
+                      "Digitais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dengue.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Flutuações dos níveis do neurotransmissor dopamina nessas regiões podem mediar nossa sensibilidade a estímulos de reforço, como alimentos ou substâncias de uso abusivo. (Fonte: https://www.bbc.com/portuguese/articles/ ce786w66xwro.adaptado) Assinale a opção que contenha dois dígrafos.",
+                "opcoes": [
+                      "sensibilidade − abusivo.",
+                      "flutuações − alimentos.",
+                      "estímulos − alimentos.",
+                      "neurotransmissor − nossa."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>neurotransmissor − nossa.</strong>. Fonte: AMEOSC/2024. Assunto: digrafos.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Fissuras.",
+                      "Pública.",
+                      "Vizinha.",
+                      "Rocha.",
+                      "Emissora."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pública.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em qual das alternativas todas as palavras retiradas do texto possuem dígrafo?",
+                "opcoes": [
+                      "Palhaço, trapezista, sonhando, arrisca.",
+                      "Mulher, que, sonhando, arrisca.",
+                      "Hein, tem, com, que.",
+                      "Mulher, que, trapezista, arrisca.",
+                      "Palhaço, trapezista, sonhando, mulher."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Mulher, que, sonhando, arrisca.</strong>. Fonte: MSConcursos/2012. Assunto: digrafos.",
+                "banca": "MSConcursos",
+                "ano": 2012,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Envelhecida.",
+                      "Terra.",
+                      "Problema.",
+                      "Bolha.",
+                      "Missão."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Problema.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Há dígrafo em:",
+                "opcoes": [
+                      "apoio",
+                      "desagregou",
+                      "filhos",
+                      "precisa"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>filhos</strong>. Fonte: FUMARC/2016. Assunto: digrafos.",
+                "banca": "FUMARC",
+                "ano": 2016,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Marque a opção em que todas as palavras têm ao menos um dígrafo:",
+                "opcoes": [
+                      "Sono, estrada.",
+                      "Fala, chuva.",
+                      "Assunto, tudo.",
+                      "Carro, excesso."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Carro, excesso.</strong>. Fonte: FAFIPA/2016. Assunto: digrafos.",
+                "banca": "FAFIPA",
+                "ano": 2016,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra abaixo que possui um dígrafo é:",
+                "opcoes": [
+                      "tamanha;",
+                      "história;",
+                      "adoração;",
+                      "utilidade;",
+                      "valor."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>tamanha;</strong>. Fonte: FGV/2014. Assunto: digrafos.",
+                "banca": "FGV",
+                "ano": 2014,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual das palavras abaixo contém dígrafo (duas letras que representam um som)?",
+                "opcoes": [
+                      "Saúde.",
+                      "Visão.",
+                      "Estressante.",
+                      "Rotina.",
+                      "Social."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Estressante.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assim como “território” (linha 09), a palavra que apresenta um dígrafo é:",
+                "opcoes": [
+                      "Garoa.",
+                      "Arroio.",
+                      "Sucará.",
+                      "Morador.",
+                      "Curioso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Arroio.</strong>. Fonte: FUNDATEC/2023. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra que apresenta dígrafo é:",
+                "opcoes": [
+                      "Emocional.",
+                      "Pratique.",
+                      "Número.",
+                      "Período.",
+                      "Sono."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Pratique.</strong>. Fonte: FUNDATEC/2023. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa com dígrafo:",
+                "opcoes": [
+                      "ritmo",
+                      "glicerina",
+                      "cassino",
+                      "capcioso"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cassino</strong>. Fonte: FUNATEC/2024. Assunto: digrafos.",
+                "banca": "FUNATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Em qual alternativa a palavra retirada do texto possui um dígrafo, ou seja, o encontro de duas letras que formam um único som?",
+                "opcoes": [
+                      "Cine.",
+                      "Teatro.",
+                      "Detalhes.",
+                      "Espectadores."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Detalhes.</strong>. Fonte: Itame/2024. Assunto: digrafos.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Das palavras abaixo, retiradas do texto, a única que possui um dígrafo, nasal ou não, é:",
+                "opcoes": [
+                      "Doutorado.",
+                      "Tema.",
+                      "Defendeu.",
+                      "Comunicar."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Defendeu.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Nos vocábulos abaixo, retirados do texto, há dígrafo em todos eles, com EXCEÇÃO da alternativa:",
+                "opcoes": [
+                      "moçambicano”.",
+                      "“reconhecer” .",
+                      "“estejam”.",
+                      "“qualquer”.",
+                      "“fantasma”."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“estejam”.</strong>. Fonte: CONTEMAX/2024. Assunto: digrafos.",
+                "banca": "CONTEMAX",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Ao considerar a frase retirada do texto 1 “Oswaldo Cruz ficou conhecido por atuar na análise de diversas epidemias.”, acerca do Dia Nacional da Saúde, assinale a alternativa que apresenta um dígrafo.",
+                "opcoes": [
+                      "“Cr” em “Cruz”.",
+                      "“nh” em “conhecido”.",
+                      "“rs” em “diversas”.",
+                      "“ia” em “epidemias”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“nh” em “conhecido”.</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra, retirada do texto, que contém um dígrafo é",
+                "opcoes": [
+                      "vez.",
+                      "loja.",
+                      "chão.",
+                      "porta."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>chão.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2024. Assunto: digrafos.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas sobre palavras retiradas do texto: I. A palavra “capacidade” não apresenta dígrafo. II. Em “estressantes” há apenas um dígrafo. III. O vocábulo “humanos” tem dois dígrafos. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que uma das palavras NÃO possui dígrafo consonantal.",
+                "opcoes": [
+                      "Pássaro / descer.",
+                      "Descendência / folha.",
+                      "Crescer / meia.",
+                      "Agasalho / exceção."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Crescer / meia.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "“Correu ao banheiro” (1º parágrafo). A palavra destacada possui:",
+                "opcoes": [
+                      "Um dígrafo nasal, um dígrafo comum e um ditongo.",
+                      "Um dígrafo, um hiato e quatro sílabas.",
+                      "Um dígrafo, três sílabas e um tritongo.",
+                      "Um dígrafo nasal, um dígrafo comum e um hiato."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Um dígrafo nasal, um dígrafo comum e um ditongo.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "ditongos",
+                      "tritongos",
+                      "hiatos",
+                      "silabas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra que contém dígrafo.",
+                "opcoes": [
+                      "Diuréticas.",
+                      "Forma.",
+                      "Verde.",
+                      "Folhas.",
+                      "Hortelã."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Folhas.</strong>. Fonte: FUNDATEC/2022. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2022,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que indica palavra que tenha o mesmo número de dígrafos do vocábulo “envelhecimento”.",
+                "opcoes": [
+                      "Entardecer.",
+                      "Honestamente.",
+                      "Engenhosamente.",
+                      "Macrocorreção.",
+                      "Habilidosamente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Engenhosamente.</strong>. Fonte: FUNDATEC/2022. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2022,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando a palavra “vulnerabilidades”, analise as assertivas a seguir: I. Trata-se de palavra oxítona formada por 7 sílabas. II. A palavra foi formada por derivação sufixal. III. Não há a presença de dígrafos na palavra. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Apenas II e III.</strong>. Fonte: FUNDATEC/2022. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2022,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "silabas",
+                      "oxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que apresenta as palavras que são formadas por dígrafos.",
+                "opcoes": [
+                      "guerra – chato – nascer",
+                      "exato – igualdade – carroça",
+                      "planta – prato – chave",
+                      "cravo – correto – franco",
+                      "atrás – assumir – chuva"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>guerra – chato – nascer</strong>. Fonte: Instituto Access/2024. Assunto: digrafos.",
+                "banca": "Instituto Access",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se o trecho “Muitas vezes pensei quão interessantemente podia ser escrita uma revista, por um autor que quisesse, isto é, que pudesse, pormenorizar, passo a passo, os processos pelos quais qualquer uma de suas composições atingia seu ponto de acabamento.”, analisar os itens. I. Há seis ocorrências do dígrafo consonantal -ss. II. Há sete ocorrências do dígrafo consonantal -qu. III. Há mais de uma ocorrência de encontro consonantal. Está CORRETO o que se afirma:",
+                "opcoes": [
+                      "Apenas no item I.",
+                      "Apenas no item II.",
+                      "Apenas nos itens I e III.",
+                      "Em todos os itens."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas nos itens I e III.</strong>. Fonte: OBJETIVA/2024. Assunto: digrafos.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos",
+                      "encontrosConsonantais"
+                ]
+          },
+          {
+                "enunciado": "Analise as seguintes assertivas sobre palavras retiradas do texto: I. A palavra “capacidade” não apresenta dígrafo. II. Em “estressantes” há apenas um dígrafo. III. O vocábulo “humanos” tem dois dígrafos. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas III.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Apenas I.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam dígrafo.",
+                "opcoes": [
+                      "computador / ameixa / própria.",
+                      "dente / carruagem / uva-passas.",
+                      "bicicleta / mulher / subverteu.",
+                      "acontecimento / quando / programa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>dente / carruagem / uva-passas.</strong>. Fonte: Instituto JK/2024. Assunto: digrafos.",
+                "banca": "Instituto JK",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Quantos dígrafos consonantais ocorrem na pergunta que inicia o texto?",
+                "opcoes": [
+                      "2.",
+                      "3.",
+                      "4.",
+                      "5."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>2.</strong>. Fonte: IDESG/2024. Assunto: digrafos.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta dígrafo.",
+                "opcoes": [
+                      "Facilidade.",
+                      "Protetores.",
+                      "Produtos.",
+                      "Ultravioleta.",
+                      "Queimaduras."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Queimaduras.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO apresente dígrafo:",
+                "opcoes": [
+                      "Massa.",
+                      "Sozinhos.",
+                      "Esquema.",
+                      "Planejados.",
+                      "Chamados."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Planejados.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra NÃO possua dígrafo:",
+                "opcoes": [
+                      "Ocorreu.",
+                      "Passado.",
+                      "Disso.",
+                      "Registre.",
+                      "Queda."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Registre.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Qual alternativa apresenta palavra com dígrafo?",
+                "opcoes": [
+                      "Rotina.",
+                      "Costas.",
+                      "Trabalha.",
+                      "Horas.",
+                      "Problema."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Trabalha.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "A palavra, retirada do texto, que contém dígrafo é:",
+                "opcoes": [
+                      "Dieta.",
+                      "Ômega.",
+                      "Vitaminas.",
+                      "Sardinha.",
+                      "Minerais."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Sardinha.</strong>. Fonte: FUNDATEC/2024. Assunto: digrafos.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua dígrafo:",
+                "opcoes": [
+                      "Março.",
+                      "Trabalhos.",
+                      "Estrutura.",
+                      "Obras.",
+                      "Crítico."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Trabalhos.</strong>. Fonte: FAU/2024. Assunto: digrafos.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Dígrafos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "digrafos"
                 ]
           }
     ],
@@ -14917,6 +18482,27 @@ var QUESTOES_BANCO = {
                       "proparoxitonas",
                       "paroxitonas"
                 ]
+          },
+          {
+                "enunciado": "Sobre a palavra “crônicas”, é correto afirmar que:",
+                "opcoes": [
+                      "É proparoxítona.",
+                      "Apresenta 2 encontros consonantais.",
+                      "É paroxítona.",
+                      "É polissílaba.",
+                      "Apresenta dígrafo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>É proparoxítona.</strong>. Fonte: FUNDATEC/2024. Assunto: tonicidade.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "proparoxitonas",
+                      "paroxitonas"
+                ]
           }
     ],
     "silabas": [
@@ -14937,6 +18523,24 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "silabas"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item a seguir.\nSegundo o novo Acordo Ortográfico da Língua Portuguesa, as sucessões de mais de duas consoantes ou de m ou n, com o valor de nasalidade, e duas ou mais consoantes são divisíveis por um de dois meios: se nelas entra um dos grupos que são indivisíveis (de acordo com o preceito 1º), esse grupo forma sílaba para diante, ficando a consoante ou consoantes que o precedem ligadas à sílaba anterior; se nelas não entra nenhum desses grupos, a divisão dá-se sempre antes da última consoante.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2024. Assunto: silabasAcentuacao.",
+                "banca": "IGEDUC",
+                "ano": 2024,
+                "assunto": "silabasAcentuacao",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "ortografia"
                 ]
           }
     ],
