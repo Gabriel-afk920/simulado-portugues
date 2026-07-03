@@ -706,19 +706,13 @@ document.getElementById('btn-estudar-result').addEventListener('click', () => {
 //  PAINEL DE TEORIA
 // ══════════════════════════════════════════════════════════
 
-// Cada grupo define: membros (sub-temas que colapsam), pai (tema com a teoria),
-// ruido (IDs que desaparecem quando o grupo é ativado).
-// Para adicionar um novo grupo: basta inserir uma entrada aqui.
+// IDs que não têm entrada própria em TEMAS ou são redundantes com seu pai:
+// colapsar para o tema pai antes de renderizar.
+// Para adicionar um novo grupo: inserir uma entrada em _GRUPOS_COLAPSO.
 const _GRUPOS_COLAPSO = [
   {
-    membros: ['oxitonas', 'paroxitonas', 'proparoxitonas', 'acentuacaoGrafica', 'tonicidade'],
+    membros: ['oxitonas', 'paroxitonas', 'proparoxitonas', 'acentuacaoGrafica'],
     pai:     'tonicidade',
-    ruido:   ['ditongos', 'tritongos', 'hiatos', 'digrafos', 'encontrosConsonantais', 'fonemas', 'silabas', 'ortografia']
-  },
-  {
-    membros: ['ditongos', 'tritongos', 'hiatos'],
-    pai:     'ditongos',    // exibe teoria de Ditongos como representante do trio
-    ruido:   []
   }
 ];
 
@@ -729,11 +723,11 @@ function _resolverTemasParaPanel(ids) {
     if (grupo.membros.some(id => set.has(id))) {
       for (const id of grupo.membros) set.delete(id);
       set.add(grupo.pai);
-      for (const id of grupo.ruido)   set.delete(id);
     }
   }
 
-  return [...set];
+  // Remover IDs que não existem em TEMAS (não têm teoria para exibir)
+  return [...set].filter(id => TEMAS.some(t => t.id === id && t.teoria));
 }
 
 function abrirPainelTeoria() {
@@ -744,12 +738,9 @@ function abrirPainelTeoria() {
   if (!respondeu) teoriaConsultada[indiceAtual] = true;
 
   const temaIds = _resolverTemasParaPanel(q.temas_relacionados);
-  if (temaIds.length === 1) {
-    const t = TEMAS.find(x => x.id === temaIds[0]);
-    if (t) _mostrarConteudoTema(t, temaIds);
-  } else {
-    _mostrarSeletorTemas(temaIds);
-  }
+  if (!temaIds.length) return;
+
+  _mostrarTodasTeoriasEmpilhadas(temaIds);
 
   const overlay = document.getElementById('teoria-overlay');
   const panel   = document.getElementById('teoria-panel');
@@ -761,44 +752,36 @@ function abrirPainelTeoria() {
   });
 }
 
-function _mostrarSeletorTemas(temaIds) {
+function _mostrarTodasTeoriasEmpilhadas(temaIds) {
   const body = document.getElementById('teoria-panel-body');
   body.innerHTML = '';
 
-  const titulo = document.createElement('p');
-  titulo.className = 'teoria-selector-titulo';
-  titulo.textContent = 'Selecione o tema que deseja consultar:';
-  body.appendChild(titulo);
+  const temas = temaIds.map(id => TEMAS.find(x => x.id === id)).filter(Boolean);
 
-  temaIds.forEach(temaId => {
-    const t = TEMAS.find(x => x.id === temaId);
-    if (!t) return;
-    const btn = document.createElement('button');
-    btn.className = 'teoria-tema-btn';
-    btn.innerHTML = `<span class="teoria-tema-icon">${t.icon}</span><span class="teoria-tema-nome">${t.nome}</span>`;
-    btn.addEventListener('click', () => _mostrarConteudoTema(t, temaIds));
-    body.appendChild(btn);
-  });
-
-  body.scrollTop = 0;
-}
-
-function _mostrarConteudoTema(t, temaIds) {
-  const body = document.getElementById('teoria-panel-body');
-  body.innerHTML = '';
-
-  if (temaIds.length > 1) {
-    const btnVoltar = document.createElement('button');
-    btnVoltar.className = 'teoria-voltar-btn';
-    btnVoltar.innerHTML = '← Voltar aos temas';
-    btnVoltar.addEventListener('click', () => _mostrarSeletorTemas(temaIds));
-    body.appendChild(btnVoltar);
+  // Índice de navegação rápida (só quando há mais de um tema)
+  if (temas.length > 1) {
+    const nav = document.createElement('div');
+    nav.className = 'teoria-nav';
+    nav.innerHTML = temas.map((t, i) =>
+      `<a class="teoria-nav-link" href="#teoria-sec-${i}">${t.icon} ${t.nome}</a>`
+    ).join('');
+    body.appendChild(nav);
   }
 
-  const div = document.createElement('div');
-  div.className = 'teoria-panel-tema';
-  div.innerHTML = `<h2>${t.icon} ${t.nome}</h2><div class="teoria-body">${t.teoria}</div>`;
-  body.appendChild(div);
+  // Uma seção por tema, todas empilhadas
+  temas.forEach((t, i) => {
+    const sec = document.createElement('div');
+    sec.className = 'teoria-panel-tema';
+    sec.id = `teoria-sec-${i}`;
+    sec.innerHTML = `<h2>${t.icon} ${t.nome}</h2><div class="teoria-body">${t.teoria}</div>`;
+    body.appendChild(sec);
+
+    if (i < temas.length - 1) {
+      const hr = document.createElement('hr');
+      hr.className = 'teoria-divisor';
+      body.appendChild(hr);
+    }
+  });
 
   body.scrollTop = 0;
 }
