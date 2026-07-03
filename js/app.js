@@ -705,21 +705,32 @@ document.getElementById('btn-estudar-result').addEventListener('click', () => {
 // ══════════════════════════════════════════════════════════
 //  PAINEL DE TEORIA
 // ══════════════════════════════════════════════════════════
-const _TRIO_FENOMENOS   = ['ditongos', 'tritongos', 'hiatos'];
-const _GRUPO_TONICIDADE = ['oxitonas', 'paroxitonas', 'proparoxitonas', 'tonicidade', 'acentuacaoGrafica'];
 
-function _expandirTemasTrio(ids) {
+// Cada grupo define: membros (sub-temas que colapsam), pai (tema com a teoria),
+// ruido (IDs que desaparecem quando o grupo é ativado).
+// Para adicionar um novo grupo: basta inserir uma entrada aqui.
+const _GRUPOS_COLAPSO = [
+  {
+    membros: ['oxitonas', 'paroxitonas', 'proparoxitonas', 'acentuacaoGrafica', 'tonicidade'],
+    pai:     'tonicidade',
+    ruido:   ['ditongos', 'tritongos', 'hiatos', 'digrafos', 'encontrosConsonantais', 'fonemas', 'silabas', 'ortografia']
+  },
+  {
+    membros: ['ditongos', 'tritongos', 'hiatos'],
+    pai:     'ditongos',    // exibe teoria de Ditongos como representante do trio
+    ruido:   []
+  }
+];
+
+function _resolverTemasParaPanel(ids) {
   const set = new Set(ids);
 
-  // Colapsar sub-temas de tonicidade → apenas 'tonicidade'
-  if (_GRUPO_TONICIDADE.some(id => set.has(id))) {
-    for (const id of _GRUPO_TONICIDADE) set.delete(id);
-    set.add('tonicidade');
-    // Remover temas fonológicos que aparecem só como exemplos em questões de tonicidade
-    for (const id of [..._TRIO_FENOMENOS, 'digrafos', 'encontrosConsonantais', 'fonemas', 'silabas', 'ortografia']) set.delete(id);
-  } else if (_TRIO_FENOMENOS.some(id => set.has(id))) {
-    // Expandir trio fonológico → mostrar os três sempre juntos
-    for (const id of _TRIO_FENOMENOS) set.add(id);
+  for (const grupo of _GRUPOS_COLAPSO) {
+    if (grupo.membros.some(id => set.has(id))) {
+      for (const id of grupo.membros) set.delete(id);
+      set.add(grupo.pai);
+      for (const id of grupo.ruido)   set.delete(id);
+    }
   }
 
   return [...set];
@@ -732,7 +743,7 @@ function abrirPainelTeoria() {
   // Marca que teoria foi consultada nesta questão (penalidade de 0,5pt se acertar)
   if (!respondeu) teoriaConsultada[indiceAtual] = true;
 
-  const temaIds = _expandirTemasTrio(q.temas_relacionados);
+  const temaIds = _resolverTemasParaPanel(q.temas_relacionados);
   if (temaIds.length === 1) {
     const t = TEMAS.find(x => x.id === temaIds[0]);
     if (t) _mostrarConteudoTema(t, temaIds);
