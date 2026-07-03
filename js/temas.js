@@ -1,4 +1,4 @@
-﻿// ══════════════════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════
 //  BANCO DE QUESTÕES
 // ══════════════════════════════════════════════════════════
 const TEMAS = [
@@ -2597,82 +2597,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     ,
       { enunciado: 'A classificação das palavras quanto à posição da sílaba tônica segue critérios definidos na língua. Diante disso, indique a alternativa correta:', opcoes: ["A classificação das palavras depende da quantidade de letras presentes.", "As palavras oxítonas apresentam a sílaba tônica na última posição.", "A tonicidade é determinada apenas pelo uso de sinais gráficos.", "A posição da sílaba tônica varia conforme o tipo de frase."], correta: 1, explicacao: 'Gabarito: B — Banca: Gama (2026)' }
     ]
-  },
-  // ─────────────────────────────────────────
-  {
-    id: "oxitonas", nome: "Oxítonas", icon: "🔺", desc: "Sílaba tônica na última sílaba",
-    teoria: `<h3>O que é uma Oxítona?</h3>
-<p><strong>Oxítona</strong> é a palavra cuja <strong>sílaba tônica</strong> (mais intensa) está na <strong>última</strong> sílaba. É o oposto da paroxítona.</p>
-<div class="exemplo-box">ca-<strong>FÉ</strong> &nbsp;·&nbsp; so-<strong>FÁ</strong> &nbsp;·&nbsp; tam-<strong>BÉM</strong> &nbsp;·&nbsp; cha-<strong>PÉU</strong> &nbsp;·&nbsp; he-<strong>RÓI</strong> &nbsp;·&nbsp; fa-<strong>LAR</strong> &nbsp;·&nbsp; pa-<strong>PEL</strong></div>
-
-<h3>Oxítonas COM acento gráfico</h3>
-<p>Recebem acento quando terminam em vogal tônica ou ditongo aberto final — porque essas terminações "deveriam" ser paroxítonas sem acento:</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Terminação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-á, -ás</td><td style="padding:8px 10px;color:#fde68a;">sofá, maracá, vatapá, chás</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-é, -és, -ê, -ês</td><td style="padding:8px 10px;color:#fde68a;">café, pé, revés; bebê, você, inglês</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ó, -ós, -ô, -ôs</td><td style="padding:8px 10px;color:#fde68a;">avó, cipó; avô, metrô, metrôs</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ém, -éns</td><td style="padding:8px 10px;color:#fde68a;">também, porém, armazém; parabéns, reféns</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-éu, -éus</td><td style="padding:8px 10px;color:#fde68a;">chapéu, troféu, céu, chapéus</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ói, -óis</td><td style="padding:8px 10px;color:#fde68a;">herói, heróis, lençóis, anéis</td></tr>
-</tbody></table>
-
-<h3>Oxítonas SEM acento gráfico</h3>
-<p>Quando terminam em consoante ou nas vogais -i/-u, a própria terminação já indica que a última sílaba é tônica — acento dispensado:</p>
-<div class="exemplo-box">
-  <strong>-r:</strong> falar, comer, amor, partir &nbsp;·&nbsp; <strong>-l:</strong> papel, animal, azul, sol<br>
-  <strong>-z:</strong> voz, feliz, capaz, nariz &nbsp;·&nbsp; <strong>-i:</strong> aqui, ali, abacaxi<br>
-  <strong>-u:</strong> tabu, bambu, peru, caju &nbsp;·&nbsp; <strong>-im/-ins:</strong> jardim, jardins<br>
-  <strong>-um/-uns:</strong> algum, nenhum, alguns
-</div>
-
-<h3>Oxítonas com ditongo nasal final (sem acento)</h3>
-<p>Oxítonas terminadas em ditongo nasal <strong>não</strong> recebem acento:</p>
-<div class="exemplo-box">
-  saguão, refrão, coração, verão, irmão, limão, avião<br>
-  <em>Atenção: terminam em -ão tônico → oxítonas SEM acento</em><br>
-  Compare: <strong>ór</strong>-gão (paroxítona COM acento) × sa-<strong>guão</strong> (oxítona SEM acento)
-</div>
-<div class="dica-box"><div class="dica-title">Como identificar</div>Conta as sílabas da direita para a esquerda. Se a mais intensa é a 1ª (última da palavra), é oxítona. Terminações -r, -l, -z, -x, -i, -u, -im, -um = oxítonas sem acento. Terminações com vogal acentuada no final = oxítonas com acento.</div>`,
-    questoes: []
-  },
-  // ─────────────────────────────────────────
-  {
-    id: "paroxitonas", nome: "Paroxítonas", icon: "🔸", desc: "Sílaba tônica na penúltima sílaba",
-    teoria: `<h3>O que é uma Paroxítona?</h3>
-<p><strong>Paroxítona</strong> é a palavra cuja <strong>sílaba tônica</strong> está na <strong>penúltima</strong> sílaba. É o padrão mais comum do português — a maioria das palavras sem acento gráfico é paroxítona.</p>
-<div class="exemplo-box"><strong>CA</strong>-sa &nbsp;·&nbsp; <strong>BO</strong>-lo &nbsp;·&nbsp; <strong>JO</strong>-vem &nbsp;·&nbsp; <strong>FÁ</strong>-cil &nbsp;·&nbsp; <strong>VÍ</strong>-rus &nbsp;·&nbsp; <strong>ÓR</strong>-gão &nbsp;·&nbsp; <strong>LÁ</strong>-pis</div>
-
-<h3>Paroxítonas SEM acento gráfico (terminações comuns)</h3>
-<p>Quando a terminação já é o padrão esperado do português, o acento é dispensado:</p>
-<div class="exemplo-box">
-  <strong>-a/-as:</strong> casa, mesas &nbsp;·&nbsp; <strong>-e/-es:</strong> parte, montes &nbsp;·&nbsp; <strong>-o/-os:</strong> livro, carros<br>
-  <strong>-am:</strong> falam, cantam &nbsp;·&nbsp; <strong>-em/-ens:</strong> comem, jovens<br>
-  <strong>-agem/-igem/-ugem:</strong> viagem, origem, ferrugem
-</div>
-
-<h3>Paroxítonas COM acento gráfico</h3>
-<p>Quando a terminação normalmente geraria uma oxítona, o acento é necessário para avisar: <em>"a tônica está na penúltima, não na última."</em></p>
-<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Terminação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Por quê?</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-l</td><td style="padding:8px 10px;color:#fde68a;">fácil, fóssil, difícil, útil, réptil</td><td style="padding:8px 10px;color:#94a3b8;">-l sem acento → oxítona (papel)</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-r</td><td style="padding:8px 10px;color:#fde68a;">açúcar, caráter, éter</td><td style="padding:8px 10px;color:#94a3b8;">-r sem acento → oxítona (falar)</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-n</td><td style="padding:8px 10px;color:#fde68a;">hífen, abdômen</td><td style="padding:8px 10px;color:#94a3b8;">-n indica paroxítona só com acento</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-x</td><td style="padding:8px 10px;color:#fde68a;">tórax, látex, ônix</td><td style="padding:8px 10px;color:#94a3b8;">-x sem acento → oxítona (fax)</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-us</td><td style="padding:8px 10px;color:#fde68a;">vírus, bônus, câmpus, húmus</td><td style="padding:8px 10px;color:#94a3b8;">Terminação incomum → acento obrigatório</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-is</td><td style="padding:8px 10px;color:#fde68a;">lápis, tênis, grátis, oásis</td><td style="padding:8px 10px;color:#94a3b8;">-is sem acento → oxítona (país)</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ão / -ã</td><td style="padding:8px 10px;color:#fde68a;">órgão, bênção; ímã, órfã</td><td style="padding:8px 10px;color:#94a3b8;">-ão/-ã sem acento → oxítona (saguão, refrão)</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-ei/-eis</td><td style="padding:8px 10px;color:#fde68a;">jóquei, vôlei, jóqueis</td><td style="padding:8px 10px;color:#94a3b8;">Ditongo final → oxítona esperada; acento avisa paroxítona</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-um/-uns, -on/-ons</td><td style="padding:8px 10px;color:#fde68a;">fórum, álbum; elétron, prótons</td><td style="padding:8px 10px;color:#94a3b8;">Terminações tensas → paroxítona sinalizada</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">-i</td><td style="padding:8px 10px;color:#fde68a;">júri, táxi, alibi</td><td style="padding:8px 10px;color:#94a3b8;">-i sem acento → oxítona (aqui)</td></tr>
-</tbody></table>
-
-<h3>Paroxítonas terminadas em ditongo oral — Acordo 2009</h3>
-<p>Antes do Acordo Ortográfico de 2009, paroxítonas terminadas em ditongo aberto (-éi, -éu, -ói) recebiam acento em meio de palavra. Após o Acordo, esse acento foi eliminado:</p>
-<div class="exemplo-box">
-  <strong>Antes:</strong> idéia, heróico, assembléia, alcatéia<br>
-  <strong>Depois (atual):</strong> ideia, heroico, assembleia, alcateia
-</div>
-<div class="dica-box"><div class="dica-title">Macete rápido</div>Paroxítona = penúltima. Palavra sem acento? Provavelmente paroxítona (-a, -e, -o, -em, -agem). Com terminação "estranha" (-l, -r, -n, -x, -us, -ão) + acento? Paroxítona marcada. Com -ão SEM acento (saguão, refrão, limão)? Oxítona!</div>`,
-    questoes: []
   },
   // ─────────────────────────────────────────
   {
