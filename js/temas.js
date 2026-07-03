@@ -3361,6 +3361,40 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </table>
 </div>
 
+<h3>Exemplos Práticos — Identificando Armadilhas</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#fbbf24;font-weight:bold;margin-bottom:12px;">Como usar: leia o texto, depois analise cada alternativa e identifique qual armadilha ela usa.</p>
+
+<p style="color:#38bdf8;font-weight:bold;margin-top:0;">Texto 1</p>
+<p style="color:#cbd5e1;font-style:italic;background:#0f172a;padding:10px;border-radius:6px;margin-bottom:10px;">"Pesquisas indicam que a maioria dos jovens brasileiros prefere se informar pelas redes sociais a ler jornais impressos. Isso não significa, porém, que o jornalismo impresso esteja morto — ele ainda mantém prestígio entre leitores com mais de 40 anos e em cidades menores."</p>
+<ul style="color:#cbd5e1;">
+  <li><span style="color:#f87171;">❌ A) "Os jovens brasileiros nunca leem jornais impressos."</span><br><strong style="color:#fbbf24;">Armadilha: Absolutização.</strong> O texto diz "prefere… a ler" (preferência), não "nunca lê". O advérbio "nunca" não está no texto.</li>
+  <li style="margin-top:8px;"><span style="color:#f87171;">❌ B) "O jornalismo impresso está em declínio porque a qualidade caiu."</span><br><strong style="color:#fbbf24;">Armadilha: Extrapolação.</strong> O texto não menciona qualidade — isso é conhecimento externo do leitor, não informação do texto.</li>
+  <li style="margin-top:8px;"><span style="color:#86efac;">✅ C) "O jornalismo impresso ainda tem público, embora não seja predominante entre jovens."</span><br><strong>Resposta correta.</strong> Está integralmente respaldada pelo texto: "ainda mantém prestígio" + "maioria dos jovens prefere redes sociais".</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#38bdf8;font-weight:bold;margin-top:0;">Texto 2</p>
+<p style="color:#cbd5e1;font-style:italic;background:#0f172a;padding:10px;border-radius:6px;margin-bottom:10px;">"O programa de bolsas aumentou o acesso de estudantes de baixa renda ao ensino superior. Como consequência, a evasão escolar reduziu nas regiões atendidas, e o nível de empregabilidade dos beneficiários melhorou nos cinco anos seguintes."</p>
+<ul style="color:#cbd5e1;">
+  <li><span style="color:#f87171;">❌ A) "O programa eliminou completamente a evasão escolar."</span><br><strong style="color:#fbbf24;">Armadilha: Absolutização.</strong> O texto diz "reduziu", não "eliminou". Sempre desconfie de "completamente", "eliminou", "todos".</li>
+  <li style="margin-top:8px;"><span style="color:#f87171;">❌ B) "A melhora no emprego causou o aumento de matrículas."</span><br><strong style="color:#fbbf24;">Armadilha: Inversão de causa e efeito.</strong> No texto, o programa aumentou o acesso → e aí a empregabilidade melhorou. A banca inverteu: apresentou a consequência como causa.</li>
+  <li style="margin-top:8px;"><span style="color:#86efac;">✅ C) "O acesso ao ensino superior, favorecido pelo programa, trouxe impactos positivos na evasão e no emprego."</span><br><strong>Resposta correta.</strong> Resume corretamente a cadeia causal do texto sem absolutizar nem inverter.</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#38bdf8;font-weight:bold;margin-top:0;">Texto 3 — Vocabulário em Contexto</p>
+<p style="color:#cbd5e1;font-style:italic;background:#0f172a;padding:10px;border-radius:6px;margin-bottom:10px;">"A proposta foi recebida com reservas pelo conselho, que preferiu aguardar novos estudos antes de se manifestar."</p>
+<p style="color:#cbd5e1;margin-bottom:6px;"><strong>Questão:</strong> O vocábulo "reservas", no contexto, significa:</p>
+<ul style="color:#cbd5e1;">
+  <li><span style="color:#f87171;">❌ A) "quantias guardadas em banco"</span> — sentido financeiro, não se aplica ao contexto.</li>
+  <li><span style="color:#f87171;">❌ B) "áreas protegidas pelo governo"</span> — sentido ambiental, fora do contexto.</li>
+  <li><span style="color:#86efac;">✅ C) "restrições, cautela, dúvidas"</span> — único sentido que funciona na frase: "recebida com restrições/cautela". <strong>Armadilha evitada: Sinônimo falso.</strong> As outras alternativas usam sentidos válidos da palavra fora do contexto.</li>
+</ul>
+</div>
+
 <h3>Conotação e Denotação</h3>
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <ul style="color:#cbd5e1;">
@@ -3724,7 +3758,10 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Subjetiva</strong></td><td style="padding:8px;border:1px solid #334155;">Sujeito da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Que você venha</strong> é necessário.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Objetiva Direta</strong></td><td style="padding:8px;border:1px solid #334155;">OD da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Espero <strong>que você chegue</strong>.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Objetiva Indireta</strong></td><td style="padding:8px;border:1px solid #334155;">OI da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Gosto <strong>de que me ouçam</strong>.</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adjetiva Restritiva</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto adnominal (restringe o antecedente)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <strong>que estuda</strong> passa. (sem vírgula)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Completiva Nominal</strong></td><td style="padding:8px;border:1px solid #334155;">Complemento nominal de um nome da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Tenho certeza <strong>de que ele virá</strong>. / Tenho medo <strong>de que percam</strong>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Predicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Predicativo do sujeito da principal (após verbo de ligação)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O problema é <strong>que ninguém estudou</strong>. / A verdade é <strong>que ele mentiu</strong>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Apositiva</strong></td><td style="padding:8px;border:1px solid #334155;">Aposto de um substantivo da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Só quero uma coisa: <strong>que você seja feliz</strong>. / Tenho um desejo: <strong>que passem todos</strong>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adjetiva Restritiva</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto adnominal (restringe o antecedente)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <strong>que estuda</strong> passa. (sem vírgula)</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adjetiva Explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto adnominal (explica, não restringe)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O Sol, <strong>que é estrela</strong>, ilumina. (com vírgula)</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Causal</strong></td><td style="padding:8px;border:1px solid #334155;">Causa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Como estudou</strong>, passou. / Passou <strong>porque estudou</strong>.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Condicional</strong></td><td style="padding:8px;border:1px solid #334155;">Condição</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Se estudar</strong>, passará.</td></tr>
@@ -3733,6 +3770,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Temporal</strong></td><td style="padding:8px;border:1px solid #334155;">Tempo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Quando cheguei</strong>, a reunião havia terminado.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Comparativa</strong></td><td style="padding:8px;border:1px solid #334155;">Comparação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela corre <strong>mais rápido do que eu corro</strong>.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Consecutiva</strong></td><td style="padding:8px;border:1px solid #334155;">Consequência</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudou tanto <strong>que passou</strong>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Conformativa</strong></td><td style="padding:8px;border:1px solid #334155;">Conformidade com uma norma ou referência (conforme, segundo, como)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Conforme determinado</strong>, a reunião foi adiada. / Fiz <strong>como me mandaram</strong>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Proporcional</strong></td><td style="padding:8px;border:1px solid #334155;">Proporção simultânea entre dois fatos (à medida que, quanto mais…mais)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>À medida que estudava</strong>, aprendia mais. / <strong>Quanto mais lia</strong>, mais entendia.</td></tr>
   </tbody>
 </table>
 </div>
@@ -3871,6 +3910,395 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li>Imperativo de "você" vem sempre do subjuntivo: "Fale" (não "fala" para você formal).</li>
   <li>Futuro do pretérito para cortesia: "Gostaria de saber…" soa mais formal e educado que "Quero saber…"</li>
   <li>Questões de correlação: veja o tempo da oração principal para deduzir o tempo da subordinada.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "estruturaTextual",
+    nome: "Estrutura Textual",
+    icon: "🧱",
+    desc: "Coesão, coerência e organização do texto",
+    teoria: `
+<h3>Estrutura Textual — Coesão e Coerência</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Coesão ≠ Coerência</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Coesão</strong>: mecanismo <em>formal</em> — como as palavras e orações se ligam na superfície do texto por meio de elementos linguísticos (conjunções, pronomes, sinônimos, etc.).</li>
+  <li><strong>Coerência</strong>: mecanismo <em>semântico</em> — a unidade de sentido e lógica do texto como um todo.</li>
+  <li><strong>Relação</strong>: um texto pode ser coeso e incoerente ("Ela foi ao mercado. Portanto, o sol é quente.") ou coerente sem coesão formal explícita (textos telegráficos, títulos).</li>
+</ul>
+</div>
+
+<h3>Mecanismos de Coesão</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Mecanismo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Referencial — Pronome</strong></td><td style="padding:8px;border:1px solid #334155;">Pronome retoma ou antecipa um referente</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">João chegou. <strong>Ele</strong> estava cansado.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Referencial — Sinônimo</strong></td><td style="padding:8px;border:1px solid #334155;">Substituição por palavra de sentido próximo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O cachorro latiu. O <strong>animal</strong> acordou todos.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Referencial — Hiperônimo</strong></td><td style="padding:8px;border:1px solid #334155;">Substituição por termo mais geral</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Comprei uma rosa. A <strong>flor</strong> perfumou o ambiente.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Referencial — Elipse</strong></td><td style="padding:8px;border:1px solid #334155;">Omissão de termo recuperável pelo contexto</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Maria saiu. [Ela] Não avisou ninguém.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Sequencial — Conjunção</strong></td><td style="padding:8px;border:1px solid #334155;">Liga orações estabelecendo relação lógica</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudou muito, <strong>mas</strong> não passou. / Veio <strong>porque</strong> quis.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sequencial — Advérbio conectivo</strong></td><td style="padding:8px;border:1px solid #334155;">Conectores de ordenação e conclusão</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Primeiramente</strong>… <strong>Em seguida</strong>… <strong>Por fim</strong>… / <strong>Portanto</strong>…</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Lexical — Repetição</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição intencional para ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"<strong>Guerra, guerra</strong>, guerra sem fim."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Lexical — Campo semântico</strong></td><td style="padding:8px;border:1px solid #334155;">Palavras do mesmo campo temático criam coesão</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">hospital, médico, paciente, cirurgia → texto sobre saúde.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Conectivos e Suas Relações — Tabela Completa</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Relação</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Conectivos</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adição</strong></td><td style="padding:8px;border:1px solid #334155;">e, além disso, também, bem como, não só…mas também, ademais, outrossim</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Oposição / Contraste</strong></td><td style="padding:8px;border:1px solid #334155;">mas, porém, contudo, todavia, entretanto, no entanto, ao passo que, em contrapartida</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Causa</strong></td><td style="padding:8px;border:1px solid #334155;">porque, pois, visto que, já que, uma vez que, como (= porque)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Consequência</strong></td><td style="padding:8px;border:1px solid #334155;">portanto, logo, assim, por isso, de modo que, tanto…que</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Concessão</strong></td><td style="padding:8px;border:1px solid #334155;">embora, ainda que, mesmo que, apesar de (que), conquanto</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Condição</strong></td><td style="padding:8px;border:1px solid #334155;">se, caso, desde que, contanto que, a menos que, salvo se</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Finalidade</strong></td><td style="padding:8px;border:1px solid #334155;">para que, a fim de que, com o intuito de, com vistas a</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Tempo</strong></td><td style="padding:8px;border:1px solid #334155;">quando, enquanto, assim que, logo que, antes que, depois que, desde que, até que</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Comparação</strong></td><td style="padding:8px;border:1px solid #334155;">como, assim como, tal como, mais…do que, menos…do que, tanto…quanto</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Conformidade</strong></td><td style="padding:8px;border:1px solid #334155;">conforme, segundo, consoante, de acordo com, como</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Proporção</strong></td><td style="padding:8px;border:1px solid #334155;">à medida que, à proporção que, quanto mais…mais, quanto menos…menos</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Explicação</strong></td><td style="padding:8px;border:1px solid #334155;">pois (antes do verbo), porque, que, isto é, ou seja, a saber</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ordenação / Sequência</strong></td><td style="padding:8px;border:1px solid #334155;">primeiramente, em seguida, depois, por fim, finalmente, anteriormente, posteriormente</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Princípios de Coerência Textual</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Não contradição</strong>: o texto não pode afirmar e negar a mesma coisa sem justificativa. Ex: "Ele é honesto. Por isso, roubou o dinheiro." → incoerente.</li>
+  <li><strong>Não tautologia</strong>: não repetir a mesma ideia sem acrescentar informação. Ex: "O viúvo perdeu sua esposa." → redundante.</li>
+  <li><strong>Continuidade temática</strong>: o texto deve manter relação com o tema ao longo de todo o desenvolvimento.</li>
+  <li><strong>Progressão</strong>: cada parte deve acrescentar informação nova — não apenas repetir o que já foi dito.</li>
+  <li><strong>Articulação lógica</strong>: as partes do texto devem se relacionar de forma lógica e coerente entre si.</li>
+  <li><strong>Conhecimento de mundo</strong>: o leitor precisa ser capaz de interpretar o texto com base no conhecimento compartilhado. Ex: "Ela guardou o carro na garagem e foi para a cama." → infere-se que é noite.</li>
+</ul>
+</div>
+
+<h3>Progressão Temática</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Tema</strong>: o que se fala (ponto de partida, conhecido).</li>
+  <li><strong>Rema</strong>: o que se diz sobre o tema (informação nova).</li>
+  <li><strong>Progressão linear</strong>: o rema de uma oração vira o tema da próxima. Ex: "Pedro comprou um livro. O livro era antigo. O livro antigo custou caro."</li>
+  <li><strong>Progressão com tema constante</strong>: o mesmo tema é retomado em diferentes orações com remas diferentes. Ex: "Pedro chegou. Pedro cumprimentou a todos. Pedro foi embora."</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Questão sobre coesão → procure o elemento linguístico que faz a ligação (pronome, conjunção, sinônimo).</li>
+  <li>Questão sobre coerência → avalie se as ideias do texto se contradizem ou se perdem o fio lógico.</li>
+  <li>Troca de conectivo em questão de reescrita: "porque" (causa) ≠ "portanto" (consequência) — a relação lógica muda completamente.</li>
+  <li>"Embora" e "apesar de" introduzem concessão — a ideia oposta que não impede a principal. Não confundir com causa ("porque").</li>
+  <li>"Outrossim" e "ademais" = além disso (adição). Muito usados em textos formais/jurídicos.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "tiposGeneros",
+    nome: "Tipos e Gêneros Textuais",
+    icon: "📄",
+    desc: "Narração, descrição, dissertação, injunção e gêneros",
+    teoria: `
+<h3>Tipos e Gêneros Textuais</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Tipo ≠ Gênero</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Tipo textual</strong>: categoria abstrata definida por estrutura e propósito linguístico. São apenas 5: narração, descrição, dissertação (argumentação + exposição), injunção e predição.</li>
+  <li><strong>Gênero textual</strong>: texto concreto que circula socialmente, com forma, suporte e função definidos. São inúmeros: carta, notícia, receita, conto, editorial, bula, etc.</li>
+  <li><strong>Relação</strong>: um gênero pode misturar vários tipos. Ex: uma notícia tem narração + descrição.</li>
+</ul>
+</div>
+
+<h3>Os 5 Tipos Textuais</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Propósito</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Marcas linguísticas</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Gêneros típicos</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Narração</strong></td><td style="padding:8px;border:1px solid #334155;">Relatar eventos em sequência temporal; há personagens, conflito e desfecho</td><td style="padding:8px;border:1px solid #334155;">Verbos de ação no passado; advérbios de tempo; sequência cronológica</td><td style="padding:8px;border:1px solid #334155;">Conto, crônica, romance, notícia, relato</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Descrição</strong></td><td style="padding:8px;border:1px solid #334155;">Caracterizar pessoas, lugares, objetos, estados</td><td style="padding:8px;border:1px solid #334155;">Verbos de estado (ser, estar, ter, parecer); adjetivos; ausência de progressão temporal</td><td style="padding:8px;border:1px solid #334155;">Retrato, anúncio, laudos, passagens em romances</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Dissertação Argumentativa</strong></td><td style="padding:8px;border:1px solid #334155;">Defender um ponto de vista com argumentos e contra-argumentos</td><td style="padding:8px;border:1px solid #334155;">1ª e 3ª pessoa; conectivos lógicos; verbos de opinião (acredito, defendo, é necessário)</td><td style="padding:8px;border:1px solid #334155;">Editorial, artigo de opinião, redação ENEM, carta argumentativa</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Dissertação Expositiva</strong></td><td style="padding:8px;border:1px solid #334155;">Informar/explicar sem defender opinião explícita</td><td style="padding:8px;border:1px solid #334155;">3ª pessoa; verbos no presente; linguagem objetiva e impessoal</td><td style="padding:8px;border:1px solid #334155;">Verbete de dicionário, artigo científico, enciclopédia, manual</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Injunção</strong></td><td style="padding:8px;border:1px solid #334155;">Instruir, ordenar, orientar o leitor a fazer algo</td><td style="padding:8px;border:1px solid #334155;">Verbos no imperativo ou infinitivo; 2ª pessoa; sequência ordenada de passos</td><td style="padding:8px;border:1px solid #334155;">Receita, bula, regulamento, tutorial, lei, norma técnica</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Principais Gêneros Textuais — Tabela de Referência</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Gênero</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Esfera</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Propósito / Características</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Notícia</strong></td><td style="padding:8px;border:1px solid #334155;">Jornalística</td><td style="padding:8px;border:1px solid #334155;">Relata fato recente; responde a Quem, O quê, Quando, Onde, Como, Por quê (5W2H); impessoal</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Editorial</strong></td><td style="padding:8px;border:1px solid #334155;">Jornalística</td><td style="padding:8px;border:1px solid #334155;">Opinião do veículo de comunicação; argumentativo; sem assinatura de autor individual</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Artigo de Opinião</strong></td><td style="padding:8px;border:1px solid #334155;">Jornalística</td><td style="padding:8px;border:1px solid #334155;">Posição de um autor identificado; argumentativo; admite 1ª pessoa</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Crônica</strong></td><td style="padding:8px;border:1px solid #334155;">Literária/Jornalística</td><td style="padding:8px;border:1px solid #334155;">Texto curto sobre fato cotidiano; pode ser narrativo, descritivo ou argumentativo; tom coloquial</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Conto</strong></td><td style="padding:8px;border:1px solid #334155;">Literária</td><td style="padding:8px;border:1px solid #334155;">Narrativa curta; um único conflito central; desfecho concentrado</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Carta pessoal</strong></td><td style="padding:8px;border:1px solid #334155;">Pessoal</td><td style="padding:8px;border:1px solid #334155;">Emissor e destinatário identificados; tom informal; estrutura: saudação, corpo, despedida</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ofício / Memorando</strong></td><td style="padding:8px;border:1px solid #334155;">Oficial/Administrativa</td><td style="padding:8px;border:1px solid #334155;">Comunicação interna ou externa de órgão público; linguagem formal e padrão; estrutura rígida</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Requerimento</strong></td><td style="padding:8px;border:1px solid #334155;">Oficial</td><td style="padding:8px;border:1px solid #334155;">Solicitação formal dirigida a autoridade; 3ª pessoa; Ilmo. Sr…; Termos em que pede deferimento</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Bula</strong></td><td style="padding:8px;border:1px solid #334155;">Técnica/Instrucional</td><td style="padding:8px;border:1px solid #334155;">Instrui sobre uso de medicamento; injuntivo; linguagem técnica; seções fixas</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Receita</strong></td><td style="padding:8px;border:1px solid #334155;">Instrucional</td><td style="padding:8px;border:1px solid #334155;">Lista de ingredientes + modo de preparo; injuntivo; verbos no imperativo ou infinitivo</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Verbete</strong></td><td style="padding:8px;border:1px solid #334155;">Enciclopédica</td><td style="padding:8px;border:1px solid #334155;">Define conceito; expositivo; impessoal; 3ª pessoa; sem argumentação</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Poema / Poesia</strong></td><td style="padding:8px;border:1px solid #334155;">Literária</td><td style="padding:8px;border:1px solid #334155;">Linguagem figurada; conotação; pode ter métrica e rima ou ser livre (verso livre)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Propaganda / Anúncio</strong></td><td style="padding:8px;border:1px solid #334155;">Publicitária</td><td style="padding:8px;border:1px solid #334155;">Persuadir o leitor a comprar/adotar comportamento; linguagem sedutora, slogans, apelos</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Elementos da Narrativa</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Narrador</strong>: quem conta a história. Pode ser: 1ª pessoa (personagem/protagonista), 3ª pessoa (onisciente — sabe tudo, ou observador — relata só o que vê).</li>
+  <li><strong>Enredo</strong>: sequência de eventos. Estrutura clássica: apresentação → complicação → clímax → desfecho.</li>
+  <li><strong>Personagens</strong>: protagonista (herói), antagonista (oponente), personagens secundários.</li>
+  <li><strong>Tempo</strong>: cronológico (linear) ou psicológico (memória, flashback).</li>
+  <li><strong>Espaço</strong>: lugar onde ocorre a história. Pode ser físico ou psicológico.</li>
+  <li><strong>Discurso direto</strong>: fala transcrita literalmente ("Vou embora", disse ela).</li>
+  <li><strong>Discurso indireto</strong>: fala relatada (Ela disse que iria embora).</li>
+  <li><strong>Discurso indireto livre</strong>: fusão entre narrador e personagem, sem marcas claras de fronteira.</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Para identificar o tipo textual: veja o <em>propósito</em> — informar? defender? instruir? narrar? descrever?</li>
+  <li>Textos de prova geralmente misturam tipos — identifique o tipo <em>predominante</em>.</li>
+  <li>Editorial ≠ artigo de opinião: editorial não tem autor identificado (é a voz do jornal).</li>
+  <li>Notícia ≠ reportagem: notícia é mais curta e factual; reportagem aprofunda e contextualiza.</li>
+  <li>Injunção não precisa de imperativo: infinitivo ("Adicionar o açúcar…") e futuro do presente também instruem.</li>
+  <li>Narrador em 1ª pessoa não é necessariamente o autor real — pode ser personagem fictício.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "transitividade",
+    nome: "Transitividade Verbal",
+    icon: "↔️",
+    desc: "VTD, VTI, VTDI, VI e suas complementações",
+    teoria: `
+<h3>Transitividade Verbal</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">O que é transitividade</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Transitividade é a capacidade do verbo de exigir (ou não) complemento para completar seu sentido. A classificação depende do contexto — o mesmo verbo pode ser transitivo em uma frase e intransitivo em outra.</p>
+</div>
+
+<h3>Classificação dos Verbos pela Transitividade</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sigla</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Complemento</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Pergunta</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Intransitivo</strong></td><td style="padding:8px;border:1px solid #334155;">VI</td><td style="padding:8px;border:1px solid #334155;">Nenhum obrigatório</td><td style="padding:8px;border:1px solid #334155;">—</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O bebê chorou. / O sol nasceu.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Transitivo Direto</strong></td><td style="padding:8px;border:1px solid #334155;">VTD</td><td style="padding:8px;border:1px solid #334155;">Objeto Direto (sem preposição)</td><td style="padding:8px;border:1px solid #334155;">verbo + o quê? / quem?</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela comprou <u>o livro</u>. / Vejo <u>você</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Transitivo Indireto</strong></td><td style="padding:8px;border:1px solid #334155;">VTI</td><td style="padding:8px;border:1px solid #334155;">Objeto Indireto (com preposição)</td><td style="padding:8px;border:1px solid #334155;">verbo + de/a/em + quê?/quem?</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Gosto <u>de música</u>. / Obedeci <u>ao chefe</u>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Transitivo Direto e Indireto</strong></td><td style="padding:8px;border:1px solid #334155;">VTDI</td><td style="padding:8px;border:1px solid #334155;">OD + OI simultaneamente</td><td style="padding:8px;border:1px solid #334155;">o quê? + a quem?</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Dei <u>o livro</u> <u>ao aluno</u>. / Contei <u>a história</u> <u>ao filho</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>De Ligação</strong></td><td style="padding:8px;border:1px solid #334155;">VL</td><td style="padding:8px;border:1px solid #334155;">Predicativo do sujeito</td><td style="padding:8px;border:1px solid #334155;">sujeito + é/está/parece + como?</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela está <u>cansada</u>. / Parece <u>triste</u>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Verbos que Mudam de Transitividade Conforme o Sentido</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Verbo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sentido 1</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sentido 2</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>chegar / ir</strong></td><td style="padding:8px;border:1px solid #334155;">VI: "Ela chegou." / "Ele foi."</td><td style="padding:8px;border:1px solid #334155;">VI com adj. adverbial: "Chegou <em>ao trabalho</em>." (adj. de lugar, não OI)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>correr</strong></td><td style="padding:8px;border:1px solid #334155;">VI: "Ela correu."</td><td style="padding:8px;border:1px solid #334155;">VTD: "Ela correu <em>o risco</em>."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>servir</strong></td><td style="padding:8px;border:1px solid #334155;">VTD: "Ela serviu <em>o jantar</em>."</td><td style="padding:8px;border:1px solid #334155;">VTI: "Isso não me serve. / Serve <em>de exemplo</em>."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>querer</strong></td><td style="padding:8px;border:1px solid #334155;">VTD: "Quero <em>água</em>."</td><td style="padding:8px;border:1px solid #334155;">VTI (afeto): "Quero <em>a você</em>." (= estimar)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>pesar</strong></td><td style="padding:8px;border:1px solid #334155;">VI: "A caixa pesa muito."</td><td style="padding:8px;border:1px solid #334155;">VTD: "Pesaram <em>os itens</em>."</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Pronomes Oblíquos e Transitividade</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>O, a, os, as</strong>: pronomes de OD. Se o verbo aceita "o/a", é transitivo direto. Ex: "Vi Maria → vi-a."</li>
+  <li><strong>Lhe, lhes</strong>: pronomes de OI (referem-se a pessoas). Se o verbo aceita "lhe", é transitivo indireto. Ex: "Obedeci ao chefe → obedeci-lhe."</li>
+  <li><strong>Atenção</strong>: verbos que exigem OD nunca aceitam "lhe" como complemento. Ex: ❌ "Vi-lhe" (= vi a ele). O correto é "Vi-o."</li>
+  <li><strong>Me, te, se, nos, vos</strong>: podem ser OD ou OI dependendo do verbo. Ex: "Ele me viu." (OD) / "Ele me disse a verdade." (OI)</li>
+</ul>
+</div>
+
+<h3>Voz Ativa × Voz Passiva × Voz Reflexiva</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Voz</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Estrutura</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ativa</strong></td><td style="padding:8px;border:1px solid #334155;">Sujeito pratica a ação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O professor corrigiu a prova.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Passiva Analítica</strong></td><td style="padding:8px;border:1px solid #334155;">Sujeito recebe a ação; ser/estar/ficar + particípio + por</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">A prova foi corrigida pelo professor.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Passiva Sintética</strong></td><td style="padding:8px;border:1px solid #334155;">Verbo + se (partícula apassivadora); sujeito paciente</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Corrige-se a prova. / Vendem-se casas.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Reflexiva</strong></td><td style="padding:8px;border:1px solid #334155;">Sujeito pratica e recebe a ação; pronome reflexivo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele se machucou. / Ela se vestiu.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Conversão Ativa → Passiva</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li>OD da voz ativa → sujeito da voz passiva.</li>
+  <li>Sujeito da voz ativa → agente da passiva (introduzido por "por").</li>
+  <li>Verbo: "ser" + particípio do verbo original (concordando com o novo sujeito).</li>
+  <li>Ex: "Pedro escreveu o relatório." → "O relatório foi escrito por Pedro."</li>
+  <li><strong>Só verbos transitivos diretos formam voz passiva.</strong> VTI e VI não têm voz passiva. ❌ "O resultado foi gostado por ela." (gostar = VTI)</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Para identificar a transitividade: retire o complemento e veja se o sentido fica incompleto → transitivo. Se completo → intransitivo.</li>
+  <li>Preposição obrigatória após o verbo = OI. Preposição facultativa (adjunto adverbial) não caracteriza VTI. Ex: "Fui ao banco" — "ao banco" é adjunto de lugar, não OI.</li>
+  <li>Partícula "se" apassivadora: verbo concorda com o sujeito paciente. Ex: "Vendem-se casas" (casas = sujeito). Se "casas" fosse apenas objeto: "Vende-se casas" (errado pela norma culta).</li>
+  <li>Partícula "se" de indeterminação: verbo fica no singular. Ex: "Precisa-se de funcionários." (sujeito indeterminado)</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "reescritaFrases",
+    nome: "Reescrita de Frases",
+    icon: "🔄",
+    desc: "Substituição, deslocamento, paralelismo e equivalência",
+    teoria: `
+<h3>Reescrita de Frases</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">O que cobra a prova</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Questões de reescrita pedem que você: (1) substitua um elemento por outro equivalente sem alterar o sentido, (2) desloque um elemento para outra posição, (3) transforme a voz verbal, (4) troque a oração por uma reduzida (ou vice-versa), (5) mantenha o paralelismo. A pegadinha mais comum é a alternativa que <strong>parece</strong> equivalente mas muda sutilmente o sentido ou a norma gramatical.</strong></p>
+</div>
+
+<h3>1. Substituição de Conectivos — Preservando o Sentido</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#fbbf24;margin-bottom:8px;">Regra: o conectivo substituto deve expressar a <strong>mesma relação lógica</strong>.</p>
+<ul style="color:#cbd5e1;">
+  <li><em>"Estudou bastante, <strong>mas</strong> não passou."</em> → pode trocar por "porém", "contudo", "todavia", "entretanto", "no entanto" (todos adversativos). ✅</li>
+  <li>❌ Não pode trocar "mas" por "porque" (mudaria para causal) nem por "portanto" (mudaria para conclusivo).</li>
+  <li><em>"Passou <strong>porque</strong> estudou."</em> → pode trocar por "pois", "visto que", "já que", "uma vez que" (todos causais). ✅</li>
+  <li><em>"<strong>Embora</strong> estudasse, não passou."</em> → pode trocar por "ainda que", "mesmo que", "apesar de que" (concessivos). ✅</li>
+  <li><strong>Atenção a "como"</strong>: pode ser conformativo ("Fiz como mandou") ou causal ("Como chegou tarde, perdeu a reunião"). O contexto define o sentido — na reescrita, preserve o sentido correto.</li>
+</ul>
+</div>
+
+<h3>2. Transformação de Voz Verbal</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#fbbf24;margin-bottom:8px;">Ativa → Passiva: OD vira sujeito; sujeito vira agente da passiva; verbo = ser + particípio.</p>
+<ul style="color:#cbd5e1;">
+  <li><em>"A diretora <strong>assinou</strong> os documentos."</em> → <em>"Os documentos <strong>foram assinados</strong> pela diretora."</em></li>
+  <li><em>"Alguém <strong>roubou</strong> o carro."</em> → <em>"O carro <strong>foi roubado</strong>."</em> (agente da passiva omitido — admissível)</li>
+  <li><em>"<strong>Corrigem-se</strong> provas aqui."</em> (passiva sintética) → <em>"Provas são corrigidas aqui."</em> (passiva analítica)</li>
+  <li><strong>Atenção ao particípio irregular</strong>: verbos com dois particípios — o regular (com -ado/-ido) vai com ter/haver; o irregular vai com ser/estar. Ex: "aceitado" (ter aceitado) / "aceito" (foi aceito). "entregado" ❌ → "entregue" ✅ com ser.</li>
+</ul>
+</div>
+
+<h3>3. Redução de Orações Desenvolvidas para Reduzidas</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Oração desenvolvida</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Oração reduzida equivalente</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo de redução</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;font-style:italic;">Quando <strong>chegou</strong>, sorriu.</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Chegando</strong>, sorriu.</td><td style="padding:8px;border:1px solid #334155;">Gerúndio (tempo/modo)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;font-style:italic;">Depois que <strong>terminou</strong>, saiu.</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Terminado</strong>, saiu.</td><td style="padding:8px;border:1px solid #334155;">Particípio (tempo)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;font-style:italic;">Para que <strong>você entenda</strong>…</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Para <strong>entender</strong>…</td><td style="padding:8px;border:1px solid #334155;">Infinitivo (finalidade)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;font-style:italic;">Embora <strong>esteja</strong> cansado…</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Estando</strong> cansado… / <strong>Cansado</strong>…</td><td style="padding:8px;border:1px solid #334155;">Gerúndio / Particípio (concessão)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;font-style:italic;">Porque <strong>é honesto</strong>…</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Sendo honesto</strong>… / <strong>Por ser honesto</strong>…</td><td style="padding:8px;border:1px solid #334155;">Gerúndio / Infinitivo (causa)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>4. Deslocamento de Elementos — O que Pode e o que Não Pode</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Adjunto adverbial</strong>: pode ser deslocado para início, meio ou fim sem mudar o sentido, mas a posição deslocada exige vírgula. Ex: "Ontem, ele chegou tarde." = "Ele chegou tarde ontem."</li>
+  <li><strong>Oração adverbial</strong>: pode ser anteposta ou posposta à principal. Anteposta exige vírgula. Ex: "Se estudar, passará." = "Passará se estudar."</li>
+  <li><strong>Aposto e adjunto adnominal</strong>: podem ser deslocados em alguns contextos, mas o deslocamento pode criar ambiguidade.</li>
+  <li>❌ <strong>Não se desloca</strong>: sujeito após verbo em voz ativa sem mudar a voz; objeto direto para antes do verbo sem pronome clítico; adjunto adnominal para longe do substantivo que modifica.</li>
+</ul>
+</div>
+
+<h3>5. Paralelismo — Equilíbrio Estrutural</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;margin-bottom:8px;">Paralelismo exige que termos em enumeração ou coordenação tenham a <strong>mesma classe gramatical e estrutura</strong>.</p>
+<ul style="color:#cbd5e1;">
+  <li>❌ "Gosto de correr, nadar e de fazer yoga." → mistura infinitivo (sem preposição) com "de fazer".</li>
+  <li>✅ "Gosto de correr, nadar e fazer yoga." (todos infinitivos sem preposição)</li>
+  <li>❌ "Ela é inteligente, dedicada e que trabalha muito." → mistura adjetivos com oração relativa.</li>
+  <li>✅ "Ela é inteligente, dedicada e trabalhadora." (todos adjetivos)</li>
+  <li>❌ "O plano visa reduzir custos, à melhora da qualidade e aumento das vendas." → mistura de estruturas.</li>
+  <li>✅ "O plano visa reduzir custos, melhorar a qualidade e aumentar as vendas." (todos infinitivos)</li>
+</ul>
+</div>
+
+<h3>6. Substituição de Pronome — Casos de Atenção</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>"cujo"</strong> = de + pronome relativo. Indica posse. Nunca vem com artigo depois: ❌ "cujo o". Ex: "O aluno, cujo caderno foi perdido…" (= o caderno dele).</li>
+  <li><strong>"onde"</strong>: só para lugar. Para tempo ou situação abstrata, use "em que". ❌ "A situação onde tudo mudou." ✅ "A situação em que tudo mudou."</li>
+  <li><strong>"o qual / a qual"</strong>: substitui "que" quando há preposição dissílaba antes. Ex: "A empresa para a qual trabalho." (não: "para que")</li>
+  <li><strong>"lhe" × "o"</strong>: "lhe" = OI (a ele/ela). "o" = OD. ❌ "Eu lhe vi." ✅ "Eu o vi." (ver = VTD)</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Em reescrita, sempre pergunte: (a) o sentido mudou? (b) a estrutura gramatical está correta?</li>
+  <li>Troca de conectivo: verifique se a relação lógica (causa, concessão, condição…) foi preservada.</li>
+  <li>Na passiva, atenção ao particípio: com "ser" use o particípio irregular quando houver (aceito, entregue, pago). Com "ter/haver" use o regular (aceitado, entregado, pagado).</li>
+  <li>Paralelismo: releia a sequência trocando os termos um por um — todos devem ter a mesma forma.</li>
+  <li>"Apesar de" + infinitivo ou gerúndio (reduzida) = "embora" + subjuntivo (desenvolvida). Ambas são concessivas.</li>
 </ul>
 </div>`,
     questoes: []
