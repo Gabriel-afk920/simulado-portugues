@@ -1594,7 +1594,51 @@ const TEMAS = [
   // ─────────────────────────────────────────
   {
     id: "crase", nome: "Crase", icon: "À", desc: "Uso do acento grave",
-    teoria: '',
+    teoria: `<h3>O que é Crase?</h3>
+<p>A <strong>crase</strong> é a fusão da preposição <em>a</em> com o artigo definido feminino <em>a</em> (ou <em>as</em>), resultando em <strong>à</strong> (ou <strong>às</strong>). Ela é marcada ortograficamente pelo <strong>acento grave</strong> (&#96;) sobre a letra <em>a</em>. Portanto, <em>à</em> = <em>a</em> (preposição) + <em>a</em> (artigo), indicado ortograficamente pelo acento grave.</p>
+
+<div class="dica-box"><div class="dica-title">Macete do "ao"</div>Substitua o termo feminino pelo masculino equivalente: se aparecer <strong>"ao"</strong>, há crase no feminino (<strong>à</strong>); se aparecer só <strong>"a"</strong> sem artigo, não há crase.</div>
+
+<h3>Quando usar a crase</h3>
+<ul>
+  <li>Antes de substantivo feminino com artigo definido: <em>Fui <strong>à</strong> escola.</em> (a + a escola)</li>
+  <li>Antes de pronomes demonstrativos <em>aquela, aquele, aquilo, aquelas, aqueles</em>: <em>Refiro-me <strong>àquela</strong> proposta.</em></li>
+  <li>Nas locuções adverbiais, prepositivas e conjuntivas femininas: <em>à tarde, à moda de, à medida que, às vezes, à vontade</em></li>
+  <li>Antes de numerais que indicam horas: <em>Chegou <strong>às</strong> 8 horas.</em></li>
+</ul>
+
+<h3>Quando NÃO usar a crase</h3>
+<ul>
+  <li>Antes de substantivo masculino: <em>Fui a pé, a serviço.</em></li>
+  <li>Antes de verbos no infinitivo: <em>Ele começou a correr.</em></li>
+  <li>Antes de pronomes pessoais, pronomes de tratamento (exceto senhora, senhorita, dona): <em>Disse a ela, a Vossa Excelência.</em></li>
+  <li>Antes de pronomes indefinidos: <em>a alguém, a ninguém, a outrem.</em></li>
+  <li>Antes de palavras no plural sem artigo definido: <em>Refiro-me a pessoas honestas.</em></li>
+  <li>Quando a preposição <em>a</em> não vier seguida de artigo: <em>Cheguei a tempo.</em></li>
+</ul>
+
+<h3>Crase facultativa</h3>
+<ul>
+  <li>Antes de nomes próprios femininos: <em>Dei o presente a/à Maria.</em></li>
+  <li>Antes de pronome possessivo feminino: <em>Fui a/à sua casa.</em></li>
+</ul>
+
+<div class="exemplo-box">
+  <strong>Ortograficamente correto:</strong> "Fui <strong>à</strong> reunião" (crase: preposição + artigo)<br>
+  <strong>Sem crase:</strong> "Fui a Roma" (Roma não usa artigo definido)<br>
+  <strong>Acento grave indica crase:</strong> à, às, àquele, àquela, àquilo
+</div>
+
+<div class="dica-box">
+  <div class="dica-title">Dicas para prova</div>
+  <ul>
+    <li>Crase = acento grave (&#96;) = fusão de preposição "a" + artigo "a".</li>
+    <li>Use o macete "ao": se cabe "ao" no masculino, cabe "à" no feminino.</li>
+    <li>Locuções femininas sempre com crase: <em>às vezes, à toa, à moda, à vista, à vontade</em>.</li>
+    <li>Horas: sempre com crase — <em>às 10h, à meia-noite</em> (exceto "a partir de", "ao meio-dia").</li>
+    <li>O fenômeno da crase é indicado ortograficamente pelo acento grave sobre o "a".</li>
+  </ul>
+</div>`,
     questoes: []
   },
   // ─────────────────────────────────────────
@@ -1602,7 +1646,7 @@ const TEMAS = [
     id: "classesGramaticais", nome: "Classes Gramaticais", icon: "📚", desc: "As 10 classes de palavras",
     teoria: `
 <h3>O que são Classes Gramaticais?</h3>
-<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. O português tem <strong>10 classes</strong>.</p>
+<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>.</p>
 
 <h3>1. Substantivo</h3>
 <p>Nomeia seres, objetos, lugares, sentimentos, ações, etc.</p>
@@ -1623,8 +1667,8 @@ const TEMAS = [
 <h3>3. Artigo</h3>
 <p>Precede o substantivo, determinando-o. Varia em gênero e número.</p>
 <div class="exemplo-box">
-  <strong>Definidos:</strong> o, a, os, as<br>
-  <strong>Indefinidos:</strong> um, uma, uns, umas
+  <strong>Artigo definido:</strong> o, a, os, as — indica ser determinado, já conhecido: <em>o livro</em>, <em>a casa</em><br>
+  <strong>Artigo indefinido:</strong> um, uma, uns, umas — indica ser indeterminado: <em>um livro</em>, <em>uma casa</em>
 </div>
 
 <h3>4. Pronome</h3>
@@ -3111,7 +3155,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "concordancia", nome: "Concordância", icon: "🤝", desc: "Concordância verbal e nominal",
     teoria: `
 <h3>O que é Concordância?</h3>
-<p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
+<p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa — ou seja, a <strong>flexão do verbo</strong> (sua conjugação em pessoa e número) deve acompanhar o sujeito. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
 
 <h3>Concordância Verbal — Regras Gerais</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
