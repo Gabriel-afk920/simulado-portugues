@@ -1385,6 +1385,7 @@ const TEMAS = [
 
 <h3>O que é Sílaba?</h3>
 <p>Sílaba é o menor grupo de sons pronunciado numa só emissão de voz. <strong>Toda sílaba tem pelo menos uma vogal</strong> como núcleo — sem vogal, não há sílaba.</p>
+<p>Para saber <strong>quantas sílabas</strong> tem uma palavra, basta contar o número de vogais (ou ditongos) pronunciadas. O <strong>número de sílabas</strong> de uma palavra determina sua classificação: monossílabo, dissílabo, trissílabo ou polissílabo (4 ou mais sílabas). Reconhecer quantas sílabas compõem um vocábulo é passo essencial para aplicar as regras de acentuação gráfica.</p>
 
 <h3>Classificação quanto ao número de sílabas</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 14px;">
@@ -1393,7 +1394,7 @@ const TEMAS = [
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Monossílaba</td><td style="padding:8px 10px;color:#94a3b8;">1</td><td style="padding:8px 10px;color:#cbd5e1;">pá, sol, flor, mãe, mar, pão, fé</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Dissílaba</td><td style="padding:8px 10px;color:#94a3b8;">2</td><td style="padding:8px 10px;color:#cbd5e1;">ca-sa, me-sa, li-vro, pei-xe</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Trissílaba</td><td style="padding:8px 10px;color:#94a3b8;">3</td><td style="padding:8px 10px;color:#cbd5e1;">ca-der-no, lá-pis→ lá-pis (2!), á-gui-a</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Polissílaba</td><td style="padding:8px 10px;color:#94a3b8;">4 ou mais</td><td style="padding:8px 10px;color:#cbd5e1;">bi-ci-cle-ta, pa-ra-le-le-pí-pe-do</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Polissílaba / Polissílabo</td><td style="padding:8px 10px;color:#94a3b8;">4 ou mais</td><td style="padding:8px 10px;color:#cbd5e1;">bi-ci-cle-ta, pa-ra-le-le-pí-pe-do. Um polissílabo tem quatro ou mais sílabas.</td></tr>
   </tbody>
 </table>
 
