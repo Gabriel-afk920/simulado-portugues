@@ -2050,7 +2050,7 @@ const TEMAS = [
   }
 ,
   {
-    id: "tonicidade", nome: "Tonicidade", icon: "🎯", desc: "Sílaba tônica e sufixos",
+    id: "tonicidade", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
     teoria: `<h3>Classificação das palavras pela posição da sílaba tônica</h3>
 
 <h3>O que é Tonicidade?</h3>

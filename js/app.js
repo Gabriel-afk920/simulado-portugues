@@ -181,8 +181,8 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
 const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','encontrosConsonantais','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen','oxitonas','paroxitonas','proparoxitonas'];
-// Excluídos da grade de sub-temas (conteúdo já coberto por Tonicidade)
-const IDS_OCULTAR_SUBTELA = ['oxitonas','paroxitonas','proparoxitonas'];
+// Excluídos da grade de sub-temas (conteúdo já coberto pelo card Acentuação Gráfica renomeado)
+const IDS_OCULTAR_SUBTELA = ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica'];
 
 function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);

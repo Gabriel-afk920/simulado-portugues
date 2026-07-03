@@ -30,6 +30,16 @@
     if (tema) tema.questoes = QUESTOES_BANCO.questoes[temaId];
   }
 
+  // Migra questões do slot acentuacaoGrafica → tonicidade (renomeado para Acentuação Gráfica)
+  (function() {
+    var tonic = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
+    var acent = TEMAS.find(function(t){ return t.id === 'acentuacaoGrafica'; });
+    if (tonic && acent && acent.questoes && acent.questoes.length) {
+      tonic.questoes = (tonic.questoes || []).concat(acent.questoes);
+      acent.questoes = [];
+    }
+  })();
+
   // ── 4. Seção combinada: Fonética e Ortografia ────────────────────────────────
   var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','encontrosConsonantais','hifen','oxitonas','paroxitonas','proparoxitonas'];
   var qFon = [];
@@ -508,7 +518,6 @@
     var p3raw = splitIdx > -1 ? extra.slice(splitIdx + splitMarker.length) : '';
     p2raw = p2raw.replace(/^[\s\S]*?<div[^>]*id="sil-p2"[^>]*>\n?/, '');
     p3raw = p3raw.replace(/^\s*<div[^>]*id="sil-p3"[^>]*>\n?/, '').replace(/\n?<\/div>\s*$/, '');
-    if (acentTema) acentTema.teoria = p2raw;
     if (craseTema) craseTema.teoria = p3raw;
   }
 
