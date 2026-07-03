@@ -1435,7 +1435,20 @@ const TEMAS = [
   {
     id: "acentuacaoGrafica", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
     teoria: `<h3>O que é Acentuação Gráfica?</h3>
-<p>Acentuação gráfica é o conjunto de regras que determina quando uma palavra recebe acento escrito (´ agudo ou ^ circunflexo). O acento sempre indica a <strong>sílaba tônica</strong> — a sílaba de maior intensidade da palavra.</p>
+<p>Acentuação gráfica é o conjunto de regras que determina quando uma palavra recebe acento escrito (´ agudo ou ^ circunflexo). O acento sempre indica a <strong>sílaba tônica</strong> — a sílaba de maior intensidade da palavra. O conjunto dessas regras de acentuação define quando e por que os vocábulos acentuados graficamente recebem o acento.</p>
+
+<div class="dica-box"><div class="dica-title">💡 Como a prova pergunta — expressões genéricas das bancas</div>
+<p>As bancas raramente escrevem "oxítona" na pergunta. Elas usam expressões genéricas. Saiba o que cada uma pede:</p>
+<ul>
+  <li><strong>"Acentuadas pela mesma regra" / "Acentuada pela mesma regra" / "Acentuados pela mesma regra" / "Acentuadas pelo mesmo motivo" / "Acentuada pelo mesmo motivo" / "Acentuadas graficamente pelo mesmo motivo"</strong> → pergunte: as palavras são todas oxítonas, todas paroxítonas ou todas proparoxítonas? A regra de acentuação é a mesma quando a classificação de tonicidade é a mesma.</li>
+  <li><strong>"Regra de acentuação" / "Regras de acentuação" / "Regra que justifica a acentuação" / "Sobre acentuação"</strong> → a justificativa do acento gráfico: qual regra explica o acento? (oxítona terminada em -á, paroxítona terminada em -l, proparoxítona, etc.)</li>
+  <li><strong>"Vocábulos acentuados" / "Vocábulo acentuado" / "Acentuação das palavras" / "Acentuação da palavra" / "Acentuação dos vocábulos"</strong> → palavras que recebem acento gráfico escrito. A acentuação da palavra segue as regras de tonicidade.</li>
+  <li><strong>"Acentuadas corretamente" / "Acentuada corretamente" / "Acentuado corretamente" / "Acentuação correta" / "Acentuados, respectivamente, pela mesma regra" / "Acentuadas, respectivamente, pelo mesmo motivo" / "Acentuados pelo mesmo motivo" / "Palavras acentuadas corretamente" / "Palavras acentuadas incorretamente"</strong> → palavras com acentuação correta (ou incorreta) segundo a norma ortográfica vigente (pós-Acordo 2009). A palavra acentuada corretamente ou acentuado corretamente é aquela cujo acento gráfico obedece às regras de tonicidade; palavras acentuadas incorretamente violam essas regras.</li>
+  <li><strong>"Quanto à acentuação" / "Considerando a acentuação" / "Quanto a acentuação"</strong> → analise a classificação de tonicidade da palavra e se ela recebe ou não acento gráfico.</li>
+  <li><strong>"Acento agudo" (´)</strong> → marca vogal tônica aberta: á, é, í, ó, ú. <strong>"Acento circunflexo" (^)</strong> → marca vogal tônica fechada: â, ê, î, ô, û. <strong>"Acento grave" (&#96;)</strong> → indica a crase (fusão de <em>a + a</em>), não é acento tônico.</li>
+</ul>
+</div>
+
 <div class="dica-box"><div class="dica-title">Princípio básico</div>O acento gráfico só é escrito quando a posição da sílaba tônica não pode ser deduzida pela terminação da palavra. Se a terminação já "avisa" onde está a tônica, o acento é dispensado.</div>
 
 <h3>1. As três classes de tonicidade</h3>
@@ -1484,7 +1497,16 @@ const TEMAS = [
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">pára, péla, pólo, fôrma</td><td style="padding:8px 10px;color:#4ade80;">para, pela, polo, forma</td><td style="padding:8px 10px;color:#94a3b8;">Acento diferencial eliminado (exceto pôde/pode e pôr/por)</td></tr>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">idéia, heróico, europeu</td><td style="padding:8px 10px;color:#4ade80;">ideia, heroico, europeu</td><td style="padding:8px 10px;color:#94a3b8;">Ditongo aberto em meio de palavra — acento eliminado</td></tr>
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;">pôde (passado) / pode (presente)</td><td style="padding:8px 10px;color:#4ade80;">Mantido: pôde × pode</td><td style="padding:8px 10px;color:#94a3b8;">Acento diferencial preservado para distinguir formas verbais</td></tr>
-</tbody></table>`,
+</tbody></table>
+
+<h3>7. Monossílabos tônicos e átonos</h3>
+<p><strong>Monossílabo</strong> é a palavra com apenas uma sílaba. Eles se dividem em <strong>tônicos</strong> (pronúncia forte, podem receber acento) e <strong>átonos</strong> (pronúncia fraca, nunca recebem acento).</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Descrição</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Tônico acentuado</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em -á/-é/-ê/-ó/-ô/-éu/-ói → recebem acento</td><td style="padding:8px 10px;color:#fde68a;">pá, pé, fé, nó, só, dó, céu, réu, mês, pôr, pôs</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">Tônico sem acento</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em consoante → oxítonas por terminação, dispensam acento</td><td style="padding:8px 10px;color:#fde68a;">sol, mar, flor, faz, par, bar, vil, pus, fal</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;font-weight:700;">Átono</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia fraca; artigos, preposições, conjunções, pronomes clíticos — nunca acentuados</td><td style="padding:8px 10px;color:#fde68a;">de, do, da, a, o, e, que, se, me, te, nos, lhe, com, por, em</td></tr>
+</tbody></table>
+<div class="dica-box"><div class="dica-title">Na prova — "monossílabo"</div>Quando a questão pede "monossílabo tônico acentuado", está pedindo palavras de 1 sílaba com acento gráfico (pá, pé, nó...). Não confunda com artigos e preposições — esses também têm 1 sílaba, mas são átonos e nunca levam acento. O número de sílabas de um vocábulo é determinado pela sua estrutura fonológica.</div>`,
     questoes: [
       { enunciado: 'Qual é a separação silábica correta de "psicologia"?', opcoes: ["psi-co-lo-gi-a","p-si-co-lo-gi-a","psi-col-o-gi-a","psi-co-lo-gia"], correta: 0, explicacao: 'psi-co-lo-gi-a: 5 sílabas. O grupo <em>ps</em> permanece unido.' },
       { enunciado: 'Qual palavra é <strong>oxítona</strong>?', opcoes: ["árvore","janela","café","lápis"], correta: 2, explicacao: '"Café" (ca-FÉ): tônica na última sílaba = oxítona.' },
@@ -1782,6 +1804,38 @@ const TEMAS = [
   <li><strong>Hífen: novas regras</strong> — ver tema Hífen para detalhes completos.</li>
 </ul>
 
+<h3>Porque / Por que / Porquê / Por quê</h3>
+<p>Este é um dos tópicos mais cobrados em provas de ortografia. A escrita correta depende da função que a palavra exerce na frase — isso é parte da norma ortográfica do português.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Forma</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Função</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">porque</td><td style="padding:8px 10px;color:#cbd5e1;">Conjunção causal ou explicativa (= pois, visto que). Responde à pergunta "por quê?"</td><td style="padding:8px 10px;color:#fde68a;">Fiquei em casa <em>porque</em> chovia.</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#38bdf8;font-weight:700;">por que</td><td style="padding:8px 10px;color:#cbd5e1;">Interrogativo direto ou indireto (= pelo qual / pela qual). Inicia pergunta ou oração relativa.</td><td style="padding:8px 10px;color:#fde68a;"><em>Por que</em> você foi? / Não sei <em>por que</em> ele saiu. / O motivo <em>por que</em> vim.</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f59e0b;font-weight:700;">porquê</td><td style="padding:8px 10px;color:#cbd5e1;">Substantivo (= a razão, o motivo). Sempre precedido de artigo ou pronome.</td><td style="padding:8px 10px;color:#fde68a;">Não entendo o <em>porquê</em> da decisão. / Explique-me os <em>porquês</em>.</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#a78bfa;font-weight:700;">por quê</td><td style="padding:8px 10px;color:#cbd5e1;">Interrogativo no <strong>final</strong> de pergunta (= para quê?). Leva acento por estar em posição tônica final.</td><td style="padding:8px 10px;color:#fde68a;">Você foi embora, mas não disse <em>por quê</em>. / Mas <em>por quê</em>?</td></tr>
+</tbody></table>
+<div class="dica-box"><div class="dica-title">Macete</div>Substitua por "pois" (= <strong>porque</strong>), por "pelo qual" (= <strong>por que</strong>), por "o motivo" (= <strong>porquê</strong>), ou veja se está no final de frase (= <strong>por quê</strong>).</div>
+
+<h3>Ordem Alfabética e Uso de Maiúsculas e Minúsculas</h3>
+<p>A <strong>ordem alfabética</strong> é um sub-tópico frequente em provas de ortografia. O alfabeto português possui atualmente <strong>26 letras</strong> (com K, W e Y reincorporados pelo Acordo de 2009), totalizando: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.</p>
+<ul>
+  <li><strong>Ordem alfabética</strong>: as palavras são ordenadas letra a letra, da esquerda para a direita. Quando as palavras começam com as mesmas letras, avança-se para a próxima letra até encontrar diferença.</li>
+  <li><strong>Letras especiais</strong>: para fins de ordenação, considera-se a letra base (sem acento): <em>á = a, é = e, ç = c</em>. Mas "ch", "lh", "nh" são dígrafos, não letras separadas — cada dígrafo ocupa a posição de sua primeira letra.</li>
+  <li><strong>K, W, Y</strong>: reincorporados em 2009, usados principalmente em siglas, símbolos e palavras de origem estrangeira (km, watt, yoga).</li>
+</ul>
+
+<p><strong>Maiúsculas e minúsculas</strong> — a escrita correta das palavras também exige saber quando usar letras maiúsculas (iniciais maiúsculas) e minúsculas:</p>
+<ul>
+  <li><strong>Maiúsculas obrigatórias:</strong> início de frase ou período; nomes próprios (pessoas, lugares, datas festivas, instituições); títulos de obras (primeira palavra); siglas (IBGE, ONU).</li>
+  <li><strong>Minúsculas:</strong> nomes comuns, adjetivos pátrios, meses e dias da semana em contexto comum: <em>janeiro, segunda-feira, brasileiro</em> (sem maiúscula, a não ser em início de frase).</li>
+  <li><strong>Grafadas corretamente / escritas corretamente:</strong> palavras que seguem as normas ortográficas vigentes, incluindo o uso adequado de maiúsculas, minúsculas, acentos e a grafia das letras.</li>
+</ul>
+
+<h3>Norma Ortográfica — Grafias Corretas e Incorretas</h3>
+<p>A <strong>norma ortográfica</strong> é o conjunto de normas vigentes que determina a escrita oficial do português. Palavras <strong>grafadas corretamente</strong> (ou <em>escritas corretamente</em>) são aquelas que obedecem à norma ortográfica vigente — hoje regulada pelo Acordo Ortográfico de 2009. Palavras <strong>grafadas incorretamente</strong> ou com <em>grafia incorreta</em> violam essa norma.</p>
+<div class="exemplo-box">
+  <strong>Grafada corretamente (norma vigente):</strong> frequência, espetáculo, ideia, voo, ótimo<br>
+  <strong>Grafada incorretamente:</strong> freqüência, espectáculo, idéia, vôo, óptimo
+</div>
+
 <div class="dica-box">
   <div class="dica-title">Dicas para prova</div>
   <ul>
@@ -1791,6 +1845,8 @@ const TEMAS = [
     <li><em>Mais</em> × <em>mas</em>: troque por "porém" — se couber = mas; senão = mais.</li>
     <li>Após o Acordo de 2009: sem trema, sem consoantes mudas (espetáculo, ótimo, fato).</li>
     <li>"Obséquio", "negócio", "benefício" — memorize as grafias corretas com e/i.</li>
+    <li><em>Porque</em> (conjunção) × <em>por que</em> (interrogativo) × <em>porquê</em> (substantivo) × <em>por quê</em> (final de frase).</li>
+    <li>Ordem alfabética: letra a letra, da esquerda para direita; acento não conta para a ordenação.</li>
   </ul>
 </div>`,
     questoes: [
@@ -2053,8 +2109,20 @@ const TEMAS = [
     id: "tonicidade", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
     teoria: `<h3>Classificação das palavras pela posição da sílaba tônica</h3>
 
+<div class="dica-box"><div class="dica-title">💡 Como a prova pergunta — expressões genéricas das bancas</div>
+<p>A prova raramente escreve "paroxítona" na questão. Ela usa expressões genéricas que testam se você sabe identificar a regra de acentuação e a classificação de tonicidade. Saiba o que cada expressão pede:</p>
+<ul>
+  <li><strong>"Acentuadas pela mesma regra" / "Acentuada pela mesma regra" / "Acentuados pela mesma regra" / "Acentuadas pelo mesmo motivo" / "Acentuada pelo mesmo motivo" / "Acentuadas graficamente pelo mesmo motivo" / "Acentuado pelo mesmo motivo" / "Acentuadas, respectivamente, pelo mesmo motivo" / "Acentuados, respectivamente, pela mesma regra"</strong> → as palavras pertencem à mesma classe de tonicidade (todas oxítonas, todas paroxítonas ou todas proparoxítonas). Palavras acentuadas pelo mesmo motivo compartilham a mesma regra de acentuação. Quando a prova usa "respectivamente", compara a justificativa do acento de cada palavra na ordem em que aparecem.</li>
+  <li><strong>"Palavras são paroxítonas" / "São oxítonas" / "São proparoxítonas"</strong> → identifique a posição da sílaba tônica e confirme a classificação.</li>
+  <li><strong>"Quanto à acentuação" / "Quanto a acentuação" / "Considerando a acentuação"</strong> → classifique a palavra quanto à tonicidade e explique se ela recebe ou não acento gráfico e por quê.</li>
+  <li><strong>"Acentuação dos vocábulos" / "Acentuação das palavras" / "Acentuação da palavra"</strong> → a acentuação da palavra segue as regras de tonicidade. Analise quais vocábulos têm acento gráfico e qual regra justifica cada acento.</li>
+  <li><strong>"Regra de acentuação" / "Regras de acentuação" / "Regra que justifica a acentuação" / "Sobre acentuação" / "Acentuação correta" / "Acentuada corretamente" / "Acentuado corretamente" / "Acentuados pelo mesmo motivo" / "Palavras acentuadas incorretamente"</strong> → a justificativa do acento: qual regra da tonicidade explica o acento gráfico? A acentuação correta é aquela que obedece às regras de tonicidade vigentes; uma palavra acentuada corretamente (ou acentuado corretamente) segue a norma do Acordo Ortográfico. Palavras acentuadas incorretamente violam essa norma.</li>
+  <li><strong>"Monossílabo"</strong> → palavra com uma única sílaba. Monossílabos tônicos terminados em -á/-é/-ê/-ó/-ô recebem acento (pá, pé, nó); os átonos (artigos, preposições) nunca recebem.</li>
+</ul>
+</div>
+
 <h3>O que é Tonicidade?</h3>
-<p><strong>Tonicidade</strong> é a propriedade que define qual sílaba de uma palavra carrega maior intensidade. Toda palavra com duas ou mais sílabas tem exatamente uma <strong>sílaba tônica</strong> — as demais são <strong>sílabas átonas</strong>.</p>
+<p><strong>Tonicidade</strong> é a propriedade que define qual sílaba de uma palavra carrega maior intensidade. Toda palavra com duas ou mais sílabas tem exatamente uma <strong>sílaba tônica</strong> — as demais são <strong>sílabas átonas</strong>. A classificação da tonicidade (oxítona, paroxítona, proparoxítona) determina qual regra de acentuação se aplica a cada vocábulo. A acentuação dos vocábulos e a acentuação da palavra dependem diretamente dessa classificação.</p>
 <div class="exemplo-box"><strong>Sílaba tônica:</strong> a mais intensa da palavra (sempre 1 por palavra)<br><strong>Sílaba átona:</strong> todas as outras, com menor intensidade</div>
 
 <h3>Como identificar pela escrita — sem usar o ouvido</h3>
