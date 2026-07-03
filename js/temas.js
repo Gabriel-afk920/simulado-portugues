@@ -1278,7 +1278,7 @@ const TEMAS = [
     id: "fonemas", nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
-<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
+<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. O estudo dos fonemas e do sistema sonoro da língua chama-se <strong>fonologia</strong> — a fonologia analisa como os sons (fonemas) se organizam e se opõem para criar significados. Não confunda fonema com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
 <div class="exemplo-box">
   "pato" e "gato" diferem pelo fonema inicial: /p/ × /g/<br>
   "faca" e "vaca" diferem pelo fonema inicial: /f/ × /v/<br>
