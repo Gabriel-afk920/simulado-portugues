@@ -3281,5 +3281,598 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>`,
     questoes: []
+  },
+
+  // ── NOVOS TEMAS ─────────────────────────────────────────────────────────────
+
+  {
+    id: "interpretacaoTextos",
+    nome: "Interpretação de Textos",
+    icon: "🔎",
+    desc: "Leitura, inferência e vocabulário em contexto",
+    teoria: `
+<h3>Interpretação e Compreensão de Textos</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Compreensão ≠ Interpretação</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Compreensão</strong>: o que o texto <em>diz explicitamente</em> — informação literal, extraída palavra por palavra.</li>
+  <li><strong>Interpretação</strong>: o que o texto <em>permite concluir</em> — inferência, dedução, pressuposto.</li>
+  <li><strong>Regra de ouro</strong>: a resposta correta nunca extrapola o texto; baseia-se exclusivamente no que está escrito ou pode ser logicamente inferido a partir do que está escrito.</li>
+</ul>
+</div>
+
+<h3>Tipos de Questão — Tabela Completa</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">O que pede</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como resolver</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Literal / explícita</strong></td><td style="padding:8px;border:1px solid #334155;">Informação que está no texto com as mesmas palavras</td><td style="padding:8px;border:1px solid #334155;">Localize o trecho exato; não reinterprete</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Inferencial</strong></td><td style="padding:8px;border:1px solid #334155;">"Conclui-se que…", "depreende-se…", "subentende-se…"</td><td style="padding:8px;border:1px solid #334155;">A conclusão precisa ser necessária — não apenas possível</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Temática / ideia central</strong></td><td style="padding:8px;border:1px solid #334155;">"O tema central do texto é…"</td><td style="padding:8px;border:1px solid #334155;">Identifique o assunto que perpassa TODO o texto, não apenas um trecho</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Vocabular</strong></td><td style="padding:8px;border:1px solid #334155;">"O vocábulo X, no contexto, significa…"</td><td style="padding:8px;border:1px solid #334155;">Substitua a palavra na frase e veja qual alternativa mantém o sentido</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Referencial</strong></td><td style="padding:8px;border:1px solid #334155;">"O pronome X refere-se a…"</td><td style="padding:8px;border:1px solid #334155;">Identifique o antecedente — busque concordância de número e gênero</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Asserção V/F</strong></td><td style="padding:8px;border:1px solid #334155;">Julgamento de afirmativas sobre o texto</td><td style="padding:8px;border:1px solid #334155;">Cada asserção deve ter respaldo literal ou inferencial no texto</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Síntese / resumo</strong></td><td style="padding:8px;border:1px solid #334155;">"Sintetiza o texto", "resume corretamente"</td><td style="padding:8px;border:1px solid #334155;">A alternativa deve capturar a ideia central sem distorcer nem omitir informação essencial</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Referência Textual — Pronomes e Substituições</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Anáfora</strong>: retoma algo já mencionado antes. Ex: "O aluno chegou. <em>Ele</em> estava atrasado." → "ele" = o aluno.</li>
+  <li><strong>Catáfora</strong>: antecipa algo que será mencionado depois. Ex: "<em>Isto</em> me surpreendeu: a turma passou." → "isto" = a turma ter passado.</li>
+  <li><strong>Elipse</strong>: omissão recuperável pelo contexto. Ex: "Maria saiu. [Ela] Não avisou ninguém."</li>
+  <li><strong>Sinônimo / hiperonímia</strong>: substituição por palavra de sentido equivalente ou mais abrangente. Ex: "cachorro… o animal…"</li>
+  <li><strong>Como resolver</strong>: substitua o pronome pelo candidato → leia a frase completa → veja se faz sentido semântico e gramatical.</li>
+</ul>
+</div>
+
+<h3>Pressupostos e Subentendidos</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Pressuposto</strong>: informação implícita que a frase toma como verdadeira. Ex: "João parou de fumar." → pressupõe que João fumava antes.</li>
+  <li><strong>Subentendido</strong>: conclusão que o leitor pode extrair, mas que não é garantida pelo texto. Mais sujeito a interpretação.</li>
+  <li><strong>Marcadores de pressuposto</strong>: verbos aspectuais (parar, começar, continuar), advérbios (ainda, já, nunca mais), orações temporais ("antes de X" pressupõe que X ocorreu ou ocorrerá).</li>
+</ul>
+</div>
+
+<h3>Armadilhas Clássicas de Prova</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#fbbf24;">Armadilha</th>
+    <th style="padding:8px;border:1px solid #334155;color:#fbbf24;">O que a banca faz</th>
+    <th style="padding:8px;border:1px solid #334155;color:#fbbf24;">Como evitar</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Absolutização</strong></td><td style="padding:8px;border:1px solid #334155;">Troca "geralmente/pode" por "sempre/nunca"</td><td style="padding:8px;border:1px solid #334155;">Desconfie de palavras absolutas — "sempre", "nunca", "todos", "nenhum"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Extrapolação</strong></td><td style="padding:8px;border:1px solid #334155;">Alternativa verdadeira na vida real, mas não dita no texto</td><td style="padding:8px;border:1px solid #334155;">Só vale o que o texto diz — ignore seu conhecimento externo</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Inversão</strong></td><td style="padding:8px;border:1px solid #334155;">Troca causa/efeito ou afirmativo/negativo</td><td style="padding:8px;border:1px solid #334155;">Volte ao trecho e releia com atenção à lógica da afirmação</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Troca de referência</strong></td><td style="padding:8px;border:1px solid #334155;">Diz que pronome X refere-se a Y quando é Z</td><td style="padding:8px;border:1px solid #334155;">Substitua pronome por cada candidato e teste concordância</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parcialidade</strong></td><td style="padding:8px;border:1px solid #334155;">Alternativa cita só um trecho, ignorando a ideia geral</td><td style="padding:8px;border:1px solid #334155;">Para questões de tema/síntese, cheque se a alternativa cobre todo o texto</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sinônimo falso</strong></td><td style="padding:8px;border:1px solid #334155;">Dá significado que a palavra pode ter em outros contextos</td><td style="padding:8px;border:1px solid #334155;">Sempre teste o sinônimo no contexto da frase original</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Conotação e Denotação</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Denotação</strong>: sentido literal, dicionarizado. Ex: "leão" = animal felino.</li>
+  <li><strong>Conotação</strong>: sentido figurado, dependente do contexto. Ex: "Aquele professor é um leão." = rigoroso, temido.</li>
+  <li><strong>Textos literários</strong>: predominantemente conotativos.</li>
+  <li><strong>Textos científicos e oficiais</strong>: predominantemente denotativos.</li>
+</ul>
+</div>
+
+<h3>Estratégia de Resolução Passo a Passo</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ol style="color:#cbd5e1;">
+  <li>Leia o enunciado da questão ANTES do texto para saber o que procurar.</li>
+  <li>Leia o texto inteiro sem parar — faça uma leitura de reconhecimento.</li>
+  <li>Identifique o tema central e a ideia de cada parágrafo.</li>
+  <li>Leia as alternativas e elimine as claramente erradas.</li>
+  <li>Para as restantes, volte ao texto e localize o trecho de suporte.</li>
+  <li>A alternativa correta deve estar <strong>100% respaldada pelo texto</strong> — nem mais, nem menos.</li>
+</ol>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Nunca marque uma alternativa só porque "parece certa" — encontre o trecho no texto que a comprova.</li>
+  <li>Alternativas com "somente", "exclusivamente", "apenas" quase sempre estão erradas por serem restritivas demais.</li>
+  <li>Em questões de vocabulário: teste cada alternativa substituindo a palavra e releia a frase.</li>
+  <li>Em questões de referência pronominal: priorize o antecedente mais próximo com concordância adequada.</li>
+  <li>"De acordo com o texto" = resposta literal. "Conclui-se do texto" = resposta inferencial (mas ainda baseada no texto).</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "pontuacao",
+    nome: "Pontuação",
+    icon: "✍️",
+    desc: "Vírgula, ponto e vírgula, dois-pontos e demais sinais",
+    teoria: `
+<h3>Pontuação</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Princípio geral</strong>
+<p style="color:#cbd5e1;margin-top:8px;">A pontuação organiza o ritmo, a clareza e o sentido do texto. Em provas, o foco recai na <strong>vírgula</strong> (uso obrigatório, facultativo e proibido) e nos <strong>dois-pontos</strong>. Dominar as regras da vírgula resolve a maioria das questões.</p>
+</div>
+
+<h3>VÍRGULA — Quando é Obrigatória</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Situação</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Regra</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Vocativo</strong></td><td style="padding:8px;border:1px solid #334155;">Isolar o vocativo com vírgula(s)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">João<strong>,</strong> venha cá. / Venha cá<strong>,</strong> João. / Venha<strong>,</strong> João<strong>,</strong> cá.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aposto explicativo</strong></td><td style="padding:8px;border:1px solid #334155;">Isolar o aposto com vírgula(s)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Camões<strong>,</strong> o grande poeta lusitano<strong>,</strong> viveu no séc. XVI.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Oração adjetiva explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Vírgula antes e depois da oração explicativa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Os alunos<strong>,</strong> que estudaram bastante<strong>,</strong> passaram. (todos estudaram)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adjunto adverbial deslocado</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto anteposto ao verbo deve ser separado</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ontem<strong>,</strong> o time perdeu o jogo. / No parque<strong>,</strong> as crianças brincavam.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Orações coordenadas assindéticas</strong></td><td style="padding:8px;border:1px solid #334155;">Separar orações justapostas sem conjunção</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Cheguei<strong>,</strong> vi<strong>,</strong> venci.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Enumeração</strong></td><td style="padding:8px;border:1px solid #334155;">Separar itens de uma série</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Comprei pão<strong>,</strong> leite<strong>,</strong> ovos e manteiga.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Conjunções adversativas (mas, porém, contudo…)</strong></td><td style="padding:8px;border:1px solid #334155;">Vírgula antes da conjunção</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudei muito<strong>,</strong> mas não passei.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Oração intercalada / explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Isolar verbos de elocução intercalados</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Chegarei logo"<strong>,</strong> disse ele<strong>,</strong> "não se preocupe."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Orações subordinadas adverbiais antepostas</strong></td><td style="padding:8px;border:1px solid #334155;">Subord. adverbial antes da principal exige vírgula</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Quando o sol nasceu<strong>,</strong> partimos.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Elipse do verbo</strong></td><td style="padding:8px;border:1px solid #334155;">Vírgula no lugar do verbo omitido</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele comprou pão; ela<strong>,</strong> leite. [ela comprou leite]</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>VÍRGULA — Quando é PROIBIDA</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Entre sujeito e verbo</strong>: ❌ "O aluno<strong>,</strong> chegou tarde." → correto: "O aluno chegou tarde."</li>
+  <li><strong>Entre verbo e objeto direto/indireto</strong>: ❌ "Ela comprou<strong>,</strong> o livro." → correto: "Ela comprou o livro."</li>
+  <li><strong>Entre nome e seu complemento nominal</strong>: ❌ "Tenho necessidade<strong>,</strong> de água." → correto: "Tenho necessidade de água."</li>
+  <li><strong>Antes de oração adjetiva restritiva</strong>: ❌ "Os alunos<strong>,</strong> que estudaram passaram." (restringe — só os que estudaram) → sem vírgula.</li>
+  <li><strong>Antes de "e" em enumeração simples</strong>: ❌ "Comi pão, leite<strong>,</strong> e queijo." → correto: "Comi pão, leite e queijo."</li>
+</ul>
+</div>
+
+<h3>Adjetiva Explicativa × Restritiva</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Função</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Vírgula</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Acrescenta informação adicional ao antecedente (já identificado)</td><td style="padding:8px;border:1px solid #334155;color:#86efac;">Obrigatória</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O Sol<strong>,</strong> que é uma estrela<strong>,</strong> ilumina a Terra.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Restritiva</strong></td><td style="padding:8px;border:1px solid #334155;">Delimita/restringe o antecedente (identifica quais)</td><td style="padding:8px;border:1px solid #334155;color:#f87171;">Proibida</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Os alunos que estudaram passaram. (só os que estudaram)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>PONTO E VÍRGULA</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li>Separar orações coordenadas já subdivididas por vírgulas: <em>"Comprei leite, pão e ovos; lavei a louça, o chão e as roupas."</em></li>
+  <li>Separar itens de enumeração em série longa: <em>"Art. 5º — São direitos fundamentais: I – a vida; II – a liberdade; III – a igualdade."</em></li>
+  <li>Separar orações coordenadas com sentido oposto, antes de conjunções adversativas em período longo.</li>
+</ul>
+</div>
+
+<h3>DOIS-PONTOS</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Anúncio de enumeração</strong>: "Precisamos de: caneta, borracha e régua."</li>
+  <li><strong>Anúncio de fala/citação</strong>: "Ela respondeu: 'Não posso ir.'"</li>
+  <li><strong>Explicação ou conclusão</strong>: "Estudei horas a fio: não poderia reprovar."</li>
+  <li><strong>Anúncio de aposto ou complemento</strong>: "Só quero uma coisa: paz."</li>
+</ul>
+</div>
+
+<h3>DEMAIS SINAIS</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sinal</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Uso principal</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reticências (…)</strong></td><td style="padding:8px;border:1px solid #334155;">Suspense, omissão, hesitação, continuação subentendida</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Eu queria dizer… mas não consigo."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Travessão (—)</strong></td><td style="padding:8px;border:1px solid #334155;">Iniciar fala em diálogo; isolar aposto/intercalação com ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">— Não vou. / O presidente — que chegou tarde — discursou.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parênteses ( )</strong></td><td style="padding:8px;border:1px solid #334155;">Informação acessória, explicação, data, sigla</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O IBGE (Instituto Brasileiro de Geografia e Estatística) divulgou...</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspas (" ")</strong></td><td style="padding:8px;border:1px solid #334155;">Citação direta, ironia, neologismo, estrangeirismo, ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele é muito "pontual". / "A arte é longa, a vida é breve." (Hipócrates)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de exclamação (!)</strong></td><td style="padding:8px;border:1px solid #334155;">Emoção, ordem, surpresa, exclamação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Que bela paisagem! / Cale-se!</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de interrogação (?)</strong></td><td style="padding:8px;border:1px solid #334155;">Perguntas diretas</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Você virá amanhã? (interrogação indireta NÃO usa ?)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>A questão de pontuação mais cobrada é a <strong>vírgula</strong> — memorize os casos proibidos (entre sujeito/verbo e verbo/objeto).</li>
+  <li>Teste cada alternativa substituindo a pontuação proposta e lendo em voz alta — o sentido muda? Se sim, está errado.</li>
+  <li>Oração adjetiva: pergunte "essa informação identifica ou apenas acrescenta?". Se identifica → restritiva → sem vírgula. Se acrescenta → explicativa → com vírgula.</li>
+  <li>Adjunto adverbial curto no início → vírgula é facultativa; adjunto longo → vírgula é recomendada/obrigatória.</li>
+  <li>Conjunção "mas" é sempre precedida de vírgula. Conjunção "e" em enumeração simples NÃO é.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "regencia",
+    nome: "Regência Nominal e Verbal",
+    icon: "🔗",
+    desc: "Relação verbo/nome com sua complementação e preposições",
+    teoria: `
+<h3>Regência Nominal e Verbal</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">O que é regência</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Regência é a relação de dependência entre um termo regente (verbo ou nome) e seu complemento (termo regido). A preposição usada pode mudar o significado ou ser exigida por norma. Em provas, os erros mais comuns envolvem uso indevido ou omissão de preposição.</p>
+</div>
+
+<h3>REGÊNCIA VERBAL — Principais Verbos (Tabela Completa)</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Verbo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Regência</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sentido / Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (sentido de ver/presenciar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Assisti <strong>ao</strong> jogo. / Assisti <strong>à</strong> palestra.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (sentido de ajudar, caber)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O médico assistiu o paciente. / Esse direito lhe assiste.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (objetivar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O projeto visa <strong>ao</strong> bem comum.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (pôr visto, mirar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O chefe visou o documento. / O atirador visou o alvo.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aspirar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (desejar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Aspiro <strong>a</strong> um cargo melhor.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspirar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (inalar, sugar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele aspirou o ar poluído.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Implicar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (acarretar, envolver)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">A decisão implica riscos.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Implicar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>com</em> (antipatizar, implicar com alguém)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele sempre implica <strong>com</strong> o colega.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Preferir</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (NÃO usar "mais… do que")</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Prefiro café <strong>a</strong> chá. ❌ Prefiro café mais que chá.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Obedecer / Desobedecer</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Obedecemos <strong>às</strong> leis. / Desobedeceu <strong>ao</strong> pai.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Custar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (ser difícil para alguém — sujeito é a coisa difícil)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Custou <strong>a</strong> ele entender. (= foi difícil para ele entender)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Chamar</strong></td><td style="padding:8px;border:1px solid #334155;">com ou sem preposição (= convocar, denominar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Chamaram o médico. / Chamaram-lhe de louco. / Chamaram-no louco.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Pagar / Perdoar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (quando o complemento é pessoa)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Paguei <strong>ao</strong> fornecedor. / Perdoei <strong>ao</strong> amigo.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pagar / Perdoar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (quando o complemento é coisa)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Paguei a dívida. / Perdoei o erro.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Informar / Comunicar / Avisar</strong></td><td style="padding:8px;border:1px solid #334155;">alguém <em>de</em> algo / algo <em>a</em> alguém</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Informei o chefe <strong>do</strong> resultado. / Informei o resultado <strong>ao</strong> chefe.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Ir / Chegar / Voltar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (direção/destino); + <em>de</em> (procedência)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Fui <strong>ao</strong> banco. Cheguei <strong>ao</strong> trabalho. Voltei <strong>de</strong> viagem.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Simpatizar / Antipatizar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>com</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Simpatizo <strong>com</strong> ela. Antipatizo <strong>com</strong> ele.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Namorar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (na norma culta)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela namora João. ❌ Ela namora com João.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ansiar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>por</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Anseio <strong>por</strong> liberdade.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>REGÊNCIA NOMINAL — Principais Nomes</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Nome</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Preposição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>apto, hábil, capaz</strong></td><td style="padding:8px;border:1px solid #334155;"><em>a / para</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Apto <strong>ao</strong> trabalho. Capaz <strong>de</strong> vencer.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>necessidade, carência, falta</strong></td><td style="padding:8px;border:1px solid #334155;"><em>de</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Necessidade <strong>de</strong> água.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>amor, ódio, aversão, respeito</strong></td><td style="padding:8px;border:1px solid #334155;"><em>a / por</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Amor <strong>à</strong> pátria. Respeito <strong>pelo</strong> colega.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>dúvida, certeza</strong></td><td style="padding:8px;border:1px solid #334155;"><em>sobre / de / a respeito de</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Dúvida <strong>sobre</strong> o resultado. Certeza <strong>de</strong> vitória.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>compatível, incompatível</strong></td><td style="padding:8px;border:1px solid #334155;"><em>com</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Compatível <strong>com</strong> o sistema.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>ansioso, curioso</strong></td><td style="padding:8px;border:1px solid #334155;"><em>por / para</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ansioso <strong>para</strong> começar.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>obediente, fiel</strong></td><td style="padding:8px;border:1px solid #334155;"><em>a</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Fiel <strong>à</strong> promessa.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>propenso, favorável, contrário</strong></td><td style="padding:8px;border:1px solid #334155;"><em>a</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Contrário <strong>à</strong> decisão.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>direito, acesso</strong></td><td style="padding:8px;border:1px solid #334155;"><em>a</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Direito <strong>à</strong> educação. Acesso <strong>ao</strong> sistema.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>bacharel, mestre, doutor</strong></td><td style="padding:8px;border:1px solid #334155;"><em>em</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Bacharel <strong>em</strong> Direito.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Regência e Crase</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li>Se o verbo ou nome exige preposição <em>a</em> e o complemento é um substantivo feminino que aceita artigo <em>a</em>, haverá crase: <em>Assisti <strong>à</strong> peça. Aspiro <strong>à</strong> liderança. Aversão <strong>à</strong> mentira.</em></li>
+  <li>Se a preposição exigida NÃO é <em>a</em>, não há crase: <em>Necessidade <strong>de</strong> água. Compatível <strong>com</strong> a norma.</em></li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Assistir ao filme</strong> (com preposição) — não confundir com "assistir o paciente" (sem preposição).</li>
+  <li><strong>Visar ao cargo</strong> (objetivar, com preposição) — não confundir com "visar o cheque" (sem preposição).</li>
+  <li><strong>Preferir X a Y</strong> — nunca usar "mais que" ou "do que" com preferir.</li>
+  <li><strong>Obedecer à lei</strong> — sempre com preposição; não aceita pronome objeto direto: ❌ "obedecê-la".</li>
+  <li>Se a questão trocar a preposição ou omiti-la num desses verbos, a frase está errada.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "analiseSintatica",
+    nome: "Análise Sintática",
+    icon: "🔍",
+    desc: "Termos da oração, coordenação e subordinação",
+    teoria: `
+<h3>Análise Sintática</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">O que é</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Análise sintática é o estudo das relações entre as palavras na frase. Cada palavra ou grupo de palavras exerce uma <strong>função sintática</strong>. Em provas, cobram-se principalmente: identificação de sujeito, objeto, adjuntos, tipos de oração e estrutura de períodos compostos.</p>
+</div>
+
+<h3>Termos Essenciais da Oração</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Termo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Sujeito simples</strong></td><td style="padding:8px;border:1px solid #334155;">Um único núcleo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><u>O aluno</u> chegou.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sujeito composto</strong></td><td style="padding:8px;border:1px solid #334155;">Dois ou mais núcleos</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><u>Pedro e Maria</u> viajaram.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Sujeito oculto (elíptico/desinencial)</strong></td><td style="padding:8px;border:1px solid #334155;">Identificado pela desinência verbal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><u>[Nós]</u> Chegamos cedo.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sujeito indeterminado</strong></td><td style="padding:8px;border:1px solid #334155;">Existe mas não é identificável: 3ª pessoa do plural sem referência, ou verbo+se</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Falaram mal de você. / Precisa-se de funcionários.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Oração sem sujeito</strong></td><td style="padding:8px;border:1px solid #334155;">Verbos impessoais: haver (existir), fazer (tempo), ser (tempo), chover, etc.</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Há muitos candidatos. Faz anos que não o vejo. Choveu muito.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Predicado verbal</strong></td><td style="padding:8px;border:1px solid #334155;">Núcleo é o verbo (verbo de ação)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <u>estudou bastante</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Predicado nominal</strong></td><td style="padding:8px;border:1px solid #334155;">Núcleo é o predicativo do sujeito (verbo de ligação)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <u>está cansado</u>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Predicado verbo-nominal</strong></td><td style="padding:8px;border:1px solid #334155;">Verbo de ação + predicativo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <u>chegou cansado</u>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Verbos de Ligação</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;">Verbos de ligação ligam o sujeito ao seu predicativo. Os principais são: <strong>ser, estar, ficar, parecer, permanecer, continuar, tornar-se, revelar-se, andar, viver</strong> (quando expressam estado).</p>
+<p style="color:#cbd5e1;margin-top:8px;font-style:italic;">Ex: "Ela ficou triste." → "ficou" = verbo de ligação; "triste" = predicativo do sujeito.</p>
+</div>
+
+<h3>Termos Integrantes da Oração</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Termo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como identificar</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Objeto Direto (OD)</strong></td><td style="padding:8px;border:1px solid #334155;">Completa verbo transitivo direto — SEM preposição obrigatória. Pergunta: verbo + "quê?" ou "quem?"</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Comprei <u>um livro</u>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Objeto Indireto (OI)</strong></td><td style="padding:8px;border:1px solid #334155;">Completa verbo transitivo indireto — COM preposição. Pergunta: verbo + "a quem?", "de quê?", "em quê?"</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Gosto <u>de música</u>. Obedeci <u>ao chefe</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Complemento Nominal (CN)</strong></td><td style="padding:8px;border:1px solid #334155;">Completa um <em>nome</em> (substantivo, adjetivo ou advérbio) — com preposição</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Tenho necessidade <u>de atenção</u>. Favorável <u>à</u> proposta.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Agente da Passiva</strong></td><td style="padding:8px;border:1px solid #334155;">Quem pratica a ação na voz passiva — introduzido por "por" (ou "de")</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O livro foi escrito <u>pelo autor</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Predicativo do Objeto</strong></td><td style="padding:8px;border:1px solid #334155;">Caracteriza o objeto direto</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela considerou o projeto <u>excelente</u>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>OD × OI × CN — Como Distinguir</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>OD</strong>: complementa <em>verbo</em>, sem preposição. Pode ser substituído por "o/a/os/as". Ex: "Vi <u>Maria</u>" → "Vi-a".</li>
+  <li><strong>OI</strong>: complementa <em>verbo</em>, com preposição. Pode ser substituído por "lhe/lhes". Ex: "Obedeci <u>ao chefe</u>" → "Obedeci-lhe".</li>
+  <li><strong>CN</strong>: complementa <em>nome</em> (substantivo/adjetivo). NÃO pode ser substituído por pronome oblíquo. Ex: "necessidade <u>de atenção</u>" — aqui "necessidade" é o nome regente.</li>
+  <li><strong>Dica</strong>: se a preposição vier depois de um verbo → OI. Se vier depois de substantivo/adjetivo → CN.</li>
+</ul>
+</div>
+
+<h3>Termos Acessórios da Oração</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Termo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Função</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adjunto Adnominal</strong></td><td style="padding:8px;border:1px solid #334155;">Modifica (caracteriza/delimita) um substantivo. Pode ser: artigo, adjetivo, pronome, numeral, locução adjetiva</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><u>O bom</u> aluno <u>de matemática</u> estuda.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adjunto Adverbial</strong></td><td style="padding:8px;border:1px solid #334155;">Modifica verbo, adjetivo ou outro advérbio. Indica: tempo, lugar, modo, intensidade, causa, fim, etc.</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Chegou <u>ontem</u>. Estudou <u>muito bem</u>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aposto</strong></td><td style="padding:8px;border:1px solid #334155;">Explica, resume ou especifica um substantivo anterior</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Camões, <u>o poeta lusitano</u>, é genial. / Eles têm dois objetivos: <u>vencer e melhorar</u>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Vocativo</strong></td><td style="padding:8px;border:1px solid #334155;">Chama/interpela o interlocutor — não integra a oração sintaticamente</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><u>Professora</u>, tenho uma dúvida.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Adjunto Adnominal × Complemento Nominal</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Adj. Adnominal</strong>: modifica qualquer substantivo (concreto ou abstrato). A relação é de caracterização. Ex: "livro <u>de capa dura</u>" — descreve o livro.</li>
+  <li><strong>Complemento Nominal</strong>: completa o sentido de substantivo <em>derivado de verbo transitivo</em>. A relação é de objeto. Ex: "destruição <u>da cidade</u>" — "cidade" é o que foi destruído (= destruíram a cidade).</li>
+  <li><strong>Teste do pronome</strong>: se puder substituir por pronome possessivo ("seu"), provavelmente é adj. adnominal. Se puder substituir a oração pelo pronome "o/a", provavelmente é CN.</li>
+</ul>
+</div>
+
+<h3>Período Composto — Coordenação</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Sentido</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Conjunções</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aditiva</strong></td><td style="padding:8px;border:1px solid #334155;">Adição</td><td style="padding:8px;border:1px solid #334155;">e, nem, não só…mas também, bem como</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudou <strong>e</strong> passou.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adversativa</strong></td><td style="padding:8px;border:1px solid #334155;">Oposição</td><td style="padding:8px;border:1px solid #334155;">mas, porém, contudo, todavia, entretanto, no entanto</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudou, <strong>porém</strong> não passou.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Alternativa</strong></td><td style="padding:8px;border:1px solid #334155;">Alternância</td><td style="padding:8px;border:1px solid #334155;">ou, ou…ou, ora…ora, quer…quer, seja…seja</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Ora</strong> chora, <strong>ora</strong> ri.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Conclusiva</strong></td><td style="padding:8px;border:1px solid #334155;">Conclusão</td><td style="padding:8px;border:1px solid #334155;">logo, portanto, por isso, assim, pois (depois do verbo)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudo muito; <strong>logo</strong>, passarei.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Explicação</td><td style="padding:8px;border:1px solid #334155;">pois (antes do verbo), porque, que</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Não saia, <strong>pois</strong> está chovendo.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Período Composto — Subordinação</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Função na oração</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Subtipos / Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Subjetiva</strong></td><td style="padding:8px;border:1px solid #334155;">Sujeito da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Que você venha</strong> é necessário.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Objetiva Direta</strong></td><td style="padding:8px;border:1px solid #334155;">OD da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Espero <strong>que você chegue</strong>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Subst. Objetiva Indireta</strong></td><td style="padding:8px;border:1px solid #334155;">OI da principal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Gosto <strong>de que me ouçam</strong>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adjetiva Restritiva</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto adnominal (restringe o antecedente)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O aluno <strong>que estuda</strong> passa. (sem vírgula)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adjetiva Explicativa</strong></td><td style="padding:8px;border:1px solid #334155;">Adjunto adnominal (explica, não restringe)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O Sol, <strong>que é estrela</strong>, ilumina. (com vírgula)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Causal</strong></td><td style="padding:8px;border:1px solid #334155;">Causa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Como estudou</strong>, passou. / Passou <strong>porque estudou</strong>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Condicional</strong></td><td style="padding:8px;border:1px solid #334155;">Condição</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Se estudar</strong>, passará.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Concessiva</strong></td><td style="padding:8px;border:1px solid #334155;">Concessão (apesar de)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Embora estudasse</strong>, não passou.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Final</strong></td><td style="padding:8px;border:1px solid #334155;">Finalidade</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudo <strong>para que minha família melhore</strong>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Temporal</strong></td><td style="padding:8px;border:1px solid #334155;">Tempo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;"><strong>Quando cheguei</strong>, a reunião havia terminado.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Comparativa</strong></td><td style="padding:8px;border:1px solid #334155;">Comparação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ela corre <strong>mais rápido do que eu corro</strong>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Adverbial Consecutiva</strong></td><td style="padding:8px;border:1px solid #334155;">Consequência</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudou tanto <strong>que passou</strong>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Para identificar o sujeito: faça a pergunta "Quem/O que + verbo?". A resposta é o sujeito.</li>
+  <li>Verbos <em>haver</em> (=existir), <em>fazer</em> (tempo), <em>chover</em>, <em>anoitecer</em> são impessoais — não têm sujeito e ficam no singular.</li>
+  <li>OD: pode ser substituído por "o/a". OI: pode ser substituído por "lhe".</li>
+  <li>Oração adverbial concessiva ("embora", "ainda que", "mesmo que") exige verbo no subjuntivo.</li>
+  <li>"Pois" antes do verbo = explicativa (coordenada). "Pois" depois do verbo = conclusiva (= portanto).</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "temposVerbais",
+    nome: "Tempos e Modos Verbais",
+    icon: "⏳",
+    desc: "Indicativo, subjuntivo, imperativo e correlação de tempos",
+    teoria: `
+<h3>Emprego de Tempos e Modos Verbais</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Os três modos verbais</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Indicativo</strong>: ação certa, real, apresentada como fato. Ex: "Estudo todos os dias."</li>
+  <li><strong>Subjuntivo</strong>: ação incerta, duvidosa, hipotética, desejada. Ex: "Espero que você estude."</li>
+  <li><strong>Imperativo</strong>: ordem, pedido, conselho. Ex: "Estude mais!"</li>
+</ul>
+</div>
+
+<h3>MODO INDICATIVO — Tempos e Usos</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tempo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Usos principais</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Presente</strong></td><td style="padding:8px;border:1px solid #334155;">Ação simultânea ao momento da fala; verdade geral; presente histórico (narrativa vívida)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudo agora. / A água ferve a 100°C. / Napoleão <em>perde</em> em Waterloo.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pretérito Perfeito</strong></td><td style="padding:8px;border:1px solid #334155;">Ação concluída no passado, pontual</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudei ontem. / Ele saiu às 8h.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Pretérito Imperfeito</strong></td><td style="padding:8px;border:1px solid #334155;">Ação passada habitual, contínua, ou em andamento quando outra ocorreu</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudava todos os dias. / Ela dormia quando o telefone tocou.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pretérito Mais-que-Perfeito</strong></td><td style="padding:8px;border:1px solid #334155;">Ação passada anterior a outra ação passada</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Quando ele chegou, eu já <em>tinha saído</em>. (composto) / Quando ele chegou, eu já <em>saíra</em>. (simples)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Futuro do Presente</strong></td><td style="padding:8px;border:1px solid #334155;">Ação futura em relação ao momento da fala</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Estudarei amanhã. / Viajaremos nas férias.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Futuro do Pretérito</strong></td><td style="padding:8px;border:1px solid #334155;">Ação futura em relação a momento passado; hipótese; cortesia; condição</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Se eu soubesse, <em>diria</em>. / Poderia me ajudar? / Ele disse que <em>viria</em>.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>MODO SUBJUNTIVO — Tempos e Usos</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tempo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Usos principais</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Presente do Subjuntivo</strong></td><td style="padding:8px;border:1px solid #334155;">Desejo, dúvida, pedido no presente; após "que" com verbo de emoção/volição</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Espero que <em>venha</em>. / Que <em>Deus te abençoe</em>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pretérito Imperfeito do Subjuntivo</strong></td><td style="padding:8px;border:1px solid #334155;">Hipótese no passado (correlato do futuro do pretérito); orações concessivas/condicionais</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Se eu <em>tivesse</em> dinheiro, viajaria. / Embora <em>estudasse</em>, não passou.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Futuro do Subjuntivo</strong></td><td style="padding:8px;border:1px solid #334155;">Ação futura hipotética/incerta — muito usado em orações condicionais e temporais</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Se você <em>vier</em>, avisarei. / Quando <em>chegar</em>, ligue. / Onde <em>estiver</em>, pense em mim.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>MODO IMPERATIVO</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Forma</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Origem</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo (falar)</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Imperativo Afirmativo — tu</strong></td><td style="padding:8px;border:1px solid #334155;">Presente do indicativo, 3ª pessoa, sem -s</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Fala! (tu falas → fala)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Imperativo Afirmativo — você/vocês/nós</strong></td><td style="padding:8px;border:1px solid #334155;">Presente do subjuntivo (mesma forma)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Fale! (você) / Falem! (vocês) / Falemos! (nós)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Imperativo Negativo — todos</strong></td><td style="padding:8px;border:1px solid #334155;">Presente do subjuntivo com "não"</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Não fale! (você) / Não fales! (tu) / Não falem! (vocês)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Correlação de Tempos Verbais</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Oração Principal (Indicativo)</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Oração Subordinada (Subjuntivo)</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;">Presente / Futuro do Presente</td><td style="padding:8px;border:1px solid #334155;">Presente do Subjuntivo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Espero que ele <em>chegue</em>. / Pedirei que você <em>fique</em>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;">Pretérito Perfeito / Imperfeito / Mais-que-Perfeito</td><td style="padding:8px;border:1px solid #334155;">Pretérito Imperfeito do Subjuntivo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Esperava que ele <em>chegasse</em>. / Pedi que você <em>ficasse</em>.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;">Futuro do Pretérito</td><td style="padding:8px;border:1px solid #334155;">Pretérito Imperfeito do Subjuntivo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Pediria que você <em>ficasse</em>.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;">Qualquer tempo (condição/tempo futuro)</td><td style="padding:8px;border:1px solid #334155;">Futuro do Subjuntivo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Se você <em>vier</em>, avisarei. / Quando <em>terminar</em>, me ligue.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Usos Especiais do Futuro do Pretérito</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Cortesia</strong>: "Poderia me ajudar?" (mais polido que "pode me ajudar?")</li>
+  <li><strong>Hipótese no presente/futuro</strong>: "Se eu pudesse, viajaria." (condição → resultado hipotético)</li>
+  <li><strong>Discurso indireto</strong>: "Ele disse que viria." (futuro em relação ao passado)</li>
+  <li><strong>Notícia não confirmada</strong>: "O presidente teria assinado o documento." (distanciamento do fato)</li>
+</ul>
+</div>
+
+<h3>Pretérito Imperfeito × Pretérito Perfeito — Distinção Fundamental</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Perfeito</strong>: ação concluída, pontual. Responde "quando?". Ex: "Saiu às 8h." / "Chegou ontem."</li>
+  <li><strong>Imperfeito</strong>: ação contínua, habitual, descritiva no passado. Ex: "Estudava todas as manhãs." / "O céu estava azul." / "Ela sempre chegava cedo."</li>
+  <li><strong>Imperfeito de habitualidade</strong>: equivale a "costumava + infinitivo". Ex: "Andava descalço" = "Costumava andar descalço".</li>
+</ul>
+</div>
+
+<h3>Mais-que-Perfeito Simples × Composto</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Simples</strong>: forma sintética, pouco usada na fala. Ex: "Ele <em>partira</em> antes de eu chegar."</li>
+  <li><strong>Composto</strong>: "ter/haver" no imperfeito + particípio. Ex: "Ele <em>tinha partido</em> antes de eu chegar."</li>
+  <li>Ambos indicam ação passada anterior a outra ação passada.</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>"Se" + futuro do subjuntivo → "Se você vier, avisarei." ❌ "Se você virá…" (nunca futuro do indicativo após "se" condicional).</li>
+  <li>"Quando" no futuro → futuro do subjuntivo: "Quando você chegar, ligue." ❌ "Quando você chegará…"</li>
+  <li>Imperativo de "você" vem sempre do subjuntivo: "Fale" (não "fala" para você formal).</li>
+  <li>Futuro do pretérito para cortesia: "Gostaria de saber…" soa mais formal e educado que "Quero saber…"</li>
+  <li>Questões de correlação: veja o tempo da oração principal para deduzir o tempo da subordinada.</li>
+</ul>
+</div>`,
+    questoes: []
   }
 ];
