@@ -31,7 +31,7 @@
   }
 
   // ── 4. Seção combinada: Fonética e Ortografia ────────────────────────────────
-  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','encontrosConsonantais','hifen'];
+  var IDS_FON = ['ditongos','digrafos','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','encontrosConsonantais','hifen','oxitonas','paroxitonas','proparoxitonas'];
   var qFon = [];
   IDS_FON.forEach(function(id) {
     var t = TEMAS.find(function(t){ return t.id === id; });

@@ -180,7 +180,9 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
-const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','encontrosConsonantais','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen'];
+const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','encontrosConsonantais','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen','oxitonas','paroxitonas','proparoxitonas'];
+// Excluídos da grade de sub-temas (conteúdo já coberto por Tonicidade)
+const IDS_OCULTAR_SUBTELA = ['oxitonas','paroxitonas','proparoxitonas'];
 
 function renderTemaGrid(gridId, onClickFn, excluir) {
   const grid = document.getElementById(gridId);
@@ -216,6 +218,7 @@ function abrirTeoria(id) {
     const grid = document.getElementById('study-fonetica-grid');
     grid.innerHTML = '';
     IDS_FONETICA_ORTOGRAFIA.forEach(subId => {
+      if (IDS_OCULTAR_SUBTELA.includes(subId)) return;
       const sub = TEMAS.find(x => x.id === subId);
       if (!sub) return;
       const card = document.createElement('div');
@@ -274,7 +277,7 @@ function selecionarTemaQuiz(id, card) {
     const grid = document.getElementById('quiz-fonetica-grid');
     const subtemasDisponiveis = IDS_FONETICA_ORTOGRAFIA
       .map(id => TEMAS.find(x => x.id === id))
-      .filter(sub => sub && sub.questoes && sub.questoes.length);
+      .filter(sub => sub && sub.questoes && sub.questoes.length && !IDS_OCULTAR_SUBTELA.includes(sub.id));
     _renderSubtemasQuiz(subtemasDisponiveis);
     ir('screen-quiz-fonetica');
     return;
