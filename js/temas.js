@@ -4302,5 +4302,374 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>`,
     questoes: []
+  },
+
+  {
+    id: "figurasLinguagem",
+    nome: "Figuras de Linguagem",
+    icon: "🎭",
+    desc: "Metáfora, metonímia, hipérbole, ironia e demais figuras",
+    teoria: `
+<h3>Figuras de Linguagem (Estilística)</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">O que são figuras de linguagem</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Figuras de linguagem são recursos expressivos que fogem do sentido literal ou da estrutura gramatical comum para criar efeitos de sentido, emoção ou beleza. Dividem-se em quatro grupos: <strong>figuras de palavras</strong> (semânticas), <strong>figuras de pensamento</strong>, <strong>figuras de construção</strong> (sintaxe) e <strong>figuras de som</strong> (fonológicas).</p>
+</div>
+
+<h3>1. Figuras de Palavras (Semânticas)</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Figura</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como identificar</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Metáfora</strong></td><td style="padding:8px;border:1px solid #334155;">Comparação implícita — identifica dois termos sem usar "como", "tal qual"</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"A vida é uma viagem." / "Seus olhos são estrelas." / "Ele é uma raposa."</td><td style="padding:8px;border:1px solid #334155;">Atribuição de qualidade de A para B sem palavra de comparação</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Comparação (Símile)</strong></td><td style="padding:8px;border:1px solid #334155;">Comparação explícita — usa "como", "tal qual", "parece", "feito"</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Ele corre <strong>como</strong> um leopardo." / "Ela é <strong>feito</strong> uma rosa."</td><td style="padding:8px;border:1px solid #334155;">Presença de conectivo de comparação explícito</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Metonímia</strong></td><td style="padding:8px;border:1px solid #334155;">Substituição de um termo por outro com o qual tem relação de contiguidade (parte/todo, causa/efeito, autor/obra, etc.)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Leu Machado de Assis." (obra pelo autor) / "Bebeu um copo." (recipiente pelo conteúdo) / "O Brasil venceu." (país pela seleção)</td><td style="padding:8px;border:1px solid #334155;">Um elemento substitui outro com que tem relação real (não de semelhança)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sinédoque</strong></td><td style="padding:8px;border:1px solid #334155;">Caso especial de metonímia: substituição de parte pelo todo ou todo pela parte</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O homem conquistou o espaço." (espécie humana, não um indivíduo) / "Preciso de um teto." (parte da casa pelo todo)</td><td style="padding:8px;border:1px solid #334155;">Parte → todo ou todo → parte</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Catacrese</strong></td><td style="padding:8px;border:1px solid #334155;">Metáfora desgastada pelo uso cotidiano — já não percebemos o sentido figurado</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Pé da mesa." / "Braço da poltrona." / "Folha de papel." / "Boca do rio." / "Dente de alho."</td><td style="padding:8px;border:1px solid #334155;">Expressão consagrada que originalmente era comparação; hoje sentida como denotativa</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sinestesia</strong></td><td style="padding:8px;border:1px solid #334155;">Fusão de sensações de sentidos diferentes (visão + audição, tato + paladar, etc.)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Voz macia e dourada." (audição + tato + visão) / "Um silêncio verde." / "O grito vermelho da sirene."</td><td style="padding:8px;border:1px solid #334155;">Combinação de dois ou mais campos sensoriais numa única expressão</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Antonomásia / Perífrase</strong></td><td style="padding:8px;border:1px solid #334155;">Substituição de nome próprio por qualidade/característica que o identifica, ou vice-versa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O Rei do Futebol" (= Pelé) / "A Cidade Maravilhosa" (= Rio de Janeiro) / "O Poeta dos Escravos" (= Castro Alves)</td><td style="padding:8px;border:1px solid #334155;">Nome próprio substituído por denominação característica</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2. Figuras de Pensamento</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Figura</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Diferença chave</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Antítese</strong></td><td style="padding:8px;border:1px solid #334155;">Aproximação de ideias ou palavras opostas, sem contradição lógica</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Amor é fogo que arde sem se ver; é ferida que dói e não se sente." (Camões) / "Vida e morte, luz e trevas."</td><td style="padding:8px;border:1px solid #334155;">Oposição real — os termos são contrários</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Paradoxo (Oxímoro)</strong></td><td style="padding:8px;border:1px solid #334155;">Ideias contraditórias unidas que revelam verdade mais profunda; aparente absurdo lógico</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Morro de amor pela vida." / "Silêncio ensurdecedor." / "Apressado devagar." / "Clareza obscura."</td><td style="padding:8px;border:1px solid #334155;">Contradição aparente que gera sentido mais profundo (≠ antítese: apenas oposição)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Hipérbole</strong></td><td style="padding:8px;border:1px solid #334155;">Exagero intencional para dar ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Já te disse isso mil vezes." / "Estou morrendo de fome." / "Chorei um rio de lágrimas."</td><td style="padding:8px;border:1px solid #334155;">Exagero consciente — emissor e receptor sabem que não é literal</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Eufemismo</strong></td><td style="padding:8px;border:1px solid #334155;">Suavização de algo desagradável, chocante ou tabu</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Ele <strong>passou desta para melhor</strong>." (= morreu) / "Necessidades especiais." / "Liberado do cargo." (= demitido)</td><td style="padding:8px;border:1px solid #334155;">Intenção de amenizar; o sentido real é negativo</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ironia</strong></td><td style="padding:8px;border:1px solid #334155;">Diz-se o contrário do que se quer dizer, com intenção crítica, humorística ou sarcástica</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Que trabalhador dedicado! Chegou às 11h." (= preguiçoso) / "Que bela situação em que nos metemos!"</td><td style="padding:8px;border:1px solid #334155;">O tom e contexto revelam o sentido real oposto ao literal</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Prosopopeia (Personificação)</strong></td><td style="padding:8px;border:1px solid #334155;">Atribuição de características humanas a seres inanimados, animais ou abstrações</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"A lua me olhava com tristeza." / "As árvores conversavam com o vento." / "O amor me perseguiu."</td><td style="padding:8px;border:1px solid #334155;">Ser não humano age ou sente como humano</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Apóstrofe</strong></td><td style="padding:8px;border:1px solid #334155;">Interpelação direta de ser ausente, morto, abstrato ou inanimado</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Ó mar salgado, quanto do teu sal / São lágrimas de Portugal!" (Pessoa)</td><td style="padding:8px;border:1px solid #334155;">Dirige-se diretamente a quem/algo não está presente ou não pode responder</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Gradação (Clímax / Anticlímax)</strong></td><td style="padding:8px;border:1px solid #334155;">Sequência de ideias em ordem crescente (clímax) ou decrescente (anticlímax) de intensidade</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vim, vi, venci." (clímax) / "Um grito, um sussurro, o silêncio." (anticlímax)</td><td style="padding:8px;border:1px solid #334155;">Progressão ordenada de intensidade</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>3. Figuras de Construção (Sintaxe)</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Figura</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Elipse</strong></td><td style="padding:8px;border:1px solid #334155;">Omissão de termo facilmente subentendido pelo contexto</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Na sala, os alunos; no corredor, os professores." [estavam]</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Zeugma</strong></td><td style="padding:8px;border:1px solid #334155;">Tipo específico de elipse: omissão de verbo (ou termo) já mencionado anteriormente</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Ele comeu macarrão; ela, arroz." [comeu] / "Pedro gosta de futebol; Maria, de dança." [gosta]</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Anáfora</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição de uma palavra ou expressão no início de versos ou orações consecutivas</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"<strong>Amor</strong> é fogo. <strong>Amor</strong> é dor. <strong>Amor</strong> é tudo." / "<strong>Quero</strong> a paz, <strong>quero</strong> o sossego, <strong>quero</strong> a vida."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Epístrofe</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição no final de versos ou orações consecutivas</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Que a vida é curta, <strong>que o tempo passa</strong>. Que o amor some, <strong>que o tempo passa</strong>."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Polissíndeto</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição intencional de conjunções (especialmente "e") em enumeração</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"E chora, <strong>e</strong> ri, <strong>e</strong> grita, <strong>e</strong> corre, <strong>e</strong> some."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Assíndeto</strong></td><td style="padding:8px;border:1px solid #334155;">Enumeração sem conjunções — termos justapostos</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vim, vi, venci." / "Choro, rio, grito, corro, sumo."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Hipérbato (Inversão)</strong></td><td style="padding:8px;border:1px solid #334155;">Inversão da ordem direta (sujeito-verbo-objeto) para ênfase estilística</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Belo verso escreveu o poeta." (ordem direta: o poeta escreveu belo verso) / "Teu nome carrego no peito."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Anacoluto</strong></td><td style="padding:8px;border:1px solid #334155;">Ruptura da estrutura sintática — início de frase é abandonado e retomado de outra forma</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Eu, ninguém me respeita." / "Aquela aluna, ela sempre chega cedo." (o sujeito é retomado por pronome)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Silepse de gênero</strong></td><td style="padding:8px;border:1px solid #334155;">Concordância com o sentido (gênero) em vez de com a forma gramatical</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vossa Excelência está <strong>cansado</strong>." (Vossa Excelência é feminino, mas refere-se a homem) / "A sentinela ficou surpreso."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Silepse de número</strong></td><td style="padding:8px;border:1px solid #334155;">Concordância com o sentido (plural) em vez de com a forma gramatical (singular)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O povo <strong>foram</strong> às ruas." (povo é singular, mas representa muitos) / "A maioria <strong>aprovaram</strong> a proposta."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Silepse de pessoa</strong></td><td style="padding:8px;border:1px solid #334155;">Concordância com a pessoa gramatical implícita, não com a expressa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Os brasileiros <strong>somos</strong> hospitaleiros." (sujeito em 3ª pessoa, verbo em 1ª — inclui o falante)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pleonasmo</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição de ideia — pode ser vicioso (erro) ou literário (ênfase intencional)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Literário: "Subir para cima." (ênfase) / Vicioso: "Elo de ligação" / "Surpresa inesperada"</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>4. Figuras de Som (Fonológicas)</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Figura</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aliteração</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição do mesmo fonema consonantal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"<strong>S</strong>ete <strong>s</strong>apos <strong>s</strong>aindo do <strong>s</strong>aco." / "O rato roeu a roupa do rei de Roma."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Assonância</strong></td><td style="padding:8px;border:1px solid #334155;">Repetição do mesmo fonema vocálico</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Saudade, palavra de <strong>a</strong>mar, palavra <strong>a</strong>pag<strong>a</strong>d<strong>a</strong>." (repetição do /a/)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Onomatopeia</strong></td><td style="padding:8px;border:1px solid #334155;">Palavra que imita um som da natureza ou ação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O relógio faz <em>tic-tac</em>." / "<em>Miau</em>, <em>au-au</em>, <em>cocoricó</em>." / "A água <em>farfalha</em> nas pedras."</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Paronomásia</strong></td><td style="padding:8px;border:1px solid #334155;">Aproximação de palavras de som parecido mas sentido diferente (parônimas)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Quem não tem cão, <strong>caça</strong> com <strong>gato</strong>." / "Unidos pelo <strong>ódio</strong> ou pelo <strong>óbito</strong>."</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Metáfora × Metonímia × Comparação — Como Distinguir</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Comparação</strong>: usa "como", "tal qual", "feito". A comparação é explícita. Ex: "Ele é <strong>como</strong> um leão."</li>
+  <li><strong>Metáfora</strong>: sem palavra de comparação — identifica diretamente. Ex: "Ele é um leão." (= corajoso)</li>
+  <li><strong>Metonímia</strong>: relação real entre os termos (parte/todo, autor/obra, causa/efeito). Ex: "Leu Machado." (obra = autor)</li>
+  <li><strong>Catacrese</strong>: metáfora morta — usamos sem perceber o sentido figurado. Ex: "pé da mesa", "braço da cadeira".</li>
+</ul>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Antítese × paradoxo</strong>: antítese = oposição de termos (vida/morte). Paradoxo = contradição lógica que faz sentido ("silêncio ensurdecedor").</li>
+  <li><strong>Eufemismo × ironia</strong>: eufemismo suaviza algo ruim com boa intenção; ironia diz o contrário com intenção crítica.</li>
+  <li><strong>Elipse × zeugma</strong>: zeugma é tipo de elipse — sempre omissão de verbo já dito. Elipse pode omitir qualquer termo.</li>
+  <li><strong>Anáfora × epístrofe</strong>: anáfora = repetição no início. Epístrofe = repetição no final.</li>
+  <li><strong>Polissíndeto × assíndeto</strong>: polissíndeto = muitas conjunções (ritmo lento/ênfase). Assíndeto = sem conjunções (ritmo acelerado).</li>
+  <li><strong>Silepse</strong>: sempre é concordância com o sentido, não com a forma. Identifique com qual pessoa/gênero/número o verbo ou adjetivo está concordando na prática.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "variacaoLinguistica",
+    nome: "Variação Linguística",
+    icon: "🗣️",
+    desc: "Variação regional, social, histórica e adequação comunicativa",
+    teoria: `
+<h3>Variação Linguística e Adequação Comunicativa</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Princípio fundamental</strong>
+<p style="color:#cbd5e1;margin-top:8px;">A língua não é uniforme — varia no tempo, no espaço, entre grupos sociais e conforme a situação comunicativa. Nenhuma variante é "errada" em si mesma: o que existe é <strong>adequação</strong> ou <strong>inadequação</strong> ao contexto. Em provas, cobram-se os tipos de variação, a diferença entre norma culta e popular, e a adequação do registro.</p>
+</div>
+
+<h3>Os Quatro Tipos de Variação Linguística</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Também chamado</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">O que varia</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplos</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Variação Regional</strong></td><td style="padding:8px;border:1px solid #334155;">Diatópica / Dialetal</td><td style="padding:8px;border:1px solid #334155;">Diferenças de vocabulário, pronúncia e estrutura conforme a região geográfica</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Mandioca (SP) / aipim (RJ) / macaxeira (NE) / "Tchibum!" (SP) / "Chumbum!" (BA) / sotaque gaúcho × carioca × nordestino</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Variação Social</strong></td><td style="padding:8px;border:1px solid #334155;">Diastrática</td><td style="padding:8px;border:1px solid #334155;">Diferenças conforme classe social, faixa etária, gênero, escolaridade, profissão</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Gírias de jovens; jargão jurídico ("impetrar", "exequente"); linguagem médica; "rolar" (jovem) vs. "acontecer" (formal)</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Variação Histórica</strong></td><td style="padding:8px;border:1px solid #334155;">Diacrônica</td><td style="padding:8px;border:1px solid #334155;">Mudanças da língua ao longo do tempo</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vós fostes" (arcaico) → "vocês foram" (atual) / "botica" → "farmácia" / palavras novas: "deletar", "selfie", "postar"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Variação Situacional</strong></td><td style="padding:8px;border:1px solid #334155;">Diafásica / Registro</td><td style="padding:8px;border:1px solid #334155;">Mudança de registro conforme a situação comunicativa (formal × informal)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Cara, tô afim de sair." (conversa entre amigos) vs. "Senhor, manifesto interesse em participar." (carta formal)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Norma Culta × Norma Popular</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Aspecto</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Norma Culta (Padrão)</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Norma Popular (Coloquial)</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Definição</strong></td><td style="padding:8px;border:1px solid #334155;">Variedade de prestígio social; usada em textos formais, concursos, comunicação oficial</td><td style="padding:8px;border:1px solid #334155;">Variedade usada na comunicação cotidiana informal; não é "errada" — é inadequada em contextos formais</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pronome "nós"</strong></td><td style="padding:8px;border:1px solid #334155;">Nós fomos ao mercado.</td><td style="padding:8px;border:1px solid #334155;">A gente foi ao mercado.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Pronome "tu"</strong></td><td style="padding:8px;border:1px solid #334155;">Tu foste ao mercado. (com conjugação)</td><td style="padding:8px;border:1px solid #334155;">Tu foi ao mercado. (sem conjugação)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Pronome átono</strong></td><td style="padding:8px;border:1px solid #334155;">Vi-o ontem. / Deram-lhe o presente.</td><td style="padding:8px;border:1px solid #334155;">Vi ele ontem. / Deram o presente pra ele.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Regência</strong></td><td style="padding:8px;border:1px solid #334155;">Assisti ao jogo. / Fui ao banco.</td><td style="padding:8px;border:1px solid #334155;">Assisti o jogo. / Fui no banco.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Concordância</strong></td><td style="padding:8px;border:1px solid #334155;">Os alunos foram ao passeio.</td><td style="padding:8px;border:1px solid #334155;">Os aluno foi no passeio.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Negação</strong></td><td style="padding:8px;border:1px solid #334155;">Não fiz isso. / Nunca o vi.</td><td style="padding:8px;border:1px solid #334155;">Não fiz isso não. / Nunca vi ele.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Registro e Adequação Comunicativa</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;margin-bottom:10px;"><strong>Registro</strong> é a variedade de língua escolhida conforme: o interlocutor, o assunto, o veículo e a finalidade da comunicação.</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Registro formal</strong>: documentos oficiais, redações acadêmicas, entrevistas de emprego, correspondência comercial. Exige norma culta.</li>
+  <li><strong>Registro informal</strong>: conversas entre amigos, mensagens de texto, redes sociais entre conhecidos. Admite gírias, contrações, emojis.</li>
+  <li><strong>Registro técnico/científico</strong>: artigos, relatórios, bulas. Uso de terminologia específica da área; linguagem objetiva e impessoal.</li>
+  <li><strong>Registro literário</strong>: uso intencional de figuras de linguagem; pode ser formal ou informal conforme a obra.</li>
+  <li><strong>Regra de adequação</strong>: "Não existe linguagem certa ou errada — existe linguagem adequada ou inadequada ao contexto."</li>
+</ul>
+</div>
+
+<h3>Jargão, Gíria e Língua de Especialidade</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Termo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Definição</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Gíria</strong></td><td style="padding:8px;border:1px solid #334155;">Variante de grupo social (jovens, etc.); caráter informal e passageiro</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Mano", "lacrou", "tá ligado", "brabo"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Jargão</strong></td><td style="padding:8px;border:1px solid #334155;">Vocabulário técnico de uma profissão ou área; pode ser formal</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Jurídico: "habeas corpus", "litigante". Médico: "prognóstico", "anamnese".</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Calão / Palavrão</strong></td><td style="padding:8px;border:1px solid #334155;">Vocabulário de baixo calão; inadequado em contextos formais</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Expressões consideradas grosseiras pela norma social vigente</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Neologismo</strong></td><td style="padding:8px;border:1px solid #334155;">Palavra nova criada para nomear realidade nova</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Deletar", "tuitar", "googlar", "selfie"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Arcaísmo</strong></td><td style="padding:8px;border:1px solid #334155;">Palavra ou expressão em desuso</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vós", "mercê", "botica", "outrossim" (em desuso na fala cotidiana)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Estrangeirismo</strong></td><td style="padding:8px;border:1px solid #334155;">Palavra de outra língua usada no português</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Anglicismo: "mouse", "show", "link". Galicismo: "bistrô", "abajur". Hispanismo: "caudilho".</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Formas de Tratamento — Formal × Informal</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Forma</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Uso</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Tu</strong></td><td style="padding:8px;border:1px solid #334155;">Íntimo/informal; mais comum no RS, PA, MA, RJ</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Tu vais ao cinema?"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Você</strong></td><td style="padding:8px;border:1px solid #334155;">Tratamento coloquial a semelhantes; predominante no Brasil</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Você vai ao cinema?"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>O senhor / A senhora</strong></td><td style="padding:8px;border:1px solid #334155;">Formal; respeito, hierarquia, desconhecidos</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O senhor deseja alguma coisa?"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Vossa Excelência (V. Ex.ª)</strong></td><td style="padding:8px;border:1px solid #334155;">Autoridades: presidente, governadores, ministros, parlamentares, juízes</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vossa Excelência assinou o projeto de lei."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Vossa Senhoria (V. S.ª)</strong></td><td style="padding:8px;border:1px solid #334155;">Funcionários de hierarquia intermediária; uso em correspondências oficiais</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Comunico a Vossa Senhoria que…"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Vossa Magnificência</strong></td><td style="padding:8px;border:1px solid #334155;">Reitores de universidades</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vossa Magnificência presidiu a cerimônia."</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Vossa Santidade</strong></td><td style="padding:8px;border:1px solid #334155;">Papa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Vossa Santidade abençoou os fiéis."</td></tr>
+  </tbody>
+</table>
+<p style="color:#fbbf24;margin-top:8px;font-size:0.85em;">⚠️ "Vossa" é usado ao falar <em>com</em> a pessoa. "Sua" é usado ao falar <em>sobre</em> a pessoa. Ex: "V. Ex.ª está presente?" (fala com ela) / "Sua Excelência está presente?" (fala sobre ela para outros).</p>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<strong style="color:#38bdf8;">Dicas de prova</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li>Questões de variação geralmente pedem identificação do <em>tipo</em> de variação (diatópica, diastrática, diacrônica, diafásica) a partir de um exemplo.</li>
+  <li>"A gente foi" não é erro — é variação diastrática/diafásica. Em contexto formal, o correto pela norma culta é "Nós fomos".</li>
+  <li>Pergunta clássica: "a linguagem do texto está adequada ao contexto?" → verifique: quem fala, para quem, em que situação.</li>
+  <li>Formas de tratamento na correspondência oficial: use "Vossa Excelência" para chefes do Executivo, Legislativo e Judiciário em documentos formais.</li>
+  <li>"Vossa" + concordância na 3ª pessoa: "Vossa Excelência <em>decidiu</em>" (não "decidiram") — Vossa = 3ª pessoa do singular.</li>
+</ul>
+</div>`,
+    questoes: []
+  },
+
+  {
+    id: "producaoTextual",
+    nome: "Produção Textual",
+    icon: "✒️",
+    desc: "Redação dissertativo-argumentativa: estrutura, argumentos e revisão",
+    teoria: `
+<h3>Produção Textual / Redação</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Por que este tema importa na prova</strong>
+<p style="color:#cbd5e1;margin-top:8px;">O edital prevê redação de <strong>25 a 30 linhas</strong> no formato dissertativo-argumentativo. Dominar a estrutura evita penalidades por fuga ao tema, falta de argumentação, problemas de coesão e erros de norma culta — que custam pontos em todos os critérios de avaliação.</p>
+</div>
+
+<h3>Estrutura do Texto Dissertativo-Argumentativo</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Parte</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Função</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tamanho sugerido (25-30 linhas)</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">O que deve conter</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Introdução</strong></td><td style="padding:8px;border:1px solid #334155;">Apresentar o tema e a tese (posição do autor)</td><td style="padding:8px;border:1px solid #334155;">5–7 linhas (1 parágrafo)</td><td style="padding:8px;border:1px solid #334155;">Contextualização + tese clara. Opcional: dado, citação, questionamento retórico para abrir.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Desenvolvimento</strong></td><td style="padding:8px;border:1px solid #334155;">Argumentar, exemplificar, provar a tese</td><td style="padding:8px;border:1px solid #334155;">15–18 linhas (2–3 parágrafos)</td><td style="padding:8px;border:1px solid #334155;">Cada parágrafo = 1 argumento + 1 exemplo/evidência + 1 análise. Conectivos entre parágrafos.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Conclusão</strong></td><td style="padding:8px;border:1px solid #334155;">Retomar a tese e propor encaminhamento/solução</td><td style="padding:8px;border:1px solid #334155;">4–6 linhas (1 parágrafo)</td><td style="padding:8px;border:1px solid #334155;">Síntese dos argumentos + reafirmação da tese + proposta de intervenção (quando o edital pede).</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Como Construir a Introdução</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#fbbf24;margin-bottom:8px;">Três modelos consagrados:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Modelo 1 — Contextualização + Tese</strong>: apresente o contexto histórico/social do tema e declare sua posição ao final. Ex: "Em uma sociedade marcada pelo avanço tecnológico, o uso indiscriminado das redes sociais tem gerado sérios impactos na saúde mental dos jovens. Diante disso, é fundamental que o Estado e a família atuem de forma conjunta para mitigar esses efeitos."</li>
+  <li><strong>Modelo 2 — Dado/Estatística + Tese</strong>: abra com dado concreto para gerar credibilidade. Ex: "Segundo pesquisa do IBGE, mais de 60% dos jovens entre 15 e 24 anos passam mais de quatro horas diárias em redes sociais…"</li>
+  <li><strong>Modelo 3 — Citação + Tese</strong>: use frase de autor conhecido que dialogue com o tema. Ex: "Aristóteles afirmava que 'o homem é um animal político'. Essa máxima ressoa ainda hoje quando analisamos…"</li>
+  <li><strong>O que EVITAR</strong>: frases genéricas demais ("Desde os primórdios da humanidade…"), copiar o enunciado da prova, perguntar sem responder na própria introdução.</li>
+</ul>
+</div>
+
+<h3>Tipos de Argumento</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Tipo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como funciona</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Exemplo</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Por exemplificação</strong></td><td style="padding:8px;border:1px solid #334155;">Usa caso concreto, fato histórico ou notícia para ilustrar</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Em 2018, a reforma trabalhista alterou as relações de emprego, o que evidencia que…"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Por dados/estatísticas</strong></td><td style="padding:8px;border:1px solid #334155;">Cita números, pesquisas, índices confiáveis</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Dados do OMS apontam que 1 em cada 4 pessoas sofrerá algum transtorno mental ao longo da vida…"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Por autoridade</strong></td><td style="padding:8px;border:1px solid #334155;">Cita especialista, filósofo, cientista reconhecido</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O filósofo Zygmunt Bauman, ao analisar a 'modernidade líquida', defende que…"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Por causa e efeito</strong></td><td style="padding:8px;border:1px solid #334155;">Demonstra relação causal entre fenômenos</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"O desemprego estrutural gera exclusão social, que por sua vez alimenta a criminalidade…"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Por comparação/analogia</strong></td><td style="padding:8px;border:1px solid #334155;">Compara situações semelhantes para embasar a tese</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Assim como países europeus avançaram com a regulamentação da IA, o Brasil deve…"</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Por princípio/lei</strong></td><td style="padding:8px;border:1px solid #334155;">Baseia-se em norma legal, constitucional ou moral</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"A Constituição Federal de 1988 garante a todos o direito à educação (art. 205), o que implica…"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Por concessão</strong></td><td style="padding:8px;border:1px solid #334155;">Admite um ponto contrário para depois refutá-lo — demonstra maturidade argumentativa</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Embora haja quem defenda que a tecnologia isolou as pessoas, é inegável que ela também…"</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Estrutura do Parágrafo de Desenvolvimento</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;margin-bottom:10px;">Cada parágrafo deve seguir a lógica: <strong>tópico frasal → desenvolvimento → exemplificação → análise/conclusão parcial</strong>.</p>
+<div style="background:#0f172a;padding:12px;border-radius:6px;border-left:3px solid #38bdf8;">
+<p style="color:#38bdf8;margin:0 0 6px;font-size:0.85em;">Exemplo de parágrafo bem estruturado:</p>
+<p style="color:#cbd5e1;margin:0;font-style:italic;font-size:0.9em;">"<strong>[Tópico frasal]</strong> A ausência de educação financeira nas escolas é um dos principais fatores que perpetuam o endividamento das famílias brasileiras. <strong>[Desenvolvimento]</strong> Sem o aprendizado de conceitos como juros, investimento e controle de gastos, jovens ingressam no mercado de trabalho despreparados para gerir sua renda. <strong>[Exemplificação]</strong> Dados da Serasa apontam que mais de 70 milhões de brasileiros estavam inadimplentes em 2023, número que revela a dimensão do problema. <strong>[Análise]</strong> Fica evidente, portanto, que a inclusão da educação financeira no currículo escolar é medida urgente para romper esse ciclo."</p>
+</div>
+</div>
+
+<h3>Como Construir a Conclusão</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Não introduza argumento novo</strong> — apenas retome e sintetize.</li>
+  <li><strong>Reafirme a tese</strong> com outras palavras (não copie a introdução).</li>
+  <li><strong>Proposta de intervenção</strong> (quando exigida pelo edital): quem deve agir + o quê + como + com qual finalidade. Ex: "Cabe ao Estado, por meio de políticas públicas de capacitação docente, e à família, por meio do diálogo cotidiano, trabalharem em conjunto para reduzir o impacto das redes sociais na saúde mental dos jovens, garantindo, assim, uma geração mais saudável e crítica."</li>
+  <li><strong>Conectivos de conclusão</strong>: "Portanto", "Conclui-se que", "Diante do exposto", "Em suma", "Logo".</li>
+</ul>
+</div>
+
+<h3>Coesão Entre Parágrafos</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Entre introdução e 1º parágrafo de desenvolvimento</strong>: "Primeiramente, cabe destacar que…" / "Um dos principais fatores é…" / "Nesse contexto, é importante analisar…"</li>
+  <li><strong>Entre parágrafos de desenvolvimento</strong>: "Além disso…" / "Somado a isso…" / "Outro aspecto relevante é…" / "Em contrapartida…" / "Sob outro viés…"</li>
+  <li><strong>Entre desenvolvimento e conclusão</strong>: "Diante do exposto…" / "Portanto…" / "Em suma…" / "Conclui-se, assim, que…"</li>
+  <li><strong>Evitar</strong>: iniciar dois parágrafos consecutivos com o mesmo conectivo; usar "em primeiro lugar… em segundo lugar…" de forma mecânica sem real articulação.</li>
+</ul>
+</div>
+
+<h3>Erros Comuns a Evitar</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#f87171;">Erro</th>
+    <th style="padding:8px;border:1px solid #334155;color:#f87171;">Por que penaliza</th>
+    <th style="padding:8px;border:1px solid #334155;color:#86efac;">Como evitar</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Fuga ao tema</strong></td><td style="padding:8px;border:1px solid #334155;">Zera ou penaliza severamente</td><td style="padding:8px;border:1px solid #334155;">Leia o enunciado três vezes; sublinhe as palavras-chave; toda frase deve dialogar com o tema</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Texto narrativo em vez de dissertativo</strong></td><td style="padding:8px;border:1px solid #334155;">Desconto no critério de tipologia</td><td style="padding:8px;border:1px solid #334155;">Não conte histórias — analise, defenda posições, use argumentos e exemplos para embasar</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Introdução sem tese</strong></td><td style="padding:8px;border:1px solid #334155;">Texto parece sem direção; perde coerência</td><td style="padding:8px;border:1px solid #334155;">A última frase da introdução deve ser a tese — a posição que você vai defender</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Parágrafo sem argumento (só afirmações)</strong></td><td style="padding:8px;border:1px solid #334155;">Sem evidência = sem convencimento</td><td style="padding:8px;border:1px solid #334155;">Após cada afirmação, pergunte: "Como você sabe disso? Qual é o exemplo?"</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Repetição excessiva de palavras</strong></td><td style="padding:8px;border:1px solid #334155;">Prejudica coesão e avaliação vocabular</td><td style="padding:8px;border:1px solid #334155;">Use sinônimos, pronomes, hiperônimos para retomar os termos</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Linguagem coloquial</strong></td><td style="padding:8px;border:1px solid #334155;">Inadequação ao registro formal exigido</td><td style="padding:8px;border:1px solid #334155;">Evite gírias, contrações ("tá", "pra", "né"), 1ª pessoa em excesso, informalidades</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Conclusão com argumento novo</strong></td><td style="padding:8px;border:1px solid #334155;">Quebra a estrutura; parece texto incompleto</td><td style="padding:8px;border:1px solid #334155;">Conclusão só sintetiza e propõe — não argumenta</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Erros de concordância e regência</strong></td><td style="padding:8px;border:1px solid #334155;">Desconto no critério de norma culta</td><td style="padding:8px;border:1px solid #334155;">Revise especialmente: sujeito composto, verbos impessoais (haver), regência de assistir/visar</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parágrafos sem coesão entre si</strong></td><td style="padding:8px;border:1px solid #334155;">Texto parece colagem de ideias soltas</td><td style="padding:8px;border:1px solid #334155;">Use conectivos adequados entre os parágrafos; retome a tese implicitamente em cada um</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Checklist de Revisão — Use Antes de Entregar</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<p style="color:#fbbf24;margin-bottom:10px;font-weight:bold;">Leia o texto completo respondendo cada item:</p>
+<ul style="color:#cbd5e1;">
+  <li>☐ <strong>Tema:</strong> todas as frases se relacionam com o tema proposto?</li>
+  <li>☐ <strong>Tese:</strong> minha posição está clara na introdução?</li>
+  <li>☐ <strong>Estrutura:</strong> tenho introdução, pelo menos 2 parágrafos de desenvolvimento e conclusão?</li>
+  <li>☐ <strong>Argumentos:</strong> cada parágrafo tem tópico frasal + argumento + exemplo/evidência?</li>
+  <li>☐ <strong>Coesão:</strong> os parágrafos estão conectados por meio de conectivos adequados?</li>
+  <li>☐ <strong>Conclusão:</strong> sintetizei os argumentos e reafirmei a tese? Há proposta de intervenção (se exigida)?</li>
+  <li>☐ <strong>Norma culta:</strong> verifiquei concordância verbal e nominal, regência, pontuação e acentuação?</li>
+  <li>☐ <strong>Registro:</strong> não há gírias, coloquialismos ou 1ª pessoa em excesso?</li>
+  <li>☐ <strong>Extensão:</strong> o texto tem entre 25 e 30 linhas (conforme o edital)?</li>
+  <li>☐ <strong>Repetição:</strong> há palavras repetidas demais que poderiam ser substituídas?</li>
+</ul>
+</div>`,
+    questoes: []
   }
 ];
