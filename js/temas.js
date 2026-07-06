@@ -6,6 +6,77 @@ const TEMAS = [
   {
     id: "ditongos", nome: "Ditongos", icon: "🔤", desc: "Encontros vocálicos",
     teoria: `
+<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
+  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISAO RAPIDA - Ditongo ou Hiato?</div>
+  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.8;margin:0 0 14px 0;padding-left:18px;">
+    <li><strong style="color:#fbbf24;">I ou U com acento escrito (i, u com acento)?</strong> HIATO sem excecao. saude, juizo, ai, bau, pais</li>
+    <li><strong style="color:#fbbf24;">Duas vogais IGUAIS seguidas?</strong> HIATO sem excecao. voo, leem, caatinga</li>
+    <li><strong style="color:#fbbf24;">Sequencia com A ou E antes/depois de outra vogal (ao, oa, ae, eo)?</strong> HIATO - A e E nunca sao semivogais. caos, poeta, real, moeda</li>
+    <li><strong style="color:#fbbf24;">Nenhuma das regras acima?</strong> DITONGO - I ou U atono ao lado de outra vogal na mesma silaba.</li>
+  </ol>
+  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
+    <thead>
+      <tr style="background:#1e3a5f;">
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequencia</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Tipo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, ui, au, eu, ou</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono APOS vogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO crescente oral</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono ANTES de vogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">serie, gloria, vacuo, tenue</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ao, ae, oe (com til)</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal decrescente</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Vogal nasal (til) + semivogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pao, mae, coracoes, bem</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">i com acento+vogal, u com acento+vogal</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Acento escrito = I/U tonico = vogal plena</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">saude, juizo, miope, saia</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io (I tonico sem acento)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I tonico na silaba propria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">poesia (po-e-si-a), fiel (fi-el)</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao (sem til)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca sao semivogais</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
+    <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
+      <li><strong>solidao</strong> = so-li-DAO: -AO no final com til = DITONGO nasal decrescente</li>
+      <li><strong>saudade</strong> = SAU-da-de: AU = DITONGO oral decrescente</li>
+      <li><strong>saude</strong> = sa-U-de: U com acento = HIATO</li>
+      <li><strong>poesia</strong> = po-e-SI-a: I tonico = HIATO (nao ditongo crescente)</li>
+      <li><strong>serie</strong> = SE-rie: I atono antes de E = DITONGO crescente oral</li>
+      <li><strong>rainha</strong> = ra-I-nha: I antes de NH com vogal antes = HIATO</li>
+      <li><strong>muito</strong> = MUI-to: UI = DITONGO decrescente oral (u eh a vogal)</li>
+    </ul>
+  </div>
+</div>
+
+
 <h3>O que é Ditongo?</h3>
 <p>Ditongo é o encontro de uma <strong>vogal</strong> e uma <strong>semivogal</strong> pronunciadas na <strong>mesma sílaba</strong>, sem pausa entre elas.</p>
 <p><strong>Como identificar pela escrita:</strong> procure a letra <em>i</em> ou <em>u</em> ao lado de outra vogal dentro da mesma sílaba. Essas letras, quando em posição secundária (sem acento tônico próprio), funcionam como semivogais e formam ditongo com a vogal vizinha.</p>
@@ -964,7 +1035,88 @@ const TEMAS = [
   // ─────────────────────────────────────────
   {
     id: "encontrosConsonantais", nome: "Encontros Consonantais", icon: "🔗", desc: "Consoantes consecutivas na mesma sílaba",
-    teoria: `
+    teoria: `<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
+  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:12px;">DECISAO RAPIDA — Encontro Consonantal vs Dígrafo</div>
+
+  <div style="color:#fbbf24;font-weight:700;margin-bottom:6px;font-size:0.93rem;">PASSO 1 — Identifique o tipo de cada letra</div>
+  <div style="color:#cbd5e1;font-size:0.87rem;margin-bottom:10px;">
+    <strong style="color:#4ade80;">VOGAIS (apenas estas 5):</strong> <span style="color:#fde68a;font-weight:700;">a, e, i, o, u</span> — e suas versões acentuadas: á, â, ã, é, ê, í, ó, ô, õ, ú, ü<br>
+    <strong style="color:#f87171;">CONSOANTES (todas as demais):</strong> b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z<br>
+    <em style="color:#94a3b8;">Atenção: H isolado é consoante. Semivogais (i e u em ditongos) são vogais — não contam como consoantes.</em>
+  </div>
+
+  <div style="color:#fbbf24;font-weight:700;margin-bottom:6px;font-size:0.93rem;">PASSO 2 — Teste mecânico: Encontro Consonantal ou Dígrafo?</div>
+  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;margin-bottom:14px;">
+    <thead>
+      <tr style="background:#1e3a5f;">
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Situação</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Classificação</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Teste</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;">2+ consoantes juntas, cada uma com som próprio</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">ENCONTRO CONSONANTAL</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Cada letra produz seu próprio fonema separado</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">br (bra-ço), cr (cri-me), tr (tre-cho), gr (gra-ça), fl (fla-ma), pl (pla-no), ct (pac-to), pt (ap-to), ns (ins-talar), bs (ab-surdo)</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;">2 letras que juntas formam UM único som</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">DÍGRAFO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Retire uma letra — o som muda completamente</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">lh (fi-lho), nh (vi-nho), ch (cha-ve /ʃ/), ss (pas-so), rr (car-ro), qu (que, qui), gu (gue, gui), sc (nas-cer), xc (ex-ce-ção)</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;">Consoante + Vogal (ou Vogal + Consoante)</td>
+        <td style="padding:7px 10px;color:#94a3b8;font-weight:700;">NEM UM NEM OUTRO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Se há vogal entre as consoantes: não é encontro consonantal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">ca, de, vo, ma, pe — c+a, d+e, v+o são consoante+vogal, jamais encontro consonantal</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="color:#fbbf24;font-weight:700;margin-bottom:6px;font-size:0.93rem;">Encontros Consonantais: Perfeitos vs Imperfeitos</div>
+  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;margin-bottom:14px;">
+    <thead>
+      <tr style="background:#1e3a5f;">
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Tipo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Padrão</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Divisão silábica</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">PERFEITO (inseparável)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Consoante + R ou L — ficam na mesma sílaba</td>
+        <td style="padding:7px 10px;color:#fde68a;">NUNCA se separam</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">bra-ço, cri-me, dra-ma, fla-ma, gra-ça, pla-no, glo-bo, blu-sa</td>
+      </tr>
+      <tr style="background:#0f172a;">
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">IMPERFEITO (separável)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Demais agrupamentos — ficam em sílabas diferentes</td>
+        <td style="padding:7px 10px;color:#fde68a;">Separam-se na divisão</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pac-to, ap-to, ins-talar, abs-trato, sub-ma-ri-no, rit-mo, et-ni-a</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:10px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
+    <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
+      <li><strong>cada, mesa, voto</strong> → consoante + VOGAL = NÃO é encontro consonantal</li>
+      <li><strong>opinião</strong> → O-pi-NI-ão: o 'i' e 'ã' são VOGAIS formando hiato, não encontro consonantal</li>
+      <li><strong>quente, guerra</strong> → 'qu'/'gu' antes de e/i = DÍGRAFO (um som), não encontro consonantal</li>
+      <li><strong>travestidas</strong> → 'tr' = encontro consonantal perfeito (t+r, dois fonemas distintos)</li>
+      <li><strong>democracia</strong> → 'cr' = encontro consonantal; 'ia' final = ditongo crescente ou hiato (não encontro)</li>
+      <li><strong>programa</strong> → 'pr' = encontro consonantal perfeito (p+r); 'gr' em 'programa' também</li>
+      <li><strong>tungstênico</strong> → 'ngs' = encontro consonantal imperfeito (tung-stê-ni-co)</li>
+    </ul>
+  </div>
+</div>
+
 <h3>O que é Encontro Consonantal?</h3>
 <p>Encontro consonantal é a sequência de <strong>duas ou mais consoantes consecutivas</strong> dentro de uma mesma palavra, sem vogal entre elas. Diferente do dígrafo, cada consoante <strong>mantém seu próprio fonema</strong>.</p>
 <p><strong>Como identificar:</strong> encontre letras consonantais adjacentes — se cada uma produz um som distinto (não somam para um único som), trata-se de encontro consonantal, não dígrafo.</p>
@@ -1033,6 +1185,19 @@ const TEMAS = [
   {
     id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
+<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:14px 16px;margin-bottom:18px;">
+  <div style="color:#60a5fa;font-weight:700;margin-bottom:8px;">HIATO - Regras de Identificacao Imediata</div>
+  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.9;margin:0;padding-left:16px;">
+    <li><strong style="color:#fbbf24;">I ou U com acento (com acento)</strong> sempre hiato: saude, juizo, ai, bau</li>
+    <li><strong style="color:#fbbf24;">Vogais iguais seguidas (oo, aa, ee)</strong> sempre hiato: voo, leem, caatinga</li>
+    <li><strong style="color:#fbbf24;">A ou E antes/depois de outra vogal</strong> hiato: caos, moeda, poeta</li>
+    <li><strong style="color:#fbbf24;">I antes de NH com vogal anterior</strong> hiato: rainha (ra|i|nha)</li>
+    <li><strong style="color:#fbbf24;">I/U no fim de palavra antes de Z, M, S</strong> hiato: raiz, ruim, pais</li>
+  </ol>
+  <p style="color:#94a3b8;font-size:0.85rem;margin:10px 0 0;"><strong style="color:#f59e0b;">Diferenca-chave com ditongo:</strong> No ditongo, I ou U sao atonos e ficam na MESMA silaba que a vogal. No hiato, cada vogal fica em silaba SEPARADA porque pelo menos uma e tonica ou porque sao A/E.</p>
+</div>
+
+
 <h3>1. O que é Hiato?</h3>
 <p>Hiato é o encontro de <strong>duas letras vocálicas consecutivas</strong> (sem consoante entre elas) que pertencem a <strong>sílabas diferentes</strong>. A divisão silábica ocorre <strong>entre</strong> as duas vogais.</p>
 <p><strong>Como identificar apenas pela escrita — sem pronunciar:</strong> localize duas letras vocálicas adjacentes e verifique as pistas visuais abaixo.</p>
@@ -1278,7 +1443,7 @@ const TEMAS = [
     id: "fonemas", nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
-<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. O estudo dos fonemas e do sistema sonoro da língua chama-se <strong>fonologia</strong> — a fonologia analisa como os sons (fonemas) se organizam e se opõem para criar significados. Não confunda fonema com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
+<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
 <div class="exemplo-box">
   "pato" e "gato" diferem pelo fonema inicial: /p/ × /g/<br>
   "faca" e "vaca" diferem pelo fonema inicial: /f/ × /v/<br>
@@ -2267,6 +2432,20 @@ const TEMAS = [
 </tbody></table>
 <p style="font-size:0.8rem;color:#64748b;margin-bottom:8px;">Macete: viu -l, -r, -n, -x no final COM acento antes do fim? É paroxítona. Sem acento? É oxítona.</p>
 <p style="text-align:right;margin:4px 0 18px;"><button onclick="window.scrollTo(0,0)" style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.78rem;">↑ Voltar ao topo</button></p>
+
+<h3>Ditongo Crescente vs Decrescente — Identificação pelas Terminações</h3>
+<p>Paroxítonas recebem acento quando terminam em <strong>ditongo crescente</strong>. Para identificar o tipo de ditongo, use a posição do I ou U:</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:8px 0 12px;">
+  <thead>
+    <tr style="background:#1e3a5f;"><th style="padding:6px 10px;color:#93c5fd;text-align:left;">Tipo</th><th style="padding:6px 10px;color:#93c5fd;text-align:left;">Posição do I/U</th><th style="padding:6px 10px;color:#93c5fd;text-align:left;">Terminações típicas</th><th style="padding:6px 10px;color:#93c5fd;text-align:left;">Exemplos — tônica em MAIÚSCULO</th></tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #334155;"><td style="padding:6px 10px;color:#4ade80;font-weight:700;">CRESCENTE</td><td style="padding:6px 10px;color:#cbd5e1;">I ou U vem ANTES da vogal principal</td><td style="padding:6px 10px;color:#fde68a;">-ia, -ie, -io, -ua, -ue, -uo; na prática: -cia, -ria, -gio, -lio, -tia, -nio, -via</td><td style="padding:6px 10px;color:#e2e8f0;">glo-RI-a, se-RI-o, tri-bu-TA-ria, in-te-li-GEN-cia, im-por-TAN-cia, sa-tis-fa-TO-rio, pro-PI-cio</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:6px 10px;color:#f87171;font-weight:700;">DECRESCENTE</td><td style="padding:6px 10px;color:#cbd5e1;">I ou U vem DEPOIS da vogal principal</td><td style="padding:6px 10px;color:#fde68a;">ai, ei, oi, ui, au, eu, ou; na prática: -nei, -reu, -ois, -ais, -oes</td><td style="padding:6px 10px;color:#e2e8f0;">pai, lei, po-NEI, na-COES, a-cor-DOES</td></tr>
+  </tbody>
+</table>
+<p><strong>Novo Acordo — ditongo aberto em paroxítonas:</strong> os ditongos <em>ei</em> e <em>oi</em> abertos em paroxítonas <strong>perderam o acento</strong>: <em>ideia, plateia, assembleia, heroico, jiboia</em> (sem acento desde 2009). Oxítonas com ditongo aberto continuam acentuadas: <em>papéis, fiéis, anzóis</em>.</p>
+<p><strong>Localizar a tônica em palavras longas — método passo a passo:</strong> (1) separe em sílabas; (2) pronuncie e identifique qual soa mais forte; (3) conte da última para trás: última = OXÍTONA, penúltima = PAROXÍTONA, antepenúltima = PROPAROXÍTONA. Exemplos críticos: <em>pan-de-MI-a</em> = penúltima = paroxítona (não proparoxítona); <em>me-di-a-DOR</em> = última = oxítona (4 sílabas, não 3); <em>ME-di-co</em> = antepenúltima = proparoxítona (sempre acentuada).</p>
 
 <h3>Bloco 5 — Proparoxítonas</h3>
 <p>Proparoxítonas têm tônica na <strong>antepenúltima</strong> sílaba e <strong>sempre</strong> têm acento gráfico — sem exceção. Reconhecer os sufixos abaixo permite localizar a tônica imediatamente: ela está na sílaba imediatamente anterior ao sufixo.</p>
