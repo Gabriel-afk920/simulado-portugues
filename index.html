@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Língua Portuguesa</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#6366f1" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Português" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -173,5 +180,26 @@
   <!-- questoes_banco -->
   <script src="questoes_banco.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => {
+            // Quando um novo SW instalar em segundo plano, recarrega automaticamente
+            // ao ser ativado (garante que o usuário veja a versão atualizada)
+            reg.addEventListener('updatefound', () => {
+              const incoming = reg.installing;
+              if (!incoming) return;
+              incoming.addEventListener('statechange', () => {
+                if (incoming.state === 'activated' && navigator.serviceWorker.controller) {
+                  window.location.reload();
+                }
+              });
+            });
+          })
+          .catch(() => {}); // falha silenciosa se SW não suportado ou bloqueado
+      });
+    }
+  </script>
 </body>
 </html>
