@@ -29954,7 +29954,7 @@ var QUESTOES_BANCO = {
                       "7 fonemas e 1 dígrafo."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>8 fonemas e nenhum dígrafo.</strong>. "integral" tem 8 fonemas correspondentes e o grupo "gr" é encontro consonantal, não dígrafo. Fonte: Instituto Fênix/2025. Assunto: digrafos.",
+                "explicacao": "Gabarito: <strong>8 fonemas e nenhum dígrafo.</strong>. A palavra integral tem 8 fonemas; o grupo gr é encontro consonantal (não dígrafo). Fonte: Instituto Fênix/2025. Assunto: digrafos.",
                 "banca": "Instituto Fênix",
                 "ano": 2025,
                 "assunto": "Dígrafos",
