@@ -29953,8 +29953,8 @@ var QUESTOES_BANCO = {
                       "8 fonemas e 1 dígrafo.",
                       "7 fonemas e 1 dígrafo."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>7 fonemas e 1 dígrafo.</strong>. Fonte: Instituto Fênix/2025. Assunto: digrafos.",
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>8 fonemas e nenhum dígrafo.</strong>. "integral" tem 8 fonemas correspondentes e o grupo "gr" é encontro consonantal, não dígrafo. Fonte: Instituto Fênix/2025. Assunto: digrafos.",
                 "banca": "Instituto Fênix",
                 "ano": 2025,
                 "assunto": "Dígrafos",
@@ -33562,8 +33562,8 @@ var QUESTOES_BANCO = {
                       "Certo",
                       "Errado"
                 ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: IGEDUC/2023. Assunto: tonicidade.",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Certo</strong>. O enunciado reproduz literalmente o Acordo Ortográfico (Base VIII, alínea c): acém, detém, deténs, entretém, entreténs são oxítonas com mais de uma sílaba terminadas em -em/-ens. Fonte: IGEDUC/2023. Assunto: tonicidade.",
                 "banca": "IGEDUC",
                 "ano": 2023,
                 "assunto": "Tonicidade (Misto)",
