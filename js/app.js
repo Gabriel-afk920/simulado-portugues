@@ -102,7 +102,7 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO_POR_QUESTAO = 300; // 5 minutos por questão
+const TEMPO_POR_QUESTAO = 600; // 10 minutos por questão
 let temaAtual        = null;
 let questoes         = [];
 let indiceAtual      = 0;
