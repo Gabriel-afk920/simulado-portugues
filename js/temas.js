@@ -1672,7 +1672,39 @@ const TEMAS = [
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">Tônico sem acento</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em consoante → oxítonas por terminação, dispensam acento</td><td style="padding:8px 10px;color:#fde68a;">sol, mar, flor, faz, par, bar, vil, pus, fal</td></tr>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;font-weight:700;">Átono</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia fraca; artigos, preposições, conjunções, pronomes clíticos — nunca acentuados</td><td style="padding:8px 10px;color:#fde68a;">de, do, da, a, o, e, que, se, me, te, nos, lhe, com, por, em</td></tr>
 </tbody></table>
-<div class="dica-box"><div class="dica-title">Na prova — "monossílabo"</div>Quando a questão pede "monossílabo tônico acentuado", está pedindo palavras de 1 sílaba com acento gráfico (pá, pé, nó...). Não confunda com artigos e preposições — esses também têm 1 sílaba, mas são átonos e nunca levam acento. O número de sílabas de um vocábulo é determinado pela sua estrutura fonológica.</div>`,
+<div class="dica-box"><div class="dica-title">Na prova — "monossílabo"</div>Quando a questão pede "monossílabo tônico acentuado", está pedindo palavras de 1 sílaba com acento gráfico (pá, pé, nó...). Não confunda com artigos e preposições — esses também têm 1 sílaba, mas são átonos e nunca levam acento. O número de sílabas de um vocábulo é determinado pela sua estrutura fonológica.</div>
+
+<h3>8. Quadro-Resumo — Regras de Acentuação Gráfica</h3>
+<p>As <strong>regras de acentuação</strong> da língua portuguesa determinam quais vocábulos acentuados recebem acento gráfico e por quê. Cada <strong>regra de acentuação</strong> se aplica a um grupo de palavras com a mesma classificação tônica e terminação. Quando a banca pede palavras "acentuadas pela mesma regra" ou "pelo mesmo motivo", ela quer saber se as palavras pertencem ao mesmo grupo abaixo.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Regra de acentuação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Quando se aplica</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Palavras acentuadas pela mesma regra</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Oxítonas acentuadas</td><td style="padding:8px 10px;color:#cbd5e1;">Terminam em -á/-é/-ê/-ó/-ô/-ém/-éns/-éu/-ói</td><td style="padding:8px 10px;color:#fde68a;">café, sofá, também, chapéu, herói, inglês — acentuados pelo mesmo motivo: oxítonas nas terminações marcantes</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#38bdf8;font-weight:700;">Paroxítonas acentuadas</td><td style="padding:8px 10px;color:#cbd5e1;">Terminam em -l/-r/-n/-x/-us/-is/-ão/-ã/-ei e ditongos</td><td style="padding:8px 10px;color:#fde68a;">fácil, vírus, lápis, órgão, ímã — acentuados pelo mesmo motivo: paroxítonas em terminações atípicas</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f59e0b;font-weight:700;">Proparoxítonas (sempre)</td><td style="padding:8px 10px;color:#cbd5e1;">Tônica na antepenúltima — sem exceção</td><td style="padding:8px 10px;color:#fde68a;">médico, público, lógica, ótimo, cérebro — todas proparoxítonas, acentuadas pela mesma regra obrigatória</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#a78bfa;font-weight:700;">Hiato (i/u tônico)</td><td style="padding:8px 10px;color:#cbd5e1;">i ou u tônico em sílaba sozinha ou com -s</td><td style="padding:8px 10px;color:#fde68a;">saída, país, baú, constituído, juízes — acentuados pelo mesmo motivo: hiato com i/u tônico</td></tr>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fb923c;font-weight:700;">Monossílabos tônicos</td><td style="padding:8px 10px;color:#cbd5e1;">1 sílaba; terminam em vogal tônica acentuável</td><td style="padding:8px 10px;color:#fde68a;">pá, pé, fé, nó, só, dó, céu, réu — monossílabos acentuados pela mesma regra das oxítonas em vogal tônica</td></tr>
+</tbody></table>
+
+<div class="dica-box"><div class="dica-title">⚡ Como identificar palavras acentuadas pela mesma regra / pelo mesmo motivo</div>
+<p><strong>Passo 1:</strong> Classifique cada palavra quanto à tonicidade (oxítona / paroxítona / proparoxítona).</p>
+<p><strong>Passo 2:</strong> Se são do mesmo tipo, verifique a terminação — as terminações devem pertencer ao mesmo grupo de regras de acentuação.</p>
+<p><strong>Passo 3:</strong> Palavras acentuadas corretamente seguem essas regras; palavras acentuadas incorretamente as violam.</p>
+<div class="exemplo-box">
+  <strong>Exemplo:</strong> "café" e "também" → ambas oxítonas terminadas em -é/-ém → acentuadas pela mesma regra ✓<br>
+  <strong>Exemplo:</strong> "médico" e "público" → ambas proparoxítonas → acentuadas pela mesma regra (proparoxítonas sempre levam acento) ✓<br>
+  <strong>Exemplo:</strong> "saída" e "país" → ambas com hiato i/u tônico → acentuadas pelo mesmo motivo ✓<br>
+  <strong>Atenção:</strong> "café" e "fácil" → oxítona + paroxítona → regras diferentes, NÃO acentuadas pela mesma regra ✗
+</div>
+</div>
+
+<h3>9. Acentuação das Palavras — Visão Geral</h3>
+<p>A <strong>acentuação das palavras</strong> em português segue um princípio único: o acento gráfico só aparece quando a posição da sílaba tônica não pode ser deduzida pela terminação da palavra. Considerando a acentuação dos vocábulos, sempre pergunte: a terminação já "avisa" onde está a tônica?</p>
+<ul>
+  <li><strong>Paroxítonas em -a, -e, -o, -am, -em, -agem</strong> → terminação já avisa → sem acento (casa, come, falam)</li>
+  <li><strong>Paroxítonas em -l, -r, -n…</strong> → terminação "esperaria" oxítona → acento necessário (fácil, açúcar, hífen)</li>
+  <li><strong>Oxítonas em -r, -l, -z, -i, -u</strong> → terminação já avisa → sem acento (falar, papel, feliz, aqui, bambu)</li>
+  <li><strong>Oxítonas em -á, -é, -ê, -ó, -ô, -ém…</strong> → precisam de acento para marcar a vogal tônica aberta/fechada</li>
+  <li><strong>Proparoxítonas</strong> → nenhuma terminação avisa a antepenúltima → acento sempre obrigatório em todos os vocábulos acentuados nessa posição</li>
+</ul>`,
     questoes: [
       { enunciado: 'Qual é a separação silábica correta de "psicologia"?', opcoes: ["psi-co-lo-gi-a","p-si-co-lo-gi-a","psi-col-o-gi-a","psi-co-lo-gia"], correta: 0, explicacao: 'psi-co-lo-gi-a: 5 sílabas. O grupo <em>ps</em> permanece unido.' },
       { enunciado: 'Qual palavra é <strong>oxítona</strong>?', opcoes: ["árvore","janela","café","lápis"], correta: 2, explicacao: '"Café" (ca-FÉ): tônica na última sílaba = oxítona.' },
