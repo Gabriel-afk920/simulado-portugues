@@ -2906,6 +2906,96 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Regra de ouro:</strong> não importa se a palavra tem prefixo, se é composta ou simples — a tonicidade sempre é determinada pela terminação final.</li>
 </ul>
 </div>
+
+<h3>Dupla Prosódia e Acento Diferencial — Casos Especiais</h3>
+<p>Algumas palavras admitem <strong>duas pronúncias igualmente aceitas pela norma</strong> (dupla prosódia). Outras exigem acento para distinguir formas que seriam idênticas na escrita (acento diferencial). Esses casos aparecem com frequência em provas de nível superior.</p>
+
+<h4 style="color:#fde68a;margin:14px 0 6px;">▸ Dupla Prosódia — palavras com dois acentos normativos</h4>
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:8px 0 14px;">
+  <thead>
+    <tr style="background:#1e1b4b;color:#a5b4fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Palavra</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Pronúncia 1</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Pronúncia 2</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Observação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">sutil / sútil</td>
+      <td style="padding:8px 10px;color:#86efac;">su-<strong>TIL</strong> (oxítona)</td>
+      <td style="padding:8px 10px;color:#93c5fd;"><strong>SÚ</strong>-til (paroxítona)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">ambas aceitas pelo Volp; a forma oxítona é mais comum no Brasil</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">rubrica / rúbrica</td>
+      <td style="padding:8px 10px;color:#86efac;">ru-<strong>BRI</strong>-ca (paroxítona)</td>
+      <td style="padding:8px 10px;color:#93c5fd;"><strong>RÚ</strong>-bri-ca (proparoxítona)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">cf. exceções; bancas geralmente pedem a paroxítona como "correta sem acento"</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gratuito / gratúito</td>
+      <td style="padding:8px 10px;color:#86efac;">gra-tu-<strong>I</strong>-to (paroxítona)</td>
+      <td style="padding:8px 10px;color:#93c5fd;">gra-<strong>TÚ</strong>-i-to (proparoxítona)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">ambas aceitas; na prova, a alternativa errada costuma ser a forma popular</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">acróbata / acrobata</td>
+      <td style="padding:8px 10px;color:#86efac;"><strong>A</strong>-cró-ba-ta (proparoxítona)</td>
+      <td style="padding:8px 10px;color:#93c5fd;">a-cro-<strong>BA</strong>-ta (paroxítona)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">acróbata é a forma mais comum em provas; ambas estão no dicionário</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">filantropo / filântropo</td>
+      <td style="padding:8px 10px;color:#86efac;">fi-lan-<strong>TRO</strong>-po (paroxítona)</td>
+      <td style="padding:8px 10px;color:#93c5fd;">fi-<strong>LÂN</strong>-tro-po (proparoxítona)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">filântropo (proparoxítona) é a forma erudita, preferida em provas de nível superior</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 style="color:#fde68a;margin:14px 0 6px;">▸ Acento Diferencial — distingue formas homógrafas</h4>
+<p>O Acordo Ortográfico de 1990 eliminou vários acentos diferenciais, mas manteve alguns pares que seriam ambíguos sem ele:</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:8px 0 14px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Par</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Com acento</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Sem acento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">pôr / por</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>pôr</strong> = verbo (pôr a mesa)</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>por</strong> = preposição (feito por ela)</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">pôde / pode</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>pôde</strong> = passado (ela pôde ir)</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>pode</strong> = presente (ela pode ir)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">vir / convir / provir — 3ª p. pl.</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>vêm</strong> (eles vêm) / <strong>convêm</strong> / <strong>provêm</strong> = plural</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>vem</strong> / <strong>convém</strong> / <strong>provém</strong> = singular (ele vem)</td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">ter / conter / manter — 3ª p. pl.</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>têm</strong> (eles têm) / <strong>contêm</strong> / <strong>mantêm</strong> = plural</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>tem</strong> / <strong>contém</strong> / <strong>mantém</strong> = singular (ele tem)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="dica-box">
+  <div class="dica-title">Como a banca explora dupla prosódia</div>
+  <ul>
+    <li>A questão afirma que "sutil/sútil apresentam dupla prosódia aceita pela norma" e pede para julgar como Certo/Errado → <strong>Certo</strong>.</li>
+    <li>A questão pede qual forma está <strong>incorreta</strong> e coloca "filântropo" × "filantropo" — ambas corretas, então nenhuma está incorreta.</li>
+    <li>Em "convir e provir também apresentam acento diferencial no plural" → <strong>Certo</strong> (convêm/provêm × convém/provém).</li>
+  </ul>
+</div>
 <p style="text-align:right;margin:4px 0 18px;"><button onclick="window.scrollTo(0,0)" style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.78rem;">↑ Voltar ao topo</button></p>`,
     questoes: [
      { enunciado: 'O que é <strong>sílaba tônica</strong>?', opcoes: ['A sílaba mais longa da palavra','A primeira sílaba de qualquer palavra','A sílaba com maior intensidade e força da voz','A última sílaba sempre'], correta: 2, explicacao: 'A sílaba tônica é aquela pronunciada com maior intensidade. Toda palavra com duas ou mais sílabas tem exatamente uma tônica.' },
@@ -3274,6 +3364,127 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <li><strong>-mente é o único sufixo adverbial</strong>: toda palavra terminada em -mente é advérbio de modo.</li>
     <li>Prefixo grego <strong>a-/an-</strong> = negação (amoral = sem moral). Prefixo latino <strong>in-/im-/il-/ir-</strong> = negação (ilegal). Ambos negam, mas de origens diferentes.</li>
     <li>Para identificar aglutinação × justaposição: procure se algum elemento perdeu sílaba ou letra na junção.</li>
+  </ul>
+</div>
+
+<h3>6. Estrutura Interna das Palavras — Morfemas</h3>
+<p>Questões de concurso frequentemente pedem a identificação de unidades morfológicas. A <strong>menor unidade dotada de significado</strong> em uma língua é o <strong>morfema</strong>.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Unidade</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">O que é</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo em <em>cantávamos</em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Morfema</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Menor unidade com significado (inclui tudo abaixo)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">cant + a + va + mos</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Radical (lexema)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Parte que carrega o significado central — permanece nas variações da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><strong>cant</strong>- (cantar, canto, cantei, canção)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Vogal temática</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Liga o radical às desinências; indica a conjugação do verbo (-a-, -e-, -i-)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">cant-<strong>a</strong>-va-mos (1ª conj.)</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Tema</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Radical + vogal temática (base para receber desinências)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><strong>canta</strong>- (cant + a)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Desinência modo-temporal</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Indica tempo e modo verbal</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">cant-a-<strong>va</strong>-mos (-va = imperfeito do indicativo)</td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Desinência número-pessoal</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Indica pessoa e número</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">cant-a-va-<strong>mos</strong> (-mos = 1ª pessoa plural)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Morfema × Sílaba — não confundir:</strong><br><br>
+  <strong>Sílaba</strong> é uma unidade fonética (som). <strong>Morfema</strong> é uma unidade de significado.<br>
+  <em>Infelizes</em>: 4 sílabas (in-fe-li-zes) | 3 morfemas: <em>in-</em> (negação) + <em>feliz</em> (radical) + <em>-es</em> (plural)<br><br>
+  <strong>Como as bancas cobram:</strong><br>
+  • "Qual a menor unidade dotada de significado?" → <strong>morfema</strong><br>
+  • "Qual é o radical de <em>beleza</em>?" → <strong>bel-</strong> (beleza, belo, embelezar, belíssimo)<br>
+  • "Qual a vogal temática de <em>partir</em>?" → <strong>-i-</strong> (3ª conjugação)
+</div>
+
+<h3>7. Metaplasmos — Alterações Fonéticas Históricas</h3>
+<p>Metaplasmos são <strong>alterações nos fonemas de uma palavra</strong> ao longo da evolução da língua (do latim ao português) ou em variações populares. São cobrados especialmente em questões sobre origem e evolução das palavras.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#1e1b4b;color:#a5b4fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Metaplasmo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">O que ocorre</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Aférese</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>início</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>em</em>bora → <em>bora</em>; <em>es</em>tar → <em>tá</em></td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Síncope</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>meio</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>frig</em>idus → <em>frio</em>; <em>oc</em>u<em>lus</em> → olho</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Apócope</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>final</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>amar</em> → <em>ama</em>; <em>senhor</em> → <em>seu</em></td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Prótese</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>início</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>s</em>patha → <em>es</em>pada; <em>s</em>piritu → <em>es</em>pírito</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Epêntese</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>meio</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>ge</em>olhos (lat. <em>genuculu</em>) → jo<em>e</em>lhos; <em>h</em>umil → <em>hu</em>milde</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Paragoge</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>final</strong> da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>feliz</em> → <em>felizes</em>; <em>lápis</em> (lat. lapide<em>m</em>)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Metátese</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>Transposição</strong> de fonema(s) — muda de posição dentro da palavra</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>geolhos</em> → <em>joelhos</em> (g↔j + metátese do l); <em>sempre</em> → <em>sempres</em> (popular)</td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Crase (metaplasmo)</td>
+      <td style="padding:8px 10px;color:#94a3b8;"><strong>Fusão</strong> de dois fonemas iguais ou semelhantes em um só</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>de + o</em> → <em>do</em>; <em>por + o</em> → <em>pelo</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="dica-box">
+  <div class="dica-title">Macete — Metaplasmos por grupo</div>
+  <ul>
+    <li><strong>Supressão</strong> (tiram fonemas): Aférese (início), Síncope (meio), Apócope (fim)</li>
+    <li><strong>Adição</strong> (acrescentam fonemas): Prótese (início), Epêntese (meio), Paragoge (fim)</li>
+    <li><strong>Transposição</strong>: Metátese (muda de lugar)</li>
+    <li><strong>Fusão</strong>: Crase (dois viram um)</li>
+    <li>Mnemônico: <strong>A S A — P E P — M C</strong> (Aférese, Síncope, Apócope — Prótese, Epêntese, Paragoge — Metátese, Crase)</li>
   </ul>
 </div>`,
     questoes: []
@@ -3870,6 +4081,67 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li>Adjunto adverbial curto no início → vírgula é facultativa; adjunto longo → vírgula é recomendada/obrigatória.</li>
   <li>Conjunção "mas" é sempre precedida de vírgula. Conjunção "e" em enumeração simples NÃO é.</li>
 </ul>
+</div>
+
+<h3>O que a vírgula está isolando? — Classificação Sintática</h3>
+<p>Muitas questões não perguntam <em>se</em> a vírgula está correta, mas <em>por que</em> ela está ali — pedindo o nome do termo isolado. Conhecer essas categorias é pré-requisito.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Termo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">O que é</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como identificar</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo com vírgula</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Vocativo</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Interpelação direta a alguém — não faz parte da oração</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Pode ser retirado; é sempre um nome de pessoa/grupo</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Maria<strong>,</strong> venha aqui.</em></td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Aposto</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Termo que explica, esclarece ou resume outro substantivo já mencionado</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Vem ao lado de um substantivo; pode ser substituído por "ou seja, ..."</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Camões<strong>,</strong> o maior poeta lusitano<strong>,</strong> nasceu em 1524.</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Predicativo do sujeito</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Caracteriza o sujeito por meio de um verbo de ligação (ser, estar, ficar, parecer, tornar-se…)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Sempre ligado ao sujeito via verbo; responde "o sujeito está como?"</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Os macacos<strong>,</strong> originários da África<strong>,</strong> chegaram a Gibraltar.</em> (isolado por vírgulas, qualifica o sujeito)</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Adjunto adnominal</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Modifica um substantivo (artigos, adjetivos, locuções adjetivas, pronomes adjetivos)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Está dentro do sintagma nominal; NÃO é isolado por vírgulas quando restritivo</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>O livro <u>antigo</u> foi restaurado.</em> (adjunto adnominal sem vírgula)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Adjunto adverbial</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Modifica o verbo, adjetivo ou advérbio — indica tempo, lugar, modo, causa, etc.</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Responde "quando?", "onde?", "como?", "por quê?" — se deslocado, exige vírgula</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Ontem<strong>,</strong> o time venceu.</em> / <em>Com cuidado<strong>,</strong> ele abriu a carta.</em></td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Oração adjetiva explicativa</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Oração introduzida por pronome relativo que acrescenta informação não essencial</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Começa por "que", "o qual", "cujo"; pode ser retirada sem mudar o sentido essencial</td>
+      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>O sol<strong>,</strong> que aquece a Terra<strong>,</strong> é uma estrela.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Aposto × Predicativo — como a banca distingue:</strong><br><br>
+  <strong>Aposto</strong>: está ao lado de um substantivo e esclarece <em>quem é</em>. Pode ser substituído por "isto é" / "ou seja".<br>
+  → <em>"Pedro, <u>o diretor da escola</u>, falou."</em> — "ou seja, o diretor da escola" funciona ✓<br><br>
+  <strong>Predicativo isolado</strong>: qualifica o sujeito sem verbo de ligação explícito (predicativo deslocado).<br>
+  → <em>"<u>Cansado</u>, João saiu da reunião."</em> — equivale a "João estava cansado" ✓<br><br>
+  <strong>Dica prática</strong>: se o termo entre vírgulas é um <em>adjetivo</em> ou <em>locução adjetiva</em> que qualifica o sujeito — é predicativo. Se é um <em>substantivo</em> que renomeia outro — é aposto.
 </div>`,
     questoes: []
   },
