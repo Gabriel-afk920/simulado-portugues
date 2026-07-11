@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 11/07/2026, 16:09:27 — 2609 questões incluídas
+// 11/07/2026, 19:05:20 — 2826 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -10293,6 +10293,190 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "fonemas"
                 ]
+          },
+          {
+                "enunciado": "Observe os trechos destacados na passagem a seguir. O Brasil inteiro está comentando a lista de convocados pelo técnico, uns o criticando, outros o absolvendo, e daqui a pouco uma nova Copa começará em que a nossa seleção terá boa chance de vencer, e alguma de perder. Já não passamos por isso antes, igualzinho? A alternativa em que esses trechos estão substituídos de acordo com a norma-padrão de regência e emprego do sinal de crase é:",
+                "opcoes": [
+                      "tecendo comentários à … uns dirigindo críticas à ele … estará prestes à começar uma nova Copa … estivemos sujeitos a mesma situação",
+                      "tecendo comentários a … uns dirigindo críticas a ele … estará prestes à começar uma nova Copa … estivemos sujeitos a mesma situação",
+                      "tecendo comentários à … uns dirigindo críticas à ele … estará prestes a começar uma nova Copa … estivemos sujeitos à mesma situação",
+                      "tecendo comentários a … uns dirigindo críticas a ele … estará prestes à começar uma nova Copa … estivemos sujeitos à mesma situação",
+                      "tecendo comentários à … uns dirigindo críticas a ele … estará prestes a começar uma nova Copa … estivemos sujeitos à mesma situação"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>tecendo comentários à … uns dirigindo críticas a ele … estará prestes a começar uma nova Copa … estivemos sujeitos à mesma situação</strong>. Fonte: VUNESP/2024. Assunto: fonologia.",
+                "banca": "VUNESP",
+                "ano": 2024,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "De acordo com o uso ou não da crase, assinalar a alternativa CORRETA:",
+                "opcoes": [
+                      "O dia está mais quente das 14h as 15h.",
+                      "Os brasileiros gostam de tomar cerveja e jogar futebol a luz do dia.",
+                      "À meia-noite, todas as pessoas ligam o ar-condicionado no verão.",
+                      "De segunda-feira à sexta-feira, não há grande consumo de energia das 17h as 20h."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>À meia-noite, todas as pessoas ligam o ar-condicionado no verão.</strong>. Fonte: OBJETIVA/2019. Assunto: fonologia.",
+                "banca": "OBJETIVA",
+                "ano": 2019,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Considerando o emprego do acento indicativo de crase, assinale a alternativa que completa, correta e respectivamente, as lacunas tracejadas das linhas 08, 36 e 39.",
+                "opcoes": [
+                      "às – às – à",
+                      "as – às – à",
+                      "às – as – a",
+                      "as – as – à",
+                      "às – às – a"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>as – às – à</strong>. Fonte: FUNDATEC/2023. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas das linhas 03, 16, 25 e 42.",
+                "opcoes": [
+                      "a – à – à – a",
+                      "à – à – à – a",
+                      "a – a – a – a",
+                      "à – a – a – à",
+                      "à – a – à – à"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a – à – à – a</strong>. Fonte: FUNDATEC/2023. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Considerando o uso da crase, assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas das linhas 04, 11, 17 e 27.",
+                "opcoes": [
+                      "as – as – a – A",
+                      "as – às – a – À",
+                      "às – às – à – A",
+                      "as – as – à – A",
+                      "às – às – à – À"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>às – às – à – A</strong>. Fonte: FUNDATEC/2025. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Levando em conta a necessidade ou não do uso da crase, assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas das linhas 12, 31, 33 e 36.",
+                "opcoes": [
+                      "à – à – à – a",
+                      "a – a – a – a",
+                      "a – à – a – à",
+                      "à – a – à – à",
+                      "à – a – a – à"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>à – a – a – à</strong>. Fonte: FUNDATEC/2023. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que preenche as lacunas do texto CORRETAMENTE:",
+                "opcoes": [
+                      "a | porque | por que | à",
+                      "a | por que | porque | à",
+                      "à | por que | por que | a",
+                      "à | porque | porque | a"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>à | porque | porque | a</strong>. Fonte: OBJETIVA/2023. Assunto: fonologia.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ]
+          },
+          {
+                "enunciado": "Considerando o emprego correto do acento indicativo de crase, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas das linhas 15, 19 e 33.",
+                "opcoes": [
+                      "à – A – À",
+                      "à – A – A",
+                      "à – À – À",
+                      "a – A – A",
+                      "a – A – À"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>à – A – A</strong>. Fonte: FUNDATEC/2024. Assunto: fonologia.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Considerando o trecho “Saiu pela casa, caminhando junto à parede, porque os hábitos morrem devagar.” (2º§), assinale a afirmativa que justifica a correta ocorrência de crase.",
+                "opcoes": [
+                      "É facultativa junto às locuções adverbiais que indicam circunstância.",
+                      "É obrigatória junto às locuções adverbiais que indicam circunstância.",
+                      "É facultativa nas locuções adverbiais compostas por palavras femininas.",
+                      "É obrigatória nas locuções adverbiais compostas por palavras femininas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>É obrigatória nas locuções adverbiais compostas por palavras femininas.</strong>. Fonte: Instituto Consulplan/2023. Assunto: fonologia.",
+                "banca": "Instituto Consulplan",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
+                ]
           }
     ],
     "acentuacaoGrafica": [
@@ -20420,6 +20604,288 @@ var QUESTOES_BANCO = {
                       "acentuacaoGrafica",
                       "hifen"
                 ]
+          },
+          {
+                "enunciado": "Considerando as regras de acentuação gráfica e ortografia oficial aplicadas a vocábulos do texto ou a termos correlatos, assinale a alternativa que apresenta a correta justificativa normativa.",
+                "opcoes": [
+                      "A palavra “saúde” é acentuada por ser uma oxítona terminada em vogal tônica, seguindo a mesma regra de acentuação de vocábulos como “herói” e “café”.",
+                      "O substantivo “autonomia”, caso recebesse o prefixo “micro”, deveria ser grafado com hífen, resultando na forma “micro-autonomia” a fim de evitar a junção de vogais.",
+                      "Os termos “estratégias” e “consciência” recebem acento gráfico pela mesma razão fundamental, por serem paroxítonas terminadas em ditongo oral.",
+                      "O vocábulo “freqüência” mantém o uso do trema sobre a vogal u para indicar sua pronúncia como semivogal, conforme as orientações do último acordo ortográfico."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os termos “estratégias” e “consciência” recebem acento gráfico pela mesma razão fundamental, por serem paroxítonas terminadas em ditongo oral.</strong>. Fonte: IDIB/2026. Assunto: acentuacaoGrafica.",
+                "banca": "IDIB",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "&#x20;Sobre aspectos ortográficos de palavras retiradas do texto, analise as assertivas a seguir e assinale V, se verdadeiras, ou F, se falsas. ( ) A palavra “neurológicos” é acentuada por ser uma proparoxítona. ( ) A palavra “consciência” recebe acento gráfico pela mesma regra de “frequência”. ( ) A palavra “pronto-socorro” leva hífen pois é um substantivo composto formado por duas palavras e que tem um novo significado. ( ) A palavra “analgésicos” é classificada como paroxítona, conforme o Novo Acordo Ortográfico. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "F – V – F – V.",
+                      "F – F – V – F.",
+                      "V – V – V – F.",
+                      "V – F – F – V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V – V – V – F.</strong>. Fonte: FUNDATEC/2026. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "paroxitonas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Desigualdade social é o principal obstáculo à qualidade da educação no país.\" A separação silábica consiste na divisão das palavras em sílabas, indicada, quando necessário, pelo uso do hífen. Em 'país', por exemplo, a divisão adequada é 'pa-ís'. Com base nas regras de separação silábica e de translineação, analise as afirmativas a seguir e assinale a alternativa incorreta.",
+                "opcoes": [
+                      "A correspondência entre grafemas e fonemas nem sempre é biunívoca: determinadas sequências de letras que representam um único fonema na modalidade oral podem ser distribuídas entre sílabas distintas na escrita.",
+                      "Na translineação, quando a palavra já possui hífen em sua formação, ele deve ser repetido no início da linha seguinte, a fim de evitar que a separação seja interpretada como mera divisão silábica.",
+                      "Na translineação, o critério fonético prevalece sobre o gráfico quando se trata de vogais idênticas pronunciadas continuamente, de modo que essas vogais permanecem reunidas na mesma sílaba, por não haver pausa perceptível entre elas na cadeia sonora.",
+                      "Nos vocábulos formados pelo prefixo 'sub-' seguido de vogal, prevalece a regra silábica geral sobre o critério morfológico, de modo que a consoante b se agrupa à vogal subsequente, como se observa em 'su.ben.ten.der'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Na translineação, o critério fonético prevalece sobre o gráfico quando se trata de vogais idênticas pronunciadas continuamente, de modo que essas vogais permanecem reunidas na mesma sílaba, por não haver pausa perceptível entre elas na cadeia sonora.</strong>. Fonte: ACCESS/2026. Assunto: silabasAcentuacao.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "silabasAcentuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Queria ter palavras boas, eficientes, para explicar como é isso de não ter saudades; fazer sentir que estou exprimindo um sentimento real, a humilde, a nua verdade.\" Com a implementação do Novo Acordo Ortográfico, diversas palavras passaram por alterações, seja no âmbito da acentuação gráfica, seja no da ortografia. Com base nisso, analise as afirmativas a seguir: I. O vocábulo 'para' exemplifica caso de alteração, uma vez que, quando empregado como forma verbal, deixou de receber acento gráfico, anteriormente registrado como 'pára'. II. As palavras formadas com ditongos abertos 'éi' e 'ói' sofreram alteração em sua acentuação, assim, deixaram de ser acentuados vocábulos como 'joia', 'ideia' e 'bateis'. III. Diferentemente de 'para', o verbo 'pôr', no infinitivo, manteve o acento gráfico para diferenciar-se da preposição 'por', que não é acentuada. IV. O vocábulo 'ultrassom', anteriormente grafado como 'ultra-som', perdeu o hífen e passou a ser grafado com acréscimo de consoante, em conformidade com as regras de hifenização. Assinale a alternativa que apresenta apenas as proposições corretas.",
+                "opcoes": [
+                      "I, II e IV, apenas.",
+                      "II e III, apenas.",
+                      "I, III e IV, apenas.",
+                      "II e IV, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, III e IV, apenas.</strong>. Fonte: IDCAP/2026. Assunto: acentuacaoGrafica.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Na estreia, o debate é em torno dos impactos do ambiente digital no bem-estar emocional da população.\" Considerando as grafias corretas das palavras, marque com V as afirmativas verdadeiras ou com F as falsas. (\\_\\_)O vocábulo 'estreia' está grafado corretamente sem acento, assim como 'geleia', 'joia' e 'debiloide'. (\\_\\_)A palavra 'bem-estar' está grafada corretamente com hífen, assim como 'couve-flor' e 'para-lama'. (\\_\\_) O vocábulo 'digital' está grafado corretamente com 'g', assim como 'genipapo', 'tigela' e 'lambugem'. (\\_\\_)O vocábulo 'emocional' possui 'c' em sua grafia, assim como 'aborrecer', 'disfarce' e 'percevejo'. Assinale a sequência correta dos itens acima, de cima para baixo.",
+                "opcoes": [
+                      "F, F, F, F",
+                      "&#x20;V, V, V, V.",
+                      "V, V, F, V.",
+                      "F, F, V, V"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V, V, F, V.</strong>. Fonte: AMEOSC/2026. Assunto: acentuacaoGrafica.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A luz mais antiga detectada \"provém\" do fundo cósmico de \"micro-ondas\", emitido quando o Universo tinha cerca de trezentos mil anos. Assinale a alternativa correta quanto à ortografia oficial das palavras destacadas no trecho, à luz do Acordo Ortográfico da Língua Portuguesa.",
+                "opcoes": [
+                      "\"Micro-ondas\" pode ser registrada sem hífen em contextos de uso corrente, mantendo-se a forma hifenizada na escrita formal.",
+                      "\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\".",
+                      "\"Provém\" admite forma gráfica sem acento em registros informais, mantendo-se a variante acentuada apenas em contextos formais da língua.",
+                      "\"Provém\" recebe acento por seguir a regra geral das palavras paroxítonas terminadas em \"em\" decrescente.",
+                      "\"Micro-ondas\" apresenta hífen por se tratar de composto em que o prefixo mantém autonomia gráfica diante do segundo elemento, preservando a segmentação de unidades lexicais compostas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\".</strong>. Fonte: Instituto Access/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A luz mais antiga detectada \"provém\" do fundo cósmico de \"micro-ondas\", emitido quando o Universo tinha cerca de trezentos mil anos. Assinale a alternativa correta quanto à ortografia oficial das palavras destacadas no trecho, à luz do Acordo Ortográfico da Língua Portuguesa.",
+                "opcoes": [
+                      "\"Provém\" recebe acento por seguir a regra geral das palavras paroxítonas terminadas em \"em\" decrescente.",
+                      "\"Micro-ondas\" apresenta hífen por se tratar de composto em que o prefixo mantém autonomia gráfica diante do segundo elemento, preservando a segmentação de unidades lexicais compostas.",
+                      "\"Micro-ondas\" pode ser registrada sem hífen em contextos de uso corrente, mantendo-se a forma hifenizada na escrita formal.",
+                      "\"Provém\" admite forma gráfica sem acento em registros informais, mantendo-se a variante acentuada apenas em contextos formais da língua.",
+                      "\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\"."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\".</strong>. Fonte: Instituto Access/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A luz mais antiga detectada \"provém\" do fundo cósmico de \"micro-ondas\", emitido quando o Universo tinha cerca de trezentos mil anos. Assinale a alternativa correta quanto à ortografia oficial das palavras destacadas no trecho, à luz do Acordo Ortográfico da Língua Portuguesa.",
+                "opcoes": [
+                      "\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\".",
+                      "\"Micro-ondas\" apresenta hífen por se tratar de composto em que o prefixo mantém autonomia gráfica diante do segundo elemento, preservando a segmentação de unidades lexicais compostas.",
+                      "\"Micro-ondas\" pode ser registrada sem hífen em contextos de uso corrente, mantendo-se a forma hifenizada na escrita formal.",
+                      "\"Provém\" admite forma gráfica sem acento em registros informais, mantendo-se a variante acentuada apenas em contextos formais da língua.",
+                      "\"Provém\" recebe acento por seguir a regra geral das palavras paroxítonas terminadas em \"em\" decrescente."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>\"Provém\" mantém acentuação por ser forma oxítona terminada em \"em\", com acento agudo que marca a tonicidade no singular no paradigma verbal relacionado a \"vir\".</strong>. Fonte: Instituto Access/2026. Assunto: acentuacaoGrafica.",
+                "banca": "Instituto Access",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "paroxitonas",
+                      "oxitonas",
+                      "tonicidade",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A ortografia oficial da língua portuguesa organiza-se por princípios convencionais que procuram conciliar tradição, sistematização gráfica e critérios fonológicos compartilhados entre países lusófonos. Alterações normativas visam ajustar a escrita sem modificar o funcionamento estrutural da língua (BRASIL, 2009). Considerando as disposições do Acordo Ortográfico em vigor, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Emprega-se hífen quando o prefixo termina em vogal e o segundo elemento se inicia pela mesma vogal, como em \"anti-inflamatório\" e \"micro-ondas\".",
+                      "O acento nos ditongos abertos \"éi\" e \"ói\" foi suprimido em todas as ocorrências, inclusive em palavras oxítonas e monossílabos tônicos.",
+                      "O uso do hífen tornou-se facultativo em compostos consagrados pelo uso, independentemente da presença de prefixo ou da estrutura morfológica do termo.",
+                      "Conservam-se obrigatoriamente as consoantes etimológicas nos vocábulos derivados, ainda que não sejam pronunciadas na variedade culta brasileira contemporânea.",
+                      "Mantém-se o acento diferencial em pares homógrafos sempre que houver possibilidade de dupla interpretação semântica no enunciado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Emprega-se hífen quando o prefixo termina em vogal e o segundo elemento se inicia pela mesma vogal, como em \"anti-inflamatório\" e \"micro-ondas\".</strong>. Fonte: IGEDUC/2026. Assunto: acentuacaoGrafica.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "oxitonas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia os textos a seguir. TRECHO DO TEXTO I “Como regra, sabichões exercem o sabichonismo por convicção. Estão convencidos da sabedoria de sua bobagem, que gostariam de ver abraçada por todos. No entanto, sobretudo nos casos em que a atividade produz ganho material, não se deve descartar a hipótese da má‑fé.” TEXTO III  Imagem associada para resolução da questão Disponível em: https://cartum.folha.uol.com.br/quadrinhos/2024/07/09/piratas‑do-tiete-laerte.shtml. Acesso em: 11 ago. 2025. Analise as afirmativas a seguir, relativas a aspectos fonéticos e gramaticais, de acordo com a norma‑padrão da língua portuguesa. I. As palavras “África”, “América” e “Ásia” são acentuadas por serem terminadas em “a”, e todas as proparoxítonas com essa terminação recebem acento gráfico. II. A expressão “mapa mundi” está grafada corretamente, pois palavras estrangeiras não devem ser hifenizadas ou acentuadas quando incorporadas ao português. III. O hífen em “má‑fé” está de acordo com a norma‑padrão, pois o referido sinal gráfico foi usado para ligar elementos que formam uma unidade lexical com sentido próprio. IV. O emprego da crase no trecho modificado do trecho do texto I “Devemos estar atentos à sabedoria e à honestidade” está correto, porque o adjetivo “atentos” exige a preposição “a”, e os substantivos femininos admitem o artigo definido “a”. Estão corretas as afirmativas",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I e IV, apenas.",
+                      "II e III, apenas.",
+                      "III e IV, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>III e IV, apenas.</strong>. Fonte: FUNDEP (Gestão de Concursos)/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FUNDEP (Gestão de Concursos)",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "proparoxitonas",
+                      "crase",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. (  ) No título “IA e meio ambiente em Elias Canetti”, o termo “meio ambiente” deveria ter sido escrito com hífen. (  ) No trecho “Essa reflexão parece fundamental para a sociedade, convidando-a a uma importante discussão sobre os problemas ambientais que nos cercam.”, o termo destacado exerce função de pronome relativo. (  ) Em “Em capítulo seguinte, o dramaturgo Karl Kraus (1874-1936), considerado satirista e panfletário, é evocado. Fundador e único redator da revista Die Fackel (A Tocha), Kraus era crítico ferrenho da moral burguesa da época.”, os verbos destacados foram empregados no mesmo tempo verbal. (  ) No trecho “Entretanto, acredito nisso como atividade auxiliar e colaborativa, uma vez que as palavras e ideias que provêm da atividade consciente carregam criatividade e sensibilidade \\[...]”, o termo destacado foi corretamente acentuado, pois o verbo concorda com “as palavras e ideias”.",
+                "opcoes": [
+                      "F – V – F – V.",
+                      "F – F – F – V.",
+                      "V – V – V – F.",
+                      "V – F – V – F.",
+                      "V – F – V – V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>F – V – F – V.</strong>. Fonte: INSTITUTO AOCP/2025. Assunto: acentuacaoGrafica.",
+                "banca": "INSTITUTO AOCP",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica"
+                ]
+          },
+          {
+                "enunciado": "O Novo Acordo Ortográfico, implementado desde 2009 e obrigatório desde 2016, apresenta regras quanto ao uso de hífen. Associe a segunda coluna de acordo com a primeira, relacionando as regras de uso de hífen com os exemplos: Primeira coluna: regras 1.Emprega-se o hífen nas palavras compostas por justaposição que não contêm formas de ligação e cujos elementos, de natureza nominal, adjetival, numeral ou verbal, constituem uma unidade sintagmática e semântica e mantêm acento próprio. 2.Emprega-se o hífen para ligar duas ou mais palavras que ocasionalmente se combinam, formando não propriamente vocábulos, mas encadeamentos vocabulares. 3.Emprega-se o hífen nas palavras compostas que designam espécies botânicas e zoológicas (com ou sem formas de ligação). Segunda coluna: exemplos (\\_\\_)Rio-Niterói; teoria-prática; ensino-aprendizagem. (\\_\\_)bem-me-quer; abóbora-menina; erva-doce; cobra-d´água. (\\_\\_)anos-luz; afro-asiático; segunda-feira; conta-gotas; amor-perfeito. Assinale a alternativa que apresenta a correta associação entre as colunas:",
+                "opcoes": [
+                      "1 − 2 − 3.",
+                      "3 − 1 − 2.",
+                      "2 − 1 − 3.",
+                      "1 − 3 − 2.",
+                      "2 − 3 − 1."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>2 − 3 − 1.</strong>. Fonte: FURB/2025. Assunto: acentuacaoGrafica.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\\[Questão Inédita] Assinale a alternativa com a informação correta.",
+                "opcoes": [
+                      "As palavras contribuíram, raízes, combustível, saúde e proteínas recebem acento gráfico em razão de uma mesma regra.",
+                      "Em “Muitas dessas contribuições, no entanto, são desconhecidas”, a expressão “no entanto” pode ser substituída pela conjunção adversativa “mas” sem que se altere o sentido nem produza falha gramatical.",
+                      "Em “era um alimento básico na era pré-colombiana” (5º parágrafo), observa-se a palavra “era” (com o mesmo som e grafia), mas em funções diferentes. Esse mesmo fenômeno ocorre na frase “Eu jogo o jogo”.",
+                      "Em “como a medicina, a biologia, a matemática, a engenharia e a agricultura”, caso se troque a conjunção “e” por uma vírgula, perde-se a indicação de último elemento da enumeração, ou seja, do fechamento dos itens enumerados, e cria-se com a mudança a impressão de que mais elementos poderiam ser acrescentados.",
+                      "Nos trechos “indígenas norte-americanos” e “era pré-colombiana”, observa-se uma mesma regra no uso do hífen para ambas as formações."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Em “como a medicina, a biologia, a matemática, a engenharia e a agricultura”, caso se troque a conjunção “e” por uma vírgula, perde-se a indicação de último elemento da enumeração, ou seja, do fechamento dos itens enumerados, e cria-se com a mudança a impressão de que mais elementos poderiam ser acrescentados.</strong>. Fonte: Qconcursos/2025. Assunto: acentuacaoGrafica.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Acentuação Gráfica",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "acentuacaoGrafica",
+                      "hifen"
+                ]
           }
     ],
     "encontrosConsonantais": [
@@ -23997,6 +24463,476 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "O emprego do acento grave pode ser determinado, entre outras razões, pela regência de um verbo. Em que frase o uso desse acento desrespeita a norma padrão?",
+                "opcoes": [
+                      "Assistiu às pressas o fim da apuração.",
+                      "Retornarei à encomenda via Sedex.",
+                      "Tive acesso à informação bancária.",
+                      "Voltarei à casa dos meus pais, hoje.",
+                      "Deixaremos alguns clientes à espera."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Retornarei à encomenda via Sedex.</strong>. Assunto: classesGramaticais.",
+                "banca": null,
+                "ano": null,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Leia o fragmento abaixo e responda à questão. &#x20;     Um professor excelente promove excelente cultura de aprendizagem.     Nove em cada dez alunos da educação infantil à (1ª ocorrência) terceira série dizem que adoram ir à (2ª ocorrência) escola, mas apenas um em cada dez alunos do ensino médio diz o mesmo. Acabei de fazer essa estatística e convido você a me corrigir. Números exatos à (3ª ocorrência) parte, muitos alunos dizem que não gostam da escola. Se você passar um dia no lugar deles, provavelmente concordará. Por que isso acontece? Porque quanto mais crescem, mais regras têm para seguir e menos diversão.      Uma grande cultura de aprendizagem em qualquer série pode impedir que isso aconteça. Alguns assuntos ainda são sérios, mas isso não significa que não possam ser divertidos de aprender. Além do mais, empatia, comunicação entre pares e colaboração podem contribuir para essa ótima cultura de aprendizagem, e os professores podem influenciar tudo isso. (Texto adaptado – disponível em: https://www.cypherlearning.com/pt-br) Levando em conta o que nos ensina Bechara em relação ao uso de crase, avalie as afirmações que seguem em relação às ocorrências assinaladas no fragmento acima: I. Caso substituíssemos o termo ‘da educação infantil’ por ‘de primeira série’, a crase assinalada como 1ª ocorrência não deveria ser utilizada. II. A 2ª ocorrência da crase está relacionada à regência do verbo ‘ir’ e à presença da palavra ‘escola’. Assim, o verbo rege a preposição ‘a’ e a palavra regida permite o uso do artigo definido feminino. III. A 3ª ocorrência da crase, na expressão ‘à parte’, marca uma locução conjuntiva. Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas I e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: FUNDATEC/2023. Assunto: classesGramaticais.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Conforme Bechara, avalie as afirmações que seguem a respeito da crase, assinalando V, se verdadeiras, ou F, se falsas. ( ) Crase é um fenômeno fonético que se estende a toda fusão de vogais iguais, e não só ao a acentuado. ( ) Deve-se usar a crase diante do numeral ‘uma’, como, por exemplo, em “Irei vê-la à uma hora.”. Entretanto, se a palavra ‘uma’ representar um artigo indefinido, não ocorrerá a crase. ( ) A crase é facultativa antes de pronome possessivo com substantivo feminino claro e no singular. A ordem correta de preenchimentos dos parênteses, de cima para baixo, é:",
+                "opcoes": [
+                      "V – V – V.",
+                      "V – V – F.",
+                      "V – F – F.",
+                      "F – F – V.",
+                      "F – F – F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V – V – V.</strong>. Fonte: FUNDATEC/2023. Assunto: classesGramaticais.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Alguns usos da escrita requerem maior atenção, pois podem apresentar destoantes da norma padrão escrita de língua portuguesa. Uma destas inadequações estão destacadas no texto e se refere ao uso do termo",
+                "opcoes": [
+                      "“pagamento à vista”, pois, neste caso, não se deve usar o indicativo de crase.",
+                      "“o mesmo”, pois este termo não pode substituir o uso do pronome.",
+                      "“porque”, pois, para expressar explicação, o uso adequado deve ser “porquê”.",
+                      "“onde”, pois, para indicar lugar específico, deveria ter sido utilizado “aonde”."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“o mesmo”, pois este termo não pode substituir o uso do pronome.</strong>. Fonte: IV - UFG/2024. Assunto: classesGramaticais.",
+                "banca": "IV - UFG",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Na frase \"O 'Tudo joia?', por sua vez, é o mais popular, remetendo à tradição mineradora e ao valor das pepitas de ouro.\", o uso da crase no trecho \"à tradição mineradora\" está correto porque:",
+                "opcoes": [
+                      "a regência do verbo \"remeter\" (remetendo) exige preposição, e o substantivo feminino \"tradição\" está acompanhado de artigo definido.",
+                      "o uso da crase ocorre apenas para evitar ambiguidade entre termos relacionados ao substantivo feminino \"tradição\".",
+                      "o uso da crase está incorreto, pois o substantivo \"tradição\" não admite artigo definido.",
+                      "a regência do verbo \"remeter\" (remetendo) não exige preposição, mas o substantivo feminino \"tradição\" exige o artigo definido."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a regência do verbo \"remeter\" (remetendo) exige preposição, e o substantivo feminino \"tradição\" está acompanhado de artigo definido.</strong>. Fonte: IBAM/2024. Assunto: classesGramaticais.",
+                "banca": "IBAM",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Na linha 16, o trecho “acesso a capacitações” não tem crase porque:",
+                "opcoes": [
+                      "A palavra “acesso” pede outra preposição que não “a”.",
+                      "Não há artigo, só preposição.",
+                      "&#x20;A palavra “capacitações” não exige artigo.",
+                      "Não se põe crase antes de verbo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Não há artigo, só preposição.</strong>. Assunto: classesGramaticais.",
+                "banca": null,
+                "ano": null,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Segundo o uso da crase, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: ( ) O médico explicou à paciente que a recuperação seria mais rápida à medida que ela seguisse rigorosamente as orientações médicas. O uso da primeira crase está correto porque se trata de um pronome relativo que exerce a função de complemento do termo, exigindo a preposição “a”. ( ) Em “Ana vai à igreja todos os dias pela manhã.”, o uso da crase é necessário por se tratar de uma locução conjuntiva. ( ) Em “Ela não revelou à equipe o porquê da urgência.”, o uso da crase é necessário porque traz uma locução feminina com substantivo no plural.",
+                "opcoes": [
+                      "C - E - C.",
+                      "E - C - C.",
+                      "C - C - E.",
+                      "E - E - E."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>E - E - E.</strong>. Fonte: OBJETIVA/2024. Assunto: classesGramaticais.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Analise, no excerto a seguir, o uso ou não do acento grave (crase), considerando também a regência verbal quando for o caso: \" À frente de um grupo multidisciplinar ligado à Fiocruz (Fundação Oswaldo Cruz), Celina coordenou pesquisas que foram decisivas para alertar a comunidade científica e a Organização Mundial da Saúde sobre a gravidade da epidemia. Seu trabalho ajudou a orientar protocolos clínicos, estratégias de vigilância e políticas públicas de saúde em um momento crítico.\" Agora, analise as sentenças e registre V, para verdadeiras, e F, para falsas: (\\_\\_)Em \"À frente\", usa-se o acento grave indicativo de crase porque se trata de uma locução adverbial constituída por substantivo feminino. (\\_\\_)Em \"à Fiocruz\", o uso do acento grave está correto porque antecede palavra feminina que não repele artigo. (\\_\\_)A razão de não se usar acento grave em \"a comunidade científica e a Organização Mundial e Saúde\" é porque esse trecho se trata do complemento direto do verbo alertar, logo, não precisa de preposição acompanhando o verbo e regendo o complemento. Assim, por não haver a necessidade da preposição \"a\", não existe a possibilidade de sua fusão com o artigo feminino que acompanha \"comunidade\" e \"Organização...\". (\\_\\_)Em \"Seu trabalho ajudou a orientar\", a ausência de crase se justifica porque não se usa crase diante de verbo no infinitivo. Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "F − F − F − V.",
+                      "V − V − V − F.",
+                      "F − F − V − F.",
+                      "V − V − V − V.",
+                      "V − F − F − F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>V − V − V − V.</strong>. Fonte: FURB/2026. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Analise, no excerto a seguir, o uso ou não do acento grave (crase), considerando também a regência verbal quando for o caso: \" À frente de um grupo multidisciplinar ligado à Fiocruz (Fundação Oswaldo Cruz), Celina coordenou pesquisas que foram decisivas para alertar a comunidade científica e a Organização Mundial da Saúde sobre a gravidade da epidemia. Seu trabalho ajudou a orientar protocolos clínicos, estratégias de vigilância e políticas públicas de saúde em um momento crítico.\" Agora, analise as sentenças e registre V, para verdadeiras, e F, para falsas: (\\_\\_)Em \"À frente\", usa-se o acento grave indicativo de crase porque se trata de uma locução adverbial constituída por substantivo feminino. (\\_\\_)Em \"à Fiocruz\", o uso do acento grave está correto porque antecede palavra feminina que não repele artigo. (\\_\\_)A razão de não se usar acento grave em \"a comunidade científica e a Organização Mundial e Saúde\" é porque esse trecho se trata do complemento direto do verbo alertar, logo, não precisa de preposição acompanhando o verbo e regendo o complemento. Assim, por não haver a necessidade da preposição \"a\", não existe a possibilidade de sua fusão com o artigo feminino que acompanha \"comunidade\" e \"Organização...\". (\\_\\_)Em \"Seu trabalho ajudou a orientar\", a ausência de crase se justifica porque não se usa crase diante de verbo no infinitivo. Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "V − F − F − F.",
+                      "V − V − V − V.",
+                      "F − F − V − F.",
+                      "V − V − V − F.",
+                      "F − F − F − V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V − V − V − V.</strong>. Fonte: FURB/2026. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Em: \"O aluno mostrou ter tendência à mentiras\", o fenômeno linguístico da crase teve de ocorrer porque:",
+                "opcoes": [
+                      "Está atendendo à regência nominal de \"tendência\" que exige a preposição \"a\" e pela presença de artigo definido feminino.",
+                      "No contexto em que foi empregada, a crase é facultativa, por se tratar de regência nominal implícita.",
+                      "Trata-se de uma locução adverbial feminina que sempre é apresentada com a contração à.",
+                      "Está atendendo à regência verbal de \"ter\" que, no contexto em que foi inserido, exige a preposição \"a\" e pela presença de artigo definido feminino.",
+                      "No contexto em que foi empregada, a crase está errada, por se tratar de regência nominal implícita."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Está atendendo à regência nominal de \"tendência\" que exige a preposição \"a\" e pela presença de artigo definido feminino.</strong>. Fonte: AMAUC/2022. Assunto: classesGramaticais.",
+                "banca": "AMAUC",
+                "ano": 2022,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Na oração “alegando prejuízos à economia e incertezas científicas”, o uso do acento grave justifica-se porque existe a fusão",
+                "opcoes": [
+                      "do artigo feminino exigido pelo adjetivo “prejuízos” e da presença do artigo feminino antes do substantivo “incertezas”.",
+                      "do artigo feminino exigido pelo verbo “alegar” e da presença do artigo feminino antes do substantivo “incertezas”.",
+                      "da preposição exigida pelo substantivo “prejuízos” e da presença do artigo feminino antes do substantivo “economia”.",
+                      "da preposição exigida pelo verbo “alegar” e da presença do artigo feminino antes do substantivo “economia”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>da preposição exigida pelo verbo “alegar” e da presença do artigo feminino antes do substantivo “economia”.</strong>. Fonte: FUNCERN/2022. Assunto: classesGramaticais.",
+                "banca": "FUNCERN",
+                "ano": 2022,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "Em “os seres humanos precisam se adaptar a novas circunstâncias e situações” (10º§), o vocábulo destacado não recebe o acento indicativo porque:",
+                "opcoes": [
+                      "a regência do verbo não exige a preposição “a”.",
+                      "está seguido de um adjetivo no feminino",
+                      "precede substantivos sem especificações.",
+                      "acompanha um sujeito composto.",
+                      "antecede palavras que estão no plural."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>antecede palavras que estão no plural.</strong>. Fonte: IBFC/2025. Assunto: classesGramaticais.",
+                "banca": "IBFC",
+                "ano": 2025,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ]
+          },
+          {
+                "enunciado": "O emprego do sinal indicativo de crase em “\\[...] denunciem o caso à Ouvidoria do Detran ou à Polícia de seu estado.” (5º§) ocorre porque:",
+                "opcoes": [
+                      "É dispensável quando há dois termos coordenados no complemento verbal.",
+                      "Depende exclusivamente da concordância nominal dos substantivos subsequentes.",
+                      "Trata-se de regência do verbo “denunciar” com complemento iniciado por palavra masculina.",
+                      "É obrigatória em todas as construções em que há relação de posse com substantivos femininos.",
+                      "Indica a fusão da preposição exigida pelo verbo com o artigo definido feminino diante das palavras “Ouvidoria” e “Polícia”."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Indica a fusão da preposição exigida pelo verbo com o artigo definido feminino diante das palavras “Ouvidoria” e “Polícia”.</strong>. Fonte: Instituto Consulplan/2025. Assunto: classesGramaticais.",
+                "banca": "Instituto Consulplan",
+                "ano": 2025,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Na frase “As matérias às quais me dedico todos os dias são essenciais para a minha formação.”, o sinal indicativo de crase justifica-se porque:",
+                "opcoes": [
+                      "Traz uma locução feminina com substantivo no plural.",
+                      "Se trata de uma locução conjuntiva.",
+                      "Se trata de um pronome relativo que exerce a função de complemento do termo, exigindo a preposição “a”.",
+                      "O verbo “ser” irá exigir a preposição."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Se trata de um pronome relativo que exerce a função de complemento do termo, exigindo a preposição “a”.</strong>. Fonte: OBJETIVA/2023. Assunto: classesGramaticais.",
+                "banca": "OBJETIVA",
+                "ano": 2023,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "“\\[...] Temos reuniões de grupos semanais onde são abordados temas relativos à cidadania, drogadição e outros assuntos importantes para a vida.” Nesse trecho, usou-se a crase PORQUE:",
+                "opcoes": [
+                      "Há uma locução adverbial prepositiva que contém um substantivo feminino.",
+                      "Há uma expressão subentendida que exige o uso de um artigo definido.",
+                      "O termo “relativos” exige preposição e “cidadania” é uma palavra feminina.",
+                      "O termo “temas relativos” é objeto direto e “cidadania” exige preposição."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O termo “relativos” exige preposição e “cidadania” é uma palavra feminina.</strong>. Fonte: IBGP/2021. Assunto: classesGramaticais.",
+                "banca": "IBGP",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "No trecho Apesar da importância da descoberta, os autores não afirmam que o níquel esteja ligado à presença de vida, a ocorrência da crase se justifica gramaticalmente porque:",
+                "opcoes": [
+                      "A palavra antecedente é um verbo transitivo direto que exige o acompanhamento de preposição pura.",
+                      "O termo feminino subsequente repele o uso de artigos definidos, restando apenas a preposição de tempo e lugar.",
+                      "O adjetivo antecedente exige a preposição a, que se contrai com o artigo feminino definido exigido pelo substantivo subsequente.",
+                      "A locução conjuntiva de oposição impõe o acento grave em qualquer palavra feminina que seja posicionada no final do período."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O adjetivo antecedente exige a preposição a, que se contrai com o artigo feminino definido exigido pelo substantivo subsequente.</strong>. Fonte: Instituto Legalle/2026. Assunto: classesGramaticais.",
+                "banca": "Instituto Legalle",
+                "ano": 2026,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Às vezes, se trata de uma mudança brusca, que modifica situações de diversas naturezas: materiais, morais, históricas, espirituais\" o fenômeno linguístico da crase teve de ocorrer porque",
+                "opcoes": [
+                      "está atendendo à regência nominal de \"mudança\" que exige a preposição \"a\" e pela presença de artigo definido feminino.",
+                      "está atendendo à regência verbal de \"trata\" que, no contexto em que foi inserida, exige a preposição \"a\" e pela presença de artigo definido feminino.",
+                      "no contexto em que foi empregada, a crase é facultativa, por se tratar de regência verbal implícita.",
+                      "trata-se de uma locução adverbial feminina que sempre é apresentada com a contração à."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>trata-se de uma locução adverbial feminina que sempre é apresentada com a contração à.</strong>. Fonte: ACAFE/2024. Assunto: classesGramaticais.",
+                "banca": "ACAFE",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Às vezes, se trata de uma mudança brusca, que modifica situações de diversas naturezas: materiais, morais, históricas, espirituais\" o fenômeno linguístico da crase teve de ocorrer porque",
+                "opcoes": [
+                      "no contexto em que foi empregada, a crase é facultativa, por se tratar de regência verbal implícita.",
+                      "está atendendo à regência verbal de \"trata\" que, no contexto em que foi inserida, exige a preposição \"a\" e pela presença de artigo definido feminino.",
+                      "trata-se de uma locução adverbial feminina que sempre é apresentada com a contração à.",
+                      "está atendendo à regência nominal de \"mudança\" que exige a preposição \"a\" e pela presença de artigo definido feminino."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>trata-se de uma locução adverbial feminina que sempre é apresentada com a contração à.</strong>. Fonte: ACAFE/2024. Assunto: classesGramaticais.",
+                "banca": "ACAFE",
+                "ano": 2024,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Por que o fenômeno linguístico da crase teve de ocorrer no trecho \"Mas análises posteriores determinaram que se tratava de um pterossauro perto da idade adulta, pertencente à subfamília Ramphorhynchinae...\"?",
+                "opcoes": [
+                      "Porque está atendendo à regência nominal do substantivo \"subfamília \" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução adverbial feminina que sempre é apresentada com a contração À.",
+                      "Porque, no contexto em que foi empregada, a crase é facultativa.",
+                      "Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução prepositiva feminina que sempre é apresentada com a contração À."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".</strong>. Fonte: FURB/2021. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Por que o fenômeno linguístico da crase teve de ocorrer no trecho \"Mas análises posteriores determinaram que se tratava de um pterossauro perto da idade adulta, pertencente à subfamília Ramphorhynchinae... \" ?",
+                "opcoes": [
+                      "Porque, no contexto em que foi empregada, a crase é facultativa.",
+                      "Porque se trata de uma locução prepositiva feminina que sempre é apresentada com a contração À.",
+                      "Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução adverbial feminina que sempre é apresentada com a contração À.",
+                      "Porque está atendendo à regência nominal do substantivo \"subfamília \" que exige a preposição \"a\"."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".</strong>. Fonte: FURB/2021. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Por que o fenômeno linguístico da crase teve de ocorrer no trecho \"Mas análises posteriores determinaram que se tratava de um pterossauro perto da idade adulta, pertencente à subfamília Ramphorhynchinae... \" ?",
+                "opcoes": [
+                      "Porque se trata de uma locução prepositiva feminina que sempre é apresentada com a contração À.",
+                      "Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".",
+                      "Porque, no contexto em que foi empregada, a crase é facultativa.",
+                      "Porque está atendendo à regência nominal do substantivo \"subfamília \" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução adverbial feminina que sempre é apresentada com a contração À."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".</strong>. Fonte: FURB/2021. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Por que o fenômeno linguístico da crase teve de ocorrer no trecho \"Mas análises posteriores determinaram que se tratava de um pterossauro perto da idade adulta, pertencente à subfamília Ramphorhynchinae... \" ?",
+                "opcoes": [
+                      "Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução prepositiva feminina que sempre é apresentada com a contração À.",
+                      "Porque, no contexto em que foi empregada, a crase  é facultativa.",
+                      "Porque se trata de uma locução adverbial feminina que sempre é apresentada com a contração À.",
+                      "Porque está atendendo à regência nominal do substantivo \"subfamília \" que exige a preposição \"a\"."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".</strong>. Fonte: FURB/2021. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
+                ]
+          },
+          {
+                "enunciado": "Por que o fenômeno linguístico da crase teve de ocorrer no trecho \"Mas análises posteriores determinaram que se tratava de um pterossauro perto da idade adulta, pertencente à subfamília Ramphorhynchinae... \" ?",
+                "opcoes": [
+                      "Porque, no contexto em que foi empregada, a crase é facultativa.",
+                      "Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".",
+                      "Porque se trata de uma locução adverbial feminina que sempre é apresentada com a contração À.",
+                      "Porque se trata de uma locução prepositiva feminina que sempre é apresentada com a contração À.",
+                      "Porque está atendendo à regência nominal do substantivo \"subfamília \" que exige a preposição \"a\"."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Porque está atendendo à regência nominal do adjetivo \"pertencente\" que exige a preposição \"a\".</strong>. Fonte: FURB/2021. Assunto: classesGramaticais.",
+                "banca": "FURB",
+                "ano": 2021,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais",
+                      "crase"
                 ]
           }
     ],
@@ -38719,6 +39655,29 @@ var QUESTOES_BANCO = {
                       "tonicidade",
                       "paroxitonas"
                 ]
+          },
+          {
+                "enunciado": "No fragmento \\[...] em categorias relacionadas à movimentação, resultados financeiros e boa gestão, o acento gráfico utilizado no termo sublinhado corresponde ao",
+                "opcoes": [
+                      "acento agudo, que ocorre, neste caso, em palavra monossílaba tônica.",
+                      "acento circunflexo, por se tratar de palavra oxítona terminada em “a”.",
+                      "sinal indicativo de crase, pela junção de um artigo feminino singular e uma preposição, diante de palavra feminina.",
+                      "acento grave, que ocorre, neste caso, em palavra oxítona terminada em “a”.",
+                      "acento agudo, que ocorre, neste caso, em palavra proparoxítona."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>sinal indicativo de crase, pela junção de um artigo feminino singular e uma preposição, diante de palavra feminina.</strong>. Fonte: FADESP/2024. Assunto: tonicidade.",
+                "banca": "FADESP",
+                "ano": 2024,
+                "assunto": "Tonicidade (Misto)",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "tonicidade",
+                      "proparoxitonas",
+                      "oxitonas",
+                      "crase"
+                ]
           }
     ],
     "tritongos": [
@@ -40774,6 +41733,3352 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ortografia",
                       "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a frase que está de acordo com a norma padrão.",
+                "opcoes": [
+                      "Tirou ele do time porque já devem fazer dois anos que esse cara não joga nada.",
+                      "A cada nova oportunidade que você tiver, tenta a aprovação num concurso e segue em frente.",
+                      "Assim que o vir em frente à loja de brinquedos, chame-o pelo nome e seja gentil com ele.",
+                      "O ativista pede um milhão de compartilhamentos deste post, afim de anexar-lhe ao processo e levar o acusado a julgamento.",
+                      "Os críticos com saudade da censura nas questões das provas do ENEM onde o governo retirou várias questões alegando descontextualização histórica do texto."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Assim que o vir em frente à loja de brinquedos, chame-o pelo nome e seja gentil com ele.</strong>. Fonte: FEPESE/2024. Assunto: ortografia.",
+                "banca": "FEPESE",
+                "ano": 2024,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente:",
+                "opcoes": [
+                      "antiinflamatório, guardachuva, auto-escola, coautor.",
+                      "anti-inflamatório, microondas, co-autor, autoescola.",
+                      "semi-árido, extra-ordinário, infra-estrutura, anti-social.",
+                      "bemvindo, superhomem, mal-humorado, micro-ondas.",
+                      "antissocial, micro-ondas, autoescola, coautor."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>antissocial, micro-ondas, autoescola, coautor.</strong>. Fonte: UNESPAR/2026. Assunto: ortografia.",
+                "banca": "UNESPAR",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"A própria comunidade, que é capacitada com formação de mão de obra, passa a ser protagonista da preservação de seus lugares\". Com base na ortografia da palavra 'mão de obra', analise as afirmativas a seguir e assinale a correta.",
+                "opcoes": [
+                      "A grafia 'mão de obra', sem hífen, está em conformidade com o Novo Acordo Ortográfico, segundo o qual, em regra, as locuções deixam de ser grafadas com hífen, como ocorre em 'café com leite' e 'fim de semana'. Entretanto, o vocábulo 'andorinha-do-mar' mantém corretamente o hífen por se tratar de uma composição vocabular regida por regra específica distinta.",
+                      "A expressão 'mão de obra' deveria ser grafada com hífen, 'mão-de-obra', pois se trata de substantivo composto formado por elementos que, individualmente, já possuem sentido próprio, critério que, pelo Acordo Ortográfico vigente, determina obrigatoriamente o uso do hífen em compostos cujos elementos conservam sua autonomia semântica, assim como ocorre com 'ervilha-de-cheiro'.",
+                      "A expressão 'mão de obra' é grafada sem hífen por ser classificada como locução adjetiva, uma vez que exerce a função de modificador do substantivo 'formação' no trecho, indicando o tipo de capacitação oferecida à comunidade, o que a aproxima gramaticalmente de locuções adjetivas como 'de qualidade' e 'de excelência'.",
+                      "O vocábulo 'mão de obra', sem hífen, está em conformidade com o Novo Acordo Ortográfico, segundo o qual as locuções unidas por preposição deixam de ser grafadas com hífen, como ocorre em 'cor de rosa' e 'água de colônia', permanecendo o hífen apenas nos compostos formados por justaposição sem elemento de ligação, como 'guarda-chuva' e 'terça-feira'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A grafia 'mão de obra', sem hífen, está em conformidade com o Novo Acordo Ortográfico, segundo o qual, em regra, as locuções deixam de ser grafadas com hífen, como ocorre em 'café com leite' e 'fim de semana'. Entretanto, o vocábulo 'andorinha-do-mar' mantém corretamente o hífen por se tratar de uma composição vocabular regida por regra específica distinta.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em ‘\\[..] brilhando acima dos guarda-chuvas e sombrinhas.” (§2°), o hífen foi corretamente empregado. Em que opção isso ocorre nos dois termos destacados?",
+                "opcoes": [
+                      "Muitas pessoas estão mal-informadas sobre livros de auto-ajuda.",
+                      "Ele era o co-autor do livro, mas agia como o manda-chuva da editora.",
+                      "O contra-almirante visitou a instituição e avaliou a infra-estrutura apresentada.",
+                      "Como queria estar bem-vestida, ela optou por saia cor-de-vinho e blusa branca.",
+                      "A contraofensiva derrotou o inimigo e encontrou condições sub-humanas de vida."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>A contraofensiva derrotou o inimigo e encontrou condições sub-humanas de vida.</strong>. Fonte: Marinha/2026. Assunto: ortografia.",
+                "banca": "Marinha",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "De acordo com as normas de ortografia, qual das palavras a seguir é grafada com hífen, considerando a mesma regra utilizada em “anti-inflamatória” (7º§)?",
+                "opcoes": [
+                      "Micro-ondas.",
+                      "Pré-operatório.",
+                      "Mal-intencionado.",
+                      "Ensino-aprendizagem."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Micro-ondas.</strong>. Fonte: Instituto Consulplan/2026. Assunto: ortografia.",
+                "banca": "Instituto Consulplan",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"A equipe da Universidade de Cambridge afirma que é a primeira vez que um componente-chave de uma vacina foi totalmente projetado por IA e depois testado em pessoas.\" As alternativas a seguir apresentam palavras grafadas corretamente com hífen, assim como o vocábulo 'componente-chave', exceto:",
+                "opcoes": [
+                      "sobre-edificar e circum-oceânico.",
+                      "água-de-colônia e amoré-guaçu.",
+                      "pan-nacionalismo e supra-mencionado.",
+                      "sobre-humano e bem-educado."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>pan-nacionalismo e supra-mencionado.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Essa estratégia foi observada em gralhas-pretas e corvos-marinhos selvagens.\" Com base no uso do hífen nos vocábulos do trecho, bem como em outros casos fora do contexto, relacione as colunas, associando as palavras à sua forma correta de escrita ou à respectiva justificativa ortográfica. Coluna A (1) gralhas-pretas e corvos-marinhos. (2) marcapasso e preestabelecido. (3) paraquedas e mandachuva. (4) contra-regra e café-com-leite. Coluna B (\\_\\_)Palavras grafadas corretamente, conforme o Novo Acordo Ortográfico. (\\_\\_)Palavras grafadas incorretamente, conforme o Novo Acordo Ortográfico. (\\_\\_)Palavras que, quando nomeiam espécies zoológicas, devem ser grafadas com hífen. (\\_\\_)Palavra grafada incorretamente e palavra grafada corretamente, na ordem. Assinale a alternativa que apresenta a sequência numérica que relaciona as colunas corretamente.",
+                "opcoes": [
+                      "4, 3, 1, 2.",
+                      "4, 3, 2, 1.",
+                      "2, 3, 1, 4.",
+                      "3, 4, 1, 2."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>3, 4, 1, 2.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Os pesquisadores monitoraram macacos-de-gibraltar que vivem em Gibraltar, um território britânico no extremo sul da Espanha, entre agosto de 2022 e abril de 2024.\" Com base na ortografia correta da palavra empregada no texto e também em outras palavras fora desse contexto, relacione as colunas a seguir: Coluna A 1.macacos-de-gibraltar; formiga-branca; cão-de-guarda. 2.heroico; abençoo; feiura. 3.troféus; heróis; anzóis. 4.ultrassom; manda-chuva; circunavegação. Coluna B (\\_\\_)Palavras que sofreram alteração após o Acordo Ortográfico. (\\_\\_)Duas palavras grafadas corretamente e uma incorretamente. (\\_\\_)Palavras que não sofreram alteração após o Acordo Ortográfico. (\\_\\_)Uma palavras grafada corretamente e duas incorretamente. Assinale a alternativa que apresenta a sequência numérica corretamente.",
+                "opcoes": [
+                      "2, 1, 3, 4.",
+                      "1, 2, 4, 3.",
+                      "2, 4, 3, 1.",
+                      "3, 4, 1, 2."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>2, 1, 3, 4.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Os pesquisadores monitoraram macacos-de-gibraltar que vivem em Gibraltar, um território britânico no extremo sul da Espanha, entre agosto de 2022 e abril de 2024.\" Com base na ortografia correta da palavra empregada no texto e também em outras palavras fora desse contexto, relacione as colunas a seguir: Coluna A 1.macacos-de-gibraltar; formiga-branca; cão-de-guarda. 2.heroico; abençoo; feiura. 3.troféus; heróis; anzóis. 4.ultrassom; manda-chuva; circunavegação. Coluna B (\\_\\_)Palavras que sofreram alteração após o Acordo Ortográfico. (\\_\\_)Duas palavras grafadas corretamente e uma incorretamente. (\\_\\_)Palavras que não sofreram alteração após o Acordo Ortográfico. (\\_\\_)Uma palavras grafada corretamente e duas incorretamente. Assinale a alternativa que apresenta a sequência numérica corretamente.",
+                "opcoes": [
+                      "2, 4, 3, 1.",
+                      "2, 1, 3, 4.",
+                      "3, 4, 1, 2.",
+                      "1, 2, 4, 3."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2, 1, 3, 4.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao texto e aos seus aspectos linguísticos, julgue o item seguinte.\nConforme o Acordo Ortográfico da Língua Portuguesa, as palavras “antiobesidade” e “cardiovasculares”, presentes no texto, estão corretamente grafadas, entretanto “multiprofissional” deveria ser grafada com hífen, por ser formada pelo prefixo “multi‑”, que é seguido de uma palavra iniciada por consoante.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2026. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao texto e aos seus aspectos linguísticos, julgue o item seguinte.\nEm “Além de refletir riscos reputacionais e financeiros, o não cumprimento das diretrizes ESG representa um risco jurídico real e crescente para os líderes empresariais.”, a expressão “não cumprimento” está grafada corretamente sem hífen, em conformidade com as regras do acordo ortográfico vigente.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: Quadrix/2026. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "O Novo Acordo Ortográfico da Língua Portuguesa sistematizou o uso do hífen em palavras formadas por derivação prefixal, como ocorre em “sul-americana”. Considerando as regras de ortografia oficial vigentes, assinale a alternativa em que as palavras destacadas estão grafadas adequadamente.",
+                "opcoes": [
+                      "O comportamento dos torcedores nas redes sociais é frequentemente anti-social, revelando um semi-analfabetismo funcional diante das regras complexas do VAR.",
+                      "A infra-estrutura dos estádios antigos da América do Sul é insuficiente para suportar a super-requintada tecnologia de câmeras de alta definição.",
+                      "Alguns analistas acreditam que o sub-referencial técnico dos árbitros de campo gera uma inter-relação conflituosa com os operadores do vídeo.",
+                      "A auto-observação dos “Arnaldos de ocasião” é nula, pois a extra-regularidade de um lance sempre será interpretada de modo favorável ao clube do coração."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Alguns analistas acreditam que o sub-referencial técnico dos árbitros de campo gera uma inter-relação conflituosa com os operadores do vídeo.</strong>. Fonte: IDIB/2026. Assunto: ortografia.",
+                "banca": "IDIB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Tratando-se do uso, ou não, do emprego do hífen, marque a alternativa indevida.",
+                "opcoes": [
+                      "Não se aplica o hífen nas ligações verbais, formadoras de locuções verbais, com o verbo “haver” + preposição “de”.",
+                      "Utiliza-se o hífen em vocábulos compostos, formados por “substantivo + substantivo”, nos quais o segundo substantivo indique forma, finalidade ou tipo.",
+                      "Usa-se o hífen para indicar a ênclise dos pronomes oblíquos átonos às formas verbais.",
+                      "Emprega-se o hífen nos vocábulos derivados por prefixação, cujo prefixo terminar em vogal e o segundo elemento iniciar-se por consoante. Caso o segundo elemento inicie por “r” ou “s”, estas consoantes não devem ser duplicadas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Emprega-se o hífen nos vocábulos derivados por prefixação, cujo prefixo terminar em vogal e o segundo elemento iniciar-se por consoante. Caso o segundo elemento inicie por “r” ou “s”, estas consoantes não devem ser duplicadas.</strong>. Fonte: MSConcursos/2026. Assunto: ortografia.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra “contra-arrazoado” está hifenizada devidamente, o que não ocorre na escrita do vocábulo:",
+                "opcoes": [
+                      "Sub-braquial.",
+                      "Recém-casado.",
+                      "Decreto-lei.",
+                      "Infra-som."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infra-som.</strong>. Fonte: MSConcursos/2026. Assunto: ortografia.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Com base nas regras ortográficas vigentes, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas dos trechos a seguir, retirados do texto. • “Então é emocionante ver toda a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ com a missão Artemis II”. • “Frances ‘Poppy’ Northcutt, que calculava as \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ para trazer as cápsulas de volta”. • “Rosaly falava inglês, graças ao \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ da mãe”. • “logo surgiu a oportunidade de fazer um \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ no JPL”.",
+                "opcoes": [
+                      "comossão – trajetórias – incentivo – pós doutorado",
+                      "comoção – trajetórias – incentivo – pós-doutorado",
+                      "comoção – tragetórias – incentivo – pós doutorado",
+                      "comossão – trajetóreas – insentivo– pós-doutorado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>comoção – trajetórias – incentivo – pós-doutorado</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Nos últimos quatro meses, os quatro maiores bancos norte-americanos demitiram 15 mil funcionários, enquanto obtinham mais de US$ 1 bilhão de lucro.\" O vocábulo 'norte-americano' é grafado com hífen em conformidade com regra específica. Com base nas demais regras de emprego do hífen, preencha as lacunas com palavras corretamente grafadas, com ou sem hífen. I.O pesquisador descreveu o personagem como um líder\\_\\_\\_ , marcado por sucessivas derrotas políticas. II.O movimento\\_\\_\\_ busca valorizar identidades culturais e históricas do continente em contextos contemporâneos. III.A\\_\\_\\_ foi um marco histórico que ampliou o conhecimento geográfico e as rotas comerciais. IV.O\\_\\_\\_ participou ativamente do programa, enviando perguntas ao vivo durante a transmissão. Assinale a alternativa que apresenta as palavras que preenchem, correta e respectivamente, as lacunas propostas.",
+                "opcoes": [
+                      "mal-afortunado, neoafricano, circunavegação, rádio-ouvinte",
+                      "mal-afortunado, neoafricano, circum-navegação, radiouvinte",
+                      "malafortunado, neoafricano, circum-navegação, rádio-ouvinte.",
+                      "mal-afortunado, neo-africano, circunavegação, rádio-ouvinte"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>mal-afortunado, neoafricano, circum-navegação, radiouvinte</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Ibama registra primeiros filhotes de Arara-vermelha-grande após extinção.\" Os vocábulos utilizados no trecho estão todos grafados corretamente. De acordo com o Acordo Ortográfico vigente, relacione os vocábulos da Coluna A à sua situação ortográfica na Coluna B. Coluna 1 1.Ortografia vigente. 2.Ortografia desatualizada. (\\_\\_)averíguo, sagui e feiura. (\\_\\_)bocaiúva, semi-reta e maxi-resultado. (\\_\\_)heroico, apoia e geleia. (\\_\\_)águo, fiéis e paraquedas. Assinale a sequência numérica que preenche corretamente os itens acima, de cima para baixo.",
+                "opcoes": [
+                      "1, 2, 1, 1",
+                      "2, 1, 2, 1",
+                      "2, 1, 2, 2",
+                      "1, 2, 2, 1"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>1, 2, 1, 1</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Ibama registra primeiros filhotes de Arara-vermelha-grande após extinção.\" Os vocábulos utilizados no trecho estão todos grafados corretamente. De acordo com o Acordo Ortográfico vigente, relacione os vocábulos da Coluna A à sua situação ortográfica na Coluna B. Coluna 1 1.Ortografia vigente. 2.Ortografia desatualizada. (\\_\\_)averíguo, sagui e feiura. (\\_\\_)bocaiúva, semi-reta e maxi-resultado. (\\_\\_)heroico, apoia e geleia. (\\_\\_)águo, fiéis e paraquedas. Assinale a sequência numérica que preenche corretamente os itens acima, de cima para baixo.",
+                "opcoes": [
+                      "2, 1, 2, 2",
+                      "1, 2, 1, 1",
+                      "1, 2, 2, 1",
+                      "2, 1, 2, 1"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>1, 2, 1, 1</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Com base nas regras do Acordo Ortográfico vigente, analise as afirmativas a seguir e julgueas como verdadeiras (V) ou falsas (F). ( ) A grafia correta é \"multissemiótico\", com \"ss\", pois o prefixo multi- termina em vogal e a base \"semiótico\" começa com \"s\", exigindo duplicação da consoante. ( ) A forma correta é \"inter-relação\", com hífen, pois o prefixo inter- termina em \"r\" e a base começa com \"r\", caso em que o Acordo Ortográfico determina o uso do hífen. ( ) A palavra \"autorreferente\" deve ser escrita sem hífen e com \"rr\", pois o prefixo auto- termina em vogal e a base começa com \"r\", resultando em duplicação da consoante sem hífen. ( ) A forma “presuposição” está grafada corretamente segundo a norma-padrão. Após análise, conclui-se que a sequência correta é:",
+                "opcoes": [
+                      "V – V – F – F.",
+                      "V – V – V – F.",
+                      "F – V – V – F.",
+                      "V – F – F – V.",
+                      "F – F – V – V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V – V – V – F.</strong>. Fonte: Ápice Consultoria/2026. Assunto: ortografia.",
+                "banca": "Ápice Consultoria",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Encontrar objetos em ambientes do nosso dia a dia depende de um processo chamado busca visual, e nosso cérebro não é tão eficiente nisso.\" O emprego do hífen em locuções, como 'dia a dia', foi, na maioria dos casos, abolido. No entanto, há exceções à regra, e algumas expressões devem ser grafadas com hífen. Com base nisso, complete as lacunas a seguir com a forma correta dessas expressões. Acordou tarde, sem alarme, sem rotina, sem plano. O \\_\\_\\_\\_\\_\\_\\_\\_\\_ foi improvisado — pão dormido e uma fatia de queijo que já estava pedindo aposentadoria. Comeu de pé, encostado na pia, olhando pela janela o céu que amanhecera \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_, daquele rosa suave de quem não sabe bem se ainda é noite ou já é dia. O \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ latiu uma vez, duas, depois se calou — talvez tivesse percebido que o dono também estava sem disposição para vigilância. Naquele domingo, decidiu que viveria \\_\\_\\_\\_\\_\\_\\_\\_\\_. Sem compromisso, sem lista, sem culpa.",
+                "opcoes": [
+                      "café com leite, cor-de-rosa, cão de guarda, ao deus-dará.",
+                      "café-com-leite, cor de rosa, cão-de-guarda, ao deus-dará.",
+                      "café com leite, cor de rosa, cão-de-guarda, ao deus dará.",
+                      "café-com-leite, cor-de-rosa, cão de guarda, ao deus-dará."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>café com leite, cor-de-rosa, cão de guarda, ao deus-dará.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "O Acordo Ortográfico da Língua Portuguesa de 1990 foi um projeto elaborado pelos países lusófonos com o objetivo de unificar a ortografia do português. Até então, Brasil e Portugal (além dos demais países africanos de língua portuguesa) seguiam regras diferentes de escrita, o que dificultava a produção editorial comum, a circulação de textos, o ensino e a padronização internacional da língua. O acordo foi assinado em 1990 pelos países membros da CPLP, mas enfrentou longos anos de debates e revisões até entrar efetivamente em vigor. No Brasil, sua implementação começou em 2009, tornando-se obrigatória a partir de 2016. Entre as mudanças mais conhecidas, compreende-se que passa a ser",
+                "opcoes": [
+                      "obrigatório o uso de hífen quando o prefixo (ou falso prefixo) termina em vogal e o elemento seguinte começa pela consoante r ou s: ultra-som, anti-semita, semi-reta, contra-regra etc.",
+                      "facultativo o uso de hífen em locuções de qualquer tipo (nominais, adjetivas, pronominais, adverbiais, prepositivas, conjuncionais): café-da-manhã ou café da manhã, antes-de-ontem ou antes de ontem etc.",
+                      "facultativo o uso de hífen quando o prefixo termina em vogal e o segundo elemento começa por vogal diferente ou consoante: auto-escola passa a se grafar autoescola, co-piloto passa a se grafar copiloto etc.",
+                      "proibido o uso de hífen quando o prefixo (ou falso prefixo) termina em vogal e o elemento começa por r ou s, passando-se a dobrar a consoante do elemento seguinte: ultrassom, minissaia etc."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>proibido o uso de hífen quando o prefixo (ou falso prefixo) termina em vogal e o elemento começa por r ou s, passando-se a dobrar a consoante do elemento seguinte: ultrassom, minissaia etc.</strong>. Fonte: IV - UFG/2026. Assunto: ortografia.",
+                "banca": "IV - UFG",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'.",
+                      "&#x20;O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>&#x20;O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Microfones especiais podem nos ajudar a detectar ruídos inaudíveis para o ouvido humano, como os sons ultrassônicos emitidos pelos morcegos.\" Com base nas regras de emprego do hífen em palavras compostas, assinale a alternativa que apresenta a justificativa correta para o vocábulo 'ultrassônico'.",
+                "opcoes": [
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, após o Novo Acordo Ortográfico, formações com esse prefixo não são mais hifenizadas, ocorrendo a duplicação da consoante inicial do segundo elemento, como também se verifica em 'ultrassom'.",
+                      "O vocábulo 'ultrassônico' está grafado incorretamente, uma vez que palavras que guardam sua independência fonética devem ser escritas com hífen, como em 'ultra-sônico', a exemplo de 'sobre-humano' e 'proto-história'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois, nos casos em que se perdeu a noção de composição, a palavra deve ser escrita sem esse sinal, como ocorre também em 'madressilva' e 'paraquedas'.",
+                      "O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O vocábulo 'ultrassônico' não recebe hífen, pois o primeiro elemento termina em vogal e o segundo começa por 's', havendo a duplicação dessa consoante, em processo semelhante ao que ocorre em 'cosseno'.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Ele participou de um programa de treinamento espacial, pilotou um voo simulado e vivenciou a gravidade zero.\" O vocábulo 'voo' exemplifica palavra que sofreu alteração com o Novo Acordo Ortográfico. As alternativas a seguir também apresentam palavras modificadas por esse acordo. Assinale aquela que contém pelo menos um vocábulo grafado incorretamente.",
+                "opcoes": [
+                      "Epopeia e águo.",
+                      "tele-educação e circum-meridiano.",
+                      "Abençoo e feiura.",
+                      "Ultrassom e supra-estrutura."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ultrassom e supra-estrutura.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado Anterior 1 2 3 ... 62 Próximo Meu curso Buscar cursos Questões Meus simulados Banco de simulados Raio X Desempenho Mapa de Competências Vade Digital Resumão da Semana Concorrência Arena Elite Sessão desabafo Direto ao ponto Mentoria definitiva Mini simulados Ranking Elite Questões inéditas Encontramos 1.222 questões |"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cartuxeira; pichado; cão-de-guarda; multi-segmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "&#x20;cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>&#x20;cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Essa estratégia foi observada em gralhas-pretas e corvos-marinhos selvagens.\" Com base no uso do hífen nos vocábulos do trecho, bem como em outros casos fora do contexto, relacione as colunas, associando as palavras à sua forma correta de escrita ou à respectiva justificativa ortográfica. Coluna A (1) gralhas-pretas e corvos-marinhos. (2) marcapasso e preestabelecido. (3) paraquedas e mandachuva. (4) contra-regra e café-com-leite. Coluna B (\\_\\_)Palavras grafadas corretamente, conforme o Novo Acordo Ortográfico. (\\_\\_)Palavras grafadas incorretamente, conforme o Novo Acordo Ortográfico. (\\_\\_)Palavras que, quando nomeiam espécies zoológicas, devem ser grafadas com hífen. (\\_\\_)Palavra grafada incorretamente e palavra grafada corretamente, na ordem. Assinale a alternativa que apresenta a sequência numérica que relaciona as colunas corretamente.",
+                "opcoes": [
+                      "3, 4, 1, 2.",
+                      "2, 3, 1, 4.",
+                      "4, 3, 1, 2.",
+                      "4, 3, 2, 1."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3, 4, 1, 2.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Para muitos, admitir a falta de conhecimento é como se despir em público. É se sentir desprotegido e pode ser entendido como uma ferida na \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\". Assinale a alternativa que completa corretamente a lacuna no excerto:",
+                "opcoes": [
+                      "Auto-imagem.",
+                      "Alto-imagem.",
+                      "Auto imagem.",
+                      "Alto imagem.",
+                      "Autoimagem."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Autoimagem.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Os pesquisadores monitoraram macacos-de-gibraltar que vivem em Gibraltar, um território britânico no extremo sul da Espanha, entre agosto de 2022 e abril de 2024.\" Com base na ortografia correta da palavra empregada no texto e também em outras palavras fora desse contexto, relacione as colunas a seguir: Coluna A 1.macacos-de-gibraltar; formiga-branca; cão-de-guarda. 2.heroico; abençoo; feiura. 3.troféus; heróis; anzóis. 4.ultrassom; manda-chuva; circunavegação. Coluna B (\\_\\_)Palavras que sofreram alteração após o Acordo Ortográfico. (\\_\\_)Duas palavras grafadas corretamente e uma incorretamente. (\\_\\_)Palavras que não sofreram alteração após o Acordo Ortográfico. (\\_\\_)Uma palavra grafada corretamente e duas incorretamente. Assinale a alternativa que apresenta a sequência numérica corretamente.",
+                "opcoes": [
+                      "1, 2, 4, 3.",
+                      "2, 4, 3, 1.",
+                      "3, 4, 1, 2.",
+                      "2, 1, 3, 4."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2, 1, 3, 4.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que, como \"puxa-saco\" (linha 19), a palavra está escrita conforme as normas oficiais vigentes.",
+                "opcoes": [
+                      "anti-ético.",
+                      "re-edição.",
+                      "auto-regulação.",
+                      "super-realístico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>super-realístico.</strong>. Fonte: FCPC/2026. Assunto: ortografia.",
+                "banca": "FCPC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Para muitos, admitir a falta de conhecimento é como se despir em público. É se sentir desprotegido e pode ser entendido como uma ferida na \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\". Assinale a alternativa que completa corretamente a lacuna no excerto:",
+                "opcoes": [
+                      "Auto-imagem.",
+                      "Alto imagem.",
+                      "Auto imagem.",
+                      "Alto-imagem.",
+                      "Autoimagem."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Autoimagem.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir e complete as lacunas: É nesse ponto que a \\_\\_\\_\\_\\_\\_\\_\\_\\_ fragilizada se torna uma porta de entrada poderosa para promessas de transformação rápida. Segundo a psicóloga Carolina Mattos, \"Quando uma pessoa acredita que só será amada, valorizada ou aceita depois de 'se \\_\\_\\_\\_\\_\\_\\_\\_\\_', ela se torna mais vulnerável a discursos que oferecem mudanças milagrosas.\" O risco está em transformar \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ em \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ permanente. \\[...] Esse tipo de lógica costuma produzir relações frágeis com qualquer tentativa de mudança, porque a urgência emocional raramente sustenta constância. Quando a expectativa é resolver rapidamente dores profundas, a frustração se torna quase inevitável. \\[...] Assinale a alternativa que preenche, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Autoestima − concertar − auto-cuidado − auto-correção",
+                      "Auto-estima − consertar − auto cuidado − auto correção.",
+                      "Autoestima − consertar − autocuidado − autocorreção.",
+                      "Auto estima − concertar − auto cuidado − auto correção.",
+                      "Auto-estima − consertar − autocuidado − autocorreção."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Autoestima − consertar − autocuidado − autocorreção.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "“Houve desde trocas de ofensas entre cientistas no Twitter até abaixo-assinado chamando de \"pseudociência\" teorias que indicam que as IAs nunca poderão ser conscientes.” O vocábulo abaixo está corretamente grafado conforme o Acordo entre os países de Língua Portuguesa. Conforme esse acordo, também está correta a escrita da palavra:",
+                "opcoes": [
+                      "Pseudo-referência.",
+                      "Heróico",
+                      "Herói.",
+                      "Sócio-econômico.",
+                      "Anti-social."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Herói.</strong>. Fonte: Instituto Legatus/2026. Assunto: ortografia.",
+                "banca": "Instituto Legatus",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir e complete as lacunas: É nesse ponto que a \\_\\_\\_\\_\\_\\_\\_\\_\\_ fragilizada se torna uma porta de entrada poderosa para promessas de transformação rápida. Segundo a psicóloga Carolina Mattos, \"Quando uma pessoa acredita que só será amada, valorizada ou aceita depois de 'se \\_\\_\\_\\_\\_\\_\\_\\_\\_', ela se torna mais vulnerável a discursos que oferecem mudanças milagrosas.\" O risco está em transformar \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ em \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ permanente. \\[...] Esse tipo de lógica costuma produzir relações frágeis com qualquer tentativa de mudança, porque a urgência emocional raramente sustenta constância. Quando a expectativa é resolver rapidamente dores profundas, a frustração se torna quase inevitável. \\[...] Assinale a alternativa que preenche, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Autoestima − concertar − auto-cuidado − auto-correção.",
+                      "Autoestima − consertar − autocuidado − autocorreção.",
+                      "Auto-estima − consertar − auto cuidado − auto correção.",
+                      "Auto-estima − consertar − autocuidado − autocorreção.",
+                      "Auto estima − concertar − auto cuidado − auto correção."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Autoestima − consertar − autocuidado − autocorreção.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "&#x20;cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "“Ele participou de um programa de treinamento espacial, pilotou um voo simulado e vivenciou a gravidade zero.” O vocábulo 'voo' exemplifica palavra que sofreu alteração com o Novo Acordo Ortográfico. As alternativas a seguir também apresentam palavras modificadas por esse acordo. Assinale aquela que contém pelo menos um vocábulo grafado incorretamente.",
+                "opcoes": [
+                      "tele-educação e circum-meridiano.",
+                      "Abençoo e feiura.",
+                      "Ultrassom e supra-estrutura.",
+                      "Epopeia e águo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Ultrassom e supra-estrutura.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "&#x20;cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>&#x20;cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Ele participou de um programa de treinamento espacial, pilotou um voo simulado e vivenciou a gravidade zero.\" O vocábulo 'voo' exemplifica palavra que sofreu alteração com o Novo Acordo Ortográfico. As alternativas a seguir também apresentam palavras modificadas por esse acordo. Assinale aquela que contém pelo menos um vocábulo grafado incorretamente.",
+                "opcoes": [
+                      "Abençoo e feiura.",
+                      "Epopeia e águo.",
+                      "tele-educação e circum-meridiano.",
+                      "Ultrassom e supra-estrutura."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Ultrassom e supra-estrutura.</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "&#x20;cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"Múmia egípcia desenterrada com texto literário no abdômen é encontrada.\" Os vocábulos empregados no trecho estão grafados corretamente. Complete as lacunas a seguir com palavras também grafadas de forma correta. Enquanto o inspetor arqueológico, com a\\_\\_\\_ à cintura, parava diante do muro\\_\\_\\_ por vândalos que haviam invadido o sítio de escavação, Adiego atuava como um verdadeiro\\_\\_\\_ do patrimônio histórico,\\_\\_\\_ em sua vigilância, atento simultaneamente à preservação do papiro milenar, à integridade da múmia desenterrada e às ameaças que o descuido humano representa para a memória da civilização.",
+                "opcoes": [
+                      "cartucheira; pixado; cão de guarda; multi-segmentado",
+                      "cartucheira; pichado; cão de guarda; multissegmentado",
+                      "cartucheira; pixado; cão-de-guarda; multissegmentado",
+                      "cartuxeira; pichado; cão-de-guarda; multi-segmentado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cartucheira; pichado; cão de guarda; multissegmentado</strong>. Fonte: ACCESS/2026. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "&#x20;Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "&#x20;Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização.",
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o excerto a seguir: Autora de obras diversas em gênero, em forma − que vão da crônica ao ensaio, passando pela dramaturgia e por livros \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ −, Cidinha da Silva confirma a cada publicação sua relevância na literatura brasileira contemporânea. Entre as publicações recentes, destacam-se Vamos falar de relações raciais?: Crônicas para debater o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ (Autêntica, 2024) e Só bato em cachorro grande, do meu tamanho ou maior: 81 lições do método Sueli Carneiro (Rosa dos Tempos, 2025) − e a autora de Belo Horizonte acaba de lançar, pela Relicário, a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Quando borboletas furiosas se tornam mulheres negras: Nós e os livros. Cidinha da Silva conversa com a Cult sobre o novo livro − que tem como proposta \"explicitar e exemplificar situações frequentes de exploração e \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ das escritoras negras\". A respeito da ortografia e do uso ou não do hífen, assinale a alternativa que completa, correta e respectivamente, as lacunas no excerto:",
+                "opcoes": [
+                      "Infanto-juvenis − antirracismo − não-ficção − subalternização.",
+                      "Infanto juvenis − anti racismo − não ficção − subalternização.",
+                      "Infanto-juvenis − anti-racismo − não-ficção − sub-alternização.",
+                      "Infantojuvenis − anti-racismo − não ficção − su-balternização.",
+                      "Infantojuvenis − antirracismo − não ficção − subalternização."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Infantojuvenis − antirracismo − não ficção − subalternização.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"O ministro da Saúde participou nesta quinta-feira (4) da reunião de início da implantação do Instituto Tecnológico de Medicina Inteligente (ITMI-Brasil).\" Com base nas regras do emprego do hífen, como 'quinta-feira', assinale a alternativa que apresenta vocábulos grafados corretamente com ou sem hífen.",
+                "opcoes": [
+                      "sub-rogar; bem-feitor; afro-luso-brasileiro.",
+                      "pé-de-meia; cor de café com leite; sota-almirante.",
+                      "para-quedas; pré-natal; ultraelevado.",
+                      "pré-requisito; semirrígido; mini-saia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>pé-de-meia; cor de café com leite; sota-almirante.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra “sobre-estimar” está hifenizada devidamente, o que não ocorre na escrita do vocábulo:",
+                "opcoes": [
+                      "Capim-açu.",
+                      "Bem-querer.",
+                      "Hiper-realista.",
+                      "Co-educação."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Co-educação.</strong>. Fonte: MSConcursos/2026. Assunto: ortografia.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas a palavras estão escritas de acordo com as normas vigentes em Língua Portuguesa.",
+                "opcoes": [
+                      "O super-sônico realizou um voo rasante no meio da multidão enfurecida.",
+                      "Adquiri uma pintura ultrarrealista que deve valer um preço exorbitante.",
+                      "Vão-se os dedos e ficam os aneis, conforme já dizia o meu bisavô.",
+                      "A ideia de ultrapassar a fronteira extremamente ezagerada e malvista.",
+                      "A alfândega criou uma excessão para taxar bagagens acima do peso permitido."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Adquiri uma pintura ultrarrealista que deve valer um preço exorbitante.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Reportando-se ao uso, ou não do hífen, marque a alternativa incorreta.",
+                "opcoes": [
+                      "Vice-cônsul.",
+                      "Comum-de-dois.",
+                      "Vizo-rei.",
+                      "Sota-vento."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Comum-de-dois.</strong>. Fonte: MSConcursos/2026. Assunto: ortografia.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Reportando-se ao uso, ou não do hífen, marque a alternativa incorreta.",
+                "opcoes": [
+                      "&#x20;Pós-graduação.",
+                      "&#x20;Dia-a-dia.",
+                      "Sota-capitão.",
+                      "Ex-presidente"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>&#x20;Dia-a-dia.</strong>. Fonte: MSConcursos/2026. Assunto: ortografia.",
+                "banca": "MSConcursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Mas qual a relação entre o Ophiocordyceps e o Purpureocillium atlanticum recém-descoberto?\" O uso do hífen nos compostos sem elemento de ligação, quando o primeiro elemento é a forma 'recém', ocorre de modo semelhante ao emprego do hífen com outros prefixos apresentados a seguir, EXCETO:",
+                "opcoes": [
+                      "O cientista respondeu às perguntas sem-cerimônia, explicando os dados de forma direta e objetiva.",
+                      "O pesquisador manteve um tom bem-humorado durante toda a entrevista, apesar da complexidade do tema.",
+                      "O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.",
+                      "A descoberta teve repercussão além-mar, sendo comentada por instituições científicas estrangeiras."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Ele identificou 123 'polimorfismos de risco', que são pequenas diferenças no código do DNA humano, associadas à enxaqueca.\" O vocábulo 'polimorfismos' não apresenta hífen. Nas frases abaixo, todas as palavras compostas estão corretamente grafadas sem hífen, exceto:",
+                "opcoes": [
+                      "Ela comprou uma minissaia vermelha para o baile da escola.",
+                      "O médico pediu para colocar o remédio no frasco com contagotas.",
+                      "O professor organiza atividades extraescolares para os alunos todos os sábados.",
+                      "O soldado saltou do avião usando seu paraquedas de segurança."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O médico pediu para colocar o remédio no frasco com contagotas.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Mão-de-obra e porto-alegrense.",
+                      "Mal humorado e bem-estar.",
+                      "Couve flor e anos luz.",
+                      "Pôr do sol e primeira ministra.",
+                      "Café da manhã e conta-gotas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Mas qual a relação entre o Ophiocordyceps e o Purpureocillium atlanticum recém-descoberto?\" O uso do hífen nos compostos sem elemento de ligação, quando o primeiro elemento é a forma 'recém', ocorre de modo semelhante ao emprego do hífen com outros prefixos apresentados a seguir, EXCETO:",
+                "opcoes": [
+                      "A descoberta teve repercussão além-mar, sendo comentada por instituições científicas estrangeiras.",
+                      "O pesquisador manteve um tom bem-humorado durante toda a entrevista, apesar da complexidade do tema.",
+                      "O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.",
+                      "O cientista respondeu às perguntas sem-cerimônia, explicando os dados de forma direta e objetiva."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Outra mudança administrativa prevista é a autorização para realização de exames médico-periciais por telemedicina ou análise documental, medida que pode simplificar procedimentos de avaliação médica de servidores públicos. O vocábulo 'telemedicina' está grafado corretamente sem hífen, assim como aqueles apresentados nas alternativas a seguir, exceto:",
+                "opcoes": [
+                      "Contraordem e supraestrutura.",
+                      "Benquerer e malcriado.",
+                      "Ultrassom e mandachuva.",
+                      "Autoescola e paralama."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Autoescola e paralama.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"À época, William Pitt, primeiro-ministro da Grã-Bretanha, viu na tributação geral uma oportunidade de financiar os conflitos entre o país e Napoleão Bonaparte, líder francês.\" Com base nas regras de emprego do hífen em palavras compostas, analise as afirmativas a seguir: I.O vocábulo 'primeiro-ministro' está hifenizado corretamente, pois emprega-se o hífen nos compostos quando o primeiro termo está representado por forma numeral. II.O vocábulo 'Grã-Bretanha' está hifenizado corretamente, assim como 'Baía de Todos-os-Santos', 'Trás-os-Montes' e 'Entre-os-Rios', pois todos representam formas geográficas. III.Assim como o vocábulo 'primeiro-ministro', o emprego do hífen também está correto em 'beija-flor', 'guarda-noturno' e 'manda-chuva'. IV.As locuções substantivas, adjetivas e adverbiais não recebem hífen, como em 'cão de guarda', 'cor de vinho' e 'depois de amanhã'. No entanto, 'cor-de-rosa' é grafado com hífen por se tratar de um composto consagrado pelo uso. Assinale a alternativa que apresenta as proposições corretas:",
+                "opcoes": [
+                      "I, II, III e IV.",
+                      "II e III, apenas",
+                      "I, III e IV, apenas.",
+                      "I, II e IV, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, II, III e IV.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "&#x20;\"A corrida para a recuperação de passageiros encontra diversos desafios, como mudanças nos hábitos pós-crise sanitária...\". O emprego do hífen em palavras compostas com o prefixo 'pós', como em 'pós-crise', assim como nos prefixos 'pre', 'pro' e 'co', depende de alguns critérios específicos de hifenização. Com base nisso, complete as lacunas a seguir com palavras grafadas corretamente. \"O estudo científico exige rigor ao\\_\\_\\_\\_\\_\\_critérios de análise, garantindo que os resultados sejam confiáveis e comparáveis. Nesse contexto, pesquisadores de diferentes instituições podem\\_\\_\\_\\_\\_\\_entre si para ampliar o alcance das descobertas e compartilhar conhecimentos. Em pesquisas da área da biologia, por exemplo, investiga-se o desenvolvimento do\\_\\_\\_\\_\\_\\_, etapa inicial do processo embrionário que ajuda a compreender a formação dos seres vivos.\" Assinale a alternativa que preenche corretamente as lacunas.",
+                "opcoes": [
+                      "pré-estabelecer, co-operar e proembrião.",
+                      "pré-estabelecer, cooperar e proembrião.",
+                      "pré-estabelecer, co-operar e pró-embrião.",
+                      "preestabelecer, cooperar e proembrião."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>preestabelecer, cooperar e proembrião.</strong>. Fonte: AMEOSC/2026. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Mas qual a relação entre o Ophiocordyceps e o Purpureocillium atlanticum recém-descoberto?\" O uso do hífen nos compostos sem elemento de ligação, quando o primeiro elemento é a forma 'recém', ocorre de modo semelhante ao emprego do hífen com outros prefixos apresentados a seguir, EXCETO:",
+                "opcoes": [
+                      "A descoberta teve repercussão além-mar, sendo comentada por instituições científicas estrangeiras.",
+                      "O cientista respondeu às perguntas sem-cerimônia, explicando os dados de forma direta e objetiva.",
+                      "O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.",
+                      "O pesquisador manteve um tom bem-humorado durante toda a entrevista, apesar da complexidade do tema."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Mas qual a relação entre o Ophiocordyceps e o Purpureocillium atlanticum recém-descoberto?\" O uso do hífen nos compostos sem elemento de ligação, quando o primeiro elemento é a forma 'recém', ocorre de modo semelhante ao emprego do hífen com outros prefixos apresentados a seguir, EXCETO:",
+                "opcoes": [
+                      "O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.",
+                      "A descoberta teve repercussão além-mar, sendo comentada por instituições científicas estrangeiras.",
+                      "O cientista respondeu às perguntas sem-cerimônia, explicando os dados de forma direta e objetiva.",
+                      "O pesquisador manteve um tom bem-humorado durante toda a entrevista, apesar da complexidade do tema."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O co-piloto auxiliou na navegação durante o deslocamento da equipe até a área da expedição.</strong>. Fonte: IDCAP/2026. Assunto: ortografia.",
+                "banca": "IDCAP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Mal humorado e bem-estar.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Pôr do sol e primeira ministra.",
+                      "Café da manhã e conta-gotas.",
+                      "Couve flor e anos luz."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Pôr do sol e primeira ministra.",
+                      "Couve flor e anos luz.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Café da manhã e conta-gotas.",
+                      "Mal humorado e bem-estar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Café da manhã e conta-gotas",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Couve flor e anos luz.",
+                      "Pôr do sol e primeira ministra.",
+                      "Mal humorado e bem-estar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Pôr do sol e primeira ministra.",
+                      "Mal humorado e bem-estar.",
+                      "Couve flor e anos luz.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Café da manhã e conta-gotas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Mal humorado e bem-estar.",
+                      "Café da manhã e conta-gotas.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Couve flor e anos luz.",
+                      "Pôr do sol e primeira ministra."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Pôr do sol e primeira ministra.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Couve flor e anos luz.",
+                      "Café da manhã e conta-gotas.",
+                      "Mal humorado e bem-estar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Couve flor e anos luz.",
+                      "Mal humorado e bem-estar.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "Pôr do sol e primeira ministra.",
+                      "Café da manhã e conta-gotas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "“Através da escuta ativa é possível transformar realidades e derrubar preconceitos, muitas vezes estereotipados antes de terminarmos de ouvir algo.” Em se tratando da formação das palavras a partir dos prefixos /pré/ e /pre/, a exemplo de “preconceito”, assinale a alternativa em que a palavra destacada esteja grafada conforme a ortografia oficial da língua portuguesa.",
+                "opcoes": [
+                      "A preestreia da peça foi excepcional.",
+                      "Ele sempre foi pré-destinado ao sucesso.",
+                      "Já havia conflitos pré-existentes entre eles.",
+                      "A preavaliação do candidato não foi aprovada.",
+                      "O forno foi preaquecido para o preparo do bolo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>O forno foi preaquecido para o preparo do bolo.</strong>. Fonte: IDECAN/2026. Assunto: ortografia.",
+                "banca": "IDECAN",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Café da manhã e conta-gotas.",
+                      "Mão-de-obra e porto-alegrense.",
+                      "&#x20;Mal humorado e bem-estar.",
+                      "Couve flor e anos luz.",
+                      "Pôr do sol e primeira ministra."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas de acordo com as normas vigentes em Língua Portuguesa.",
+                "opcoes": [
+                      "Os estudantes dispõem de um micro-ônibus para frequentarem as escolas.",
+                      "А comunidade apóia as atividades esportivas lotando os estádios de futebol.",
+                      "Nosso time ficou defazado após a expulsão do maior craque da equipe.",
+                      "Boas idéias devem ser acolhidas sempre, desde que sejam razoáveis e factíveis.",
+                      "Não gosto de longas viagens, pois elas me causam náuseas e enjôos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Os estudantes dispõem de um micro-ônibus para frequentarem as escolas.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que as duas palavras foram grafadas corretamente quanto ao uso ou não do hífen:",
+                "opcoes": [
+                      "Mão-de-obra e porto-alegrense.",
+                      "Couve flor e anos luz.",
+                      "Mal humorado e bem-estar.",
+                      "Café da manhã e conta-gotas.",
+                      "Pôr do sol e primeira ministra."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Café da manhã e conta-gotas.</strong>. Fonte: FURB/2026. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "De acordo com as normas ortográficas vigentes em relação ao emprego do hífen, qual das palavras a seguir está grafada corretamente?",
+                "opcoes": [
+                      "Aero-espacial.",
+                      "Vai-vém.",
+                      "Contra-indicação.",
+                      "Pré-escolar."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Pré-escolar.</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando as normas ortográficas vigentes sobre o emprego do hífen, assinale a alternativa que apresenta uma palavra grafada corretamente.",
+                "opcoes": [
+                      "Hiper-ativo.",
+                      "Co-edição.",
+                      "Pronta-entrega.",
+                      "Pão-de-ló."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pronta-entrega.</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando os aspectos gramaticais, ortográficos e de pontuação empregados no texto, analise as assertivas que seguem, julgando-as V, se Verdadeiras, ou F, se Falsas: ( ) Na frase Economia, Políticas Sociais, lnfraestrutura, Justiça e Segurança pública e Governo, as vírgulas são empregadas para separar elementos enumerados. ( ) As palavras socioeconômico e socioeducativo admitem dupla grafia, podendo ocorrer tanto com hífen quanto sem hífen, sem alteração de correção gramatical. ( ) Na frase No final da década de 1960, Minas Gerais passava por um processo amplo de modernização, a vírgula poderia ser substituída por travessão. Qual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+                "opcoes": [
+                      "V - V -F",
+                      "F - F - V.",
+                      "V - F - F.",
+                      "F - F - F."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>V - F - F.</strong>. Fonte: LEGALLE Concursos/2026. Assunto: ortografia.",
+                "banca": "LEGALLE Concursos",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Existem expressões às quais nos acostumamos tanto que não nos surpreendem mais. Mas, se repensarmos um pouco, elas podem despertar nossa curiosidade.De vez em quando, por exemplo, ficamos sabendo que os cientistas detectaram um astro até então desconhecido, que fica a bilhões de anos-luz de distância.\" O emprego do hífen em palavras compostas, como em 'anos-luz', segue regras específicas de hifenização. Com base nisso, marque com V as afirmativas verdadeiras ou com F as falsas. (\\_\\_)Quando o primeiro elemento da palavra composta está representado por forma substantiva, adjetiva, numeral ou verbal, ocorre hífen, como em couve-flor, azul-escuro, primeiro-ministro e para-quedas. (\\_\\_)Quando o primeiro elemento está representado pela forma 'mal' e o 2º elemento começa por 'vogal', 'h' ou 'l', emprega-se o hífen, como em mal-informado, 'mal-humorado' e 'mal-limpo'. Por outro lado, 'malcriado' não recebe hífen, pois não se enquadra nessas regras. (\\_\\_)Normalmente as locuções não são hifenizadas, como 'mão de obra', 'dia a dia', Bumba meu boi. No entanto, são exceções à regra os vocábulos 'cor-de-rosa' e 'arco-da-velha', que são hifenizados. (\\_\\_)Os vocábulos 'ultrassom' e 'maxirresultado', que antes eram grafados com hífen, passaram a ser escritos sem esse sinal, com duplicação das consoantes 's' e 'r'. Após análise, assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "F, V, V, F.",
+                      "V, F, F, V.",
+                      "&#x20;V, V, F, V.",
+                      "&#x20;F, V, V, V.",
+                      "V, V, V, V"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>&#x20;F, V, V, V.</strong>. Fonte: Unesc/2026. Assunto: ortografia.",
+                "banca": "Unesc",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Existem expressões às quais nos acostumamos tanto que não nos surpreendem mais. Mas, se repensarmos um pouco, elas podem despertar nossa curiosidade.De vez em quando, por exemplo, ficamos sabendo que os cientistas detectaram um astro até então desconhecido,  que fica a bilhões de anos-luz de distância.\" O emprego do hífen em palavras compostas, como em 'anos-luz', segue regras específicas de hifenização. Com base nisso, marque com V as afirmativas verdadeiras ou com F as falsas. (\\_\\_)Quando o primeiro elemento da palavra composta está representado por forma substantiva, adjetiva, numeral ou verbal, ocorre hífen, como em couve-flor, azul-escuro, primeiro-ministro e para-quedas. (\\_\\_)Quando o primeiro elemento está representado pela forma 'mal' e o 2º elemento começa por 'vogal', 'h' ou 'l', emprega-se o hífen, como em mal-informado, 'mal-humorado' e 'mal-limpo'. Por outro lado, 'malcriado' não recebe hífen, pois não se enquadra nessas regras. (\\_\\_)Normalmente as locuções não são hifenizadas, como 'mão de obra', 'dia a dia', Bumba meu boi. No entanto, são exceções à regra os vocábulos 'cor-de-rosa' e 'arco-da-velha', que são hifenizados. (\\_\\_)Os vocábulos 'ultrassom' e 'maxirresultado', que antes eram grafados com hífen, passaram a ser escritos sem esse sinal, com duplicação das consoantes 's' e 'r'. Após análise, assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "&#x20;V, V, F, V",
+                      "F, V, V, V.",
+                      "&#x20;V, V, V, V.",
+                      "V, F, F, V.",
+                      "&#x20;F, V, V, F."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>F, V, V, V.</strong>. Fonte: Unesc/2026. Assunto: ortografia.",
+                "banca": "Unesc",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Existem expressões às quais nos acostumamos tanto que não nos surpreendem mais. Mas, se repensarmos um pouco, elas podem despertar nossa curiosidade.De vez em quando, por exemplo, ficamos sabendo que os cientistas detectaram um astro até então desconhecido, que fica a bilhões de anos-luz de distância.\" O emprego do hífen em palavras compostas, como em 'anos-luz', segue regras específicas de hifenização. Com base nisso, marque com V as afirmativas verdadeiras ou com F as falsas. (\\_\\_)Quando o primeiro elemento da palavra composta está representado por forma substantiva, adjetiva, numeral ou verbal, ocorre hífen, como em couve-flor, azul-escuro, primeiro-ministro e para-quedas. (\\_\\_)Quando o primeiro elemento está representado pela forma 'mal' e o 2º elemento começa por 'vogal', 'h' ou 'l', emprega-se o hífen, como em mal-informado, 'mal-humorado' e 'mal-limpo'. Por outro lado, 'malcriado' não recebe hífen, pois não se enquadra nessas regras. (\\_\\_)Normalmente as locuções não são hifenizadas, como 'mão de obra', 'dia a dia', Bumba meu boi. No entanto, são exceções à regra os vocábulos 'cor-de-rosa' e 'arco-da-velha', que são hifenizados. (\\_\\_)Os vocábulos 'ultrassom' e 'maxirresultado', que antes eram grafados com hífen, passaram a ser escritos sem esse sinal, com duplicação das consoantes 's' e 'r'. Após análise, assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "F, V, V, V.",
+                      "&#x20;F, V, V, F.",
+                      "&#x20;V, V, F, V.",
+                      "V, F, F, V",
+                      "V, V, V, V"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>F, V, V, V.</strong>. Fonte: Unesc/2026. Assunto: ortografia.",
+                "banca": "Unesc",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Produção agrícola maior deve fortalecer geração de bioenergia.\" O vocábulo 'bioenergia' apresenta-se corretamente grafado sem hífen. Considerando o uso ou não do hífen em palavras compostas, identifique a alternativa que apresenta pelo menos um vocábulo grafado de forma INCORRETA.",
+                "opcoes": [
+                      "O guia turístico, sempre bem-humorado e benquisto, conduzia o grupo com histórias engraçadas sobre a cidade.",
+                      "Os fones supra-auriculares foram distribuídos aos participantes, seguindo os horários preestabelecidos pelo organizador do evento.",
+                      "Após o fim de semana, ele apareceu com cara de mamão-macho após saber do resultado da reunião.",
+                      "Para acompanhar o ritmo circumeridiano dos astronautas, a equipe precisou de um esforço quase sobre-humano na organização das tarefas.",
+                      "Os viajantes exploraram a Baía de Todos-os-Santos sem roteiro definido, confiando ao deus-dará que tudo daria certo durante a viagem."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Para acompanhar o ritmo circumeridiano dos astronautas, a equipe precisou de um esforço quase sobre-humano na organização das tarefas.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Produção agrícola maior deve fortalecer geração de bioenergia.\" O vocábulo 'bioenergia' apresenta-se corretamente grafado sem hífen. Considerando o uso ou não do hífen em palavras compostas, identifique a alternativa que apresenta pelo menos um vocábulo grafado de forma INCORRETA.",
+                "opcoes": [
+                      "Após o fim de semana, ele apareceu com cara de mamão-macho após saber do resultado da reunião.",
+                      "Os fones supra-auriculares foram distribuídos aos participantes, seguindo os horários preestabelecidos pelo organizador do evento.",
+                      "Para acompanhar o ritmo circumeridiano dos astronautas, a equipe precisou de um esforço quase sobre-humano na organização das tarefas.",
+                      "Os viajantes exploraram a Baía de Todos-os-Santos sem roteiro definido, confiando ao deus-dará que tudo daria certo durante a viagem.",
+                      "O guia turístico, sempre bem-humorado e benquisto, conduzia o grupo com histórias engraçadas sobre a cidade."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Para acompanhar o ritmo circumeridiano dos astronautas, a equipe precisou de um esforço quase sobre-humano na organização das tarefas.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Aluno e professora criam tecido com bagaço da cana-de-açúcar, em Goiás.\" Considerando o uso do hífen no vocábulo 'cana-de-açúcar', bem como sua adequada justificativa e a aplicação desse recurso em outras palavras alheias ao contexto, assinale V para as afirmativas verdadeiras e F para as falsas. (\\_\\_) O vocábulo 'cana-de-açúcar' encontra-se corretamente grafado com hífen, pois, embora as locuções substantivas, em regra, não sejam hifenizadas, trata-se de uma exceção. Por sua vez, 'café da manhã' e 'fim de semana' constituem locuções devidamente grafadas sem o emprego de hífen. (\\_\\_) Os vocábulos 'hiper-raivoso' e 'super-rico' estão corretamente grafados com hífen, uma vez que, com esses prefixos, utiliza-se esse sinal quando o elemento seguinte se inicia por 'r'. De igual modo, o hífen é corretamente empregado nos compostos 'supra-auricular' e 'contra-almirante', apesar de regra distinta. (\\_\\_) Os vocábulos 'antissemita', 'contrarregra' e 'semirreta', que, antes do Novo Acordo Ortográfico, eram grafados com hífen, passaram a ser corretamente escritos sem esse sinal. (\\_\\_) Os vocábulos 'girassol', 'mandachuva' e 'paraquedas' estão corretamente grafados sem hífen, por se tratarem de compostos que, em certa medida, perderam a noção de composição, razão pela qual são escritos de forma aglutinada. Assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "F, V, V, V.",
+                      "F, F, V, V.",
+                      "V, F, V, V.",
+                      "V, V, F, F.",
+                      "V, V, V, V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>F, V, V, V.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "&#x20;De acordo com Ribeiro (2004), o \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ é usado sem espaço antes e depois nas diversas áreas da descrição, ligando partes extremas de um elemento, como datas, números e letras, além de indicar, no final de uma data, item em curso de publicação e distribuição etc. Assinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+                "opcoes": [
+                      "hífen",
+                      "ponto e vírgula",
+                      "parênteses",
+                      "colchetes"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>hífen</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "O advérbio “bem”, quando se combina a outros elementos, pode formar palavras compostas que se unem por hífen (bem-amado); pode aglutinar-se em uma única palavra ou pode permanecer separado. A esse respeito, a palavra que NÃO está devidamente hifenizada é",
+                "opcoes": [
+                      "bem-alto.",
+                      "bem-vindo.",
+                      "bem-educado.",
+                      "bem-sucedido.",
+                      "bem-humorado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>bem-alto.</strong>. Fonte: CEFET-MG/2026. Assunto: ortografia.",
+                "banca": "CEFET-MG",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando o acordo ortográfico vigente, assinale a alternativa que preenche, correta e respectivamente, as lacunas pontilhadas dos trechos a seguir, retirados do texto: • “Uma das principais estratégias para organizar a Educação Escolar Indígena no Brasil são os territórios .................. (TEE), estabelecidos pelo Decreto nº 6.861/2009”. • “Eles se referem ao conjunto de terras indígenas habitadas por povos que .................. relações intersocietárias caracterizadas por raízes sociais e históricas”. • “A proposta parte do reconhecimento de que diferentes povos, mesmo distribuídos em áreas descontínuas, .................. vínculos históricos”.",
+                "opcoes": [
+                      "etno-educacionais – mantem – compartilham",
+                      "etno-educacionais – mantêm – compartilhão",
+                      "etnoeducacionais – mantêm – compartilham",
+                      "etnoeducacionais – mantem – compartilhão"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>etnoeducacionais – mantêm – compartilham</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Sobre o emprego de hífen presente nas palavras abaixo, pode-se afirmar corretamente que em apenas uma alternativa tal emprego está incorreto. Indique o emprego incorreto:",
+                "opcoes": [
+                      "Matéria-prima",
+                      "Auto-estrada",
+                      "Sobre-humano",
+                      "Maus-tratos"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Auto-estrada</strong>. Fonte: Instituto Indec/2026. Assunto: ortografia.",
+                "banca": "Instituto Indec",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Aluno e professora criam tecido com bagaço da cana-de-açúcar, em Goiás.\" Considerando o uso do hífen no vocábulo 'cana-de-açúcar', bem como sua adequada justificativa e a aplicação desse recurso em outras palavras alheias ao contexto, assinale V para as afirmativas verdadeiras e F para as falsas. (\\_\\_) O vocábulo 'cana-de-açúcar' encontra-se corretamente grafado com hífen, pois, embora as locuções substantivas, em regra, não sejam hifenizadas, trata-se de uma exceção. Por sua vez, 'café da manhã' e 'fim de semana' constituem locuções devidamente grafadas sem o emprego de hífen. (\\_\\_) Os vocábulos 'hiper-raivoso' e 'super-rico' estão corretamente grafados com hífen, uma vez que, com esses prefixos, utiliza-se esse sinal quando o elemento seguinte se inicia por 'r'. De igual modo, o hífen é corretamente empregado nos compostos 'supra-auricular' e 'contra-almirante', apesar de regra distinta. (\\_\\_) Os vocábulos 'antissemita', 'contrarregra' e 'semirreta', que, antes do Novo Acordo Ortográfico, eram grafados com hífen, passaram a ser corretamente escritos sem esse sinal. (\\_\\_) Os vocábulos 'girassol', 'mandachuva' e 'paraquedas' estão corretamente grafados sem hífen, por se tratarem de compostos que, em certa medida, perderam a noção de composição, razão pela qual são escritos de forma aglutinada. Assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "&#x20;F, V, V, V.",
+                      "V, V, F, F.",
+                      "&#x20;F, F, V, V.",
+                      "V, V, V, V.",
+                      "V, F, V, V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>&#x20;F, V, V, V.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Aluno e professora criam tecido com bagaço da cana-de-açúcar, em Goiás.\" Considerando o uso do hífen no vocábulo 'cana-de-açúcar', bem como sua adequada justificativa e a aplicação desse recurso em outras palavras alheias ao contexto, assinale V para as afirmativas verdadeiras e F para as falsas. (\\_\\_) O vocábulo 'cana-de-açúcar' encontra-se corretamente grafado com hífen, pois, embora as locuções substantivas, em regra, não sejam hifenizadas, trata-se de uma exceção. Por sua vez, 'café da manhã' e 'fim de semana' constituem locuções devidamente grafadas sem o emprego de hífen. (\\_\\_) Os vocábulos 'hiper-raivoso' e 'super-rico' estão corretamente grafados com hífen, uma vez que, com esses prefixos, utiliza-se esse sinal quando o elemento seguinte se inicia por 'r'. De igual modo, o hífen é corretamente empregado nos compostos 'supra-auricular' e 'contra-almirante', apesar de regra distinta. (\\_\\_) Os vocábulos 'antissemita', 'contrarregra' e 'semirreta', que, antes do Novo Acordo Ortográfico, eram grafados com hífen, passaram a ser corretamente escritos sem esse sinal. (\\_\\_) Os vocábulos 'girassol', 'mandachuva' e 'paraquedas' estão corretamente grafados sem hífen, por se tratarem de compostos que, em certa medida, perderam a noção de composição, razão pela qual são escritos de forma aglutinada. Assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "V, F, V, V.",
+                      "V, V, V, V.",
+                      "F, V, V, V.",
+                      "F, F, V, V.",
+                      "V, V, F, F."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>F, V, V, V.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Esta dependência faz da infraestrutura de abastecimento de água uma vulnerabilidade estratégica, que tanto os Estados Unidos quanto o Irã aparentemente desejam explorar.\" Considerando o emprego do hífen em palavras compostas, analise a palavra 'infraestrutura', assim como outros vocábulos fora do contexto apresentado e identifique a alternativa INCORRETA. I. O vocábulo 'infraestrutura' não recebe hífen, pois, segundo as regras, quando o prefixo ou falso prefixo termina em vogal e o segundo elemento começa com uma vogal diferente ou com uma consoante, não ocorre hífen. II. Os vocábulos 'ultrassom' e 'maxirresultado' estão grafados corretamente sem hífen, e as consoantes 's' e 'r' são duplicadas conforme as regras do Novo Acordo Ortográfico. III. As locuções não são hifenizadas. Exemplos corretos incluem: cor de abóbora, dia a dia, mão de obra e cor de vinho, todas grafadas corretamente sem hífen. IV. Não possuem hífen as palavras que perderam a noção de composição, que devem ser grafadas aglutinadamente. São exemplos corretos: mandachuva, paraquedas e parabrisa. Após análise, assinale a alternativa que apresenta apenas as proposições CORRETAS.",
+                "opcoes": [
+                      "I, III e IV, apenas.",
+                      "I, II, III e IV.",
+                      "&#x20;II e IV, apenas.",
+                      "I e III, apenas.",
+                      "&#x20;I, II, III, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>&#x20;I, II, III, apenas.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Aluno e professora criam tecido com bagaço da cana-de-açúcar, em Goiás.\" Considerando o uso do hífen no vocábulo 'cana-de-açúcar', bem como sua adequada justificativa e a aplicação desse recurso em outras palavras alheias ao contexto, assinale V para as afirmativas verdadeiras e F para as falsas. (\\_\\_) O vocábulo 'cana-de-açúcar' encontra-se corretamente grafado com hífen, pois, embora as locuções substantivas, em regra, não sejam hifenizadas, trata-se de uma exceção. Por sua vez, 'café da manhã' e 'fim de semana' constituem locuções devidamente grafadas sem o emprego de hífen. (\\_\\_) Os vocábulos 'hiper-raivoso' e 'super-rico' estão corretamente grafados com hífen, uma vez que, com esses prefixos, utiliza-se esse sinal quando o elemento seguinte se inicia por 'r'. De igual modo, o hífen é corretamente empregado nos compostos 'supra-auricular' e 'contra-almirante', apesar de regra distinta. (\\_\\_) Os vocábulos 'antissemita', 'contrarregra' e 'semirreta', que, antes do Novo Acordo Ortográfico, eram grafados com hífen, passaram a ser corretamente escritos sem esse sinal. (\\_\\_) Os vocábulos 'girassol', 'mandachuva' e 'paraquedas' estão corretamente grafados sem hífen, por se tratarem de compostos que, em certa medida, perderam a noção de composição, razão pela qual são escritos de forma aglutinada. Assinale a alternativa que apresenta a sequência CORRETA.",
+                "opcoes": [
+                      "F, F, V, V.",
+                      "F, V, V, V.",
+                      "V, V, V, V.",
+                      "V, V, F, F.",
+                      "&#x20;V, F, V, V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>F, V, V, V.</strong>. Fonte: IGEDUC/2026. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Leia o trecho a seguir. \"Ao longo de 75 anos, o CNPq consolidou-se como um dos pilares do sistema nacional de ciência e tecnologia. Milhares de estudantes foram formados por meio de suas bolsas, da iniciação científica ao pós-doutorado, e gerações de pesquisadores tiveram suas trajetórias viabilizadas pela agência, contribuindo para a expansão e qualificação da produção científica brasileira\". De acordo com o trecho, avalie as assertivas que se seguem em relação às normas gramaticais vigentes. I.O segmento \"Milhares de estudantes foram formados por meio de suas bolsas\" encontra-se na voz passiva sintética, o que confere, semanticamente, mais ênfase ao fato do que ao agente que pratica a ação. II.No termo \"pós-doutorado\", o emprego do hífen se justifica pelo fato de o elemento \"pós-\" ser tônico e apresentar autonomia fonológica, mantendo-se, por isso, separado por hífen do elemento seguinte. III.A forma verbal \"tiveram\" encontra-se flexionado na terceira pessoa do plural uma vez que concorda com núcleo do seu sujeito \"pesquisadores\". IV.As palavras \"Milhares\", \"pesquisadores\", \"agência\" e \"qualificação\" apresentam todas mais letras do que fonemas. Acerca das assertivas acima, assinale a alternativa CORRETA.",
+                "opcoes": [
+                      "Apenas três estão corretas.",
+                      "Todas as quatro estão incorretas.",
+                      "Todas as quatro estão corretas.",
+                      "Apenas uma está correta.",
+                      "Apenas duas estão corretas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Apenas uma está correta.</strong>. Fonte: FAFIPA/2026. Assunto: ortografia.",
+                "banca": "FAFIPA",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "fonemas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente de acordo com a norma vigente.",
+                "opcoes": [
+                      "Absorção – impecilho – anti-vírus.",
+                      "Antivírus – párabrisa – empecilho.",
+                      "Suscetível – impecilho – rúbrica.",
+                      "Excepcional – rubrica – para-brisa."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Excepcional – rubrica – para-brisa.</strong>. Fonte: FUNDATEC/2026. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Em relação às ideias e a aspectos linguísticos e textuais do texto precedente, julgue o item seguinte.\nO vocábulo \"etno-históricos\" pode ser corretamente grafado, de acordo com as regras ortográficas vigentes, sem o hífen, desde que seja eliminada a letra h, assim como ocorre com a palavra coabitar.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2026. Assunto: ortografia.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A respeito dos sentidos e de aspectos linguísticos do texto apresentado, julgue o item a seguir.\nDe acordo com as regras ortográficas vigentes, os vocábulos “pós-humano” e “anti-humano” podem ser corretamente grafados como duas palavras — pós humano e anti humano —, dada a autonomia dos prefixos e do vocábulo “humano”.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2026. Assunto: ortografia.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"E correu ao telefone para chamar a radiopatrulha.\" O vocábulo 'radiopatrulha' não possui hífen. Analise o uso ou não do hífen nos vocábulos das alternativas e identifique aquela que apresenta pelo menos um termo grafado de forma INCORRETA.",
+                "opcoes": [
+                      "Cor de vinho e cor-de-rosa.",
+                      "&#x20;Anglo-saxão e andorinha-do-mar.",
+                      "Para-brisa e paraquedas.",
+                      "Conta-gotas e tenente-coronel.",
+                      "Anti-semita e extraescolar."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Anti-semita e extraescolar.</strong>. Fonte: Unesc/2026. Assunto: ortografia.",
+                "banca": "Unesc",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta todas as palavras de acordo com a grafia oficial vigente em Língua Portuguesa.",
+                "opcoes": [
+                      "Livros de auto-ajuda muitas vezes auxiliam nas relações interpessoais.",
+                      "Filmes de ficção científica são fartos de personagens extraterrenos e humanóides.",
+                      "As ideias antirreligiosas do vice-reitor afrontam as condições sub-humanas de vida.",
+                      "A auto-regulamentação pode se tornar um conta-gotas para a depressão e ansiedade.",
+                      "A contra-ofensiva do time adversário levou-o a uma vitória fulminante."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>As ideias antirreligiosas do vice-reitor afrontam as condições sub-humanas de vida.</strong>. Fonte: Avança SP/2026. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2026,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras atuais do uso do hífen, especialmente aquelas definidas pelo Acordo Ortográfico da Língua Portuguesa, a grafia da palavra \"recém-nascido\", destacada no texto, está adequada ao padrão culto. Assinale a alternativa que justifica corretamente essa grafia.",
+                "opcoes": [
+                      "O uso do hífen é opcional, já que o Acordo Ortográfico admite as formas com e sem hífen para compostos iniciados por advérbio.",
+                      "A grafia com hífen está incorreta, pois a nova ortografia eliminou o uso do hífen em palavras compostas por prefixos seguidos de consoante.",
+                      "&#x20;O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen.",
+                      "A palavra correta deveria ser grafada separadamente — recém nascido — já que os dois termos mantêm autonomia semântica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>&#x20;O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen.</strong>. Fonte: ACCESS/2025. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras atuais do uso do hífen, especialmente aquelas definidas pelo Acordo Ortográfico da Língua Portuguesa, a grafia da palavra \"recém-nascido\", destacada no texto, está adequada ao padrão culto. Assinale a alternativa que justifica corretamente essa grafia.",
+                "opcoes": [
+                      "O uso do hífen é opcional, já que o Acordo Ortográfico admite as formas com e sem hífen para compostos iniciados por advérbio.",
+                      "A palavra correta deveria ser grafada separadamente — recém nascido — já que os dois termos mantêm autonomia semântica.",
+                      "A grafia com hífen está incorreta, pois a nova ortografia eliminou o uso do hífen em palavras compostas por prefixos seguidos de consoante.",
+                      "O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen.</strong>. Fonte: ACCESS/2025. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando as regras atuais do uso do hífen, especialmente aquelas definidas pelo Acordo Ortográfico da Língua Portuguesa, a grafia da palavra \"recém-nascido\", destacada no texto, está adequada ao padrão culto. Assinale a alternativa que justifica corretamente essa grafia.",
+                "opcoes": [
+                      "O uso do hífen é opcional, já que o Acordo Ortográfico admite as formas com e sem hífen para compostos iniciados por advérbio.",
+                      "A grafia com hífen está incorreta, pois a nova ortografia eliminou o uso do hífen em palavras compostas por prefixos seguidos de consoante.",
+                      "A palavra correta deveria ser grafada separadamente — recém nascido — já que os dois termos mantêm autonomia semântica.",
+                      "O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O hífen é obrigatório porque \"recém\" é um advérbio que, ao unir-se a particípios, forma palavras compostas com sentido único, exigindo ligação por hífen.</strong>. Fonte: ACCESS/2025. Assunto: ortografia.",
+                "banca": "ACCESS",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Analise as frases abaixo e classifique em verdadeiro (V) aquelas em que todas as palavras foram grafadas corretamente ou em falso (F) as que contêm erros ortográficos. ( ) Roger teve um excelente pós-operatório. ( ) Esse foi o velejador que realizou uma circum-navegação pelas Américas. ( ) Meus filhos não entraram nesse curso porque perdemos o prazo de prématrícula. ( ) Peço que acolham o recém-chegado. Assinale a alternativa que contém a sequência correta:",
+                "opcoes": [
+                      "V – F – F – F",
+                      "V – V – F – V",
+                      "V – V – V – F",
+                      "F – V – F – F",
+                      "F – F – F – F"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>V – V – F – V</strong>. Fonte: Avança SP/2025. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente.",
+                "opcoes": [
+                      "Tiveram a brilhante ideia de disponibilizar um micro-ônibus para atendimento à população com escassez de recursos.",
+                      "Houve um aumento absurdo nos preços de todos os ítens da cesta básica, gerando muita insatisfação.",
+                      "A criança apresentava hiper-sensibilidade a alimentos com lactose, o que requeria zelo e atenção por parte dos pais.",
+                      "O homem, desde os seus primórdios, é fascinado com o vôo das aves, o que o levou às mais fantásticas invenções.",
+                      "Esse remédio contem substâncias que podem ser tóxicas dependendo da quantidade em que é ministrado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Tiveram a brilhante ideia de disponibilizar um micro-ônibus para atendimento à população com escassez de recursos.</strong>. Fonte: Avança SP/2025. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Segundo a psicóloga e doutora em Comunicação, Regina Nicolosi, a psicologia entende a gentileza como um comportamento prosocial , ou seja, uma ação voltada a beneficiar o outro sem esperar algo em troca. \\[...] \"No cotidiano, ela funciona como um elo de convivência: reduz conflitos, facilita a cooperação e promove bem-estar coletivo. Gosto de dizer que 'gentileza gera gentileza' e também saúde emocional.\" Analise as sentenças quanto à ortografia das palavras destacadas e registre V, para verdadeiras, e F, para falsas: (\\_\\_) A palavra prosocial está grafada incorretamente no texto. Por ela ser formada por um prefixo tônico (pró-), seguido de uma palavra que tem vida à parte (social), a grafia correta é pró-social. (\\_\\_) Cooperação está corretamente grafada porque nas formações com o prefixo co-, este se aglutina em geral com o segundo elemento, mesmo quando iniciado por \"o\". Por exemplo: coordenar. (\\_\\_) A palavra bem-estar é grafada com hífen porque se trata de uma palavra composta pelo advérbio \"bem\" que forma com \"estar\" uma unidade não apenas linguística, mas também de sentido próprio. Assinale a alternativa que apresenta a sequência correta:",
+                "opcoes": [
+                      "F − V − F.",
+                      "F − F − V.",
+                      "V − F − F.",
+                      "F − V − V.",
+                      "V − V − V."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V − V − V.</strong>. Fonte: FURB/2025. Assunto: ortografia.",
+                "banca": "FURB",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Acerca das estruturas linguísticas e gramaticais do texto, julgue o item a seguir.\nNo texto, a expressão “doença animal”, presente em “Os primeiros esforços dirigidos contra a doença animal foram descritos nas antigas civilizações da Suméria, do Egito e da Grécia, com referências a curandeiros de animais antes da Era Cristã.”, segundo o acordo ortográfico vigente, poderia ser grafada com hífen: doença‑animal.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que justifica o uso do hífen no termo \"tema-tabu\" pelo jornalista.",
+                "opcoes": [
+                      "A dualidade nas discussões do tema do sucídio.",
+                      "A composição de um adjetivo a partir de dois substantivos.",
+                      "A construção de substantivo a partir do prefixo \"tema\".",
+                      "A ironia da abordagem do tema na data da publicação.",
+                      "A cacofonia provocada pela repetição do fonema /t/."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A composição de um adjetivo a partir de dois substantivos.</strong>. Fonte: FAFIPA/2025. Assunto: ortografia.",
+                "banca": "FAFIPA",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "fonemas",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras se encontram grafadas de acordo com a norma-padrão.",
+                "opcoes": [
+                      "A infra-estrutura daquele prédio se assemelha muito à da hidroelétrica.",
+                      "Admiro muito o vôo das aves, tanto que crio aparelhagens fazendo a imitação delas.",
+                      "As glândulas supra-renais são de extrema importância para o nosso organismo.",
+                      "O micro-ondas foi para o conserto porque estava sendo usado até à exaustão.",
+                      "Foi feita uma excessão dentro do inquérito por se tratar de uma questão se segurança."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O micro-ondas foi para o conserto porque estava sendo usado até à exaustão.</strong>. Fonte: Avança SP/2025. Assunto: ortografia.",
+                "banca": "Avança SP",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Na oração “Dê preferência a palavras comuns e utilizadas no dia a dia”, a substituição da expressão “dia a dia” por “dia‑a‑dia” é gramaticalmente correta, mas altera o sentido da oração.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao texto e aos seus aspectos linguísticos, julgue o item a seguir.\nNo excerto “A relação entre terapeuta e paciente desenvolve‑se a partir do estabelecimento de micro‑objetivos definidos em conjunto, criando um ambiente de corresponsabilidade e estímulo que fortalece o processo terapêutico.”, os termos “micro‑objetivos” e “corresponsabilidade” seguem as mesmas regras para emprego ou não aplicação do hífen, pois possuem prefixos de mesma origem.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando a ortografia das palavras em Língua Portuguesa, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas das linhas 09, 28 e 32.",
+                "opcoes": [
+                      "&#x20;hiposuficientes – atrás – Bem-Estar",
+                      "hiposuficientes – trás – Bem Estar",
+                      "hipossuficientes – traz – Bem Estar",
+                      "hipossuficientes – trás – Bem-Estar",
+                      "&#x20;hipossuficientes – traz – Bem-Estar"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>hipossuficientes – trás – Bem-Estar</strong>. Fonte: FUNDATEC/2025. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "A palavra “agrícola-ambiental” aparece grafada com hífen pela mesma razão do seguinte vocábulo abaixo:",
+                "opcoes": [
+                      "bem-me-quer;",
+                      "&#x20;pré-histórico;",
+                      "inter-relacionamento;",
+                      "copo-de-leite",
+                      "político-econômico"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>político-econômico</strong>. Fonte: Qconcursos/2025. Assunto: ortografia.",
+                "banca": "Qconcursos",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "No que se refere à estruturação linguístico‑gramatical do texto, julgue o item seguinte. Conforme o acordo ortográfico vigente, o termo “cana‑de‑açúcar” tanto pode ser grafado com hífen quanto sem hífen, pois se trata de palavra consagrada pelo uso.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: Quadrix/2025. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Quanto à estruturação linguística e gramatical do texto, julgue o item seguinte.\nNo trecho “A atividade física pode‑se efetivar em todos os níveis que organizam a rede de atenção à saúde no Brasil, estabelecidos pelo Sistema Único de Saúde (SUS)”, mantém a correção gramatical a grafia da forma verbal “pode‑se efetivar” como pode se efetivar.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: Quadrix/2025. Assunto: ortografia.",
+                "banca": "Quadrix",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "\"O pavão é um arco-íris de plumas.\" Quanto à justificativa para o emprego do hífen na palavra 'arco-iris', é correto o que se afirma em:",
+                "opcoes": [
+                      "Emprega-se o hífen em topônimos compostos iniciados por substantivos ou forma verbal. São exemplos dessa mesma regra: Passa-Quatro.",
+                      "&#x20;Não se emprega hífen quando o prefixo termina em vogal e o segundo elemento começa por consoantes diferentes de 'r' ou 's', por isso, como o Novo Acordo Ortográfico, o vocábulo 'arco-iris' não possui mais hífen. A forma correta é : arco-íris.",
+                      "&#x20;Emprega-se o hífen nos compostos cujos elementos, reduzidos ou não, perderam a sua significação própria. São hifenizados pela mesma regra: marca-passo e mata-mata.",
+                      "Emprega-se o hífen nos compostos com o primeiro elemento de forma adjetiva, reduzida ou não. São exemplos dessa mesma regra: histórico-geográfico e afro-asiático."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>&#x20;Emprega-se o hífen nos compostos cujos elementos, reduzidos ou não, perderam a sua significação própria. São hifenizados pela mesma regra: marca-passo e mata-mata.</strong>. Fonte: IGEDUC/2025. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Já a solitude, por outro lado, é mais um estado temporário e pode trazer um momento bem-vindo de tranquilidade.\" O emprego do hífen na palavra 'bem-vindo' justifica-se porque o prefixo 'bem' exige hífen. Também são exemplos de vocábulos com o prefixo 'bem' que seguem a regra os seguintes, EXCETO:",
+                "opcoes": [
+                      "bem-amado.",
+                      "bem-vindo.",
+                      "bem-estar.",
+                      "bem-feito."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>bem-feito.</strong>. Fonte: IGEDUC/2025. Assunto: ortografia.",
+                "banca": "IGEDUC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a única opção em que a ortografia da palavra não apresenta incorreção:",
+                "opcoes": [
+                      "Geo-política.",
+                      "Auto-peça.",
+                      "Micro-computador.",
+                      "Super-resistente.",
+                      "Ultra-moderno."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Super-resistente.</strong>. Fonte: IVIN/2025. Assunto: ortografia.",
+                "banca": "IVIN",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão escritas corretamente, em consonância com a ortografia oficial do português:",
+                "opcoes": [
+                      "rechaçar, exceção, discernir, concensual, ascensão",
+                      "ascensão, abstenção, mal-humorado, consciência, contrassenso",
+                      "beneficiente, cirurgia, incompatível, premissa,acessório",
+                      "hipocrisia, exatidão, condicente, coxão, excentricidade"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ascensão, abstenção, mal-humorado, consciência, contrassenso</strong>. Fonte: JVL Concursos/2025. Assunto: ortografia.",
+                "banca": "JVL Concursos",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Assinale a opção em que a ortografia da palavra está incorreta:",
+                "opcoes": [
+                      "Anti-rábico",
+                      "Semi-interno",
+                      "Micro-ônibus",
+                      "Anti-inflacionário.",
+                      "Auto-observação."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Anti-rábico</strong>. Fonte: IVIN/2025. Assunto: ortografia.",
+                "banca": "IVIN",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "No trecho “(...) mais um depositário para o que outrora foram sonhos ultraprocessados.” (7§), sobre a palavra destacada é correto afirmar que:",
+                "opcoes": [
+                      "Está em desacordo com a ortografia oficial brasileira pois deveria ter a letra “p” dobrada.",
+                      "A palavra está em desacordo com as normas ortográficas, uma vez que deveria ter um hífen, da mesma forma que a palavra “ultra-apressado”.",
+                      "Não deveria ter o prefixo ultra- separado por hífen, já que só seria separado do segundo elemento, se este se iniciasse por \"consoante\" ou \"a\".",
+                      "Deveria ter o prefixo ultra- separado por hífen, já que o segundo elemento se inicia por consoante.",
+                      "Não deveria ter o prefixo ultra- separado por hífen, já que só seria separado do segundo elemento, se este se iniciasse por \"a\" ou \"h\"."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Não deveria ter o prefixo ultra- separado por hífen, já que só seria separado do segundo elemento, se este se iniciasse por \"a\" ou \"h\".</strong>. Fonte: IVIN/2025. Assunto: ortografia.",
+                "banca": "IVIN",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão escritas corretamente, segundo o novo acordo ortográfico:",
+                "opcoes": [
+                      "anti-ético, ideia, ex-professor.",
+                      "antiético, ideia, ex-professor.",
+                      "anti-ético, ideia, ex professor.",
+                      "antiético, idéia, ex professor."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>antiético, ideia, ex-professor.</strong>. Fonte: ADM\\&TEC/2025. Assunto: ortografia.",
+                "banca": "ADM\\&TEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "O mais novo acordo ortográfico da língua portuguesa, aprovado em 1990, mas cuja implantação no Brasil só começou em 2009, alterou as regras do uso do hífen em palavras compostas. Sabendo disso, assinale abaixo a única das alternativas cuja palavra em destaque está grafada adequadamente ao que pede o referido acordo.",
+                "opcoes": [
+                      "O arsenal anti-aéreo de Israel vem sendo capaz de conter os mísseis lançados contra o país pelo Hamas.",
+                      "Criminosos condenados por crimes hediondos não têm direito de progredir para o regime semi-aberto antes de cumprir 1/3 da pena.",
+                      "O compartilhamento de escovas de dentes é anti-higiênico.",
+                      "A auto-avaliação tem a função de fazer o estudante refletir sobre o próprio desempenho."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O compartilhamento de escovas de dentes é anti-higiênico.</strong>. Fonte: IDECAN/2025. Assunto: ortografia.",
+                "banca": "IDECAN",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Julgue o item que se segue, referente a aspectos linguísticos do texto CG1A1.\nDe acordo com a ortografia oficial, o prefixo co-, presente em “coautor”, une-se, sem a intermediação de hífen, ao segundo elemento mesmo quando este se inicia por o, a exemplo de coobrigação.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Certo</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: ortografia.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "O mais novo acordo ortográfico da língua portuguesa, aprovado em 1990, mas cuja implantação no Brasil só começou em 2009, alterou as regras do uso do hífen em palavras compostas. Sabendo disso, assinale abaixo a única das alternativas cuja palavra em destaque está grafada adequadamente ao que pede o referido acordo.",
+                "opcoes": [
+                      "A auto-avaliação tem a função de fazer o estudante refletir sobre o próprio desempenho.",
+                      "O arsenal anti-aéreo de Israel vem sendo capaz de conter os mísseis lançados contra o país pelo Hamas.",
+                      "Criminosos condenados por crimes hediondos não têm direito de progredir para o regime semi-aberto antes de cumprir 1/3 da pena.",
+                      "O compartilhamento de escovas de dentes é anti-higiênico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O compartilhamento de escovas de dentes é anti-higiênico.</strong>. Fonte: IDECAN/2025. Assunto: ortografia.",
+                "banca": "IDECAN",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "De acordo com ortografia oficial da língua portuguesa, o uso do hífen na expressão “longas-metragens” é justificado por:",
+                "opcoes": [
+                      "se tratar da formação de uma palavra composta formada por dois substantivos.",
+                      "se tratar da formação de uma palavra composta formada por dois adjetivos.",
+                      "se tratar da formação de uma palavra composta formada por dois advérbios.",
+                      "se tratar da formação de uma palavra composta formada por um substantivo reduzido e um adjetivo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>se tratar da formação de uma palavra composta formada por dois substantivos.</strong>. Fonte: IDEP Brasil/2025. Assunto: ortografia.",
+                "banca": "IDEP Brasil",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Desatualizada Assinale a alternativa em que o uso do hífen está correto.",
+                "opcoes": [
+                      "mini-saia",
+                      "anti-social",
+                      "contra-reforma",
+                      "bem-humorado"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>mini-saia</strong>. Fonte: Ibest/2025. Assunto: ortografia.",
+                "banca": "Ibest",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em relação às ideias e aos aspectos linguísticos do texto anterior, julgue o item seguinte.\nConforme ortografia oficial atual, o termo “alto-mar” (quarto período do terceiro parágrafo) deveria ser grafado sem hífen — altomar.\nC) Certo\nE) Errado",
+                "opcoes": [
+                      "Certo",
+                      "Errado"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Errado</strong>. Fonte: CESPE / CEBRASPE/2025. Assunto: ortografia.",
+                "banca": "CESPE / CEBRASPE",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "certo_errado",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Assinalar a alternativa que preenche CORRETAMENTE as lacunas do texto.",
+                "opcoes": [
+                      "mal | afam | bem vindo",
+                      "mau | afã | bem-vindo",
+                      "mau | afam | bem vindo",
+                      "mal | afã | bem-vindo"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>mal | afã | bem-vindo</strong>. Fonte: OBJETIVA/2025. Assunto: ortografia.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Considerando a ortografia das palavras em Língua Portuguesa, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas nas linhas 23, 27 e 35.",
+                "opcoes": [
+                      "auto-sacrifício – Trata-se – bem viver",
+                      "autossacrifício – Trata-se – bem-viver",
+                      "auto-sacrifício – Tratasse – bem viver",
+                      "autossacrifício – Tratasse – bem-viver",
+                      "autosacrifício – Trata-se – bem-viver"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>autossacrifício – Trata-se – bem-viver</strong>. Fonte: FUNDATEC/2025. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao uso do hífen, considere a palavra \"questão-chave\" no trecho \"Recordo-me também de um trabalho acadêmico, onde meu orientador insistiu na formulação correta da questão-chave antes de avançar.\" De acordo com as novas regras do Acordo Ortográfico de 1990, o uso do hífen está correto. Qual das alternativas abaixo contém a utilização do hífen de forma correta?",
+                "opcoes": [
+                      "Anti-semita.",
+                      "Auto-aprendizagem.",
+                      "Pan-americano.",
+                      "Micro-radiografia."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Pan-americano.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em \"Essa visão ignora a complexidade do mundo natural, onde conflitos e relações predador-presa são essenciais e deveriam ser estudados, não censurados\", a palavra \"predador-presa\" está grafada corretamente com hífen, assim como a palavra:",
+                "opcoes": [
+                      "pan-africano.",
+                      "agro-industrial.",
+                      "eletro-siderurgia.",
+                      "contra-senha."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pan-africano.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Não sofre nenhum distanciamento com o para-brisa\", a palavra \"para-brisa\" está grafada em conformidade com as regras da ortografia oficial. Sobre o uso correto do termo, analise as seguintes afirmativas.",
+                "opcoes": [
+                      "A palavra \"para-brisa\" é grafada com hífen devido à presença de dois substantivos unidos, e seu plural regular é formado como \"os para-brisa\".",
+                      "A palavra \"para-brisa\" é um substantivo simples, e sua grafia segue as regras para palavras compostas com hífen, sem alteração de significado no plural.",
+                      "A palavra \"para-brisa\" é um substantivo composto por aglutinação, formado por um verbo e um substantivo, e seu plural é flexionado na forma: os para-brisas.",
+                      "A palavra \"para-brisa\" é um substantivo composto por justaposição, sendo formado por um verbo e um substantivo, e seu plural permanece invariável: os para-brisas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A palavra \"para-brisa\" é um substantivo composto por justaposição, sendo formado por um verbo e um substantivo, e seu plural permanece invariável: os para-brisas.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Com base no trecho a seguir: \"Nesse país o português é claro e direto, enquanto os mal-entendidos restam ao português-brasileiro\", analise o uso do hífen na palavra \"mal-entendidos\" e assinale a alternativa correta.",
+                "opcoes": [
+                      "O uso do hífen está correto, pois a palavra é formada por um prefixo \"mal-\" e um elemento que se lhes segue uma unidade sintagmática e semântica e começa por vogal.",
+                      "O uso do hífen está correto, pois a palavra \"mal-entendidos\" é uma palavra composta que segue a regra de união de prefixo com substantivo iniciando com a mesma letra.",
+                      "O uso do hífen está errado, pois o prefixo \"mal-\" não requer o hífen quando é seguido por um elemento que se lhes segue uma unidade sintagmática e semântica começado por \"e\".",
+                      "O hífen deveria ser substituído por um espaço, pois o termo \"mal entendidos\" está incorretamente unido."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O uso do hífen está correto, pois a palavra é formada por um prefixo \"mal-\" e um elemento que se lhes segue uma unidade sintagmática e semântica e começa por vogal.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em \"Essa visão ignora a complexidade do mundo natural, onde conflitos e relações predador-presa são essenciais e deveriam ser estudados, não censurados\", a palavra \"predador-presa\" está grafada corretamente com hífen, assim como a palavra:",
+                "opcoes": [
+                      "eletro-siderurgia.",
+                      "agro-industrial.",
+                      "contra-senha.",
+                      "pan-africano."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>pan-africano.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Em relação ao uso do hífen, considere a palavra \"questão-chave\" no trecho \"Recordo-me também de um trabalho acadêmico, onde meu orientador insistiu na formulação correta da questão-chave antes de avançar.\" De acordo com as novas regras do Acordo Ortográfico de 1990, o uso do hífen está correto. Qual das alternativas abaixo contém a utilização do hífen de forma correta?",
+                "opcoes": [
+                      "Pan-americano.",
+                      "Auto-aprendizagem.",
+                      "Micro-radiografia.",
+                      "Anti-semita."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Pan-americano.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "No trecho \"Era como se eu usasse um micro-ondas e tivesse mudado para um forno a gás...\", a palavra \"micro-ondas\" está corretamente grafada de acordo com as normas ortográficas. Assinale a alternativa que apresenta a explicação correta sobre a ortografia dessa palavra.",
+                "opcoes": [
+                      "Usa-se hífen nas formações em que o prefixo ou pseudoprefixo \"micro\" termina na mesma vogal com que se inicia o segundo elemento.",
+                      "A palavra \"micro-ondas\" deve ser grafada sem hífen, pois trata-se de um composto de formação mais recente, dispensando o uso do sinal.",
+                      "A palavra \"micro-ondas\" deveria ser grafada como \"microondas\", sem o uso de hífen, por ser um termo estrangeiro adaptado.",
+                      "A palavra \"micro-ondas\" exige o uso do hífen, mas somente quando é usada em expressões científicas e técnicas, como no caso do uso de fornos industriais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Usa-se hífen nas formações em que o prefixo ou pseudoprefixo \"micro\" termina na mesma vogal com que se inicia o segundo elemento.</strong>. Fonte: IBAM/2025. Assunto: ortografia.",
+                "banca": "IBAM",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra “bem−estar” (1º parágrafo) é escrita com hífen. Em qual das alternativas abaixo o uso do hífen está INCORRETO?",
+                "opcoes": [
+                      "Mal−criado.",
+                      "Bem−humorado.",
+                      "Mal−estar.",
+                      "Mal−humorado."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Mal−criado.</strong>. Fonte: OBJETIVA/2025. Assunto: ortografia.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra \"cachorro-quente\" está grafada corretamente com hífen, seguindo as regras do Novo Acordo Ortográfico. Nesse sentido, assinale a única alternativa em que o emprego do hífen está INCORRETO.",
+                "opcoes": [
+                      "Para-quedas.",
+                      "Guarda-chuva.",
+                      "Roda-gigante.",
+                      "Beija-flor."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Para-quedas.</strong>. Fonte: IDESG/2025. Assunto: ortografia.",
+                "banca": "IDESG",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "A palavra “contramão” passou a ser escrita sem hífen após a reforma ortográfica. Assinale a alternativa em desacordo com a referida reforma:",
+                "opcoes": [
+                      "Contra-argumento.",
+                      "Contra-ataque.",
+                      "Contra hegemonia.",
+                      "Contra-cena."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Contra-cena.</strong>. Fonte: AGIRH/2025. Assunto: ortografia.",
+                "banca": "AGIRH",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "\"Prefeitos, em busca de reeleição, frequentemente intensificam contratações para atender às demandas locais.\" De acordo com o Novo Acordo Ortográfico, o vocábulo 'reeleição' não possui hífen, pois o prefixo 're' se aglutina com palavras começadas por 'e'. As afirmativas a seguir apresentam corretamente as regras para o emprego do hífen, acompanhadas de exemplos que ilustram cada regra, EXCETO:",
+                "opcoes": [
+                      "Emprega-se o hífen quando o 1º elemento termina por vogal, r ou b e o 2º elemento se inicia por h: entre-hostil e infra-hepático.",
+                      "Emprega-se o hífen quando o 1º elemento termina por consoante igual à que inicia o 2º elemento : ad-digital, sub-base.",
+                      "Não se emprega o hífen nas locuções, sejam elas substantivas, adjetivas, pronominais, adverbiais, prepositivas ou conjuncionais: cão de guarda, cor de vinho e pé de meia.",
+                      "Emprega-se o hífen para ligar duas ou mais palavras que ocasionalmente se combinam, formando não propriamente vocábulos, mas encadeamento vocabulares: a divisa Liberdade-Igualdade-Fraternidade."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Não se emprega o hífen nas locuções, sejam elas substantivas, adjetivas, pronominais, adverbiais, prepositivas ou conjuncionais: cão de guarda, cor de vinho e pé de meia.</strong>. Fonte: AMEOSC/2025. Assunto: ortografia.",
+                "banca": "AMEOSC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Considerando a correta grafia das palavras, assinale a alternativa que preenche, correta e respectivamente, as lacunas tracejadas nas linhas 03, 18 e 27.",
+                "opcoes": [
+                      "&#x20;neuroimagem – ultraprocessado – subnutridos",
+                      "neuro-imagem – ultraprocessado – sub-nutridos",
+                      "&#x20;neuroimagem – ultra-processado – subnutridos",
+                      "neuro-imagem – ultra-processado – sub-nutridos",
+                      "neuro-imagem – ultra-processado – subnutridos"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>&#x20;neuroimagem – ultraprocessado – subnutridos</strong>. Fonte: FUNDATEC/2025. Assunto: ortografia.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
+                ]
+          },
+          {
+                "enunciado": "Considerando-se o uso ou não do hífen, assinalar a alternativa em que todas as palavras estão grafadas CORRETAMENTE.",
+                "opcoes": [
+                      "Microondas | contra-ataque | auto-observação.",
+                      "Além-fronteira | antihigiênico | conta-gotas.",
+                      "Cor-de-rosa | bem-vindo | azul turquesa.",
+                      "Capim-acú | corre-corre | semi-interno."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Capim-acú | corre-corre | semi-interno.</strong>. Fonte: OBJETIVA/2025. Assunto: ortografia.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "Conhecimentos sobre aspectos morfossintáticos e/ou ortográficos da língua portuguesa são fundamentais para uma boa compreensão da estrutura do idioma. Sobre eles, é possível afirmar que, na tirinha,",
+                "opcoes": [
+                      "a utilização de hífen na palavra “bem-estar”, no terceiro quadrinho, justifica-se porque o prefixo “bem” sempre é utilizado com hífen, exceto em compostos nos quais “bem” aglutina-se com o segundo elemento.",
+                      "no período “deviam dar casa, trabalho, proteção e bem-estar aos pobres”, no terceiro quadrinho, há a presença de um sujeito desinencial.",
+                      "o uso da ênclise em “escondê-los”, no quarto quadrinho, justifica-se porque a oração está em ordem inversa, iniciando pelo objeto direto.",
+                      "no período “Quando eu vejo um pobre fico com o coração apertado”, no segundo quadrinho, há uma oração subordinada substantiva subjetiva."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a utilização de hífen na palavra “bem-estar”, no terceiro quadrinho, justifica-se porque o prefixo “bem” sempre é utilizado com hífen, exceto em compostos nos quais “bem” aglutina-se com o segundo elemento.</strong>. Fonte: IF Sul Rio-Grandense/2025. Assunto: ortografia.",
+                "banca": "IF Sul Rio-Grandense",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia",
+                      "hifen"
+                ]
+          },
+          {
+                "enunciado": "“É o que constata uma revisão de estudos que analisou autorrelatos de solidão e saúde neurológica de mais de 600 mil pessoas \\[...]”. Analogamente à palavra autorrelatos, analise as palavras a seguir e assinale aquela grafada CORRETAMENTE:",
+                "opcoes": [
+                      "antesala.",
+                      "anti-social.",
+                      "autoregulamentação.",
+                      "microssistema.",
+                      "mini-saia."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>microssistema.</strong>. Fonte: IF-ES/2025. Assunto: ortografia.",
+                "banca": "IF-ES",
+                "ano": 2025,
+                "assunto": "Ortografia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "ortografia"
                 ]
           }
     ],
@@ -45390,6 +49695,27 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "formacaoPalavras",
                       "paroxitonas"
+                ]
+          },
+          {
+                "enunciado": "Assinale a alternativa que se apresenta totalmente correta em relação à ocorrência ou não de crase.",
+                "opcoes": [
+                      "De acordo com as investigações policiais, foi um tiro a queima-roupa, e por isso não provocou tantos danos à vítima da agressão.",
+                      "Entre a carne e a salada, prefiro um bife a parmegiana, mas não desprezo os vegetais, sendo eles essenciais à saúde das pessoas.",
+                      "O incidente ocorreu as quinze horas e trinta minutos, conforme a ficha técnica que o perito encaminhou à minha secretária.",
+                      "À meia-noite, de domingo a sábado, saem as criaturas à caça de vítimas, conforme reza a lenda daquela comunidade ligada às tradições locais.",
+                      "À custa de muito sacrifício, foi dado um fim a saga dos aventureiros que pretendiam a abolição dos direitos conquistados a duras penas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>À meia-noite, de domingo a sábado, saem as criaturas à caça de vítimas, conforme reza a lenda daquela comunidade ligada às tradições locais.</strong>. Fonte: Instituto Avalia/2025. Assunto: formacaoPalavras.",
+                "banca": "Instituto Avalia",
+                "ano": 2025,
+                "assunto": "Formação de Palavras",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "formacaoPalavras",
+                      "crase"
                 ]
           }
     ],
@@ -53057,6 +57383,50 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "pontuacao"
+                ]
+          },
+          {
+                "enunciado": "Considere o trecho “Isso sempre me pareceu um pouquinho demais. Porque o significado de conforto não pode ser reduzido àquele que vem do latim \\[...]” Sobre a organização morfossintática do trecho acima, analise as afirmativas a seguir. I. O pronome demonstrativo “isso” foi usado como um elemento de coesão e remete a uma afirmação que está posposta a ele. II. A conjunção “Porque” poderia ser sido substituída por “entretanto”, sem que houvesse alteração semântica no trecho. III. A posição proclítica do pronome “me” é obrigatória segundo a norma, uma vez que o advérbio “sempre” é uma palavra atrativa. IV. O sinal indicativo de crase usado na palavra “àquele” se justifica pela fusão de a (preposição) com o “a” (artigo feminino). V. O ponto final depois de “demais” poderia ser substituído por vírgula, e a palavra “Porque” teria sua letra inicial minúscula. Estão CORRETAS as afirmativas",
+                "opcoes": [
+                      "&#x20;I, II e IV, apenas.",
+                      "III, IV e V, apenas.",
+                      "III e V, apenas.",
+                      "I e V, apenas.",
+                      "II, III e IV, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>III e V, apenas.</strong>. Fonte: FADENOR/2022. Assunto: pontuacao.",
+                "banca": "FADENOR",
+                "ano": 2022,
+                "assunto": "pontuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "pontuacao",
+                      "crase"
+                ]
+          }
+    ],
+    "interpretacaoTextos": [
+          {
+                "enunciado": "Analise as afirmativas a seguir, tendo em vista a estrutura morfossintática das falas do texto 02. I. O sinal grave indicativo de crase nos termos “às duas”, às seis” e às oito” foi usado porque, de acordo com a norma, trata-se de expressões adverbiais femininas. II. Na expressão “às seis na música” nota-se uma marca de coloquialidade em relação à regência do verbo “ir”, o qual, de acordo com a norma, exige o uso da preposição “a”. III. Nas expressões “você vai ao francês”, “você vai ao futebol” e você vai ao reforço de aula”, o termo “ao” deveria ser substituído, de acordo com a norma, por “no”. IV. O emprego da expressão “você vai” poderia ser substituído, com igual correção, por “você irá”. V. Nas expressões “às quatro”, “às seis” e “às oito” a palavra “horas” pôde ser suprimida, porque ela já havia sido referida no contexto. Estão CORRETAS as afirmativas",
+                "opcoes": [
+                      "III, IV e V, apenas.",
+                      "II, III e IV, apenas.",
+                      "I, III e V, apenas.",
+                      "I, II, IV e V, apenas.",
+                      "I, II, III, IV e V."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, II, IV e V, apenas.</strong>. Fonte: FADENOR/2023. Assunto: interpretacaoTextos.",
+                "banca": "FADENOR",
+                "ano": 2023,
+                "assunto": "interpretacaoTextos",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "interpretacaoTextos",
+                      "crase"
                 ]
           }
     ],
