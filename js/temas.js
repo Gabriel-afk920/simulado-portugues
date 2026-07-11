@@ -3602,6 +3602,10 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
 </ul>
 
+<h3>Hifenização — Emprego do Hífen</h3>
+<p>A <strong>hifenização</strong> é o processo de unir elementos com o hífen. Uma palavra está <strong>hifenizada</strong> (ou <strong>hifenizada devidamente</strong>) quando o hífen é empregado corretamente segundo as regras do Acordo Ortográfico. Palavras <strong>hifenizadas</strong> incorretamente violam as regras — e identificar esse erro é o foco de muitas questões de prova.</p>
+<p>O <strong>emprego do hífen</strong> segue as regras de prefixação e composição acima. Para verificar se uma palavra está hifenizada corretamente: (1) identifique o prefixo; (2) veja com qual letra começa o segundo elemento; (3) aplique a regra correspondente.</p>
+
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
 <strong style="color:#38bdf8;">Dicas para a prova</strong>
 <ul style="color:#cbd5e1;margin-top:8px;">
@@ -3609,6 +3613,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Vogal igual pede hífen</strong>: micro + ondas → micro-ondas (o+o). Vogais diferentes → sem hífen: autoescola (o+e).</li>
   <li><strong>Recém sempre tem hífen</strong>: recém-formado, recém-chegado — sem exceção.</li>
   <li><strong>R e S dobram</strong> em vez de usar hífen: anti+religioso = antirreligioso; mini+saia = minissaia.</li>
+  <li><strong>"Está hifenizada devidamente"</strong>: questões assim pedem para identificar qual palavra NÃO segue as regras de hifenização.</li>
 </ul>
 </div>`,
     questoes: []
