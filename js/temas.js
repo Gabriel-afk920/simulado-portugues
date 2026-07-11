@@ -1594,6 +1594,9 @@ const TEMAS = [
     <li><em>i</em> ou <em>u</em> com acento gráfico (í, ú) = sempre hiato, nunca fica junto com vogal anterior.</li>
   </ul>
 </div>
+<div class="dica-box"><div class="dica-title">Fonologia — a ciência dos sons</div>
+<p><strong>Fonologia</strong> é o ramo da gramática que estuda os fonemas e os sons da língua. A fonologia analisa como os fonemas se organizam e se relacionam no sistema da língua portuguesa. Cada fonema tem valor distintivo: trocar um fonema muda o significado da palavra.</p>
+</div>
 `,
     questoes: []
   },
@@ -2089,6 +2092,7 @@ const TEMAS = [
     <li>"Obséquio", "negócio", "benefício" — memorize as grafias corretas com e/i.</li>
     <li><em>Porque</em> (conjunção) × <em>por que</em> (interrogativo) × <em>porquê</em> (substantivo) × <em>por quê</em> (final de frase).</li>
     <li>Ordem alfabética: letra a letra, da esquerda para direita; acento não conta para a ordenação.</li>
+    <li>Questões de <strong>lacuna no texto</strong> ou <strong>preenche a lacuna</strong>: escolha a palavra ortograficamente correta para preencher o espaço em branco — aplique as regras de s/z/x/ss/ç e as demais normas vigentes.</li>
   </ul>
 </div>`,
     questoes: [
@@ -4104,9 +4108,19 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </table>
 </div>
 
+<h3>PONTO FINAL E OUTROS SINAIS DE TÉRMINO</h3>
+<div style="background:#1e293b;border-radius:8px;padding:12px 16px;margin-bottom:16px;">
+<ul style="color:#cbd5e1;margin:0;">
+  <li><strong>Ponto final (.)</strong> — encerra período declarativo ou imperativo: <em>"Ela foi embora."</em> O emprego do ponto final também ocorre em abreviações (Dr., Sr., etc.).</li>
+  <li><strong>Ponto de interrogação (?)</strong> — perguntas diretas: <em>"Quando chegarás?"</em></li>
+  <li><strong>Ponto de exclamação (!)</strong> — emoção, ordem ou surpresa: <em>"Que notícia!"</em></li>
+</ul>
+</div>
+
 <div style="background:#1e293b;border-radius:8px;padding:16px;">
 <strong style="color:#38bdf8;">Dicas de prova</strong>
 <ul style="color:#cbd5e1;margin-top:8px;">
+  <li>O <strong>emprego da vírgula</strong> é o tópico mais cobrado em pontuação. O emprego da vírgula segue regras obrigatórias (vocativo, aposto, adjunto adverbial deslocado) e casos proibidos (entre sujeito e verbo).</li>
   <li>A questão de pontuação mais cobrada é a <strong>vírgula</strong> — memorize os casos proibidos (entre sujeito/verbo e verbo/objeto).</li>
   <li>Teste cada alternativa substituindo a pontuação proposta e lendo em voz alta — o sentido muda? Se sim, está errado.</li>
   <li>Oração adjetiva: pergunte "essa informação identifica ou apenas acrescenta?". Se identifica → restritiva → sem vírgula. Se acrescenta → explicativa → com vírgula.</li>
