@@ -3603,7 +3603,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 
 <h3>Hifenização — Emprego do Hífen</h3>
-<p>A <strong>hifenização</strong> é o processo de unir elementos com o hífen. Uma palavra está <strong>hifenizada</strong> (ou <strong>hifenizada devidamente</strong>) quando o hífen é empregado corretamente segundo as regras do Acordo Ortográfico. Palavras <strong>hifenizadas</strong> incorretamente violam as regras — e identificar esse erro é o foco de muitas questões de prova.</p>
+<p>A <strong>hifenização</strong> é o processo de unir elementos com o hífen. Uma palavra está <strong>hifenizada</strong> (ou um conjunto de termos está <strong>hifenizado</strong> / <strong>hifenizados</strong>) quando o hífen é empregado corretamente segundo as regras do Acordo Ortográfico. Palavras <strong>hifenizadas</strong> ou termos <strong>hifenizados</strong> incorretamente violam as regras — e identificar esse erro é o foco de muitas questões de prova.</p>
 <p>O <strong>emprego do hífen</strong> segue as regras de prefixação e composição acima. Para verificar se uma palavra está hifenizada corretamente: (1) identifique o prefixo; (2) veja com qual letra começa o segundo elemento; (3) aplique a regra correspondente.</p>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
@@ -3698,7 +3698,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "colocacaoPronominal", nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
     teoria: `
 <h3>O que é Colocação Pronominal?</h3>
-<p>Estuda a posição dos <strong>pronomes oblíquos átonos</strong> (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo. Há três posições possíveis:</p>
+<p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Há três posições possíveis:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
   <thead>
