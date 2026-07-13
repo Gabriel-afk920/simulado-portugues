@@ -81,6 +81,11 @@
     .tema-card.selected  { border-color: #38bdf8; background: #0c4a6e; }
     .tema-card .icon { font-size: 1.8rem; margin-bottom: 6px; }
     .tema-card .nome { font-weight: 600; font-size: 0.95rem; }
+    .tema-card .card-count {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      color: #38bdf8; background: #0c2a40;
+      border-radius: 99px; padding: 2px 10px; margin: 5px 0 2px;
+    }
     .tema-card .desc { font-size: 0.78rem; color: #94a3b8; margin-top: 4px; }
     .perf-badge {
       position: absolute; top: 8px; right: 8px;

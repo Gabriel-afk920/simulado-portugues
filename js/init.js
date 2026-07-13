@@ -54,9 +54,11 @@
       id: 'fonetica_ortografia',
       nome: 'Fonética e Ortografia',
       icon: '📖',
-      desc: 'Todos os temas reunidos — ' + qFon.length + ' questões',
+      desc: 'Fonética, ortografia, acentuação e sílabas',
       teoria: '<h3>Fonética e Ortografia</h3><p>Esta seção reúne todos os temas de fonética e ortografia.</p>',
-      questoes: qFon
+      questoes: qFon,
+      subtemas: IDS_FON,
+      ocultar_subtemas: ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica']
     });
   }
   // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────

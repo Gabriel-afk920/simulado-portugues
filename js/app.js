@@ -139,12 +139,12 @@ function ir(id) {
 //  HOME
 // ══════════════════════════════════════════════════════════
 document.getElementById('btn-ir-estudar').addEventListener('click', () => {
-  renderTemaGrid('study-tema-grid', abrirTeoria, IDS_FONETICA_ORTOGRAFIA);
+  renderTemaGrid('study-tema-grid', abrirTeoria);
   ir('screen-study-topics');
 });
 
 function _abrirTelaSimulado() {
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, IDS_FONETICA_ORTOGRAFIA);
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
@@ -153,20 +153,24 @@ function _abrirTelaSimulado() {
   try {
     const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
     if (!s || !s.temaId) return;
-    if (s.temaId === 'fonetica_mix') {
-      // Sessão de Fonética: reconstruir tema com todas as questões disponíveis
-      temaAtual = {
-        id: 'fonetica_mix',
-        nome: 'Fonética e Ortografia',
-        questoes: IDS_FONETICA_ORTOGRAFIA.flatMap(id => {
-          const t = TEMAS.find(x => x.id === id);
-          return t ? t.questoes : [];
-        }),
-      };
-      const respondidas = Object.keys(s.respostasMap || {}).length;
-      document.getElementById('continuar-info').textContent =
-        `questão ${s.indiceAtual + 1} de ${s.questaoHashes.length} · ${respondidas} respondidas`;
-      document.getElementById('continuar-box').style.display = '';
+    if (s.temaId.endsWith('_mix')) {
+      // Sessão de tema com subtemas: reconstruir questões do tema pai
+      const parentId = s.temaId.replace(/_mix$/, '');
+      const parentTema = TEMAS.find(t => t.id === parentId);
+      if (parentTema && parentTema.subtemas) {
+        temaAtual = {
+          id: s.temaId,
+          nome: parentTema.nome,
+          questoes: parentTema.subtemas.flatMap(subId => {
+            const sub = TEMAS.find(x => x.id === subId);
+            return sub ? sub.questoes : [];
+          }),
+        };
+        const respondidas = Object.keys(s.respostasMap || {}).length;
+        document.getElementById('continuar-info').textContent =
+          `questão ${s.indiceAtual + 1} de ${s.questaoHashes.length} · ${respondidas} respondidas`;
+        document.getElementById('continuar-box').style.display = '';
+      }
     } else {
       const card = document.querySelector(`#quiz-tema-grid [data-id="${s.temaId}"]`);
       if (card) card.click();
@@ -182,16 +186,15 @@ document.getElementById('btn-back-quiz-home').addEventListener('click',  () => i
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
-const IDS_FONETICA_ORTOGRAFIA = ['ditongos','digrafos','encontrosConsonantais','hiatos','fonemas','ortografia','tritongos','silabas','acentuacaoGrafica','crase','tonicidade','hifen','oxitonas','paroxitonas','proparoxitonas'];
-// Excluídos da grade de sub-temas (conteúdo já coberto pelo card Acentuação Gráfica renomeado)
-const IDS_OCULTAR_SUBTELA = ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica'];
+let _temaSubtemasAtual = null;
 
-function renderTemaGrid(gridId, onClickFn, excluir) {
+function renderTemaGrid(gridId, onClickFn) {
+  const excluir = TEMAS.flatMap(t => t.subtemas || []);
   const grid = document.getElementById(gridId);
   const hist = _historico();
   grid.innerHTML = '';
   TEMAS.forEach(t => {
-    if (excluir && excluir.includes(t.id)) return;
+    if (excluir.includes(t.id)) return;
     const card = document.createElement('div');
     card.className = 'tema-card';
     card.dataset.id = t.id;
@@ -204,7 +207,9 @@ function renderTemaGrid(gridId, onClickFn, excluir) {
       badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
     }
 
-    card.innerHTML = `${badge}<div class="icon">${t.icon}</div><div class="nome">${t.nome}</div><div class="desc">${t.desc}</div>`;
+    const nQ = t.questoes ? t.questoes.length : 0;
+    const countEl = nQ > 0 ? `<div class="card-count">${nQ} questões</div>` : '';
+    card.innerHTML = `${badge}<div class="icon">${t.icon}</div><div class="nome">${t.nome}</div>${countEl}<div class="desc">${t.desc}</div>`;
     card.addEventListener('click', () => onClickFn(t.id, card));
     grid.appendChild(card);
   });
@@ -216,11 +221,15 @@ function renderTemaGrid(gridId, onClickFn, excluir) {
 let origemTeoria = 'screen-study-topics';
 
 function abrirTeoria(id) {
-  if (id === 'fonetica_ortografia') {
+  const t = TEMAS.find(x => x.id === id);
+  if (!t) return;
+
+  if (t.subtemas && t.subtemas.length) {
+    const ocultar = t.ocultar_subtemas || [];
     const grid = document.getElementById('study-fonetica-grid');
     grid.innerHTML = '';
-    IDS_FONETICA_ORTOGRAFIA.forEach(subId => {
-      if (IDS_OCULTAR_SUBTELA.includes(subId)) return;
+    t.subtemas.forEach(subId => {
+      if (ocultar.includes(subId)) return;
       const sub = TEMAS.find(x => x.id === subId);
       if (!sub) return;
       const card = document.createElement('div');
@@ -236,7 +245,6 @@ function abrirTeoria(id) {
     return;
   }
 
-  const t = TEMAS.find(x => x.id === id);
   temaAtual = t;
 
   const container = document.getElementById('teoria-container');
@@ -275,11 +283,13 @@ document.getElementById('btn-fazer-simulado-da-teoria').addEventListener('click'
 //  SEÇÃO SIMULADO — seleção de tema
 // ══════════════════════════════════════════════════════════
 function selecionarTemaQuiz(id, card) {
-  if (id === 'fonetica_ortografia') {
-    const grid = document.getElementById('quiz-fonetica-grid');
-    const subtemasDisponiveis = IDS_FONETICA_ORTOGRAFIA
-      .map(id => TEMAS.find(x => x.id === id))
-      .filter(sub => sub && sub.questoes && sub.questoes.length && !IDS_OCULTAR_SUBTELA.includes(sub.id));
+  const t = TEMAS.find(x => x.id === id);
+  if (t && t.subtemas && t.subtemas.length) {
+    _temaSubtemasAtual = t;
+    const ocultar = t.ocultar_subtemas || [];
+    const subtemasDisponiveis = t.subtemas
+      .map(subId => TEMAS.find(x => x.id === subId))
+      .filter(sub => sub && sub.questoes && sub.questoes.length && !ocultar.includes(sub.id));
     _renderSubtemasQuiz(subtemasDisponiveis);
     ir('screen-quiz-fonetica');
     return;
@@ -381,7 +391,8 @@ document.getElementById('btn-iniciar-fonetica').addEventListener('click', () => 
     const sub = TEMAS.find(x => x.id === subId);
     if (sub && sub.questoes) questoesCombinadas.push(...sub.questoes);
   });
-  iniciarSimulado({ id: 'fonetica_mix', nome: 'Fonética e Ortografia', questoes: questoesCombinadas });
+  const parent = _temaSubtemasAtual || { id: 'fonetica', nome: 'Fonética e Ortografia' };
+  iniciarSimulado({ id: parent.id + '_mix', nome: parent.nome, questoes: questoesCombinadas });
 });
 
 // ══════════════════════════════════════════════════════════
@@ -724,7 +735,7 @@ document.getElementById('btn-home-result').addEventListener('click', () => {
 
 document.getElementById('btn-estudar-result').addEventListener('click', () => {
   if (temaAtual) {
-    renderTemaGrid('study-tema-grid', abrirTeoria, IDS_FONETICA_ORTOGRAFIA);
+    renderTemaGrid('study-tema-grid', abrirTeoria);
     abrirTeoria(temaAtual.id);
   }
 });
