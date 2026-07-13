@@ -481,7 +481,14 @@ function renderQuestao() {
     const tipo    = q.tipo === 'certo_errado' ? '<span class="concurso-tipo">Certo ou Errado</span>' : '';
     cabecalho = `<div class="concurso-header"><span class="concurso-banca">${partes}</span>${tipo}</div>`;
   }
-  document.getElementById('question-text').innerHTML = cabecalho + q.enunciado;
+  let enuncHtml = q.enunciado;
+  if (q.imagens && q.imagens.length > 0) {
+    q.imagens.forEach(function(src, i) {
+      enuncHtml = enuncHtml.replace('[[IMG_' + i + ']]',
+        '<div class="questao-imagem"><img src="' + src + '" alt="Imagem da questão"></div>');
+    });
+  }
+  document.getElementById('question-text').innerHTML = cabecalho + enuncHtml;
 
 
   // Ordem das opções: reutiliza se já foi gerada para esta questão
