@@ -102,7 +102,7 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
 // ══════════════════════════════════════════════════════════
 //  ESTADO DO SIMULADO
 // ══════════════════════════════════════════════════════════
-const TEMPO_POR_QUESTAO = 600; // 10 minutos por questão
+const TEMPO_POR_QUESTAO = 1200; // 20 minutos por questão
 let temaAtual        = null;
 let questoes         = [];
 let indiceAtual      = 0;
@@ -116,6 +116,8 @@ let simuladoPausado  = false;
 let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (reseta ao sair para temas)
 let tempoSimulado    = TEMPO_POR_QUESTAO;
 let respondeu        = false;
+let filaPuladas      = [];   // questões puladas aguardando rodada extra
+let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
 
 
 // ══════════════════════════════════════════════════════════
@@ -408,6 +410,8 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
   respostasMap     = {};
   shuffleMap       = {};
   teoriaConsultada = {};
+  filaPuladas      = [];
+  emRodadaPuladas  = false;
   clearInterval(timerInterval);
   simuladoPausado = false;
   document.getElementById('btn-pausar').textContent = '⏸ Pausar';
@@ -426,8 +430,8 @@ function _iniciarTimerQuestao() {
     if (simuladoPausado) return;
     tempoSimulado--;
     timerEl.textContent = _fmtTempo(tempoSimulado);
-    if      (tempoSimulado <= 30) timerEl.className = 'timer-box danger';
-    else if (tempoSimulado <= 60) timerEl.className = 'timer-box warning';
+    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
+    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
     if (tempoSimulado <= 0) {
       clearInterval(timerInterval);
       registrarResposta(-1);
@@ -466,7 +470,9 @@ function renderQuestao() {
   }
 
   _atualizarPlacar();
-  document.getElementById('progress-info').textContent = `Questão ${indiceAtual + 1} de ${total}`;
+  document.getElementById('progress-info').textContent = emRodadaPuladas
+    ? `🔄 Questão pulada — ${indiceAtual + 1} de ${total}`
+    : `Questão ${indiceAtual + 1} de ${total}`;
   document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
 
@@ -581,9 +587,24 @@ document.getElementById('btn-next').addEventListener('click', () => {
 
 
 document.getElementById('btn-pular').addEventListener('click', () => {
+  // Na primeira rodada: guarda a questão pulada para tentar no final
+  if (!emRodadaPuladas) {
+    filaPuladas.push(questoes[indiceAtual]);
+  }
   indiceAtual++;
-  if (indiceAtual < questoes.length) renderQuestao();
-  else mostrarResultado();
+  if (indiceAtual < questoes.length) {
+    renderQuestao();
+  } else if (!emRodadaPuladas && filaPuladas.length > 0) {
+    // Acabaram as questões normais → inicia rodada das puladas
+    emRodadaPuladas = true;
+    const idxInicio = questoes.length;
+    questoes = questoes.concat(filaPuladas);
+    filaPuladas = [];
+    indiceAtual = idxInicio;
+    renderQuestao();
+  } else {
+    mostrarResultado();
+  }
 });
 
 document.getElementById('btn-voltar-temas').addEventListener('click', () => {
