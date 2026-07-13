@@ -536,7 +536,7 @@ function renderQuestao() {
 
   btnPular.style.display = jaResp ? 'none' : '';
   btnNext.style.display  = jaResp ? '' : 'none';
-  btnNext.textContent    = indiceAtual + 1 < total ? 'Próxima questão →' : 'Ver resultado';
+  btnNext.textContent    = (indiceAtual + 1 < total || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
 }
 
 function registrarResposta(escolhida) {
@@ -575,36 +575,35 @@ function registrarResposta(escolhida) {
 
   document.getElementById('btn-pular').style.display = 'none';
   const btnNext = document.getElementById('btn-next');
-  btnNext.textContent = indiceAtual + 1 < questoes.length ? 'Próxima questão →' : 'Ver resultado';
+  btnNext.textContent = (indiceAtual + 1 < questoes.length || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
   btnNext.style.display = '';
 }
 
-document.getElementById('btn-next').addEventListener('click', () => {
-  indiceAtual++;
-  if (indiceAtual < questoes.length) renderQuestao();
-  else mostrarResultado();
-});
-
-
-document.getElementById('btn-pular').addEventListener('click', () => {
-  // Na primeira rodada: guarda a questão pulada para tentar no final
-  if (!emRodadaPuladas) {
-    filaPuladas.push(questoes[indiceAtual]);
-  }
+// Avança para próxima questão ou, se acabaram, processa a fila de puladas.
+// Só chama mostrarResultado() quando a fila de puladas também está vazia.
+function _avancarOuResultado() {
   indiceAtual++;
   if (indiceAtual < questoes.length) {
     renderQuestao();
-  } else if (!emRodadaPuladas && filaPuladas.length > 0) {
-    // Acabaram as questões normais → inicia rodada das puladas
-    emRodadaPuladas = true;
+  } else if (filaPuladas.length > 0) {
     const idxInicio = questoes.length;
-    questoes = questoes.concat(filaPuladas);
-    filaPuladas = [];
-    indiceAtual = idxInicio;
+    questoes       = questoes.concat(filaPuladas);
+    filaPuladas    = [];
+    emRodadaPuladas = true;
+    indiceAtual    = idxInicio;
     renderQuestao();
   } else {
     mostrarResultado();
   }
+}
+
+document.getElementById('btn-next').addEventListener('click', _avancarOuResultado);
+
+
+document.getElementById('btn-pular').addEventListener('click', () => {
+  // Sempre guarda na fila — o simulado não termina enquanto houver questões puladas
+  filaPuladas.push(questoes[indiceAtual]);
+  _avancarOuResultado();
 });
 
 document.getElementById('btn-voltar-temas').addEventListener('click', () => {
