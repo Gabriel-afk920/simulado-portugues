@@ -1859,7 +1859,7 @@ const TEMAS = [
 </ul>
 <p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
 <p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos (a cobra, o jacaré); <strong>sobrecomuns</strong> têm uma só forma para pessoas de qualquer sexo (a criança, o cônjuge).</p>
-<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (analítico) ou por palavra separada como "casa grande"/"casa pequena" (sintético... na verdade o oposto: com sufixo é <em>sintético</em>, com palavra separada é <em>analítico</em>).</p>
+<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (sintético) ou por palavra separada como "casa grande"/"casa pequena" (analítico). Além do sufixo mais comum <em>-ão</em> (casarão, portão), existem outros sufixos aumentativos menos frequentes, mas cobrados em prova: <em>-aço</em> (barcaço), <em>-alhão</em> (grandalhão), <em>-eirão</em> (vozeirão), <em>-aréu</em> (fogaréu). Todos indicam o mesmo processo — grau aumentativo do substantivo —, mesmo com sufixos diferentes.</p>
 <p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo).</p>
 
 <h3>2. Adjetivo</h3>
@@ -1878,11 +1878,11 @@ const TEMAS = [
 <h3>4. Pronome</h3>
 <p>Substitui ou acompanha o substantivo.</p>
 <ul>
-  <li><strong>Pessoais:</strong> eu, tu, ele/ela, nós, vós, eles/elas</li>
+  <li><strong>Pessoais:</strong> eu, tu, ele/ela, nós, vós, eles/elas (caso reto — função de sujeito) × me, ti, o/a, lhe, nos, vos, os/as, lhes, mim, comigo etc. (caso oblíquo — função de complemento). Depois de preposição, usa-se o pronome oblíquo tônico, não o reto: <em>"para mim"</em> (correto) e não <em>"para eu"</em>; exceção quando há um verbo no infinitivo logo depois: <em>"para eu fazer"</em>.</li>
   <li><strong>Possessivos:</strong> meu, teu, seu, nosso, vosso</li>
-  <li><strong>Demonstrativos:</strong> este, esse, aquele (variações)</li>
-  <li><strong>Relativos:</strong> que, quem, o qual, cujo</li>
-  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada</li>
+  <li><strong>Demonstrativos:</strong> <em>este/esta/isto</em> indica o que está perto de quem fala (ou vai ser dito a seguir); <em>esse/essa/isso</em> indica o que está perto de quem ouve (ou já foi dito antes); <em>aquele/aquela/aquilo</em> indica o que está distante de ambos.</li>
+  <li><strong>Relativos:</strong> que, quem, o qual, cujo, onde — retomam um termo anterior (antecedente) e podem exigir a preposição regida pelo verbo da oração que introduzem (ex.: "notícia <strong>de que</strong>" porque "ter notícia <strong>de</strong> algo").</li>
+  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada, algum, qualquer — indicam <strong>indeterminação</strong> (quantidade ou identidade não especificada, vaga).</li>
   <li><strong>Interrogativos:</strong> quem?, que?, qual?, quanto?</li>
 </ul>
 
@@ -1979,6 +1979,13 @@ const TEMAS = [
 <div class="exemplo-box">
   <em>análise</em> (s) · <em>analisar</em> (s) · <em>beleza</em> (z) · <em>processo</em> (ss) · <em>caçar</em> (ç)
 </div>
+
+<h3>Uso de R × RR</h3>
+<ul>
+  <li><strong>R simples entre vogais</strong>: representa o som fraco ("tepid" R), como em ca<em>r</em>o, pe<em>r</em>a.</li>
+  <li><strong>RR entre vogais</strong>: representa o som forte (vibrante), como em ca<em>rr</em>o, te<em>rr</em>a. Só existe <strong>entre vogais</strong> — no início de palavra ou depois de consoante, o R simples já tem som forte (<em>r</em>ato, hon<em>r</em>a).</li>
+  <li>Dica: se ao remover um prefixo a palavra passaria a começar com R, dobra-se o R para manter o som forte: sub + rogar → sub<em>rr</em>ogar; contra + regra → contra<em>rr</em>egra.</li>
+</ul>
 
 <h3>Uso de G × J</h3>
 <ul>
@@ -3067,6 +3074,17 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <h3>O que é Formação de Palavras?</h3>
 <p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família; já "mão" e "manual" pertencem a famílias diferentes, apesar da semelhança). Cada afixo carrega um <strong>valor semântico</strong> (um sentido) próprio — por isso, saber o significado de um prefixo ou sufixo ajuda a deduzir o sentido de palavras desconhecidas na prova.</p>
 
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Tipos de Gramática (concepções de gramática)</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Gramática normativa</strong>: prescreve regras do que é "certo" e "errado" segundo a norma culta.</li>
+  <li><strong>Gramática descritiva</strong>: descreve como as pessoas realmente falam, sem julgar certo/errado.</li>
+  <li><strong>Gramática internalizada</strong>: o conhecimento intuitivo da língua que toda criança adquire naturalmente, antes de qualquer estudo formal — é o que permite a uma criança falar e entender frases novas sem ter aprendido regras.</li>
+  <li><strong>Gramática histórica</strong>: estuda a evolução da língua ao longo do tempo.</li>
+  <li><strong>Gramática tradicional</strong>: conjunto de regras consagradas pelo uso e ensino escolar, geralmente associada à norma culta.</li>
+</ul>
+</div>
+
 <div class="exemplo-box">
   <strong>Os dois grandes processos:</strong><br><br>
   <strong>Derivação</strong> → parte de uma palavra já existente e acrescenta afixos (prefixo, sufixo) ou altera a classe gramatical.<br>
@@ -3135,6 +3153,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">contra-</td><td style="padding:7px 9px;color:#94a3b8;">oposição, em frente</td><td style="padding:7px 9px;color:#cbd5e1;">contradizer, contrapartida, contrariar</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">de- / des- / di- / dis-</td><td style="padding:7px 9px;color:#94a3b8;">negação, reversão, separação</td><td style="padding:7px 9px;color:#cbd5e1;">desfazer, deslealdade, discordar, divergir</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">ex-</td><td style="padding:7px 9px;color:#94a3b8;">fora de, que foi (cargo)</td><td style="padding:7px 9px;color:#cbd5e1;">exportar, ex-presidente, excluir, externo</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">e- (emigrar)</td><td style="padding:7px 9px;color:#94a3b8;">sair do próprio país/lugar</td><td style="padding:7px 9px;color:#cbd5e1;">emigrar (brasileiro que emigra do Brasil)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">i- (imigrar)</td><td style="padding:7px 9px;color:#94a3b8;">entrar em um país/lugar (vindo de fora)</td><td style="padding:7px 9px;color:#cbd5e1;">imigrar (italiano que imigra para o Brasil). "Migrar" é o termo geral, sem indicar direção.</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">extra-</td><td style="padding:7px 9px;color:#94a3b8;">fora de, além de</td><td style="padding:7px 9px;color:#cbd5e1;">extracurricular, extraordinário, extraoficial</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">in- / im- / il- / ir-</td><td style="padding:7px 9px;color:#94a3b8;">negação, privação</td><td style="padding:7px 9px;color:#cbd5e1;">infeliz, impossível, ilegal, irreal</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">inter-</td><td style="padding:7px 9px;color:#94a3b8;">entre, no meio de</td><td style="padding:7px 9px;color:#cbd5e1;">interagir, internacional, interdisciplinar</td></tr>
@@ -3169,7 +3189,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">a- / an-</td><td style="padding:7px 9px;color:#94a3b8;">negação, privação</td><td style="padding:7px 9px;color:#cbd5e1;">amoral, atípico, anormal, anônimo</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">anti-</td><td style="padding:7px 9px;color:#94a3b8;">contra, oposto a</td><td style="padding:7px 9px;color:#cbd5e1;">anticorpo, antídoto, antiinflamatório, antissocial</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">archi- / arqui-</td><td style="padding:7px 9px;color:#94a3b8;">chefe, principal, em grau máximo</td><td style="padding:7px 9px;color:#cbd5e1;">arquiduque, arquidiocese, arquimilionário</td></tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">auto-</td><td style="padding:7px 9px;color:#94a3b8;">por si mesmo, próprio</td><td style="padding:7px 9px;color:#cbd5e1;">autobiografia, autoestima, automóvel, autoescola</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">auto-</td><td style="padding:7px 9px;color:#94a3b8;">tem dois sentidos diferentes: (1) "por si mesmo, próprio" — autobiografia, autoestima, autodidata, autonomia; (2) "automóvel" — autoestrada, autoescola. Atenção: a mesma partícula pode ter sentidos diferentes conforme a palavra.</td><td style="padding:7px 9px;color:#cbd5e1;">autobiografia, autoestima, automóvel, autoestrada</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">bio-</td><td style="padding:7px 9px;color:#94a3b8;">vida</td><td style="padding:7px 9px;color:#cbd5e1;">biologia, biodiversidade, biotecnologia</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">cro- / crono-</td><td style="padding:7px 9px;color:#94a3b8;">tempo</td><td style="padding:7px 9px;color:#cbd5e1;">cronômetro, cronologia, anacronismo</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">demo-</td><td style="padding:7px 9px;color:#94a3b8;">povo</td><td style="padding:7px 9px;color:#cbd5e1;">democracia, demografia, demagogia</td></tr>
@@ -3560,9 +3580,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
       <td style="padding:9px 11px;color:#cbd5e1;">anti-inflamatório, auto-observação, micro-ondas</td>
     </tr>
     <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixos sub-, sob-, ad-, ob-, ab-</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de R</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">sub-reino, ob-reptício</td>
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixos terminados em consoante (sub-, sob-, ad-, ob-, ab-, <strong>super-, inter-, hiper-</strong>) + palavra iniciada por R</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de R (evita duplicar o R)</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">sub-reino, ob-reptício, super-realístico, inter-regional, hiper-requintado</td>
     </tr>
     <tr style="border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixo circum-, pan-</td>
@@ -3606,6 +3626,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>além-, aquém-, recém-, sem-, vice-</strong>: sempre com hífen → <em>recém-nascido, vice-presidente, sem-terra</em></li>
   <li><strong>ex-</strong> no sentido de "que foi": sempre hífen → <em>ex-presidente, ex-diretor</em></li>
   <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
+  <li><strong>dia a dia</strong>: como <strong>locução adverbial</strong> (equivale a "cotidianamente"), escreve-se sem hífen: <em>Ele estuda dia a dia.</em> Mesmo quando substantivado (equivale a "rotina"), a grafia oficial atual continua sem hífen: <em>o dia a dia da empresa</em>. Não existe a forma "dia-a-dia" na norma vigente.</li>
 </ul>
 
 <h3>Hifenização — Emprego do Hífen</h3>
@@ -4236,6 +4257,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <tbody>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (sentido de ver/presenciar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Assisti <strong>ao</strong> jogo. / Assisti <strong>à</strong> palestra.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (sentido de ajudar, caber)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O médico assistiu o paciente. / Esse direito lhe assiste.</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ajudar</strong></td><td style="padding:8px;border:1px solid #334155;">verbo transitivo direto — sem preposição, pronome O/A (não LHE)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ajudei-<strong>o</strong> a carregar as caixas. (não "ajudei-lhe")</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Lembrar / Esquecer</strong></td><td style="padding:8px;border:1px solid #334155;">sem pronome "se": transitivo direto (sem preposição). Com pronome "se" (lembrar-se, esquecer-se): transitivo indireto, exige a preposição <em>de</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Lembrei o compromisso. / Lembrei-me <strong>do</strong> compromisso.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (objetivar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O projeto visa <strong>ao</strong> bem comum.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (pôr visto, mirar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O chefe visou o documento. / O atirador visou o alvo.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aspirar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (desejar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Aspiro <strong>a</strong> um cargo melhor.</td></tr>
@@ -4603,6 +4626,18 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Relação</strong>: um texto pode ser coeso e incoerente ("Ela foi ao mercado. Portanto, o sol é quente.") ou coerente sem coesão formal explícita (textos telegráficos, títulos).</li>
 </ul>
 <p style="color:#cbd5e1;">Cada conectivo estabelece um <strong>efeito de sentido</strong> (uma relação lógica) entre as ideias: <strong>relação de adição</strong> (e, além disso, também), oposição (mas, por outro lado), explicação (pois, porque), condição (se, caso), finalidade (para que) etc.</p>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Ambiguidade</strong>
+<p style="color:#cbd5e1;margin-top:8px;">A <strong>ambiguidade</strong> (ou anfibologia) ocorre quando uma frase permite mais de uma interpretação. As causas mais cobradas em prova:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Pronome com referência dupla</strong>: "João avisou Pedro que ele passou no concurso" — quem passou, João ou Pedro?</li>
+  <li><strong>Adjunto adnominal x complemento</strong>: "A empresa entregou os documentos assinados ontem" — o que aconteceu ontem: a assinatura dos documentos ou a entrega deles?</li>
+  <li><strong>Posição do adjunto adverbial</strong>: "Só ele comeu o bolo" (só ele, ninguém mais) × "Ele só comeu o bolo" (não fez outra coisa) × "Ele comeu só o bolo" (nada além do bolo).</li>
+  <li><strong>Pronome possessivo</strong>: "Maria viu sua mãe" — a mãe de Maria ou de outra pessoa mencionada antes?</li>
+</ul>
+<p style="color:#cbd5e1;">Em provas, a ambiguidade costuma ser apontada como um <strong>defeito</strong> a ser corrigido na reescrita de frases, a menos que o texto seja literário e a ambiguidade seja proposital (recurso estilístico).</p>
 </div>
 
 <h3>Mecanismos de Coesão</h3>
