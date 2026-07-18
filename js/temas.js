@@ -3407,7 +3407,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>6. Estrutura Interna das Palavras — Morfemas</h3>
-<p>Questões de concurso frequentemente pedem a identificação de unidades morfológicas. A <strong>menor unidade dotada de significado</strong> em uma língua é o <strong>morfema</strong>.</p>
+<p>Questões de concurso frequentemente pedem a identificação de unidades morfológicas. A <strong>menor unidade dotada de significado</strong> em uma língua é o <strong>morfema</strong> (também chamado de <strong>elemento mórfico</strong>). O processo de dividir uma palavra em seus morfemas chama-se <strong>segmentação morfológica</strong>. Além dos processos de derivação e composição, existe também a <strong>abreviação vocabular</strong> (redução de uma palavra maior, ex.: "moto" de "motocicleta", "pneu" de "pneumático").</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
   <thead>
@@ -4392,6 +4392,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p>O período composto é formado por duas ou mais orações. Ele pode ser por <strong>coordenação</strong> (as orações coordenadas são sintaticamente independentes entre si) ou por <strong>subordinação</strong> (as orações subordinadas dependem sintaticamente da oração principal, exercendo nela uma função sintática).</p>
 
 <h3>Período Composto — Coordenação</h3>
+<p>As orações coordenadas podem ser <strong>sindéticas</strong> (ligadas por conjunção — aditiva, adversativa, alternativa, conclusiva ou explicativa, vistas na tabela abaixo) ou <strong>assindéticas</strong> (sem conjunção, apenas separadas por vírgula: <em>Cheguei, vi, venci.</em>).</p>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
   <thead><tr style="background:#0f172a;">
@@ -4411,6 +4412,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Período Composto — Subordinação</h3>
+<p>A oração subordinada nunca aparece sozinha — ela depende de uma <strong>oração principal</strong>. Pode ser <strong>oração subordinada substantiva</strong> (exerce função de substantivo: sujeito, objeto etc. — introduzida por conjunção integrante (também chamada de conjunção subordinativa integrante), como "que" ou "se"), <strong>oração subordinada adjetiva</strong> (exerce função de adjetivo, introduzida por pronome relativo) ou <strong>oração subordinada adverbial</strong> (exerce função de advérbio). Quando a oração vem sem conjunção e com o verbo no infinitivo, gerúndio ou particípio, é chamada de <strong>oração reduzida</strong> (ex.: <em>Ao chegar, cumprimentou a todos</em>).</p>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
   <thead><tr style="background:#0f172a;">
