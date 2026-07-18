@@ -1443,7 +1443,7 @@ const TEMAS = [
     id: "fonemas", nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
-<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>.</p>
+<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>. O <strong>Alfabeto Fonético Internacional (IPA)</strong> usa um símbolo específico para cada som, evitando a ambiguidade da escrita comum (útil em comunicações que soletram palavras letra por letra, como "Alfa", "Bravo", "Charlie").</p>
 <div class="exemplo-box">
   "pato" e "gato" diferem pelo fonema inicial: /p/ × /g/<br>
   "faca" e "vaca" diferem pelo fonema inicial: /f/ × /v/<br>
@@ -3074,7 +3074,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>1. Derivação</h3>
-<p>É o processo mais produtivo do português. Existem cinco subtipos:</p>
+<p>É o processo mais produtivo do português. Dizer que uma palavra <strong>deriva de</strong> outra é dizer que ela foi formada a partir dessa palavra-base pela adição de afixos (ex.: "riqueza" deriva de "rico"; "gentileza" deriva de "gentil"). Existem cinco subtipos:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
   <thead>
@@ -4602,6 +4602,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Coerência</strong>: mecanismo <em>semântico</em> — a unidade de sentido e lógica do texto como um todo.</li>
   <li><strong>Relação</strong>: um texto pode ser coeso e incoerente ("Ela foi ao mercado. Portanto, o sol é quente.") ou coerente sem coesão formal explícita (textos telegráficos, títulos).</li>
 </ul>
+<p style="color:#cbd5e1;">Cada conectivo estabelece um <strong>efeito de sentido</strong> (uma relação lógica) entre as ideias: <strong>relação de adição</strong> (e, além disso, também), oposição (mas, por outro lado), explicação (pois, porque), condição (se, caso), finalidade (para que) etc.</p>
 </div>
 
 <h3>Mecanismos de Coesão</h3>
