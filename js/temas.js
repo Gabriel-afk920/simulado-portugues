@@ -1857,7 +1857,10 @@ const TEMAS = [
   <li><strong>Abstrato</strong> (depende de outro ser): amor, liberdade, corrida</li>
   <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes)</li>
 </ul>
-<p>O substantivo flexiona-se em <strong>gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
+<p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
+<p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos (a cobra, o jacaré); <strong>sobrecomuns</strong> têm uma só forma para pessoas de qualquer sexo (a criança, o cônjuge).</p>
+<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (analítico) ou por palavra separada como "casa grande"/"casa pequena" (sintético... na verdade o oposto: com sufixo é <em>sintético</em>, com palavra separada é <em>analítico</em>).</p>
+<p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo).</p>
 
 <h3>2. Adjetivo</h3>
 <p>Caracteriza o substantivo, indicando qualidade, estado ou aparência. <strong>Concorda em gênero e número</strong> com o substantivo.</p>
@@ -3062,7 +3065,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "formacaoPalavras", nome: "Formação de Palavras", icon: "🔧", desc: "Derivação, composição, prefixos e sufixos",
     teoria: `
 <h3>O que é Formação de Palavras?</h3>
-<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família).</p>
+<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família; já "mão" e "manual" pertencem a famílias diferentes, apesar da semelhança). Cada afixo carrega um <strong>valor semântico</strong> (um sentido) próprio — por isso, saber o significado de um prefixo ou sufixo ajuda a deduzir o sentido de palavras desconhecidas na prova.</p>
 
 <div class="exemplo-box">
   <strong>Os dois grandes processos:</strong><br><br>
@@ -4034,6 +4037,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p style="color:#cbd5e1;margin-top:8px;">A pontuação organiza o ritmo, a clareza e o sentido do texto. Em provas, o foco recai na <strong>vírgula</strong> (uso obrigatório, facultativo e proibido) e nos <strong>dois-pontos</strong>. Dominar as regras da vírgula resolve a maioria das questões.</p>
 </div>
 
+<h3>Tipos de Frase e Sinais Finais</h3>
+<p>Quanto à intenção do falante, as frases se classificam em: <strong>frase declarativa</strong> (afirma ou nega algo, termina em ponto final), <strong>frase interrogativa</strong> (pergunta — direta, com ponto de interrogação, ou indireta, sem o sinal: "Pergunto se ele virá"), <strong>frase exclamativa</strong> (expressa emoção, termina com <strong>sinal de exclamação</strong>) e <strong>frase imperativa</strong> (dá ordem ou pedido). O <strong>sinal de interrogação</strong> marca a pergunta direta; o <strong>sinal de exclamação</strong> pode indicar surpresa, ordem ou ênfase, não apenas alegria.</p>
+
 <h3>VÍRGULA — Quando é Obrigatória</h3>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
@@ -4305,7 +4311,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <strong style="color:#38bdf8;">O que é</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Análise sintática é o estudo das relações entre as palavras na frase. Cada palavra ou grupo de palavras exerce uma <strong>função sintática</strong>. Em provas, cobram-se principalmente: identificação de sujeito, objeto, adjuntos, tipos de oração e estrutura de períodos compostos.</p>
+<p style="color:#cbd5e1;margin-top:8px;">Análise sintática é o estudo das relações entre as palavras na frase. Cada palavra ou grupo de palavras exerce uma <strong>função sintática</strong>. Em provas, cobram-se principalmente: identificação de sujeito, objeto, adjuntos, tipos de oração e estrutura de períodos compostos. O <strong>sujeito da oração</strong> é o termo sobre o qual se declara algo; identificar esse termo é o mesmo que identificar a <strong>função de sujeito</strong> dentro da oração.</p>
 </div>
 
 <h3>Termos Essenciais da Oração</h3>
@@ -4412,7 +4418,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Período Composto — Subordinação</h3>
-<p>A oração subordinada nunca aparece sozinha — ela depende de uma <strong>oração principal</strong>. Pode ser <strong>oração subordinada substantiva</strong> (exerce função de substantivo: sujeito, objeto etc. — introduzida por conjunção integrante (também chamada de conjunção subordinativa integrante), como "que" ou "se"), <strong>oração subordinada adjetiva</strong> (exerce função de adjetivo, introduzida por pronome relativo) ou <strong>oração subordinada adverbial</strong> (exerce função de advérbio). Quando a oração vem sem conjunção e com o verbo no infinitivo, gerúndio ou particípio, é chamada de <strong>oração reduzida</strong> (ex.: <em>Ao chegar, cumprimentou a todos</em>).</p>
+<p>A oração subordinada nunca aparece sozinha — ela depende de uma <strong>oração principal</strong>. Pode ser <strong>oração subordinada substantiva</strong> (exerce função de substantivo: sujeito, objeto etc. — introduzida por conjunção integrante (também chamada de conjunção subordinativa integrante), como "que" ou "se"), <strong>oração subordinada adjetiva</strong> (exerce função de adjetivo, introduzida por pronome relativo) ou <strong>oração subordinada adverbial</strong> (exerce função de advérbio). Quando a oração vem sem conjunção e com o verbo no infinitivo, gerúndio ou particípio, é chamada de <strong>oração reduzida</strong> (ex.: <em>Ao chegar, cumprimentou a todos</em>). Ou seja: dizer que uma oração "tem função substantiva", "função adjetiva" ou "função adverbial" é o mesmo que classificá-la como subordinada substantiva, adjetiva ou adverbial.</p>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
   <thead><tr style="background:#0f172a;">
@@ -4880,7 +4886,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <strong style="color:#38bdf8;">O que cobra a prova</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Questões de reescrita pedem que você: (1) substitua um elemento por outro equivalente sem alterar o sentido, (2) desloque um elemento para outra posição, (3) transforme a voz verbal, (4) troque a oração por uma reduzida (ou vice-versa), (5) mantenha o paralelismo. A pegadinha mais comum é a alternativa que <strong>parece</strong> equivalente mas muda sutilmente o sentido ou a norma gramatical.</strong></p>
+<p style="color:#cbd5e1;margin-top:8px;">Questões de reescrita pedem que você: (1) substitua um elemento por outro equivalente sem alterar o sentido, (2) desloque um elemento para outra posição, (3) transforme a voz verbal, (4) troque a oração por uma reduzida (ou vice-versa), (5) mantenha o paralelismo, (6) converta entre <strong>discurso direto</strong> (reproduz a fala tal como foi dita, entre aspas ou após dois-pontos) e <strong>discurso indireto</strong> (relata a fala com verbo de elocução + "que", sem aspas — ex.: "Ele disse: 'Eu vou.'" → "Ele disse que iria"). A pegadinha mais comum é a alternativa que <strong>parece</strong> equivalente mas muda sutilmente o sentido ou a norma gramatical.</strong></p>
 </div>
 
 <h3>1. Substituição de Conectivos — Preservando o Sentido</h3>
