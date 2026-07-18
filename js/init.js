@@ -523,10 +523,10 @@
     if (craseTema) craseTema.teoria = p3raw;
   }
 
-  // Aplica teoria aos temas com teoria vazia
+  // Complementa a teoria destes temas com o conteúdo extra abaixo (sem descartar o que já existe em TEMAS)
   ['hifen','concordancia','colocacaoPronominal','paronimosHomonimos','classesGramaticais'].forEach(function(id) {
     var t = TEMAS.find(function(t){ return t.id === id; });
-    if (t && teorias[id]) t.teoria = teorias[id];
+    if (t && teorias[id]) t.teoria = (t.teoria || '') + teorias[id];
   });
 
 })();
