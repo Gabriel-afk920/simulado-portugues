@@ -3701,7 +3701,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "colocacaoPronominal", nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
     teoria: `
 <h3>O que é Colocação Pronominal?</h3>
-<p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Há três posições possíveis:</p>
+<p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Quando uma <strong>forma pronominal</strong> desses pronomes aparece numa frase, dizemos que houve uma das <strong>colocações pronominais</strong> abaixo. Há três posições possíveis:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
   <thead>
@@ -3946,6 +3946,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Troca de referência</strong></td><td style="padding:8px;border:1px solid #334155;">Diz que pronome X refere-se a Y quando é Z</td><td style="padding:8px;border:1px solid #334155;">Substitua pronome por cada candidato e teste concordância</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parcialidade</strong></td><td style="padding:8px;border:1px solid #334155;">Alternativa cita só um trecho, ignorando a ideia geral</td><td style="padding:8px;border:1px solid #334155;">Para questões de tema/síntese, cheque se a alternativa cobre todo o texto</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sinônimo falso</strong></td><td style="padding:8px;border:1px solid #334155;">Dá significado que a palavra pode ter em outros contextos</td><td style="padding:8px;border:1px solid #334155;">Sempre teste o sinônimo no contexto da frase original</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Antônimo distrator</strong></td><td style="padding:8px;border:1px solid #334155;">Troca a palavra destacada por um antônimo plausível, mas que inverte o sentido do trecho</td><td style="padding:8px;border:1px solid #334155;">Releia a frase com a alternativa no lugar da palavra — se o sentido se inverter, é antônimo, não sinônimo</td></tr>
   </tbody>
 </table>
 </div>
@@ -4386,6 +4387,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Teste do pronome</strong>: se puder substituir por pronome possessivo ("seu"), provavelmente é adj. adnominal. Se puder substituir a oração pelo pronome "o/a", provavelmente é CN.</li>
 </ul>
 </div>
+
+<p>O período composto é formado por duas ou mais orações. Ele pode ser por <strong>coordenação</strong> (as orações coordenadas são sintaticamente independentes entre si) ou por <strong>subordinação</strong> (as orações subordinadas dependem sintaticamente da oração principal, exercendo nela uma função sintática).</p>
 
 <h3>Período Composto — Coordenação</h3>
 <div style="overflow-x:auto;margin-bottom:16px;">
