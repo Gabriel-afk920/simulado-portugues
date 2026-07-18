@@ -1888,6 +1888,8 @@ const TEMAS = [
   <li><strong>Verbo de ação:</strong> correr, comer, escrever</li>
   <li><strong>Verbo de ligação:</strong> ser, estar, ficar, parecer, tornar-se, continuar — liga sujeito ao predicativo</li>
   <li><strong>Verbo de fenômeno:</strong> chover, ventar, nevar</li>
+  <li><strong>Verbo transitivo:</strong> exige complemento para ter sentido completo. <em>Verbo transitivo direto</em> (VTD): complemento sem preposição — <em>Comprei um livro.</em> <em>Verbo transitivo indireto</em> (VTI): complemento com preposição — <em>Gosto de música.</em></li>
+  <li><strong>Verbo intransitivo:</strong> sentido completo sem complemento — <em>Ela chegou.</em></li>
 </ul>
 <div class="exemplo-box">
   "Ele <em>parece</em> cansado." → "parece" = verbo de ligação (une "ele" ao predicativo "cansado")
@@ -3625,6 +3627,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     teoria: `
 <h3>O que é Concordância?</h3>
 <p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa — ou seja, a <strong>flexão do verbo</strong> (sua conjugação em pessoa e número) deve acompanhar o sujeito. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
+<p>Toda oração é formada por <strong>sujeito e predicado</strong>. O <strong>núcleo do sujeito</strong> é a palavra principal do sujeito (geralmente um substantivo ou pronome) com a qual o verbo deve concordar. Quando o sujeito é formado por dois ou mais núcleos, temos um <strong>sujeito composto</strong>, e o verbo vai normalmente para o plural.</p>
 
 <h3>Concordância Verbal — Regras Gerais</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
@@ -3838,9 +3841,13 @@ h3>Bloco 7 — Abundância e Coleção</h3>
       <td style="padding:9px 11px;color:#fde68a;"><strong>retificar</strong> × <strong>ratificar</strong></td>
       <td style="padding:9px 11px;color:#cbd5e1;">corrigir × confirmar/aprovar</td>
     </tr>
-    <tr>
+    <tr style="border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;color:#fde68a;"><strong>seção</strong> × <strong>sessão</strong> × <strong>cessão</strong></td>
       <td style="padding:9px 11px;color:#cbd5e1;">divisão × reunião × ato de ceder</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;"><strong>concerto</strong> × <strong>conserto</strong></td>
+      <td style="padding:9px 11px;color:#cbd5e1;">apresentação musical × reparo/conserto de algo</td>
     </tr>
   </tbody>
 </table>
