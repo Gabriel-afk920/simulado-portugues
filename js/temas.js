@@ -535,7 +535,7 @@ const TEMAS = [
 <p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Atenção: "questão" e "frequência" também tinham trema antes de 2009, mas o U delas <strong>nunca foi pronunciado</strong> — o trema indicava apenas que era "qu" especial, não U sonoro. Já em tranquilo, linguiça etc., o U é realmente pronunciado.</p>
 
 <h3>7. Terminações Comuns com Ditongo</h3>
-<p>As <strong>terminações</strong> abaixo contêm ditongos e aparecem com frequência nas questões de concurso. Reconhecê-las de imediato elimina dúvidas sobre separação silábica e classificação do encontro vocálico.</p>
+<p>As <strong>terminações</strong> abaixo contêm ditongos e aparecem com frequência nas questões de concurso. Reconhecê-las de imediato elimina dúvidas sobre separação silábica e classificação do encontro vocálico. Ao comparar duas ou mais palavras, verifique se os encontros vocálicos são do mesmo tipo (ditongo, hiato ou tritongo).</p>
 
 <h4 style="color:#7dd3fc;margin:16px 0 6px;">▸ Terminações com Ditongo Decrescente Oral</h4>
 <table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
@@ -1443,7 +1443,7 @@ const TEMAS = [
     id: "fonemas", nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
-<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
+<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>.</p>
 <div class="exemplo-box">
   "pato" e "gato" diferem pelo fonema inicial: /p/ × /g/<br>
   "faca" e "vaca" diferem pelo fonema inicial: /f/ × /v/<br>
@@ -1669,7 +1669,7 @@ const TEMAS = [
 </tbody></table>
 
 <h3>7. Monossílabos tônicos e átonos</h3>
-<p><strong>Monossílabo</strong> é a palavra com apenas uma sílaba. Eles se dividem em <strong>tônicos</strong> (pronúncia forte, podem receber acento) e <strong>átonos</strong> (pronúncia fraca, nunca recebem acento).</p>
+<p><strong>Monossílabo</strong> é a palavra com apenas uma sílaba. Eles se dividem em <strong>tônicos</strong> (pronúncia forte, podem receber acento) e <strong>átonos</strong> (pronúncia fraca, nunca recebem acento). Já as palavras <strong>polissílabas</strong> (duas ou mais sílabas) seguem as regras normais de oxítona, paroxítona e proparoxítona vistas acima.</p>
 <table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Descrição</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Tônico acentuado</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em -á/-é/-ê/-ó/-ô/-éu/-ói → recebem acento</td><td style="padding:8px 10px;color:#fde68a;">pá, pé, fé, nó, só, dó, céu, réu, mês, pôr, pôs</td></tr>
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">Tônico sem acento</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em consoante → oxítonas por terminação, dispensam acento</td><td style="padding:8px 10px;color:#fde68a;">sol, mar, flor, faz, par, bar, vil, pus, fal</td></tr>
@@ -1857,6 +1857,7 @@ const TEMAS = [
   <li><strong>Abstrato</strong> (depende de outro ser): amor, liberdade, corrida</li>
   <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes)</li>
 </ul>
+<p>O substantivo flexiona-se em <strong>gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
 
 <h3>2. Adjetivo</h3>
 <p>Caracteriza o substantivo, indicando qualidade, estado ou aparência. <strong>Concorda em gênero e número</strong> com o substantivo.</p>
@@ -3061,7 +3062,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "formacaoPalavras", nome: "Formação de Palavras", icon: "🔧", desc: "Derivação, composição, prefixos e sufixos",
     teoria: `
 <h3>O que é Formação de Palavras?</h3>
-<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas.</p>
+<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família).</p>
 
 <div class="exemplo-box">
   <strong>Os dois grandes processos:</strong><br><br>
