@@ -60,6 +60,12 @@ const TEMAS = [
         <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca sao semivogais</td>
         <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
       </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uação, -uagem (substantivo de verbo -uar)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">U tonico, nucleo silabico — mesmo padrao do verbo conjugado (tatu-A-r, atu-A-r)</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuacao, atuacao, pontuacao</td>
+      </tr>
     </tbody>
   </table>
   <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
@@ -72,6 +78,13 @@ const TEMAS = [
       <li><strong>serie</strong> = SE-rie: I atono antes de E = DITONGO crescente oral</li>
       <li><strong>rainha</strong> = ra-I-nha: I antes de NH com vogal antes = HIATO</li>
       <li><strong>muito</strong> = MUI-to: UI = DITONGO decrescente oral (u eh a vogal)</li>
+    </ul>
+  </div>
+  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
+    <strong style="color:#f59e0b;">⚠️ Divergencia entre bancas — atencao nestes dois casos:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
+      <li><strong>-ario/-aria, -uario/-uaria</strong> (necessario, historia, familia, serie, gloria, voluntario, contrario): a regra padrao/moderna classifica como DITONGO crescente (i atono antes de vogal) — e o que a maioria das bancas cobra, e e a resposta padrao deste app. Atencao: pelo menos uma banca (MS Concursos) ja cobrou esse grupo como HIATO, seguindo a tradicao gramatical (NGB). Verifique o padrao da banca especifica se possivel.</li>
+      <li><strong>magoa, Pascoa</strong> (-oa final atono apos consoante — o acento grafico fica na silaba ANTERIOR ao -oa, nao no proprio -oa): segue o padrao de "agua" (a-GUA: acento no "a", "gua" atono = DITONGO), que e a resposta padrao deste app. Atencao: pelo menos uma banca (MS Concursos) ja cobrou como HIATO — verifique o padrao da banca especifica se possivel. <em>Importante: amendoa e nevoa NAO entram nessa divergencia — as duas sao HIATO sem controversia (amendoa e proparoxitona: a-MEN-do-a; nevoa e NE-vo-a), nao seguem o mesmo padrao de magoa/Pascoa.</em></li>
     </ul>
   </div>
 </div>
