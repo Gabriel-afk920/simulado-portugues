@@ -1603,6 +1603,17 @@ const TEMAS = [
   <em>saúde</em>       → sa-ú-de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(hiato: ú tônico = sílaba separada)
 </div>
 
+<h3>Palavras com vários encontros consonantais seguidos</h3>
+<p>Em palavras com 3 ou mais consoantes em sequência, aplique a regra <strong>cluster por cluster</strong>: separe as consoantes que NÃO formam encontro perfeito (não são consoante+L/R) e mantenha juntas as que formam. Passo a passo:</p>
+<div class="exemplo-box">
+  <em>perscrutar</em> → pers-cru-tar &nbsp;(r+s não é encontro perfeito → separa; "cr" é perfeito → fica junto)<br>
+  <em>abstrato</em> → abs-tra-to &nbsp;(b+s separa; "tr" fica junto)<br>
+  <em>tungstênio</em> → tungs-tê-nio &nbsp;(g+s separa; "st" fica junto na sílaba seguinte)<br>
+  <em>perspicaz</em> → pers-pi-caz &nbsp;(r+s separa; "sp" antes de vogal fica com a vogal)<br>
+  <em>atmosfera</em> → at-mos-fe-ra &nbsp;(t+m separa, pois não formam grupo pronunciável junto)
+</div>
+<p><strong>Duas separações tecnicamente válidas:</strong> em palavras terminadas por consoante + <em>i/e</em> átono + <em>a/o</em> (como "-cia", "-cio", "-gio"), a tradição gramatical admite <strong>duas análises</strong>: a mais comum trata o grupo final como ditongo crescente, contando como uma sílaba só (<em>tân-cia</em>), mas uma análise mais rigorosa também aceita separar em hiato (<em>tân-ci-a</em>), tratando o <em>i</em> átono como núcleo de sua própria sílaba. Por isso, questões que apresentam apenas uma divisão como "a única forma correta" podem estar incompletas — para muitos gramáticos, ambas as separações são aceitáveis (ex.: im-por-<strong>tân-cia</strong> ou im-por-<strong>tân-ci-a</strong>).</p>
+
 <div class="dica-box">
   <div class="dica-title">Dicas — Sílabas</div>
   <ul>
