@@ -155,6 +155,8 @@ const TEMAS = [
   → Use sempre a análise <strong>gráfica (escrita padrão)</strong>, não a pronúncia regional.<br>
   → Se <em>i</em>/<em>u</em> carregam acento próprio (í, ú) = hiato na escrita, mesmo que soe ditongo na fala.
 </div>
+<p>O fenômeno de um <strong>hiato ser pronunciado como ditongo</strong> na fala (como em "área"→"áRia", "saía"→"saIa") tem nome técnico: <strong>sinérese</strong>. O processo inverso — um ditongo escrito sendo pronunciado como hiato, separando a sílaba (mais raro) — chama-se <strong>diérese</strong>. Provas cobram o termo diretamente: "a pronúncia de X como ditongo, quando a norma prevê hiato, é chamada de ___" → resposta: <em>sinérese</em>.</p>
+<p><strong>Palavras de pronúncia facultativa</strong> (aceitam hiato OU ditongo pela norma-padrão, sem "erro"): <em>gratuito</em> (gra-tu-i-to ou gra-tui-to), <em>intuito</em> (in-tu-i-to ou in-tui-to), <em>fluido</em> (flu-i-do ou flui-do), <em>ruindo</em>, <em>circuito</em>.</p>
 
 <h3>4. Transformação: Ditongo Oral → Nasal</h3>
 <p>Um ditongo oral torna-se nasal quando a vogal recebe marcação de nasalidade na escrita. Veja cada caso com a palavra antes e depois da nasalização:</p>
@@ -1110,6 +1112,8 @@ const TEMAS = [
     </tbody>
   </table>
 
+  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;"><strong style="color:#fbbf24;">Sinônimos cobrados em prova:</strong> encontro consonantal <strong>perfeito</strong> também é chamado de <strong>puro</strong> (mesma sílaba, inseparável); encontro consonantal <strong>imperfeito</strong> também é chamado de <strong>disjunto</strong> (sílabas diferentes, separável).</p>
+
   <div style="margin-top:10px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
     <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
     <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
@@ -1123,6 +1127,9 @@ const TEMAS = [
     </ul>
   </div>
 </div>
+
+<h3>Vogal epentética</h3>
+<p>Na fala popular ou regional, é comum inserir uma vogal (geralmente "i") entre as consoantes de um encontro consonantal para facilitar a pronúncia — esse som extra, que não existe na escrita padrão, é chamado de <strong>vogal epentética</strong> (ou epêntese). Exemplos: "adaptabilidade" pronunciado "adapitabilidade", "pneu" como "pineu", "advogado" como "adevogado". É um fenômeno da fala, não da norma-padrão escrita — a prova cobra o reconhecimento do termo, não seu uso na escrita.</p>
 
 <h3>O que é Encontro Consonantal?</h3>
 <p>Encontro consonantal é a sequência de <strong>duas ou mais consoantes consecutivas</strong> dentro de uma mesma palavra, sem vogal entre elas. Diferente do dígrafo, cada consoante <strong>mantém seu próprio fonema</strong>.</p>
@@ -1208,6 +1215,7 @@ const TEMAS = [
 <h3>1. O que é Hiato?</h3>
 <p>Hiato é o encontro de <strong>duas letras vocálicas consecutivas</strong> (sem consoante entre elas) que pertencem a <strong>sílabas diferentes</strong>. A divisão silábica ocorre <strong>entre</strong> as duas vogais.</p>
 <p><strong>Como identificar apenas pela escrita — sem pronunciar:</strong> localize duas letras vocálicas adjacentes e verifique as pistas visuais abaixo.</p>
+<p><strong>"Falso hiato":</strong> é a sequência vocálica que, na análise gráfica (escrita padrão), é tratada como hiato — cada vogal em sua própria sílaba —, mas que na pronúncia real (fonética) soa como vogal+semivogal, ou seja, como um ditongo. É o mesmo fenômeno chamado de <strong>sinérese</strong> (ver tema Ditongos): a prova costuma opor "hiato verdadeiro" (hiato tanto na escrita quanto na fala) a esse "falso hiato" (hiato só na escrita).</p>
 
 <div class="exemplo-box">
   <strong>Pista 1 — Acento escrito sobre I ou U (í, ú):</strong><br>
@@ -1463,6 +1471,7 @@ const TEMAS = [
   <li><strong>Semivogais:</strong> sons vocálicos em posição secundária (i e u átonos em ditongos). Ex.: o <em>i</em> em "pai", o <em>u</em> em "mau".</li>
   <li><strong>Consoantes:</strong> sons que precisam de vogal para formar sílaba. Ex.: p, b, t, d, k, g, f, v, s, z, m, n, l, r...</li>
 </ul>
+<p><strong>Classificação articulatória das vogais</strong> (fonética): quanto à <strong>altura da língua</strong>, as vogais são <em>altas/fechadas</em> (i, u), <em>médias</em> (e, o — que se subdividem em fechadas é/ô e abertas é/ó) ou <em>baixa/aberta</em> (a); quanto ao <strong>ponto de articulação</strong>, são <em>anteriores</em> (i, e), <em>centrais</em> (a) ou <em>posteriores</em> (o, u). Assim, "i" é classificado como vogal alta/fechada e anterior; "u" como alta/fechada e posterior; "a" como baixa/aberta e central.</p>
 
 <h3>Dígrafos — duas letras, um fonema</h3>
 <p>Dígrafo é quando <strong>duas letras representam um único fonema</strong>. São os casos mais cobrados em prova:</p>
@@ -1478,6 +1487,9 @@ const TEMAS = [
   <em>gu</em> + e/i → /g/: <strong>gu</strong>erra, <strong>gu</strong>ia (u mudo)<br>
   <em>qu</em> + e/i → /k/: <strong>qu</strong>eijo, <strong>qu</strong>ilo (u mudo)
 </div>
+
+<h3>Dífono — o oposto do dígrafo</h3>
+<p><strong>Dífono</strong> é quando <strong>uma única letra representa dois fonemas</strong> — o inverso do dígrafo (duas letras, um fonema). O caso clássico é o <em>x</em> com valor /ks/ (ta<strong>x</strong>i, fí<strong>x</strong>o, tó<strong>x</strong>ico): uma letra "x", dois sons /k/+/s/. Outras letras podem funcionar como dífono dependendo do contexto — por isso é comum a prova pedir para classificar uma letra destacada como "dígrafo", "dífono" ou nenhum dos dois.</p>
 
 <h3>O polivalente <em>x</em></h3>
 <p>O <em>x</em> pode representar 4 fonemas diferentes em português:</p>
@@ -3246,6 +3258,10 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ice / -ícia</td><td style="padding:7px 9px;color:#94a3b8;">qualidade (pejorativa ou não)</td><td style="padding:7px 9px;color:#cbd5e1;">tolice, velhice, meiguice, calvície</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-inha / -inho / -zinha / -zinho</td><td style="padding:7px 9px;color:#94a3b8;">diminutivo</td><td style="padding:7px 9px;color:#cbd5e1;">casinha, livrinho, cafezinho, rapazinho</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ão / -ona / -alhão / -zarrão</td><td style="padding:7px 9px;color:#94a3b8;">aumentativo</td><td style="padding:7px 9px;color:#cbd5e1;">casarão, mulherona, espertalhão, homenzarrão</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-itude</td><td style="padding:7px 9px;color:#94a3b8;">qualidade, estado (de adjetivo)</td><td style="padding:7px 9px;color:#cbd5e1;">amplitude, exatitude, solitude, longitude</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-eria / -aria</td><td style="padding:7px 9px;color:#94a3b8;">lugar/comércio, ação coletiva</td><td style="padding:7px 9px;color:#cbd5e1;">sorveteria, padaria, livraria, sapataria</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ácia</td><td style="padding:7px 9px;color:#94a3b8;">qualidade, defeito (de adjetivo)</td><td style="padding:7px 9px;color:#cbd5e1;">falácia, farmácia, eficácia</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-edo</td><td style="padding:7px 9px;color:#94a3b8;">coletivo de vegetais, lugar</td><td style="padding:7px 9px;color:#cbd5e1;">arvoredo, arrozedo, rochedo</td></tr>
   </tbody>
 </table>
 
@@ -3636,6 +3652,16 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>ex-</strong> no sentido de "que foi": sempre hífen → <em>ex-presidente, ex-diretor</em></li>
   <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
   <li><strong>dia a dia</strong>: como <strong>locução adverbial</strong> (equivale a "cotidianamente"), escreve-se sem hífen: <em>Ele estuda dia a dia.</em> Mesmo quando substantivado (equivale a "rotina"), a grafia oficial atual continua sem hífen: <em>o dia a dia da empresa</em>. Não existe a forma "dia-a-dia" na norma vigente.</li>
+  <li><strong>Gentílicos compostos</strong> (topônimo formado por mais de uma palavra): usam hífen entre os elementos → <em>belo-horizontino</em> (Belo Horizonte), <em>mato-grossense</em> (Mato Grosso), <em>mato-grossense-do-sul</em> (Mato Grosso do Sul), <em>rio-grandense-do-sul</em>/<em>gaúcho</em> (Rio Grande do Sul), <em>norte-americano</em>, <em>sul-africano</em>, <em>porto-alegrense</em> (Porto Alegre).</li>
+</ul>
+
+<h3>Translineação — hífen na quebra de linha</h3>
+<p><strong>Translineação</strong> é a divisão de uma palavra ao final da linha, quando ela não cabe inteira, continuando na linha seguinte. Regras específicas do Acordo Ortográfico:</p>
+<ul>
+  <li><strong>Palavra já hifenizada</strong>: se a quebra de linha cair exatamente no hífen já existente, ele deve ser <strong>repetido</strong> no início da linha seguinte (ex.: em "guarda-chuva", se a quebra ocorrer em "guarda-", a linha seguinte começa "-chuva").</li>
+  <li><strong>Critério fonético, não apenas gráfico</strong>: a translineação segue a <strong>separação silábica</strong> da palavra (critério fonético), não uma divisão arbitrária de letras — nunca se separam letras de uma mesma sílaba.</li>
+  <li><strong>Vogais idênticas em hiato</strong>: podem ser separadas na translineação mesmo formando hiato gráfico contíguo (ex.: "co-o-perar").</li>
+  <li><strong>Prefixo terminado em consoante + palavra iniciada por vogal</strong> (ex.: "sub-" + "área"): na translineação, mantém-se a integridade do prefixo — a quebra ocorre preferencialmente na fronteira morfológica.</li>
 </ul>
 
 <h3>Hifenização — Emprego do Hífen</h3>
@@ -4157,9 +4183,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   </tr></thead>
   <tbody>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reticências (…)</strong></td><td style="padding:8px;border:1px solid #334155;">Suspense, omissão, hesitação, continuação subentendida</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Eu queria dizer… mas não consigo."</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Travessão (—)</strong></td><td style="padding:8px;border:1px solid #334155;">Iniciar fala em diálogo; isolar aposto/intercalação com ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">— Não vou. / O presidente — que chegou tarde — discursou.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Travessão (—)</strong></td><td style="padding:8px;border:1px solid #334155;">Iniciar fala em diálogo; isolar aposto/intercalação com ênfase; introduzir esclarecimento (equivalente aos dois-pontos)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">— Não vou. / O presidente — que chegou tarde — discursou. / Só havia uma saída — fugir. (poderia ser substituído por ":")</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parênteses ( )</strong></td><td style="padding:8px;border:1px solid #334155;">Informação acessória, explicação, data, sigla</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O IBGE (Instituto Brasileiro de Geografia e Estatística) divulgou...</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspas (" ")</strong></td><td style="padding:8px;border:1px solid #334155;">Citação direta, ironia, neologismo, estrangeirismo, ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele é muito "pontual". / "A arte é longa, a vida é breve." (Hipócrates)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspas (" ")</strong></td><td style="padding:8px;border:1px solid #334155;">Citação direta, ironia, neologismo, estrangeirismo, ênfase, <strong>função metalinguística</strong> (a palavra é citada como palavra, para explicar sua origem/sentido literal) e <strong>distanciamento crítico</strong> (o autor marca que não assume o sentido convencional do termo, rejeitando-o ou questionando-o)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele é muito "pontual". / "A arte é longa, a vida é breve." (Hipócrates) / A palavra "salário" vem de "sal" (metalinguística) / Os chamados "especialistas" nada explicaram (distanciamento crítico)</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de exclamação (!)</strong></td><td style="padding:8px;border:1px solid #334155;">Emoção, ordem, surpresa, exclamação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Que bela paisagem! / Cale-se!</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de interrogação (?)</strong></td><td style="padding:8px;border:1px solid #334155;">Perguntas diretas</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Você virá amanhã? (interrogação indireta NÃO usa ?)</td></tr>
   </tbody>
