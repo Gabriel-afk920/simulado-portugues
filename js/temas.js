@@ -3761,9 +3761,11 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Palavras negativas</strong>: não, nunca, jamais, nada, ninguém → <em>Não me conta.</em></li>
   <li><strong>Pronomes relativos</strong>: que, quem, cujo → <em>Quem te disse isso?</em></li>
   <li><strong>Conjunções subordinativas</strong>: quando, se, porque → <em>Quando me viu, sorriu.</em></li>
-  <li><strong>Advérbios sem pausa</strong>: sempre, já, aqui, ontem → <em>Aqui se faz, aqui se paga.</em></li>
+  <li><strong>Advérbios sem pausa</strong>: sempre, já, aqui, ontem, muito, às vezes → <em>Aqui se faz, aqui se paga. Muito se falou disso. Às vezes me pergunto...</em></li>
   <li><strong>Pronomes indefinidos ou demonstrativos</strong>: alguém, tudo, isso → <em>Tudo nos surpreendeu.</em></li>
+  <li><strong>Preposição + infinitivo</strong>: a preposição atrai o pronome para antes do verbo no infinitivo → <em>Foi difícil <strong>para</strong> se enfrentar</em> o problema. <em>Estudou muito <strong>para</strong> o ajudar.</em></li>
 </ul>
+<div class="dica-box"><div class="dica-title">Na fala brasileira</div>No português coloquial brasileiro, é comum a próclise mesmo sem palavra atrativa formal, logo após o sujeito: <em>"Eu me lembro bem disso."</em> Na norma-padrão escrita, o mais recomendado nesse caso — sem nenhum atrativo antes — é a ênclise: <em>"Lembro-me bem disso."</em></div>
 
 <h3>Ênclise — Quando o pronome vem DEPOIS</h3>
 <ul>
@@ -3772,6 +3774,12 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li>Verbo no infinitivo impessoal: <em>É preciso fazê-lo.</em></li>
   <li>Verbo no gerúndio sem <em>em</em>: <em>Estava contando-me a história.</em></li>
 </ul>
+
+<h3>Ênclise com Infinitivo — as formas LO/LA/NO/NA</h3>
+<p>Quando o pronome "o/a/os/as" se liga por ênclise a um verbo terminado em <strong>-R, -S ou -Z</strong>, essa consoante final cai e o pronome vira <strong>-lo/-la/-los/-las</strong> (com acento na vogal que sobra, se necessário): <em>vender + a → vendê-la; partir + o → parti-lo; fazer + os → fazê-los; quis + a → qui-la</em>. Quando o verbo termina em som nasal (<strong>-m, -õe, -ão</strong>), o pronome vira <strong>-no/-na/-nos/-nas</strong>: <em>põe + o → põe-no; compõem + a → compõem-na; deram + o → deram-no.</em></p>
+
+<h3>Colocação em Locuções Verbais (verbo auxiliar + principal)</h3>
+<p>Quando há um verbo auxiliar seguido de infinitivo, gerúndio ou particípio, o pronome pode ficar: <strong>antes do auxiliar</strong> (próclise ao conjunto, se houver palavra atrativa: <em>Não se pode fazer isso.</em>), <strong>entre o auxiliar e o principal</strong> (com hífen antes do infinitivo/gerúndio: <em>Pode-se fazer isso.</em> / <em>Vou-me lembrando.</em>), ou <strong>depois do verbo principal</strong> no infinitivo/gerúndio (<em>Vou lembrar-me.</em>). <strong>Atenção:</strong> em tempos compostos (auxiliar <em>ter/haver</em> + particípio), o pronome <strong>nunca</strong> se liga ao particípio — "tinha voltado-lhe" é errado; o correto é <em>lhe tinha voltado</em> (próclise ao auxiliar) ou <em>tinha-lhe voltado</em> (ênclise ao auxiliar).</p>
 
 <h3>Mesóclise — No meio do verbo</h3>
 <p>Usada com verbos no <strong>futuro do presente</strong> ou <strong>futuro do pretérito</strong> quando não há palavra atrativa:</p>
