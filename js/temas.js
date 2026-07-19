@@ -2440,6 +2440,17 @@ const TEMAS = [
 </tbody></table>
 <div class="dica-box"><div class="dica-title">Regras de ouro</div><ul><li>Toda proparoxítona tem acento gráfico obrigatório.</li><li>A maioria das palavras sem acento é paroxítona.</li><li>Acento gráfico = tônica está exatamente na sílaba acentuada.</li></ul></div>
 
+<div class="dica-box" style="border-left:3px solid #f59e0b;">
+<div class="dica-title">⚠️ Atenção: monossílabo NÃO é oxítona/paroxítona/proparoxítona</div>
+<p>Essas três classes só existem para palavras com <strong>2 ou mais sílabas</strong>. Monossílabo (1 sílaba única) é uma quarta categoria à parte: <strong>monossílabo tônico</strong> ou <strong>monossílabo átono</strong> — nunca oxítona, mesmo com acento gráfico e força de pronúncia própria.</p>
+<div class="exemplo-box"><strong>Erro real de banca (Quadrix/2025):</strong> a palavra <strong>"mãe"</strong> foi cobrada como NÃO sendo oxítona — justamente porque é monossílabo, e monossílabo não entra na classificação por posição da tônica, mesmo levando acento e a força da voz caindo nela.</div>
+<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 10px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Descrição</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
+<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Monossílabo tônico</td><td style="padding:8px 10px;color:#cbd5e1;">Recebe força de pronúncia própria — substantivo, verbo, adjetivo, advérbio</td><td style="padding:8px 10px;color:#fde68a;">mãe, pé, sol, flor, mês, luz, dez</td></tr>
+<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;font-weight:700;">Monossílabo átono</td><td style="padding:8px 10px;color:#cbd5e1;">Sem força própria — apoia-se na palavra vizinha; artigo, preposição, conjunção, pronome oblíquo</td><td style="padding:8px 10px;color:#fde68a;">o, de, se, que, com, em</td></tr>
+</tbody></table>
+<p style="font-size:0.85rem;color:#94a3b8;margin:0;">Detalhamento completo — mais exemplos e as regras de acentuação de cada tipo — na seção <strong>"7. Monossílabos tônicos e átonos"</strong> do tema <strong>Sílabas</strong>.</p>
+</div>
+
 <h3>Bloco 1 — Oxítonas COM acento gráfico</h3>
 <p>Oxítonas têm tônica na <strong>última</strong> sílaba. Quando terminam em vogal ou em -em/-ens, recebem acento obrigatório — porque essas terminações "esperariam" paroxítona sem o acento. O acento é o sinal visual: <em>"a tônica está aqui, na última sílaba."</em></p>
 <div class="exemplo-box">so-<strong>FÁ</strong> &nbsp;·&nbsp; ca-<strong>FÉ</strong> &nbsp;·&nbsp; vo-<strong>CÊ</strong> &nbsp;·&nbsp; a-<strong>VÓ</strong> &nbsp;·&nbsp; a-<strong>VÔ</strong> &nbsp;·&nbsp; tam-<strong>BÉM</strong> &nbsp;·&nbsp; pa-ra-<strong>BÉNS</strong></div>
