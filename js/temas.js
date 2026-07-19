@@ -524,15 +524,22 @@ const TEMAS = [
       <td style="padding:8px 10px;color:#cbd5e1;">bi-lín-<strong>gue</strong></td>
     </tr>
     <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#64748b;">questão / frequência</td>
-      <td style="padding:8px 10px;color:#94a3b8;">qüestão / freqüência</td>
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">frequência</td>
+      <td style="padding:8px 10px;color:#94a3b8;">freqüência</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">fre-<strong>quê</strong>n-cia</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 10px;font-weight:700;color:#64748b;">questão</td>
+      <td style="padding:8px 10px;color:#94a3b8;">questão (nunca teve trema)</td>
       <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
       <td style="padding:8px 10px;color:#64748b;">sem ditongo</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">ques-tão, fre-quên-cia</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">ques-tão</td>
     </tr>
   </tbody>
 </table>
-<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Atenção: "questão" e "frequência" também tinham trema antes de 2009, mas o U delas <strong>nunca foi pronunciado</strong> — o trema indicava apenas que era "qu" especial, não U sonoro. Já em tranquilo, linguiça etc., o U é realmente pronunciado.</p>
+<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Atenção: em <strong>"frequência"</strong> (antiga grafia "freqüência") o U <strong>é pronunciado</strong> — por isso ela levava trema antes do Acordo de 1990/2009, no mesmo grupo de tranquilo, linguiça, antiguidade, aguilhão e bilíngue. Já em <strong>"questão"</strong> o U é mudo (pronuncia-se "kestão"), como em quilo e guerra — por isso "questão" <strong>nunca</strong> teve trema; não é um caso de eliminação de trema, é grafia com U mudo desde sempre.</p>
 
 <h3>7. Terminações Comuns com Ditongo</h3>
 <p>As <strong>terminações</strong> abaixo contêm ditongos e aparecem com frequência nas questões de concurso. Reconhecê-las de imediato elimina dúvidas sobre separação silábica e classificação do encontro vocálico. Ao comparar duas ou mais palavras, verifique se os encontros vocálicos são do mesmo tipo (ditongo, hiato ou tritongo).</p>
@@ -1510,8 +1517,8 @@ const TEMAS = [
   c-o-n-t-e-x(=/ks/)-t-u-a-l-i-z-a-ç-ã-o<br>
   Letras: c·o·n·t·e·x·t·u·a·l·i·z·a·ç·ã·o = 16<br>
   x = /ks/ → +1 fonema; ã nasalizada (an = 1 fonema + n muda o timbre) → 16 − 1 (n vira nasal) + 0 = 15 fonemas<br><br>
-  <strong>cachorro</strong> (7 letras → 5 fonemas):<br>
-  ca-<strong>ch</strong>-o-<strong>rr</strong>-o → ch=1, rr=1 → c+a+1+o+1+o = 6 fonemas<br><br>
+  <strong>cachorro</strong> (8 letras → 6 fonemas):<br>
+  ca-<strong>ch</strong>-o-<strong>rr</strong>-o → ch=1, rr=1 → c+a+ch(1)+o+rr(1)+o = 6 fonemas<br><br>
   <strong>menino</strong> (6 letras → 6 fonemas):<br>
   m-e-n-i-n-o = 6 (sem dígrafos, sem h, sem x ambíguo) → 6 fonemas
 </div>
@@ -1855,9 +1862,11 @@ const TEMAS = [
   <li><strong>Comum</strong> (nome genérico): cidade, menina</li>
   <li><strong>Concreto</strong> (existência independente): mesa, pedra, anjo</li>
   <li><strong>Abstrato</strong> (depende de outro ser): amor, liberdade, corrida</li>
-  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes)</li>
+  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes), rebanho (gado/ovelhas), matilha (cães de caça), ramalhete/buquê (flores), colmeia/enxame (abelhas), cambada/quadrilha (bandidos), boiada (bois), tropa (mulas/animais de carga), banca (examinadores), acervo (obras/documentos)</li>
 </ul>
 <p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
+<p><strong>Plural de palavras terminadas em -L:</strong> -al, -el, -ol, -ul → trocam o <strong>l</strong> por <strong>is</strong>: animal → anim<strong>ais</strong>, papel → pap<strong>éis</strong>, farol → far<strong>óis</strong>, paul → pa<strong>uis</strong> (exceção: mal → males, que segue a regra normal de -al). Terminadas em <strong>-il</strong>: se a palavra é <strong>oxítona</strong>, troca -il por -is (fuzil → fuz<strong>is</strong>, barril → barr<strong>is</strong>); se é <strong>paroxítona</strong>, troca -il por -eis (fóssil → fóss<strong>eis</strong>, réptil → répt<strong>eis</strong>, míssil → míss<strong>eis</strong>).</p>
+<p><strong>Plural de palavras terminadas em -S:</strong> monossílabas e oxítonas acrescentam <strong>-es</strong> (gás → gas<strong>es</strong>, mês → mes<strong>es</strong>, país → país<strong>es</strong>); paroxítonas e proparoxítonas terminadas em -s ficam <strong>invariáveis</strong> — plural igual ao singular (o/os lápis, o/os ônibus, o/os vírus, o/os tênis).</p>
 <p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos (a cobra, o jacaré); <strong>sobrecomuns</strong> têm uma só forma para pessoas de qualquer sexo (a criança, o cônjuge).</p>
 <p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (sintético) ou por palavra separada como "casa grande"/"casa pequena" (analítico). Além do sufixo mais comum <em>-ão</em> (casarão, portão), existem outros sufixos aumentativos menos frequentes, mas cobrados em prova: <em>-aço</em> (barcaço), <em>-alhão</em> (grandalhão), <em>-eirão</em> (vozeirão), <em>-aréu</em> (fogaréu). Todos indicam o mesmo processo — grau aumentativo do substantivo —, mesmo com sufixos diferentes.</p>
 <p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo).</p>
@@ -2054,7 +2063,7 @@ const TEMAS = [
 
 <h3>Acordo Ortográfico de 2009 — mudanças principais</h3>
 <ul>
-  <li><strong>Trema eliminado:</strong> freqüência → <em>frequência</em>; qüestão → <em>questão</em>. (Mantém-se em nomes próprios estrangeiros: Müller.)</li>
+  <li><strong>Trema eliminado:</strong> freqüência → <em>frequência</em>; lingüiça → <em>linguiça</em>; tranqüilo → <em>tranquilo</em>. "Questão" nunca teve trema — seu U sempre foi mudo, então não é exemplo de eliminação. (Trema mantém-se em nomes próprios estrangeiros: Müller.)</li>
   <li><strong>Consoantes mudas eliminadas no Brasil:</strong> espectáculo → <em>espetáculo</em>; óptimo → <em>ótimo</em>; facto → <em>fato</em>.</li>
   <li><strong>Acento diferencial eliminado:</strong> pára → <em>para</em>; pélo → <em>pelo</em>; pêlo → <em>pelo</em>. <em>Exceto: pôde (passado) vs pode (presente); pôr (verbo) vs por (preposição).</em></li>
   <li><strong>Ditongos abertos -éi, -ói em paroxítonas sem acento:</strong> idéia → <em>ideia</em>; jóia → <em>joia</em>; héróico → <em>heroico</em>.</li>
