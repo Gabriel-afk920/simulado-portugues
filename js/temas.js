@@ -7,85 +7,122 @@ const TEMAS = [
     id: "ditongos", nome: "Ditongos", icon: "🔤", desc: "Encontros vocálicos",
     teoria: `
 <div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
-  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISAO RAPIDA - Ditongo ou Hiato?</div>
+  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(método por escrita, sem depender de pronúncia)</span></div>
+
+  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
+    <strong style="color:#fbbf24;">Passo 0 — Ache a sílaba tônica primeiro, por escrito:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
+      <li>Tem acento gráfico (´ ou ^) na palavra? → a tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
+      <li>Não tem acento? Use a regra de terminação (mesma da tabela de Acentuação):
+        <ul style="margin:4px 0 0;padding-left:16px;">
+          <li>Termina em -a, -e, -o, -em, -ens → tônica é a penúltima sílaba</li>
+          <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → tônica é a última sílaba</li>
+        </ul>
+      </li>
+      <li>⚠️ Exceção 1: palavra termina, sem acento, em -ia/-ie/-io/-ea/-eo (ex: alegria, energia, família, história):
+        <ul style="margin:4px 0 0;padding-left:16px;">
+          <li>Tem acento gráfico antes do -ia/-io final? (famÍlia, histÓria, necessÁrio) → tônica é essa sílaba; o -ia/-io é átono → vá pra Regra 4 (leia primeiro a Nota de Ambiguidade logo abaixo da tabela).</li>
+          <li>Não tem acento em lugar nenhum? (alegria, energia) → tônica é o próprio i/u final → HIATO direto.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;">Só depois de achar a tônica corretamente, siga as regras abaixo:</p>
+
   <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.8;margin:0 0 14px 0;padding-left:18px;">
-    <li><strong style="color:#fbbf24;">I ou U com acento escrito (i, u com acento)?</strong> HIATO sem excecao. saude, juizo, ai, bau, pais</li>
-    <li><strong style="color:#fbbf24;">Duas vogais IGUAIS seguidas?</strong> HIATO sem excecao. voo, leem, caatinga</li>
-    <li><strong style="color:#fbbf24;">Sequencia com A ou E antes/depois de outra vogal (ao, oa, ae, eo)?</strong> HIATO - A e E nunca sao semivogais. caos, poeta, real, moeda</li>
-    <li><strong style="color:#fbbf24;">Nenhuma das regras acima?</strong> DITONGO - I ou U atono ao lado de outra vogal na mesma silaba.</li>
+    <li><strong style="color:#fbbf24;">I ou U com acento escrito, sozinho na sílaba?</strong> → HIATO sem exceção. sa-Ú-de, ju-Í-zo, a-Í, ba-Ú, pa-ÍS</li>
+    <li><strong style="color:#fbbf24;">Duas vogais IGUAIS escritas seguidas?</strong> → HIATO sem exceção. vo-o, le-em, ca-a-tin-ga</li>
+    <li><strong style="color:#fbbf24;">Sequência escrita com A ou E antes/depois de outra vogal (ao, oa, ae, eo), sem til?</strong> → HIATO — A e E nunca são semivogais, isso vale sempre, independente de acento. ca-os, po-e-ta, re-al, mo-e-da</li>
+    <li><strong style="color:#fbbf24;">Vogal (a/e/o) seguida de i ou u — qual delas é a tônica (achada no Passo 0)?</strong>
+      <ul style="margin:4px 0 0;padding-left:16px;">
+        <li>Tônica é a PRIMEIRA vogal → DITONGO (o i/u é só o "arrastar" da voz, sem sílaba própria)</li>
+        <li>Tônica é a SEGUNDA vogal (i/u) e ela forma sílaba própria → HIATO (mesmo sem acento gráfico)</li>
+      </ul>
+    </li>
+    <li>⚠️ <strong style="color:#fbbf24;">Antes de aplicar a Regra 6 (catch-all):</strong> a palavra é um substantivo derivado de verbo -uar/-uir (tatuagem, continuação, atuação, pontuação)? → HIATO, já validado contra gabarito real. Ou a palavra termina, sem acento em lugar nenhum, em -ua/-ue/-uo, com a força caindo no próprio u (continua, atua, flutua)? → HIATO, mesma lógica da Exceção 1 (alegria/energia). Fora desses dois casos — incluindo formas onde a força está marcada em OUTRA sílaba, como continuará, atuará, pontuará — siga a regra padrão (Regra 4/6), tratando como ditongo, já que esse padrão é reconhecidamente variável na língua e não tem gabarito real validando hiato.</li>
+    <li><strong style="color:#fbbf24;">Nenhuma das regras acima?</strong> → DITONGO — I ou U átono ao lado de outra vogal na mesma sílaba escrita.</li>
   </ol>
+
   <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
     <thead>
       <tr style="background:#1e3a5f;">
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequencia</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequência escrita</th>
         <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Tipo</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo (visual, não sonoro)</th>
         <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
       </tr>
     </thead>
     <tbody>
       <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, ui, au, eu, ou</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a PRIMEIRA vogal é a tônica (Passo 0)</td>
         <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono APOS vogal</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">a primeira vogal é o núcleo tônico; i/u é só o glide, sem sílaba própria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu</td>
       </tr>
       <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO crescente oral</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono ANTES de vogal</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">serie, gloria, vacuo, tenue</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a SEGUNDA vogal (i/u) é a tônica (Passo 0) e forma sílaba própria</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">i/u vira núcleo de sílaba separada, mesmo sem acento gráfico</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">sair (sa-ir), cair (ca-ir), reunir (re-u-nir), reunião (re-u-ni-ão), juiz (ju-iz), ruim (ru-im), diurno (di-ur-no), triunfo (tri-un-fo)</td>
       </tr>
       <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ao, ae, oe (com til)</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira (tônica cai no próprio i/u final, achada pelo Passo 0)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">a vogal átona antes do i/u não pode "roubar" a força, porque não existe acento nenhum indicando isso</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el)</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — COM acento em sílaba anterior</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">⚠️ DITONGO crescente oral — MAS ESTE É O GRUPO CONTROVERSO. Regra padrão diz ditongo, mas várias bancas cobram hiato. Antes de responder, veja a Nota de Ambiguidade logo abaixo.</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U está ANTES da vogal, e não tem acento próprio</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">história, glória, vácuo, tênue, família, igual, necessário, gênio</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uagem, -uação (substantivo derivado de verbo -uar/-uir)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO (já validado contra gabarito real)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuação, atuação, pontuação</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-ua/-ue/-uo final, sem acento em lugar nenhum, força caindo no próprio u</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">mesma lógica da Exceção 1 (alegria/energia) — tônica no próprio u, sem marcação</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">continua, atua, flutua</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uará, -uarão etc. — força marcada em OUTRA sílaba, fora do "u"</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO (regra padrão — Regra 4/6)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua; sem gabarito real validando hiato aqui</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">continuará, atuará, pontuará</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ão, ãe, õe (com til)</td>
         <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal decrescente</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Vogal nasal (til) + semivogal</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pao, mae, coracoes, bem</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">i com acento+vogal, u com acento+vogal</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Acento escrito = I/U tonico = vogal plena</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">saude, juizo, miope, saia</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pão, mãe, corações, bem</td>
       </tr>
       <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io (I tonico sem acento)</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Í ou Ú com acento escrito</td>
         <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I tonico na silaba propria</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">poesia (po-e-si-a), fiel (fi-el)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">O acento gráfico já indica: essa vogal é núcleo de sílaba própria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">saúde, juízo, míope, saía</td>
       </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao (sem til)</td>
+      <tr style="background:#0f172a;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao — sem til</td>
         <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca sao semivogais</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca são semivogais, mesmo sem acento</td>
         <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uação, -uagem (substantivo de verbo -uar)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">U tonico, nucleo silabico — mesmo padrao do verbo conjugado (tatu-A-r, atu-A-r)</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuacao, atuacao, pontuacao</td>
       </tr>
     </tbody>
   </table>
-  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
-    <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
-      <li><strong>solidao</strong> = so-li-DAO: -AO no final com til = DITONGO nasal decrescente</li>
-      <li><strong>saudade</strong> = SAU-da-de: AU = DITONGO oral decrescente</li>
-      <li><strong>saude</strong> = sa-U-de: U com acento = HIATO</li>
-      <li><strong>poesia</strong> = po-e-SI-a: I tonico = HIATO (nao ditongo crescente)</li>
-      <li><strong>serie</strong> = SE-rie: I atono antes de E = DITONGO crescente oral</li>
-      <li><strong>rainha</strong> = ra-I-nha: I antes de NH com vogal antes = HIATO</li>
-      <li><strong>muito</strong> = MUI-to: UI = DITONGO decrescente oral (u eh a vogal)</li>
-    </ul>
-  </div>
+
   <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
-    <strong style="color:#f59e0b;">⚠️ Divergencia entre bancas — atencao nestes dois casos:</strong>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
-      <li><strong>-ario/-aria, -uario/-uaria</strong> (necessario, historia, familia, serie, gloria, voluntario, contrario): a regra padrao/moderna classifica como DITONGO crescente (i atono antes de vogal) — e o que a maioria das bancas cobra, e e a resposta padrao deste app. Atencao: pelo menos uma banca (MS Concursos) ja cobrou esse grupo como HIATO, seguindo a tradicao gramatical (NGB). Verifique o padrao da banca especifica se possivel.</li>
-      <li><strong>magoa, Pascoa</strong> (-oa final atono apos consoante — o acento grafico fica na silaba ANTERIOR ao -oa, nao no proprio -oa): segue o padrao de "agua" (a-GUA: acento no "a", "gua" atono = DITONGO), que e a resposta padrao deste app. Atencao: pelo menos uma banca (MS Concursos) ja cobrou como HIATO — verifique o padrao da banca especifica se possivel. <em>Importante: amendoa e nevoa NAO entram nessa divergencia — as duas sao HIATO sem controversia (amendoa e proparoxitona: a-MEN-do-a; nevoa e NE-vo-a), nao seguem o mesmo padrao de magoa/Pascoa.</em></li>
-    </ul>
+    <strong style="color:#f59e0b;">⚠️ NOTA DE AMBIGUIDADE — leia antes de responder qualquer palavra da linha marcada acima:</strong>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Quando a palavra tem acento marcado antes do -ia/-io final (famÍlia, histÓria, necessÁrio, gÊnio), existe divergência gramatical entre "ditongo" (regra padrão) e "hiato" (leitura alternativa aceita pela norma).</p>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Regra de prioridade, validada com dados reais do banco (60 questões auditadas individualmente): trate como <strong style="color:#4ade80;">DITONGO</strong>. 85% das vezes é a resposta certa (51 de 60 questões).</p>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Exceção conhecida: se a questão for de <strong>MS Concursos</strong>, inverta a prioridade — considere <strong style="color:#f87171;">HIATO</strong>. Essa banca, sozinha, respondeu hiato em 5 de 6 questões desse grupo (padrão oposto a todas as outras bancas do banco — IBAM, Unesc, AMEOSC, INSTITUTO AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE e IDCAP foram 100% ditongo).</p>
+    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0 0;line-height:1.8;">Palavras clássicas desse grupo: família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>
   </div>
 </div>
 
@@ -1212,16 +1249,124 @@ const TEMAS = [
   {
     id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
-<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:14px 16px;margin-bottom:18px;">
-  <div style="color:#60a5fa;font-weight:700;margin-bottom:8px;">HIATO - Regras de Identificacao Imediata</div>
-  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.9;margin:0;padding-left:16px;">
-    <li><strong style="color:#fbbf24;">I ou U com acento (com acento)</strong> sempre hiato: saude, juizo, ai, bau</li>
-    <li><strong style="color:#fbbf24;">Vogais iguais seguidas (oo, aa, ee)</strong> sempre hiato: voo, leem, caatinga</li>
-    <li><strong style="color:#fbbf24;">A ou E antes/depois de outra vogal</strong> hiato: caos, moeda, poeta</li>
-    <li><strong style="color:#fbbf24;">I antes de NH com vogal anterior</strong> hiato: rainha (ra|i|nha)</li>
-    <li><strong style="color:#fbbf24;">I/U no fim de palavra antes de Z, M, S</strong> hiato: raiz, ruim, pais</li>
+<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
+  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(método por escrita, sem depender de pronúncia)</span></div>
+
+  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
+    <strong style="color:#fbbf24;">Passo 0 — Ache a sílaba tônica primeiro, por escrito:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
+      <li>Tem acento gráfico (´ ou ^) na palavra? → a tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
+      <li>Não tem acento? Use a regra de terminação (mesma da tabela de Acentuação):
+        <ul style="margin:4px 0 0;padding-left:16px;">
+          <li>Termina em -a, -e, -o, -em, -ens → tônica é a penúltima sílaba</li>
+          <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → tônica é a última sílaba</li>
+        </ul>
+      </li>
+      <li>⚠️ Exceção 1: palavra termina, sem acento, em -ia/-ie/-io/-ea/-eo (ex: alegria, energia, família, história):
+        <ul style="margin:4px 0 0;padding-left:16px;">
+          <li>Tem acento gráfico antes do -ia/-io final? (famÍlia, histÓria, necessÁrio) → tônica é essa sílaba; o -ia/-io é átono → vá pra Regra 4 (leia primeiro a Nota de Ambiguidade logo abaixo da tabela).</li>
+          <li>Não tem acento em lugar nenhum? (alegria, energia) → tônica é o próprio i/u final → HIATO direto.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;">Só depois de achar a tônica corretamente, siga as regras abaixo:</p>
+
+  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.8;margin:0 0 14px 0;padding-left:18px;">
+    <li><strong style="color:#fbbf24;">I ou U com acento escrito, sozinho na sílaba?</strong> → HIATO sem exceção. sa-Ú-de, ju-Í-zo, a-Í, ba-Ú, pa-ÍS</li>
+    <li><strong style="color:#fbbf24;">Duas vogais IGUAIS escritas seguidas?</strong> → HIATO sem exceção. vo-o, le-em, ca-a-tin-ga</li>
+    <li><strong style="color:#fbbf24;">Sequência escrita com A ou E antes/depois de outra vogal (ao, oa, ae, eo), sem til?</strong> → HIATO — A e E nunca são semivogais, isso vale sempre, independente de acento. ca-os, po-e-ta, re-al, mo-e-da</li>
+    <li><strong style="color:#fbbf24;">Vogal (a/e/o) seguida de i ou u — qual delas é a tônica (achada no Passo 0)?</strong>
+      <ul style="margin:4px 0 0;padding-left:16px;">
+        <li>Tônica é a PRIMEIRA vogal → DITONGO (o i/u é só o "arrastar" da voz, sem sílaba própria)</li>
+        <li>Tônica é a SEGUNDA vogal (i/u) e ela forma sílaba própria → HIATO (mesmo sem acento gráfico)</li>
+      </ul>
+    </li>
+    <li>⚠️ <strong style="color:#fbbf24;">Antes de aplicar a Regra 6 (catch-all):</strong> a palavra é um substantivo derivado de verbo -uar/-uir (tatuagem, continuação, atuação, pontuação)? → HIATO, já validado contra gabarito real. Ou a palavra termina, sem acento em lugar nenhum, em -ua/-ue/-uo, com a força caindo no próprio u (continua, atua, flutua)? → HIATO, mesma lógica da Exceção 1 (alegria/energia). Fora desses dois casos — incluindo formas onde a força está marcada em OUTRA sílaba, como continuará, atuará, pontuará — siga a regra padrão (Regra 4/6), tratando como ditongo, já que esse padrão é reconhecidamente variável na língua e não tem gabarito real validando hiato.</li>
+    <li><strong style="color:#fbbf24;">Nenhuma das regras acima?</strong> → DITONGO — I ou U átono ao lado de outra vogal na mesma sílaba escrita.</li>
   </ol>
-  <p style="color:#94a3b8;font-size:0.85rem;margin:10px 0 0;"><strong style="color:#f59e0b;">Diferenca-chave com ditongo:</strong> No ditongo, I ou U sao atonos e ficam na MESMA silaba que a vogal. No hiato, cada vogal fica em silaba SEPARADA porque pelo menos uma e tonica ou porque sao A/E.</p>
+
+  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
+    <thead>
+      <tr style="background:#1e3a5f;">
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequência escrita</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Tipo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo (visual, não sonoro)</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a PRIMEIRA vogal é a tônica (Passo 0)</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">a primeira vogal é o núcleo tônico; i/u é só o glide, sem sílaba própria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a SEGUNDA vogal (i/u) é a tônica (Passo 0) e forma sílaba própria</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">i/u vira núcleo de sílaba separada, mesmo sem acento gráfico</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">sair (sa-ir), cair (ca-ir), reunir (re-u-nir), reunião (re-u-ni-ão), juiz (ju-iz), ruim (ru-im), diurno (di-ur-no), triunfo (tri-un-fo)</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira (tônica cai no próprio i/u final, achada pelo Passo 0)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">a vogal átona antes do i/u não pode "roubar" a força, porque não existe acento nenhum indicando isso</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el)</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — COM acento em sílaba anterior</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">⚠️ DITONGO crescente oral — MAS ESTE É O GRUPO CONTROVERSO. Regra padrão diz ditongo, mas várias bancas cobram hiato. Antes de responder, veja a Nota de Ambiguidade logo abaixo.</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U está ANTES da vogal, e não tem acento próprio</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">história, glória, vácuo, tênue, família, igual, necessário, gênio</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uagem, -uação (substantivo derivado de verbo -uar/-uir)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO (já validado contra gabarito real)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuação, atuação, pontuação</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-ua/-ue/-uo final, sem acento em lugar nenhum, força caindo no próprio u</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">mesma lógica da Exceção 1 (alegria/energia) — tônica no próprio u, sem marcação</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">continua, atua, flutua</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uará, -uarão etc. — força marcada em OUTRA sílaba, fora do "u"</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO (regra padrão — Regra 4/6)</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua; sem gabarito real validando hiato aqui</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">continuará, atuará, pontuará</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ão, ãe, õe (com til)</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal decrescente</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pão, mãe, corações, bem</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Í ou Ú com acento escrito</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">O acento gráfico já indica: essa vogal é núcleo de sílaba própria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">saúde, juízo, míope, saía</td>
+      </tr>
+      <tr style="background:#0f172a;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao — sem til</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca são semivogais, mesmo sem acento</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
+    <strong style="color:#f59e0b;">⚠️ NOTA DE AMBIGUIDADE — leia antes de responder qualquer palavra da linha marcada acima:</strong>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Quando a palavra tem acento marcado antes do -ia/-io final (famÍlia, histÓria, necessÁrio, gÊnio), existe divergência gramatical entre "ditongo" (regra padrão) e "hiato" (leitura alternativa aceita pela norma).</p>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Regra de prioridade, validada com dados reais do banco (60 questões auditadas individualmente): trate como <strong style="color:#4ade80;">DITONGO</strong>. 85% das vezes é a resposta certa (51 de 60 questões).</p>
+    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Exceção conhecida: se a questão for de <strong>MS Concursos</strong>, inverta a prioridade — considere <strong style="color:#f87171;">HIATO</strong>. Essa banca, sozinha, respondeu hiato em 5 de 6 questões desse grupo (padrão oposto a todas as outras bancas do banco — IBAM, Unesc, AMEOSC, INSTITUTO AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE e IDCAP foram 100% ditongo).</p>
+    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0 0;line-height:1.8;">Palavras clássicas desse grupo: família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>
+  </div>
 </div>
 
 
@@ -1607,6 +1752,8 @@ const TEMAS = [
     <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;">Fronteira de prefixo</td><td style="padding:8px 10px;color:#94a3b8;">Separa na junção do prefixo</td><td style="padding:8px 10px;color:#cbd5e1;"><strong>sub</strong>-li-nhar, <strong>trans</strong>-por-te</td></tr>
   </tbody>
 </table>
+
+<p style="color:#94a3b8;font-size:0.85rem;">📌 Para decidir se um encontro vocálico é ditongo ou hiato (o que muda se as vogais separam ou ficam juntas na sílaba), veja a árvore de decisão completa nos temas <strong>Ditongos</strong> e <strong>Hiatos</strong>.</p>
 
 <div class="exemplo-box">
   <em>psicologia</em>  → psi-co-lo-gi-a &nbsp;(ps: grupo inicial inseparável)<br>
