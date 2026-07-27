@@ -2701,6 +2701,14 @@ const TEMAS = [
 <p><strong>Novo Acordo — ditongo aberto em paroxítonas:</strong> os ditongos <em>ei</em> e <em>oi</em> abertos em paroxítonas <strong>perderam o acento</strong>: <em>ideia, plateia, assembleia, heroico, jiboia</em> (sem acento desde 2009). Oxítonas com ditongo aberto continuam acentuadas: <em>papéis, fiéis, anzóis</em>.</p>
 <p><strong>Localizar a tônica em palavras longas — método passo a passo:</strong> (1) separe em sílabas; (2) pronuncie e identifique qual soa mais forte; (3) conte da última para trás: última = OXÍTONA, penúltima = PAROXÍTONA, antepenúltima = PROPAROXÍTONA. Exemplos críticos: <em>pan-de-MI-a</em> = penúltima = paroxítona (não proparoxítona); <em>me-di-a-DOR</em> = última = oxítona (4 sílabas, não 3); <em>ME-di-co</em> = antepenúltima = proparoxítona (sempre acentuada).</p>
 
+<h3>Regra 3 — Hiato Tônico (i/u)</h3>
+<p>Além das três classes por posição da tônica, existe uma regra própria para quando <strong>i</strong> ou <strong>u</strong> tônicos formam hiato (ficam sozinhos, em sílaba separada da vogal anterior):</p>
+<div class="exemplo-box">
+  <strong style="color:#4ade80;">✅ Recebe acento:</strong> i/u tônico sozinho na sílaba (nada depois, ou só "s") → sa-<strong>ú</strong>-de, sa-<strong>í</strong>-da, pa-<strong>ís</strong>, ba-<strong>ú</strong>, e-go-<strong>í</strong>s-mo, e-go-<strong>í</strong>s-ta, Lu-<strong>í</strong>s, ba-<strong>ú</strong>s<br>
+  <strong style="color:#f87171;">❌ NÃO recebe acento:</strong> seguido de consoante que não seja "s" → cair, sair, ruim, juiz, raiz; seguido de NH → rainha, moinho; vogal repetida → xiita
+</div>
+<p style="color:#94a3b8;font-size:0.85rem;">📌 Para decidir se um encontro vocálico é ditongo ou hiato (o que muda se as vogais separam ou ficam juntas na sílaba), veja a árvore de decisão completa nos temas <strong>Ditongos</strong> e <strong>Hiatos</strong>.</p>
+
 <h3>Bloco 5 — Proparoxítonas</h3>
 <p>Proparoxítonas têm tônica na <strong>antepenúltima</strong> sílaba e <strong>sempre</strong> têm acento gráfico — sem exceção. Reconhecer os sufixos abaixo permite localizar a tônica imediatamente: ela está na sílaba imediatamente anterior ao sufixo.</p>
 <div class="exemplo-box"><strong>MÉ</strong>-di-co (-ico) &nbsp;·&nbsp; <strong>Ó</strong>-ti-mo (-imo) &nbsp;·&nbsp; <strong>TÍ</strong>-tu-lo (-ulo) &nbsp;·&nbsp; es-pe-<strong>TÁ</strong>-cu-lo (-culo) &nbsp;·&nbsp; psi-<strong>CÓ</strong>-lo-go (-logo) &nbsp;·&nbsp; her-<strong>BÍ</strong>-vo-ro (-voro)</div>
