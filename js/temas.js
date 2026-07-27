@@ -529,6 +529,7 @@ const TEMAS = [
 <h3>Exceções: QU e GU + e/i com U pronunciado</h3>
 <p>Algumas palavras têm U pronunciado mesmo antes de <em>e</em> ou <em>i</em>. Antes do Acordo de 2009, essas palavras carregavam <strong>trema</strong> (ü) para sinalizar o U pronunciado. Com o Acordo, o trema foi abolido, mas o U <strong>continua sendo pronunciado</strong> — é preciso memorizar esses casos.</p>
 <p><strong>Pista escrita:</strong> se a palavra tinha trema antes de 2009, o U continua pronunciado hoje.</p>
+<div class="dica-box"><div class="dica-title">⚠️ Queda do trema — Acordo de 2009</div>Desde o Acordo de 2009, nunca mais se usa trema em português — não importa se o "u" é pronunciado ou não em qu/gu.</div>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 6px;">
   <thead>
@@ -582,6 +583,69 @@ const TEMAS = [
       <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
       <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
       <td style="padding:8px 10px;color:#cbd5e1;">fre-<strong>quê</strong>n-cia</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">sequência</td>
+      <td style="padding:8px 10px;color:#94a3b8;">seqüência</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">se-<strong>quên</strong>-cia</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">cinquenta</td>
+      <td style="padding:8px 10px;color:#94a3b8;">cinqüenta</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">cin-<strong>quen</strong>-ta</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">eloquente</td>
+      <td style="padding:8px 10px;color:#94a3b8;">eloqüente</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">e-lo-<strong>quen</strong>-te</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">consequência</td>
+      <td style="padding:8px 10px;color:#94a3b8;">conseqüência</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">con-se-<strong>quên</strong>-cia</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">frequente</td>
+      <td style="padding:8px 10px;color:#94a3b8;">freqüente</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">fre-<strong>quen</strong>-te</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">delinquente</td>
+      <td style="padding:8px 10px;color:#94a3b8;">delinqüente</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">de-lin-<strong>quen</strong>-te</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">equestre</td>
+      <td style="padding:8px 10px;color:#94a3b8;">eqüestre</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">e-<strong>ques</strong>-tre</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">aguentar</td>
+      <td style="padding:8px 10px;color:#94a3b8;">agüentar</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">a-<strong>guen</strong>-tar</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">arguir</td>
+      <td style="padding:8px 10px;color:#94a3b8;">argüir</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">ar-<strong>guir</strong></td>
     </tr>
     <tr>
       <td style="padding:8px 10px;font-weight:700;color:#64748b;">questão</td>
