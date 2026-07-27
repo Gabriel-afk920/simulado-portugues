@@ -19,10 +19,11 @@ const TEMAS = [
           <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → tônica é a última sílaba</li>
         </ul>
       </li>
-      <li>⚠️ Exceção 1: palavra termina, sem acento, em -ia/-ie/-io/-ea/-eo (ex: alegria, energia, família, história):
+      <li>⚠️ Exceção 1 (vale para o FINAL da palavra E para o MEIO dela): sempre que uma sequência sem acento -ia/-ie/-io/-ea/-eo/-ua/-ue/-uo cair exatamente na sílaba que a regra de terminação aponta como tônica — seja no final absoluto (alegria, energia) ou seguida de mais sílabas átonas dentro da palavra (suave: su-a-ve, "ua" antes do "-ve" final):
         <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>Tem acento gráfico antes do -ia/-io final? (famÍlia, histÓria, necessÁrio) → tônica é essa sílaba; o -ia/-io é átono → vá pra Regra 4 (leia primeiro a Nota de Ambiguidade logo abaixo da tabela).</li>
-          <li>Não tem acento em lugar nenhum? (alegria, energia) → tônica é o próprio i/u final → HIATO direto.</li>
+          <li>Tem acento gráfico em ALGUM lugar da palavra? (famÍlia, histÓria, necessÁrio) → esse acento confirma a tônica real; a sequência vira ditongo → vá pra Regra 4 (⚠️ leia a Nota de Ambiguidade).</li>
+          <li>Não tem acento em lugar nenhum? (alegria, energia, suave) → a força cai na SEGUNDA vogal da sequência (a/e/o), formando hiato com a primeira (i/u), mesmo sem acento escrito → HIATO direto.</li>
+          <li>⚠️ Não aplique esta exceção quando o "u" vem logo depois de Q ou G (quase, guarda, quando) — esses seguem a regra própria de QU/GU, já coberta na tabela de Separação Silábica.</li>
         </ul>
       </li>
     </ul>
@@ -58,7 +59,7 @@ const TEMAS = [
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a PRIMEIRA vogal é a tônica (Passo 0)</td>
         <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
         <td style="padding:7px 10px;color:#cbd5e1;">a primeira vogal é o núcleo tônico; i/u é só o glide, sem sílaba própria</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu, noite, seio</td>
       </tr>
       <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a SEGUNDA vogal (i/u) é a tônica (Passo 0) e forma sílaba própria</td>
@@ -67,10 +68,10 @@ const TEMAS = [
         <td style="padding:7px 10px;color:#e2e8f0;">sair (sa-ir), cair (ca-ir), reunir (re-u-nir), reunião (re-u-ni-ão), juiz (ju-iz), ruim (ru-im), diurno (di-ur-no), triunfo (tri-un-fo)</td>
       </tr>
       <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira (tônica cai no próprio i/u final, achada pelo Passo 0)</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira, no FINAL ou no MEIO da palavra (tônica cai na segunda vogal, achada pelo Passo 0 + Exceção 1)</td>
         <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
         <td style="padding:7px 10px;color:#cbd5e1;">a vogal átona antes do i/u não pode "roubar" a força, porque não existe acento nenhum indicando isso</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el)</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el), suave (su-a-ve)</td>
       </tr>
       <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — COM acento em sílaba anterior</td>
@@ -1262,10 +1263,11 @@ const TEMAS = [
           <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → tônica é a última sílaba</li>
         </ul>
       </li>
-      <li>⚠️ Exceção 1: palavra termina, sem acento, em -ia/-ie/-io/-ea/-eo (ex: alegria, energia, família, história):
+      <li>⚠️ Exceção 1 (vale para o FINAL da palavra E para o MEIO dela): sempre que uma sequência sem acento -ia/-ie/-io/-ea/-eo/-ua/-ue/-uo cair exatamente na sílaba que a regra de terminação aponta como tônica — seja no final absoluto (alegria, energia) ou seguida de mais sílabas átonas dentro da palavra (suave: su-a-ve, "ua" antes do "-ve" final):
         <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>Tem acento gráfico antes do -ia/-io final? (famÍlia, histÓria, necessÁrio) → tônica é essa sílaba; o -ia/-io é átono → vá pra Regra 4 (leia primeiro a Nota de Ambiguidade logo abaixo da tabela).</li>
-          <li>Não tem acento em lugar nenhum? (alegria, energia) → tônica é o próprio i/u final → HIATO direto.</li>
+          <li>Tem acento gráfico em ALGUM lugar da palavra? (famÍlia, histÓria, necessÁrio) → esse acento confirma a tônica real; a sequência vira ditongo → vá pra Regra 4 (⚠️ leia a Nota de Ambiguidade).</li>
+          <li>Não tem acento em lugar nenhum? (alegria, energia, suave) → a força cai na SEGUNDA vogal da sequência (a/e/o), formando hiato com a primeira (i/u), mesmo sem acento escrito → HIATO direto.</li>
+          <li>⚠️ Não aplique esta exceção quando o "u" vem logo depois de Q ou G (quase, guarda, quando) — esses seguem a regra própria de QU/GU, já coberta na tabela de Separação Silábica.</li>
         </ul>
       </li>
     </ul>
@@ -1301,7 +1303,7 @@ const TEMAS = [
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a PRIMEIRA vogal é a tônica (Passo 0)</td>
         <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
         <td style="padding:7px 10px;color:#cbd5e1;">a primeira vogal é o núcleo tônico; i/u é só o glide, sem sílaba própria</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, saiu, caiu, fugiu, sumiu, subiu, atribuiu, construiu, noite, seio</td>
       </tr>
       <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu — quando a SEGUNDA vogal (i/u) é a tônica (Passo 0) e forma sílaba própria</td>
@@ -1310,10 +1312,10 @@ const TEMAS = [
         <td style="padding:7px 10px;color:#e2e8f0;">sair (sa-ir), cair (ca-ir), reunir (re-u-nir), reunião (re-u-ni-ão), juiz (ju-iz), ruim (ru-im), diurno (di-ur-no), triunfo (tri-un-fo)</td>
       </tr>
       <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira (tônica cai no próprio i/u final, achada pelo Passo 0)</td>
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — SEM acento na palavra inteira, no FINAL ou no MEIO da palavra (tônica cai na segunda vogal, achada pelo Passo 0 + Exceção 1)</td>
         <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
         <td style="padding:7px 10px;color:#cbd5e1;">a vogal átona antes do i/u não pode "roubar" a força, porque não existe acento nenhum indicando isso</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el)</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">alegria (a-le-gri-a), energia (e-ner-gi-a), poesia (po-e-si-a), categoria, sabedoria, fiel (fi-el), suave (su-a-ve)</td>
       </tr>
       <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
         <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo — COM acento em sílaba anterior</td>
