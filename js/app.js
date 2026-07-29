@@ -299,18 +299,22 @@ function selecionarTemaQuiz(id, card) {
   temaAtual = TEMAS.find(t => t.id === id);
   const semQuestoes = !temaAtual.questoes.length;
   const btn = document.getElementById('btn-iniciar');
-  btn.disabled    = semQuestoes;
-  btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
+  const box = document.getElementById('continuar-box');
 
   const sessao = _sessaoAtiva(id);
-  const box    = document.getElementById('continuar-box');
   if (sessao && !semQuestoes) {
     const respondidas = Object.keys(sessao.respostasMap || {}).length;
     document.getElementById('continuar-info').textContent =
       `questão ${sessao.indiceAtual + 1} de ${sessao.questaoHashes.length} · ${respondidas} respondidas`;
     box.style.display = '';
+    // Sessão ativa: só "Continuar"/"Novo simulado" decidem o destino do progresso —
+    // "Iniciar Simulado" ficava disponível e reiniciava do zero sem excluir as já respondidas.
+    btn.style.display = 'none';
   } else {
     box.style.display = 'none';
+    btn.style.display = '';
+    btn.disabled    = semQuestoes;
+    btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
   }
 }
 
@@ -325,11 +329,13 @@ document.getElementById('btn-continuar').addEventListener('click', () => {
 });
 
 document.getElementById('btn-novo-simulado').addEventListener('click', () => {
-  if (temaAtual) {
-    _limparSessaoAtiva();
-    document.getElementById('continuar-box').style.display = 'none';
-    iniciarSimulado(temaAtual);
-  }
+  if (!temaAtual) return;
+  const s = _sessaoAtiva(temaAtual.id);
+  const respondidas = s ? Object.keys(s.respostasMap || {}).length : 0;
+  if (respondidas > 0 && !confirm(`Isso vai apagar seu progresso atual (${respondidas} respondidas). Continuar?`)) return;
+  _limparSessaoAtiva();
+  document.getElementById('continuar-box').style.display = 'none';
+  iniciarSimulado(temaAtual);
 });
 
 // ── Seleção múltipla de subtemas (Fonética e Ortografia no Simulado) ──
@@ -595,6 +601,7 @@ function registrarResposta(escolhida) {
 function _avancarOuResultado() {
   indiceAtual++;
   if (indiceAtual < questoes.length) {
+    _salvarSessaoAtiva();
     renderQuestao();
   } else if (filaPuladas.length > 0) {
     const idxInicio = questoes.length;
@@ -602,6 +609,7 @@ function _avancarOuResultado() {
     filaPuladas    = [];
     emRodadaPuladas = true;
     indiceAtual    = idxInicio;
+    _salvarSessaoAtiva();
     renderQuestao();
   } else {
     mostrarResultado();
