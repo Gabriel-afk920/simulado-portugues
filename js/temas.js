@@ -4462,7 +4462,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <ul style="color:#cbd5e1;margin-top:8px;">
   <li>O <strong>emprego da vírgula</strong> é o tópico mais cobrado em pontuação. O emprego da vírgula segue regras obrigatórias (vocativo, aposto, adjunto adverbial deslocado) e casos proibidos (entre sujeito e verbo).</li>
   <li>A questão de pontuação mais cobrada é a <strong>vírgula</strong> — memorize os casos proibidos (entre sujeito/verbo e verbo/objeto).</li>
-  <li>Teste cada alternativa substituindo a pontuação proposta e lendo em voz alta — o sentido muda? Se sim, está errado.</li>
+  <li>Teste cada alternativa reescrevendo a frase sem o trecho isolado pela pontuação proposta — o sentido central muda? Se sim, está errado (o trecho é essencial, não pode ser isolado). Se não muda, o trecho é informação extra e a pontuação está correta.</li>
   <li>Oração adjetiva: pergunte "essa informação identifica ou apenas acrescenta?". Se identifica → restritiva → sem vírgula. Se acrescenta → explicativa → com vírgula.</li>
   <li>Adjunto adverbial curto no início → vírgula é facultativa; adjunto longo → vírgula é recomendada/obrigatória.</li>
   <li>Conjunção "mas" é sempre precedida de vírgula. Conjunção "e" em enumeração simples NÃO é.</li>
