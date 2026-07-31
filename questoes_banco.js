@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 28/07/2026, 22:26:26 — 5217 questões incluídas
+// 30/07/2026, 21:34:39 — 5217 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -69,8 +69,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "silabas",
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -137,10 +137,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "silabas",
-                      "tritongos",
-                      "hiatos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -282,8 +279,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "silabas",
-                      "oxitonas"
+                      "silabas"
                 ],
                 "imagens": null
           },
@@ -1432,9 +1428,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tonicidade",
                       "hiatos",
                       "silabas",
+                      "tritongos",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -1456,9 +1452,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "silabas"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1479,11 +1474,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1505,8 +1497,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1528,8 +1520,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1551,8 +1543,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1573,10 +1565,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1597,11 +1588,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "classesGramaticais",
+                      "digrafos",
                       "hiatos",
-                      "digrafos"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1623,10 +1612,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hiatos",
-                      "tritongos"
+                      "tritongos",
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -1647,10 +1634,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
                       "hiatos",
-                      "classesGramaticais"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1671,12 +1656,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras",
-                      "classesGramaticais",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1696,11 +1677,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "hifen",
-                      "formacaoPalavras"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -1721,8 +1698,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1742,12 +1719,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "tritongos",
-                      "hiatos",
-                      "digrafos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -1769,7 +1741,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "hiatos",
-                      "digrafos"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1812,7 +1784,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1897,7 +1871,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1918,8 +1893,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1940,8 +1915,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -1962,8 +1937,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2026,7 +2001,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2047,7 +2024,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2089,8 +2068,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2198,7 +2177,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2219,7 +2200,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2240,8 +2222,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2303,7 +2285,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2325,8 +2309,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2369,7 +2353,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2390,8 +2376,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2412,8 +2398,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2434,7 +2420,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2479,8 +2467,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2501,8 +2489,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2523,7 +2511,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2544,7 +2533,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2567,6 +2557,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "silabas",
+                      "hiatos",
+                      "tritongos",
                       "paroxitonas",
                       "tonicidade"
                 ],
@@ -2588,7 +2580,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2609,8 +2603,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2631,8 +2625,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2653,8 +2647,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2676,7 +2670,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2698,7 +2693,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2720,7 +2716,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2741,7 +2738,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2763,11 +2762,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "digrafos",
-                      "silabas",
-                      "encontrosConsonantais"
+                      "silabas"
                 ],
                 "imagens": null
           },
@@ -2789,8 +2785,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2811,7 +2807,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2857,7 +2855,6 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "hiatos",
                       "digrafos",
-                      "silabas",
                       "encontrosConsonantais",
                       "fonemas"
                 ],
@@ -2881,10 +2878,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
+                      "silabas",
                       "hiatos",
-                      "digrafos",
-                      "silabas"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2906,8 +2902,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -2930,6 +2926,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -2952,6 +2950,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos",
+                      "hiatos",
+                      "tritongos",
                       "ortografia"
                 ],
                 "imagens": null
@@ -3015,7 +3015,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3037,7 +3038,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3058,8 +3060,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3080,7 +3082,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3121,7 +3125,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3142,7 +3148,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3164,7 +3171,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "silabas"
+                      "silabas",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3254,7 +3263,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3276,8 +3286,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3299,8 +3309,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3321,7 +3331,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3342,7 +3353,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3364,9 +3376,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -3387,7 +3397,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "digrafos"
+                      "digrafos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3409,7 +3421,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -3432,9 +3443,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
-                      "silabas"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -3456,9 +3465,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "silabas"
+                      "silabas",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3479,7 +3488,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3584,7 +3595,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3605,7 +3618,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -3627,7 +3639,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3649,7 +3663,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "hiatos",
-                      "silabas"
+                      "silabas",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3690,7 +3705,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3712,8 +3729,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3773,7 +3790,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3794,8 +3813,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3816,7 +3835,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3837,8 +3857,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3860,7 +3880,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -3882,8 +3901,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
+                      "tritongos",
                       "ortografia"
                 ],
                 "imagens": null
@@ -3906,10 +3925,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
                       "silabas",
-                      "encontrosConsonantais",
+                      "hiatos",
+                      "tritongos",
                       "tonicidade"
                 ],
                 "imagens": null
@@ -3931,8 +3949,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3953,8 +3971,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3975,8 +3993,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -3997,8 +4015,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4019,8 +4037,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4041,8 +4059,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4063,8 +4081,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4108,8 +4126,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4174,8 +4192,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "hiatos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -4218,7 +4235,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4258,7 +4277,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4280,10 +4301,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
-                      "silabas",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -4387,11 +4405,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "tritongos",
-                      "silabas",
-                      "oxitonas",
-                      "ortografia"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -4457,8 +4471,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "hiatos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -4479,7 +4492,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "digrafos"
+                      "digrafos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4500,7 +4515,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4521,7 +4537,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4563,7 +4580,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4605,7 +4624,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4625,7 +4646,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4646,7 +4669,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4689,7 +4714,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4842,7 +4868,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4926,7 +4954,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4947,7 +4976,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -4990,9 +5020,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -5012,7 +5040,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5055,7 +5085,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5076,7 +5108,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5184,7 +5218,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5205,7 +5241,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5226,7 +5264,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5310,7 +5349,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5374,7 +5415,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5394,7 +5437,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5414,7 +5459,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5457,7 +5504,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "encontrosConsonantais",
                       "fonemas"
                 ],
                 "imagens": null
@@ -5499,7 +5545,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5519,7 +5567,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5561,7 +5611,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5603,7 +5654,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5624,7 +5676,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5645,7 +5698,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5687,9 +5741,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -5710,7 +5762,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5731,7 +5784,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5794,7 +5848,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5838,7 +5893,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5860,7 +5916,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -5902,7 +5959,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6010,7 +6069,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6031,7 +6092,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6073,7 +6135,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6116,10 +6179,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -6295,7 +6355,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -6361,7 +6420,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6483,6 +6543,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -6504,8 +6566,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "silabas"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -6549,7 +6610,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6570,8 +6633,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6676,9 +6739,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "silabas"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6701,8 +6763,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos",
-                      "encontrosConsonantais",
-                      "fonemas",
                       "ortografia"
                 ],
                 "imagens": null
@@ -6787,7 +6847,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6829,7 +6891,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6873,7 +6937,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -6917,10 +6983,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos",
                       "digrafos",
                       "silabas",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -6984,8 +7050,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -7051,7 +7116,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7072,8 +7138,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7159,7 +7225,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -7204,8 +7269,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -7229,8 +7292,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "tritongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -7340,7 +7402,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ditongos",
                       "digrafos",
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7361,9 +7425,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -7384,7 +7446,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7427,7 +7491,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7448,8 +7514,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7555,8 +7621,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7576,7 +7642,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7598,8 +7666,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -7799,7 +7865,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7821,7 +7889,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -7885,7 +7954,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -7908,7 +7976,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -7954,7 +8021,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -8016,9 +8082,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "hiatos",
-                      "silabas"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -8039,9 +8103,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "hiatos",
-                      "digrafos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -8063,8 +8125,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -8086,7 +8146,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -8106,8 +8168,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos",
-                      "hiatos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -8148,7 +8209,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -8170,8 +8233,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -8214,9 +8276,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos",
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -8409,7 +8469,9 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ditongos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -8431,8 +8493,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -8455,7 +8515,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "silabas",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -8478,8 +8537,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -8501,7 +8560,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ditongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           }
@@ -8523,9 +8583,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "fonemas",
-                      "digrafos",
-                      "silabas"
+                      "fonemas"
                 ],
                 "imagens": null
           },
@@ -8797,10 +8855,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "fonemas",
-                      "ditongos",
                       "hiatos",
-                      "silabas",
-                      "acentuacaoGrafica"
+                      "silabas"
                 ],
                 "imagens": null
           },
@@ -8826,8 +8882,7 @@ var QUESTOES_BANCO = {
                       "tritongos",
                       "hiatos",
                       "digrafos",
-                      "encontrosConsonantais",
-                      "tonicidade"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -8848,10 +8903,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "fonemas",
-                      "hiatos",
-                      "silabas",
-                      "proparoxitonas"
+                      "fonemas"
                 ],
                 "imagens": null
           },
@@ -8872,9 +8924,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "fonemas",
-                      "hiatos",
-                      "digrafos"
+                      "fonemas"
                 ],
                 "imagens": null
           },
@@ -9042,7 +9092,10 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "fonemas",
                       "digrafos",
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -9860,8 +9913,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "fonemas",
                       "silabas",
-                      "ortografia",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -10595,6 +10647,9 @@ var QUESTOES_BANCO = {
                       "fonemas",
                       "digrafos",
                       "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "ortografia"
                 ],
                 "imagens": null
@@ -10990,9 +11045,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "fonemas",
                       "hiatos",
-                      "paroxitonas",
-                      "ortografia",
-                      "crase"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -11181,7 +11234,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "fonemas",
-                      "digrafos",
                       "ortografia"
                 ],
                 "imagens": null
@@ -11784,9 +11836,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12005,8 +12055,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12027,9 +12076,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -12071,8 +12118,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -12284,8 +12330,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12393,8 +12438,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12496,10 +12540,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas",
-                      "tonicidade"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12606,9 +12647,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12711,9 +12750,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -12835,9 +12872,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "crase"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -13190,9 +13225,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -13556,9 +13589,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -13640,7 +13671,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "proparoxitonas",
-                      "oxitonas",
                       "tonicidade"
                 ],
                 "imagens": null
@@ -13662,8 +13692,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -13725,9 +13754,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -13786,9 +13813,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -13809,9 +13834,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -14237,9 +14260,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -14336,8 +14357,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -14440,9 +14460,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -14608,9 +14626,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -14630,10 +14646,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -14760,8 +14773,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -15424,7 +15436,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -15466,8 +15477,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -15630,9 +15640,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -15653,8 +15661,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -15675,9 +15682,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -15697,10 +15702,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -15720,9 +15722,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -15743,8 +15743,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -15765,8 +15764,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -15787,7 +15785,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -15808,10 +15805,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -15832,9 +15826,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -15877,8 +15869,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -15899,7 +15890,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -16124,8 +16114,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -16146,8 +16135,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -16232,8 +16220,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -16464,8 +16451,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -16507,10 +16492,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -16883,10 +16865,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -17075,10 +17054,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "tonicidade"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -17438,8 +17414,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -17522,9 +17497,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas",
-                      "tonicidade"
+                      "oxitonas"
                 ],
                 "imagens": null
           },
@@ -17545,9 +17518,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -17568,9 +17539,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -17591,8 +17560,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -17614,8 +17581,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -17635,9 +17601,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -17681,9 +17645,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -17827,8 +17789,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -17944,8 +17905,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18131,9 +18091,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "tonicidade"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18280,8 +18238,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18363,9 +18320,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -18386,9 +18341,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -18409,9 +18362,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -18455,9 +18406,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -18479,9 +18428,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -18501,8 +18448,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18523,9 +18469,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18545,8 +18489,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18589,9 +18532,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -18632,9 +18573,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18699,9 +18638,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18721,9 +18658,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -18744,7 +18679,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -18786,7 +18720,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -18852,8 +18785,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -18953,9 +18885,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19038,8 +18968,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -19059,8 +18988,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19122,10 +19050,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas",
-                      "tonicidade"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19169,9 +19094,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -19193,8 +19116,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "acentuacaoGrafica",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -19215,7 +19137,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "tonicidade"
                 ],
                 "imagens": null
@@ -19508,9 +19429,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "tonicidade"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19531,9 +19450,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -19554,10 +19471,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19599,8 +19513,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19687,9 +19600,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -19790,7 +19701,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -19852,7 +19762,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -20136,9 +20045,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -20159,9 +20066,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -20488,10 +20393,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
-                      "tonicidade"
+                      "oxitonas"
                 ],
                 "imagens": null
           },
@@ -20652,8 +20554,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -20732,8 +20633,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -20795,8 +20695,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -20999,8 +20898,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -21104,7 +21002,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -21126,7 +21023,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "proparoxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -21456,9 +21352,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -21478,10 +21372,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -21501,10 +21392,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -21524,9 +21412,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "proparoxitonas",
-                      "oxitonas"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -21851,9 +21737,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "acentuacaoGrafica",
-                      "paroxitonas",
-                      "oxitonas",
-                      "hifen"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -22109,8 +21993,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "crase"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -22171,8 +22054,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -22258,8 +22140,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "crase"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -22301,9 +22182,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "acentuacaoGrafica",
-                      "paroxitonas",
-                      "crase"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -22370,7 +22249,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "hiatos",
                       "digrafos"
                 ],
@@ -22416,7 +22294,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -22438,8 +22319,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -22484,9 +22363,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -22509,9 +22386,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "tritongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -22581,7 +22456,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -22624,11 +22498,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
                       "digrafos",
                       "silabas",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -22650,7 +22521,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -22735,9 +22609,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "ditongos",
-                      "digrafos"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -22758,7 +22630,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -22779,9 +22654,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -22801,9 +22674,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "hiatos",
-                      "digrafos"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -22825,7 +22696,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -22868,9 +22741,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "ditongos",
-                      "digrafos"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -22914,10 +22785,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "ditongos",
-                      "silabas",
-                      "paroxitonas"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -22940,8 +22808,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -22986,7 +22854,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23143,7 +23014,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "tritongos",
                       "hiatos",
                       "digrafos"
                 ],
@@ -23165,9 +23035,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "hiatos",
-                      "digrafos"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -23212,7 +23080,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -23235,8 +23102,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos",
-                      "fonemas"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -23258,7 +23124,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -23281,7 +23146,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "hiatos",
                       "digrafos"
                 ],
@@ -23352,7 +23216,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23461,7 +23328,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23550,7 +23420,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -23642,8 +23511,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -23667,9 +23534,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "digrafos"
+                      "digrafos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23741,7 +23608,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "hiatos"
+                      "hiatos",
+                      "ditongos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23763,7 +23632,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23784,7 +23656,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23806,8 +23680,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -23855,6 +23727,8 @@ var QUESTOES_BANCO = {
                       "encontrosConsonantais",
                       "ditongos",
                       "silabas",
+                      "hiatos",
+                      "tritongos",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -23877,9 +23751,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
-                      "fonemas"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -23899,7 +23771,10 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais"
+                      "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -23921,8 +23796,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "tritongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -23944,9 +23817,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -23969,6 +23840,8 @@ var QUESTOES_BANCO = {
                       "encontrosConsonantais",
                       "ditongos",
                       "silabas",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -24062,8 +23935,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "digrafos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -24084,7 +23956,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -24179,7 +24050,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos"
+                      "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -24223,9 +24097,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -24246,7 +24118,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "silabas"
+                      "silabas",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -24269,6 +24144,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -24338,10 +24216,10 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
+                      "digrafos",
                       "ditongos",
-                      "tritongos",
                       "hiatos",
-                      "digrafos"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -24855,10 +24733,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "encontrosConsonantais",
-                      "tritongos",
-                      "hiatos",
-                      "digrafos"
+                      "encontrosConsonantais"
                 ],
                 "imagens": null
           },
@@ -25049,8 +24924,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "hiatos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -25117,6 +24992,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -25261,7 +25139,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "hiatos",
                       "digrafos"
                 ],
                 "imagens": null
@@ -25538,7 +25415,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "ditongos",
                       "silabas",
                       "fonemas"
                 ],
@@ -25583,8 +25459,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "digrafos",
-                      "fonemas",
                       "ortografia"
                 ],
                 "imagens": null
@@ -25607,7 +25481,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "encontrosConsonantais",
-                      "silabas",
                       "fonemas"
                 ],
                 "imagens": null
@@ -25673,6 +25546,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "encontrosConsonantais",
                       "digrafos",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -25719,10 +25595,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
-                      "acentuacaoGrafica",
-                      "hifen",
-                      "formacaoPalavras",
-                      "ditongos"
+                      "ditongos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -25742,10 +25616,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos",
-                      "acentuacaoGrafica",
-                      "ortografia",
-                      "classesGramaticais"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -25766,10 +25637,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "classesGramaticais"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -25978,8 +25846,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos",
-                      "ditongos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -26041,7 +25908,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
-                      "ditongos"
+                      "ditongos",
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -26496,9 +26364,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos",
-                      "ditongos",
-                      "tritongos",
-                      "digrafos"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -26688,8 +26554,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hiatos",
-                      "digrafos"
+                      "hiatos"
                 ],
                 "imagens": null
           },
@@ -26859,8 +26724,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -26905,7 +26769,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -27031,9 +26894,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -27113,7 +26974,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -27226,7 +27086,6 @@ var QUESTOES_BANCO = {
                       "tonicidade",
                       "proparoxitonas",
                       "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -27249,9 +27108,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -27272,9 +27129,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -27559,9 +27414,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -27913,8 +27766,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -27936,8 +27787,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "proparoxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -27959,8 +27809,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -27982,7 +27831,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -28004,9 +27852,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -28049,9 +27895,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -28072,10 +27916,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -28267,8 +28108,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -28445,8 +28285,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "oxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -28509,7 +28348,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -28575,9 +28413,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -28599,8 +28435,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -28622,9 +28456,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -28707,9 +28539,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -28750,9 +28580,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -29056,8 +28884,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -29100,9 +28926,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -29168,9 +28992,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -29385,9 +29207,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -29667,9 +29487,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -29713,9 +29531,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -29736,9 +29552,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -29782,9 +29596,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -29959,8 +29771,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -30048,9 +29859,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -30072,9 +29881,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -30095,8 +29902,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -30527,8 +30333,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -30685,8 +30489,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -30823,9 +30625,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -30847,8 +30646,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -30956,8 +30754,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -30979,8 +30776,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -31090,8 +30886,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -31356,8 +31151,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -31378,8 +31172,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -31401,7 +31194,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -31446,8 +31238,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -31491,8 +31282,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "paroxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -31513,8 +31303,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -31621,10 +31410,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -31714,7 +31500,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -31736,7 +31521,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -31868,9 +31652,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -31892,9 +31674,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "acentuacaoGrafica"
                 ],
                 "imagens": null
           },
@@ -31917,8 +31697,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32034,8 +31813,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32057,7 +31835,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -32102,9 +31879,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32164,9 +31939,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -32228,8 +32001,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32272,9 +32044,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32297,8 +32067,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32363,9 +32132,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32386,9 +32153,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32410,9 +32175,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -32435,8 +32197,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -32561,9 +32321,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32606,10 +32364,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -32676,8 +32431,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -32698,8 +32452,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32786,9 +32539,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -32877,9 +32628,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -33069,8 +32818,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -33452,8 +33200,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -33538,9 +33284,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -33782,7 +33526,6 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -33804,7 +33547,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -33944,9 +33686,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -34010,9 +33750,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas",
-                      "oxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -34059,8 +33797,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas",
                       "acentuacaoGrafica"
                 ],
@@ -34172,8 +33908,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "tonicidade",
                       "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -34194,9 +33929,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -34241,9 +33974,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -34308,7 +34039,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -34352,7 +34082,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas",
                       "oxitonas"
                 ],
@@ -34375,9 +34104,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -34398,7 +34125,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
                       "paroxitonas"
                 ],
                 "imagens": null
@@ -34461,8 +34187,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
                       "oxitonas"
                 ],
                 "imagens": null
@@ -34527,9 +34251,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -34733,9 +34455,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -34844,9 +34564,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -34979,9 +34697,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -35002,8 +34718,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -35024,9 +34739,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "tonicidade",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -35178,10 +34891,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "digrafos",
-                      "ortografia",
-                      "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -35202,10 +34912,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "digrafos",
-                      "ditongos",
-                      "hiatos",
-                      "silabas",
-                      "fonemas"
+                      "ditongos"
                 ],
                 "imagens": null
           },
@@ -35229,6 +34936,8 @@ var QUESTOES_BANCO = {
                       "digrafos",
                       "ditongos",
                       "silabas",
+                      "hiatos",
+                      "tritongos",
                       "fonemas",
                       "acentuacaoGrafica"
                 ],
@@ -35250,9 +34959,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos",
-                      "ditongos",
-                      "hiatos"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -35297,6 +35004,9 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "digrafos",
                       "encontrosConsonantais",
+                      "ditongos",
+                      "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -35318,8 +35028,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "digrafos",
-                      "tritongos",
-                      "encontrosConsonantais"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -35470,10 +35179,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos",
-                      "ditongos",
-                      "hiatos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -35910,8 +35616,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos",
-                      "fonemas"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -36140,9 +35845,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "digrafos",
-                      "ditongos",
-                      "tritongos",
-                      "hiatos"
+                      "tritongos"
                 ],
                 "imagens": null
           },
@@ -36349,8 +36052,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -37669,8 +37371,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "digrafos",
-                      "encontrosConsonantais"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -37815,10 +37516,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "hifen",
                       "ditongos",
                       "digrafos",
-                      "silabas",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -37840,7 +37539,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "formacaoPalavras",
                       "ditongos",
                       "hiatos"
                 ],
@@ -37863,8 +37561,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "acentuacaoGrafica",
-                      "hifen",
                       "ditongos"
                 ],
                 "imagens": null
@@ -37887,7 +37583,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "hifen",
                       "hiatos"
                 ],
                 "imagens": null
@@ -37930,13 +37625,9 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "hifen",
-                      "acentuacaoGrafica",
                       "ditongos",
                       "tritongos",
-                      "hiatos",
-                      "digrafos",
-                      "oxitonas"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -37956,9 +37647,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38000,11 +37689,8 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "acentuacaoGrafica",
-                      "hifen",
                       "ditongos",
                       "digrafos",
-                      "silabas",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -38047,9 +37733,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38070,9 +37754,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "acentuacaoGrafica",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38134,11 +37816,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "acentuacaoGrafica",
-                      "classesGramaticais",
-                      "formacaoPalavras",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38159,10 +37837,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "tonicidade",
-                      "acentuacaoGrafica",
-                      "ditongos"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38368,8 +38043,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "paronimosHomonimos"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38454,7 +38128,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "paronimosHomonimos",
                       "hifen"
                 ],
                 "imagens": null
@@ -38497,9 +38170,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "ortografia",
-                      "hiatos",
                       "proparoxitonas",
-                      "paroxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -38563,8 +38234,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "paronimosHomonimos"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -38625,9 +38295,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "silabas",
-                      "proparoxitonas"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -39120,8 +38788,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "ortografia",
                       "ditongos",
-                      "paroxitonas",
-                      "hifen"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -39429,8 +39096,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "ortografia",
-                      "crase"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -41856,8 +41522,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "regencia",
                       "hiatos",
-                      "digrafos",
-                      "crase"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -41879,7 +41544,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "regencia",
-                      "ortografia",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -41988,14 +41652,12 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais",
-                      "crase",
-                      "acentuacaoGrafica",
-                      "tonicidade",
                       "ditongos",
                       "digrafos",
                       "silabas",
                       "proparoxitonas",
-                      "paroxitonas"
+                      "paroxitonas",
+                      "tonicidade"
                 ],
                 "imagens": null
           },
@@ -42016,9 +41678,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ditongos",
-                      "digrafos"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -42066,9 +41726,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais",
-                      "ditongos",
                       "proparoxitonas",
-                      "paroxitonas",
                       "acentuacaoGrafica"
                 ],
                 "imagens": null
@@ -42238,9 +41896,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "proparoxitonas"
                 ],
                 "imagens": null
           },
@@ -43117,8 +42773,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "paroxitonas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -43138,8 +42793,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "paroxitonas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -43548,7 +43202,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais",
-                      "fonemas",
                       "hifen"
                 ],
                 "imagens": null
@@ -43592,8 +43245,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "classesGramaticais",
-                      "ortografia",
-                      "hifen"
+                      "ortografia"
                 ],
                 "imagens": null
           },
@@ -45227,9 +44879,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "hiatos",
-                      "silabas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -46005,9 +45655,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "hiatos",
-                      "paroxitonas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -47977,8 +47625,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ortografia"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -50403,8 +50050,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "silabas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -53166,8 +52812,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ortografia"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -56036,8 +55681,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "paroxitonas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -56609,8 +56253,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ortografia"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -60079,8 +59722,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ortografia"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -61113,8 +60755,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "hifen"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -63644,8 +63285,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "ortografia"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -64661,8 +64301,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "crase"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -65053,8 +64692,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "paroxitonas"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -67412,8 +67050,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "crase"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -72389,8 +72026,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "classesGramaticais",
-                      "crase"
+                      "classesGramaticais"
                 ],
                 "imagens": null
           },
@@ -73478,8 +73114,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "analiseSintatica",
-                      "crase"
+                      "analiseSintatica"
                 ],
                 "imagens": null
           },
@@ -80666,7 +80301,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "colocacaoPronominal",
-                      "classesGramaticais",
                       "ditongos",
                       "tritongos",
                       "digrafos",
@@ -80692,7 +80326,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "colocacaoPronominal",
-                      "ditongos",
                       "hiatos"
                 ],
                 "imagens": null
@@ -80802,9 +80435,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia",
-                      "hifen"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -80865,9 +80496,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "silabas",
-                      "oxitonas"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -80887,9 +80516,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "silabas",
-                      "oxitonas"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -80910,8 +80537,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "colocacaoPronominal",
-                      "hiatos",
-                      "silabas",
                       "paroxitonas",
                       "acentuacaoGrafica"
                 ],
@@ -80936,9 +80561,7 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "colocacaoPronominal",
                       "ditongos",
-                      "proparoxitonas",
-                      "paroxitonas",
-                      "oxitonas"
+                      "paroxitonas"
                 ],
                 "imagens": null
           },
@@ -80980,9 +80603,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "silabas",
-                      "oxitonas"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -81003,8 +80624,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "colocacaoPronominal",
-                      "ditongos",
-                      "digrafos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -81111,9 +80730,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "hiatos",
-                      "silabas"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -81296,8 +80913,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -81586,8 +81202,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "colocacaoPronominal",
-                      "ditongos",
-                      "oxitonas",
                       "ortografia",
                       "hifen"
                 ],
@@ -81633,9 +81247,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia",
-                      "hifen"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -82324,8 +81936,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -83987,8 +83598,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -87096,10 +86706,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ortografia",
-                      "crase",
-                      "hifen"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -88195,8 +87802,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "colocacaoPronominal",
-                      "ditongos"
+                      "colocacaoPronominal"
                 ],
                 "imagens": null
           },
@@ -95518,10 +95124,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "formacaoPalavras",
-                      "classesGramaticais",
-                      "ditongos",
-                      "paroxitonas"
+                      "formacaoPalavras"
                 ],
                 "imagens": null
           },
@@ -95543,10 +95146,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "formacaoPalavras",
-                      "tonicidade",
-                      "ortografia",
-                      "hifen",
-                      "ditongos",
                       "encontrosConsonantais"
                 ],
                 "imagens": null
@@ -96959,8 +96558,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "formacaoPalavras",
-                      "silabas"
+                      "formacaoPalavras"
                 ],
                 "imagens": null
           },
@@ -98877,8 +98475,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "formacaoPalavras",
-                      "hifen"
+                      "formacaoPalavras"
                 ],
                 "imagens": null
           },
@@ -99205,8 +98802,8 @@ var QUESTOES_BANCO = {
                 "temas_relacionados": [
                       "pontuacao",
                       "ditongos",
-                      "tritongos",
                       "hiatos",
+                      "tritongos",
                       "fonemas"
                 ],
                 "imagens": null
@@ -99271,8 +98868,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "pontuacao",
-                      "oxitonas"
+                      "pontuacao"
                 ],
                 "imagens": null
           },
@@ -99514,9 +99110,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "pontuacao",
-                      "silabas",
-                      "hifen"
+                      "pontuacao"
                 ],
                 "imagens": null
           },
@@ -101029,8 +100623,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "pontuacao",
-                      "crase"
+                      "pontuacao"
                 ],
                 "imagens": null
           },
@@ -105372,8 +104965,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "pontuacao",
-                      "crase"
+                      "pontuacao"
                 ],
                 "imagens": null
           },
@@ -105821,8 +105413,7 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "concordancia",
-                      "digrafos",
-                      "ortografia"
+                      "digrafos"
                 ],
                 "imagens": null
           },
@@ -105842,12 +105433,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "concordancia",
-                      "acentuacaoGrafica",
-                      "tonicidade",
-                      "silabas",
-                      "ortografia",
-                      "crase"
+                      "concordancia"
                 ],
                 "imagens": null
           },
@@ -105868,10 +105454,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "concordancia",
-                      "classesGramaticais",
-                      "silabas",
-                      "acentuacaoGrafica"
+                      "concordancia"
                 ],
                 "imagens": null
           },
@@ -105892,11 +105475,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "concordancia",
-                      "acentuacaoGrafica",
-                      "hiatos",
-                      "hifen",
-                      "formacaoPalavras"
+                      "concordancia"
                 ],
                 "imagens": null
           },
@@ -105917,8 +105496,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "concordancia",
-                      "acentuacaoGrafica"
+                      "concordancia"
                 ],
                 "imagens": null
           },
@@ -105981,8 +105559,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "concordancia",
-                      "crase"
+                      "concordancia"
                 ],
                 "imagens": null
           },
@@ -106422,7 +105999,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hifen",
-                      "acentuacaoGrafica",
                       "ortografia"
                 ],
                 "imagens": null
@@ -106443,8 +106019,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "formacaoPalavras"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106506,7 +106081,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hifen",
-                      "acentuacaoGrafica",
                       "ortografia"
                 ],
                 "imagens": null
@@ -106547,8 +106121,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106568,10 +106141,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "formacaoPalavras",
-                      "tonicidade",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106591,8 +106161,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106612,8 +106181,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106633,8 +106201,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106654,8 +106221,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106675,8 +106241,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -106696,8 +106261,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -107416,8 +106980,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "hifen",
-                      "ortografia"
+                      "hifen"
                 ],
                 "imagens": null
           },
@@ -108392,9 +107955,7 @@ var QUESTOES_BANCO = {
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "paronimosHomonimos",
-                      "crase",
-                      "classesGramaticais"
+                      "paronimosHomonimos"
                 ],
                 "imagens": null
           },
