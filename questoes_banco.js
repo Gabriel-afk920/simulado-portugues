@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 30/07/2026, 21:34:39 — 5217 questões incluídas
+// 31/07/2026, 21:18:37 — 5215 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -50,1366 +50,6 @@ var QUESTOES_BANCO = {
     }
   },
   questoes: {
-    "silabas": [
-          {
-                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tênue, ódio, sua), são respectivamente:",
-                "opcoes": [
-                      "Hiato, hiato, hiato.",
-                      "Ditongo, hiato, hiato.",
-                      "Ditongo, ditongo, ditongo.",
-                      "Hiato, ditongo, tritongo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Ditongo, hiato, hiato.</strong>. Fonte: MSConcursos/2026. Assunto: silabas.",
-                "banca": "MSConcursos",
-                "ano": 2026,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "ditongos",
-                      "hiatos",
-                      "tritongos"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considere as seguintes afirmações sobre a palavra \"população\": I. Contém um ditongo. II. É dividida em cinco sílabas. III. Apresenta um tritongo. Está correto o que se afirma em:",
-                "opcoes": [
-                      "I, apenas.",
-                      "I e II, apenas.",
-                      "II e III, apenas.",
-                      "I, II e III."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: Instituto Fênix/2024. Assunto: silabas.",
-                "banca": "Instituto Fênix",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "ditongos",
-                      "tritongos"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Releia os trechos com enumerações a seguir e assinale a alternativa INCORRETA. I.“Ferro, latão, carvão, tudo serve para o favelado”. II.“Via o céu, as arvores, as aves tudo amarelo”. III.“Cascas de banana, casca de melancia e até casca de abacaxi”.",
-                "opcoes": [
-                      "Os elementos que compõem a enumeração no trecho I possuem o mesmo número de sílabas, assim como as frutas no trecho III.",
-                      "Os trechos I e III apresentam dígrafos.",
-                      "Os trechos I e II apresentam ditongos.",
-                      "Os trechos II e III apresentam hiatos."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Os elementos que compõem a enumeração no trecho I possuem o mesmo número de sílabas, assim como as frutas no trecho III.</strong>. Fonte: Creative Group/2024. Assunto: silabas.",
-                "banca": "Creative Group",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "ditongos",
-                      "hiatos",
-                      "digrafos"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Experiências parisienses Rubinstein apoiou fortemente VillaLobos na realização de seu sonho de longa data: ir a Paris para poder, lá, dedicar-se exclusivamente a seu trabalho de composição. Para fundar o projeto em uma base realista, Rubinstein sugeriu estabelecer um plano de financiamento que foi adotado por alguns amigos de Villa-Lobos. A imprensa relatou sobre isso: “Tudo indica que é chegado o momento de encaminhar para a Europa esse formoso talento que ontem foi delirantemente aplaudido”.  Para colocar à disposição os meios necessários, o deputado Arthur Lemos apresentou uma proposta na câmara municipal de vereadores em julho de 1922 sob o título: “Para a divulgação de nossa música no exterior”. Foram pedidos 108 contos de réis – segundo a moeda de hoje, aproximadamente, 30 mil reais – para que pudessem ser realizados, ao total, 24 concertos com obras de compositores brasileiros nas capitais musicais da Europa. Já em 1912, Nepomuceno, Oswald, Braga e Nascimento haviam encaminhado uma iniciativa semelhante para o jovem compositor, muito promissor, Glauco Velásquez. O projeto contudo, fracassou, e Velásquez morreu dois anos mais tarde.  A fim de propagar seu objetivo, Villa-Lobos realizou uma série de oito concertos – quatro no Rio de Janeiro, quatro em São Paulo –, os quais ele dedicou a algumas personalidades de destacada posição social: ao presidente Epitácio Pessoa, ao vice-presidente Estácio Coimbra, ao senador Marcílio Lacerda e ao milionário Arnaldo Guinle. [...]  Apesar de todos os esforços, VillaLobos não conseguiu influenciar o ambiente no sentido intencionado. Não houve número considerável de público nem uma ressonância notável por parte da imprensa, e as personalidades importantes solicitadas também se mantiveram reservadas. O quarto concerto no Rio de Janeiro teve até mesmo de ser cancelado, já que não houve venda suficiente de ingressos. Ronald de Carvalho censurou, por conseguinte, em um artigo de jornal, a “decadência” do público no Rio de Janeiro. [...] NEGWER, M. Villa-Lobos. O florescimento da música brasileira. São Paulo: Martins Fontes, 2009. p. 141-142. (adaptado) Considerando as palavras do primeiro parágrafo, assinale alternativa correta.",
-                "opcoes": [
-                      "“apoiou” apresenta três sílabas e um tritongo; “realização”, cinco sílabas e um hiato.",
-                      "“sonho” apresenta duas sílabas e um dígrafo; “longo”, um dígrafo vocálico.",
-                      "“exclusivamente” apresenta seis sílabas e um dígrafo vocálico; “trabalho”, três sílabas e dois encontros consonantais.",
-                      "“imprensa” apresenta três sílabas e três encontros consonantais; “isso”, duas sílabas que devem ser divididas como is.so.",
-                      "“delirantemente” apresenta seis sílabas e dois dígrafos vocálicos; “aplaudido”, cinco sílabas, um encontro consonantal e um hiato."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>“sonho” apresenta duas sílabas e um dígrafo; “longo”, um dígrafo vocálico.</strong>. Assunto: silabas.",
-                "banca": null,
-                "ano": null,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "digrafos"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que todas as palavras estão separadas corretamente:",
-                "opcoes": [
-                      "a-ve-ri-guei, Pi-au-í, mag-ní-fi-co",
-                      "sa-iu, p-neu, Jó-ia",
-                      "tun-gstê-nio, re-lap-so, pers-cru-tar",
-                      "at-mos-fe-ra, e-gi-pcio, pers-pi-caz"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a-ve-ri-guei, Pi-au-í, mag-ní-fi-co</strong>. Fonte: CONSULPAM/2015. Assunto: silabas.",
-                "banca": "CONSULPAM",
-                "ano": 2015,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em relação à divisão silábica, marque a sequência correta.",
-                "opcoes": [
-                      "Me-ios; a-bsur-da-men-te; es-pé-cie; as-pectos;co-rrup-tos; i-de-ia; as-sim;",
-                      "Ab-sur-da-men-te; ne-ce-ssá-ri-o; as-pec-tos; cará-ter; i-de-ia;as-sim;",
-                      "I-dei-a; cor-rup-tos; di-fí-ceis; ab-sur-da-men-te; ne-ces-sá-rio; es-pé-cie;",
-                      "Insa-tis-fa-ção; a-bsur-da-men-te; as-pe-ctos; mei-os; si-tua-ção; as-sim;",
-                      "Es-pé-ci-e; in-as-tis-fa-ção; a-pro-pria; ma-i-ores; ab-sur-da-men-te."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>I-dei-a; cor-rup-tos; di-fí-ceis; ab-sur-da-men-te; ne-ces-sá-rio; es-pé-cie;</strong>. Fonte: Serctam/2016. Assunto: silabas.",
-                "banca": "Serctam",
-                "ano": 2016,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que a divisão silábica de todas as palavras foi realizada corretamente:",
-                "opcoes": [
-                      "i-na-pro-ve-i-tá-vel / tó-xi-cas",
-                      "o-cor-rên-ci-a / des-tru-i-ção",
-                      "des-per-di-ci-o / plânc-tom",
-                      "pro-pi-ci-ar / pre-o-cu-pa-ção"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>pro-pi-ci-ar / pre-o-cu-pa-ção</strong>. Fonte: MGS/2015. Assunto: silabas.",
-                "banca": "MGS",
-                "ano": 2015,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que a divisão silábica está correta:",
-                "opcoes": [
-                      "con – ver – sando.",
-                      "ba – rro.",
-                      "mo – rre – sse.",
-                      "his – tó – ria."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>his – tó – ria.</strong>. Fonte: EXATUS-PR/2015. Assunto: silabas.",
-                "banca": "EXATUS-PR",
-                "ano": 2015,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que a divisão silábica está correta:",
-                "opcoes": [
-                      "a – tra – ve – ssar.",
-                      "per – sis – tên – cia.",
-                      "a – pla – u – dir.",
-                      "ame – dron – tou."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>per – sis – tên – cia.</strong>. Fonte: EXATUS-PR/2015. Assunto: silabas.",
-                "banca": "EXATUS-PR",
-                "ano": 2015,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considerando as regras para separação silábica, indique a opção em que a palavra indicada foi dividida de modo ERRADO.",
-                "opcoes": [
-                      "“Quando” (Quan - do)",
-                      "“desceram” (des - ce - ram)",
-                      "“diálogo” (diá - Io - go)",
-                      "“atuais” (a-tu-ais)"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>“diálogo” (diá - Io - go)</strong>. Fonte: IBFC/2015. Assunto: silabas.",
-                "banca": "IBFC",
-                "ano": 2015,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No fragmento “Como minha casa era muito segura, com grades nas janelas e trancas internas nas portas, não fiquei muito preocupado”, o termo “preocupado” é classificado, consoante o número de sílabas, como:",
-                "opcoes": [
-                      "oxítono, pois possui quatro sílabas.",
-                      "dissílabo, pois possui duas sílabas.",
-                      "polissílabo, pois possui exatamente quatro sílabas.",
-                      "trissílabo, pois possui três sílabas.",
-                      "polissílabo, pois possui mais de três sílabas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>polissílabo, pois possui mais de três sílabas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
-                "banca": "CPCON",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Quantas sílabas tem a palavra panela?",
-                "opcoes": [
-                      "5",
-                      "1",
-                      "2",
-                      "4",
-                      "3"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>3</strong>. Fonte: Instituto IACP/2026. Assunto: silabas.",
-                "banca": "Instituto IACP",
-                "ano": 2026,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As palavras podem ser categorizadas de acordo com o seu número de sílabas. São elas: monossílabas, dissílabas, trissílabas e polissílabas. Assinale a alternativa em que há apenas palavras dissílabas e polissílabas.",
-                "opcoes": [
-                      "Arguiu, enigma, camarote.",
-                      "Queijo, esmiuçar, exaustão.",
-                      "Abdicar, saída, arguiu.",
-                      "Exaustão, camarote, aptidão.",
-                      "Queijo, oceano, subestimar."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Queijo, oceano, subestimar.</strong>. Fonte: FUNCEPE/2024. Assunto: silabas.",
-                "banca": "FUNCEPE",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considere a palavra \"inconstitucional\". Qual é a classificação correta quanto ao número de sílabas e qual a divisão silábica correta?",
-                "opcoes": [
-                      "Trissílaba - in-cons-ti-tu-cio-nal.",
-                      "Polissílaba - in-con-sti-tu-ci-o-nal.",
-                      "Dissílaba - in-consti-tu-cio-nal.",
-                      "Polissílaba - in-cons-ti-tu-ci-o-nal."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Polissílaba - in-cons-ti-tu-ci-o-nal.</strong>. Fonte: IDESG/2024. Assunto: silabas.",
-                "banca": "IDESG",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresente palavra com quatro sílabas:",
-                "opcoes": [
-                      "Baratas.",
-                      "Mistura.",
-                      "Limpeza.",
-                      "Repelente.",
-                      "Humanos."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Repelente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em relação ao número de sílabas, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: ( ) A palavra “pé” tem o mesmo número de sílabas que a palavra “pai”. ( ) A palavra “queijo” tem o mesmo número de sílabas que a palavra “saída”. ( ) A palavra “sapo” é uma palavra trissílaba.",
-                "opcoes": [
-                      "C - C - E.",
-                      "E - E - C.",
-                      "C - E - E.",
-                      "E - C - C.",
-                      "C - E - C."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>C - E - E.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Marque a assertiva em que todos os vocábulos são classificados como trissílabos.",
-                "opcoes": [
-                      "Jamais – Desistir – Suas.",
-                      "Imagina – Forte – Realizações.",
-                      "Confiem – Mantenha – Desistir.",
-                      "Mundo – Sonhos – Forte.",
-                      "Você – Está – Mais."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Confiem – Mantenha – Desistir.</strong>. Fonte: Instituto Ágata/2024. Assunto: silabas.",
-                "banca": "Instituto Ágata",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As palavras Conselheiro e Goiabeira possuem quatro sílabas. Elas são chamadas de:",
-                "opcoes": [
-                      "polissílabas;",
-                      "trissílabas;",
-                      "dissílabas;",
-                      "monossílabas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>polissílabas;</strong>. Fonte: Máxima/2025. Assunto: silabas.",
-                "banca": "Máxima",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com a classificação silábica, assinalar a alternativa que contém apenas palavras trissílabas.",
-                "opcoes": [
-                      "Fome | óculos | oblíquo.",
-                      "Juízo | borboleta | inútil.",
-                      "Alçapão | gratuito | ibero.",
-                      "Adorar | matemática | correto."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Alçapão | gratuito | ibero.</strong>. Fonte: OBJETIVA/2025. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considerando-se a classificação silábica, relacionar as colunas e assinalar a sequência correspondente. (1) Dissílaba. (2) Trissílaba. (3) Polissílaba. ( ) Expressar, correto, progresso. ( ) Friíssimo, averiguei, genuíno. ( ) Ágil, algum, transpor.",
-                "opcoes": [
-                      "3 - 2 - 1.",
-                      "3 - 1 - 2.",
-                      "1 - 3 - 1.",
-                      "2 - 3 - 1."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: OBJETIVA/2025. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em relação à separação de sílabas e à classificação quanto ao número de sílabas dos vocábulos retirados do texto, analise as afirmativas abaixo: I.O vocábulo 'zoológico' é uma palavra trissílaba. II.A separação silábica de ' experimentos' é 'ex-pe-rim en-tos'. III.'Microscópicas' é uma palavra polissílaba. IV.'submersos' e 'compreensão' têm o mesmo número de sílabas. V.'até' e 'cheias' são palavras dissílabas. Estão corretas:",
-                "opcoes": [
-                      "Apenas I, III e IV.",
-                      "Apenas II, III e V.",
-                      "Apenas III e V.",
-                      "Apenas I, II, IV e V."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas III e V.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A alternativa que apresenta vocábulos, retirados do texto, com classificação quanto ao número de sílabas ou separação silábica INCORRETA é:",
-                "opcoes": [
-                      "de-sem-pe-nhan-do = polissílaba.",
-                      "e-xer-cí-ci-o = trissílaba.",
-                      "mús-cu-los = trissílaba.",
-                      "fle-xi-bi-li-da-de = polissílaba."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>e-xer-cí-ci-o = trissílaba.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Marque a alternativa em que as palavras “núcleos”, “perfurados”, “apresentaram”, “ouro” e “prospecção” receberam a CORRETA classificação quanto ao número de sílabas.",
-                "opcoes": [
-                      "Dissílaba; polissílaba; polissílaba; dissílaba; trissílaba.",
-                      "Dissílaba; polissílaba; polissílaba; monossílaba; trissílaba.",
-                      "Trissílaba; polissílaba; polissílaba; trissílaba; polissílaba.",
-                      "Dissílaba; polissílaba; trissílaba; dissílaba; polissílaba.",
-                      "Trissílaba; trissílaba; polissílaba; dissílaba; polissílaba."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Dissílaba; polissílaba; polissílaba; dissílaba; trissílaba.</strong>. Fonte: CPCON/2025. Assunto: silabas.",
-                "banca": "CPCON",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considere o fragmento e analise as assertivas que seguem: “Pesquisadores chineses do Geological Bureau of Hunan Province (GBHP) anunciaram para a mídia estatal” (1º§). I- Apalavra “pesquisadores” possui cinco sílabas e é classificada como polissílaba. II- Apalavra “chineses” possui três sílabas e é classificada como dissílaba. III- Apalavra “mídia” possui duas sílabas e é classificada como monossílaba. IV- Apalavra “anunciaram” possui cinco sílabas e é classificada como polissílaba. É CORRETO o que se afirma apenas em:",
-                "opcoes": [
-                      "III.",
-                      "I e III.",
-                      "II e IV.",
-                      "I.",
-                      "I e IV."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>I e IV.</strong>. Fonte: CPCON/2025. Assunto: silabas.",
-                "banca": "CPCON",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Marque a alternativa CORRETA que classifica a palavra quanto ao número de sílabas.",
-                "opcoes": [
-                      "Biquíni – 3 sílabas.",
-                      "Comprou – 3 sílabas.",
-                      "Passado – 4 sílabas.",
-                      "Cresceu – 3 sílabas.",
-                      "Garota – 4 sílabas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Biquíni – 3 sílabas.</strong>. Fonte: CETREDE/2025. Assunto: silabas.",
-                "banca": "CETREDE",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A correta quantidade de sílabas da palavra “qualidade” é:",
-                "opcoes": [
-                      "Uma.",
-                      "Duas.",
-                      "Três.",
-                      "Quatro.",
-                      "Cinco."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Quatro.</strong>. Fonte: FUNDATEC/2025. Assunto: silabas.",
-                "banca": "FUNDATEC",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Marque a alternativa em que a classificação quanto ao número de sílabas esteja INCORRETA:",
-                "opcoes": [
-                      "seu: monossílaba",
-                      "desenhado: polissílaba",
-                      "saúva: dissílaba",
-                      "baleia: trissílaba"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>saúva: dissílaba</strong>. Fonte: FAMA/2025. Assunto: silabas.",
-                "banca": "FAMA",
-                "ano": 2025,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A alternativa que apresenta 4 palavras trissílabas é:",
-                "opcoes": [
-                      "Um mesmo indivíduo da trepadeira pode ter folhas de vários tipos, se seus ramos crescerem se apoiando em diferentes espécies.",
-                      "Os cientistas perceberam que as folhas \"miméticas\" da trepadeira são menos atacadas por herbívoros do que suas folhas \"normais.",
-                      "Mas um recente experimento mostrou algo ainda mais surpreendente: ela pode imitar até mesmo folhas de plantas artificiais.",
-                      "À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma ."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma .</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O trecho que apresenta pelo menos 3 palavras trissílabas, 4 dissílabas e 2 polissílabas , independente da ordem",
-                "opcoes": [
-                      "A maioria das flores endotérmicas usa o calor para garantir a polinização.",
-                      "As plantas geralmente se aquecem usando o calor do Sol.",
-                      "Para muitas espécies de plantas, é importante manter as flores aquecidas.",
-                      "A endotermia é uma característica importante de aves e mamíferos, além de ocorrer também em algumas espécies de répteis, peixes e até mesmo insetos."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>A endotermia é uma característica importante de aves e mamíferos, além de ocorrer também em algumas espécies de répteis, peixes e até mesmo insetos.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A alternativa que apresenta 4 palavras trissílabas é:",
-                "opcoes": [
-                      "À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma.",
-                      "Um mesmo indivíduo da trepadeira pode ter folhas de vários tipos, se seus ramos crescerem se apoiando em diferentes espécies.",
-                      "Mas um recente experimento mostrou algo ainda mais surpreendente: ela pode imitar até mesmo folhas de plantas artificiais.",
-                      "Os cientistas perceberam que as folhas \"miméticas\" da trepadeira são menos atacadas por herbívoros do que suas folhas \"normais."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Na língua portuguesa, as palavras podem ser classificadas de acordo com o número de sílabas. Considerando os vocábulos presentes na tirinha, assinale a alternativa em que a palavra NÃO é trissílaba.",
-                "opcoes": [
-                      "Esqueça.",
-                      "Problemas.",
-                      "Telefone.",
-                      "Gaveta."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Telefone.</strong>. Fonte: IESES/2024. Assunto: silabas.",
-                "banca": "IESES",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A classificação das palavras quanto ao número de sílabas é uma parte fundamental do estudo da língua portuguesa, pois permite entender a estrutura das palavras. Sabendo disso, pode-se afirmar que a palavra civilização é:",
-                "opcoes": [
-                      "Dissílaba.",
-                      "Polissílaba.",
-                      "Trissílaba.",
-                      "Monossílaba."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Polissílaba.</strong>. Fonte: IESES/2024. Assunto: silabas.",
-                "banca": "IESES",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No trecho “Ele abriu um sorriso largo.” (5º§), a palavra “sorriso” possui:",
-                "opcoes": [
-                      "Três sílabas e duas vogais.",
-                      "Três sílabas e seis fonemas.",
-                      "Três sílabas e quatro fonemas.",
-                      "Quatro sílabas e cinco fonemas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Três sílabas e seis fonemas.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
-                "banca": "Instituto Consulplan",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas",
-                      "fonemas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta uma palavra dissílaba:",
-                "opcoes": [
-                      "Castelo.",
-                      "Cidade.",
-                      "Hoje.",
-                      "Construção."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Hoje.</strong>. Fonte: UNIVIDA/2024. Assunto: silabas.",
-                "banca": "UNIVIDA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A alternativa em que todas as palavras, retiradas do texto, são dissílabas é:",
-                "opcoes": [
-                      "desse, spray, contra, tipo.",
-                      "nosso, corpo, bem, nariz.",
-                      "forma, ideia, quando, boca.",
-                      "legal, comuns, raiva, será."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>legal, comuns, raiva, será.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa que apresenta a separação silábica e a classificação quanto ao número de sílabas dos vocábulos, retirados do texto, de forma ERRADA:",
-                "opcoes": [
-                      "Exemplo = e-xem-plo = trissílaba.",
-                      "Pneumonia = pneu-mo-ni-a polissílaba.",
-                      "Microbioma = micro-bi-o-ma = trissílaba.",
-                      "Infecções = in-fec-ções = trissílaba."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Microbioma = micro-bi-o-ma = trissílaba.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra possua mais de quatro sílabas:",
-                "opcoes": [
-                      "Sugerindo.",
-                      "Entrevista.",
-                      "Suficientes.",
-                      "Desembarque.",
-                      "Despedidas."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Suficientes.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra possua mais de cinco sílabas:",
-                "opcoes": [
-                      "Emblemáticos.",
-                      "Equivalente.",
-                      "Exclusivamente.",
-                      "Descobrimentos.",
-                      "Reconhecida."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Exclusivamente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Analise o número de sílabas das palavras “porcentagem” e “passado”, extraídas do fragmento “A porcentagem chegou a 47%, contra 44% no ano passado”. I-  A palavra “porcentagem” possui quatro sílabas. II-  A palavra “passado” possui três sílabas. III-  A separação silábica da palavra “porcentagem” é por-cen-ta-gem. IV-  A separação silábica da palavra “passado” é pa-ssa-do. V-  A palavra “passado” é classificada como dissílabo. É CORRETO o que se afirma em:",
-                "opcoes": [
-                      "I e II apenas.",
-                      "I, II e III apenas.",
-                      "I, II, III, IV e V.",
-                      "II, III e IV apenas.",
-                      "IV e V apenas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I, II e III apenas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
-                "banca": "CPCON",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As palavras são classificadas em monossílabas, dissílabas, trissílabas e polissílabas de acordo com a quantidade de sílabas. “Medalha” é uma palavra:",
-                "opcoes": [
-                      "Monossílaba.",
-                      "Dissílaba.",
-                      "Trissílaba.",
-                      "Polissílaba."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Trissílaba.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
-                "banca": "Instituto Consulplan",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "“Cinema” é uma palavra trissílaba, pois se divide em três sílabas. Marque a alternativa que possui apenas palavras trissílabas.",
-                "opcoes": [
-                      "Filme, evento, família.",
-                      "Brasil, edição, proposta.",
-                      "Prêmio, roteiro, academia.",
-                      "Fernanda, festival, outubro.",
-                      "Destaque, anúncio, premiada."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Fernanda, festival, outubro.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
-                "banca": "Instituto Consulplan",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra apresente mais de três sílabas:",
-                "opcoes": [
-                      "Cabeça.",
-                      "Cinema.",
-                      "Locutor.",
-                      "Universo.",
-                      "Gravação."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Universo.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As palavras podem ser classificadas em quatro tipos, de acordo com a sua quantidade de sílabas: monossílabas, dissílabas, trissílabas ou polissílabas. Assinalar a alternativa com uma palavra trissílaba.",
-                "opcoes": [
-                      "Café.",
-                      "Corredor.",
-                      "Cal.",
-                      "Corajoso."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Corredor.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Tendo os vocábulos \"zoológico\", \"arara\", \"cactos\" e \"Fissuras\", retirados do texto, assinale (V) para verdadeiro e (F) para falso em relação à divisão e números de sílabas. (__)  A separação silábica de \"zoológico\" é zo-o-ló-gi-co, classificando-a como uma polissílaba. (__) O vocábulo \"cacto\" é uma palavra trissílaba. (__) O vocábulo \"arara\" é uma palavra trissílaba. (__) A separação silábica de \"fissuras\" é fi-ssu-ras, classificando-a como trissílaba. (__) Entre os 4 vocábulos apresentados, 2 são trissílabos. Identifique qual alternativa apresenta a sequência CORRETA do preenchimento dos parênteses:",
-                "opcoes": [
-                      "V, F, V, F, V.",
-                      "V, V, F, F, F.",
-                      "F, F, V, F, V.",
-                      "F, V, V, V, F."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>V, F, V, F, V.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Quantas sílabas tem a palavra amigo:",
-                "opcoes": [
-                      "3",
-                      "4",
-                      "5",
-                      "6"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>3</strong>. Fonte: AGIRH/2024. Assunto: silabas.",
-                "banca": "AGIRH",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Quantas sílabas possui a palavra “amazônica”?",
-                "opcoes": [
-                      "Quatro.",
-                      "Seis.",
-                      "Cinco.",
-                      "Três."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Cinco.</strong>. Fonte: Itame/2024. Assunto: silabas.",
-                "banca": "Itame",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Leia a frase seguinte: “Siga tranquilamente o seu caminho, entre a inquietude e a pressa, lembrando-se de que há sempre paz no silêncio. Tanto quanto possível, sem se humilhar, mantenha-se em bons termos com todas as pessoas”. Agora observe o quadro e marque a alternativa que NÃO foi preenchida de acordo com as indicações.",
-                "opcoes": [
-                      "Palavras com uma sílaba paz, bons",
-                      "Palavras com duas sílabas quanto, pressa",
-                      "Palavras com três sílabas humilhar, pessoas",
-                      "Palavras com mais de quatro sílabas inquietude, possível"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Palavras com mais de quatro sílabas inquietude, possível</strong>. Fonte: FUMARC/2011. Assunto: silabas.",
-                "banca": "FUMARC",
-                "ano": 2011,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra possua mais de quatro sílabas:",
-                "opcoes": [
-                      "Elétricas.",
-                      "Eventual.",
-                      "Instituto.",
-                      "Alagamentos.",
-                      "Estadual."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Alagamentos.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Quanto ao número de sílabas, a palavra “metroviária” (linha 11) pode ser classificada como",
-                "opcoes": [
-                      "monossílaba.",
-                      "unissílaba.",
-                      "dissílaba.",
-                      "trissílaba.",
-                      "polissílaba."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>polissílaba.</strong>. Fonte: COPESE - UFPI/2013. Assunto: silabas.",
-                "banca": "COPESE - UFPI",
-                "ano": 2013,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O Assinale a opção em que todas as palavras são formadas pelo MESMO número de sílabas.",
-                "opcoes": [
-                      "Primórdios –– povoado – Paraíba - arruado.",
-                      "Maturescência – climatológico – transformada - cria.",
-                      "Campos – cajueiros – degraus – contínuas.",
-                      "Variadas – Governo – queimadas– passagem.",
-                      "Ainda – cria – Maia – sequenciados."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Primórdios –– povoado – Paraíba - arruado.</strong>. Fonte: EDUCA/2016. Assunto: silabas.",
-                "banca": "EDUCA",
-                "ano": 2016,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que a separação das sílabas está incorreta.",
-                "opcoes": [
-                      "e-xe-cu-tar",
-                      "mil-has",
-                      "i-ma-gi-nem",
-                      "Sa-a-ra",
-                      "ho-men-zi-nho"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>mil-has</strong>. Fonte: AMAUC/2017. Assunto: silabas.",
-                "banca": "AMAUC",
-                "ano": 2017,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa em que todas as palavras apresentam divisão silábica correta:",
-                "opcoes": [
-                      "Ass – as – si – no / cres – cer / ex – ce – ção.",
-                      "As – sas – si – no / cre – scer / ex – ce – ção.",
-                      "Ass – as – si – no / cre – scer / exc -e – ção.",
-                      "As – sas – si – no / cres – cer / ex – ce – ção."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>As – sas – si – no / cres – cer / ex – ce – ção.</strong>. Fonte: AMEOSC/2017. Assunto: silabas.",
-                "banca": "AMEOSC",
-                "ano": 2017,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Leia as assertivas a seguir: I. a-ssi-me-tri-a / a-ma-re-lo / auto-mó-vel / sa-nha-ço. II. na-tu-ro-lo-gia / trans-fe-rê-ncia / en-de-re-ço / i-nadmi-ssí-vel. III. as-sa-dei-ra / a-lu-são / psi-co-lo-gi-a / ab-du-zi-do. Assinale a alternativa que se aplica quanto à divisão silábica:",
-                "opcoes": [
-                      "Somente a assertiva I está correta.",
-                      "Somente a assertiva III está correta.",
-                      "Somente as assertivas II e III estão corretas.",
-                      "Somente a assertiva II está correta."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Somente a assertiva III está correta.</strong>. Fonte: IESES/2019. Assunto: silabas.",
-                "banca": "IESES",
-                "ano": 2019,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com o número de sílabas que contêm, os vocábulos se classificam em monossílabos, dissílabos, trissílabos e polissílabos. Nesse sentido, marque a alternativa onde todas as palavras estão corretas.",
-                "opcoes": [
-                      "Polissílabas: necessidades, organizada, armazenado.",
-                      "Monossílabas: fim, não, vida.",
-                      "Dissílabas: todas, modo, tal.",
-                      "Trissílabas: vontade, crenças, fé."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Polissílabas: necessidades, organizada, armazenado.</strong>. Fonte: GANZAROLI/2024. Assunto: silabas.",
-                "banca": "GANZAROLI",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A palavra “infartos”, conforme o número de sílabas, é:",
-                "opcoes": [
-                      "Monossílaba.",
-                      "Dissílaba.",
-                      "Trissílaba.",
-                      "Polissílaba.",
-                      "Nenhuma das anteriores."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Trissílaba.</strong>. Fonte: FUNDATEC/2023. Assunto: silabas.",
-                "banca": "FUNDATEC",
-                "ano": 2023,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Quantas sílabas tem a palavra “galinheiro”?",
-                "opcoes": [
-                      "1.",
-                      "2.",
-                      "3.",
-                      "4.",
-                      "5."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>4.</strong>. Fonte: FUNDATEC/2023. Assunto: silabas.",
-                "banca": "FUNDATEC",
-                "ano": 2023,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Pneumoultramicroscopicossilicovulcanoconiótico é considerada atualmente a maior palavra técnica dicionarizada da língua portuguesa. Quantas sílabas há nesta palavra?",
-                "opcoes": [
-                      "18",
-                      "20",
-                      "24",
-                      "26"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>20</strong>. Fonte: FUNATEC/2024. Assunto: silabas.",
-                "banca": "FUNATEC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Com base no texto “Separados”, observe a palavra “abrigo” no trecho: “As malas rente aos pés dos dois, também se valiam daquele abrigo”. Quantas sílabas a palavra \"abrigo\" apresenta?",
-                "opcoes": [
-                      "2 sílabas.",
-                      "6 sílabas.",
-                      "4 sílabas.",
-                      "5 sílabas.",
-                      "3 sílabas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>3 sílabas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
-                "banca": "CPCON",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Observar as palavras abaixo. • Pai. • Casinha. • Sábado. • Vidro. Ao realizar a separação silábica dessas palavras, quantas delas são classificadas como trissílabas, ou seja, que possuem 3 sílabas?",
-                "opcoes": [
-                      "Uma palavra.",
-                      "Duas palavras.",
-                      "Três palavras.",
-                      "Todas as palavras."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Duas palavras.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa que contém uma palavra que seja classificada como trissílaba.",
-                "opcoes": [
-                      "Resfriado.",
-                      "Doenças.",
-                      "Camomila.",
-                      "Emagrecer.",
-                      "Água."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Doenças.</strong>. Fonte: FUNDATEC/2022. Assunto: silabas.",
-                "banca": "FUNDATEC",
-                "ano": 2022,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "São palavras classificadas como dissílabas, EXCETO:",
-                "opcoes": [
-                      "Ano.",
-                      "Além.",
-                      "Oferta.",
-                      "Fruta."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Oferta.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinalar a alternativa cuja palavra, ao ser separada em sílabas, é classificada CORRETAMENTE como dissílaba.",
-                "opcoes": [
-                      "Saúde.",
-                      "Calculadora.",
-                      "Perdão.",
-                      "Cachorro."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Perdão.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
-                "banca": "OBJETIVA",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra apresente mais de três sílabas:",
-                "opcoes": [
-                      "Fundador.",
-                      "Fortuna.",
-                      "Empresa.",
-                      "Posição.",
-                      "Presidente."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Presidente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Assinale a alternativa cuja palavra possua mais de três sílabas:",
-                "opcoes": [
-                      "Capital.",
-                      "Alerta.",
-                      "Elétrica.",
-                      "Empresa.",
-                      "Cidade."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Elétrica.</strong>. Fonte: FAU/2024. Assunto: silabas.",
-                "banca": "FAU",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Analise as palavras dispostas no quadro a seguir. armazenamento – pintura – computador – garrafa – café – academia – material – pasta – suporte – calça Quantas das palavras desse quadro são trissílabas?",
-                "opcoes": [
-                      "8.",
-                      "7.",
-                      "4.",
-                      "3."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>3.</strong>. Fonte: IDESG/2024. Assunto: silabas.",
-                "banca": "IDESG",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Analise as assertivas a seguir a respeito da palavra “inclemência”:I. Trata-se de um substantivo. II. Seu oposto é clemência.III. Sua correta divisão silábica é in-cle-mê-nci-a.Quais estão corretas?",
-                "opcoes": [
-                      "Apenas I.",
-                      "Apenas II.",
-                      "Apenas I e II.",
-                      "Apenas II e III.",
-                      "I, II e III."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: FUNDATEC/2024. Assunto: silabas.",
-                "banca": "FUNDATEC",
-                "ano": 2024,
-                "assunto": "Sílabas",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "silabas"
-                ],
-                "imagens": null
-          }
-    ],
     "ditongos": [
           {
                 "enunciado": "A correta partição silábica e a classificação dos encontros vocálicos são essenciais para a translineação de palavras durante a escrita de textos. Nesse contexto, assinale a alternativa em que a análise dos termos do texto está correta.",
@@ -3963,28 +2603,6 @@ var QUESTOES_BANCO = {
                       "Ditongo, ditongo, ditongo."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
-                "banca": "MS Concursos",
-                "ano": 2026,
-                "assunto": "Ditongos",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "ditongos",
-                      "hiatos",
-                      "tritongos"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Referindo-se a encontros vocálicos, as palavras do texto, (tênue, ódio, sua), são respectivamente:",
-                "opcoes": [
-                      "Ditongo, hiato, hiato.",
-                      "Hiato, hiato, hiato.",
-                      "Hiato, ditongo, tritongo.",
-                      "Ditongo, ditongo, ditongo."
-                ],
-                "correta": 1,
                 "explicacao": "Gabarito: <strong>Hiato, hiato, hiato.</strong>. Fonte: MS Concursos/2026. Assunto: ditongos.",
                 "banca": "MS Concursos",
                 "ano": 2026,
@@ -26701,6 +25319,1343 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "hiatos"
+                ],
+                "imagens": null
+          }
+    ],
+    "silabas": [
+          {
+                "enunciado": "Considere as seguintes afirmações sobre a palavra \"população\": I. Contém um ditongo. II. É dividida em cinco sílabas. III. Apresenta um tritongo. Está correto o que se afirma em:",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "II e III, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: Instituto Fênix/2024. Assunto: silabas.",
+                "banca": "Instituto Fênix",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "ditongos",
+                      "tritongos"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Releia os trechos com enumerações a seguir e assinale a alternativa INCORRETA. I.“Ferro, latão, carvão, tudo serve para o favelado”. II.“Via o céu, as arvores, as aves tudo amarelo”. III.“Cascas de banana, casca de melancia e até casca de abacaxi”.",
+                "opcoes": [
+                      "Os elementos que compõem a enumeração no trecho I possuem o mesmo número de sílabas, assim como as frutas no trecho III.",
+                      "Os trechos I e III apresentam dígrafos.",
+                      "Os trechos I e II apresentam ditongos.",
+                      "Os trechos II e III apresentam hiatos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Os elementos que compõem a enumeração no trecho I possuem o mesmo número de sílabas, assim como as frutas no trecho III.</strong>. Fonte: Creative Group/2024. Assunto: silabas.",
+                "banca": "Creative Group",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "ditongos",
+                      "hiatos",
+                      "digrafos"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Experiências parisienses Rubinstein apoiou fortemente VillaLobos na realização de seu sonho de longa data: ir a Paris para poder, lá, dedicar-se exclusivamente a seu trabalho de composição. Para fundar o projeto em uma base realista, Rubinstein sugeriu estabelecer um plano de financiamento que foi adotado por alguns amigos de Villa-Lobos. A imprensa relatou sobre isso: “Tudo indica que é chegado o momento de encaminhar para a Europa esse formoso talento que ontem foi delirantemente aplaudido”.  Para colocar à disposição os meios necessários, o deputado Arthur Lemos apresentou uma proposta na câmara municipal de vereadores em julho de 1922 sob o título: “Para a divulgação de nossa música no exterior”. Foram pedidos 108 contos de réis – segundo a moeda de hoje, aproximadamente, 30 mil reais – para que pudessem ser realizados, ao total, 24 concertos com obras de compositores brasileiros nas capitais musicais da Europa. Já em 1912, Nepomuceno, Oswald, Braga e Nascimento haviam encaminhado uma iniciativa semelhante para o jovem compositor, muito promissor, Glauco Velásquez. O projeto contudo, fracassou, e Velásquez morreu dois anos mais tarde.  A fim de propagar seu objetivo, Villa-Lobos realizou uma série de oito concertos – quatro no Rio de Janeiro, quatro em São Paulo –, os quais ele dedicou a algumas personalidades de destacada posição social: ao presidente Epitácio Pessoa, ao vice-presidente Estácio Coimbra, ao senador Marcílio Lacerda e ao milionário Arnaldo Guinle. [...]  Apesar de todos os esforços, VillaLobos não conseguiu influenciar o ambiente no sentido intencionado. Não houve número considerável de público nem uma ressonância notável por parte da imprensa, e as personalidades importantes solicitadas também se mantiveram reservadas. O quarto concerto no Rio de Janeiro teve até mesmo de ser cancelado, já que não houve venda suficiente de ingressos. Ronald de Carvalho censurou, por conseguinte, em um artigo de jornal, a “decadência” do público no Rio de Janeiro. [...] NEGWER, M. Villa-Lobos. O florescimento da música brasileira. São Paulo: Martins Fontes, 2009. p. 141-142. (adaptado) Considerando as palavras do primeiro parágrafo, assinale alternativa correta.",
+                "opcoes": [
+                      "“apoiou” apresenta três sílabas e um tritongo; “realização”, cinco sílabas e um hiato.",
+                      "“sonho” apresenta duas sílabas e um dígrafo; “longo”, um dígrafo vocálico.",
+                      "“exclusivamente” apresenta seis sílabas e um dígrafo vocálico; “trabalho”, três sílabas e dois encontros consonantais.",
+                      "“imprensa” apresenta três sílabas e três encontros consonantais; “isso”, duas sílabas que devem ser divididas como is.so.",
+                      "“delirantemente” apresenta seis sílabas e dois dígrafos vocálicos; “aplaudido”, cinco sílabas, um encontro consonantal e um hiato."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“sonho” apresenta duas sílabas e um dígrafo; “longo”, um dígrafo vocálico.</strong>. Assunto: silabas.",
+                "banca": null,
+                "ano": null,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "digrafos"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras estão separadas corretamente:",
+                "opcoes": [
+                      "a-ve-ri-guei, Pi-au-í, mag-ní-fi-co",
+                      "sa-iu, p-neu, Jó-ia",
+                      "tun-gstê-nio, re-lap-so, pers-cru-tar",
+                      "at-mos-fe-ra, e-gi-pcio, pers-pi-caz"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a-ve-ri-guei, Pi-au-í, mag-ní-fi-co</strong>. Fonte: CONSULPAM/2015. Assunto: silabas.",
+                "banca": "CONSULPAM",
+                "ano": 2015,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação à divisão silábica, marque a sequência correta.",
+                "opcoes": [
+                      "Me-ios; a-bsur-da-men-te; es-pé-cie; as-pectos;co-rrup-tos; i-de-ia; as-sim;",
+                      "Ab-sur-da-men-te; ne-ce-ssá-ri-o; as-pec-tos; cará-ter; i-de-ia;as-sim;",
+                      "I-dei-a; cor-rup-tos; di-fí-ceis; ab-sur-da-men-te; ne-ces-sá-rio; es-pé-cie;",
+                      "Insa-tis-fa-ção; a-bsur-da-men-te; as-pe-ctos; mei-os; si-tua-ção; as-sim;",
+                      "Es-pé-ci-e; in-as-tis-fa-ção; a-pro-pria; ma-i-ores; ab-sur-da-men-te."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I-dei-a; cor-rup-tos; di-fí-ceis; ab-sur-da-men-te; ne-ces-sá-rio; es-pé-cie;</strong>. Fonte: Serctam/2016. Assunto: silabas.",
+                "banca": "Serctam",
+                "ano": 2016,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a divisão silábica de todas as palavras foi realizada corretamente:",
+                "opcoes": [
+                      "i-na-pro-ve-i-tá-vel / tó-xi-cas",
+                      "o-cor-rên-ci-a / des-tru-i-ção",
+                      "des-per-di-ci-o / plânc-tom",
+                      "pro-pi-ci-ar / pre-o-cu-pa-ção"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>pro-pi-ci-ar / pre-o-cu-pa-ção</strong>. Fonte: MGS/2015. Assunto: silabas.",
+                "banca": "MGS",
+                "ano": 2015,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a divisão silábica está correta:",
+                "opcoes": [
+                      "con – ver – sando.",
+                      "ba – rro.",
+                      "mo – rre – sse.",
+                      "his – tó – ria."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>his – tó – ria.</strong>. Fonte: EXATUS-PR/2015. Assunto: silabas.",
+                "banca": "EXATUS-PR",
+                "ano": 2015,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a divisão silábica está correta:",
+                "opcoes": [
+                      "a – tra – ve – ssar.",
+                      "per – sis – tên – cia.",
+                      "a – pla – u – dir.",
+                      "ame – dron – tou."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>per – sis – tên – cia.</strong>. Fonte: EXATUS-PR/2015. Assunto: silabas.",
+                "banca": "EXATUS-PR",
+                "ano": 2015,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considerando as regras para separação silábica, indique a opção em que a palavra indicada foi dividida de modo ERRADO.",
+                "opcoes": [
+                      "“Quando” (Quan - do)",
+                      "“desceram” (des - ce - ram)",
+                      "“diálogo” (diá - Io - go)",
+                      "“atuais” (a-tu-ais)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“diálogo” (diá - Io - go)</strong>. Fonte: IBFC/2015. Assunto: silabas.",
+                "banca": "IBFC",
+                "ano": 2015,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No fragmento “Como minha casa era muito segura, com grades nas janelas e trancas internas nas portas, não fiquei muito preocupado”, o termo “preocupado” é classificado, consoante o número de sílabas, como:",
+                "opcoes": [
+                      "oxítono, pois possui quatro sílabas.",
+                      "dissílabo, pois possui duas sílabas.",
+                      "polissílabo, pois possui exatamente quatro sílabas.",
+                      "trissílabo, pois possui três sílabas.",
+                      "polissílabo, pois possui mais de três sílabas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>polissílabo, pois possui mais de três sílabas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quantas sílabas tem a palavra panela?",
+                "opcoes": [
+                      "5",
+                      "1",
+                      "2",
+                      "4",
+                      "3"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: Instituto IACP/2026. Assunto: silabas.",
+                "banca": "Instituto IACP",
+                "ano": 2026,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As palavras podem ser categorizadas de acordo com o seu número de sílabas. São elas: monossílabas, dissílabas, trissílabas e polissílabas. Assinale a alternativa em que há apenas palavras dissílabas e polissílabas.",
+                "opcoes": [
+                      "Arguiu, enigma, camarote.",
+                      "Queijo, esmiuçar, exaustão.",
+                      "Abdicar, saída, arguiu.",
+                      "Exaustão, camarote, aptidão.",
+                      "Queijo, oceano, subestimar."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Queijo, oceano, subestimar.</strong>. Fonte: FUNCEPE/2024. Assunto: silabas.",
+                "banca": "FUNCEPE",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere a palavra \"inconstitucional\". Qual é a classificação correta quanto ao número de sílabas e qual a divisão silábica correta?",
+                "opcoes": [
+                      "Trissílaba - in-cons-ti-tu-cio-nal.",
+                      "Polissílaba - in-con-sti-tu-ci-o-nal.",
+                      "Dissílaba - in-consti-tu-cio-nal.",
+                      "Polissílaba - in-cons-ti-tu-ci-o-nal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Polissílaba - in-cons-ti-tu-ci-o-nal.</strong>. Fonte: IDESG/2024. Assunto: silabas.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresente palavra com quatro sílabas:",
+                "opcoes": [
+                      "Baratas.",
+                      "Mistura.",
+                      "Limpeza.",
+                      "Repelente.",
+                      "Humanos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Repelente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação ao número de sílabas, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA: ( ) A palavra “pé” tem o mesmo número de sílabas que a palavra “pai”. ( ) A palavra “queijo” tem o mesmo número de sílabas que a palavra “saída”. ( ) A palavra “sapo” é uma palavra trissílaba.",
+                "opcoes": [
+                      "C - C - E.",
+                      "E - E - C.",
+                      "C - E - E.",
+                      "E - C - C.",
+                      "C - E - C."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>C - E - E.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Marque a assertiva em que todos os vocábulos são classificados como trissílabos.",
+                "opcoes": [
+                      "Jamais – Desistir – Suas.",
+                      "Imagina – Forte – Realizações.",
+                      "Confiem – Mantenha – Desistir.",
+                      "Mundo – Sonhos – Forte.",
+                      "Você – Está – Mais."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Confiem – Mantenha – Desistir.</strong>. Fonte: Instituto Ágata/2024. Assunto: silabas.",
+                "banca": "Instituto Ágata",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As palavras Conselheiro e Goiabeira possuem quatro sílabas. Elas são chamadas de:",
+                "opcoes": [
+                      "polissílabas;",
+                      "trissílabas;",
+                      "dissílabas;",
+                      "monossílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>polissílabas;</strong>. Fonte: Máxima/2025. Assunto: silabas.",
+                "banca": "Máxima",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a classificação silábica, assinalar a alternativa que contém apenas palavras trissílabas.",
+                "opcoes": [
+                      "Fome | óculos | oblíquo.",
+                      "Juízo | borboleta | inútil.",
+                      "Alçapão | gratuito | ibero.",
+                      "Adorar | matemática | correto."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Alçapão | gratuito | ibero.</strong>. Fonte: OBJETIVA/2025. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considerando-se a classificação silábica, relacionar as colunas e assinalar a sequência correspondente. (1) Dissílaba. (2) Trissílaba. (3) Polissílaba. ( ) Expressar, correto, progresso. ( ) Friíssimo, averiguei, genuíno. ( ) Ágil, algum, transpor.",
+                "opcoes": [
+                      "3 - 2 - 1.",
+                      "3 - 1 - 2.",
+                      "1 - 3 - 1.",
+                      "2 - 3 - 1."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>2 - 3 - 1.</strong>. Fonte: OBJETIVA/2025. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação à separação de sílabas e à classificação quanto ao número de sílabas dos vocábulos retirados do texto, analise as afirmativas abaixo: I.O vocábulo 'zoológico' é uma palavra trissílaba. II.A separação silábica de ' experimentos' é 'ex-pe-rim en-tos'. III.'Microscópicas' é uma palavra polissílaba. IV.'submersos' e 'compreensão' têm o mesmo número de sílabas. V.'até' e 'cheias' são palavras dissílabas. Estão corretas:",
+                "opcoes": [
+                      "Apenas I, III e IV.",
+                      "Apenas II, III e V.",
+                      "Apenas III e V.",
+                      "Apenas I, II, IV e V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas III e V.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A alternativa que apresenta vocábulos, retirados do texto, com classificação quanto ao número de sílabas ou separação silábica INCORRETA é:",
+                "opcoes": [
+                      "de-sem-pe-nhan-do = polissílaba.",
+                      "e-xer-cí-ci-o = trissílaba.",
+                      "mús-cu-los = trissílaba.",
+                      "fle-xi-bi-li-da-de = polissílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>e-xer-cí-ci-o = trissílaba.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Marque a alternativa em que as palavras “núcleos”, “perfurados”, “apresentaram”, “ouro” e “prospecção” receberam a CORRETA classificação quanto ao número de sílabas.",
+                "opcoes": [
+                      "Dissílaba; polissílaba; polissílaba; dissílaba; trissílaba.",
+                      "Dissílaba; polissílaba; polissílaba; monossílaba; trissílaba.",
+                      "Trissílaba; polissílaba; polissílaba; trissílaba; polissílaba.",
+                      "Dissílaba; polissílaba; trissílaba; dissílaba; polissílaba.",
+                      "Trissílaba; trissílaba; polissílaba; dissílaba; polissílaba."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Dissílaba; polissílaba; polissílaba; dissílaba; trissílaba.</strong>. Fonte: CPCON/2025. Assunto: silabas.",
+                "banca": "CPCON",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere o fragmento e analise as assertivas que seguem: “Pesquisadores chineses do Geological Bureau of Hunan Province (GBHP) anunciaram para a mídia estatal” (1º§). I- Apalavra “pesquisadores” possui cinco sílabas e é classificada como polissílaba. II- Apalavra “chineses” possui três sílabas e é classificada como dissílaba. III- Apalavra “mídia” possui duas sílabas e é classificada como monossílaba. IV- Apalavra “anunciaram” possui cinco sílabas e é classificada como polissílaba. É CORRETO o que se afirma apenas em:",
+                "opcoes": [
+                      "III.",
+                      "I e III.",
+                      "II e IV.",
+                      "I.",
+                      "I e IV."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I e IV.</strong>. Fonte: CPCON/2025. Assunto: silabas.",
+                "banca": "CPCON",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Marque a alternativa CORRETA que classifica a palavra quanto ao número de sílabas.",
+                "opcoes": [
+                      "Biquíni – 3 sílabas.",
+                      "Comprou – 3 sílabas.",
+                      "Passado – 4 sílabas.",
+                      "Cresceu – 3 sílabas.",
+                      "Garota – 4 sílabas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Biquíni – 3 sílabas.</strong>. Fonte: CETREDE/2025. Assunto: silabas.",
+                "banca": "CETREDE",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A correta quantidade de sílabas da palavra “qualidade” é:",
+                "opcoes": [
+                      "Uma.",
+                      "Duas.",
+                      "Três.",
+                      "Quatro.",
+                      "Cinco."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Quatro.</strong>. Fonte: FUNDATEC/2025. Assunto: silabas.",
+                "banca": "FUNDATEC",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Marque a alternativa em que a classificação quanto ao número de sílabas esteja INCORRETA:",
+                "opcoes": [
+                      "seu: monossílaba",
+                      "desenhado: polissílaba",
+                      "saúva: dissílaba",
+                      "baleia: trissílaba"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>saúva: dissílaba</strong>. Fonte: FAMA/2025. Assunto: silabas.",
+                "banca": "FAMA",
+                "ano": 2025,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A alternativa que apresenta 4 palavras trissílabas é:",
+                "opcoes": [
+                      "Um mesmo indivíduo da trepadeira pode ter folhas de vários tipos, se seus ramos crescerem se apoiando em diferentes espécies.",
+                      "Os cientistas perceberam que as folhas \"miméticas\" da trepadeira são menos atacadas por herbívoros do que suas folhas \"normais.",
+                      "Mas um recente experimento mostrou algo ainda mais surpreendente: ela pode imitar até mesmo folhas de plantas artificiais.",
+                      "À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma ."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma .</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O trecho que apresenta pelo menos 3 palavras trissílabas, 4 dissílabas e 2 polissílabas , independente da ordem",
+                "opcoes": [
+                      "A maioria das flores endotérmicas usa o calor para garantir a polinização.",
+                      "As plantas geralmente se aquecem usando o calor do Sol.",
+                      "Para muitas espécies de plantas, é importante manter as flores aquecidas.",
+                      "A endotermia é uma característica importante de aves e mamíferos, além de ocorrer também em algumas espécies de répteis, peixes e até mesmo insetos."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A endotermia é uma característica importante de aves e mamíferos, além de ocorrer também em algumas espécies de répteis, peixes e até mesmo insetos.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A alternativa que apresenta 4 palavras trissílabas é:",
+                "opcoes": [
+                      "À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma.",
+                      "Um mesmo indivíduo da trepadeira pode ter folhas de vários tipos, se seus ramos crescerem se apoiando em diferentes espécies.",
+                      "Mas um recente experimento mostrou algo ainda mais surpreendente: ela pode imitar até mesmo folhas de plantas artificiais.",
+                      "Os cientistas perceberam que as folhas \"miméticas\" da trepadeira são menos atacadas por herbívoros do que suas folhas \"normais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>À medida que a planta cresce, as folhas da Boquila vão mudando de cor, tamanho e forma.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na língua portuguesa, as palavras podem ser classificadas de acordo com o número de sílabas. Considerando os vocábulos presentes na tirinha, assinale a alternativa em que a palavra NÃO é trissílaba.",
+                "opcoes": [
+                      "Esqueça.",
+                      "Problemas.",
+                      "Telefone.",
+                      "Gaveta."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Telefone.</strong>. Fonte: IESES/2024. Assunto: silabas.",
+                "banca": "IESES",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A classificação das palavras quanto ao número de sílabas é uma parte fundamental do estudo da língua portuguesa, pois permite entender a estrutura das palavras. Sabendo disso, pode-se afirmar que a palavra civilização é:",
+                "opcoes": [
+                      "Dissílaba.",
+                      "Polissílaba.",
+                      "Trissílaba.",
+                      "Monossílaba."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Polissílaba.</strong>. Fonte: IESES/2024. Assunto: silabas.",
+                "banca": "IESES",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No trecho “Ele abriu um sorriso largo.” (5º§), a palavra “sorriso” possui:",
+                "opcoes": [
+                      "Três sílabas e duas vogais.",
+                      "Três sílabas e seis fonemas.",
+                      "Três sílabas e quatro fonemas.",
+                      "Quatro sílabas e cinco fonemas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Três sílabas e seis fonemas.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
+                "banca": "Instituto Consulplan",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas",
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta uma palavra dissílaba:",
+                "opcoes": [
+                      "Castelo.",
+                      "Cidade.",
+                      "Hoje.",
+                      "Construção."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Hoje.</strong>. Fonte: UNIVIDA/2024. Assunto: silabas.",
+                "banca": "UNIVIDA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A alternativa em que todas as palavras, retiradas do texto, são dissílabas é:",
+                "opcoes": [
+                      "desse, spray, contra, tipo.",
+                      "nosso, corpo, bem, nariz.",
+                      "forma, ideia, quando, boca.",
+                      "legal, comuns, raiva, será."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>legal, comuns, raiva, será.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa que apresenta a separação silábica e a classificação quanto ao número de sílabas dos vocábulos, retirados do texto, de forma ERRADA:",
+                "opcoes": [
+                      "Exemplo = e-xem-plo = trissílaba.",
+                      "Pneumonia = pneu-mo-ni-a polissílaba.",
+                      "Microbioma = micro-bi-o-ma = trissílaba.",
+                      "Infecções = in-fec-ções = trissílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Microbioma = micro-bi-o-ma = trissílaba.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua mais de quatro sílabas:",
+                "opcoes": [
+                      "Sugerindo.",
+                      "Entrevista.",
+                      "Suficientes.",
+                      "Desembarque.",
+                      "Despedidas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Suficientes.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua mais de cinco sílabas:",
+                "opcoes": [
+                      "Emblemáticos.",
+                      "Equivalente.",
+                      "Exclusivamente.",
+                      "Descobrimentos.",
+                      "Reconhecida."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Exclusivamente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise o número de sílabas das palavras “porcentagem” e “passado”, extraídas do fragmento “A porcentagem chegou a 47%, contra 44% no ano passado”. I-  A palavra “porcentagem” possui quatro sílabas. II-  A palavra “passado” possui três sílabas. III-  A separação silábica da palavra “porcentagem” é por-cen-ta-gem. IV-  A separação silábica da palavra “passado” é pa-ssa-do. V-  A palavra “passado” é classificada como dissílabo. É CORRETO o que se afirma em:",
+                "opcoes": [
+                      "I e II apenas.",
+                      "I, II e III apenas.",
+                      "I, II, III, IV e V.",
+                      "II, III e IV apenas.",
+                      "IV e V apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, II e III apenas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As palavras são classificadas em monossílabas, dissílabas, trissílabas e polissílabas de acordo com a quantidade de sílabas. “Medalha” é uma palavra:",
+                "opcoes": [
+                      "Monossílaba.",
+                      "Dissílaba.",
+                      "Trissílaba.",
+                      "Polissílaba."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Trissílaba.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
+                "banca": "Instituto Consulplan",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Cinema” é uma palavra trissílaba, pois se divide em três sílabas. Marque a alternativa que possui apenas palavras trissílabas.",
+                "opcoes": [
+                      "Filme, evento, família.",
+                      "Brasil, edição, proposta.",
+                      "Prêmio, roteiro, academia.",
+                      "Fernanda, festival, outubro.",
+                      "Destaque, anúncio, premiada."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Fernanda, festival, outubro.</strong>. Fonte: Instituto Consulplan/2024. Assunto: silabas.",
+                "banca": "Instituto Consulplan",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra apresente mais de três sílabas:",
+                "opcoes": [
+                      "Cabeça.",
+                      "Cinema.",
+                      "Locutor.",
+                      "Universo.",
+                      "Gravação."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Universo.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As palavras podem ser classificadas em quatro tipos, de acordo com a sua quantidade de sílabas: monossílabas, dissílabas, trissílabas ou polissílabas. Assinalar a alternativa com uma palavra trissílaba.",
+                "opcoes": [
+                      "Café.",
+                      "Corredor.",
+                      "Cal.",
+                      "Corajoso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Corredor.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Tendo os vocábulos \"zoológico\", \"arara\", \"cactos\" e \"Fissuras\", retirados do texto, assinale (V) para verdadeiro e (F) para falso em relação à divisão e números de sílabas. (__)  A separação silábica de \"zoológico\" é zo-o-ló-gi-co, classificando-a como uma polissílaba. (__) O vocábulo \"cacto\" é uma palavra trissílaba. (__) O vocábulo \"arara\" é uma palavra trissílaba. (__) A separação silábica de \"fissuras\" é fi-ssu-ras, classificando-a como trissílaba. (__) Entre os 4 vocábulos apresentados, 2 são trissílabos. Identifique qual alternativa apresenta a sequência CORRETA do preenchimento dos parênteses:",
+                "opcoes": [
+                      "V, F, V, F, V.",
+                      "V, V, F, F, F.",
+                      "F, F, V, F, V.",
+                      "F, V, V, V, F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, F, V, F, V.</strong>. Fonte: AMEOSC/2024. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quantas sílabas tem a palavra amigo:",
+                "opcoes": [
+                      "3",
+                      "4",
+                      "5",
+                      "6"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: AGIRH/2024. Assunto: silabas.",
+                "banca": "AGIRH",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quantas sílabas possui a palavra “amazônica”?",
+                "opcoes": [
+                      "Quatro.",
+                      "Seis.",
+                      "Cinco.",
+                      "Três."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Cinco.</strong>. Fonte: Itame/2024. Assunto: silabas.",
+                "banca": "Itame",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Leia a frase seguinte: “Siga tranquilamente o seu caminho, entre a inquietude e a pressa, lembrando-se de que há sempre paz no silêncio. Tanto quanto possível, sem se humilhar, mantenha-se em bons termos com todas as pessoas”. Agora observe o quadro e marque a alternativa que NÃO foi preenchida de acordo com as indicações.",
+                "opcoes": [
+                      "Palavras com uma sílaba paz, bons",
+                      "Palavras com duas sílabas quanto, pressa",
+                      "Palavras com três sílabas humilhar, pessoas",
+                      "Palavras com mais de quatro sílabas inquietude, possível"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Palavras com mais de quatro sílabas inquietude, possível</strong>. Fonte: FUMARC/2011. Assunto: silabas.",
+                "banca": "FUMARC",
+                "ano": 2011,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua mais de quatro sílabas:",
+                "opcoes": [
+                      "Elétricas.",
+                      "Eventual.",
+                      "Instituto.",
+                      "Alagamentos.",
+                      "Estadual."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Alagamentos.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quanto ao número de sílabas, a palavra “metroviária” (linha 11) pode ser classificada como",
+                "opcoes": [
+                      "monossílaba.",
+                      "unissílaba.",
+                      "dissílaba.",
+                      "trissílaba.",
+                      "polissílaba."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>polissílaba.</strong>. Fonte: COPESE - UFPI/2013. Assunto: silabas.",
+                "banca": "COPESE - UFPI",
+                "ano": 2013,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Assinale a opção em que todas as palavras são formadas pelo MESMO número de sílabas.",
+                "opcoes": [
+                      "Primórdios –– povoado – Paraíba - arruado.",
+                      "Maturescência – climatológico – transformada - cria.",
+                      "Campos – cajueiros – degraus – contínuas.",
+                      "Variadas – Governo – queimadas– passagem.",
+                      "Ainda – cria – Maia – sequenciados."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Primórdios –– povoado – Paraíba - arruado.</strong>. Fonte: EDUCA/2016. Assunto: silabas.",
+                "banca": "EDUCA",
+                "ano": 2016,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que a separação das sílabas está incorreta.",
+                "opcoes": [
+                      "e-xe-cu-tar",
+                      "mil-has",
+                      "i-ma-gi-nem",
+                      "Sa-a-ra",
+                      "ho-men-zi-nho"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>mil-has</strong>. Fonte: AMAUC/2017. Assunto: silabas.",
+                "banca": "AMAUC",
+                "ano": 2017,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa em que todas as palavras apresentam divisão silábica correta:",
+                "opcoes": [
+                      "Ass – as – si – no / cres – cer / ex – ce – ção.",
+                      "As – sas – si – no / cre – scer / ex – ce – ção.",
+                      "Ass – as – si – no / cre – scer / exc -e – ção.",
+                      "As – sas – si – no / cres – cer / ex – ce – ção."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As – sas – si – no / cres – cer / ex – ce – ção.</strong>. Fonte: AMEOSC/2017. Assunto: silabas.",
+                "banca": "AMEOSC",
+                "ano": 2017,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Leia as assertivas a seguir: I. a-ssi-me-tri-a / a-ma-re-lo / auto-mó-vel / sa-nha-ço. II. na-tu-ro-lo-gia / trans-fe-rê-ncia / en-de-re-ço / i-nadmi-ssí-vel. III. as-sa-dei-ra / a-lu-são / psi-co-lo-gi-a / ab-du-zi-do. Assinale a alternativa que se aplica quanto à divisão silábica:",
+                "opcoes": [
+                      "Somente a assertiva I está correta.",
+                      "Somente a assertiva III está correta.",
+                      "Somente as assertivas II e III estão corretas.",
+                      "Somente a assertiva II está correta."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Somente a assertiva III está correta.</strong>. Fonte: IESES/2019. Assunto: silabas.",
+                "banca": "IESES",
+                "ano": 2019,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com o número de sílabas que contêm, os vocábulos se classificam em monossílabos, dissílabos, trissílabos e polissílabos. Nesse sentido, marque a alternativa onde todas as palavras estão corretas.",
+                "opcoes": [
+                      "Polissílabas: necessidades, organizada, armazenado.",
+                      "Monossílabas: fim, não, vida.",
+                      "Dissílabas: todas, modo, tal.",
+                      "Trissílabas: vontade, crenças, fé."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Polissílabas: necessidades, organizada, armazenado.</strong>. Fonte: GANZAROLI/2024. Assunto: silabas.",
+                "banca": "GANZAROLI",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A palavra “infartos”, conforme o número de sílabas, é:",
+                "opcoes": [
+                      "Monossílaba.",
+                      "Dissílaba.",
+                      "Trissílaba.",
+                      "Polissílaba.",
+                      "Nenhuma das anteriores."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Trissílaba.</strong>. Fonte: FUNDATEC/2023. Assunto: silabas.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quantas sílabas tem a palavra “galinheiro”?",
+                "opcoes": [
+                      "1.",
+                      "2.",
+                      "3.",
+                      "4.",
+                      "5."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>4.</strong>. Fonte: FUNDATEC/2023. Assunto: silabas.",
+                "banca": "FUNDATEC",
+                "ano": 2023,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Pneumoultramicroscopicossilicovulcanoconiótico é considerada atualmente a maior palavra técnica dicionarizada da língua portuguesa. Quantas sílabas há nesta palavra?",
+                "opcoes": [
+                      "18",
+                      "20",
+                      "24",
+                      "26"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>20</strong>. Fonte: FUNATEC/2024. Assunto: silabas.",
+                "banca": "FUNATEC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Com base no texto “Separados”, observe a palavra “abrigo” no trecho: “As malas rente aos pés dos dois, também se valiam daquele abrigo”. Quantas sílabas a palavra \"abrigo\" apresenta?",
+                "opcoes": [
+                      "2 sílabas.",
+                      "6 sílabas.",
+                      "4 sílabas.",
+                      "5 sílabas.",
+                      "3 sílabas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>3 sílabas.</strong>. Fonte: CPCON/2024. Assunto: silabas.",
+                "banca": "CPCON",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observar as palavras abaixo. • Pai. • Casinha. • Sábado. • Vidro. Ao realizar a separação silábica dessas palavras, quantas delas são classificadas como trissílabas, ou seja, que possuem 3 sílabas?",
+                "opcoes": [
+                      "Uma palavra.",
+                      "Duas palavras.",
+                      "Três palavras.",
+                      "Todas as palavras."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Duas palavras.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa que contém uma palavra que seja classificada como trissílaba.",
+                "opcoes": [
+                      "Resfriado.",
+                      "Doenças.",
+                      "Camomila.",
+                      "Emagrecer.",
+                      "Água."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Doenças.</strong>. Fonte: FUNDATEC/2022. Assunto: silabas.",
+                "banca": "FUNDATEC",
+                "ano": 2022,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "São palavras classificadas como dissílabas, EXCETO:",
+                "opcoes": [
+                      "Ano.",
+                      "Além.",
+                      "Oferta.",
+                      "Fruta."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Oferta.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinalar a alternativa cuja palavra, ao ser separada em sílabas, é classificada CORRETAMENTE como dissílaba.",
+                "opcoes": [
+                      "Saúde.",
+                      "Calculadora.",
+                      "Perdão.",
+                      "Cachorro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Perdão.</strong>. Fonte: OBJETIVA/2024. Assunto: silabas.",
+                "banca": "OBJETIVA",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra apresente mais de três sílabas:",
+                "opcoes": [
+                      "Fundador.",
+                      "Fortuna.",
+                      "Empresa.",
+                      "Posição.",
+                      "Presidente."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Presidente.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a alternativa cuja palavra possua mais de três sílabas:",
+                "opcoes": [
+                      "Capital.",
+                      "Alerta.",
+                      "Elétrica.",
+                      "Empresa.",
+                      "Cidade."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Elétrica.</strong>. Fonte: FAU/2024. Assunto: silabas.",
+                "banca": "FAU",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise as palavras dispostas no quadro a seguir. armazenamento – pintura – computador – garrafa – café – academia – material – pasta – suporte – calça Quantas das palavras desse quadro são trissílabas?",
+                "opcoes": [
+                      "8.",
+                      "7.",
+                      "4.",
+                      "3."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>3.</strong>. Fonte: IDESG/2024. Assunto: silabas.",
+                "banca": "IDESG",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise as assertivas a seguir a respeito da palavra “inclemência”:I. Trata-se de um substantivo. II. Seu oposto é clemência.III. Sua correta divisão silábica é in-cle-mê-nci-a.Quais estão corretas?",
+                "opcoes": [
+                      "Apenas I.",
+                      "Apenas II.",
+                      "Apenas I e II.",
+                      "Apenas II e III.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Apenas I e II.</strong>. Fonte: FUNDATEC/2024. Assunto: silabas.",
+                "banca": "FUNDATEC",
+                "ano": 2024,
+                "assunto": "Sílabas",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "silabas"
                 ],
                 "imagens": null
           }
