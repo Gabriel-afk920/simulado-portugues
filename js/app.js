@@ -1,16 +1,33 @@
 ﻿
 // ══════════════════════════════════════════════════════════
 //  HISTÓRICO DE DESEMPENHO (localStorage)
+//  Chave namespaced por matéria ("<materia>::<temaId>") para não colidir
+//  entre matérias diferentes que por acaso usem o mesmo temaId. Enquanto
+//  só existir 'portugues', toda chave nova é "portugues::<temaId>" — e a
+//  leitura ainda cai de volta pra chave antiga (bare temaId) se existir,
+//  então dado de usuário já salvo antes desta mudança não se perde.
 // ══════════════════════════════════════════════════════════
 function _historico() {
   try { return JSON.parse(localStorage.getItem('desempenho') || '{}'); } catch { return {}; }
 }
-function _salvarSessao(temaId, acertos, total) {
+function _histKey(temaId, materia) {
+  return (materia || 'portugues') + '::' + temaId;
+}
+function _histEntry(temaId, materia) {
   const h = _historico();
-  if (!h[temaId]) h[temaId] = { acertos: 0, total: 0, sessoes: 0 };
-  h[temaId].acertos += acertos;
-  h[temaId].total   += total;
-  h[temaId].sessoes += 1;
+  return h[_histKey(temaId, materia)] || h[temaId] || null;
+}
+function _salvarSessao(temaId, acertos, total, materia) {
+  const h   = _historico();
+  const key = _histKey(temaId, materia);
+  if (!h[key]) {
+    // Migra estatística salva com a chave antiga (bare temaId), se existir
+    h[key] = h[temaId] ? h[temaId] : { acertos: 0, total: 0, sessoes: 0 };
+    if (h[temaId]) delete h[temaId];
+  }
+  h[key].acertos += acertos;
+  h[key].total   += total;
+  h[key].sessoes += 1;
   localStorage.setItem('desempenho', JSON.stringify(h));
 }
 
@@ -123,7 +140,8 @@ let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
 // ══════════════════════════════════════════════════════════
-const TELAS = ['screen-home','screen-study-topics','screen-study-fonetica','screen-study-content',
+const TELAS = ['screen-home','screen-materia-estudar','screen-materia-simulado',
+               'screen-study-topics','screen-study-fonetica','screen-study-content',
                'screen-quiz-topics','screen-quiz-fonetica','screen-quiz','screen-result'];
 
 function ir(id) {
@@ -137,14 +155,28 @@ function ir(id) {
 
 // ══════════════════════════════════════════════════════════
 //  HOME
+//  A tela de seleção de matéria (screen-materia-estudar/simulado) só
+//  aparece quando existe mais de uma matéria cadastrada em MATERIAS
+//  (ver temas.js). Com uma matéria só (hoje: 'portugues'), Estudar/
+//  Simulado pulam direto pra tela de temas de sempre — nenhuma mudança
+//  de UX enquanto MATERIAS.length === 1.
 // ══════════════════════════════════════════════════════════
-document.getElementById('btn-ir-estudar').addEventListener('click', () => {
-  renderTemaGrid('study-tema-grid', abrirTeoria);
+function _abrirTopicosEstudar(materiaId) {
+  renderTemaGrid('study-tema-grid', abrirTeoria, materiaId);
   ir('screen-study-topics');
+}
+
+document.getElementById('btn-ir-estudar').addEventListener('click', () => {
+  if (MATERIAS.length > 1) {
+    renderMateriaGrid('materia-estudar-grid', (materiaId) => _abrirTopicosEstudar(materiaId));
+    ir('screen-materia-estudar');
+  } else {
+    _abrirTopicosEstudar(MATERIAS[0] && MATERIAS[0].id);
+  }
 });
 
-function _abrirTelaSimulado() {
-  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz);
+function _abrirTopicosSimulado(materiaId) {
+  renderTemaGrid('quiz-tema-grid', selecionarTemaQuiz, materiaId);
   temaAtual = null;
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
@@ -161,6 +193,7 @@ function _abrirTelaSimulado() {
         temaAtual = {
           id: s.temaId,
           nome: parentTema.nome,
+          materia: parentTema.materia,
           questoes: parentTema.subtemas.flatMap(subId => {
             const sub = TEMAS.find(x => x.id === subId);
             return sub ? sub.questoes : [];
@@ -178,29 +211,41 @@ function _abrirTelaSimulado() {
   } catch {}
 }
 
+function _abrirTelaSimulado() {
+  if (MATERIAS.length > 1) {
+    renderMateriaGrid('materia-simulado-grid', (materiaId) => _abrirTopicosSimulado(materiaId));
+    ir('screen-materia-simulado');
+  } else {
+    _abrirTopicosSimulado(MATERIAS[0] && MATERIAS[0].id);
+  }
+}
+
 document.getElementById('btn-ir-simulado').addEventListener('click', _abrirTelaSimulado);
 
 document.getElementById('btn-back-study-home').addEventListener('click', () => ir('screen-home'));
 document.getElementById('btn-back-quiz-home').addEventListener('click',  () => ir('screen-home'));
+document.getElementById('btn-back-materia-estudar').addEventListener('click',  () => ir('screen-home'));
+document.getElementById('btn-back-materia-simulado').addEventListener('click', () => ir('screen-home'));
 
 // ══════════════════════════════════════════════════════════
 //  GRADE DE TEMAS (reutilizável)
 // ══════════════════════════════════════════════════════════
 let _temaSubtemasAtual = null;
 
-function renderTemaGrid(gridId, onClickFn) {
+function renderTemaGrid(gridId, onClickFn, materiaFiltro) {
   const excluir = TEMAS.flatMap(t => t.subtemas || []);
   const grid = document.getElementById(gridId);
   const hist = _historico();
   grid.innerHTML = '';
   TEMAS.forEach(t => {
     if (excluir.includes(t.id)) return;
+    if (materiaFiltro && (t.materia || 'portugues') !== materiaFiltro) return;
     const card = document.createElement('div');
     card.className = 'tema-card';
     card.dataset.id = t.id;
 
     let badge = '';
-    const h = hist[t.id];
+    const h = hist[_histKey(t.id, t.materia)] || hist[t.id];
     if (h && h.total > 0) {
       const pct = Math.round((h.acertos / h.total) * 100);
       const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
@@ -211,6 +256,20 @@ function renderTemaGrid(gridId, onClickFn) {
     const countEl = nQ > 0 ? `<div class="card-count">${nQ} questões</div>` : '';
     card.innerHTML = `${badge}<div class="icon">${t.icon}</div><div class="nome">${t.nome}</div>${countEl}<div class="desc">${t.desc}</div>`;
     card.addEventListener('click', () => onClickFn(t.id, card));
+    grid.appendChild(card);
+  });
+}
+
+// Grade de seleção de matéria — só é usada quando MATERIAS.length > 1
+function renderMateriaGrid(gridId, onClickFn) {
+  const grid = document.getElementById(gridId);
+  grid.innerHTML = '';
+  MATERIAS.forEach(m => {
+    const card = document.createElement('div');
+    card.className = 'tema-card';
+    card.dataset.id = m.id;
+    card.innerHTML = `<div class="icon">${m.icon}</div><div class="nome">${m.nome}</div><div class="desc">${m.desc}</div>`;
+    card.addEventListener('click', () => onClickFn(m.id, card));
     grid.appendChild(card);
   });
 }
@@ -353,7 +412,7 @@ function _renderSubtemasQuiz(subs) {
     div.className = 'tema-card';
     div.dataset.subId = sub.id;
     let badge = '';
-    const h = hist[sub.id];
+    const h = hist[_histKey(sub.id, sub.materia)] || hist[sub.id];
     if (h && h.total > 0) {
       const pct = Math.round((h.acertos / h.total) * 100);
       const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
@@ -398,7 +457,7 @@ document.getElementById('btn-iniciar-fonetica').addEventListener('click', () => 
     if (sub && sub.questoes) questoesCombinadas.push(...sub.questoes);
   });
   const parent = _temaSubtemasAtual || { id: 'fonetica', nome: 'Fonética e Ortografia' };
-  iniciarSimulado({ id: parent.id + '_mix', nome: parent.nome, questoes: questoesCombinadas });
+  iniciarSimulado({ id: parent.id + '_mix', nome: parent.nome, materia: parent.materia, questoes: questoesCombinadas });
 });
 
 // ══════════════════════════════════════════════════════════
@@ -692,8 +751,8 @@ function mostrarResultado() {
   // Salva e exibe histórico — só se pelo menos uma questão foi respondida
   const respondidas   = Object.keys(respostasMap).length;
   const acertosSessao = Object.values(respostasMap).filter(r => r.acertou).length;
-  if (respondidas > 0) _salvarSessao(temaAtual.id, acertosSessao, respondidas);
-  const hist = _historico()[temaAtual.id];
+  if (respondidas > 0) _salvarSessao(temaAtual.id, acertosSessao, respondidas, temaAtual.materia);
+  const hist = _histEntry(temaAtual.id, temaAtual.materia);
   const histEl = document.getElementById('score-hist');
   if (hist && hist.sessoes > 1) {
     const pctH = Math.round((hist.acertos / hist.total) * 100);

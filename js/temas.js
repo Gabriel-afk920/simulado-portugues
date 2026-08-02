@@ -1,10 +1,19 @@
 // ══════════════════════════════════════════════════════════
+//  MATÉRIAS — por enquanto só português; a tela de seleção de
+//  matéria (screen-materia-estudar/simulado) só aparece quando
+//  MATERIAS.length > 1 (ver app.js)
+// ══════════════════════════════════════════════════════════
+const MATERIAS = [
+  { id: 'portugues', nome: 'Língua Portuguesa', icon: '📖', desc: 'Fonética, gramática, ortografia e interpretação de texto' },
+];
+
+// ══════════════════════════════════════════════════════════
 //  BANCO DE QUESTÕES
 // ══════════════════════════════════════════════════════════
 const TEMAS = [
   // ─────────────────────────────────────────
   {
-    id: "ditongos", nome: "Ditongos", icon: "🔤", desc: "Encontros vocálicos",
+    id: "ditongos", materia: 'portugues', nome: "Ditongos", icon: "🔤", desc: "Encontros vocálicos",
     teoria: `
 <div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(método por escrita, sem depender de pronúncia)</span></div>
@@ -891,7 +900,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "digrafos", nome: "Dígrafos", icon: "🔠", desc: "Duas letras, um fonema",
+    id: "digrafos", materia: 'portugues', nome: "Dígrafos", icon: "🔠", desc: "Duas letras, um fonema",
     teoria: `
 <h3>O que é Dígrafo?</h3>
 <p>Dígrafo é a reunião de <strong>duas letras</strong> que, juntas, representam um <strong>único fonema</strong>. O nome vem do grego: <em>di</em> (dois) + <em>grapho</em> (escrita).</p>
@@ -1158,7 +1167,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "encontrosConsonantais", nome: "Encontros Consonantais", icon: "🔗", desc: "Consoantes consecutivas na mesma sílaba",
+    id: "encontrosConsonantais", materia: 'portugues', nome: "Encontros Consonantais", icon: "🔗", desc: "Consoantes consecutivas na mesma sílaba",
     teoria: `<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:12px;">DECISAO RAPIDA — Encontro Consonantal vs Dígrafo</div>
 
@@ -1312,7 +1321,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "hiatos", nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
+    id: "hiatos", materia: 'portugues', nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
     teoria: `
 <div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(método por escrita, sem depender de pronúncia)</span></div>
@@ -1679,7 +1688,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "fonemas", nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
+    id: "fonemas", materia: 'portugues', nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
 <p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>. O <strong>Alfabeto Fonético Internacional (IPA)</strong> usa um símbolo específico para cada som, evitando a ambiguidade da escrita comum (útil em comunicações que soletram palavras letra por letra, como "Alfa", "Bravo", "Charlie").</p>
@@ -1787,7 +1796,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "silabas", nome: "Sílabas", icon: "📚", desc: "Divisão silábica e separação",
+    id: "silabas", materia: 'portugues', nome: "Sílabas", icon: "📚", desc: "Divisão silábica e separação",
     teoria: `
 <div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:0 0 20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — SÍLABAS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Divisão silábica e separação de palavras</p></div>
 
@@ -1858,7 +1867,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "acentuacaoGrafica", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
+    id: "acentuacaoGrafica", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
     teoria: `<h3>O que é Acentuação Gráfica?</h3>
 <p>Acentuação gráfica é o conjunto de regras que determina quando uma palavra recebe acento escrito (´ agudo ou ^ circunflexo). O acento sempre indica a <strong>sílaba tônica</strong> — a sílaba de maior intensidade da palavra. O conjunto dessas regras de acentuação define quando e por que os vocábulos acentuados graficamente recebem o acento.</p>
 
@@ -2049,7 +2058,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "crase", nome: "Crase", icon: "À", desc: "Uso do acento grave",
+    id: "crase", materia: 'portugues', nome: "Crase", icon: "À", desc: "Uso do acento grave",
     teoria: `<h3>O que é Crase?</h3>
 <p>A <strong>crase</strong> é a fusão da preposição <em>a</em> com o artigo definido feminino <em>a</em> (ou <em>as</em>), resultando em <strong>à</strong> (ou <strong>às</strong>). Ela é marcada ortograficamente pelo <strong>acento grave</strong> (&#96;) sobre a letra <em>a</em>. Portanto, <em>à</em> = <em>a</em> (preposição) + <em>a</em> (artigo), indicado ortograficamente pelo acento grave.</p>
 
@@ -2099,7 +2108,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "classesGramaticais", nome: "Classes Gramaticais", icon: "📚", desc: "As 10 classes de palavras",
+    id: "classesGramaticais", materia: 'portugues', nome: "Classes Gramaticais", icon: "📚", desc: "As 10 classes de palavras",
     teoria: `
 <h3>O que são Classes Gramaticais?</h3>
 <p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>.</p>
@@ -2221,7 +2230,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "ortografia", nome: "Ortografia", icon: "🖊️", desc: "Escrita correta das palavras",
+    id: "ortografia", materia: 'portugues', nome: "Ortografia", icon: "🖊️", desc: "Escrita correta das palavras",
     teoria: `
 <h3>O que é Ortografia?</h3>
 <p>Ortografia é o conjunto de normas que determina a <strong>escrita correta</strong> das palavras de uma língua. No português, as principais questões ortográficas envolvem o uso de letras que representam sons semelhantes ou idênticos.</p>
@@ -2414,7 +2423,7 @@ const TEMAS = [
 ,
   // ─────────────────────────────────────────
   {
-    id: "tritongos", nome: "Tritongos", icon: "🔀", desc: "Semivogal + vogal + semivogal",
+    id: "tritongos", materia: 'portugues', nome: "Tritongos", icon: "🔀", desc: "Semivogal + vogal + semivogal",
     teoria: `
 <h3>1. O que é Tritongo?</h3>
 <p>Tritongo é o encontro de <strong>semivogal + vogal + semivogal</strong> na <strong>mesma sílaba</strong>, formando um único núcleo silábico com três elementos. É a sequência vocálica mais complexa do português.</p>
@@ -2623,7 +2632,7 @@ const TEMAS = [
   }
 ,
   {
-    id: "tonicidade", nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
+    id: "tonicidade", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
     teoria: `<h3>Classificação das palavras pela posição da sílaba tônica</h3>
 
 <div class="dica-box"><div class="dica-title">💡 Como a prova pergunta — expressões genéricas das bancas</div>
@@ -3346,7 +3355,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
   // ─────────────────────────────────────────
   {
-    id: "formacaoPalavras", nome: "Formação de Palavras", icon: "🔧", desc: "Derivação, composição, prefixos e sufixos",
+    id: "formacaoPalavras", materia: 'portugues', nome: "Formação de Palavras", icon: "🔧", desc: "Derivação, composição, prefixos e sufixos",
     teoria: `
 <h3>O que é Formação de Palavras?</h3>
 <p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família; já "mão" e "manual" pertencem a famílias diferentes, apesar da semelhança). Cada afixo carrega um <strong>valor semântico</strong> (um sentido) próprio — por isso, saber o significado de um prefixo ou sufixo ajuda a deduzir o sentido de palavras desconhecidas na prova.</p>
@@ -3835,7 +3844,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "hifen", nome: "Hífen", icon: "➖", desc: "Uso do hífen e palavras compostas",
+    id: "hifen", materia: 'portugues', nome: "Hífen", icon: "➖", desc: "Uso do hífen e palavras compostas",
     teoria: `
 <h3>O que é o Hífen?</h3>
 <p>O hífen é um sinal gráfico usado para unir elementos em palavras compostas e derivadas por prefixação. As regras atuais seguem o <strong>Acordo Ortográfico de 1990</strong>, em vigor desde 2009.</p>
@@ -3939,7 +3948,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "concordancia", nome: "Concordância", icon: "🤝", desc: "Concordância verbal e nominal",
+    id: "concordancia", materia: 'portugues', nome: "Concordância", icon: "🤝", desc: "Concordância verbal e nominal",
     teoria: `
 <h3>O que é Concordância?</h3>
 <p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa — ou seja, a <strong>flexão do verbo</strong> (sua conjugação em pessoa e número) deve acompanhar o sujeito. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
@@ -4014,7 +4023,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "colocacaoPronominal", nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
+    id: "colocacaoPronominal", materia: 'portugues', nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
     teoria: `
 <h3>O que é Colocação Pronominal?</h3>
 <p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Quando uma <strong>forma pronominal</strong> desses pronomes aparece numa frase, dizemos que houve uma das <strong>colocações pronominais</strong> abaixo. Há três posições possíveis:</p>
@@ -4093,7 +4102,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "paronimosHomonimos", nome: "Parônimos e Homônimos", icon: "🔄", desc: "Palavras parecidas com sentidos distintos",
+    id: "paronimosHomonimos", materia: 'portugues', nome: "Parônimos e Homônimos", icon: "🔄", desc: "Palavras parecidas com sentidos distintos",
     teoria: `
 <h3>Definições</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
@@ -4199,7 +4208,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   // ── NOVOS TEMAS ─────────────────────────────────────────────────────────────
 
   {
-    id: "interpretacaoTextos",
+    id: "interpretacaoTextos", materia: 'portugues',
     nome: "Interpretação de Textos",
     icon: "🔎",
     desc: "Leitura, inferência e vocabulário em contexto",
@@ -4345,7 +4354,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "pontuacao",
+    id: "pontuacao", materia: 'portugues',
     nome: "Pontuação",
     icon: "✍️",
     desc: "Vírgula, ponto e vírgula, dois-pontos e demais sinais",
@@ -4533,7 +4542,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "regencia",
+    id: "regencia", materia: 'portugues',
     nome: "Regência Nominal e Verbal",
     icon: "🔗",
     desc: "Relação verbo/nome com sua complementação e preposições",
@@ -4624,7 +4633,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "analiseSintatica",
+    id: "analiseSintatica", materia: 'portugues',
     nome: "Análise Sintática",
     icon: "🔍",
     desc: "Termos da oração, coordenação e subordinação",
@@ -4784,7 +4793,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "temposVerbais",
+    id: "temposVerbais", materia: 'portugues',
     nome: "Tempos e Modos Verbais",
     icon: "⏳",
     desc: "Indicativo, subjuntivo, imperativo e correlação de tempos",
@@ -4910,7 +4919,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "estruturaTextual",
+    id: "estruturaTextual", materia: 'portugues',
     nome: "Estrutura Textual",
     icon: "🧱",
     desc: "Coesão, coerência e organização do texto",
@@ -5021,7 +5030,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "tiposGeneros",
+    id: "tiposGeneros", materia: 'portugues',
     nome: "Tipos e Gêneros Textuais",
     icon: "📄",
     desc: "Narração, descrição, dissertação, injunção e gêneros",
@@ -5111,7 +5120,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "transitividade",
+    id: "transitividade", materia: 'portugues',
     nome: "Transitividade Verbal",
     icon: "↔️",
     desc: "VTD, VTI, VTDI, VI e suas complementações",
@@ -5212,7 +5221,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "reescritaFrases",
+    id: "reescritaFrases", materia: 'portugues',
     nome: "Reescrita de Frases",
     icon: "🔄",
     desc: "Substituição, deslocamento, paralelismo e equivalência",
@@ -5312,7 +5321,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "figurasLinguagem",
+    id: "figurasLinguagem", materia: 'portugues',
     nome: "Figuras de Linguagem",
     icon: "🎭",
     desc: "Metáfora, metonímia, hipérbole, ironia e demais figuras",
@@ -5434,7 +5443,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "variacaoLinguistica",
+    id: "variacaoLinguistica", materia: 'portugues',
     nome: "Variação Linguística",
     icon: "🗣️",
     desc: "Variação regional, social, histórica e adequação comunicativa",
@@ -5550,7 +5559,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
 
   {
-    id: "producaoTextual",
+    id: "producaoTextual", materia: 'portugues',
     nome: "Produção Textual",
     icon: "✒️",
     desc: "Redação dissertativo-argumentativa: estrutura, argumentos e revisão",

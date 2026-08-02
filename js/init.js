@@ -5,10 +5,13 @@
   // tonicidade agora é tema independente — não remover do TEMAS
 
   // ── 2. Cria temas novos se necessário ────────────────────────────────────────
+  // materia: 'm.materia' vem do exportar_app.js pra temas gerados dinamicamente
+  // pra matérias não-português (ex: "matematica_geral"); ausência de materia
+  // preserva o comportamento anterior (sempre 'portugues').
   for (var id in QUESTOES_BANCO.novosTemas) {
     if (!TEMAS.find(function(t){ return t.id === id; })) {
       var m = QUESTOES_BANCO.novosTemas[id];
-      TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, teoria: '', questoes: [] });
+      TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, materia: m.materia || 'portugues', teoria: '', questoes: [] });
     }
   }
   // Temas do banco não declarados em novosTemas
@@ -18,16 +21,26 @@
   for (var xid in extrasImplicitos) {
     if (QUESTOES_BANCO.questoes[xid] && !TEMAS.find(function(t){ return t.id === xid; })) {
       var xm = extrasImplicitos[xid];
-      TEMAS.push({ id: xid, nome: xm.nome, icon: xm.icon, desc: xm.desc, teoria: '', questoes: [] });
+      TEMAS.push({ id: xid, nome: xm.nome, icon: xm.icon, desc: xm.desc, materia: 'portugues', teoria: '', questoes: [] });
     }
   }
 
   // ── 3. Substitui todas as questões pelas questões de concurso do banco ───────
+  // Se dois temaIds diferentes apontarem pro mesmo tema-alvo (colisão), mescla
+  // em vez de sobrescrever silenciosamente — e avisa no console. Sem colisão
+  // (caso de hoje), o resultado é idêntico a antes (atribuição direta).
   TEMAS.forEach(function(t) { t.questoes = []; });
   for (var temaId in QUESTOES_BANCO.questoes) {
     var targetId = temaId === 'silabasAcentuacao' ? 'acentuacaoGrafica' : temaId;
     var tema = TEMAS.find(function(t){ return t.id === targetId; });
-    if (tema) tema.questoes = QUESTOES_BANCO.questoes[temaId];
+    if (tema) {
+      if (tema.questoes && tema.questoes.length) {
+        console.warn('[multi-materia] Colisão de tema: "' + temaId + '" tentou sobrescrever questões já atribuídas a "' + targetId + '" (' + tema.questoes.length + ' já existentes). Mesclando em vez de sobrescrever.');
+        tema.questoes = tema.questoes.concat(QUESTOES_BANCO.questoes[temaId]);
+      } else {
+        tema.questoes = QUESTOES_BANCO.questoes[temaId];
+      }
+    }
   }
 
   // Migra questões do slot acentuacaoGrafica → tonicidade (renomeado para Acentuação Gráfica)
@@ -55,6 +68,7 @@
       nome: 'Fonética e Ortografia',
       icon: '📖',
       desc: 'Fonética, ortografia, acentuação e sílabas',
+      materia: 'portugues',
       teoria: '<h3>Fonética e Ortografia</h3><p>Esta seção reúne todos os temas de fonética e ortografia.</p>',
       questoes: qFon,
       subtemas: IDS_FON,
