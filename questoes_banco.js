@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 01/08/2026, 23:08:14 — 7206 questões incluídas
+// 03/08/2026, 17:17:45 — 7599 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -47,6 +47,90 @@ var QUESTOES_BANCO = {
       "nome": "Formação de Palavras",
       "icon": "🧩",
       "desc": "Derivação, composição, prefixos e sufixos"
+    },
+    "nocoes_de_direito_geral": {
+      "nome": "NOÇÕES DE DIREITO",
+      "icon": "📚",
+      "desc": "Questões gerais de NOÇÕES DE DIREITO",
+      "materia": "nocoes_de_direito"
+    },
+    "atualidades_geral": {
+      "nome": "ATUALIDADES",
+      "icon": "📚",
+      "desc": "Questões gerais de ATUALIDADES",
+      "materia": "atualidades"
+    },
+    "raciocinio_logico_geral": {
+      "nome": "Raciocínio Lógico",
+      "icon": "📚",
+      "desc": "Questões gerais de Raciocínio Lógico",
+      "materia": "raciocinio_logico"
+    },
+    "conhecimentos_especificos_geral": {
+      "nome": "CONHECIMENTOS ESPECÍFICOS",
+      "icon": "📚",
+      "desc": "Questões gerais de CONHECIMENTOS ESPECÍFICOS",
+      "materia": "conhecimentos_especificos"
+    },
+    "conhecimentos_gerais_geral": {
+      "nome": "CONHECIMENTOS GERAIS",
+      "icon": "📚",
+      "desc": "Questões gerais de CONHECIMENTOS GERAIS",
+      "materia": "conhecimentos_gerais"
+    },
+    "estatistica_geral": {
+      "nome": "Estatística",
+      "icon": "📚",
+      "desc": "Questões gerais de Estatística",
+      "materia": "estatistica"
+    },
+    "contabilidade_geral_e_publica_geral": {
+      "nome": "Contabilidade Geral e Pública",
+      "icon": "📚",
+      "desc": "Questões gerais de Contabilidade Geral e Pública",
+      "materia": "contabilidade_geral_e_publica"
+    },
+    "administracao_geral_e_publica_geral": {
+      "nome": "Administração Geral e Pública",
+      "icon": "📚",
+      "desc": "Questões gerais de Administração Geral e Pública",
+      "materia": "administracao_geral_e_publica"
+    },
+    "fluencia_de_dados_geral": {
+      "nome": "Fluência de Dados",
+      "icon": "📚",
+      "desc": "Questões gerais de Fluência de Dados",
+      "materia": "fluencia_de_dados"
+    },
+    "economia_e_financas_publicas_geral": {
+      "nome": "Economia e Finanças Públicas",
+      "icon": "📚",
+      "desc": "Questões gerais de Economia e Finanças Públicas",
+      "materia": "economia_e_financas_publicas"
+    },
+    "administracao_geral_geral": {
+      "nome": "Administração Geral",
+      "icon": "📚",
+      "desc": "Questões gerais de Administração Geral",
+      "materia": "administracao_geral"
+    },
+    "administracao_publica_geral": {
+      "nome": "Administração Pública",
+      "icon": "📚",
+      "desc": "Questões gerais de Administração Pública",
+      "materia": "administracao_publica"
+    },
+    "auditoria_geral": {
+      "nome": "Auditoria",
+      "icon": "📚",
+      "desc": "Questões gerais de Auditoria",
+      "materia": "auditoria"
+    },
+    "matematica_geral": {
+      "nome": "MATEMÁTICA",
+      "icon": "📚",
+      "desc": "Questões gerais de MATEMÁTICA",
+      "materia": "matematica"
     }
   },
   questoes: {
@@ -12080,6 +12164,1204 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O título Clima alentador, do editorial da Folha de S. Paulo,",
+                "opcoes": [
+                      "expõe a opinião de um jornalista de sucesso.",
+                      "aponta para o fracasso do compromisso de Copenha- gue.",
+                      "descreve o esforço dos países ricos na redução da pobreza.",
+                      "antecipa o ambiente favorável ao acordo climático.",
+                      "sintetiza as conclusões do Protocolo de Kyoto."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>antecipa o ambiente favorável ao acordo climático.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em defesa de seu ponto de vista, este editorial marca sua opinião de vários modos. Das afirmativas a seguir, a que não se constitui em opinião, mas sim em um fato que con- tribui para a comprovação da tese apresentada no texto é",
+                "opcoes": [
+                      "“Quando já se contava com um fiasco da conferência sobre mudança do clima, (...), surgem sinais animadores de que um acordo razoável possa ser obtido.” (A. 2-6)",
+                      "“Já se sabe que não será aprovado um tratado forte, com compromissos legais dos países para redução de gases do efeito estufa.” (A. 7-9)",
+                      "“O compromisso obtido em Copenhague será apenas ‘politicamente vinculante’ ”. (A. 13-14)",
+                      "“Os países menos desenvolvidos, (...), precisam desacelerar a trajetória crescente de suas emissões.” (A. 22-24)",
+                      "“Juntos respondem por 40% das emissões mundiais.” (A. 30-31)"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“Juntos respondem por 40% das emissões mundiais.” (A. 30-31)</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No fragmento “O novo acordo precisa ir muito além de Kyoto, se a meta for impedir que o aumento da tempera- tura média da atmosfera ultrapasse 2 °C de aqueci- mento neste século, como recomenda a maioria dos climatologistas.” (A. 15-19), o termo “se” tem o sentido equi- valente ao de",
+                "opcoes": [
+                      "logo que.",
+                      "à medida que.",
+                      "no caso de.",
+                      "apesar de.",
+                      "uma vez que."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>no caso de.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As palavras que se acentuam pelas mesmas regras de “conferência”, “razoável”, “países” e “será”, respectiva- mente, são",
+                "opcoes": [
+                      "trajetória, inútil, café e baú.",
+                      "exercício, balaústre, níveis e sofá.",
+                      "necessário, túnel, infindáveis e só.",
+                      "médio, nível, raízes e você.",
+                      "éter, hífen, propôs e saída."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>médio, nível, raízes e você.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Avalie as afirmações a propósito do emprego das formas verbais do Texto II. I – “Estaria” (A. 1) está no futuro do pretérito do indicativo e exprime probabilidade. II – “acreditaram” (A. 11) está no pretérito perfeito do indicativo e indica uma ação passada concluída. III – “sofre” (A. 13) está no presente do subjuntivo para enunciar um fato hipotético. IV – “dispõe” (A. 29) está no presente do indicativo para indicar um estado atual. Estão corretas as afirmações",
+                "opcoes": [
+                      "I, II e III, apenas.",
+                      "I, II, III e IV.",
+                      "I, II e IV, apenas.",
+                      "I, III e IV, apenas.",
+                      "II, III e IV, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, II e IV, apenas.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Leia as frases abaixo A Inglaterra aprovou uma lei pela qual o país terá de cortar em 80% ____ suas emissões de carbono. O fato de as cifras virem ____ tona antes da conferência é outro sinal alentador. Esse cipoal de números torna complexa _____ discussão em Copenhague, mas não a inviabiliza. O Presidente Barack Obama anunciou que vai _____ Copenhague e que se compromete com um corte de 17% até 2020. As palavras que, na sequência, preenchem as lacunas acima corretamente são",
+                "opcoes": [
+                      "as – à – a – a.",
+                      "às – à – a – a.",
+                      "às – a – à – à.",
+                      "as – a – a – à.",
+                      "as – a – a – a."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>as – à – a – a.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Denomina-se adequação sintática a construção coerente de períodos e orações, observadas as relações existentes entre seus termos e a sua organização. O parágrafo, den- tre os abaixo transcritos, que preserva o princípio do paralelismo sintático, segundo o qual quaisquer elemen- tos da frase coordenados entre si devem apresentar estru- tura gramatical similar, é",
+                "opcoes": [
+                      "Aqui não pretendemos defender a ideia de mais inter- venção do Estado na economia ou que ele volte a pro- duzir aço em grande quantidade.",
+                      "Aqui não pretendemos defender a ideia de que o Esta- do intervenha mais na economia ou a volta de uma produção de aço em grande quantidade.",
+                      "Aqui não pretendemos defender a ideia de um Estado intervindo mais na economia ou que ele volte à produ- ção de aço em grande quantidade.",
+                      "Aqui não pretendemos defender a ideia de que a inter- venção do Estado deva ser maior na economia ou uma produção de aço voltando a ter quantidade.",
+                      "Aqui não pretendemos defender a ideia de que o Esta- do intervenha mais na economia ou que volte a produ- zir aço em grande quantidade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Aqui não pretendemos defender a ideia de mais inter- venção do Estado na economia ou que ele volte a pro- duzir aço em grande quantidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O título Clima alentador, do editorial da Folha de S. Paulo,",
+                "opcoes": [
+                      "expõe a opinião de um jornalista de sucesso.",
+                      "aponta para o fracasso do compromisso de Copenha- gue.",
+                      "descreve o esforço dos países ricos na redução da pobreza.",
+                      "antecipa o ambiente favorável ao acordo climático.",
+                      "sintetiza as conclusões do Protocolo de Kyoto. 3"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>antecipa o ambiente favorável ao acordo climático.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“A Receita Federal, em conjunto com o Ministério Público do Estado de São Paulo e Polícia Rodoviária Federal, deflagrou na manhã desta segunda-feira (7), a Operação Ceres, que visa combater complexa fraude fiscal promovida por organização criminosa atuante no segmento de produção e distribuição de cervejas. Houve a identificação da ocorrência de diversos crimes que culminaram em sonegação de tributos federais, tais como falsidade documental, falsidade ideológica e uso de interpostas pessoas jurídicas no intuito de ocultar os reais beneficiários das fraudes combatidas.” (https://www.gov.br/receitafederal/pt- br/assuntos/noticias/2022/novembro/operacao-ceres-receita-federal-executa- operacao-de-combate-a-fraudes-fiscais-estruturadas) Esse texto pertence ao gênero informativo, caracterizado predominantemente pela objetividade, que é construída pela estruturação geral do texto, com o objetivo de fornecer claramente dados da realidade. Assinale a opção que apresenta uma informação adequadamente retirada do segmento destacado.",
+                "opcoes": [
+                      "“A Receita Federal, em conjunto com o Ministério Público do Estado de São Paulo e Polícia Rodoviária Federal, deflagrou na manhã desta segunda-feira (7), a Operação Ceres...” / a operação Ceres foi iniciada de forma inesperada, com um aparato de segurança bastante forte, em função da gravidade do crime detectado.",
+                      "“...a Operação Ceres, que visa combater complexa fraude fiscal promovida por organização criminosa atuante no segmento de produção e distribuição de cervejas.” / o nome mitológico Ceres designa uma deusa mitológica relacionada ao trigo e a cereais, tendo sido escolhido aleatoriamente, sem qualquer relação lógica com os fatos informados.",
+                      "“A Receita Federal, em conjunto com o Ministério Público do Estado de São Paulo e Polícia Rodoviária Federal...” / a operação realizada envolve investigação de atividades criminosas ligadas a espaços diversos.",
+                      "“...tais como falsidade documental, falsidade ideológica e uso de interpostas pessoas jurídicas no intuito de ocultar os reais beneficiários das fraudes combatidas.” / o segmento já mostra o resultado da operação deflagrada, com a descoberta de vários tipos de fraudes.",
+                      "“Houve a identificação da ocorrência de diversos crimes que culminaram em sonegação de tributos federais,” / Foram identificados vários e variados crimes, que encobriam o crime mais grave de sonegação de tributos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>“A Receita Federal, em conjunto com o Ministério Público do Estado de São Paulo e Polícia Rodoviária Federal...” / a operação realizada envolve investigação de atividades criminosas ligadas a espaços diversos.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os textos argumentativos podem apoiar-se em tipos diferentes de argumentos. Assinale a opção em que o argumento empregado pelo enunciador é apoiado na intimidação do receptor.",
+                "opcoes": [
+                      "Não deixe para amanhã o que pode fazer hoje.",
+                      "Ganhe muito e gaste menos.",
+                      "Trabalhe pouco e ganhe muito.",
+                      "Conserte seu carro em mecânicos competentes, é mais caro, mas é mais seguro.",
+                      "Alimente-se de forma saudável e você chegará atrasado à outra vida."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Alimente-se de forma saudável e você chegará atrasado à outra vida.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A língua escrita, desde que foi criada, tem uma série de distintas funções. Assim, por exemplo, a língua escrita é o veículo de muitas declarações de renda, que são armazenadas em arquivos especializados na Receita Federal. Nesse caso, a função predominante da escrita é",
+                "opcoes": [
+                      "a de transferência: transferir a realização do ato comunicativo para outro lugar ou momento",
+                      "a de preservação: armazenar informações para possíveis consultas futuras.",
+                      "a de memorização: preservar dados para consultas no momento de pagamento.",
+                      "a sócio-político-cultural: relacionar o pagamento de impostos com dados de uma sociedade civilizada.",
+                      "a histórica: conservar textos de valor documentativo da evolução dos impostos no país."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a de preservação: armazenar informações para possíveis consultas futuras.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe o relato de uma testemunha de um processo de auditoria fiscal, num diálogo com um fiscal: “Aí o empresário tentou misturar o documento falsificado com outros negócios que estavam numa gaveta, mas ele deu azar e o documento caiu e como eu tava lá, pude apanhar o papel no chão, que é esse que tá aí.” Tendo esse texto como referência, assinale a opção que marca uma característica da língua culta e não da língua popular.",
+                "opcoes": [
+                      "O emprego de vocábulos de conteúdo geral, como, por exemplo, o vocábulo “negócios”.",
+                      "O emprego de conectores em lugar de outros de significados mais específicos, como, por exemplo, “Aí”, na frase inicial.",
+                      "A presença de repetições de palavras em busca de precisão, como, por exemplo, a repetição de “documento”.",
+                      "A utilização de um hiperônimo para evitar-se a repetição de palavras idênticas, como, por exemplo, “papel”.",
+                      "A utilização de expressões da linguagem popular, como, por exemplo, “deu azar”."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>A utilização de um hiperônimo para evitar-se a repetição de palavras idênticas, como, por exemplo, “papel”.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Renda é o produto ou resultado do trabalho, do capital ou dos dois. De forma simples, um empregado que trabalha um mês recebe um salário que é o resultado da função que ele exerce. É como se ele “vendesse” sua atividade pelo salário. No caso do emprego do capital, o raciocínio é parecido: quando uma pessoa empresta dinheiro, ela não espera somente o pagamento do empréstimo, no mesmo valor. Ela possui a expectativa de receber os juros deste empréstimo, que são a remuneração do capital aplicado. Da mesma forma, o empresário, ao exercer sua atividade empresarial, não “troca” dinheiro. Ele investe seu capital na expectativa de auferir lucro – que é a remuneração da atividade empresarial, superior ao capital investido.” A respeito desse segmento, assinale a afirmativa correta.",
+                "opcoes": [
+                      "Trata-se de um texto jornalístico que procura informar aos leitores as últimas novidades na área do imposto de renda.",
+                      "Identifica-se como um verbete de dicionário, com a preocupação de definir uma série de termos pertinentes ao mesmo campo semântico.",
+                      "Faz parte de um texto normativo, pois mostra os princípios legais que regem atividades econômicas.",
+                      "Aproxima-se de um texto didático que tem a preocupação de simplificar conhecimentos técnicos da área econômica.",
+                      "Mostra-se como um texto argumentativo, defendendo a tese de tornar os conhecimentos econômicos mais populares."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Aproxima-se de um texto didático que tem a preocupação de simplificar conhecimentos técnicos da área econômica.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Leia o texto a seguir, adaptado de um site informativo: “Impostos são tributos obrigatórios que o cidadão brasileiro (ou de qualquer outro país) paga para contribuir com as despesas administrativas do Estado. Entre essas despesas estão: saúde, educação, segurança, infraestrutura, alimentação e etc. Como o próprio nome já diz, os pagamentos desses tributos são impostos pelo Governo. Quando o pagamento não é feito, ele pode gerar multas ou punições legais mais graves ao cidadão, como prisão ou congelamento de documentação. ” Todos os segmentos abaixo, retirados do texto acima, mostram problemas gramaticais ou de expressão. Assinale o único segmento integralmente adequado.",
+                "opcoes": [
+                      "Impostos são tributos obrigatórios que o cidadão brasileiro (ou de qualquer outro país) paga...",
+                      "...paga para contribuir com as despesas administrativas do Estado.",
+                      "Entre essas despesas estão: saúde, educação, segurança, infraestrutura, alimentação e etc.",
+                      "Como o próprio nome já diz, os pagamentos desses tributos são impostos pelo Governo.",
+                      "Quando o pagamento não é feito, ele pode gerar multas ou punições legais mais graves..."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Como o próprio nome já diz, os pagamentos desses tributos são impostos pelo Governo.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Leia com atenção o pequeno texto abaixo: “Pagamos mais impostos em remédios do que em revistas e filmes pornográficos - Sim, isso mesmo. Enquanto revistas eróticas sofrem uma taxação de 19%, nossos remédios possuem uma carga tributária de incríveis 34%. Além de dar prioridade ao conteúdo adulto, nosso sistema tributário ainda nos trata pior do que animais: segundo o Instituto Brasileiro de Planejamento e Tributação (IBPT), medicamentos veterinários possuem uma carga tributária de 13%, quase um terço dos impostos embutidos em remédios de uso humano.” (Sete fatos impressionantes sobre os impostos no Brasil – Emanuel Steffen) Nesse texto, a crítica realizada é a de que os impostos",
+                "opcoes": [
+                      "demonstram a insanidade do sistema tributário, que incentiva o consumo de revistas e filmes pornográficos.",
+                      "mostram desequilíbrio na tributação, pois provocam aumento de preços em setores menos importantes.",
+                      "Indicam a absoluta falta de critério na taxação de produtos mais importantes, em detrimento de outros de menor importância social.",
+                      "comprovam a ilogicidade da cobrança, já que tributam mais os produtos em que deveriam cobrar menos, em comparação com outros.",
+                      "privilegiam setores de menor interesse social, ao passo que cobram bastante de outros em que há interesse humano."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>comprovam a ilogicidade da cobrança, já que tributam mais os produtos em que deveriam cobrar menos, em comparação com outros.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe o que nos diz o escritor Lima Barreto sobre o nosso país: “Não há dúvida alguma que o Brasil é um país muito rico. Nós que nele vivemos não nos apercebemos bem disso, e até, ao contrário, o supomos muito pobre, pois a toda hora e a todo instante, estamos vendo o governo lamentar-se que não faz isto ou não faz aquilo por falta de verba. Nas ruas da cidade, nas mais centrais até, andam pequenos vadios, a cursar a perigosa universidade das sarjetas, aos quais o governo não dá destino, ou os mete num asilo, num colégio profissional qualquer, porque não tem verba, não tem dinheiro. É o Brasil rico… Surgem epidemias pasmosas, a matar e a enfermar milhares de pessoas, que vêm mostrar a falta de hospitais na cidade, a má localização dos existentes. Pede-se a construção de outros bem situados; e o governo responde que não pode fazer porque não tem verba, não tem dinheiro. E o Brasil é um país rico.” Considerando-se o trecho de Lima Barreto como um exemplo de texto argumentativo, assinale a afirmativa correta sobre sua estrutura.",
+                "opcoes": [
+                      "A tese apresentada é a de que o Brasil é um país rico, mas que, por má administração, se mostra como pobre.",
+                      "Na defesa da tese apresentada o autor apela para informações presentes na imprensa sobre a nossa realidade cotidiana.",
+                      "Os argumentos utilizados para o convencimento do público- alvo se apoiam em depoimentos sobre as evidências de pobreza no país.",
+                      "O texto apresenta sua argumentação com base na ironia, pois apesar de pobre, o Brasil se mostra como rico.",
+                      "O público-alvo a ser convencido é a imensa população brasileira, que vê o país como rico, mas não nota os frutos dessa riqueza na realidade cotidiana."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A tese apresentada é a de que o Brasil é um país rico, mas que, por má administração, se mostra como pobre.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Numa magnífica crônica intitulada Eu sei, mas não devia, a escritora Marina Colasanti diz o seguinte: A gente se acostuma a pagar por tudo o que deseja e o de que necessita. E a lutar para ganhar o dinheiro com que pagar. E a ganhar menos do que precisa. E a fazer fila para pagar. E a pagar mais do que as coisas valem. E a saber que cada vez vai pagar mais. E a procurar mais trabalho, para ganhar mais dinheiro, para ter com que pagar nas filas em que se cobra. Uma das características básicas da textualidade é a necessidade de coesão. Assinale a frase que não mostra relação temática com os segmentos anteriores.",
+                "opcoes": [
+                      "E a lutar para ganhar dinheiro com que pagar.",
+                      "E a ganhar menos do que precisa.",
+                      "E a fazer fila para pagar.",
+                      "E a pagar mais do que as coisas valem.",
+                      "E a procurar mais trabalho para ganhar mais dinheiro."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>E a fazer fila para pagar.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Todas as frases abaixo têm por tema a economia. Assinale a frase que está integralmente estruturada em linguagem lógica.",
+                "opcoes": [
+                      "Nesse mundo nada é inevitável, exceto a morte e os impostos.",
+                      "Não importa quem governa, o mercado governa.",
+                      "Acelerar a economia demais leva a uma derrapagem.",
+                      "Inflação é a arte de falsificar moeda por conta do Estado.",
+                      "O rico é o espetáculo predileto dos pobres."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Nesse mundo nada é inevitável, exceto a morte e os impostos.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A economia funciona na base dos incentivos ou dos desincentivos. Por isso, por sua impressionante capacidade de mobilização social, a economia se tornou um instrumento de governo. Se o governo precisa estimular algum comportamento, costuma cortar cobranças ou impostos. Se ele precisa frear algum comportamento, costuma aumentar os impostos naquele segmento ou inventar alguma taxa qualquer. Por exemplo no trânsito: Se o governo não quer que ultrapassemos certo limite de velocidade numa estrada, começa a aplicar multas para quem o ultrapassa. Como o dinheiro é a verdadeira linguagem universal, aquela que todos entendem em qualquer lugar do mundo, então de fato os motoristas começam a respeitar o limite de velocidade. Sob esse ponto de vista, o imposto de renda é uma grande punição. É um desestímulo ao empregado se esforçar para ganhar bem. Se você ganhar acima da alíquota máxima, ganha uma multa de quase 30% de seu salário. Parece ingenuidade minha, mas o absurdo me soa tão grave, que nem sei se não há nessa cobrança absurda de 27,5% sobre o salário de quem ganha acima de determinado valor, algum estímulo subentendido para que o sujeito largue o emprego e parta para o empreendedorismo. De um certo ponto de vista, o imposto de renda seria um estímulo ao empreendedorismo. Afinal, uma Pessoa Jurídica paga proporcionalmente muito menos imposto do que a Pessoa Física. O imposto de renda é das imposições governamentais mais truculentas e insanamente aceitas pela população que eu já ouvi falar. O imposto de renda é uma multa que se aplica a quem ganha bem. O imposto de renda e a economia do desincentivo (Ronaud.com) O texto acima se insere entre os textos argumentativos. Uma das marcas desses textos é a necessidade de coerência lógica. Assinale a opção em que a frase dada mostra incoerência.",
+                "opcoes": [
+                      "A economia funciona na base dos incentivos ou dos desincentivos. Por isso, por sua impressionante capacidade de mobilização social, a economia se tornou um instrumento de governo.",
+                      "Se o governo precisa estimular algum comportamento, costuma cortar cobranças ou impostos.",
+                      "Sob esse ponto de vista, o imposto de renda é uma grande punição. É um desestímulo ao empregado se esforçar para ganhar bem.",
+                      "Se o governo não quer que ultrapassemos certo limite de velocidade numa estrada, começa a aplicar multas para quem o ultrapassa.",
+                      "Se ele precisa frear algum comportamento, costuma aumentar os impostos naquele segmento ou inventar alguma taxa qualquer."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Sob esse ponto de vista, o imposto de renda é uma grande punição. É um desestímulo ao empregado se esforçar para ganhar bem.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe o seguinte fragmento: “Por exemplo no trânsito: Se o governo não quer que ultrapassemos certo limite de velocidade numa estrada, começa a aplicar multas para quem o ultrapassa. Como o dinheiro é a verdadeira linguagem universal, aquela que todos entendem em qualquer lugar do mundo, então de fato os motoristas começam a respeitar o limite de velocidade.” Acerca desse segmento textual, assinale a afirmativa correta.",
+                "opcoes": [
+                      "O exemplo dado corresponde literalmente a um argumento em defesa da tese apresentada no texto.",
+                      "Ao contrário do argumento, que mostra uma ideia geral, o exemplo expõe sempre um caso particular.",
+                      "Nesse caso, o exemplo dado mostra a impertinência do argumento do texto, servindo de contra-argumento.",
+                      "O exemplo citado tem uma função explicativa de como funcionam legalmente os incentivos citados no texto.",
+                      "O exemplo referido tem uma função metalinguística de explicar segmentos textuais anteriores de difícil entendimento."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Ao contrário do argumento, que mostra uma ideia geral, o exemplo expõe sempre um caso particular.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Num artigo interessante sobre os impostos no Brasil, intitulado Sete fatos impressionantes sobre os impostos no Brasil, o autor, Emanuel Steffen, cita como um desses fatos: “Não bastasse a complexidade existente, todos os dias são criadas mais 46 leis tributárias - Desde a promulgação da Constituição de 1988, o Brasil criou 320.343 leis tributárias. Sim: trezentos e vinte mil, trezentos e quarenta e três leis tributárias. Levando-se em conta o número de dias úteis no período, foram criadas 46 novas leis todos os dias, segundo um levantamento do IBPT. Se continuarmos nesse ritmo, nossa complexidade tributária só tende a piorar e complicar ainda mais os negócios do país, que já precisam seguir 40.865 artigos legais para poderem funcionar.” O fato citado é considerado “impressionante” pelo autor do texto em função",
+                "opcoes": [
+                      "da alta complexidade do sistema tributário, acrescido do grande número de novas leis, criadas diariamente.",
+                      "do grande número de novas leis diariamente publicadas, o que torna o trabalho dos administradores impossível de ser realizado.",
+                      "da complicação legal trazida pelas novas leis, que contrariam leis já previamente existentes, fazendo com que o funcionamento de negócios se complique demasiadamente.",
+                      "do enorme espaço de tempo dispendido no aprendizado das novas leis, que são rapidamente substituídas por outras.",
+                      "da impossibilidade da criação de novos negócios já que é inexequível a obediência a mais de 40.865 artigos legais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>da alta complexidade do sistema tributário, acrescido do grande número de novas leis, criadas diariamente.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Aquele candidato estava mexendo no celular; vou tomar a prova dele!” Essa é uma afirmação de um fiscal de prova, que é formulada, passando de uma premissa diretamente a uma conclusão, assumindo como verdadeira uma ideia intermediária. Assinale a opção que indica corretamente a ideia intermediária omitida.",
+                "opcoes": [
+                      "Há um grande engarrafamento na nossa frente; vamos desviar pela estrada de terra à direita – Vai demorar bastante para liberarem o trânsito.",
+                      "Segui a orientação do médico durante todo esse tempo; fiquei curado em menos de uma semana – Os remédios utilizados eram importados de ótimos laboratórios.",
+                      "Soou a sirene que marca o final do concurso; vamos recolher as provas – Temos ainda muito trabalho a fazer.",
+                      "O candidato estudou bastante nos últimos meses; os resultados dele foram ótimos – Os estudos do candidato foram orientados por outros candidatos experientes.",
+                      "A pesquisa mostrou que este emprego é dos mais procurados; vou inscrever-me para concorrer a uma vaga – A pesquisa foi encomendada pela direção da empresa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Há um grande engarrafamento na nossa frente; vamos desviar pela estrada de terra à direita – Vai demorar bastante para liberarem o trânsito.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um site especializado publicou o seguinte texto sobre uma das atribuições do auditor fiscal: “Segundo o Art. 6º da Lei nº 10.593/2002 é atribuição dos ocupantes do cargo de Auditor-Fiscal da Receita Federal do Brasil: elaborar e proferir decisões ou delas participar em processo administrativo-fiscal, bem como em processos de consulta, restituição ou compensação de tributos e contribuições e de reconhecimento de benefícios fiscais.” A elaboração de um texto supõe cuidados com aspectos diversos. Sobre a estruturação desse pequeno segmento textual, assinale a afirmativa correta.",
+                "opcoes": [
+                      "O vocábulo inicial “Segundo” supõe a existência de uma outra atribuição antes citada.",
+                      "O termo “bem como” mostra valor comparativo.",
+                      "O termo “delas” se refere possivelmente ao termo “atribuições”, ausente desse segmento textual.",
+                      "O termo “processo administrativo-fiscal” poderia estar na forma plural “processos administrativos-fiscais”.",
+                      "“consulta”, “restituição”, “compensação” e “reconhecimento” documentam o processo de nominalização. Língua Inglesa Text I Trust and audit Trust is what auditors sell. They review the accuracy, adequacy or propriety of other people’s work. Financial statement audits are prepared for the owners of a company and presented publically to provide assurance to the market and the wider public. Public service audits are presented to governing bodies and, in some cases, directly to parliament. It is the independent scepticism of the auditor that allows shareholders and the public to be confident that they are being given a true and fair account of the organisation in question. The auditor’s signature pledges his or her reputational capital so that the audited body’s public statements can be trusted. […] Given the fundamental importance of trust, should auditors not then feel immensely valuable in the context of declining trust? Not so. Among our interviewees, a consensus emerged that the audit profession is under-producing trust at a critical time. One aspect of the problem is the quietness of audit: it is a profession that literally goes about its work behind the scenes. The face and processes of the auditor are rarely seen in the organisations they scrutinise, and relatively rarely in the outside world. Yet, if we listen to the mounting evidence of the importance of social capital, we know that frequent and reliable contacts between groups are important to strengthening and expanding trust. So what can be done? Our research suggests that more frequent dialogue with audit committees and a more ambitious outward facing role for the sector’s leadership would be welcome. But we think more is needed. Audit for the 21st century should be understood and designed as primarily a confidence building process within the audited organisation and across its stakeholders. If the audit is a way of ensuring the client’s accountability, much more needs to be done to make the audit itself exemplary in its openness and inclusiveness. Instead of an audit report being a trust-producing product, the audit process could become a trust-producing practice in which the auditor uses his or her position as a trusted intermediary to broker rigorous learning across all dimensions of the organisation and its stakeholders. The views of investors, staff, suppliers and customers could routinely be considered, as could questions from the general public; online technologies offer numerous opportunities to inform, involve and invite. From being a service that consists almost exclusively of external investigation by a warranted professional, auditing needs to become more co-productive, with the auditor’s role expanding to include that of an expert convenor who is willing to share the tools of enquiry. Audit could move from ‘black box’ to ‘glass box’. But the profession will still struggle to secure trust unless it can stake a stronger claim to supporting improvement. Does it increase the economic, social or environmental value of the organisations it reviews? It is one thing to believe in the accuracy of a financial statement audit, but it is another thing to believe in its utility. Adapted from: https://auditfutures.net/pdf/AuditFutures-RSA- EnlighteningProfessions.pdf"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“consulta”, “restituição”, “compensação” e “reconhecimento” documentam o processo de nominalização. Língua Inglesa Text I Trust and audit Trust is what auditors sell. They review the accuracy, adequacy or propriety of other people’s work. Financial statement audits are prepared for the owners of a company and presented publically to provide assurance to the market and the wider public. Public service audits are presented to governing bodies and, in some cases, directly to parliament. It is the independent scepticism of the auditor that allows shareholders and the public to be confident that they are being given a true and fair account of the organisation in question. The auditor’s signature pledges his or her reputational capital so that the audited body’s public statements can be trusted. […] Given the fundamental importance of trust, should auditors not then feel immensely valuable in the context of declining trust? Not so. Among our interviewees, a consensus emerged that the audit profession is under-producing trust at a critical time. One aspect of the problem is the quietness of audit: it is a profession that literally goes about its work behind the scenes. The face and processes of the auditor are rarely seen in the organisations they scrutinise, and relatively rarely in the outside world. Yet, if we listen to the mounting evidence of the importance of social capital, we know that frequent and reliable contacts between groups are important to strengthening and expanding trust. So what can be done? Our research suggests that more frequent dialogue with audit committees and a more ambitious outward facing role for the sector’s leadership would be welcome. But we think more is needed. Audit for the 21st century should be understood and designed as primarily a confidence building process within the audited organisation and across its stakeholders. If the audit is a way of ensuring the client’s accountability, much more needs to be done to make the audit itself exemplary in its openness and inclusiveness. Instead of an audit report being a trust-producing product, the audit process could become a trust-producing practice in which the auditor uses his or her position as a trusted intermediary to broker rigorous learning across all dimensions of the organisation and its stakeholders. The views of investors, staff, suppliers and customers could routinely be considered, as could questions from the general public; online technologies offer numerous opportunities to inform, involve and invite. From being a service that consists almost exclusively of external investigation by a warranted professional, auditing needs to become more co-productive, with the auditor’s role expanding to include that of an expert convenor who is willing to share the tools of enquiry. Audit could move from ‘black box’ to ‘glass box’. But the profession will still struggle to secure trust unless it can stake a stronger claim to supporting improvement. Does it increase the economic, social or environmental value of the organisations it reviews? It is one thing to believe in the accuracy of a financial statement audit, but it is another thing to believe in its utility. Adapted from: https://auditfutures.net/pdf/AuditFutures-RSA- EnlighteningProfessions.pdf</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Based on Text I, mark the statements below as TRUE (T) or FALSE (F). I. In auditing, taking heed of what other parties have to say needs to be downplayed. II. Auditors are generally unobtrusive when carrying out their jobs. III. Trust is obtained when auditors eschew straightforward statements. The statements are, respectively,",
+                "opcoes": [
+                      "F – T – F.",
+                      "F – F – T.",
+                      "T – F – T.",
+                      "F – T – T.",
+                      "T – F – F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>F – T – F.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Text I suggests auditors should invest in more",
+                "opcoes": [
+                      "dynamic surveys.",
+                      "unfounded records.",
+                      "provisional auditing.",
+                      "constant interactions.",
+                      "user-friendly programs."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>constant interactions.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The opposite of quietness (3rd paragraph) is",
+                "opcoes": [
+                      "deafness.",
+                      "loudness.",
+                      "kindliness.",
+                      "dampness.",
+                      "shrewdness."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>loudness.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Unless” in “unless it can stake a stronger claim to supporting improvement” (7th paragraph) introduces a(n)",
+                "opcoes": [
+                      "plea.",
+                      "averral.",
+                      "account.",
+                      "foresight.",
+                      "condition. Text II Global commerce Driverless vehicles whizz across five new berths at Tuas Mega Port, which sits on a swathe of largely reclaimed land at the western tip of Singapore. Unmanned cranes loom overhead, circled by camera-fitted drones. The berths are the first of 21 due by 2027. When it is completed in 2040, the complex will be the largest container port on Earth, boasts PSA International, its Singaporean owner. Tuas is a vision of the future on two fronts. It illustrates how port operators the world over are deploying clever technologies to meet the demand for their services in the face of obstacles to the development of new facilities, from lack of space to environmental concerns. More fundamentally, the city-state’s investment, with construction costs estimated at $15bn, is part of a wave of huge bets by the broader logistics industry on the rising importance of Asia, and South-East Asia in particular. The IMF expects the region’s five largest economies—Indonesia, Malaysia, Singapore, the Philippines and Thailand—to be the fastest-growing bloc in the world by trade volumes between 2022 and 2027. The result is that the map of global commerce and the blueprints for its critical nodes are being simultaneously redrawn. From: The Economist, January 14, 2023, pp. 57-58"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>condition. Text II Global commerce Driverless vehicles whizz across five new berths at Tuas Mega Port, which sits on a swathe of largely reclaimed land at the western tip of Singapore. Unmanned cranes loom overhead, circled by camera-fitted drones. The berths are the first of 21 due by 2027. When it is completed in 2040, the complex will be the largest container port on Earth, boasts PSA International, its Singaporean owner. Tuas is a vision of the future on two fronts. It illustrates how port operators the world over are deploying clever technologies to meet the demand for their services in the face of obstacles to the development of new facilities, from lack of space to environmental concerns. More fundamentally, the city-state’s investment, with construction costs estimated at $15bn, is part of a wave of huge bets by the broader logistics industry on the rising importance of Asia, and South-East Asia in particular. The IMF expects the region’s five largest economies—Indonesia, Malaysia, Singapore, the Philippines and Thailand—to be the fastest-growing bloc in the world by trade volumes between 2022 and 2027. The result is that the map of global commerce and the blueprints for its critical nodes are being simultaneously redrawn. From: The Economist, January 14, 2023, pp. 57-58</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As regards Text II, analyse the assertions below: I. The soil on which the port is being built was once parched. II. The industry is quite diffident about the success of the investment. III. From an international viewpoint the project described will have sweeping implications. Choose the correct answer:",
+                "opcoes": [
+                      "Only I is correct.",
+                      "Only II is correct.",
+                      "Only III is correct.",
+                      "Only II and III are correct.",
+                      "All three assertions are correct."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Only III is correct.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The overall position of the article is rather",
+                "opcoes": [
+                      "flimsy.",
+                      "gloomy.",
+                      "scornful.",
+                      "awkward.",
+                      "supportive."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>supportive.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The machines described in the first paragraph",
+                "opcoes": [
+                      "look somewhat rickety.",
+                      "have recently come apart.",
+                      "obviate physical exertion.",
+                      "are too strenuous to be run.",
+                      "were devised by Asian laymen."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>obviate physical exertion.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The sentence “Driverless vehicles whizz across” (1st paragraph) introduces a sense of",
+                "opcoes": [
+                      "speed.",
+                      "height.",
+                      "weight.",
+                      "depth.",
+                      "size."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>speed.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The use of the verb “loom” in “Unmanned cranes loom overhead” (1st paragraph) helps build an atmosphere that is rather",
+                "opcoes": [
+                      "flattering.",
+                      "reassuring.",
+                      "heartening.",
+                      "frightening.",
+                      "enchanting."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>frightening.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The word “swathe” (1st paragraph) can also be used elsewhere in the relation to",
+                "opcoes": [
+                      "lather.",
+                      "cloth.",
+                      "foam.",
+                      "tide.",
+                      "fire. Raciocínio Lógico Matemático e"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>cloth.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A origem dos tributos Atualmente a atividade tributária tem assumido o papel de prover os recursos destinados ao governo para a realização dos fins almejados e revertidos para o bem-estar da coletividade, porém nem sempre foi assim. Na antiguidade a tributação se destinava basicamente a custear guerras e a prover o sustento de uma classe governante que excedia em seus gastos com luxo e obras suntuosas para o seu mero deleite. Em comunidades primitivas, quando a terra passou a ser um bem de muito valor e objeto constante de disputa entre diversas tribos, as tribos vencedoras exigiam vantagens tributárias tais como, contribuições em ouro, escravos e mercadorias a título de despojos de Guerra. Na Pérsia no governo de Ciro, no século VI a. C foi implantado um eficiente sistema de correio que permitia o acompanhamento da arrecadação e controle. Tem origem na Pérsia a mais antiga taxa de prestação de serviço público, referente à expedição de carta de correspondência. Nos antigos impérios a população pagava a “décima”, que correspondia a 10% sobre a produção devida ao Estado para as obras públicas. No Egito antigo o império instituiu uma administração altamente especializada e centralizada e dentre as carreiras públicas, a de escriba real que controlavam a arrecadação de tributos, estava no topo da carreira. O regime tributário no Egito incidia sobre os camponeses que tinham a obrigação de pagarem a título de imposto uma contribuição sobre o montante da produção. Na Grécia antiga os tributos serviam para custear as despesas de guerra e para isso o Estado cobrava impostos sobre estrangeiros, assim como a conquista de novas áreas servia para aumentar o controle da arrecadação tributária naquela região. No império Romano a arrecadação de impostos também teve grande importância, pois sua riqueza e expansão foram conquistadas sobre bases tributárias. A expansão do império Romano resultou na anexação de territórios fora da Itália, sendo que as cidades provinciais pagavam os tributos diretos e permanentes sobre as pessoas, e sobre a produção da terra, bem como sobre exploração das minas. O atual sistema de múltiplos impostos foi herdado dos romanos. (Alessandro Leôncio Frazão) Um texto obedece a uma determinada estruturação, que, segundo seu autor, é mais conveniente. Assinale a observação adequada sobre a estruturação desse texto.",
+                "opcoes": [
+                      "Tratando-se de um texto histórico, cada parágrafo mostra sucessão cronológica e uma contínua retomada de informações anteriormente fornecidas.",
+                      "O critério de paragrafação do texto é fundamentado na diferença cronológica e na noção de progresso aplicada aos impostos.",
+                      "O parágrafo final do texto mostra um ponto de chegada do sistema de impostos, caracterizado pela multiplicidade e pela ligação mais próxima ao sistema atual de cobrança.",
+                      "O primeiro parágrafo mostra a etapa mais antiga do sistema de impostos, em oposição a todos os citados na sequência do texto.",
+                      "O título selecionado para o texto abrange todos os tópicos abordados nos diversos parágrafos, encaminhados a justificar o sistema atual de cobrança de impostos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>O parágrafo final do texto mostra um ponto de chegada do sistema de impostos, caracterizado pela multiplicidade e pela ligação mais próxima ao sistema atual de cobrança.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Os tributos são tão antigos quanto a própria humanidade, sua origem não pode ser definida com exatidão, mas acompanha a própria evolução humana, desde épocas pré-históricas quando o homem passou a fixar-se em apenas um local para caça e guarda de alimentos, sendo, portanto, dono daquele pedaço de terra. No início os tributos eram ofertas voluntárias dos homens como forma de presentear ou homenagear seus Deuses e Líderes. Com o passar do tempo, pelo que se pode ver, as disputas por terras por meio de centenas de guerras foram responsáveis pela evolução da humanidade com o surgimento de grandes civilizações. A partir dessa época os tributos passaram a ser obrigatórios e exigidos pelos reis para financiar seus exércitos e com isso conquistar mais terras.” (Ederson Leandro Pereira Farias) O texto acima mostra a opinião e as informações do autor do texto sobre alguns temas ligados aos tributos. Sobre a estruturação envolvendo informações e opiniões, assinale a opção adequada.",
+                "opcoes": [
+                      "O enunciador reivindica a paternidade das informações prestadas, como frutos da sua própria opinião.",
+                      "O autor do texto apresenta sua própria opinião travestida de uma aparência de opinião geral.",
+                      "O autor do texto o apresenta como fruto de seu próprio trabalho de pesquisa, não identificando as fontes.",
+                      "O enunciador apresenta informações de origem alheia, acompanhadas de comentários sobre elas.",
+                      "O autor do texto apresenta informações diversas, colocando as divergências em destaque."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O autor do texto apresenta sua própria opinião travestida de uma aparência de opinião geral.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“A sonegação é muito antiga no Brasil e até já criou expressões na língua popular brasileira que muitos nem se dão conta de que surgiram por conta dos tributos, como o ‘Quinto dos Infernos’ que se referia à quinta parte ou os 20% que os demais países deveriam pagar para Portugal quando compravam produtos do Brasil na época da colônia. Ou ainda o ‘Santo do Pau Oco’ que eram as imagens de santos feitas em madeira ‘oca’ pois no interior delas os garimpeiros saíam com ouro dos garimpos sem pagar os tributos.” Sobre a construção desse parágrafo, assinale a observação inadequada.",
+                "opcoes": [
+                      "O corpo do parágrafo corresponde à explicitação do conteúdo da tese argumentativa do mesmo parágrafo.",
+                      "O conteúdo básico do parágrafo mostra expressões enumeradas, acompanhadas das explicações etimológicas de seus termos.",
+                      "As expressões citadas, por serem de ocorrência historicamente antiga, comprovam a afirmação inicial.",
+                      "As expressões citadas no parágrafo estão organizadas em confrontação, documentando a tese exposta.",
+                      "O ato de sonegar está presente nas duas expressões selecionadas para o texto."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>As expressões citadas no parágrafo estão organizadas em confrontação, documentando a tese exposta.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“O surgimento do imposto de renda ocorreu relativamente tarde no desenvolvimento dos povos. A instituição de um real imposto sobre a renda exige um modelo econômico que possa ser avaliado e monitorado, para possibilitar o controle, a fiscalização e a cobrança do tributo. O sistema econômico de trocas de produtos ou serviços por outros produtos ou serviços dificultava a medição da renda. Com a criação da moeda, houve uma unidade para determinar o acréscimo do patrimônio das pessoas, possibilitando determinar a renda e tributá-la. Em vez de a riqueza ser avaliada apenas pelos bens que o indivíduo possuía, pôde ser medida pelo produto desses bens, isto é, pela renda.” (A História do Imposto de Renda – Cristóvão Barcellos da Nóbrega) Observe os dois primeiros períodos desse texto: “O surgimento do imposto de renda ocorreu relativamente tarde no desenvolvimento dos povos. / A instituição de um real imposto sobre a renda exige um modelo econômico que possa ser avaliado e monitorado, para possibilitar o controle, a fiscalização e a cobrança do tributo.” A relação lógica entre esses períodos pode ser explicada adequadamente do seguinte modo:",
+                "opcoes": [
+                      "o primeiro período mostra uma consequência do segundo.",
+                      "o segundo período traz uma ampliação das informações contidas no primeiro.",
+                      "o segundo período situa cronológica e espacialmente os fatos informados no primeiro.",
+                      "o segundo período dá forma objetiva à informação dada de forma geral no primeiro período.",
+                      "o primeiro período mostra uma ideia concessiva em relação ao segundo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>o primeiro período mostra uma consequência do segundo.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O conteúdo programático desta prova inclui operações de re-escritura da frase. Assinale a opção em que a modificação ocorrida da primeira frase está corretamente indicada.",
+                "opcoes": [
+                      "A inteligência é uma construção do sujeito para enriquecer os objetos externos / A inteligência é uma construção do sujeito para o enriquecimento dos objetos externos = transformação de uma oração reduzida em oração desenvolvida.",
+                      "Errar é humano. Culpar o computador é ainda mais humano / Errar é humano, embora culpar o computador seja ainda mais humano = substituir um sinal de pontuação por um conector adequado.",
+                      "Não há exceções à regra de que todos gostam de ser a exceção da regra / Não há exceções à regra de que todos gostam de ser a exceção dela = substituição de um termo repetido por um hiperônimo.",
+                      "O arquiteto deseja sempre realizar o projeto e o pagamento do serviço / O arquiteto deseja sempre realizar o projeto e receber o pagamento = modificar um termo para restabelecer o paralelismo na frase.",
+                      "Não basta fugir, é preciso fugir na direção certa / Não basta fugir, é preciso fazê-lo na direção certa = substituição de um termo repetido por um sinônimo."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>O arquiteto deseja sempre realizar o projeto e o pagamento do serviço / O arquiteto deseja sempre realizar o projeto e receber o pagamento = modificar um termo para restabelecer o paralelismo na frase.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "“Por ocasião do octogésimo aniversário do imposto de renda no Brasil, a Receita Federal editou um livro sobre a trajetória desse imposto e criou, na sua página na internet, um sítio com a Memória da Receita Federal, contando não só a evolução do imposto de renda como relevantes temas da história tributária brasileira.” Assinale a opção que mostra informações corretas sobre o gênero e o tipo textuais desse fragmento textual.",
+                "opcoes": [
+                      "Texto descritivo, de tipo jornalístico, da responsabilidade de um observador, com predominância de identificar ou localizar uma realidade qualquer.",
+                      "Texto descritivo, de tipo informativo, da responsabilidade de um especialista, com predominância de qualificar uma realidade qualquer.",
+                      "Tipo dissertativo, de caráter expositivo-informativo, da responsabilidade de uma autoridade, com predominância de expor fatos.",
+                      "Tipo dissertativo, de caráter argumentativo, da responsabilidade de um argumentador, com predominância de defender uma tese.",
+                      "Tipo narrativo, de caráter realista, da responsabilidade de um narrador, com predominância de relato de fatos em sequência cronológica."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Tipo dissertativo, de caráter expositivo-informativo, da responsabilidade de uma autoridade, com predominância de expor fatos.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe a estruturação das três frases abaixo: - Pagaram o imposto no prazo. - Pagou-se o imposto no prazo. - Alguém pagou o imposto no prazo. Sobre essa estruturação, assinale a afirmação correta.",
+                "opcoes": [
+                      "As duas primeiras frases estão na voz passiva.",
+                      "Em todas as frases o sujeito não é identificado.",
+                      "As duas últimas frases mostram o agente da ação verbal.",
+                      "O sujeito é indeterminado na terceira frase.",
+                      "As duas últimas frases mostram sujeito claro."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>As duas últimas frases mostram sujeito claro.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Sabemos todos que a repetição de palavras idênticas num texto é um problema sempre corrigido pelos professores de redação. Assinale a frase abaixo em que a repetição de palavras idênticas não é identificada como um problema de escrita.",
+                "opcoes": [
+                      "O ruim de ser incluído entre os ricos é viver com os ricos.",
+                      "Como a maior parte dos ricos, o principal uso da riqueza consiste na exibição da riqueza.",
+                      "Um idiota pobre é um idiota. Um idiota rico é um rico.",
+                      "Ame teu vizinho, mas não derrube a cerca do teu vizinho.",
+                      "O que a Câmara faz, faz a Câmara. Língua Inglesa Text I Adding ethics to public finance Evolutionary moral psychologists point the way to garnering broader support for fiscal policies Policy decisions on taxation and public expenditures intrinsically reflect moral choices. How much of your hard-earned money is it fair for the state to collect through taxes? Should the rich pay more? Should the state provide basic public services such as education and health care for free to all citizens? And so on. Economists and public finance practitioners have traditionally focused on economic efficiency. When considering distributional issues, they have generally steered clear of moral considerations, perhaps fearing these could be seen as subjective. However, recent work by evolutionary moral psychologists suggests that policies can be better designed and muster broader support if policymakers consider the full range of moral perspectives on public finance. A few pioneering empirical applications of this approach in the field of economics have shown promise. For the most part, economists have customarily analyzed redistribution in a way that requires users to provide their own preferences with regard to inequality: Tell economists how much you care about inequality, and they can tell you how much redistribution is appropriate through the tax and benefit system. People (or families or households) have usually been considered as individuals, and the only relevant characteristics for these exercises have been their incomes, wealth, or spending potential. There are two — understandable but not fully satisfactory — reasons for this approach. First, economists often wish to be viewed as objective social scientists. Second, most public finance scholars have been educated in a tradition steeped in values of societies that are WEIRD (Western, Educated, Industrialized, Rich, and Democratic). In this context, individuals are at the center of the analysis, and morality is fundamentally about the golden rule — treat other people the way that you would want them to treat you, regardless of who those people are. These are crucial but ultimately insufficient perspectives on how humans make moral choices. Evolutionary moral psychologists during the past couple of decades have shown that, faced with a moral dilemma, humans decide quickly what seems right or wrong based on instinct and later justify their decision through more deliberate reasoning. Based on evidence presented by these researchers, our instincts in the moral domain evolved as a way of fostering cooperation within a group, to help ensure survival. This modern perspective harks back to two moral philosophers of the Scottish Enlightenment — David Hume and Adam Smith — who noted that sentiments are integral to people’s views on right and wrong. But most later philosophers in the Western tradition sought to base morality on reason alone. Moral psychologists have recently shown that many people draw on moral perspectives that go well beyond the golden rule. Community, authority, divinity, purity, loyalty, and sanctity are important considerations not only in many non-Western countries, but also among politically influential segments of the population in advanced economies, as emphasized by proponents of moral foundations theory. Regardless of whether one agrees with those broader moral perspectives, familiarity with them makes it easier to understand the underlying motivations for various groups’ positions in debates on public policies. Such understanding may help in the design of policies that can muster support from a wide range of groups with differing moral values. Adapted from: https://www.imf.org/en/Publications/fandd/issues/2022/03/Adding- ethics-to-public-finance-Mauro"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>O que a Câmara faz, faz a Câmara. Língua Inglesa Text I Adding ethics to public finance Evolutionary moral psychologists point the way to garnering broader support for fiscal policies Policy decisions on taxation and public expenditures intrinsically reflect moral choices. How much of your hard-earned money is it fair for the state to collect through taxes? Should the rich pay more? Should the state provide basic public services such as education and health care for free to all citizens? And so on. Economists and public finance practitioners have traditionally focused on economic efficiency. When considering distributional issues, they have generally steered clear of moral considerations, perhaps fearing these could be seen as subjective. However, recent work by evolutionary moral psychologists suggests that policies can be better designed and muster broader support if policymakers consider the full range of moral perspectives on public finance. A few pioneering empirical applications of this approach in the field of economics have shown promise. For the most part, economists have customarily analyzed redistribution in a way that requires users to provide their own preferences with regard to inequality: Tell economists how much you care about inequality, and they can tell you how much redistribution is appropriate through the tax and benefit system. People (or families or households) have usually been considered as individuals, and the only relevant characteristics for these exercises have been their incomes, wealth, or spending potential. There are two — understandable but not fully satisfactory — reasons for this approach. First, economists often wish to be viewed as objective social scientists. Second, most public finance scholars have been educated in a tradition steeped in values of societies that are WEIRD (Western, Educated, Industrialized, Rich, and Democratic). In this context, individuals are at the center of the analysis, and morality is fundamentally about the golden rule — treat other people the way that you would want them to treat you, regardless of who those people are. These are crucial but ultimately insufficient perspectives on how humans make moral choices. Evolutionary moral psychologists during the past couple of decades have shown that, faced with a moral dilemma, humans decide quickly what seems right or wrong based on instinct and later justify their decision through more deliberate reasoning. Based on evidence presented by these researchers, our instincts in the moral domain evolved as a way of fostering cooperation within a group, to help ensure survival. This modern perspective harks back to two moral philosophers of the Scottish Enlightenment — David Hume and Adam Smith — who noted that sentiments are integral to people’s views on right and wrong. But most later philosophers in the Western tradition sought to base morality on reason alone. Moral psychologists have recently shown that many people draw on moral perspectives that go well beyond the golden rule. Community, authority, divinity, purity, loyalty, and sanctity are important considerations not only in many non-Western countries, but also among politically influential segments of the population in advanced economies, as emphasized by proponents of moral foundations theory. Regardless of whether one agrees with those broader moral perspectives, familiarity with them makes it easier to understand the underlying motivations for various groups’ positions in debates on public policies. Such understanding may help in the design of policies that can muster support from a wide range of groups with differing moral values. Adapted from: https://www.imf.org/en/Publications/fandd/issues/2022/03/Adding- ethics-to-public-finance-Mauro</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Based on the text, mark the statements below as TRUE (T) or FALSE (F). I. The planning of fiscal strategies is impervious to moral considerations. II. Traditional public finance education based on the golden rule is wanting as regards moral choices. III. Since the 18th century, philosophers have been on the same page as regards moral dilemmas. The statements are, respectively,",
+                "opcoes": [
+                      "T – F – T.",
+                      "F – F – T.",
+                      "F – T – F.",
+                      "F – T – T.",
+                      "T – F – F."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>F – T – F.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "In the subtitle, “garnering” comes from the notion of",
+                "opcoes": [
+                      "storing grains.",
+                      "renting garrets.",
+                      "making garlands.",
+                      "lapidating garnets.",
+                      "charging garrisons."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>storing grains.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The adjective in “is it fair for the state to collect through taxes” (1st paragraph) is equivalent in meaning to",
+                "opcoes": [
+                      "bewildering.",
+                      "befuddling.",
+                      "bemusing.",
+                      "beguiling.",
+                      "befitting."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>befitting.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The underlined expression in “regardless of who those people are” (4th paragraph) can be replaced without change in meaning by",
+                "opcoes": [
+                      "alike.",
+                      "despite.",
+                      "whereas.",
+                      "however.",
+                      "concerning."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>despite.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "When it is stated that “tradition [is] steeped in values of societies” (4th paragraph) it is implied that these values have been",
+                "opcoes": [
+                      "imbued.",
+                      "shunned.",
+                      "debased.",
+                      "withheld.",
+                      "overestimated. Text II How trade can become a gateway to climate resilience Most people don't think about climate change when they lift a café latte to their lips or nibble on a square of chocolate — but this could soon change. Based on current trajectories, around a quarter of Brazil’s coffee farms and 37% of Indonesia’s are likely to be lost to climate change. Swathes of Ghana and Côte d’Ivoire — where most of the world’s chocolate is sourced — will become too hot to grow cocoa by 2050. Climate-related droughts and deadly heatwaves across the world have coincided with severe storms, cyclones, hurricanes, and, of course, a pandemic. As a consequence of these shocks, millions of people have been left without homes, and a growing number of people now face starvation and a total collapse of livelihoods as growing and exporting staple crops becomes untenable. We must immediately rethink the shape of our economies, agricultural systems and consumption patterns. Our priority is to manufacture climate resilience in global economies and societies — and we must do it quickly. Trade can kickstart the emergence of climate-resilient economies, especially in the poorest countries. Trade has a multiplier effect on economies by driving production growth and fostering the expansion of export industries. By shifting focus to production and exports that increase climate resilience, there is potential to exponentially increase the land surface and trade processes prepared to withstand the climate crisis. Adapted from: https://www.weforum.org/agenda/2022/07/trade-can-be-a- gateway-to-climate-resilience"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>imbued.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The aim of the text is to offer both",
+                "opcoes": [
+                      "an alert and a scolding.",
+                      "a query and a dismissal.",
+                      "a pledge and a grievance.",
+                      "a warning and a way out.",
+                      "a disclaimer and a solution."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>a warning and a way out.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The position of the writer is that the situation described",
+                "opcoes": [
+                      "could be shrugged off.",
+                      "will not offer any harm.",
+                      "ought to shift promptly.",
+                      "should be taken lightly.",
+                      "needs to be overlooked."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ought to shift promptly.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "The adjective in “the poorest countries” (5th paragraph) is in the same form as",
+                "opcoes": [
+                      "All nations should be more attentive to the homeless.",
+                      "Ghana will be having a fine chocolate harvest in 2050.",
+                      "Brazil is one amongst many coffee-producing countries.",
+                      "It is hard to point out the most comfortable places on Earth.",
+                      "Hopefully by 2050 there will be fewer climate-related issues."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>It is hard to point out the most comfortable places on Earth.</strong>. Fonte: FGV/2023. Assunto: fonologia.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O objetivo principal do texto é discutir a",
+                "opcoes": [
+                      "contraposição entre a agricultura orgânica e a conven- cional, baseada no uso de agrotóxicos.",
+                      "implementação de monoculturas para a renovação do bem-sucedido modelo agrário brasileiro.",
+                      "importância de o nosso país se manter na liderança na concorrência mundial do agronegócio.",
+                      "intoxicação dos trabalhadores e a contaminação am- biental provocados pela agricultura familiar.",
+                      "perspectiva de o agronegócio conseguir produzir ali- mentos para uma população de sete bilhões de pes- soas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>contraposição entre a agricultura orgânica e a conven- cional, baseada no uso de agrotóxicos.</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O trecho que apresenta a proposta do autor para a solu- ção do problema discutido é:",
+                "opcoes": [
+                      "“O Brasil vive um drama: ao acordar do sonho de uma economia agrária pujante, o país desperta para o pe- sadelo de ser, pelo quinto ano consecutivo, o maior consumidor de agrotóxicos do planeta” (parágrafo 1)",
+                      "“A Bolsa de Chicago define o preço da soja; mas não considera que, para se produzir cada saca, são apli- cadas generosas doses de agrotóxicos que permane- cem no ambiente natural – e no ser humano – por anos ou mesmo décadas” (parágrafo 2)",
+                      "“Levando-se em conta os casos crônicos, acrescidos da contaminação ambiental difusa nos ecossistemas, os prejuízos podem atingir cifras assustadoramente maiores.” (parágrafo 3)",
+                      "“Todos os milhares de profissionais envolvidos no co- mércio e na manipulação dessas substâncias são po- tenciais vítimas.” (parágrafo 5)",
+                      "“Precisamos de outra estrutura agrária – baseada em propriedades menores, com produção diversificada, privilegiando mercados locais e contemplando a con- servação da biodiversidade.” (parágrafo 7)"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>“Precisamos de outra estrutura agrária – baseada em propriedades menores, com produção diversificada, privilegiando mercados locais e contemplando a con- servação da biodiversidade.” (parágrafo 7)</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No trecho “Em seu melhor economês, ele garante que as ‘externalidades negativas’ de nosso modelo agrário continuam de fora dos cálculos” (parágrafo 2), a expres- são destacada refere-se a",
+                "opcoes": [
+                      "prejuízos sociais e ambientais causados pelo uso dos agrotóxicos",
+                      "opiniões dos produtores sobre os benefícios dos agro- tóxicos",
+                      "lucros obtidos com o grande crescimento do agrone- gócio",
+                      "influências negativas de outros países na economia agrária",
+                      "efeitos do aumento das commodities na economia brasileira"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>prejuízos sociais e ambientais causados pelo uso dos agrotóxicos</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere os dois períodos do seguinte trecho do pará- grafo 6: “Esses venenos seriam, portanto, um mal ne- cessário, de acordo com esses produtores. Agricultores garantem que não há nenhuma dificuldade em produzir alimentos orgânicos, sem agrotóxicos, para alimentar a população”. Para transformá-los em um só período, mantendo-se o sentido do trecho original, deve-se empregar a palavra",
+                "opcoes": [
+                      "para",
+                      "porque",
+                      "quando",
+                      "portanto",
+                      "entretanto 3"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>entretanto 3</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No trecho “ao acordar do sonho de uma economia agrá- ria pujante, o país desperta para o pesadelo de ser, pelo quinto ano consecutivo, o maior consumidor de agrotóxi- cos do planeta” (parágrafo 1), a palavra destacada pode ser substituída, sem prejuízo do sentido, por",
+                "opcoes": [
+                      "apreciada",
+                      "incipiente",
+                      "inoperante",
+                      "possante",
+                      "moderna"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>possante</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No trecho “Esses venenos seriam, portanto, um mal ne- cessário, de acordo com esses produtores.” (parágrafo 6), a palavra destacada veicula a relação lógica de",
+                "opcoes": [
+                      "adição",
+                      "conclusão",
+                      "concessão",
+                      "explicação",
+                      "temporalidade"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>conclusão</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No texto, o referente da palavra ou expressão em des- taque está corretamente explicitado, entre colchetes, no trecho do",
+                "opcoes": [
+                      "parágrafo 1 – “Será que o preço de tais commodities – que há tempos são o motor de uma economia primá- ria” [agrotóxicos]",
+                      "parágrafo 3 – “Mas este é um valor subestimado.” [cada dólar gasto na compra de agrotóxicos]",
+                      "parágrafo 5 – “Todos os milhares de profissionais en- volvidos no comércio e na manipulação dessas subs- tâncias são potenciais vítimas.” [agrotóxicos]",
+                      "parágrafo 5 – “E, além deles, ‘todos nós, diariamente, a cada refeição, ingerimos princípios ativos de agrotó- xicos em nossos alimentos’” [especialistas]",
+                      "parágrafo 6 – “Segundo eles, ‘a humanidade domina a agricultura há pelo menos 10 mil anos’” [produtores e especialistas]"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>parágrafo 5 – “Todos os milhares de profissionais en- volvidos no comércio e na manipulação dessas subs- tâncias são potenciais vítimas.” [agrotóxicos]</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O acento grave indicativo de crase está empregado de acordo com a norma-padrão da língua portuguesa, na pa- lavra destacada em:",
+                "opcoes": [
+                      "A água consumida pela população apresenta resíduos de agrotóxicos, o que prejudica a vida de todos que à ingerem, por estar contaminada.",
+                      "A produção de alimentos orgânicos, sem agrotóxicos, representa um avanço considerável na economia bra- sileira, pois beneficia à agricultura familiar.",
+                      "Os especialistas chegaram à conclusão de que os governos precisam tomar medidas para prevenir os estragos causados pelos agrotóxicos.",
+                      "A valorização do meio ambiente permite aos seus de- fensores alcançarem os objetivos propostos e se apli- ca à diversas situações que envolvem o bem-estar da população.",
+                      "Os agricultores responsáveis pelas colheitas de soja foram forçados à adotar práticas para prevenir a ame- aça de redução de suas safras."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Os especialistas chegaram à conclusão de que os governos precisam tomar medidas para prevenir os estragos causados pelos agrotóxicos.</strong>. Fonte: CESGRANRIO/2023. Assunto: fonologia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas",
+                      "crase"
                 ],
                 "imagens": null
           }
@@ -108363,6 +109645,48 @@ var QUESTOES_BANCO = {
                       "classesGramaticais"
                 ],
                 "imagens": null
+          },
+          {
+                "enunciado": "Na frase “A ideia é de que a redução não prejudique seu esforço de desenvolvimento e redução da pobreza.” (A. 26- 28), o uso do pronome possessivo “seu” estabelece um vínculo coesivo no texto, porque evita a repetição da ex- pressão",
+                "opcoes": [
+                      "“um corte de 15% a 30%,” (A. 24-25).",
+                      "“Os países menos desenvolvidos,” (A. 22).",
+                      "“países desenvolvidos” (A. 19).",
+                      "“O novo acordo” (A. 15).",
+                      "“redução de gases do efeito estufa” (A. 9)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>“Os países menos desenvolvidos,” (A. 22).</strong>. Fonte: CESGRANRIO/2010. Assunto: classesGramaticais.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Foi prevenido aos candidatos deste concurso que as informações gramaticais do conteúdo programático seriam consideradas sob o ponto de vista textual. Nesse caso, assinale a opção em que a preposição “a” tem seu papel textual corretamente identificado.",
+                "opcoes": [
+                      "Introduzir um objeto direto preposicionado: Amar a Deus sobre todas as coisas.",
+                      "Introduzir um objeto indireto: Chegar à eternidade na flor da idade.",
+                      "Preceder um complemento nominal: Decidiu entregar à sorte a sua decisão.",
+                      "Introduzir um adjunto adverbial: Deu bom-dia a todos os presentes.",
+                      "Evitar a ambiguidade na frase: O turista cumprimentou a todos os presentes."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Introduzir um objeto direto preposicionado: Amar a Deus sobre todas as coisas.</strong>. Fonte: FGV/2023. Assunto: classesGramaticais.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ],
+                "imagens": null
           }
     ],
     "analiseSintatica": [
@@ -134378,6 +135702,48 @@ var QUESTOES_BANCO = {
                       "formacaoPalavras"
                 ],
                 "imagens": null
+          },
+          {
+                "enunciado": "Da leitura do verbete “quadrilha”, tal como está registrado no minidicionário da Língua Portuguesa de Aurélio Buarque de Holanda (Curitiba: Editora Positivo, 2008), depreendem- se, para o termo “quadrilha”, os dois significados a seguir reproduzidos. Qua.dri.lha Substantivo feminino. 1.Bando de ladrões ou malfeitores. 2.Contradança de salão que forma figuras. Considere, agora, os textos pictórico e verbal, abaixo sele- cionados. Disponível em: www.ena.ena@terra.com.br. Acessado em dez. 2009 Na composição imagem/texto verbal, a pintura de Volpi atuou como",
+                "opcoes": [
+                      "artifício pictórico decorativo para, simplesmente, em- prestar peso cultural à questão.",
+                      "procedimento que fundiu os sentidos dicionarizados do termo, ampliando-lhe o sentido e o significado.",
+                      "estratégia estética reveladora, antes do mais, da inserção temporal da criação artística ora expressa em dupla linguagem.",
+                      "elemento que concorreu para a fixação do segundo sig- nificado dicionarizado do termo que dá título ao poema.",
+                      "recurso expressivo que, ao entremear os dois signifi- cados dicionarizados, criou novo termo a ser dicionarizado. 4"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>elemento que concorreu para a fixação do segundo sig- nificado dicionarizado do termo que dá título ao poema.</strong>. Fonte: CESGRANRIO/2010. Assunto: formacaoPalavras.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "Formação de Palavras",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "formacaoPalavras"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Da leitura do verbete “quadrilha”, tal como está registrado no minidicionário da Língua Portuguesa de Aurélio Buarque de Holanda (Curitiba: Editora Positivo, 2008), depreendem- se, para o termo “quadrilha”, os dois significados a seguir reproduzidos. Qua.dri.lha Substantivo feminino. 1.Bando de ladrões ou malfeitores. 2.Contradança de salão que forma figuras. Considere, agora, os textos pictórico e verbal, abaixo sele- cionados. Disponível em: www.ena.ena@terra.com.br. Acessado em dez. 2009 Na composição imagem/texto verbal, a pintura de Volpi atuou como",
+                "opcoes": [
+                      "artifício pictórico decorativo para, simplesmente, em- prestar peso cultural à questão.",
+                      "procedimento que fundiu os sentidos dicionarizados do termo, ampliando-lhe o sentido e o significado.",
+                      "estratégia estética reveladora, antes do mais, da inserção temporal da criação artística ora expressa em dupla linguagem.",
+                      "elemento que concorreu para a fixação do segundo sig- nificado dicionarizado do termo que dá título ao poema.",
+                      "recurso expressivo que, ao entremear os dois signifi- cados dicionarizados, criou novo termo a ser dicionarizado. 5"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>elemento que concorreu para a fixação do segundo sig- nificado dicionarizado do termo que dá título ao poema.</strong>. Fonte: CESGRANRIO/2010. Assunto: formacaoPalavras.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "Formação de Palavras",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "formacaoPalavras"
+                ],
+                "imagens": null
           }
     ],
     "pontuacao": [
@@ -140811,6 +142177,48 @@ var QUESTOES_BANCO = {
                       "pontuacao"
                 ],
                 "imagens": null
+          },
+          {
+                "enunciado": "Num artigo sobre tributos, aparece o seguinte segmento: “No Brasil, a história dos tributos divide-se em três momentos sendo: colonial, imperial e republicano, respectivamente nessa ordem. Os tributos existem desde o descobrimento de nossa terra, quando boa parte da exploração nativa era enviada para Portugal, época conhecida como Brasil-Colônia. O ‘Quinto do pau-brasil’ é considerado o primeiro tributo brasileiro e decorreu da exploração da árvore nativa pau-brasil (SANTOS 2015). A partir de então, os tributos foram sendo implementados e moldados até chegarmos aos dias atuais.” Sobre a organização linguística desse segmento, assinale a observação adequada.",
+                "opcoes": [
+                      "Na primeira frase do texto, a forma de gerúndio é perfeitamente dispensável, podendo ser substituída por uma vírgula.",
+                      "O segmento “respectivamente nessa ordem” é redundante, pois o advérbio “respectivamente” já indica a mesma ordem de termos anteriores.",
+                      "O segmento “desde o descobrimento de nossa terra\" faz supor que o leitor presumido do texto é o brasileiro nato e os estrangeiros naturalizados.",
+                      "O segmento “boa parte da exploração nativa” qualifica e quantifica a parte da exploração nativa.",
+                      "O segmento “época conhecida como Brasil-Colônia” se refere a um antecedente claramente definido nos segmentos anteriores."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O segmento “respectivamente nessa ordem” é redundante, pois o advérbio “respectivamente” já indica a mesma ordem de termos anteriores.</strong>. Fonte: FGV/2023. Assunto: pontuacao.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "pontuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "pontuacao"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O emprego da vírgula está plenamente de acordo com as exigências da norma-padrão da língua portuguesa em:",
+                "opcoes": [
+                      "A enorme quantidade de agrotóxicos empregados, para exterminar pragas nas plantações contamina as águas e os solos de toda a região.",
+                      "A função dos agrotóxicos de acordo com os produ- tores, é reduzir a quantidade de pragas e facilitar a vida do agricultor para que ele tenha seus lucros ga- rantidos.",
+                      "A presença de pragas nos alimentos, pode sofrer uma grande redução se for possível dar preferência a ali- mentos cozidos ao invés de in natura.",
+                      "Estudos realizados em várias partes do mundo têm provado que os alimentos orgânicos, sem uso de ferti- lizantes químicos, respeitam a saúde dos trabalhado- res e dos consumidores.",
+                      "O depoimento de especialistas que estudam meios de melhorar a produção agrícola, revela que o extermínio de pragas na lavoura tem sido realizado de forma ina- dequada. 4"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Estudos realizados em várias partes do mundo têm provado que os alimentos orgânicos, sem uso de ferti- lizantes químicos, respeitam a saúde dos trabalhado- res e dos consumidores.</strong>. Fonte: CESGRANRIO/2023. Assunto: pontuacao.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "pontuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "pontuacao"
+                ],
+                "imagens": null
           }
     ],
     "temposVerbais": [
@@ -143534,6 +144942,69 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>O nível de espécies catalogadas pelo termo genérico 'fungos zumbi' já foram descritas pela Ciência.</strong>. Fonte: IDCAP/2026. Assunto: concordancia.",
                 "banca": "IDCAP",
                 "ano": 2026,
+                "assunto": "Concordância",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "concordancia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A imprensa internacional foi convidada para assistir os de- bates em Copenhague. De acordo com a norma escrita padrão da língua, na frase acima há um DESVIO de",
+                "opcoes": [
+                      "regência nominal.",
+                      "regência verbal.",
+                      "concordância nominal.",
+                      "concordância verbal.",
+                      "pontuação. Texto II Fim do Mundo Estaria o mundo de hoje, e o Brasil junto com ele, se comprometendo com o que pode vir a ser a mais cara, obsessiva e mal informada ilusão científica da história? A humanidade já esteve convencida de que a 5 Terra era plana, e que era possível prever matematica- mente a extinção da vida humana por falta física de comida, já que a população cresceria sempre de forma geométrica e a produção de alimentos jamais poderia aumentar no mesmo ritmo; mais recentemente, gran- 10 des empresas, governos e ases da ciência digital acreditaram que o “bug do milênio” iria paralisar o mundo na passagem de 1999 para 2000. Não se pode dizer que a crescente convicção de que o planeta sofre hoje uma “ameaça sem precedentes” em toda a sua 15 existência, como resultado direto da “mudança do clima”, e particularmente do “aquecimento global”, seja exatamente a mesma coisa. A conferência de Copenhague tende a refletir, basicamente, um conjunto de neuroses, fantasias e 20 necessidades políticas que se ligam muito mais aos países ricos do que à realidade brasileira; a agenda central é deles, com seus números, seus cientistas e até sua linguagem. O Brasil, em vez de reagir ao debate dos outros, faria melhor pensando primeiro em seus 25 interesses. Para isso, precisaria saber o que quer. Parece bem claro que o País, antes de ter um proble- ma ecológico, tem um problema sanitário; nossa verdadeira tragédia ambiental é o fato de que 50% da população não dispõe de rede de esgotos, ou de que 30 dois terços dos esgotos são lançados nos rios sem tratamento nenhum. Na Amazônia, onde há o maior volume de água doce do mundo, a maioria da popula- ção não tem água decente para beber. Nas áreas pobres das cidades, o lixo não é coletado - acaba em 35 rios, represas ou na rua. A questão ecológica real, no Brasil, chama-se pobreza. GUZZO, J. R. Revista Veja. São Paulo: Abril, edição 2138, ano 42, no 45, 11 nov. 2009, p. 218. (Fragmento) 3"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>regência verbal.</strong>. Fonte: CESGRANRIO/2010. Assunto: concordancia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "Concordância",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "concordancia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A imprensa internacional foi convidada para assistir os de- bates em Copenhague. De acordo com a norma escrita padrão da língua, na frase acima há um DESVIO de",
+                "opcoes": [
+                      "regência nominal.",
+                      "regência verbal.",
+                      "concordância nominal.",
+                      "concordância verbal.",
+                      "pontuação. Texto II Fim do Mundo Estaria o mundo de hoje, e o Brasil junto com ele, se comprometendo com o que pode vir a ser a mais cara, obsessiva e mal informada ilusão científica da história? A humanidade já esteve convencida de que a 5 Terra era plana, e que era possível prever matematica- mente a extinção da vida humana por falta física de comida, já que a população cresceria sempre de forma geométrica e a produção de alimentos jamais poderia aumentar no mesmo ritmo; mais recentemente, gran- 10 des empresas, governos e ases da ciência digital acreditaram que o “bug do milênio” iria paralisar o mundo na passagem de 1999 para 2000. Não se pode dizer que a crescente convicção de que o planeta sofre hoje uma “ameaça sem precedentes” em toda a sua 15 existência, como resultado direto da “mudança do clima”, e particularmente do “aquecimento global”, seja exatamente a mesma coisa. A conferência de Copenhague tende a refletir, basicamente, um conjunto de neuroses, fantasias e 20 necessidades políticas que se ligam muito mais aos países ricos do que à realidade brasileira; a agenda central é deles, com seus números, seus cientistas e até sua linguagem. O Brasil, em vez de reagir ao debate dos outros, faria melhor pensando primeiro em seus 25 interesses. Para isso, precisaria saber o que quer. Parece bem claro que o País, antes de ter um proble- ma ecológico, tem um problema sanitário; nossa verdadeira tragédia ambiental é o fato de que 50% da população não dispõe de rede de esgotos, ou de que 30 dois terços dos esgotos são lançados nos rios sem tratamento nenhum. Na Amazônia, onde há o maior volume de água doce do mundo, a maioria da popula- ção não tem água decente para beber. Nas áreas pobres das cidades, o lixo não é coletado - acaba em 35 rios, represas ou na rua. A questão ecológica real, no Brasil, chama-se pobreza. GUZZO, J. R. Revista Veja. São Paulo: Abril, edição 2138, ano 42, no 45, 11 nov. 2009, p. 218. (Fragmento) 4"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>regência verbal.</strong>. Fonte: CESGRANRIO/2010. Assunto: concordancia.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "Concordância",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "concordancia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com as regras de concordância nominal da norma-padrão da língua portuguesa, a palavra destacada está empregada corretamente em:",
+                "opcoes": [
+                      "A mudança das leis sobre o uso de agrotóxicos e a repressão dos órgãos de vigilância sanitária devem ser implementadas com urgência para evitar mais mortes.",
+                      "As leis instituídas para proteger os cidadãos e os ensi- namentos dos estudiosos sobre o uso de agrotóxicos devem ser divulgadas para que tenham alcance geral.",
+                      "O desenvolvimento de novas estratégias de plantio e a substituição da agricultura convencional pela or- gânica são consideradas uma exigência dos tempos atuais para muitos produtores rurais.",
+                      "Os estudos realizados por especialistas de saúde em laboratórios e a busca por exterminar doenças conta- giosas são indicativas do progresso da medicina nos últimos tempos.",
+                      "Os procedimentos orientados pelos especialistas e a concessão de verbas públicas pelos órgãos governa- mentais têm sido entendidas como imprescindíveis para o desenvolvimento da agricultura familiar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A mudança das leis sobre o uso de agrotóxicos e a repressão dos órgãos de vigilância sanitária devem ser implementadas com urgência para evitar mais mortes.</strong>. Fonte: CESGRANRIO/2023. Assunto: concordancia.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
                 "assunto": "Concordância",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -148601,6 +150072,6905 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "figurasLinguagem"
+                ],
+                "imagens": null
+          }
+    ],
+    "nocoes_de_direito_geral": [
+          {
+                "enunciado": "A Constituição de 1988 estabelece alguns princípios funda- mentais que apontam um perfil estruturante do Estado bra- sileiro e que devem, portanto, ser observados pelos órgãos de governo. Nesse sentido, caso o Governo Federal deci- disse adotar medidas a partir das quais o Estado passasse a planejar e dirigir, de forma determinante, a ordem econô- mica do país, inclusive em relação ao setor privado, essas medidas violariam o valor constitucional da",
+                "opcoes": [
+                      "soberania.",
+                      "República.",
+                      "Federação.",
+                      "livre iniciativa.",
+                      "supremacia do interesse público."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>livre iniciativa.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Juan, cidadão argentino residente no Brasil, dirigiu-se ao Banco Central a fim de encaminhar uma petição dirigida a determinada autoridade, reclamando sobre a conduta abusiva de um funcionário. Nesse caso, a Constituição",
+                "opcoes": [
+                      "condiciona o exercício deste direito ao pagamento de taxa correspondente ao serviço.",
+                      "permite a Juan exercer tal direito.",
+                      "assegura esse direito apenas aos brasileiros (natos ou naturalizados).",
+                      "assegura esse direito apenas aos brasileiros no gozo dos direitos políticos.",
+                      "não assegura tal direito."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>permite a Juan exercer tal direito.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Bruno, servidor público federal, ocupou por exatos 5 anos um cargo na administração pública, até que foi aprovada uma lei federal extinguindo o referido cargo. Nesse caso, Bruno",
+                "opcoes": [
+                      "será demitido.",
+                      "será obrigado a exercer outro cargo.",
+                      "será aposentado compulsoriamente.",
+                      "ficará em disponibilidade com remuneração integral.",
+                      "ficará em disponibilidade com remuneração proporcional ao tempo de serviço."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>ficará em disponibilidade com remuneração proporcional ao tempo de serviço.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a Constituição, o Poder Executivo da União é exercido pelo Presidente da República auxiliado pelos Ministros de Estado. A esse respeito, considere as propo- sições a seguir. I - Os Ministros do STF têm o dever constitucional de auxiliar o Presidente da República. II - O Ministro da Fazenda é nomeado pelo Presidente da República, mas só pode ser exonerado após aprovação do Senado Federal. III - A Constituição atribui ao Congresso Nacional, com a sanção do Presidente da República, competência para dispor sobre criação e extinção de Ministérios. Está(ao) correta(s) APENAS a(s) proposição(ões)",
+                "opcoes": [
+                      "I.",
+                      "I e II",
+                      "I e III.",
+                      "II.",
+                      "III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>III.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Francisco, cidadão brasileiro, leu no jornal uma notícia so- bre determinado ato praticado por uma autarquia federal e, considerando-o ilegal e lesivo ao patrimônio público, deci- diu mover uma ação popular visando à anulação deste ato, conforme o art. 5 , LXXIII da Constituição de 1988. Por qual órgão do Poder Judiciário brasileiro será julgada esta ação judicial, movida contra essa autarquia?",
+                "opcoes": [
+                      "Tribunal de Contas da União.",
+                      "Supremo Tribunal Federal.",
+                      "Juiz Federal.",
+                      "Senado Federal.",
+                      "Conselho Nacional de Justiça."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Juiz Federal.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Por estar interessado em ingressar no serviço público fe- deral, João Francisco resolveu pesquisar sobre o assunto na Lei Federal n 8.112/90 (Regime Jurídico dos Servido- res Públicos Federais) e concluiu que",
+                "opcoes": [
+                      "a investidura em empregos públicos independe de pré- via aprovação em concurso público, a qual somente é exigida para a investidura em cargos de provimento efetivo.",
+                      "a investidura em cargo ou emprego público depende de prévia aprovação em concurso público, ressalva- das as nomeações para cargos em comissão declara- dos em lei de livre nomeação e exoneração.",
+                      "a investidura em cargos comissionados e funções de confiança depende de prévia aprovação em processo seletivo simplificado, observado o princípio da ampla divulgação.",
+                      "o provimento dos cargos públicos pode efetuar-se por meio de nomeação, promoção, reversão ou ascensão.",
+                      "os cargos em comissão somente podem ser providos por servidores de carreira, destinando-se apenas às atribuições de direção, chefia e assessoramento."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a investidura em cargo ou emprego público depende de prévia aprovação em concurso público, ressalva- das as nomeações para cargos em comissão declara- dos em lei de livre nomeação e exoneração.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Carlos, servidor público dos quadros de uma autarquia fe- deral, foi demitido após processo administrativo disciplinar. Inconformado, ajuizou ação judicial visando à invalidação de sua demissão e, ao final do processo, obteve êxito. Dian- te da invalidação judicial da penalidade disciplinar que lhe havia sido aplicada, reconhece-se a Carlos o direito de ser",
+                "opcoes": [
+                      "reintegrado ao cargo anteriormente ocupado ou ao re- sultante de sua transformação, com ressarcimento de todas as vantagens.",
+                      "aproveitado em outro cargo de vencimentos e respon- sabilidades compatíveis com o anteriormente ocupa- do, sem ressarcimento das vantagens pecuniárias.",
+                      "reconduzido a cargo de atribuições e responsabilida- des compatíveis com o anteriormente exercido, sem ressarcimento das vantagens pecuniárias.",
+                      "revertido ao serviço público ativo, com ressarcimento de todas as vantagens pecuniárias.",
+                      "readaptado em cargo de atribuições e responsabilida- des compatíveis, com ressarcimento de todas as van- tagens. 5"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>reintegrado ao cargo anteriormente ocupado ou ao re- sultante de sua transformação, com ressarcimento de todas as vantagens.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Joana, servidora pública federal, foi demitida do seu cargo após processo administrativo disciplinar que constatou seu envolvimento em ilícito administrativo. Em decorrência do mesmo ilícito, Joana também foi processada criminalmen- te, vindo a ser absolvida. Nesse caso, a absolvição na ins- tância criminal repercute sobre a penalidade disciplinar de demissão que já lhe havia sido aplicada?",
+                "opcoes": [
+                      "Não, porque o processo disciplinar já estava concluído quando da absolvição criminal, não podendo a deci- são judicial retroagir.",
+                      "Não, porque as instâncias penal e administrativa são independentes, não havendo qualquer intercomuni- cação entre elas.",
+                      "Sim, desde que a demissão ressalve, expressamente, a decisão da instância criminal.",
+                      "Sim, desde que a absolvição criminal tenha negado a existência do fato ou sua autoria.",
+                      "Sim, desde que a absolvição criminal tenha ocorrido por suficiência probatória."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Sim, desde que a absolvição criminal tenha negado a existência do fato ou sua autoria.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação aos atos administrativos, analise as assertivas abaixo. I – Os elementos dos atos administrativos são compe- tência, forma, motivo, objeto e finalidade. II – Os atos administrativos discricionários não são pas- síveis de revogação pela própria Administração Pú- blica, mas estão sujeitos a controle judicial, inclusi- ve no que tange ao mérito administrativo. III – O direito da Administração Pública de anular os atos administrativos de que decorram efeitos favoráveis para seus destinatários, em âmbito federal, decai em cinco anos, contados da data em que foram pratica- dos, salvo comprovada má-fé. É (São) correta(s) APENAS a(s) assertiva(s)",
+                "opcoes": [
+                      "I.",
+                      "I e II.",
+                      "I e III.",
+                      "II .",
+                      "III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Fernando, assessor jurídico de um órgão público federal, foi questionado a respeito da possibilidade de a Adminis- tração Pública interditar atividades ilegais e inutilizar gêne- ros impróprios para o consumo, independente de ordem judicial. Essa prerrogativa decorre do atributo dos atos ad- ministrativos identificado por",
+                "opcoes": [
+                      "autoexecutoriedade.",
+                      "presunção de legitimidade.",
+                      "presunção de efetividade.",
+                      "supremacia do interesse público.",
+                      "discricionariedade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>autoexecutoriedade.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Carlos, servidor público dos quadros de uma autarquia fe- deral, foi demitido após processo administrativo disciplinar. Inconformado, ajuizou ação judicial visando à invalidação de sua demissão e, ao final do processo, obteve êxito. Dian- te da invalidação judicial da penalidade disciplinar que lhe havia sido aplicada, reconhece-se a Carlos o direito de ser",
+                "opcoes": [
+                      "reintegrado ao cargo anteriormente ocupado ou ao re- sultante de sua transformação, com ressarcimento de todas as vantagens.",
+                      "aproveitado em outro cargo de vencimentos e respon- sabilidades compatíveis com o anteriormente ocupa- do, sem ressarcimento das vantagens pecuniárias.",
+                      "reconduzido a cargo de atribuições e responsabilida- des compatíveis com o anteriormente exercido, sem ressarcimento das vantagens pecuniárias.",
+                      "revertido ao serviço público ativo, com ressarcimento de todas as vantagens pecuniárias.",
+                      "readaptado em cargo de atribuições e responsabilida- des compatíveis, com ressarcimento de todas as van- tagens. 6"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>reintegrado ao cargo anteriormente ocupado ou ao re- sultante de sua transformação, com ressarcimento de todas as vantagens.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "atualidades_geral": [
+          {
+                "enunciado": "“Qual a diferença entre o assassinato de milhares de civis em um ataque no Afeganistão e a matança de milhares de pessoas por contaminação da água? Ou entre a fome causada pelos conflitos tribais na África e a fome causada pela destruição do solo e uso indevido da terra? A definição de transgressões aos direitos humanos não se limita mais ao que fizeram as ditaduras – sequestro, desaparecimento e tortura.” Adolfo Pérez Esquivel, a convite da ONG Serviço, Paz e Justiça. Revista Veja, 25 nov. 2009, p. 21 e 24. A perspectiva do autor remete à ampliação dos direitos humanos, incorporando-se novo conjunto de direitos àqueles já tradicionalmente defendidos. Esse novo conjunto corresponde, especificamente, aos direitos",
+                "opcoes": [
+                      "civis.",
+                      "ambientais.",
+                      "políticos.",
+                      "econômicos.",
+                      "culturais."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ambientais.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 2009, a situação política de Honduras caracterizou-se por forte instabilidade, desencadeada, em junho, pela deposição do presidente Manuel Zelaya e posterior eleição de outro presidente, Porfírio Lobo. Para o Brasil, trata-se de assunto internacional de especial interesse, haja vista a acolhida do presidente deposto na embaixada brasileira em Tegucigalpa. A instabilidade política do país agravou-se, no início de dezembro de 2009, em decorrência da decisão do Congresso hondurenho de",
+                "opcoes": [
+                      "rejeitar a restituição do presidente deposto ao poder.",
+                      "pressionar a saída de Zelaya da embaixada brasileira.",
+                      "considerar politicamente inviável a conciliação.",
+                      "apoiar oficialmente a colaboração do governo venezuelano.",
+                      "rechaçar legalmente a legitimidade da Organização dos Estados Americanos."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>rejeitar a restituição do presidente deposto ao poder.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "UM ESTRANHO NO BLOCO? O Senado brasileiro aprovou, por 35 votos a favor contra 27, a entrada de novo membro latino-americano no bloco regional MERCOSUL. Se o Paraguai liberar o ingresso do novo membro – Argentina e Uruguai já deram seu aval – o recém-chegado terá direito a votos nas decisões do grupo e poderá vetar eventuais acordos com outros países. Revista Época, 21 dez. 2009, p. 124. (Adaptado) O país latino-americano que recebeu o aval dos três membros do MERCOSUL é o(a)",
+                "opcoes": [
+                      "Chile.",
+                      "Equador.",
+                      "Bolívia.",
+                      "Colômbia.",
+                      "Venezuela. 6"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Venezuela. 6</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em dezembro de 2009, realizou-se a Conferência do Clima COP-15, em Copenhague, reunindo representantes de 193 nações. Das negociações e impasses, surge um acordo, sem força de lei, firmado por Brasil, Estados Unidos, China, Índia e África do Sul. Com relação ao acordo, analise as propostas a seguir. I – A temperatura global não pode aumentar além de 2 C acima dos níveis pré-industriais. II – Devem ser criados incentivos financeiros para projetos de REED (Redução de Emissões por Desmatamento e Degradação). III – Cortes profundos nas emissões de CO são 2 necessários, e os países devem fornecer informa- ções sobre a implementação de suas ações. É(São) pertinente(s) ao acordo a(s) proposta(s)",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "I, II e III.",
+                      "II e III, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "EM PROTESTO em Genebra, manifestantes antiglobalização seguram velas com os dizeres “abaixo a OMC” O Globo, 1 dez. 2009. Os manifestantes da foto têm como foco de protesto a atuação da Organização Mundial do Comércio (OMC), que conduz as negociações da Rodada de Doha. Dentre os alvos dos protestos, destaca-se a seguinte diretriz da Rodada de Doha:",
+                "opcoes": [
+                      "fragilização do comércio multilateral.",
+                      "consolidação do protecionismo econômico.",
+                      "liberalização do comércio mundial.",
+                      "aprofundamento da estatização do comércio.",
+                      "expansão dos subsídios econômicos domésticos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>liberalização do comércio mundial.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O desenvolvimento sustentável planetário exige a criação de medidas e parâmetros, para se negociar, mais concre- tamente, a redução dos índices de poluição atmosférica. Uma dessas medidas é o chamado CO e ou CO eq. 2 2 A medida mencionada foi criada para expressar, precisa- mente, a",
+                "opcoes": [
+                      "remuneração equivalente às emissões evitadas de gás carbônico, ou seja, créditos de carbono.",
+                      "equidistância entre os pontos máximo e mínimo da poluição causada pelo gás carbônico.",
+                      "equiparação futura das emissões de gás carbônico entre países ricos e países pobres.",
+                      "quantidade de gás carbônico equivalente encontrada nos gases de efeito estufa.",
+                      "quantidade de monóxido de carbono necessária à formação do gás carbônico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>quantidade de gás carbônico equivalente encontrada nos gases de efeito estufa.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Ao final de 2009, o BNDES aprovou financiamento de parques geradores de energia no Ceará, nos municípios de Aracati e São Gonçalo do Amarante. Os projetos aprovados fazem parte do PROINFA, o programa do governo de incentivo a investimentos em fontes alternativas, que contribuam para a diversificação da matriz energética brasileira, empregando recursos renováveis. Os projetos aprovados contemplam parques geradores de energia",
+                "opcoes": [
+                      "eólica.",
+                      "hidrelétrica.",
+                      "termelétrica.",
+                      "maremotriz.",
+                      "solar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>eólica.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "CONSUMO DE ENERGIA ELÉTRICA AUMENTA Segundo o Operador Nacional do Sistema (ONS), registrou-se um aumento de 7,5% do consumo de energia elétrica no Brasil, em novembro de 2009, em relação a novembro do ano anterior. O sistema Sudeste foi o que mais se recuperou com alta de 9,7%. A região Sul ficou em segundo lugar, com alta de 7,3%. A região Norte foi a única a continuar apresentando queda na comparação anual. Jornal do Brasil, 4 dez. 2009. O aumento do consumo de energia elétrica teve como um fator principal, no período, a(o)",
+                "opcoes": [
+                      "expansão da eletrificação rural por regiões.",
+                      "retomada da atividade industrial.",
+                      "suspensão de políticas de racionamento.",
+                      "reconfiguração dos fusos horários do País.",
+                      "desmembramento do Sistema Nacional de Energia. 7"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>retomada da atividade industrial.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "País africano, localizado na borda leste do continente, entrando pelo Golfo de Áden, uma das rotas de navegação mais movimentadas do mundo, chama a atenção pela pirataria. Mais de 20 mil navios mercantes passam pelo Golfo a cada ano, tornando-se alvos atrativos para os piratas. O Escritório Marítimo Interna- cional contou cerca de 40 sequestros bem-sucedidos em 2008 e outros 31 na primeira metade de 2009. Navios de guerra da União Europeia, dos Estados Unidos e de outras potências patrulham as águas agora. The economist, licenciada para Carta Capital, janeiro/fevereiro de 2010, p. 105. (Adaptado) O país africano em foco é",
+                "opcoes": [
+                      "Nigéria.",
+                      "Sudão.",
+                      "Eritreia.",
+                      "Angola.",
+                      "Somália."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Somália.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com o Censo Escolar da Educação Básica 2009, o número de matrículas, na educação básica, caiu 1,2%, passando de 53,3 milhões para 52,5 milhões de alunos, entre 2008 e 2009. O ensino básico vai da creche ao último ano do ensino médio e inclui a educação profissional, especial e de jovens e adultos. O resultado da pesquisa reflete a atuação de qual fator específico?",
+                "opcoes": [
+                      "Redução de classes extracurriculares",
+                      "Melhora do fluxo escolar",
+                      "Restrição ao ensino profissionalizante",
+                      "Fim da evasão escolar de jovens e adultos",
+                      "Elevação da expectativa de vida no país"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Melhora do fluxo escolar</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "UM ESTRANHO NO BLOCO? O Senado brasileiro aprovou, por 35 votos a favor contra 27, a entrada de novo membro latino-americano no bloco regional MERCOSUL. Se o Paraguai liberar o ingresso do novo membro – Argentina e Uruguai já deram seu aval – o recém-chegado terá direito a votos nas decisões do grupo e poderá vetar eventuais acordos com outros países. Revista Época, 21 dez. 2009, p. 124. (Adaptado) O país latino-americano que recebeu o aval dos três membros do MERCOSUL é o(a)",
+                "opcoes": [
+                      "Chile.",
+                      "Equador.",
+                      "Bolívia.",
+                      "Colômbia.",
+                      "Venezuela. 7"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Venezuela. 7</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "CONSUMO DE ENERGIA ELÉTRICA AUMENTA Segundo o Operador Nacional do Sistema (ONS), registrou-se um aumento de 7,5% do consumo de energia elétrica no Brasil, em novembro de 2009, em relação a novembro do ano anterior. O sistema Sudeste foi o que mais se recuperou com alta de 9,7%. A região Sul ficou em segundo lugar, com alta de 7,3%. A região Norte foi a única a continuar apresentando queda na comparação anual. Jornal do Brasil, 4 dez. 2009. O aumento do consumo de energia elétrica teve como um fator principal, no período, a(o)",
+                "opcoes": [
+                      "expansão da eletrificação rural por regiões.",
+                      "retomada da atividade industrial.",
+                      "suspensão de políticas de racionamento.",
+                      "reconfiguração dos fusos horários do País.",
+                      "desmembramento do Sistema Nacional de Energia. 8"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>retomada da atividade industrial.</strong>. Fonte: CESGRANRIO/2010. Assunto: atualidades_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "atualidades_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "atualidades_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "raciocinio_logico_geral": [
+          {
+                "enunciado": "Um quadrado é cortado em 17 quadrados menores. Todos esses quadrados têm as medidas de seus lados, em centímetros, expressas por números inteiros positivos. 2 Há exatamente 16 quadrados com área igual a 1 cm . 2 A área do quadrado original, em cm , vale",
+                "opcoes": [
+                      "81",
+                      "64",
+                      "49",
+                      "36",
+                      "25"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>25</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Jonas possui 15 bolas visualmente idênticas. Entretanto, uma delas é um pouco mais pesada do que as outras 14, que têm todas o mesmo peso. Utilizando uma balança de dois pratos, semelhante à da figura acima, o número mínimo de pesagens, com que é possível identificar a bola que destoa quanto ao peso é",
+                "opcoes": [
+                      "5",
+                      "4",
+                      "3",
+                      "2",
+                      "1"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>1</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em uma disputa, há 34 pessoas: 20 homens e 14 mulheres. A cada etapa da competição, três concorrentes são eliminados, sendo sempre 2 homens e 1 mulher. O número de homens igualar-se-á ao número de mulheres após a eliminação de número",
+                "opcoes": [
+                      "7",
+                      "6",
+                      "5",
+                      "4",
+                      "3"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>6</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considerando-se N um número inteiro e positivo, analise as afirmações seguintes, qualquer que seja o valor de N: 2 I - N + N + 1 é um número ímpar; II - N ⋅ (N + 1) ⋅ (N + 2) é um número múltiplo de 3; 2 III - N tem uma quantidade par de divisores; IV - N + (N + 1) + (N + 2) é um número múltiplo de 6. A quantidade de afirmações verdadeiras é",
+                "opcoes": [
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "0 8"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise as afirmativas abaixo. I - A parte sempre cabe no todo. II - O inimigo do meu inimigo é meu amigo. III - Um professor de matemática afirma que todos os professores de matemática são mentirosos. Do ponto de vista da lógica, é(são) sempre verdadeira(s) somente a(s) afirmativa(s)",
+                "opcoes": [
+                      "I.",
+                      "I e II.",
+                      "I e III.",
+                      "II.",
+                      "III."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I.</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um homem entra numa livraria, compra um livro que custa 20 reais e paga com uma nota de 100 reais. Sem troco, o livreiro vai até a banca de jornais e troca a nota de 100 por 10 notas de 10 reais. O comprador leva o livro e 8 notas de 10 reais. Em seguida, entra o jornaleiro dizendo que a nota de 100 reais é falsa. O livreiro troca a nota falsa por outra de 100, verdadeira. O prejuízo do livreiro, em reais, sem contar o valor do livro, foi",
+                "opcoes": [
+                      "200",
+                      "180",
+                      "100",
+                      "80",
+                      "20"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>200</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Quatro casais divertem-se em uma casa noturna. São eles: Isabel, Joana, Maria, Ana, Henrique, Pedro, Luís e Rogério. Em determinado momento, está ocorrendo o seguinte: • a esposa de Henrique não dança com o seu marido, mas com o marido de Isabel; • Ana e Rogério conversam sentados à beira do bar; • Pedro toca piano acompanhando Maria que canta sentada ao seu lado; • Maria não é a esposa de Pedro. Considere a(s) afirmativa(s) a seguir. I - Rogério é o marido de Ana. II - Luís é o marido de Isabel. III - Pedro é o marido de Joana. Está(ão) correta(s) somente a(s) afirmativa(s)",
+                "opcoes": [
+                      "I.",
+                      "I e II.",
+                      "II.",
+                      "II e III.",
+                      "III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>II.</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Existe uma regra prática de divisibilidade por 7 com o seguinte procedimento: Separa-se o último algarismo da direita. Multiplica-se esse algarismo por 2 e tal resultado é subtraído do número que restou sem o algarismo à direita. Procede-se assim, sucessivamente, até se ficar com um número múltiplo de 7, mesmo que seja zero. Veja os exemplos a seguir: 1 ) 23.457 é múltiplo de 7 2 3 4 5 7 2 3 3 1 - 2 (1 x 2 = 2) 2 3 1 - 2 (1 x 2 = 2) 2 1 (que é múltiplo de 7) Seja a um algarismo no número a13.477.307. O valor de a para que este número seja divisível por 7 é",
+                "opcoes": [
+                      "1",
+                      "3",
+                      "5",
+                      "7",
+                      "9"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>5</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma escola organiza, para ocupar os seus recreios, um torneio de futebol de botão, com 16 participantes, que seguirá a tabela abaixo. a a 1 FASE 2 FASE JOGO 1: A x B JOGO 2: C x D JOGO 3: E x F JOGO 12: vencedor do jogo 7 x vencedor do jogo 8 JOGO 4: G x H FASE SEMIFINAL JOGO 5: I x J JOGO 13: vencedor do jogo 9 x vencedor do jogo 10 JOGO 6: K x L JOGO 14: vencedor do jogo 11 x vencedor do jogo 12 JOGO 7: M x N FINAL JOGO 8: O x P JOGO 15: vencedor do jogo 13 x vencedor do jogo 14 Os jogos vão sendo disputados na ordem: primeiro, o jogo 1, a seguir, o jogo 2, depois, o jogo 3 e assim por diante. A cada recreio, é possível realizar, no máximo, 5 jogos. Cada participante joga uma única vez a cada recreio. Quantos recreios, no mínimo, são necessários para se chegar ao campeão do torneio?",
+                "opcoes": [
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7 9 2 ) 2.596 não é múltiplo de 7 2 5 9 6 2 4 7 1 0 (que não é múltiplo de 7)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>5</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Figura 1 Legenda: A: ÁS : COPAS J: VALETE Q: DAMA : ESPADAS K: REI : OUROS : PAUS André organizou 25 cartas de baralho como ilustra a Figura 1. Luiza escolheu uma das cartas, mas não disse a André qual foi a escolhida. Disse-lhe apenas que a carta escolhida está na terceira linha. André retirou todas as cartas e as reorganizou, como ilustrado na Figura 2. Em seguida, André perguntou a Luiza em que linha, nessa nova arrumação, estava a carta escolhida. Luiza respondeu que, desta vez, a carta estava na quarta linha. Qual foi a carta escolhida por Luiza?",
+                "opcoes": [
+                      "6 de copas",
+                      "7 de copas",
+                      "Ás de espadas 10 Figura 2",
+                      "Rei de espadas",
+                      "2 de espadas"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>6 de copas</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considerando-se N um número inteiro e positivo, analise as afirmações seguintes, qualquer que seja o valor de N: 2 I - N + N + 1 é um número ímpar; II - N ⋅ (N + 1) ⋅ (N + 2) é um número múltiplo de 3; 2 III - N tem uma quantidade par de divisores; IV - N + (N + 1) + (N + 2) é um número múltiplo de 6. A quantidade de afirmações verdadeiras é",
+                "opcoes": [
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "0 9"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma escola organiza, para ocupar os seus recreios, um torneio de futebol de botão, com 16 participantes, que seguirá a tabela abaixo. a a 1 FASE 2 FASE JOGO 1: A x B JOGO 2: C x D JOGO 3: E x F JOGO 12: vencedor do jogo 7 x vencedor do jogo 8 JOGO 4: G x H FASE SEMIFINAL JOGO 5: I x J JOGO 13: vencedor do jogo 9 x vencedor do jogo 10 JOGO 6: K x L JOGO 14: vencedor do jogo 11 x vencedor do jogo 12 JOGO 7: M x N FINAL JOGO 8: O x P JOGO 15: vencedor do jogo 13 x vencedor do jogo 14 Os jogos vão sendo disputados na ordem: primeiro, o jogo 1, a seguir, o jogo 2, depois, o jogo 3 e assim por diante. A cada recreio, é possível realizar, no máximo, 5 jogos. Cada participante joga uma única vez a cada recreio. Quantos recreios, no mínimo, são necessários para se chegar ao campeão do torneio?",
+                "opcoes": [
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7 10 2 ) 2.596 não é múltiplo de 7 2 5 9 6 2 4 7 1 0 (que não é múltiplo de 7)"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>5</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Figura 1 Legenda: A: ÁS : COPAS J: VALETE Q: DAMA : ESPADAS K: REI : OUROS : PAUS André organizou 25 cartas de baralho como ilustra a Figura 1. Luiza escolheu uma das cartas, mas não disse a André qual foi a escolhida. Disse-lhe apenas que a carta escolhida está na terceira linha. André retirou todas as cartas e as reorganizou, como ilustrado na Figura 2. Em seguida, André perguntou a Luiza em que linha, nessa nova arrumação, estava a carta escolhida. Luiza respondeu que, desta vez, a carta estava na quarta linha. Qual foi a carta escolhida por Luiza?",
+                "opcoes": [
+                      "6 de copas",
+                      "7 de copas",
+                      "Ás de espadas 11 Figura 2",
+                      "Rei de espadas",
+                      "2 de espadas"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>6 de copas</strong>. Fonte: CESGRANRIO/2010. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um estudo procurou avaliar a frequência de saídas para jantar fora de uma população. A população foi dividida em três faixas de renda mensal, medida em salários mínimos (sm): menos do que 2sm, entre 2 e 5sm e mais do que 5sm. O número médio de saídas noturnas também foi dividido em três faixas: menos de uma vez, uma ou duas vezes e mais de duas vezes por semana. Na tabela a seguir, são apresentados os resultados, em frações das referidas subpopulações. A tabela também apresenta, em sua última coluna, a fração da população situada em cada nível de rendimento. saída < 1 1 < saída < 2 saída > 2 % sm < 2 0,7 0,2 0,1 0,6 2 ≤ sm ≤ 5 0,5 0,3 0,2 0,3 sm > 5 0,2 0,6 0,2 0,1 A fração dessa população que sai para jantar menos de uma vez por semana situa-se entre",
+                "opcoes": [
+                      "0,2 e 0,3.",
+                      "0,3 e 0,4.",
+                      "0,4 e 0,5.",
+                      "0,5 e 0,6.",
+                      "0,6 e 0,7."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>0,5 e 0,6.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Mega-Sena é um jogo de apostas no qual são sorteadas 6 dentre 60 bolas numeradas de 1 a 60. Cecília fez uma aposta, escolhendo os números 1, 2, 3, 4, 5 e 6. Cecília está acompanhando o sorteio e viu que as três primeiras bolas sorteadas foram as de número 1, 2 e 3. A chance de Cecília acertar os seis números e ganhar na Mega- Sena é agora de uma em",
+                "opcoes": [
+                      "29.260.",
+                      "38.482.",
+                      "61.245.",
+                      "83.998.",
+                      "102.063."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>29.260.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Lionel pretende comprar um carro que pode ser pago à vista, por 80 mil reais, ou a prazo, por 120 mil reais, com uma entrada e mais duas prestações iguais, a primeira a ser paga depois de um ano e a segunda a ser paga depois de mais um ano. Lionel dispõe de 150 mil reais, que estão aplicados no banco, com rendimento de 50% ao ano. Lionel prefere pagar a prazo. O valor máximo da entrada que Lionel deve pagar de modo que a opção a prazo seja preferível é de",
+                "opcoes": [
+                      "60 mil reais.",
+                      "50 mil reais.",
+                      "40 mil reais.",
+                      "30 mil reais.",
+                      "20 mil reais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>60 mil reais.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um quadrado tem lado igual a 8. O número máximo de circunferências de raio 1 que podem ser postas no interior do quadrado de modo que os centros das circunferências estejam todos sobre a mesma diagonal do quadrado é igual a",
+                "opcoes": [
+                      "8.",
+                      "7.",
+                      "6.",
+                      "5.",
+                      "4."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>8.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O número de anagramas que podem ser formados com as letras da palavra DEMOCRACIA em que todas as vogais estejam juntas e todas as consoantes também estejam juntas é igual a",
+                "opcoes": [
+                      "3600.",
+                      "4800.",
+                      "7200.",
+                      "12300.",
+                      "14400."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>7200.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Três candidatos disputam uma eleição presidencial. Segundo pesquisas eleitorais, os candidatos A, B e C têm 41%, 34% e 7% das preferências, respectivamente. Votos em branco correspondem a 10% dos eleitores, enquanto votos nulos correspondem a 8%. Votos brancos e nulos não são considerados votos válidos. Segundo as pesquisas, o percentual de votos válidos do candidato A é igual a",
+                "opcoes": [
+                      "50,0%.",
+                      "50,4%.",
+                      "48,8%.",
+                      "52,2%.",
+                      "47,5%."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>50,0%.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A partida decisiva Maiorais x Geniais envolve uma grande incógnita. O goleiro Pegatudo, dos Geniais, está machucado, e a probabilidade de sua presença em campo é de 60%. Das últimas 10 partidas entre as equipes com Pegatudo no gol, os Geniais ganharam 7 e perderam 3. Porém, nas últimas 4 vezes em que Pegatudo esteve ausente, os Maiorais venceram 3 e só perderam 1. Usando esses dados, a probabilidade que os Geniais saiam vencedores do confronto é estimada em",
+                "opcoes": [
+                      "76%.",
+                      "68%.",
+                      "60%.",
+                      "58%.",
+                      "52%."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>52%.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um triângulo equilátero feito de cartolina tem vértices A, B e C. Corta-se o triângulo em linha reta com uma tesoura, indo de A até o ponto D situado no lado oposto BC e tal que a distância de D a B é o triplo da distância de D a C. Se a área do triângulo ABC vale 24cm2, então a área do triângulo restante ABD vale",
+                "opcoes": [
+                      "16.",
+                      "17.",
+                      "18.",
+                      "19.",
+                      "20."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>18.</strong>. Fonte: FGV/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "conhecimentos_especificos_geral": [
+          {
+                "enunciado": "A Cia. Minas Gerais S/A adquiriu uma mina de ferro em 31/03/2008 por R$ 2.000.000,00. A mina tem capacidade estimada para produzir 250.000 toneladas de ferro. A exaustão será calculada com base nas toneladas de ferro extraídas da mina, levando em consideração o custo por tonelada. Entre 01/04/2008 e 31/12/2008, a companhia retirou, em média, 2.000 toneladas por mês. No final do exercício de 2008, encerrado em 31/12, proce- deu ao registro contábil da exaustão. Considerando exclusivamente as informações acima, o registro contábil de diário (sem data e histórico) da apura- ção da exaustão referente ao exercício de 2008 da Com- panhia Minas Gerais S/A, em reais, será",
+                "opcoes": [
+                      "D: Custo da mina de ferro C: Despesa de amortização e exaustão 160.000,00",
+                      "D: Custo da mina de ferro C: Estoque de ferro 192.000,00",
+                      "D: Exaustão acumulada C: Estoque de ferro 144.000,00",
+                      "D: Estoque de Ferro C: Exaustão acumulada 144.000,00",
+                      "D: Capacidade Instalada C: Exaustão acumulada 192.000,00"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>D: Estoque de Ferro C: Exaustão acumulada 144.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe as transações realizadas pela Monte Pascoal S/A, em junho/2008: • prestou serviços a um cliente, emitindo uma nota fiscal de R$ 15.000,00, a ser recebida em 15/07/2008; • vendeu produtos que ainda estão em elaboração, rece- bendo antecipadamente R$ 12.000,00, sendo a entrega dos produtos prevista para o dia 20/07/2009; para a rea- lização dessa encomenda, já gastou R$ 4.500,00 de um custo previsto de R$ 9.500,00; • provisionou os salários do mês de junho/2008 no valor de R$ 8.000,00, a serem pagos em 05/07/2008; • pagou R$ 2.400,00 referentes ao seguro contra incên- dio e lucros cessantes da fábrica, com validade para o período de 01/07/2008 a 30/06/2009. Tendo por base exclusivamente os registros acima, o re- sultado operacional da empresa, em junho de 2008, consi- derando o regime de competência e o regime de caixa, nessa ordem, são, respectivamente, em reais,",
+                "opcoes": [
+                      "7.000,00 e 5.100,00",
+                      "6.800,00 e 7.500,00",
+                      "6.800,00 e 7.300,00",
+                      "2.500,00 e 2.500,00",
+                      "2.500,00 e 100,00 11"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>7.000,00 e 5.100,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A empresa comercial GLOBAL S/A apresentou a seguinte posição de estoques de mercadorias destinadas à venda, em 31/12/2008: Tipo de Valor de Valor de Mercadoria aquisição em R$ mercado em R$ P 12.500,00 12.300,00 Q 18.900,00 18.100,00 R 35.250,00 36.850,00 S 17.430,00 17.455,00 Considerando exclusivamente os dados acima, o registro de ajuste nos estoques que a empresa deve realizar em 31/12/2008, em reais, será",
+                "opcoes": [
+                      "D: Despesas com ajuste de estoque ao valor de mercado C: Provisão para ajuste de estoque ao valor de mercado 825,00",
+                      "D: Despesas com ajuste de estoque ao valor de mercado C: Estoque de mercadorias 1.000,00",
+                      "D: Despesas com ajuste de estoque ao valor de mercado C: Provisão para ajuste de estoque ao valor de mercado 1.000,00",
+                      "D: Provisão para ajuste de estoque ao valor de mercado C: Estoque de mercadorias 825,00",
+                      "D: Provisão para ajuste de estoque ao valor de mercado C: Receita com ajuste de estoque ao valor de mercado 1.825,00"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>D: Despesas com ajuste de estoque ao valor de mercado C: Provisão para ajuste de estoque ao valor de mercado 1.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Segundo a Lei n 6.404/76, com as alterações das Leis n 11.638/2007 e 11.941/2009, as contas que devem ser classificadas como reserva de capital são as que regis- tram o(as)",
+                "opcoes": [
+                      "produto da alienação de partes beneficiárias e bônus de subscrição.",
+                      "prêmio recebido na emissão de debêntures e ágio na colocação de ações.",
+                      "contrapartidas do aumento e da redução de valor atri- buído a elementos do ativo.",
+                      "doações e Subvenções para investimento.",
+                      "receitas de exercícios futuros menos custos e despe- sas correspondentes e ajustes patrimoniais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>produto da alienação de partes beneficiárias e bônus de subscrição.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com o que reza a Lei n 6.404/76, com as alte- rações das Leis n 11.638/2007 e 11.941/2009, as contas classificáveis no Ativo Imobilizado são",
+                "opcoes": [
+                      "despesas pré-operacionais, terrenos, edifícios e obras de arte.",
+                      "móveis e utensílios, instalações, obras civis e equipa- mentos de processamento de dados.",
+                      "investimentos em ações, obras em andamento, des- pesas com reorganizações e ferramentas.",
+                      "máquinas e equipamentos, móveis e utensílios, mar- cas e patentes e instalações.",
+                      "direitos autorais, veículos, peças e conjuntos de repo- sição e direitos de franquia."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>móveis e utensílios, instalações, obras civis e equipa- mentos de processamento de dados.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Dados extraídos do balancete de verificação da empresa Mares Verdes S/A, em 31/12/2008, em reais: Saldo Devedor / Contas Saldos Saldo Credor Fornecedores 11.500,00 Saldo Credor Caixa 800,00 Saldo Devedor Despesa de Energia Elétrica 100,00 Saldo Devedor Banco Conta Movimento 1.300,00 Saldo Devedor Empréstimos a Pagar 400,00 Saldo Credor Venda de Mercadorias 10.000,00 Saldo Credor Empréstimos e Financiamentos a Longo Prazo 1.500,00 Saldo Credor Duplicatas a Receber 9.500,00 Saldo Devedor Custo da Mercadoria Vendida 7.000,00 Saldo Devedor Estoque de Mercadorias 11.000,00 Saldo Devedor Reserva de Capital 5.000,00 Saldo Credor Despesa de Água e Esgoto 100,00 Saldo Devedor Reserva Legal 3.000,00 Saldo Credor Salários e Encargos a Pagar 1.100,00 Saldo Credor Despesas Gerais 500,00 Saldo Devedor Adiantamentos para Viagens 700,00 Saldo Devedor Despesa de Salários e Encargos 1.100,00 Saldo Devedor Móveis e Utensílios 6.000,00 Saldo Devedor Máquinas e Equipamentos 7.000,00 Saldo Devedor Terrenos 18.000,00 Saldo Devedor Depreciações Acumuladas 2.000,00 Saldo Credor Adiantamento de Clientes 600,00 Saldo Credor Capital Social 28.000,00 Saldo Credor Considerando exclusivamente os dados acima e desconsiderando a incidência de quaisquer impostos, o resultado da empresa no exercício, em reais, foi",
+                "opcoes": [
+                      "1.900,00",
+                      "1.200,00",
+                      "1.100,00",
+                      "900,00",
+                      "500,00 12"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>1.200,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Cia. Franco Goiana S/A realizou, à vista, por R$ 12.000,00, recebidos em dinheiro, a venda de uma máquina operatriz que custou R$ 120.000,00 e que possui depreciação acu- mulada de R$ 105.000,00. O registro contábil correspondente à baixa dessa máquina foi",
+                "opcoes": [
+                      "D: Caixa 12.000,00 C: Prejuízo na venda de imobilizado 3.000,00",
+                      "D: Caixa 12.000,00 D: Máquinas e equipamentos 105.000,00 D: Despesa de depreciação 3.000,00 C: Baixa de máquinas e equipamentos 120.000,00",
+                      "D: Caixa 12.000,00 D: Máquinas e equipamentos 118.000,00 C: Prejuízo não operacional 15.000,00",
+                      "D: Caixa 12.000,00 D: Prejuízo na baixa de máquinas 3.000,00",
+                      "D: Depreciação acumulada 105.000,00 D: Caixa 12.000,00 D: Prejuízo na venda de imobilizado 3.000,00 C: Máquinas e equipamentos 120.000,00"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>D: Depreciação acumulada 105.000,00 D: Caixa 12.000,00 D: Prejuízo na venda de imobilizado 3.000,00 C: Máquinas e equipamentos 120.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Dados extraídos da contabilidade da Empresa Financilar S/A: • Venda de mercadorias a prazo R$ 120.000,00 • Devolução de vendas de mercadorias R$ 15.000,00 • Compra de mercadorias a prazo R$ 100.000,00 • Devolução de compras R$ 5.000,00 • Estoque inicial de mercadorias R$ 25.000,00 • Estoque final de mercadorias R$ 35.000,00 Considerando exclusivamente os dados acima e o fato de que houve incidência de ICMS de 10% tanto na compra como na venda, o lucro bruto apurado na empresa, em reais, foi",
+                "opcoes": [
+                      "18.500,00",
+                      "19.000,00",
+                      "20.000,00",
+                      "21.500,00",
+                      "25.500,00 Considere única e exclusivamente os dados apresentados abaixo para responder às questões de n Em 2008, a Dourada S/A, após a realização de todos os ajustes pertinentes, apresentou as seguintes informações, em mil reais, extraídas de seus livros contábeis, para a elaboração do balanço: Ações em tesouraria 1.146 Dividendos Adiantamentos a empregados 405 Financiamentos bancários de longo prazo Almoxarifado 276 Fornecedores Amortizações acumuladas 363 Imobilizado Aplicações financeiras / títulos CP 5.689 Impostos / Encargos a recuperar (360 dias) Aplicações financeiras resgate imediato 1.422 Intangível Caixa e bancos 605 Investimentos Capital a realizar 3.630 Obrigações tributárias e previdenciárias Capital subscrito 22.927 Participações Clientes 3.530 Provisão p/crédito difícil liquidação Contas a pagar 415 Provisão p/ contingências l. prazo Créditos a recuperar (2 anos) 2.491 Reserva legal Créditos em cobrança judicial l. prazo 442 Reservas de capital Depreciações acumuladas 15.218 Retenção de lucros Despesas do exercício seguinte 877 Salários e provisões a pagar"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>19.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Comercial Lunar, que controla seus estoques pelo critério PEPS, informou as seguintes operações com mercadorias, ao final de um determinado mês: Dia da Compra Operação Quantidade Preço unitário 8 12 O custo das mercadorias vendidas no dia 12, em reais, é",
+                "opcoes": [
+                      "880,00",
+                      "585,00",
+                      "540,00 13 49 a 51. 538 52 567 304 de empregados a pagar 134 238 350 112 104",
+                      "525,00",
+                      "500,00"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>500,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Admita que a Comercial Alves faça o cálculo da deprecia- ção pelo método da soma dos dígitos. No terceiro ano de uso de um equipamento adquirido novo, com vida útil origi- nal de 8 anos e valor residual de R$ 110.000,00, foi contabilizada a depreciação do equipamento em R$ 315.000,00, apurada pelo método da soma dos dígitos, referente ao ano informado. Se a Comercial Alves tivesse adotado o método das quo- tas constantes para calcular a depreciação daquele mes- mo equipamento, no terceiro ano de sua utilização, o valor da depreciação, em reais, naquele ano, seria",
+                "opcoes": [
+                      "315.000,00",
+                      "250.000,00",
+                      "243.750,00",
+                      "236.250,00",
+                      "222.500,00"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>236.250,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A qualidade de uma organização é determinada em grande parte pela competência das pessoas que ela emprega. Assim sendo, diante das novas demandas por recursos humanos advindas da automação dos negócios, a gestão de pessoas deve",
+                "opcoes": [
+                      "focar as rotinas de manutenção de um contrato de trabalho: recrutamento, seleção, remuneração, planos de cargos e salários, benefícios, entre outros.",
+                      "transformar as rotinas de pessoal na parte mais impor- tante da relação contratual indivíduo-organização, para contribuir com o processo de confiança e credibilidade da empresa.",
+                      "ser vista como a gestão de uma relação com pessoas com as quais não se mantém mera relação contratual, e sim, uma parceria, um processo contínuo de compartilhamento de responsabilidades.",
+                      "ser a única responsável pela aquisição e manutenção dos recursos da força de trabalho, sendo preciso, para tanto, reforçar a visão da gestão fortemente ba- seada na divisão funcional e na concepção dos em- pregados como recursos.",
+                      "atribuir ao gerente de cada equipe, como um líder au- têntico, a missão de ajudar a construir a competência e a motivação de seu grupo, fazendo, com que o De- partamento de Recursos Humanos perca a sua finali- dade e a sua posição na organização. 14"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ser vista como a gestão de uma relação com pessoas com as quais não se mantém mera relação contratual, e sim, uma parceria, um processo contínuo de compartilhamento de responsabilidades.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O responsável pela seleção de cinco novos assistentes para a implementação de um processo escolhe,como mecanismo de seleção, a entrevista estruturada, partindo da premissa de que ela é mais confiável porque",
+                "opcoes": [
+                      "se limita a perguntas relevantes que funcionam como previsores eficazes de desempenho e melhoram a confiabilidade do processo de entrevistar.",
+                      "permite a identificação da capacidade do candidato de resolver problemas e é especialmente válida para determinar a inteligência, o nível de motivação e as habilidades do candidato.",
+                      "permite verificar como o candidato reagirá sob pressão, a sua tendenciosidade diante de informações valiosas e os seus estereótipos.",
+                      "permite que se criem perguntas à medida que a entre- vista se desenvolve, gerando uma conversação amis- tosa que favorece o compartilhamento de ideias e ati- tudes com o candidato.",
+                      "dá uma oportunidade a maiores discernimentos quanto às diferenças entre os candidatos, permitindo que as informações negativas não recebam um peso indevidamente alto."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>se limita a perguntas relevantes que funcionam como previsores eficazes de desempenho e melhoram a confiabilidade do processo de entrevistar.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um dos desafios da Gestão de Pessoas estratégica diz respeito ao gerenciamento do binômio qualidade de vida versus quantidade de vida. A quantidade de vida é o grau em que prevalecem valores como afirmação, aquisição de dinheiro e bens materiais e concorrência. A qualidade de vida é o grau em que as pessoas valorizam os relacionamentos e mostram sensibilidade e preocupa- ção com o bem-estar dos outros. A respeito da qualidade de vida no trabalho, analise as afirmações a seguir. I - Em geral, os esforços para melhorar a qualidade de vida no trabalho procuram tornar os cargos mais produtivos e satisfatórios. II - Embora sejam usadas muitas técnicas diferentes sob o título qualidade de vida no trabalho, a maioria delas acarreta a reformulação dos cargos. III - Cargos altamente especializados, nos quais não há uma necessidade de identificação com as tarefas, proporcionam níveis mais elevados de qualidade de vida no trabalho. IV - Quando as tarefas são agrupadas, de modo que os empregados sintam que estão fazendo uma contri- buição identificável, a qualidade de vida no trabalho pode aumentar de modo significativo. V - Os projetos de cargo que logram êxito consideram os elementos comportamentais para que os trabalhado- res tenham uma alta qualidade de vida no trabalho. São corretas APENAS as afirmações",
+                "opcoes": [
+                      "I e II.",
+                      "I, III e V.",
+                      "I, II, IV e V.",
+                      "II, III e V.",
+                      "III e IV."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, II, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As empresas estão se transformando em organizações educadoras e desenvolvendo a educação corporativa em virtude de",
+                "opcoes": [
+                      "novas exigências impostas pelas relações trabalhistas.",
+                      "novas tecnologias de ensino a distância e de tecnologia da informação.",
+                      "necessidade de um local em que todos os funcionários possam ser treinados.",
+                      "emergência da organização hierárquica, enxuta e flexível.",
+                      "mudança fundamental no mercado da educação global."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>mudança fundamental no mercado da educação global.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Pretende-se desenhar um novo plano de carreira para uma empresa, como uma alternativa à visão tradicional, em que as oportunidades profissionais são definidas por meio de cargos e salários engessados e muitas vezes excessiva- mente detalhados, e o crescimento dos indivíduos se dá mais pelo tempo de serviço do que pelo seu potencial ou pelo seu nível de contribuição. Esse plano que visa a desenvolver uma carreira moderna deve ter",
+                "opcoes": [
+                      "cargos definidos de modo específico, incorporando uma gama restrita de competências essenciais que preser- vam o conhecimento organizacional por meio de uma mescla de práticas de recrutamentos interno e externo para as oportunidades oferecidas.",
+                      "integração com os demais programas de Recursos Hu- manos: avaliação, treinamento e recrutamento interno, possibilitando o desenvolvimento do profissional e, consequentemente, sua melhor integração na empresa.",
+                      "visão do cargo e não da pessoa para que se mante- nham as oportunidades de crescimento horizontal, ou seja, as oportunidades oferecidas para que os indivídu- os possam expandir as suas experiências, suas compe- tências e, consequentemente, sua empregabilidade no mercado de trabalho.",
+                      "confidencialidade do próprio plano, das faixas salari- ais, das descrições de cargos e das trajetórias de car- reira para facilitar as possibilidades de ascensão pro- fissional, as oportunidades e os critérios para o cresci- mento na organização.",
+                      "concepção de crescimento em termos de status na organização e em termos de remuneração, singular- mente para aqueles que possuem o perfil para assu- mir posições gerenciais. 15"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>integração com os demais programas de Recursos Hu- manos: avaliação, treinamento e recrutamento interno, possibilitando o desenvolvimento do profissional e, consequentemente, sua melhor integração na empresa.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Apesar da necessidade de imparcialidade e objetividade no processo de avaliação de desempenho organizacional, percebe-se que a cultura paternalista faz com que avalia- dores, às vezes, favoreçam pessoas 1. de que gostam, independente da sua competência profissional e de seus resultados; 2. que vinham apresentando maus desempenhos, mas que, perto do período da avaliação, “mostraram serviço”. Esse erro de propensão, causado em geral porque os avaliadores não conseguem ficar emocionalmente desligados, pode ser qualificado, nos exemplos acima, respectivamente, como",
+                "opcoes": [
+                      "preconceito pessoal e propensão a rigor.",
+                      "propensão de complacência e erro de tendência central.",
+                      "propensão de complacência e efeito recenticidade.",
+                      "efeito halo e erro de tendência central.",
+                      "efeito halo e efeito recenticidade."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>efeito halo e efeito recenticidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Para escolher como será feita a avaliação de desempenho de uma organização, foram propostos cinco possíveis métodos, abaixo relacionados. Qual o método proposto que está INCORRETAMENTE explicado?",
+                "opcoes": [
+                      "Escalas gráficas - é simples, permite uma visão integrada e resumida dos fatores de avaliação, mas não permite flexibilidade ao avaliador, que deve se ajustar ao instrumento, e não este às características do avaliado.",
+                      "Escolha forçada - consiste em avaliar o desempenho dos indivíduos por intermédio de frases descritivas de alternativas de tipos de desempenho individual, pro- porcionando resultados confiáveis e isentos de influ- ências subjetivas e pessoais, mas de aplicação com- plexa, pois exige preparo prévio dos avaliadores.",
+                      "Pesquisa de campo - baseia-se em entrevistas de um especialista em avaliação com o superior imediato, e permite, além de um diagnóstico do desempenho do empregado, a possibilidade de planejar com este su- perior seu desenvolvimento no cargo e na organiza- ção, mas tem um custo operacional elevado.",
+                      "Incidentes críticos - não se preocupa com característi- cas do comportamento humano situadas dentro do campo da normalidade, registrando os fatos excepcio- nalmente positivos que devem ser realçados e mais utilizados no desempenho dos indivíduos, e os excepcionalmente negativos que devem ser corri- gidos e eliminados.",
+                      "Comparação aos pares - é um processo simples e pouco eficiente, que compara dois a dois empregados de cada vez, permitindo o registro daquele que é considerado melhor quanto ao desempenho."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Escolha forçada - consiste em avaliar o desempenho dos indivíduos por intermédio de frases descritivas de alternativas de tipos de desempenho individual, pro- porcionando resultados confiáveis e isentos de influ- ências subjetivas e pessoais, mas de aplicação com- plexa, pois exige preparo prévio dos avaliadores.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Num seminário sobre comportamento humano nas organizações, um palestrante iniciou afirmando: “Existem poucos (se é que existem) princípios simples e universais que explicam o comportamento organizacional, mas os indivíduos apresentam algumas características que nos ajudam a compreensão do seu comportamento.” Na apresentação de uma dessas características, ele ERROU ao dizer que o homem",
+                "opcoes": [
+                      "é pró-ativo, ou seja, o seu comportamento nas orga- nizações é determinado tanto pelas práticas organizacionais como pelo comportamento pró-ativo (orientado para objetivos pessoais) dos participantes da organização.",
+                      "é social, ou seja, a participação em organizações é muito importante na vida das pessoas, porque as conduz ao envolvimento com outras pessoas ou gru- pos.",
+                      "tem ilimitada capacidade de resposta, ou seja, as pessoas são capazes de se comportar de todas as formas, pois suas características pessoais são ilimita- das e irrestritas.",
+                      "tem diferentes necessidades, ou seja, um fator pode motivar o comportamento de uma pessoa hoje e pode ter potência suficiente para determinar seu comporta- mento no dia seguinte.",
+                      "pensa, escolhe, percebe e avalia, ou seja, o comporta- mento humano é proposital, pró-ativo, cognitivamente ativo, e a experiência do indivíduo com o seu ambiente é um processo ativo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>tem ilimitada capacidade de resposta, ou seja, as pessoas são capazes de se comportar de todas as formas, pois suas características pessoais são ilimita- das e irrestritas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Entre as múltiplas aplicações tradicionais do sistema de informação de RH está a disciplina, condição por que as pessoas se conduzem de acordo com as regras e procedi- mentos de um comportamento aceitável pela organização. No que diz respeito ao processo disciplinar, qual das ações a seguir é INCORRETA?",
+                "opcoes": [
+                      "A ação disciplinar deve ser imediata, consistente, pessoal e informativa.",
+                      "A ação disciplinar deve ser progressiva.",
+                      "A ação corretiva deve ser preferida à ação punitiva.",
+                      "A punição deve ser a ação final e última de qualquer ação disciplinar.",
+                      "Toda ação disciplinar deve variar de acordo com a situação. 16"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>A ação disciplinar deve ser imediata, consistente, pessoal e informativa.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional tem que executar uma tarefa na qual o mais importante é a precisão, com o mínimo de mensa- gens e um grupo de cinco pessoas. Ele pode escolher en- tre três tipos de redes formais de comunicação: em for- ma de roda, de cadeia e de círculo (todos os canais). Qual deve ser a escolhida e por quê?",
+                "opcoes": [
+                      "Roda - experiências demonstraram que grupos de indivíduos colocados dessa forma, ao cabo de alguns poucos ensaios, resolveram os problemas de maneira mais ordenada e rápida do que no círculo e na cadeia.",
+                      "Círculo - indicado porque envolve velocidade e cla- reza de organização, visto que a roda e a cadeia, por serem altamente rotineiras e de caráter centralizado, em geral, não funcionam.",
+                      "Círculo - experiências demonstraram que nesta rede formal as mensagens são mais rapidamente aceitas do que na roda ou na cadeia.",
+                      "Cadeia - mais indicada para a satisfação dos mem- bros, facilita a emergência de um líder e permite que todos os membros do grupo se comuniquem ativamente uns com os outros.",
+                      "Cadeia - indicada porque segue rigidamente a cadeia formal de comando, diferente do tipo roda que depen- de do líder para agir, e do círculo, em que todos os membros do grupo têm liberdade para contribuir."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Cadeia - indicada porque segue rigidamente a cadeia formal de comando, diferente do tipo roda que depen- de do líder para agir, e do círculo, em que todos os membros do grupo têm liberdade para contribuir.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Com o objetivo de controlar a alocação de recursos da área administrativa da organização, João tem que comunicar aos seus funcionários que a organização está tendo pro- blemas financeiros. Para tanto, ele deve",
+                "opcoes": [
+                      "utilizar a comunicação oral, que é o método básico de comunicação mais recomendado quando se quer abor- dar um maior número de receptores com baixa pro- babilidade de distorções potenciais.",
+                      "utilizar a comunicação não verbal associada à lingua- gem corporal, que favorece a compreensão do signifi- cado literal do que é transmitido por um emissor.",
+                      "desenvolver um modelo de comunicação paralinguística em que, através da entonação verbal, ele pode mudar o significado da mensagem segundo o contexto e a posição hierárquica do receptor.",
+                      "escrever um memorando em que, de forma tangível e verificável, tanto para o emissor quanto para o recep- tor, seria possível o registro da mensagem que foi cui- dadosamente redigida.",
+                      "estabelecer um modelo de filtragem permitindo que os receptores do processo de comunicação vejam e escutem seletivamente, com base nas suas necessi- dades, motivações e características pessoais."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>escrever um memorando em que, de forma tangível e verificável, tanto para o emissor quanto para o recep- tor, seria possível o registro da mensagem que foi cui- dadosamente redigida.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise as proposições a seguir, referentes a clima organizacional. I - O clima organizacional reflete o espírito das pessoas da organização, como elas se relacionam entre si e com a organização, como administram seus confli- tos, como lidam com seus temores e percepções nos diversos momentos por que passa a organização. II - Os respondentes de uma pesquisa de clima organizacional realizam uma sequência de opera- ções bastante complexa – perceber-interpretar-des- crever o que veem na empresa – de forma inteira- mente consciente, mesmo que se saiba que grande parte da realidade é de fato percebida de forma não consciente e que, mesmo assim, influencia nosso comportamento. III - O clima organizacional não é gerado apenas pelo que as pessoas sentem e pensam, mas também con- firmado pelo que as pessoas correspondentemente fazem e, desse modo, é algo que vai das predispo- sições internas e profundas do indivíduo (valores) às suas manifestações pessoais observáveis (atitu- des e comportamentos). IV - O clima é uma característica estanque de uma organi- zação, determinado pela influência de elementos inter- nos como mudanças no corpo diretivo, programas de demissão, benefícios oferecidos, relações chefe subor- dinado, e externos, como globalização da economia, pacotes econômicos governamentais, desemprego. São corretas APENAS as proposições",
+                "opcoes": [
+                      "I e II.",
+                      "I, II e III.",
+                      "I, II e IV.",
+                      "I, III e IV.",
+                      "III e IV."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Todo grupo de trabalho pode ser transformado em uma equipe?",
+                "opcoes": [
+                      "Sim, já que se sabe que grupo de trabalho e equipe são a mesma coisa: um grupo de pessoas que precisam trabalhar de forma colaborativa para atingir resultados, por meio de um programa educacional permanente.",
+                      "Não, porque é impossível vencer as resistências e as crenças não testadas dos integrantes do grupo, que devem estar dispostos a produzir um trabalho em equipe e, ao mesmo tempo, estar comprometidos com os resultados.",
+                      "Somente no caso em que seus membros sejam pessoas com habilidades iguais e consigam chegar a um grau de profundo comprometimento com o cresci- mento pessoal de cada um e com o sucesso deles mesmos e dos outros.",
+                      "Nem sempre, apenas em situações em que há um grupo altamente coeso, já que, nesse caso, os seus membros se identificam fortemente com o grupo.",
+                      "Nem sempre, já que para o grupo se tornar uma equipe é necessário existirem características especiais em termos de afinidade, sentido de missão e trabalho cooperativo. 17"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Nem sempre, já que para o grupo se tornar uma equipe é necessário existirem características especiais em termos de afinidade, sentido de missão e trabalho cooperativo. 17</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Com relação ao conceito de bem na gestão de recursos e patrimonial da administração pública, afirma-se que I - o conceito de bem está relacionado à utilidade, à quantidade e a um valor econômico ou riqueza; II - os bens são susceptíveis de apropriação, direitos e obrigações podendo ser designados como patrimônio; III - a gestão do patrimônio imobiliário inclui os bens imó- veis e os bens não consumíveis; IV - a gestão do patrimônio mobiliário permanente inclui os bens móveis e os bens consumíveis. Estão corretas as afirmações",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II, III e IV.",
+                      "II e III, apenas.",
+                      "III e IV, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O departamento de administração de materiais de uma empresa recebeu 5.000 requisições no ano de 2009, sendo que cada requisição teve uma média de 1,8 itens. Sabendo que 7.650 itens foram entregues dentro do pra- zo, qual foi o nível de serviço de atendimento do departa- mento, em percentual? (Obs: use arredondamento para uma casa decimal)",
+                "opcoes": [
+                      "90,0%",
+                      "85,0%",
+                      "80,0%",
+                      "65,4%",
+                      "55,5%"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>85,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma empresa que usa o modelo de reposição contínua na gestão de estoques tem um consumo médio de um item em estoque de 1.000 unidades por mês e mantém um estoque de segurança de 100 unidades. Supondo que o prazo de entrega, após a colocação do pedido, é de 10 dias úteis, que as compras são feitas em lotes de 5.000, e considerando 20 dias úteis por mês, qual é a quantidade do ponto de pedido? Formulário: PP = (T x D) + ES lead time onde: PP: Ponto de Pedido T : tempo de lead time lead time D: Demanda ES: Estoque de segurança",
+                "opcoes": [
+                      "50",
+                      "500",
+                      "600",
+                      "1.000",
+                      "5.000"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>600</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na gestão de estoques, o modelo de reposição periódica, também conhecido como modelo de estoque máximo, tem como característica",
+                "opcoes": [
+                      "obter um estoque de segurança menor que o modelo do lote padrão.",
+                      "ter um lote de compra padrão e igual ao Lote Econômico de Compra (LEC).",
+                      "ter um lote de compra variável e definido quando o nível do item atinge o ponto de pedido.",
+                      "manter constantes os intervalos de emissão dos pedidos de compra.",
+                      "definir o lote de compra com base em descontos por volume."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>manter constantes os intervalos de emissão dos pedidos de compra.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Todo bem patrimonial sofre desgaste com a sua utilização, sendo necessárias ações para que ele se mantenha operacional até o fim de sua vida útil. A vida econômica de um bem é o período de tempo em que o bem consegue exercer suas funções até o momento em que o",
+                "opcoes": [
+                      "valor contábil é menor que a soma do custo operacional com o de manutenção.",
+                      "valor de revenda do bem menos o valor residual da depreciação é mínimo.",
+                      "valor de revenda ultrapassa o valor depreciado.",
+                      "custo operacional é menor que o custo residual.",
+                      "Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os itens classe A são",
+                "opcoes": [
+                      "7 e 8.",
+                      "3 e 6.",
+                      "2, 3 e 6.",
+                      "3, 4 e 10.",
+                      "1, 6, 7 e 8."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 e 6.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Qual das seguintes correlações entre o item e a sua classe é válida?",
+                "opcoes": [
+                      "1, B.",
+                      "3, C.",
+                      "5, C.",
+                      "7, B.",
+                      "9, B."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>1, B.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Após o término do inventário físico dos itens em estoque, deve-se calcular um índice representativo da acurácia dos controles de movimentação de materiais da empresa. Con- siderando que foram inventariados 10.000 itens e encon- trados 1.200 itens com divergências, o índice de acurácia desse estoque é de",
+                "opcoes": [
+                      "12,0%",
+                      "13,6%",
+                      "76,0%",
+                      "88,0%",
+                      "94,0%"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>88,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Valor de compra R$ 500.000,00 Vida útil 25 anos Valor residual R$ 50.000,00 Considerando o método de depreciação linear e as caracte- rísticas do bem patrimonial apresentados na tabela acima, quais são a depreciação acumulada e o valor residual do bem patrimonial ao final do seu quarto ano de utilização? Depreciação acumulada Valor residual (R$) (R$)",
+                "opcoes": [
+                      "30.000,00 420.000,00",
+                      "36.000,00 464.000,00",
+                      "48.000,00 402.000,00",
+                      "72.000,00 428.000,00",
+                      "80.000,00 420.000,00"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>72.000,00 428.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O fenômeno da globalização e as inovações tecnológicas nas telecomunicações possibilitaram o desenvolvimento do pregão eletrônico que tem como características: I - utilização de recursos de criptografia e autenticações; II - necessidade de credenciamento prévio do fornece- dor; III - confrontação direta entre fornecedores em sessão pública por meios eletrônicos, como a Internet. Está(ão) correta(s) APENAS a(s) característica(s)",
+                "opcoes": [
+                      "I.",
+                      "I e II.",
+                      "I e III.",
+                      "II.",
+                      "III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral",
+                      "ortografia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Banco Central do Brasil produz e acumula uma varieda- de muito grande de documentos que vai exigir a utilização de métodos de arquivamentos diferenciados. Nesse sen- tido, os documentos referentes à vinculação e desvinculação de títulos, à baixa de custódia, à compra e venda de títulos, à transferência de custódia sem movi- mentação financeira devem ser organizados utilizando-se o método de arquivamento",
+                "opcoes": [
+                      "Ideográfico.",
+                      "Variadex.",
+                      "Sondex.",
+                      "Numérico.",
+                      "Automático."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Ideográfico.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Nas localidades onde o Banco Central do Brasil possui re- presentação regional, um cidadão comum pode enviar carta com reclamação, elogio ou sugestão, e ela será encami- nhada à Ouvidoria do Banco. Se a Ouvidoria receber car- tas do Rio Grande do Sul, como, por exemplo, de (1) Santa Maria; (2) Caxias do Sul; (3) Novo Hamburgo; (4) Grama- do e (5) Porto Alegre, deverá fazer a ordenação dessas cartas. Se for utilizado o método geográfico de arquiva- mento, na modalidade estado, cidade e correspondente, a ordenação será a seguinte:",
+                "opcoes": [
+                      "5,4,3,2,1",
+                      "5,2,4,3,1",
+                      "4,3,2,5,1",
+                      "2,4,3,5,1",
+                      "1,2,4,3,5 19"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>5,2,4,3,1</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Banco Central do Brasil, assim como muitos órgãos pú- blicos, constitui comissões permanentes de avaliação de documentos, visando a determinar os prazos de retenção de documentos e a destinação após esse prazo. Elabora- se, portanto, a tabela de temporalidade, que vai estabele- cer critérios para a migração do suporte e a destinação final. A destinação final, elemento importante da tabela de temporalidade, apresenta duas possibilidades, que são:",
+                "opcoes": [
+                      "eliminação ou recolhimento.",
+                      "digitalização ou microfilmagem.",
+                      "arquivo corrente ou arquivo intermediário.",
+                      "conservação ou restauração.",
+                      "proteção ou sigilo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>eliminação ou recolhimento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional do Banco Central do Brasil é o responsá- vel por analisar os documentos que o banco recebe, dan- do o encaminhamento devido às áreas. Esse profissional recebe os seguintes documentos: I – envelope com periódicos mensais da classe dos ban- cários para distribuição aos funcionários; II – envelope endereçado ao Departamento Financeiro do Banco; III – envelope para um funcionário do Banco, com infor- mação pessoal; IV – envelope destinado à Ouvidoria. Que documentos serão abertos, registrados e distribuídos?",
+                "opcoes": [
+                      "I e II.",
+                      "I e IV.",
+                      "II e III.",
+                      "II e IV.",
+                      "III e IV."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um funcionário que atua na área de atendimento ao público observou a presença de vítima de mal súbito, devendo oferecer a essa vítima os primeiros socorros, até a chegada do socorro especializado. Considere os procedimentos que ele poderá adotar: I - avaliar os riscos vigentes e iminentes; II - proteger-se contra possíveis contaminações; III - convocar a autoridade policial; IV - remover a vítima para local protegido; V - providenciar o socorro especializado. Estão corretos APENAS os procedimentos",
+                "opcoes": [
+                      "I e III.",
+                      "I e IV.",
+                      "I, II e V.",
+                      "II, III e IV.",
+                      "II, III e V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, II e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um cliente, após longo tempo de espera na fila de aten- dimento bancário, vem a desmaiar, em virtude da prolongada permanência em pé, do estresse emocional ou do cansaço extremo. Dentre os sinais que indicam a ocorrência do desmaio citam-se",
+                "opcoes": [
+                      "coloração avermelhada da pele e alta pressão arterial.",
+                      "estado de inconsciência e taquicardia intensa.",
+                      "estado de inconsciência e baixa pressão arterial.",
+                      "extremidades do corpo frias e alta pressão arterial.",
+                      "taquicardia elevada e presença de suor intenso."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>estado de inconsciência e baixa pressão arterial.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os extintores de Dióxido de Carbono (CO ) são compos- 2 tos por gases inertes, de baixa temperatura, ao passo que os extintores de Água Pressão (AP) são compostos por determinada quantidade de H O, pressurizada no cilindro. 2 Ambos podem ser utilizados no combate a pequenos focos de incêndios classe A, como vasilhames contendo lixo descartável (papéis). Assim utilizados, o foco de incêndio estará sendo combatido por",
+                "opcoes": [
+                      "abafamento e resfriamento.",
+                      "abafamento e confinamento.",
+                      "resfriamento e isolamento.",
+                      "isolamento e abafamento.",
+                      "isolamento e resfriamento. 12"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>abafamento e resfriamento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Estabelece o Art. 61 da Portaria 387/2006 que “os estabe- lecimentos financeiros que realizarem guarda de valores ou movimentação de numerário deverão possuir serviço orgânico de segurança, autorizado a executar vigilância patrimonial ou transporte de valores, ou contratar empresa especializada, devendo, em qualquer caso, possuir plano de segurança devidamente aprovado pelo DREX”. Esse plano de segurança deverá discriminar",
+                "opcoes": [
+                      "as características do anteparo blindado para perma- nência do vigilante, quando necessário, durante o expediente para o público, ou enquanto houver movi- mentação de numerário no interior do estabelecimento.",
+                      "a quantidade e a disposição dos vigilantes, adequadas às peculiaridades do estabelecimento, à sua localiza- ção, à área, às instalações e ao encaixe.",
+                      "os equipamentos usados para captar e gravar as imagens de toda a movimentação de público no interior do estabelecimento, as quais deverão permanecer armazenadas em meio eletrônico, por um período mínimo de 90 (noventa) dias.",
+                      "os tipos de armamento e munições empregados e os procedimentos adequados a cada tipo de ação.",
+                      "o sistema de comunicação, fixo e móvel, que permita, com rapidez e segurança, o contato entre os vigilantes na agência protegida."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a quantidade e a disposição dos vigilantes, adequadas às peculiaridades do estabelecimento, à sua localiza- ção, à área, às instalações e ao encaixe.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com o Art. 144 da Constituição Federal, a segurança pública é uma obrigação do Estado, porém direito e responsabilidade de todos. Ela deve ser exercida para a preservação da ordem pública, da incolumidade das pessoas e do patrimônio. Dentre os diversos organismos de segurança pública, são responsáveis pela apuração das infrações penais de interesse da União e dos entes federados, respectivamente,",
+                "opcoes": [
+                      "Agência Brasileira de Inteligência e Polícias Civis.",
+                      "Polícias Civis e Polícias Militares.",
+                      "Polícias Civis e Força Nacional de Segurança.",
+                      "Departamento de Policia Federal e Agência Brasileira de Inteligência.",
+                      "Departamento de Polícia Federal e Polícias Civis."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Departamento de Polícia Federal e Polícias Civis.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Constituição Federal de 1988, em seu Art. 5 , estabelece os direitos e deveres individuais do cidadão: “Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residen- tes no país, a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.” Tendo como base este artigo da Constituição, pode-se afirmar que I - qualquer pessoa, detida pela segurança, deverá ser imediatamente entregue aos órgãos policiais, não podendo ser submetida a nenhum tipo de maltrato ou humilhação; II - a prática de racismo constitui crime inafiançável e somente será tolerada em comunidades de imigran- tes, em cuja cultura essa prática seja permitida; III - um suspeito, ao ser detido, poderá solicitar a identifi- cação de seus detentores; contudo, os vigilan- tes não são obrigados a fazê-la; IV - um meliante, ao ser detido pela segurança de uma instituição, deverá ser informado de seus direitos, inclusive o de permanecer calado, se assim o desejar; V - a prática de tortura contra presos, com o fim de obtenção de informações ou confissão, será consi- derada crime inafiançável, por ela respondendo não só os executantes, mas também os mandantes e os que, tendo conhecimento e podendo evitá-la, se omitiram. Estão corretas APENAS as afirmações",
+                "opcoes": [
+                      "I e III.",
+                      "I, IV e V.",
+                      "II, III e IV.",
+                      "II, III e V.",
+                      "II, IV e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um vigilante bancário, contratado por empresa terceirizada, é desviado de suas funções pelo próprio cliente, que o incumbe de tarefas diversas das estabelecidas no plano de segurança. Nesse caso, de acordo com a legislação pertinente,",
+                "opcoes": [
+                      "a empresa de segurança deverá ser citada na ação de responsabilidade civil, se esse procedimento for previsto no contrato de prestação de serviços, no caso em questão.",
+                      "a empresa de segurança será responsável pelo pagamento de ações indenizatórias, se acionada e comprovado o ilícito.",
+                      "o vigilante assumirá as responsabilidades penal e civil pelas ações que possam ser geradas pelo desvio de função.",
+                      "o vigilante responderá penalmente, e o contratante do serviço será o responsável pelo pagamento de indenizações decorrentes.",
+                      "o contratante da empresa de segurança deverá identificar e acionar a pessoa responsável pelo desvio de função do vigilante. 13"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a empresa de segurança deverá ser citada na ação de responsabilidade civil, se esse procedimento for previsto no contrato de prestação de serviços, no caso em questão.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O contrato de prestação de serviços relativos à mão de obra, com repasse de responsabilidade a terceiros, é regulado pelo Código Civil Brasileiro e não pela Consolida- ção das Leis do Trabalho (CLT), tendo como embasamento legal o Enunciado n 331, do Tribunal Superior do Trabalho. A esse respeito, considere as DESVANTAGENS para as empresas, apresentadas a seguir. I - A empresa contratante responde pelos créditos trabalhistas, no caso de inadimplência da prestadora de serviços. II - A empresa terceirizada pode tornar-se concorrente da contratante, expandindo seus negócios numa atividade em que agora tem conhecimento. III - O custo de controle dos serviços terceirizados torna-se, progressivamente, maior. IV - Há maior risco de perder bons funcionários, por causa da rotatividade da mão de obra dessas empresas terceirizadas. V - A empresa terceirizada pode atuar em apoio a outras empresas concorrentes da contratante. Estão corretas APENAS as desvantagens",
+                "opcoes": [
+                      "I, II e IV.",
+                      "I, II e V.",
+                      "I, III e IV.",
+                      "II, III e V.",
+                      "III, IV e V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I, III e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Partindo do princípio jurídico de que qualquer pessoa do povo pode e a autoridade policial tem o dever de prender quem seja pego em flagrante delito, o vigilante, em sua área de responsabilidade, observa um indivíduo que, usando de rapidez e destreza, se apodera do relógio de um transeunte, o qual, pego de surpresa, não tem chances de evitar o fato. Após detido para ser entregue à autoridade policial, o meliante será arrolado com base no artigo 155 do Código Penal, que o enquadrará no crime de",
+                "opcoes": [
+                      "furto.",
+                      "roubo.",
+                      "estelionato.",
+                      "dano.",
+                      "extorsão."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>furto.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O vigilante, em serviço na portaria da instituição, flagra determinado funcionário que, ao final do expediente, conduz em seus pertences componentes eletrônicos desviados da empresa. Vislumbrando a possibilidade de ganho extra, o vigilante exige determinada quantia em dinheiro para que o fato não seja levado ao conhecimento da empresa. De acordo com o Código Penal, art. 158, esse crime contra o patrimônio o enquadra em",
+                "opcoes": [
+                      "apropriação indébita.",
+                      "furto qualificado.",
+                      "chantagem.",
+                      "extorsão.",
+                      "estelionato."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>extorsão.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Pode-se definir uma crise como sendo “um problema muitíssimo grave, capaz de afetar, profun- damente, o funcionamento de determinadas estruturas e modificar o comportamento das pessoas envolvidas”. ARAÚJO, J.H. Livro Básico do Vigilante. Rio de Janeiro: Ao Lidador, 2002, p. 164. As agências bancárias têm sido alvo de ações de crimino- sos que, de forma violenta, têm gerado situações de crise, sendo as mais comuns os sequestros de funcionários e os assaltos com reféns no interior de agências. Em relação a esses exemplos de crise, analise os fatores abaixo. I - Ocorre quando não há preparação para seu enfrentamento. II - A sua resolução está comprimida no tempo. III - Causa ameaça à vida. IV - Ocorre de forma imprevisível. Estão corretos APENAS os fatores",
+                "opcoes": [
+                      "I e II.",
+                      "I e IV.",
+                      "I, II e III.",
+                      "II, III e IV.",
+                      "III e IV."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II, III e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O alarme é um equipamento de segurança eletrônica, exigido por lei como ação preventiva e ostensiva contra assaltos, sequestros e arrombamentos, entre outros. O sistema de alarme pode ser disparado por meio de acionadores de pânico silenciosos, fixos ou remotos, senhas de pânico ou sensores de presença. Os acionado- res desses alarmes podem ser instalados em ambientes estrategicamente definidos e são do tipo",
+                "opcoes": [
+                      "sísmico – dispositivo instalado em portas e janelas, com- posto por duas partes de metal, que capta as vibra- ções decorrentes de ataques a estruturas metálicas.",
+                      "ativo – composto por módulo emissor e módulo receptor de luz ultravioleta, que dispara quando há corte de luz.",
+                      "passivo – em que a detecção se dá por calor e movimento, combinando raio infravermelho com micro-ondas.",
+                      "magnético – detecção digital de alta sensibilidde, que capta frequências típicas de ruídos e vibrações ambientais.",
+                      "lux – dispositivo que capta a presença de luzes na área do acionador, ativando o alarme. 14"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>passivo – em que a detecção se dá por calor e movimento, combinando raio infravermelho com micro-ondas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Decreto n 4.553, de 27/12/2002, que trata da salvaguarda de assuntos e documentos de interesse do Estado e da sociedade, determina que “toda e qualquer pessoa que tome conhecimento de assunto sigiloso fica, automa- ticamente, responsável pela manutenção de seu sigilo”. Entre as regras básicas que devem ser observadas por todos aqueles que lidam com assuntos sigilosos, NÃO se inclui a de",
+                "opcoes": [
+                      "falar pouco evitando comentar assuntos de serviço com pessoas estranhas ao seu setor de trabalho.",
+                      "comentar assuntos de serviço somente com as pessoas nas quais tenha plena confiança.",
+                      "ser discreto, não perdendo a atenção do que se passa à sua volta e não chamando a atenção para si.",
+                      "ouvir com atenção para poder interpretar as intenções das pessoas que o abordam.",
+                      "responder somente àquelas perguntas que não comprometam o serviço ou a segurança."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>comentar assuntos de serviço somente com as pessoas nas quais tenha plena confiança.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em uma instituição bancária, o acesso a determinadas informações deve ser limitado àqueles funcionários autorizados pelo proprietário da informação, uma vez que o vazamento desse tipo de informação representa quebra de sigilo bancário, expondo a instituição a riscos. O princípio que limita o acesso às informações tão somente às entidades legítimas é denominado",
+                "opcoes": [
+                      "acessibilidade.",
+                      "responsabilidade.",
+                      "disponibilidade.",
+                      "integridade.",
+                      "confidencialidade."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>confidencialidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Diante das mudanças climáticas que o planeta vem sofrendo e de suas consequências futuras, o homem começa a se conscientizar da importância da preservação ambiental para a sobrevivência da espécie humana. A legislação ambiental, apesar de severa, só será eficaz se o próprio homem tomar consciência da participação individual nesse esforço de preservação. São medidas de preservação e respeito ao meio ambiente: I - respeitar e preservar todas as formas de vida; II - usar racional e responsavelmente todos os recursos naturais como a água e o ar; III - somente efetuar a queima de lixo, se nele não houver a presença de materiais plásticos, borrachas ou pneus; IV - nunca jogar óleos combustíveis nos esgotos, apenas óleo de cozinha, pois este não contamina o lençol freático; V - não jogar lixo nas ruas, pois os bueiros ficam entupi- dos, alagando as vias públicas em época de chuvas. Estão corretas APENAS as medidas",
+                "opcoes": [
+                      "I, II e III.",
+                      "I, II e V.",
+                      "I, IV e V.",
+                      "II, III e IV.",
+                      "III, IV e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, II e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Incêndio é a queima de materiais inflamáveis que, fora de controle, pode causar prejuízos materiais e perdas humanas. Ao se deparar com um incêndio classe C em sua instalação, o vigilante deverá, de imediato, adotar três dos seguintes procedimentos: I - desligar a energia elétrica do setor afetado; II - dar início ao combate ao foco de incêndio, até a chegada dos bombeiros; III - informar o fato ao chefe da segurança e aguardar a solução do problema; IV - isolar a instalação, evitando a presença de curiosos e saqueadores; V - manter a calma, já que o pânico leva a ações incontroláveis. Os procedimentos a serem adotados e a sequência em que devem ocorrer são:",
+                "opcoes": [
+                      "III, IV e V",
+                      "IV, V e I",
+                      "IV, I e II",
+                      "V, IV e III",
+                      "V, I e II"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>V, I e II</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma contingência é algo que pode, ou não, vir a acontecer, mas cuja ocorrência acarretará grandes transtornos para a continuidade dos negócios da instituição. É preciso que haja um rápido e eficiente conjunto de ações que possibilite minimizar, ao máximo, os prejuízos materiais, humanos e financeiros à instituição. O grupo de executivos e técnicos que tem por missão avaliar e gerenciar os efeitos causados pelo fato adverso constitui o",
+                "opcoes": [
+                      "Comitê de Segurança.",
+                      "Comitê de Crise.",
+                      "Comitê de Gerenciamento de Crise.",
+                      "Grupo de Gerenciamento de Crise.",
+                      "Grupo de Administração de Crise."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Comitê de Crise.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um Plano de Contingências deve ser organizado a partir de um estudo de situação. Uma vez determinado onde se encontram as vulnerabilidades e analisado o histórico de incidentes de segurança, começa-se a avaliar as medidas preventivas existentes. Para viabilizar a aplicação do plano, são adotadas medidas preventivas agrupadas em categorias, dentre as quais a de",
+                "opcoes": [
+                      "equipamentos (físicos e técnicos).",
+                      "informe final.",
+                      "avaliação dos riscos.",
+                      "riscos citados.",
+                      "riscos naturais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>equipamentos (físicos e técnicos).</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Certificado Digital é um arquivo eletrônico que contém os dados de uma pessoa ou instituição, utilizados para com- provar sua identidade. Dentre as principais informações encontradas em um Certificado Digital, referentes ao usu- ário, citam-se:",
+                "opcoes": [
+                      "códigos de acesso ao sistema.",
+                      "informações biométricas para leitura ótica.",
+                      "dados de localização: endereço e Cep.",
+                      "dados de identificação pessoal: RG, CPF ou CNPJ.",
+                      "número de série e período de validade do certificado. 15"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>número de série e período de validade do certificado. 15</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Sobre a utilização de certificados digitais, considere os cuidados a seguir que seus titulares devem adotar. I - Somente utilizar o Certificado Digital após ter certeza de estar sozinho na área de trabalho. II - Não compartilhar com ninguém a senha de acesso à chave privada. III - Em caso de comprometimento, ou suspeita de comprometimento, de sua chave privada, solicitar a imediata revogação do certificado. IV - Após utilizar o certificado digital, retirar o token USB ou o smartcard e reiniciar o computador, como medida de segurança. V - Em ambiente acessível a várias pessoas, utilizar soluções de controle de acesso e de proteção ao sistema operacional. Estão corretos APENAS os cuidados",
+                "opcoes": [
+                      "I, II e III.",
+                      "I, II e IV.",
+                      "I, IV e V.",
+                      "II, III e V.",
+                      "III, IV e V."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II, III e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O emprego de equipamentos eletrônicos, no controle de acesso às agências bancárias, tornou-se uma necessidade, tendo em vista inibir o acesso de pessoas armadas ao interior das agências e dificultar as ações criminosas contra essas instituições. Dentre os diversos equipamen- tos empregados, NÃO se encontra(m)",
+                "opcoes": [
+                      "escudo blindado.",
+                      "eclusa.",
+                      "portal.",
+                      "porta giratória.",
+                      "câmeras de monitoramento."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>escudo blindado.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O objetivo da Inteligência Competitiva é avaliar, em nível de mercado, que procedimentos devem ser adotados quando se realiza a coleta de dados sobre os concorrentes de determinada empresa e como devem ser utilizadas as informações que resultam da análise desses dados. O dado bruto sobre um concorrente, obtido pelo setor de marketing de determinada instituição, não analisado, e do qual ainda não se tem uma avaliação de veracidade, é a(o)",
+                "opcoes": [
+                      "avaliação primária.",
+                      "análise primária.",
+                      "informe.",
+                      "diagnose.",
+                      "boato."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>informe.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um dos crimes que mais causam prejuízos às pessoas e às instituições é a fraude. Utilizando-se da Internet, fraudadores têm enviado e-mails com mensagens que induzem o usuário a fornecer dados pessoais e financeiros. Esse tipo de fraude, que se dá mediante o envio de men- sagem não solicitada, supostamente de uma instituição conhecida, como um banco, e que procura induzir o acesso a páginas fraudulentas, projetadas para furtar dados pessoais e financeiros, constitui a prática de",
+                "opcoes": [
+                      "spam.",
+                      "phishing.",
+                      "worm.",
+                      "adware.",
+                      "spyware."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>phishing.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Muitas emergências podem ter seu efeitos reduzidos, e até evitados, se as empresas pensarem, previamente, na possibilidade de sua ocorrência e tiverem tomado as providências, quando de sua concretização. De acordo com a International Business Consultants, INC, os riscos devem ser classificados sob o ponto de vista da possibilidade de ocorrência e da severidade dos danos. Esses riscos, classificados em três categorias, são",
+                "opcoes": [
+                      "provocados por imperícia, por desatenção e por falha de equipamento.",
+                      "provocados por desastres naturais, por atos humanos e por desatenção.",
+                      "falhas no equipamento, desastres naturais e provoca- dos por imperícia.",
+                      "desastres radioativos, naturais e tecnológicos.",
+                      "desastres naturais, tecnológicos e provocados por atos humanos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>desastres naturais, tecnológicos e provocados por atos humanos.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As organizações estão sujeitas a inúmeras ocorrências que variam de acordo com o tipo de negócio realizado e com as fragilidades encontradas no local em que estão situadas. Num Plano de Contingências, a estratégia que tem por objetivo principal identificar condições, situações ou pessoas que possam ser causadoras de ameaças, de modo a criar fatores que tenham também a possibili- dade de inibir possíveis ocorrências, é a",
+                "opcoes": [
+                      "pesquisa estratégica.",
+                      "avaliação estratégica.",
+                      "correção.",
+                      "prevenção.",
+                      "recuperação. 16"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>prevenção.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Durante o procedimento de carregamento do caixa eletrô- nico de uma instituição bancária, situado em um posto de gasolina, os quatro vigilantes encarregados da proteção do numerário que se encontra no carro-forte são atacados por meliantes fortemente armados, que disparam em sua direção. Os vigilantes reagem e ocorre intensa troca de tiros. Na oportunidade, o cidadão X, que passava pelo lo- cal, recebe um disparo fatal. Dias depois, no curso do in- quérito policial para investigar a sua morte, o exame peri- cial é divulgado, indicando que o disparo partiu de um revólver calibre 22. Considerando essas informações e com base na Lei n 7.102/1983, conclui-se que",
+                "opcoes": [
+                      "os proprietários do posto de gasolina desrespeitaram norma de segurança aplicável ao carregamento de di- nheiro em caixas eletrônicos.",
+                      "os vigilantes desrespeitaram norma de segurança na reação ao ataque ao carro-forte.",
+                      "o disparo que atingiu X partiu da arma de um dos meliantes.",
+                      "o número de vigilantes empregados na proteção ao numerário era inadequado.",
+                      "X se aproximou de forma inadequada e imprudente do carro-forte."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>o disparo que atingiu X partiu da arma de um dos meliantes.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os meliantes X, Y e Z planejam um assalto contra determi- nado estabelecimento. Ao relatar para os comparsas quais os mecanismos que compõem o sistema do referido esta- belecimento, Z indica ter observado apenas: (1) alarme com comunicação imediata com a delegacia policial das redon- dezas, (2) presença de oito vigilantes armados no local, (3) porta de travamento de segurança, com detector de metais e (4) mecanismo de segurança com feixes de laser acionados enquanto o estabelecimento se encontra fecha- do. Com tais informações, conclui-se que, de acordo com a Lei n 7.102/1983, o estabelecimento em questão NÃO é um estabelecimento financeiro onde há guarda de valores em virtude da",
+                "opcoes": [
+                      "ausência de sistema de telefonia especial, artefatos que retardem a ação de criminosos e locais especiais de proteção ao cliente em caso de ações violentas.",
+                      "ausência de equipamentos que possibilitem a identifi- cação dos criminosos, artefatos que retardem a ação dos criminosos ou cabina blindada com permanência ininterrupta de vigilante.",
+                      "presença de detector de metais na porta de travamento de segurança.",
+                      "presença de mecanismo de segurança com feixes de laser.",
+                      "presença de oito e não dez vigilantes armados no local."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>ausência de equipamentos que possibilitem a identifi- cação dos criminosos, artefatos que retardem a ação dos criminosos ou cabina blindada com permanência ininterrupta de vigilante.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe as informações a seguir sobre diferentes pessoas. W: espanhol de nascimento, brasileiro naturalizado, portei- ro, sexo masculino, 35 anos, portador de certificado de dispensa do serviço militar, segundo grau completo. X: brasileiro nato, pedreiro, sexo masculino, 24 anos; dei- xou de votar nas últimas eleições, mas justificou sua ausência; estudou até a sétima série do primeiro grau. Y: brasileira nata, secretária, sexo feminino, 21 anos; sem antecedentes criminais; estudou até a oitava série do primeiro grau. Z: brasileiro nato, motorista, sexo masculino, 31 anos; sem antecedentes criminais registrados, mas tendo sido in- vestigado em uma ocorrência policial; estudou até a quinta série do primeiro grau. Analisando as informações acima, conclui-se, com base na Lei n 7.102/1983, que têm os requisitos necessários para serem vigilantes:",
+                "opcoes": [
+                      "W e Y, somente.",
+                      "W, Y e Z, somente.",
+                      "W, X, Y e Z.",
+                      "X e Y, somente.",
+                      "X e Z, somente."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>W, X, Y e Z.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "X e Y prestam determinado serviço profissional no seu lo- cal de trabalho. Por desatenção, X dispara acidentalmente sua arma, atingindo Y. X é preso e encaminhado à delega- cia próxima ao local, onde devolve ao representante da empresa que o empregava o uniforme e a arma que usa- va, sendo encaminhado a uma sala, onde deverá aguar- dar, em prisão especial, pela manifestação do juiz sobre seu caso. Y, por sua vez, é levado a um hospital particular pago pela empresa que o empregava, onde é submetido a uma cirurgia, a qual, no entanto, não é suficiente para lhe salvar a vida. A família de Y é comunicada, na oportuni- dade, que será beneficiada pelo recebimento do seguro de vida em grupo, feito pela empresa. De acordo com a Lei n 7.102/1983, qual dos fatos abaixo NÃO é indicativo de que X e Y eram vigilantes?",
+                "opcoes": [
+                      "Y teve a despesa do hospital paga pela empresa que o empregava.",
+                      "Y tinha seguro de vida em grupo pago pela empresa que o empregava.",
+                      "X foi encaminhado à prisão especial por ato decorrente do serviço.",
+                      "X e Y tinham porte de arma quando em serviço.",
+                      "X e Y usavam uniformes em serviço. 17"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Y teve a despesa do hospital paga pela empresa que o empregava.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Durante um assalto a uma instituição bancária, os vigilantes que faziam a segurança do local trocam tiros e depois en- tram em luta corporal com os criminosos. No confronto, três assaltantes são mortos. Durante a investigação policial que se segue, as autoridades concluem que os vigilantes agi- ram corretamente na proteção do patrimônio da instituição bancária, mas decidem informar o Ministério da Justiça so- bre irregularidades nas armas que teriam sido usadas pelos vigilantes no confronto, em razão dos dados presentes nos exames cadavéricos realizados nos corpos dos assaltan- tes. Em tais exames, os peritos constataram marcas de quei- maduras similares a armas elétricas de choque (tasers), marcas de golpes de cassetetes de madeira, perfurações de balas causadas por revólveres calibre 38 e lacerações vermelhas nos olhos, condizentes com uso de gás de pimenta. Diante de tais informações, considerando a Lei n 7.102/1983, conclui-se que os vigilantes",
+                "opcoes": [
+                      "usavam revólveres não permitidos para o seu trabalho.",
+                      "usavam cassetetes não permitidos para o seu trabalho.",
+                      "usavam revólveres, cassetetes e armas elétricas de choque permitidos no seu trabalho.",
+                      "usavam armas elétricas de choque e recipientes de gás de pimenta sem permissão no seu trabalho.",
+                      "deveriam utilizar cassetete de borracha, e não de madeira, em seu trabalho."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>usavam armas elétricas de choque e recipientes de gás de pimenta sem permissão no seu trabalho.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "X e Y são vigilantes e estão conduzindo, em serviço, veí- culo da instituição financeira em que trabalham, para rece- bimento de numerário a ser transportado de um depósito para outro. Ambos estão uniformizados e armados. No ca- minho para o primeiro depósito, param em um restaurante de beira de estrada para almoçar. Na oportunidade, quan- do já se encontram dentro do restaurante, são surpreendi- dos por policiais militares que decidem prendê-los em fla- grante por porte ilegal de arma de fogo de uso permitido. Analisando o trecho da narrativa referente à decisão da prisão em flagrante, conclui-se que, de acordo com a Lei n 10.826/2003,",
+                "opcoes": [
+                      "os policiais estão certos, porque os vigilantes deveriam ter deixado suas armas dentro de veículo.",
+                      "os policiais estão certos, porque os vigilantes só pode- riam estar armados quando estivessem no transporte efetivo de numerário.",
+                      "os policiais estão errados, porque o caso seria de pri- são por posse irregular de arma de fogo e não porte ilegal de arma de fogo.",
+                      "os policiais estão errados, porque os vigilantes podem portar armas em serviço ou fora dele.",
+                      "não se pode afirmar se os policiais estão corretos ou errados, pois faltam informações."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>não se pode afirmar se os policiais estão corretos ou errados, pois faltam informações.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Habilitado como vigilante e contratado por uma empresa de segurança, X recebe uma arma para utilização em ser- viço. Por ter tido treinamento adequado, ter amplo conhe- cimento dos procedimentos de segurança e ainda por es- tar assustado com a violência no bairro onde mora, X com- pra uma arma do mesmo calibre da que utiliza no serviço para mantê-la no seu apartamento. Algumas semanas de- pois, no entanto, entusiasmado com uma vitória do time de futebol para o qual torce, X retira a arma que comprara do local onde estava guardada e dispara alguns tiros da va- randa de seu apartamento, em comemoração. Logo de- pois, deixa a arma sobre a mesa de jantar e vai dormir. Seu filho adolescente, 14 anos, encontra a arma sobre a mesa e a leva para o colégio no dia seguinte. O menor é apreendido pela polícia no momento em que mostrava a arma para um colega. Analisando essa narrativa, conclui-se que, tendo em vista a Lei n 10.826/2003, X",
+                "opcoes": [
+                      "praticou quatro crimes: porte irregular de arma de fogo de uso permitido; omissão de cautela; disparo de arma de fogo e entrega de arma de fogo a menor de idade.",
+                      "praticou três crimes: posse irregular de arma de fogo de uso permitido; omissão de cautela e disparo de arma",
+                      "praticou dois crimes: omissão de cautela e posse irre- gular de arma de fogo de uso permitido.",
+                      "praticou um crime: porte ilegal de arma de fogo de uso permitido.",
+                      "não praticou crime algum."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>praticou três crimes: posse irregular de arma de fogo de uso permitido; omissão de cautela e disparo de arma</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Ao final de um inquérito policial em que se investigavam ações ilícitas praticadas por VIGILANTES, a autoridade verificou que 1 - W, ex-militar, tem em casa uma pistola de propriedade particular a qual cedeu repetidas vezes para o seu filho de 17 anos; 2 - X modificou o mecanismo de travamento de sua arma, tornando-a de repetição (tipo metralhadora), o que é vedado pela legislação em vigor; 3 - Y, quando em serviço, entregou sua arma repetidas vezes a seu companheiro de trabalho, vigilante T, para ir ao banheiro; 4 - Z raspou o sinal identificador da arma que usava em serviço. Diante de tais informações e considerando a Lei n 10.826/2003, conclui-se que",
+                "opcoes": [
+                      "somente Y não praticou crime.",
+                      "somente W, Y e Z não praticaram crime.",
+                      "somente W praticou crime.",
+                      "somente X, Y e Z praticaram crime.",
+                      "todos praticaram crime. 18"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>somente Y não praticou crime.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Y tem 22 anos e é vigilante de uma instituição bancária que faz transporte de valores. Nessa função, de acordo com a Lei n 10.826/2003, é permitido a Y",
+                "opcoes": [
+                      "portar arma municiada em serviço e fora dele.",
+                      "fazer o carregamento de arma de fogo em serviço.",
+                      "adquirir arma de fogo no comércio legal.",
+                      "ter arma de fogo em sua residência.",
+                      "ter munição em sua residência."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>fazer o carregamento de arma de fogo em serviço.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "X é proprietário de uma empresa de segurança onde tra- balham os vigilantes Y, Z e W. Em determinada manhã, Y esquece de ir ao depósito de armas e munições do local para se preparar para o serviço, permanecendo desarma- do durante todo o dia. Ao cair da tarde, meliantes invadem a empresa e rendem Z, que se encontrava dormindo em uma guarita na porta da empresa, embora estivesse de serviço. Ao ver o colega em dificuldades, W inicia intensa troca de tiros com os meliantes, mas, ferido, acaba deixan- do sua arma cair ao solo, levando-a a disparar, atingindo um dos empregados da empresa. Os assaltantes conse- guem invadir o depósito de armas e munições da empresa e levam vários revólveres calibre 38 e duas espingardas calibre 16. No dia seguinte, X é aconselhado por um de seus advogados a registrar o assalto e comunicar o roubo à Polícia Federal, mas decide não fazê-lo. Tendo em vista as disposições presentes na legislacão em vigor, conclui-se que, dentre os personagens da narrativa, praticou/pratica- ram crime SOMENTE",
+                "opcoes": [
+                      "X.",
+                      "X e Y.",
+                      "X, Z e W.",
+                      "Z.",
+                      "Z e W."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>X.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A empresa de segurança XW é fechada por determinação do Ministério da Justiça, por terem sido verificadas diver- sas irregularidades em seu funcionamento. De acordo com a Lei n 7.102/1983, NÃO constitui exemplo de irregulari- dade que possa ter sido encontrada na empresa o fato de que",
+                "opcoes": [
+                      "as armas utilizadas pelos vigilantes eram de proprie- dade particular de um dos sócios da empresa.",
+                      "a administração da empresa era exercida por estran- geiros.",
+                      "a empresa não providenciara plano de saúde individual para os vigilantes.",
+                      "o depósito da empresa armazenava espingardas calibre 12 de fabricação estrangeira.",
+                      "os vigilantes não usavam uniforme."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>a empresa não providenciara plano de saúde individual para os vigilantes.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Y é preso e acusado de prática de comércio ilegal de arma de fogo, por expor à venda, sem autorização, segundo a autoridade policial, 75 revólveres calibre 38; 23 espingar- das calibre 12; 100 lunetas red dots para armas de preci- são; 25 estojos municiadores e carregadores de pistolas calibre 765; 12 reservatórios de gasolina para preparo de coquetéis molotov; 80 caixas de munição calibre 22 e 5 granadas de mão. Considerando a acusação específica feita pela autoridade policial (comércio ilegal de arma de fogo) e a Lei n 10.826/2003 e seus complementos, o enquadramento policial da conduta de Y está",
+                "opcoes": [
+                      "totalmente equivocado, tendo em vista que a conduta narrada se enquadra em outro crime da legislação.",
+                      "totalmente correto, tendo em vista que a conduta narrada se enquadra, integralmente, no delito de “comércio ilegal de arma de fogo”.",
+                      "parcialmente correto, sendo equivocadas apenas as referências aos estojos municiadores e carregadores de pistolas e aos reservatórios de gasolina, que se re- lacionam a delitos diferentes do comércio ilegal de arma",
+                      "parcialmente correto, sendo equivocadas apenas as referências às granadas de mão e aos estojos municiadores e carregadores de pistolas, que se rela- cionam a delitos diferentes do comércio ilegal de arma",
+                      "parcialmente correto, sendo equivocadas apenas as referências aos reservatórios de gasolina e às grana- das de mão que se relacionam a delitos diferentes do comércio ilegal de arma de fogo."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>parcialmente correto, sendo equivocadas apenas as referências aos reservatórios de gasolina e às grana- das de mão que se relacionam a delitos diferentes do comércio ilegal de arma de fogo.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Banco ZY decide abrir uma agência bancária na cidade de Fortaleza. Para tanto, contrata especialistas para elaboração do sistema de segurança do estabelecimento, de acordo com as disposições legais. Dos itens abaixo, considerando a Lei n 7.102/1983, NÃO deveria(m) neces- sariamente estar presente(s) no relatório dos especialistas como obrigatório",
+                "opcoes": [
+                      "cabina blindada com permanência ininterrupta de vigi- lante durante o expediente para o público e enquanto houver movimentação de numerário no interior do es- tabelecimento.",
+                      "pessoas adequadamente preparadas, assim chama- das vigilantes.",
+                      "locais especialmente reservados à proteção de clien- tes em caso de ocorrência policial.",
+                      "equipamentos elétricos, eletrônicos e de filmagens que possibilitem a identificação de assaltantes.",
+                      "formulários de registro de eventuais ocorrências policiais. 19"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>cabina blindada com permanência ininterrupta de vigi- lante durante o expediente para o público e enquanto houver movimentação de numerário no interior do es- tabelecimento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os vigilantes U, V, W, X, Y e Z trabalham em uma agência bancária. Durante determinado dia de serviço, a agência é invadida por meliantes fortemente armados e se inicia intensa troca de tiros, resultando na morte de quatro clien- tes do banco. As investigações realizadas, posteriormen- te, pela polícia concluem que: (1) U, V e W estavam arma- dos com revólveres calibre 32 pertencentes à empresa de segurança que os empregava; (2) X, Y e Z estavam de partida para serviço de entrega de numerário em outra agência bancária e portavam espingardas calibre 16 pertencentes à empresa de segurança que os empregava; (3) dois vigilantes, U e V, tinham 25 anos e haviam sido contratados três anos antes; (4) um dos vigilantes, W, se encontrava em cabina blindada localizada nos fundos da agência bancária, a qual, no entanto, ficava vazia nos horários em que a agência estava fechada. Considerando essas informações e a Lei n 7.102/1983, verifica-se que, em termos de segurança, a agência",
+                "opcoes": [
+                      "apresentava uma falha, relativa ao fato de U, V e W estarem portando armas que não lhes pertenciam.",
+                      "apresentava uma falha, relativa ao fato de X, Y e Z estarem portando espingardas e não revólveres.",
+                      "apresentava uma falha, relativa ao fato de dois vigilan- tes terem menos de 25 anos na época em que foram contratados.",
+                      "apresentava uma falha, relativa ao fato de a cabina blindada ficar vazia nos horários em que a agência estava fechada.",
+                      "não apresentava falhas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>não apresentava falhas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Durante serviço em uma agência bancária, o vigilante X é informado discretamente pelo cliente Y de que há um ho- mem armado no local. X observa o homem supostamente armado e verifica que ele se encontra sem uniforme e está retirando dinheiro de um caixa eletrônico. O cliente Y, no entanto, relata a X que conhece o homem armado e lhe informa a profissão do mesmo. O vigilante X decide cha- mar a polícia para verificar se o homem tem porte de arma, tendo em vista que, pela profissão relatada, sabe que a legislação, particularmente o Estatuto do Desarmamento (Lei n 10.826/2003), não o autoriza a portar arma naquela situação. Diante da narrativa, é possível afirmar que a pessoa era",
+                "opcoes": [
+                      "policial civil.",
+                      "policial rodoviário federal.",
+                      "bombeiro militar.",
+                      "vigilante.",
+                      "membro da polícia do Senado Federal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>vigilante.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Armas de fogo, acessórios ou munições apreendidos se- rão, após elaboração do laudo pericial e sua juntada aos autos, encaminhados pelo juiz competente, quando não mais interessarem à persecução penal,",
+                "opcoes": [
+                      "ao Ministério da Defesa, para destruição, no prazo máximo de vinte e quatro horas.",
+                      "à Polícia Federal, para destruição, no prazo máximo de quarenta e oito horas.",
+                      "ao Comando do Exército, para destruição, no prazo máximo de vinte e quatro horas.",
+                      "à Polícia Federal, para destruição, no prazo máximo de vinte e quatro horas.",
+                      "ao Comando do Exército, para destruição, no prazo máximo de quarenta e oito horas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>ao Comando do Exército, para destruição, no prazo máximo de quarenta e oito horas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O certificado de Registro de Arma de Fogo, com validade em todo o território nacional, autoriza o seu proprietário a manter a arma de fogo",
+                "opcoes": [
+                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como transportá-la dentro do território nacional, independente de prévia auto- rização das autoridades competentes.",
+                      "exclusivamente no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, desde que seja ele o titular ou o responsável legal pelo estabelecimento ou empresa.",
+                      "no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, independentemente de ser o titular ou o responsável legal pelo estabelecimento ou empresa, bastando a qualidade de empregado.",
+                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como de terceiros, desde que não haja aglomerações de pessoas e nem a presença de menores de 18 anos.",
+                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como de terceiros, desde que não haja aglomerações de pessoas e nem a presença de menores de 21 anos."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>exclusivamente no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, desde que seja ele o titular ou o responsável legal pelo estabelecimento ou empresa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Mário, integrante das forças armadas, favorece, gratui- tamente, a saída do território nacional, de arma de fogo, acessório ou munição, sem autorização da autoridade competente. Neste caso, Mário",
+                "opcoes": [
+                      "comete crime de omissão de cautela, estando sujeito a pena de reclusão de quatro a oito anos, e multa.",
+                      "comete crime de comércio ilegal de arma de fogo, estando sujeito a pena de detenção de dois a quatro anos, e multa, aumentada da metade.",
+                      "comete crime de comércio ilegal de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa.",
+                      "comete crime de tráfico internacional de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa, aumentada da metade.",
+                      "não comete crime algum, uma vez que praticava a conduta a título gratuito, não havendo, portanto previsão legal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>comete crime de tráfico internacional de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa, aumentada da metade.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Com relação ao comércio de arma de fogo e munição, é correto afirmar que",
+                "opcoes": [
+                      "a aquisição de munição somente poderá ser feita no calibre correspondente à arma adquirida.",
+                      "a empresa que comercializar armas de fogo e munição em território nacional é obrigada apenas a manter banco de dados com todas as características da arma vendida.",
+                      "a empresa que comercializa armas de fogo e muni- ções responde legalmente por essas mercadorias, ficando registradas como de propriedade do Governo Federal enquanto não forem vendidas.",
+                      "a comercialização de armas de fogo, acessórios e munições entre pessoas físicas poderá ser efetivada independentemente de autorização do SINARM.",
+                      "é proibida a comercialização de arma de fogo e munição em todo o território nacional, salvo para as forças armadas, polícia federal e civil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>a aquisição de munição somente poderá ser feita no calibre correspondente à arma adquirida.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Ao SINARM – Sistema Nacional de Armas – compete: I. cadastrar as armas de fogo produzidas, importadas e vendidas no Brasil; II. informar às Secretarias de Segurança Pública dos Estados e do Distrito Federal os registros e autorizações de porte de armas de fogo nos respectivos territórios; III. apreender armas de fogo ilegais, inclusive as vinculadas a procedimentos policiais e judiciais.",
+                "opcoes": [
+                      "I, apenas.",
+                      "II, apenas.",
+                      "III, apenas.",
+                      "I e II, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Disparar arma de fogo ou acionar munição em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, desde que essa conduta não tenha como finalidade a prática de outro crime, constitui crime",
+                "opcoes": [
+                      "passível de fiança e de pena de detenção, de 1 (um) a 2 (dois) anos, e multa.",
+                      "passível de fiança e de pena de detenção, de 1 (um) a 3 (três) anos, e multa.",
+                      "inafiançável, passível de pena de reclusão, de 2 (dois) a 4 (quatro) anos, e multa.",
+                      "insuscetível de liberdade provisória e passível de pena de reclusão, de 4 (quatro) a 8 (oito) anos, e multa.",
+                      "suscetível de liberdade provisória e passível de pena de detenção, de 1 (um) a 6 (seis) meses e multa. 9"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>inafiançável, passível de pena de reclusão, de 2 (dois) a 4 (quatro) anos, e multa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere as assertivas abaixo a respeito da aquisição e renovação de arma de fogo de uso permitido: I. Ter no mínimo 21 anos, declarar efetiva neces- sidade e apresentar cópia simples da carteira de identidade. II. Comprovar apenas no pedido de aquisição e na primeira renovação do registro, idoneidade e inexistência de inquérito policial ou processo criminal, por meio de certidões de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral. III. Comprovar aptidão psicológica para o manuseio de arma de fogo, atestada em laudo conclusivo fornecido por psicólogo do quadro da Polícia Federal ou por esta credenciado. Para a aquisição e renovação, está correto o que se afirma APENAS em",
+                "opcoes": [
+                      "III.",
+                      "I e II.",
+                      "I e III.",
+                      "II e III.",
+                      "I."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O desembaraço alfandegário das armas e munições trazidas por agentes de segurança de dignitários estran- geiros, em visita ao país, será feito",
+                "opcoes": [
+                      "pela Polícia Federal, com posterior comunicação ao Ministério da Justiça.",
+                      "pelo Comando do Exército, com posterior comuni- cação à Polícia Federal.",
+                      "pela Receita Federal, com posterior comunicação ao Ministério da Justiça.",
+                      "pelo Comando do Exército, com posterior comu- nicação à Polícia Militar.",
+                      "pela Receita Federal, com posterior comunicação ao Comando do Exército."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>pela Receita Federal, com posterior comunicação ao Comando do Exército.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Mário possui porte de arma de fogo de uso permitido. Como sua esposa Joana está sendo ameaçada de morte, Mário resolveu transferir o porte de sua arma para sua cônjuge. Neste caso, é correto afirmar que Mário",
+                "opcoes": [
+                      "deverá requerer a autorização ao Ministério da Defesa, independentemente do pagamento de qualquer taxa.",
+                      "deverá requerer a autorização ao Ministério da Defesa, mediante o pagamento prévio da taxa",
+                      "deverá requerer a autorização ao Ministério da Justiça, mediante o pagamento prévio da taxa",
+                      "não terá como transferir o porte de sua arma, uma vez que o Porte de Arma de Fogo é pessoal e intransferível.",
+                      "deverá requerer a autorização para a Polícia Federal, mediante o pagamento prévio da taxa 10"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>não terá como transferir o porte de sua arma, uma vez que o Porte de Arma de Fogo é pessoal e intransferível.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Arma de fogo de uso restrito é aquela",
+                "opcoes": [
+                      "destinada à segurança exclusiva do Presidente da República Federativa do Brasil, desde que autori- zado pelo Gabinete da Defesa Civil.",
+                      "de uso exclusivo das Forças Armadas, de instituições de segurança pública e de pessoas físicas e jurídicas habilitadas, devidamente autorizadas pelo Comando do Exército, de acordo com legislação específica.",
+                      "destinada à segurança exclusiva do Presidente do Banco Central do Brasil, desde que registrada junto ao Sistema de Inteligência Brasileiro.",
+                      "de uso permitido à utilização autorizada a pessoas físicas, bem como a pessoas jurídicas, de acordo com a legislação específica do SIGMA – Sistema de Gerenciamento Militar de Armas ou normas advin- das da Polícia Civil.",
+                      "destinadas exclusivamente à utilização de dignitá- rios, desde que registradas na Polícia Civil, após autorização do SIGMA."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>de uso exclusivo das Forças Armadas, de instituições de segurança pública e de pessoas físicas e jurídicas habilitadas, devidamente autorizadas pelo Comando do Exército, de acordo com legislação específica.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A perda, furto ou roubo ou outras formas de extravio de arma de fogo, acessório e munições que estejam sob a guarda das empresas de segurança privada e de trans- porte de valores deverá ser comunicada",
+                "opcoes": [
+                      "à Polícia Federal, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de res- ponsabilização do proprietário ou diretor responsável.",
+                      "ao Comando do Exército, no prazo máximo de quarenta e oito horas, após a ocorrência do fato, sob pena de responsabilização do proprietário ou diretor responsável.",
+                      "à Polícia Civil, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de prisão do proprietário ou diretor responsável.",
+                      "ao Ministério da Justiça, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de reclusão do proprietário ou diretor responsável.",
+                      "ao Ministério da Defesa, no prazo máximo de qua- renta e oito horas, após a ocorrência do fato, sob pe- na de reclusão do proprietário ou diretor responsável. o o"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>à Polícia Federal, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de res- ponsabilização do proprietário ou diretor responsável.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em conformidade com o artigo 1 do Decreto n 4.376/2002, o Sistema Brasileiro de Inteligência é responsável",
+                "opcoes": [
+                      "pela expedição de regulamentação específica para o trânsito e utilização de simulacros de armas de fogo.",
+                      "pela fiscalização e controle de armamento destinado ao uso de empresas especializadas em serviços de vigilância e ou transporte de valores, conforme normas do Comando do Exército.",
+                      "pelo encaminhamento de parecer conclusivo ao Ban- co Central do Brasil, com ciência da Polícia Federal, a respeito de apólice de seguros que inclua cobertura garantindo riscos de roubo e furto qualificado de numerário e outros valores, conforme legislação da Secretaria Nacional de Segurança Pública.",
+                      "pelo processo de obtenção e análise de dados e informações e pela produção e difusão de conheci- mentos necessários ao processo decisório do poder Executivo, em especial no tocante à segurança da sociedade e do Estado, bem como pela salvaguarda de assuntos sigilosos de interesse nacional.",
+                      "pela elaboração de emissão de laudo pericial a res- peito de armas brasonadas cujo desembaraço alfan- degário tenha sido autorizado pela Receita Federal."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>pelo processo de obtenção e análise de dados e informações e pela produção e difusão de conheci- mentos necessários ao processo decisório do poder Executivo, em especial no tocante à segurança da sociedade e do Estado, bem como pela salvaguarda de assuntos sigilosos de interesse nacional.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "É certo que, de acordo com o disposto no artigo terceiro do Decreto n 4.376/2002, contra-inteligência é",
+                "opcoes": [
+                      "a atividade de planejamento e proposição de normas e procedimentos que garantam a efetiva soberania nacional, em conformidade com os dispositivos instituídos pelo Gabinete de Segurança Institucional da Casa Civil.",
+                      "a atividade que objetiva prevenir, detectar, obstruir e neutralizar a inteligência adversa e ações de qual- quer natureza que constituam ameaça à salva- guarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado, bem como das áreas e dos meios que os retenham ou em que transitem.",
+                      "o desenvolvimento de estudos e pesquisas tecno- lógicas a respeito específico e exclusivo do Sistema de Proteção da Amazônia, em perfeita consonância com legislação específica expedida pelo Ministério da Ciência e Tecnologia.",
+                      "o uso de técnicas e meios sigilosos, para fins de análise, sobre potencial influência de substâncias psicotrópicas e afins em membros que compõem força-tarefa em operações militares de exclusivo interesse da Política Nacional de Inteligência.",
+                      "a atividade que objetiva contribuir com inteligência adversa a respeito de ações de qualquer natureza que constituam ameaça à salvaguarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a atividade que objetiva prevenir, detectar, obstruir e neutralizar a inteligência adversa e ações de qual- quer natureza que constituam ameaça à salva- guarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado, bem como das áreas e dos meios que os retenham ou em que transitem.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No caso das emergências, cabe à Segurança Corporativa a principal responsabilidade pelo desencadeamento e precisão da execução das ações imediatas previstas. Assim, os procedimentos emergenciais consistem em",
+                "opcoes": [
+                      "execução periódica do planejamento de contingên- cias, assim entendido como a metodologia hábil para análise e avaliação permanente do processo produtivo da instituição e os riscos dele decorrentes.",
+                      "planejamento específico de programas de reassun- ção, os quais desativam a produção plena a fim de evitar danos maiores, de acordo com os parâmetros do Gerenciamento de Crises.",
+                      "ações especialmente direcionadas para minimizar os impactos causados pelo caráter repentino da ocor- rência das emergências, nas quais deve haver presteza na execução das tarefas e precisão das ações a serem desencadeadas.",
+                      "constante exame dos processos de segurança e cerrado monitoramento do negócio, com a finalidade específica de evitar crises oriundas de sabotagem ou terrorismo.",
+                      "ações de reassunção unicamente direcionadas para minimizar os danos ocorridos em função de pseudo alerta de ameaça oriunda de ação terrorista."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ações especialmente direcionadas para minimizar os impactos causados pelo caráter repentino da ocor- rência das emergências, nas quais deve haver presteza na execução das tarefas e precisão das ações a serem desencadeadas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No que concerne a táticas e técnicas operacionais de exe- cução de atividades de segurança, quaisquer que sejam elas, I. é mister que haja gradação ao empregá-las, ou se- ja, do modus operandis mais complexo para o mais simples. II. deve-se considerar, enquanto planejamento, a ado- ção de uma metodologia, estabelecendo módulos e fases, realizando reuniões de coordenação prepa- ratórias de organização de roteiros. III. deve-se , se necessário, realizar reconhecimentos e treinamentos, salvaguardando a discrição e o sigilo, selecionando, ainda, itinerários alternativos para os deslocamentos da equipe. É INCORRETO o que consta em",
+                "opcoes": [
+                      "I, II e III.",
+                      "I e II, apenas.",
+                      "III, apenas.",
+                      "II, apenas.",
+                      "I, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A distância de segurança frontal que o motorista de um veículo em movimento, com autoridades, em situação normal técnico-operacional de segurança e de trânsito, deverá guardar entre o seu e o veículo da frente é aquela",
+                "opcoes": [
+                      "superior a 10 (dez) metros, conforme preconiza a Lei n 7.102/83.",
+                      "correspondente a, no mínimo, 1 (um) metro.",
+                      "necessária, considerando-se a velocidade e as con- dições climáticas e do local.",
+                      "mais longínqua possível, conforme normatiza o CTB a esse respeito.",
+                      "correspondente ao tamanho de 6 (seis) veículos de médio porte, no mínimo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>necessária, considerando-se a velocidade e as con- dições climáticas e do local.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um motorista que está conduzindo dignitário em veículo blindado percebe, ao derredor, tentativa de abordagem criminosa de parte de outro veículo. Nesse caso, é primordial que o profissional",
+                "opcoes": [
+                      "efetue procedimento de fuga, infringindo sistematicamente normas do CTB, objetivando zelar pela integridade física do dignitário como dos transeuntes.",
+                      "utilize técnicas ofensivas, empreendendo fuga, tentando, se possível, abalroar o veículo suspeito, objetivando frustrar possibilidade de fuga.",
+                      "efetue sem demora a capitulação, conforme normatiza a Lei n 7.102/83.",
+                      "utilize técnicas de capitualação a fim de abalroar o veículo suspeito e frustrar ataques ofensivos.",
+                      "analise a situação e reaja rapidamente, com segurança, utilizando técnicas ofensivas para fuga e protegendo o dignitário. 11"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>analise a situação e reaja rapidamente, com segurança, utilizando técnicas ofensivas para fuga e protegendo o dignitário. 11</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise as assertivas abaixo. I. É indispensável que seja, se não claramente deli- neada, pelo menos esboçada a Cultura Empre- sarial quando o assunto é Segurança Corporativa. Pesquisar a cultura empresarial é fator de funda- mental importância na determinação do que é necessário fazer e do que efetivamente poderá ser feito em termos de segurança, evitando-se o plane- jamento e implantação de estratégias impróprias para o perfil cultural da organização. II. Segurança corporativa é aquela provida exclusiva- mente pelo Estado, providenciada e custeada por pessoa jurídica, que substitui a segurança pública mediante a utilização delegada de instituições específicas e integrantes da estrutura organizacio- nal daquele. III. No planejamento de ações de segurança de digni- tários é facultado usar das prerrogativas estatais, prevendo, assim, o aparato para fechamento de ruas, a utilização de comboios e de precursores (advanced). IV. A formação militar ou policial é condição primeira para fins de credenciamento e habilitação técnica do profissional de segurança de dignitários, deven- do-se apresentar comprovação de inscrição em órgão de classe específico, sendo este último órgão responsável pela regulamentação da profissão.",
+                "opcoes": [
+                      "I e II.",
+                      "I e III.",
+                      "II e III.",
+                      "II e IV.",
+                      "III e IV."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "José encontrou um talonário de cheques na rua. Retirou uma das folhas, preencheu e a utilizou para pagar R$ 200,00 de combustível num posto de gasolina. Tal con- duta configurou o delito de",
+                "opcoes": [
+                      "estelionato.",
+                      "furto qualificado mediante fraude.",
+                      "venda de coisa alheia como própria.",
+                      "receptação.",
+                      "extorsão."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>estelionato.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Incorre na pena prevista para o crime de roubo quem",
+                "opcoes": [
+                      "subtrai, para si ou para outrem, coisa alheia móvel, com abuso de confiança, ou mediante fraude, es- calada ou destreza.",
+                      "subtrai, para si ou para outrem, coisa alheia móvel, com destruição ou rompimento de obstáculo.",
+                      "emprega violência contra pessoa ou grave ameaça, logo após subtraída a coisa, a fim de assegurar a impunidade do crime.",
+                      "apropria-se de coisa alheia móvel, de que tem a posse ou detenção em razão de ofício, emprego ou profissão.",
+                      "recebe, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima. 12"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>emprega violência contra pessoa ou grave ameaça, logo após subtraída a coisa, a fim de assegurar a impunidade do crime.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "João e Pedro são co-herdeiros, na proporção de metade para cada um, de uma herança de R$ 100.000,00 em di- nheiro, que estava guardada num armário da residência de Pedro, por ser o inventariante. João, à noite, entrou na casa, abriu o armário e subtraiu para si R$ 50.000,00. A conduta de João",
+                "opcoes": [
+                      "não é punível, por tratar-se subtração de coisa comum, cujo valor não excede à quota a que tem direito o agente.",
+                      "é punível a título de furto de coisa comum, pois o di- nheiro estava sendo legitimamente guardado por Pedro.",
+                      "é punível a título de furto de coisa comum, pois o dinheiro ainda não havia sido partilhado entre os dois.",
+                      "é punível a título de apropriação indébita, posto que, na condição de herdeiro, tinha posse da herança.",
+                      "é punível a título de estelionato, por ter empregado meio fraudulento para ludibriar Pedro."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>não é punível, por tratar-se subtração de coisa comum, cujo valor não excede à quota a que tem direito o agente.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação à análise de riscos, tem-se que o diagnóstico é um levantamento para fins de identificação e definição dos riscos a que uma instituição está sujeita e no qual se estabelecem graus de criticidade, sendo classificados como I. gravíssimos os riscos e ameaças que causam paralisação das atividades institucionais; II. graves apenas as ameaças que causam paralisa- ção das atividades institucionais; III. leves os que causam redução temporária (de uma a duas horas) das atividades institucionais; IV. mediatos os que não causam efeitos diretos sobre as atividades institucionais. É INCORRETO o que consta em",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II, III e IV.",
+                      "II e III, apenas.",
+                      "II, III e IV, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "É certo que furto qualificado é a",
+                "opcoes": [
+                      "aquisição de qualquer objeto alheio por influência de assaltantes.",
+                      "subtração de objeto móvel alheio para si ou para outrem através do abuso de confiança, fraude, chave falsa e rompimento de obstáculos.",
+                      "aquisição ou recepção de algum objeto de outros, sabendo-se que é oriundo de crime.",
+                      "subtração de algum objeto alheio por meio da força física.",
+                      "subtração de objeto alheio para si ou para outrem mediante grave ameaça ou violência à pessoa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>subtração de objeto móvel alheio para si ou para outrem através do abuso de confiança, fraude, chave falsa e rompimento de obstáculos.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Paulo subtraiu um toca-fitas e vendeu o referido aparelho para João. João não sabia que se tratava de produto de furto, interessou-se pelo negócio porque o preço do rádio correspondia a 10% do valor de mercado. Nesse caso, João cometeu crime de",
+                "opcoes": [
+                      "estelionato.",
+                      "receptação dolosa.",
+                      "receptação culposa.",
+                      "furto.",
+                      "apropriação indébita."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>receptação culposa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O segurança de certo dignitário percebe que um dos filhos deste, inadvertida e acidentalmente, derramou substância ácida no braço nu. Tal segurança deve",
+                "opcoes": [
+                      "cobrir a área com um pano seco e limpo e friccionar o local afetado.",
+                      "limpar com pano seco e enfaixar o local com gases esterilizadas embebidas em solução anti-séptica.",
+                      "friccionar a região atingida com álcool.",
+                      "remover o produto, lavando com água corrente e encaminhar ao serviço médico especializado imediatamente.",
+                      "cobrir o local com pomada antibiótica até que chegue o socorro médico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>remover o produto, lavando com água corrente e encaminhar ao serviço médico especializado imediatamente.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O dignitário, em tratamento para epilepsia, apresenta perda da consciência, contração involuntária dos músculos com movimentos descoordenados, dentes travados e excesso de salivação. Nesta situação, uma das medidas de primeiros socorros a ser prestada, pelo segurança, ao dignitário, é",
+                "opcoes": [
+                      "estimular a circulação cerebral oferecendo-lhe álcool para inalar.",
+                      "afastá-lo de local que ofereça perigo e deixá-lo debater-se.",
+                      "ministrar o comprimido contra a epilepsia com um pouco de água.",
+                      "borrifar água fria no rosto do dignitário.",
+                      "tentar conter as contrações musculares, apertando- lhe as roupas e segurando-o firmemente."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>afastá-lo de local que ofereça perigo e deixá-lo debater-se.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O dignitário escorregou e bateu a coluna vertebral na quina da calçada de uma via pública metropolitana. Nesta situação de suspeita de fratura na coluna, o segurança deve",
+                "opcoes": [
+                      "ativar a articulação da coluna, por meio de movimentos de flexão, enquanto aguarda o socorro especializado.",
+                      "segurar o tronco cuidadosamente com as mãos, enquanto outros removem a vítima do local.",
+                      "remover o dignitário ao Hospital Geral circunvizinho, após acomodá-lo cuidadosamente no banco traseiro de um carro.",
+                      "acionar o serviço de atendimento às emergências e não movimentar o dignitário.",
+                      "enfaixar o tronco e administrar medicamento analgésico."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>acionar o serviço de atendimento às emergências e não movimentar o dignitário.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O órgão central do Sistema de Inteligência Brasileiro, criado pela Lei n 9.883/99, é a",
+                "opcoes": [
+                      "AICB.",
+                      "ASIN.",
+                      "ABIN.",
+                      "ABEN.",
+                      "ACIN."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>ABIN.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No que diz respeito à análise de riscos em relação à segurança, considere: I. Riscos e ameaças são variáveis com manifesta probabilidade de ocorrência e com potencialidade para causar dano. II. No risco o dano é potencial, ou seja, caso ocorra determinado evento, poderá ou não haver perda. III. Na ameaça o dano é real, isto é, caso ocorra determinado evento, necessariamente haverá perda. IV. Dano e Perda não devem ser confundidos, pois que dano é gênero do qual são espécies o dano potencial e o dano real, enquanto que perda é conseqüência.",
+                "opcoes": [
+                      "III e IV, apenas.",
+                      "II e III, apenas.",
+                      "I, II, III e IV.",
+                      "I e II, apenas.",
+                      "I e IV, apenas."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O processo de inteligência competitiva se tornou importante porque foi adaptado à realidade empresarial e à nova ordem mundial. Foram incorporadas a tal processo técnicas utilizadas",
+                "opcoes": [
+                      "pela tecnologia da informação e de gerenciamento de redes.",
+                      "pelo estatuto do programa de informações governa- mentais.",
+                      "pela Organização Mundial dos Direitos Humanos e pela administração pública.",
+                      "pelo estatuto dos oficiais militares e civis.",
+                      "pela ciência da Comunicação Social e pela defesa civil. 13"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>pela tecnologia da informação e de gerenciamento de redes.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Topologia é a forma como uma rede de computadores é organizada e representa como as conexões são feitas en- tre os equipamentos no nível físico. Quando se projeta uma rede local, é possível a escolha de uma topologia em que todos os nós se conectem a um mesmo meio de transmissão, em uma configuração multiponto, em que um cabo interliga todos os dispositivos. Essa configuração é conhecida como topologia em",
+                "opcoes": [
+                      "anel",
+                      "árvore",
+                      "barramento",
+                      "estrela",
+                      "malha"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>barramento</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em uma rede de computadores, são encontrados, além dos próprios computadores, vários tipos de equipamentos que têm como finalidade gerenciar o tráfego dos pacotes. Ao escolher entre os equipamentos para uma rede TCP/ IP, é importante que se levem em conta vários fatores, como a colisão entre pacotes e a propagação da trans- missão de broadcasts. Considere uma situação em que seja necessário escolher um equipamento capaz de orga- nizar uma rede local, de forma a garantir que exista uma segmentação dos domínios de colisão e broadcast para cada porta do equipamento. Nesse caso, o equipamento escolhido deverá ser um",
+                "opcoes": [
+                      "concentrador",
+                      "hub",
+                      "repetidor",
+                      "roteador",
+                      "switch"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>roteador</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um endereço IPv6 é normalmente descrito com 32 núme- ros hexadecimais, por exemplo: FDEC:0074:0000:0000:0000:B0FF:0000:FFFF Considerando-se essa informação, é possível verificar que, antes de qualquer organização, a quantidade de en- dereços disponíveis no IPv6 é de 32",
+                "opcoes": [
+                      "2 64",
+                      "2 128",
+                      "2 256",
+                      "2 512",
+                      "2 8"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>2 256</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O modelo de referência OSI da ISO é estruturado em ca- madas, geralmente descritas em uma pilha onde as ca- madas mais próximas da máquina física estão na parte inferior, e as camadas mais próximas do usuário estão na parte superior. Considerando-se essa organização, as camadas imedia- tamente acima e imediatamente abaixo da camada de Transporte são, respectivamente, as de",
+                "opcoes": [
+                      "Aplicação e de Rede",
+                      "Aplicação e de Sessão",
+                      "Apresentação e de Rede",
+                      "Sessão e de Apresentação",
+                      "Sessão e de Rede"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Sessão e de Rede</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na camada de transporte de uma rede TCP/IP, podem ser encontrados dois protocolos de transmissão de pacotes: um que provê fluxo confiável, em que o receptor confirma cada pacote recebido ao emissor; e outro em que essa confirmação não acontece; logo, esse protocolo não pro- vê fluxo confiável. Nesse contexto, na camada de transporte, os protocolos confiável e não confiável são, respectivamente:",
+                "opcoes": [
+                      "UDP e IP",
+                      "UDP e TCP",
+                      "TCP e IP",
+                      "TCP e UDP",
+                      "IP e UDP"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>TCP e UDP</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No sistema de endereçamento IPv4, as classes de ende- reços A, B, C, D e E são utilizadas para facilitar o rotea- mento e a organização da rede. Cada classe suporta um número de blocos, em que cada bloco tem um tamanho equivalente à quantidade de hosts que suporta. Além dis- so, cada classe tem uma aplicação específica. A classe de endereços unicast comumente usada para redes de grande porte e que provê o maior tamanho do bloco é a",
+                "opcoes": [
+                      "classe A",
+                      "classe B",
+                      "classe C",
+                      "classe D",
+                      "classe E"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>classe A</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A porta USB é um dispositivo de entrada e de saída re- conhecido por ser rápido e eficiente na transmissão de dados entre os dispositivos e o sistema operacional de um computador. Qual é a forma de transmissão de dados de entrada e saída que caracteriza a porta USB?",
+                "opcoes": [
+                      "Comutação por Pacotes",
+                      "Paralela",
+                      "Serial",
+                      "TCP/IP",
+                      "UDP"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Serial</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um desenvolvedor web está trabalhando em uma aplicação que envolve a coleta de dados numéricos dos usuários, e, para isso, está usando HTML e JavaScript (ECMAScript 2020) para criar um campo de entrada de texto e um botão. Quan- do um usuário clicar nesse botão, o valor inserido será processado. Nesse cenário, considere que esse desenvolvedor quer obter o valor atual do campo de texto HTML com o ID idade. Para obter esse valor, ele deve utilizar o seguinte fragmento de código JavaScript:",
+                "opcoes": [
+                      "document.getElementById(“idade”).getText()",
+                      "document.getElementById(“idade”).innerHTML",
+                      "document.getElementById(“idade”).value",
+                      "document.getElementByName(“idade”).value",
+                      "document.querySelector(“#idade”).text"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>document.getElementById(“idade”).value</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática está desenvolvendo uma aplicação web e deseja implementar uma interface de usuário que permita que os usuários, ao clicar em um botão, acionem uma função JavaScript chamada processar. Qual das seguintes opções de código HTML5 esse profissional deve usar?",
+                "opcoes": [
+                      "<button action=”processar()”>Clique Aqui</button>",
+                      "<button execute=”processar()”>Clique Aqui</button>",
+                      "<button onclick=”processar()”>Clique Aqui</button>",
+                      "<button onsubmit=”processar()”>Clique Aqui</button>",
+                      "<button trigger=”processar()”>Clique Aqui</button>"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong><button onclick=”processar()”>Clique Aqui</button></strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática está trabalhando em um projeto que envolve a manipulação de documentos XML. Ele precisa garantir que os documentos XML estejam bem- -formados e válidos, de acordo com as especificações do XML 1.1. Uma das regras que ele deverá seguir para garantir que um documento XML 1.1 seja válido é que o(s)",
+                "opcoes": [
+                      "documento pode ter um ou mais elementos raiz.",
+                      "documento deve começar com uma declaração XML.",
+                      "nomes dos elementos são insensíveis a maiúsculas e minúsculas.",
+                      "atributos devem ter o mesmo nome se estiverem no mesmo elemento.",
+                      "comentários XML devem aparecer como atributos de uma etiqueta (tag)."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>documento deve começar com uma declaração XML.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Para garantir a segurança de transações bancárias via internet, são usados diferentes protocolos criptográficos. Considere um protocolo em que a organização P possui um par de chaves, sendo uma privada e uma pública, em que a privada decifra a pública e vice-versa. A chave pú- blica é utilizada por aqueles que desejam enviar mensa- gens cifradas para essa organização. Apenas a organiza- ção P poderá ler o conteúdo dessas mensagens cifradas, porque só ela dispõe da chave privada que faz par com sua chave pública. A situação apresentada caracteriza o uso de criptografia",
+                "opcoes": [
+                      "assimétrica",
+                      "por chaves de sessão",
+                      "por one-time pad",
+                      "quântica",
+                      "simétrica 9"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>assimétrica</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral",
+                      "ortografia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em um sistema operacional moderno, vários processos devem ser atendidos simultaneamente, dando ao usuário a impressão de estarem rodando simultaneamente. Para isso, é necessário gerenciar o processador por meio de algoritmos de escalonamento, que definem que processo executa e quais ficam esperando, de acordo com diferen- tes parâmetros. Um dos critérios que podem ser usados para comparar esses algoritmos é o tempo de turnaround, que conta o tempo",
+                "opcoes": [
+                      "entre a submissão de um pedido e a primeira resposta a ele.",
+                      "que o processo realmente passa sendo executado pelo processador.",
+                      "que um processo passa em estado de bloqueio, geral- mente aguardando uma operação de E/S ser concluída.",
+                      "total, desde a submissão do processo até a sua con- clusão.",
+                      "total que um processo passa na fila de pronto, aguar- dando para ser executado pelo processador."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>total, desde a submissão do processo até a sua con- clusão.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática está investigando um inci- dente de segurança em uma empresa e identifica a pre- sença de um Rootkit no sistema. Quais são as características específicas de um Rootkit que o diferenciam de outros tipos de softwares maliciosos?",
+                "opcoes": [
+                      "Apresentar-se como um programa legítimo para enga- nar o usuário.",
+                      "Focar principalmente na replicação e disseminação para outros sistemas.",
+                      "Propor um link para o usuário de forma a induzi-lo a usar uma página falsa.",
+                      "Ser especializado em coletar informações pessoais e dados confidenciais.",
+                      "Ser capaz de se ocultar extremamente bem e inter- ceptar chamadas ao sistema operacional, habilitando o acesso como administrador."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Ser capaz de se ocultar extremamente bem e inter- ceptar chamadas ao sistema operacional, habilitando o acesso como administrador.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Para aumentar a segurança da rede de uma organização que está conectada à internet, é preciso entender a fun- cionalidade principal de cada tipo de software de segu- rança de redes, para permitir a implementação eficaz das medidas adequadas de segurança. Entre os softwares de segurança mais importantes está o firewall. Qual é a principal funcionalidade de um firewall?",
+                "opcoes": [
+                      "Atuar como intermediário para solicitações de recur- sos de outros servidores, encaminhando as solicita- ções do cliente para o servidor de destino.",
+                      "Controlar o tráfego de rede para permitir ou impedir a comunicação entre dispositivos com base em um conjunto de regras de segurança.",
+                      "Fornecer acesso remoto seguro a servidores e siste- mas, utilizando criptografia para proteger a comunica- ção.",
+                      "Monitorar o tráfego de rede para detectar atividades suspeitas e potenciais ameaças, fornecendo alertas em tempo real.",
+                      "Varrer e remover malware do sistema, oferecendo proteção em tempo real contra ameaças de software malicioso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Controlar o tráfego de rede para permitir ou impedir a comunicação entre dispositivos com base em um conjunto de regras de segurança.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Ao construir um novo controlador para um equipamento, um programador analisou as formas de arquitetura dispo- níveis para construir seu hardware, dentre elas a arquite- tura de Von Neumann. A principal característica dessa arquitetura é que ela",
+                "opcoes": [
+                      "utiliza uma única memória para armazenar dados e instruções.",
+                      "separa a memória de dados da memória de instru- ções.",
+                      "utiliza múltiplos processadores para executar uma única instrução.",
+                      "não permite a execução de instruções RISC.",
+                      "não permite armazenamento de programas na memória. 10"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>utiliza uma única memória para armazenar dados e instruções.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma funcionária de uma empresa solicitou a um colega, profissional de Informática, que preparasse uma listagem chamada “lista_completa.txt”. Essa listagem deve ser feita no formato longo, ser atualizada e conter todos os arquivos, incluindo os arquivos ocultos, de um diretório e seus subdiretórios. Além disso, a funcionária quer que qualquer listagem anterior que possa existir desses arqui- vos seja sobrescrita. Qual é o comando correto no terminal Linux para atender corretamente ao pedido da colega?",
+                "opcoes": [
+                      "ls -Rla > lista_completa.txt",
+                      "ls -Rla >> lista_completa.txt",
+                      "ls -Rlo > lista_completa.txt",
+                      "ls -Rlo >> lista_completa.txt",
+                      "ls -Rto > lista_completa.txt"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>ls -Rla > lista_completa.txt</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em sistemas embarcados, é comum que programadores tenham de trabalhar com linguagens de baixo nível, in- cluindo a necessidade de fazer operações com números inteiros em representação binária. Considerando-se apenas 8-bits em um processador hipo- tético, como seria a representação em complemento de 2 do número -5?",
+                "opcoes": [
+                      "10000101",
+                      "11111010",
+                      "11111011",
+                      "11111101",
+                      "11111110"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>11111011</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Muitos sistemas operacionais, como o Linux e o Windows, suportam links simbólicos em seus sistemas de arquivos, o que permite que um arquivo apareça em mais de um diretório. Esses links apontam para outro arquivo e po- dem ser usados, na maioria das vezes, como o arquivo original. No Linux, o que acontece com o link simbólico se o arqui- vo original for apagado?",
+                "opcoes": [
+                      "Aponta para um novo arquivo criado automaticamente.",
+                      "É apagado automaticamente.",
+                      "Passa a apontar para /mnt/null.",
+                      "Torna-se um “link quebrado”.",
+                      "Torna-se um hard link."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Torna-se um “link quebrado”.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática é encarregado de geren- ciar um projeto de desenvolvimento de software em uma grande empresa. No dia do início do projeto, ele utiliza o Microsoft Project 2019 para salvar uma linha de base. Qual a finalidade da linha de base?",
+                "opcoes": [
+                      "Facilitar a comunicação entre os membros da equipe.",
+                      "Comparar o andamento do projeto com a previsão original.",
+                      "Aumentar a segurança dos dados do projeto.",
+                      "Coletar feedback dos stakeholders do projeto.",
+                      "Automatizar tarefas repetitivas no projeto."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Comparar o andamento do projeto com a previsão original.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A norma ABNT NBR ISO/IEC 27002 é uma norma interna- cional, traduzida no Brasil, a qual fornece diretrizes para a gestão de segurança da informação. Segundo essa norma, qual é o propósito da segregação de funções?",
+                "opcoes": [
+                      "Assegurar a adequação contínua da direção de ges- tão e suporte à segurança da informação de acordo com vários tipos de requisitos.",
+                      "Assegurar o fluxo adequado de informações referen- tes à segurança de informação.",
+                      "Conscientizar os funcionários sobre as ameaças à se- gurança de informação da organização.",
+                      "Estabelecer uma estrutura definida e aprovada para a gestão de segurança dentro da organização.",
+                      "Reduzir o risco de fraude, erro e desvio de controles de segurança da informação."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Reduzir o risco de fraude, erro e desvio de controles de segurança da informação.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Computadores modernos precisam de várias camadas de software para que ofereçam os serviços com os quais estamos acostumados. Essas camadas facilitam a adap- tação do hardware às características e às funcionalidades demandadas pelos seres humanos. A esse respeito, qual a ordem das camadas de software sobre o hardware, da mais próxima ao hardware para a mais distante?",
+                "opcoes": [
+                      "Aplicativos -> Firmware -> Sistema Operacional",
+                      "Aplicativos -> Sistema Operacional -> Firmware",
+                      "Sistema Operacional -> Aplicativos -> Firmware",
+                      "Sistema Operacional -> Firmware -> Aplicativos",
+                      "Firmware -> Sistema Operacional -> Aplicativos"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Firmware -> Sistema Operacional -> Aplicativos</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma empresa está considerando a migração de sua rede de IPv4 para IPv6. A principal vantagem do IPv6 em relação ao IPv4 é a(o)",
+                "opcoes": [
+                      "compatibilidade retroativa com hardware mais antigo",
+                      "melhor qualidade de serviço (QoS)",
+                      "menor latência na transmissão de dados",
+                      "maior espaço de endereçamento",
+                      "garantia de entrega de pacotes"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>maior espaço de endereçamento</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática está avaliando diferentes soluções de comunicação para permitir que os funcioná- rios acessem a rede corporativa, via internet pública, en- quanto estão fora do escritório. Uma das vantagens de implementar uma VPN nesse con- texto é",
+                "opcoes": [
+                      "aumentar a segurança do acesso remoto.",
+                      "aumentar a velocidade de transmissão de dados .",
+                      "aumentar o consumo de processamento para criptografia.",
+                      "eliminar a necessidade de fiação física na organização.",
+                      "eliminar a necessidade de firewalls na organização. 11"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>aumentar a segurança do acesso remoto.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os sistemas de computação contêm diversos barramen- tos diferentes, que oferecem caminhos entre os compo- nentes em diversos níveis da hierarquia do sistema de computação. O barramento que conecta os principais componentes do computador é chamado de barramento do sistema, e é composto por linhas de dados, por linhas de endereços e por linhas de controle. Em um barramento de sistema, as linhas de controle ser- vem para",
+                "opcoes": [
+                      "controlar o acesso e o uso das linhas de dados e de endereços.",
+                      "designar a origem ou o destino dos dados.",
+                      "movimentar os dados entre os módulos do sistema.",
+                      "transferir dados entre cache e memória.",
+                      "transferir dados de e para a memória."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>controlar o acesso e o uso das linhas de dados e de endereços.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere que, em uma operação de soma entre dois va- lores inteiros representados em complemento a 2, o resul- tado foi maior do que o que pode ser mantido no tamanho da palavra que está sendo usada. Nesse caso, ocorreu um(a)",
+                "opcoes": [
+                      "buffer",
+                      "cluster",
+                      "overflow",
+                      "bit de carry",
+                      "paridade"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>overflow</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Pretende-se mudar a certificação de uma firma de Tec- nologia de ITILv3 para ITILv4, atendo-se às alterações e às mudanças que essa nova implantação do modelo ITIL traz consigo. Uma das alterações relevantes, que deve ser considerada no momento da mudança para esse novo paradigma, é a(o)",
+                "opcoes": [
+                      "diminuição de número de processos de serviços, em relação às versões anteriores do modelo ITIL.",
+                      "implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.",
+                      "implementação de um sistema de acesso seguro, de modo a permitir que somente usuários autorizados usem um serviço.",
+                      "manutenção de práticas de gerenciamento da infraes- trutura de TI, fornecendo novos itens de serviços de tecnologia e suporte.",
+                      "acréscimo de um novo processo de serviço, denomi- nado Operação de Serviço."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na Figura a seguir, é mostrado um diagrama E-R. Admita que os conjuntos a seguir façam parte de um ban- co de dados cujo esquema foi gerado a partir do modelo E-R acima. X = { x1, x2, x3 } Y = { y1, y2, y3, y4 } Z = { z1, z2, z3 } NÃO violam as restrições de cardinalidade presentes nas respectivas relações do modelo E-R acima os seguintes conjuntos U e T:",
+                "opcoes": [
+                      "U = { (x1, y2), (x2, y2), (x3, y2) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }",
+                      "U = { (x1, y1), (x2, y2), (x3, y3) } T = { (y1, z1), (y2, z1), (y3, z1) }",
+                      "U = { (x1, y1), (x2, y2), (x3, y2) } T = { }",
+                      "U = { (x1, y2), (x2, y2), (x3, y1) } T = { (y1, z1), (y2, z2), (y3, z3) }",
+                      "U = { (x1, y2), (x2, y4), (x3, y1) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>U = { (x1, y2), (x2, y4), (x3, y1) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Seja o seguinte código Python: str = 'America do Sul' s1 = ( str.split ( ';' ) ).pop().upper() print ( str ) O que será exibido no console quando esse código for executado?",
+                "opcoes": [
+                      "America do Sul",
+                      "AMERICA DO SUL",
+                      "Sul",
+                      "SUL",
+                      "AMERICA 12"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>America do Sul</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere as seguintes classes e a interface Java que ocupam arquivos separados: public interface Itf { public void m1(String s); public void m2(String s1, String s2); public abstract class A { public void m1(String s1) { System.out.println(\"*** \" + s1); public void m2(String s1, String s2) { System.out.println(\"*** \" + s1 + \" \" + s2); class B extends A implements Itf { System.out.println(\" B - m3 \"); public class C extends B { System.out.println(\" C - m4 \"); public class D extends A { System.out.println(\" C - m4 \"); Qual implementação da classe Main NÃO produz erro de compilação?",
+                "opcoes": [
+                      "import pk1.*; o=new B();",
+                      "import pk1.*; o=new pk3.B();",
+                      "import pk1.*; o=new A(); 13",
+                      "import pk1.*; o=new D();",
+                      "import pk1.*; o=new pk3.C();"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>import pk1.*; o=new pk3.C();</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Seja o seguinte programa Python: l = ['abc', ['a', 'b', 'c'], 'd', ['a', ['abc', 'd']]] c = 0 for e in l: c+=len(e) print( c ) O que será exibido no console quando esse programa for executado?",
+                "opcoes": [
+                      "4",
+                      "7",
+                      "8",
+                      "9",
+                      "12"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>9</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma empresa aérea possui um sistema de informação para registrar as reservas de passagens de seus passageiros nos voos que oferece. O esquema desse banco de dados foi criado com os seguintes comandos SQL: CREATE TABLE PASSAGEIRO ( CODIGO NUMERIC(5) NOT NULL, NOME TEXT NOT NULL, PRIMARY KEY (CODIGO)); CREATE TABLE VOO ( NUMERO NUMERIC(3) NOT NULL, ORIGEM TEXT NOT NULL, DESTINO TEXT NOT NULL, NUM_LUGARES NUMERIC(3) NOT NULL, PRIMARY KEY (NUMERO)); CREATE TABLE RESERVA ( NUM_VOO NUMERIC(3) NOT NULL, CD_PASS NUMERIC(5) NOT NULL, PRIMARY KEY (NUM_VOO, CD_PASS), FOREIGN KEY (NUM_VOO) REFERENCES VOO(NUMERO), FOREIGN KEY (CD_PASS) REFERENCES PASSAGEIRO(CODIGO)); Na Figura a seguir, são exibidos os estados atuais dessas tabelas. Qual comando SQL será executado sem produzir erro?",
+                "opcoes": [
+                      "DELETE FROM PASSAGEIRO WHERE NOME = 'VICENTE DE CARVALHO';",
+                      "DELETE FROM VOO WHERE DESTINO = 'CURITIBA';",
+                      "INSERT INTO RESERVA VALUES(998, 56000);",
+                      "INSERT INTO PASSAGEIRO VALUES(56390, 'RICARDO GONÇALVES');",
+                      "UPDATE VOO SET NUMERO = 532 WHERE DESTINO = 'RIO DE JANEIRO'; 14"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>DELETE FROM VOO WHERE DESTINO = 'CURITIBA';</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Pilhas podem ser implementadas em Python por meio de listas em que o último elemento é o topo da pilha, como no exemplo abaixo: pilha01 = ['a4', 'a3', 'a2', 'a1'] # o elemento 'a1' está # no topo da pilha pilha02 = ['b2', 'b1'] # o elemento 'b1' está no topo da pilha Considere uma função Python, chamada unifica, que recebe duas pilhas como parâmetros e retorna uma terceira, que é o resultado da intercalação dos elementos das duas pilhas recebidas como parâmetros. Um programa Python chamou essa função unifica, passando como parâmetros as duas pilhas do exemplo acima (pilha01 e pilha02). O resultado da interca lação foi a pilha ['a4', 'a3', 'b2', 'a2', 'b1', 'a1'] Qual implementação da função unifica realiza o que foi descrito acima?",
+                "opcoes": [
+                      "def unifica(p1, p2):",
+                      "def unifica(p1, p2): while len(p1) > 0 and len(p2) > 0 :",
+                      "def unifica(p1, p2): while len(p1) > 0 and len(p2) > 0 : 15 -",
+                      "def unifica(p1, p2): while len(p1) > 0 or len(p2) > 0 :",
+                      "def unifica(p1, p2): while len(p1) != 0: while len(p2) != 0:"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>def unifica(p1, p2): while len(p1) > 0 or len(p2) > 0 :</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na Figura abaixo, é exibido o estado atual de uma tabela que registra as disciplinas de um curso e seus pré-requisitos. Uma consulta SQL nessa tabela foi executada e produziu como resposta uma relação com duas linhas, cujos valores são exibidos abaixo. PROJETO DE SISTEMAS BANCO DE DADOS I Qual consulta SQL foi executada?",
+                "opcoes": [
+                      "SELECT DISCIPLINA FROM CURSO UNION SELECT PRE_REQUISITO FROM CURSO;",
+                      "SELECT DISCIPLINA, PRE_REQUISITO FROM CURSO WHERE DISCIPLINA = 'PROJETO DE SISTEMAS' AND PRE_REQUISITO = 'BANCO DE DADOS I' OR DISCIPLINA = 'BANCO DE DADOS I' AND PRE_REQUISITO = 'PROJETO DE SISTEMAS';",
+                      "SELECT DISCIPLINA FROM CURSO INTERSECT SELECT PRE_REQUISITO FROM CURSO;",
+                      "SELECT C1.DISCIPLINA, C2.PRE_REQUISITO FROM CURSO C1 RIGHT JOIN CURSO C2 ON C1.DISCIPLINA = C2.PRE_REQUISITO;",
+                      "SELECT C1.DISCIPLINA, C2.PRE_REQUISITO FROM CURSO C1 LEFT JOIN CURSO C2 ON C1.DISCIPLINA = C2.PRE_REQUISITO;"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>SELECT DISCIPLINA FROM CURSO INTERSECT SELECT PRE_REQUISITO FROM CURSO;</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Várias canetas coloridas estão sobre a mesa, algumas dentro do estojo e outras fora dele. Todas as canetas azuis estão sem tampa e sem tinta. Todas as canetas vermelhas estão sem tampa ou sem tinta. Todas as canetas que estão dentro do estojo estão com tinta.Todas as canetas verdes estão sem tampa, e todas as canetas roxas estão com tampa. Todas as canetas laranja estão sem tinta. Considerando-se que uma caneta com tampa é escolhida de dentro do estojo, qual é a cor da caneta?",
+                "opcoes": [
+                      "azul",
+                      "vermelha",
+                      "verde 16",
+                      "laranja",
+                      "roxa"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>roxa</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Projetos são realizados para cumprir objetivos através da produção de entregas. Um objetivo é definido como um resultado a que o trabalho é orientado, podendo ser uma posição estratégica a ser alcançada ou um propósito a ser atingido ou um produto a ser produzido ou um serviço a ser realizado. Nesse sentido, o gerenciamento de projeto pode ser de- finido como",
+                "opcoes": [
+                      "a aplicação de conhecimento, de habilidades, de sa- bedoria, de ciência e de arte, para que atividades or- ganizacionais alcancem a excelência operacional.",
+                      "a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.",
+                      "a implantação de um software para gerenciamento de projetos.",
+                      "a integração do método do caminho crítico em um sis- tema de gerenciamento de valor agregado.",
+                      "um subconjunto de disciplinas de Engenharia e outras disciplinas técnicas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma organização começará a usar um novo sistema que tem como característica gerar um alto tráfego de arquivos de vídeo na rede interna da empresa. Alguns gestores de negócio da organização estão preocupados com um pos- sível impacto negativo desse novo sistema no desempe- nho da rede da empresa. O processo ITIL responsável por garantir que o tráfego da rede esteja dentro dos níveis definidos de serviço é o gerenciamento de",
+                "opcoes": [
+                      "risco",
+                      "mudança",
+                      "problema",
+                      "B, D, F",
+                      "E, F, G"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>E, F, G</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O COBIT é um framework para a governança e para a gestão da informação e da tecnologia empresarial. Enten- de-se como informação e tecnologia empresarial toda a tecnologia e processamento de informações que a empre- sa implementa para atingir seus objetivos, independente- mente de onde isso aconteça na empresa. Nesse sentido, o framework do COBIT pode ser compre- endido como um framework",
+                "opcoes": [
+                      "que descreve todo o ambiente de TI empresarial.",
+                      "que define os componentes que sustentam um siste- ma de governança.",
+                      "para organizar processos de negócio.",
+                      "técnico para gerenciar toda a tecnologia empresarial.",
+                      "prescritivo para tomadas de decisão relacionadas a TI."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>que define os componentes que sustentam um siste- ma de governança.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Estrutura Analítica do Projeto (EAP) é um diagrama es- truturado que suporta o gerenciamento de escopo de um projeto. Qual é o objetivo da EAP na gestão de um projeto?",
+                "opcoes": [
+                      "Apresentar a estrutura organizacional de um pro- grama.",
+                      "Apresentar quais elementos de trabalho foram atribu- ídos a unidades organizacionais.",
+                      "Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.",
+                      "Indicar quais membros da equipe têm responsabilida- de sobre cada pacote de trabalho.",
+                      "Indicar qual é o caminho crítico do projeto, com as atividades que não possuem folga de tempo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "conhecimentos_especificos_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_especificos_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "conhecimentos_gerais_geral": [
+          {
+                "enunciado": "A idéia principal do texto está expressa em:",
+                "opcoes": [
+                      "O final de ano garante habitualmente maior volume de vendas, tanto à vista quanto a prazo.",
+                      "A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.",
+                      "Negócios realizados a prazo caracterizam as vendas específicas de final de ano.",
+                      "Comerciantes dispensam consultas para a conces- são de créditos, por serem baixos os valores das compras.",
+                      "Cai o volume de vendas, à vista ou a crédito, neste final de ano, em comparação com o anterior."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Infere-se corretamente do texto que, com a expansão do crédito, I. há riscos maiores de ocorrer inadimplência de consumidores. II. a venda de itens de maior valor passa a ser equiva- lente ao volume dos mais acessíveis à população. III. com o aumento das vendas à vista diminui a receita no comércio, pois o crédito contempla compras de maior valor. Está correto o que se afirma SOMENTE em",
+                "opcoes": [
+                      "I.",
+                      "II.",
+                      "I e II.",
+                      "I e III.",
+                      "II e III. 2"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... a taxa de crescimento das consultas para vendas à vis- ta superou a expansão do crediário ... (final do 1 pará- grafo) A frase acima aparece reproduzida com o mesmo sentido, embora com outras palavras, em:",
+                "opcoes": [
+                      "a expansão do crediário foi maior do que o cres- cimento da taxa de consultas para vendas à vista...",
+                      "permanecem as taxas de ampliação do crédito, tal como o número de consultas para vendas à vista...",
+                      "houve maior número de consultas para vendas à vista do que para vendas a crédito...",
+                      "as consultas para vendas à vista foram superadas pela maior oferta de crediário...",
+                      "é necessário haver mais crédito para também cres- cer o número de vendas à vista..."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>houve maior número de consultas para vendas à vista do que para vendas a crédito...</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... reflete com clareza duas variáveis que estão desa- justadas na economia: o juro alto e o câmbio baixo. (final do texto) O emprego dos dois pontos na frase acima assinala",
+                "opcoes": [
+                      "reprodução exata das palavras de um diálogo.",
+                      "condição que justifica a análise feita no parágrafo anterior.",
+                      "finalidade de uma ação já prevista anteriormente.",
+                      "ressalva que esclarece os dados indicados no pará- grafo.",
+                      "enumeração com intenção explicativa."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>enumeração com intenção explicativa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas quando um núcleo de sete especialistas da Embrapa debruçou-se sobre o desafio de tropicalizar a soja. O sentido da frase inicial do texto está expresso com clareza e correção, em outras palavras, da seguinte forma:",
+                "opcoes": [
+                      "As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.",
+                      "Foram vários os tipos de sementes utilizados por pesquisadores para descobrir o melhor meio de au- mentar a importância do agronegócio na região tropical.",
+                      "A soja é o produto mais valorizado do agronegócio brasileiro por apresentar diversidade de tipos de sementes que o trópico conseguiu desenvolver.",
+                      "Especialistas da Embrapa consideram impossível re- solver o impasse da soja para ser tropicalizada, no importante aumento da indústria do agronegócio nacional.",
+                      "A indústria nacional de agronegócio cujas as se- mentes foram plantadas para conseguir a tropi- calização da soja, feitas no desafio dos especialistas da Embrapa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O impacto da inovação foi formidável. (2 parágrafo) A afirmativa transcrita acima",
+                "opcoes": [
+                      "perde importância em vista dos diferentes tipos de soja existentes no mercado.",
+                      "aponta um certo fracasso nas pesquisas, tendo em vista o pequeno desenvolvimento da planta no Brasil.",
+                      "indica as dificuldades de escolha do tipo de soja mais adequado para regiões mais quentes.",
+                      "é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.",
+                      "refere-se ao extraordinário esforço dos especialistas da Embrapa em obter as sementes para suas pesquisas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O segmento abaixo que indica uma razão para a afirma- tiva que, no texto, se segue a ele \u0010 segmento \u0010, é:",
+                "opcoes": [
+                      "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas ...",
+                      "... quando um núcleo de sete especialistas da Embrapa debruçou-se ...",
+                      "Planta de origem asiática ...",
+                      "... a planta atingia no máximo 15 centímetros, um sexto de sua altura normal ...",
+                      "Foram necessários anos de pesquisas num banco genético ... 2"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Planta de origem asiática ...</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... dos que opõem à tirania do essencial a validade do a existencial. (11 linha) Em outras palavras, a afirmativa transcrita acima aponta",
+                "opcoes": [
+                      "a constante preocupação da universalização dos hábitos alimentares característicos de algumas so- ciedades.",
+                      "a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.",
+                      "a correta aceitação de que o gosto por determinados alimentos seja um dos aspectos fisiológicos do ser humano.",
+                      "as dificuldades no desconhecimento do gosto parti- cular de alguns alimentos típicos regionais.",
+                      "a desconsideração de ser a comida reflexo do gosto de toda a sociedade e não apenas de uma pessoa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O autor, no texto em questão,",
+                "opcoes": [
+                      "discute conceitos filosóficos amplamente debatidos em todas as sociedades, como a noção de verdade.",
+                      "ignora a existência de certos princípios norteadores da vida social e das diversidades culturais.",
+                      "nega as possíveis influências que os alimentos pos- sam exercer no desenvolvimento de uma cultura.",
+                      "condena a preocupação de certos pensadores em reduzir a preferência por certos alimentos, como os doces, a um hábito social.",
+                      "defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... que o considerasse expressão de um princípio apenas fisiológico ... (linhas 7 e 8) O pronome grifado na frase acima substitui corretamente a expressão do texto",
+                "opcoes": [
+                      "o Paladar.",
+                      "ao teórico do Paladar.",
+                      "um gosto fisiológico.",
+                      "um princípio metafísico.",
+                      "um princípio apenas fisiológico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>o Paladar.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Tício deseja assegurar o conhecimento de informações relativas à sua pessoa constantes de registros de entidades governamentais. Nesse caso, de acordo com a Constituição Federal brasileira, Tício deverá impetrar",
+                "opcoes": [
+                      "ação popular.",
+                      "mandado de segurança.",
+                      "habeas corpus.",
+                      "mandado de injunção.",
+                      "habeas data."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>habeas data.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Maria, enfermeira do Hospital Federal X, deseja acumular seu cargo público privativo de profissional de saúde de profissão regulamentada com outro cargo público privativo de profissional de saúde de profissão regulamentada, tendo em vista que há compatibilidade de horários entre eles. Neste caso, considerando que ambos os cargos são remunerados, é certo que",
+                "opcoes": [
+                      "será permitida a acumulação dos cargos, tratando-se de exceção prevista na Constituição Federal brasileira.",
+                      "não será permitida a acumulação dos cargos, uma vez que a Constituição Federal brasileira só permite a acumulação de cargo público remunerado com outro gratuito.",
+                      "não será permitida a acumulação dos cargos, por- que a Constituição Federal brasileira veda, em qual- _________________________________________________________ quer hipótese, a acumulação remunerada de cargos públicos.",
+                      "não será permitida a acumulação dos cargos, uma vez que a Constituição Federal brasileira só permite a acumulação de um cargo público de professor com outro técnico ou científico.",
+                      "não será permitida a acumulação dos cargos públicos, uma vez que a Constituição Federal brasileira só permite a acumulação de dois cargos públicos de professores."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>será permitida a acumulação dos cargos, tratando-se de exceção prevista na Constituição Federal brasileira.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A respeito da fundação de sindicato, considere, dentre outros, os requisitos abaixo. I. Autorização do Estado para a respectiva fundação. II. Inexistência de outra organização sindical, em qual- quer grau, representativa de categoria profissional ou econômica, na mesma base territorial. III. Requerimento de registro no órgão competente. IV. Concessão do prazo mínimo de 6 (seis) meses para que os representantes da categoria se filiem, obrigatoriamente, ao sindicato. Estão corretos, de acordo com a Constituição Federal brasileira, os indicados APENAS em",
+                "opcoes": [
+                      "I e II.",
+                      "I, II e III.",
+                      "I, II e IV.",
+                      "II e III.",
+                      "III e IV. 4"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "João, servidor público federal, é casado com Maria, tam- bém servidora pública federal. No interesse do serviço, passaram a ter exercício em nova sede, com mudança de domicílio em caráter permanente. Considerando que João e Maria foram transferidos para a mesma cidade, segundo a Lei n 8.112/90, é correto afirmar que",
+                "opcoes": [
+                      "apenas um dos cônjuges terá direito ao recebimento de diárias.",
+                      "apenas um dos cônjuges terá direito ao recebimento de ajuda de custo.",
+                      "ambos os cônjuges terão direito ao recebimento de ajuda de custo.",
+                      "ambos terão direito ao recebimento de diárias.",
+                      "João terá direito ao recebimento de ajuda de custo e Maria de diárias."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>apenas um dos cônjuges terá direito ao recebimento de ajuda de custo.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Mário prestou concurso para o provimento de cargo públi- co federal. A prova ocorreu no dia 15/06/05. Os resultados finais do concurso foram publicados em 01/08/05. No dia 05/08/05, houve republicação dos resultados em razão de erro material. No dia 25/08/05, Mário foi nomeado. E, em 01/09/05, tomou posse do cargo público. Neste caso, segundo a Lei n 8.112/90, a investidura de Mário em cargo público ocorreu no dia",
+                "opcoes": [
+                      "01/08/05, com a publicação dos resultados finais.",
+                      "15/06/05, com a realização da prova.",
+                      "01/09/05, com a posse.",
+                      "05/08/05, com a republicação dos resultados finais.",
+                      "25/08/05, com a nomeação."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>01/09/05, com a posse.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Eleito com 53 milhões de votos em 2002, Luiz Inácio Lula da Silva é o primeiro presidente brasileiro de esquerda e de origem operária. Despertou, com as promessas de campanha, uma expectativa de profundas mudanças no Brasil. Nos últimos meses vem enfrentando dificuldades provocadas pelas denúncias de corrupção feitas contra o seu partido, integrantes do Congresso Nacional e órgãos públicos. Tem sido característica marcante de sua administração",
+                "opcoes": [
+                      "a promoção da Reforma Agrária, bandeira de luta do PT desde a sua fundação, com o assentamento de 300 mil famílias de trabalhadores sem terra por ano, desde 2003.",
+                      "o rompimento radical com o Fundo Monetário Inter- nacional, traduzido em desobediência às diretrizes impostas por aquela instituição para gerenciar a eco- nomia brasileira.",
+                      "a realização de um amplo programa de privatizações de instituições financeiras e empresas de telecomu- nicações que pertenciam, desde os anos 1930, ao Estado brasileiro.",
+                      "a manutenção da política econômica ortodoxa do seu antecessor, com a adoção de medidas conservadoras como a fixação das altas taxas de juros reais, com o objetivo de conter a inflação.",
+                      "a adoção de um novo modelo político de governo, em que não se aceita qualquer aliança com partidos de oposição, a não ser que seja para aprovar pro- jetos de interesse da maioria trabalhadora. 2"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>a manutenção da política econômica ortodoxa do seu antecessor, com a adoção de medidas conservadoras como a fixação das altas taxas de juros reais, com o objetivo de conter a inflação.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Organização das Nações Unidas (ONU) realiza, anualmente, v órgãos, o Fundo das Nações Unidas para a Infância (UNICEF), publicou em 14 de dezembro de 2005 o seu relat divulgando o Índice de Desenvolvimento Infantil (IDI), resultado de pesquisas sobre indicadores sociais diretamente ligados infância. Entre os 192 países pesquisados, o Brasil ocupa o 88 número 192. Assim, é correto afirmar que",
+                "opcoes": [
+                      "o Brasil se posiciona entre os 50% piores.",
+                      "há 92 países em posição pior que a do Brasil.",
+                      "para ficar entre os 10 melhores, o Brasil precisa ultrapassar 78 posi",
+                      "o Brasil está entre os 50% melhores.",
+                      "há 110 países em posição melhor que a do Brasil."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>o Brasil se posiciona entre os 50% piores.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou, em 1 Interno Brasileiro (PIB) caiu 1,2% no terceiro trimestre deste ano, se comparado ao mesmo per revista britânica The Economist publicou uma relação contendo o gráfico abaixo. e m po rce ntag em A rg en tina Ve ne z ue la C h in a Ín dia C h ile C o lôm b ia In do nés ia H u ng ria Áfric a d o S u l Tailând ia Tu rqu ia M alásia M éxico P o lônia B R A SIL * Últim o d a d o d is p o níve l é re fer e n te a o s eg u n d o trim es tre , co m p a ra d o co m o m e sm o trim es tre d e 2 0 04 Fonte: Adaptado de O Estado de S. Paulo. 1 Tanto a queda do PIB brasileiro quanto a sua classificação diante de outros pa fatores, atuais ou existentes há muito tempo. Entre esses fatores,",
+                "opcoes": [
+                      "superprodução da atual safra de laranja, trigo e café e a falta de dinamismo do setor exportador.",
+                      "queda do consumo das famílias e a burocracia que dificulta as exporta",
+                      "redução do crédito e a precária infra-estrutura viária.",
+                      "diminuição da massa real de rendimentos e a falta de capital humano.",
+                      "quebra da safra agrícola e a alta carga tributária vigente no pa 2 ários estudos sobre desenvolvimento mundial. Um de seus ório anual, à lugar, onde a pior posição é a de número 1 e a melhor a de ções. de dezembro de 2005, a informação de que o Produto íodo de 2004. Paralelamente, a índice de crescimento de países emergentes, conforme o 1 0,1 * /12/2005. B8 íses emergentes podem ser explicadas por vários é correto citar a ções. ís. 5"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>quebra da safra agrícola e a alta carga tributária vigente no pa 2 ários estudos sobre desenvolvimento mundial. Um de seus ório anual, à lugar, onde a pior posição é a de número 1 e a melhor a de ções. de dezembro de 2005, a informação de que o Produto íodo de 2004. Paralelamente, a índice de crescimento de países emergentes, conforme o 1 0,1 * /12/2005. B8 íses emergentes podem ser explicadas por vários é correto citar a ções. ís. 5</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral",
+                      "ortografia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere a tabela abaixo. 1999 População Mundial 6.0 bilh Suficiência de água 92% Insuficiência de água 5% Escassez de água 3% Fonte:http://www.deca.com.br, acessado em 05/12/2005. Da análise das informações acima, é correto afirmar:",
+                "opcoes": [
+                      "A previsão de escassez para o ano 2050 pode não ocorrer, porque com o controle de natalidade praticado nos pa emergentes, a tendência é que o consumo de água diminua sensivelmente nas pr",
+                      "As perspectivas para o século XXI indicam um cenário de insufici natural passará a ser mais precioso para a humanidade do que o petr",
+                      "A previsão feita é equivocada, pois o programa Década Internacional de conseguiu aumentar em 50% a quantidade de água dispon",
+                      "Analisando os dados, podemos concluir que a frase “A á passa, como uma verdade indiscutível.",
+                      "As previsões para 2005 foram levadas tão a sério em nosso pa programas de Uso Racional da Água implantados com sucesso."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>As perspectivas para o século XXI indicam um cenário de insufici natural passará a ser mais precioso para a humanidade do que o petr</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O atual governador de Mato Grosso do Sul pretende aprovar um projeto que permite a planta instalação de usinas de álcool na Bacia do Rio Paraguai, como demonstra o mapa. Área pretend ida U s ina s e xisten tes M T S o no r a PA N TA N A L S U L ÍV IA M ATO -G R O S S E N S E C o xim B O L R io V e rd e d e M a to G ro s so S R io N eg r o d o O 'e ste M ir a n da A q uid a u a n a B o do q u e n a A n as tácio C am po G rande S id ro lâ J ar d im M a ra ca ju R io B rilha n te D o u ra d o s N a viraí PA R A G U A I Fonte: O Estado de S. Paulo. 20/11/2005. A24 Analise os argumentos sobre o projeto: I. Ambientalistas são contrários ao projeto porque, por princ natureza. II. Alguns prefeitos de cidades próximas consideram que a ú III. O Ministério do Meio Ambiente é contra o projeto, afirmando que ele pode comprometer a biodiversidade da regi provocar a degradação do solo. IV. Alguns ambientalistas concordam que o desenvolvimento lavoura de cana e o subproduto tóxico gerado pela sua destila V. Técnicos ambientalistas aprovam o projeto, alegando que, como a Bacia do Rio Paraguai corre em terreno plano, a possibilidade de contaminar o Aqüífero Guarani, que fica no subsolo da regi É correto o que consta APENAS em",
+                "opcoes": [
+                      "III e V.",
+                      "I, III e V.",
+                      "II, III e IV.",
+                      "II e V.",
+                      "IV e V. 6 2050 (Previsão) ões 9.4 bilhões íses óximas décadas. ência e escassez de água, de modo que este bem óleo. Água pela Vida, lançado pela ONU em 2005, já ível para as atividades humanas. gua é um recurso ilimitado” pode ser entendida, a cada dia que ís que já existem, hoje, em 90% dos municípios brasileiros, ção de cana-de-açúcar e a U s ina s p rojetada s N G O C a ss ilân d ia ão G a b riel A pa re c id a d o Ta b o ad o M S n d ia N o va A lv o ra d a B ra silân d ia d o S u l N o va A n dr a d in a S P D e o dáp o lis P R ípio, discordam de toda e qualquer intervenção humana na nica forma de desenvolver a região é através do agronegócio. ão e é importante, mas afirmam que a área não é própria para a ção, o vinhoto, pode contaminar rios e águas subterrâneas. ão, é muito remota. 2"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>II, III e IV.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma pessoa tem 7 bolas de mesmo peso e, para calcular o peso de cada uma, colocou 5 bolas em um dos pratos de uma balança e o restante junto com uma barra de ferro de 546 gramas, no outro prato. Com isso, os pratos da balança ficaram totalmente equilibrados. O peso de cada bola, em gramas, é um número",
+                "opcoes": [
+                      "maior que 190.",
+                      "entre 185 e 192.",
+                      "entre 178 e 188.",
+                      "entre 165 e 180.",
+                      "menor que 170."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>entre 178 e 188.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Para um grupo de funcionários, uma empresa oferece cur- sos para somente dois idiomas estrangeiros: inglês e espa- nhol. Há 105 funcionários que pretendem estudar inglês, 118 que preferem espanhol e 37 que pretendem estudar 1 simultaneamente os dois idiomas. Se do total de 7 funcionários desse grupo não pretende estudar qualquer idioma estrangeiro, então o número de elementos do gru- po é",
+                "opcoes": [
+                      "245",
+                      "238",
+                      "231",
+                      "224",
+                      "217"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>217</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Suponha que, num banco de investimento, o grupo res- ponsável pela venda de títulos é composto de três ele- mentos. Se, num determinado período, cada um dos ele- mentos do grupo vendeu 4 ou 7 títulos, o total de títulos vendidos pelo grupo é sempre um número múltiplo de",
+                "opcoes": [
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7 2"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os clientes de um banco contam com um cartão magné- tico e uma senha pessoal de quatro algarismos distintos entre 1 000 e 9 999. A quantidade dessas senhas, em que a diferença positiva entre o primeiro algarismo e o último algarismo é 3, é igual a",
+                "opcoes": [
+                      "936",
+                      "896",
+                      "784",
+                      "768",
+                      "728"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>728</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na seqüência de quadriculados abaixo, as células pretas foram colocadas obedecendo a um determinado padrão. ... fig u ra I fig u ra II fig u ra III fig u ra IV ... Mantendo esse padrão, o número de células brancas na Figura V será",
+                "opcoes": [
+                      "101",
+                      "99",
+                      "97",
+                      "83",
+                      "81"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>101</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Três técnicos: Amanda, Beatriz e Cássio trabalham no banco – um deles no complexo computacional, outro na administração e outro na segurança do Sistema Finan- ceiro, não respectivamente. A praça de lotação de cada um deles é: São Paulo, Rio de Janeiro ou Porto Alegre. Sabe-se que: \u0010 Cássio trabalha na segurança do Sistema Financeiro. \u0010 O que está lotado em São Paulo trabalha na admi- nistração. \u0010 Amanda não está lotada em Porto Alegre e não tra- balha na administração. É verdade que, quem está lotado em São Paulo e quem trabalha no complexo computacional são, respectivamente,",
+                "opcoes": [
+                      "Cássio e Beatriz.",
+                      "Beatriz e Cássio.",
+                      "Cássio e Amanda.",
+                      "Beatriz e Amanda.",
+                      "Amanda e Cássio. 7"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Beatriz e Amanda.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Das 5 figuras abaixo, 4 delas têm uma característica geo- métrica em comum, enquanto uma delas não tem essa característica. c n m m b a n fig u ra I fig u ra II t y p p x x t t p p z t fig u ra III fig u ra IV fig u ra V A figura que NÃO tem essa característica é a",
+                "opcoes": [
+                      "I.",
+                      "II.",
+                      "III.",
+                      "IV.",
+                      "V."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na figura abaixo tem-se um conjunto de ruas paralelas às direções I e II indicadas. P I II A B Sabe-se que 64 pessoas partem de P: metade delas na direção I, a outra metade na direção II. Continuam a caminhada e, em cada cruzamento, todos os que chegam se dividem prosseguindo metade na direção I e metade na direção II. O número de pessoas que chegarão nos cruzamentos A e B são, respectivamente,",
+                "opcoes": [
+                      "15 e 20",
+                      "6 e 20",
+                      "6 e 15",
+                      "1 e 15",
+                      "1 e 6 8"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>6 e 20</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise a figura abaixo. O maior número de triângulos distintos que podem ser vistos nessa figura é",
+                "opcoes": [
+                      "20",
+                      "18",
+                      "16",
+                      "14",
+                      "12 2"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>18</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "conhecimentos_gerais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "conhecimentos_gerais_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "estatistica_geral": [
+          {
+                "enunciado": "Edson e Roberto fazem uma aposta jogando dois dados, ambos regulares. Edson ganha a aposta se saírem dois números maiores do que 3. Caso contrário, ganha Roberto. Eles pretendem fazer um jogo honesto. Se perder, Edson pagará a Roberto 10 reais. Então, se perder, Roberto deverá pagar a Edson",
+                "opcoes": [
+                      "18 reais.",
+                      "24 reais.",
+                      "30 reais.",
+                      "42 reais.",
+                      "46 reais."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>30 reais.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Ana vai passar o fim de semana em sua casa de praia. A previsão do tempo diz que a probabilidade de chuva no sábado é de 30%, e a probabilidade de chuva no domingo é de 40%. Nesse caso, a probabilidade de que Ana consiga ir à praia no fim de semana sem pegar chuva é de",
+                "opcoes": [
+                      "46%.",
+                      "55%.",
+                      "63%.",
+                      "88%.",
+                      "92%."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>88%.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um quadro-negro de forma retangular tem lados horizontais de 81,0cm e lados verticais de 70,2cm. Deseja-se traçar linhas horizontais e verticais igualmente espaçadas, de modo a cobrir inteiramente o quadro-negro de quadrados. O número mínimo de quadrados que se obtém dessa forma é igual a",
+                "opcoes": [
+                      "195.",
+                      "209.",
+                      "216.",
+                      "252.",
+                      "280."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>195.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Nelson dividiu sua vasta biblioteca entre livros de aventura (a), biografias (b), científicos (c) e diversos (d). Ele também catalogou os livros segundo o número de páginas (np): os de menos de 200 páginas, aqueles que têm entre 200 e 500 páginas e os de mais de 500 páginas. A tabela a seguir apresenta os percentuais de livros com menos de duzentas páginas e percentuais de livros com mais de 500 páginas para cada uma das categorias a, b, c e d. A tabela mostra ainda o percentual de livros de cada uma das 4 categorias. np < 200 np > 500 percentual a 0,3 0,2 0,3 b 0,1 0,7 0,1 c 0,1 0,5 0,4 d 0,3 0,3 0,2 O percentual de livros da biblioteca com um número de páginas entre 200 e 500 situa-se entre",
+                "opcoes": [
+                      "0,45 e 0,50.",
+                      "0,40 e 0,45.",
+                      "0,35 e 0,40.",
+                      "0,30 e 0,35.",
+                      "0,25 e 0,30."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>0,40 e 0,45.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral",
+                      "ortografia"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Sejam A = (34, 52) e B = (10, 7) dois pontos no plano cartesiano. Considere o ponto C = (x, y) situado no segmento que une A a B e tal que a distância de C a A seja o dobro da distância de C a B. A soma x + y das coordenadas de C vale",
+                "opcoes": [
+                      "38.",
+                      "39.",
+                      "40.",
+                      "41.",
+                      "42."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>40.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A quantidade de anagramas da palavra SAUDADE nos quais todas as vogais estejam juntas é igual a",
+                "opcoes": [
+                      "98.",
+                      "144.",
+                      "186.",
+                      "204.",
+                      "288."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>144.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma pequena amostra de 11 salários (medidos em quantidades de salários mínimos) de trabalhadores de terceiro setor mostrou os seguintes resultados: 2,0 2,3 2,7 3,4 3,9 2,8 2,3 1,8 1,5 3,3 1,5 A diferença, em quantidade de salários mínimos, entre os valores da média e da mediana desses dados é igual a",
+                "opcoes": [
+                      "0,0.",
+                      "0,1.",
+                      "0,2.",
+                      "0,3.",
+                      "0,4."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>0,2.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma variável aleatória discreta X tem função de probabilidade dada por x 0 1 2 3 p(x) 0,5 0,2 0,1 0,2 A probabilidade de que o valor de X seja maior do que 2 é igual a",
+                "opcoes": [
+                      "10%.",
+                      "20%.",
+                      "25%.",
+                      "30%.",
+                      "50%."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>20%.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma amostra aleatória de tamanho n = 64 de uma variável aleatória suposta normalmente distribuída com média desconhecida  e variância 100 foi observada e revelou uma média amostral igual a 44,65. Lembrando que se Z tem distribuição normal padrão, P[- 1,96 < Z < 1,96] = 0,95, o intervalo de 95% de confiança para  será dado por",
+                "opcoes": [
+                      "(42,2; 47,1)",
+                      "(41,2; 48,1)",
+                      "(40,2; 49,1)",
+                      "(39,2; 50,1)",
+                      "(38,2; 51,1)"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>(42,2; 47,1)</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma reta de regressão linear simples foi obtida a partir do modelo Y = X +  + e pelo método de mínimos quadrados usual e mostrou as seguintes estimativas dos coeficientes: a = 3,4 e b = 0,5; além disso, obteve- se um coeficiente de correlação amostral igual a 0,9. Com base nesses dados, avalie se as afirmativas a seguir estão corretas. I. A porcentagem da variação total dos dados que é explicada pela regressão é menor do que 60%. II. A reta de regressão obtida ajusta bem o modelo. III. O intercepto a = 3,4 mostra que a valor grandes de x correspondem valores grandes de y. Está correto o que se afirma em",
+                "opcoes": [
+                      "I, apenas.",
+                      "II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "I e II, apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>II, apenas.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Observe as cinco amostras a seguir: Amostra Observações 1 –5 –3 –1 1 3 5 7 2 22 26 30 34 38 3 100 101 102 103 4 1 2 3 5 10 5 0,5 2,0 3,5 5,0 6,5 Das cinco, a de menor desvio padrão é a",
+                "opcoes": [
+                      "1.",
+                      "2.",
+                      "3.",
+                      "4.",
+                      "5."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>3.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma equipe de trabalho reúne 4 auditores e 6 analistas. Se três pessoas dessa equipe forem selecionadas aleatoriamente para formar um pequeno grupo de trabalho, a probabilidade de que esse grupo seja formado por dois analistas e um auditor é igual a",
+                "opcoes": [
+                      "0,2.",
+                      "0,5.",
+                      "0,6.",
+                      "0,7.",
+                      "0,8."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>0,5.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Numa população, 50% das pessoas têm uma certa característica C. Se 4 pessoas forem aleatoriamente selecionadas, com reposição, a probabilidade de que mais de uma tenha a característica C é igual a",
+                "opcoes": [
+                      "0,3125.",
+                      "0,3650.",
+                      "0,4245.",
+                      "0,6875.",
+                      "0,7225."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>0,6875.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Suponha que uma amostra aleatória simples 𝑋1, 𝑋2, … , 𝑋𝑛, de tamanho n, será observada de uma variável populacional normalmente distribuída com média  e variância 2. Considere as estatísticas média amostral e soma dos quadrados dos desvios, dadas, respectivamente, por 𝑋̅ e 𝑄 = ∑ (𝑋𝑖 − 𝑋̅ )2\t𝑛 𝑖=1 . Avalie se as seguintes afirmativas estão corretas: I. 𝑋̅ tem distribuição normal com média  e variância 2/n. II. 𝑋̅ e 𝑄 são fortemente correlacionadas. III. 𝑄/2 tem distribuição qui-quadrado com (n – 1) graus de liberdade.",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Suponha que p seja a proporção populacional de trabalhadores com rendimentos salariais mensais de mais do que 5 salários mínimos e que se deseja testar uma hipótese nula simples p = p0. Uma amostra aleatória simples de tamanho 1600 foi observada e mostrou que, nessa amostra, 320 trabalhadores tinham rendimentos salariais mensais de mais do que 5 salários. Um intervalo de 95% de confiança aproximado para p resulta então em (0,18; 0,22). Avalie se, com base nesses dados, as seguintes afirmativas são falsas (F) ou verdadeiras (V). I. Se p0 = 0,2 a hipótese nula deve ser rejeitada ao nível de significância de 5%. II. Se p0 = 0,15 a hipótese nula não deve ser rejeitada ao nível de significância de 5%. III. Se p0 = 0,23 fica inconclusiva a decisão ao nível de significância de 5%.",
+                "opcoes": [
+                      "V, V e V.",
+                      "V, V e F.",
+                      "V, F e F.",
+                      "F, F e V.",
+                      "F, F e F."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>F, F e F.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Numa regressão linear simples, verificou-se um coeficiente de correlação amostral igual a 0,756. Nesse caso, o coeficiente de determinação é aproximadamente igual a",
+                "opcoes": [
+                      "0,48.",
+                      "0,51.",
+                      "0,54.",
+                      "0,57.",
+                      "0,60."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>0,57.</strong>. Fonte: FGV/2023. Assunto: estatistica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "estatistica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "estatistica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "contabilidade_geral_e_publica_geral": [
+          {
+                "enunciado": "Uma entidade tinha seu modelo de negócios estruturado para a venda de terrenos. Em 01/01/X0, o seu estoque era de R$270.000, tendo a seguinte composição:  Terreno A: R$120.000  Terreno B: R$150.000. Em 31/01/X0, teve início um processo de melhorias na região onde os terrenos estão localizados. Por isso, a entidade decidiu retirar os terrenos de venda e mantê-los para valorização de capital a longo prazo, definindo mensurá-los pelo valor justo. Na data, o valor justo do Terreno A era de R$160.000 e o do Terreno B, de R$140.000. Assinale a opção que indica o efeito da mudança da intenção da administração nas demonstrações contábeis da entidade.",
+                "opcoes": [
+                      "Demonstração do Resultado do Exercício: +R$30.000.",
+                      "Demonstração das Mutações do Patrimônio Líquido: +R$30.000.",
+                      "Demonstração de Outros Resultados Abrangentes: +R$30.000.",
+                      "Demonstração do Resultado do Exercício: +R$40.000; Demonstração das Mutações do Patrimônio Líquido: –R$10.000.",
+                      "Demonstração das Mutações do Patrimônio Líquido: +R$40.000; Demonstração do Resultado do Exercício: –R$10.000."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Demonstração do Resultado do Exercício: +R$30.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 31/12/X0, uma sociedade empresária adquiriu, à vista, um terreno para ser utilizado em seus negócios por R$100.000. A sociedade empresária avalia ao fim de cada período de reporte se há alguma indicação de que os seus ativos possam ter sofrido desvalorização. Os valores recuperáveis em 31/12/X1, 31/12/X2 e 31/12/X3 foram, respectivamente, de R$90.000, R$80.000 e R$120.000. Assinale a opção que indica a contabilização relacionada à recuperabilidade do terreno na Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X3, de acordo com a NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos:",
+                "opcoes": [
+                      "Receita de R$20.000.",
+                      "Receita de R$40.000.",
+                      "Reversão de Despesa de R$20.000.",
+                      "Reversão de Despesa de R$30.000.",
+                      "Reversão de Despesa de R$40.000."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Receita de R$20.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 02/01/X1, uma entidade adquiriu computadores, para utilizar em sua área administrativa, por R$50.000, para pagamento em 31/12/X1. Se os computadores tivessem sido adquiridos à vista, o custo seria de R$45.000. O prazo de pagamento excede os prazos normais de crédito da entidade e o valor da compra é considerado material. A vida útil estimada dos computadores era de 5 anos. A entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. No ano de X1, a entidade contabilizou receita com a prestação de serviços de R$200.0000. Os custos com os serviços prestados foram de R$80.000. Além do lucro bruto de R$120.000, assinale a opção que indica os valores das contas apresentadas na Demonstração do Resultado do Exercício da entidade em 31/12/X1, sem considerar a incidência de impostos.",
+                "opcoes": [
+                      "Despesa de depreciação: R$9.000, apenas.",
+                      "Despesa de depreciação: R$10.000, apenas.",
+                      "Despesa de depreciação: R$9.000 e Despesa financeira:",
+                      "Despesa de depreciação: R$10.000 e Despesa financeira:",
+                      "Despesa de depreciação: R$10.000 e Receita financeira:"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Despesa de depreciação: R$9.000 e Despesa financeira:</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com as modificações trazidas pelas Leis 11.638/07 e 11.941/09 no patrimônio líquido, a conta Ajustes de Avaliação Patrimonial representa as contrapartidas de aumentos ou diminuições de valor atribuído a elementos do ativo e do passivo, em decorrência de sua avaliação a valor justo. Os valores registrados nesta conta deverão ser transferidos para o resultado do exercício",
+                "opcoes": [
+                      "à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.",
+                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência ao regime de competência.",
+                      "à medida que os ativos e passivos forem sendo realizados, em obediência à característica qualitativa da tempestividade.",
+                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência à característica qualitativa da tempestividade.",
+                      "à medida que os ativos e os passivos forem sendo lançados em “Outros Resultados Abrangentes”, em obediência à característica qualitativa da tempestividade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária apresentava os seguintes Balanços Patrimoniais em 31/12/X0 e em 31/12/X1, respectivamente: Já a Demonstração do Resultado do Exercício, em 31/12/X1, era a seguinte: Sobre a elaboração da Demonstração dos Fluxos de Caixa pelo método indireto em 31/12/X1, analise as afirmativas a seguir: I. Os montantes das contas “salários a pagar” e “imposto de renda a pagar” foram adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. II. Os montantes das contas “estoques” e “clientes” foram, respectivamente, excluídos e adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. III. No ano, o fluxo de caixa consumido pela atividade operacional foi de R$25.000. IV. No ano, o fluxo de caixa gerado pela atividade de investimento foi superior ao obtido nas atividades de financiamento. Em relação à elaboração da Demonstração dos Fluxos de Caixa da entidade em 31/12/X1, estão corretas as afirmativas",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e IV, apenas.",
+                      "I, II e III, apenas.",
+                      "I, III e IV, apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a NBC TG 27(R4) – Ativo Imobilizado, as demonstrações contábeis devem, obrigatoriamente, divulgar",
+                "opcoes": [
+                      "o valor contábil do ativo imobilizado que esteja temporariamente ocioso.",
+                      "o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.",
+                      "o valor contábil de ativos imobilizados retirados de uso ativo e não classificados como mantidos para venda.",
+                      "o valor contábil bruto de qualquer ativo imobilizado totalmente depreciado que ainda esteja em operação.",
+                      "o valor justo do ativo imobilizado quando este for materialmente diferente do valor contábil apurado pelo método do custo. Balanço Patrimonial- 31/12/X0: Ativo Circulante Patrimônio Líquido Caixa 50.000 Capital Social 70.000 Estoques 20.000 Total do Ativo 70.000 Passivo + PL 70.000 Balanço Patrimonial- 31/12/X1: Ativo Circulante Passivo Circulante Caixa 25.000 Salários a pagar 15.000 Clientes 90.000 IR a pagar 4.080 PECLD -18.000 Patrimônio Líquido Capital Social 70.000 Reserva de Lucros 7.920 Total do Ativo 97.000 Passivo + PL 97.000 Demonstração do Resultado do Exercício- 31/12/X1: Receita de Vendas \t90.000 Custo das Mercadorias vendidas \t-20.000 Lucro Bruto \t70.000 Despesas Operacionais Despesa de Salários \t-15.000 Despesas com Perdas estimadas com crédito de liquidação duvidosa -18.000 Despesas de Aluguel \t-25.000 Lucro antes do Imposto de Renda e Contribuição Social \t12.000 Imposto de Renda e Contribuição Social \t-4.080 Lucro Líquido \t7.920"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária apresentava os seguintes ativos em seu Balanço Patrimonial, em 31/12/X0:  Caixa: R$200.000;  Terreno mantido para futuro uso correntemente indeterminado: R$70.000;  Edifício arrendado para terceiros sob arrendamento operacional: R$120.000;  Edifício desocupado, mantido para ser arrendado para terceiros sob arrendamento operacional: R$140.000;  Propriedade em construção para futura utilização como propriedade para investimento: R$150.000. Assinale a opção que indica o saldo da conta Propriedade para Investimento no Balanço Patrimonial da sociedade empresária na data.",
+                "opcoes": [
+                      "R$150.000.",
+                      "R$220.000.",
+                      "R$260.000.",
+                      "R$410.000.",
+                      "R$480.000."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>R$480.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Lei nº 11.941/09 trouxe alterações em relação à Lei nº 6.404/76, que estão alinhadas com o texto da NBC TG 18 (R3) – Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto. Com base na norma contábil, são coligadas as sociedades nas quais a investidora tem influência significativa. Considera-se que há efetivamente influência significativa quando",
+                "opcoes": [
+                      "a investidora considera relevante o investimento na coligada.",
+                      "a investidora exerce controle por meio de uma subsidiária integral.",
+                      "o valor contábil do investimento é igual a 10% do valor do patrimônio líquido da investidora.",
+                      "a investidora é titular de, no mínimo, 15% das ações preferenciais do capital da investida.",
+                      "a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na contabilização do estoque de uma entidade do setor industrial, os gastos com armazenamento foram incluídos no valor dos estoques, reconhecidos no ativo. Em relação a esses gastos, pode-se afirmar que",
+                "opcoes": [
+                      "foram pagos à vista.",
+                      "seu montante é considerado material, frente ao custo das mercadorias.",
+                      "foram incorridos para trazer os estoques à sua condição e localização atuais.",
+                      "foram necessários ao processo produtivo entre uma e outra fase de produção.",
+                      "deverão ser amortizados mensalmente, com base na vida útil estimada do estoque."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>foram necessários ao processo produtivo entre uma e outra fase de produção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O custo dos estoques de bens ou serviços produzidos e segregados para projetos específicos deve ser atribuído pelo uso",
+                "opcoes": [
+                      "do custo médio ponderado fixo.",
+                      "do custo médio ponderado móvel.",
+                      "do último que entra, primeiro que sai.",
+                      "do primeiro que entra, primeiro que sai.",
+                      "da identificação específica dos custos individuais."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>da identificação específica dos custos individuais.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade que trabalha com auditoria contábil adquiriu, em 01/01/X1, por R$700.000 à vista, um imóvel para ser utilizado como sede. A vida útil do imóvel era estimada em 25 anos e não era considerado valor residual. Além disso, a entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta. Em 31/12/X3, o imóvel foi colocado para à venda. Na data, o ativo estava disponível para venda imediata e o nível hierárquico de gestão estava comprometido com o plano de venda do ativo, tendo iniciado um programa para localizar um comprador. Além disso, o valor justo do imóvel, líquido das despesas de venda, foi avaliado em R$720.000. Em 31/12/X4, o imóvel foi vendido por R$750.000 à vista. Assinale a opção que indica o resultado obtido com venda do imóvel, contabilizado na Demonstração do Resultado do Exercício da entidade em 31/12/X4.",
+                "opcoes": [
+                      "R$30.000.",
+                      "R$50.000.",
+                      "R$62.727.",
+                      "R$134.000.",
+                      "R$162.000."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>R$134.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária efetuou a captação de debêntures de longo prazo no mercado financeiro, com prêmio. No ano de X1, foi efetuado o pagamento dos juros e realizada a amortização periódica do prêmio recebido. Assinale a opção que indica a apresentação do efeito da apropriação do prêmio das debêntures na estrutura de grupos da Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X1.",
+                "opcoes": [
+                      "Despesa Financeira.",
+                      "Receita Financeira.",
+                      "Outras receitas Operacionais.",
+                      "Retificação da Receita Financeira.",
+                      "Prêmios na emissão de debêntures a apropriar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Despesa Financeira.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade do setor público possui participação permanente em outra entidade. A participação é avaliada de acordo com o custo de aquisição. A entidade investidora deve reconhecer o rendimento relacionado à entidade investida quando",
+                "opcoes": [
+                      "receber as distribuições de lucros, apenas.",
+                      "a entidade investida reconhecer lucro, apenas.",
+                      "as duas entidades realizarem operações entre si, apenas.",
+                      "a entidade investida reconhecer lucro ou prejuízo, apenas.",
+                      "receber as distribuições de lucros e a entidade investida reconhecer lucro, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>receber as distribuições de lucros, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade do setor público realizou transações em moeda estrangeira. Em sua Demonstração dos Fluxos de Caixa, o efeito das mudanças nas taxas cambiais sobre o caixa e equivalentes de caixa, mantidos ou devidos em moeda estrangeira, deve ser apresentado",
+                "opcoes": [
+                      "como atividade operacional.",
+                      "como atividade de investimento.",
+                      "como atividade de financiamento.",
+                      "como caixa e equivalente de caixa.",
+                      "separadamente dos fluxos de caixa das três atividades."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>separadamente dos fluxos de caixa das três atividades.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 31/12/X0, uma sociedade empresária apresentava o seguinte balanço patrimonial: As vidas úteis estimadas dos móveis e dos computadores eram, respectivamente, de 10 anos e de 5 anos. A sociedade empresária depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. Em 31/12/X1, a sociedade empresária realizou um teste de recuperabilidade de seus ativos imobilizados. No teste, ela constatou que os móveis apresentavam valor justo de R$85.000, sendo que as despesas com a sua remoção eram estimadas em R$12.000, e as despesas associadas à reorganização do negócio após à venda eram estimadas em R$4.000. Por sua vez, o valor em uso dos móveis era estimado em R$70.000. Por sua vez, os computadores apresentavam valor justo de R$32.000, sendo que os gastos diretos incrementais para deixá-los em condição de venda eram de R$5.000. O valor em uso dos computadores era estimado em R$28.000. Assinale a opção que indica os valores contabilizados como perda por desvalorização dos móveis e dos computadores, respectivamente.",
+                "opcoes": [
+                      "zero e zero.",
+                      "R$9.000 e R$2.000.",
+                      "R$9.000 e R$3.000.",
+                      "zero e R$3.000.",
+                      "R$13.000 e R$2.000. Ativo Circulante \t45.000 Caixa \t45.000 Ativo não Circulante Ativo Imobilizado \t130.000 Patrimônio Líquido Móveis \t100.000 Capital Social \t175.000 Depreciação Acumulada -8.000 Computadores \t40.000 Depreciação Acumulada -2.000 Ativo Total \t175.000 Passivo + PL \t175.000"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>R$9.000 e R$2.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade que presta serviços de consultoria contabilizou as seguintes transações no ano de X0: Receita de serviços: R$500.000 Receita com a venda de ativo imobilizado: R$80.000 Receita com aluguel de imóvel a terceiros: R$15.000 Receita com variação cambial ativa: R$14.000 Receita com direito de franquia: R$6.000 Custo dos serviços prestados: R$160.000 Custo do ativo imobilizado vendido: R$60.000 Despesa de salários de funcionários administrativos: R$50.000 Despesa com serviços de contabilidade terceirizada: R$30.000 Despesa com assistência médica a funcionários: R$25.000 Despesa com alimentação de funcionários: R$42.000 Despesa de depreciação dos ativos imobilizados usados para a prestação dos serviços: R$18.000 Despesa com aluguel da sede da empresa: R$36.000 Despesa com juros: R$12.000 Incidência de 34% do lucro líquido a título de imposto de renda e contribuição social Distribuição de 30% do lucro após o imposto de renda e contribuição social aos acionistas Todas as receitas são tributáveis, e as despesas, dedutíveis. Além disso, a constituição da reserva legal não foi necessária. Em relação à Demonstração do Valor Adicionado da entidade, analise as afirmações a seguir. I. Valor adicionado recebido em transferência: R$21.000. II. Valor adicionado a distribuir a pessoal: R$75.000. III. Valor adicionado a distribuir a impostos, taxas e contribuições: R$61.880. IV. Valor adicionado a distribuir a remuneração de capitais próprios: R$36.036. V. Valor adicionado a distribuir a remuneração de capitais de terceiros: R$48.000.",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "III e IV, apenas.",
+                      "III e V, apenas.",
+                      "I, III e V, apenas.",
+                      "II, IV e V, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>III e V, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade vende canetas personalizadas. Em 01/01/X0, não havia estoque. Em 02/01/X0, ela adquiriu 500 unidades de canetas para personalização e venda por R$6.000, para pagamento em 3 meses. Se as canetas tivessem sido adquiridas à vista, o custo unitário seria de R$10,00. Na data da aquisição, a entidade incorreu em gastos com frete e seguro, respectivamente, de R$800 e R$700. Para a personalização das 500 canetas são gastos R$1.000 em material. Além disso, é utilizada uma máquina que foi adquirida por R$10.000 e tem capacidade estimada em 5.000 canetas. A máquina é depreciada de acordo com o método dos benefícios gerados e a entidade não considera valor residual. Ainda, os gastos com o armazenamento das 500 canetas prontas eram de R$1.500. Após prontas, 50 canetas foram descartadas, por estarem com qualidade inferior ao esperado. Em 31/01/X0, as canetas foram colocadas à venda por R$20,00. A entidade destina aos vendedores uma comissão de 10% sobre o preço de venda. Assinale a opção que indica o valor contabilizado como estoque em 31/01/X0.",
+                "opcoes": [
+                      "R$5.850.",
+                      "R$6.750.",
+                      "R$7.650.",
+                      "R$8.100.",
+                      "R$9.000."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>R$7.650.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a NBC TA Estrutura Conceitual – Estrutura Conceitual para Trabalhos de Asseguração, a confiabilidade da evidência é influenciada por sua fonte e sua natureza e depende das circunstâncias particulares sob as quais são obtidas. Assinale a opção que, de um modo geral, indica quando a generalização sobre a confiabilidade da evidência pode ser feita.",
+                "opcoes": [
+                      "A evidência é mais confiável quando é obtida por meio de fontes internas às partes apropriadas.",
+                      "A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.",
+                      "A evidência gerada pela representação verbal do que foi debatido é mais confiável do que a evidência em papel.",
+                      "A evidência obtida indiretamente por dedução é mais confiável do que a evidência obtida diretamente pelo auditor independente.",
+                      "A evidência gerada por auditor independente que realiza o trabalho pela primeira vez é mais confiável do que a evidência gerada por auditor independente antigo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "administracao_geral_e_publica_geral": [
+          {
+                "enunciado": "As informações levantadas durante a fase de iniciação de um projeto são condensadas e registradas em um único documento cujo objetivo é formalizar as necessidades do negócio, a compreensão das necessidades dos clientes e o novo produto (seja ele um bem ou um serviço) que será o resultado do projeto. Tal documento pode ser nomeado como",
+                "opcoes": [
+                      "Estrutura Analítica do Projeto.",
+                      "Termo Analítico do Projeto.",
+                      "Plano de Iniciação do Projeto.",
+                      "Termo de Abertura do Projeto.",
+                      "Plano de Gerenciamento do Projeto."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Termo de Abertura do Projeto.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O balanço patrimonial representa o valor contábil de uma sociedade empresária em um momento específico, como se fosse um retrato da empresa. Ele é composto por dois lados: no esquerdo estão os ativos da empresa; no direito são identificados os passivos e o capital dos acionistas. A definição contábil que fundamenta e descreve o balanço patrimonial é a seguinte: Ativos = Passivos + Patrimônio liquido Considere as informações apresentadas a seguir sobre a sociedade empresária XPTO no ano de 20XX. Empresa XPTO 20XX Caixa e equivalentes 150 Fornecedores 150 Empréstimos 200 Ações Ordinárias 100 Reservas de Capital 250 Contas a receber 600 Estoques 250 Bens, imóveis, fábricas e equipamentos 1500 Dívidas de longo prazo 500 Ações preferenciais 200 Ativos intangíveis e outros 300 Despesas a pagar 50 Impostos diferidos 300 Reserva de lucros 400 Depreciação acumulada 800 Ações em tesouraria 150 No período apresentado, os valores do Ativo Não-Circulante, do Passivo Circulante e do Patrimônio Líquido são, respectivamente,",
+                "opcoes": [
+                      "1000, 400 e 950.",
+                      "2300, 700 e 950.",
+                      "1000, 400 e 800.",
+                      "700, 700 e 950.",
+                      "700, 700 e 800."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>1000, 400 e 800.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A aplicação do Desdobramento da Função Qualidade (QFD) envolve a construção de uma série de matrizes, sendo a mais utilizada denominada Casa da Qualidade. Com relação ao QFD, avalie as afirmativas a seguir. I. Os requisitos dos clientes são as expressões linguísticas da vontade dos clientes convertidas qualitativamente em necessidades reais. II. A matriz de correlações é o teto da matriz da qualidade e tem por objetivo cruzar as características de qualidade entre si, permitindo identificar como elas se relacionam. III. Na avaliação competitiva do cliente, o objetivo é identificar o desempenho percebido do produto final da empresa, após a inserção dos requisitos dos clientes, na visão do cliente, em comparação com os principais concorrentes. Está correto apenas o que se afirma em",
+                "opcoes": [
+                      "I e II.",
+                      "II e III.",
+                      "I e III.",
+                      "I.",
+                      "II."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A análise da matriz de participação de mercado/crescimento do mercado, também conhecida como Matriz BCG, é uma técnica de análise da carteira (portfólio) de negócios para a formulação de estratégias adequadas para melhor administrar suas carteiras de investimentos. Em relação à Matriz BCG, relacione cada um de seus quadrantes às suas características. 1. Ponto de interrogação 2. Vaca leiteira 3. Bicho de estimação 4. Estrela ( ) Apresenta um desafio para as organizações, porque ele exige muito dinheiro para permanecer competitivo em mercados em crescimento. ( ) É um produto que não atingiu uma base segura num mercado em expansão, mas altamente competitivo. ( ) As estratégias de marketing para esse quadrante procuram defender a parcela de mercado mediante o reforço da lealdade do consumidor. ( ) As estratégias de marketing para esse quadrante pretendem maximizar qualquer lucro potencial ao minimizar os gastos ou promover um diferencial para construir parcela de mercado. Assinale a opção que indica a relação correta, na ordem apresentada.",
+                "opcoes": [
+                      "4 – 1 – 3 – 2",
+                      "1 – 2 – 3 – 4",
+                      "1 – 4 – 3 – 2",
+                      "4 – 3 – 1 – 2",
+                      "4 – 1 – 2 – 3"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>4 – 1 – 2 – 3</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Balanced Score Card (BSC) é um importante instrumento de gerenciamento que permite a medição e a gestão do desempenho. Com relação às perspectivas do BSC, analise as afirmativas as seguir. I. Perspectiva Financeira: representa metas a curto prazo, a fim de gerar retornos acima do capital investido na unidade de negócio. II. Perspectiva Clientes: representa metas para operações, logística, marketing e desenvolvimento de produtos e serviços da sociedade empresária. III. Perspectiva Processos Internos: desenvolve objetivos e medidas para orientar o aprendizado e o crescimento organizacional; os processos internos são prioritários para criar um clima que dê suporte à mudança, à inovação e ao crescimento organizacional. Está correto apenas o que se afirma em",
+                "opcoes": [
+                      "I.",
+                      "II.",
+                      "I e II.",
+                      "II e III.",
+                      "I e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na reforma do Estado, as mudanças institucionais visavam a desenvolver uma estrutura organizacional moderna, ágil, permeável à participação popular. Uma dessas mudanças tinha um formato e um modo de contratualização específicos e tinha por objetivo a transformação de autarquias e fundações da administração direta e exclusiva do Estado, dotando-as de maior autonomia, modernização estrutural e controle de resultados. Esse processo descreve a constituição de",
+                "opcoes": [
+                      "uma agência executiva.",
+                      "uma agência reguladora.",
+                      "um consórcio público.",
+                      "uma organização da sociedade civil de interesse público.",
+                      "organizações sociais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>uma agência executiva.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A comunicação na Administração Pública passou por mudanças paradigmáticas, ao se contrastar o modelo burocrático com o pós- burocrático. A respeito do tema, é correto afirmar que a comunicação, na perspectiva pós-burocrática de interação, está relacionada aos fatores apresentados a seguir, à exceção de um. Assinale-o.",
+                "opcoes": [
+                      "Auxílio à decisão e aos controles frente à descentralização e autonomia na gestão pública.",
+                      "Coordenação democrática, interna e externa dos atores envolvidos, estímulo à interação e à participação e iniciativas formuladas, discutidas e implementadas em rede.",
+                      "Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.",
+                      "Flexibilidade, qualidade e inovação no uso dos meios adequados a cada fluxo comunicacional.",
+                      "Participação e interação na construção dos meios pelos atores envolvidos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A política de formação de jovens empreendedores de periferias encontrava-se na fase de elaboração de indicadores de avaliação. Um assessor da secretaria sugeriu a construção de dois indicadores a serem mensurados a cada 6 meses após o término do curso: número de negócios próprios criados ainda em funcionamento e nível de renda e melhoria de qualidade de vida. Considerando-se os diferentes objetivos e fases na avaliação, entende-se que os indicadores propostos se relacionam à dimensão de",
+                "opcoes": [
+                      "custo-eficiência.",
+                      "efetividade transformacional.",
+                      "eficácia processual.",
+                      "insumo-produto.",
+                      "marco zero."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>efetividade transformacional.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O mapa estratégico tem sido amplamente utilizado na gestão para resultados integrada ao planejamento de organizações públicas. A Receita Federal do Brasil desenvolveu um mapa estratégico para o período 2012-2015 no qual indicou como objetivo estratégico “reduzir litígios tributários e aduaneiros”. O objetivo elaborado refere-se, no mapa estratégico, à perspectiva",
+                "opcoes": [
+                      "de aprendizado e de crescimento.",
+                      "do cliente e da sociedade.",
+                      "financeira de resultados.",
+                      "de pessoas e recursos.",
+                      "dos processos internos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dos processos internos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No gerenciamento de riscos aduaneiros, um determinado operador econômico autorizado conseguiu descontinuar uma atividade que originou um risco e removeu a fonte dele. Assim, o mapa de risco do operador pode ser atualizado quanto a seus processos de trabalho, relacionados aos critérios de conformidade. No processo de gestão de risco, entende-se que o operador atuou na etapa de",
+                "opcoes": [
+                      "avaliação.",
+                      "comunicação.",
+                      "monitoramento.",
+                      "registro.",
+                      "tratamento."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>tratamento.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "fluencia_de_dados_geral": [
+          {
+                "enunciado": "A Análise de Componentes Principais (PCA) é uma técnica de transformação de dados que tem como objetivo encontrar as direções de maior variação nos dados, geralmente representadas pelos chamados componentes principais, e gerar novas representações dos dados. Assinale o objetivo principal dessa técnica.",
+                "opcoes": [
+                      "Discretização dos dados.",
+                      "Redução da dimensionalidade dos dados.",
+                      "Normalização dos dados.",
+                      "Padronização dos dados.",
+                      "Cálculo de distâncias entre os dados."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Redução da dimensionalidade dos dados.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O objetivo principal do uso de técnicas de Agrupamento (Clustering) em Análise de Dados é dividir um grande conjunto de dados em subconjuntos, agrupando elementos similares em categorias distintas. Assinale a opção que indica o tipo de algoritmo que não se enquadra nessa descrição.",
+                "opcoes": [
+                      "K-Means.",
+                      "Gaussian Mixture Models (GMM).",
+                      "DBSCAN.",
+                      "K-Medoids.",
+                      "Regressão Linear."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Regressão Linear.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere a seguinte série temporal: {130, 140, 135, 145, 141, 148, 144, X}. Aplicando o método de previsão de médias móveis de dois pontos de dados, o valor para a projeção do oitavo item (X) será",
+                "opcoes": [
+                      "148.",
+                      "146.",
+                      "122.",
+                      "138.",
+                      "141."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>146.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A análise de dados prescritiva é uma técnica de análise de dados que",
+                "opcoes": [
+                      "se concentra na descrição de dados passados e presentes, com o objetivo de encontrar tendências e padrões que possam ser usados para prever eventos futuros.",
+                      "usa modelos matemáticos e estatísticos para identificar a melhor solução possível para um determinado problema.",
+                      "se concentra em identificar as causas subjacentes de um problema e em encontrar maneiras de corrigi-las.",
+                      "usa algoritmos de aprendizado de máquina para identificar padrões e tendências em grandes conjuntos de dados.",
+                      "usa modelos de aprendizado profundo para identificar padrões em dados não estruturados."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>usa modelos matemáticos e estatísticos para identificar a melhor solução possível para um determinado problema.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Suponha que um modelo de classificação binária foi treinado para distinguir e-mails de spam de e-mails legítimos. O modelo foi testado em um conjunto de dados de teste com 200 e-mails, sendo 100 e-mails de spam e 100 e-mails legítimos. A matriz de confusão é dada por 80 verdadeiros positivos, 85 verdadeiros negativos, 15 falsos positivos (erro tipo 1) e 20 falsos negativos (erro tipo 2). Nessas condições, o F1-Score do modelo deve ser aproximadamente igual a",
+                "opcoes": [
+                      "0,74.",
+                      "0,78.",
+                      "0,82.",
+                      "0,86.",
+                      "0,90."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>0,82.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Com base nos princípios de Responsible AI (IA Responsável), a seguinte característica não é considerada importante para o desenvolvimento de soluções de inteligência artificial:",
+                "opcoes": [
+                      "transparência.",
+                      "privacidade.",
+                      "explicabilidade.",
+                      "segurança.",
+                      "performance."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>transparência.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No contexto do desenvolvimento de chatbots baseados em prompt textuais, uma habilidade importante é a resolução de ambiguidades, visando à compreensão completa do texto. Assinale a técnica de NLP adequada nesse tipo de desenvolvimento.",
+                "opcoes": [
+                      "Processamento de Voz.",
+                      "Reconhecimento de Imagem.",
+                      "Aprendizado de Máquina.",
+                      "Análise Semântica.",
+                      "Tokenização."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>Análise Semântica.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Assinale a opção que melhor descreve a diferença entre os frameworks Apache Spark e Apache Hadoop, no contexto do processamento de Big Data.",
+                "opcoes": [
+                      "O processamento de dados no Spark é mais rápido do que no Hadoop, pois ele é baseado em memória e utiliza RDDs, enquanto o Hadoop é baseado em disco e utiliza MapReduce.",
+                      "O processamento de dados no Hadoop é mais rápido do que no Spark, pois o Hadoop é mais escalável e utiliza clusters maiores, enquanto o Spark é limitado pelo tamanho do cluster.",
+                      "O Spark é mais adequado para cargas de trabalho mais pesadas, enquanto o Hadoop é melhor para cargas de trabalho mais leves e interativas.",
+                      "O Spark e o Hadoop utilizam as mesmas técnicas de processamento de dados, mas o Spark é mais adequado para casos de uso em que a latência é um fator crítico, enquanto o Hadoop é mais adequado para casos de uso em que a capacidade de processamento em lote é mais importante.",
+                      "O Hadoop é uma tecnologia mais recente que oferece melhorias, em relação ao Spark, em termos de desempenho e velocidade de processamento."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>O processamento de dados no Spark é mais rápido do que no Hadoop, pois ele é baseado em memória e utiliza RDDs, enquanto o Hadoop é baseado em disco e utiliza MapReduce.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise o código R a seguir. lista <- function (param) { if (param > -3) { temp <- param + lista(param - 3) print(temp) } else { return(0) } } lista(15) Assinale os valores exibidos pela execução desse código, na ordem.",
+                "opcoes": [
+                      "45, 30, 18, 9, 3, 0",
+                      "63, 45, 30, 18, 9, 3",
+                      "0, 0, 0, 0, 0, 0",
+                      "0, 3, 9, 18, 30, 45",
+                      "3, 9, 18, 30, 45, 63"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>0, 3, 9, 18, 30, 45</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise o código Python a seguir. L=[] for x in range(10,1,-2): L.append(x) print (L[2:4]) Assinale a opção que indica os valores exibidos na execução desse código.",
+                "opcoes": [
+                      "[4, 6]",
+                      "[6, 2]",
+                      "[6, 4]",
+                      "[8, 4]",
+                      "[8, 6, 4, 2]"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>[6, 4]</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise o código Python a seguir. def xxx(a, b): while b != 0: a, b = b, a % b return a print (xxx(90,15)) Assinale o resultado exibido na execução desse código.",
+                "opcoes": [
+                      "1",
+                      "3",
+                      "6",
+                      "15",
+                      "75"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>15</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere um banco de dados relacional em que as operações de insert e update efetuadas numa certa tabela devem ser monitoradas e anotadas, como subsídio aos procedimentos de auditoria da empresa. Essa tabela é utilizada por uma série de aplicações, em diferentes tipos de transações, e iniciadas por um número considerável de usuários. Nesse cenário, assinale o mecanismo mais adequado para a implementação desse monitoramento.",
+                "opcoes": [
+                      "Cursores.",
+                      "Stored procedures.",
+                      "Triggers.",
+                      "Utilitários de exportação de dados.",
+                      "Views."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Triggers.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Bancos de dados NoSQL são usualmente divididos em categorias de store. Assinale a opção que apresenta o tipo de store que privilegia velocidade, capacidade de leitura e escrita e estruturas de dados flexíveis, sem a necessidade de esquemas estabelecidos previamente.",
+                "opcoes": [
+                      "Document.",
+                      "Key Value.",
+                      "Wide-Column.",
+                      "Graph.",
+                      "Full Text."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Key Value.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os principais Sistemas Gerenciadores de Bancos de Dados oferecem total suporte à linguagem SQL. Um aspecto importante da implementação do SQL é o tratamento para valores nulos quando esses são considerados como unknown values. Nesse contexto, considere uma tabela T com colunas A e B, que podem conter valores nulos. T possui 100 registros e, em 50% das linhas, há pelo menos uma coluna preenchida com o valor NULL. Considere a consulta a seguir: SELECT * FROM T t1 WHERE t1.A = NULL or t1.B = NULL O número máximo de linhas de resultados que seriam retornadas pela consulta é igual a",
+                "opcoes": [
+                      "0.",
+                      "25.",
+                      "50.",
+                      "75.",
+                      "100."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>0.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Num banco de dados relacional, considere uma tabela R, com duas colunas A e B, ambas do tipo string de caracteres, cuja instância é exibida a seguir. A B Pedro João Maria Ida Maria Ida Pedro João Edson Wilson Edson Maria Nesse cenário analise os comandos a seguir. I. DELETE FROM R WHERE EXISTS (SELECT * FROM R r1 WHERE R.A = r1.A and R.B = r1.B) II. DELETE FROM R WHERE EXISTS (SELECT * FROM R r1 WHERE R.A + R.B > r1.A + r1.B) III. DELETE FROM R WHERE R.A + R.B in (SELECT A + B FROM R) Assinale a lista que contém o número de registros deletados em cada um dos comandos I, II e III, respectivamente, quando executados separadamente e usando a mesma instância inicial descrita.",
+                "opcoes": [
+                      "2, 2 e 0.",
+                      "2, 4 e 0.",
+                      "4, 4 e 4.",
+                      "6, 5 e 6.",
+                      "6, 6 e 6. Realização"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>6, 5 e 6.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No contexto dos algoritmos utilizados em análise de dados, considere os passos a seguir: 1. recebe os dados de treinamento como entrada, que incluem atributos e categorias; 2. calcula a probabilidade de cada categoria ocorrer com base na quantidade de exemplos de cada categoria no conjunto de dados; 3. calcula a probabilidade condicional para cada atributo, ou seja, a probabilidade de um atributo dada uma categoria; 4. para uma nova entrada, calcula a probabilidade de cada categoria dada a entrada; 5. seleciona a categoria com a maior probabilidade condicional como a previsão para a nova entrada; 6. repete os passos 4 e 5 para todas as entradas desconhecidas. Assinale o algoritmo que é implementado nos passos acima.",
+                "opcoes": [
+                      "Regressão Logística.",
+                      "Naive Bayes.",
+                      "K-Means.",
+                      "Random Forest.",
+                      "Regressão Linear."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Naive Bayes.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Luiz, médico dermatologista, criou um modelo de IA para auxiliar na detecção de câncer de pele com visão computacional. Como um modelo de classificação binária, ele terá 4 possíveis saídas: verdadeiro positivo (paciente com câncer, detectado corretamente), verdadeiro negativo (paciente sem câncer, detectado corretamente), falso positivo (paciente sem câncer, detectado incorretamente) e falso negativo (paciente com câncer, não detectado pelo modelo). Levando em consideração que um modelo de IA seria utilizado como uma ferramenta de auxílio ao diagnóstico de câncer de pele, os erros de “tipo 1” (falso positivo) seriam tolerados, já que haveria uma análise posterior realizada por um médico especialista. No entanto, os erros “tipo 2” (falso negativo) seriam os mais críticos, uma vez que podem resultar em um diagnóstico tardio ou falho, comprometendo a saúde do paciente. Tomando o cenário como base, julgue os itens a seguir: I. A métrica mais importante nesse caso seria a Sensibilidade (Recall ou Revocação); II. A métrica mais importante nesse caso seria a Precisão (Precision); III. Ao ajustar o modelo para minimizar erros de \"tipo 2\", geralmente os erros de \"tipo 1\" tendem a aumentar; IV. Luiz deveria submeter seu modelo a um treinamento mais longo, independentemente do overfitting. Estão corretas as afirmativas",
+                "opcoes": [
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "I e IV, apenas.",
+                      "II e IV, apenas.",
+                      "III e IV, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Responsible AI (IA Responsável) e Explainable AI (IA Explicável) são conceitos importantes no desenvolvimento de sistemas de inteligência artificial. A IA Explicável refere-se à capacidade de explicar como uma decisão foi tomada pelo modelo de IA, permitindo que os usuários entendam o processo de tomada de decisão. Já a IA Responsável envolve garantir que a IA seja desenvolvida e implementada de forma ética e legalmente responsável. Nesse contexto, sobre Responsible AI, assinale a afirmativa incorreta.",
+                "opcoes": [
+                      "A Responsible AI envolve garantir que a IA seja desenvolvida e implementada de forma ética e legalmente responsável.",
+                      "A Responsible AI considera as implicações sociais e os potenciais efeitos negativos que o sistema pode ter sobre as pessoas.",
+                      "A Responsible AI é sinônimo de IA Explicável, pois ambas se referem à tomada de decisões éticas e transparentes.",
+                      "Uma IA pode ser responsável, mas ainda ser opaca e não explicável, tornando difícil para os usuários entenderem como as decisões são tomadas.",
+                      "A Responsible AI leva em consideração o ciclo de vida da IA, desde a concepção até a desativação, e sua responsabilidade ética em cada fase."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>A Responsible AI é sinônimo de IA Explicável, pois ambas se referem à tomada de decisões éticas e transparentes.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As principais plataformas de computação em nuvem, como Amazon Web Services (AWS), Microsoft Azure e Google Cloud Platform (GCP), oferecem soluções de Big Data para ajudar as empresas a coletar, armazenar, processar e analisar grandes quantidades de dados. As opções a seguir apresentam conjuntos de serviços que estão diretamente relacionados a soluções de Big Data oferecidas pelas plataformas de computação em nuvem elencadas acima, à exceção de uma. Assinale-a.",
+                "opcoes": [
+                      "Armazenamento de dados: AWS S3, Azure Blob Storage e Google Cloud Storage.",
+                      "Processamento de dados: AWS EMR, Azure HDInsight e Google Cloud DataProc.",
+                      "Análise de Dados: AWS Athena, Azure Data Lake Analytics e Google BigQuery.",
+                      "Streaming de Dados: AWS Kinesis, Azure Stream Analytics e Google Cloud Pub/Sub.",
+                      "Aplicações: AWS Elastic Beanstalk, Azure App Service e Google App Engine."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Aplicações: AWS Elastic Beanstalk, Azure App Service e Google App Engine.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação ao processamento de linguagem natural (PLN), analise as afirmativas a seguir. I. O PLN envolve a compreensão e a geração de linguagem natural humana. II. A tarefa principal do PLN é traduzir textos de uma língua para outra. III. O PLN não é utilizado para tarefas de processamento de voz. IV. O PLN é aplicado em sistemas de recuperação de informações e assistentes virtuais. Estão corretas as afirmativas",
+                "opcoes": [
+                      "I e IV, apenas.",
+                      "II e III, apenas.",
+                      "I e III, apenas.",
+                      "I, II e III.",
+                      "I, II e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No contexto da linguagem R, assinale o código que, quando executado, exibe o resultado a seguir. \"manga\" \"banana\" \"laranja\"",
+                "opcoes": [
+                      "def search_string as function (lista, palavra){",
+                      "search_string <- function(lista:list, palavra:string){",
+                      "search_string <- function(lista, palavra){ return(lista[grep(palavra, lista)])",
+                      "search_string <- function(lista, palavra){ return(lista[grep(palavra, lista)]) palavras <- c(\"manga\", \"banana\", \"pera\", \"laranja\")",
+                      "def search_string as function(lista, palavra){ palavras <- a(\"manga\", \"banana\", \"pera\", \"laranja\")"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>search_string <- function(lista, palavra){ return(lista[grep(palavra, lista)]) palavras <- c(\"manga\", \"banana\", \"pera\", \"laranja\")</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Num banco de dados relacional, considere a tabela Vencedores, cuja instância é exibida a seguir, com duas colunas, Tenista e Torneio, que representam alguns torneios que já foram vencidos por alguns tenistas. Tenista Torneio Roger Federer Australian Open Roger Federer Roland Garros Roger Federer Wimbledon Roger Federer US Open Pete Sampras US Open Pete Sampras Wimbledon Pete Sampras Australian Open Bjorn Borg Roland Garros Bjorn Borg Wimbledon Maria precisa escrever um comando SQL que liste os tenistas que venceram todos os torneios mencionados na coluna Torneio. O comando deve valer para qualquer instância válida da tabela, que pode conter diferentes tenistas e diferentes torneios. Assinale o comando que Maria deve usar.",
+                "opcoes": [
+                      "select distinct Tenista from Vencedores v1 where v1.Torneio in (select Torneio from Vencedores)",
+                      "where exists( and v1.Tenista = v2.Tenista and v1 <> v2))",
+                      "where exists ( and v1.Tenista <> v2.Tenista )",
+                      "where for all ( where exists ( where v1.Tenista = v2.Tenista))",
+                      "where not exists( where not exists ( and v1.Tenista = v3.Tenista))"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>where not exists( where not exists ( and v1.Tenista = v3.Tenista))</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Analise o código Python a seguir. class enigma: def __iter__(self): self.x = 128 return self def __next__(self): y = self.x z = lambda a : a - int(a/2) self.x = z(self.x) return y coisa = enigma() xpto = iter(coisa) for k in range(5): print(next(xpto)) Assinale o quarto número exibido na execução desse código.",
+                "opcoes": [
+                      "4",
+                      "8",
+                      "16",
+                      "32",
+                      "64"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>16</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No âmbito de bancos dados, especialmente NoSQL, o Teorema CAP sustenta que há três requerimentos básicos que existem numa relação especial quando se projeta uma aplicação com uma arquitetura distribuída. Basicamente, respalda a tese de que não se pode obter os três simultaneamente. Esses três requerimentos são",
+                "opcoes": [
+                      "Consistency, Atomic transactions e Partition.",
+                      "Concurrency Partition, Availability e Tolerance.",
+                      "Consistency, Availability e Partition Tolerance.",
+                      "Consistency, Atomic transactions e Persistency.",
+                      "Caching, Availability e Persistency."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Consistency, Availability e Partition Tolerance.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os principais Sistemas Gerenciadores de Bancos de Dados oferecem total suporte à linguagem SQL; um aspecto importante da implementação do SQL é o tratamento para valores nulos, quando a lógica admite três estados. T – true F – false ? – unknown Nesse contexto, considere as expressões lógicas a seguir. I. (T OR F) AND (? OR T) II. T AND ((? OR F) OR ?) III. NOT (? AND (? AND ?)) Com relação às expressões acima, está correto afirmar que o valor final é unknown (?) em",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "I, II e III. Realização"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: FGV/2023. Assunto: fluencia_de_dados_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "fluencia_de_dados_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fluencia_de_dados_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "economia_e_financas_publicas_geral": [
+          {
+                "enunciado": "Considere uma economia com apenas dois bens, sendo esses substitutos perfeitos. Uma das características dos bens substitutos perfeitos é que",
+                "opcoes": [
+                      "a taxa marginal de substituição é igual a –1.",
+                      "podem ser representados por uma função utilidade linear.",
+                      "uma unidade adicional de um dos bens só tem utilidade quando combinada com x unidades do outro bem.",
+                      "podem ser representados por uma função utilidade do tipo min{.,.}.",
+                      "a taxa marginal de substituição é nula ou infinita."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>podem ser representados por uma função utilidade linear.</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere o problema de maximização de uma sociedade empresária em um mercado em que ela é a única firma – portanto, é monopolista. Logo, no nível ótimo,",
+                "opcoes": [
+                      "essa sociedade empresária produz no ponto em que o custo marginal iguala o preço.",
+                      "essa sociedade empresária produz no ponto em que a derivada da receita marginal em relação ao produto é maior que a derivada do custo marginal.",
+                      "o preço será cada vez maior do que o custo marginal, quanto mais inelástica for a demanda.",
+                      "o preço será igual a zero quando a demanda for perfeitamente elástica.",
+                      "a sociedade empresária opera na parte inelástica da demanda."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>o preço será cada vez maior do que o custo marginal, quanto mais inelástica for a demanda.</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Suponha que duas pessoas joguem o seguinte jogo: ambos devem escolher simultaneamente um número real (𝑥𝜖𝑅), que satisfaça duas condições: 𝑥 ≥ 0 e 𝑥 ≤ 100. Se o número escolhido por um dos jogadores for igual à metade da média entre os dois números escolhidos por ambos, esse jogador ganha o jogo. Assuma que o par (x1, x2) representa os números escolhidos pelos jogadores 1 e 2, respectivamente. Logo, o equilíbrio de Nash será dado por",
+                "opcoes": [
+                      "(0,0).",
+                      "(50,50).",
+                      "(25,50).",
+                      "(50,25).",
+                      "(100,100)."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>(0,0).</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considere as seguintes siglas: PIB = Produto Interno Bruto, PIL = Produto Interno Líquido, PNB = Produto Nacional Bruto, PNL = Produto Nacional Líquido, II = Impostos Indiretos, ID = Impostos Diretos, Subs = Subsídios, RLEE = Renda Líquida Enviada ao Exterior, RP = Renda Pessoal, RN = Renda Nacional, RPD = Renda Pessoal Disponível, Transf = Transferências do governo para as famílias, Sp = Poupança Privada, Sg = Poupança do Governo, Se = Poupança Externa. Ademais, considere que o subscrito cf representa “a custo de fatores” e o subscrito pm representa “a preços de mercado”. Assim, avalie se as seguintes expressões relacionam corretamente os agregados macroeconômicos. I. PNLcf = PIBpm – depreciação – II + Subs. – RLEE. II. RPD = RP – ID sobre famílias. III. Se = RLEE – Exportações + Importações.",
+                "opcoes": [
+                      "I, apenas.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "I, II e III."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Seja NFSP = Necessidades de Financiamento do Setor Público, G = Gastos Públicos Não Financeiros, T = Arrecadação Não Financeira, i = taxa nominal de juros, r = taxa real de juros, B = estoque de títulos públicos, π = taxa de inflação. Em relação aos conceitos de déficit fiscal ou dívida pública, não é correto afirmar que",
+                "opcoes": [
+                      "NFSP nominal = G – T + iB.",
+                      "NFSP operacional = G – T + rB.",
+                      "NFSP nominal = Variação de B – Emissão Monetária.",
+                      "NFSP primário = G – T + iB – [(1+r)∙(1+ π) – 1]B.",
+                      "NFSP primário = Gastos Públicos Não Financeiros – Arrecadação Não Financeira."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>NFSP nominal = Variação de B – Emissão Monetária.</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em relação aos ingressos públicos, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) Transferências do Imposto sobre a Renda e sobre Produtos Industrializados estão inseridos no Grupo da Fonte de Recursos do Tesouro, tanto do exercício corrente como dos exercícios anteriores. ( ) A classificação da receita por natureza é utilizada por todos os entes da Federação e visa identificar a origem do recurso segundo o fato gerador. ( ) Segundo a classificação pela origem, a Receita Corrente inclui a Receita Patrimonial, esta sendo proveniente da fruição de patrimônio pertencente ao ente público, tais como as decorrentes de aluguéis, dividendos, compensações financeiras/royalties, concessões, entre outras.",
+                "opcoes": [
+                      "V, V e V.",
+                      "V, V e F.",
+                      "V, F e F.",
+                      "F, V e V.",
+                      "F, F e F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>F, V e V.</strong>. Fonte: FGV/2023. Assunto: economia_e_financas_publicas_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "economia_e_financas_publicas_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "economia_e_financas_publicas_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "administracao_geral_geral": [
+          {
+                "enunciado": "Considerando a análise da capacidade de uma sociedade empresária cumprir suas obrigações financeiras de longo prazo, podemos lançar mão de indicadores de solvência de longo prazo. Assinale a opção que lista apenas medidas de análise de solvência de longo prazo das sociedades empresárias.",
+                "opcoes": [
+                      "Índice de Liquidez Imediata e Margem Líquida.",
+                      "Retorno sobre o Ativo e Giro do Capital Circulante Líquido.",
+                      "Índice de Endividamento Total e Cobertura de Caixa.",
+                      "Giro do Estoque e Índice de Liquidez Seca.",
+                      "Índice de Liquidez Corrente e Índice de Cobertura de Juros."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Índice de Endividamento Total e Cobertura de Caixa.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O processo administrativo é dinâmico e sua complexidade decorre da realidade organizacional e da exigência de inter-relações entre as principais funções administrativas. Tendo esta perspectiva, relacione as funções administrativas que formam o processo administrativo às atividades descritas. 1. Planejamento 2. Organização 3. Direção 4. Controle ( ) Estabelecer a divisão do trabalho, alocar recursos, definir responsabilidades. ( ) Motivar, liderar, comunicar e coordenar esforços. ( ) Definir padrões, monitorar e avaliar desempenho. ( ) Definir missão, objetivos e programar atividades.",
+                "opcoes": [
+                      "2 – 3 – 4 – 1.",
+                      "3 – 4 – 2 – 1.",
+                      "2 – 1 – 3 – 4.",
+                      "4 – 3 – 1 – 2.",
+                      "1 – 2 – 4 – 3."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>2 – 3 – 4 – 1.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O Balance Scorecard (BSC) transforma a estratégia organizacional em um abrangente conjunto de indicadores que perfazem um sistema para a gestão estratégica. Para tanto, ele considera quatro perspectivas: financeira, dos processos, dos clientes e da aprendizagem e crescimento organizacional. Embora largamente difundida, a implementação do BSC nem sempre se dá como esperado. Entre as situações que estão na raiz de algumas dificuldades na implementação do BSC em algumas organizações, assinale (V) para a afirmativa verdadeira e (F) para a falsa. ( ) Equilíbrio entre as medidas estratégicas internas e externas permitindo o alinhamento da organização à estratégia. ( ) Falta de envolvimento da alta administração na implementação do BSC dificultando a mobilização para as mudanças necessárias. ( ) Concentração da implementação do BSC em poucas pessoas sem torná-lo um processo contínuo e de toda organização.",
+                "opcoes": [
+                      "F, F e V.",
+                      "V, V e F.",
+                      "V, F e V.",
+                      "F, F e F.",
+                      "F, V e V."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>F, V e V.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Embora seja alvo de muitas críticas ao longo da evolução das teorias organizacionais, a departamentalização continua sendo um modelo de organização predominante em muitos setores. Há, no entanto, diferentes maneiras de definir a departamentalização e buscar adequá-la ao ambiente em que a organização atua. Considerando os tipos de departamentalização, assinale V para a afirmativa verdadeira e F para a falsa. ( ) A departamentalização por produtos ou serviços é considerada adequada para promover a cooperação entre departamentos e, assim, facilitar a inovação em ambientes onde a tecnologia muda rapidamente. ( ) A departamentalização funcional promove a cooperação entre especialistas com competências comuns, o que por sua vez pode dificultar a cooperação interdepartamental e a flexibilidade para responder às mudanças tecnológicas quanto estas são muito frequentes. ( ) A departamentalização por processos facilita a adaptação à realidade local, incluindo delimitações geográficas, sendo recomendada para níveis estratégicos por sua flexibilidade às mudanças.",
+                "opcoes": [
+                      "V, F e V.",
+                      "F, F e V.",
+                      "F, V e V.",
+                      "V, V e F.",
+                      "V, F e F."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>V, V e F.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A evolução dos programas de gestão da qualidade beneficiou-se do surgimento e da adoção de múltiplas técnicas ou ferramentais. Associe as técnicas ou ferramentas de qualidade citadas aos objetivos descritos de cada uma delas. 1. Diagrama de causa e efeito 2. Fluxograma 3. Gráfico de Pareto 4. Diagrama de correlação 5. Gráfico de controle ( ) Analisar a variabilidade de um processo considerando padrões mínimos e máximos esperados. ( ) Mapear processos, identificando eventuais gargalos e o redesenho destes processos. ( ) Identifica e hierarquiza as causas de determinados problemas que afetam a qualidade de um processo permitindo definir ações para sua minimização ou eliminação. ( ) Permite priorizar quais os fatores que causam os maiores impactos na gestão da qualidade ao identificar os fatores críticos deste processo. ( ) Analisar como dois fatores estão relacionados na determinação de um problema.",
+                "opcoes": [
+                      "1 – 2 – 3 – 5 – 4.",
+                      "4 – 1 – 5 – 2 – 3.",
+                      "5 – 1 – 4 – 2 – 3.",
+                      "2 – 1 – 3 – 4 – 5.",
+                      "5 – 2 – 1 – 3 – 4."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>5 – 2 – 1 – 3 – 4.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um dos principais desafios para a compreensão e gestão do comportamento organizacional reside no estudo da motivação para o trabalho e o alcance dos objetivos organizacionais. Considerando as contribuições teóricas sobre motivação, assinale (V) para a afirmativa verdadeira e (F) para a falsa. ( ) Com base na teoria dos quatro impulsos, focada no conteúdo da motivação, podemos afirmar que todos temos impulsos proativos e reativos que definem nossas emoções e impedem que elas sejam racionalmente trabalhadas para a motivação e o foco em objetivos. ( ) A teoria da equidade está baseada na premissa de que as pessoas comparam a relação entre esforços e recompensas e esperam que haja o mesmo tratamento para todos neste aspecto. De acordo com esta teoria, a percepção da equidade no ambiente de trabalho é um elemento decisivo para a motivação e o comprometimento com os objetivos organizacionais. ( ) Na teoria da hierarquia de necessidades de Maslow, a principal fonte de motivação é o suprimento da próxima necessidade na hierarquia que, por sua vez, parte das necessidades fisiológicas, de segurança, de pertencimento, de estima e, finalmente, de autorrealização.",
+                "opcoes": [
+                      "V, F e V.",
+                      "F, V e V.",
+                      "F, V e F.",
+                      "V, V e V.",
+                      "F, F e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>F, V e V.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Considerando as técnicas e os métodos de avaliação e gestão de desempenho, a avaliação 360 graus surgiu com o objetivo de levar em conta a avaliação de todos aqueles que têm alguma forma de interação com o avaliado. Sobre a avaliação 360 graus, assinale (V) para a afirmativa verdadeira e (F) para a falsa. ( ) Reunindo todas as avaliações consideradas, permite elaborar um plano de desenvolvimento individual, baseado nas diferentes perspectivas da avaliação. ( ) Deve envolver todos os colaboradores internos que interagem com o avaliado, independentemente do nível hierárquico, e evitar que pessoas externas à organização interfiram na avaliação do colaborador. ( ) Traz um conjunto de informações diversificadas que podem enriquecer a avaliação, mas que também são de complexa sistematização, além de ser dependente de um adequado treinamento dos avaliadores e suscetível a eventuais conluios na avaliação.",
+                "opcoes": [
+                      "V, F e V.",
+                      "F, V e F.",
+                      "F, F e V.",
+                      "V, V e F.",
+                      "V, V e V."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, F e V.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A avaliação de um projeto leva em conta indicadores de desempenho que podem ser agrupados em cinco níveis de avaliação de sucesso de um projeto, quais sejam: processo, projeto, produto ou serviço, negócio e estratégico. Relacione cada nível de sucesso de um projeto à descrição do escopo da sua avaliação. 1. Nível de processo 2. Nível de projeto 3. Nível de produto ou serviços 4. Nível de negócio 5. Nível estratégico ( ) Avalia a conformidade com as especificações e a satisfação do cliente. ( ) Analisa o uso adequado das ferramentas de gestão de projetos. ( ) Avalia o retorno sobre o investimento realizado no projeto. ( ) Realiza a análise das vantagens competitivas decorrentes do projeto. ( ) Avalia o atendimento do escopo, tempo e custo previstos.",
+                "opcoes": [
+                      "5 – 2 – 4 – 1 – 3",
+                      "3 – 1 – 4 – 5 – 2",
+                      "3 – 1 – 5 – 2 – 4",
+                      "4 – 3 – 2 – 5 – 1",
+                      "2 – 1 – 3 – 4 – 5"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 – 1 – 4 – 5 – 2</strong>. Fonte: FGV/2023. Assunto: administracao_geral_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "administracao_publica_geral": [
+          {
+                "enunciado": "Em termos de descentralização e democratização de políticas públicas, a atuação do Estado-rede combina um conjunto de princípios, entre os quais destaca-se o da subsidiariedade. Assinale a opção que melhor explica esse princípio.",
+                "opcoes": [
+                      "Como medida para combater a corrupção e o nepotismo todas as ações e as decisões devem ser públicas.",
+                      "O Estado deve ser substituído pela sociedade em tudo que não seja essencial.",
+                      "A gestão pública deve ser modernizada por meio de investimentos em equipamentos, softwares e em treinamento e capacitação de pessoal.",
+                      "A implementação “de cima para baixo” é a mais adequada às políticas cooperativas e participativas.",
+                      "A boa remuneração dos servidores públicos é essencial, pois subsidia a atração dos melhores profissionais do mercado."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>O Estado deve ser substituído pela sociedade em tudo que não seja essencial.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No desenvolvimento da accountability, segundo diferentes autores, há que se considerar dimensões tecnicistas e não tecnicistas que impactam a forma como vemos a atuação dos conselhos de políticas públicas. Muitos autores defendem a necessidade de uma accountability baseada na dialética e na argumentação crítica, de modo a compreender a ideia de que atribuições do conselho envolvem a contraposição de ideias, indo além das funções de controle. Em tal perspectiva, o pleno accountability depende do desenvolvimento de uma dimensão",
+                "opcoes": [
+                      "burocrática.",
+                      "tecnocrática.",
+                      "dialógica.",
+                      "circular.",
+                      "educativa."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>dialógica.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A gestão de riscos na Administração Pública é um processo que busca contribuir para a eficiência organizacional no cumprimento da missão institucional. É, assim, uma ferramenta para assegurar a produção de valor público. São passos fundamentais para o sucesso deste processo, entre outros, a identificação, a análise e a avaliação dos riscos aos quais a organização está submetida. O cumprimento dessas etapas permite identificar alternativas de tratamento dos riscos e o seu monitoramento contínuo. Uma Universidade Pública brasileira identificou, como evento de risco, a possível invasão de seus sistemas corporativos seguida da alteração dos registros acadêmicos de seus estudantes. Com base em uma escala linear definida na Política de Gestão de Riscos da Universidade, a probabilidade de ocorrência deste evento sem a adoção de medidas de controle foi definida como alta (8, em uma escala de 1 a 10) e o impacto da sua ocorrência como muito alto (10, também em uma escala de 1 a 10). Podemos ver, a seguir, os níveis de risco definidos pela Universidade inspirada em orientações do Tribunal de Contas da União: Risco Baixo Risco Médio Risco Alto Risco Extremo 0 a 9,99 10 a 39,99 40 a 79,99 80 a 100 Feita a análise do nível de risco inerente à ocorrência deste evento, a Universidade passou a adotar medidas de controle muito rigorosas a partir de um benchmarking com algumas de suas congêneres. Tais medidas foram avaliadas e consideradas de um nível de confiança satisfatório (60%) após nova análise de especialistas. Com base nestas informações, podemos afirmar que o nível de risco inerente e o nível de risco residual de ocorrência deste evento na Universidade são, respectivamente,",
+                "opcoes": [
+                      "Extremo e Alto.",
+                      "Alto e Médio.",
+                      "Extremo e Médio.",
+                      "Alto e Alto.",
+                      "Extremo e Extremo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Extremo e Médio.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As críticas ao chamado modelo racional-legal da Administração Pública estão nas bases do que se tem convencionado chamar paradigma pós-burocrático. Diferentes enfoques se desenvolveram apontando os limites da organização burocrática, tendo em vista a evolução da Administração Pública em direção ao atendimento das demandas contemporâneas da sociedade. Nesse contexto, uma importante abordagem é a do chamado “novo serviço público”. Considerando essa perspectiva, analise se as afirmativas a seguir estão coerentes com os princípios do “novo serviço público” e assinale (V) para a afirmativa verdadeira (coerente) e (F) para a falsa (não coerente). ( ) A busca da eficiência e do desempenho não encerra os objetivos da Administração Pública que, além de eficiente executora, deve ser reconhecida como legítima, como elemento central do processo de governança pública, o que requer uma liderança compartilhada – dentro e fora da organização pública – que aprofunde o caráter democrático da Administração Pública. ( ) Os mecanismos de mercado são os instrumentos mais adequados para a escolha pública, devendo o empreendedorismo e a adoção de práticas do setor privado estar no cerne da reforma da Administração Pública como forma de arbitrar os interesses individuais e permitir o avanço no combate dos problemas mais imediatos que assolam a população. ( ) Os administradores públicos devem ter uma nova visão do papel do cidadão, não como mero usuário ou cliente, mas estimulando o engajamento cívico e adotando a colaboração como prática, considerando a prestação de serviços públicos como um processo de coprodução em que a responsabilidade é compartilhada em todas as suas etapas.",
+                "opcoes": [
+                      "V, F e V.",
+                      "F, V e V.",
+                      "F, F e V.",
+                      "V, V e F.",
+                      "V, F e F."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>V, F e V.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No gerenciamento de riscos de uma autarquia pública, optou-se por um modelo que, sem ser um referencial completo, permitisse estabelecer claramente os papéis e as responsabilidades essenciais de cada gestor dentro da organização, visando, dessa forma, a protegê-la dos riscos, por meio de uma estrutura adequada de governança. Depreende-se do enunciado que a autarquia optou pelo modelo",
+                "opcoes": [
+                      "COSO-ERM de 2004",
+                      "COSO/GRC de 2017.",
+                      "EFQM excellence model.",
+                      "ISO-IEC 31010: 2009.",
+                      "três linhas de defesa."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>três linhas de defesa.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Diante de acidente aéreo de grande impacto na mídia nacional, um governante percebeu que era chegado o momento de aprovar uma política que fosse mais restritiva em relação às práticas operacionais do setor e que promovesse maior segurança ao tráfego aéreo nacional. Contrariando a maioria das previsões, em um curto espaço de tempo, a ideia foi abraçada pelo governo federal, ganhou espaço na agenda e foi aprovada em poucas semanas. A formulação dessa política ocorreu em função do fenômeno conhecido como",
+                "opcoes": [
+                      "agentes no nível de rua.",
+                      "avaliação formativa.",
+                      "janela de oportunidade.",
+                      "monitoramento a posteriori.",
+                      "política redistributiva."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>janela de oportunidade.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O processo de compras governamentais tem evoluído com a incorporação de critérios que estimulam, entre outros, o desenvolvimento sustentável, a inovação tecnológica, a demanda de produtos locais e a acessibilidade. O poder de compra do Estado é reconhecido como um importante instrumento de política pública. E no caso da sustentabilidade, a legislação de contratações públicas tem amparado as condições para a sua promoção. A nova lei de licitações, a Lei nº 14.133 de 2021, por exemplo, consagra, em seu artigo 5º, o desenvolvimento nacional sustentável como um de seus princípios e, em seu artigo 11º, como um dos objetivos do processo licitatório. Sobre a sustentabilidade nos procedimentos de compras governamentais, analise os itens a seguir. I. A sustentabilidade nas contratações públicas se expressa exclusivamente na publicação dos instrumentos convocatórios. II. A busca da sustentabilidade nas compras governamentais deve considerar todo ciclo de vida de um produto na análise do seu custo, podendo também ser indutora de novos mercados para produtos sustentáveis. III. A prática de compras governamentais compartilhadas pode estimular ganhos de escala que viabilizem a contratação de produtos sustentáveis, reforçando a importância de que a sustentabilidade das contratações seja perseguida desde o seu planejamento.",
+                "opcoes": [
+                      "I, II e III.",
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "II, apenas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>II e III, apenas.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A diretoria de governança de uma autarquia federal está desenvolvendo um sistema de combate à corrupção e fraude, a partir das boas práticas apresentadas nos guias e referenciais do TCU. A equipe tem priorizado uma sistemática formal de divulgação de relatórios que tratem de casos de fraude e corrupção identificados e que sejam orientados para destinatários apropriados, de modo a preservar a integridade das evidências obtidas, garantir a confidencialidade dos dados e evitar a exposição e fragilização de auditores, investigadores e investigados. Entende-se que a equipe está desenvolvendo a noção de",
+                "opcoes": [
+                      "auditoria e apuração interna.",
+                      "gestão de canal de denúncia.",
+                      "controles reativos de detecção.",
+                      "prevenção de ilícitos éticos.",
+                      "termo circunstanciado administrativo."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>auditoria e apuração interna.</strong>. Fonte: FGV/2023. Assunto: administracao_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_publica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "auditoria_geral": [
+          {
+                "enunciado": "Ao determinar o tamanho da amostra para os testes de detalhes, o auditor pode levar em consideração alguns fatores que influenciam na escolha do tamanho da amostra. Nesse contexto, analise os fatores a seguir. I. Aumento na avaliação do risco de distorção relevante do auditor. II. Aumento no uso de outros procedimentos substantivos direcionados à mesma afirmação. III. Aumento no valor da distorção que o auditor espera encontrar na população. IV. Quantidade de unidades de amostragem na população. De acordo com a NBC TA 530, assinale a opção que indica os fatores que têm como efeito um aumento no tamanho da amostra.",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e III, apenas.",
+                      "III e IV, apenas.",
+                      "I, II e IV, apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Durante um trabalho de auditoria financeira, ao analisar a conta de despesa com manutenção de equipamentos industriais, o auditor observou que o valor com a aquisição de uma máquina embaladora havia sido debitado nessa conta. Nessa situação, são aplicáveis",
+                "opcoes": [
+                      "um teste principal de ativo para superavaliação e um teste secundário de despesa para subavaliação.",
+                      "um teste principal de despesa para superavaliação e um teste secundário de ativo para subavaliação.",
+                      "um teste secundário de ativo para superavaliação e um teste principal de despesa para subavaliação.",
+                      "um teste secundário de despesa para subavaliação e um teste principal de ativo para superavaliação.",
+                      "um teste secundário de despesa para superavaliação e um teste principal de ativo para subavaliação."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>um teste principal de despesa para superavaliação e um teste secundário de ativo para subavaliação.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No decorrer da realização de um trabalho de auditoria, um auditor estava analisando o saldo de contas a receber da entidade auditada. Diante da necessidade de confirmar a existência de um débito com um devedor, o auditor deve",
+                "opcoes": [
+                      "aplicar procedimentos de conciliação bancária com contas a receber.",
+                      "examinar evidências internas da firma.",
+                      "examinar os registros contábeis e a documentação hábil.",
+                      "realizar procedimentos analíticos nos saldos de contas a receber e de créditos de liquidação duvidosa.",
+                      "solicitar confirmação positiva para obter evidência de melhor qualidade."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>solicitar confirmação positiva para obter evidência de melhor qualidade.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os passivos fictícios são associados à falta de escrituração de pagamentos efetuados e admitem a presunção de omissão de receitas. Uma maneira de identificar esse artifício é",
+                "opcoes": [
+                      "aplicar testes para subavaliação de passivos e contas a receber.",
+                      "buscar evidências a partir de procedimentos de indagação escrita.",
+                      "comparar o saldo da conta fornecedores, existente na data do balanço, com as duplicatas representativas deste saldo.",
+                      "examinar a documentação de suporte aos registros contábeis relativos ao período coberto pelas demonstrações contábeis.",
+                      "realizar conciliação bancária conjuntamente com a razão analítica do passivo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>comparar o saldo da conta fornecedores, existente na data do balanço, com as duplicatas representativas deste saldo.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um auditor estava elaborando o planejamento de um trabalho de auditoria do ativo imobilizado. A análise do relatório de auditoria do ano anterior indicou a necessidade de analisar esse grupo do ativo. Por isso, nesse trabalho, um dos objetivos foi verificar se a despesa de depreciação do ativo imobilizado fora corretamente registrada e feita em uma base consistente. Um procedimento substantivo que pode ser aplicado para atingir esse objetivo é",
+                "opcoes": [
+                      "analisar a documentação de aquisição de itens registrados no imobilizado.",
+                      "aplicar testes de existência e propriedade dos ativos adquiridos no exercício de referência.",
+                      "examinar as normas e as políticas da entidade para controle de ativos.",
+                      "realizar testes preditivos da despesa de depreciação no período de referência.",
+                      "examinar os registros de perdas por redução ao valor recuperável ocorridas no período."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>realizar testes preditivos da despesa de depreciação no período de referência.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma equipe de auditoria foi designada para um trabalho em uma sociedade empresária fabricante de equipamentos eletrodomésticos. Um dos auditores ficou responsável por apresentar uma minuta de planejamento de procedimentos para auditoria dos estoques de produtos acabados. O objetivo era gerar evidências quanto à integridade dos custos de produção alocados no período em análise. O auditor indicou na minuta os seguintes procedimentos substantivos: I. Procedimentos analíticos. II. Inspeção física dos estoques de produtos acabados. III. Circularização junto a fornecedores de matérias-primas. IV. Teste de corte (cutoff) do custo de produtos acabados. Os procedimentos adequados ao referido objetivo de auditoria são apenas",
+                "opcoes": [
+                      "I e IV.",
+                      "II e III.",
+                      "II e IV.",
+                      "I, III e IV.",
+                      "II, III e IV."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e IV.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Como parte das atividades de planejamento de um trabalho de auditoria de demonstrações contábeis orientadas pela NBC TA 300 (R1), o auditor deve planejar a natureza, a época e a extensão do direcionamento e supervisão da equipe de trabalho e a revisão do seu trabalho. O planejamento desses elementos",
+                "opcoes": [
+                      "deve ser considerado inclusive quando a auditoria é realizada integralmente pelo sócio do trabalho.",
+                      "é indiferente ao porte e à complexidade da entidade.",
+                      "independe da área em que o trabalho de auditoria é realizado.",
+                      "tem extensão inversa ao nível de risco de distorções relevantes.",
+                      "varia conforme a capacidade e a competência dos membros individuais da equipe que realiza o trabalho."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>varia conforme a capacidade e a competência dos membros individuais da equipe que realiza o trabalho.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um elemento importante nos trabalhos de auditoria, que inclusive afeta o planejamento e a extensão dos procedimentos de auditoria é o risco de distorção relevante. De acordo com a NBC TA 315 (R2), esse tipo de risco precisa ser adequadamente identificado e avaliado nos trabalhos de auditoria e",
+                "opcoes": [
+                      "depende majoritariamente do risco de controle.",
+                      "deve ser identificado antes da realização dos testes dos controles internos.",
+                      "inclui tanto aqueles causados por erro como aqueles causados por fraude.",
+                      "não deve ser influenciado pelo entendimento do auditor sobre o ambiente em que a entidade opera.",
+                      "requer um maior ceticismo profissional no início do trabalho de auditoria em uma entidade."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>inclui tanto aqueles causados por erro como aqueles causados por fraude.</strong>. Fonte: FGV/2023. Assunto: auditoria_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "auditoria_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "auditoria_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "matematica_geral": [
+          {
+                "enunciado": "Considerando-se os números reais 2 , 3 e 4 , o menor e o maior deles são, respectivamente,",
+                "opcoes": [
+                      "4 e 3",
+                      "4 e 2",
+                      "3 e 2",
+                      "3 e 4",
+                      "2 e 4"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>4 e 3</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Após 28 anos de existência, nota de R$ 100 compra em 2022 o mesmo que R$ 13,91 em 1994 Nota de R$ 100 — Foto: Divulgação/BC Disponível em: https://g1.globo.com/economia/noticia/2022/07/16/ apos-28-anos-de-existencia-nota-de-r-100-compra-hoje-o- mesmo-que-r-1391-em-1994.ghtml. Acesso em: 21 abr. 2023. Suponha que, em 1994, um artigo custasse R$ 13,91 e, exatos 28 anos depois (336 meses), ele passasse a custar R$ 100,00. Suponha, também, que, para esse período, a taxa mensal de aumento no preço desse artigo tenha sido igual a k%, ou seja, a cada mês o preço do artigo sofreu um aumento de k% em relação ao preço do mês anterior. O valor de k pode ser dado por",
+                "opcoes": [
+                      "100 100   − 336",
+                      "100 100   −",
+                      "  − 1 336",
+                      "0,01   +",
+                      "100   + 0,01 5"
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>100 100   − 336</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma empresa, em reconhecimento ao desempenho de 10 de seus funcionários, decide dar-lhes um bônus. Para tanto, a empresa distribuiu um total de R$ 25.000,00, de acordo com a Tabela a seguir: Número de Valor do Bônus funcionários (em reais) Nessas condições, o desvio padrão dos bônus pagos é dado por",
+                "opcoes": [
+                      "10",
+                      "10",
+                      "10 500 + 1500",
+                      "10 6 500⋅ + 2 1500⋅",
+                      "10"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>10</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O quadrado de um número real x é representado por x , e 2 é definido por x = x.x. 2 A condição x ≤ x é FALSA quando x é igual a",
+                "opcoes": [
+                      "0 1",
+                      "2",
+                      "1 1",
+                      "− 2 3",
+                      "2"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em uma escola, há cinco turmas que fizeram uma pro- va de matemática, e cada uma possui 60 estudantes. As notas obtidas em cada turma tiveram as seguintes distri- buições: • Turma 5: 60 notas iguais a 5. Em qual das turmas o desvio-padrão das notas obtidas foi igual a zero?",
+                "opcoes": [
+                      "Turma 1",
+                      "Turma 2",
+                      "Turma 3",
+                      "Turma 4",
+                      "Turma 5"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Turma 5</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um carro partiu de um ponto A até um ponto B andando com uma velocidade constante de 80 km/h. Posteriormen- te o carro refez o mesmo percurso, mas agora com velo- cidade constante igual a 100 km/h, e gastou 30 minutos a menos do que na primeira vez. Quanto tempo o carro levou para ir do ponto A ao ponto B, na primeira vez?",
+                "opcoes": [
+                      "3h",
+                      "2h30min",
+                      "2h",
+                      "1h50min",
+                      "1h30min 6"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>2h30min</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em uma fábrica, há um tanque cuja capacidade máxima 3 é de 180 m . Estando o tanque vazio, três torneiras de mesma vazão gastam oito horas para enchê-lo comple- tamente. Um outro tanque, com capacidade máxima de x metros cúbicos, está sendo construído e, quando vazio, cinco torneiras (com a mesma vazão das anteriores) de- verão enchê-lo completamente em apenas y horas. Nessas condições, o valor de y em função de x é definido por",
+                "opcoes": [
+                      "y = 2x/81",
+                      "y = 2x/54",
+                      "y = 2x/45",
+                      "y = 2x/27",
+                      "y = 2x/75"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>y = 2x/75</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em um torneio de videogame, o menino J disputou ape- nas três partidas, fazendo um total de 2.660 pontos. Na segunda partida, ele fez 410 pontos a mais do que fez na primeira; na terceira partida, fez apenas metade de pon- tos que fez na segunda. O número de pontos feitos por J, apenas na primeira par- tida, quando dividido por 5, deixa resto igual a",
+                "opcoes": [
+                      "4",
+                      "3",
+                      "2",
+                      "1",
+                      "0"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O triângulo ABC é retângulo em A. Sabe-se que o compri- mento da hipotenusa BC é igual a 20 cm, e que o compri- mento do cateto AB é igual a 12 cm. 2 Qual é a área, em cm , do triângulo ABC?",
+                "opcoes": [
+                      "16",
+                      "48",
+                      "60",
+                      "96",
+                      "240"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>96</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um consumidor foi ao mercado, comprou 1 kg de bata- ta e 1 kg de cebola e pagou R$ 11,00. No dia seguinte, ele comprou 3 kg de batata e 2 kg de cebola e pagou R$ 28,00. No terceiro dia, ele comprou 2 kg de batata e 1 kg de cebola. Considerando-se que os preços não foram alterados du- rante esse período, que valor, em R$, o consumidor pa- gou no terceiro dia?",
+                "opcoes": [
+                      "5",
+                      "6",
+                      "16",
+                      "17",
+                      "39 7"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>17</strong>. Fonte: CESGRANRIO/2023. Assunto: matematica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "matematica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "matematica_geral"
                 ],
                 "imagens": null
           }

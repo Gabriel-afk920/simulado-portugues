@@ -9,9 +9,20 @@
   // pra matérias não-português (ex: "matematica_geral"); ausência de materia
   // preserva o comportamento anterior (sempre 'portugues').
   for (var id in QUESTOES_BANCO.novosTemas) {
+    var m = QUESTOES_BANCO.novosTemas[id];
     if (!TEMAS.find(function(t){ return t.id === id; })) {
-      var m = QUESTOES_BANCO.novosTemas[id];
       TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, materia: m.materia || 'portugues', teoria: '', questoes: [] });
+    }
+    // Registra a matéria em MATERIAS (temas.js) se ainda não existir -- sem
+    // isso a tela de seleção de matéria (screen-materia-estudar/simulado)
+    // nunca aparece pra matérias novas, mesmo com TEMAS já criado: MATERIAS
+    // é estático em temas.js e só tinha 'portugues' fixo (achado em teste,
+    // validação Playwright da Etapa 3 da importação RFB/BACEN/Transpetro,
+    // ago/2026 -- MATERIAS.length ficava sempre 1, então
+    // _abrirTelaSimulado() pulava direto pra 'portugues' e as questões
+    // novas ficavam inacessíveis na UI apesar de estarem no banco).
+    if (m.materia && !MATERIAS.find(function(x){ return x.id === m.materia; })) {
+      MATERIAS.push({ id: m.materia, nome: m.nome, icon: m.icon, desc: m.desc });
     }
   }
   // Temas do banco não declarados em novosTemas
