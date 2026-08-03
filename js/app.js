@@ -222,8 +222,20 @@ function _abrirTelaSimulado() {
 
 document.getElementById('btn-ir-simulado').addEventListener('click', _abrirTelaSimulado);
 
-document.getElementById('btn-back-study-home').addEventListener('click', () => ir('screen-home'));
-document.getElementById('btn-back-quiz-home').addEventListener('click',  () => ir('screen-home'));
+// Volta da tela de tópicos pra tela de seleção de matéria quando ela existe
+// (MATERIAS.length > 1) -- senão a tela de seleção nunca foi exibida (pulada
+// em _abrirTopicosEstudar/_abrirTopicosSimulado), então "voltar" vai direto
+// pra home, preservando o comportamento de quando só havia 1 matéria (achado
+// em teste: com 15 matérias, "Voltar" da lista de tópicos pulava a tela de
+// seleção de matéria inteira e caía direto na home).
+function _voltarParaSelecaoOuHome(screenSelecaoMateria) {
+  ir(MATERIAS.length > 1 ? screenSelecaoMateria : 'screen-home');
+}
+
+document.getElementById('btn-back-study-home').addEventListener('click', () => _voltarParaSelecaoOuHome('screen-materia-estudar'));
+document.getElementById('btn-back-quiz-home').addEventListener('click',  () => _voltarParaSelecaoOuHome('screen-materia-simulado'));
+// Estes dois já ESTÃO na tela de seleção de matéria -- voltar delas sempre
+// significa home (não há nível intermediário entre home e seleção de matéria).
 document.getElementById('btn-back-materia-estudar').addEventListener('click',  () => ir('screen-home'));
 document.getElementById('btn-back-materia-simulado').addEventListener('click', () => ir('screen-home'));
 
