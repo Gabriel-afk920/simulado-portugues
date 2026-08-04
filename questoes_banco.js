@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 03/08/2026, 17:17:45 — 7599 questões incluídas
+// 03/08/2026, 23:39:05 — 7599 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -12327,6 +12327,174 @@ var QUESTOES_BANCO = {
                 "explicacao": "Gabarito: <strong>antecipa o ambiente favorável ao acordo climático.</strong>. Fonte: CESGRANRIO/2010. Assunto: fonologia.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A idéia principal do texto está expressa em:",
+                "opcoes": [
+                      "O final de ano garante habitualmente maior volume de vendas, tanto à vista quanto a prazo.",
+                      "A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.",
+                      "Negócios realizados a prazo caracterizam as vendas específicas de final de ano.",
+                      "Comerciantes dispensam consultas para a conces- são de créditos, por serem baixos os valores das compras.",
+                      "Cai o volume de vendas, à vista ou a crédito, neste final de ano, em comparação com o anterior."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Infere-se corretamente do texto que, com a expansão do crédito, I. há riscos maiores de ocorrer inadimplência de consumidores. II. a venda de itens de maior valor passa a ser equiva- lente ao volume dos mais acessíveis à população. III. com o aumento das vendas à vista diminui a receita no comércio, pois o crédito contempla compras de maior valor. Está correto o que se afirma SOMENTE em",
+                "opcoes": [
+                      "I.",
+                      "II.",
+                      "I e II.",
+                      "I e III.",
+                      "II e III. 2"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... a taxa de crescimento das consultas para vendas à vis- ta superou a expansão do crediário ... (final do 1 pará- grafo) A frase acima aparece reproduzida com o mesmo sentido, embora com outras palavras, em:",
+                "opcoes": [
+                      "a expansão do crediário foi maior do que o cres- cimento da taxa de consultas para vendas à vista...",
+                      "permanecem as taxas de ampliação do crédito, tal como o número de consultas para vendas à vista...",
+                      "houve maior número de consultas para vendas à vista do que para vendas a crédito...",
+                      "as consultas para vendas à vista foram superadas pela maior oferta de crediário...",
+                      "é necessário haver mais crédito para também cres- cer o número de vendas à vista..."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>houve maior número de consultas para vendas à vista do que para vendas a crédito...</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas quando um núcleo de sete especialistas da Embrapa debruçou-se sobre o desafio de tropicalizar a soja. O sentido da frase inicial do texto está expresso com clareza e correção, em outras palavras, da seguinte forma:",
+                "opcoes": [
+                      "As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.",
+                      "Foram vários os tipos de sementes utilizados por pesquisadores para descobrir o melhor meio de au- mentar a importância do agronegócio na região tropical.",
+                      "A soja é o produto mais valorizado do agronegócio brasileiro por apresentar diversidade de tipos de sementes que o trópico conseguiu desenvolver.",
+                      "Especialistas da Embrapa consideram impossível re- solver o impasse da soja para ser tropicalizada, no importante aumento da indústria do agronegócio nacional.",
+                      "A indústria nacional de agronegócio cujas as se- mentes foram plantadas para conseguir a tropi- calização da soja, feitas no desafio dos especialistas da Embrapa."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O impacto da inovação foi formidável. (2 parágrafo) A afirmativa transcrita acima",
+                "opcoes": [
+                      "perde importância em vista dos diferentes tipos de soja existentes no mercado.",
+                      "aponta um certo fracasso nas pesquisas, tendo em vista o pequeno desenvolvimento da planta no Brasil.",
+                      "indica as dificuldades de escolha do tipo de soja mais adequado para regiões mais quentes.",
+                      "é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.",
+                      "refere-se ao extraordinário esforço dos especialistas da Embrapa em obter as sementes para suas pesquisas."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O segmento abaixo que indica uma razão para a afirma- tiva que, no texto, se segue a ele \u0010 segmento \u0010, é:",
+                "opcoes": [
+                      "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas ...",
+                      "... quando um núcleo de sete especialistas da Embrapa debruçou-se ...",
+                      "Planta de origem asiática ...",
+                      "... a planta atingia no máximo 15 centímetros, um sexto de sua altura normal ...",
+                      "Foram necessários anos de pesquisas num banco genético ... 2"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Planta de origem asiática ...</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "... dos que opõem à tirania do essencial a validade do a existencial. (11 linha) Em outras palavras, a afirmativa transcrita acima aponta",
+                "opcoes": [
+                      "a constante preocupação da universalização dos hábitos alimentares característicos de algumas so- ciedades.",
+                      "a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.",
+                      "a correta aceitação de que o gosto por determinados alimentos seja um dos aspectos fisiológicos do ser humano.",
+                      "as dificuldades no desconhecimento do gosto parti- cular de alguns alimentos típicos regionais.",
+                      "a desconsideração de ser a comida reflexo do gosto de toda a sociedade e não apenas de uma pessoa."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "fonologia",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "fonemas"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O autor, no texto em questão,",
+                "opcoes": [
+                      "discute conceitos filosóficos amplamente debatidos em todas as sociedades, como a noção de verdade.",
+                      "ignora a existência de certos princípios norteadores da vida social e das diversidades culturais.",
+                      "nega as possíveis influências que os alimentos pos- sam exercer no desenvolvimento de uma cultura.",
+                      "condena a preocupação de certos pensadores em reduzir a preferência por certos alimentos, como os doces, a um hábito social.",
+                      "defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3</strong>. Fonte: FCC/2006. Assunto: fonologia.",
+                "banca": "FCC",
+                "ano": 2006,
                 "assunto": "fonologia",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
@@ -109668,6 +109836,27 @@ var QUESTOES_BANCO = {
                 "imagens": null
           },
           {
+                "enunciado": "... que o considerasse expressão de um princípio apenas fisiológico ... (linhas 7 e 8) O pronome grifado na frase acima substitui corretamente a expressão do texto",
+                "opcoes": [
+                      "o Paladar.",
+                      "ao teórico do Paladar.",
+                      "um gosto fisiológico.",
+                      "um princípio metafísico.",
+                      "um princípio apenas fisiológico."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>o Paladar.</strong>. Fonte: FCC/2006. Assunto: classesGramaticais.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "Classes Gramaticais",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "classesGramaticais"
+                ],
+                "imagens": null
+          },
+          {
                 "enunciado": "Foi prevenido aos candidatos deste concurso que as informações gramaticais do conteúdo programático seriam consideradas sob o ponto de vista textual. Nesse caso, assinale a opção em que a preposição “a” tem seu papel textual corretamente identificado.",
                 "opcoes": [
                       "Introduzir um objeto direto preposicionado: Amar a Deus sobre todas as coisas.",
@@ -142179,6 +142368,27 @@ var QUESTOES_BANCO = {
                 "imagens": null
           },
           {
+                "enunciado": "... reflete com clareza duas variáveis que estão desa- justadas na economia: o juro alto e o câmbio baixo. (final do texto) O emprego dos dois pontos na frase acima assinala",
+                "opcoes": [
+                      "reprodução exata das palavras de um diálogo.",
+                      "condição que justifica a análise feita no parágrafo anterior.",
+                      "finalidade de uma ação já prevista anteriormente.",
+                      "ressalva que esclarece os dados indicados no pará- grafo.",
+                      "enumeração com intenção explicativa."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>enumeração com intenção explicativa.</strong>. Fonte: FCC/2006. Assunto: pontuacao.",
+                "banca": "FCC",
+                "ano": 2006,
+                "assunto": "pontuacao",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "pontuacao"
+                ],
+                "imagens": null
+          },
+          {
                 "enunciado": "Num artigo sobre tributos, aparece o seguinte segmento: “No Brasil, a história dos tributos divide-se em três momentos sendo: colonial, imperial e republicano, respectivamente nessa ordem. Os tributos existem desde o descobrimento de nossa terra, quando boa parte da exploração nativa era enviada para Portugal, época conhecida como Brasil-Colônia. O ‘Quinto do pau-brasil’ é considerado o primeiro tributo brasileiro e decorreu da exploração da árvore nativa pau-brasil (SANTOS 2015). A partir de então, os tributos foram sendo implementados e moldados até chegarmos aos dias atuais.” Sobre a organização linguística desse segmento, assinale a observação adequada.",
                 "opcoes": [
                       "Na primeira frase do texto, a forma de gerúndio é perfeitamente dispensável, podendo ser substituída por uma vírgula.",
@@ -154056,216 +154266,6 @@ var QUESTOES_BANCO = {
           }
     ],
     "conhecimentos_gerais_geral": [
-          {
-                "enunciado": "A idéia principal do texto está expressa em:",
-                "opcoes": [
-                      "O final de ano garante habitualmente maior volume de vendas, tanto à vista quanto a prazo.",
-                      "A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.",
-                      "Negócios realizados a prazo caracterizam as vendas específicas de final de ano.",
-                      "Comerciantes dispensam consultas para a conces- são de créditos, por serem baixos os valores das compras.",
-                      "Cai o volume de vendas, à vista ou a crédito, neste final de ano, em comparação com o anterior."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>A oferta mais ampla de crediários busca concorrer com o comércio popular, identificado com as vendas _________________________________________________________ de menor valor.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Infere-se corretamente do texto que, com a expansão do crédito, I. há riscos maiores de ocorrer inadimplência de consumidores. II. a venda de itens de maior valor passa a ser equiva- lente ao volume dos mais acessíveis à população. III. com o aumento das vendas à vista diminui a receita no comércio, pois o crédito contempla compras de maior valor. Está correto o que se afirma SOMENTE em",
-                "opcoes": [
-                      "I.",
-                      "II.",
-                      "I e II.",
-                      "I e III.",
-                      "II e III. 2"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "... a taxa de crescimento das consultas para vendas à vis- ta superou a expansão do crediário ... (final do 1 pará- grafo) A frase acima aparece reproduzida com o mesmo sentido, embora com outras palavras, em:",
-                "opcoes": [
-                      "a expansão do crediário foi maior do que o cres- cimento da taxa de consultas para vendas à vista...",
-                      "permanecem as taxas de ampliação do crédito, tal como o número de consultas para vendas à vista...",
-                      "houve maior número de consultas para vendas à vista do que para vendas a crédito...",
-                      "as consultas para vendas à vista foram superadas pela maior oferta de crediário...",
-                      "é necessário haver mais crédito para também cres- cer o número de vendas à vista..."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>houve maior número de consultas para vendas à vista do que para vendas a crédito...</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "... reflete com clareza duas variáveis que estão desa- justadas na economia: o juro alto e o câmbio baixo. (final do texto) O emprego dos dois pontos na frase acima assinala",
-                "opcoes": [
-                      "reprodução exata das palavras de um diálogo.",
-                      "condição que justifica a análise feita no parágrafo anterior.",
-                      "finalidade de uma ação já prevista anteriormente.",
-                      "ressalva que esclarece os dados indicados no pará- grafo.",
-                      "enumeração com intenção explicativa."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>enumeração com intenção explicativa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas quando um núcleo de sete especialistas da Embrapa debruçou-se sobre o desafio de tropicalizar a soja. O sentido da frase inicial do texto está expresso com clareza e correção, em outras palavras, da seguinte forma:",
-                "opcoes": [
-                      "As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.",
-                      "Foram vários os tipos de sementes utilizados por pesquisadores para descobrir o melhor meio de au- mentar a importância do agronegócio na região tropical.",
-                      "A soja é o produto mais valorizado do agronegócio brasileiro por apresentar diversidade de tipos de sementes que o trópico conseguiu desenvolver.",
-                      "Especialistas da Embrapa consideram impossível re- solver o impasse da soja para ser tropicalizada, no importante aumento da indústria do agronegócio nacional.",
-                      "A indústria nacional de agronegócio cujas as se- mentes foram plantadas para conseguir a tropi- calização da soja, feitas no desafio dos especialistas da Embrapa."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>As possibilidades de desenvolvimento da produção agrícola brasileira concretizaram-se quando espe- cialistas voltaram-se para as tentativas de adaptar a soja ao clima tropical.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O impacto da inovação foi formidável. (2 parágrafo) A afirmativa transcrita acima",
-                "opcoes": [
-                      "perde importância em vista dos diferentes tipos de soja existentes no mercado.",
-                      "aponta um certo fracasso nas pesquisas, tendo em vista o pequeno desenvolvimento da planta no Brasil.",
-                      "indica as dificuldades de escolha do tipo de soja mais adequado para regiões mais quentes.",
-                      "é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.",
-                      "refere-se ao extraordinário esforço dos especialistas da Embrapa em obter as sementes para suas pesquisas."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>é comprovada pelo considerável aumento ocorrido atualmente na produção de soja.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O segmento abaixo que indica uma razão para a afirma- tiva que, no texto, se segue a ele \u0010 segmento \u0010, é:",
-                "opcoes": [
-                      "As sementes do impulso fundamental da indústria de agronegócio nacional foram lançadas ...",
-                      "... quando um núcleo de sete especialistas da Embrapa debruçou-se ...",
-                      "Planta de origem asiática ...",
-                      "... a planta atingia no máximo 15 centímetros, um sexto de sua altura normal ...",
-                      "Foram necessários anos de pesquisas num banco genético ... 2"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Planta de origem asiática ...</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "... dos que opõem à tirania do essencial a validade do a existencial. (11 linha) Em outras palavras, a afirmativa transcrita acima aponta",
-                "opcoes": [
-                      "a constante preocupação da universalização dos hábitos alimentares característicos de algumas so- ciedades.",
-                      "a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.",
-                      "a correta aceitação de que o gosto por determinados alimentos seja um dos aspectos fisiológicos do ser humano.",
-                      "as dificuldades no desconhecimento do gosto parti- cular de alguns alimentos típicos regionais.",
-                      "a desconsideração de ser a comida reflexo do gosto de toda a sociedade e não apenas de uma pessoa."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>a valorização das influências diariamente viven- ciadas no próprio ambiente social ou cultural.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O autor, no texto em questão,",
-                "opcoes": [
-                      "discute conceitos filosóficos amplamente debatidos em todas as sociedades, como a noção de verdade.",
-                      "ignora a existência de certos princípios norteadores da vida social e das diversidades culturais.",
-                      "nega as possíveis influências que os alimentos pos- sam exercer no desenvolvimento de uma cultura.",
-                      "condena a preocupação de certos pensadores em reduzir a preferência por certos alimentos, como os doces, a um hábito social.",
-                      "defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>defende uma opinião pessoal, tomando como base idéias expostas por filósofos e escritores anteriores a ele. 3</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "... que o considerasse expressão de um princípio apenas fisiológico ... (linhas 7 e 8) O pronome grifado na frase acima substitui corretamente a expressão do texto",
-                "opcoes": [
-                      "o Paladar.",
-                      "ao teórico do Paladar.",
-                      "um gosto fisiológico.",
-                      "um princípio metafísico.",
-                      "um princípio apenas fisiológico."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>o Paladar.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_gerais_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_gerais_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_gerais_geral"
-                ],
-                "imagens": null
-          },
           {
                 "enunciado": "Tício deseja assegurar o conhecimento de informações relativas à sua pessoa constantes de registros de entidades governamentais. Nesse caso, de acordo com a Constituição Federal brasileira, Tício deverá impetrar",
                 "opcoes": [
