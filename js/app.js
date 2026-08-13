@@ -32,11 +32,29 @@ function _salvarSessao(temaId, acertos, total, materia) {
 }
 
 // ══════════════════════════════════════════════════════════
-//  SESSÃO ATIVA — continuar de onde parou
+//  SESSÕES ATIVAS — continuar de onde parou
+//  Uma sessão por tema (chave = temaId), para permitir pausar um simulado
+//  e iniciar/continuar outro sem perder o progresso do primeiro. Lê também
+//  a chave singular antiga ('sessao_ativa') como migração, já que antes só
+//  existia uma sessão ativa por vez no app inteiro.
 // ══════════════════════════════════════════════════════════
+function _todasSessoesAtivas() {
+  try {
+    const mapa = JSON.parse(localStorage.getItem('sessoes_ativas') || '{}');
+    const antiga = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
+    if (antiga && antiga.temaId && !mapa[antiga.temaId]) {
+      mapa[antiga.temaId] = antiga;
+      localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
+      localStorage.removeItem('sessao_ativa');
+    }
+    return mapa;
+  } catch { return {}; }
+}
+
 function _salvarSessaoAtiva() {
   if (!temaAtual || !questoes.length) return;
-  const estado = {
+  const mapa = _todasSessoesAtivas();
+  mapa[temaAtual.id] = {
     temaId:           temaAtual.id,
     questaoHashes:    questoes.map(_qHash),
     indiceAtual,
@@ -45,18 +63,18 @@ function _salvarSessaoAtiva() {
     teoriaConsultada,
     pontuacao,
   };
-  localStorage.setItem('sessao_ativa', JSON.stringify(estado));
+  localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
 }
 
 function _sessaoAtiva(temaId) {
-  try {
-    const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
-    return s && s.temaId === temaId && s.indiceAtual < (s.questaoHashes || []).length ? s : null;
-  } catch { return null; }
+  const s = _todasSessoesAtivas()[temaId];
+  return s && s.indiceAtual < (s.questaoHashes || []).length ? s : null;
 }
 
-function _limparSessaoAtiva() {
-  localStorage.removeItem('sessao_ativa');
+function _limparSessaoAtiva(temaId) {
+  const mapa = _todasSessoesAtivas();
+  delete mapa[temaId];
+  localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
 }
 
 function _restaurarSessaoAtiva(s, tema) {
@@ -181,33 +199,22 @@ function _abrirTopicosSimulado(materiaId) {
   document.getElementById('btn-iniciar').disabled = true;
   ir('screen-quiz-topics');
 
-  // Auto-detectar sessão salva e pré-selecionar o card correto
+  // Marca com um selo "em andamento" todo card que tenha sessão salva --
+  // várias sessões podem coexistir agora (uma por tema), então não
+  // seleciona nenhuma automaticamente, só sinaliza onde há progresso.
   try {
-    const s = JSON.parse(localStorage.getItem('sessao_ativa') || 'null');
-    if (!s || !s.temaId) return;
-    if (s.temaId.endsWith('_mix')) {
-      // Sessão de tema com subtemas: reconstruir questões do tema pai
-      const parentId = s.temaId.replace(/_mix$/, '');
-      const parentTema = TEMAS.find(t => t.id === parentId);
-      if (parentTema && parentTema.subtemas) {
-        temaAtual = {
-          id: s.temaId,
-          nome: parentTema.nome,
-          materia: parentTema.materia,
-          questoes: parentTema.subtemas.flatMap(subId => {
-            const sub = TEMAS.find(x => x.id === subId);
-            return sub ? sub.questoes : [];
-          }),
-        };
-        const respondidas = Object.keys(s.respostasMap || {}).length;
-        document.getElementById('continuar-info').textContent =
-          `questão ${s.indiceAtual + 1} de ${s.questaoHashes.length} · ${respondidas} respondidas`;
-        document.getElementById('continuar-box').style.display = '';
+    const mapa = _todasSessoesAtivas();
+    Object.values(mapa).forEach(s => {
+      if (!s || !s.temaId || s.indiceAtual >= (s.questaoHashes || []).length) return;
+      const idAlvo = s.temaId.endsWith('_mix') ? s.temaId.replace(/_mix$/, '') : s.temaId;
+      const card = document.querySelector(`#quiz-tema-grid [data-id="${idAlvo}"]`);
+      if (card && !card.querySelector('.andamento-badge')) {
+        const b = document.createElement('div');
+        b.className = 'andamento-badge';
+        b.textContent = '▶ Em andamento';
+        card.appendChild(b);
       }
-    } else {
-      const card = document.querySelector(`#quiz-tema-grid [data-id="${s.temaId}"]`);
-      if (card) card.click();
-    }
+    });
   } catch {}
 }
 
@@ -356,6 +363,28 @@ document.getElementById('btn-fazer-simulado-da-teoria').addEventListener('click'
 function selecionarTemaQuiz(id, card) {
   const t = TEMAS.find(x => x.id === id);
   if (t && t.subtemas && t.subtemas.length) {
+    // Sessão de tema com subtemas já em andamento (id sintético "<id>_mix")
+    // -- oferece continuar direto, sem passar pela tela de seleção de subtema.
+    const sessaoMix = _sessaoAtiva(id + '_mix');
+    if (sessaoMix) {
+      document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
+      card.classList.add('selected');
+      temaAtual = {
+        id: id + '_mix',
+        nome: t.nome,
+        materia: t.materia,
+        questoes: t.subtemas.flatMap(subId => {
+          const sub = TEMAS.find(x => x.id === subId);
+          return sub ? sub.questoes : [];
+        }),
+      };
+      const respondidas = Object.keys(sessaoMix.respostasMap || {}).length;
+      document.getElementById('continuar-info').textContent =
+        `questão ${sessaoMix.indiceAtual + 1} de ${sessaoMix.questaoHashes.length} · ${respondidas} respondidas`;
+      document.getElementById('continuar-box').style.display = '';
+      document.getElementById('btn-iniciar').style.display = 'none';
+      return;
+    }
     _temaSubtemasAtual = t;
     const ocultar = t.ocultar_subtemas || [];
     const subtemasDisponiveis = t.subtemas
@@ -390,7 +419,7 @@ function selecionarTemaQuiz(id, card) {
 }
 
 document.getElementById('btn-iniciar').addEventListener('click', () => {
-  if (temaAtual) { _limparSessaoAtiva(); iniciarSimulado(temaAtual); }
+  if (temaAtual) { _limparSessaoAtiva(temaAtual.id); iniciarSimulado(temaAtual); }
 });
 
 document.getElementById('btn-continuar').addEventListener('click', () => {
@@ -404,7 +433,7 @@ document.getElementById('btn-novo-simulado').addEventListener('click', () => {
   const s = _sessaoAtiva(temaAtual.id);
   const respondidas = s ? Object.keys(s.respostasMap || {}).length : 0;
   if (respondidas > 0 && !confirm(`Isso vai apagar seu progresso atual (${respondidas} respondidas). Continuar?`)) return;
-  _limparSessaoAtiva();
+  _limparSessaoAtiva(temaAtual.id);
   document.getElementById('continuar-box').style.display = 'none';
   iniciarSimulado(temaAtual);
 });
@@ -735,7 +764,7 @@ document.getElementById('btn-pausar').addEventListener('click', () => {
 //  RESULTADO
 // ══════════════════════════════════════════════════════════
 function mostrarResultado() {
-  _limparSessaoAtiva();
+  if (temaAtual) _limparSessaoAtiva(temaAtual.id);
   clearInterval(timerInterval);
   document.getElementById('teoria-overlay').classList.remove('visivel');
   document.getElementById('teoria-panel').classList.remove('visivel');
