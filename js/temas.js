@@ -5841,5 +5841,71 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p style="color:#cbd5e1;margin-top:8px;">Questões costumam testar se o candidato confunde <strong>método de custo</strong> com <strong>MEP</strong> (rendimento só na distribuição de lucro x reconhecimento do lucro/prejuízo da investida), e se sabe separar corretamente item de <strong>resultado operacional</strong> de item <strong>financeiro</strong> na DRE.</p>
 </div>`,
     questoes: []
+  },
+  {
+    id: "administracao_geral_e_publica_geral", materia: 'administracao_geral_e_publica',
+    nome: "Administração Geral e Pública",
+    icon: "🏛️",
+    desc: "Questões gerais de Administração Geral e Pública",
+    teoria: `
+<h3>Administração Geral e Pública</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Este bucket reúne temas que costumam aparecer juntos em concursos de perfil administrativo: <strong>Gestão de Pessoas</strong>, <strong>Arquivologia</strong>, <strong>Gestão de Projetos</strong>, <strong>Gestão Estratégica</strong> e fundamentos de <strong>Administração Pública</strong>.</p>
+</div>
+
+<h3>Gestão de Pessoas</h3>
+<p><strong>Recrutamento e seleção</strong>: a entrevista estruturada é considerada mais confiável que a livre porque se limita a perguntas relevantes, funcionando como previsor eficaz de desempenho e reduzindo viés do entrevistador.</p>
+<p><strong>Avaliação de desempenho</strong> — métodos mais cobrados:</p>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Método</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Característica</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Escalas gráficas</strong></td><td style="padding:8px;border:1px solid #334155;">Simples e resumido, mas engessa o avaliador ao instrumento</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Escolha forçada</strong></td><td style="padding:8px;border:1px solid #334155;">Frases descritivas obrigatórias, reduz subjetividade</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Avaliação 360°</strong></td><td style="padding:8px;border:1px solid #334155;">Múltiplas fontes: superior, pares, subordinados, cliente</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Erro de avaliação clássico</strong>: cultura paternalista faz o avaliador favorecer quem gosta pessoalmente, ou quem "mostra serviço" perto da data da avaliação, independente do desempenho real ao longo do período.</p>
+<p><strong>Outros conceitos recorrentes</strong>: <em>educação corporativa</em> (universidades corporativas, EAD, tecnologia da informação aplicada a treinamento), <em>qualidade de vida x quantidade de vida no trabalho</em> (relacionamentos e bem-estar vs. dinheiro e competição), <em>clima organizacional</em> (percepção coletiva sobre a organização, distinto de cultura organizacional), <em>grupo de trabalho x equipe</em> (equipe exige colaboração genuína, não é sinônimo automático de grupo).</p>
+
+<h3>Arquivologia</h3>
+<p><strong>Tabela de temporalidade</strong>: documento que define prazos de guarda de cada tipo de documento e sua destinação final (eliminação ou guarda permanente) — elaborada por comissões permanentes de avaliação de documentos.</p>
+<p><strong>Protocolo/triagem</strong>: recebimento e encaminhamento de documentos para as áreas responsáveis, incluindo canais como ouvidoria (reclamações/elogios/sugestões do cidadão).</p>
+<p><strong>Métodos de arquivamento</strong>: escolhidos conforme o tipo de documento (ex.: vinculação/desvinculação de títulos, movimentação financeira) — cada natureza documental pode exigir um método diferente de organização.</p>
+
+<h3>Licitações</h3>
+<p><strong>Pregão eletrônico</strong>: modalidade que usa criptografia e autenticação digital, exige credenciamento prévio do fornecedor e promove confrontação direta entre fornecedores em sessão pública — resultado da digitalização das compras públicas.</p>
+
+<h3>Gestão de Projetos</h3>
+<p><strong>Termo de Abertura do Projeto (TAP)</strong>: documento produzido na fase de iniciação que formaliza as necessidades do negócio e o entendimento do que será entregue.</p>
+<p><strong>Estrutura Analítica do Projeto (EAP)</strong>: diagrama que decompõe o trabalho do projeto em pacotes menores, garantindo que todo o escopo esteja contemplado — não é organograma da equipe, é decomposição do <em>trabalho</em>.</p>
+<p><strong>Linha de base</strong> (ex.: no MS Project): "fotografia" do planejamento original (escopo, prazo, custo), usada depois para comparar o andamento real do projeto com o que foi planejado.</p>
+
+<h3>Gestão Estratégica e da Qualidade</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Ferramenta</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Para que serve</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Balanced Scorecard (BSC)</strong></td><td style="padding:8px;border:1px solid #334155;">Mede desempenho em 4 perspectivas: financeira, clientes, processos internos, aprendizado e crescimento</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Matriz BCG</strong></td><td style="padding:8px;border:1px solid #334155;">Analisa portfólio de negócios por participação de mercado x crescimento do mercado</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>QFD / Casa da Qualidade</strong></td><td style="padding:8px;border:1px solid #334155;">Traduz requisitos do cliente em especificações técnicas do produto/serviço</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Administração Pública</h3>
+<p><strong>Reforma do Estado</strong>: criou modelos como agências executivas e organizações sociais para transformar autarquias/fundações, buscando estrutura mais ágil e flexível.</p>
+<p><strong>Modelo burocrático x pós-burocrático</strong>: a comunicação pós-burocrática valoriza interação, transparência e participação popular, em contraste com a rigidez hierárquica do modelo burocrático clássico.</p>
+<p><strong>Mapa estratégico e indicadores</strong>: usados na gestão para resultados de órgãos públicos (ex.: Receita Federal) para traduzir objetivos estratégicos em metas mensuráveis, inclusive na avaliação de políticas públicas e gestão de riscos institucionais.</p>`,
+    questoes: []
   }
 ];
