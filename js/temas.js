@@ -6150,5 +6150,43 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Nível de serviço</strong>: percentual de itens/requisições atendidos dentro do prazo, em relação ao total solicitado.</p>
 <p><strong>Acurácia do estoque</strong>: mede o quanto o estoque físico (contado no inventário) bate com o estoque registrado no sistema — calculado como 1 menos a proporção de itens com divergência (quanto mais divergências no inventário físico, menor a acurácia).</p>`,
     questoes: []
+  },
+  {
+    id: "auditoria_geral", materia: 'auditoria',
+    nome: "Auditoria",
+    icon: "🔍",
+    desc: "Questões gerais de Auditoria",
+    teoria: `
+<h3>Auditoria</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Planejamento de auditoria (normas NBC TA), amostragem, testes de auditoria e detecção de fraudes/erros contábeis — todas as questões desta amostra vêm de auditoria de demonstrações contábeis.</p>
+</div>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-top:8px;">
+<strong style="color:#fbbf24;">Pré-requisito</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Vale revisar o tema <strong>Contabilidade Geral e Pública</strong> antes — as questões de Auditoria pressupõem conhecimento de depreciação, ativo imobilizado, estoques e demonstrações contábeis.</p>
+</div>
+
+<h3>Planejamento de Auditoria</h3>
+<p><strong>NBC TA 300</strong>: o auditor deve planejar a natureza, época e extensão da direção e supervisão da equipe, além da revisão do trabalho realizado — planejamento não é uma etapa isolada, é revisado ao longo de todo o trabalho.</p>
+<p><strong>NBC TA 315 — Risco de distorção relevante</strong>: deve ser identificado e avaliado logo no início do trabalho, porque é ele que direciona a natureza, época e extensão dos procedimentos de auditoria aplicados depois — quanto maior o risco avaliado, mais extensos os testes.</p>
+
+<h3>Amostragem em Auditoria</h3>
+<p>Fatores que aumentam o <strong>tamanho da amostra</strong> necessária: aumento na avaliação do risco de distorção relevante pelo auditor, maior grau de confiança desejado, e menor tolerância à distorção (materialidade mais apertada).</p>
+
+<h3>Testes de Auditoria</h3>
+<p><strong>Superavaliação x subavaliação</strong>: testar se um saldo está superavaliado (maior do que deveria) ou subavaliado (menor do que deveria) direciona qual população de dados o auditor examina — ex.: pra achar contas a pagar subavaliadas (omitidas), examina-se pagamentos feitos após o fechamento do balanço que deveriam ter sido reconhecidos antes.</p>
+<p><strong>Classificação incorreta (despesa x ativo)</strong>: um gasto que deveria ser capitalizado (vira ativo imobilizado, é depreciado ao longo do tempo) mas foi lançado direto como despesa do período — o auditor precisa identificar esses erros de classificação, que distorcem tanto o resultado do exercício quanto o balanço patrimonial.</p>
+<p><strong>Confirmação externa (circularização)</strong>: confirmar diretamente com terceiros (ex.: um devedor) a existência e o valor de um saldo de contas a receber — evidência mais forte do que documentos internos da própria entidade auditada.</p>
+
+<h3>Detecção de Fraudes</h3>
+<p><strong>Passivos fictícios</strong>: associados à falta de escrituração de pagamentos efetuados, o que permite presumir omissão de receitas — a forma de identificar é aplicar testes de subavaliação de passivos e contas a receber, cruzando informações de diferentes fontes.</p>
+
+<h3>Auditoria de Contas Específicas</h3>
+<p><strong>Ativo imobilizado</strong>: verificar se a despesa de depreciação foi calculada e registrada corretamente, com base no relatório de auditoria do ano anterior como ponto de partida.</p>
+<p><strong>Estoques</strong>: planejamento de procedimentos específicos pra produtos acabados, geralmente envolvendo acompanhamento físico da contagem (inventário) e conferência de custos.</p>`,
+    questoes: []
   }
 ];
