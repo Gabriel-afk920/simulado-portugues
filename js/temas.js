@@ -5759,5 +5759,75 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>`,
     questoes: []
+  },
+  {
+    id: "contabilidade_geral_e_publica_geral", materia: 'contabilidade_geral_e_publica',
+    nome: "Contabilidade Geral e Pública",
+    icon: "📚",
+    desc: "Questões gerais de Contabilidade Geral e Pública",
+    teoria: `
+<h3>Contabilidade Geral e Pública</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Marco normativo</strong>
+<p style="color:#cbd5e1;margin-top:8px;">A contabilidade societária brasileira segue a <strong>Lei nº 6.404/76</strong> (Lei das S.A.), alterada pelas <strong>Leis nº 11.638/07 e 11.941/09</strong>, que aproximaram as regras brasileiras das normas internacionais (IFRS). Essas leis foram detalhadas pelos <strong>Pronunciamentos Técnicos do CPC (NBC TG)</strong>. No setor público aplicam-se as <strong>NBC TSP</strong>, com particularidades próprias (ex.: tratamento de efeitos cambiais).</p>
+</div>
+
+<h3>Depreciação, Amortização e Exaustão</h3>
+<p>As três representam a perda de valor de um ativo ao longo do tempo, mas se aplicam a bens diferentes: <strong>depreciação</strong> (ativos tangíveis com vida útil definida — máquinas, veículos, edifícios), <strong>amortização</strong> (ativos intangíveis — marcas, patentes, direitos) e <strong>exaustão</strong> (recursos naturais esgotáveis — minas, jazidas, florestas), calculada geralmente pela proporção entre a quantidade extraída no período e a capacidade total estimada do recurso.</p>
+
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Método de depreciação</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como funciona</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Linha reta (cotas constantes)</strong></td><td style="padding:8px;border:1px solid #334155;">Valor igual todo ano: (custo − valor residual) ÷ vida útil estimada.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Soma dos dígitos</strong></td><td style="padding:8px;border:1px solid #334155;">Cotas decrescentes, ponderadas pelos anos restantes de vida útil somados (ex.: vida útil de 5 anos → soma 1+2+3+4+5=15; no 1º ano deprecia-se 5/15 do valor depreciável).</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Unidades produzidas</strong></td><td style="padding:8px;border:1px solid #334155;">Proporcional ao uso efetivo (produção do período ÷ produção total estimada) — mesma lógica usada na exaustão.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Ativo Imobilizado (NBC TG 27)</h3>
+<p>Compreende bens tangíveis mantidos para uso na produção, fornecimento de bens/serviços, locação ou fins administrativos, com expectativa de uso por mais de um período. As demonstrações contábeis devem divulgar obrigatoriamente, entre outros itens, o <strong>valor contábil bruto e a depreciação acumulada</strong> de cada classe de imobilizado, e informações sobre itens temporariamente ociosos ou já totalmente depreciados mas ainda em uso.</p>
+<p>Na <strong>baixa</strong> de um imobilizado (venda, por exemplo), compara-se o valor recebido com o valor contábil líquido (custo − depreciação acumulada) na data da baixa: se o valor recebido for maior, há ganho; se menor, há perda/prejuízo na alienação.</p>
+
+<h3>Avaliação de Investimentos: Custo x Equivalência Patrimonial</h3>
+<p>Quando uma entidade investe em outra, o método de avaliação depende do grau de influência:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Método do custo</strong>: usado quando não há influência significativa. O rendimento só é reconhecido quando a investida <strong>distribui lucros</strong> (dividendos recebidos).</li>
+  <li><strong>Método de Equivalência Patrimonial (MEP)</strong>: obrigatório para <strong>coligadas</strong> (influência significativa) e <strong>controladas</strong> (controle). O investidor reconhece sua parte no <strong>lucro ou prejuízo</strong> da investida no próprio resultado, independentemente de distribuição de dividendos.</li>
+</ul>
+<p><strong>Influência significativa</strong> normalmente se presume a partir de 20% do capital votante, mas o critério legal é o poder de participar das decisões financeiras/operacionais da investida, sem chegar a controlá-la.</p>
+
+<h3>Teste de Recuperabilidade (Impairment)</h3>
+<p>Periodicamente a entidade deve avaliar se há indícios de que um ativo perdeu valor. Se o <strong>valor contábil</strong> exceder o <strong>valor recuperável</strong> (o maior entre valor justo líquido de venda e valor em uso), reconhece-se uma <strong>perda por desvalorização (impairment)</strong> no resultado, reduzindo o ativo até o valor recuperável.</p>
+
+<h3>Estoques</h3>
+<p>O custo dos estoques inclui todos os gastos de aquisição/transformação e <strong>outros gastos incorridos para trazer os estoques à sua condição e localização atuais</strong> (frete, seguro, tributos não recuperáveis) — despesas de armazenagem geral, em regra, vão para o resultado, exceto quando necessárias ao processo produtivo entre uma fase e outra.</p>
+<p>Métodos de custeio mais cobrados: <strong>PEPS</strong> (primeiro que entra, primeiro que sai) e <strong>custo médio ponderado</strong> (móvel, recalculado a cada entrada, ou fixo, no fim do período). O <strong>UEPS</strong> não é aceito pelas normas brasileiras/IFRS.</p>
+
+<h3>Demonstração do Resultado do Exercício (DRE)</h3>
+<p>Classifica receitas e despesas por natureza: <strong>receita bruta/operacional</strong> (atividade-fim da entidade), <strong>outras receitas/despesas operacionais</strong> (acessórias, como aluguel recebido ou venda de imobilizado) e <strong>receitas/despesas financeiras</strong> (juros, variação cambial, prêmios de debêntures). Atenção especial em provas: <strong>prêmio de debêntures</strong> apropriado no tempo entra como despesa/receita financeira, não como despesa operacional.</p>
+
+<h3>Demonstração dos Fluxos de Caixa (DFC) — Método Indireto</h3>
+<p>Parte do <strong>lucro líquido</strong> e faz ajustes até chegar ao caixa gerado nas atividades operacionais: soma de volta itens que não representam saída de caixa (depreciação, variações em passivos como salários/impostos a pagar) e ajusta variações de ativos/passivos operacionais. As três atividades da DFC:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Operacional</strong>: geração de caixa pela atividade principal.</li>
+  <li><strong>Investimento</strong>: compra/venda de ativos de longo prazo (imobilizado, investimentos).</li>
+  <li><strong>Financiamento</strong>: captação/pagamento de empréstimos, debêntures, dividendos pagos.</li>
+</ul>
+<p><strong>No setor público</strong>: o efeito das variações cambiais sobre caixa e equivalentes de caixa mantidos em moeda estrangeira é apresentado <strong>separadamente</strong> das três atividades da DFC, não dentro de nenhuma delas.</p>
+
+<h3>Patrimônio Líquido</h3>
+<p>A conta <strong>Ajustes de Avaliação Patrimonial</strong> registra contrapartidas de variações no valor de ativos/passivos avaliados a valor justo. Esses valores só são transferidos para o resultado do exercício <strong>à medida que os ativos/passivos correspondentes forem realizados</strong> (vendidos, baixados), respeitando o regime de competência — nunca de uma vez, antecipadamente.</p>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-top:8px;">
+<strong style="color:#fbbf24;">Pegadinha recorrente em prova</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Questões costumam testar se o candidato confunde <strong>método de custo</strong> com <strong>MEP</strong> (rendimento só na distribuição de lucro x reconhecimento do lucro/prejuízo da investida), e se sabe separar corretamente item de <strong>resultado operacional</strong> de item <strong>financeiro</strong> na DRE.</p>
+</div>`,
+    questoes: []
   }
 ];
