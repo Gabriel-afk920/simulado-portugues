@@ -6042,5 +6042,31 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p style="color:#cbd5e1;margin-top:8px;">Algumas questões deste bucket são de geometria e combinatória pura (sem estatística formal) — mesmo estilo do tema Raciocínio Lógico. Vale revisar os dois temas juntos.</p>
 </div>`,
     questoes: []
+  },
+  {
+    id: "nocoes_de_direito_geral", materia: 'nocoes_de_direito',
+    nome: "NOÇÕES DE DIREITO",
+    icon: "⚖️",
+    desc: "Questões gerais de NOÇÕES DE DIREITO",
+    teoria: `
+<h3>Noções de Direito</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Mistura Direito Constitucional (princípios fundamentais, direitos individuais, organização dos Poderes) com Direito Administrativo (regime jurídico do servidor público, atos administrativos, poder de polícia).</p>
+</div>
+
+<h3>Direito Constitucional</h3>
+<p><strong>Princípios fundamentais</strong> (Art. 1º a 4º da CF/88): definem o perfil estruturante do Estado brasileiro — forma federativa, separação dos Poderes, fundamentos (soberania, cidadania, dignidade da pessoa humana) e objetivos da República.</p>
+<p><strong>Direitos e deveres individuais</strong> (Art. 5º): igualdade perante a lei, estendida a brasileiros e estrangeiros residentes no país — inviolabilidade de vida, liberdade, igualdade, segurança e propriedade. Inclui o <strong>direito de petição</strong> (qualquer pessoa pode peticionar aos poderes públicos, independente de taxa) e a <strong>ação popular</strong> (qualquer cidadão pode anular ato lesivo ao patrimônio público).</p>
+<p><strong>Segurança pública</strong> (Art. 144): dever do Estado, mas também direito e responsabilidade de todos, para preservação da ordem pública.</p>
+<p><strong>Organização dos Poderes</strong>: o Poder Executivo da União é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado — atenção às competências específicas de cada Poder nas questões que misturam Executivo, Legislativo e Judiciário.</p>
+
+<h3>Direito Administrativo</h3>
+<p><strong>Regime jurídico do servidor público</strong> (Lei 8.112/90): estabilidade após o estágio probatório; se um cargo é extinto por lei, o servidor estável fica em disponibilidade remunerada até um novo aproveitamento (não é demitido automaticamente).</p>
+<p><strong>Independência das instâncias</strong>: um mesmo fato pode gerar responsabilização <strong>administrativa</strong> (PAD — Processo Administrativo Disciplinar), <strong>civil</strong> e <strong>penal</strong> simultaneamente e de forma independente — a absolvição em uma esfera não anula automaticamente as outras, salvo quando a decisão penal nega a existência do fato ou a autoria.</p>
+<p><strong>Atos administrativos</strong> — 5 elementos clássicos: <strong>competência, forma, motivo, objeto e finalidade</strong>. Atos <strong>vinculados</strong> não deixam margem de escolha ao administrador; atos <strong>discricionários</strong> permitem juízo de conveniência e oportunidade, mas ainda assim podem ser controlados judicialmente quanto à legalidade.</p>
+<p><strong>Poder de polícia</strong>: permite à Administração Pública restringir direitos individuais em nome do interesse coletivo — ex.: interditar atividades ilegais ou inutilizar produtos impróprios para consumo, independente de autorização judicial prévia (autoexecutoriedade).</p>`,
+    questoes: []
   }
 ];
