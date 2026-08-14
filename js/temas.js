@@ -5950,5 +5950,58 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <h3>Matemática Financeira Básica</h3>
 <p>Comparação entre pagamento à vista e a prazo: trazer os valores futuros a valor presente (ou vice-versa) para comparar corretamente — decisão errada é comparar os números nominais sem considerar o tempo do dinheiro.</p>`,
     questoes: []
+  },
+  {
+    id: "informatica_geral", materia: 'informatica',
+    nome: "Informática",
+    icon: "💻",
+    desc: "Questões gerais de Informática",
+    teoria: `
+<h3>Informática</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Cobre redes de computadores, segurança da informação, sistemas operacionais, arquitetura de computadores, banco de dados, programação e governança de TI — perfil técnico de concursos como Transpetro.</p>
+</div>
+
+<h3>Redes de Computadores</h3>
+<p><strong>Modelo OSI</strong> (7 camadas, de baixo pra cima): Física, Enlace, Rede, Transporte, Sessão, Apresentação, Aplicação. A camada de Transporte fica entre Rede (abaixo) e Sessão (acima).</p>
+<p><strong>Protocolos de Transporte (TCP/IP)</strong>: <strong>TCP</strong> é confiável (confirma cada pacote recebido); <strong>UDP</strong> não confirma recebimento, é mais rápido mas sem garantia de entrega.</p>
+<p><strong>IPv4 x IPv6</strong>: IPv4 usa endereços de 32 bits (esgotamento de endereços); IPv6 usa 128 bits (2¹²⁸ endereços), resolvendo o problema de escassez — essa é a principal vantagem do IPv6, não velocidade ou QoS.</p>
+<p><strong>Equipamentos</strong>: switch opera na camada de enlace (reduz colisões, ao contrário do hub); roteador conecta redes diferentes; firewall filtra tráfego para proteger a rede; VPN cria um túnel seguro para acesso remoto.</p>
+
+<h3>Segurança da Informação</h3>
+<p><strong>Certificado digital</strong>: arquivo que comprova identidade, contém dados de identificação (CPF/CNPJ) e período de validade. Boas práticas: nunca compartilhar a senha da chave privada, e revogar/comunicar imediatamente em caso de suspeita de comprometimento.</p>
+<p><strong>Criptografia assimétrica</strong>: usa par de chaves (pública e privada) — a chave pública cifra, só a privada correspondente decifra (e vice-versa para assinatura digital).</p>
+<p><strong>Ameaças comuns</strong>: <em>phishing</em> (e-mail fraudulento induzindo a fornecer dados), <em>rootkit</em> (se esconde no sistema se passando por legítimo, difícil de detectar). A <strong>ISO/IEC 27002</strong> orienta boas práticas de gestão de segurança da informação, incluindo segregação de funções (ninguém deve controlar um processo crítico sozinho, do início ao fim).</p>
+
+<h3>Sistemas Operacionais</h3>
+<p><strong>Escalonamento de processos</strong>: algoritmos que decidem qual processo usa o processador e por quanto tempo, dando a impressão de multitarefa simultânea.</p>
+<p><strong>Linux</strong>: comandos de listagem com opções como formato longo e arquivos ocultos (<code>ls -la</code>); <strong>links simbólicos</strong> apontam para outro arquivo — se o arquivo original é apagado, o link fica "quebrado" (não aponta para nada válido).</p>
+
+<h3>Arquitetura de Computadores</h3>
+<p><strong>Arquitetura de Von Neumann</strong>: usa uma única memória compartilhada para dados e instruções (diferente da arquitetura Harvard, que as separa).</p>
+<p><strong>Representação binária</strong>: números negativos em <strong>complemento de 2</strong>; quando uma soma excede o tamanho da palavra do processador, ocorre <em>overflow</em>.</p>
+<p><strong>Camadas de software sobre o hardware</strong>: do mais próximo ao mais distante do hardware, tipicamente firmware/BIOS → sistema operacional → software de aplicação.</p>
+<p><strong>Barramento do sistema</strong>: conecta os componentes principais do computador, formado por linhas de dados, de endereço e de controle.</p>
+
+<h3>Banco de Dados</h3>
+<p><strong>Modelo Entidade-Relacionamento (E-R)</strong>: cardinalidade define quantas ocorrências de uma entidade se relacionam com outra (1:1, 1:N, N:M) — questões de conjuntos que respeitam ou violam essas restrições são comuns.</p>
+<p><strong>SQL básico</strong>: <code>CREATE TABLE</code> define estrutura (colunas, tipos, chave primária); <code>SELECT</code> com <code>WHERE</code>/junções (<code>JOIN</code>) recupera dados combinando tabelas relacionadas.</p>
+
+<h3>Programação</h3>
+<p><strong>Python</strong>: listas são estruturas mutáveis e podem armazenar tipos diferentes (inclusive outras listas aninhadas); podem implementar pilhas usando o último elemento da lista como topo.</p>
+<p><strong>Java</strong>: interfaces definem contratos (métodos sem implementação) que classes abstratas ou concretas implementam.</p>
+<p>Atenção a métodos que <strong>alteram a variável original</strong> vs. métodos que <strong>retornam uma nova cópia</strong> — erro comum é achar que um método de string ou lista sempre modifica a variável original.</p>
+
+<h3>Desenvolvimento Web</h3>
+<p><strong>HTML5/JavaScript</strong>: eventos como <code>onclick</code> disparam funções JavaScript ao interagir com elementos da página.</p>
+<p><strong>XML</strong>: documento "bem-formado" segue regras sintáticas básicas (tags fechadas corretamente, aninhamento correto); "válido" além de bem-formado, segue um schema/DTD específico.</p>
+
+<h3>Governança de TI</h3>
+<p><strong>ITIL</strong>: framework de boas práticas para gestão de serviços de TI (ex.: Gerenciamento de Capacidade cuida do desempenho da rede/sistemas frente à demanda).</p>
+<p><strong>COBIT</strong>: framework de governança corporativa de TI, focado em alinhar TI aos objetivos de negócio.</p>
+<p><strong>Gestão de Projetos de TI</strong>: linha de base (planejamento original) e Estrutura Analítica do Projeto (EAP) — ver também o tema Administração Geral e Pública.</p>`,
+    questoes: []
   }
 ];
