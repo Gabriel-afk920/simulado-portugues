@@ -6068,5 +6068,41 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Atos administrativos</strong> — 5 elementos clássicos: <strong>competência, forma, motivo, objeto e finalidade</strong>. Atos <strong>vinculados</strong> não deixam margem de escolha ao administrador; atos <strong>discricionários</strong> permitem juízo de conveniência e oportunidade, mas ainda assim podem ser controlados judicialmente quanto à legalidade.</p>
 <p><strong>Poder de polícia</strong>: permite à Administração Pública restringir direitos individuais em nome do interesse coletivo — ex.: interditar atividades ilegais ou inutilizar produtos impróprios para consumo, independente de autorização judicial prévia (autoexecutoriedade).</p>`,
     questoes: []
+  },
+  {
+    id: "matematica_geral", materia: 'matematica',
+    nome: "MATEMÁTICA",
+    icon: "🔢",
+    desc: "Questões gerais de MATEMÁTICA",
+    teoria: `
+<h3>Matemática</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Problemas aplicados do dia a dia (compras, viagens, tanques) que escondem um conceito matemático específico — o desafio é traduzir o enunciado em equação antes de calcular.</p>
+</div>
+
+<h3>Números Reais e Radicais</h3>
+<p>Comparar números com radicais (ex.: √2, √3, √4) exige elevar todos ao quadrado (ou à mesma potência) pra comparar sem ambiguidade — comparação "no olho" costuma enganar.</p>
+
+<h3>Razão, Proporção e Regra de Três</h3>
+<p><strong>Distribuição proporcional</strong> (ex.: dividir um valor total entre pessoas segundo uma tabela de critérios): monta-se a proporção entre as partes antes de calcular o valor de cada uma.</p>
+<p><strong>Correção monetária</strong>: comparar o poder de compra em datas diferentes é aplicar uma proporção entre o valor nominal e o valor corrigido.</p>
+
+<h3>Sistemas de Equações Lineares</h3>
+<p>Problemas com duas ou mais incógnitas (ex.: preço de dois produtos, pontuação em partidas) viram um sistema de equações — resolver por substituição ou por soma/subtração de equações.</p>
+
+<h3>Problemas de Movimento</h3>
+<p><strong>Velocidade, tempo e distância</strong> (v = d/t): quando o mesmo percurso é feito duas vezes em velocidades diferentes, a distância é a mesma nos dois trajetos — usar essa igualdade pra montar a equação.</p>
+
+<h3>Problemas de Trabalho Conjunto (Torneiras/Vazão)</h3>
+<p>Quando vários agentes (torneiras, trabalhadores, máquinas) trabalham juntos, soma-se a <strong>taxa de trabalho</strong> de cada um (fração do total por unidade de tempo), não o tempo diretamente.</p>
+
+<h3>Geometria Básica</h3>
+<p><strong>Teorema de Pitágoras</strong> (hipotenusa² = cateto₁² + cateto₂²): usado pra achar o lado que falta num triângulo retângulo; a área do triângulo retângulo é (cateto × cateto) ÷ 2.</p>
+
+<h3>Estatística Descritiva Básica</h3>
+<p>Distribuição de notas/frequências: comparar turmas ou grupos pela média, mediana ou pela forma da distribuição (quantas nota iguais, etc.) — mesmo tipo de raciocínio do tema Estatística, em versão mais simples.</p>`,
+    questoes: []
   }
 ];
