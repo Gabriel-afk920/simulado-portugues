@@ -7,6 +7,16 @@ const MATERIAS = [
   { id: 'portugues', nome: 'Língua Portuguesa', icon: '📖', desc: 'Fonética, gramática, ortografia e interpretação de texto' },
   { id: 'informatica', nome: 'Informática', icon: '💻', desc: '📌 Transpetro — Redes, sistemas operacionais, programação (Python/Java/SQL), desenvolvimento web, governança de TI (ITIL/COBIT) e segurança da informação' },
   { id: 'gestao_de_recursos_materiais_e_patrimoniais', nome: 'Gestão de Recursos Materiais e Patrimoniais', icon: '📦', desc: '📌 BACEN · Transpetro — Controle de estoque, reposição de materiais e gestão patrimonial' },
+  { id: 'nocoes_de_direito', nome: 'NOÇÕES DE DIREITO', icon: '⚖️', desc: '📌 BACEN · IFPA — Direito Constitucional (princípios da CF, Art. 5º e 144) e Direito Administrativo (regime jurídico do servidor, atos administrativos, autarquias)' },
+  { id: 'raciocinio_logico', nome: 'Raciocínio Lógico', icon: '🧩', desc: '📌 BACEN · IFPA — Lógica proposicional, probabilidade, combinatória e problemas de raciocínio quantitativo' },
+  { id: 'conhecimentos_gerais', nome: 'CONHECIMENTOS GERAIS', icon: '🌐', desc: '📌 BACEN · IFPA — Conteúdo misto: Direito Constitucional/Administrativo, atualidades e raciocínio lógico-espacial' },
+  { id: 'estatistica', nome: 'Estatística', icon: '📊', desc: '📌 BACEN · IFPA — Probabilidade, desvio padrão, correlação e combinatória aplicada (Raciocínio Lógico-Quantitativo)' },
+  { id: 'contabilidade_geral_e_publica', nome: 'Contabilidade Geral e Pública', icon: '📚', desc: '📌 BACEN — Depreciação, ativo imobilizado, avaliação de investimentos, estoques, DRE e DFC' },
+  { id: 'administracao_geral_e_publica', nome: 'Administração Geral e Pública', icon: '🏛️', desc: '📌 BACEN · IFPA — Gestão de pessoas, arquivologia, gestão de projetos e comunicação organizacional' },
+  { id: 'administracao_geral', nome: 'Administração Geral', icon: '📋', desc: '📌 BACEN · IFPA — Avaliação de desempenho, gestão da qualidade, Balanced Scorecard e processo administrativo' },
+  { id: 'administracao_publica', nome: 'Administração Pública', icon: '🏢', desc: '📌 BACEN · IFPA — Accountability, gestão de riscos, governança e políticas públicas' },
+  { id: 'auditoria', nome: 'Auditoria', icon: '🔍', desc: '📌 BACEN — Planejamento de auditoria, amostragem, evidências e detecção de fraudes contábeis' },
+  { id: 'matematica', nome: 'MATEMÁTICA', icon: '🔢', desc: '📌 BACEN · IFPA — Problemas quantitativos aplicados: proporção, sistemas de equações, geometria e probabilidade' },
 ];
 
 // ══════════════════════════════════════════════════════════
