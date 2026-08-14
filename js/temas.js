@@ -5928,27 +5928,51 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Condicional (p → q)</strong>: só é falsa quando p é verdadeiro e q é falso — em todos os outros casos é verdadeira (pegadinha clássica de prova).</li>
   <li><strong>Silogismo categórico</strong>: raciocínio com duas premissas e uma conclusão (ex.: "a parte sempre cabe no todo") — a validade depende da estrutura lógica, não de a afirmação ser "verdadeira" no mundo real.</li>
 </ul>
+<p><strong>Frases do dia a dia que "parecem" lógica mas não são</strong>: bancas adoram misturar ditados populares com proposições formais pra testar se você separa intuição de validade lógica real. "O inimigo do meu inimigo é meu amigo" não é uma implicação logicamente válida (não decorre necessariamente de nada). Já "a parte sempre cabe no todo" é aceita como sempre verdadeira no contexto desse tipo de questão.</p>
+<p><strong>Paradoxo do mentiroso (autorreferência)</strong>: uma afirmação que fala sobre si mesma pode gerar contradição lógica — ex.: "um professor de matemática afirma que todos os professores de matemática são mentirosos" (ele mesmo é professor de matemática, então, se a frase for verdadeira, ele estaria mentindo ao dizer isso, contradição). Esse tipo de frase autorreferente <strong>não pode</strong> ser classificada como sempre verdadeira.</p>
+<p><strong>Dedução por eliminação com implicações (e suas contrapositivas)</strong>: quando o enunciado dá várias regras do tipo "todo X é Y" ou "nenhum X é Y" e pede pra identificar um item que satisfaz duas condições ao mesmo tempo, o caminho é aplicar cada regra (e sua contrapositiva: "se não é Y, não é X") pra eliminar as opções incompatíveis uma por uma, até sobrar só uma possibilidade consistente com todas as regras.</p>
+<p><strong>Dedução tipo "quem é casado com quem"</strong> (lógica de relacionamento/parentesco): monte mentalmente (ou no rascunho) uma lista de pares possíveis e vá eliminando com cada pista dada — "fulano não dança com o próprio marido, dança com o marido de beltrana" já elimina uma pessoa da lista de possíveis maridos de fulana, e assim por diante, até sobrar só uma combinação válida.</p>
+
+<h3>Propriedades de Números Inteiros</h3>
+<p>Fatos que resolvem questões de "analise as afirmações sobre N, pra qualquer N inteiro positivo" sem precisar testar caso por caso:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>N e N+1</strong> são sempre um par e um ímpar (consecutivos) — por isso N·(N+1) é <strong>sempre par</strong>.</li>
+  <li><strong>N, N+1 e N+2</strong> (três consecutivos) sempre incluem um múltiplo de 3 — por isso o produto N·(N+1)·(N+2) é <strong>sempre múltiplo de 3</strong> (e também sempre par, então é múltiplo de 6).</li>
+  <li><strong>Todo quadrado perfeito (N²) tem uma quantidade ÍMPAR de divisores</strong> — nunca par. É consequência de como os divisores de um quadrado perfeito se emparelham (todos, exceto a própria raiz quadrada, que "sobra sozinha").</li>
+  <li>Cuidado com afirmações que somam três consecutivos (N + (N+1) + (N+2) = 3N + 3 = 3(N+1)): isso é sempre múltiplo de 3, mas <strong>não</strong> é sempre múltiplo de 6 — só quando N é ímpar (aí N+1 é par).</li>
+</ul>
 
 <h3>Análise Combinatória</h3>
-<p><strong>Anagramas com restrição</strong> (ex.: todas as vogais juntas): trata-se o bloco de vogais como 1 elemento só, permuta os blocos entre si, depois permuta internamente cada bloco, e multiplica os resultados.</p>
+<p><strong>Anagramas com restrição</strong> (ex.: todas as vogais juntas): trata-se o bloco de vogais como 1 elemento só, permuta os blocos entre si, depois permuta internamente cada bloco, e multiplica os resultados. Fique atento a letras repetidas — tanto fora quanto dentro do bloco — porque cada repetição divide o resultado pelo fatorial da quantidade de repetições.</p>
+<p><strong>Dois blocos obrigatórios</strong> (ex.: todas as vogais juntas <em>e</em> todas as consoantes juntas): agora existem 2 blocos que podem trocar de ordem entre si (2! formas), e cada bloco tem suas próprias permutações internas (considerando repetições dentro de cada bloco) — multiplica-se tudo: (ordens entre os blocos) × (permutações internas do bloco 1) × (permutações internas do bloco 2).</p>
 <p><strong>Combinação x arranjo</strong>: combinação quando a ordem não importa (escolher um grupo), arranjo/permutação quando a ordem importa (formar uma sequência, um pódio, uma senha).</p>
+<p><strong>Números quadrados perfeitos em problemas de decomposição</strong>: quando um quadrado maior é decomposto em quadrados menores de lados inteiros, a soma das áreas dos quadrados menores é igual à área do quadrado maior — e a área do quadrado maior precisa ser, ela mesma, um quadrado perfeito (lado inteiro). Ex.: 16 quadrados de área 1 (lado 1) mais 1 quadrado de área 9 (lado 3) somam 25 = 5², então o quadrado original tem lado 5.</p>
 
 <h3>Probabilidade</h3>
 <p><strong>Probabilidade clássica</strong>: casos favoráveis ÷ casos possíveis.</p>
-<p><strong>Probabilidade condicional</strong>: probabilidade de um evento dado que outro já ocorreu (ex.: "qual a chance do time vencer, sabendo que o goleiro está machucado com 60% de chance de jogar") — geralmente exige separar os cenários e ponderar cada um pela sua própria probabilidade.</p>
+<p><strong>Probabilidade condicional (atualização após observar parte do resultado)</strong>: quando parte do resultado já é conhecida (ex.: numa aposta de 6 números em 60, as 3 primeiras bolas sorteadas já bateram com a aposta), a probabilidade do restante recalcula-se só sobre o que falta decidir — no exemplo, a chance de acertar os 3 números que faltam entre as 57 bolas restantes é 1 em C(57,3), bem maior que a chance original do jogo completo.</p>
+<p><strong>Probabilidade total (cenários que se excluem)</strong>: quando o resultado final depende de um evento intermediário incerto (ex.: "o goleiro titular tem 60% de chance de jogar"), calcula-se a probabilidade do resultado final <strong>em cada cenário</strong> separadamente e pondera-se pela chance de cada cenário acontecer: P(final) = P(cenário 1) × P(final | cenário 1) + P(cenário 2) × P(final | cenário 2). Atenção pra ler com cuidado de quem é a vitória mencionada em cada estatística histórica — é comum o enunciado citar as vitórias do <strong>adversário</strong> num dos cenários, exigindo inverter a fração antes de usar.</p>
+<p><strong>Percentual sobre base reduzida</strong> (ex.: votos válidos excluindo brancos e nulos): quando uma categoria é excluída do total antes de calcular o percentual, o novo percentual de cada item é o percentual original dividido pela soma dos percentuais que continuam valendo (não pelos 100% originais).</p>
 
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin:16px 0;">
 <strong style="color:#fbbf24;">Problemas clássicos que reaparecem em provas diferentes</strong>
 <ul style="color:#cbd5e1;margin-top:8px;">
-  <li><strong>Pesagem com balança de dois pratos</strong>: encontrar o item diferente (mais pesado/leve) em um número mínimo de pesagens — dividir o grupo em três partes e comparar duas delas por vez.</li>
-  <li><strong>Torneio eliminatório (chaveamento)</strong>: em eliminação simples, o número de jogos é sempre (participantes − 1), porque cada jogo elimina exatamente 1 pessoa.</li>
+  <li><strong>Pesagem com balança de dois pratos</strong>: encontrar o item diferente (mais pesado/leve) em um número mínimo de pesagens — a estratégia ótima divide o grupo em três partes (quase) iguais e compara duas delas por vez; cada pesagem tem 3 resultados possíveis (pende esquerda, pende direita, equilibra), então o número mínimo de pesagens é o menor número de vezes que 3 elevado a essa potência cobre o total de itens.</li>
+  <li><strong>Torneio eliminatório (chaveamento)</strong>: em eliminação simples, o número de jogos é sempre (participantes − 1), porque cada jogo elimina exatamente 1 pessoa. Cuidado quando o problema limita quantos jogos cabem por "rodada" (ex.: um recreio, um dia): jogos de uma fase posterior <strong>dependem do resultado</strong> dos jogos da fase anterior, então não podem acontecer na mesma rodada — isso muitas vezes impede usar o limite máximo de jogos em todas as rodadas.</li>
+  <li><strong>Raciocínio espacial com grades/matrizes</strong> (ex.: cartas organizadas em linhas e reorganizadas de outro jeito): a solução costuma vir de cruzar a informação de "onde estava antes" com "onde está depois" — teste sistematicamente cada posição candidata contra as duas informações dadas, até sobrar uma só.</li>
   <li><strong>Troco com nota falsa</strong>: problema clássico onde o prejuízo real precisa ser rastreado com cuidado — não conta o troco duas vezes.</li>
-  <li><strong>Regras de divisibilidade</strong>: além das básicas (2, 3, 5, 9, 10), memorize o procedimento de divisibilidade por 7 (dobrar e subtrair o último algarismo) quando ele aparecer descrito no enunciado.</li>
+  <li><strong>Regras de divisibilidade</strong>: além das básicas (2, 3, 5, 9, 10), memorize o procedimento de divisibilidade por 7 (dobrar e subtrair o último algarismo, repetindo até sobrar um número pequeno e reconhecível) quando ele aparecer descrito no enunciado — a banca sempre explica o algoritmo, o trabalho é aplicá-lo com cuidado.</li>
 </ul>
 </div>
 
+<h3>Geometria: Áreas Proporcionais</h3>
+<p><strong>Triângulos com mesma altura</strong>: se dois triângulos compartilham o mesmo vértice (mesma altura em relação a uma base comum) e suas bases estão sobre a mesma reta, a razão entre suas áreas é igual à razão entre suas bases. Ex.: se um ponto D divide o lado BC de um triângulo tal que BD é o triplo de DC, então BD/BC = 3/4, e a área do triângulo ABD é 3/4 da área do triângulo ABC inteiro.</p>
+
+<h3>Sistemas Simples de Igualdade</h3>
+<p>Quando dois grupos diferentes (ex.: homens e mulheres) diminuem a taxas fixas e diferentes a cada rodada, monta-se uma equação simples igualando as duas quantidades em função do número de rodadas (x) e resolve-se pra x — mesma lógica de sistema de equações, só que com uma variável.</p>
+
 <h3>Matemática Financeira Básica</h3>
-<p>Comparação entre pagamento à vista e a prazo: trazer os valores futuros a valor presente (ou vice-versa) para comparar corretamente — decisão errada é comparar os números nominais sem considerar o tempo do dinheiro.</p>`,
+<p>Comparação entre pagamento à vista e a prazo: trazer os valores futuros a valor presente (ou vice-versa) para comparar corretamente — decisão errada é comparar os números nominais sem considerar o tempo do dinheiro e a taxa de rendimento disponível.</p>`,
     questoes: []
   },
   {
