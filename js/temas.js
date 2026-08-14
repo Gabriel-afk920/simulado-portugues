@@ -5907,5 +5907,48 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Modelo burocrático x pós-burocrático</strong>: a comunicação pós-burocrática valoriza interação, transparência e participação popular, em contraste com a rigidez hierárquica do modelo burocrático clássico.</p>
 <p><strong>Mapa estratégico e indicadores</strong>: usados na gestão para resultados de órgãos públicos (ex.: Receita Federal) para traduzir objetivos estratégicos em metas mensuráveis, inclusive na avaliação de políticas públicas e gestão de riscos institucionais.</p>`,
     questoes: []
+  },
+  {
+    id: "raciocinio_logico_geral", materia: 'raciocinio_logico',
+    nome: "Raciocínio Lógico",
+    icon: "🧩",
+    desc: "Questões gerais de Raciocínio Lógico",
+    teoria: `
+<h3>Raciocínio Lógico</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Mistura lógica proposicional, análise combinatória, probabilidade e problemas clássicos de dedução — o desafio raramente é a conta em si, é entender exatamente o que o enunciado está pedindo.</p>
+</div>
+
+<h3>Lógica Proposicional</h3>
+<p>Proposições são frases que podem ser julgadas verdadeiras ou falsas. Os <strong>conectivos</strong> mais cobrados:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Negação (~p)</strong>: inverte o valor lógico.</li>
+  <li><strong>Condicional (p → q)</strong>: só é falsa quando p é verdadeiro e q é falso — em todos os outros casos é verdadeira (pegadinha clássica de prova).</li>
+  <li><strong>Silogismo categórico</strong>: raciocínio com duas premissas e uma conclusão (ex.: "a parte sempre cabe no todo") — a validade depende da estrutura lógica, não de a afirmação ser "verdadeira" no mundo real.</li>
+</ul>
+
+<h3>Análise Combinatória</h3>
+<p><strong>Anagramas com restrição</strong> (ex.: todas as vogais juntas): trata-se o bloco de vogais como 1 elemento só, permuta os blocos entre si, depois permuta internamente cada bloco, e multiplica os resultados.</p>
+<p><strong>Combinação x arranjo</strong>: combinação quando a ordem não importa (escolher um grupo), arranjo/permutação quando a ordem importa (formar uma sequência, um pódio, uma senha).</p>
+
+<h3>Probabilidade</h3>
+<p><strong>Probabilidade clássica</strong>: casos favoráveis ÷ casos possíveis.</p>
+<p><strong>Probabilidade condicional</strong>: probabilidade de um evento dado que outro já ocorreu (ex.: "qual a chance do time vencer, sabendo que o goleiro está machucado com 60% de chance de jogar") — geralmente exige separar os cenários e ponderar cada um pela sua própria probabilidade.</p>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin:16px 0;">
+<strong style="color:#fbbf24;">Problemas clássicos que reaparecem em provas diferentes</strong>
+<ul style="color:#cbd5e1;margin-top:8px;">
+  <li><strong>Pesagem com balança de dois pratos</strong>: encontrar o item diferente (mais pesado/leve) em um número mínimo de pesagens — dividir o grupo em três partes e comparar duas delas por vez.</li>
+  <li><strong>Torneio eliminatório (chaveamento)</strong>: em eliminação simples, o número de jogos é sempre (participantes − 1), porque cada jogo elimina exatamente 1 pessoa.</li>
+  <li><strong>Troco com nota falsa</strong>: problema clássico onde o prejuízo real precisa ser rastreado com cuidado — não conta o troco duas vezes.</li>
+  <li><strong>Regras de divisibilidade</strong>: além das básicas (2, 3, 5, 9, 10), memorize o procedimento de divisibilidade por 7 (dobrar e subtrair o último algarismo) quando ele aparecer descrito no enunciado.</li>
+</ul>
+</div>
+
+<h3>Matemática Financeira Básica</h3>
+<p>Comparação entre pagamento à vista e a prazo: trazer os valores futuros a valor presente (ou vice-versa) para comparar corretamente — decisão errada é comparar os números nominais sem considerar o tempo do dinheiro.</p>`,
+    questoes: []
   }
 ];
