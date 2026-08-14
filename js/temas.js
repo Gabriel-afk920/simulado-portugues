@@ -6018,29 +6018,37 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Medidas de Dispersão</h3>
-<p><strong>Desvio padrão</strong>: mede o quanto os valores de uma amostra se afastam da média — quanto mais espalhados os dados, maior o desvio padrão. Em questões que comparam várias amostras, a de menor desvio padrão é a que tem os valores mais próximos entre si (não necessariamente a de menor média).</p>
+<p><strong>Desvio padrão</strong>: mede o quanto os valores de uma amostra se afastam da média — quanto mais espalhados os dados, maior o desvio padrão. Em questões que comparam várias amostras, a de menor desvio padrão é a que tem os valores mais próximos entre si — <strong>não</strong> necessariamente a de menor média: uma amostra como (100, 101, 102, 103) tem média alta mas desvio padrão baixo, porque os valores estão colados uns nos outros. O desvio padrão não muda se você somar uma constante a todos os valores (só depende da distância entre eles, não do "nível" onde estão).</p>
 <p><strong>Amplitude</strong>: diferença entre o maior e o menor valor observado.</p>
+<p><strong>Média x mediana</strong>: pra achar a diferença entre as duas, ordene os dados, ache o valor central (mediana — se n é ímpar, é o valor do meio; se par, é a média dos dois centrais) e compare com a média aritmética (soma ÷ quantidade). Quando a distribuição é assimétrica (tem valores puxando pra um lado), média e mediana se afastam uma da outra.</p>
 
 <h3>Distribuições de Probabilidade</h3>
-<p><strong>Variável aleatória discreta</strong>: tem uma função de probabilidade que atribui uma probabilidade a cada valor possível; a soma de todas as probabilidades deve ser sempre igual a 1. Pra calcular P(X > k), soma-se as probabilidades dos valores maiores que k.</p>
-<p><strong>Distribuição binomial</strong>: usada quando há repetição de tentativas independentes com apenas dois resultados possíveis (sucesso/fracasso), como sorteios com reposição.</p>
+<p><strong>Variável aleatória discreta</strong>: tem uma função de probabilidade que atribui uma probabilidade a cada valor possível; a soma de todas as probabilidades deve ser sempre igual a 1. Pra calcular P(X > k), soma-se (ou lê direto na tabela) as probabilidades dos valores estritamente maiores que k.</p>
+<p><strong>Distribuição binomial</strong>: usada quando há repetição de <em>n</em> tentativas independentes com apenas dois resultados possíveis (sucesso/fracasso) e probabilidade de sucesso <em>p</em> constante — típico de sorteios <strong>com reposição</strong>. Pra calcular P(mais de k sucessos), muitas vezes é mais rápido calcular o complementar: 1 − P(0 sucessos) − P(1 sucesso) − ... até k.</p>
+<p><strong>Distribuição hipergeométrica</strong>: parecida com a binomial, mas usada quando a seleção é <strong>sem reposição</strong> de um grupo com categorias fixas (ex.: escolher 3 pessoas de um grupo de 4 auditores + 6 analistas) — a probabilidade de uma combinação específica (ex.: 2 analistas e 1 auditor) é o número de combinações favoráveis dividido pelo total de combinações possíveis: [C(analistas, 2) × C(auditores, 1)] ÷ C(total, 3).</p>
+
+<h3>Probabilidade: Eventos Combinados</h3>
+<p><strong>Eventos independentes (E)</strong>: a probabilidade de dois eventos independentes ocorrerem juntos é o <strong>produto</strong> das probabilidades individuais (ex.: chover no sábado <em>e</em> chover no domingo = P(sábado) × P(domingo)).</p>
+<p><strong>Complementar</strong>: quando o enunciado pede "pelo menos um" ou "sem que aconteça nada disso", geralmente é mais fácil calcular o complementar. Ex.: probabilidade de <strong>não chover em nenhum dos dois dias</strong> = 1 − P(chover em pelo menos um dia) = 1 − P(chover sábado E domingo, se forem os únicos "ruins" que importam) — sempre releia o enunciado pra saber se "sem pegar chuva" significa nos dois dias ou em pelo menos um.</p>
+<p><strong>Lei da probabilidade total (partição)</strong>: quando um grupo total é dividido em categorias (ex.: livros por assunto) e você sabe o percentual de cada categoria e a probabilidade condicional dentro dela, o percentual geral é a <strong>soma ponderada</strong>: para cada categoria, multiplica-se o percentual da categoria pela probabilidade condicional, e soma-se tudo.</p>
+<p><strong>Jogo justo (valor esperado)</strong>: num jogo "honesto", o valor esperado de ganho de cada jogador deve ser igual. Se Edson ganha com probabilidade p e paga X se perder, e Roberto ganha com probabilidade (1−p) e paga Y se perder, a condição de jogo justo é Y × p = X × (1−p) — iguala-se o produto "prêmio × chance de ter que pagar" dos dois lados.</p>
+
+<h3>Combinatória (Análise Combinatória)</h3>
+<p><strong>Anagramas com letras repetidas</strong>: o número de anagramas de uma palavra com <em>n</em> letras, onde uma letra se repete <em>k</em> vezes, é n! ÷ k!.</p>
+<p><strong>Anagramas com elementos que devem ficar juntos</strong>: trate o bloco de letras que precisam ficar juntas como se fosse <strong>uma única "letra"</strong> — calcule as permutações desse bloco junto com as demais letras (agora como um grupo menor), e multiplique pelas permutações internas do próprio bloco. Ex.: pra vogais juntas numa palavra de 7 letras com 4 vogais, calcula-se separadamente as permutações dos "4 blocos" (3 consoantes + 1 bloco de vogais) e as permutações internas das 4 vogais entre si, e multiplica-se os dois resultados — sempre atento a letras repetidas em cada parte.</p>
+<p><strong>MDC aplicado a ladrilhamento</strong>: pra cobrir um retângulo inteiramente com o <strong>menor número possível de quadrados idênticos</strong>, o lado do quadrado deve ser o Máximo Divisor Comum (MDC) das duas dimensões do retângulo — quanto maior o quadrado (dentro do que o MDC permite), menos quadrados são necessários.</p>
+
+<h3>Geometria Analítica</h3>
+<p><strong>Ponto que divide um segmento numa razão dada</strong>: se C está no segmento AB e a distância de C a A é o dobro da distância de C a B (AC = 2·CB), então C divide AB na razão 2:1, ficando a 2/3 do caminho entre A e B. As coordenadas de C são: C = A + (2/3)·(B − A), aplicado separadamente em x e em y.</p>
 
 <h3>Amostragem e Inferência</h3>
-<p><strong>Intervalo de confiança para a média</strong>: usa a média amostral, o desvio padrão (ou variância) conhecido e o tamanho da amostra (n) para estimar um intervalo plausível para a média populacional, geralmente com auxílio da distribuição normal padrão (Z).</p>
-<p><strong>Teste de hipótese</strong>: compara uma hipótese nula (ex.: proporção populacional p = p₀) contra os dados observados numa amostra, pra decidir se há evidência suficiente pra rejeitar essa hipótese.</p>
+<p><strong>Intervalo de confiança para a média</strong> (variância conhecida): X̄ ± Z·(σ/√n), onde X̄ é a média amostral, σ é o desvio padrão populacional, n é o tamanho da amostra e Z é o valor crítico da normal padrão (Z = 1,96 pra 95% de confiança). O termo σ/√n é o chamado erro padrão da média.</p>
+<p><strong>Distribuição amostral da média (população normal)</strong>: X̄ tem distribuição normal com média μ e variância σ²/n. A soma dos quadrados dos desvios em torno da média amostral, dividida por σ², segue uma distribuição <strong>qui-quadrado</strong> com (n − 1) graus de liberdade. Um resultado importante (e contraintuitivo): sob população normal, X̄ e essa soma de quadrados são <strong>estatisticamente independentes</strong> entre si — não correlacionadas, ao contrário do que a intuição sugere.</p>
+<p><strong>Teste de hipótese via intervalo de confiança</strong>: existe uma equivalência direta entre o IC de 95% e um teste de hipótese bilateral a 5% de significância — se o valor da hipótese nula (p₀) está <strong>dentro</strong> do intervalo de confiança, <strong>não se rejeita</strong> H0; se está <strong>fora</strong> do intervalo, <strong>rejeita-se</strong> H0. Não existe uma terceira opção "inconclusiva" nesse caso — todo valor de p₀ cai claramente dentro ou fora do IC.</p>
 
 <h3>Regressão Linear e Correlação</h3>
-<p><strong>Reta de regressão</strong> (Y = a + bX): "a" é o intercepto, "b" é a inclinação (quanto Y varia pra cada unidade de X).</p>
-<p><strong>Coeficiente de determinação (R²)</strong>: é o quadrado do coeficiente de correlação — indica a proporção da variação de Y que é explicada pelo modelo. Um coeficiente de correlação de 0,756 dá um R² de aproximadamente 0,57 (0,756²).</p>
-
-<h3>Probabilidade Aplicada</h3>
-<p><strong>Combinatória em probabilidade</strong>: ao selecionar pessoas/itens de um grupo (ex.: formar um subgrupo de auditores e analistas), calcula-se o número de combinações favoráveis dividido pelo número total de combinações possíveis.</p>
-<p><strong>Eventos combinados</strong> (jogos honestos, apostas): o cálculo geralmente envolve multiplicar probabilidades de eventos independentes ou somar probabilidades de eventos mutuamente exclusivos, dependendo do que o enunciado pede.</p>
-
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-top:8px;">
-<strong style="color:#fbbf24;">Nota</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Algumas questões deste bucket são de geometria e combinatória pura (sem estatística formal) — mesmo estilo do tema Raciocínio Lógico. Vale revisar os dois temas juntos.</p>
-</div>`,
+<p><strong>Reta de regressão</strong> (Y = a + bX): "<strong>a</strong>" é o intercepto (valor de Y quando X = 0) e "<strong>b</strong>" é a inclinação (quanto Y varia pra cada unidade de X). Cuidado com a pegadinha clássica: é o coeficiente angular <strong>b</strong> que indica se valores grandes de X correspondem a valores grandes de Y — o intercepto <strong>a</strong> sozinho não diz nada sobre essa relação.</p>
+<p><strong>Coeficiente de determinação (R²)</strong>: é o quadrado do coeficiente de correlação (r) — indica a proporção da variação de Y que é explicada pelo modelo de regressão. Um coeficiente de correlação de 0,9 dá R² = 0,81 (81% da variação explicada — bem mais que 60%); um coeficiente de 0,756 dá R² ≈ 0,57.</p>`,
     questoes: []
   },
   {
