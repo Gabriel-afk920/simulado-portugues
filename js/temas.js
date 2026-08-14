@@ -6119,9 +6119,10 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Gestão Patrimonial</h3>
-<p><strong>Conceito de bem</strong>: relacionado à utilidade, quantidade e valor econômico — bens são suscetíveis de apropriação e podem ser designados como patrimônio (envolvem direitos e obrigações).</p>
-<p><strong>Vida econômica de um bem</strong>: período em que o bem consegue exercer suas funções de forma economicamente vantajosa, antes que o custo de mantê-lo operacional (manutenção) supere o benefício de continuar usando.</p>
-<p><strong>Depreciação linear</strong>: mesma lógica do tema Contabilidade — (valor de compra − valor residual) ÷ vida útil = depreciação anual constante.</p>
+<p><strong>Conceito de bem</strong>: relacionado à utilidade, quantidade e a um valor econômico (riqueza) — bens são suscetíveis de apropriação, envolvem direitos e obrigações, e por isso podem ser designados como <strong>patrimônio</strong>.</p>
+<p><strong>Patrimônio imobiliário x mobiliário</strong> — pegadinha clássica de prova: o <strong>patrimônio imobiliário</strong> compreende os <strong>bens imóveis</strong> (terrenos, edificações). Já o <strong>patrimônio mobiliário</strong> se divide em <strong>permanente</strong> (bens móveis duráveis, <strong>não consumíveis</strong> — equipamentos, veículos, mobiliário) e <strong>de consumo</strong> (bens <strong>consumíveis</strong>, que se esgotam no uso — material de expediente, por exemplo). Misturar "não consumíveis" com o imobiliário, ou "consumíveis" com o mobiliário permanente, é exatamente o erro que as bancas cobram nas alternativas.</p>
+<p><strong>Vida econômica de um bem</strong>: período em que o bem exerce suas funções até o ponto em que deixa de ser economicamente vantajoso mantê-lo — tecnicamente, é o momento em que o <strong>Custo Anual Equivalente (CAE)</strong> do bem é mínimo. O CAE combina o custo de capital (perda de valor/depreciação) com os custos operacionais e de manutenção num único valor anual comparável; no início da vida do bem a depreciação domina o CAE, mais pra frente é a manutenção crescente que domina — o ponto ótimo de troca é onde essa soma é a menor possível.</p>
+<p><strong>Depreciação linear</strong> — mesma lógica do tema Contabilidade: depreciação anual = (valor de compra − valor residual) ÷ vida útil. Exemplo: bem de R$ 500.000, vida útil de 25 anos, valor residual de R$ 50.000 → depreciação anual = (500.000 − 50.000) ÷ 25 = R$ 18.000/ano. Ao final do 4º ano: <strong>depreciação acumulada</strong> = 18.000 × 4 = R$ 72.000; <strong>valor contábil atual</strong> (o "valor residual" perguntado na prova, que não é o mesmo que o valor residual fixo do enunciado) = 500.000 − 72.000 = R$ 428.000.</p>
 
 <h3>Modelos de Reposição de Estoque</h3>
 <div style="overflow-x:auto;margin-bottom:16px;">
@@ -6131,24 +6132,20 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como funciona</th>
   </tr></thead>
   <tbody>
-    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reposição contínua</strong> (ponto de pedido)</td><td style="padding:8px;border:1px solid #334155;">Pede-se um lote fixo sempre que o estoque atinge um nível mínimo (ponto de pedido); lote de compra é padrão, geralmente igual ao Lote Econômico de Compra (LEC)</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Reposição periódica</strong> (estoque máximo)</td><td style="padding:8px;border:1px solid #334155;">Pede-se em intervalos de tempo fixos; o tamanho do lote varia conforme o consumo do período, pra sempre voltar ao estoque máximo definido</td></tr>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reposição contínua</strong> (ponto de pedido)</td><td style="padding:8px;border:1px solid #334155;">Pede-se um lote fixo sempre que o estoque atinge um nível mínimo (ponto de pedido); lote de compra é padrão, geralmente igual ao Lote Econômico de Compra (LEC); intervalo entre pedidos varia conforme o consumo.</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Reposição periódica</strong> (estoque máximo)</td><td style="padding:8px;border:1px solid #334155;">Pede-se em <strong>intervalos de tempo constantes</strong>; o tamanho do lote é <strong>variável</strong>, calculado a cada pedido pra sempre voltar ao estoque máximo definido — é o oposto do modelo de lote padrão fixo.</td></tr>
   </tbody>
 </table>
 </div>
+<p><strong>Ponto de Pedido (PP)</strong>: fórmula PP = (T<sub>lead time</sub> × D) + ES, onde T é o tempo de espera da entrega, D é a demanda (consumo médio) e ES é o estoque de segurança. Cuidado com a unidade de T e D — se o lead time está em dias e o consumo em unidades/mês, é preciso converter pra uma base comum. Exemplo: consumo médio de 1.000 unid./mês, mês com 20 dias úteis → consumo diário D = 1.000 ÷ 20 = 50 unid./dia. Lead time de 10 dias úteis → T × D = 10 × 50 = 500. Com estoque de segurança de 100: PP = 500 + 100 = <strong>600 unidades</strong>.</p>
 <p><strong>Estoque de segurança</strong>: quantidade extra mantida pra proteger contra variações de demanda ou atraso na entrega — quanto maior o prazo de entrega e mais variável a demanda, maior o estoque de segurança necessário.</p>
 
 <h3>Classificação ABC</h3>
-<p>Classifica os itens do estoque por importância (geralmente valor de consumo/movimentação):</p>
-<ul style="color:#cbd5e1;">
-  <li><strong>Classe A</strong>: poucos itens, mas representam a maior parte do valor total — exigem controle mais rigoroso.</li>
-  <li><strong>Classe B</strong>: importância intermediária.</li>
-  <li><strong>Classe C</strong>: muitos itens, mas baixo valor individual — controle mais simples.</li>
-</ul>
+<p>Classifica os itens do estoque por importância, geralmente pelo <strong>valor movimentado anualmente</strong> (valor unitário × quantidade). O método: (1) ordenar os itens do maior pro menor valor movimentado; (2) calcular o <strong>percentual acumulado</strong> em relação ao valor total; (3) aplicar faixas de corte — um exemplo comum de banca: <strong>Classe A</strong> = itens cujo percentual acumulado é ≥ 70% do valor total (poucos itens, alto valor, controle rigoroso); <strong>Classe B</strong> = faixa intermediária (ex.: entre 11% e 69%); <strong>Classe C</strong> = itens que somados representam ≤ 10% do valor (muitos itens, baixo valor individual, controle mais simples).</p>
 
 <h3>Indicadores de Gestão de Materiais</h3>
-<p><strong>Nível de serviço</strong>: percentual de itens/requisições atendidos dentro do prazo, em relação ao total solicitado.</p>
-<p><strong>Acurácia do estoque</strong>: mede o quanto o estoque físico (contado no inventário) bate com o estoque registrado no sistema — calculado como 1 menos a proporção de itens com divergência (quanto mais divergências no inventário físico, menor a acurácia).</p>`,
+<p><strong>Nível de serviço</strong>: percentual de itens atendidos dentro do prazo em relação ao total de itens solicitados — atenção pra não confundir "requisições" com "itens": se cada requisição tem, em média, mais de um item, o total de itens solicitados é (nº de requisições × média de itens por requisição), não o número de requisições isolado. Exemplo: 5.000 requisições com média de 1,8 itens cada = 9.000 itens solicitados; se 7.650 foram entregues no prazo, o nível de serviço = 7.650 ÷ 9.000 = <strong>85,0%</strong>.</p>
+<p><strong>Acurácia do estoque</strong>: mede o quanto o estoque físico (contado no inventário) bate com o estoque registrado no sistema — calculado como 1 menos a proporção de itens com divergência. Exemplo: 10.000 itens inventariados, 1.200 com divergência → acurácia = 1 − (1.200 ÷ 10.000) = <strong>88,0%</strong>.</p>`,
     questoes: []
   },
   {
