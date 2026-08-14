@@ -6104,5 +6104,51 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <h3>Estatística Descritiva Básica</h3>
 <p>Distribuição de notas/frequências: comparar turmas ou grupos pela média, mediana ou pela forma da distribuição (quantas nota iguais, etc.) — mesmo tipo de raciocínio do tema Estatística, em versão mais simples.</p>`,
     questoes: []
+  },
+  {
+    id: "gestao_de_recursos_materiais_e_patrimoniais_geral", materia: 'gestao_de_recursos_materiais_e_patrimoniais',
+    nome: "Gestão de Recursos Materiais e Patrimoniais",
+    icon: "📦",
+    desc: "Questões gerais de Gestão de Recursos Materiais e Patrimoniais",
+    teoria: `
+<h3>Gestão de Recursos Materiais e Patrimoniais</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Gestão de estoques (modelos de reposição, classificação ABC) e gestão patrimonial (conceito de bem, depreciação, indicadores de controle).</p>
+</div>
+
+<h3>Gestão Patrimonial</h3>
+<p><strong>Conceito de bem</strong>: relacionado à utilidade, quantidade e valor econômico — bens são suscetíveis de apropriação e podem ser designados como patrimônio (envolvem direitos e obrigações).</p>
+<p><strong>Vida econômica de um bem</strong>: período em que o bem consegue exercer suas funções de forma economicamente vantajosa, antes que o custo de mantê-lo operacional (manutenção) supere o benefício de continuar usando.</p>
+<p><strong>Depreciação linear</strong>: mesma lógica do tema Contabilidade — (valor de compra − valor residual) ÷ vida útil = depreciação anual constante.</p>
+
+<h3>Modelos de Reposição de Estoque</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.95em;">
+  <thead><tr style="background:#0f172a;">
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Modelo</th>
+    <th style="padding:8px;border:1px solid #334155;color:#38bdf8;">Como funciona</th>
+  </tr></thead>
+  <tbody>
+    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reposição contínua</strong> (ponto de pedido)</td><td style="padding:8px;border:1px solid #334155;">Pede-se um lote fixo sempre que o estoque atinge um nível mínimo (ponto de pedido); lote de compra é padrão, geralmente igual ao Lote Econômico de Compra (LEC)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Reposição periódica</strong> (estoque máximo)</td><td style="padding:8px;border:1px solid #334155;">Pede-se em intervalos de tempo fixos; o tamanho do lote varia conforme o consumo do período, pra sempre voltar ao estoque máximo definido</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Estoque de segurança</strong>: quantidade extra mantida pra proteger contra variações de demanda ou atraso na entrega — quanto maior o prazo de entrega e mais variável a demanda, maior o estoque de segurança necessário.</p>
+
+<h3>Classificação ABC</h3>
+<p>Classifica os itens do estoque por importância (geralmente valor de consumo/movimentação):</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Classe A</strong>: poucos itens, mas representam a maior parte do valor total — exigem controle mais rigoroso.</li>
+  <li><strong>Classe B</strong>: importância intermediária.</li>
+  <li><strong>Classe C</strong>: muitos itens, mas baixo valor individual — controle mais simples.</li>
+</ul>
+
+<h3>Indicadores de Gestão de Materiais</h3>
+<p><strong>Nível de serviço</strong>: percentual de itens/requisições atendidos dentro do prazo, em relação ao total solicitado.</p>
+<p><strong>Acurácia do estoque</strong>: mede o quanto o estoque físico (contado no inventário) bate com o estoque registrado no sistema — calculado como 1 menos a proporção de itens com divergência (quanto mais divergências no inventário físico, menor a acurácia).</p>`,
+    questoes: []
   }
 ];
