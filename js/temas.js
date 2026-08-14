@@ -5,6 +5,8 @@
 // ══════════════════════════════════════════════════════════
 const MATERIAS = [
   { id: 'portugues', nome: 'Língua Portuguesa', icon: '📖', desc: 'Fonética, gramática, ortografia e interpretação de texto' },
+  { id: 'informatica', nome: 'Informática', icon: '💻', desc: '📌 Transpetro — Redes, sistemas operacionais, programação (Python/Java/SQL), desenvolvimento web, governança de TI (ITIL/COBIT) e segurança da informação' },
+  { id: 'gestao_de_recursos_materiais_e_patrimoniais', nome: 'Gestão de Recursos Materiais e Patrimoniais', icon: '📦', desc: '📌 BACEN · Transpetro — Controle de estoque, reposição de materiais e gestão patrimonial' },
 ];
 
 // ══════════════════════════════════════════════════════════
