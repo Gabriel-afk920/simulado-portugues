@@ -6003,5 +6003,44 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>COBIT</strong>: framework de governança corporativa de TI, focado em alinhar TI aos objetivos de negócio.</p>
 <p><strong>Gestão de Projetos de TI</strong>: linha de base (planejamento original) e Estrutura Analítica do Projeto (EAP) — ver também o tema Administração Geral e Pública.</p>`,
     questoes: []
+  },
+  {
+    id: "estatistica_geral", materia: 'estatistica',
+    nome: "Estatística",
+    icon: "📊",
+    desc: "Questões gerais de Estatística",
+    teoria: `
+<h3>Estatística</h3>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<strong style="color:#38bdf8;">Sobre este tema</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Mais avançado que o Raciocínio Lógico-Quantitativo: medidas de dispersão, distribuições de probabilidade, inferência estatística (intervalo de confiança, teste de hipótese) e regressão linear — cobrado junto com alguns problemas de combinatória e geometria.</p>
+</div>
+
+<h3>Medidas de Dispersão</h3>
+<p><strong>Desvio padrão</strong>: mede o quanto os valores de uma amostra se afastam da média — quanto mais espalhados os dados, maior o desvio padrão. Em questões que comparam várias amostras, a de menor desvio padrão é a que tem os valores mais próximos entre si (não necessariamente a de menor média).</p>
+<p><strong>Amplitude</strong>: diferença entre o maior e o menor valor observado.</p>
+
+<h3>Distribuições de Probabilidade</h3>
+<p><strong>Variável aleatória discreta</strong>: tem uma função de probabilidade que atribui uma probabilidade a cada valor possível; a soma de todas as probabilidades deve ser sempre igual a 1. Pra calcular P(X > k), soma-se as probabilidades dos valores maiores que k.</p>
+<p><strong>Distribuição binomial</strong>: usada quando há repetição de tentativas independentes com apenas dois resultados possíveis (sucesso/fracasso), como sorteios com reposição.</p>
+
+<h3>Amostragem e Inferência</h3>
+<p><strong>Intervalo de confiança para a média</strong>: usa a média amostral, o desvio padrão (ou variância) conhecido e o tamanho da amostra (n) para estimar um intervalo plausível para a média populacional, geralmente com auxílio da distribuição normal padrão (Z).</p>
+<p><strong>Teste de hipótese</strong>: compara uma hipótese nula (ex.: proporção populacional p = p₀) contra os dados observados numa amostra, pra decidir se há evidência suficiente pra rejeitar essa hipótese.</p>
+
+<h3>Regressão Linear e Correlação</h3>
+<p><strong>Reta de regressão</strong> (Y = a + bX): "a" é o intercepto, "b" é a inclinação (quanto Y varia pra cada unidade de X).</p>
+<p><strong>Coeficiente de determinação (R²)</strong>: é o quadrado do coeficiente de correlação — indica a proporção da variação de Y que é explicada pelo modelo. Um coeficiente de correlação de 0,756 dá um R² de aproximadamente 0,57 (0,756²).</p>
+
+<h3>Probabilidade Aplicada</h3>
+<p><strong>Combinatória em probabilidade</strong>: ao selecionar pessoas/itens de um grupo (ex.: formar um subgrupo de auditores e analistas), calcula-se o número de combinações favoráveis dividido pelo número total de combinações possíveis.</p>
+<p><strong>Eventos combinados</strong> (jogos honestos, apostas): o cálculo geralmente envolve multiplicar probabilidades de eventos independentes ou somar probabilidades de eventos mutuamente exclusivos, dependendo do que o enunciado pede.</p>
+
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-top:8px;">
+<strong style="color:#fbbf24;">Nota</strong>
+<p style="color:#cbd5e1;margin-top:8px;">Algumas questões deste bucket são de geometria e combinatória pura (sem estatística formal) — mesmo estilo do tema Raciocínio Lógico. Vale revisar os dois temas juntos.</p>
+</div>`,
+    questoes: []
   }
 ];
