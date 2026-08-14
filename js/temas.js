@@ -6083,26 +6083,34 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Números Reais e Radicais</h3>
-<p>Comparar números com radicais (ex.: √2, √3, √4) exige elevar todos ao quadrado (ou à mesma potência) pra comparar sem ambiguidade — comparação "no olho" costuma enganar.</p>
+<p>Comparar números com radicais (ex.: √2, √3, √4) exige elevar todos ao quadrado (ou à mesma potência) pra comparar sem ambiguidade — comparação "no olho" costuma enganar, porque a diferença entre raízes próximas fica menor conforme o número cresce.</p>
+
+<h3>Inequações do Segundo Grau</h3>
+<p><strong>x² ≤ x</strong> — pra saber quando essa desigualdade vale, passa tudo pra um lado: x² − x ≤ 0 → x(x − 1) ≤ 0. Um produto de dois fatores é ≤ 0 quando os fatores têm sinais opostos (ou um deles é zero) — isso acontece no intervalo <strong>0 ≤ x ≤ 1</strong>. Fora desse intervalo (ex.: x = 2, ou x negativo), a desigualdade é <strong>falsa</strong>: em x = 2, x² = 4 > x = 2. Esse tipo de questão testa se você sabe resolver inequação fatorando, em vez de testar valor por valor.</p>
+
+<h3>Juros Compostos e Taxas de Crescimento</h3>
+<p>Quando um valor cresce por um percentual fixo <strong>a cada período</strong> (não um percentual fixo do valor original, mas sempre sobre o valor já atualizado), o crescimento é <strong>composto</strong>: valor final = valor inicial × (1 + k)ⁿ, onde k é a taxa por período (em decimal) e n é o número de períodos. Pra achar a taxa k conhecendo o valor inicial, o valor final e o número de períodos, isola-se k: (1 + k) = (valor final ÷ valor inicial)^(1/n). Exemplo: um artigo que custava R$ 13,91 passa a custar R$ 100,00 depois de 336 meses, com a mesma taxa mensal k em todos os meses → (1 + k) = (100 ÷ 13,91)^(1/336).</p>
 
 <h3>Razão, Proporção e Regra de Três</h3>
 <p><strong>Distribuição proporcional</strong> (ex.: dividir um valor total entre pessoas segundo uma tabela de critérios): monta-se a proporção entre as partes antes de calcular o valor de cada uma.</p>
-<p><strong>Correção monetária</strong>: comparar o poder de compra em datas diferentes é aplicar uma proporção entre o valor nominal e o valor corrigido.</p>
 
 <h3>Sistemas de Equações Lineares</h3>
-<p>Problemas com duas ou mais incógnitas (ex.: preço de dois produtos, pontuação em partidas) viram um sistema de equações — resolver por substituição ou por soma/subtração de equações.</p>
+<p>Problemas com duas ou mais incógnitas viram um sistema de equações — resolver por substituição ou por soma/subtração de equações.</p>
+<p><strong>Exemplo com preços</strong>: 1 kg de batata (b) + 1 kg de cebola (c) custam R$ 11,00; 3 kg de batata + 2 kg de cebola custam R$ 28,00. Do sistema b + c = 11 e 3b + 2c = 28: isolando c = 11 − b e substituindo, 3b + 2(11 − b) = 28 → b + 22 = 28 → b = 6 e c = 5. Com esses valores, dá pra responder qualquer combinação (ex.: 2 kg de batata + 1 kg de cebola = 2×6 + 5 = R$ 17,00).</p>
+<p><strong>Exemplo com informação sequencial</strong>: se a 2ª partida teve 410 pontos a mais que a 1ª, e a 3ª foi metade da 2ª, escreva tudo em função da 1ª partida (p1): p2 = p1 + 410, p3 = (p1 + 410) ÷ 2. Somando as três e igualando ao total dado, sobra uma equação só com p1 pra resolver.</p>
 
 <h3>Problemas de Movimento</h3>
-<p><strong>Velocidade, tempo e distância</strong> (v = d/t): quando o mesmo percurso é feito duas vezes em velocidades diferentes, a distância é a mesma nos dois trajetos — usar essa igualdade pra montar a equação.</p>
+<p><strong>Velocidade, tempo e distância</strong> (v = d/t): quando o mesmo percurso é feito duas vezes em velocidades diferentes, a distância é a mesma nos dois trajetos — usar essa igualdade pra montar a equação. Exemplo: ida a 80 km/h levou t horas; volta pelo mesmo percurso a 100 km/h levou (t − 0,5) horas (30 min a menos). Como a distância é igual: 80t = 100(t − 0,5) → 80t = 100t − 50 → 20t = 50 → t = 2,5h = 2h30min.</p>
 
 <h3>Problemas de Trabalho Conjunto (Torneiras/Vazão)</h3>
-<p>Quando vários agentes (torneiras, trabalhadores, máquinas) trabalham juntos, soma-se a <strong>taxa de trabalho</strong> de cada um (fração do total por unidade de tempo), não o tempo diretamente.</p>
+<p>Quando vários agentes (torneiras, trabalhadores, máquinas) trabalham juntos, soma-se a <strong>taxa de trabalho</strong> de cada um (fração do total por unidade de tempo), não o tempo diretamente. Exemplo: 3 torneiras iguais enchem um tanque de 180 m³ em 8h → vazão total = 180 ÷ 8 = 22,5 m³/h → vazão de 1 torneira = 7,5 m³/h. Com 5 torneiras, a vazão total sobe pra 37,5 m³/h, e o tempo pra encher um tanque de x m³ é y = x ÷ 37,5 (que pode aparecer escrito como uma fração equivalente, como 2x/75).</p>
 
 <h3>Geometria Básica</h3>
-<p><strong>Teorema de Pitágoras</strong> (hipotenusa² = cateto₁² + cateto₂²): usado pra achar o lado que falta num triângulo retângulo; a área do triângulo retângulo é (cateto × cateto) ÷ 2.</p>
+<p><strong>Teorema de Pitágoras</strong> (hipotenusa² = cateto₁² + cateto₂²): usado pra achar o lado que falta num triângulo retângulo; a área do triângulo retângulo é (cateto × cateto) ÷ 2. Exemplo: hipotenusa = 20 cm, um cateto = 12 cm → outro cateto = √(20² − 12²) = √(400 − 144) = √256 = 16 cm → área = (12 × 16) ÷ 2 = 96 cm².</p>
 
 <h3>Estatística Descritiva Básica</h3>
-<p>Distribuição de notas/frequências: comparar turmas ou grupos pela média, mediana ou pela forma da distribuição (quantas nota iguais, etc.) — mesmo tipo de raciocínio do tema Estatística, em versão mais simples.</p>`,
+<p>Distribuição de notas/frequências: comparar turmas ou grupos pela média, mediana ou pela forma da distribuição.</p>
+<p><strong>Desvio padrão zero</strong>: o desvio padrão mede o quanto os valores se espalham em torno da média — se <strong>todos os valores de um grupo são iguais</strong> (ex.: uma turma inteira tirou a mesma nota), não há dispersão nenhuma, e o desvio padrão é exatamente <strong>zero</strong>. É o único jeito de zerar o desvio padrão: não basta a média ser um número "redondo", é preciso ausência total de variação entre os valores.</p>`,
     questoes: []
   },
   {
