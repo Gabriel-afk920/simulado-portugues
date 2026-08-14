@@ -1,5 +1,5 @@
 // Gerado automaticamente por exportar_app.js — não editar manualmente
-// 13/08/2026, 20:11:14 — 7556 questões incluídas
+// 13/08/2026, 21:49:19 — 7493 questões incluídas
 
 var QUESTOES_BANCO = {
   novosTemas: {
@@ -60,11 +60,29 @@ var QUESTOES_BANCO = {
       "desc": "Questões gerais de Raciocínio Lógico",
       "materia": "raciocinio_logico"
     },
-    "conhecimentos_especificos_geral": {
-      "nome": "CONHECIMENTOS ESPECÍFICOS",
+    "contabilidade_geral_e_publica_geral": {
+      "nome": "Contabilidade Geral e Pública",
       "icon": "📚",
-      "desc": "Questões gerais de CONHECIMENTOS ESPECÍFICOS",
-      "materia": "conhecimentos_especificos"
+      "desc": "Questões gerais de Contabilidade Geral e Pública",
+      "materia": "contabilidade_geral_e_publica"
+    },
+    "administracao_geral_e_publica_geral": {
+      "nome": "Administração Geral e Pública",
+      "icon": "📚",
+      "desc": "Questões gerais de Administração Geral e Pública",
+      "materia": "administracao_geral_e_publica"
+    },
+    "gestao_de_recursos_materiais_e_patrimoniais_geral": {
+      "nome": "Gestão de Recursos Materiais e Patrimoniais",
+      "icon": "📚",
+      "desc": "Questões gerais de Gestão de Recursos Materiais e Patrimoniais",
+      "materia": "gestao_de_recursos_materiais_e_patrimoniais"
+    },
+    "informatica_geral": {
+      "nome": "Informática",
+      "icon": "📚",
+      "desc": "Questões gerais de Informática",
+      "materia": "informatica"
     },
     "conhecimentos_gerais_geral": {
       "nome": "CONHECIMENTOS GERAIS",
@@ -77,18 +95,6 @@ var QUESTOES_BANCO = {
       "icon": "📚",
       "desc": "Questões gerais de Estatística",
       "materia": "estatistica"
-    },
-    "contabilidade_geral_e_publica_geral": {
-      "nome": "Contabilidade Geral e Pública",
-      "icon": "📚",
-      "desc": "Questões gerais de Contabilidade Geral e Pública",
-      "materia": "contabilidade_geral_e_publica"
-    },
-    "administracao_geral_e_publica_geral": {
-      "nome": "Administração Geral e Pública",
-      "icon": "📚",
-      "desc": "Questões gerais de Administração Geral e Pública",
-      "materia": "administracao_geral_e_publica"
     },
     "administracao_geral_geral": {
       "nome": "Administração Geral",
@@ -150499,6 +150505,48 @@ var QUESTOES_BANCO = {
                       "nocoes_de_direito_geral"
                 ],
                 "imagens": null
+          },
+          {
+                "enunciado": "De acordo com o Art. 144 da Constituição Federal, a segurança pública é uma obrigação do Estado, porém direito e responsabilidade de todos. Ela deve ser exercida para a preservação da ordem pública, da incolumidade das pessoas e do patrimônio. Dentre os diversos organismos de segurança pública, são responsáveis pela apuração das infrações penais de interesse da União e dos entes federados, respectivamente,",
+                "opcoes": [
+                      "Agência Brasileira de Inteligência e Polícias Civis.",
+                      "Polícias Civis e Polícias Militares.",
+                      "Polícias Civis e Força Nacional de Segurança.",
+                      "Departamento de Policia Federal e Agência Brasileira de Inteligência.",
+                      "Departamento de Polícia Federal e Polícias Civis."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Departamento de Polícia Federal e Polícias Civis.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Constituição Federal de 1988, em seu Art. 5 , estabelece os direitos e deveres individuais do cidadão: “Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residen- tes no país, a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.” Tendo como base este artigo da Constituição, pode-se afirmar que I - qualquer pessoa, detida pela segurança, deverá ser imediatamente entregue aos órgãos policiais, não podendo ser submetida a nenhum tipo de maltrato ou humilhação; II - a prática de racismo constitui crime inafiançável e somente será tolerada em comunidades de imigran- tes, em cuja cultura essa prática seja permitida; III - um suspeito, ao ser detido, poderá solicitar a identifi- cação de seus detentores; contudo, os vigilan- tes não são obrigados a fazê-la; IV - um meliante, ao ser detido pela segurança de uma instituição, deverá ser informado de seus direitos, inclusive o de permanecer calado, se assim o desejar; V - a prática de tortura contra presos, com o fim de obtenção de informações ou confissão, será consi- derada crime inafiançável, por ela respondendo não só os executantes, mas também os mandantes e os que, tendo conhecimento e podendo evitá-la, se omitiram. Estão corretas APENAS as afirmações",
+                "opcoes": [
+                      "I e III.",
+                      "I, IV e V.",
+                      "II, III e IV.",
+                      "II, III e V.",
+                      "II, IV e V."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: nocoes_de_direito_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "nocoes_de_direito_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "nocoes_de_direito_geral"
+                ],
+                "imagens": null
           }
     ],
     "raciocinio_logico_geral": [
@@ -150942,9 +150990,30 @@ var QUESTOES_BANCO = {
                       "raciocinio_logico_geral"
                 ],
                 "imagens": null
+          },
+          {
+                "enunciado": "Várias canetas coloridas estão sobre a mesa, algumas dentro do estojo e outras fora dele. Todas as canetas azuis estão sem tampa e sem tinta. Todas as canetas vermelhas estão sem tampa ou sem tinta. Todas as canetas que estão dentro do estojo estão com tinta.Todas as canetas verdes estão sem tampa, e todas as canetas roxas estão com tampa. Todas as canetas laranja estão sem tinta. Considerando-se que uma caneta com tampa é escolhida de dentro do estojo, qual é a cor da caneta?",
+                "opcoes": [
+                      "azul",
+                      "vermelha",
+                      "verde 16",
+                      "laranja",
+                      "roxa"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>roxa</strong>. Fonte: CESGRANRIO/2023. Assunto: raciocinio_logico_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "raciocinio_logico_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "raciocinio_logico_geral"
+                ],
+                "imagens": null
           }
     ],
-    "conhecimentos_especificos_geral": [
+    "contabilidade_geral_e_publica_geral": [
           {
                 "enunciado": "A Cia. Minas Gerais S/A adquiriu uma mina de ferro em 31/03/2008 por R$ 2.000.000,00. A mina tem capacidade estimada para produzir 250.000 toneladas de ferro. A exaustão será calculada com base nas toneladas de ferro extraídas da mina, levando em consideração o custo por tonelada. Entre 01/04/2008 e 31/12/2008, a companhia retirou, em média, 2.000 toneladas por mês. No final do exercício de 2008, encerrado em 31/12, proce- deu ao registro contábil da exaustão. Considerando exclusivamente as informações acima, o registro contábil de diário (sem data e histórico) da apura- ção da exaustão referente ao exercício de 2008 da Com- panhia Minas Gerais S/A, em reais, será",
                 "opcoes": [
@@ -150955,14 +151024,14 @@ var QUESTOES_BANCO = {
                       "D: Capacidade Instalada C: Exaustão acumulada 192.000,00"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>D: Estoque de Ferro C: Exaustão acumulada 144.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>D: Estoque de Ferro C: Exaustão acumulada 144.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -150976,14 +151045,14 @@ var QUESTOES_BANCO = {
                       "2.500,00 e 100,00 11"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>7.000,00 e 5.100,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>7.000,00 e 5.100,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -150997,14 +151066,14 @@ var QUESTOES_BANCO = {
                       "D: Provisão para ajuste de estoque ao valor de mercado C: Receita com ajuste de estoque ao valor de mercado 1.825,00"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>D: Despesas com ajuste de estoque ao valor de mercado C: Provisão para ajuste de estoque ao valor de mercado 1.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>D: Despesas com ajuste de estoque ao valor de mercado C: Provisão para ajuste de estoque ao valor de mercado 1.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151018,14 +151087,14 @@ var QUESTOES_BANCO = {
                       "receitas de exercícios futuros menos custos e despe- sas correspondentes e ajustes patrimoniais."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>produto da alienação de partes beneficiárias e bônus de subscrição.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>produto da alienação de partes beneficiárias e bônus de subscrição.</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151039,14 +151108,14 @@ var QUESTOES_BANCO = {
                       "direitos autorais, veículos, peças e conjuntos de repo- sição e direitos de franquia."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>móveis e utensílios, instalações, obras civis e equipa- mentos de processamento de dados.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>móveis e utensílios, instalações, obras civis e equipa- mentos de processamento de dados.</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151060,14 +151129,14 @@ var QUESTOES_BANCO = {
                       "500,00 12"
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>1.200,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>1.200,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151081,14 +151150,14 @@ var QUESTOES_BANCO = {
                       "D: Depreciação acumulada 105.000,00 D: Caixa 12.000,00 D: Prejuízo na venda de imobilizado 3.000,00 C: Máquinas e equipamentos 120.000,00"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>D: Depreciação acumulada 105.000,00 D: Caixa 12.000,00 D: Prejuízo na venda de imobilizado 3.000,00 C: Máquinas e equipamentos 120.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>D: Depreciação acumulada 105.000,00 D: Caixa 12.000,00 D: Prejuízo na venda de imobilizado 3.000,00 C: Máquinas e equipamentos 120.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151102,14 +151171,14 @@ var QUESTOES_BANCO = {
                       "25.500,00 Considere única e exclusivamente os dados apresentados abaixo para responder às questões de n Em 2008, a Dourada S/A, após a realização de todos os ajustes pertinentes, apresentou as seguintes informações, em mil reais, extraídas de seus livros contábeis, para a elaboração do balanço: Ações em tesouraria 1.146 Dividendos Adiantamentos a empregados 405 Financiamentos bancários de longo prazo Almoxarifado 276 Fornecedores Amortizações acumuladas 363 Imobilizado Aplicações financeiras / títulos CP 5.689 Impostos / Encargos a recuperar (360 dias) Aplicações financeiras resgate imediato 1.422 Intangível Caixa e bancos 605 Investimentos Capital a realizar 3.630 Obrigações tributárias e previdenciárias Capital subscrito 22.927 Participações Clientes 3.530 Provisão p/crédito difícil liquidação Contas a pagar 415 Provisão p/ contingências l. prazo Créditos a recuperar (2 anos) 2.491 Reserva legal Créditos em cobrança judicial l. prazo 442 Reservas de capital Depreciações acumuladas 15.218 Retenção de lucros Despesas do exercício seguinte 877 Salários e provisões a pagar"
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>19.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>19.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151123,14 +151192,14 @@ var QUESTOES_BANCO = {
                       "500,00"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>500,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>500,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151144,17 +151213,397 @@ var QUESTOES_BANCO = {
                       "222.500,00"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>236.250,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>236.250,00</strong>. Fonte: CESGRANRIO/2010. Assunto: contabilidade_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "contabilidade_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "contabilidade_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
+          {
+                "enunciado": "Uma entidade tinha seu modelo de negócios estruturado para a venda de terrenos. Em 01/01/X0, o seu estoque era de R$270.000, tendo a seguinte composição:  Terreno A: R$120.000  Terreno B: R$150.000. Em 31/01/X0, teve início um processo de melhorias na região onde os terrenos estão localizados. Por isso, a entidade decidiu retirar os terrenos de venda e mantê-los para valorização de capital a longo prazo, definindo mensurá-los pelo valor justo. Na data, o valor justo do Terreno A era de R$160.000 e o do Terreno B, de R$140.000. Assinale a opção que indica o efeito da mudança da intenção da administração nas demonstrações contábeis da entidade.",
+                "opcoes": [
+                      "Demonstração do Resultado do Exercício: +R$30.000.",
+                      "Demonstração das Mutações do Patrimônio Líquido: +R$30.000.",
+                      "Demonstração de Outros Resultados Abrangentes: +R$30.000.",
+                      "Demonstração do Resultado do Exercício: +R$40.000; Demonstração das Mutações do Patrimônio Líquido: –R$10.000.",
+                      "Demonstração das Mutações do Patrimônio Líquido: +R$40.000; Demonstração do Resultado do Exercício: –R$10.000."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Demonstração do Resultado do Exercício: +R$30.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 31/12/X0, uma sociedade empresária adquiriu, à vista, um terreno para ser utilizado em seus negócios por R$100.000. A sociedade empresária avalia ao fim de cada período de reporte se há alguma indicação de que os seus ativos possam ter sofrido desvalorização. Os valores recuperáveis em 31/12/X1, 31/12/X2 e 31/12/X3 foram, respectivamente, de R$90.000, R$80.000 e R$120.000. Assinale a opção que indica a contabilização relacionada à recuperabilidade do terreno na Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X3, de acordo com a NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos:",
+                "opcoes": [
+                      "Receita de R$20.000.",
+                      "Receita de R$40.000.",
+                      "Reversão de Despesa de R$20.000.",
+                      "Reversão de Despesa de R$30.000.",
+                      "Reversão de Despesa de R$40.000."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Receita de R$20.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 02/01/X1, uma entidade adquiriu computadores, para utilizar em sua área administrativa, por R$50.000, para pagamento em 31/12/X1. Se os computadores tivessem sido adquiridos à vista, o custo seria de R$45.000. O prazo de pagamento excede os prazos normais de crédito da entidade e o valor da compra é considerado material. A vida útil estimada dos computadores era de 5 anos. A entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. No ano de X1, a entidade contabilizou receita com a prestação de serviços de R$200.0000. Os custos com os serviços prestados foram de R$80.000. Além do lucro bruto de R$120.000, assinale a opção que indica os valores das contas apresentadas na Demonstração do Resultado do Exercício da entidade em 31/12/X1, sem considerar a incidência de impostos.",
+                "opcoes": [
+                      "Despesa de depreciação: R$9.000, apenas.",
+                      "Despesa de depreciação: R$10.000, apenas.",
+                      "Despesa de depreciação: R$9.000 e Despesa financeira:",
+                      "Despesa de depreciação: R$10.000 e Despesa financeira:",
+                      "Despesa de depreciação: R$10.000 e Receita financeira:"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Despesa de depreciação: R$9.000 e Despesa financeira:</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com as modificações trazidas pelas Leis 11.638/07 e 11.941/09 no patrimônio líquido, a conta Ajustes de Avaliação Patrimonial representa as contrapartidas de aumentos ou diminuições de valor atribuído a elementos do ativo e do passivo, em decorrência de sua avaliação a valor justo. Os valores registrados nesta conta deverão ser transferidos para o resultado do exercício",
+                "opcoes": [
+                      "à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.",
+                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência ao regime de competência.",
+                      "à medida que os ativos e passivos forem sendo realizados, em obediência à característica qualitativa da tempestividade.",
+                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência à característica qualitativa da tempestividade.",
+                      "à medida que os ativos e os passivos forem sendo lançados em “Outros Resultados Abrangentes”, em obediência à característica qualitativa da tempestividade."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária apresentava os seguintes Balanços Patrimoniais em 31/12/X0 e em 31/12/X1, respectivamente: Já a Demonstração do Resultado do Exercício, em 31/12/X1, era a seguinte: Sobre a elaboração da Demonstração dos Fluxos de Caixa pelo método indireto em 31/12/X1, analise as afirmativas a seguir: I. Os montantes das contas “salários a pagar” e “imposto de renda a pagar” foram adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. II. Os montantes das contas “estoques” e “clientes” foram, respectivamente, excluídos e adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. III. No ano, o fluxo de caixa consumido pela atividade operacional foi de R$25.000. IV. No ano, o fluxo de caixa gerado pela atividade de investimento foi superior ao obtido nas atividades de financiamento. Em relação à elaboração da Demonstração dos Fluxos de Caixa da entidade em 31/12/X1, estão corretas as afirmativas",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I e III, apenas.",
+                      "II e IV, apenas.",
+                      "I, II e III, apenas.",
+                      "I, III e IV, apenas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a NBC TG 27(R4) – Ativo Imobilizado, as demonstrações contábeis devem, obrigatoriamente, divulgar",
+                "opcoes": [
+                      "o valor contábil do ativo imobilizado que esteja temporariamente ocioso.",
+                      "o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.",
+                      "o valor contábil de ativos imobilizados retirados de uso ativo e não classificados como mantidos para venda.",
+                      "o valor contábil bruto de qualquer ativo imobilizado totalmente depreciado que ainda esteja em operação.",
+                      "o valor justo do ativo imobilizado quando este for materialmente diferente do valor contábil apurado pelo método do custo. Balanço Patrimonial- 31/12/X0: Ativo Circulante Patrimônio Líquido Caixa 50.000 Capital Social 70.000 Estoques 20.000 Total do Ativo 70.000 Passivo + PL 70.000 Balanço Patrimonial- 31/12/X1: Ativo Circulante Passivo Circulante Caixa 25.000 Salários a pagar 15.000 Clientes 90.000 IR a pagar 4.080 PECLD -18.000 Patrimônio Líquido Capital Social 70.000 Reserva de Lucros 7.920 Total do Ativo 97.000 Passivo + PL 97.000 Demonstração do Resultado do Exercício- 31/12/X1: Receita de Vendas \t90.000 Custo das Mercadorias vendidas \t-20.000 Lucro Bruto \t70.000 Despesas Operacionais Despesa de Salários \t-15.000 Despesas com Perdas estimadas com crédito de liquidação duvidosa -18.000 Despesas de Aluguel \t-25.000 Lucro antes do Imposto de Renda e Contribuição Social \t12.000 Imposto de Renda e Contribuição Social \t-4.080 Lucro Líquido \t7.920"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária apresentava os seguintes ativos em seu Balanço Patrimonial, em 31/12/X0:  Caixa: R$200.000;  Terreno mantido para futuro uso correntemente indeterminado: R$70.000;  Edifício arrendado para terceiros sob arrendamento operacional: R$120.000;  Edifício desocupado, mantido para ser arrendado para terceiros sob arrendamento operacional: R$140.000;  Propriedade em construção para futura utilização como propriedade para investimento: R$150.000. Assinale a opção que indica o saldo da conta Propriedade para Investimento no Balanço Patrimonial da sociedade empresária na data.",
+                "opcoes": [
+                      "R$150.000.",
+                      "R$220.000.",
+                      "R$260.000.",
+                      "R$410.000.",
+                      "R$480.000."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>R$480.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Lei nº 11.941/09 trouxe alterações em relação à Lei nº 6.404/76, que estão alinhadas com o texto da NBC TG 18 (R3) – Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto. Com base na norma contábil, são coligadas as sociedades nas quais a investidora tem influência significativa. Considera-se que há efetivamente influência significativa quando",
+                "opcoes": [
+                      "a investidora considera relevante o investimento na coligada.",
+                      "a investidora exerce controle por meio de uma subsidiária integral.",
+                      "o valor contábil do investimento é igual a 10% do valor do patrimônio líquido da investidora.",
+                      "a investidora é titular de, no mínimo, 15% das ações preferenciais do capital da investida.",
+                      "a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na contabilização do estoque de uma entidade do setor industrial, os gastos com armazenamento foram incluídos no valor dos estoques, reconhecidos no ativo. Em relação a esses gastos, pode-se afirmar que",
+                "opcoes": [
+                      "foram pagos à vista.",
+                      "seu montante é considerado material, frente ao custo das mercadorias.",
+                      "foram incorridos para trazer os estoques à sua condição e localização atuais.",
+                      "foram necessários ao processo produtivo entre uma e outra fase de produção.",
+                      "deverão ser amortizados mensalmente, com base na vida útil estimada do estoque."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>foram necessários ao processo produtivo entre uma e outra fase de produção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O custo dos estoques de bens ou serviços produzidos e segregados para projetos específicos deve ser atribuído pelo uso",
+                "opcoes": [
+                      "do custo médio ponderado fixo.",
+                      "do custo médio ponderado móvel.",
+                      "do último que entra, primeiro que sai.",
+                      "do primeiro que entra, primeiro que sai.",
+                      "da identificação específica dos custos individuais."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>da identificação específica dos custos individuais.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade que trabalha com auditoria contábil adquiriu, em 01/01/X1, por R$700.000 à vista, um imóvel para ser utilizado como sede. A vida útil do imóvel era estimada em 25 anos e não era considerado valor residual. Além disso, a entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta. Em 31/12/X3, o imóvel foi colocado para à venda. Na data, o ativo estava disponível para venda imediata e o nível hierárquico de gestão estava comprometido com o plano de venda do ativo, tendo iniciado um programa para localizar um comprador. Além disso, o valor justo do imóvel, líquido das despesas de venda, foi avaliado em R$720.000. Em 31/12/X4, o imóvel foi vendido por R$750.000 à vista. Assinale a opção que indica o resultado obtido com venda do imóvel, contabilizado na Demonstração do Resultado do Exercício da entidade em 31/12/X4.",
+                "opcoes": [
+                      "R$30.000.",
+                      "R$50.000.",
+                      "R$62.727.",
+                      "R$134.000.",
+                      "R$162.000."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>R$134.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma sociedade empresária efetuou a captação de debêntures de longo prazo no mercado financeiro, com prêmio. No ano de X1, foi efetuado o pagamento dos juros e realizada a amortização periódica do prêmio recebido. Assinale a opção que indica a apresentação do efeito da apropriação do prêmio das debêntures na estrutura de grupos da Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X1.",
+                "opcoes": [
+                      "Despesa Financeira.",
+                      "Receita Financeira.",
+                      "Outras receitas Operacionais.",
+                      "Retificação da Receita Financeira.",
+                      "Prêmios na emissão de debêntures a apropriar."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>Despesa Financeira.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade do setor público possui participação permanente em outra entidade. A participação é avaliada de acordo com o custo de aquisição. A entidade investidora deve reconhecer o rendimento relacionado à entidade investida quando",
+                "opcoes": [
+                      "receber as distribuições de lucros, apenas.",
+                      "a entidade investida reconhecer lucro, apenas.",
+                      "as duas entidades realizarem operações entre si, apenas.",
+                      "a entidade investida reconhecer lucro ou prejuízo, apenas.",
+                      "receber as distribuições de lucros e a entidade investida reconhecer lucro, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>receber as distribuições de lucros, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade do setor público realizou transações em moeda estrangeira. Em sua Demonstração dos Fluxos de Caixa, o efeito das mudanças nas taxas cambiais sobre o caixa e equivalentes de caixa, mantidos ou devidos em moeda estrangeira, deve ser apresentado",
+                "opcoes": [
+                      "como atividade operacional.",
+                      "como atividade de investimento.",
+                      "como atividade de financiamento.",
+                      "como caixa e equivalente de caixa.",
+                      "separadamente dos fluxos de caixa das três atividades."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>separadamente dos fluxos de caixa das três atividades.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Em 31/12/X0, uma sociedade empresária apresentava o seguinte balanço patrimonial: As vidas úteis estimadas dos móveis e dos computadores eram, respectivamente, de 10 anos e de 5 anos. A sociedade empresária depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. Em 31/12/X1, a sociedade empresária realizou um teste de recuperabilidade de seus ativos imobilizados. No teste, ela constatou que os móveis apresentavam valor justo de R$85.000, sendo que as despesas com a sua remoção eram estimadas em R$12.000, e as despesas associadas à reorganização do negócio após à venda eram estimadas em R$4.000. Por sua vez, o valor em uso dos móveis era estimado em R$70.000. Por sua vez, os computadores apresentavam valor justo de R$32.000, sendo que os gastos diretos incrementais para deixá-los em condição de venda eram de R$5.000. O valor em uso dos computadores era estimado em R$28.000. Assinale a opção que indica os valores contabilizados como perda por desvalorização dos móveis e dos computadores, respectivamente.",
+                "opcoes": [
+                      "zero e zero.",
+                      "R$9.000 e R$2.000.",
+                      "R$9.000 e R$3.000.",
+                      "zero e R$3.000.",
+                      "R$13.000 e R$2.000. Ativo Circulante \t45.000 Caixa \t45.000 Ativo não Circulante Ativo Imobilizado \t130.000 Patrimônio Líquido Móveis \t100.000 Capital Social \t175.000 Depreciação Acumulada -8.000 Computadores \t40.000 Depreciação Acumulada -2.000 Ativo Total \t175.000 Passivo + PL \t175.000"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>R$9.000 e R$2.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade que presta serviços de consultoria contabilizou as seguintes transações no ano de X0: Receita de serviços: R$500.000 Receita com a venda de ativo imobilizado: R$80.000 Receita com aluguel de imóvel a terceiros: R$15.000 Receita com variação cambial ativa: R$14.000 Receita com direito de franquia: R$6.000 Custo dos serviços prestados: R$160.000 Custo do ativo imobilizado vendido: R$60.000 Despesa de salários de funcionários administrativos: R$50.000 Despesa com serviços de contabilidade terceirizada: R$30.000 Despesa com assistência médica a funcionários: R$25.000 Despesa com alimentação de funcionários: R$42.000 Despesa de depreciação dos ativos imobilizados usados para a prestação dos serviços: R$18.000 Despesa com aluguel da sede da empresa: R$36.000 Despesa com juros: R$12.000 Incidência de 34% do lucro líquido a título de imposto de renda e contribuição social Distribuição de 30% do lucro após o imposto de renda e contribuição social aos acionistas Todas as receitas são tributáveis, e as despesas, dedutíveis. Além disso, a constituição da reserva legal não foi necessária. Em relação à Demonstração do Valor Adicionado da entidade, analise as afirmações a seguir. I. Valor adicionado recebido em transferência: R$21.000. II. Valor adicionado a distribuir a pessoal: R$75.000. III. Valor adicionado a distribuir a impostos, taxas e contribuições: R$61.880. IV. Valor adicionado a distribuir a remuneração de capitais próprios: R$36.036. V. Valor adicionado a distribuir a remuneração de capitais de terceiros: R$48.000.",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "III e IV, apenas.",
+                      "III e V, apenas.",
+                      "I, III e V, apenas.",
+                      "II, IV e V, apenas."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>III e V, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma entidade vende canetas personalizadas. Em 01/01/X0, não havia estoque. Em 02/01/X0, ela adquiriu 500 unidades de canetas para personalização e venda por R$6.000, para pagamento em 3 meses. Se as canetas tivessem sido adquiridas à vista, o custo unitário seria de R$10,00. Na data da aquisição, a entidade incorreu em gastos com frete e seguro, respectivamente, de R$800 e R$700. Para a personalização das 500 canetas são gastos R$1.000 em material. Além disso, é utilizada uma máquina que foi adquirida por R$10.000 e tem capacidade estimada em 5.000 canetas. A máquina é depreciada de acordo com o método dos benefícios gerados e a entidade não considera valor residual. Ainda, os gastos com o armazenamento das 500 canetas prontas eram de R$1.500. Após prontas, 50 canetas foram descartadas, por estarem com qualidade inferior ao esperado. Em 31/01/X0, as canetas foram colocadas à venda por R$20,00. A entidade destina aos vendedores uma comissão de 10% sobre o preço de venda. Assinale a opção que indica o valor contabilizado como estoque em 31/01/X0.",
+                "opcoes": [
+                      "R$5.850.",
+                      "R$6.750.",
+                      "R$7.650.",
+                      "R$8.100.",
+                      "R$9.000."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>R$7.650.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "De acordo com a NBC TA Estrutura Conceitual – Estrutura Conceitual para Trabalhos de Asseguração, a confiabilidade da evidência é influenciada por sua fonte e sua natureza e depende das circunstâncias particulares sob as quais são obtidas. Assinale a opção que, de um modo geral, indica quando a generalização sobre a confiabilidade da evidência pode ser feita.",
+                "opcoes": [
+                      "A evidência é mais confiável quando é obtida por meio de fontes internas às partes apropriadas.",
+                      "A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.",
+                      "A evidência gerada pela representação verbal do que foi debatido é mais confiável do que a evidência em papel.",
+                      "A evidência obtida indiretamente por dedução é mais confiável do que a evidência obtida diretamente pelo auditor independente.",
+                      "A evidência gerada por auditor independente que realiza o trabalho pela primeira vez é mais confiável do que a evidência gerada por auditor independente antigo."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "contabilidade_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "contabilidade_geral_e_publica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "administracao_geral_e_publica_geral": [
           {
                 "enunciado": "A qualidade de uma organização é determinada em grande parte pela competência das pessoas que ela emprega. Assim sendo, diante das novas demandas por recursos humanos advindas da automação dos negócios, a gestão de pessoas deve",
                 "opcoes": [
@@ -151165,14 +151614,14 @@ var QUESTOES_BANCO = {
                       "atribuir ao gerente de cada equipe, como um líder au- têntico, a missão de ajudar a construir a competência e a motivação de seu grupo, fazendo, com que o De- partamento de Recursos Humanos perca a sua finali- dade e a sua posição na organização. 14"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>ser vista como a gestão de uma relação com pessoas com as quais não se mantém mera relação contratual, e sim, uma parceria, um processo contínuo de compartilhamento de responsabilidades.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>ser vista como a gestão de uma relação com pessoas com as quais não se mantém mera relação contratual, e sim, uma parceria, um processo contínuo de compartilhamento de responsabilidades.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151186,14 +151635,14 @@ var QUESTOES_BANCO = {
                       "dá uma oportunidade a maiores discernimentos quanto às diferenças entre os candidatos, permitindo que as informações negativas não recebam um peso indevidamente alto."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>se limita a perguntas relevantes que funcionam como previsores eficazes de desempenho e melhoram a confiabilidade do processo de entrevistar.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>se limita a perguntas relevantes que funcionam como previsores eficazes de desempenho e melhoram a confiabilidade do processo de entrevistar.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151207,14 +151656,14 @@ var QUESTOES_BANCO = {
                       "III e IV."
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>I, II, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>I, II, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151228,14 +151677,14 @@ var QUESTOES_BANCO = {
                       "mudança fundamental no mercado da educação global."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>mudança fundamental no mercado da educação global.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>mudança fundamental no mercado da educação global.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151249,14 +151698,14 @@ var QUESTOES_BANCO = {
                       "concepção de crescimento em termos de status na organização e em termos de remuneração, singular- mente para aqueles que possuem o perfil para assu- mir posições gerenciais. 15"
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>integração com os demais programas de Recursos Hu- manos: avaliação, treinamento e recrutamento interno, possibilitando o desenvolvimento do profissional e, consequentemente, sua melhor integração na empresa.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>integração com os demais programas de Recursos Hu- manos: avaliação, treinamento e recrutamento interno, possibilitando o desenvolvimento do profissional e, consequentemente, sua melhor integração na empresa.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151270,14 +151719,14 @@ var QUESTOES_BANCO = {
                       "efeito halo e efeito recenticidade."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>efeito halo e efeito recenticidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>efeito halo e efeito recenticidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151291,14 +151740,14 @@ var QUESTOES_BANCO = {
                       "Comparação aos pares - é um processo simples e pouco eficiente, que compara dois a dois empregados de cada vez, permitindo o registro daquele que é considerado melhor quanto ao desempenho."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>Escolha forçada - consiste em avaliar o desempenho dos indivíduos por intermédio de frases descritivas de alternativas de tipos de desempenho individual, pro- porcionando resultados confiáveis e isentos de influ- ências subjetivas e pessoais, mas de aplicação com- plexa, pois exige preparo prévio dos avaliadores.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Escolha forçada - consiste em avaliar o desempenho dos indivíduos por intermédio de frases descritivas de alternativas de tipos de desempenho individual, pro- porcionando resultados confiáveis e isentos de influ- ências subjetivas e pessoais, mas de aplicação com- plexa, pois exige preparo prévio dos avaliadores.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151312,14 +151761,14 @@ var QUESTOES_BANCO = {
                       "pensa, escolhe, percebe e avalia, ou seja, o comporta- mento humano é proposital, pró-ativo, cognitivamente ativo, e a experiência do indivíduo com o seu ambiente é um processo ativo."
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>tem ilimitada capacidade de resposta, ou seja, as pessoas são capazes de se comportar de todas as formas, pois suas características pessoais são ilimita- das e irrestritas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>tem ilimitada capacidade de resposta, ou seja, as pessoas são capazes de se comportar de todas as formas, pois suas características pessoais são ilimita- das e irrestritas.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151333,14 +151782,14 @@ var QUESTOES_BANCO = {
                       "Toda ação disciplinar deve variar de acordo com a situação. 16"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>A ação disciplinar deve ser imediata, consistente, pessoal e informativa.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>A ação disciplinar deve ser imediata, consistente, pessoal e informativa.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151354,14 +151803,14 @@ var QUESTOES_BANCO = {
                       "Cadeia - indicada porque segue rigidamente a cadeia formal de comando, diferente do tipo roda que depen- de do líder para agir, e do círculo, em que todos os membros do grupo têm liberdade para contribuir."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Cadeia - indicada porque segue rigidamente a cadeia formal de comando, diferente do tipo roda que depen- de do líder para agir, e do círculo, em que todos os membros do grupo têm liberdade para contribuir.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Cadeia - indicada porque segue rigidamente a cadeia formal de comando, diferente do tipo roda que depen- de do líder para agir, e do círculo, em que todos os membros do grupo têm liberdade para contribuir.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151375,14 +151824,14 @@ var QUESTOES_BANCO = {
                       "estabelecer um modelo de filtragem permitindo que os receptores do processo de comunicação vejam e escutem seletivamente, com base nas suas necessi- dades, motivações e características pessoais."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>escrever um memorando em que, de forma tangível e verificável, tanto para o emissor quanto para o recep- tor, seria possível o registro da mensagem que foi cui- dadosamente redigida.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>escrever um memorando em que, de forma tangível e verificável, tanto para o emissor quanto para o recep- tor, seria possível o registro da mensagem que foi cui- dadosamente redigida.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151396,14 +151845,14 @@ var QUESTOES_BANCO = {
                       "III e IV."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>I, II e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151417,203 +151866,14 @@ var QUESTOES_BANCO = {
                       "Nem sempre, já que para o grupo se tornar uma equipe é necessário existirem características especiais em termos de afinidade, sentido de missão e trabalho cooperativo. 17"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Nem sempre, já que para o grupo se tornar uma equipe é necessário existirem características especiais em termos de afinidade, sentido de missão e trabalho cooperativo. 17</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Nem sempre, já que para o grupo se tornar uma equipe é necessário existirem características especiais em termos de afinidade, sentido de missão e trabalho cooperativo. 17</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Com relação ao conceito de bem na gestão de recursos e patrimonial da administração pública, afirma-se que I - o conceito de bem está relacionado à utilidade, à quantidade e a um valor econômico ou riqueza; II - os bens são susceptíveis de apropriação, direitos e obrigações podendo ser designados como patrimônio; III - a gestão do patrimônio imobiliário inclui os bens imó- veis e os bens não consumíveis; IV - a gestão do patrimônio mobiliário permanente inclui os bens móveis e os bens consumíveis. Estão corretas as afirmações",
-                "opcoes": [
-                      "I e II, apenas.",
-                      "I, III e IV, apenas.",
-                      "I, II, III e IV.",
-                      "II e III, apenas.",
-                      "III e IV, apenas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O departamento de administração de materiais de uma empresa recebeu 5.000 requisições no ano de 2009, sendo que cada requisição teve uma média de 1,8 itens. Sabendo que 7.650 itens foram entregues dentro do pra- zo, qual foi o nível de serviço de atendimento do departa- mento, em percentual? (Obs: use arredondamento para uma casa decimal)",
-                "opcoes": [
-                      "90,0%",
-                      "85,0%",
-                      "80,0%",
-                      "65,4%",
-                      "55,5%"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>85,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma empresa que usa o modelo de reposição contínua na gestão de estoques tem um consumo médio de um item em estoque de 1.000 unidades por mês e mantém um estoque de segurança de 100 unidades. Supondo que o prazo de entrega, após a colocação do pedido, é de 10 dias úteis, que as compras são feitas em lotes de 5.000, e considerando 20 dias úteis por mês, qual é a quantidade do ponto de pedido? Formulário: PP = (T x D) + ES lead time onde: PP: Ponto de Pedido T : tempo de lead time lead time D: Demanda ES: Estoque de segurança",
-                "opcoes": [
-                      "50",
-                      "500",
-                      "600",
-                      "1.000",
-                      "5.000"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>600</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Na gestão de estoques, o modelo de reposição periódica, também conhecido como modelo de estoque máximo, tem como característica",
-                "opcoes": [
-                      "obter um estoque de segurança menor que o modelo do lote padrão.",
-                      "ter um lote de compra padrão e igual ao Lote Econômico de Compra (LEC).",
-                      "ter um lote de compra variável e definido quando o nível do item atinge o ponto de pedido.",
-                      "manter constantes os intervalos de emissão dos pedidos de compra.",
-                      "definir o lote de compra com base em descontos por volume."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>manter constantes os intervalos de emissão dos pedidos de compra.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Todo bem patrimonial sofre desgaste com a sua utilização, sendo necessárias ações para que ele se mantenha operacional até o fim de sua vida útil. A vida econômica de um bem é o período de tempo em que o bem consegue exercer suas funções até o momento em que o",
-                "opcoes": [
-                      "valor contábil é menor que a soma do custo operacional com o de manutenção.",
-                      "valor de revenda do bem menos o valor residual da depreciação é mínimo.",
-                      "valor de revenda ultrapassa o valor depreciado.",
-                      "custo operacional é menor que o custo residual.",
-                      "Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Os itens classe A são",
-                "opcoes": [
-                      "7 e 8.",
-                      "3 e 6.",
-                      "2, 3 e 6.",
-                      "3, 4 e 10.",
-                      "1, 6, 7 e 8."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>3 e 6.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Qual das seguintes correlações entre o item e a sua classe é válida?",
-                "opcoes": [
-                      "1, B.",
-                      "3, C.",
-                      "5, C.",
-                      "7, B.",
-                      "9, B."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>1, B.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Após o término do inventário físico dos itens em estoque, deve-se calcular um índice representativo da acurácia dos controles de movimentação de materiais da empresa. Con- siderando que foram inventariados 10.000 itens e encon- trados 1.200 itens com divergências, o índice de acurácia desse estoque é de",
-                "opcoes": [
-                      "12,0%",
-                      "13,6%",
-                      "76,0%",
-                      "88,0%",
-                      "94,0%"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>88,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Valor de compra R$ 500.000,00 Vida útil 25 anos Valor residual R$ 50.000,00 Considerando o método de depreciação linear e as caracte- rísticas do bem patrimonial apresentados na tabela acima, quais são a depreciação acumulada e o valor residual do bem patrimonial ao final do seu quarto ano de utilização? Depreciação acumulada Valor residual (R$) (R$)",
-                "opcoes": [
-                      "30.000,00 420.000,00",
-                      "36.000,00 464.000,00",
-                      "48.000,00 402.000,00",
-                      "72.000,00 428.000,00",
-                      "80.000,00 420.000,00"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>72.000,00 428.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151627,14 +151887,14 @@ var QUESTOES_BANCO = {
                       "III."
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral",
+                      "administracao_geral_e_publica_geral",
                       "ortografia"
                 ],
                 "imagens": null
@@ -151649,14 +151909,14 @@ var QUESTOES_BANCO = {
                       "Automático."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>Ideográfico.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Ideográfico.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151670,14 +151930,14 @@ var QUESTOES_BANCO = {
                       "1,2,4,3,5 19"
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>5,2,4,3,1</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>5,2,4,3,1</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151691,14 +151951,14 @@ var QUESTOES_BANCO = {
                       "proteção ou sigilo."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>eliminação ou recolhimento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>eliminação ou recolhimento.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
@@ -151712,269 +151972,483 @@ var QUESTOES_BANCO = {
                       "III e IV."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>II e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>II e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: administracao_geral_e_publica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
           {
-                "enunciado": "Um funcionário que atua na área de atendimento ao público observou a presença de vítima de mal súbito, devendo oferecer a essa vítima os primeiros socorros, até a chegada do socorro especializado. Considere os procedimentos que ele poderá adotar: I - avaliar os riscos vigentes e iminentes; II - proteger-se contra possíveis contaminações; III - convocar a autoridade policial; IV - remover a vítima para local protegido; V - providenciar o socorro especializado. Estão corretos APENAS os procedimentos",
+                "enunciado": "As informações levantadas durante a fase de iniciação de um projeto são condensadas e registradas em um único documento cujo objetivo é formalizar as necessidades do negócio, a compreensão das necessidades dos clientes e o novo produto (seja ele um bem ou um serviço) que será o resultado do projeto. Tal documento pode ser nomeado como",
                 "opcoes": [
-                      "I e III.",
-                      "I e IV.",
-                      "I, II e V.",
-                      "II, III e IV.",
-                      "II, III e V."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>I, II e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Um cliente, após longo tempo de espera na fila de aten- dimento bancário, vem a desmaiar, em virtude da prolongada permanência em pé, do estresse emocional ou do cansaço extremo. Dentre os sinais que indicam a ocorrência do desmaio citam-se",
-                "opcoes": [
-                      "coloração avermelhada da pele e alta pressão arterial.",
-                      "estado de inconsciência e taquicardia intensa.",
-                      "estado de inconsciência e baixa pressão arterial.",
-                      "extremidades do corpo frias e alta pressão arterial.",
-                      "taquicardia elevada e presença de suor intenso."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>estado de inconsciência e baixa pressão arterial.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Os extintores de Dióxido de Carbono (CO ) são compos- 2 tos por gases inertes, de baixa temperatura, ao passo que os extintores de Água Pressão (AP) são compostos por determinada quantidade de H O, pressurizada no cilindro. 2 Ambos podem ser utilizados no combate a pequenos focos de incêndios classe A, como vasilhames contendo lixo descartável (papéis). Assim utilizados, o foco de incêndio estará sendo combatido por",
-                "opcoes": [
-                      "abafamento e resfriamento.",
-                      "abafamento e confinamento.",
-                      "resfriamento e isolamento.",
-                      "isolamento e abafamento.",
-                      "isolamento e resfriamento. 12"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>abafamento e resfriamento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Estabelece o Art. 61 da Portaria 387/2006 que “os estabe- lecimentos financeiros que realizarem guarda de valores ou movimentação de numerário deverão possuir serviço orgânico de segurança, autorizado a executar vigilância patrimonial ou transporte de valores, ou contratar empresa especializada, devendo, em qualquer caso, possuir plano de segurança devidamente aprovado pelo DREX”. Esse plano de segurança deverá discriminar",
-                "opcoes": [
-                      "as características do anteparo blindado para perma- nência do vigilante, quando necessário, durante o expediente para o público, ou enquanto houver movi- mentação de numerário no interior do estabelecimento.",
-                      "a quantidade e a disposição dos vigilantes, adequadas às peculiaridades do estabelecimento, à sua localiza- ção, à área, às instalações e ao encaixe.",
-                      "os equipamentos usados para captar e gravar as imagens de toda a movimentação de público no interior do estabelecimento, as quais deverão permanecer armazenadas em meio eletrônico, por um período mínimo de 90 (noventa) dias.",
-                      "os tipos de armamento e munições empregados e os procedimentos adequados a cada tipo de ação.",
-                      "o sistema de comunicação, fixo e móvel, que permita, com rapidez e segurança, o contato entre os vigilantes na agência protegida."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>a quantidade e a disposição dos vigilantes, adequadas às peculiaridades do estabelecimento, à sua localiza- ção, à área, às instalações e ao encaixe.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com o Art. 144 da Constituição Federal, a segurança pública é uma obrigação do Estado, porém direito e responsabilidade de todos. Ela deve ser exercida para a preservação da ordem pública, da incolumidade das pessoas e do patrimônio. Dentre os diversos organismos de segurança pública, são responsáveis pela apuração das infrações penais de interesse da União e dos entes federados, respectivamente,",
-                "opcoes": [
-                      "Agência Brasileira de Inteligência e Polícias Civis.",
-                      "Polícias Civis e Polícias Militares.",
-                      "Polícias Civis e Força Nacional de Segurança.",
-                      "Departamento de Policia Federal e Agência Brasileira de Inteligência.",
-                      "Departamento de Polícia Federal e Polícias Civis."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>Departamento de Polícia Federal e Polícias Civis.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A Constituição Federal de 1988, em seu Art. 5 , estabelece os direitos e deveres individuais do cidadão: “Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residen- tes no país, a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.” Tendo como base este artigo da Constituição, pode-se afirmar que I - qualquer pessoa, detida pela segurança, deverá ser imediatamente entregue aos órgãos policiais, não podendo ser submetida a nenhum tipo de maltrato ou humilhação; II - a prática de racismo constitui crime inafiançável e somente será tolerada em comunidades de imigran- tes, em cuja cultura essa prática seja permitida; III - um suspeito, ao ser detido, poderá solicitar a identifi- cação de seus detentores; contudo, os vigilan- tes não são obrigados a fazê-la; IV - um meliante, ao ser detido pela segurança de uma instituição, deverá ser informado de seus direitos, inclusive o de permanecer calado, se assim o desejar; V - a prática de tortura contra presos, com o fim de obtenção de informações ou confissão, será consi- derada crime inafiançável, por ela respondendo não só os executantes, mas também os mandantes e os que, tendo conhecimento e podendo evitá-la, se omitiram. Estão corretas APENAS as afirmações",
-                "opcoes": [
-                      "I e III.",
-                      "I, IV e V.",
-                      "II, III e IV.",
-                      "II, III e V.",
-                      "II, IV e V."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I, IV e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Um vigilante bancário, contratado por empresa terceirizada, é desviado de suas funções pelo próprio cliente, que o incumbe de tarefas diversas das estabelecidas no plano de segurança. Nesse caso, de acordo com a legislação pertinente,",
-                "opcoes": [
-                      "a empresa de segurança deverá ser citada na ação de responsabilidade civil, se esse procedimento for previsto no contrato de prestação de serviços, no caso em questão.",
-                      "a empresa de segurança será responsável pelo pagamento de ações indenizatórias, se acionada e comprovado o ilícito.",
-                      "o vigilante assumirá as responsabilidades penal e civil pelas ações que possam ser geradas pelo desvio de função.",
-                      "o vigilante responderá penalmente, e o contratante do serviço será o responsável pelo pagamento de indenizações decorrentes.",
-                      "o contratante da empresa de segurança deverá identificar e acionar a pessoa responsável pelo desvio de função do vigilante. 13"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a empresa de segurança deverá ser citada na ação de responsabilidade civil, se esse procedimento for previsto no contrato de prestação de serviços, no caso em questão.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O contrato de prestação de serviços relativos à mão de obra, com repasse de responsabilidade a terceiros, é regulado pelo Código Civil Brasileiro e não pela Consolida- ção das Leis do Trabalho (CLT), tendo como embasamento legal o Enunciado n 331, do Tribunal Superior do Trabalho. A esse respeito, considere as DESVANTAGENS para as empresas, apresentadas a seguir. I - A empresa contratante responde pelos créditos trabalhistas, no caso de inadimplência da prestadora de serviços. II - A empresa terceirizada pode tornar-se concorrente da contratante, expandindo seus negócios numa atividade em que agora tem conhecimento. III - O custo de controle dos serviços terceirizados torna-se, progressivamente, maior. IV - Há maior risco de perder bons funcionários, por causa da rotatividade da mão de obra dessas empresas terceirizadas. V - A empresa terceirizada pode atuar em apoio a outras empresas concorrentes da contratante. Estão corretas APENAS as desvantagens",
-                "opcoes": [
-                      "I, II e IV.",
-                      "I, II e V.",
-                      "I, III e IV.",
-                      "II, III e V.",
-                      "III, IV e V."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>I, III e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Partindo do princípio jurídico de que qualquer pessoa do povo pode e a autoridade policial tem o dever de prender quem seja pego em flagrante delito, o vigilante, em sua área de responsabilidade, observa um indivíduo que, usando de rapidez e destreza, se apodera do relógio de um transeunte, o qual, pego de surpresa, não tem chances de evitar o fato. Após detido para ser entregue à autoridade policial, o meliante será arrolado com base no artigo 155 do Código Penal, que o enquadrará no crime de",
-                "opcoes": [
-                      "furto.",
-                      "roubo.",
-                      "estelionato.",
-                      "dano.",
-                      "extorsão."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>furto.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O vigilante, em serviço na portaria da instituição, flagra determinado funcionário que, ao final do expediente, conduz em seus pertences componentes eletrônicos desviados da empresa. Vislumbrando a possibilidade de ganho extra, o vigilante exige determinada quantia em dinheiro para que o fato não seja levado ao conhecimento da empresa. De acordo com o Código Penal, art. 158, esse crime contra o patrimônio o enquadra em",
-                "opcoes": [
-                      "apropriação indébita.",
-                      "furto qualificado.",
-                      "chantagem.",
-                      "extorsão.",
-                      "estelionato."
+                      "Estrutura Analítica do Projeto.",
+                      "Termo Analítico do Projeto.",
+                      "Plano de Iniciação do Projeto.",
+                      "Termo de Abertura do Projeto.",
+                      "Plano de Gerenciamento do Projeto."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>extorsão.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "explicacao": "Gabarito: <strong>Termo de Abertura do Projeto.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
           {
-                "enunciado": "Pode-se definir uma crise como sendo “um problema muitíssimo grave, capaz de afetar, profun- damente, o funcionamento de determinadas estruturas e modificar o comportamento das pessoas envolvidas”. ARAÚJO, J.H. Livro Básico do Vigilante. Rio de Janeiro: Ao Lidador, 2002, p. 164. As agências bancárias têm sido alvo de ações de crimino- sos que, de forma violenta, têm gerado situações de crise, sendo as mais comuns os sequestros de funcionários e os assaltos com reféns no interior de agências. Em relação a esses exemplos de crise, analise os fatores abaixo. I - Ocorre quando não há preparação para seu enfrentamento. II - A sua resolução está comprimida no tempo. III - Causa ameaça à vida. IV - Ocorre de forma imprevisível. Estão corretos APENAS os fatores",
+                "enunciado": "O balanço patrimonial representa o valor contábil de uma sociedade empresária em um momento específico, como se fosse um retrato da empresa. Ele é composto por dois lados: no esquerdo estão os ativos da empresa; no direito são identificados os passivos e o capital dos acionistas. A definição contábil que fundamenta e descreve o balanço patrimonial é a seguinte: Ativos = Passivos + Patrimônio liquido Considere as informações apresentadas a seguir sobre a sociedade empresária XPTO no ano de 20XX. Empresa XPTO 20XX Caixa e equivalentes 150 Fornecedores 150 Empréstimos 200 Ações Ordinárias 100 Reservas de Capital 250 Contas a receber 600 Estoques 250 Bens, imóveis, fábricas e equipamentos 1500 Dívidas de longo prazo 500 Ações preferenciais 200 Ativos intangíveis e outros 300 Despesas a pagar 50 Impostos diferidos 300 Reserva de lucros 400 Depreciação acumulada 800 Ações em tesouraria 150 No período apresentado, os valores do Ativo Não-Circulante, do Passivo Circulante e do Patrimônio Líquido são, respectivamente,",
+                "opcoes": [
+                      "1000, 400 e 950.",
+                      "2300, 700 e 950.",
+                      "1000, 400 e 800.",
+                      "700, 700 e 950.",
+                      "700, 700 e 800."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>1000, 400 e 800.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A aplicação do Desdobramento da Função Qualidade (QFD) envolve a construção de uma série de matrizes, sendo a mais utilizada denominada Casa da Qualidade. Com relação ao QFD, avalie as afirmativas a seguir. I. Os requisitos dos clientes são as expressões linguísticas da vontade dos clientes convertidas qualitativamente em necessidades reais. II. A matriz de correlações é o teto da matriz da qualidade e tem por objetivo cruzar as características de qualidade entre si, permitindo identificar como elas se relacionam. III. Na avaliação competitiva do cliente, o objetivo é identificar o desempenho percebido do produto final da empresa, após a inserção dos requisitos dos clientes, na visão do cliente, em comparação com os principais concorrentes. Está correto apenas o que se afirma em",
                 "opcoes": [
                       "I e II.",
-                      "I e IV.",
-                      "I, II e III.",
-                      "II, III e IV.",
-                      "III e IV."
+                      "II e III.",
+                      "I e III.",
+                      "I.",
+                      "II."
                 ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>II, III e IV.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
           {
-                "enunciado": "O alarme é um equipamento de segurança eletrônica, exigido por lei como ação preventiva e ostensiva contra assaltos, sequestros e arrombamentos, entre outros. O sistema de alarme pode ser disparado por meio de acionadores de pânico silenciosos, fixos ou remotos, senhas de pânico ou sensores de presença. Os acionado- res desses alarmes podem ser instalados em ambientes estrategicamente definidos e são do tipo",
+                "enunciado": "A análise da matriz de participação de mercado/crescimento do mercado, também conhecida como Matriz BCG, é uma técnica de análise da carteira (portfólio) de negócios para a formulação de estratégias adequadas para melhor administrar suas carteiras de investimentos. Em relação à Matriz BCG, relacione cada um de seus quadrantes às suas características. 1. Ponto de interrogação 2. Vaca leiteira 3. Bicho de estimação 4. Estrela ( ) Apresenta um desafio para as organizações, porque ele exige muito dinheiro para permanecer competitivo em mercados em crescimento. ( ) É um produto que não atingiu uma base segura num mercado em expansão, mas altamente competitivo. ( ) As estratégias de marketing para esse quadrante procuram defender a parcela de mercado mediante o reforço da lealdade do consumidor. ( ) As estratégias de marketing para esse quadrante pretendem maximizar qualquer lucro potencial ao minimizar os gastos ou promover um diferencial para construir parcela de mercado. Assinale a opção que indica a relação correta, na ordem apresentada.",
                 "opcoes": [
-                      "sísmico – dispositivo instalado em portas e janelas, com- posto por duas partes de metal, que capta as vibra- ções decorrentes de ataques a estruturas metálicas.",
-                      "ativo – composto por módulo emissor e módulo receptor de luz ultravioleta, que dispara quando há corte de luz.",
-                      "passivo – em que a detecção se dá por calor e movimento, combinando raio infravermelho com micro-ondas.",
-                      "magnético – detecção digital de alta sensibilidde, que capta frequências típicas de ruídos e vibrações ambientais.",
-                      "lux – dispositivo que capta a presença de luzes na área do acionador, ativando o alarme. 14"
+                      "4 – 1 – 3 – 2",
+                      "1 – 2 – 3 – 4",
+                      "1 – 4 – 3 – 2",
+                      "4 – 3 – 1 – 2",
+                      "4 – 1 – 2 – 3"
                 ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>passivo – em que a detecção se dá por calor e movimento, combinando raio infravermelho com micro-ondas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>4 – 1 – 2 – 3</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           },
+          {
+                "enunciado": "O Balanced Score Card (BSC) é um importante instrumento de gerenciamento que permite a medição e a gestão do desempenho. Com relação às perspectivas do BSC, analise as afirmativas as seguir. I. Perspectiva Financeira: representa metas a curto prazo, a fim de gerar retornos acima do capital investido na unidade de negócio. II. Perspectiva Clientes: representa metas para operações, logística, marketing e desenvolvimento de produtos e serviços da sociedade empresária. III. Perspectiva Processos Internos: desenvolve objetivos e medidas para orientar o aprendizado e o crescimento organizacional; os processos internos são prioritários para criar um clima que dê suporte à mudança, à inovação e ao crescimento organizacional. Está correto apenas o que se afirma em",
+                "opcoes": [
+                      "I.",
+                      "II.",
+                      "I e II.",
+                      "II e III.",
+                      "I e III."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na reforma do Estado, as mudanças institucionais visavam a desenvolver uma estrutura organizacional moderna, ágil, permeável à participação popular. Uma dessas mudanças tinha um formato e um modo de contratualização específicos e tinha por objetivo a transformação de autarquias e fundações da administração direta e exclusiva do Estado, dotando-as de maior autonomia, modernização estrutural e controle de resultados. Esse processo descreve a constituição de",
+                "opcoes": [
+                      "uma agência executiva.",
+                      "uma agência reguladora.",
+                      "um consórcio público.",
+                      "uma organização da sociedade civil de interesse público.",
+                      "organizações sociais."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>uma agência executiva.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A comunicação na Administração Pública passou por mudanças paradigmáticas, ao se contrastar o modelo burocrático com o pós- burocrático. A respeito do tema, é correto afirmar que a comunicação, na perspectiva pós-burocrática de interação, está relacionada aos fatores apresentados a seguir, à exceção de um. Assinale-o.",
+                "opcoes": [
+                      "Auxílio à decisão e aos controles frente à descentralização e autonomia na gestão pública.",
+                      "Coordenação democrática, interna e externa dos atores envolvidos, estímulo à interação e à participação e iniciativas formuladas, discutidas e implementadas em rede.",
+                      "Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.",
+                      "Flexibilidade, qualidade e inovação no uso dos meios adequados a cada fluxo comunicacional.",
+                      "Participação e interação na construção dos meios pelos atores envolvidos."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A política de formação de jovens empreendedores de periferias encontrava-se na fase de elaboração de indicadores de avaliação. Um assessor da secretaria sugeriu a construção de dois indicadores a serem mensurados a cada 6 meses após o término do curso: número de negócios próprios criados ainda em funcionamento e nível de renda e melhoria de qualidade de vida. Considerando-se os diferentes objetivos e fases na avaliação, entende-se que os indicadores propostos se relacionam à dimensão de",
+                "opcoes": [
+                      "custo-eficiência.",
+                      "efetividade transformacional.",
+                      "eficácia processual.",
+                      "insumo-produto.",
+                      "marco zero."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>efetividade transformacional.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O mapa estratégico tem sido amplamente utilizado na gestão para resultados integrada ao planejamento de organizações públicas. A Receita Federal do Brasil desenvolveu um mapa estratégico para o período 2012-2015 no qual indicou como objetivo estratégico “reduzir litígios tributários e aduaneiros”. O objetivo elaborado refere-se, no mapa estratégico, à perspectiva",
+                "opcoes": [
+                      "de aprendizado e de crescimento.",
+                      "do cliente e da sociedade.",
+                      "financeira de resultados.",
+                      "de pessoas e recursos.",
+                      "dos processos internos."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>dos processos internos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "No gerenciamento de riscos aduaneiros, um determinado operador econômico autorizado conseguiu descontinuar uma atividade que originou um risco e removeu a fonte dele. Assim, o mapa de risco do operador pode ser atualizado quanto a seus processos de trabalho, relacionados aos critérios de conformidade. No processo de gestão de risco, entende-se que o operador atuou na etapa de",
+                "opcoes": [
+                      "avaliação.",
+                      "comunicação.",
+                      "monitoramento.",
+                      "registro.",
+                      "tratamento."
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>tratamento.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "FGV",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Um profissional de Informática é encarregado de geren- ciar um projeto de desenvolvimento de software em uma grande empresa. No dia do início do projeto, ele utiliza o Microsoft Project 2019 para salvar uma linha de base. Qual a finalidade da linha de base?",
+                "opcoes": [
+                      "Facilitar a comunicação entre os membros da equipe.",
+                      "Comparar o andamento do projeto com a previsão original.",
+                      "Aumentar a segurança dos dados do projeto.",
+                      "Coletar feedback dos stakeholders do projeto.",
+                      "Automatizar tarefas repetitivas no projeto."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>Comparar o andamento do projeto com a previsão original.</strong>. Fonte: CESGRANRIO/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Projetos são realizados para cumprir objetivos através da produção de entregas. Um objetivo é definido como um resultado a que o trabalho é orientado, podendo ser uma posição estratégica a ser alcançada ou um propósito a ser atingido ou um produto a ser produzido ou um serviço a ser realizado. Nesse sentido, o gerenciamento de projeto pode ser de- finido como",
+                "opcoes": [
+                      "a aplicação de conhecimento, de habilidades, de sa- bedoria, de ciência e de arte, para que atividades or- ganizacionais alcancem a excelência operacional.",
+                      "a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.",
+                      "a implantação de um software para gerenciamento de projetos.",
+                      "a integração do método do caminho crítico em um sis- tema de gerenciamento de valor agregado.",
+                      "um subconjunto de disciplinas de Engenharia e outras disciplinas técnicas."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.</strong>. Fonte: CESGRANRIO/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "A Estrutura Analítica do Projeto (EAP) é um diagrama es- truturado que suporta o gerenciamento de escopo de um projeto. Qual é o objetivo da EAP na gestão de um projeto?",
+                "opcoes": [
+                      "Apresentar a estrutura organizacional de um pro- grama.",
+                      "Apresentar quais elementos de trabalho foram atribu- ídos a unidades organizacionais.",
+                      "Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.",
+                      "Indicar quais membros da equipe têm responsabilida- de sobre cada pacote de trabalho.",
+                      "Indicar qual é o caminho crítico do projeto, com as atividades que não possuem folga de tempo."
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.</strong>. Fonte: CESGRANRIO/2023. Assunto: administracao_geral_e_publica_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2023,
+                "assunto": "administracao_geral_e_publica_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "administracao_geral_e_publica_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "gestao_de_recursos_materiais_e_patrimoniais_geral": [
+          {
+                "enunciado": "Com relação ao conceito de bem na gestão de recursos e patrimonial da administração pública, afirma-se que I - o conceito de bem está relacionado à utilidade, à quantidade e a um valor econômico ou riqueza; II - os bens são susceptíveis de apropriação, direitos e obrigações podendo ser designados como patrimônio; III - a gestão do patrimônio imobiliário inclui os bens imó- veis e os bens não consumíveis; IV - a gestão do patrimônio mobiliário permanente inclui os bens móveis e os bens consumíveis. Estão corretas as afirmações",
+                "opcoes": [
+                      "I e II, apenas.",
+                      "I, III e IV, apenas.",
+                      "I, II, III e IV.",
+                      "II e III, apenas.",
+                      "III e IV, apenas."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "O departamento de administração de materiais de uma empresa recebeu 5.000 requisições no ano de 2009, sendo que cada requisição teve uma média de 1,8 itens. Sabendo que 7.650 itens foram entregues dentro do pra- zo, qual foi o nível de serviço de atendimento do departa- mento, em percentual? (Obs: use arredondamento para uma casa decimal)",
+                "opcoes": [
+                      "90,0%",
+                      "85,0%",
+                      "80,0%",
+                      "65,4%",
+                      "55,5%"
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>85,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Uma empresa que usa o modelo de reposição contínua na gestão de estoques tem um consumo médio de um item em estoque de 1.000 unidades por mês e mantém um estoque de segurança de 100 unidades. Supondo que o prazo de entrega, após a colocação do pedido, é de 10 dias úteis, que as compras são feitas em lotes de 5.000, e considerando 20 dias úteis por mês, qual é a quantidade do ponto de pedido? Formulário: PP = (T x D) + ES lead time onde: PP: Ponto de Pedido T : tempo de lead time lead time D: Demanda ES: Estoque de segurança",
+                "opcoes": [
+                      "50",
+                      "500",
+                      "600",
+                      "1.000",
+                      "5.000"
+                ],
+                "correta": 2,
+                "explicacao": "Gabarito: <strong>600</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Na gestão de estoques, o modelo de reposição periódica, também conhecido como modelo de estoque máximo, tem como característica",
+                "opcoes": [
+                      "obter um estoque de segurança menor que o modelo do lote padrão.",
+                      "ter um lote de compra padrão e igual ao Lote Econômico de Compra (LEC).",
+                      "ter um lote de compra variável e definido quando o nível do item atinge o ponto de pedido.",
+                      "manter constantes os intervalos de emissão dos pedidos de compra.",
+                      "definir o lote de compra com base em descontos por volume."
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>manter constantes os intervalos de emissão dos pedidos de compra.</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Todo bem patrimonial sofre desgaste com a sua utilização, sendo necessárias ações para que ele se mantenha operacional até o fim de sua vida útil. A vida econômica de um bem é o período de tempo em que o bem consegue exercer suas funções até o momento em que o",
+                "opcoes": [
+                      "valor contábil é menor que a soma do custo operacional com o de manutenção.",
+                      "valor de revenda do bem menos o valor residual da depreciação é mínimo.",
+                      "valor de revenda ultrapassa o valor depreciado.",
+                      "custo operacional é menor que o custo residual.",
+                      "Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18"
+                ],
+                "correta": 4,
+                "explicacao": "Gabarito: <strong>Custo Anual Equivalente (CAE) é mínimo. Considere as informações e a tabela a seguir para responder às questões de n 72 e 73. A tabela apresenta o conjunto de itens em estoque de uma empresa que utiliza a classificação ABC. Os limites assumidos pela empresa são: • maior ou igual a 70% - o item é considerado classe A; • entre 11% e 69 % - o item é considerado classe B; • menor ou igual a 10% - o item é considerado classe C. Código do Valor Unitário Valor movimentado item (R$) anualmente (R$) 4 1,00 800,00 7 2.000,00 2.000,00 8 3.000,00 6.000,00 Total 100.000,00 18</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Os itens classe A são",
+                "opcoes": [
+                      "7 e 8.",
+                      "3 e 6.",
+                      "2, 3 e 6.",
+                      "3, 4 e 10.",
+                      "1, 6, 7 e 8."
+                ],
+                "correta": 1,
+                "explicacao": "Gabarito: <strong>3 e 6.</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Qual das seguintes correlações entre o item e a sua classe é válida?",
+                "opcoes": [
+                      "1, B.",
+                      "3, C.",
+                      "5, C.",
+                      "7, B.",
+                      "9, B."
+                ],
+                "correta": 0,
+                "explicacao": "Gabarito: <strong>1, B.</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Após o término do inventário físico dos itens em estoque, deve-se calcular um índice representativo da acurácia dos controles de movimentação de materiais da empresa. Con- siderando que foram inventariados 10.000 itens e encon- trados 1.200 itens com divergências, o índice de acurácia desse estoque é de",
+                "opcoes": [
+                      "12,0%",
+                      "13,6%",
+                      "76,0%",
+                      "88,0%",
+                      "94,0%"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>88,0%</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          },
+          {
+                "enunciado": "Valor de compra R$ 500.000,00 Vida útil 25 anos Valor residual R$ 50.000,00 Considerando o método de depreciação linear e as caracte- rísticas do bem patrimonial apresentados na tabela acima, quais são a depreciação acumulada e o valor residual do bem patrimonial ao final do seu quarto ano de utilização? Depreciação acumulada Valor residual (R$) (R$)",
+                "opcoes": [
+                      "30.000,00 420.000,00",
+                      "36.000,00 464.000,00",
+                      "48.000,00 402.000,00",
+                      "72.000,00 428.000,00",
+                      "80.000,00 420.000,00"
+                ],
+                "correta": 3,
+                "explicacao": "Gabarito: <strong>72.000,00 428.000,00</strong>. Fonte: CESGRANRIO/2010. Assunto: gestao_de_recursos_materiais_e_patrimoniais_geral.",
+                "banca": "CESGRANRIO",
+                "ano": 2010,
+                "assunto": "gestao_de_recursos_materiais_e_patrimoniais_geral",
+                "tipo": "multipla_escolha",
+                "flashcard": null,
+                "temas_relacionados": [
+                      "gestao_de_recursos_materiais_e_patrimoniais_geral"
+                ],
+                "imagens": null
+          }
+    ],
+    "informatica_geral": [
           {
                 "enunciado": "O Decreto n 4.553, de 27/12/2002, que trata da salvaguarda de assuntos e documentos de interesse do Estado e da sociedade, determina que “toda e qualquer pessoa que tome conhecimento de assunto sigiloso fica, automa- ticamente, responsável pela manutenção de seu sigilo”. Entre as regras básicas que devem ser observadas por todos aqueles que lidam com assuntos sigilosos, NÃO se inclui a de",
                 "opcoes": [
@@ -151985,14 +152459,14 @@ var QUESTOES_BANCO = {
                       "responder somente àquelas perguntas que não comprometam o serviço ou a segurança."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>comentar assuntos de serviço somente com as pessoas nas quais tenha plena confiança.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>comentar assuntos de serviço somente com as pessoas nas quais tenha plena confiança.</strong>. Fonte: CESGRANRIO/2010. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -152006,98 +152480,14 @@ var QUESTOES_BANCO = {
                       "confidencialidade."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>confidencialidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>confidencialidade.</strong>. Fonte: CESGRANRIO/2010. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Diante das mudanças climáticas que o planeta vem sofrendo e de suas consequências futuras, o homem começa a se conscientizar da importância da preservação ambiental para a sobrevivência da espécie humana. A legislação ambiental, apesar de severa, só será eficaz se o próprio homem tomar consciência da participação individual nesse esforço de preservação. São medidas de preservação e respeito ao meio ambiente: I - respeitar e preservar todas as formas de vida; II - usar racional e responsavelmente todos os recursos naturais como a água e o ar; III - somente efetuar a queima de lixo, se nele não houver a presença de materiais plásticos, borrachas ou pneus; IV - nunca jogar óleos combustíveis nos esgotos, apenas óleo de cozinha, pois este não contamina o lençol freático; V - não jogar lixo nas ruas, pois os bueiros ficam entupi- dos, alagando as vias públicas em época de chuvas. Estão corretas APENAS as medidas",
-                "opcoes": [
-                      "I, II e III.",
-                      "I, II e V.",
-                      "I, IV e V.",
-                      "II, III e IV.",
-                      "III, IV e V."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I, II e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Incêndio é a queima de materiais inflamáveis que, fora de controle, pode causar prejuízos materiais e perdas humanas. Ao se deparar com um incêndio classe C em sua instalação, o vigilante deverá, de imediato, adotar três dos seguintes procedimentos: I - desligar a energia elétrica do setor afetado; II - dar início ao combate ao foco de incêndio, até a chegada dos bombeiros; III - informar o fato ao chefe da segurança e aguardar a solução do problema; IV - isolar a instalação, evitando a presença de curiosos e saqueadores; V - manter a calma, já que o pânico leva a ações incontroláveis. Os procedimentos a serem adotados e a sequência em que devem ocorrer são:",
-                "opcoes": [
-                      "III, IV e V",
-                      "IV, V e I",
-                      "IV, I e II",
-                      "V, IV e III",
-                      "V, I e II"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>V, I e II</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma contingência é algo que pode, ou não, vir a acontecer, mas cuja ocorrência acarretará grandes transtornos para a continuidade dos negócios da instituição. É preciso que haja um rápido e eficiente conjunto de ações que possibilite minimizar, ao máximo, os prejuízos materiais, humanos e financeiros à instituição. O grupo de executivos e técnicos que tem por missão avaliar e gerenciar os efeitos causados pelo fato adverso constitui o",
-                "opcoes": [
-                      "Comitê de Segurança.",
-                      "Comitê de Crise.",
-                      "Comitê de Gerenciamento de Crise.",
-                      "Grupo de Gerenciamento de Crise.",
-                      "Grupo de Administração de Crise."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Comitê de Crise.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Um Plano de Contingências deve ser organizado a partir de um estudo de situação. Uma vez determinado onde se encontram as vulnerabilidades e analisado o histórico de incidentes de segurança, começa-se a avaliar as medidas preventivas existentes. Para viabilizar a aplicação do plano, são adotadas medidas preventivas agrupadas em categorias, dentre as quais a de",
-                "opcoes": [
-                      "equipamentos (físicos e técnicos).",
-                      "informe final.",
-                      "avaliação dos riscos.",
-                      "riscos citados.",
-                      "riscos naturais."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>equipamentos (físicos e técnicos).</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -152111,14 +152501,14 @@ var QUESTOES_BANCO = {
                       "número de série e período de validade do certificado. 15"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>número de série e período de validade do certificado. 15</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>número de série e período de validade do certificado. 15</strong>. Fonte: CESGRANRIO/2010. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -152132,56 +152522,14 @@ var QUESTOES_BANCO = {
                       "III, IV e V."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>II, III e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>II, III e V.</strong>. Fonte: CESGRANRIO/2010. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O emprego de equipamentos eletrônicos, no controle de acesso às agências bancárias, tornou-se uma necessidade, tendo em vista inibir o acesso de pessoas armadas ao interior das agências e dificultar as ações criminosas contra essas instituições. Dentre os diversos equipamen- tos empregados, NÃO se encontra(m)",
-                "opcoes": [
-                      "escudo blindado.",
-                      "eclusa.",
-                      "portal.",
-                      "porta giratória.",
-                      "câmeras de monitoramento."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>escudo blindado.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O objetivo da Inteligência Competitiva é avaliar, em nível de mercado, que procedimentos devem ser adotados quando se realiza a coleta de dados sobre os concorrentes de determinada empresa e como devem ser utilizadas as informações que resultam da análise desses dados. O dado bruto sobre um concorrente, obtido pelo setor de marketing de determinada instituição, não analisado, e do qual ainda não se tem uma avaliação de veracidade, é a(o)",
-                "opcoes": [
-                      "avaliação primária.",
-                      "análise primária.",
-                      "informe.",
-                      "diagnose.",
-                      "boato."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>informe.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -152195,1001 +152543,14 @@ var QUESTOES_BANCO = {
                       "spyware."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>phishing.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>phishing.</strong>. Fonte: CESGRANRIO/2010. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Muitas emergências podem ter seu efeitos reduzidos, e até evitados, se as empresas pensarem, previamente, na possibilidade de sua ocorrência e tiverem tomado as providências, quando de sua concretização. De acordo com a International Business Consultants, INC, os riscos devem ser classificados sob o ponto de vista da possibilidade de ocorrência e da severidade dos danos. Esses riscos, classificados em três categorias, são",
-                "opcoes": [
-                      "provocados por imperícia, por desatenção e por falha de equipamento.",
-                      "provocados por desastres naturais, por atos humanos e por desatenção.",
-                      "falhas no equipamento, desastres naturais e provoca- dos por imperícia.",
-                      "desastres radioativos, naturais e tecnológicos.",
-                      "desastres naturais, tecnológicos e provocados por atos humanos."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>desastres naturais, tecnológicos e provocados por atos humanos.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "As organizações estão sujeitas a inúmeras ocorrências que variam de acordo com o tipo de negócio realizado e com as fragilidades encontradas no local em que estão situadas. Num Plano de Contingências, a estratégia que tem por objetivo principal identificar condições, situações ou pessoas que possam ser causadoras de ameaças, de modo a criar fatores que tenham também a possibili- dade de inibir possíveis ocorrências, é a",
-                "opcoes": [
-                      "pesquisa estratégica.",
-                      "avaliação estratégica.",
-                      "correção.",
-                      "prevenção.",
-                      "recuperação. 16"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>prevenção.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Durante o procedimento de carregamento do caixa eletrô- nico de uma instituição bancária, situado em um posto de gasolina, os quatro vigilantes encarregados da proteção do numerário que se encontra no carro-forte são atacados por meliantes fortemente armados, que disparam em sua direção. Os vigilantes reagem e ocorre intensa troca de tiros. Na oportunidade, o cidadão X, que passava pelo lo- cal, recebe um disparo fatal. Dias depois, no curso do in- quérito policial para investigar a sua morte, o exame peri- cial é divulgado, indicando que o disparo partiu de um revólver calibre 22. Considerando essas informações e com base na Lei n 7.102/1983, conclui-se que",
-                "opcoes": [
-                      "os proprietários do posto de gasolina desrespeitaram norma de segurança aplicável ao carregamento de di- nheiro em caixas eletrônicos.",
-                      "os vigilantes desrespeitaram norma de segurança na reação ao ataque ao carro-forte.",
-                      "o disparo que atingiu X partiu da arma de um dos meliantes.",
-                      "o número de vigilantes empregados na proteção ao numerário era inadequado.",
-                      "X se aproximou de forma inadequada e imprudente do carro-forte."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>o disparo que atingiu X partiu da arma de um dos meliantes.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Os meliantes X, Y e Z planejam um assalto contra determi- nado estabelecimento. Ao relatar para os comparsas quais os mecanismos que compõem o sistema do referido esta- belecimento, Z indica ter observado apenas: (1) alarme com comunicação imediata com a delegacia policial das redon- dezas, (2) presença de oito vigilantes armados no local, (3) porta de travamento de segurança, com detector de metais e (4) mecanismo de segurança com feixes de laser acionados enquanto o estabelecimento se encontra fecha- do. Com tais informações, conclui-se que, de acordo com a Lei n 7.102/1983, o estabelecimento em questão NÃO é um estabelecimento financeiro onde há guarda de valores em virtude da",
-                "opcoes": [
-                      "ausência de sistema de telefonia especial, artefatos que retardem a ação de criminosos e locais especiais de proteção ao cliente em caso de ações violentas.",
-                      "ausência de equipamentos que possibilitem a identifi- cação dos criminosos, artefatos que retardem a ação dos criminosos ou cabina blindada com permanência ininterrupta de vigilante.",
-                      "presença de detector de metais na porta de travamento de segurança.",
-                      "presença de mecanismo de segurança com feixes de laser.",
-                      "presença de oito e não dez vigilantes armados no local."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>ausência de equipamentos que possibilitem a identifi- cação dos criminosos, artefatos que retardem a ação dos criminosos ou cabina blindada com permanência ininterrupta de vigilante.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Observe as informações a seguir sobre diferentes pessoas. W: espanhol de nascimento, brasileiro naturalizado, portei- ro, sexo masculino, 35 anos, portador de certificado de dispensa do serviço militar, segundo grau completo. X: brasileiro nato, pedreiro, sexo masculino, 24 anos; dei- xou de votar nas últimas eleições, mas justificou sua ausência; estudou até a sétima série do primeiro grau. Y: brasileira nata, secretária, sexo feminino, 21 anos; sem antecedentes criminais; estudou até a oitava série do primeiro grau. Z: brasileiro nato, motorista, sexo masculino, 31 anos; sem antecedentes criminais registrados, mas tendo sido in- vestigado em uma ocorrência policial; estudou até a quinta série do primeiro grau. Analisando as informações acima, conclui-se, com base na Lei n 7.102/1983, que têm os requisitos necessários para serem vigilantes:",
-                "opcoes": [
-                      "W e Y, somente.",
-                      "W, Y e Z, somente.",
-                      "W, X, Y e Z.",
-                      "X e Y, somente.",
-                      "X e Z, somente."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>W, X, Y e Z.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "X e Y prestam determinado serviço profissional no seu lo- cal de trabalho. Por desatenção, X dispara acidentalmente sua arma, atingindo Y. X é preso e encaminhado à delega- cia próxima ao local, onde devolve ao representante da empresa que o empregava o uniforme e a arma que usa- va, sendo encaminhado a uma sala, onde deverá aguar- dar, em prisão especial, pela manifestação do juiz sobre seu caso. Y, por sua vez, é levado a um hospital particular pago pela empresa que o empregava, onde é submetido a uma cirurgia, a qual, no entanto, não é suficiente para lhe salvar a vida. A família de Y é comunicada, na oportuni- dade, que será beneficiada pelo recebimento do seguro de vida em grupo, feito pela empresa. De acordo com a Lei n 7.102/1983, qual dos fatos abaixo NÃO é indicativo de que X e Y eram vigilantes?",
-                "opcoes": [
-                      "Y teve a despesa do hospital paga pela empresa que o empregava.",
-                      "Y tinha seguro de vida em grupo pago pela empresa que o empregava.",
-                      "X foi encaminhado à prisão especial por ato decorrente do serviço.",
-                      "X e Y tinham porte de arma quando em serviço.",
-                      "X e Y usavam uniformes em serviço. 17"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Y teve a despesa do hospital paga pela empresa que o empregava.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Durante um assalto a uma instituição bancária, os vigilantes que faziam a segurança do local trocam tiros e depois en- tram em luta corporal com os criminosos. No confronto, três assaltantes são mortos. Durante a investigação policial que se segue, as autoridades concluem que os vigilantes agi- ram corretamente na proteção do patrimônio da instituição bancária, mas decidem informar o Ministério da Justiça so- bre irregularidades nas armas que teriam sido usadas pelos vigilantes no confronto, em razão dos dados presentes nos exames cadavéricos realizados nos corpos dos assaltan- tes. Em tais exames, os peritos constataram marcas de quei- maduras similares a armas elétricas de choque (tasers), marcas de golpes de cassetetes de madeira, perfurações de balas causadas por revólveres calibre 38 e lacerações vermelhas nos olhos, condizentes com uso de gás de pimenta. Diante de tais informações, considerando a Lei n 7.102/1983, conclui-se que os vigilantes",
-                "opcoes": [
-                      "usavam revólveres não permitidos para o seu trabalho.",
-                      "usavam cassetetes não permitidos para o seu trabalho.",
-                      "usavam revólveres, cassetetes e armas elétricas de choque permitidos no seu trabalho.",
-                      "usavam armas elétricas de choque e recipientes de gás de pimenta sem permissão no seu trabalho.",
-                      "deveriam utilizar cassetete de borracha, e não de madeira, em seu trabalho."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>usavam armas elétricas de choque e recipientes de gás de pimenta sem permissão no seu trabalho.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "X e Y são vigilantes e estão conduzindo, em serviço, veí- culo da instituição financeira em que trabalham, para rece- bimento de numerário a ser transportado de um depósito para outro. Ambos estão uniformizados e armados. No ca- minho para o primeiro depósito, param em um restaurante de beira de estrada para almoçar. Na oportunidade, quan- do já se encontram dentro do restaurante, são surpreendi- dos por policiais militares que decidem prendê-los em fla- grante por porte ilegal de arma de fogo de uso permitido. Analisando o trecho da narrativa referente à decisão da prisão em flagrante, conclui-se que, de acordo com a Lei n 10.826/2003,",
-                "opcoes": [
-                      "os policiais estão certos, porque os vigilantes deveriam ter deixado suas armas dentro de veículo.",
-                      "os policiais estão certos, porque os vigilantes só pode- riam estar armados quando estivessem no transporte efetivo de numerário.",
-                      "os policiais estão errados, porque o caso seria de pri- são por posse irregular de arma de fogo e não porte ilegal de arma de fogo.",
-                      "os policiais estão errados, porque os vigilantes podem portar armas em serviço ou fora dele.",
-                      "não se pode afirmar se os policiais estão corretos ou errados, pois faltam informações."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>não se pode afirmar se os policiais estão corretos ou errados, pois faltam informações.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Habilitado como vigilante e contratado por uma empresa de segurança, X recebe uma arma para utilização em ser- viço. Por ter tido treinamento adequado, ter amplo conhe- cimento dos procedimentos de segurança e ainda por es- tar assustado com a violência no bairro onde mora, X com- pra uma arma do mesmo calibre da que utiliza no serviço para mantê-la no seu apartamento. Algumas semanas de- pois, no entanto, entusiasmado com uma vitória do time de futebol para o qual torce, X retira a arma que comprara do local onde estava guardada e dispara alguns tiros da va- randa de seu apartamento, em comemoração. Logo de- pois, deixa a arma sobre a mesa de jantar e vai dormir. Seu filho adolescente, 14 anos, encontra a arma sobre a mesa e a leva para o colégio no dia seguinte. O menor é apreendido pela polícia no momento em que mostrava a arma para um colega. Analisando essa narrativa, conclui-se que, tendo em vista a Lei n 10.826/2003, X",
-                "opcoes": [
-                      "praticou quatro crimes: porte irregular de arma de fogo de uso permitido; omissão de cautela; disparo de arma de fogo e entrega de arma de fogo a menor de idade.",
-                      "praticou três crimes: posse irregular de arma de fogo de uso permitido; omissão de cautela e disparo de arma",
-                      "praticou dois crimes: omissão de cautela e posse irre- gular de arma de fogo de uso permitido.",
-                      "praticou um crime: porte ilegal de arma de fogo de uso permitido.",
-                      "não praticou crime algum."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>praticou três crimes: posse irregular de arma de fogo de uso permitido; omissão de cautela e disparo de arma</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Ao final de um inquérito policial em que se investigavam ações ilícitas praticadas por VIGILANTES, a autoridade verificou que 1 - W, ex-militar, tem em casa uma pistola de propriedade particular a qual cedeu repetidas vezes para o seu filho de 17 anos; 2 - X modificou o mecanismo de travamento de sua arma, tornando-a de repetição (tipo metralhadora), o que é vedado pela legislação em vigor; 3 - Y, quando em serviço, entregou sua arma repetidas vezes a seu companheiro de trabalho, vigilante T, para ir ao banheiro; 4 - Z raspou o sinal identificador da arma que usava em serviço. Diante de tais informações e considerando a Lei n 10.826/2003, conclui-se que",
-                "opcoes": [
-                      "somente Y não praticou crime.",
-                      "somente W, Y e Z não praticaram crime.",
-                      "somente W praticou crime.",
-                      "somente X, Y e Z praticaram crime.",
-                      "todos praticaram crime. 18"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>somente Y não praticou crime.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Y tem 22 anos e é vigilante de uma instituição bancária que faz transporte de valores. Nessa função, de acordo com a Lei n 10.826/2003, é permitido a Y",
-                "opcoes": [
-                      "portar arma municiada em serviço e fora dele.",
-                      "fazer o carregamento de arma de fogo em serviço.",
-                      "adquirir arma de fogo no comércio legal.",
-                      "ter arma de fogo em sua residência.",
-                      "ter munição em sua residência."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>fazer o carregamento de arma de fogo em serviço.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "X é proprietário de uma empresa de segurança onde tra- balham os vigilantes Y, Z e W. Em determinada manhã, Y esquece de ir ao depósito de armas e munições do local para se preparar para o serviço, permanecendo desarma- do durante todo o dia. Ao cair da tarde, meliantes invadem a empresa e rendem Z, que se encontrava dormindo em uma guarita na porta da empresa, embora estivesse de serviço. Ao ver o colega em dificuldades, W inicia intensa troca de tiros com os meliantes, mas, ferido, acaba deixan- do sua arma cair ao solo, levando-a a disparar, atingindo um dos empregados da empresa. Os assaltantes conse- guem invadir o depósito de armas e munições da empresa e levam vários revólveres calibre 38 e duas espingardas calibre 16. No dia seguinte, X é aconselhado por um de seus advogados a registrar o assalto e comunicar o roubo à Polícia Federal, mas decide não fazê-lo. Tendo em vista as disposições presentes na legislacão em vigor, conclui-se que, dentre os personagens da narrativa, praticou/pratica- ram crime SOMENTE",
-                "opcoes": [
-                      "X.",
-                      "X e Y.",
-                      "X, Z e W.",
-                      "Z.",
-                      "Z e W."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>X.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A empresa de segurança XW é fechada por determinação do Ministério da Justiça, por terem sido verificadas diver- sas irregularidades em seu funcionamento. De acordo com a Lei n 7.102/1983, NÃO constitui exemplo de irregulari- dade que possa ter sido encontrada na empresa o fato de que",
-                "opcoes": [
-                      "as armas utilizadas pelos vigilantes eram de proprie- dade particular de um dos sócios da empresa.",
-                      "a administração da empresa era exercida por estran- geiros.",
-                      "a empresa não providenciara plano de saúde individual para os vigilantes.",
-                      "o depósito da empresa armazenava espingardas calibre 12 de fabricação estrangeira.",
-                      "os vigilantes não usavam uniforme."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>a empresa não providenciara plano de saúde individual para os vigilantes.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Y é preso e acusado de prática de comércio ilegal de arma de fogo, por expor à venda, sem autorização, segundo a autoridade policial, 75 revólveres calibre 38; 23 espingar- das calibre 12; 100 lunetas red dots para armas de preci- são; 25 estojos municiadores e carregadores de pistolas calibre 765; 12 reservatórios de gasolina para preparo de coquetéis molotov; 80 caixas de munição calibre 22 e 5 granadas de mão. Considerando a acusação específica feita pela autoridade policial (comércio ilegal de arma de fogo) e a Lei n 10.826/2003 e seus complementos, o enquadramento policial da conduta de Y está",
-                "opcoes": [
-                      "totalmente equivocado, tendo em vista que a conduta narrada se enquadra em outro crime da legislação.",
-                      "totalmente correto, tendo em vista que a conduta narrada se enquadra, integralmente, no delito de “comércio ilegal de arma de fogo”.",
-                      "parcialmente correto, sendo equivocadas apenas as referências aos estojos municiadores e carregadores de pistolas e aos reservatórios de gasolina, que se re- lacionam a delitos diferentes do comércio ilegal de arma",
-                      "parcialmente correto, sendo equivocadas apenas as referências às granadas de mão e aos estojos municiadores e carregadores de pistolas, que se rela- cionam a delitos diferentes do comércio ilegal de arma",
-                      "parcialmente correto, sendo equivocadas apenas as referências aos reservatórios de gasolina e às grana- das de mão que se relacionam a delitos diferentes do comércio ilegal de arma de fogo."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>parcialmente correto, sendo equivocadas apenas as referências aos reservatórios de gasolina e às grana- das de mão que se relacionam a delitos diferentes do comércio ilegal de arma de fogo.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O Banco ZY decide abrir uma agência bancária na cidade de Fortaleza. Para tanto, contrata especialistas para elaboração do sistema de segurança do estabelecimento, de acordo com as disposições legais. Dos itens abaixo, considerando a Lei n 7.102/1983, NÃO deveria(m) neces- sariamente estar presente(s) no relatório dos especialistas como obrigatório",
-                "opcoes": [
-                      "cabina blindada com permanência ininterrupta de vigi- lante durante o expediente para o público e enquanto houver movimentação de numerário no interior do es- tabelecimento.",
-                      "pessoas adequadamente preparadas, assim chama- das vigilantes.",
-                      "locais especialmente reservados à proteção de clien- tes em caso de ocorrência policial.",
-                      "equipamentos elétricos, eletrônicos e de filmagens que possibilitem a identificação de assaltantes.",
-                      "formulários de registro de eventuais ocorrências policiais. 19"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>cabina blindada com permanência ininterrupta de vigi- lante durante o expediente para o público e enquanto houver movimentação de numerário no interior do es- tabelecimento.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Os vigilantes U, V, W, X, Y e Z trabalham em uma agência bancária. Durante determinado dia de serviço, a agência é invadida por meliantes fortemente armados e se inicia intensa troca de tiros, resultando na morte de quatro clien- tes do banco. As investigações realizadas, posteriormen- te, pela polícia concluem que: (1) U, V e W estavam arma- dos com revólveres calibre 32 pertencentes à empresa de segurança que os empregava; (2) X, Y e Z estavam de partida para serviço de entrega de numerário em outra agência bancária e portavam espingardas calibre 16 pertencentes à empresa de segurança que os empregava; (3) dois vigilantes, U e V, tinham 25 anos e haviam sido contratados três anos antes; (4) um dos vigilantes, W, se encontrava em cabina blindada localizada nos fundos da agência bancária, a qual, no entanto, ficava vazia nos horários em que a agência estava fechada. Considerando essas informações e a Lei n 7.102/1983, verifica-se que, em termos de segurança, a agência",
-                "opcoes": [
-                      "apresentava uma falha, relativa ao fato de U, V e W estarem portando armas que não lhes pertenciam.",
-                      "apresentava uma falha, relativa ao fato de X, Y e Z estarem portando espingardas e não revólveres.",
-                      "apresentava uma falha, relativa ao fato de dois vigilan- tes terem menos de 25 anos na época em que foram contratados.",
-                      "apresentava uma falha, relativa ao fato de a cabina blindada ficar vazia nos horários em que a agência estava fechada.",
-                      "não apresentava falhas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>não apresentava falhas.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Durante serviço em uma agência bancária, o vigilante X é informado discretamente pelo cliente Y de que há um ho- mem armado no local. X observa o homem supostamente armado e verifica que ele se encontra sem uniforme e está retirando dinheiro de um caixa eletrônico. O cliente Y, no entanto, relata a X que conhece o homem armado e lhe informa a profissão do mesmo. O vigilante X decide cha- mar a polícia para verificar se o homem tem porte de arma, tendo em vista que, pela profissão relatada, sabe que a legislação, particularmente o Estatuto do Desarmamento (Lei n 10.826/2003), não o autoriza a portar arma naquela situação. Diante da narrativa, é possível afirmar que a pessoa era",
-                "opcoes": [
-                      "policial civil.",
-                      "policial rodoviário federal.",
-                      "bombeiro militar.",
-                      "vigilante.",
-                      "membro da polícia do Senado Federal."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>vigilante.</strong>. Fonte: CESGRANRIO/2010. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2010,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Armas de fogo, acessórios ou munições apreendidos se- rão, após elaboração do laudo pericial e sua juntada aos autos, encaminhados pelo juiz competente, quando não mais interessarem à persecução penal,",
-                "opcoes": [
-                      "ao Ministério da Defesa, para destruição, no prazo máximo de vinte e quatro horas.",
-                      "à Polícia Federal, para destruição, no prazo máximo de quarenta e oito horas.",
-                      "ao Comando do Exército, para destruição, no prazo máximo de vinte e quatro horas.",
-                      "à Polícia Federal, para destruição, no prazo máximo de vinte e quatro horas.",
-                      "ao Comando do Exército, para destruição, no prazo máximo de quarenta e oito horas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>ao Comando do Exército, para destruição, no prazo máximo de quarenta e oito horas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O certificado de Registro de Arma de Fogo, com validade em todo o território nacional, autoriza o seu proprietário a manter a arma de fogo",
-                "opcoes": [
-                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como transportá-la dentro do território nacional, independente de prévia auto- rização das autoridades competentes.",
-                      "exclusivamente no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, desde que seja ele o titular ou o responsável legal pelo estabelecimento ou empresa.",
-                      "no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, independentemente de ser o titular ou o responsável legal pelo estabelecimento ou empresa, bastando a qualidade de empregado.",
-                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como de terceiros, desde que não haja aglomerações de pessoas e nem a presença de menores de 18 anos.",
-                      "no interior de sua residência ou domicílio, ou de- pendência desses, bem como de terceiros, desde que não haja aglomerações de pessoas e nem a presença de menores de 21 anos."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>exclusivamente no interior de sua residência ou domicílio, ou dependência desses, ou, ainda, no seu local de trabalho, desde que seja ele o titular ou o responsável legal pelo estabelecimento ou empresa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Mário, integrante das forças armadas, favorece, gratui- tamente, a saída do território nacional, de arma de fogo, acessório ou munição, sem autorização da autoridade competente. Neste caso, Mário",
-                "opcoes": [
-                      "comete crime de omissão de cautela, estando sujeito a pena de reclusão de quatro a oito anos, e multa.",
-                      "comete crime de comércio ilegal de arma de fogo, estando sujeito a pena de detenção de dois a quatro anos, e multa, aumentada da metade.",
-                      "comete crime de comércio ilegal de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa.",
-                      "comete crime de tráfico internacional de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa, aumentada da metade.",
-                      "não comete crime algum, uma vez que praticava a conduta a título gratuito, não havendo, portanto previsão legal."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>comete crime de tráfico internacional de arma de fogo, estando sujeito a pena de reclusão de quatro a oito anos, e multa, aumentada da metade.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Com relação ao comércio de arma de fogo e munição, é correto afirmar que",
-                "opcoes": [
-                      "a aquisição de munição somente poderá ser feita no calibre correspondente à arma adquirida.",
-                      "a empresa que comercializar armas de fogo e munição em território nacional é obrigada apenas a manter banco de dados com todas as características da arma vendida.",
-                      "a empresa que comercializa armas de fogo e muni- ções responde legalmente por essas mercadorias, ficando registradas como de propriedade do Governo Federal enquanto não forem vendidas.",
-                      "a comercialização de armas de fogo, acessórios e munições entre pessoas físicas poderá ser efetivada independentemente de autorização do SINARM.",
-                      "é proibida a comercialização de arma de fogo e munição em todo o território nacional, salvo para as forças armadas, polícia federal e civil."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>a aquisição de munição somente poderá ser feita no calibre correspondente à arma adquirida.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Ao SINARM – Sistema Nacional de Armas – compete: I. cadastrar as armas de fogo produzidas, importadas e vendidas no Brasil; II. informar às Secretarias de Segurança Pública dos Estados e do Distrito Federal os registros e autorizações de porte de armas de fogo nos respectivos territórios; III. apreender armas de fogo ilegais, inclusive as vinculadas a procedimentos policiais e judiciais.",
-                "opcoes": [
-                      "I, apenas.",
-                      "II, apenas.",
-                      "III, apenas.",
-                      "I e II, apenas.",
-                      "I, II e III."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>I e II, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Disparar arma de fogo ou acionar munição em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, desde que essa conduta não tenha como finalidade a prática de outro crime, constitui crime",
-                "opcoes": [
-                      "passível de fiança e de pena de detenção, de 1 (um) a 2 (dois) anos, e multa.",
-                      "passível de fiança e de pena de detenção, de 1 (um) a 3 (três) anos, e multa.",
-                      "inafiançável, passível de pena de reclusão, de 2 (dois) a 4 (quatro) anos, e multa.",
-                      "insuscetível de liberdade provisória e passível de pena de reclusão, de 4 (quatro) a 8 (oito) anos, e multa.",
-                      "suscetível de liberdade provisória e passível de pena de detenção, de 1 (um) a 6 (seis) meses e multa. 9"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>inafiançável, passível de pena de reclusão, de 2 (dois) a 4 (quatro) anos, e multa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Considere as assertivas abaixo a respeito da aquisição e renovação de arma de fogo de uso permitido: I. Ter no mínimo 21 anos, declarar efetiva neces- sidade e apresentar cópia simples da carteira de identidade. II. Comprovar apenas no pedido de aquisição e na primeira renovação do registro, idoneidade e inexistência de inquérito policial ou processo criminal, por meio de certidões de antecedentes criminais fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral. III. Comprovar aptidão psicológica para o manuseio de arma de fogo, atestada em laudo conclusivo fornecido por psicólogo do quadro da Polícia Federal ou por esta credenciado. Para a aquisição e renovação, está correto o que se afirma APENAS em",
-                "opcoes": [
-                      "III.",
-                      "I e II.",
-                      "I e III.",
-                      "II e III.",
-                      "I."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O desembaraço alfandegário das armas e munições trazidas por agentes de segurança de dignitários estran- geiros, em visita ao país, será feito",
-                "opcoes": [
-                      "pela Polícia Federal, com posterior comunicação ao Ministério da Justiça.",
-                      "pelo Comando do Exército, com posterior comuni- cação à Polícia Federal.",
-                      "pela Receita Federal, com posterior comunicação ao Ministério da Justiça.",
-                      "pelo Comando do Exército, com posterior comu- nicação à Polícia Militar.",
-                      "pela Receita Federal, com posterior comunicação ao Comando do Exército."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>pela Receita Federal, com posterior comunicação ao Comando do Exército.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Mário possui porte de arma de fogo de uso permitido. Como sua esposa Joana está sendo ameaçada de morte, Mário resolveu transferir o porte de sua arma para sua cônjuge. Neste caso, é correto afirmar que Mário",
-                "opcoes": [
-                      "deverá requerer a autorização ao Ministério da Defesa, independentemente do pagamento de qualquer taxa.",
-                      "deverá requerer a autorização ao Ministério da Defesa, mediante o pagamento prévio da taxa",
-                      "deverá requerer a autorização ao Ministério da Justiça, mediante o pagamento prévio da taxa",
-                      "não terá como transferir o porte de sua arma, uma vez que o Porte de Arma de Fogo é pessoal e intransferível.",
-                      "deverá requerer a autorização para a Polícia Federal, mediante o pagamento prévio da taxa 10"
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>não terá como transferir o porte de sua arma, uma vez que o Porte de Arma de Fogo é pessoal e intransferível.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Arma de fogo de uso restrito é aquela",
-                "opcoes": [
-                      "destinada à segurança exclusiva do Presidente da República Federativa do Brasil, desde que autori- zado pelo Gabinete da Defesa Civil.",
-                      "de uso exclusivo das Forças Armadas, de instituições de segurança pública e de pessoas físicas e jurídicas habilitadas, devidamente autorizadas pelo Comando do Exército, de acordo com legislação específica.",
-                      "destinada à segurança exclusiva do Presidente do Banco Central do Brasil, desde que registrada junto ao Sistema de Inteligência Brasileiro.",
-                      "de uso permitido à utilização autorizada a pessoas físicas, bem como a pessoas jurídicas, de acordo com a legislação específica do SIGMA – Sistema de Gerenciamento Militar de Armas ou normas advin- das da Polícia Civil.",
-                      "destinadas exclusivamente à utilização de dignitá- rios, desde que registradas na Polícia Civil, após autorização do SIGMA."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>de uso exclusivo das Forças Armadas, de instituições de segurança pública e de pessoas físicas e jurídicas habilitadas, devidamente autorizadas pelo Comando do Exército, de acordo com legislação específica.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A perda, furto ou roubo ou outras formas de extravio de arma de fogo, acessório e munições que estejam sob a guarda das empresas de segurança privada e de trans- porte de valores deverá ser comunicada",
-                "opcoes": [
-                      "à Polícia Federal, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de res- ponsabilização do proprietário ou diretor responsável.",
-                      "ao Comando do Exército, no prazo máximo de quarenta e oito horas, após a ocorrência do fato, sob pena de responsabilização do proprietário ou diretor responsável.",
-                      "à Polícia Civil, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de prisão do proprietário ou diretor responsável.",
-                      "ao Ministério da Justiça, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de reclusão do proprietário ou diretor responsável.",
-                      "ao Ministério da Defesa, no prazo máximo de qua- renta e oito horas, após a ocorrência do fato, sob pe- na de reclusão do proprietário ou diretor responsável. o o"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>à Polícia Federal, no prazo máximo de vinte e quatro horas, após a ocorrência do fato, sob pena de res- ponsabilização do proprietário ou diretor responsável.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em conformidade com o artigo 1 do Decreto n 4.376/2002, o Sistema Brasileiro de Inteligência é responsável",
-                "opcoes": [
-                      "pela expedição de regulamentação específica para o trânsito e utilização de simulacros de armas de fogo.",
-                      "pela fiscalização e controle de armamento destinado ao uso de empresas especializadas em serviços de vigilância e ou transporte de valores, conforme normas do Comando do Exército.",
-                      "pelo encaminhamento de parecer conclusivo ao Ban- co Central do Brasil, com ciência da Polícia Federal, a respeito de apólice de seguros que inclua cobertura garantindo riscos de roubo e furto qualificado de numerário e outros valores, conforme legislação da Secretaria Nacional de Segurança Pública.",
-                      "pelo processo de obtenção e análise de dados e informações e pela produção e difusão de conheci- mentos necessários ao processo decisório do poder Executivo, em especial no tocante à segurança da sociedade e do Estado, bem como pela salvaguarda de assuntos sigilosos de interesse nacional.",
-                      "pela elaboração de emissão de laudo pericial a res- peito de armas brasonadas cujo desembaraço alfan- degário tenha sido autorizado pela Receita Federal."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>pelo processo de obtenção e análise de dados e informações e pela produção e difusão de conheci- mentos necessários ao processo decisório do poder Executivo, em especial no tocante à segurança da sociedade e do Estado, bem como pela salvaguarda de assuntos sigilosos de interesse nacional.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "É certo que, de acordo com o disposto no artigo terceiro do Decreto n 4.376/2002, contra-inteligência é",
-                "opcoes": [
-                      "a atividade de planejamento e proposição de normas e procedimentos que garantam a efetiva soberania nacional, em conformidade com os dispositivos instituídos pelo Gabinete de Segurança Institucional da Casa Civil.",
-                      "a atividade que objetiva prevenir, detectar, obstruir e neutralizar a inteligência adversa e ações de qual- quer natureza que constituam ameaça à salva- guarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado, bem como das áreas e dos meios que os retenham ou em que transitem.",
-                      "o desenvolvimento de estudos e pesquisas tecno- lógicas a respeito específico e exclusivo do Sistema de Proteção da Amazônia, em perfeita consonância com legislação específica expedida pelo Ministério da Ciência e Tecnologia.",
-                      "o uso de técnicas e meios sigilosos, para fins de análise, sobre potencial influência de substâncias psicotrópicas e afins em membros que compõem força-tarefa em operações militares de exclusivo interesse da Política Nacional de Inteligência.",
-                      "a atividade que objetiva contribuir com inteligência adversa a respeito de ações de qualquer natureza que constituam ameaça à salvaguarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>a atividade que objetiva prevenir, detectar, obstruir e neutralizar a inteligência adversa e ações de qual- quer natureza que constituam ameaça à salva- guarda de dados, informações e conhecimentos de interesse da segurança da sociedade e do Estado, bem como das áreas e dos meios que os retenham ou em que transitem.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No caso das emergências, cabe à Segurança Corporativa a principal responsabilidade pelo desencadeamento e precisão da execução das ações imediatas previstas. Assim, os procedimentos emergenciais consistem em",
-                "opcoes": [
-                      "execução periódica do planejamento de contingên- cias, assim entendido como a metodologia hábil para análise e avaliação permanente do processo produtivo da instituição e os riscos dele decorrentes.",
-                      "planejamento específico de programas de reassun- ção, os quais desativam a produção plena a fim de evitar danos maiores, de acordo com os parâmetros do Gerenciamento de Crises.",
-                      "ações especialmente direcionadas para minimizar os impactos causados pelo caráter repentino da ocor- rência das emergências, nas quais deve haver presteza na execução das tarefas e precisão das ações a serem desencadeadas.",
-                      "constante exame dos processos de segurança e cerrado monitoramento do negócio, com a finalidade específica de evitar crises oriundas de sabotagem ou terrorismo.",
-                      "ações de reassunção unicamente direcionadas para minimizar os danos ocorridos em função de pseudo alerta de ameaça oriunda de ação terrorista."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>ações especialmente direcionadas para minimizar os impactos causados pelo caráter repentino da ocor- rência das emergências, nas quais deve haver presteza na execução das tarefas e precisão das ações a serem desencadeadas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No que concerne a táticas e técnicas operacionais de exe- cução de atividades de segurança, quaisquer que sejam elas, I. é mister que haja gradação ao empregá-las, ou se- ja, do modus operandis mais complexo para o mais simples. II. deve-se considerar, enquanto planejamento, a ado- ção de uma metodologia, estabelecendo módulos e fases, realizando reuniões de coordenação prepa- ratórias de organização de roteiros. III. deve-se , se necessário, realizar reconhecimentos e treinamentos, salvaguardando a discrição e o sigilo, selecionando, ainda, itinerários alternativos para os deslocamentos da equipe. É INCORRETO o que consta em",
-                "opcoes": [
-                      "I, II e III.",
-                      "I e II, apenas.",
-                      "III, apenas.",
-                      "II, apenas.",
-                      "I, apenas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>I, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A distância de segurança frontal que o motorista de um veículo em movimento, com autoridades, em situação normal técnico-operacional de segurança e de trânsito, deverá guardar entre o seu e o veículo da frente é aquela",
-                "opcoes": [
-                      "superior a 10 (dez) metros, conforme preconiza a Lei n 7.102/83.",
-                      "correspondente a, no mínimo, 1 (um) metro.",
-                      "necessária, considerando-se a velocidade e as con- dições climáticas e do local.",
-                      "mais longínqua possível, conforme normatiza o CTB a esse respeito.",
-                      "correspondente ao tamanho de 6 (seis) veículos de médio porte, no mínimo."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>necessária, considerando-se a velocidade e as con- dições climáticas e do local.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Um motorista que está conduzindo dignitário em veículo blindado percebe, ao derredor, tentativa de abordagem criminosa de parte de outro veículo. Nesse caso, é primordial que o profissional",
-                "opcoes": [
-                      "efetue procedimento de fuga, infringindo sistematicamente normas do CTB, objetivando zelar pela integridade física do dignitário como dos transeuntes.",
-                      "utilize técnicas ofensivas, empreendendo fuga, tentando, se possível, abalroar o veículo suspeito, objetivando frustrar possibilidade de fuga.",
-                      "efetue sem demora a capitulação, conforme normatiza a Lei n 7.102/83.",
-                      "utilize técnicas de capitualação a fim de abalroar o veículo suspeito e frustrar ataques ofensivos.",
-                      "analise a situação e reaja rapidamente, com segurança, utilizando técnicas ofensivas para fuga e protegendo o dignitário. 11"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>analise a situação e reaja rapidamente, com segurança, utilizando técnicas ofensivas para fuga e protegendo o dignitário. 11</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Analise as assertivas abaixo. I. É indispensável que seja, se não claramente deli- neada, pelo menos esboçada a Cultura Empre- sarial quando o assunto é Segurança Corporativa. Pesquisar a cultura empresarial é fator de funda- mental importância na determinação do que é necessário fazer e do que efetivamente poderá ser feito em termos de segurança, evitando-se o plane- jamento e implantação de estratégias impróprias para o perfil cultural da organização. II. Segurança corporativa é aquela provida exclusiva- mente pelo Estado, providenciada e custeada por pessoa jurídica, que substitui a segurança pública mediante a utilização delegada de instituições específicas e integrantes da estrutura organizacio- nal daquele. III. No planejamento de ações de segurança de digni- tários é facultado usar das prerrogativas estatais, prevendo, assim, o aparato para fechamento de ruas, a utilização de comboios e de precursores (advanced). IV. A formação militar ou policial é condição primeira para fins de credenciamento e habilitação técnica do profissional de segurança de dignitários, deven- do-se apresentar comprovação de inscrição em órgão de classe específico, sendo este último órgão responsável pela regulamentação da profissão.",
-                "opcoes": [
-                      "I e II.",
-                      "I e III.",
-                      "II e III.",
-                      "II e IV.",
-                      "III e IV."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I e III.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "José encontrou um talonário de cheques na rua. Retirou uma das folhas, preencheu e a utilizou para pagar R$ 200,00 de combustível num posto de gasolina. Tal con- duta configurou o delito de",
-                "opcoes": [
-                      "estelionato.",
-                      "furto qualificado mediante fraude.",
-                      "venda de coisa alheia como própria.",
-                      "receptação.",
-                      "extorsão."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>estelionato.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Incorre na pena prevista para o crime de roubo quem",
-                "opcoes": [
-                      "subtrai, para si ou para outrem, coisa alheia móvel, com abuso de confiança, ou mediante fraude, es- calada ou destreza.",
-                      "subtrai, para si ou para outrem, coisa alheia móvel, com destruição ou rompimento de obstáculo.",
-                      "emprega violência contra pessoa ou grave ameaça, logo após subtraída a coisa, a fim de assegurar a impunidade do crime.",
-                      "apropria-se de coisa alheia móvel, de que tem a posse ou detenção em razão de ofício, emprego ou profissão.",
-                      "recebe, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima. 12"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>emprega violência contra pessoa ou grave ameaça, logo após subtraída a coisa, a fim de assegurar a impunidade do crime.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "João e Pedro são co-herdeiros, na proporção de metade para cada um, de uma herança de R$ 100.000,00 em di- nheiro, que estava guardada num armário da residência de Pedro, por ser o inventariante. João, à noite, entrou na casa, abriu o armário e subtraiu para si R$ 50.000,00. A conduta de João",
-                "opcoes": [
-                      "não é punível, por tratar-se subtração de coisa comum, cujo valor não excede à quota a que tem direito o agente.",
-                      "é punível a título de furto de coisa comum, pois o di- nheiro estava sendo legitimamente guardado por Pedro.",
-                      "é punível a título de furto de coisa comum, pois o dinheiro ainda não havia sido partilhado entre os dois.",
-                      "é punível a título de apropriação indébita, posto que, na condição de herdeiro, tinha posse da herança.",
-                      "é punível a título de estelionato, por ter empregado meio fraudulento para ludibriar Pedro."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>não é punível, por tratar-se subtração de coisa comum, cujo valor não excede à quota a que tem direito o agente.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em relação à análise de riscos, tem-se que o diagnóstico é um levantamento para fins de identificação e definição dos riscos a que uma instituição está sujeita e no qual se estabelecem graus de criticidade, sendo classificados como I. gravíssimos os riscos e ameaças que causam paralisação das atividades institucionais; II. graves apenas as ameaças que causam paralisa- ção das atividades institucionais; III. leves os que causam redução temporária (de uma a duas horas) das atividades institucionais; IV. mediatos os que não causam efeitos diretos sobre as atividades institucionais. É INCORRETO o que consta em",
-                "opcoes": [
-                      "I e II, apenas.",
-                      "I, III e IV, apenas.",
-                      "I, II, III e IV.",
-                      "II e III, apenas.",
-                      "II, III e IV, apenas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>II, III e IV, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "É certo que furto qualificado é a",
-                "opcoes": [
-                      "aquisição de qualquer objeto alheio por influência de assaltantes.",
-                      "subtração de objeto móvel alheio para si ou para outrem através do abuso de confiança, fraude, chave falsa e rompimento de obstáculos.",
-                      "aquisição ou recepção de algum objeto de outros, sabendo-se que é oriundo de crime.",
-                      "subtração de algum objeto alheio por meio da força física.",
-                      "subtração de objeto alheio para si ou para outrem mediante grave ameaça ou violência à pessoa."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>subtração de objeto móvel alheio para si ou para outrem através do abuso de confiança, fraude, chave falsa e rompimento de obstáculos.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Paulo subtraiu um toca-fitas e vendeu o referido aparelho para João. João não sabia que se tratava de produto de furto, interessou-se pelo negócio porque o preço do rádio correspondia a 10% do valor de mercado. Nesse caso, João cometeu crime de",
-                "opcoes": [
-                      "estelionato.",
-                      "receptação dolosa.",
-                      "receptação culposa.",
-                      "furto.",
-                      "apropriação indébita."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>receptação culposa.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O segurança de certo dignitário percebe que um dos filhos deste, inadvertida e acidentalmente, derramou substância ácida no braço nu. Tal segurança deve",
-                "opcoes": [
-                      "cobrir a área com um pano seco e limpo e friccionar o local afetado.",
-                      "limpar com pano seco e enfaixar o local com gases esterilizadas embebidas em solução anti-séptica.",
-                      "friccionar a região atingida com álcool.",
-                      "remover o produto, lavando com água corrente e encaminhar ao serviço médico especializado imediatamente.",
-                      "cobrir o local com pomada antibiótica até que chegue o socorro médico."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>remover o produto, lavando com água corrente e encaminhar ao serviço médico especializado imediatamente.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O dignitário, em tratamento para epilepsia, apresenta perda da consciência, contração involuntária dos músculos com movimentos descoordenados, dentes travados e excesso de salivação. Nesta situação, uma das medidas de primeiros socorros a ser prestada, pelo segurança, ao dignitário, é",
-                "opcoes": [
-                      "estimular a circulação cerebral oferecendo-lhe álcool para inalar.",
-                      "afastá-lo de local que ofereça perigo e deixá-lo debater-se.",
-                      "ministrar o comprimido contra a epilepsia com um pouco de água.",
-                      "borrifar água fria no rosto do dignitário.",
-                      "tentar conter as contrações musculares, apertando- lhe as roupas e segurando-o firmemente."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>afastá-lo de local que ofereça perigo e deixá-lo debater-se.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O dignitário escorregou e bateu a coluna vertebral na quina da calçada de uma via pública metropolitana. Nesta situação de suspeita de fratura na coluna, o segurança deve",
-                "opcoes": [
-                      "ativar a articulação da coluna, por meio de movimentos de flexão, enquanto aguarda o socorro especializado.",
-                      "segurar o tronco cuidadosamente com as mãos, enquanto outros removem a vítima do local.",
-                      "remover o dignitário ao Hospital Geral circunvizinho, após acomodá-lo cuidadosamente no banco traseiro de um carro.",
-                      "acionar o serviço de atendimento às emergências e não movimentar o dignitário.",
-                      "enfaixar o tronco e administrar medicamento analgésico."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>acionar o serviço de atendimento às emergências e não movimentar o dignitário.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O órgão central do Sistema de Inteligência Brasileiro, criado pela Lei n 9.883/99, é a",
-                "opcoes": [
-                      "AICB.",
-                      "ASIN.",
-                      "ABIN.",
-                      "ABEN.",
-                      "ACIN."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>ABIN.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No que diz respeito à análise de riscos em relação à segurança, considere: I. Riscos e ameaças são variáveis com manifesta probabilidade de ocorrência e com potencialidade para causar dano. II. No risco o dano é potencial, ou seja, caso ocorra determinado evento, poderá ou não haver perda. III. Na ameaça o dano é real, isto é, caso ocorra determinado evento, necessariamente haverá perda. IV. Dano e Perda não devem ser confundidos, pois que dano é gênero do qual são espécies o dano potencial e o dano real, enquanto que perda é conseqüência.",
-                "opcoes": [
-                      "III e IV, apenas.",
-                      "II e III, apenas.",
-                      "I, II, III e IV.",
-                      "I e II, apenas.",
-                      "I e IV, apenas."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>I e IV, apenas.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O processo de inteligência competitiva se tornou importante porque foi adaptado à realidade empresarial e à nova ordem mundial. Foram incorporadas a tal processo técnicas utilizadas",
-                "opcoes": [
-                      "pela tecnologia da informação e de gerenciamento de redes.",
-                      "pelo estatuto do programa de informações governa- mentais.",
-                      "pela Organização Mundial dos Direitos Humanos e pela administração pública.",
-                      "pelo estatuto dos oficiais militares e civis.",
-                      "pela ciência da Comunicação Social e pela defesa civil. 13"
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>pela tecnologia da informação e de gerenciamento de redes.</strong>. Fonte: FCC/2006. Assunto: conhecimentos_especificos_geral.",
-                "banca": "FCC",
-                "ano": 2006,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153203,14 +152564,14 @@ var QUESTOES_BANCO = {
                       "malha"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>barramento</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>barramento</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153224,14 +152585,14 @@ var QUESTOES_BANCO = {
                       "switch"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>roteador</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>roteador</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153245,14 +152606,14 @@ var QUESTOES_BANCO = {
                       "2 8"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>2 256</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>2 256</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153266,14 +152627,14 @@ var QUESTOES_BANCO = {
                       "Sessão e de Rede"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Sessão e de Rede</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Sessão e de Rede</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153287,14 +152648,14 @@ var QUESTOES_BANCO = {
                       "IP e UDP"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>TCP e UDP</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>TCP e UDP</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153308,14 +152669,14 @@ var QUESTOES_BANCO = {
                       "classe E"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>classe A</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>classe A</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153329,14 +152690,14 @@ var QUESTOES_BANCO = {
                       "UDP"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>Serial</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Serial</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153350,14 +152711,14 @@ var QUESTOES_BANCO = {
                       "document.querySelector(“#idade”).text"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>document.getElementById(“idade”).value</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>document.getElementById(“idade”).value</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153371,14 +152732,14 @@ var QUESTOES_BANCO = {
                       "<button trigger=”processar()”>Clique Aqui</button>"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong><button onclick=”processar()”>Clique Aqui</button></strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong><button onclick=”processar()”>Clique Aqui</button></strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153392,14 +152753,14 @@ var QUESTOES_BANCO = {
                       "comentários XML devem aparecer como atributos de uma etiqueta (tag)."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>documento deve começar com uma declaração XML.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>documento deve começar com uma declaração XML.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153413,14 +152774,14 @@ var QUESTOES_BANCO = {
                       "simétrica 9"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>assimétrica</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>assimétrica</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral",
+                      "informatica_geral",
                       "ortografia"
                 ],
                 "imagens": null
@@ -153435,14 +152796,14 @@ var QUESTOES_BANCO = {
                       "total que um processo passa na fila de pronto, aguar- dando para ser executado pelo processador."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>total, desde a submissão do processo até a sua con- clusão.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>total, desde a submissão do processo até a sua con- clusão.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153456,14 +152817,14 @@ var QUESTOES_BANCO = {
                       "Ser capaz de se ocultar extremamente bem e inter- ceptar chamadas ao sistema operacional, habilitando o acesso como administrador."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Ser capaz de se ocultar extremamente bem e inter- ceptar chamadas ao sistema operacional, habilitando o acesso como administrador.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Ser capaz de se ocultar extremamente bem e inter- ceptar chamadas ao sistema operacional, habilitando o acesso como administrador.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153477,14 +152838,14 @@ var QUESTOES_BANCO = {
                       "Varrer e remover malware do sistema, oferecendo proteção em tempo real contra ameaças de software malicioso."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>Controlar o tráfego de rede para permitir ou impedir a comunicação entre dispositivos com base em um conjunto de regras de segurança.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Controlar o tráfego de rede para permitir ou impedir a comunicação entre dispositivos com base em um conjunto de regras de segurança.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153498,14 +152859,14 @@ var QUESTOES_BANCO = {
                       "não permite armazenamento de programas na memória. 10"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>utiliza uma única memória para armazenar dados e instruções.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>utiliza uma única memória para armazenar dados e instruções.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153519,14 +152880,14 @@ var QUESTOES_BANCO = {
                       "ls -Rto > lista_completa.txt"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>ls -Rla > lista_completa.txt</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>ls -Rla > lista_completa.txt</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153540,14 +152901,14 @@ var QUESTOES_BANCO = {
                       "11111110"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>11111011</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>11111011</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153561,35 +152922,14 @@ var QUESTOES_BANCO = {
                       "Torna-se um hard link."
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>Torna-se um “link quebrado”.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Torna-se um “link quebrado”.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Um profissional de Informática é encarregado de geren- ciar um projeto de desenvolvimento de software em uma grande empresa. No dia do início do projeto, ele utiliza o Microsoft Project 2019 para salvar uma linha de base. Qual a finalidade da linha de base?",
-                "opcoes": [
-                      "Facilitar a comunicação entre os membros da equipe.",
-                      "Comparar o andamento do projeto com a previsão original.",
-                      "Aumentar a segurança dos dados do projeto.",
-                      "Coletar feedback dos stakeholders do projeto.",
-                      "Automatizar tarefas repetitivas no projeto."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>Comparar o andamento do projeto com a previsão original.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153603,14 +152943,14 @@ var QUESTOES_BANCO = {
                       "Reduzir o risco de fraude, erro e desvio de controles de segurança da informação."
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Reduzir o risco de fraude, erro e desvio de controles de segurança da informação.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Reduzir o risco de fraude, erro e desvio de controles de segurança da informação.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153624,14 +152964,14 @@ var QUESTOES_BANCO = {
                       "Firmware -> Sistema Operacional -> Aplicativos"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>Firmware -> Sistema Operacional -> Aplicativos</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>Firmware -> Sistema Operacional -> Aplicativos</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153645,14 +152985,14 @@ var QUESTOES_BANCO = {
                       "garantia de entrega de pacotes"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>maior espaço de endereçamento</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>maior espaço de endereçamento</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153666,14 +153006,14 @@ var QUESTOES_BANCO = {
                       "eliminar a necessidade de firewalls na organização. 11"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>aumentar a segurança do acesso remoto.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>aumentar a segurança do acesso remoto.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153687,14 +153027,14 @@ var QUESTOES_BANCO = {
                       "transferir dados de e para a memória."
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>controlar o acesso e o uso das linhas de dados e de endereços.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>controlar o acesso e o uso das linhas de dados e de endereços.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153708,14 +153048,14 @@ var QUESTOES_BANCO = {
                       "paridade"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>overflow</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>overflow</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153729,14 +153069,14 @@ var QUESTOES_BANCO = {
                       "acréscimo de um novo processo de serviço, denomi- nado Operação de Serviço."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153750,14 +153090,14 @@ var QUESTOES_BANCO = {
                       "U = { (x1, y2), (x2, y4), (x3, y1) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>U = { (x1, y2), (x2, y4), (x3, y1) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>U = { (x1, y2), (x2, y4), (x3, y1) } T = { (y1, z1), (y2, z1), (y3, z1), (y4, z1) }</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153771,14 +153111,14 @@ var QUESTOES_BANCO = {
                       "AMERICA 12"
                 ],
                 "correta": 0,
-                "explicacao": "Gabarito: <strong>America do Sul</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>America do Sul</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153792,14 +153132,14 @@ var QUESTOES_BANCO = {
                       "import pk1.*; o=new pk3.C();"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>import pk1.*; o=new pk3.C();</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>import pk1.*; o=new pk3.C();</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153813,14 +153153,14 @@ var QUESTOES_BANCO = {
                       "12"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>9</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>9</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153834,14 +153174,14 @@ var QUESTOES_BANCO = {
                       "UPDATE VOO SET NUMERO = 532 WHERE DESTINO = 'RIO DE JANEIRO'; 14"
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>DELETE FROM VOO WHERE DESTINO = 'CURITIBA';</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>DELETE FROM VOO WHERE DESTINO = 'CURITIBA';</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153855,14 +153195,14 @@ var QUESTOES_BANCO = {
                       "def unifica(p1, p2): while len(p1) != 0: while len(p2) != 0:"
                 ],
                 "correta": 3,
-                "explicacao": "Gabarito: <strong>def unifica(p1, p2): while len(p1) > 0 or len(p2) > 0 :</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>def unifica(p1, p2): while len(p1) > 0 or len(p2) > 0 :</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153876,56 +153216,14 @@ var QUESTOES_BANCO = {
                       "SELECT C1.DISCIPLINA, C2.PRE_REQUISITO FROM CURSO C1 LEFT JOIN CURSO C2 ON C1.DISCIPLINA = C2.PRE_REQUISITO;"
                 ],
                 "correta": 2,
-                "explicacao": "Gabarito: <strong>SELECT DISCIPLINA FROM CURSO INTERSECT SELECT PRE_REQUISITO FROM CURSO;</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>SELECT DISCIPLINA FROM CURSO INTERSECT SELECT PRE_REQUISITO FROM CURSO;</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Várias canetas coloridas estão sobre a mesa, algumas dentro do estojo e outras fora dele. Todas as canetas azuis estão sem tampa e sem tinta. Todas as canetas vermelhas estão sem tampa ou sem tinta. Todas as canetas que estão dentro do estojo estão com tinta.Todas as canetas verdes estão sem tampa, e todas as canetas roxas estão com tampa. Todas as canetas laranja estão sem tinta. Considerando-se que uma caneta com tampa é escolhida de dentro do estojo, qual é a cor da caneta?",
-                "opcoes": [
-                      "azul",
-                      "vermelha",
-                      "verde 16",
-                      "laranja",
-                      "roxa"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>roxa</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Projetos são realizados para cumprir objetivos através da produção de entregas. Um objetivo é definido como um resultado a que o trabalho é orientado, podendo ser uma posição estratégica a ser alcançada ou um propósito a ser atingido ou um produto a ser produzido ou um serviço a ser realizado. Nesse sentido, o gerenciamento de projeto pode ser de- finido como",
-                "opcoes": [
-                      "a aplicação de conhecimento, de habilidades, de sa- bedoria, de ciência e de arte, para que atividades or- ganizacionais alcancem a excelência operacional.",
-                      "a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.",
-                      "a implantação de um software para gerenciamento de projetos.",
-                      "a integração do método do caminho crítico em um sis- tema de gerenciamento de valor agregado.",
-                      "um subconjunto de disciplinas de Engenharia e outras disciplinas técnicas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>a aplicação de conhecimentos, de habilidades, de fer- ramentas e de técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153939,14 +153237,14 @@ var QUESTOES_BANCO = {
                       "E, F, G"
                 ],
                 "correta": 4,
-                "explicacao": "Gabarito: <strong>E, F, G</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>E, F, G</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           },
@@ -153960,35 +153258,14 @@ var QUESTOES_BANCO = {
                       "prescritivo para tomadas de decisão relacionadas a TI."
                 ],
                 "correta": 1,
-                "explicacao": "Gabarito: <strong>que define os componentes que sustentam um siste- ma de governança.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
+                "explicacao": "Gabarito: <strong>que define os componentes que sustentam um siste- ma de governança.</strong>. Fonte: CESGRANRIO/2023. Assunto: informatica_geral.",
                 "banca": "CESGRANRIO",
                 "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
+                "assunto": "informatica_geral",
                 "tipo": "multipla_escolha",
                 "flashcard": null,
                 "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A Estrutura Analítica do Projeto (EAP) é um diagrama es- truturado que suporta o gerenciamento de escopo de um projeto. Qual é o objetivo da EAP na gestão de um projeto?",
-                "opcoes": [
-                      "Apresentar a estrutura organizacional de um pro- grama.",
-                      "Apresentar quais elementos de trabalho foram atribu- ídos a unidades organizacionais.",
-                      "Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.",
-                      "Indicar quais membros da equipe têm responsabilida- de sobre cada pacote de trabalho.",
-                      "Indicar qual é o caminho crítico do projeto, com as atividades que não possuem folga de tempo."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Assegurar que todo o trabalho dentro de um projeto seja identificado e definido dentro de uma estrutura.</strong>. Fonte: CESGRANRIO/2023. Assunto: conhecimentos_especificos_geral.",
-                "banca": "CESGRANRIO",
-                "ano": 2023,
-                "assunto": "conhecimentos_especificos_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "conhecimentos_especificos_geral"
+                      "informatica_geral"
                 ],
                 "imagens": null
           }
@@ -154730,598 +154007,6 @@ var QUESTOES_BANCO = {
                 "flashcard": null,
                 "temas_relacionados": [
                       "estatistica_geral"
-                ],
-                "imagens": null
-          }
-    ],
-    "contabilidade_geral_e_publica_geral": [
-          {
-                "enunciado": "Uma entidade tinha seu modelo de negócios estruturado para a venda de terrenos. Em 01/01/X0, o seu estoque era de R$270.000, tendo a seguinte composição:  Terreno A: R$120.000  Terreno B: R$150.000. Em 31/01/X0, teve início um processo de melhorias na região onde os terrenos estão localizados. Por isso, a entidade decidiu retirar os terrenos de venda e mantê-los para valorização de capital a longo prazo, definindo mensurá-los pelo valor justo. Na data, o valor justo do Terreno A era de R$160.000 e o do Terreno B, de R$140.000. Assinale a opção que indica o efeito da mudança da intenção da administração nas demonstrações contábeis da entidade.",
-                "opcoes": [
-                      "Demonstração do Resultado do Exercício: +R$30.000.",
-                      "Demonstração das Mutações do Patrimônio Líquido: +R$30.000.",
-                      "Demonstração de Outros Resultados Abrangentes: +R$30.000.",
-                      "Demonstração do Resultado do Exercício: +R$40.000; Demonstração das Mutações do Patrimônio Líquido: –R$10.000.",
-                      "Demonstração das Mutações do Patrimônio Líquido: +R$40.000; Demonstração do Resultado do Exercício: –R$10.000."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Demonstração do Resultado do Exercício: +R$30.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em 31/12/X0, uma sociedade empresária adquiriu, à vista, um terreno para ser utilizado em seus negócios por R$100.000. A sociedade empresária avalia ao fim de cada período de reporte se há alguma indicação de que os seus ativos possam ter sofrido desvalorização. Os valores recuperáveis em 31/12/X1, 31/12/X2 e 31/12/X3 foram, respectivamente, de R$90.000, R$80.000 e R$120.000. Assinale a opção que indica a contabilização relacionada à recuperabilidade do terreno na Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X3, de acordo com a NBC TG 01 (R4) – Redução ao Valor Recuperável de Ativos:",
-                "opcoes": [
-                      "Receita de R$20.000.",
-                      "Receita de R$40.000.",
-                      "Reversão de Despesa de R$20.000.",
-                      "Reversão de Despesa de R$30.000.",
-                      "Reversão de Despesa de R$40.000."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Receita de R$20.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em 02/01/X1, uma entidade adquiriu computadores, para utilizar em sua área administrativa, por R$50.000, para pagamento em 31/12/X1. Se os computadores tivessem sido adquiridos à vista, o custo seria de R$45.000. O prazo de pagamento excede os prazos normais de crédito da entidade e o valor da compra é considerado material. A vida útil estimada dos computadores era de 5 anos. A entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. No ano de X1, a entidade contabilizou receita com a prestação de serviços de R$200.0000. Os custos com os serviços prestados foram de R$80.000. Além do lucro bruto de R$120.000, assinale a opção que indica os valores das contas apresentadas na Demonstração do Resultado do Exercício da entidade em 31/12/X1, sem considerar a incidência de impostos.",
-                "opcoes": [
-                      "Despesa de depreciação: R$9.000, apenas.",
-                      "Despesa de depreciação: R$10.000, apenas.",
-                      "Despesa de depreciação: R$9.000 e Despesa financeira:",
-                      "Despesa de depreciação: R$10.000 e Despesa financeira:",
-                      "Despesa de depreciação: R$10.000 e Receita financeira:"
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Despesa de depreciação: R$9.000 e Despesa financeira:</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com as modificações trazidas pelas Leis 11.638/07 e 11.941/09 no patrimônio líquido, a conta Ajustes de Avaliação Patrimonial representa as contrapartidas de aumentos ou diminuições de valor atribuído a elementos do ativo e do passivo, em decorrência de sua avaliação a valor justo. Os valores registrados nesta conta deverão ser transferidos para o resultado do exercício",
-                "opcoes": [
-                      "à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.",
-                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência ao regime de competência.",
-                      "à medida que os ativos e passivos forem sendo realizados, em obediência à característica qualitativa da tempestividade.",
-                      "no momento em que os ativos e os passivos forem totalmente baixados, em obediência à característica qualitativa da tempestividade.",
-                      "à medida que os ativos e os passivos forem sendo lançados em “Outros Resultados Abrangentes”, em obediência à característica qualitativa da tempestividade."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>à medida que os ativos e passivos forem sendo realizados, em obediência ao regime de competência.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma sociedade empresária apresentava os seguintes Balanços Patrimoniais em 31/12/X0 e em 31/12/X1, respectivamente: Já a Demonstração do Resultado do Exercício, em 31/12/X1, era a seguinte: Sobre a elaboração da Demonstração dos Fluxos de Caixa pelo método indireto em 31/12/X1, analise as afirmativas a seguir: I. Os montantes das contas “salários a pagar” e “imposto de renda a pagar” foram adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. II. Os montantes das contas “estoques” e “clientes” foram, respectivamente, excluídos e adicionados ao lucro líquido para calcular o fluxo de caixa da atividade operacional. III. No ano, o fluxo de caixa consumido pela atividade operacional foi de R$25.000. IV. No ano, o fluxo de caixa gerado pela atividade de investimento foi superior ao obtido nas atividades de financiamento. Em relação à elaboração da Demonstração dos Fluxos de Caixa da entidade em 31/12/X1, estão corretas as afirmativas",
-                "opcoes": [
-                      "I e II, apenas.",
-                      "I e III, apenas.",
-                      "II e IV, apenas.",
-                      "I, II e III, apenas.",
-                      "I, III e IV, apenas."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>I e III, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com a NBC TG 27(R4) – Ativo Imobilizado, as demonstrações contábeis devem, obrigatoriamente, divulgar",
-                "opcoes": [
-                      "o valor contábil do ativo imobilizado que esteja temporariamente ocioso.",
-                      "o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.",
-                      "o valor contábil de ativos imobilizados retirados de uso ativo e não classificados como mantidos para venda.",
-                      "o valor contábil bruto de qualquer ativo imobilizado totalmente depreciado que ainda esteja em operação.",
-                      "o valor justo do ativo imobilizado quando este for materialmente diferente do valor contábil apurado pelo método do custo. Balanço Patrimonial- 31/12/X0: Ativo Circulante Patrimônio Líquido Caixa 50.000 Capital Social 70.000 Estoques 20.000 Total do Ativo 70.000 Passivo + PL 70.000 Balanço Patrimonial- 31/12/X1: Ativo Circulante Passivo Circulante Caixa 25.000 Salários a pagar 15.000 Clientes 90.000 IR a pagar 4.080 PECLD -18.000 Patrimônio Líquido Capital Social 70.000 Reserva de Lucros 7.920 Total do Ativo 97.000 Passivo + PL 97.000 Demonstração do Resultado do Exercício- 31/12/X1: Receita de Vendas \t90.000 Custo das Mercadorias vendidas \t-20.000 Lucro Bruto \t70.000 Despesas Operacionais Despesa de Salários \t-15.000 Despesas com Perdas estimadas com crédito de liquidação duvidosa -18.000 Despesas de Aluguel \t-25.000 Lucro antes do Imposto de Renda e Contribuição Social \t12.000 Imposto de Renda e Contribuição Social \t-4.080 Lucro Líquido \t7.920"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>o valor dos gastos reconhecidos no valor contábil de um item do ativo imobilizado durante a sua construção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma sociedade empresária apresentava os seguintes ativos em seu Balanço Patrimonial, em 31/12/X0:  Caixa: R$200.000;  Terreno mantido para futuro uso correntemente indeterminado: R$70.000;  Edifício arrendado para terceiros sob arrendamento operacional: R$120.000;  Edifício desocupado, mantido para ser arrendado para terceiros sob arrendamento operacional: R$140.000;  Propriedade em construção para futura utilização como propriedade para investimento: R$150.000. Assinale a opção que indica o saldo da conta Propriedade para Investimento no Balanço Patrimonial da sociedade empresária na data.",
-                "opcoes": [
-                      "R$150.000.",
-                      "R$220.000.",
-                      "R$260.000.",
-                      "R$410.000.",
-                      "R$480.000."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>R$480.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A Lei nº 11.941/09 trouxe alterações em relação à Lei nº 6.404/76, que estão alinhadas com o texto da NBC TG 18 (R3) – Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto. Com base na norma contábil, são coligadas as sociedades nas quais a investidora tem influência significativa. Considera-se que há efetivamente influência significativa quando",
-                "opcoes": [
-                      "a investidora considera relevante o investimento na coligada.",
-                      "a investidora exerce controle por meio de uma subsidiária integral.",
-                      "o valor contábil do investimento é igual a 10% do valor do patrimônio líquido da investidora.",
-                      "a investidora é titular de, no mínimo, 15% das ações preferenciais do capital da investida.",
-                      "a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>a investidora detém ou exerce o poder de participar nas decisões das políticas financeira ou operacional da investida, sem controlá-la.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Na contabilização do estoque de uma entidade do setor industrial, os gastos com armazenamento foram incluídos no valor dos estoques, reconhecidos no ativo. Em relação a esses gastos, pode-se afirmar que",
-                "opcoes": [
-                      "foram pagos à vista.",
-                      "seu montante é considerado material, frente ao custo das mercadorias.",
-                      "foram incorridos para trazer os estoques à sua condição e localização atuais.",
-                      "foram necessários ao processo produtivo entre uma e outra fase de produção.",
-                      "deverão ser amortizados mensalmente, com base na vida útil estimada do estoque."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>foram necessários ao processo produtivo entre uma e outra fase de produção.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O custo dos estoques de bens ou serviços produzidos e segregados para projetos específicos deve ser atribuído pelo uso",
-                "opcoes": [
-                      "do custo médio ponderado fixo.",
-                      "do custo médio ponderado móvel.",
-                      "do último que entra, primeiro que sai.",
-                      "do primeiro que entra, primeiro que sai.",
-                      "da identificação específica dos custos individuais."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>da identificação específica dos custos individuais.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma entidade que trabalha com auditoria contábil adquiriu, em 01/01/X1, por R$700.000 à vista, um imóvel para ser utilizado como sede. A vida útil do imóvel era estimada em 25 anos e não era considerado valor residual. Além disso, a entidade depreciava os seus ativos imobilizados de acordo com o método da linha reta. Em 31/12/X3, o imóvel foi colocado para à venda. Na data, o ativo estava disponível para venda imediata e o nível hierárquico de gestão estava comprometido com o plano de venda do ativo, tendo iniciado um programa para localizar um comprador. Além disso, o valor justo do imóvel, líquido das despesas de venda, foi avaliado em R$720.000. Em 31/12/X4, o imóvel foi vendido por R$750.000 à vista. Assinale a opção que indica o resultado obtido com venda do imóvel, contabilizado na Demonstração do Resultado do Exercício da entidade em 31/12/X4.",
-                "opcoes": [
-                      "R$30.000.",
-                      "R$50.000.",
-                      "R$62.727.",
-                      "R$134.000.",
-                      "R$162.000."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>R$134.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma sociedade empresária efetuou a captação de debêntures de longo prazo no mercado financeiro, com prêmio. No ano de X1, foi efetuado o pagamento dos juros e realizada a amortização periódica do prêmio recebido. Assinale a opção que indica a apresentação do efeito da apropriação do prêmio das debêntures na estrutura de grupos da Demonstração do Resultado do Exercício da sociedade empresária em 31/12/X1.",
-                "opcoes": [
-                      "Despesa Financeira.",
-                      "Receita Financeira.",
-                      "Outras receitas Operacionais.",
-                      "Retificação da Receita Financeira.",
-                      "Prêmios na emissão de debêntures a apropriar."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>Despesa Financeira.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma entidade do setor público possui participação permanente em outra entidade. A participação é avaliada de acordo com o custo de aquisição. A entidade investidora deve reconhecer o rendimento relacionado à entidade investida quando",
-                "opcoes": [
-                      "receber as distribuições de lucros, apenas.",
-                      "a entidade investida reconhecer lucro, apenas.",
-                      "as duas entidades realizarem operações entre si, apenas.",
-                      "a entidade investida reconhecer lucro ou prejuízo, apenas.",
-                      "receber as distribuições de lucros e a entidade investida reconhecer lucro, apenas."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>receber as distribuições de lucros, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma entidade do setor público realizou transações em moeda estrangeira. Em sua Demonstração dos Fluxos de Caixa, o efeito das mudanças nas taxas cambiais sobre o caixa e equivalentes de caixa, mantidos ou devidos em moeda estrangeira, deve ser apresentado",
-                "opcoes": [
-                      "como atividade operacional.",
-                      "como atividade de investimento.",
-                      "como atividade de financiamento.",
-                      "como caixa e equivalente de caixa.",
-                      "separadamente dos fluxos de caixa das três atividades."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>separadamente dos fluxos de caixa das três atividades.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Em 31/12/X0, uma sociedade empresária apresentava o seguinte balanço patrimonial: As vidas úteis estimadas dos móveis e dos computadores eram, respectivamente, de 10 anos e de 5 anos. A sociedade empresária depreciava os seus ativos imobilizados de acordo com o método da linha reta e não considerava valor residual. Em 31/12/X1, a sociedade empresária realizou um teste de recuperabilidade de seus ativos imobilizados. No teste, ela constatou que os móveis apresentavam valor justo de R$85.000, sendo que as despesas com a sua remoção eram estimadas em R$12.000, e as despesas associadas à reorganização do negócio após à venda eram estimadas em R$4.000. Por sua vez, o valor em uso dos móveis era estimado em R$70.000. Por sua vez, os computadores apresentavam valor justo de R$32.000, sendo que os gastos diretos incrementais para deixá-los em condição de venda eram de R$5.000. O valor em uso dos computadores era estimado em R$28.000. Assinale a opção que indica os valores contabilizados como perda por desvalorização dos móveis e dos computadores, respectivamente.",
-                "opcoes": [
-                      "zero e zero.",
-                      "R$9.000 e R$2.000.",
-                      "R$9.000 e R$3.000.",
-                      "zero e R$3.000.",
-                      "R$13.000 e R$2.000. Ativo Circulante \t45.000 Caixa \t45.000 Ativo não Circulante Ativo Imobilizado \t130.000 Patrimônio Líquido Móveis \t100.000 Capital Social \t175.000 Depreciação Acumulada -8.000 Computadores \t40.000 Depreciação Acumulada -2.000 Ativo Total \t175.000 Passivo + PL \t175.000"
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>R$9.000 e R$2.000.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma entidade que presta serviços de consultoria contabilizou as seguintes transações no ano de X0: Receita de serviços: R$500.000 Receita com a venda de ativo imobilizado: R$80.000 Receita com aluguel de imóvel a terceiros: R$15.000 Receita com variação cambial ativa: R$14.000 Receita com direito de franquia: R$6.000 Custo dos serviços prestados: R$160.000 Custo do ativo imobilizado vendido: R$60.000 Despesa de salários de funcionários administrativos: R$50.000 Despesa com serviços de contabilidade terceirizada: R$30.000 Despesa com assistência médica a funcionários: R$25.000 Despesa com alimentação de funcionários: R$42.000 Despesa de depreciação dos ativos imobilizados usados para a prestação dos serviços: R$18.000 Despesa com aluguel da sede da empresa: R$36.000 Despesa com juros: R$12.000 Incidência de 34% do lucro líquido a título de imposto de renda e contribuição social Distribuição de 30% do lucro após o imposto de renda e contribuição social aos acionistas Todas as receitas são tributáveis, e as despesas, dedutíveis. Além disso, a constituição da reserva legal não foi necessária. Em relação à Demonstração do Valor Adicionado da entidade, analise as afirmações a seguir. I. Valor adicionado recebido em transferência: R$21.000. II. Valor adicionado a distribuir a pessoal: R$75.000. III. Valor adicionado a distribuir a impostos, taxas e contribuições: R$61.880. IV. Valor adicionado a distribuir a remuneração de capitais próprios: R$36.036. V. Valor adicionado a distribuir a remuneração de capitais de terceiros: R$48.000.",
-                "opcoes": [
-                      "I e II, apenas.",
-                      "III e IV, apenas.",
-                      "III e V, apenas.",
-                      "I, III e V, apenas.",
-                      "II, IV e V, apenas."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>III e V, apenas.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Uma entidade vende canetas personalizadas. Em 01/01/X0, não havia estoque. Em 02/01/X0, ela adquiriu 500 unidades de canetas para personalização e venda por R$6.000, para pagamento em 3 meses. Se as canetas tivessem sido adquiridas à vista, o custo unitário seria de R$10,00. Na data da aquisição, a entidade incorreu em gastos com frete e seguro, respectivamente, de R$800 e R$700. Para a personalização das 500 canetas são gastos R$1.000 em material. Além disso, é utilizada uma máquina que foi adquirida por R$10.000 e tem capacidade estimada em 5.000 canetas. A máquina é depreciada de acordo com o método dos benefícios gerados e a entidade não considera valor residual. Ainda, os gastos com o armazenamento das 500 canetas prontas eram de R$1.500. Após prontas, 50 canetas foram descartadas, por estarem com qualidade inferior ao esperado. Em 31/01/X0, as canetas foram colocadas à venda por R$20,00. A entidade destina aos vendedores uma comissão de 10% sobre o preço de venda. Assinale a opção que indica o valor contabilizado como estoque em 31/01/X0.",
-                "opcoes": [
-                      "R$5.850.",
-                      "R$6.750.",
-                      "R$7.650.",
-                      "R$8.100.",
-                      "R$9.000."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>R$7.650.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "De acordo com a NBC TA Estrutura Conceitual – Estrutura Conceitual para Trabalhos de Asseguração, a confiabilidade da evidência é influenciada por sua fonte e sua natureza e depende das circunstâncias particulares sob as quais são obtidas. Assinale a opção que, de um modo geral, indica quando a generalização sobre a confiabilidade da evidência pode ser feita.",
-                "opcoes": [
-                      "A evidência é mais confiável quando é obtida por meio de fontes internas às partes apropriadas.",
-                      "A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.",
-                      "A evidência gerada pela representação verbal do que foi debatido é mais confiável do que a evidência em papel.",
-                      "A evidência obtida indiretamente por dedução é mais confiável do que a evidência obtida diretamente pelo auditor independente.",
-                      "A evidência gerada por auditor independente que realiza o trabalho pela primeira vez é mais confiável do que a evidência gerada por auditor independente antigo."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>A evidência que é gerada internamente é mais confiável quando os controles relacionados são efetivos.</strong>. Fonte: FGV/2023. Assunto: contabilidade_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "contabilidade_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "contabilidade_geral_e_publica_geral"
-                ],
-                "imagens": null
-          }
-    ],
-    "administracao_geral_e_publica_geral": [
-          {
-                "enunciado": "As informações levantadas durante a fase de iniciação de um projeto são condensadas e registradas em um único documento cujo objetivo é formalizar as necessidades do negócio, a compreensão das necessidades dos clientes e o novo produto (seja ele um bem ou um serviço) que será o resultado do projeto. Tal documento pode ser nomeado como",
-                "opcoes": [
-                      "Estrutura Analítica do Projeto.",
-                      "Termo Analítico do Projeto.",
-                      "Plano de Iniciação do Projeto.",
-                      "Termo de Abertura do Projeto.",
-                      "Plano de Gerenciamento do Projeto."
-                ],
-                "correta": 3,
-                "explicacao": "Gabarito: <strong>Termo de Abertura do Projeto.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O balanço patrimonial representa o valor contábil de uma sociedade empresária em um momento específico, como se fosse um retrato da empresa. Ele é composto por dois lados: no esquerdo estão os ativos da empresa; no direito são identificados os passivos e o capital dos acionistas. A definição contábil que fundamenta e descreve o balanço patrimonial é a seguinte: Ativos = Passivos + Patrimônio liquido Considere as informações apresentadas a seguir sobre a sociedade empresária XPTO no ano de 20XX. Empresa XPTO 20XX Caixa e equivalentes 150 Fornecedores 150 Empréstimos 200 Ações Ordinárias 100 Reservas de Capital 250 Contas a receber 600 Estoques 250 Bens, imóveis, fábricas e equipamentos 1500 Dívidas de longo prazo 500 Ações preferenciais 200 Ativos intangíveis e outros 300 Despesas a pagar 50 Impostos diferidos 300 Reserva de lucros 400 Depreciação acumulada 800 Ações em tesouraria 150 No período apresentado, os valores do Ativo Não-Circulante, do Passivo Circulante e do Patrimônio Líquido são, respectivamente,",
-                "opcoes": [
-                      "1000, 400 e 950.",
-                      "2300, 700 e 950.",
-                      "1000, 400 e 800.",
-                      "700, 700 e 950.",
-                      "700, 700 e 800."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>1000, 400 e 800.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A aplicação do Desdobramento da Função Qualidade (QFD) envolve a construção de uma série de matrizes, sendo a mais utilizada denominada Casa da Qualidade. Com relação ao QFD, avalie as afirmativas a seguir. I. Os requisitos dos clientes são as expressões linguísticas da vontade dos clientes convertidas qualitativamente em necessidades reais. II. A matriz de correlações é o teto da matriz da qualidade e tem por objetivo cruzar as características de qualidade entre si, permitindo identificar como elas se relacionam. III. Na avaliação competitiva do cliente, o objetivo é identificar o desempenho percebido do produto final da empresa, após a inserção dos requisitos dos clientes, na visão do cliente, em comparação com os principais concorrentes. Está correto apenas o que se afirma em",
-                "opcoes": [
-                      "I e II.",
-                      "II e III.",
-                      "I e III.",
-                      "I.",
-                      "II."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>I e II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A análise da matriz de participação de mercado/crescimento do mercado, também conhecida como Matriz BCG, é uma técnica de análise da carteira (portfólio) de negócios para a formulação de estratégias adequadas para melhor administrar suas carteiras de investimentos. Em relação à Matriz BCG, relacione cada um de seus quadrantes às suas características. 1. Ponto de interrogação 2. Vaca leiteira 3. Bicho de estimação 4. Estrela ( ) Apresenta um desafio para as organizações, porque ele exige muito dinheiro para permanecer competitivo em mercados em crescimento. ( ) É um produto que não atingiu uma base segura num mercado em expansão, mas altamente competitivo. ( ) As estratégias de marketing para esse quadrante procuram defender a parcela de mercado mediante o reforço da lealdade do consumidor. ( ) As estratégias de marketing para esse quadrante pretendem maximizar qualquer lucro potencial ao minimizar os gastos ou promover um diferencial para construir parcela de mercado. Assinale a opção que indica a relação correta, na ordem apresentada.",
-                "opcoes": [
-                      "4 – 1 – 3 – 2",
-                      "1 – 2 – 3 – 4",
-                      "1 – 4 – 3 – 2",
-                      "4 – 3 – 1 – 2",
-                      "4 – 1 – 2 – 3"
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>4 – 1 – 2 – 3</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O Balanced Score Card (BSC) é um importante instrumento de gerenciamento que permite a medição e a gestão do desempenho. Com relação às perspectivas do BSC, analise as afirmativas as seguir. I. Perspectiva Financeira: representa metas a curto prazo, a fim de gerar retornos acima do capital investido na unidade de negócio. II. Perspectiva Clientes: representa metas para operações, logística, marketing e desenvolvimento de produtos e serviços da sociedade empresária. III. Perspectiva Processos Internos: desenvolve objetivos e medidas para orientar o aprendizado e o crescimento organizacional; os processos internos são prioritários para criar um clima que dê suporte à mudança, à inovação e ao crescimento organizacional. Está correto apenas o que se afirma em",
-                "opcoes": [
-                      "I.",
-                      "II.",
-                      "I e II.",
-                      "II e III.",
-                      "I e III."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>II.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "Na reforma do Estado, as mudanças institucionais visavam a desenvolver uma estrutura organizacional moderna, ágil, permeável à participação popular. Uma dessas mudanças tinha um formato e um modo de contratualização específicos e tinha por objetivo a transformação de autarquias e fundações da administração direta e exclusiva do Estado, dotando-as de maior autonomia, modernização estrutural e controle de resultados. Esse processo descreve a constituição de",
-                "opcoes": [
-                      "uma agência executiva.",
-                      "uma agência reguladora.",
-                      "um consórcio público.",
-                      "uma organização da sociedade civil de interesse público.",
-                      "organizações sociais."
-                ],
-                "correta": 0,
-                "explicacao": "Gabarito: <strong>uma agência executiva.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A comunicação na Administração Pública passou por mudanças paradigmáticas, ao se contrastar o modelo burocrático com o pós- burocrático. A respeito do tema, é correto afirmar que a comunicação, na perspectiva pós-burocrática de interação, está relacionada aos fatores apresentados a seguir, à exceção de um. Assinale-o.",
-                "opcoes": [
-                      "Auxílio à decisão e aos controles frente à descentralização e autonomia na gestão pública.",
-                      "Coordenação democrática, interna e externa dos atores envolvidos, estímulo à interação e à participação e iniciativas formuladas, discutidas e implementadas em rede.",
-                      "Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.",
-                      "Flexibilidade, qualidade e inovação no uso dos meios adequados a cada fluxo comunicacional.",
-                      "Participação e interação na construção dos meios pelos atores envolvidos."
-                ],
-                "correta": 2,
-                "explicacao": "Gabarito: <strong>Desenvolvimento de caráter instrumental e formalístico, visando à publicidade dos atos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "A política de formação de jovens empreendedores de periferias encontrava-se na fase de elaboração de indicadores de avaliação. Um assessor da secretaria sugeriu a construção de dois indicadores a serem mensurados a cada 6 meses após o término do curso: número de negócios próprios criados ainda em funcionamento e nível de renda e melhoria de qualidade de vida. Considerando-se os diferentes objetivos e fases na avaliação, entende-se que os indicadores propostos se relacionam à dimensão de",
-                "opcoes": [
-                      "custo-eficiência.",
-                      "efetividade transformacional.",
-                      "eficácia processual.",
-                      "insumo-produto.",
-                      "marco zero."
-                ],
-                "correta": 1,
-                "explicacao": "Gabarito: <strong>efetividade transformacional.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "O mapa estratégico tem sido amplamente utilizado na gestão para resultados integrada ao planejamento de organizações públicas. A Receita Federal do Brasil desenvolveu um mapa estratégico para o período 2012-2015 no qual indicou como objetivo estratégico “reduzir litígios tributários e aduaneiros”. O objetivo elaborado refere-se, no mapa estratégico, à perspectiva",
-                "opcoes": [
-                      "de aprendizado e de crescimento.",
-                      "do cliente e da sociedade.",
-                      "financeira de resultados.",
-                      "de pessoas e recursos.",
-                      "dos processos internos."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>dos processos internos.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
-                ],
-                "imagens": null
-          },
-          {
-                "enunciado": "No gerenciamento de riscos aduaneiros, um determinado operador econômico autorizado conseguiu descontinuar uma atividade que originou um risco e removeu a fonte dele. Assim, o mapa de risco do operador pode ser atualizado quanto a seus processos de trabalho, relacionados aos critérios de conformidade. No processo de gestão de risco, entende-se que o operador atuou na etapa de",
-                "opcoes": [
-                      "avaliação.",
-                      "comunicação.",
-                      "monitoramento.",
-                      "registro.",
-                      "tratamento."
-                ],
-                "correta": 4,
-                "explicacao": "Gabarito: <strong>tratamento.</strong>. Fonte: FGV/2023. Assunto: administracao_geral_e_publica_geral.",
-                "banca": "FGV",
-                "ano": 2023,
-                "assunto": "administracao_geral_e_publica_geral",
-                "tipo": "multipla_escolha",
-                "flashcard": null,
-                "temas_relacionados": [
-                      "administracao_geral_e_publica_geral"
                 ],
                 "imagens": null
           }
