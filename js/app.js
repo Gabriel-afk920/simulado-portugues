@@ -593,9 +593,13 @@ function renderQuestao() {
   document.getElementById('progress-bar').style.width  = ((indiceAtual / total) * 100) + '%';
   document.getElementById('topic-tag').textContent     = temaAtual.nome;
 
-  // Mostra botão de teoria só se a questão tiver temas_relacionados
+  // Mostra botão de teoria só se houver teoria de verdade pra exibir (mesmo
+  // filtro usado por abrirPainelTeoria/_resolverTemasParaPanel) -- só ter
+  // temas_relacionados não basta, o tema pode existir com teoria vazia (ex:
+  // matérias de concurso além de Português, que ainda não têm teoria escrita).
   const btnTeoria = document.getElementById('btn-consultar-teoria');
-  btnTeoria.style.display = (q.temas_relacionados && q.temas_relacionados.length) ? '' : 'none';
+  const temTeoriaReal = q.temas_relacionados && _resolverTemasParaPanel(q.temas_relacionados).length > 0;
+  btnTeoria.style.display = temTeoriaReal ? '' : 'none';
 
   // Cabeçalho no formato de questão de concurso público
   let cabecalho = '';
