@@ -2679,6 +2679,15 @@ const TEMAS = [
   ou a palavra tinha trema (ü) antes do Acordo de 2009.
 </div>
 
+<div class="exemplo-box" style="border-left:3px solid #f87171;">
+  <strong>⚠️ Exceção: verbos da classe ARGUIR/DELINQUIR — U pronunciado mesmo antes de E/I</strong><br><br>
+  Um grupo pequeno de verbos (<em>arguir, redarguir, delinquir</em> e suas flexões) foge à regra geral do qu/gu: neles o <strong>U é sempre pronunciado como semivogal</strong>, mesmo diante de <em>e</em> ou <em>i</em> — diferente de "seguir/distinguir/conseguir", onde o U some foneticamente antes de e/i.<br><br>
+  <em>delinquiu</em> → de-lin-<strong>quiu</strong>: q+<strong>u</strong>(SV)+<strong>i</strong>(V)+<strong>u</strong>(SV) → <strong>TRITONGO</strong> uiu (não é dígrafo mudo aqui!)<br>
+  <em>delinquei</em> → de-lin-<strong>quei</strong>: q+<strong>u</strong>(SV)+<strong>e</strong>(V)+<strong>i</strong>(SV) → <strong>TRITONGO</strong> uei<br>
+  <em>arguiu</em> → ar-<strong>guiu</strong>: g+<strong>u</strong>(SV)+<strong>i</strong>(V)+<strong>u</strong>(SV) → <strong>TRITONGO</strong> uiu<br><br>
+Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> → se-<strong>guiu</strong>: aqui o U de "gu" é mudo (dígrafo normal) → sobram apenas <strong>i+u</strong> → <strong>DITONGO</strong>, não tritongo. Mesma coisa em <em>conseguiu, perseguiu, distinguiu</em>. <strong>Regra prática de prova:</strong> a pegadinha clássica é exatamente confundir "seguiu" (ditongo) com "delinquiu/arguiu" (tritongo) — a diferença está no verbo específico, não numa regra geral de ortografia; são exceções lexicais que precisam ser memorizadas (arguir, redarguir, delinquir).
+</div>
+
 <h3>4. Letras que formam Vogal e Semivogal no Tritongo</h3>
 <p><strong>Vogal principal (posição central):</strong> pode ser qualquer vogal — a, e, o, ou vogais nasais (ã, vogal+m, vogal+n). Ela é o núcleo da sílaba.</p>
 <p><strong>Semivogais (posições 1ª e 3ª):</strong> apenas <em>i</em> ou <em>u</em> sem acento. São sempre átonos dentro do tritongo.</p>
