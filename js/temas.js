@@ -2170,11 +2170,42 @@ const TEMAS = [
 <ul>
   <li>Antes de nomes próprios femininos: <em>Dei o presente a/à Maria.</em></li>
   <li>Antes de pronome possessivo feminino: <em>Fui a/à sua casa.</em></li>
+  <li>Depois da preposição "até": <em>Fui até a/à porta.</em></li>
+</ul>
+
+<h3>Crase por regência (verbal e nominal) — o padrão mais cobrado em prova CESPE</h3>
+<p>A crase não depende só do substantivo seguinte: depende também de o <strong>verbo ou nome anterior EXIGIR a preposição "a"</strong> (regência) diante de um termo feminino que admite artigo. É o mesmo raciocínio da <a href="#regencia">regência verbal/nominal</a> aplicado ao "a".</p>
+<ul>
+  <li><strong>Aspirar</strong> (no sentido de "desejar") é VTI regido por "a": "Ele aspira <strong>à</strong> vaga." (aspira a + a vaga)</li>
+  <li><strong>Assistir</strong> (no sentido de "prestar auxílio" ou "ter direito") é VTI regido por "a": "O médico assistiu <strong>à</strong> vítima." / "Assiste-lhe o direito <strong>à</strong> defesa."</li>
+  <li><strong>Visar</strong> (no sentido de "objetivar") é VTI regido por "a": "O projeto visa <strong>à</strong> melhoria."</li>
+  <li><strong>Obedecer/desobedecer</strong> são VTI regidos por "a": "Obedeça <strong>às</strong> normas."</li>
+  <li><strong>Referir-se, aludir, faltar (no sentido de estar ausente)</strong> também regem "a": "Refiro-me <strong>à</strong> proposta.", "Faltou <strong>à</strong> reunião."</li>
+  <li>Nomes (substantivos/adjetivos) que regem "a": fiel <strong>a</strong>, favorável <strong>a</strong>, contrário <strong>a</strong>, prejudicial <strong>a</strong>, tendência <strong>a</strong> — se o termo seguinte for feminino e admitir artigo, forma-se a crase: "prejudicial <strong>à</strong> saúde", "tendência <strong>à</strong> violência".</li>
+</ul>
+<p><strong>Cuidado com o inverso</strong>: se o verbo/nome NÃO exige a preposição "a" (é transitivo direto ou rege outra preposição), não há crase mesmo diante de palavra feminina: "Ele avistou a cidade" (avistar é VTD, não "avistar a"); "Chegar" rege "a" só no sentido de destino ("chegar à cidade"), mas não confundir com "chegar de" (origem).</p>
+
+<h3>Crase diante de palavras que ora admitem, ora recusam artigo</h3>
+<ul>
+  <li><strong>Casa</strong> (sentido de lar/residência própria, sem especificação): não tem crase — "Vou a casa." Com especificação/adjetivo, passa a admitir artigo: "Vou <strong>à</strong> casa de Maria."</li>
+  <li><strong>Terra</strong> (sentido de chão firme, oposto a bordo/mar): não tem crase — "Os marinheiros voltaram a terra." Em outros sentidos (terra natal, planeta), admite artigo: "Voltou <strong>à</strong> terra natal."</li>
+  <li><strong>Distância</strong>: sem especificação, não tem crase — "Ficou a distância." Com especificação, admite: "Ficou <strong>à</strong> distância de dois metros."</li>
+  <li><strong>Nomes de lugares</strong>: em geral não admitem artigo (não tem crase: "Fui a Roma", "Fui a Belém") — exceto os que já são acompanhados de artigo no próprio nome (tem crase: "Fui <strong>à</strong> Bahia", "Fui <strong>à</strong> França", "Fui <strong>à</strong> Argentina"). Teste: se o lugar aceita "da" (não "de"), tem artigo e, portanto, crase ("Voltei <strong>da</strong> Bahia" → "Fui <strong>à</strong> Bahia"); se só aceita "de", não tem artigo nem crase ("Voltei de Roma" → "Fui a Roma").</li>
+</ul>
+
+<h3>Outros casos importantes</h3>
+<ul>
+  <li><strong>Àquele(s)/àquela(s)/àquilo</strong> sempre com crase quando regidos por termo que exige "a".</li>
+  <li><strong>À moda de / à maneira de</strong>: crase mesmo quando a expressão fica subentendida — "Sapato à Luís XV" (à moda de Luís XV).</li>
+  <li><strong>Crase antes de "que"</strong> em estruturas comparativas elípticas: "Comprou mais roupas <strong>à</strong> que precisava" (a que = a + a qual/aquilo que).</li>
+  <li><strong>Aonde × onde</strong>: "aonde" (a + onde) é usado com verbos de movimento, podendo indicar crase implícita — "Aonde você vai?"; "onde" é usado com verbos de permanência — "Onde você está?"</li>
+  <li><strong>Sem crase antes de verbo no infinitivo</strong>, mesmo que o verbo esteja substantivado por outro artigo: "Está disposto a ajudar" (sem crase, pois "ajudar" é verbo).</li>
 </ul>
 
 <div class="exemplo-box">
   <strong>Ortograficamente correto:</strong> "Fui <strong>à</strong> reunião" (crase: preposição + artigo)<br>
-  <strong>Sem crase:</strong> "Fui a Roma" (Roma não usa artigo definido)<br>
+  <strong>Sem crase:</strong> "Fui a Roma" (Roma não admite artigo)<br>
+  <strong>Crase por regência:</strong> "Aspiro <strong>à</strong> promoção." (aspirar rege "a" + "a" promoção, fem.)<br>
   <strong>Acento grave indica crase:</strong> à, às, àquele, àquela, àquilo
 </div>
 
@@ -2185,6 +2216,8 @@ const TEMAS = [
     <li>Use o macete "ao": se cabe "ao" no masculino, cabe "à" no feminino.</li>
     <li>Locuções femininas sempre com crase: <em>às vezes, à toa, à moda, à vista, à vontade</em>.</li>
     <li>Horas: sempre com crase — <em>às 10h, à meia-noite</em> (exceto "a partir de", "ao meio-dia").</li>
+    <li>Verbos/nomes que regem "a" (aspirar, assistir=prestar auxílio, visar=objetivar, obedecer, referir-se, fiel a, favorável a) puxam crase diante de termo feminino — é o caso mais cobrado em prova de nível superior.</li>
+    <li>Nome de lugar: se aceita "da" (voltei da Bahia), tem crase (fui à Bahia); se só aceita "de" (voltei de Roma), não tem crase (fui a Roma).</li>
     <li>O fenômeno da crase é indicado ortograficamente pelo acento grave sobre o "a".</li>
   </ul>
 </div>`,
