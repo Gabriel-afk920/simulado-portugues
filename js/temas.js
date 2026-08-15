@@ -4678,6 +4678,18 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>
 
+<h3>Ambiguidade</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;margin-top:0;">Ambiguidade (ou anfibologia) ocorre quando uma frase admite <strong>mais de uma interpretação</strong> — a banca costuma pedir para identificar a frase ambígua ou a que NÃO é ambígua entre as alternativas.</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Pronome com dois antecedentes possíveis</strong>: "O gerente revisou o contrato e comunicou a mudança ao cliente" — quem comunicou? Fica claro pelo sujeito da oração, mas em "João disse a Pedro que ele venceria", <em>ele</em> pode ser João ou Pedro — ambíguo.</li>
+  <li><strong>Adjunto adnominal deslocado</strong>: "Vi o carro do vizinho quebrado" — o que está quebrado, o carro ou o vizinho? A ordem gera duplo sentido.</li>
+  <li><strong>Possessivo ambíguo</strong>: "Maria pegou seu livro" — o livro é de Maria ou de outra pessoa mencionada antes? "Seu/sua" é a maior fonte de ambiguidade pronominal em prova.</li>
+  <li><strong>Como resolver na reescrita</strong>: reordenar a frase, substituir o pronome pelo nome repetido, ou usar aposto explicativo para eliminar a duplicidade de sentido.</li>
+  <li><strong>Cuidado</strong>: nem toda frase com pronome é ambígua — só é ambígua quando existe mais de um referente igualmente possível no contexto.</li>
+</ul>
+</div>
+
 <h3>Estratégia de Resolução Passo a Passo</h3>
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <ol style="color:#cbd5e1;">
