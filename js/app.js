@@ -434,9 +434,14 @@ function selecionarTemaQuiz(id, card) {
     }
     _temaSubtemasAtual = t;
     const ocultar = t.ocultar_subtemas || [];
+    // Mostra TODOS os subtemas (mesmo com 0 questões ainda) -- só oculta os
+    // explicitamente marcados em ocultar_subtemas. Subtemas vazios aparecem
+    // desabilitados na grade (ver _renderSubtemasQuiz), em vez de sumirem —
+    // assim o usuário vê o escopo completo da seção mesmo antes da extração
+    // terminar de popular todos os subtemas.
     const subtemasDisponiveis = t.subtemas
       .map(subId => TEMAS.find(x => x.id === subId))
-      .filter(sub => sub && sub.questoes && sub.questoes.length && !ocultar.includes(sub.id));
+      .filter(sub => sub && !ocultar.includes(sub.id));
     _renderSubtemasQuiz(subtemasDisponiveis);
     ir('screen-quiz-fonetica');
     return;
@@ -497,7 +502,8 @@ function _renderSubtemasQuiz(subs) {
 
   subs.forEach(sub => {
     const div = document.createElement('div');
-    div.className = 'tema-card';
+    const semQuestoes = !sub.questoes || !sub.questoes.length;
+    div.className = 'tema-card' + (semQuestoes ? ' sem-questoes' : '');
     div.dataset.subId = sub.id;
     let badge = '';
     const h = hist[_histKey(sub.id, sub.materia)] || hist[sub.id];
@@ -506,17 +512,23 @@ function _renderSubtemasQuiz(subs) {
       const cor = pct >= 70 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#ef4444';
       badge = `<div class="perf-badge" style="background:${cor}">${pct}%</div>`;
     }
-    div.innerHTML = `${badge}<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div><div class="desc">${sub.desc}</div>`;
-    div.addEventListener('click', () => {
-      if (_subtemasQuizSelecionados.has(sub.id)) {
-        _subtemasQuizSelecionados.delete(sub.id);
-        div.classList.remove('selected');
-      } else {
-        _subtemasQuizSelecionados.add(sub.id);
-        div.classList.add('selected');
-      }
-      _atualizarBtnFonetica(btnIniciar);
-    });
+    const countEl = semQuestoes ? '<div class="card-count">Em breve — sem questões ainda</div>' : '';
+    div.innerHTML = `${badge}<div class="icon">${sub.icon}</div><div class="nome">${sub.nome}</div>${countEl}<div class="desc">${sub.desc}</div>`;
+    if (semQuestoes) {
+      div.style.opacity = '0.5';
+      div.style.cursor = 'not-allowed';
+    } else {
+      div.addEventListener('click', () => {
+        if (_subtemasQuizSelecionados.has(sub.id)) {
+          _subtemasQuizSelecionados.delete(sub.id);
+          div.classList.remove('selected');
+        } else {
+          _subtemasQuizSelecionados.add(sub.id);
+          div.classList.add('selected');
+        }
+        _atualizarBtnFonetica(btnIniciar);
+      });
+    }
     grid.appendChild(div);
   });
   btnIniciar.disabled = true;
@@ -530,7 +542,7 @@ function _atualizarBtnFonetica(btn) {
 
 document.getElementById('btn-select-all-fonetica').addEventListener('click', () => {
   const btnIniciar = document.getElementById('btn-iniciar-fonetica');
-  document.querySelectorAll('#quiz-fonetica-grid .tema-card').forEach(card => {
+  document.querySelectorAll('#quiz-fonetica-grid .tema-card:not(.sem-questoes)').forEach(card => {
     card.classList.add('selected');
     _subtemasQuizSelecionados.add(card.dataset.subId);
   });
