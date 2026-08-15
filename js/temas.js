@@ -4418,12 +4418,42 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   </tbody>
 </table>
 
+<h3>Mais Parônimos Essenciais de Concurso</h3>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Par</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>eminente</strong> × <strong>iminente</strong></td><td style="padding:9px 11px;color:#cbd5e1;">notável, ilustre × prestes a acontecer</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>acender</strong> × <strong>ascender</strong></td><td style="padding:9px 11px;color:#cbd5e1;">atear fogo/ligar × subir, elevar-se</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>aferir</strong> × <strong>auferir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">medir, avaliar × obter, receber (ex.: lucro)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>descriminar</strong> × <strong>discriminar</strong></td><td style="padding:9px 11px;color:#cbd5e1;">absolver, inocentar × distinguir/separar (ou tratar com preconceito)</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>despensa</strong> × <strong>dispensa</strong></td><td style="padding:9px 11px;color:#cbd5e1;">cômodo de guardar mantimentos × ato de dispensar/liberar</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>infligir</strong> × <strong>infringir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">aplicar uma pena/castigo × violar, transgredir uma norma</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>cavaleiro</strong> × <strong>cavalheiro</strong></td><td style="padding:9px 11px;color:#cbd5e1;">quem monta a cavalo × homem gentil, educado</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>delatar</strong> × <strong>dilatar</strong></td><td style="padding:9px 11px;color:#cbd5e1;">denunciar × expandir, alargar</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>fluir</strong> × <strong>fruir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">correr, escoar × desfrutar, usufruir</td></tr>
+    <tr><td style="padding:9px 11px;color:#fde68a;"><strong>vultoso</strong> × <strong>vultuoso</strong></td><td style="padding:9px 11px;color:#cbd5e1;">volumoso, de grande valor × que tem o rosto inchado/congestionado</td></tr>
+  </tbody>
+</table>
+
 <h3>Homônimos Mais Cobrados</h3>
 <ul>
   <li><strong>a / à / há</strong>: preposição × crase × verbo haver (tempo) → <em>Fui a Brasília. / Fui à cidade. / Há dois anos.</em></li>
   <li><strong>mal / mau</strong>: advérbio/substantivo × adjetivo → <em>Ele se saiu mal. / Ele é um mau aluno.</em></li>
   <li><strong>mas / mais</strong>: conjunção adversativa × advérbio → <em>Tentei, mas não consegui. / Preciso de mais tempo.</em></li>
   <li><strong>onde / aonde</strong>: lugar onde está × lugar para onde vai → <em>A cidade onde moro. / Aonde você vai?</em></li>
+  <li><strong>cela / sela</strong> (homófonos): cômodo de prisão × arreio de cavalo.</li>
+  <li><strong>censo / senso</strong> (homófonos): recenseamento, contagem populacional × juízo, bom senso.</li>
+  <li><strong>cesta / sexta</strong> (homófonos): objeto/recipiente × dia da semana ou fração numérica.</li>
+  <li><strong>coser / cozer</strong> (homófonos): costurar × cozinhar em água.</li>
+  <li><strong>caçar / cassar</strong> (homófonos): capturar animais × anular, revogar (ex.: mandato).</li>
+  <li><strong>tacha / taxa</strong> (homófonos): prego pequeno / defeito × tributo, percentual.</li>
+  <li><strong>são (saudável) / são (verbo ser, 3ª pl.) / são (santo, apócope)</strong> — homônimos perfeitos, distinguem-se só pelo contexto sintático.</li>
+  <li><strong>colher (talher/substantivo) / colher (verbo colher)</strong> — homógrafos com pronúncia diferente (o substantivo tem "e" fechado, o verbo tem "e" aberto).</li>
 </ul>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
@@ -4433,6 +4463,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>descrição/discrição</strong>: "i" de discrição = "invisível" (discreto não aparece).</li>
   <li><strong>ratificar</strong> (confirmar) tem "rati" de "ratificação de tratado" — algo já decidido.</li>
   <li><strong>seção/sessão/cessão</strong>: seção = corte/parte; sessão = sentar (reunião); cessão = ceder.</li>
+  <li><strong>eminente/iminente</strong>: eminente vem de "eminência" (destaque); iminente vem de "iminência de perigo" (prestes a ocorrer).</li>
+  <li><strong>infligir/infringir</strong>: infligir uma pena (aplicar) × infringir uma lei (violar) — ambos com "in-", mas "fligir" (bater/aplicar) × "fringir" (quebrar/violar).</li>
 </ul>
 </div>`,
     questoes: []
