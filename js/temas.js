@@ -1862,7 +1862,21 @@ const TEMAS = [
     <li>Palavras com menos fonemas que letras: carro, guerra, qualho, chuva.</li>
     <li>Vogais nasalizadas por <em>m</em>/<em>n</em> antes de consoante não formam fonema extra: "campo" = c-ã-p-o = 4 fonemas.</li>
   </ul>
-</div>`,
+</div>
+
+<h3>Vogal Oral × Vogal Nasal — Definição Articulatória</h3>
+<p>Vogais <strong>orais</strong> são produzidas com o ar saindo apenas pela boca (véu palatino levantado, fechando a passagem para o nariz). Vogais <strong>nasais</strong> são produzidas com <strong>ressonância nas fossas nasais</strong> — parte do ar escapa pelo nariz simultaneamente (véu palatino abaixado). Na escrita, a nasalidade aparece como til (~) ou como vogal seguida de <em>m/n</em> em final de sílaba: <em>maçã, fundamentais, campo, canto</em>. A distinção oral × nasal é uma questão de <strong>ressonância</strong>, não de "força" do som — é comum prova cobrar essa definição articulatória de forma literal.</p>
+
+<h3>Vogal Epentética (Epêntese)</h3>
+<p><strong>Epêntese</strong> é a inserção de um som (geralmente uma vogal) que não existe na forma padrão da palavra, criando uma sílaba extra na pronúncia. É um fenômeno de fala popular/regional muito comum no português brasileiro diante de encontros consonantais considerados "difíceis":</p>
+<div class="exemplo-box">
+  <em>advogado</em> → "adivogado" (vogal <em>i</em> inserida entre d e v)<br>
+  <em>pneu</em> → "pineu"<br>
+  <em>rapto</em> → "rapito"<br>
+  <em>abdômen</em> → "abidômen"<br>
+  <em>ritmo</em> → "ritimo"
+</div>
+<p>A vogal epentética é um traço de <strong>variação linguística</strong> (fala popular/coloquial), não da norma-padrão escrita — mas é cobrada como conceito de fonética, associada à tendência do português de preferir sílabas CV (consoante+vogal) e evitar encontros consonantais "pesados".</p>`,
     questoes: [
       { enunciado: 'Qual é a diferença entre <strong>letra</strong> e <strong>fonema</strong>?', opcoes: ["São sinônimos","Letra é o símbolo gráfico; fonema é o som da fala","Fonema é o símbolo gráfico; letra é o som","Letra só existe na escrita cursiva"], correta: 1, explicacao: 'Letra = símbolo escrito. Fonema = unidade sonora que distingue palavras.' },
       { enunciado: 'Quantos fonemas há na palavra "taxa"?', opcoes: ["4","5","3","2"], correta: 1, explicacao: '"Taxa": t-a-ks-a. O <em>x</em> = /ks/ (dois fonemas) → total: 5 fonemas, 4 letras.' },
