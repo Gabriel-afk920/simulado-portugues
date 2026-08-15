@@ -2195,7 +2195,7 @@ const TEMAS = [
     id: "classesGramaticais", materia: 'portugues', nome: "Classes Gramaticais", icon: "📚", desc: "As 10 classes de palavras",
     teoria: `
 <h3>O que são Classes Gramaticais?</h3>
-<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>.</p>
+<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>, divididas em <strong>variáveis</strong> (substantivo, adjetivo, artigo, pronome, verbo, numeral — flexionam em gênero/número/pessoa) e <strong>invariáveis</strong> (advérbio, preposição, conjunção, interjeição).</p>
 
 <h3>1. Substantivo</h3>
 <p>Nomeia seres, objetos, lugares, sentimentos, ações, etc.</p>
@@ -2204,97 +2204,160 @@ const TEMAS = [
   <li><strong>Comum</strong> (nome genérico): cidade, menina</li>
   <li><strong>Concreto</strong> (existência independente): mesa, pedra, anjo</li>
   <li><strong>Abstrato</strong> (depende de outro ser): amor, liberdade, corrida</li>
-  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes), rebanho (gado/ovelhas), matilha (cães de caça), ramalhete/buquê (flores), colmeia/enxame (abelhas), cambada/quadrilha (bandidos), boiada (bois), tropa (mulas/animais de carga), banca (examinadores), acervo (obras/documentos)</li>
+  <li><strong>Simples</strong> (um só radical): flor, girassol · <strong>Composto</strong> (mais de um radical): guarda-chuva, girassol não, mas beija-flor sim</li>
+  <li><strong>Primitivo</strong> (não deriva de outra palavra): pedra, ferro · <strong>Derivado</strong> (vem de outra palavra): pedreiro, ferreiro</li>
+  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes), rebanho (gado/ovelhas), matilha (cães de caça), ramalhete/buquê (flores), colmeia/enxame (abelhas), cambada/quadrilha (bandidos), boiada (bois), tropa (mulas/animais de carga), banca (examinadores), acervo (obras/documentos), constelação (astros), plêiade (artistas/poetas), fascículo (publicações), esquadrilha (aviões), armada (navios de guerra), caravana (viajantes), júri (jurados)</li>
 </ul>
-<p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães).</p>
+<p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães — as três formas de plural de -ão convivem, sem regra fixa que preveja qual usar, sendo necessário memorizar).</p>
 <p><strong>Plural de palavras terminadas em -L:</strong> -al, -el, -ol, -ul → trocam o <strong>l</strong> por <strong>is</strong>: animal → anim<strong>ais</strong>, papel → pap<strong>éis</strong>, farol → far<strong>óis</strong>, paul → pa<strong>uis</strong> (exceção: mal → males, que segue a regra normal de -al). Terminadas em <strong>-il</strong>: se a palavra é <strong>oxítona</strong>, troca -il por -is (fuzil → fuz<strong>is</strong>, barril → barr<strong>is</strong>); se é <strong>paroxítona</strong>, troca -il por -eis (fóssil → fóss<strong>eis</strong>, réptil → répt<strong>eis</strong>, míssil → míss<strong>eis</strong>).</p>
 <p><strong>Plural de palavras terminadas em -S:</strong> monossílabas e oxítonas acrescentam <strong>-es</strong> (gás → gas<strong>es</strong>, mês → mes<strong>es</strong>, país → país<strong>es</strong>); paroxítonas e proparoxítonas terminadas em -s ficam <strong>invariáveis</strong> — plural igual ao singular (o/os lápis, o/os ônibus, o/os vírus, o/os tênis).</p>
-<p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos (a cobra, o jacaré); <strong>sobrecomuns</strong> têm uma só forma para pessoas de qualquer sexo (a criança, o cônjuge).</p>
-<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (sintético) ou por palavra separada como "casa grande"/"casa pequena" (analítico). Além do sufixo mais comum <em>-ão</em> (casarão, portão), existem outros sufixos aumentativos menos frequentes, mas cobrados em prova: <em>-aço</em> (barcaço), <em>-alhão</em> (grandalhão), <em>-eirão</em> (vozeirão), <em>-aréu</em> (fogaréu). Todos indicam o mesmo processo — grau aumentativo do substantivo —, mesmo com sufixos diferentes.</p>
-<p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo).</p>
+<p><strong>Plural do substantivo composto:</strong> depende da classe dos elementos. Dois substantivos ou substantivo+adjetivo: ambos flexionam (couve-flor → couves-flores); substantivo + preposição + substantivo: só o primeiro flexiona (pé-de-moleque → pés-de-moleque); verbo + substantivo: só o substantivo flexiona se estiver no plural (guarda-chuva → guarda-chuvas), e fica invariável se o substantivo já estiver no plural (saca-rolhas → saca-rolhas); elementos invariáveis (advérbio, verbo repetido): a palavra toda fica invariável (o/os pisa-mansinho).</p>
+<p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem, o/a colega); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos, distinguindo-se com "macho/fêmea" (a cobra macho/fêmea, o jacaré macho/fêmea); <strong>sobrecomuns</strong> têm uma só forma (com um só artigo) para pessoas de qualquer sexo (a criança, o cônjuge, a vítima, a testemunha, o indivíduo).</p>
+<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (sintético: casarão, casinha) ou por palavra separada como "casa grande"/"casa pequena" (analítico). Sufixos diminutivos além de <em>-inho</em>: <em>-zinho</em> (mulherzinha), <em>-ito</em> (pobrezito), <em>-ico</em> (pouquico), <em>-ela</em> (viela). Sufixos aumentativos além de <em>-ão</em> (casarão, portão): <em>-aço</em> (barcaço), <em>-alhão</em> (grandalhão), <em>-eirão</em> (vozeirão), <em>-aréu</em> (fogaréu), <em>-zarrão</em> (bocazarrão). O diminutivo também pode ter valor afetivo (filhinho) ou irônico/pejorativo (mediquinho), assim como o aumentativo pode ter valor pejorativo (povão) — o grau nem sempre indica tamanho literal.</p>
+<p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo); "o <em>sim</em> e o <em>não</em>" (advérbios virando substantivo).</p>
 
 <h3>2. Adjetivo</h3>
-<p>Caracteriza o substantivo, indicando qualidade, estado ou aparência. <strong>Concorda em gênero e número</strong> com o substantivo.</p>
+<p>Caracteriza o substantivo, indicando qualidade, estado, aparência ou origem. <strong>Concorda em gênero e número</strong> com o substantivo a que se refere.</p>
+<ul>
+  <li><strong>Simples</strong> (um radical): feliz, bom · <strong>Composto</strong> (mais de um radical): luso-brasileiro, verde-claro</li>
+  <li><strong>Primitivo</strong>: feliz · <strong>Derivado</strong>: infeliz, felizardo</li>
+  <li><strong>Pátrio (gentílico)</strong> — indica nacionalidade/origem: brasileiro, paraense, carioca, paulista, gaúcho, capixaba, catarinense, alagoano, cearense, potiguar (Rio Grande do Norte), pernambucano</li>
+  <li><strong>Adjetivo composto:</strong> quando o segundo elemento é um substantivo usado como cor, a expressão inteira fica <strong>invariável</strong> (blusas verde-oliva, camisas amarelo-ouro); quando os dois elementos são adjetivos de cor, só o último flexiona (blusas azul-marinhas — na prática "azul-marinho" também costuma ficar invariável por uso consagrado; bandeiras verde-amarelas).</li>
+</ul>
+<p><strong>Locução adjetiva:</strong> expressão formada por preposição + substantivo que equivale a um adjetivo. Pares mais cobrados em prova: de pai (paterno), de mãe (materno), de filho (filial), de irmão (fraterno), de olho (ocular), de boca (bucal/oral), de estômago (estomacal/gástrico), de fígado (hepático), de coração (cardíaco), de rim (renal), de pulmão (pulmonar), de noite (noturno), de dia (diurno), de verão (estival), de inverno (hibernal), de cavalo (equino/cavalar), de cachorro (canino), de lobo (lupino), de boi (bovino), de porco (suíno), de leão (leonino), de rei (régio/real), de campo (campestre/rural), de cidade (urbano), sem fim (infindável), antes da guerra (pré-bélico), depois da morte (póstumo).</p>
+<p><strong>Graus do adjetivo:</strong></p>
+<ul>
+  <li><strong>Comparativo de igualdade:</strong> tão ... quanto/como — "Ele é tão alto quanto o irmão."</li>
+  <li><strong>Comparativo de superioridade:</strong> mais ... (do) que — "Ele é mais alto que o irmão." (analítico); alguns adjetivos têm forma sintética própria: bom → melhor, mau → pior, grande → maior, pequeno → menor</li>
+  <li><strong>Comparativo de inferioridade:</strong> menos ... (do) que — "Ele é menos alto que o irmão."</li>
+  <li><strong>Superlativo absoluto sintético:</strong> sufixo -íssimo/-érrimo agregado ao próprio adjetivo — altíssimo, célebre → celebérrimo, pobre → paupérrimo, doce → dulcíssimo, fácil → facílimo, amável → amabilíssimo</li>
+  <li><strong>Superlativo absoluto analítico:</strong> advérbio de intensidade + adjetivo — "muito alto", "extremamente alto"</li>
+  <li><strong>Superlativo relativo de superioridade:</strong> o mais ... de/entre — "o mais alto da turma"</li>
+  <li><strong>Superlativo relativo de inferioridade:</strong> o menos ... de/entre — "o menos alto da turma"</li>
+</ul>
 <div class="exemplo-box">
-  "O homem <em>cansado</em> dormiu." — cansado: adjetivo (concorda com "homem")
+  "O homem <em>cansado</em> dormiu." — cansado: adjetivo (concorda com "homem")<br>
+  "Trabalho <em>árduo</em>" (locução equivalente não muda o sentido: "trabalho de muito esforço")
 </div>
 
 <h3>3. Artigo</h3>
-<p>Precede o substantivo, determinando-o. Varia em gênero e número.</p>
+<p>Precede o substantivo, determinando-o e indicando também, muitas vezes, seu gênero e número. Varia em gênero e número.</p>
 <div class="exemplo-box">
-  <strong>Artigo definido:</strong> o, a, os, as — indica ser determinado, já conhecido: <em>o livro</em>, <em>a casa</em><br>
-  <strong>Artigo indefinido:</strong> um, uma, uns, umas — indica ser indeterminado: <em>um livro</em>, <em>uma casa</em>
+  <strong>Artigo definido:</strong> o, a, os, as — indica ser determinado, já conhecido, ou tem valor generalizador: <em>o livro</em> (específico), <em>O homem é mortal</em> (generaliza a espécie)<br>
+  <strong>Artigo indefinido:</strong> um, uma, uns, umas — indica ser indeterminado, desconhecido ou genérico: <em>um livro</em>, <em>uma casa</em>
 </div>
+<p>A <strong>ausência do artigo</strong> também é significativa: "Ele é médico" (sem artigo, indica categoria/profissão) x "Ele é o médico" (artigo, indica indivíduo específico já conhecido no contexto).</p>
 
 <h3>4. Pronome</h3>
-<p>Substitui ou acompanha o substantivo.</p>
+<p>Substitui ou acompanha o substantivo, indicando as pessoas do discurso ou situando o substantivo no espaço/tempo/contexto.</p>
 <ul>
   <li><strong>Pessoais:</strong> eu, tu, ele/ela, nós, vós, eles/elas (caso reto — função de sujeito) × me, ti, o/a, lhe, nos, vos, os/as, lhes, mim, comigo etc. (caso oblíquo — função de complemento). Depois de preposição, usa-se o pronome oblíquo tônico, não o reto: <em>"para mim"</em> (correto) e não <em>"para eu"</em>; exceção quando há um verbo no infinitivo logo depois: <em>"para eu fazer"</em>.</li>
-  <li><strong>Possessivos:</strong> meu, teu, seu, nosso, vosso</li>
-  <li><strong>Demonstrativos:</strong> <em>este/esta/isto</em> indica o que está perto de quem fala (ou vai ser dito a seguir); <em>esse/essa/isso</em> indica o que está perto de quem ouve (ou já foi dito antes); <em>aquele/aquela/aquilo</em> indica o que está distante de ambos.</li>
-  <li><strong>Relativos:</strong> que, quem, o qual, cujo, onde — retomam um termo anterior (antecedente) e podem exigir a preposição regida pelo verbo da oração que introduzem (ex.: "notícia <strong>de que</strong>" porque "ter notícia <strong>de</strong> algo").</li>
-  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada, algum, qualquer — indicam <strong>indeterminação</strong> (quantidade ou identidade não especificada, vaga).</li>
-  <li><strong>Interrogativos:</strong> quem?, que?, qual?, quanto?</li>
+  <li><strong>Pronomes de tratamento:</strong> Você, Vossa Senhoria (V.Sa. — uso comum, correspondência), Vossa Excelência (V.Exa. — autoridades: presidente, ministros, deputados, senadores), Vossa Santidade (Papa), Vossa Eminência (cardeais), Vossa Majestade (reis), Vossa Alteza (príncipes), Vossa Reverendíssima (sacerdotes), Vossa Senhoria/Doutor (uso geral formal). Regra fixa de prova: mesmo se referindo à 2ª pessoa (com quem se fala), o verbo e os pronomes possessivos concordam na <strong>3ª pessoa</strong> — "Vossa Excelência apresentou <em>seu</em> relatório" (nunca "vosso" nem "apresentastes").</li>
+  <li><strong>Possessivos:</strong> meu(s)/minha(s), teu(s)/tua(s), seu(s)/sua(s), nosso(s)/nossa(s), vosso(s)/vossa(s) — indicam posse e concordam com o objeto possuído, não com o possuidor.</li>
+  <li><strong>Demonstrativos:</strong> <em>este/esta/isto</em> indica o que está perto de quem fala (ou vai ser dito a seguir — função catafórica); <em>esse/essa/isso</em> indica o que está perto de quem ouve (ou já foi dito antes — função anafórica, mais cobrada em prova de coesão textual); <em>aquele/aquela/aquilo</em> indica o que está distante de ambos. No tempo: "este mês" (atual), "esse mês" (mencionado, não muito distante), "aquele mês" (passado distante).</li>
+  <li><strong>Relativos:</strong> que, quem, o qual/a qual/os quais/as quais, cujo(s)/cuja(s), onde, quanto — retomam um termo anterior (antecedente) e podem exigir a preposição regida pelo verbo/nome da oração que introduzem (ex.: "notícia <strong>de que</strong>" porque "ter notícia <strong>de</strong> algo"). <strong>Cujo</strong> indica posse, concorda com a coisa possuída (não com o possuidor) e nunca vem precedido de artigo nem seguido dele: "o autor <strong>cujo</strong> livro venceu" (não "cujo o livro").</li>
+  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada, algum, nenhum, qualquer, cada, outro, todo, vário, certo, qualquer — indicam <strong>indeterminação</strong> (quantidade ou identidade não especificada, vaga).</li>
+  <li><strong>Interrogativos:</strong> que, quem, qual, quanto — usados em perguntas diretas ("Quem chegou?") ou indiretas ("Não sei quem chegou").</li>
 </ul>
 
 <h3>5. Verbo</h3>
-<p>Indica ação, estado ou fenômeno natural. Varia em pessoa, número, tempo, modo e voz.</p>
+<p>Indica ação, estado ou fenômeno natural. Varia em pessoa, número, <strong>tempo</strong>, <strong>modo</strong> e <strong>voz</strong>.</p>
 <ul>
   <li><strong>Verbo de ação:</strong> correr, comer, escrever</li>
-  <li><strong>Verbo de ligação:</strong> ser, estar, ficar, parecer, tornar-se, continuar — liga sujeito ao predicativo</li>
-  <li><strong>Verbo de fenômeno:</strong> chover, ventar, nevar</li>
-  <li><strong>Verbo transitivo:</strong> exige complemento para ter sentido completo. <em>Verbo transitivo direto</em> (VTD): complemento sem preposição — <em>Comprei um livro.</em> <em>Verbo transitivo indireto</em> (VTI): complemento com preposição — <em>Gosto de música.</em></li>
+  <li><strong>Verbo de ligação:</strong> ser, estar, ficar, parecer, tornar-se, permanecer, continuar, andar, viver — liga sujeito ao predicativo, sem indicar ação</li>
+  <li><strong>Verbo de fenômeno natural (impessoal):</strong> chover, ventar, nevar, amanhecer, anoitecer — sem sujeito quando usados em sentido literal</li>
+  <li><strong>Verbo transitivo:</strong> exige complemento para ter sentido completo. <em>Transitivo direto</em> (VTD): complemento sem preposição (objeto direto) — <em>Comprei um livro.</em> <em>Transitivo indireto</em> (VTI): complemento com preposição (objeto indireto) — <em>Gosto de música.</em> <em>Transitivo direto e indireto</em> (VTDI): dois complementos — <em>Emprestei o livro ao colega.</em></li>
   <li><strong>Verbo intransitivo:</strong> sentido completo sem complemento — <em>Ela chegou.</em></li>
 </ul>
+<p><strong>Modo verbal</strong> — atitude do falante diante do fato: <strong>Indicativo</strong> expressa certeza, fato real ("Ele estuda"); <strong>Subjuntivo</strong> expressa dúvida, hipótese, desejo, possibilidade ("Espero que ele estude", "Se ele estudasse..."); <strong>Imperativo</strong> expressa ordem, pedido, conselho ("Estude!"). O imperativo afirmativo deriva do presente do subjuntivo para todas as pessoas exceto "tu" e "vós" (que vêm do presente do indicativo sem o -s final); o imperativo negativo vem inteiro do presente do subjuntivo.</p>
+<p><strong>Voz verbal</strong> — relação entre sujeito e ação: <strong>Voz ativa</strong>, o sujeito pratica a ação ("O menino quebrou o vaso"); <strong>Voz passiva analítica</strong>, o sujeito sofre a ação, com verbo auxiliar "ser" + particípio ("O vaso foi quebrado pelo menino" — o agente da passiva é introduzido por "por"); <strong>Voz passiva sintética (pronominal)</strong>, com verbo transitivo direto + pronome apassivador "se" ("Quebrou-se o vaso" = "O vaso foi quebrado"; não confundir com índice de indeterminação do sujeito, que ocorre com VI/VTI: "Precisa-se de funcionários"); <strong>Voz reflexiva</strong>, o sujeito pratica e sofre a ação ao mesmo tempo ("O menino se machucou"); <strong>Voz reflexiva recíproca</strong>, dois ou mais sujeitos praticam e sofrem a ação um sobre o outro ("Os irmãos se abraçaram").</p>
+<p><strong>Classificação quanto à flexão:</strong> <strong>Regular</strong> segue o paradigma normal de sua conjugação (cantar, vender, partir); <strong>Irregular</strong> sofre alterações no radical ou nas terminações (fazer → faço/fiz; poder → posso/pude); <strong>Anômalo</strong> tem irregularidades tão profundas que muda radicalmente (ser → sou/era/fui; ir → vou/fui); <strong>Defectivo</strong> não possui conjugação completa em todos os tempos/pessoas — falta-lhe alguma forma (reaver e falir não têm 1ª/2ª/3ª pessoa do singular do presente do indicativo nem, por consequência, presente do subjuntivo e imperativo dessas pessoas; precaver-se e abolir têm lacunas semelhantes); <strong>Abundante</strong> tem mais de uma forma equivalente para o particípio (particípio regular -ado/-ido e irregular): entregar → entregado/entregue, pagar → pagado/pago, ganhar → ganhado/ganho, ativa aciona → usa-se o regular com "ter/haver" e o irregular com "ser/estar" (ele <em>tinha pago</em> a conta; a conta já estava <em>paga</em>) — verbos com essa dupla forma: aceitar, entregar, expulsar, ganhar, gastar, imprimir, limpar, matar, pagar, salvar, soltar.</p>
 <div class="exemplo-box">
-  "Ele <em>parece</em> cansado." → "parece" = verbo de ligação (une "ele" ao predicativo "cansado")
+  "Ele <em>parece</em> cansado." → "parece" = verbo de ligação (une "ele" ao predicativo "cansado")<br>
+  "O réu foi <em>absolvido</em>." → voz passiva analítica<br>
+  "Alugam-se casas." → voz passiva sintética (VTD "alugar" + "se")
 </div>
 
 <h3>6. Advérbio</h3>
-<p>Modifica verbo, adjetivo ou outro advérbio. É <strong>invariável</strong> (não varia em gênero/número).</p>
+<p>Modifica verbo, adjetivo ou outro advérbio, indicando uma circunstância. É <strong>invariável</strong> (não varia em gênero/número, exceto quando modificado por "muito"/"pouco" antes de adjetivo, o que não é flexão do advérbio em si).</p>
 <div class="exemplo-box">
-  <em>rapidamente</em> (modo), <em>ontem</em> (tempo), <em>aqui</em> (lugar),<br>
-  <em>muito</em> (intensidade), <em>não</em> (negação), <em>talvez</em> (dúvida)
+  <strong>Modo:</strong> bem, mal, rapidamente, devagar<br>
+  <strong>Tempo:</strong> ontem, hoje, amanhã, sempre, já<br>
+  <strong>Lugar:</strong> aqui, ali, lá, longe, perto<br>
+  <strong>Intensidade:</strong> muito, pouco, bastante, demais<br>
+  <strong>Negação:</strong> não, tampouco, nunca, jamais<br>
+  <strong>Afirmação:</strong> sim, certamente, realmente<br>
+  <strong>Dúvida:</strong> talvez, possivelmente, acaso
 </div>
+<p><strong>Grau do advérbio</strong> — também admite comparativo (mais cedo que, tão cedo quanto) e superlativo (cedíssimo, muito cedo). Palavras denotativas (também classificadas por muitas bancas dentro dos advérbios ou como classe à parte): de inclusão (até, inclusive, mesmo), de exclusão (só, somente, apenas, exceto), de retificação (aliás, isto é), de designação (eis).</p>
 
 <h3>7. Preposição</h3>
-<p>Palavra invariável que <strong>relaciona dois termos</strong>.</p>
+<p>Palavra invariável que <strong>relaciona dois termos</strong>, sendo o segundo subordinado ao primeiro (regente e regido).</p>
+<ul>
+  <li><strong>Essenciais</strong> — só funcionam como preposição: a, ante, após, até, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás</li>
+  <li><strong>Acidentais</strong> — palavras de outras classes que ocasionalmente funcionam como preposição: durante, mediante, salvo, exceto, segundo, feito, tirante, consoante, visto</li>
+  <li><strong>Locução prepositiva</strong> — duas ou mais palavras com valor de preposição, terminando sempre em preposição: a fim de, apesar de, além de, antes de, depois de, através de, em vez de, por causa de, junto a, de acordo com</li>
+</ul>
+<p><strong>Combinação × Contração:</strong> quando a preposição se une a outra palavra (geralmente artigo ou pronome) sem perda de fonema, chama-se <strong>combinação</strong> — a + o = <strong>ao</strong>, a + os = <strong>aos</strong>; quando há perda/fusão de fonemas, chama-se <strong>contração</strong> — a + a = <strong>à</strong> (crase), de + o = <strong>do</strong>, de + esse = <strong>desse</strong>, em + um = <strong>num</strong>, por + o = <strong>pelo</strong>.</p>
 <div class="exemplo-box">
   <em>a, ante, até, após, com, contra, de, desde, em, entre, para, por, sem, sob, sobre, trás</em><br>
-  "Cheguei <em>de</em> ônibus." — de: preposição (indica meio)
+  "Cheguei <em>de</em> ônibus." — de: preposição essencial (indica meio)<br>
+  "<em>Durante</em> a reunião..." — durante: preposição acidental (originalmente gerúndio de "durar")
 </div>
 
 <h3>8. Conjunção</h3>
 <p>Liga orações ou termos de mesma função sintática.</p>
+<p><strong>Coordenativas</strong> — ligam elementos sintaticamente independentes:</p>
 <ul>
-  <li><strong>Coordenativas:</strong> aditiva (e, nem), adversativa (mas, porém), alternativa (ou), conclusiva (logo, portanto), explicativa (pois, porque)</li>
-  <li><strong>Subordinativas:</strong> causais (porque, pois), concessivas (embora, conquanto), temporais (quando, enquanto), condicionais (se, caso), integrantes (que, se)</li>
+  <li><strong>Aditiva:</strong> e, nem, mas também, mas ainda</li>
+  <li><strong>Adversativa:</strong> mas, porém, contudo, todavia, entretanto, no entanto, senão</li>
+  <li><strong>Alternativa:</strong> ou, ou...ou, ora...ora, seja...seja, quer...quer</li>
+  <li><strong>Conclusiva:</strong> logo, portanto, por isso, pois (depois do verbo), assim, por conseguinte</li>
+  <li><strong>Explicativa:</strong> pois (antes do verbo), porque, que, porquanto</li>
+</ul>
+<p><strong>Subordinativas</strong> — ligam oração principal a uma oração dependente dela:</p>
+<ul>
+  <li><strong>Integrantes:</strong> que, se (introduzem orações substantivas: "Espero que venha.")</li>
+  <li><strong>Causais:</strong> porque, pois, já que, uma vez que, visto que, como (no início da frase)</li>
+  <li><strong>Condicionais:</strong> se, caso, contanto que, desde que, a menos que, salvo se, a não ser que</li>
+  <li><strong>Concessivas:</strong> embora, ainda que, mesmo que, conquanto, posto que, apesar de que, se bem que</li>
+  <li><strong>Temporais:</strong> quando, enquanto, assim que, logo que, mal (no sentido de "assim que"), desde que, até que, sempre que</li>
+  <li><strong>Comparativas:</strong> como, tal qual, que nem, assim como, tanto quanto</li>
+  <li><strong>Consecutivas:</strong> que (precedido de tal, tanto, tão, tamanho na oração anterior), de modo que, de sorte que, de forma que</li>
+  <li><strong>Finais:</strong> para que, a fim de que, que (com sentido final)</li>
+  <li><strong>Proporcionais:</strong> à medida que, à proporção que, ao passo que, quanto mais...mais</li>
+  <li><strong>Conformativas:</strong> conforme, segundo, consoante, como (no sentido de "conforme")</li>
 </ul>
 
 <h3>9. Interjeição</h3>
-<p>Expressa emoções, estados de espírito. Invariável e geralmente seguida de exclamação.</p>
+<p>Expressa emoções, estados de espírito, de forma abrupta. Invariável e geralmente seguida de exclamação.</p>
 <div class="exemplo-box">
-  <em>Ah!</em> (surpresa), <em>Ui!</em> (dor), <em>Eba!</em> (alegria), <em>Psiu!</em> (silêncio)
+  <em>Ah!</em> (surpresa/dor), <em>Ui!</em> (dor), <em>Eba!/Oba!</em> (alegria), <em>Psiu!</em> (silêncio), <em>Socorro!</em> (pedido de ajuda), <em>Coragem!</em> (ânimo), <em>Xô!/Fora!</em> (repulsa/afugentar), <em>Oxalá!</em> (desejo), <em>Basta!/Chega!</em> (desagrado), <em>Cuidado!</em> (advertência)
 </div>
+<p><strong>Locução interjetiva</strong>: duas ou mais palavras com valor de interjeição — "Ai de mim!", "Meu Deus!", "Graças a Deus!", "Valha-me Deus!".</p>
 
 <h3>10. Numeral</h3>
-<p>Indica quantidade, ordem, fração ou múltiplo.</p>
+<p>Indica quantidade, ordem, fração ou múltiplo, referindo-se a substantivo ou substituindo-o.</p>
 <div class="exemplo-box">
-  <strong>Cardinal:</strong> um, dois, três<br>
-  <strong>Ordinal:</strong> primeiro, segundo, terceiro<br>
-  <strong>Multiplicativo:</strong> dobro, triplo<br>
-  <strong>Fracionário:</strong> metade, terço
+  <strong>Cardinal</strong> (quantidade exata): um, dois, três, cem, mil<br>
+  <strong>Ordinal</strong> (posição/ordem): primeiro, segundo, terceiro, décimo, vigésimo<br>
+  <strong>Multiplicativo</strong> (múltiplo): dobro, triplo, quádruplo, décuplo<br>
+  <strong>Fracionário</strong> (fração): metade/meio, terço, quarto, quinto (a partir de "quinto" coincide com o ordinal)<br>
+  <strong>Coletivo</strong> (quantidade aproximada/exata de um grupo, embora alguns autores classifiquem como substantivo): dezena, dúzia, cento, par, década, quinzena, milheiro
 </div>
 
 <div class="dica-box">
   <div class="dica-title">Dicas para prova</div>
   <ul>
     <li>Advérbio modifica verbo/adjetivo/advérbio e é invariável — não concorda com nada.</li>
-    <li>Adjetivo concorda com o substantivo em gênero e número.</li>
+    <li>Adjetivo concorda com o substantivo em gênero e número; locução adjetiva equivale a um adjetivo (de pai = paterno).</li>
     <li>Verbos de ligação + predicativo = predicado nominal.</li>
-    <li>"Que" pode ser conjunção integrante, pronome relativo, pronome interrogativo ou expletivo — analise o contexto.</li>
+    <li>"Que" pode ser conjunção integrante, conjunção subordinativa (causal/consecutiva/comparativa), pronome relativo, pronome interrogativo, substantivo ou expletivo (de realce) — analise sempre o contexto.</li>
+    <li>Pronome de tratamento sempre concorda na 3ª pessoa, mesmo remetendo ao interlocutor (2ª pessoa do discurso): "Vossa Excelência, se <em>tiver</em> tempo, poderá analisar <em>seu</em> processo."</li>
     <li>Interjeição sempre expressa emoção; não tem função sintática dentro da oração.</li>
     <li>Substantivos abstratos derivam de verbos ou adjetivos: correr → corrida; belo → beleza.</li>
+    <li>Combinação (ao, aos) não tem perda de fonema; contração (do, na, pelo, à) tem fusão/perda de fonema.</li>
+    <li>Verbo abundante = duas formas de particípio (pago/pagado); verbo defectivo = falta alguma forma na conjugação (reaver não tem "eu reavejo").</li>
   </ul>
 </div>`,
     questoes: [
