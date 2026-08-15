@@ -2477,6 +2477,17 @@ const TEMAS = [
   <li><strong>Mais</strong> = advérbio de intensidade ou pronome indefinido: "Quero <em>mais</em> café."</li>
 </ul>
 
+<h3>Outras Grafias Confundíveis Frequentes em Prova</h3>
+<ul>
+  <li><strong>Aonde × Onde</strong>: "aonde" indica <em>movimento/direção</em> — só se usa com verbos de deslocamento (ir, chegar, dirigir-se): "<em>Aonde</em> você vai?". "Onde" indica <em>lugar fixo/estático</em>: "<em>Onde</em> você mora?".</li>
+  <li><strong>Afim × A fim de</strong>: "afim" (uma palavra) é adjetivo = semelhante, que tem afinidade: "Temos gostos <em>afins</em>." "A fim de" (separado) é locução prepositiva de finalidade (= para, com o objetivo de): "Estudou <em>a fim de</em> passar."</li>
+  <li><strong>Traz × Trás</strong>: "traz" é forma do verbo <em>trazer</em> (3ª pessoa do singular): "Ele <em>traz</em> o livro." "Trás" é advérbio de lugar (= atrás, na parte posterior), usado em expressões como "para trás", "de trás pra frente": "Olhou para <em>trás</em>."</li>
+  <li><strong>Acerca de × A cerca de × Há cerca de</strong>: "acerca de" (junto) = sobre, a respeito de: "Falou <em>acerca de</em> política." "A cerca de" (separado) = aproximadamente, valor espacial/numérico aproximado: "Mora <em>a cerca de</em> 5 km daqui." "Há cerca de" = faz aproximadamente (tempo decorrido, com o verbo haver): "Chegou <em>há cerca de</em> uma hora."</li>
+  <li><strong>Em vez de × Ao invés de</strong>: "em vez de" = no lugar de (substituição neutra, uso mais amplo): "Foi de ônibus <em>em vez de</em> carro." "Ao invés de" = ao contrário de (contraste de sentidos opostos — uso mais restrito na norma culta): "Ele riu <em>ao invés de</em> chorar."</li>
+  <li><strong>Se não × Senão</strong>: "se não" (separado) = conjunção condicional negativa, equivale a "caso não": "<em>Se não</em> estudar, não passa." "Senão" (uma palavra) = do contrário, exceto, ou substantivo (defeito): "Estude, <em>senão</em> não passa." / "Não vejo <em>senão</em> uma saída." / "Todo mundo tem um <em>senão</em>."</li>
+  <li><strong>De encontro a × Ao encontro de</strong>: "de encontro a" = contra, em choque com (sentido de oposição): "O carro foi <em>de encontro a</em> um poste." "Ao encontro de" = a favor de, em concordância com: "A proposta veio <em>ao encontro de</em> nossos interesses."</li>
+</ul>
+
 <h3>Prefixos — des- / dis-</h3>
 <ul>
   <li><strong>Des-</strong> antes de vogal: des+onra = <em>desonra</em> (um s); des+honra = <em>desonra</em> (h mudo = antes de vogal).</li>
