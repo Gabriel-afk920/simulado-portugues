@@ -8,7 +8,15 @@
   // materia: 'm.materia' vem do exportar_app.js pra temas gerados dinamicamente
   // pra matérias não-português (ex: "matematica_geral"); ausência de materia
   // preserva o comportamento anterior (sempre 'portugues').
+  // Buckets retirados (reestruturados em temas próprios, ago/2026) -- ainda
+  // referenciados em QUESTOES_BANCO.novosTemas (questoes_banco.js é gerado
+  // por exportar_app.js, não editado aqui) porque as questões que caíam
+  // neles têm assunto=NULL no banco.db. Sem este bloqueio, reapareceriam
+  // como buckets fantasmas com teoria vazia toda vez que o app carrega.
+  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral'];
+
   for (var id in QUESTOES_BANCO.novosTemas) {
+    if (_IDS_RETIRADOS.indexOf(id) !== -1) continue;
     var m = QUESTOES_BANCO.novosTemas[id];
     if (!TEMAS.find(function(t){ return t.id === id; })) {
       TEMAS.push({ id: id, nome: m.nome, icon: m.icon, desc: m.desc, materia: m.materia || 'portugues', teoria: '', questoes: [] });
