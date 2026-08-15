@@ -4898,6 +4898,15 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Obedecer à lei</strong> — sempre com preposição; não aceita pronome objeto direto: ❌ "obedecê-la".</li>
   <li>Se a questão trocar a preposição ou omiti-la num desses verbos, a frase está errada.</li>
 </ul>
+</div>
+
+<h3>Preposição Essencial × Acidental e Contração Prepositiva</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;">
+<ul style="color:#cbd5e1;">
+  <li><strong>Preposição essencial</strong>: palavra que só funciona como preposição, nunca como outra classe — <em>a, de, em, com, para, por, sem, sob, sobre, contra, entre, desde, até, perante, ante, após, contra, trás</em>. É ela que rege a regência verbal/nominal propriamente dita.</li>
+  <li><strong>Preposição acidental</strong>: palavra de outra classe (advérbio, particípio, gerúndio) que, em certo contexto, passa a funcionar como preposição — <em>durante, mediante, salvo, exceto, segundo, consoante, visto, tirante, fora</em>. Ex.: <em>Todos foram, <strong>exceto</strong> ele.</em> / <em>Segundo</em> a lei, isso é proibido.</li>
+  <li><strong>Contração prepositiva</strong>: fusão de uma preposição essencial com outra palavra (artigo, pronome, advérbio) — <em>a+o=ao, a+a=à, de+o=do, de+a=da, de+esse=desse, em+um=num, por+o=pelo</em>. Numa questão, "a contração prepositiva imposta pela regência verbal/nominal" é exatamente o <strong>ao/à/do/da</strong> que aparece porque o verbo ou nome exige aquela preposição diante de um termo que leva artigo.</li>
+</ul>
 </div>`,
     questoes: []
   },
