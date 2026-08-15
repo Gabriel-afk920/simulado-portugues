@@ -102,7 +102,7 @@
     'arquivologia_geral',                    // 16 tabela de temporalidade
     'arquivologia_geral',                    // 17 triagem/protocolo de correspondência
     'gestao_projetos_geral',                 // 18 termo de abertura do projeto
-    'administracao_geral_fundamentos',       // 19 AMBÍGUO: balanço patrimonial é conteúdo de Contabilidade, não há bucket de destino equivalente entre os 12 novos -- ver nota no commit
+    'contabilidade_geral_e_publica_geral',   // 19 CORRIGIDO: balanço patrimonial é conteúdo de Contabilidade -- banco.db id 8443 recorrigido (materia Administração->Contabilidade)
     'gestao_estrategica_qualidade_geral',    // 20 QFD / Casa da Qualidade
     'gestao_estrategica_qualidade_geral',    // 21 Matriz BCG
     'gestao_estrategica_qualidade_geral',    // 22 Balanced Scorecard
