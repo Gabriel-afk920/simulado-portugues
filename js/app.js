@@ -339,6 +339,53 @@ function abrirTeoria(id) {
   ir('screen-study-content');
 }
 
+// ══════════════════════════════════════════════════════════
+//  DOWNLOAD DE TEORIA EM PDF (html2pdf.js via CDN)
+// ══════════════════════════════════════════════════════════
+function _snakeCase(str) {
+  const semAcento = str.normalize('NFD').split('').filter(ch => {
+    const code = ch.codePointAt(0);
+    return !(code >= 0x0300 && code <= 0x036f); // remove marcas diacríticas combinantes
+  }).join('');
+  return semAcento.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+}
+
+function baixarTeoriaPDF() {
+  if (!temaAtual) return;
+  if (typeof html2pdf === 'undefined') {
+    alert('Não foi possível gerar o PDF — verifique sua conexão com a internet e tente de novo.');
+    return;
+  }
+
+  const corpo = document.querySelector('#teoria-container .teoria-body');
+  if (!corpo) return;
+
+  const conteudo = document.createElement('div');
+  conteudo.style.background = '#0f172a';
+  conteudo.style.color = '#e2e8f0';
+  conteudo.style.padding = '4px';
+  conteudo.innerHTML = `<h1 style="margin-bottom:16px;">${temaAtual.nome}</h1>${corpo.innerHTML}`;
+
+  const btn = document.getElementById('btn-baixar-pdf-teoria');
+  const textoOriginal = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Gerando PDF...';
+
+  html2pdf().set({
+    margin: 10,
+    filename: `${_snakeCase(temaAtual.nome)}.pdf`,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true, backgroundColor: '#0f172a' },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+    pagebreak: { mode: ['avoid-all', 'css'] },
+  }).from(conteudo).save().finally(() => {
+    btn.disabled = false;
+    btn.textContent = textoOriginal;
+  });
+}
+
+document.getElementById('btn-baixar-pdf-teoria').addEventListener('click', baixarTeoriaPDF);
+
 document.getElementById('btn-back-study-fonetica').addEventListener('click', () => ir('screen-study-topics'));
 document.getElementById('btn-back-quiz-fonetica').addEventListener('click', () => ir('screen-quiz-topics'));
 document.getElementById('btn-back-study-topics').addEventListener('click', () => {
