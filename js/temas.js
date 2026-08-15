@@ -5174,6 +5174,20 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </table>
 </div>
 
+<h3>Fatores de Textualidade (Beaugrande & Dressler)</h3>
+<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
+<p style="color:#cbd5e1;">Os 7 fatores que fazem um texto ser reconhecido como texto (e não uma sequência aleatória de frases) — terminologia cobrada nominalmente em prova, sobretudo CESPE:</p>
+<ul style="color:#cbd5e1;">
+  <li><strong>Coesão</strong>: conexão formal entre os elementos linguísticos da superfície do texto (já detalhada acima).</li>
+  <li><strong>Coerência</strong>: conexão de sentido, a lógica interna que dá unidade ao texto (já detalhada acima).</li>
+  <li><strong>Intencionalidade</strong>: a vontade do produtor do texto de construir um texto coeso e coerente que atinja seu objetivo comunicativo.</li>
+  <li><strong>Aceitabilidade</strong>: a disposição do receptor de considerar o conjunto de frases como um texto coerente e relevante, mesmo tolerando pequenas falhas de coesão.</li>
+  <li><strong>Situacionalidade</strong>: a adequação do texto à situação comunicativa em que ele ocorre (contexto social, momento, finalidade) — o mesmo conteúdo é organizado de formas diferentes numa bula de remédio e numa crônica.</li>
+  <li><strong>Informatividade</strong>: o grau de previsibilidade/imprevisibilidade da informação — textos muito previsíveis (informatividade baixa) tendem a ser menos interessantes que os que trazem informação nova (informatividade alta), mas o excesso de imprevisibilidade pode prejudicar a compreensão.</li>
+  <li><strong>Intertextualidade</strong>: a relação de um texto com outros textos, prévios, que o leitor precisa reconhecer para compreendê-lo plenamente (citação, paródia, paráfrase, alusão).</li>
+</ul>
+</div>
+
 <h3>Princípios de Coerência Textual</h3>
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <ul style="color:#cbd5e1;">
