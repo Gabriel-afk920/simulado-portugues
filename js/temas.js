@@ -4179,7 +4179,51 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Pronome relativo QUE</strong>: verbo concorda com o antecedente → <em>Fui eu que errei. / Foste tu que erraste.</em></li>
   <li><strong>Sujeito oracional</strong>: verbo na 3ª pessoa do singular → <em>Convém que todos cheguem.</em></li>
   <li><strong>Verbos impessoais</strong> (haver, fazer, ir + tempo): sempre singular → <em>Havia muitas pessoas. Faz dois anos.</em></li>
+  <li><strong>Sujeito composto resumido por aposto recapitulativo</strong> (tudo, nada, ninguém): verbo concorda com o resumidor, no singular → <em>Alegria, tristeza, esperança, tudo se misturava naquele momento.</em></li>
+  <li><strong>Expressões partitivas</strong> (grande parte de, a maior parte de, boa parte de, cerca de) + substantivo plural: singular ou plural → <em>Grande parte dos servidores concorda/concordam.</em></li>
+  <li><strong>Um dos que</strong> + verbo: preferencialmente plural, pois o antecedente do "que" é o substantivo plural → <em>Ele foi um dos que mais trabalharam.</em></li>
+  <li><strong>Nomes próprios de obras, empresas ou lugares no plural</strong>: se vierem precedidos de artigo, o verbo vai para o plural; sem artigo, fica no singular → <em>Os Lusíadas retratam a epopeia portuguesa. / Estados Unidos é uma potência.</em></li>
+  <li><strong>Sujeitos ligados por "ou"</strong>: singular se exclusão (um exclui o outro) → <em>José ou Maria será o representante.</em>; plural se os dois puderem praticar a ação → <em>O carro ou a moto serão vendidos.</em></li>
+  <li><strong>Sujeitos ligados por "com"</strong>: verbo no singular (regra culta — "com" não soma sujeitos) ou no plural (concordância enfática, ambos praticam a ação igualmente) → <em>O diretor, com os professores, assinou/assinaram o documento.</em></li>
+  <li><strong>Verbos DAR, BATER, SOAR</strong> (horas): concordam com o numeral sujeito → <em>Deram cinco horas no relógio. Bateu meio-dia.</em></li>
+  <li><strong>"Nem um nem outro" / "Um e outro"</strong>: verbo no singular ou plural (ambos aceitos pela norma culta) → <em>Um e outro aluno faltou/faltaram.</em></li>
 </ul>
+
+<h3>Silepse — Concordância com a Ideia, não com a Forma</h3>
+<p>Na silepse (ou concordância ideológica), o verbo, o adjetivo ou o pronome concordam com a <strong>ideia subentendida</strong>, não com a palavra gramatical escrita. É um recurso da norma culta, não erro.</p>
+<ul>
+  <li><strong>Silepse de gênero</strong>: concorda com o gênero real/subentendido, não com a forma da palavra → <em>São Paulo é generosa</em> (subentende-se "a cidade de São Paulo", feminino, embora "São Paulo" não tenha marca de gênero explícita).</li>
+  <li><strong>Silepse de número</strong>: concorda com uma ideia coletiva/plural mesmo com sujeito gramatical singular → <em>A multidão gritavam e corriam</em> (o sujeito "multidão" é singular, mas a ideia é de muitas pessoas agindo).</li>
+  <li><strong>Silepse de pessoa</strong>: concorda com a pessoa do discurso subentendida, não com o sujeito na 3ª pessoa → <em>Os brasileiros somos hospitaleiros</em> (o falante se inclui no grupo "os brasileiros", por isso usa "somos" em vez de "são").</li>
+</ul>
+
+<h3>A partícula SE — Apassivadora × Índice de Indeterminação do Sujeito</h3>
+<p>Uma das pegadinhas mais cobradas em concurso: o "se" muda a regra de concordância dependendo da função que exerce.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Função do SE</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Quando ocorre</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Concordância</th>
+      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:9px 11px;color:#fde68a;">Partícula apassivadora</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Verbo transitivo direto (VTD)</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">Verbo concorda com o sujeito paciente</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Vendem-se casas.</em> (= Casas são vendidas — sujeito "casas", plural)</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 11px;color:#fde68a;">Índice de indeterminação do sujeito</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Verbo transitivo indireto (VTI), intransitivo (VI) ou de ligação (VL)</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">Verbo sempre na 3ª pessoa do singular</td>
+      <td style="padding:9px 11px;color:#cbd5e1;"><em>Precisa-se de funcionários.</em> (precisar é VTI — "de funcionários" não é sujeito, é objeto indireto)</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Teste rápido</strong>: tente passar a frase para a voz passiva analítica ("são vendidas", "é precisado") — se fizer sentido, é apassivadora e concorda; se não fizer sentido, é índice de indeterminação e fica sempre no singular.</p>
 
 <h3>Concordância Nominal — Regras</h3>
 <ul>
@@ -4187,6 +4231,13 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Adjetivo anteposto</strong>: concorda com o mais próximo → <em>Bela canção e poema.</em></li>
   <li><strong>Anexo, incluso, obrigado, quite, próprio, mesmo</strong>: concordam com o substantivo → <em>A aluna está quite. Os dados estão anexos.</em></li>
   <li><strong>Bastante, caro, barato</strong> como advérbio: invariável → <em>Elas falam bastante.</em></li>
+  <li><strong>MEIO</strong>: como numeral/adjetivo, concorda (<em>meia hora, meio-dia e meia</em>); como advérbio (equivale a "um pouco"), é invariável → <em>Ela ficou meio confusa.</em></li>
+  <li><strong>MENOS, PSEUDO, SALVO, EXCETO, ALERTA</strong>: sempre invariáveis → <em>Havia menos alunos. Todos saíram, exceto ela. As famílias ficaram alerta.</em></li>
+  <li><strong>Superlativo com "possível"</strong> após "o mais/o menos/o melhor/o pior": concorda com o substantivo no plural → <em>Tragam os documentos mais rápido possíveis</em> ou, mantendo o artigo no singular referente a cada um, <em>o mais rápido possível</em> (ambas as formas existem — a concordância no plural do "possível" ocorre quando o artigo também vai ao plural).</li>
+  <li><strong>É bom, é necessário, é proibido</strong> + sujeito sem determinante: invariável → <em>Água mineral é bom para saúde.</em> Com determinante (artigo, pronome) antes do sujeito: concorda → <em>A água mineral é boa para a saúde.</em></li>
+  <li><strong>"Haja vista"</strong>: expressão invariável (não flexiona nem o verbo "haver" nem "vista") → <em>Haja vista os resultados obtidos.</em></li>
+  <li><strong>Numeral ordinal e cardinal como adjetivo</strong>: concordam em gênero e número com o substantivo → <em>as primeiras colocadas, duzentas páginas.</em></li>
+  <li><strong>Pronomes de tratamento</strong>: concordância em 3ª pessoa mesmo referindo-se ao interlocutor (2ª pessoa do discurso), e o adjetivo concorda com o sexo da pessoa real, não com o gênero gramatical do pronome de tratamento → <em>Vossa Excelência está preocupado</em> (se o interlocutor for homem).</li>
 </ul>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
@@ -4196,6 +4247,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Sujeito posposto</strong>: identifique o sujeito real antes de concordar — o verbo pode enganar.</li>
   <li><strong>"É proibido/necessário/permitido"</strong> sem artigo: invariável → <em>É proibido entrada.</em></li>
   <li><strong>Palavras de tratamento</strong> (Vossa Excelência): verbo na 3ª pessoa → <em>Vossa Excelência concordou.</em></li>
+  <li><strong>SE apassivador × índice de indeterminação</strong>: teste a voz passiva — se funcionar, o verbo concorda com o sujeito; se não, fica sempre no singular.</li>
+  <li><strong>Silepse não é erro</strong>: é a concordância culta com a ideia (gênero, número ou pessoa) quando ela diverge da forma gramatical escrita.</li>
 </ul>
 </div>`,
     questoes: []
