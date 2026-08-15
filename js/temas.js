@@ -3874,7 +3874,53 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>
 
-<h3>5. Interseção com Encontros Vocálicos — como cai na prova</h3>
+<h3>5. Outros Processos de Formação de Palavras</h3>
+<p>Além de derivação e composição, a gramática tradicional (Cegalla, Bechara) lista processos "especiais" de formação — menos frequentes, mas cobrados de forma direta e recorrente em prova.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Processo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como funciona</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Hibridismo</td>
+      <td style="padding:8px 10px;color:#94a3b8;">A palavra combina elementos (radicais/afixos) de línguas diferentes.</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">sociologia (latim <em>socio</em> + grego <em>logia</em>), automóvel (grego <em>auto</em> + latim <em>móvel</em>), burocracia (francês <em>bureau</em> + grego <em>kracia</em>), monóculo (grego <em>mono</em> + latim <em>oculu</em>)</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Onomatopeia</td>
+      <td style="padding:8px 10px;color:#94a3b8;">A palavra é criada para imitar/reproduzir um som da natureza ou de um objeto.</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">tique-taque, cocoricó, miau, zunzum, plim, tic-tac, reco-reco, bang</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Abreviação (redução)</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Corta-se parte da palavra, mantendo o mesmo significado e classe gramatical (diferente de derivação regressiva, que muda a classe).</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">motocicleta → moto, fotografia → foto, cinematógrafo → cinema, quilômetro → quilo, extraordinário → extra, professor → profe</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Siglas / Acronímia</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Formação a partir das letras (ou sílabas) iniciais de uma expressão. Sigla lê-se letra por letra; acrônimo lê-se como palavra.</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">Sigla: IBGE, CPF, ONU (soletrada) · Acrônimo: Sonar (<em>so</em>und <em>na</em>vigation <em>r</em>anging), Ufa, Petrobras (Petró<em>leo</em> <em>Bras</em>ileiro)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Estrangeirismo</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Palavra ou expressão emprestada de outro idioma, adaptada ou não à grafia portuguesa.</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">deletar (do inglês <em>delete</em>), mouse, show, e-mail, futebol (do inglês <em>football</em>, já aportuguesado)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box">
+  <strong>Abreviação × Derivação regressiva — não confundir:</strong><br><br>
+  Abreviação: <em>motocicleta → moto</em> — corta a palavra, mas continua substantivo, mesmo sentido.<br>
+  Derivação regressiva: <em>chorar (verbo) → choro (substantivo)</em> — corta a palavra E muda a classe gramatical (de verbo para substantivo).
+</div>
+
+<h3>6. Interseção com Encontros Vocálicos — como cai na prova</h3>
 <p>Questões de concurso frequentemente <strong>combinam</strong> Formação de Palavras com Fonética. Os quatro padrões mais cobrados são:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
@@ -3922,7 +3968,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   </ul>
 </div>
 
-<h3>6. Estrutura Interna das Palavras — Morfemas</h3>
+<h3>7. Estrutura Interna das Palavras — Morfemas</h3>
 <p>Questões de concurso frequentemente pedem a identificação de unidades morfológicas. A <strong>menor unidade dotada de significado</strong> em uma língua é o <strong>morfema</strong> (também chamado de <strong>elemento mórfico</strong>). O processo de dividir uma palavra em seus morfemas chama-se <strong>segmentação morfológica</strong>. Além dos processos de derivação e composição, existe também a <strong>abreviação vocabular</strong> (redução de uma palavra maior, ex.: "moto" de "motocicleta", "pneu" de "pneumático").</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
@@ -3977,7 +4023,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   • "Qual a vogal temática de <em>partir</em>?" → <strong>-i-</strong> (3ª conjugação)
 </div>
 
-<h3>7. Metaplasmos — Alterações Fonéticas Históricas</h3>
+<h3>8. Metaplasmos — Alterações Fonéticas Históricas</h3>
 <p>Metaplasmos são <strong>alterações nos fonemas de uma palavra</strong> ao longo da evolução da língua (do latim ao português) ou em variações populares. São cobrados especialmente em questões sobre origem e evolução das palavras.</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
