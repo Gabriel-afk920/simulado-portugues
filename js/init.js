@@ -158,6 +158,49 @@
       ocultar_subtemas: ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica']
     });
   }
+  // ── 4b. Seções combinadas: Noções de Direito e Administração Geral e Pública ──
+  // Mesmo mecanismo do bloco 4 acima -- um tema "guarda-chuva" com `subtemas`
+  // habilita a tela de seleção múltipla no Simulado (e a navegação por
+  // sub-tópicos no Estudar), permitindo misturar questões de vários temas
+  // independentes no mesmo simulado. Pedido do usuário depois da
+  // reestruturação de Direito/Administração em temas próprios (ago/2026) --
+  // sem isso, cada um dos 12 novos temas só abria simulado isolado, sem a
+  // opção de mistura que já existia pra Fonética e Ortografia.
+  function _criarGrupoCombinado(cfg) {
+    var qs = [];
+    cfg.subtemas.forEach(function(id) {
+      var t = TEMAS.find(function(t){ return t.id === id; });
+      if (t && t.questoes.length) qs = qs.concat(t.questoes);
+    });
+    if (qs.length === 0) return;
+    var idxExist = TEMAS.findIndex(function(t){ return t.id === cfg.id; });
+    if (idxExist > -1) TEMAS.splice(idxExist, 1);
+    TEMAS.unshift({
+      id: cfg.id, nome: cfg.nome, icon: cfg.icon, desc: cfg.desc, materia: cfg.materia,
+      teoria: cfg.teoria, questoes: qs, subtemas: cfg.subtemas
+    });
+  }
+
+  _criarGrupoCombinado({
+    id: 'nocoes_de_direito_todos',
+    nome: 'Noções de Direito',
+    icon: '⚖️',
+    desc: 'Direito Constitucional, Administrativo e Processo Administrativo',
+    materia: 'nocoes_de_direito',
+    teoria: '<h3>Noções de Direito</h3><p>Esta seção reúne todos os temas de Direito Constitucional e Administrativo.</p>',
+    subtemas: ['direito_constitucional_geral','direito_constitucional_admpublica','direito_administrativo_atos','direito_administrativo_servidor_8112','lei_9784_processo_administrativo']
+  });
+
+  _criarGrupoCombinado({
+    id: 'administracao_geral_e_publica_todos',
+    nome: 'Administração Geral e Pública',
+    icon: '🏛️',
+    desc: 'Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e mais',
+    materia: 'administracao_geral_e_publica',
+    teoria: '<h3>Administração Geral e Pública</h3><p>Esta seção reúne todos os temas de Administração Geral e Pública.</p>',
+    subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_geral']
+  });
+
   // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────
   var teorias = {
 
