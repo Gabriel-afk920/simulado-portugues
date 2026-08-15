@@ -62,6 +62,70 @@
     }
   }
 
+  // Redistribuição manual das 44 questões dos 2 buckets retirados (ago/2026,
+  // ver _IDS_RETIRADOS acima) -- cada uma foi lida e classificada por
+  // conteúdo real (assunto=NULL no banco.db impedia fazer isso
+  // automaticamente). Índice = posição no array original em
+  // questoes_banco.js (arquivo não editado, só lido aqui).
+  var _REDISTRIB_DIREITO = [
+    'direito_constitucional_geral',          // 0  livre iniciativa / ordem econômica
+    'direito_constitucional_geral',          // 1  direito de petição (art. 5º)
+    'direito_administrativo_servidor_8112',  // 2  disponibilidade por extinção de cargo
+    'direito_constitucional_geral',          // 3  organização do Poder Executivo/Ministros
+    'direito_constitucional_geral',          // 4  ação popular (art. 5º, LXXIII)
+    'direito_administrativo_servidor_8112',  // 5  investidura em cargo/concurso (Lei 8.112)
+    'direito_administrativo_servidor_8112',  // 6  reintegração após invalidação judicial
+    'direito_administrativo_servidor_8112',  // 7  repercussão da absolvição criminal no PAD
+    'direito_administrativo_atos',           // 8  elementos/revogação/anulação dos atos
+    'direito_administrativo_atos',           // 9  autoexecutoriedade
+    'direito_administrativo_servidor_8112',  // 10 reintegração após invalidação judicial (dup. da 6)
+    'direito_constitucional_geral',          // 11 art. 144 CF, segurança pública
+    'direito_constitucional_geral',          // 12 art. 5º CF, direitos individuais
+  ];
+  var _REDISTRIB_ADMIN = [
+    'gestao_pessoas_geral',                  // 0  automação e gestão de pessoas
+    'gestao_pessoas_geral',                  // 1  entrevista estruturada (seleção)
+    'gestao_pessoas_geral',                  // 2  qualidade de vida no trabalho
+    'gestao_pessoas_geral',                  // 3  educação corporativa
+    'gestao_pessoas_geral',                  // 4  plano de carreira
+    'gestao_pessoas_geral',                  // 5  erro de avaliação (halo/recenticidade)
+    'gestao_pessoas_geral',                  // 6  métodos de avaliação de desempenho
+    'gestao_estrategica_qualidade_geral',    // 7  comportamento organizacional (agrupado com clima/liderança no QConcursos real)
+    'gestao_pessoas_geral',                  // 8  processo disciplinar
+    'gestao_estrategica_qualidade_geral',    // 9  redes formais de comunicação
+    'gestao_estrategica_qualidade_geral',    // 10 escolha de meio de comunicação
+    'gestao_estrategica_qualidade_geral',    // 11 clima organizacional
+    'gestao_estrategica_qualidade_geral',    // 12 grupo x equipe
+    'licitacoes_contratos_geral',            // 13 pregão eletrônico
+    'arquivologia_geral',                    // 14 método de arquivamento ideográfico
+    'arquivologia_geral',                    // 15 método geográfico de arquivamento
+    'arquivologia_geral',                    // 16 tabela de temporalidade
+    'arquivologia_geral',                    // 17 triagem/protocolo de correspondência
+    'gestao_projetos_geral',                 // 18 termo de abertura do projeto
+    'administracao_geral_fundamentos',       // 19 AMBÍGUO: balanço patrimonial é conteúdo de Contabilidade, não há bucket de destino equivalente entre os 12 novos -- ver nota no commit
+    'gestao_estrategica_qualidade_geral',    // 20 QFD / Casa da Qualidade
+    'gestao_estrategica_qualidade_geral',    // 21 Matriz BCG
+    'gestao_estrategica_qualidade_geral',    // 22 Balanced Scorecard
+    'administracao_publica_geral',           // 23 reforma do Estado / agência executiva
+    'administracao_publica_geral',           // 24 comunicação burocrática x pós-burocrática
+    'administracao_publica_geral',           // 25 indicadores de avaliação de política pública
+    'gestao_estrategica_qualidade_geral',    // 26 mapa estratégico / perspectivas BSC
+    'administracao_publica_geral',           // 27 gestão de riscos aduaneiros
+    'gestao_projetos_geral',                 // 28 linha de base (MS Project)
+    'gestao_projetos_geral',                 // 29 definição de gerenciamento de projetos
+    'gestao_projetos_geral',                 // 30 EAP
+  ];
+  (function() {
+    (QUESTOES_BANCO.questoes['nocoes_de_direito_geral'] || []).forEach(function(q, i) {
+      var alvo = TEMAS.find(function(t){ return t.id === _REDISTRIB_DIREITO[i]; });
+      if (alvo) alvo.questoes.push(q);
+    });
+    (QUESTOES_BANCO.questoes['administracao_geral_e_publica_geral'] || []).forEach(function(q, i) {
+      var alvo = TEMAS.find(function(t){ return t.id === _REDISTRIB_ADMIN[i]; });
+      if (alvo) alvo.questoes.push(q);
+    });
+  })();
+
   // Migra questões do slot acentuacaoGrafica → tonicidade (renomeado para Acentuação Gráfica)
   (function() {
     var tonic = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
