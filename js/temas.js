@@ -4098,6 +4098,11 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
   <li><strong>dia a dia</strong>: como <strong>locução adverbial</strong> (equivale a "cotidianamente"), escreve-se sem hífen: <em>Ele estuda dia a dia.</em> Mesmo quando substantivado (equivale a "rotina"), a grafia oficial atual continua sem hífen: <em>o dia a dia da empresa</em>. Não existe a forma "dia-a-dia" na norma vigente.</li>
   <li><strong>Gentílicos compostos</strong> (topônimo formado por mais de uma palavra): usam hífen entre os elementos → <em>belo-horizontino</em> (Belo Horizonte), <em>mato-grossense</em> (Mato Grosso), <em>mato-grossense-do-sul</em> (Mato Grosso do Sul), <em>rio-grandense-do-sul</em>/<em>gaúcho</em> (Rio Grande do Sul), <em>norte-americano</em>, <em>sul-africano</em>, <em>porto-alegrense</em> (Porto Alegre).</li>
+  <li><strong>pré-, pró-, pós-</strong> (tônicos, com acento gráfico): sempre hífen, independentemente da letra seguinte → <em>pré-natal, pró-ativo, pós-graduação</em>. Não confundir com "pre-, pro-, pos-" átonos, sem acento, que se aglutinam → <em>prever, propor, pospor</em>.</li>
+  <li><strong>co-</strong>: em geral aglutina sem hífen (<em>coordenar, cooperar, coautor</em>), mas usa hífen antes de <strong>h</strong> → <em>co-herdeiro, co-habitar</em>.</li>
+  <li><strong>não e quase como prefixo</strong> (substantivos compostos): usam hífen → <em>acordo de não-agressão, um quase-delito</em>.</li>
+  <li><strong>Numerais</strong>: cardinais compostos por "e" não levam hífen (<em>trinta e dois, cento e vinte</em>); ordinais compostos podem levar hífen entre os elementos em certas grafias tradicionais (<em>vigésimo-primeiro</em>), mas a tendência atual aceita também sem hífen; frações compostas seguem a mesma lógica dos ordinais.</li>
+  <li><strong>Topônimos com "grão" e "grã"</strong>: sempre hífen → <em>Grã-Bretanha, Grão-Pará</em>.</li>
 </ul>
 
 <h3>Translineação — hífen na quebra de linha</h3>
