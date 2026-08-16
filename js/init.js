@@ -298,7 +298,7 @@
       id: 'fonetica_ortografia',
       nome: 'Fonética e Ortografia',
       icon: '📖',
-      desc: 'Fonética, ortografia, acentuação e sílabas',
+      desc: '📌 BACEN · IFPA — Fonética, ortografia, acentuação e sílabas',
       materia: 'portugues',
       teoria: '<h3>Fonética e Ortografia</h3><p>Esta seção reúne todos os temas de fonética e ortografia.</p>',
       questoes: qFon,
@@ -333,7 +333,7 @@
     id: 'legislacao_todos',
     nome: 'Legislação',
     icon: '⚖️',
-    desc: 'Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
+    desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
     materia: 'nocoes_de_direito',
     teoria: '<h3>Legislação</h3><p>Esta seção reúne todos os temas de Direito Constitucional, Direito Administrativo e legislação específica (Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008) e Ética no Serviço Público.</p>',
     subtemas: ['direito_constitucional_geral','direito_administrativo_atos','direito_administrativo_servidor_8112','lei_9784_processo_administrativo','lei_11892_2008','etica_servico_publico']
@@ -343,7 +343,7 @@
     id: 'nocoes_de_administracao_todos',
     nome: 'Noções de Administração',
     icon: '🏛️',
-    desc: 'Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública',
+    desc: '📌 BACEN · IFPA — Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública',
     materia: 'administracao_geral_e_publica',
     teoria: '<h3>Noções de Administração</h3><p>Esta seção reúne todos os temas de Administração Geral, Gestão de Pessoas, Arquivologia, Licitações, Gestão de Projetos, Gestão Estratégica/Qualidade e Administração Pública.</p>',
     subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_agp']
@@ -353,7 +353,7 @@
     id: 'matematica_todos',
     nome: 'Matemática',
     icon: '🔢',
-    desc: 'Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências (PA e PG) e Matemática Básica',
+    desc: '📌 BACEN · IFPA — Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências (PA e PG) e Matemática Básica',
     materia: 'matematica',
     teoria: '<h3>Matemática</h3><p>Esta seção reúne todos os temas de Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências e Matemática Básica.</p>',
     subtemas: ['raciocinio_logico_geral','estatistica_geral','analise_combinatoria_geral','probabilidade_geral','sequencias_pa_pg_geral','matematica_geral']
@@ -363,7 +363,7 @@
     id: 'informatica_todos',
     nome: 'Noções de Informática',
     icon: '💻',
-    desc: 'Hardware, Software, Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico e Segurança da Informação',
+    desc: '📌 BACEN · IFPA — Hardware, Software, Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico e Segurança da Informação',
     materia: 'informatica',
     teoria: '<h3>Noções de Informática</h3><p>Esta seção reúne todos os temas de Hardware, Software, Windows, Linux, Editor de Textos, Planilhas Eletrônicas, Internet, Correio Eletrônico e Segurança da Informação.</p>',
     subtemas: ['hardware_geral','software_geral','windows_geral','linux_geral','editor_textos_geral','planilhas_geral','internet_geral','correio_eletronico_geral','seguranca_informacao_geral']
