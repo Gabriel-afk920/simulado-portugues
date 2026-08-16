@@ -4,18 +4,14 @@
 //  MATERIAS.length > 1 (ver app.js)
 // ══════════════════════════════════════════════════════════
 const MATERIAS = [
+  { id: 'matematica', nome: 'Matemática', icon: '🔢', desc: '📌 BACEN · IFPA — Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade e Sequências (PA e PG)' },
   { id: 'portugues', nome: 'Língua Portuguesa', icon: '📖', desc: '📌 BACEN · IFPA — Fonética, gramática, ortografia e interpretação de texto' },
-  { id: 'informatica', nome: 'Informática', icon: '💻', desc: '📌 BACEN · IFPA — Redes, sistemas operacionais, programação (Python/Java/SQL), desenvolvimento web, governança de TI (ITIL/COBIT) e segurança da informação' },
+  { id: 'informatica', nome: 'Noções de Informática', icon: '💻', desc: '📌 BACEN · IFPA — Hardware, Software, Windows, Linux, Editor de Textos, Planilhas Eletrônicas, Internet, Correio Eletrônico e Segurança da Informação' },
   { id: 'gestao_de_recursos_materiais_e_patrimoniais', nome: 'Gestão de Recursos Materiais e Patrimoniais', icon: '📦', desc: '📌 BACEN — Controle de estoque, reposição de materiais e gestão patrimonial' },
-  { id: 'nocoes_de_direito', nome: 'NOÇÕES DE DIREITO', icon: '⚖️', desc: '📌 BACEN · IFPA — Direito Constitucional (princípios da CF, Art. 5º e 144) e Direito Administrativo (regime jurídico do servidor, atos administrativos, autarquias)' },
-  { id: 'raciocinio_logico', nome: 'Raciocínio Lógico', icon: '🧩', desc: '📌 BACEN · IFPA — Lógica proposicional, probabilidade, combinatória e problemas de raciocínio quantitativo' },
-  { id: 'estatistica', nome: 'Estatística', icon: '📊', desc: '📌 BACEN · IFPA — Probabilidade, desvio padrão, correlação e combinatória aplicada (Raciocínio Lógico-Quantitativo)' },
+  { id: 'nocoes_de_direito', nome: 'Legislação', icon: '⚖️', desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público' },
   { id: 'contabilidade_geral_e_publica', nome: 'Contabilidade Geral e Pública', icon: '📚', desc: '📌 BACEN — Depreciação, ativo imobilizado, avaliação de investimentos, estoques, DRE e DFC' },
-  { id: 'administracao_geral_e_publica', nome: 'Administração Geral e Pública', icon: '🏛️', desc: '📌 BACEN · IFPA — Gestão de pessoas, arquivologia, licitações e contratos, gestão de projetos e gestão estratégica e da qualidade' },
-  { id: 'administracao_geral', nome: 'Administração Geral', icon: '📋', desc: '📌 BACEN · IFPA — Avaliação de desempenho, gestão da qualidade, Balanced Scorecard e processo administrativo' },
-  { id: 'administracao_publica', nome: 'Administração Pública', icon: '🏢', desc: '📌 BACEN · IFPA — Accountability, gestão de riscos, governança e políticas públicas' },
+  { id: 'administracao_geral_e_publica', nome: 'Noções de Administração', icon: '🏛️', desc: '📌 BACEN · IFPA — Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública' },
   { id: 'auditoria', nome: 'Auditoria', icon: '🔍', desc: '📌 BACEN — Planejamento de auditoria, amostragem, evidências e detecção de fraudes contábeis' },
-  { id: 'matematica', nome: 'MATEMÁTICA', icon: '🔢', desc: '📌 BACEN · IFPA — Problemas quantitativos aplicados: proporção, sistemas de equações, geometria e probabilidade' },
 ];
 
 // ══════════════════════════════════════════════════════════
@@ -6370,7 +6366,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
   {
     id: "administracao_publica_agp", materia: 'administracao_geral_e_publica',
-    nome: "Administração Pública — Reforma do Estado e Políticas Públicas",
+    nome: "Administração Pública",
     icon: "🏢",
     desc: "Reforma do Estado, modelos de gestão, políticas públicas e gestão de riscos",
     teoria: `
@@ -6386,7 +6382,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     questoes: []
   },
   {
-    id: "raciocinio_logico_geral", materia: 'raciocinio_logico',
+    id: "raciocinio_logico_geral", materia: 'matematica',
     nome: "Raciocínio Lógico",
     icon: "🧩",
     desc: "Questões gerais de Raciocínio Lógico",
@@ -6462,75 +6458,248 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     questoes: []
   },
   {
-    id: "informatica_geral", materia: 'informatica',
-    nome: "Informática",
-    icon: "💻",
-    desc: "Questões gerais de Informática",
+    id: "hardware_geral", materia: 'informatica',
+    nome: "Hardware",
+    icon: "🖥️",
+    desc: "Componentes do computador, arquitetura de Von Neumann, memória, barramentos e dispositivos de armazenamento",
     teoria: `
-<h3>Informática</h3>
-
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
-<strong style="color:#38bdf8;">Sobre este tema</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Cobre redes de computadores, segurança da informação, sistemas operacionais, arquitetura de computadores, banco de dados, programação e governança de TI — perfil técnico de concursos como Transpetro.</p>
-</div>
-
-<h3>Redes de Computadores</h3>
-<p><strong>Topologias físicas</strong>: <strong>barramento</strong> (todos os nós conectados a um único meio de transmissão compartilhado, configuração multiponto — um cabo interliga tudo); <strong>anel</strong> (cada nó se conecta aos dois vizinhos, formando um círculo fechado); <strong>estrela</strong> (todos os nós se conectam a um ponto central, como um switch/hub); <strong>árvore</strong> (hierarquia de estrelas conectadas); <strong>malha</strong> (múltiplas conexões redundantes entre os nós).</p>
-<p><strong>Modelo OSI</strong> (7 camadas, de baixo pra cima): Física, Enlace, Rede, Transporte, Sessão, Apresentação, Aplicação. A camada de Transporte fica entre Rede (abaixo) e Sessão (acima).</p>
-<p><strong>Protocolos de Transporte (TCP/IP)</strong>: <strong>TCP</strong> é confiável (orientado a conexão, confirma cada pacote recebido); <strong>UDP</strong> não confirma recebimento, é mais rápido mas sem garantia de entrega.</p>
-<p><strong>IPv4 x IPv6</strong>: IPv4 usa endereços de 32 bits (esgotamento de endereços); IPv6 usa <strong>128 bits</strong>, o que dá 2¹²⁸ endereços possíveis (não 2³², 2⁶⁴ ou outro valor — o total de bits do endereço é sempre o expoente de 2) — essa é a principal vantagem do IPv6, não velocidade, QoS ou garantia de entrega.</p>
-<p><strong>Classes de endereço IPv4</strong>: a <strong>classe A</strong> é a que reserva o maior bloco de endereços por rede (poucos bits pra identificar a rede, muitos bits pra hosts) — por isso é a mais usada historicamente pra redes de grande porte; classe B é intermediária; classe C tem blocos pequenos (redes menores); classe D é reservada para multicast; classe E é experimental/reservada.</p>
-<p><strong>Equipamentos — não confundir o nível de segmentação</strong>: <strong>hub/concentrador/repetidor</strong> não segmentam nada — todas as portas compartilham o mesmo domínio de colisão e de broadcast; <strong>switch</strong> segmenta o <strong>domínio de colisão</strong> por porta (cada porta é um domínio próprio), mas todas as portas continuam no <strong>mesmo domínio de broadcast</strong>; <strong>roteador</strong> segmenta tanto o domínio de colisão quanto o <strong>domínio de broadcast</strong> por porta — é o equipamento certo quando a exigência é segmentar os dois ao mesmo tempo.</p>
-<p><strong>USB</strong>: transmite dados no formato <strong>serial</strong> (um bit de cada vez, sequencialmente), não paralelo.</p>
-<p><strong>VPN</strong>: sua principal vantagem no acesso remoto via internet pública é <strong>aumentar a segurança da comunicação</strong> (por meio de criptografia), não aumentar velocidade nem eliminar a necessidade de firewall ou de fiação física.</p>
-
-<h3>Segurança da Informação</h3>
-<p><strong>Sigilo de assuntos e documentos</strong> (Decreto 4.553): quem toma conhecimento de assunto sigiloso fica automaticamente responsável por mantê-lo — as regras básicas incluem falar pouco, ser discreto, responder só o que não compromete o serviço, e prestar atenção às intenções de quem aborda. A pegadinha: <strong>não</strong> é uma regra válida "comentar assuntos de serviço com pessoas de confiança" — o sigilo deve ser mantido independentemente de quanta confiança se tem em quem está ouvindo.</p>
-<p><strong>Princípios da segurança da informação (tríade CIA + extensões)</strong>: <strong>confidencialidade</strong> (limitar o acesso à informação só a quem está autorizado — é o princípio violado quando há vazamento/quebra de sigilo); <strong>integridade</strong> (garantir que a informação não seja alterada indevidamente); <strong>disponibilidade</strong> (garantir que a informação esteja acessível quando necessário, a quem tem direito); <strong>responsabilidade/não-repúdio</strong> (garantir que uma ação possa ser atribuída a quem a praticou, sem que essa pessoa possa negar).</p>
-<p><strong>Certificado digital</strong>: arquivo eletrônico que comprova identidade. Cuidado com o conteúdo exato cobrado em prova: entre as informações típicas de um certificado estão o <strong>número de série</strong> e o <strong>período de validade</strong> do próprio certificado — não é uma leitura biométrica nem dados de localização, e mesmo os dados de identificação (CPF/CNPJ) aparecem dentro do certificado mas a resposta mais específica e cobrada costuma ser número de série + validade.</p>
-<p><strong>Cuidados com a chave privada e o certificado digital</strong>: nunca compartilhar a senha de acesso à chave privada com ninguém; solicitar revogação imediata em caso de comprometimento ou suspeita; em ambiente acessível a várias pessoas, usar soluções de controle de acesso e proteção do sistema operacional. Não são cuidados formais exigidos: "usar só quando estiver sozinho na sala" ou "reiniciar o computador toda vez após usar o certificado" — parecem prudentes, mas não são as práticas de segurança tecnicamente corretas cobradas.</p>
-<p><strong>Criptografia assimétrica</strong>: usa par de chaves (pública e privada) — a chave pública cifra, só a privada correspondente decifra (e vice-versa para assinatura digital). É o mecanismo por trás de transações bancárias seguras via internet.</p>
-<p><strong>Ameaças — não confundir</strong>: <strong>phishing</strong> (mensagem fraudulenta, geralmente e-mail, se passando por instituição conhecida, induzindo a clicar num link falso pra roubar dados); <strong>spam</strong> (mensagem não solicitada em massa, nem sempre fraudulenta); <strong>worm</strong> (malware que se replica e se espalha sozinho para outros sistemas); <strong>adware</strong> (exibe propaganda indesejada); <strong>spyware</strong> (coleta informações do usuário sem consentimento); <strong>rootkit</strong> (a característica que o diferencia dos demais é a capacidade de se ocultar extremamente bem no sistema e interceptar chamadas do sistema operacional, muitas vezes habilitando acesso com privilégios de administrador).</p>
-<p><strong>Firewall</strong>: sua funcionalidade principal é <strong>controlar o tráfego de rede</strong>, permitindo ou bloqueando comunicação entre dispositivos com base num conjunto de regras de segurança — não confundir com proxy (intermedia requisições), IDS (detecta e alerta sobre atividades suspeitas) ou antivírus (varre e remove malware).</p>
-<p>A <strong>ISO/IEC 27002</strong> orienta boas práticas de gestão de segurança da informação. A <strong>segregação de funções</strong> tem como propósito específico <strong>reduzir o risco de fraude, erro e desvio de controles de segurança</strong> — ninguém deve controlar um processo crítico sozinho, do início ao fim.</p>
-
-<h3>Sistemas Operacionais</h3>
-<p><strong>Escalonamento de processos</strong>: algoritmos que decidem qual processo usa o processador e por quanto tempo, dando a impressão de multitarefa simultânea. <strong>Tempo de turnaround</strong> é o tempo <strong>total</strong>, desde a submissão do processo até sua conclusão — não confundir com tempo de resposta (submissão até a primeira resposta), tempo de espera (tempo na fila) ou tempo de execução (tempo efetivamente usando o processador).</p>
-<p><strong>Linux</strong>: comando <code>ls -Rla</code> — <code>-R</code> percorre recursivamente subdiretórios, <code>-l</code> usa formato longo (detalhado), <code>-a</code> inclui arquivos ocultos. Redirecionamento: <code>&gt;</code> <strong>sobrescreve</strong> o arquivo de destino (apaga o conteúdo anterior e escreve do zero); <code>&gt;&gt;</code> <strong>anexa</strong> ao final do arquivo, preservando o que já existia.</p>
-<p><strong>Links simbólicos</strong> apontam para outro arquivo pelo caminho/nome — se o arquivo original é apagado, o link simbólico não é removido junto nem passa a apontar pra outro lugar automaticamente: ele se torna um <strong>"link quebrado"</strong> (aponta pra um caminho que não existe mais). Isso é diferente de um hard link, que mantém o conteúdo acessível mesmo se o "nome original" for removido, porque aponta pros mesmos dados no disco, não pra um caminho.</p>
-
-<h3>Arquitetura de Computadores</h3>
+<h3>Hardware (universo completo)</h3>
+<h3>Componentes básicos</h3>
+<p><strong>CPU (processador)</strong>: unidade central de processamento, executa instruções — composta por ULA (Unidade Lógica e Aritmética, faz cálculos/comparações) e UC (Unidade de Controle, coordena a busca e execução de instruções). <strong>Memória RAM</strong>: volátil (perde os dados ao desligar), acesso rápido, usada para dados e programas em execução. <strong>Memória ROM</strong>: não volátil, geralmente contém firmware (ex.: BIOS/UEFI). <strong>Memória cache</strong>: pequena e muito rápida, fica entre CPU e RAM, guarda dados de uso frequente para acelerar o acesso (níveis L1, L2, L3 — quanto mais próxima do núcleo, mais rápida e menor).</p>
 <p><strong>Arquitetura de Von Neumann</strong>: usa uma <strong>única memória</strong> compartilhada para armazenar tanto dados quanto instruções (diferente da arquitetura Harvard, que separa fisicamente memória de dados e memória de instruções).</p>
-<p><strong>Representação binária — complemento de 2</strong>: pra representar um número negativo, inverte-se todos os bits do número positivo correspondente e soma-se 1. Exemplo com 8 bits, número −5: 5 em binário é 00000101; invertendo os bits (complemento de 1): 11111010; somando 1: <strong>11111011</strong>. Quando o resultado de uma soma entre dois números em complemento de 2 excede o que cabe no tamanho da palavra do processador, ocorre <strong>overflow</strong> (estouro de capacidade) — diferente de "bit de carry" (vai-um entre posições, que pode ocorrer sem gerar overflow).</p>
 <p><strong>Camadas de software sobre o hardware</strong>, da mais próxima à mais distante do hardware: <strong>Firmware</strong> (software gravado no próprio hardware, ex.: BIOS/UEFI) → <strong>Sistema Operacional</strong> → <strong>Aplicativos</strong>. O firmware é o que primeiro "conversa" diretamente com o hardware; os aplicativos são a camada mais distante, voltada ao usuário.</p>
 <p><strong>Barramento do sistema</strong>: conecta os componentes principais do computador, formado por linhas de dados (movimentam os dados em si), linhas de endereço (designam origem/destino dos dados) e <strong>linhas de controle</strong> — cuja função é <strong>controlar o acesso e o uso</strong> das próprias linhas de dados e de endereço (coordenar quem pode transmitir e quando).</p>
+<p><strong>Representação binária — complemento de 2</strong>: pra representar um número negativo, inverte-se todos os bits do número positivo correspondente e soma-se 1. Exemplo com 8 bits, número −5: 5 em binário é 00000101; invertendo os bits (complemento de 1): 11111010; somando 1: <strong>11111011</strong>. Quando o resultado de uma soma entre dois números em complemento de 2 excede o que cabe no tamanho da palavra do processador, ocorre <strong>overflow</strong> (estouro de capacidade) — diferente de "bit de carry" (vai-um entre posições, que pode ocorrer sem gerar overflow).</p>
+
+<h3>Dispositivos de Armazenamento</h3>
+<p><strong>HD (disco rígido)</strong>: armazenamento magnético, partes móveis (pratos giratórios + cabeça de leitura), mais lento e mais barato por GB. <strong>SSD</strong>: armazenamento em memória flash, sem partes móveis, muito mais rápido, mais caro por GB, mais resistente a impactos. <strong>Pendrive/cartão de memória</strong>: memória flash portátil removível. <strong>CD/DVD/Blu-ray</strong>: armazenamento óptico, capacidade crescente nessa ordem (CD ~700MB, DVD ~4,7GB, Blu-ray ~25-50GB).</p>
+<p><strong>Unidades de medida</strong>: bit (menor unidade, 0 ou 1) → byte (8 bits) → KB → MB → GB → TB — cada nível é 1024× o anterior (base binária, embora fabricantes de armazenamento costumem anunciar em base 1000, o que gera a diferença entre a capacidade "anunciada" e a "real" exibida pelo sistema operacional).</p>
+
+<h3>Periféricos</h3>
+<p><strong>Entrada</strong>: teclado, mouse, scanner, webcam, microfone. <strong>Saída</strong>: monitor, impressora, caixa de som. <strong>Entrada e saída</strong>: tela touchscreen, impressora multifuncional (imprime e digitaliza).</p>
+<p><strong>USB</strong>: transmite dados no formato <strong>serial</strong> (um bit de cada vez, sequencialmente), não paralelo. É um dispositivo de entrada e de saída, reconhecido por ser rápido e eficiente na transmissão de dados entre dispositivos e o computador (impressoras, pendrives, mouses, teclados).</p>`,
+    questoes: []
+  },
+  {
+    id: "software_geral", materia: 'informatica',
+    nome: "Software",
+    icon: "⚙️",
+    desc: "Tipos de software, banco de dados/SQL, programação (Python/Java), desenvolvimento web e governança de TI (ITIL/COBIT)",
+    teoria: `
+<h3>Software (universo completo)</h3>
+<h3>Tipos de software</h3>
+<p><strong>Software de sistema</strong>: sistema operacional e drivers, gerenciam o hardware e dão suporte aos demais programas. <strong>Software aplicativo</strong>: programas de uso final (editores de texto, planilhas, navegadores). <strong>Software livre</strong>: código-fonte aberto, pode ser estudado/modificado/redistribuído (ex.: Linux, LibreOffice) — diferente de <strong>freeware</strong> (gratuito, mas sem código aberto necessariamente) e de <strong>shareware</strong> (versão de teste/limitada, paga depois).</p>
+<p><strong>Escalonamento de processos</strong> (conceito de sistema operacional aplicável a Windows e Linux): algoritmos que decidem qual processo usa o processador e por quanto tempo, dando a impressão de multitarefa simultânea. <strong>Tempo de turnaround</strong> é o tempo <strong>total</strong>, desde a submissão do processo até sua conclusão — não confundir com tempo de resposta (submissão até a primeira resposta), tempo de espera (tempo na fila) ou tempo de execução (tempo efetivamente usando o processador).</p>
 
 <h3>Banco de Dados</h3>
-<p><strong>Modelo Entidade-Relacionamento (E-R)</strong>: cardinalidade define quantas ocorrências de uma entidade se relacionam com outra (1:1, 1:N, N:M) — em questões de conjuntos que testam se violam ou não as restrições, verifique cada par/combinação contra o limite máximo permitido pela cardinalidade de cada relacionamento, um por um, antes de decidir. Método prático: pra cada elemento do primeiro conjunto (ex.: cada x), conte quantas vezes ele aparece nos pares do conjunto candidato — se esse número ultrapassa o máximo permitido pela cardinalidade do relacionamento naquele lado, o conjunto viola a restrição; repita a mesma checagem para o segundo conjunto (cada y) e para qualquer segundo relacionamento (ex.: entre y e z) que o diagrama apresente, checando cardinalidade mínima e máxima de cada lado separadamente.</p>
-<p><strong>Integridade referencial (chave estrangeira)</strong>: um <code>INSERT</code> numa tabela com chave estrangeira só funciona se o valor referenciado já existir na tabela "pai" (ex.: inserir uma reserva pra um voo que não existe na tabela VOO falha); um <code>DELETE</code> numa tabela "pai" só funciona sem erro se <strong>não houver</strong> nenhuma linha "filha" dependente daquele registro (ex.: apagar um voo que não tem nenhuma reserva associada funciona; apagar um passageiro que já tem reserva, normalmente falha).</p>
-<p><strong>Operadores de conjunto em SQL</strong>: <code>UNION</code> combina os resultados de duas consultas, removendo duplicatas; <code>INTERSECT</code> retorna só as linhas que aparecem em <strong>ambas</strong> as consultas. <code>LEFT JOIN</code> mantém todas as linhas da tabela à esquerda mesmo sem correspondência à direita (preenchendo com NULL); <code>RIGHT JOIN</code> faz o inverso, mantendo todas as linhas da tabela à direita.</p>
+<p><strong>Modelo Entidade-Relacionamento (E-R)</strong>: cardinalidade define quantas ocorrências de uma entidade se relacionam com outra (1:1, 1:N, N:M) — em questões de conjuntos que testam se violam ou não as restrições, verifique cada par/combinação contra o limite máximo permitido pela cardinalidade de cada relacionamento, um por um, antes de decidir.</p>
+<p><strong>Integridade referencial (chave estrangeira)</strong>: um <code>INSERT</code> numa tabela com chave estrangeira só funciona se o valor referenciado já existir na tabela "pai" (ex.: inserir uma reserva pra um voo que não existe na tabela VOO falha); um <code>DELETE</code> numa tabela "pai" só funciona sem erro se <strong>não houver</strong> nenhuma linha "filha" dependente daquele registro.</p>
+<p><strong>SQL básico</strong>: <code>SELECT</code> (consulta), <code>INSERT</code> (inserção), <code>UPDATE</code> (atualização), <code>DELETE</code> (remoção), <code>CREATE TABLE</code> (criação de tabela). <strong>Operadores de conjunto</strong>: <code>UNION</code> combina os resultados de duas consultas, removendo duplicatas; <code>INTERSECT</code> retorna só as linhas que aparecem em <strong>ambas</strong> as consultas. <code>LEFT JOIN</code> mantém todas as linhas da tabela à esquerda mesmo sem correspondência à direita (preenchendo com NULL); <code>RIGHT JOIN</code> faz o inverso.</p>
 
 <h3>Programação</h3>
 <p><strong>Python — strings são imutáveis</strong>: métodos como <code>.split()</code> ou <code>.upper()</code> retornam um <strong>novo</strong> valor, sem alterar a variável original. Ex.: se <code>str = 'America do Sul'</code> e depois se faz <code>s1 = (str.split(';')).pop().upper()</code>, o valor de <code>str</code> continua exatamente <code>'America do Sul'</code> — quem muda é só a nova variável <code>s1</code>.</p>
 <p><strong>Python — <code>len()</code> em listas aninhadas</strong>: ao percorrer uma lista com <code>for e in lista: c += len(e)</code>, o <code>len()</code> de cada elemento conta só o tamanho <strong>daquele elemento no nível em que ele está</strong> — se o elemento é uma string, conta caracteres; se é uma sublista, conta quantos itens ela tem diretamente (sem entrar recursivamente nas suas próprias sublistas).</p>
 <p><strong>Python — pilhas com listas</strong>: usando o último elemento da lista como topo, uma função de intercalação entre duas pilhas normalmente usa um laço <code>while</code> que continua <strong>enquanto pelo menos uma</strong> das duas pilhas ainda tiver elementos (condição com <code>or</code>, não <code>and</code>) — se usasse <code>and</code>, o laço pararia assim que a primeira pilha esvaziasse, deixando elementos da outra de fora.</p>
-<p><strong>Java — interfaces, classes abstratas e herança</strong>: uma interface define métodos sem implementação, que precisam ser implementados por uma classe concreta (direta ou indiretamente, através de uma cadeia de herança). Uma classe abstrata pode fornecer implementação parcial. Erros de compilação comuns nesse tipo de questão vêm de: instanciar diretamente uma classe abstrata (não pode), referenciar uma classe de outro pacote sem qualificar o caminho completo (<code>pk3.NomeDaClasse</code>) quando ela não foi importada, tentar instanciar uma classe que não implementa todos os métodos exigidos pela interface em algum ponto da cadeia de herança, ou tentar instanciar uma classe que tem <strong>visibilidade padrão</strong> (sem o modificador <code>public</code> antes de <code>class</code>) a partir de outro pacote — mesmo qualificando o caminho completo, isso ainda dá erro de compilação, porque visibilidade padrão só permite acesso dentro do próprio pacote.</p>
-<p><strong>Exemplo completo</strong>: considere uma interface <code>Itf</code> (métodos <code>m1</code>, <code>m2</code> sem implementação) e uma classe abstrata <code>A</code> (implementa <code>m1</code> e <code>m2</code>) — ambas no pacote <code>pk1</code>. No pacote <code>pk3</code>: <code>class B extends A implements Itf</code> (sem <code>public</code> — visibilidade padrão) e <code>public class C extends B</code> (com <code>public</code>). Num terceiro pacote <code>pk2</code>, não importado por ninguém: <code>public class D extends A</code>. Numa classe <code>Main</code> que só fez <code>import pk1.*;</code>, avalie cada tentativa de instanciar um objeto: <code>new B()</code> falha (nome não qualificado, e B não está no pacote importado pk1); <code>new pk3.B()</code> <strong>também falha</strong>, mesmo com o caminho completo — porque B tem visibilidade padrão (sem <code>public</code>), inacessível de fora do pacote pk3, mesmo com o nome do pacote explícito; <code>new A()</code> falha porque A é abstrata, não pode ser instanciada diretamente; <code>new D()</code> falha porque D está em pk2, que não foi importado nem referenciado por caminho completo; só <code>new pk3.C()</code> funciona, porque C é <code>public</code> (acessível de qualquer pacote quando referenciado com o caminho completo) e herda de B (que herda de A e implementa Itf), então C tem toda a implementação necessária pronta pela cadeia de herança.</p>
+<p><strong>Java — interfaces, classes abstratas e herança</strong>: uma interface define métodos sem implementação, que precisam ser implementados por uma classe concreta (direta ou indiretamente, através de uma cadeia de herança). Uma classe abstrata pode fornecer implementação parcial. Erros de compilação comuns: instanciar diretamente uma classe abstrata (não pode), referenciar uma classe de outro pacote sem qualificar o caminho completo quando ela não foi importada, ou tentar instanciar uma classe com <strong>visibilidade padrão</strong> (sem <code>public</code>) a partir de outro pacote — mesmo qualificando o caminho completo, isso ainda dá erro, porque visibilidade padrão só permite acesso dentro do próprio pacote.</p>
 
 <h3>Desenvolvimento Web</h3>
-<p><strong>JavaScript — obter valor de um campo</strong>: pra ler o valor digitado num campo de texto HTML, usa-se <code>document.getElementById("id").value</code> — não <code>.innerHTML</code> (que pega o conteúdo HTML interno, não o valor de um input) nem <code>.getText()</code> (não existe nativamente pra isso).</p>
-<p><strong>HTML5</strong>: o atributo <code>onclick</code> num elemento (ex.: <code>&lt;button onclick="funcao()"&gt;</code>) dispara uma função JavaScript quando o elemento é clicado — atributos como <code>action</code>, <code>execute</code> ou <code>trigger</code> não têm esse efeito nativo em HTML.</p>
-<p><strong>XML</strong>: pra um documento XML ser <strong>válido</strong> segundo a especificação, ele deve <strong>começar com uma declaração XML</strong> (ex.: <code>&lt;?xml version="1.1"?&gt;</code>). Outras regras: só pode ter <strong>um único elemento raiz</strong> (não vários), os nomes de elementos são <strong>sensíveis a maiúsculas/minúsculas</strong> (case-sensitive — "Tag" e "tag" são elementos diferentes), e comentários não podem aparecer como atributos de uma tag.</p>
+<p><strong>JavaScript — obter valor de um campo</strong>: pra ler o valor digitado num campo de texto HTML, usa-se <code>document.getElementById("id").value</code> — não <code>.innerHTML</code> (que pega o conteúdo HTML interno, não o valor de um input).</p>
+<p><strong>HTML5</strong>: o atributo <code>onclick</code> num elemento (ex.: <code>&lt;button onclick="funcao()"&gt;</code>) dispara uma função JavaScript quando o elemento é clicado.</p>
+<p><strong>XML</strong>: pra um documento XML ser <strong>válido</strong>, deve <strong>começar com uma declaração XML</strong> (ex.: <code>&lt;?xml version="1.1"?&gt;</code>), ter <strong>um único elemento raiz</strong>, nomes de elementos <strong>sensíveis a maiúsculas/minúsculas</strong>, e comentários não podem aparecer como atributos de uma tag.</p>
 
 <h3>Governança de TI</h3>
-<p><strong>ITIL</strong>: framework de boas práticas para gestão de serviços de TI. O <strong>Gerenciamento de Capacidade</strong> é o processo responsável por garantir que o desempenho da rede/sistemas (ex.: tráfego de dados) se mantenha dentro dos níveis de serviço definidos, mesmo diante de novas demandas (como um sistema que gera alto tráfego de vídeo).</p>
-<p><strong>ITIL v4 — mudança em relação ao ITIL v3</strong>: uma das alterações mais relevantes foi a implantação do <strong>Sistema de Valor de Serviço</strong> (Service Value System, SVS), que traz um fluxo de valor mais flexível — substituindo o antigo ciclo de vida de serviço rígido do ITIL v3 por um modelo mais adaptável a diferentes contextos organizacionais.</p>
-<p><strong>COBIT</strong>: é melhor entendido como um framework que <strong>define os componentes que sustentam um sistema de governança</strong> de TI — não é um framework técnico pra gerenciar toda a tecnologia empresarial no detalhe operacional (isso seria mais próximo do ITIL), nem descreve o ambiente de TI por completo: seu foco é estruturar como a governança de TI deve funcionar.</p>
-<p><strong>Gestão de Projetos de TI</strong>: linha de base (planejamento original) e Estrutura Analítica do Projeto (EAP) — ver também o tema Administração Geral e Pública.</p>`,
+<p><strong>ITIL</strong>: framework de boas práticas para gestão de serviços de TI. O <strong>Gerenciamento de Capacidade</strong> garante que o desempenho da rede/sistemas se mantenha dentro dos níveis de serviço definidos, mesmo diante de novas demandas. <strong>ITIL v4</strong> trouxe o <strong>Sistema de Valor de Serviço</strong> (SVS), um fluxo mais flexível que substituiu o ciclo de vida rígido do ITIL v3.</p>
+<p><strong>COBIT</strong>: framework que <strong>define os componentes que sustentam um sistema de governança</strong> de TI — foco em estruturar como a governança deve funcionar, diferente do ITIL, mais operacional/técnico.</p>`,
     questoes: []
   },
   {
-    id: "estatistica_geral", materia: 'estatistica',
+    id: "windows_geral", materia: 'informatica',
+    nome: "Windows",
+    icon: "🪟",
+    desc: "Área de trabalho, Windows Explorer, Painel de Controle, atalhos de teclado e versões do Windows",
+    teoria: `
+<h3>Windows (universo completo)</h3>
+<h3>Área de Trabalho e Interface</h3>
+<p><strong>Área de trabalho (Desktop)</strong>: tela principal com ícones de atalho, papel de parede e a <strong>Barra de Tarefas</strong> (mostra programas abertos, relógio, área de notificação e o botão Iniciar). <strong>Atalho</strong>: ícone que aponta para um arquivo/programa/pasta sem ser o arquivo original — apagar o atalho não apaga o arquivo original.</p>
+<p><strong>Windows Explorer (Explorador de Arquivos)</strong>: gerenciador de arquivos e pastas do Windows — organiza dados em estrutura hierárquica (pastas dentro de pastas). Painel de navegação à esquerda (acesso rápido, Este Computador, bibliotecas); área principal mostra o conteúdo da pasta atual.</p>
+<p><strong>Painel de Controle / Configurações</strong>: central de configurações do sistema (contas de usuário, rede, dispositivos, programas instalados, atualizações, firewall do Windows).</p>
+
+<h3>Operações com arquivos</h3>
+<p><strong>Copiar × Recortar × Colar</strong>: copiar (Ctrl+C) duplica o item mantendo o original; recortar (Ctrl+X) move o item (o original só é removido quando se cola em outro lugar); colar (Ctrl+V) efetiva a cópia/movimentação no destino.</p>
+<p><strong>Lixeira</strong>: destino padrão de arquivos excluídos do disco local (Delete) — permite restauração. <strong>Shift+Delete</strong> exclui permanentemente, sem passar pela Lixeira.</p>
+<p><strong>Extensões de arquivo comuns</strong>: .exe (executável), .docx (Word), .xlsx (Excel), .pdf (documento portátil), .zip/.rar (compactados), .jpg/.png (imagem).</p>
+
+<h3>Atalhos de teclado essenciais</h3>
+<p><strong>Ctrl+C</strong> copiar · <strong>Ctrl+X</strong> recortar · <strong>Ctrl+V</strong> colar · <strong>Ctrl+Z</strong> desfazer · <strong>Ctrl+Y</strong> refazer · <strong>Ctrl+A</strong> selecionar tudo · <strong>Ctrl+P</strong> imprimir · <strong>Ctrl+S</strong> salvar · <strong>Alt+Tab</strong> alternar entre janelas abertas · <strong>Alt+F4</strong> fechar janela/programa ativo · <strong>Windows+D</strong> mostrar/minimizar área de trabalho · <strong>Windows+E</strong> abrir o Explorador de Arquivos · <strong>Windows+L</strong> bloquear o computador · <strong>F2</strong> renomear item selecionado · <strong>F5</strong> atualizar.</p>
+
+<h3>Contas de usuário e permissões</h3>
+<p><strong>Administrador</strong>: acesso total, pode instalar programas e alterar configurações do sistema. <strong>Usuário padrão</strong>: acesso limitado, não pode alterar configurações críticas nem instalar a maioria dos programas sem autorização de um administrador.</p>
+
+<h3>Versões do Windows</h3>
+<p>Evolução histórica cobrada em prova: Windows 98 → 2000 → XP → Vista → 7 → 8 → 8.1 → 10 → 11. Cada versão trouxe mudanças de interface (ex.: o menu Iniciar foi removido no Windows 8 e retornou no Windows 10; o Windows 11 centralizou a barra de tarefas e o menu Iniciar).</p>`,
+    questoes: []
+  },
+  {
+    id: "linux_geral", materia: 'informatica',
+    nome: "Linux",
+    icon: "🐧",
+    desc: "Comandos básicos, sistema de arquivos, permissões e links simbólicos no Linux",
+    teoria: `
+<h3>Linux (universo completo)</h3>
+<h3>Conceitos gerais</h3>
+<p><strong>Linux</strong> é um sistema operacional <strong>livre e de código aberto</strong>, baseado em Unix. <strong>Distribuições (distros)</strong> são conjuntos prontos do kernel Linux + programas + gerenciador de pacotes — as mais cobradas em prova: Ubuntu, Debian, Fedora, CentOS, Red Hat.</p>
+<p><strong>Estrutura de diretórios</strong>: tudo começa na raiz <code>/</code> (não existe conceito de "unidades" como C:\\ no Windows). Diretórios importantes: <code>/home</code> (pastas pessoais dos usuários), <code>/etc</code> (arquivos de configuração), <code>/bin</code> (binários/executáveis essenciais), <code>/root</code> (pasta pessoal do superusuário), <code>/tmp</code> (arquivos temporários).</p>
+
+<h3>Comandos essenciais de terminal</h3>
+<p><code>ls</code> lista arquivos/pastas — <code>ls -Rla</code>: <code>-R</code> percorre recursivamente subdiretórios, <code>-l</code> usa formato longo (detalhado, com permissões/dono/tamanho/data), <code>-a</code> inclui arquivos ocultos (que começam com ponto). <code>cd</code> muda de diretório. <code>pwd</code> mostra o diretório atual. <code>mkdir</code> cria diretório. <code>rm</code> remove arquivo (<code>rm -r</code> remove diretório e conteúdo recursivamente). <code>cp</code> copia. <code>mv</code> move/renomeia. <code>cat</code> exibe conteúdo de um arquivo. <code>chmod</code> altera permissões. <code>chown</code> altera o dono do arquivo. <code>grep</code> busca padrões de texto.</p>
+<p><strong>Redirecionamento</strong>: <code>&gt;</code> <strong>sobrescreve</strong> o arquivo de destino (apaga o conteúdo anterior e escreve do zero); <code>&gt;&gt;</code> <strong>anexa</strong> ao final do arquivo, preservando o que já existia. <code>|</code> (pipe) encadeia a saída de um comando como entrada do próximo.</p>
+
+<h3>Permissões de arquivo</h3>
+<p>Cada arquivo tem permissões para 3 categorias: <strong>dono (u)</strong>, <strong>grupo (g)</strong> e <strong>outros (o)</strong> — cada uma com <strong>r</strong> (leitura), <strong>w</strong> (escrita) e <strong>x</strong> (execução). Representação numérica: r=4, w=2, x=1 (soma-se: rwx=7, rw-=6, r-x=5). Ex.: <code>chmod 755 arquivo</code> dá permissão total (7) ao dono, e leitura+execução (5) a grupo e outros.</p>
+
+<h3>Links simbólicos × hard links</h3>
+<p><strong>Link simbólico</strong> (<code>ln -s</code>) aponta para outro arquivo pelo <strong>caminho/nome</strong> — se o arquivo original é apagado, o link simbólico não é removido junto nem passa a apontar pra outro lugar automaticamente: ele se torna um <strong>"link quebrado"</strong> (aponta pra um caminho que não existe mais). <strong>Hard link</strong> (<code>ln</code>) aponta diretamente para os mesmos dados no disco (mesmo inode) — mantém o conteúdo acessível mesmo se o "nome original" for removido, diferente do link simbólico.</p>
+
+<h3>Sistemas Operacionais — conceitos gerais (aplicáveis também ao Windows)</h3>
+<p><strong>Escalonamento de processos</strong>: algoritmos que decidem qual processo usa o processador e por quanto tempo, dando a impressão de multitarefa simultânea. <strong>Tempo de turnaround</strong> é o tempo <strong>total</strong>, desde a submissão do processo até sua conclusão — não confundir com tempo de resposta (submissão até a primeira resposta) nem tempo de espera (tempo na fila).</p>`,
+    questoes: []
+  },
+  {
+    id: "editor_textos_geral", materia: 'informatica',
+    nome: "Editor de Textos",
+    icon: "📝",
+    desc: "Microsoft Word e LibreOffice Writer: formatação, estilos, mala direta e recursos de edição",
+    teoria: `
+<h3>Editor de Textos — Word e Writer (universo completo)</h3>
+<h3>Formatação básica</h3>
+<p><strong>Fonte</strong>: tipo, tamanho, cor, negrito (Ctrl+N/B), itálico (Ctrl+I), sublinhado (Ctrl+S/U). <strong>Parágrafo</strong>: alinhamento (esquerda, centralizado, direita, justificado), espaçamento entre linhas, recuo, marcadores e numeração. <strong>Estilos</strong>: conjuntos predefinidos de formatação (Título 1, Título 2, Normal) que, quando aplicados, permitem gerar automaticamente um <strong>sumário</strong> (referência cruzada dos títulos do documento).</p>
+
+<h3>Recursos de edição</h3>
+<p><strong>Localizar e Substituir</strong> (Ctrl+L / Ctrl+U no Word em português): busca um termo no texto e permite trocá-lo por outro, em uma ocorrência ou em todas de uma vez. <strong>Verificação ortográfica e gramatical</strong>: sublinha (geralmente em vermelho para ortografia, azul/verde para gramática) possíveis erros. <strong>Controle de alterações (revisão)</strong>: registra edições feitas por diferentes usuários, com opção de aceitar/rejeitar cada mudança individualmente. <strong>Comentários</strong>: anotações à margem do texto, sem alterar o conteúdo principal.</p>
+
+<h3>Mala Direta</h3>
+<p>Recurso que combina um <strong>documento modelo</strong> (carta, etiqueta, e-mail) com uma <strong>fonte de dados</strong> (planilha, tabela, lista de contatos) para gerar várias versões personalizadas do mesmo documento automaticamente — um por linha da fonte de dados (ex.: gerar uma carta personalizada para cada destinatário de uma lista).</p>
+
+<h3>Cabeçalho, Rodapé e Numeração de Página</h3>
+<p>Áreas fixas no topo/base de cada página, repetidas automaticamente — usadas para título do documento, número de página, data, logotipo. É possível configurar numeração diferente para a primeira página ou para seções distintas do documento.</p>
+
+<h3>Tabelas e Elementos Gráficos</h3>
+<p>Inserção de tabelas (linhas × colunas), imagens, formas, WordArt/Fontwork, quebras de página e quebras de seção (permitem formatação diferente — ex.: orientação retrato/paisagem — em partes distintas do mesmo documento).</p>
+
+<h3>Salvamento e Formatos</h3>
+<p><strong>.docx</strong> (Word, formato padrão atual, baseado em XML) × <strong>.doc</strong> (formato antigo do Word, binário) × <strong>.odt</strong> (formato aberto padrão do LibreOffice Writer) × <strong>.pdf</strong> (formato de documento portátil, preserva a formatação mas não é editável diretamente sem ferramentas específicas — usado para exportação final). Word e Writer conseguem abrir e salvar em ambos os formatos .docx e .odt, com compatibilidade quase total (pequenas diferenças de formatação podem ocorrer ao converter entre os dois).</p>`,
+    questoes: []
+  },
+  {
+    id: "planilhas_geral", materia: 'informatica',
+    nome: "Planilhas Eletrônicas",
+    icon: "📊",
+    desc: "Microsoft Excel e LibreOffice Calc: fórmulas, funções, referências e formatação condicional",
+    teoria: `
+<h3>Planilhas Eletrônicas — Excel e Calc (universo completo)</h3>
+<h3>Estrutura básica</h3>
+<p>Uma planilha é organizada em <strong>células</strong> (interseção de linha e coluna, ex.: A1, B2), agrupadas em <strong>planilhas (abas)</strong> dentro de uma <strong>pasta de trabalho</strong>. Toda fórmula começa com <strong>=</strong> (sinal de igual).</p>
+
+<h3>Referências de célula</h3>
+<p><strong>Referência relativa</strong> (ex.: A1): ao copiar/arrastar a fórmula para outra célula, a referência se ajusta automaticamente conforme a posição de destino. <strong>Referência absoluta</strong> (ex.: $A$1, com cifrão travando linha e/ou coluna): não muda ao copiar a fórmula — usada quando a fórmula precisa sempre apontar para a mesma célula (ex.: uma taxa fixa usada em vários cálculos). <strong>Referência mista</strong> (ex.: $A1 ou A$1): trava só a linha ou só a coluna.</p>
+
+<h3>Funções mais cobradas em prova</h3>
+<p><strong>SOMA(intervalo)</strong>: soma os valores do intervalo. <strong>MÉDIA(intervalo)</strong>: calcula a média aritmética. <strong>MÁXIMO / MÍNIMO</strong>: maior/menor valor do intervalo. <strong>CONT.SE(intervalo;critério)</strong>: conta quantas células do intervalo satisfazem um critério. <strong>SOMASE(intervalo;critério;intervalo_soma)</strong>: soma apenas os valores que satisfazem um critério. <strong>SE(teste_lógico;valor_se_verdadeiro;valor_se_falso)</strong>: condicional — pode ser aninhada (SE dentro de SE) para múltiplas condições. <strong>PROCV(valor_procurado;matriz;núm_coluna;[procurar_intervalo])</strong>: procura um valor na primeira coluna de um intervalo e retorna um valor correspondente de outra coluna na mesma linha (busca vertical) — o último argumento FALSO exige correspondência exata. <strong>PROCH</strong>: mesma lógica, mas busca horizontal (na primeira linha).</p>
+<p><strong>Operadores em fórmulas</strong>: + (soma), − (subtração), * (multiplicação), / (divisão), ^ (potência), % (percentual). <strong>Concatenação de texto</strong>: & (ou função CONCATENAR/UNIRTEXTO) junta o conteúdo de células em uma só célula.</p>
+
+<h3>Formatação Condicional</h3>
+<p>Aplica formatação automática (cor de fundo, cor da fonte, ícones) a células que satisfazem uma condição definida pelo usuário — útil para destacar valores acima/abaixo de uma meta, duplicatas, ou seguir uma escala de cores.</p>
+
+<h3>Gráficos</h3>
+<p>Representação visual de dados selecionados — tipos comuns: colunas/barras (comparação entre categorias), linhas (evolução ao longo do tempo), pizza (proporção de um total), dispersão (correlação entre duas variáveis).</p>
+
+<h3>Classificação e Filtros</h3>
+<p><strong>Classificar (ordenar)</strong>: reorganiza linhas por ordem crescente/decrescente de uma ou mais colunas. <strong>Filtro</strong>: exibe só as linhas que satisfazem critérios escolhidos, ocultando as demais sem excluí-las. <strong>Congelar painéis</strong>: mantém linhas/colunas (ex.: cabeçalho) visíveis fixas enquanto rola o restante da planilha.</p>
+
+<h3>Formatos de arquivo</h3>
+<p><strong>.xlsx</strong> (Excel, formato padrão atual, XML) × <strong>.xls</strong> (formato antigo, binário) × <strong>.ods</strong> (formato aberto padrão do LibreOffice Calc) × <strong>.csv</strong> (valores separados por vírgula, texto puro, sem formatação — usado para importação/exportação de dados entre sistemas diferentes).</p>`,
+    questoes: []
+  },
+  {
+    id: "internet_geral", materia: 'informatica',
+    nome: "Internet",
+    icon: "🌐",
+    desc: "Redes de computadores, protocolos (TCP/IP, IPv4/IPv6), navegadores e conceitos gerais de internet",
+    teoria: `
+<h3>Internet e Redes de Computadores (universo completo)</h3>
+<h3>Topologias de rede</h3>
+<p><strong>Barramento</strong> (todos os nós conectados a um único meio de transmissão compartilhado); <strong>anel</strong> (cada nó se conecta aos dois vizinhos, formando um círculo fechado); <strong>estrela</strong> (todos os nós se conectam a um ponto central, como um switch/hub); <strong>árvore</strong> (hierarquia de estrelas conectadas); <strong>malha</strong> (múltiplas conexões redundantes entre os nós).</p>
+
+<h3>Modelo OSI (7 camadas)</h3>
+<p>De baixo pra cima: <strong>Física</strong>, <strong>Enlace</strong>, <strong>Rede</strong>, <strong>Transporte</strong>, <strong>Sessão</strong>, <strong>Apresentação</strong>, <strong>Aplicação</strong>. A camada de Transporte fica entre Rede (abaixo) e Sessão (acima). Modelo TCP/IP (mais usado na prática) é mais enxuto: Acesso à Rede, Internet, Transporte, Aplicação.</p>
+
+<h3>Protocolos de Transporte</h3>
+<p><strong>TCP</strong>: confiável (orientado a conexão, confirma cada pacote recebido, reordena pacotes fora de ordem). <strong>UDP</strong>: não confirma recebimento, é mais rápido mas sem garantia de entrega — usado em streaming/videochamadas, onde velocidade importa mais que garantia total.</p>
+
+<h3>Endereçamento IP</h3>
+<p><strong>IPv4</strong>: endereços de <strong>32 bits</strong> (esgotamento de endereços disponíveis no mundo). <strong>IPv6</strong>: endereços de <strong>128 bits</strong>, o que dá 2¹²⁸ endereços possíveis — essa é a principal vantagem do IPv6 (não velocidade, QoS ou garantia de entrega).</p>
+<p><strong>Classes de endereço IPv4</strong>: <strong>classe A</strong> reserva o maior bloco de endereços por rede (poucos bits pra rede, muitos pra hosts) — usada historicamente para redes de grande porte; <strong>classe B</strong> intermediária; <strong>classe C</strong> blocos pequenos (redes menores); <strong>classe D</strong> reservada para multicast; <strong>classe E</strong> experimental/reservada.</p>
+
+<h3>Equipamentos de rede</h3>
+<p><strong>Hub/concentrador/repetidor</strong>: não segmenta nada — todas as portas compartilham o mesmo domínio de colisão e de broadcast. <strong>Switch</strong>: segmenta o <strong>domínio de colisão</strong> por porta, mas todas as portas continuam no <strong>mesmo domínio de broadcast</strong>. <strong>Roteador</strong>: segmenta tanto o domínio de colisão quanto o <strong>domínio de broadcast</strong> por porta — equipamento certo quando a exigência é segmentar os dois.</p>
+<p><strong>VPN</strong>: sua principal vantagem no acesso remoto via internet pública é <strong>aumentar a segurança da comunicação</strong> (por meio de criptografia), não aumentar velocidade nem eliminar a necessidade de firewall.</p>
+
+<h3>Navegadores (Browsers)</h3>
+<p>Programas que interpretam HTML/CSS/JavaScript e exibem páginas web — principais: Chrome, Firefox, Edge, Safari, Internet Explorer (descontinuado). <strong>HTTP</strong> (porta 80): protocolo de transferência de hipertexto, sem criptografia. <strong>HTTPS</strong> (porta 443): versão segura do HTTP, com criptografia TLS/SSL — o cadeado na barra de endereço indica conexão HTTPS. <strong>URL</strong>: endereço de um recurso na web (ex.: https://www.site.com.br/pagina).</p>
+<p><strong>Cookies</strong>: pequenos arquivos que sites armazenam no navegador do usuário para lembrar preferências, sessões de login e rastrear navegação. <strong>Cache do navegador</strong>: armazena localmente cópias de páginas/recursos já visitados para acelerar carregamentos futuros. <strong>Navegação anônima/privada</strong>: não salva histórico, cookies ou dados de formulário localmente após o fechamento da janela (mas não torna o usuário anônimo perante o site visitado ou o provedor de internet).</p>
+<p><strong>Sítios de busca e pesquisa</strong>: ferramentas como Google usam operadores de pesquisa avançada (ex.: aspas para busca exata, <code>site:</code> para restringir domínio, <code>-</code> para excluir termo).</p>
+
+<h3>Redes Sociais</h3>
+<p>Plataformas de interação e compartilhamento de conteúdo entre usuários (ex.: Facebook, Instagram, LinkedIn, X/Twitter) — cobradas principalmente quanto a configurações de privacidade e boas práticas de uso no serviço público.</p>`,
+    questoes: []
+  },
+  {
+    id: "correio_eletronico_geral", materia: 'informatica',
+    nome: "Correio Eletrônico",
+    icon: "📧",
+    desc: "Protocolos de e-mail (SMTP, POP3, IMAP), webmail, clientes de e-mail e boas práticas",
+    teoria: `
+<h3>Correio Eletrônico (universo completo)</h3>
+<h3>Estrutura de um endereço de e-mail</h3>
+<p>Formato: <code>usuario@dominio.com.br</code> — a parte antes do <strong>@</strong> identifica o usuário/caixa postal, a parte depois identifica o domínio/servidor de e-mail.</p>
+
+<h3>Protocolos de e-mail</h3>
+<p><strong>SMTP (Simple Mail Transfer Protocol)</strong>: protocolo usado para <strong>enviar</strong> e-mails (do cliente para o servidor, e entre servidores) — porta padrão 25 (ou 587 com autenticação/TLS).</p>
+<p><strong>POP3 (Post Office Protocol)</strong>: protocolo para <strong>receber/baixar</strong> e-mails — por padrão, baixa as mensagens para o dispositivo local e as <strong>remove do servidor</strong> (comportamento configurável), o que dificulta acessar os mesmos e-mails de outro dispositivo depois.</p>
+<p><strong>IMAP (Internet Message Access Protocol)</strong>: protocolo para <strong>receber/sincronizar</strong> e-mails, mantendo as mensagens <strong>no servidor</strong> — permite acessar a mesma caixa postal, sincronizada, de múltiplos dispositivos (celular, computador, webmail) simultaneamente. É o protocolo mais usado atualmente por esse motivo.</p>
+
+<h3>Webmail × Cliente de E-mail</h3>
+<p><strong>Webmail</strong>: acesso ao e-mail via navegador (Gmail, Outlook.com) — não exige instalação de programa, e-mails ficam armazenados no servidor. <strong>Cliente de e-mail</strong>: programa instalado no dispositivo (Outlook, Mozilla Thunderbird) que baixa/sincroniza as mensagens usando POP3 ou IMAP para envio/recebimento.</p>
+
+<h3>Campos de uma mensagem</h3>
+<p><strong>Para (To)</strong>: destinatário(s) principal(is), visíveis a todos os destinatários. <strong>Cc (Com cópia)</strong>: destinatários que recebem cópia, também visíveis a todos. <strong>Cco (Com cópia oculta / Bcc)</strong>: destinatários que recebem cópia <strong>sem que os demais destinatários saibam</strong> — nem os outros destinatários em Cco veem uns aos outros. <strong>Assunto</strong>: resumo do conteúdo da mensagem. <strong>Anexo</strong>: arquivo enviado junto com a mensagem.</p>
+
+<h3>Boas práticas e segurança</h3>
+<p><strong>Phishing por e-mail</strong>: mensagem fraudulenta se passando por instituição conhecida, induzindo a clicar num link falso ou abrir um anexo malicioso para roubar dados — sempre verificar o remetente real (não confiar apenas no nome exibido) e desconfiar de links/anexos inesperados. <strong>Spam</strong>: mensagens não solicitadas em massa, nem sempre fraudulentas, mas indesejadas. <strong>Assinatura digital em e-mail</strong>: garante autenticidade (quem enviou) e integridade (que o conteúdo não foi alterado no caminho), usando o par de chaves do remetente.</p>
+<p><strong>Netiqueta (etiqueta de e-mail)</strong>: usar assunto claro e específico, evitar CAIXA ALTA (interpretada como "gritar"), responder dentro de prazo razoável, evitar "responder a todos" desnecessariamente, e confirmar destinatários antes de enviar informações sensíveis.</p>`,
+    questoes: []
+  },
+  {
+    id: "seguranca_informacao_geral", materia: 'informatica',
+    nome: "Segurança da Informação",
+    icon: "🔒",
+    desc: "Princípios (CIA), certificado digital, criptografia, malware, firewall e boas práticas de segurança",
+    teoria: `
+<h3>Segurança da Informação (universo completo)</h3>
+<p><strong>Sigilo de assuntos e documentos</strong> (Decreto 4.553): quem toma conhecimento de assunto sigiloso fica automaticamente responsável por mantê-lo — as regras básicas incluem falar pouco, ser discreto, responder só o que não compromete o serviço, e prestar atenção às intenções de quem aborda. A pegadinha: <strong>não</strong> é uma regra válida "comentar assuntos de serviço com pessoas de confiança" — o sigilo deve ser mantido independentemente de quanta confiança se tem em quem está ouvindo.</p>
+<p><strong>Princípios da segurança da informação (tríade CIA + extensões)</strong>: <strong>confidencialidade</strong> (limitar o acesso à informação só a quem está autorizado — é o princípio violado quando há vazamento/quebra de sigilo); <strong>integridade</strong> (garantir que a informação não seja alterada indevidamente); <strong>disponibilidade</strong> (garantir que a informação esteja acessível quando necessário, a quem tem direito); <strong>responsabilidade/não-repúdio</strong> (garantir que uma ação possa ser atribuída a quem a praticou, sem que essa pessoa possa negar); <strong>autenticidade</strong> (garantir a identidade de quem envia/produz a informação).</p>
+<p><strong>Certificado digital</strong>: arquivo eletrônico que comprova identidade. Cuidado com o conteúdo exato cobrado em prova: entre as informações típicas de um certificado estão o <strong>número de série</strong> e o <strong>período de validade</strong> do próprio certificado — não é uma leitura biométrica nem dados de localização.</p>
+<p><strong>Cuidados com a chave privada e o certificado digital</strong>: nunca compartilhar a senha de acesso à chave privada com ninguém; solicitar revogação imediata em caso de comprometimento ou suspeita; em ambiente acessível a várias pessoas, usar soluções de controle de acesso e proteção do sistema operacional.</p>
+<p><strong>Criptografia simétrica × assimétrica</strong>: <strong>simétrica</strong> usa uma <strong>única chave</strong> compartilhada para cifrar e decifrar (mais rápida, mas exige compartilhar a chave com segurança previamente); <strong>assimétrica</strong> usa par de chaves (pública e privada) — a chave pública cifra, só a privada correspondente decifra (e vice-versa para assinatura digital). É o mecanismo por trás de transações bancárias seguras via internet e da assinatura digital.</p>
+<p><strong>Autenticação de dois fatores (2FA/MFA)</strong>: exige duas ou mais evidências independentes de identidade (ex.: senha + código enviado ao celular, ou senha + biometria) — reduz drasticamente o risco de acesso indevido mesmo que a senha seja comprometida.</p>
+<p><strong>Ameaças — não confundir</strong>: <strong>phishing</strong> (mensagem fraudulenta, geralmente e-mail, se passando por instituição conhecida, induzindo a clicar num link falso pra roubar dados); <strong>spam</strong> (mensagem não solicitada em massa, nem sempre fraudulenta); <strong>vírus</strong> (precisa de um programa hospedeiro e da ação do usuário para se propagar); <strong>worm</strong> (malware que se replica e se espalha sozinho para outros sistemas, sem precisar de hospedeiro nem ação do usuário); <strong>trojan (cavalo de troia)</strong> (se disfarça de programa legítimo/útil para ser instalado voluntariamente pela vítima); <strong>ransomware</strong> (sequestra/criptografa os dados da vítima e exige pagamento de resgate); <strong>adware</strong> (exibe propaganda indesejada); <strong>spyware</strong> (coleta informações do usuário sem consentimento); <strong>keylogger</strong> (registra as teclas digitadas para capturar senhas/dados); <strong>rootkit</strong> (capacidade de se ocultar extremamente bem no sistema e interceptar chamadas do sistema operacional, muitas vezes habilitando acesso com privilégios de administrador).</p>
+<p><strong>Firewall</strong>: sua funcionalidade principal é <strong>controlar o tráfego de rede</strong>, permitindo ou bloqueando comunicação entre dispositivos com base num conjunto de regras de segurança — não confundir com proxy (intermedia requisições), IDS (detecta e alerta sobre atividades suspeitas, sem necessariamente bloquear) ou antivírus (varre e remove malware já presente no sistema).</p>
+<p><strong>Backup</strong>: cópia de segurança dos dados. <strong>Backup completo</strong> (copia tudo); <strong>backup incremental</strong> (copia só o que mudou desde o último backup, de qualquer tipo — mais rápido, mas restauração exige a cadeia completa); <strong>backup diferencial</strong> (copia tudo que mudou desde o último backup <strong>completo</strong> — restauração mais simples que a incremental, mas cada backup fica maior com o tempo).</p>
+<p>A <strong>ISO/IEC 27002</strong> orienta boas práticas de gestão de segurança da informação. A <strong>segregação de funções</strong> tem como propósito específico <strong>reduzir o risco de fraude, erro e desvio de controles de segurança</strong> — ninguém deve controlar um processo crítico sozinho, do início ao fim.</p>`,
+    questoes: []
+  },
+  {
+    id: "estatistica_geral", materia: 'matematica',
     nome: "Estatística",
     icon: "📊",
     desc: "Questões gerais de Estatística",
@@ -6546,6 +6715,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Desvio padrão</strong>: mede o quanto os valores de uma amostra se afastam da média — quanto mais espalhados os dados, maior o desvio padrão. Em questões que comparam várias amostras, a de menor desvio padrão é a que tem os valores mais próximos entre si — <strong>não</strong> necessariamente a de menor média: uma amostra como (100, 101, 102, 103) tem média alta mas desvio padrão baixo, porque os valores estão colados uns nos outros. O desvio padrão não muda se você somar uma constante a todos os valores (só depende da distância entre eles, não do "nível" onde estão).</p>
 <p><strong>Amplitude</strong>: diferença entre o maior e o menor valor observado.</p>
 <p><strong>Média x mediana</strong>: pra achar a diferença entre as duas, ordene os dados, ache o valor central (mediana — se n é ímpar, é o valor do meio; se par, é a média dos dois centrais) e compare com a média aritmética (soma ÷ quantidade). Quando a distribuição é assimétrica (tem valores puxando pra um lado), média e mediana se afastam uma da outra.</p>
+<p><strong>Desvio padrão zero</strong>: o desvio padrão mede o quanto os valores se espalham em torno da média — se <strong>todos os valores de um grupo são iguais</strong> (ex.: uma turma inteira tirou a mesma nota), não há dispersão nenhuma, e o desvio padrão é exatamente <strong>zero</strong>. É o único jeito de zerar o desvio padrão: não basta a média ser um número "redondo", é preciso ausência total de variação entre os valores.</p>
+<p><strong>Desvio padrão de dados agrupados/ponderados</strong>: quando um valor total é distribuído entre grupos com quantias diferentes por grupo (ex.: um bônus dividido entre funcionários, conforme uma tabela com "nº de pessoas" e "valor recebido"), o desvio padrão pesa cada valor pela <strong>quantidade de pessoas</strong> que o recebeu. Passos: (1) ache a média ponderada = (soma de cada valor × sua frequência) ÷ total de pessoas; (2) para cada grupo, calcule o quadrado da diferença entre o valor do grupo e a média, multiplique pela frequência daquele grupo; (3) some tudo, divida pelo total de pessoas — isso dá a variância; (4) a raiz quadrada da variância é o desvio padrão. Exemplo: R$25.000 divididos entre 10 funcionários, 5 recebendo R$2.000 e 5 recebendo R$3.000. Média = 25.000÷10 = R$2.500. Variância = [5×(2.000−2.500)² + 5×(3.000−2.500)²]÷10 = 250.000. Desvio padrão = √250.000 = <strong>R$500,00</strong>.</p>
 
 <h3>Distribuições de Probabilidade</h3>
 <p><strong>Variável aleatória discreta</strong>: tem uma função de probabilidade que atribui uma probabilidade a cada valor possível; a soma de todas as probabilidades deve ser sempre igual a 1. Pra calcular P(X > k), soma-se (ou lê direto na tabela) as probabilidades dos valores estritamente maiores que k.</p>
@@ -6580,7 +6751,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "direito_constitucional_geral", materia: 'nocoes_de_direito',
     nome: "Direito Constitucional",
     icon: "📜",
-    desc: "Princípios fundamentais, direitos individuais e organização dos Poderes (CF/88)",
+    desc: "Princípios fundamentais, direitos individuais, organização dos Poderes e Administração Pública (Art. 37-41) — CF/88",
     teoria: `
 <h3>Direito Constitucional</h3>
 <p><strong>Princípios fundamentais</strong> (Art. 1º a 4º da CF/88) — não confundir uns com os outros, porque as bancas adoram trocar um pelo outro nas alternativas: <strong>soberania</strong> (independência do Estado brasileiro frente a outros Estados), <strong>República</strong> (forma de governo, com eletividade e temporariedade dos mandatos), <strong>Federação</strong> (repartição territorial do poder entre União, Estados, DF e Municípios), <strong>livre iniciativa</strong> (fundamento da ordem econômica — art. 1º, IV — que impede o Estado de planejar e dirigir de forma determinante a economia, inclusive o setor privado; o planejamento estatal só é determinante pro setor público, e apenas indicativo pro setor privado) e <strong>supremacia do interesse público</strong> (princípio administrativo, não fundamento constitucional do art. 1º). Uma medida em que o Estado passa a comandar a economia privada de forma obrigatória fere a <strong>livre iniciativa</strong>, não a soberania ou a Federação.</p>
@@ -6589,16 +6760,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Segurança pública</strong> (Art. 144): dever do Estado, mas também direito e responsabilidade de todos. Na divisão de competências pra apuração de infrações penais, o <strong>Departamento de Polícia Federal</strong> apura infrações de interesse da <strong>União</strong>, enquanto as <strong>Polícias Civis</strong> apuram as infrações de interesse dos <strong>entes federados</strong> (Estados/DF) — Polícias Militares fazem o policiamento ostensivo, não a apuração/investigação.</p>
 <p><strong>Poder Executivo e Ministros de Estado</strong>: o Presidente da República é auxiliado pelos Ministros de Estado — e só eles, não os Ministros do STF (que integram o Judiciário, sem dever de auxiliar o Executivo). A nomeação e a <strong>exoneração</strong> de Ministros são atos de livre escolha do Presidente (cargo de confiança "ad nutum"), <strong>sem necessidade de aprovação do Senado</strong> pra exonerar. Já a criação e extinção de Ministérios depende de <strong>lei</strong>, de competência do Congresso Nacional com sanção do Presidente — não é ato unilateral de nenhum dos dois Poderes isoladamente.</p>
 <p><strong>Organização dos Poderes</strong>: Legislativo (Congresso Nacional — Câmara dos Deputados, representação proporcional à população dos Estados, mandato de 4 anos; Senado Federal, 3 senadores por Estado/DF, mandato de 8 anos, renovação alternada de 1/3 e 2/3), Executivo (chefia de Estado e de Governo unificadas na figura do Presidente, eleito por maioria absoluta em 2 turnos se necessário, mandato de 4 anos), Judiciário (independente e harmônico com os demais, órgão de cúpula é o STF, guardião da Constituição). <strong>Freios e contrapesos</strong>: cada Poder controla os outros dentro de limites constitucionais — ex.: o Legislativo aprova o orçamento e fiscaliza o Executivo (com auxílio do Tribunal de Contas), o Judiciário controla a constitucionalidade das leis, o Executivo pode vetar projetos de lei (veto que pode ser derrubado por maioria absoluta do Congresso em sessão conjunta).</p>
-<p><strong>Processo legislativo</strong>: espécies normativas (Art. 59) — emendas constitucionais (quórum de 3/5, dois turnos, em cada Casa), leis complementares (maioria absoluta), leis ordinárias (maioria simples), leis delegadas, medidas provisórias (força de lei imediata, editadas pelo Presidente em caso de relevância e urgência, com prazo de vigência de 60 dias prorrogável uma vez por igual período, sujeitas a apreciação do Congresso), decretos legislativos e resoluções.</p>`,
-    questoes: []
-  },
-  {
-    id: "direito_constitucional_admpublica", materia: 'nocoes_de_direito',
-    nome: "Direito Constitucional — Administração Pública",
-    icon: "🏛️",
-    desc: "Art. 37 a 41 da CF/88: LIMPE, concurso público, servidores e remédios constitucionais",
-    teoria: `
-<h3>Direito Constitucional — Administração Pública (Art. 37 a 41, CF/88)</h3>
+<p><strong>Processo legislativo</strong>: espécies normativas (Art. 59) — emendas constitucionais (quórum de 3/5, dois turnos, em cada Casa), leis complementares (maioria absoluta), leis ordinárias (maioria simples), leis delegadas, medidas provisórias (força de lei imediata, editadas pelo Presidente em caso de relevância e urgência, com prazo de vigência de 60 dias prorrogável uma vez por igual período, sujeitas a apreciação do Congresso), decretos legislativos e resoluções.</p>
+<h3>Administração Pública na Constituição (Art. 37 a 41, CF/88)</h3>
 <p><strong>Princípios expressos do Art. 37, caput (LIMPE)</strong>: <strong>Legalidade</strong> (o administrador só pode fazer o que a lei permite — diferente do particular, que pode tudo que a lei não proíbe); <strong>Impessoalidade</strong> (atuação sem favoritismo, voltada ao interesse público; veda promoção pessoal de agentes com símbolos/nomes/imagens em publicidade oficial — Art. 37, §1º); <strong>Moralidade</strong> (atuação ética, honesta, de boa-fé); <strong>Publicidade</strong> (transparência dos atos, condição de eficácia e controle — exceções: sigilo por segurança do Estado/sociedade ou proteção da intimidade); <strong>Eficiência</strong> (incluído pela EC 19/98 — busca do melhor resultado com menor custo/tempo). Princípios implícitos cobrados em prova: supremacia do interesse público, autotutela, continuidade do serviço público, razoabilidade/proporcionalidade, especialidade, motivação.</p>
 <p><strong>Concurso público</strong> (Art. 37, II): investidura em cargo/emprego público depende de aprovação prévia em concurso de provas ou provas e títulos, ressalvadas as nomeações para cargo em comissão. Prazo de validade: até 2 anos, prorrogável uma vez por igual período. Acumulação de cargos (Art. 37, XVI): vedada, salvo (com compatibilidade de horários): dois cargos de professor; um cargo de professor com outro técnico/científico; dois cargos privativos de profissionais de saúde com profissões regulamentadas.</p>
 <p><strong>Servidores públicos (Art. 39-41)</strong>: <strong>estabilidade</strong> é adquirida após <strong>3 anos de efetivo exercício</strong> (estágio probatório), exclusiva de servidor nomeado por concurso para cargo efetivo (não se aplica a cargo em comissão nem emprego público celetista). Servidor estável só perde o cargo por: sentença judicial transitada em julgado; PAD com ampla defesa; avaliação periódica de desempenho insatisfatória (regulamentada em lei complementar, ainda pendente); ou excesso de despesa com pessoal (Art. 169, LRF). <strong>Remuneração</strong>: teto constitucional é o subsídio de Ministro do STF; irredutibilidade de vencimentos; vedação de vinculação/equiparação de espécies remuneratórias.</p>
@@ -6608,9 +6771,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
   {
     id: "direito_administrativo_atos", materia: 'nocoes_de_direito',
-    nome: "Direito Administrativo — Atos Administrativos",
+    nome: "Direito Administrativo",
     icon: "📋",
-    desc: "Elementos, atributos, classificação, extinção e convalidação dos atos administrativos",
+    desc: "Atos administrativos, poderes administrativos, responsabilidade civil do Estado, serviços e bens públicos, controle da Administração",
     teoria: `
 <h3>Direito Administrativo — Atos Administrativos (universo completo)</h3>
 <p><strong>Conceito</strong>: manifestação unilateral de vontade da Administração Pública (ou de quem aja em seu nome, no exercício de função administrativa) que, sob regime de direito público, produz efeitos jurídicos imediatos, com finalidade de atender ao interesse público, sujeita a controle de legalidade pelo Judiciário.</p>
@@ -6636,14 +6799,41 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Espécies de atos administrativos</strong>: <strong>normativos</strong> (comandos gerais e abstratos: decreto, regulamento, instrução normativa, resolução, deliberação); <strong>ordinatórios</strong> (disciplinam a atuação interna da Administração, subordinados a quem os recebe: portaria, circular, ordem de serviço, instrução, aviso, ofício, despacho); <strong>negociais</strong> (a Administração concorda com pretensão do particular: licença — vinculada, direito subjetivo, ex.: licença para dirigir/construir; autorização — discricionária e precária, ex.: autorização de porte de arma; permissão — discricionária e precária, ex.: permissão de uso de bem público; admissão); <strong>enunciativos</strong> (atestam/certificam situação de fato, sem manifestação de vontade decisória: certidão, atestado, parecer, apostila); <strong>punitivos</strong> (aplicam sanção por infração: multa, interdição de atividade, destruição de bens, cassação).</p>
 <p><strong>Extinção dos atos administrativos</strong>: <strong>Anulação</strong> — extinção por vício de legalidade, pode ser feita pela própria Administração (autotutela, Súmulas 346 e 473 do STF) ou pelo Judiciário, com efeito <strong><em>ex tunc</em></strong> (retroativo, desde a origem). <strong>Revogação</strong> — extinção de ato válido, por conveniência e oportunidade, só pela própria Administração (nunca pelo Judiciário) e só de atos <strong>discricionários</strong>, com efeito <strong><em>ex nunc</em></strong> (não retroage — respeita direitos adquiridos e efeitos já produzidos); não podem ser revogados: atos vinculados, atos que já exauriram seus efeitos, atos que geraram direito adquirido, atos "de mero expediente", atos complexos já perfeitos. <strong>Cassação</strong> — extinção porque o beneficiário descumpriu condição exigida para manter o ato (ex.: cassar uma licença porque o titular parou de atender aos requisitos). <strong>Caducidade</strong> — extinção porque sobreveio norma que tornou incompatível a manutenção do ato (ex.: nova lei proíbe atividade antes permitida). <strong>Contraposição (derrubada)</strong> — extinção por um novo ato, com fundamento diferente, cujos efeitos são contrários ao ato anterior (ex.: exoneração extingue os efeitos da nomeação). <strong>Renúncia</strong> — extinção por manifestação do próprio beneficiário, que abre mão do direito criado pelo ato.</p>
 <p><strong>Convalidação (saneamento)</strong>: correção retroativa de um ato com vício <strong>sanável</strong> — só é possível nos vícios de <strong>competência</strong> (quando não exclusiva) e de <strong>forma</strong> (quando não essencial); vícios de motivo, finalidade e objeto são insanáveis, exigindo anulação. Convalidação tem efeito <em>ex tunc</em>.</p>
-<p><strong>Decadência do direito de anular</strong> (Lei 9.784/99, Art. 54): a Administração tem <strong>5 anos</strong>, contados da prática do ato, para anular atos administrativos dos quais decorram efeitos favoráveis a destinatários — salvo comprovada má-fé, caso em que esse prazo não corre.</p>`,
+<p><strong>Decadência do direito de anular</strong> (Lei 9.784/99, Art. 54): a Administração tem <strong>5 anos</strong>, contados da prática do ato, para anular atos administrativos dos quais decorram efeitos favoráveis a destinatários — salvo comprovada má-fé, caso em que esse prazo não corre.</p>
+
+<h3>Poderes Administrativos</h3>
+<p><strong>Poder Vinculado</strong>: a lei estabelece um único comportamento possível diante de determinada situação — o agente não tem margem de escolha, só executa. <strong>Poder Discricionário</strong>: a lei confere ao agente margem de escolha entre duas ou mais soluções, todas válidas, segundo critérios de <strong>conveniência e oportunidade</strong> (mérito administrativo) — o controle judicial se limita à legalidade, nunca ao mérito em si.</p>
+<p><strong>Poder Hierárquico</strong>: estrutura escalonada de subordinação dentro de um mesmo órgão/entidade, que permite ao superior dar ordens, fiscalizar, rever atos do subordinado (de ofício ou por provocação), delegar e avocar competências, e aplicar sanções — <strong>só existe dentro da Administração direta e entre entidades da mesma pessoa jurídica</strong>; não há hierarquia entre a Administração direta e as entidades da indireta (o que existe é <strong>controle finalístico/tutela</strong>, não hierarquia), nem entre Poderes distintos.</p>
+<p><strong>Poder Disciplinar</strong>: permite apurar e punir infrações funcionais de servidores e de particulares vinculados à Administração por um vínculo jurídico específico (ex.: contratados, licitantes) — é <strong>discricionário quanto à dosimetria/escolha da pena</strong> dentro dos limites legais, mas <strong>vinculado quanto à obrigatoriedade de apurar</strong> a infração de que a Administração tem ciência (não pode simplesmente ignorá-la).</p>
+<p><strong>Poder Regulamentar (normativo)</strong>: competência do Chefe do Executivo para editar <strong>decretos regulamentares</strong>, que detalham a fiel execução da lei sem contrariá-la ou extrapolá-la — decreto que vai além da lei ou a contraria configura <strong>abuso do poder regulamentar</strong>, sujeito a sustação pelo Congresso Nacional (Art. 49, V, CF).</p>
+<p><strong>Poder de Polícia</strong>: atividade da Administração que <strong>restringe/condiciona</strong> o exercício de direitos e liberdades individuais em favor do interesse público (segurança, saúde, ordem, costumes, meio ambiente) — atributos próprios: <strong>discricionariedade</strong> (em regra, salvo quando a lei vincula), <strong>autoexecutoriedade</strong> (a Administração executa/faz cumprir diretamente, sem prévia ordem judicial) e <strong>coercibilidade</strong> (imposição unilateral, admitindo até uso de força se necessário). Ciclo do poder de polícia: <strong>ordem de polícia</strong> (norma limitadora) → <strong>consentimento de polícia</strong> (quando a lei exige anuência prévia, ex.: licença/autorização) → <strong>fiscalização de polícia</strong> → <strong>sanção de polícia</strong>. <strong>Abuso de poder</strong> ocorre em duas modalidades: <strong>excesso de poder</strong> (o agente extrapola sua competência) e <strong>desvio de poder/finalidade</strong> (o agente age dentro da competência, mas com finalidade diversa do interesse público).</p>
+
+<h3>Responsabilidade Civil do Estado</h3>
+<p><strong>Teoria adotada no Brasil</strong> (Art. 37, §6º, CF): <strong>responsabilidade objetiva</strong> pelos danos que agentes públicos, nessa qualidade, causarem a terceiros — dispensa prova de culpa/dolo do agente, bastando a conduta, o dano e o <strong>nexo causal</strong>. Aplica-se a pessoas jurídicas de direito público e às de direito privado prestadoras de serviço público (inclusive contra usuários e não usuários do serviço, conforme entendimento do STF).</p>
+<p><strong>Excludentes/atenuantes de responsabilidade</strong>: <strong>culpa exclusiva da vítima</strong> (exclui integralmente); <strong>culpa concorrente</strong> (atenua, dividindo a responsabilidade); <strong>caso fortuito e força maior</strong> (em regra excluem, salvo quando o evento se soma a uma omissão estatal específica que agravou o dano); <strong>fato de terceiro</strong> (em regra exclui, salvo quando o Estado tinha o dever específico de evitar o dano causado pelo terceiro).</p>
+<p><strong>Omissão do Estado</strong>: entendimento majoritário (inclusive STF) aplica <strong>responsabilidade subjetiva</strong> nos casos de omissão — exige-se demonstrar que o Estado tinha o dever legal de agir e não agiu (culpa administrativa/falta do serviço), diferente da conduta comissiva, que é sempre objetiva.</p>
+<p><strong>Direito de regresso</strong> (Art. 37, §6º, parte final): o Estado responde perante a vítima independentemente de culpa (objetiva), mas pode mover ação regressiva contra o agente causador do dano, desde que comprovado <strong>dolo ou culpa</strong> deste — a responsabilidade do agente perante o Estado é sempre <strong>subjetiva</strong>.</p>
+
+<h3>Serviços Públicos</h3>
+<p><strong>Conceito</strong>: atividade prestada pelo Estado (diretamente ou por delegação) para satisfazer necessidades coletivas essenciais, sob regime jurídico total ou parcialmente público.</p>
+<p><strong>Princípios</strong>: continuidade (veda interrupção arbitrária — mas admite corte por inadimplemento do usuário ou por razões técnicas/emergenciais, com aviso prévio, conforme Lei 8.987/95), mutabilidade/atualidade (adaptação a novas técnicas), generalidade (universalidade de acesso), modicidade das tarifas, cortesia.</p>
+<p><strong>Formas de prestação/delegação</strong>: <strong>concessão</strong> (contrato administrativo, precedido de licitação na modalidade concorrência, a pessoa jurídica ou consórcio de empresas, por prazo determinado, remunerada principalmente por tarifa do usuário); <strong>permissão</strong> (contrato de adesão, precedido de licitação, a pessoa física ou jurídica, com maior precariedade e revogabilidade que a concessão); <strong>autorização</strong> (ato unilateral, discricionário e precário, para serviços de pequena monta ou situações emergenciais/transitórias, sem necessidade de licitação).</p>
+
+<h3>Bens Públicos</h3>
+<p><strong>Classificação quanto à destinação</strong> (Código Civil, Art. 99): <strong>bens de uso comum do povo</strong> (ruas, praças, mares, rios — uso livre e gratuito, em regra); <strong>bens de uso especial</strong> (afetados a um serviço público específico, ex.: prédios de repartições, escolas, hospitais públicos); <strong>bens dominicais</strong> (sem destinação pública específica, constituem o patrimônio disponível do Estado — os únicos que admitem alienação mais simples).</p>
+<p><strong>Atributos</strong>: <strong>inalienabilidade</strong> (bens de uso comum e de uso especial são inalienáveis <em>enquanto</em> mantiverem essa qualificação — a <strong>desafetação</strong> os transforma em dominicais, alienáveis conforme a lei); <strong>impenhorabilidade</strong> (não podem ser penhorados para satisfazer dívidas — cobrança do Estado segue o regime de precatórios, Art. 100 CF); <strong>imprescritibilidade</strong> (não se sujeitam a usucapião, nenhuma categoria de bem público, inclusive dominical — Súmulas 340 do STF e Art. 102 do Código Civil).</p>
+<p><strong>Uso de bem público por particular</strong>: <strong>autorização de uso</strong> (ato unilateral, discricionário, precário, interesse predominante do particular); <strong>permissão de uso</strong> (ato unilateral, discricionário, precário, interesse predominante da coletividade, admite condições e prazo); <strong>concessão de uso</strong> (contrato administrativo, maior estabilidade, exige licitação em regra).</p>
+
+<h3>Controle da Administração Pública</h3>
+<p><strong>Quanto ao órgão controlador</strong>: <strong>controle administrativo (interno)</strong> — a própria Administração revê seus atos, com base no poder de <strong>autotutela</strong> (Súmulas 346 e 473 do STF: a Administração pode anular seus próprios atos ilegais e revogar os inconvenientes, de ofício ou por provocação, respeitados o contraditório e a ampla defesa); <strong>controle legislativo</strong> — exercido pelo Congresso (controle político, ex.: CPIs, convocação de autoridades) e pelo <strong>Tribunal de Contas</strong> (controle técnico: julga as contas de administradores e responsáveis por dinheiro público, aprecia a legalidade de aposentadorias/admissões, aplica sanções, mas <strong>não julga</strong> as contas do Chefe do Executivo, que são apenas <strong>apreciadas mediante parecer prévio</strong> do Tribunal, cabendo o julgamento final ao Legislativo); <strong>controle judicial</strong> — exercido apenas mediante provocação (inércia), limitado ao controle de <strong>legalidade</strong> dos atos administrativos, sem entrar no mérito dos atos discricionários.</p>
+<p><strong>Quanto ao momento</strong>: <strong>prévio</strong> (antes da conclusão do ato, ex.: autorização legislativa prévia), <strong>concomitante</strong> (durante a execução, ex.: fiscalização de um contrato em andamento), <strong>posterior/corretivo</strong> (depois de concluído, ex.: anulação, revogação, homologação).</p>`,
     questoes: []
   },
   {
     id: "direito_administrativo_servidor_8112", materia: 'nocoes_de_direito',
-    nome: "Direito Administrativo — Regime Jurídico do Servidor",
+    nome: "Lei 8.112/90",
     icon: "👔",
-    desc: "Lei 8.112/90: provimento, vantagens, regime disciplinar e processo administrativo disciplinar",
+    desc: "Regime Jurídico dos Servidores Públicos Federais: provimento, vantagens, regime disciplinar e PAD",
     teoria: `
 <h3>Direito Administrativo — Regime Jurídico do Servidor (Lei 8.112/90, universo completo)</h3>
 <p><strong>Título II — Provimento, vacância, remoção, redistribuição e substituição.</strong> <strong>Investidura em cargo público</strong>: depende de prévia aprovação em concurso público — <strong>ressalvadas</strong> as nomeações pra cargos em comissão declarados em lei de livre nomeação e exoneração (cargos de confiança). Formas de <strong>provimento</strong>: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução — a "ascensão" e a "transferência" foram extintas e não são mais formas válidas. Formas de <strong>vacância</strong>: exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável, falecimento.</p>
@@ -6661,9 +6851,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
   {
     id: "lei_9784_processo_administrativo", materia: 'nocoes_de_direito',
-    nome: "Lei 9.784/99 — Processo Administrativo Federal",
+    nome: "Lei 9.784/99",
     icon: "📄",
-    desc: "Princípios, direitos do administrado, prazos e recurso administrativo",
+    desc: "Processo Administrativo Federal: princípios, direitos do administrado, prazos e recurso administrativo",
     teoria: `
 <h3>Lei 9.784/99 — Processo Administrativo Federal (universo completo)</h3>
 <p><strong>Princípios explícitos</strong> (Art. 2º): legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público, eficiência.</p>
@@ -6674,10 +6864,57 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     questoes: []
   },
   {
+    id: "lei_11892_2008", materia: 'nocoes_de_direito',
+    nome: "Lei 11.892/2008",
+    icon: "🎓",
+    desc: "Institui a Rede Federal de Educação Profissional, Científica e Tecnológica e cria os Institutos Federais",
+    teoria: `
+<h3>Lei 11.892/2008 — Rede Federal e Institutos Federais (universo completo)</h3>
+<p><strong>Capítulo I — A Rede Federal de Educação Profissional, Científica e Tecnológica</strong> (Art. 1º-3º): é constituída por: <strong>Institutos Federais de Educação, Ciência e Tecnologia (IFs)</strong>; Universidade Tecnológica Federal do Paraná (UTFPR); Centros Federais de Educação Tecnológica (CEFET-MG e CEFET-RJ, os dois que não foram transformados em IF); Escolas Técnicas vinculadas a universidades federais; e o Colégio Pedro II.</p>
+<p><strong>Natureza jurídica dos Institutos Federais</strong> (Art. 2º): autarquias, detentoras de <strong>autonomia administrativa, patrimonial, financeira, didático-pedagógica e disciplinar</strong>. <strong>Equiparam-se às universidades federais</strong>, para fins de regulação, avaliação e supervisão das instituições e dos cursos de educação superior, no âmbito do sistema federal de ensino.</p>
+<p><strong>Estrutura</strong> (Art. 5º): cada Instituto Federal é organizado em estrutura multicampi, com proposta orçamentária anual identificada para cada campus e a reitoria, exceto no que diz respeito a pessoal, encargos sociais e benefícios aos servidores.</p>
+<p><strong>Finalidades e características</strong> (Art. 6º): I. ofertar educação profissional e tecnológica, em todos os níveis e modalidades, formando cidadãos para atuação profissional nos diversos setores da economia; II. desenvolver a educação profissional e tecnológica como processo educativo e investigativo de geração e adaptação de soluções técnicas e tecnológicas às demandas sociais e peculiaridades regionais; III. promover a integração e a verticalização da educação básica à educação profissional e educação superior; IV. orientar sua oferta formativa em benefício da consolidação e fortalecimento dos arranjos produtivos, sociais e culturais locais; V. constituir-se em centro de excelência na oferta do ensino de ciências, em geral, e de ciências aplicadas, em particular; VI. qualificar-se como centro de referência no apoio à oferta do ensino de ciências nas instituições de ensino público; VII. desenvolver programas de extensão e de divulgação científica e tecnológica; VIII. realizar e estimular a pesquisa aplicada, a produção cultural, o empreendedorismo, o cooperativismo e o desenvolvimento científico e tecnológico; IX. promover a produção, o desenvolvimento e a transferência de tecnologias sociais, notadamente as voltadas à preservação do meio ambiente.</p>
+<p><strong>Objetivos dos Institutos Federais</strong> (Art. 7º): I. ministrar <strong>educação profissional técnica de nível médio</strong>, prioritariamente na forma de <strong>cursos integrados</strong>, para os concluintes do ensino fundamental e para o público da EJA; II. ministrar cursos de <strong>formação inicial e continuada</strong> de trabalhadores; III. realizar pesquisas aplicadas, estimulando o desenvolvimento de soluções técnicas e tecnológicas; IV. desenvolver atividades de extensão de acordo com os princípios e finalidades da educação profissional e tecnológica; V. estimular e apoiar processos educativos que levem à geração de trabalho e renda, especialmente voltados aos processos de agroindustrialização, para populações do campo; VI. ministrar em nível de <strong>educação superior</strong>: a) cursos superiores de tecnologia; b) cursos de <strong>licenciatura</strong> e programas especiais de formação pedagógica, com vistas à formação de professores para a educação básica, sobretudo nas áreas de ciências e matemática, e para a educação profissional; c) cursos de <strong>bacharelado e engenharia</strong>; d) cursos de pós-graduação <strong>lato sensu</strong>; e) cursos de pós-graduação <strong>stricto sensu</strong> (mestrado e doutorado).</p>
+<p><strong>Distribuição mínima de vagas</strong> (Art. 8º) — item MUITO cobrado em prova: cada Instituto Federal deve garantir, no mínimo, <strong>50% de suas vagas para cursos técnicos de nível médio</strong>, prioritariamente na forma de cursos integrados; e no mínimo <strong>20% das vagas para cursos de licenciatura</strong> e/ou programas de formação pedagógica.</p>
+<p><strong>Estrutura organizacional</strong> (Art. 10-13): cada Instituto Federal é composto por <strong>Reitoria</strong> (órgão executivo) e <strong>campi</strong>, tendo como órgão superior o <strong>Conselho Superior</strong> (caráter consultivo e deliberativo) e como órgão executivo o <strong>Colégio de Dirigentes</strong> (caráter consultivo). O <strong>Reitor</strong> é escolhido por eleição envolvendo a comunidade escolar, em lista tríplice, para mandato de <strong>4 anos</strong>, permitida uma recondução, nomeado pelo Presidente da República. Cada campus é dirigido por um <strong>Diretor-Geral</strong>, também escolhido por eleição, para mandato de 4 anos.</p>
+<p><strong>Patrimônio e regime de pessoal</strong>: o patrimônio dos Institutos Federais é constituído pelo patrimônio das antigas instituições federais de educação tecnológica que lhes deram origem; o quadro de pessoal segue o <strong>Regime Jurídico Único dos Servidores Públicos Federais (Lei 8.112/90)</strong>.</p>`,
+    questoes: []
+  },
+  {
+    id: "etica_servico_publico", materia: 'nocoes_de_direito',
+    nome: "Ética no Serviço Público",
+    icon: "🤝",
+    desc: "Decreto 1.171/94 (Código de Ética), Lei 8.429/92 (Improbidade Administrativa) e temas correlatos",
+    teoria: `
+<h3>Ética no Serviço Público (universo completo)</h3>
+<h3>Decreto 1.171/94 — Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal</h3>
+<p><strong>Seção I — Regras Deontológicas</strong>: a dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais são primados maiores que devem nortear o servidor público, seja no exercício do cargo ou função, ou fora dele. O servidor deve ser probo, reto, leal e justo, e sua conduta deve unir o legal ao ético. A moralidade da Administração Pública não se limita à distinção entre o bem e o mal, devendo ser acrescida da ideia de que o <strong>fim é sempre o bem comum</strong>. O equilíbrio entre a legalidade e a finalidade constitui o ponto básico da moralidade administrativa. Toda pessoa tem direito à verdade; o servidor não pode omiti-la. O trabalho desenvolvido pelo servidor deve ser entendido como acréscimo ao seu próprio bem-estar, e não apenas remuneração — daí porque falta ao servidor público o senso de organização e cooperação quando não presta contas de sua conduta.</p>
+<p><strong>Seção II — Principais deveres do servidor público</strong> (rol exemplificativo do Art. 2º): I. desempenhar suas atribuições com rapidez, perfeição e rendimento; II. exercer suas atribuições com estrita observância dos princípios de legalidade, impessoalidade, moralidade e publicidade; III. jamais retardar despacho ou serviço, dando causa a dano moral ou material a quem quer que seja; IV. tratar cuidadosamente os usuários dos serviços, sem qualquer espécie de preconceito; V. resistir a todas as pressões que visem obter favores, benesses ou vantagens indevidas; VI. comunicar imediatamente a seus superiores todo e qualquer ato/fato contrário ao interesse público; VII. manter limpo e em perfeita ordem o local de trabalho; VIII. participar dos movimentos e estudos que se relacionem com a melhoria do exercício de suas funções; IX. apresentar-se ao trabalho com vestimentas adequadas; X. facilitar a fiscalização de todos os atos por quem de direito.</p>
+<p><strong>Seção III — Vedações ao servidor público</strong> (rol exemplificativo do Art. 3º) — é vedado: I. usar o cargo para lograr proveito pessoal ou de terceiros; II. prejudicar deliberadamente a reputação de outros servidores; III. ser, em função de seu espírito de solidariedade, conivente com erro ou infração a este Código; IV. usar de artifícios para procrastinar/dificultar o exercício regular de direito por qualquer pessoa, causando-lhe dano moral ou material; V. iludir ou tentar iludir qualquer pessoa que necessite de atendimento; VI. dar audiência, receber presentes de quem tenha interesse direto/indireto passível de influir em decisões, deixar de comunicar sobre incompatibilidade ético-profissional; VII. pleitear/solicitar por qualquer forma vantagens indevidas; VIII. alterar/deturpar teor de documentos que deva encaminhar para providências; IX. iludir/tentar iludir qualquer pessoa que necessite do atendimento nos serviços públicos; X. permitir que perseguições, simpatias, antipatias, capricho, paixões ou interesses de ordem pessoal interfiram no trato com o público ou colegas; XV. exercer atividade profissional aética ou ligar seu nome a empreendimentos de cunho duvidoso.</p>
+<p><strong>Comissão de Ética</strong> (Art. 3 e seguintes da parte final do Decreto): cada órgão/entidade da Administração Pública Federal direta, indireta autárquica e fundacional deve criar uma <strong>Comissão de Ética</strong>, composta de 3 servidores e respectivos suplentes, com mandato de 3 anos, competente para apurar, mediante denúncia ou de ofício, conduta contrária às normas éticas, orientar e aconselhar sobre a ética profissional do servidor, e aplicar a pena de <strong>censura ética</strong> — as penalidades da Comissão de Ética são <strong>independentes</strong> das sanções disciplinares e penais previstas na legislação.</p>
+
+<h3>Lei 8.429/92 — Lei de Improbidade Administrativa (LIA)</h3>
+<p><strong>Sujeitos</strong>: sujeito ativo (agente público, servidor ou não, mesmo transitório e sem remuneração, e terceiros que induzam/concorram para o ato ou dele se beneficiem); sujeito passivo (entes da Administração direta e indireta, empresas incorporadas ao patrimônio público, e entidades que recebam subvenção/benefício/incentivo do erário — nesse último caso a sanção patrimonial é limitada à repercussão do ilícito sobre a contribuição pública).</p>
+<p><strong>Espécies de atos de improbidade</strong> — exigem <strong>dolo</strong> (a redação dada pela Lei 14.230/2021 afastou a modalidade culposa):</p>
+<ul>
+<li><strong>Art. 9º — Enriquecimento ilícito</strong>: auferir vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade (ex.: receber propina, comissão, presente de quem tenha interesse em decisão do agente).</li>
+<li><strong>Art. 10 — Dano/prejuízo ao erário</strong>: ação ou omissão dolosa que enseje perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação de bens/valores públicos (ex.: permitir uso gratuito indevido de bem público, frustrar licitude de processo licitatório).</li>
+<li><strong>Art. 10-A — Concessão/aplicação indevida de benefício financeiro/tributário</strong> (incluído pela LC 157/2016, relativo ao ISS).</li>
+<li><strong>Art. 11 — Atentado aos princípios da Administração Pública</strong>: ação/omissão dolosa que viole os deveres de honestidade, imparcialidade e legalidade (ex.: negar publicidade a atos oficiais, praticar ato visando fim proibido em lei, retardar/frustrar injustificadamente execução de ato de ofício) — <strong>rol taxativo</strong> desde a Lei 14.230/2021 (antes era exemplificativo).</li>
+</ul>
+<p><strong>Sanções</strong> (Art. 12) — variam conforme o artigo violado, sempre respeitados <strong>proporcionalidade e individualização</strong>: perda dos bens/valores acrescidos ilicitamente; ressarcimento integral do dano (quando houver); perda da função pública; suspensão dos direitos políticos (de 4 a 14 anos, variando por artigo); pagamento de multa civil; proibição de contratar com o Poder Público ou receber benefícios fiscais/creditícios (de 4 a 12 anos). A <strong>ação de improbidade</strong> é de natureza <strong>civil</strong> (não penal), e prescreve em <strong>8 anos</strong>, contados do término do exercício do mandato/cargo/função (regra geral após a reforma de 2021).</p>
+
+<h3>Temas correlatos</h3>
+<p><strong>Lei 12.527/2011 — Lei de Acesso à Informação (LAI)</strong>: regulamenta o direito constitucional de acesso à informação (Art. 5º, XXXIII, CF). Princípio geral: <strong>publicidade como regra, sigilo como exceção</strong>. Prazo de resposta ao pedido de informação: até <strong>20 dias</strong>, prorrogável por mais 10 mediante justificativa. Informações sigilosas classificam-se em <strong>ultrassecretas</strong> (25 anos, prorrogável uma vez), <strong>secretas</strong> (15 anos) e <strong>reservadas</strong> (5 anos).</p>
+<p><strong>Lei 12.813/2013 — Conflito de Interesses</strong>: disciplina situações em que o interesse particular do agente público do Poder Executivo Federal pode comprometer o interesse coletivo, tanto durante o exercício do cargo quanto após deixá-lo (<strong>quarentena</strong>).</p>
+<p><strong>Lei 13.869/2019 — Lei de Abuso de Autoridade</strong>: tipifica condutas de agente público que, no exercício de suas funções ou a pretexto de exercê-las, abuse do poder que lhe tenha sido atribuído, exigindo <strong>dolo específico</strong> de prejudicar outrem ou beneficiar a si/a terceiro, ou por mero capricho/satisfação pessoal.</p>`,
+    questoes: []
+  },
+  {
     id: "matematica_geral", materia: 'matematica',
-    nome: "MATEMÁTICA",
+    nome: "Matemática Básica",
     icon: "🔢",
-    desc: "Questões gerais de MATEMÁTICA",
+    desc: "Aritmética, álgebra, geometria básica, porcentagem, razão/proporção e regra de três",
     teoria: `
 <h3>Matemática</h3>
 
@@ -6738,6 +6975,118 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
 <h3>MMC, MDC e Divisibilidade</h3>
 <p><strong>MDC</strong> (máximo divisor comum): maior número que divide dois ou mais números exatamente — usado em problemas de "dividir em partes iguais, no maior tamanho possível" (ex.: cortar barras de tamanhos diferentes em pedaços iguais do maior tamanho possível). <strong>MMC</strong> (mínimo múltiplo comum): menor número que é múltiplo de dois ou mais números — usado em problemas de "coincidência de eventos periódicos" (ex.: dois sinos que tocam em intervalos diferentes, quando tocam juntos de novo). Calcula-se decompondo os números em fatores primos: MDC = produto dos fatores comuns com menor expoente; MMC = produto de todos os fatores (comuns e não comuns) com maior expoente.</p>`,
+    questoes: []
+  },
+  {
+    id: "analise_combinatoria_geral", materia: 'matematica',
+    nome: "Análise Combinatória",
+    icon: "🔀",
+    desc: "Princípio fundamental da contagem, arranjos, combinações, permutações e permutações com repetição",
+    teoria: `
+<h3>Análise Combinatória (universo completo)</h3>
+<h3>Princípio Fundamental da Contagem (PFC)</h3>
+<p>Se uma decisão pode ser tomada de <em>m</em> maneiras diferentes, e uma segunda decisão (independente da primeira) pode ser tomada de <em>n</em> maneiras diferentes, então as duas decisões juntas podem ser tomadas de <strong>m × n</strong> maneiras. Generaliza para qualquer número de decisões sucessivas: multiplicam-se as quantidades de opções de cada etapa.</p>
+
+<h3>Fatorial</h3>
+<p><strong>n! = n × (n−1) × (n−2) × ... × 2 × 1</strong>, com <strong>0! = 1</strong> e <strong>1! = 1</strong> por definição. Simplificação de frações com fatoriais: cancelar os termos comuns em vez de calcular o fatorial inteiro — ex.: 8!/6! = 8×7 = 56 (não precisa calcular 8! nem 6! por inteiro).</p>
+
+<h3>Permutação Simples</h3>
+<p><strong>P<sub>n</sub> = n!</strong> — número de formas de organizar <em>n</em> elementos <strong>distintos</strong> em fila, usando todos eles, onde a ordem importa. Exemplo: de quantas formas 5 pessoas podem se sentar em 5 cadeiras em fila? P₅ = 5! = 120.</p>
+
+<h3>Permutação com Repetição</h3>
+<p><strong>P<sub>n</sub><sup>(a,b,...)</sup> = n! ÷ (a! × b! × ...)</strong>, onde a, b, ... são as quantidades de cada elemento que se repete. Usado para anagramas de palavras com letras repetidas. Exemplo: anagramas de "ARARA" (5 letras, A repete 3×, R repete 2×) = 5! ÷ (3!×2!) = 120 ÷ 12 = 10.</p>
+
+<h3>Permutação Circular</h3>
+<p><strong>PC<sub>n</sub> = (n−1)!</strong> — número de formas de organizar <em>n</em> elementos distintos em círculo (rodas de pessoas, mesa redonda), onde só importa a posição relativa entre os elementos, não um "início" fixo. Exemplo: 6 pessoas ao redor de uma mesa redonda = (6−1)! = 5! = 120 formas.</p>
+
+<h3>Arranjo Simples</h3>
+<p><strong>A(n,p) = n! ÷ (n−p)!</strong> — número de formas de escolher e <strong>ordenar</strong> <em>p</em> elementos distintos dentre <em>n</em> disponíveis, onde a ordem importa e trocar a ordem gera um resultado diferente (ex.: distribuir cargos distintos, formar uma senha, montar um pódio). Exemplo: de 10 candidatos, escolher presidente, vice e secretário (3 cargos distintos) = A(10,3) = 10!/(10−3)! = 10×9×8 = 720.</p>
+
+<h3>Combinação Simples</h3>
+<p><strong>C(n,p) = n! ÷ [p! × (n−p)!]</strong> — número de formas de escolher <em>p</em> elementos dentre <em>n</em> disponíveis, onde a ordem <strong>NÃO importa</strong> (o resultado é o mesmo conjunto, independente da ordem de escolha — ex.: formar uma comissão, escolher um grupo de trabalho, uma mão de cartas). Exemplo: escolher 3 pessoas de um grupo de 8 para uma comissão (sem cargos distintos) = C(8,3) = 8!/(3!×5!) = 56.</p>
+<p><strong>Como distinguir Arranjo de Combinação (pegadinha clássica de prova)</strong>: pergunte "se eu trocar a ordem dos elementos escolhidos, o resultado muda?" — se SIM (cargos diferentes, senha, pódio, posições distintas), é <strong>arranjo</strong>; se NÃO (grupo, comissão, mão de cartas, conjunto sem hierarquia interna), é <strong>combinação</strong>.</p>
+
+<h3>Combinação Completa (com Repetição)</h3>
+<p><strong>CR(n,p) = C(n+p−1, p)</strong> — usada quando os elementos podem se repetir na escolha (ex.: escolher 4 sorvetes dentre 3 sabores, podendo repetir sabor).</p>
+
+<h3>Números Binomiais e Triângulo de Pascal</h3>
+<p>O número de combinações C(n,p) também é chamado de <strong>número binomial</strong> "n escolhe p" e corresponde às entradas do <strong>Triângulo de Pascal</strong>. Propriedades cobradas em prova: C(n,0) = C(n,n) = 1; C(n,p) = C(n,n−p) (simetria); soma de uma linha do triângulo = 2ⁿ (equivale ao total de subconjuntos de um conjunto de n elementos).</p>
+
+<h3>Erros comuns e pegadinhas</h3>
+<ul>
+<li>Confundir arranjo com combinação — sempre pergunte se a ordem importa.</li>
+<li>Esquecer de tratar "elementos que devem ficar juntos" como um bloco único antes de permutar (e depois multiplicar pelas permutações internas do bloco).</li>
+<li>Esquecer de descontar/ajustar quando o problema impõe restrições (ex.: "vogais não podem ficar juntas" — calcula-se o total e subtrai-se os casos com vogais juntas).</li>
+<li>Não dividir pelas repetições ao contar anagramas de palavras com letras repetidas.</li>
+</ul>`,
+    questoes: []
+  },
+  {
+    id: "probabilidade_geral", materia: 'matematica',
+    nome: "Probabilidade",
+    icon: "🎲",
+    desc: "Probabilidade simples, eventos independentes, mutuamente exclusivos, condicional e complementar",
+    teoria: `
+<h3>Probabilidade (universo completo)</h3>
+<h3>Definição Clássica</h3>
+<p><strong>P(evento) = número de casos favoráveis ÷ número de casos possíveis</strong>, sempre um valor entre <strong>0 e 1</strong> (ou entre 0% e 100%). P(evento) = 0 significa impossível; P(evento) = 1 significa certo.</p>
+
+<h3>Evento Complementar</h3>
+<p><strong>P(não A) = 1 − P(A)</strong>. Extremamente útil quando o enunciado pede "pelo menos um", "no mínimo", ou "nenhum" — geralmente é mais rápido calcular o complementar do que somar todos os casos favoráveis diretamente. Ex.: P(pelo menos 1 sucesso em n tentativas) = 1 − P(nenhum sucesso).</p>
+
+<h3>Eventos Independentes</h3>
+<p>Dois eventos são <strong>independentes</strong> quando a ocorrência de um não altera a probabilidade do outro (ex.: dois lançamentos separados de um dado, ou sorteios <strong>com reposição</strong>). Nesse caso: <strong>P(A e B) = P(A) × P(B)</strong>.</p>
+
+<h3>Eventos Mutuamente Exclusivos</h3>
+<p>Dois eventos são <strong>mutuamente exclusivos</strong> quando não podem ocorrer ao mesmo tempo (ex.: tirar um número par OU ímpar num único lançamento de dado). Nesse caso: <strong>P(A ou B) = P(A) + P(B)</strong>.</p>
+
+<h3>Eventos Não Mutuamente Exclusivos</h3>
+<p>Quando A e B podem ocorrer juntos, usa-se a regra da soma completa: <strong>P(A ou B) = P(A) + P(B) − P(A e B)</strong> — subtrai-se a interseção para não contá-la duas vezes (mesma lógica da fórmula de união de conjuntos).</p>
+
+<h3>Probabilidade Condicional</h3>
+<p><strong>P(A|B) = P(A e B) ÷ P(B)</strong> — probabilidade de A ocorrer <strong>dado que</strong> B já ocorreu. Fundamental em sorteios <strong>sem reposição</strong>: a cada retirada, o espaço amostral muda porque um elemento já foi removido. Exemplo: urna com 5 bolas vermelhas e 3 azuis, sem reposição — P(2ª bola azul | 1ª foi azul) = 2/7 (sobraram 2 azuis de 7 bolas restantes).</p>
+
+<h3>Regra do Produto (sem reposição / condicional em sequência)</h3>
+<p><strong>P(A e B) = P(A) × P(B|A)</strong> — usada para calcular a probabilidade de uma sequência de eventos dependentes. Exemplo: probabilidade de tirar 2 bolas vermelhas seguidas, sem reposição, de uma urna com 5 vermelhas e 3 azuis = (5/8) × (4/7) = 20/56 = 5/14.</p>
+
+<h3>Distribuição Binomial</h3>
+<p>Usada quando há <em>n</em> tentativas <strong>independentes</strong> (ex.: sorteios <strong>com reposição</strong>), cada uma com apenas dois resultados possíveis (sucesso/fracasso) e probabilidade de sucesso <em>p</em> constante em todas as tentativas. A probabilidade de exatamente <em>k</em> sucessos em <em>n</em> tentativas é: <strong>P(X=k) = C(n,k) × p<sup>k</sup> × (1−p)<sup>n−k</sup></strong>.</p>
+
+<h3>Distribuição Hipergeométrica</h3>
+<p>Parecida com a binomial, mas usada quando a seleção é <strong>sem reposição</strong> de um grupo com categorias fixas e finitas (ex.: escolher 3 pessoas de um grupo com 4 auditores e 6 analistas). A probabilidade de uma combinação específica (ex.: 2 analistas e 1 auditor) é: [C(analistas, 2) × C(auditores, 1)] ÷ C(total, 3) — número de combinações favoráveis dividido pelo total de combinações possíveis.</p>
+
+<h3>Lei da Probabilidade Total (partição do espaço amostral)</h3>
+<p>Quando um grupo total é dividido em categorias disjuntas (ex.: peças produzidas por 3 máquinas diferentes, cada uma com uma taxa de defeito distinta) e se conhece a proporção de cada categoria e a probabilidade condicional dentro dela, a probabilidade geral do evento é a <strong>soma ponderada</strong>: para cada categoria, multiplica-se a proporção da categoria pela probabilidade condicional do evento nessa categoria, e soma-se tudo.</p>
+
+<h3>Valor Esperado (Esperança Matemática)</h3>
+<p><strong>E(X) = Σ [xᵢ × P(xᵢ)]</strong> — soma de cada valor possível multiplicado por sua probabilidade. Usado em jogos e apostas: um <strong>jogo justo</strong> é aquele em que o valor esperado de ganho de cada participante é igual (ou igual a zero, líquido de custo de entrada).</p>`,
+    questoes: []
+  },
+  {
+    id: "sequencias_pa_pg_geral", materia: 'matematica',
+    nome: "Sequências (PA e PG)",
+    icon: "📈",
+    desc: "Progressões Aritméticas e Geométricas: termo geral, soma dos termos e soma infinita",
+    teoria: `
+<h3>Sequências — Progressões Aritméticas e Geométricas (universo completo)</h3>
+<h3>Progressão Aritmética (PA)</h3>
+<p><strong>Definição</strong>: sequência numérica em que cada termo (a partir do segundo) é obtido <strong>somando</strong> uma constante <strong>r</strong> (razão) ao termo anterior. PA <strong>crescente</strong> quando r > 0, <strong>decrescente</strong> quando r < 0, <strong>constante</strong> quando r = 0.</p>
+<p><strong>Termo geral</strong>: <strong>aₙ = a₁ + (n−1)×r</strong>. Também é útil a forma entre dois termos quaisquer: aₙ = aₘ + (n−m)×r.</p>
+<p><strong>Soma dos n primeiros termos</strong>: <strong>Sₙ = (a₁ + aₙ) × n ÷ 2</strong> (média entre o primeiro e o último termo, multiplicada pela quantidade de termos).</p>
+<p><strong>Propriedade dos termos equidistantes</strong>: em uma PA finita, a soma de dois termos equidistantes dos extremos é sempre igual à soma dos extremos (a₁ + aₙ = a₂ + aₙ₋₁ = ...). Em PA com número ímpar de termos, o termo central é a <strong>média aritmética</strong> dos extremos.</p>
+<p><strong>Interpolação aritmética</strong>: inserir <em>k</em> termos entre dois números dados <em>a</em> e <em>b</em>, formando uma PA — a nova razão é r = (b − a) ÷ (k + 1).</p>
+<p><strong>Exemplo completo</strong>: PA (2, 5, 8, 11, ...), r = 3. O 10º termo: a₁₀ = 2 + (10−1)×3 = 29. A soma dos 10 primeiros termos: S₁₀ = (2+29)×10÷2 = 155.</p>
+
+<h3>Progressão Geométrica (PG)</h3>
+<p><strong>Definição</strong>: sequência numérica em que cada termo (a partir do segundo) é obtido <strong>multiplicando</strong> o termo anterior por uma constante <strong>q</strong> (razão). PG <strong>crescente</strong> (todos os termos positivos e q>1, ou todos negativos e 0&lt;q&lt;1), <strong>decrescente</strong>, <strong>constante</strong> (q=1) ou <strong>alternante</strong> (q&lt;0, termos alternam de sinal).</p>
+<p><strong>Termo geral</strong>: <strong>aₙ = a₁ × q<sup>(n−1)</sup></strong>.</p>
+<p><strong>Soma dos n primeiros termos</strong> (q ≠ 1): <strong>Sₙ = a₁ × (qⁿ−1) ÷ (q−1)</strong>.</p>
+<p><strong>Soma de PG infinita</strong> (só existe quando <strong>|q| &lt; 1</strong>, ou seja, PG decrescente em módulo): <strong>S∞ = a₁ ÷ (1−q)</strong>. Muito cobrado com dízimas periódicas (ex.: 0,333... = 3/10 + 3/100 + 3/1000 + ... = PG de a₁=3/10, q=1/10 → S∞ = (3/10)/(1−1/10) = 1/3).</p>
+<p><strong>Propriedade dos termos equidistantes</strong>: em uma PG finita, o produto de dois termos equidistantes dos extremos é sempre igual ao produto dos extremos. Em PG com número ímpar de termos, o termo central é a <strong>média geométrica</strong> dos extremos (ao quadrado = produto dos extremos).</p>
+<p><strong>Exemplo completo</strong>: PG (3, 6, 12, 24, ...), q = 2. O 5º termo: a₅ = 3×2⁴ = 48. A soma dos 5 primeiros termos: S₅ = 3×(2⁵−1)/(2−1) = 3×31 = 93.</p>
+
+<h3>Como identificar PA × PG numa questão</h3>
+<p>Calcule a <strong>diferença</strong> entre termos consecutivos: se for constante, é PA (a diferença é a razão r). Calcule a <strong>razão (divisão)</strong> entre termos consecutivos: se for constante, é PG (o quociente é a razão q). Algumas questões combinam as duas: ex., "os termos de uma PA formam também uma PG" — nesse caso, geralmente se monta um sistema de equações usando as duas definições simultaneamente.</p>`,
     questoes: []
   },
   {

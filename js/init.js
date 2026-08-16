@@ -17,7 +17,23 @@
   // (19 questões eram FCC/2006, sem relação com BACEN/IFPA -- 14 aproveitáveis
   // foram redistribuídas, 5 de atualidades obsoletas arquivadas, ver bloco
   // de redistribuição mais abaixo).
-  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral', 'conhecimentos_gerais_geral'];
+  // informatica_geral, administracao_geral_geral e administracao_publica_geral
+  // entraram na lista em ago/2026, na reestruturação final de matérias/subtemas:
+  // Informática foi dividida em 9 subtemas próprios (Hardware, Software,
+  // Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico,
+  // Segurança da Informação); as matérias standalone "Administração Geral" e
+  // "Administração Pública" foram fundidas de volta em "Noções de Administração"
+  // (administracao_geral_e_publica) como subtemas -- ver blocos de
+  // redistribuição por id mais abaixo.
+  // raciocinio_logico_geral e estatistica_geral: os TEMAS já existem como
+  // entradas estáticas (materia: 'matematica'), mas o registro de MATÉRIA
+  // (bloco logo abaixo) é um `if` SEPARADO do de criação de tema -- roda
+  // mesmo quando o tema já existe, e usa o `m.materia` bruto do
+  // questoes_banco.js (ainda 'raciocinio_logico'/'estatistica', as matérias
+  // antigas removidas de MATERIAS) -- sem bloquear aqui, essas 2 matérias
+  // fantasmas reapareciam no menu com descrição genérica "Questões gerais
+  // de X" (achado em teste).
+  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral', 'conhecimentos_gerais_geral', 'informatica_geral', 'administracao_geral_geral', 'administracao_publica_geral', 'raciocinio_logico_geral', 'estatistica_geral'];
 
   for (var id in QUESTOES_BANCO.novosTemas) {
     if (_IDS_RETIRADOS.indexOf(id) !== -1) continue;
@@ -171,6 +187,93 @@
     redistribuir('conhecimentos_gerais_geral', _REDISTRIB_CONHECIMENTOS_GERAIS);
   })();
 
+  // Reestruturação final de matérias/subtemas (ago/2026): Informática dividida
+  // em 9 subtemas próprios; "Administração Geral" e "Administração Pública"
+  // (matérias standalone) fundidas de volta como subtemas de "Noções de
+  // Administração"; 2 questões de "Matemática Básica" que na verdade são de
+  // Estatística (desvio padrão) movidas pro subtema certo. Mesmo padrão de
+  // redistribuição por id (nunca por posição) já estabelecido acima.
+  var _REDISTRIB_INFORMATICA = {
+    // Segurança da Informação
+    8309: 'seguranca_informacao_geral', 8310: 'seguranca_informacao_geral',
+    8315: 'seguranca_informacao_geral', 8316: 'seguranca_informacao_geral',
+    8319: 'seguranca_informacao_geral', 8577: 'seguranca_informacao_geral',
+    8579: 'seguranca_informacao_geral', 8586: 'seguranca_informacao_geral',
+    // Internet (inclui redes de computadores/protocolos -- não há subtema
+    // "Redes" separado na estrutura pedida, então esse conteúdo entra aqui)
+    8567: 'internet_geral', 8568: 'internet_geral', 8569: 'internet_geral',
+    8570: 'internet_geral', 8571: 'internet_geral', 8572: 'internet_geral',
+    8580: 'internet_geral', 8588: 'internet_geral', 8589: 'internet_geral',
+    8590: 'internet_geral', 8602: 'internet_geral',
+    // Hardware
+    8573: 'hardware_geral', 8581: 'hardware_geral', 8582: 'hardware_geral', 8583: 'hardware_geral',
+    // Software (dev web, sistemas operacionais genéricos, governança de TI, programação/BD)
+    8574: 'software_geral', 8575: 'software_geral', 8576: 'software_geral',
+    8578: 'software_geral', 8584: 'software_geral', 8587: 'software_geral', 8591: 'software_geral',
+    8592: 'software_geral', 8603: 'software_geral',
+    8593: 'software_geral', 8594: 'software_geral', 8595: 'software_geral',
+    8596: 'software_geral', 8597: 'software_geral', 8598: 'software_geral', 8599: 'software_geral',
+    // Windows, Linux, Editor de Textos, Planilhas e Correio Eletrônico não têm
+    // questão específica nas 39 originais -- ficam 0 por enquanto (teoria já
+    // está completa, aguardando a extração de Noções de Informática em
+    // andamento ser importada ao banco.db).
+  };
+  var _REDISTRIB_ADMIN_ORFAS = {
+    // Administração Geral (matéria standalone removida, fundida como subtema)
+    8505: 'administracao_geral_fundamentos', 8506: 'administracao_geral_fundamentos',
+    8507: 'administracao_geral_fundamentos', 8508: 'administracao_geral_fundamentos',
+    8509: 'administracao_geral_fundamentos', 8510: 'administracao_geral_fundamentos',
+    8511: 'administracao_geral_fundamentos', 8512: 'administracao_geral_fundamentos',
+    // Administração Pública (matéria standalone removida, fundida como subtema)
+  };
+  var _REDISTRIB_ADMPUBLICA_ORFA = {
+    8513: 'administracao_publica_agp', 8514: 'administracao_publica_agp',
+    8515: 'administracao_publica_agp', 8516: 'administracao_publica_agp',
+    8517: 'administracao_publica_agp', 8518: 'administracao_publica_agp',
+    8519: 'administracao_publica_agp', 8520: 'administracao_publica_agp',
+  };
+  var _REDISTRIB_MATEMATICA_PARA_ESTATISTICA = {
+    8559: 'estatistica_geral', // bônus dividido entre funcionários -- desvio padrão ponderado
+    8561: 'estatistica_geral', // médias de turma -- desvio padrão zero
+  };
+  (function() {
+    function redistribuir(chaveOrigem, mapaPorId) {
+      (QUESTOES_BANCO.questoes[chaveOrigem] || []).forEach(function(q) {
+        var alvoId = mapaPorId[q.id];
+        if (!alvoId) return;
+        var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
+        if (alvo) {
+          q.temas_relacionados = [alvoId];
+          q.assunto = alvoId;
+          alvo.questoes.push(q);
+        }
+      });
+    }
+    redistribuir('informatica_geral', _REDISTRIB_INFORMATICA);
+    redistribuir('administracao_geral_geral', _REDISTRIB_ADMIN_ORFAS);
+    redistribuir('administracao_publica_geral', _REDISTRIB_ADMPUBLICA_ORFA);
+
+    // Caso especial: mover 2 questões PRA FORA de matematica_geral (que já foi
+    // populado normalmente pelo passo 3 acima) -- remove pelo id e empurra
+    // pro tema certo, em vez de ler de QUESTOES_BANCO.questoes bruto.
+    var matBasica = TEMAS.find(function(t){ return t.id === 'matematica_geral'; });
+    var estat = TEMAS.find(function(t){ return t.id === 'estatistica_geral'; });
+    if (matBasica && estat) {
+      var permanecem = [];
+      matBasica.questoes.forEach(function(q) {
+        var alvoId = _REDISTRIB_MATEMATICA_PARA_ESTATISTICA[q.id];
+        if (alvoId === 'estatistica_geral') {
+          q.temas_relacionados = ['estatistica_geral'];
+          q.assunto = 'estatistica_geral';
+          estat.questoes.push(q);
+        } else {
+          permanecem.push(q);
+        }
+      });
+      matBasica.questoes = permanecem;
+    }
+  })();
+
   // Migra questões do slot acentuacaoGrafica → tonicidade (renomeado para Acentuação Gráfica)
   (function() {
     var tonic = TEMAS.find(function(t){ return t.id === 'tonicidade'; });
@@ -227,23 +330,43 @@
   }
 
   _criarGrupoCombinado({
-    id: 'nocoes_de_direito_todos',
-    nome: 'Noções de Direito',
+    id: 'legislacao_todos',
+    nome: 'Legislação',
     icon: '⚖️',
-    desc: 'Direito Constitucional, Administrativo e Processo Administrativo',
+    desc: 'Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
     materia: 'nocoes_de_direito',
-    teoria: '<h3>Noções de Direito</h3><p>Esta seção reúne todos os temas de Direito Constitucional e Administrativo.</p>',
-    subtemas: ['direito_constitucional_geral','direito_constitucional_admpublica','direito_administrativo_atos','direito_administrativo_servidor_8112','lei_9784_processo_administrativo']
+    teoria: '<h3>Legislação</h3><p>Esta seção reúne todos os temas de Direito Constitucional, Direito Administrativo e legislação específica (Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008) e Ética no Serviço Público.</p>',
+    subtemas: ['direito_constitucional_geral','direito_administrativo_atos','direito_administrativo_servidor_8112','lei_9784_processo_administrativo','lei_11892_2008','etica_servico_publico']
   });
 
   _criarGrupoCombinado({
-    id: 'administracao_geral_e_publica_todos',
-    nome: 'Administração Geral e Pública',
+    id: 'nocoes_de_administracao_todos',
+    nome: 'Noções de Administração',
     icon: '🏛️',
-    desc: 'Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e mais',
+    desc: 'Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública',
     materia: 'administracao_geral_e_publica',
-    teoria: '<h3>Administração Geral e Pública</h3><p>Esta seção reúne todos os temas de Administração Geral e Pública.</p>',
+    teoria: '<h3>Noções de Administração</h3><p>Esta seção reúne todos os temas de Administração Geral, Gestão de Pessoas, Arquivologia, Licitações, Gestão de Projetos, Gestão Estratégica/Qualidade e Administração Pública.</p>',
     subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_agp']
+  });
+
+  _criarGrupoCombinado({
+    id: 'matematica_todos',
+    nome: 'Matemática',
+    icon: '🔢',
+    desc: 'Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências (PA e PG) e Matemática Básica',
+    materia: 'matematica',
+    teoria: '<h3>Matemática</h3><p>Esta seção reúne todos os temas de Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências e Matemática Básica.</p>',
+    subtemas: ['raciocinio_logico_geral','estatistica_geral','analise_combinatoria_geral','probabilidade_geral','sequencias_pa_pg_geral','matematica_geral']
+  });
+
+  _criarGrupoCombinado({
+    id: 'informatica_todos',
+    nome: 'Noções de Informática',
+    icon: '💻',
+    desc: 'Hardware, Software, Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico e Segurança da Informação',
+    materia: 'informatica',
+    teoria: '<h3>Noções de Informática</h3><p>Esta seção reúne todos os temas de Hardware, Software, Windows, Linux, Editor de Textos, Planilhas Eletrônicas, Internet, Correio Eletrônico e Segurança da Informação.</p>',
+    subtemas: ['hardware_geral','software_geral','windows_geral','linux_geral','editor_textos_geral','planilhas_geral','internet_geral','correio_eletronico_geral','seguranca_informacao_geral']
   });
 
   // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────
