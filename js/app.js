@@ -303,6 +303,7 @@ function abrirTeoria(id) {
   if (!t) return;
 
   if (t.subtemas && t.subtemas.length) {
+    document.getElementById('study-fonetica-titulo').textContent = `${t.icon} ${t.nome}`;
     const ocultar = t.ocultar_subtemas || [];
     const grid = document.getElementById('study-fonetica-grid');
     grid.innerHTML = '';
@@ -433,6 +434,7 @@ function selecionarTemaQuiz(id, card) {
       return;
     }
     _temaSubtemasAtual = t;
+    document.getElementById('quiz-fonetica-titulo').textContent = `${t.icon} ${t.nome}`;
     const ocultar = t.ocultar_subtemas || [];
     // Mostra TODOS os subtemas (mesmo com 0 questões ainda) -- só oculta os
     // explicitamente marcados em ocultar_subtemas. Subtemas vazios aparecem
