@@ -13,7 +13,11 @@
   // por exportar_app.js, não editado aqui) porque as questões que caíam
   // neles têm assunto=NULL no banco.db. Sem este bloqueio, reapareceriam
   // como buckets fantasmas com teoria vazia toda vez que o app carrega.
-  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral'];
+  // conhecimentos_gerais_geral entrou na lista em ago/2026: matéria removida
+  // (19 questões eram FCC/2006, sem relação com BACEN/IFPA -- 14 aproveitáveis
+  // foram redistribuídas, 5 de atualidades obsoletas arquivadas, ver bloco
+  // de redistribuição mais abaixo).
+  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral', 'conhecimentos_gerais_geral'];
 
   for (var id in QUESTOES_BANCO.novosTemas) {
     if (_IDS_RETIRADOS.indexOf(id) !== -1) continue;
@@ -106,11 +110,11 @@
     'gestao_estrategica_qualidade_geral',    // 20 QFD / Casa da Qualidade
     'gestao_estrategica_qualidade_geral',    // 21 Matriz BCG
     'gestao_estrategica_qualidade_geral',    // 22 Balanced Scorecard
-    'administracao_publica_geral',           // 23 reforma do Estado / agência executiva
-    'administracao_publica_geral',           // 24 comunicação burocrática x pós-burocrática
-    'administracao_publica_geral',           // 25 indicadores de avaliação de política pública
+    'administracao_publica_agp',             // 23 reforma do Estado / agência executiva
+    'administracao_publica_agp',             // 24 comunicação burocrática x pós-burocrática
+    'administracao_publica_agp',             // 25 indicadores de avaliação de política pública
     'gestao_estrategica_qualidade_geral',    // 26 mapa estratégico / perspectivas BSC
-    'administracao_publica_geral',           // 27 gestão de riscos aduaneiros
+    'administracao_publica_agp',             // 27 gestão de riscos aduaneiros
     'gestao_projetos_geral',                 // 28 linha de base (MS Project)
     'gestao_projetos_geral',                 // 29 definição de gerenciamento de projetos
     'gestao_projetos_geral',                 // 30 EAP
@@ -132,6 +136,46 @@
     });
     (QUESTOES_BANCO.questoes['administracao_geral_e_publica_geral'] || []).forEach(function(q, i) {
       var alvoId = _REDISTRIB_ADMIN[i];
+      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
+      if (alvo) {
+        q.temas_relacionados = [alvoId];
+        q.assunto = alvoId;
+        alvo.questoes.push(q);
+      }
+    });
+  })();
+
+  // Redistribuição das 19 questões de CONHECIMENTOS GERAIS (matéria removida
+  // em ago/2026 -- eram todas FCC/2006, sem relação com BACEN/IFPA). 14
+  // aproveitáveis (Direito + Raciocínio Lógico) vão pros temas certos; as 5
+  // de atualidades (índices 5-9, política/dados de 2006) ficam de fora daqui
+  // de propósito -- foram arquivadas em avulsas_extraidas/arquivo_conhecimentos_gerais_obsoletas.json
+  // (fora do app) em vez de descartadas, mas não aparecem mais na UI.
+  var _REDISTRIB_CONHECIMENTOS_GERAIS = [
+    'direito_constitucional_geral',          // 0  habeas data (Art. 5º CF)
+    'direito_administrativo_servidor_8112',  // 1  acumulação de cargos públicos
+    'direito_constitucional_geral',          // 2  fundação de sindicato (liberdade sindical)
+    'direito_administrativo_servidor_8112',  // 3  cônjuges servidores, diárias/ajuda de custo
+    'direito_administrativo_servidor_8112',  // 4  investidura em cargo público (posse)
+    null,                                    // 5  ARQUIVADA: atualidades 2006 (eleição Lula 2002)
+    null,                                    // 6  ARQUIVADA: atualidades 2006 (ONU/UNICEF)
+    null,                                    // 7  ARQUIVADA: atualidades 2006 (IBGE/PIB)
+    null,                                    // 8  ARQUIVADA: atualidades 2006 (escassez de água)
+    null,                                    // 9  ARQUIVADA: atualidades 2006 (usinas MT)
+    'raciocinio_logico_geral',               // 10 pesagem de bolas (balança)
+    'raciocinio_logico_geral',               // 11 conjuntos (idiomas)
+    'raciocinio_logico_geral',               // 12 múltiplos
+    'raciocinio_logico_geral',               // 13 contagem de senhas (combinatória)
+    'raciocinio_logico_geral',               // 14 sequência de quadriculados
+    'raciocinio_logico_geral',               // 15 lógica de associação (técnicos/cidades)
+    'raciocinio_logico_geral',               // 16 figuras geométricas (padrão)
+    'raciocinio_logico_geral',               // 17 fluxo em grade
+    'raciocinio_logico_geral',               // 18 contagem de triângulos
+  ];
+  (function() {
+    (QUESTOES_BANCO.questoes['conhecimentos_gerais_geral'] || []).forEach(function(q, i) {
+      var alvoId = _REDISTRIB_CONHECIMENTOS_GERAIS[i];
+      if (!alvoId) return; // arquivada, não entra em nenhum tema
       var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
       if (alvo) {
         q.temas_relacionados = [alvoId];
@@ -213,7 +257,7 @@
     desc: 'Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e mais',
     materia: 'administracao_geral_e_publica',
     teoria: '<h3>Administração Geral e Pública</h3><p>Esta seção reúne todos os temas de Administração Geral e Pública.</p>',
-    subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_geral']
+    subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_agp']
   });
 
   // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────
