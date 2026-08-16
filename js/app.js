@@ -352,6 +352,21 @@ function _snakeCase(str) {
   return semAcento.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
 }
 
+// Safari (iOS e macOS) não lida bem com o truque de <a download> em blob URL
+// que o .save() do html2pdf.js usa por baixo dos panos -- resultado
+// documentado é tela em branco ou download que não aparece em lugar nenhum
+// (ver github.com/eKoopmans/html2pdf.js issues #347, #386, #397, #601).
+// Não existe fix definitivo (limitação da engine WebKit), então no mobile
+// abrimos uma aba em branco JÁ NO CLIQUE (gesto síncrono do usuário -- evita
+// bloqueio de pop-up) e só depois, quando o PDF terminar de gerar, navegamos
+// essa aba pra blob URL. Testado: navegar a MESMA aba (location.href/
+// window.open com '_self') pra uma blob URL não funciona de forma
+// confiável -- a aba em branco + redirect posterior é o padrão que
+// efetivamente abre um novo contexto de navegação verificável.
+function _ehMobile() {
+  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
 function baixarTeoriaPDF() {
   if (!temaAtual) return;
   if (typeof html2pdf === 'undefined') {
@@ -361,6 +376,12 @@ function baixarTeoriaPDF() {
 
   const corpo = document.querySelector('#teoria-container .teoria-body');
   if (!corpo) return;
+
+  // Precisa abrir a aba AQUI, de forma síncrona dentro do próprio clique --
+  // se esperar o PDF terminar de gerar (assíncrono) pra chamar window.open,
+  // o navegador não reconhece mais como resultado direto de um gesto do
+  // usuário e bloqueia como pop-up (principalmente Safari/iOS).
+  const abaMobile = _ehMobile() ? window.open('', '_blank') : null;
 
   const conteudo = document.createElement('div');
   conteudo.style.background = '#0f172a';
@@ -373,17 +394,33 @@ function baixarTeoriaPDF() {
   btn.disabled = true;
   btn.textContent = 'Gerando PDF...';
 
-  html2pdf().set({
+  const worker = html2pdf().set({
     margin: 10,
     filename: `${_snakeCase(temaAtual.nome)}.pdf`,
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, useCORS: true, backgroundColor: '#0f172a' },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     pagebreak: { mode: ['avoid-all', 'css'] },
-  }).from(conteudo).save().finally(() => {
-    btn.disabled = false;
-    btn.textContent = textoOriginal;
-  });
+  }).from(conteudo);
+
+  const restaurarBotao = () => { btn.disabled = false; btn.textContent = textoOriginal; };
+
+  if (_ehMobile()) {
+    worker.outputPdf('blob').then(blob => {
+      const url = URL.createObjectURL(blob);
+      if (abaMobile) {
+        abaMobile.location.href = url;
+      } else {
+        // pop-up bloqueado mesmo com a abertura síncrona -- último recurso
+        alert('Não foi possível abrir o PDF -- verifique se pop-ups estão bloqueados pro navegador.');
+      }
+    }).catch(() => {
+      if (abaMobile) abaMobile.close();
+      alert('Não foi possível gerar o PDF. Tente novamente.');
+    }).finally(restaurarBotao);
+  } else {
+    worker.save().finally(restaurarBotao);
+  }
 }
 
 document.getElementById('btn-baixar-pdf-teoria').addEventListener('click', baixarTeoriaPDF);
