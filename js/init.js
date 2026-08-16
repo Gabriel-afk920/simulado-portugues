@@ -116,13 +116,28 @@
     'gestao_projetos_geral',                 // 30 EAP
   ];
   (function() {
+    // IMPORTANTE: atualiza temas_relacionados (e assunto) pro novo id -- sem
+    // isso a questão fica no tema certo mas o botão "consultar teoria" some
+    // no simulado, porque _resolverTemasParaPanel filtra por temas_relacionados
+    // e o id antigo (nocoes_de_direito_geral / administracao_geral_e_publica_geral)
+    // não existe mais em TEMAS (achado em teste depois da redistribuição).
     (QUESTOES_BANCO.questoes['nocoes_de_direito_geral'] || []).forEach(function(q, i) {
-      var alvo = TEMAS.find(function(t){ return t.id === _REDISTRIB_DIREITO[i]; });
-      if (alvo) alvo.questoes.push(q);
+      var alvoId = _REDISTRIB_DIREITO[i];
+      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
+      if (alvo) {
+        q.temas_relacionados = [alvoId];
+        q.assunto = alvoId;
+        alvo.questoes.push(q);
+      }
     });
     (QUESTOES_BANCO.questoes['administracao_geral_e_publica_geral'] || []).forEach(function(q, i) {
-      var alvo = TEMAS.find(function(t){ return t.id === _REDISTRIB_ADMIN[i]; });
-      if (alvo) alvo.questoes.push(q);
+      var alvoId = _REDISTRIB_ADMIN[i];
+      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
+      if (alvo) {
+        q.temas_relacionados = [alvoId];
+        q.assunto = alvoId;
+        alvo.questoes.push(q);
+      }
     });
   })();
 
