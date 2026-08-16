@@ -33,7 +33,7 @@
   // antigas removidas de MATERIAS) -- sem bloquear aqui, essas 2 matérias
   // fantasmas reapareciam no menu com descrição genérica "Questões gerais
   // de X" (achado em teste).
-  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral', 'conhecimentos_gerais_geral', 'informatica_geral', 'administracao_geral_geral', 'administracao_publica_geral', 'raciocinio_logico_geral', 'estatistica_geral'];
+  var _IDS_RETIRADOS = ['nocoes_de_direito_geral', 'administracao_geral_e_publica_geral', 'conhecimentos_gerais_geral', 'informatica_geral', 'administracao_geral_geral', 'administracao_publica_geral', 'raciocinio_logico_geral', 'estatistica_geral', 'contabilidade_geral_e_publica_geral', 'gestao_de_recursos_materiais_e_patrimoniais_geral', 'auditoria_geral'];
 
   for (var id in QUESTOES_BANCO.novosTemas) {
     if (_IDS_RETIRADOS.indexOf(id) !== -1) continue;
