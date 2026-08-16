@@ -151,6 +151,7 @@ let simuladoPausado  = false;
 let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (reseta ao sair para temas)
 let tempoSimulado    = TEMPO_POR_QUESTAO;
 let respondeu        = false;
+let selecionadaAtual = null; // índice original da alternativa marcada, aguardando confirmação
 let filaPuladas      = [];   // questões puladas aguardando rodada extra
 let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
 
@@ -637,6 +638,7 @@ function renderQuestao() {
   const total     = questoes.length;
   const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
   respondeu       = jaResp;
+  selecionadaAtual = null;
 
   if (jaResp) {
     clearInterval(timerInterval);
@@ -697,10 +699,16 @@ function renderQuestao() {
       if (origIdx === q.correta)                       li.classList.add('correct');
       if (origIdx === resp.escolhida && !resp.acertou) li.classList.add('wrong');
     } else {
-      li.addEventListener('click', () => { if (!respondeu) registrarResposta(origIdx); });
+      li.addEventListener('click', () => { if (!respondeu) selecionarAlternativa(origIdx); });
     }
     lista.appendChild(li);
   });
+
+  // Botão de confirmação: só aparece quando ainda não respondeu; fica
+  // desabilitado até o usuário marcar alguma alternativa.
+  const btnConfirmar = document.getElementById('btn-confirmar-resposta');
+  btnConfirmar.style.display = jaResp ? 'none' : '';
+  btnConfirmar.disabled      = true;
 
   // Explicação: mostra se já respondeu
   const expBox = document.getElementById('explanation-box');
@@ -720,6 +728,24 @@ function renderQuestao() {
   btnNext.style.display  = jaResp ? '' : 'none';
   btnNext.textContent    = (indiceAtual + 1 < total || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
 }
+
+// Marca visualmente a alternativa escolhida, sem revelar o gabarito ainda --
+// só habilita o botão "Confirmar Resposta". A revelação em si continua
+// acontecendo só dentro de registrarResposta(), chamada pelo botão.
+function selecionarAlternativa(origIdx) {
+  if (respondeu) return;
+  selecionadaAtual = origIdx;
+  document.querySelectorAll('.option-item').forEach(li => {
+    li.classList.toggle('selected', parseInt(li.dataset.orig) === origIdx);
+  });
+  const btnConfirmar = document.getElementById('btn-confirmar-resposta');
+  btnConfirmar.disabled = false;
+}
+
+document.getElementById('btn-confirmar-resposta').addEventListener('click', () => {
+  if (respondeu || selecionadaAtual === null) return;
+  registrarResposta(selecionadaAtual);
+});
 
 function registrarResposta(escolhida) {
   if (respondeu) return;
@@ -745,11 +771,16 @@ function registrarResposta(escolhida) {
   _salvarSessaoAtiva();
 
   document.querySelectorAll('.option-item').forEach(li => {
+    li.classList.remove('selected');
     li.classList.add('disabled');
     const orig = parseInt(li.dataset.orig);
     if (orig === q.correta)             li.classList.add('correct');
     if (orig === escolhida && !acertou) li.classList.add('wrong');
   });
+
+  const btnConfirmar = document.getElementById('btn-confirmar-resposta');
+  btnConfirmar.style.display = 'none';
+  btnConfirmar.disabled      = true;
 
   const expBox = document.getElementById('explanation-box');
   expBox.innerHTML = `<strong>${acertou ? '✔ Correto!' : escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}`;

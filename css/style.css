@@ -204,9 +204,11 @@
     }
     .option-item:hover:not(.disabled) { border-color: #38bdf8; background: #1e3a4a; }
     .option-item.disabled { cursor: default; }
+    .option-item.selected { border-color: #38bdf8; background: #0c4a6e; }
     .option-item.correct  { border-color: #22c55e; background: #052e16; }
     .option-item.wrong    { border-color: #ef4444; background: #2a0a0a; }
     .option-letter { font-weight: 700; color: #94a3b8; min-width: 22px; }
+    .option-item.selected .option-letter { color: #38bdf8; }
     .option-item.correct .option-letter { color: #22c55e; }
     .option-item.wrong   .option-letter { color: #ef4444; }
 
