@@ -6,7 +6,7 @@
 const MATERIAS = [
   { id: 'portugues', nome: 'Língua Portuguesa', icon: '📖', desc: '📌 BACEN · IFPA — Fonética, gramática, ortografia e interpretação de texto' },
   { id: 'informatica', nome: 'Informática', icon: '💻', desc: '📌 BACEN · IFPA — Redes, sistemas operacionais, programação (Python/Java/SQL), desenvolvimento web, governança de TI (ITIL/COBIT) e segurança da informação' },
-  { id: 'gestao_de_recursos_materiais_e_patrimoniais', nome: 'Gestão de Recursos Materiais e Patrimoniais', icon: '📦', desc: '📌 BACEN · Transpetro — Controle de estoque, reposição de materiais e gestão patrimonial' },
+  { id: 'gestao_de_recursos_materiais_e_patrimoniais', nome: 'Gestão de Recursos Materiais e Patrimoniais', icon: '📦', desc: '📌 BACEN — Controle de estoque, reposição de materiais e gestão patrimonial' },
   { id: 'nocoes_de_direito', nome: 'NOÇÕES DE DIREITO', icon: '⚖️', desc: '📌 BACEN · IFPA — Direito Constitucional (princípios da CF, Art. 5º e 144) e Direito Administrativo (regime jurídico do servidor, atos administrativos, autarquias)' },
   { id: 'raciocinio_logico', nome: 'Raciocínio Lógico', icon: '🧩', desc: '📌 BACEN · IFPA — Lógica proposicional, probabilidade, combinatória e problemas de raciocínio quantitativo' },
   { id: 'estatistica', nome: 'Estatística', icon: '📊', desc: '📌 BACEN · IFPA — Probabilidade, desvio padrão, correlação e combinatória aplicada (Raciocínio Lógico-Quantitativo)' },

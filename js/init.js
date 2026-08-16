@@ -66,123 +66,109 @@
     }
   }
 
-  // Redistribuição manual das 44 questões dos 2 buckets retirados (ago/2026,
-  // ver _IDS_RETIRADOS acima) -- cada uma foi lida e classificada por
-  // conteúdo real (assunto=NULL no banco.db impedia fazer isso
-  // automaticamente). Índice = posição no array original em
-  // questoes_banco.js (arquivo não editado, só lido aqui).
-  var _REDISTRIB_DIREITO = [
-    'direito_constitucional_geral',          // 0  livre iniciativa / ordem econômica
-    'direito_constitucional_geral',          // 1  direito de petição (art. 5º)
-    'direito_administrativo_servidor_8112',  // 2  disponibilidade por extinção de cargo
-    'direito_constitucional_geral',          // 3  organização do Poder Executivo/Ministros
-    'direito_constitucional_geral',          // 4  ação popular (art. 5º, LXXIII)
-    'direito_administrativo_servidor_8112',  // 5  investidura em cargo/concurso (Lei 8.112)
-    'direito_administrativo_servidor_8112',  // 6  reintegração após invalidação judicial
-    'direito_administrativo_servidor_8112',  // 7  repercussão da absolvição criminal no PAD
-    'direito_administrativo_atos',           // 8  elementos/revogação/anulação dos atos
-    'direito_administrativo_atos',           // 9  autoexecutoriedade
-    'direito_administrativo_servidor_8112',  // 10 reintegração após invalidação judicial (dup. da 6)
-    'direito_constitucional_geral',          // 11 art. 144 CF, segurança pública
-    'direito_constitucional_geral',          // 12 art. 5º CF, direitos individuais
-  ];
-  var _REDISTRIB_ADMIN = [
-    'gestao_pessoas_geral',                  // 0  automação e gestão de pessoas
-    'gestao_pessoas_geral',                  // 1  entrevista estruturada (seleção)
-    'gestao_pessoas_geral',                  // 2  qualidade de vida no trabalho
-    'gestao_pessoas_geral',                  // 3  educação corporativa
-    'gestao_pessoas_geral',                  // 4  plano de carreira
-    'gestao_pessoas_geral',                  // 5  erro de avaliação (halo/recenticidade)
-    'gestao_pessoas_geral',                  // 6  métodos de avaliação de desempenho
-    'gestao_estrategica_qualidade_geral',    // 7  comportamento organizacional (agrupado com clima/liderança no QConcursos real)
-    'gestao_pessoas_geral',                  // 8  processo disciplinar
-    'gestao_estrategica_qualidade_geral',    // 9  redes formais de comunicação
-    'gestao_estrategica_qualidade_geral',    // 10 escolha de meio de comunicação
-    'gestao_estrategica_qualidade_geral',    // 11 clima organizacional
-    'gestao_estrategica_qualidade_geral',    // 12 grupo x equipe
-    'licitacoes_contratos_geral',            // 13 pregão eletrônico
-    'arquivologia_geral',                    // 14 método de arquivamento ideográfico
-    'arquivologia_geral',                    // 15 método geográfico de arquivamento
-    'arquivologia_geral',                    // 16 tabela de temporalidade
-    'arquivologia_geral',                    // 17 triagem/protocolo de correspondência
-    'gestao_projetos_geral',                 // 18 termo de abertura do projeto
-    'contabilidade_geral_e_publica_geral',   // 19 CORRIGIDO: balanço patrimonial é conteúdo de Contabilidade -- banco.db id 8443 recorrigido (materia Administração->Contabilidade)
-    'gestao_estrategica_qualidade_geral',    // 20 QFD / Casa da Qualidade
-    'gestao_estrategica_qualidade_geral',    // 21 Matriz BCG
-    'gestao_estrategica_qualidade_geral',    // 22 Balanced Scorecard
-    'administracao_publica_agp',             // 23 reforma do Estado / agência executiva
-    'administracao_publica_agp',             // 24 comunicação burocrática x pós-burocrática
-    'administracao_publica_agp',             // 25 indicadores de avaliação de política pública
-    'gestao_estrategica_qualidade_geral',    // 26 mapa estratégico / perspectivas BSC
-    'administracao_publica_agp',             // 27 gestão de riscos aduaneiros
-    'gestao_projetos_geral',                 // 28 linha de base (MS Project)
-    'gestao_projetos_geral',                 // 29 definição de gerenciamento de projetos
-    'gestao_projetos_geral',                 // 30 EAP
-  ];
+  // Redistribuição manual das questões dos buckets retirados (ago/2026, ver
+  // _IDS_RETIRADOS acima) -- cada uma foi lida e classificada por conteúdo
+  // real (assunto=NULL no banco.db impedia fazer isso automaticamente).
+  // Chave = id ESTÁVEL da questão no banco.db (exportar_app.js agora exporta
+  // `id` e usa `ORDER BY id`, ver correção de ago/2026 -- achado em teste:
+  // sem ORDER BY explícito, a ordem de SELECT * podia mudar entre execuções
+  // do exportar_app.js, quebrando silenciosamente qualquer mapeamento
+  // baseado em POSIÇÃO no array. Mapear por id sobrevive a re-exportações.)
+  var _REDISTRIB_DIREITO = {
+    8221: 'direito_constitucional_geral',          // livre iniciativa / ordem econômica
+    8222: 'direito_constitucional_geral',          // direito de petição (art. 5º)
+    8223: 'direito_administrativo_servidor_8112',  // disponibilidade por extinção de cargo
+    8224: 'direito_constitucional_geral',          // organização do Poder Executivo/Ministros
+    8225: 'direito_constitucional_geral',          // ação popular (art. 5º, LXXIII)
+    8226: 'direito_administrativo_servidor_8112',  // pesquisa sobre a Lei 8.112/90
+    8227: 'direito_administrativo_servidor_8112',  // demissão/PAD, reintegração judicial
+    8228: 'direito_administrativo_servidor_8112',  // demissão + processo penal (independência de instâncias)
+    8229: 'direito_administrativo_atos',           // elementos dos atos administrativos
+    8230: 'direito_administrativo_atos',           // poder de polícia / autoexecutoriedade
+    8291: 'direito_administrativo_servidor_8112',  // demissão/PAD, reintegração judicial (dup. de 8227)
+    8301: 'direito_constitucional_geral',          // art. 144 CF, segurança pública
+    8302: 'direito_constitucional_geral',          // art. 5º CF, direitos individuais
+  };
+  var _REDISTRIB_ADMIN = {
+    8261: 'gestao_pessoas_geral',                  // automação e gestão de pessoas
+    8262: 'gestao_pessoas_geral',                  // entrevista estruturada (seleção)
+    8263: 'gestao_pessoas_geral',                  // qualidade de vida no trabalho
+    8264: 'gestao_pessoas_geral',                  // educação corporativa
+    8265: 'gestao_pessoas_geral',                  // plano de carreira
+    8266: 'gestao_pessoas_geral',                  // erro de avaliação (halo/recenticidade)
+    8267: 'gestao_pessoas_geral',                  // métodos de avaliação de desempenho
+    8268: 'gestao_estrategica_qualidade_geral',    // comportamento organizacional
+    8269: 'gestao_pessoas_geral',                  // sistema de informação de RH / disciplina
+    8270: 'gestao_estrategica_qualidade_geral',    // redes formais de comunicação
+    8271: 'gestao_estrategica_qualidade_geral',    // escolha de meio de comunicação
+    8272: 'gestao_estrategica_qualidade_geral',    // clima organizacional
+    8273: 'gestao_estrategica_qualidade_geral',    // grupo x equipe
+    8283: 'licitacoes_contratos_geral',            // pregão eletrônico
+    8284: 'arquivologia_geral',                    // método de arquivamento (vinculação/desvinculação)
+    8285: 'arquivologia_geral',                    // ouvidoria / protocolo de correspondência
+    8286: 'arquivologia_geral',                    // comissões de avaliação / tabela de temporalidade
+    8287: 'arquivologia_geral',                    // triagem de documentos recebidos
+    8442: 'gestao_projetos_geral',                 // termo de abertura do projeto
+    8444: 'gestao_estrategica_qualidade_geral',    // QFD / Casa da Qualidade
+    8445: 'gestao_estrategica_qualidade_geral',    // Matriz BCG
+    8446: 'gestao_estrategica_qualidade_geral',    // Balanced Scorecard
+    8447: 'administracao_publica_agp',             // reforma do Estado
+    8448: 'administracao_publica_agp',             // comunicação burocrática x pós-burocrática
+    8449: 'administracao_publica_agp',             // indicadores de avaliação de política pública
+    8450: 'gestao_estrategica_qualidade_geral',    // mapa estratégico / perspectivas BSC
+    8451: 'administracao_publica_agp',             // gestão de riscos aduaneiros
+    8585: 'gestao_projetos_geral',                 // linha de base (MS Project)
+    8601: 'gestao_projetos_geral',                 // definição de gerenciamento de projetos
+    8604: 'gestao_projetos_geral',                 // EAP
+    // 8443 (balanço patrimonial) NÃO entra aqui -- é conteúdo de Contabilidade,
+    // já corrigido direto no banco.db (materia Administração->Contabilidade),
+    // então exportar_app.js já classifica em contabilidade_geral_e_publica_geral sozinho.
+  };
+  // 19 questões de CONHECIMENTOS GERAIS (matéria removida em ago/2026 -- eram
+  // todas FCC/2006, sem relação com BACEN/IFPA). 14 aproveitáveis vão pros
+  // temas certos; as 5 de atualidades (política/dados de 2005-2006) ficam de
+  // fora deste mapa de propósito -- foram arquivadas em
+  // avulsas_extraidas/arquivo_conhecimentos_gerais_obsoletas.json (fora do
+  // app) em vez de descartadas, mas não aparecem mais na UI.
+  var _REDISTRIB_CONHECIMENTOS_GERAIS = {
+    8347: 'direito_constitucional_geral',          // habeas data (Art. 5º CF)
+    8348: 'direito_administrativo_servidor_8112',  // acumulação de cargos públicos
+    8349: 'direito_constitucional_geral',          // fundação de sindicato (liberdade sindical)
+    8350: 'direito_administrativo_servidor_8112',  // cônjuges servidores, diárias/ajuda de custo
+    8351: 'direito_administrativo_servidor_8112',  // investidura em cargo público (posse)
+    // 8352-8356: ARQUIVADAS (atualidades 2006 -- eleição Lula 2002, ONU/UNICEF,
+    // IBGE/PIB, escassez de água, usinas MT). Não entram neste mapa de propósito.
+    8357: 'raciocinio_logico_geral',               // pesagem de bolas (balança)
+    8358: 'raciocinio_logico_geral',               // conjuntos (idiomas)
+    8359: 'raciocinio_logico_geral',               // múltiplos
+    8360: 'raciocinio_logico_geral',               // contagem de senhas (combinatória)
+    8361: 'raciocinio_logico_geral',               // sequência de quadriculados
+    8362: 'raciocinio_logico_geral',               // lógica de associação (técnicos/cidades)
+    8363: 'raciocinio_logico_geral',               // figuras geométricas (padrão)
+    8364: 'raciocinio_logico_geral',               // fluxo em grade
+    8366: 'raciocinio_logico_geral',               // contagem de triângulos
+  };
   (function() {
     // IMPORTANTE: atualiza temas_relacionados (e assunto) pro novo id -- sem
     // isso a questão fica no tema certo mas o botão "consultar teoria" some
     // no simulado, porque _resolverTemasParaPanel filtra por temas_relacionados
-    // e o id antigo (nocoes_de_direito_geral / administracao_geral_e_publica_geral)
-    // não existe mais em TEMAS (achado em teste depois da redistribuição).
-    (QUESTOES_BANCO.questoes['nocoes_de_direito_geral'] || []).forEach(function(q, i) {
-      var alvoId = _REDISTRIB_DIREITO[i];
-      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
-      if (alvo) {
-        q.temas_relacionados = [alvoId];
-        q.assunto = alvoId;
-        alvo.questoes.push(q);
-      }
-    });
-    (QUESTOES_BANCO.questoes['administracao_geral_e_publica_geral'] || []).forEach(function(q, i) {
-      var alvoId = _REDISTRIB_ADMIN[i];
-      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
-      if (alvo) {
-        q.temas_relacionados = [alvoId];
-        q.assunto = alvoId;
-        alvo.questoes.push(q);
-      }
-    });
-  })();
-
-  // Redistribuição das 19 questões de CONHECIMENTOS GERAIS (matéria removida
-  // em ago/2026 -- eram todas FCC/2006, sem relação com BACEN/IFPA). 14
-  // aproveitáveis (Direito + Raciocínio Lógico) vão pros temas certos; as 5
-  // de atualidades (índices 5-9, política/dados de 2006) ficam de fora daqui
-  // de propósito -- foram arquivadas em avulsas_extraidas/arquivo_conhecimentos_gerais_obsoletas.json
-  // (fora do app) em vez de descartadas, mas não aparecem mais na UI.
-  var _REDISTRIB_CONHECIMENTOS_GERAIS = [
-    'direito_constitucional_geral',          // 0  habeas data (Art. 5º CF)
-    'direito_administrativo_servidor_8112',  // 1  acumulação de cargos públicos
-    'direito_constitucional_geral',          // 2  fundação de sindicato (liberdade sindical)
-    'direito_administrativo_servidor_8112',  // 3  cônjuges servidores, diárias/ajuda de custo
-    'direito_administrativo_servidor_8112',  // 4  investidura em cargo público (posse)
-    null,                                    // 5  ARQUIVADA: atualidades 2006 (eleição Lula 2002)
-    null,                                    // 6  ARQUIVADA: atualidades 2006 (ONU/UNICEF)
-    null,                                    // 7  ARQUIVADA: atualidades 2006 (IBGE/PIB)
-    null,                                    // 8  ARQUIVADA: atualidades 2006 (escassez de água)
-    null,                                    // 9  ARQUIVADA: atualidades 2006 (usinas MT)
-    'raciocinio_logico_geral',               // 10 pesagem de bolas (balança)
-    'raciocinio_logico_geral',               // 11 conjuntos (idiomas)
-    'raciocinio_logico_geral',               // 12 múltiplos
-    'raciocinio_logico_geral',               // 13 contagem de senhas (combinatória)
-    'raciocinio_logico_geral',               // 14 sequência de quadriculados
-    'raciocinio_logico_geral',               // 15 lógica de associação (técnicos/cidades)
-    'raciocinio_logico_geral',               // 16 figuras geométricas (padrão)
-    'raciocinio_logico_geral',               // 17 fluxo em grade
-    'raciocinio_logico_geral',               // 18 contagem de triângulos
-  ];
-  (function() {
-    (QUESTOES_BANCO.questoes['conhecimentos_gerais_geral'] || []).forEach(function(q, i) {
-      var alvoId = _REDISTRIB_CONHECIMENTOS_GERAIS[i];
-      if (!alvoId) return; // arquivada, não entra em nenhum tema
-      var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
-      if (alvo) {
-        q.temas_relacionados = [alvoId];
-        q.assunto = alvoId;
-        alvo.questoes.push(q);
-      }
-    });
+    // e o id antigo (nocoes_de_direito_geral / administracao_geral_e_publica_geral
+    // / conhecimentos_gerais_geral) não existe mais em TEMAS.
+    function redistribuir(chaveOrigem, mapaPorId) {
+      (QUESTOES_BANCO.questoes[chaveOrigem] || []).forEach(function(q) {
+        var alvoId = mapaPorId[q.id];
+        if (!alvoId) return; // sem mapeamento (ex.: arquivada de propósito)
+        var alvo = TEMAS.find(function(t){ return t.id === alvoId; });
+        if (alvo) {
+          q.temas_relacionados = [alvoId];
+          q.assunto = alvoId;
+          alvo.questoes.push(q);
+        }
+      });
+    }
+    redistribuir('nocoes_de_direito_geral', _REDISTRIB_DIREITO);
+    redistribuir('administracao_geral_e_publica_geral', _REDISTRIB_ADMIN);
+    redistribuir('conhecimentos_gerais_geral', _REDISTRIB_CONHECIMENTOS_GERAIS);
   })();
 
   // Migra questões do slot acentuacaoGrafica → tonicidade (renomeado para Acentuação Gráfica)
