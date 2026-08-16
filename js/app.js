@@ -342,91 +342,56 @@ function abrirTeoria(id) {
 }
 
 // ══════════════════════════════════════════════════════════
-//  DOWNLOAD DE TEORIA EM PDF (html2pdf.js via CDN)
+//  COPIAR CONTEÚDO DA TEORIA (substitui o download de PDF -- o PDF exigia
+//  html2pdf.js via CDN e nunca funcionou de forma confiável no Safari/iOS,
+//  mesmo depois de várias tentativas de correção. Copiar pra área de
+//  transferência é universal, sem dependência externa, sem limite de
+//  tamanho de canvas no mobile.)
 // ══════════════════════════════════════════════════════════
-function _snakeCase(str) {
-  const semAcento = str.normalize('NFD').split('').filter(ch => {
-    const code = ch.codePointAt(0);
-    return !(code >= 0x0300 && code <= 0x036f); // remove marcas diacríticas combinantes
-  }).join('');
-  return semAcento.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
-}
-
-// Safari (iOS e macOS) não lida bem com o truque de <a download> em blob URL
-// disparado via JS -- resultado documentado é tela em branco ou download que
-// não aparece em lugar nenhum (ver github.com/eKoopmans/html2pdf.js issues
-// #347, #386, #397, #601). Duas tentativas anteriores confirmadamente NÃO
-// funcionam no motor WebKit de verdade (testado com Playwright webkit, que
-// reproduz o Safari): nem `.save()` (anchor+click() via JS), nem abrir uma
-// aba em branco no clique e navegar ela depois (window.open + location.href
-// pra blob URL -- a aba fica presa em about:blank).
-//
-// O que REALMENTE funciona no WebKit: um clique DIRETO do usuário (evento
-// confiável, não disparado via .click() em JS) num <a href="blob:..."
-// download="..."> que JÁ EXISTE no DOM com o href certo. Como gerar o PDF é
-// assíncrono, não dá pra ter esse href pronto no momento do primeiro clique
-// -- por isso o fluxo mobile pede um SEGUNDO toque: gera o PDF, troca o
-// botão por um link real com o blob pronto, e o próprio usuário toca nele.
-function _ehMobile() {
-  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-}
-
-function baixarTeoriaPDF() {
+function copiarTeoriaConteudo() {
   if (!temaAtual) return;
-  if (typeof html2pdf === 'undefined') {
-    alert('Não foi possível gerar o PDF — verifique sua conexão com a internet e tente de novo.');
-    return;
-  }
-
   const corpo = document.querySelector('#teoria-container .teoria-body');
   if (!corpo) return;
 
-  const conteudo = document.createElement('div');
-  conteudo.style.background = '#0f172a';
-  conteudo.style.color = '#e2e8f0';
-  conteudo.style.padding = '4px';
-  conteudo.innerHTML = `<h1 style="margin-bottom:16px;">${temaAtual.nome}</h1>${corpo.innerHTML}`;
-
-  const btn = document.getElementById('btn-baixar-pdf-teoria');
+  const texto = `${temaAtual.nome}\n\n${corpo.innerText}`;
+  const btn = document.getElementById('btn-copiar-teoria');
   const textoOriginal = btn.textContent;
-  btn.disabled = true;
-  btn.textContent = 'Gerando PDF...';
 
-  const worker = html2pdf().set({
-    margin: 10,
-    filename: `${_snakeCase(temaAtual.nome)}.pdf`,
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true, backgroundColor: '#0f172a' },
-    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-    pagebreak: { mode: ['avoid-all', 'css'] },
-  }).from(conteudo);
+  const mostrarSucesso = () => {
+    btn.textContent = '✅ Copiado!';
+    setTimeout(() => { btn.textContent = textoOriginal; }, 2000);
+  };
+  const mostrarFalha = () => {
+    alert('Não foi possível copiar. Selecione o texto manualmente.');
+  };
 
-  const restaurarBotao = () => { btn.disabled = false; btn.textContent = textoOriginal; };
-
-  if (_ehMobile()) {
-    worker.outputPdf('blob').then(blob => {
-      const url = URL.createObjectURL(blob);
-      const link = document.getElementById('link-pdf-pronto');
-      link.href = url;
-      link.download = `${_snakeCase(temaAtual.nome)}.pdf`;
-      link.style.display = '';
-      btn.style.display = 'none';
-      // some sozinho depois do toque, pra não ficar um link morto na tela
-      link.addEventListener('click', () => {
-        setTimeout(() => {
-          link.style.display = 'none';
-          btn.style.display = '';
-        }, 500);
-      }, { once: true });
-    }).catch(() => {
-      alert('Não foi possível gerar o PDF. Tente novamente.');
-    }).finally(restaurarBotao);
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(texto).then(mostrarSucesso).catch(() => {
+      if (!_copiarViaExecCommand(texto)) mostrarFalha(); else mostrarSucesso();
+    });
   } else {
-    worker.save().finally(restaurarBotao);
+    if (_copiarViaExecCommand(texto)) mostrarSucesso(); else mostrarFalha();
   }
 }
 
-document.getElementById('btn-baixar-pdf-teoria').addEventListener('click', baixarTeoriaPDF);
+// Fallback pra contextos sem Clipboard API (ex: HTTP não-seguro) --
+// document.execCommand está deprecated mas ainda é o único jeito de copiar
+// nesses casos.
+function _copiarViaExecCommand(texto) {
+  const textarea = document.createElement('textarea');
+  textarea.value = texto;
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  document.body.appendChild(textarea);
+  textarea.focus();
+  textarea.select();
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+  document.body.removeChild(textarea);
+  return ok;
+}
+
+document.getElementById('btn-copiar-teoria').addEventListener('click', copiarTeoriaConteudo);
 
 document.getElementById('btn-back-study-fonetica').addEventListener('click', () => ir('screen-study-topics'));
 document.getElementById('btn-back-quiz-fonetica').addEventListener('click', () => ir('screen-quiz-topics'));
