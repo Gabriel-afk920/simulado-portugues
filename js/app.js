@@ -353,16 +353,20 @@ function _snakeCase(str) {
 }
 
 // Safari (iOS e macOS) não lida bem com o truque de <a download> em blob URL
-// que o .save() do html2pdf.js usa por baixo dos panos -- resultado
-// documentado é tela em branco ou download que não aparece em lugar nenhum
-// (ver github.com/eKoopmans/html2pdf.js issues #347, #386, #397, #601).
-// Não existe fix definitivo (limitação da engine WebKit), então no mobile
-// abrimos uma aba em branco JÁ NO CLIQUE (gesto síncrono do usuário -- evita
-// bloqueio de pop-up) e só depois, quando o PDF terminar de gerar, navegamos
-// essa aba pra blob URL. Testado: navegar a MESMA aba (location.href/
-// window.open com '_self') pra uma blob URL não funciona de forma
-// confiável -- a aba em branco + redirect posterior é o padrão que
-// efetivamente abre um novo contexto de navegação verificável.
+// disparado via JS -- resultado documentado é tela em branco ou download que
+// não aparece em lugar nenhum (ver github.com/eKoopmans/html2pdf.js issues
+// #347, #386, #397, #601). Duas tentativas anteriores confirmadamente NÃO
+// funcionam no motor WebKit de verdade (testado com Playwright webkit, que
+// reproduz o Safari): nem `.save()` (anchor+click() via JS), nem abrir uma
+// aba em branco no clique e navegar ela depois (window.open + location.href
+// pra blob URL -- a aba fica presa em about:blank).
+//
+// O que REALMENTE funciona no WebKit: um clique DIRETO do usuário (evento
+// confiável, não disparado via .click() em JS) num <a href="blob:..."
+// download="..."> que JÁ EXISTE no DOM com o href certo. Como gerar o PDF é
+// assíncrono, não dá pra ter esse href pronto no momento do primeiro clique
+// -- por isso o fluxo mobile pede um SEGUNDO toque: gera o PDF, troca o
+// botão por um link real com o blob pronto, e o próprio usuário toca nele.
 function _ehMobile() {
   return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 }
@@ -376,12 +380,6 @@ function baixarTeoriaPDF() {
 
   const corpo = document.querySelector('#teoria-container .teoria-body');
   if (!corpo) return;
-
-  // Precisa abrir a aba AQUI, de forma síncrona dentro do próprio clique --
-  // se esperar o PDF terminar de gerar (assíncrono) pra chamar window.open,
-  // o navegador não reconhece mais como resultado direto de um gesto do
-  // usuário e bloqueia como pop-up (principalmente Safari/iOS).
-  const abaMobile = _ehMobile() ? window.open('', '_blank') : null;
 
   const conteudo = document.createElement('div');
   conteudo.style.background = '#0f172a';
@@ -408,14 +406,19 @@ function baixarTeoriaPDF() {
   if (_ehMobile()) {
     worker.outputPdf('blob').then(blob => {
       const url = URL.createObjectURL(blob);
-      if (abaMobile) {
-        abaMobile.location.href = url;
-      } else {
-        // pop-up bloqueado mesmo com a abertura síncrona -- último recurso
-        alert('Não foi possível abrir o PDF -- verifique se pop-ups estão bloqueados pro navegador.');
-      }
+      const link = document.getElementById('link-pdf-pronto');
+      link.href = url;
+      link.download = `${_snakeCase(temaAtual.nome)}.pdf`;
+      link.style.display = '';
+      btn.style.display = 'none';
+      // some sozinho depois do toque, pra não ficar um link morto na tela
+      link.addEventListener('click', () => {
+        setTimeout(() => {
+          link.style.display = 'none';
+          btn.style.display = '';
+        }, 500);
+      }, { once: true });
     }).catch(() => {
-      if (abaMobile) abaMobile.close();
       alert('Não foi possível gerar o PDF. Tente novamente.');
     }).finally(restaurarBotao);
   } else {
