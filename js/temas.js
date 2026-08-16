@@ -20,7 +20,7 @@ const MATERIAS = [
 const TEMAS = [
   // ─────────────────────────────────────────
   {
-    id: "ditongos", materia: 'portugues', nome: "Ditongos", icon: "🔤", desc: "Encontros vocálicos",
+    id: "ditongos", materia: 'portugues', nome: "Ditongos", icon: "🔤", desc: "📌 BACEN · IFPA — Encontros vocálicos",
     teoria: `
 <div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(Método Visual por Escrita, Sem depender de Pronúncia e Som)</span></div>
@@ -943,7 +943,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "digrafos", materia: 'portugues', nome: "Dígrafos", icon: "🔠", desc: "Duas letras, um fonema",
+    id: "digrafos", materia: 'portugues', nome: "Dígrafos", icon: "🔠", desc: "📌 BACEN · IFPA — Duas letras, um fonema",
     teoria: `
 <h3>O que é Dígrafo?</h3>
 <p>Dígrafo é a reunião de <strong>duas letras</strong> que, juntas, representam um <strong>único fonema</strong>. O nome vem do grego: <em>di</em> (dois) + <em>grapho</em> (escrita).</p>
@@ -1210,7 +1210,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "encontrosConsonantais", materia: 'portugues', nome: "Encontros Consonantais", icon: "🔗", desc: "Consoantes consecutivas na mesma sílaba",
+    id: "encontrosConsonantais", materia: 'portugues', nome: "Encontros Consonantais", icon: "🔗", desc: "📌 BACEN · IFPA — Consoantes consecutivas na mesma sílaba",
     teoria: `<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:12px;">DECISAO RAPIDA — Encontro Consonantal vs Dígrafo</div>
 
@@ -1364,7 +1364,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "hiatos", materia: 'portugues', nome: "Hiatos", icon: "🔡", desc: "Vogais em sílabas distintas",
+    id: "hiatos", materia: 'portugues', nome: "Hiatos", icon: "🔡", desc: "📌 BACEN · IFPA — Vogais em sílabas distintas",
     teoria: `
 <div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
   <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(Método Visual por Escrita, Sem depender de Pronúncia e Som)</span></div>
@@ -1767,7 +1767,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "fonemas", materia: 'portugues', nome: "Fonemas", icon: "🔊", desc: "Sons da língua portuguesa",
+    id: "fonemas", materia: 'portugues', nome: "Fonemas", icon: "🔊", desc: "📌 BACEN · IFPA — Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
 <p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>. O <strong>Alfabeto Fonético Internacional (IPA)</strong> usa um símbolo específico para cada som, evitando a ambiguidade da escrita comum (útil em comunicações que soletram palavras letra por letra, como "Alfa", "Bravo", "Charlie").</p>
@@ -1889,7 +1889,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "silabas", materia: 'portugues', nome: "Sílabas", icon: "📚", desc: "Divisão silábica e separação",
+    id: "silabas", materia: 'portugues', nome: "Sílabas", icon: "📚", desc: "📌 BACEN · IFPA — Divisão silábica e separação",
     teoria: `
 <div style="background:linear-gradient(135deg,#1e3a5f,#1e293b);border-radius:10px;padding:14px 18px;margin:0 0 20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 1 — SÍLABAS</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Divisão silábica e separação de palavras</p></div>
 
@@ -1960,7 +1960,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "acentuacaoGrafica", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
+    id: "acentuacaoGrafica", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "📌 BACEN · IFPA — Regras de acentuação e tonicidade",
     teoria: `<h3>O que é Acentuação Gráfica?</h3>
 <p>Acentuação gráfica é o conjunto de regras que determina quando uma palavra recebe acento escrito (´ agudo ou ^ circunflexo). O acento sempre indica a <strong>sílaba tônica</strong> — a sílaba de maior intensidade da palavra. O conjunto dessas regras de acentuação define quando e por que os vocábulos acentuados graficamente recebem o acento.</p>
 
@@ -2151,7 +2151,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "crase", materia: 'portugues', nome: "Crase", icon: "À", desc: "Uso do acento grave",
+    id: "crase", materia: 'portugues', nome: "Crase", icon: "À", desc: "📌 BACEN · IFPA — Uso do acento grave",
     teoria: `<h3>O que é Crase?</h3>
 <p>A <strong>crase</strong> é a fusão da preposição <em>a</em> com o artigo definido feminino <em>a</em> (ou <em>as</em>), resultando em <strong>à</strong> (ou <strong>às</strong>). Ela é marcada ortograficamente pelo <strong>acento grave</strong> (&#96;) sobre a letra <em>a</em>. Portanto, <em>à</em> = <em>a</em> (preposição) + <em>a</em> (artigo), indicado ortograficamente pelo acento grave.</p>
 
@@ -2234,7 +2234,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "classesGramaticais", materia: 'portugues', nome: "Classes Gramaticais", icon: "📚", desc: "As 10 classes de palavras",
+    id: "classesGramaticais", materia: 'portugues', nome: "Classes Gramaticais", icon: "📚", desc: "📌 BACEN · IFPA — As 10 classes de palavras",
     teoria: `
 <h3>O que são Classes Gramaticais?</h3>
 <p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>, divididas em <strong>variáveis</strong> (substantivo, adjetivo, artigo, pronome, verbo, numeral — flexionam em gênero/número/pessoa) e <strong>invariáveis</strong> (advérbio, preposição, conjunção, interjeição).</p>
@@ -2419,7 +2419,7 @@ const TEMAS = [
   },
   // ─────────────────────────────────────────
   {
-    id: "ortografia", materia: 'portugues', nome: "Ortografia", icon: "🖊️", desc: "Escrita correta das palavras",
+    id: "ortografia", materia: 'portugues', nome: "Ortografia", icon: "🖊️", desc: "📌 BACEN · IFPA — Escrita correta das palavras",
     teoria: `
 <h3>O que é Ortografia?</h3>
 <p>Ortografia é o conjunto de normas que determina a <strong>escrita correta</strong> das palavras de uma língua. No português, as principais questões ortográficas envolvem o uso de letras que representam sons semelhantes ou idênticos.</p>
@@ -2623,7 +2623,7 @@ const TEMAS = [
 ,
   // ─────────────────────────────────────────
   {
-    id: "tritongos", materia: 'portugues', nome: "Tritongos", icon: "🔀", desc: "Semivogal + vogal + semivogal",
+    id: "tritongos", materia: 'portugues', nome: "Tritongos", icon: "🔀", desc: "📌 BACEN · IFPA — Semivogal + vogal + semivogal",
     teoria: `
 <h3>1. O que é Tritongo?</h3>
 <p>Tritongo é o encontro de <strong>semivogal + vogal + semivogal</strong> na <strong>mesma sílaba</strong>, formando um único núcleo silábico com três elementos. É a sequência vocálica mais complexa do português.</p>
@@ -2841,7 +2841,7 @@ Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> �
   }
 ,
   {
-    id: "tonicidade", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "Regras de acentuação e tonicidade",
+    id: "tonicidade", materia: 'portugues', nome: "Acentuação Gráfica", icon: "✏️", desc: "📌 BACEN · IFPA — Regras de acentuação e tonicidade",
     teoria: `<h3>Classificação das palavras pela posição da sílaba tônica</h3>
 
 <div class="dica-box"><div class="dica-title">💡 Como a prova pergunta — expressões genéricas das bancas</div>
@@ -3564,7 +3564,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   },
   // ─────────────────────────────────────────
   {
-    id: "formacaoPalavras", materia: 'portugues', nome: "Formação de Palavras", icon: "🔧", desc: "Derivação, composição, prefixos e sufixos",
+    id: "formacaoPalavras", materia: 'portugues', nome: "Formação de Palavras", icon: "🔧", desc: "📌 BACEN · IFPA — Derivação, composição, prefixos e sufixos",
     teoria: `
 <h3>O que é Formação de Palavras?</h3>
 <p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família; já "mão" e "manual" pertencem a famílias diferentes, apesar da semelhança). Cada afixo carrega um <strong>valor semântico</strong> (um sentido) próprio — por isso, saber o significado de um prefixo ou sufixo ajuda a deduzir o sentido de palavras desconhecidas na prova.</p>
@@ -4099,7 +4099,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "hifen", materia: 'portugues', nome: "Hífen", icon: "➖", desc: "Uso do hífen e palavras compostas",
+    id: "hifen", materia: 'portugues', nome: "Hífen", icon: "➖", desc: "📌 BACEN · IFPA — Uso do hífen e palavras compostas",
     teoria: `
 <h3>O que é o Hífen?</h3>
 <p>O hífen é um sinal gráfico usado para unir elementos em palavras compostas e derivadas por prefixação. As regras atuais seguem o <strong>Acordo Ortográfico de 1990</strong>, em vigor desde 2009.</p>
@@ -4208,7 +4208,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "concordancia", materia: 'portugues', nome: "Concordância", icon: "🤝", desc: "Concordância verbal e nominal",
+    id: "concordancia", materia: 'portugues', nome: "Concordância", icon: "🤝", desc: "📌 BACEN · IFPA — Concordância verbal e nominal",
     teoria: `
 <h3>O que é Concordância?</h3>
 <p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa — ou seja, a <strong>flexão do verbo</strong> (sua conjugação em pessoa e número) deve acompanhar o sujeito. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
@@ -4336,7 +4336,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "colocacaoPronominal", materia: 'portugues', nome: "Colocação Pronominal", icon: "📍", desc: "Posição dos pronomes oblíquos",
+    id: "colocacaoPronominal", materia: 'portugues', nome: "Colocação Pronominal", icon: "📍", desc: "📌 BACEN · IFPA — Posição dos pronomes oblíquos",
     teoria: `
 <h3>O que é Colocação Pronominal?</h3>
 <p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Quando uma <strong>forma pronominal</strong> desses pronomes aparece numa frase, dizemos que houve uma das <strong>colocações pronominais</strong> abaixo. Há três posições possíveis:</p>
@@ -4415,7 +4415,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
   // ─────────────────────────────────────────
   {
-    id: "paronimosHomonimos", materia: 'portugues', nome: "Parônimos e Homônimos", icon: "🔄", desc: "Palavras parecidas com sentidos distintos",
+    id: "paronimosHomonimos", materia: 'portugues', nome: "Parônimos e Homônimos", icon: "🔄", desc: "📌 BACEN · IFPA — Palavras parecidas com sentidos distintos",
     teoria: `
 <h3>Definições</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
@@ -4556,7 +4556,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "interpretacaoTextos", materia: 'portugues',
     nome: "Interpretação de Textos",
     icon: "🔎",
-    desc: "Leitura, inferência e vocabulário em contexto",
+    desc: "📌 BACEN · IFPA — Leitura, inferência e vocabulário em contexto",
     teoria: `
 <h3>Interpretação e Compreensão de Textos</h3>
 
@@ -4714,7 +4714,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "pontuacao", materia: 'portugues',
     nome: "Pontuação",
     icon: "✍️",
-    desc: "Vírgula, ponto e vírgula, dois-pontos e demais sinais",
+    desc: "📌 BACEN · IFPA — Vírgula, ponto e vírgula, dois-pontos e demais sinais",
     teoria: `
 <h3>Pontuação</h3>
 
@@ -4902,7 +4902,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "regencia", materia: 'portugues',
     nome: "Regência Nominal e Verbal",
     icon: "🔗",
-    desc: "Relação verbo/nome com sua complementação e preposições",
+    desc: "📌 BACEN · IFPA — Relação verbo/nome com sua complementação e preposições",
     teoria: `
 <h3>Regência Nominal e Verbal</h3>
 
@@ -5002,7 +5002,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "analiseSintatica", materia: 'portugues',
     nome: "Análise Sintática",
     icon: "🔍",
-    desc: "Termos da oração, coordenação e subordinação",
+    desc: "📌 BACEN · IFPA — Termos da oração, coordenação e subordinação",
     teoria: `
 <h3>Análise Sintática</h3>
 
@@ -5162,7 +5162,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "temposVerbais", materia: 'portugues',
     nome: "Tempos e Modos Verbais",
     icon: "⏳",
-    desc: "Indicativo, subjuntivo, imperativo e correlação de tempos",
+    desc: "📌 BACEN · IFPA — Indicativo, subjuntivo, imperativo e correlação de tempos",
     teoria: `
 <h3>Emprego de Tempos e Modos Verbais</h3>
 
@@ -5288,7 +5288,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "estruturaTextual", materia: 'portugues',
     nome: "Estrutura Textual",
     icon: "🧱",
-    desc: "Coesão, coerência e organização do texto",
+    desc: "📌 BACEN · IFPA — Coesão, coerência e organização do texto",
     teoria: `
 <h3>Estrutura Textual — Coesão e Coerência</h3>
 
@@ -5413,7 +5413,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "tiposGeneros", materia: 'portugues',
     nome: "Tipos e Gêneros Textuais",
     icon: "📄",
-    desc: "Narração, descrição, dissertação, injunção e gêneros",
+    desc: "📌 BACEN · IFPA — Narração, descrição, dissertação, injunção e gêneros",
     teoria: `
 <h3>Tipos e Gêneros Textuais</h3>
 
@@ -5503,7 +5503,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "transitividade", materia: 'portugues',
     nome: "Transitividade Verbal",
     icon: "↔️",
-    desc: "VTD, VTI, VTDI, VI e suas complementações",
+    desc: "📌 BACEN · IFPA — VTD, VTI, VTDI, VI e suas complementações",
     teoria: `
 <h3>Transitividade Verbal</h3>
 
@@ -5604,7 +5604,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "reescritaFrases", materia: 'portugues',
     nome: "Reescrita de Frases",
     icon: "🔄",
-    desc: "Substituição, deslocamento, paralelismo e equivalência",
+    desc: "📌 BACEN · IFPA — Substituição, deslocamento, paralelismo e equivalência",
     teoria: `
 <h3>Reescrita de Frases</h3>
 
@@ -5704,7 +5704,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "figurasLinguagem", materia: 'portugues',
     nome: "Figuras de Linguagem",
     icon: "🎭",
-    desc: "Metáfora, metonímia, hipérbole, ironia e demais figuras",
+    desc: "📌 BACEN · IFPA — Metáfora, metonímia, hipérbole, ironia e demais figuras",
     teoria: `
 <h3>Figuras de Linguagem (Estilística)</h3>
 
@@ -5826,7 +5826,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "variacaoLinguistica", materia: 'portugues',
     nome: "Variação Linguística",
     icon: "🗣️",
-    desc: "Variação regional, social, histórica e adequação comunicativa",
+    desc: "📌 BACEN · IFPA — Variação regional, social, histórica e adequação comunicativa",
     teoria: `
 <h3>Variação Linguística e Adequação Comunicativa</h3>
 
@@ -5942,7 +5942,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "producaoTextual", materia: 'portugues',
     nome: "Produção Textual",
     icon: "✒️",
-    desc: "Redação dissertativo-argumentativa: estrutura, argumentos e revisão",
+    desc: "📌 BACEN · IFPA — Redação dissertativo-argumentativa: estrutura, argumentos e revisão",
     teoria: `
 <h3>Produção Textual / Redação</h3>
 
@@ -6072,7 +6072,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "contabilidade_geral_e_publica_geral", materia: 'contabilidade_geral_e_publica',
     nome: "Contabilidade Geral e Pública",
     icon: "📚",
-    desc: "Questões gerais de Contabilidade Geral e Pública",
+    desc: "📌 BACEN — Questões gerais de Contabilidade Geral e Pública",
     teoria: `
 <h3>Contabilidade Geral e Pública</h3>
 
@@ -6176,7 +6176,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "administracao_geral_fundamentos", materia: 'administracao_geral_e_publica',
     nome: "Administração Geral",
     icon: "📚",
-    desc: "Escolas clássicas: Científica, Clássica, Humanística, Neoclássica e Burocrática",
+    desc: "📌 BACEN · IFPA — Escolas clássicas: Científica, Clássica, Humanística, Neoclássica e Burocrática",
     teoria: `
 <h3>Administração Geral — Escolas e Teorias</h3>
 <p><strong>Introdução e antecedentes históricos</strong>: a Administração como campo sistemático de estudo nasce no início do século XX, na esteira da Revolução Industrial (produção em massa, necessidade de organizar grandes contingentes de trabalhadores e recursos). As escolas se sucedem em resposta às limitações da anterior, mas nenhuma "substitui" totalmente a outra — todas continuam sendo usadas, cada uma mais adequada a um tipo de problema organizacional.</p>
@@ -6214,7 +6214,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "gestao_pessoas_geral", materia: 'administracao_geral_e_publica',
     nome: "Gestão de Pessoas",
     icon: "👥",
-    desc: "Recrutamento, avaliação de desempenho, comportamento organizacional e carreira",
+    desc: "📌 BACEN · IFPA — Recrutamento, avaliação de desempenho, comportamento organizacional e carreira",
     teoria: `
 <h3>Gestão de Pessoas</h3>
 <p><strong>Gestão de pessoas moderna x tradicional</strong>: a visão contemporânea trata a relação entre organização e colaborador como uma <strong>parceria</strong> — um processo contínuo de compartilhamento de responsabilidades — e não como mera administração de um contrato de trabalho (rotinas de recrutamento, cargos e salários, benefícios isoladamente) nem como responsabilidade exclusiva de um departamento de RH central e hierarquizado.</p>
@@ -6261,7 +6261,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "arquivologia_geral", materia: 'administracao_geral_e_publica',
     nome: "Arquivologia",
     icon: "🗄️",
-    desc: "Gestão de documentos, tabela de temporalidade, protocolo e métodos de arquivamento",
+    desc: "📌 BACEN · IFPA — Gestão de documentos, tabela de temporalidade, protocolo e métodos de arquivamento",
     teoria: `
 <h3>Arquivologia (universo completo)</h3>
 <p><strong>Conceito e princípios fundamentais</strong>: arquivo é o conjunto de documentos produzidos/recebidos por uma pessoa física ou jurídica, no exercício de suas atividades, conservados para fins de prova e informação. <strong>Princípios arquivísticos</strong> — não confundir: <strong>proveniência</strong> (documentos de uma mesma fonte/produtor devem ser mantidos agrupados, sem mistura com os de outra proveniência — princípio mais fundamental da área); <strong>organicidade</strong> (os arquivos refletem a estrutura e as atividades do órgão que os produziu); <strong>unicidade</strong> (cada documento tem caráter único dentro do conjunto, independente da forma/suporte); <strong>indivisibilidade/integridade arquivística</strong> (o fundo de arquivo não pode ser disperso, mutilado, alienado ou destruído parcialmente sem descaracterizar seu conjunto); <strong>cumulatividade</strong> (o arquivo se forma progressivamente, de modo natural e cumulativo, refletindo o andamento das atividades).</p>
@@ -6280,7 +6280,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "licitacoes_contratos_geral", materia: 'administracao_geral_e_publica',
     nome: "Licitações e Contratos",
     icon: "🧾",
-    desc: "Lei 8.666/93 e Lei 14.133/21: modalidades, fases, contratos e sanções",
+    desc: "📌 BACEN · IFPA — Lei 8.666/93 e Lei 14.133/21: modalidades, fases, contratos e sanções",
     teoria: `
 <h3>Licitações e Contratos (universo completo — Lei 8.666/93 e Lei 14.133/21)</h3>
 <p><strong>Conceito e base legal</strong>: licitação é o procedimento administrativo formal por meio do qual a Administração seleciona a proposta mais vantajosa para contratar obras, serviços, compras e alienações, garantindo isonomia entre os licitantes. Convivem hoje duas leis: a <strong>Lei 8.666/93</strong> (lei geral histórica, ainda aplicável a contratos e licitações iniciados na sua vigência) e a <strong>Lei 14.133/2021</strong> (Nova Lei de Licitações, que revogou integralmente a 8.666/93, a Lei do Pregão 10.520/2002 e o RDC após o período de transição).</p>
@@ -6302,7 +6302,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "gestao_projetos_geral", materia: 'administracao_geral_e_publica',
     nome: "Gestão de Projetos",
     icon: "📊",
-    desc: "Ciclo de vida, grupos de processos, áreas de conhecimento e ferramentas de cronograma",
+    desc: "📌 BACEN · IFPA — Ciclo de vida, grupos de processos, áreas de conhecimento e ferramentas de cronograma",
     teoria: `
 <h3>Gestão de Projetos (universo completo)</h3>
 <p><strong>Gerenciamento de projetos</strong> (definição formal): a aplicação de conhecimentos, habilidades, ferramentas e técnicas às atividades de um projeto, a fim de cumprir seus requisitos — não é a implantação de um software específico, nem se resume a um subconjunto de disciplinas de engenharia. <strong>Projeto</strong> é um esforço <strong>temporário</strong> (início e fim definidos) empreendido para criar um produto, serviço ou resultado <strong>único</strong> — diferente de operação continuada (repetitiva, sem data de término planejada).</p>
@@ -6319,7 +6319,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "gestao_estrategica_qualidade_geral", materia: 'administracao_geral_e_publica',
     nome: "Gestão Estratégica e da Qualidade",
     icon: "🎯",
-    desc: "Planejamento estratégico, SWOT, BSC, matriz BCG, PDCA e ferramentas da qualidade",
+    desc: "📌 BACEN · IFPA — Planejamento estratégico, SWOT, BSC, matriz BCG, PDCA e ferramentas da qualidade",
     teoria: `
 <h3>Gestão Estratégica</h3>
 <p><strong>Planejamento estratégico, tático e operacional</strong> — os 3 níveis, não confundir: <strong>estratégico</strong> (longo prazo, envolve toda a organização, definido pela alta administração — missão, visão, valores, objetivos macro); <strong>tático</strong> (médio prazo, nível departamental, traduz a estratégia em planos por área); <strong>operacional</strong> (curto prazo, nível de execução, planos e procedimentos específicos do dia a dia).</p>
@@ -6368,7 +6368,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "administracao_publica_agp", materia: 'administracao_geral_e_publica',
     nome: "Administração Pública",
     icon: "🏢",
-    desc: "Reforma do Estado, modelos de gestão, políticas públicas e gestão de riscos",
+    desc: "📌 BACEN · IFPA — Reforma do Estado, modelos de gestão, políticas públicas e gestão de riscos",
     teoria: `
 <h3>Administração Pública</h3>
 <p><strong>Modelos de administração pública — evolução histórica</strong>: <strong>patrimonialista</strong> (confusão entre patrimônio público e privado do governante, característica de Estados pré-modernos); <strong>burocrático</strong> (surge como reação ao patrimonialismo, com controles rígidos a priori sobre processos, hierarquia, impessoalidade e formalismo — foco no controle dos meios/procedimentos, não nos resultados); <strong>gerencial (Nova Gestão Pública)</strong> (surge como reação às disfunções do burocrático — foco em resultados, eficiência, orientação ao cidadão-cliente, descentralização, flexibilização, controle a posteriori pelos resultados alcançados); <strong>societal/pós-burocrático</strong> (valoriza participação social, transparência, controle social e redes de governança, além dos resultados).</p>
@@ -6385,7 +6385,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "raciocinio_logico_geral", materia: 'matematica',
     nome: "Raciocínio Lógico",
     icon: "🧩",
-    desc: "Questões gerais de Raciocínio Lógico",
+    desc: "📌 BACEN · IFPA — Questões gerais de Raciocínio Lógico",
     teoria: `
 <h3>Raciocínio Lógico</h3>
 
@@ -6461,7 +6461,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "hardware_geral", materia: 'informatica',
     nome: "Hardware",
     icon: "🖥️",
-    desc: "Componentes do computador, arquitetura de Von Neumann, memória, barramentos e dispositivos de armazenamento",
+    desc: "📌 BACEN · IFPA — Componentes do computador, arquitetura de Von Neumann, memória, barramentos e dispositivos de armazenamento",
     teoria: `
 <h3>Hardware (universo completo)</h3>
 <h3>Componentes básicos</h3>
@@ -6484,7 +6484,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "software_geral", materia: 'informatica',
     nome: "Software",
     icon: "⚙️",
-    desc: "Tipos de software, banco de dados/SQL, programação (Python/Java), desenvolvimento web e governança de TI (ITIL/COBIT)",
+    desc: "📌 BACEN · IFPA — Tipos de software, banco de dados/SQL, programação (Python/Java), desenvolvimento web e governança de TI (ITIL/COBIT)",
     teoria: `
 <h3>Software (universo completo)</h3>
 <h3>Tipos de software</h3>
@@ -6516,7 +6516,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "windows_geral", materia: 'informatica',
     nome: "Windows",
     icon: "🪟",
-    desc: "Área de trabalho, Windows Explorer, Painel de Controle, atalhos de teclado e versões do Windows",
+    desc: "📌 BACEN · IFPA — Área de trabalho, Windows Explorer, Painel de Controle, atalhos de teclado e versões do Windows",
     teoria: `
 <h3>Windows (universo completo)</h3>
 <h3>Área de Trabalho e Interface</h3>
@@ -6543,7 +6543,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "linux_geral", materia: 'informatica',
     nome: "Linux",
     icon: "🐧",
-    desc: "Comandos básicos, sistema de arquivos, permissões e links simbólicos no Linux",
+    desc: "📌 BACEN · IFPA — Comandos básicos, sistema de arquivos, permissões e links simbólicos no Linux",
     teoria: `
 <h3>Linux (universo completo)</h3>
 <h3>Conceitos gerais</h3>
@@ -6568,7 +6568,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "editor_textos_geral", materia: 'informatica',
     nome: "Editor de Textos",
     icon: "📝",
-    desc: "Microsoft Word e LibreOffice Writer: formatação, estilos, mala direta e recursos de edição",
+    desc: "📌 BACEN · IFPA — Microsoft Word e LibreOffice Writer: formatação, estilos, mala direta e recursos de edição",
     teoria: `
 <h3>Editor de Textos — Word e Writer (universo completo)</h3>
 <h3>Formatação básica</h3>
@@ -6594,7 +6594,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "planilhas_geral", materia: 'informatica',
     nome: "Planilhas Eletrônicas",
     icon: "📊",
-    desc: "Microsoft Excel e LibreOffice Calc: fórmulas, funções, referências e formatação condicional",
+    desc: "📌 BACEN · IFPA — Microsoft Excel e LibreOffice Calc: fórmulas, funções, referências e formatação condicional",
     teoria: `
 <h3>Planilhas Eletrônicas — Excel e Calc (universo completo)</h3>
 <h3>Estrutura básica</h3>
@@ -6624,7 +6624,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "internet_geral", materia: 'informatica',
     nome: "Internet",
     icon: "🌐",
-    desc: "Redes de computadores, protocolos (TCP/IP, IPv4/IPv6), navegadores e conceitos gerais de internet",
+    desc: "📌 BACEN · IFPA — Redes de computadores, protocolos (TCP/IP, IPv4/IPv6), navegadores e conceitos gerais de internet",
     teoria: `
 <h3>Internet e Redes de Computadores (universo completo)</h3>
 <h3>Topologias de rede</h3>
@@ -6657,7 +6657,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "correio_eletronico_geral", materia: 'informatica',
     nome: "Correio Eletrônico",
     icon: "📧",
-    desc: "Protocolos de e-mail (SMTP, POP3, IMAP), webmail, clientes de e-mail e boas práticas",
+    desc: "📌 BACEN · IFPA — Protocolos de e-mail (SMTP, POP3, IMAP), webmail, clientes de e-mail e boas práticas",
     teoria: `
 <h3>Correio Eletrônico (universo completo)</h3>
 <h3>Estrutura de um endereço de e-mail</h3>
@@ -6683,7 +6683,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "seguranca_informacao_geral", materia: 'informatica',
     nome: "Segurança da Informação",
     icon: "🔒",
-    desc: "Princípios (CIA), certificado digital, criptografia, malware, firewall e boas práticas de segurança",
+    desc: "📌 BACEN · IFPA — Princípios (CIA), certificado digital, criptografia, malware, firewall e boas práticas de segurança",
     teoria: `
 <h3>Segurança da Informação (universo completo)</h3>
 <p><strong>Sigilo de assuntos e documentos</strong> (Decreto 4.553): quem toma conhecimento de assunto sigiloso fica automaticamente responsável por mantê-lo — as regras básicas incluem falar pouco, ser discreto, responder só o que não compromete o serviço, e prestar atenção às intenções de quem aborda. A pegadinha: <strong>não</strong> é uma regra válida "comentar assuntos de serviço com pessoas de confiança" — o sigilo deve ser mantido independentemente de quanta confiança se tem em quem está ouvindo.</p>
@@ -6702,7 +6702,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "estatistica_geral", materia: 'matematica',
     nome: "Estatística",
     icon: "📊",
-    desc: "Questões gerais de Estatística",
+    desc: "📌 BACEN · IFPA — Questões gerais de Estatística",
     teoria: `
 <h3>Estatística</h3>
 
@@ -6751,7 +6751,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "direito_constitucional_geral", materia: 'nocoes_de_direito',
     nome: "Direito Constitucional",
     icon: "📜",
-    desc: "Princípios fundamentais, direitos individuais, organização dos Poderes e Administração Pública (Art. 37-41) — CF/88",
+    desc: "📌 BACEN · IFPA — Princípios fundamentais, direitos individuais, organização dos Poderes e Administração Pública (Art. 37-41) — CF/88",
     teoria: `
 <h3>Direito Constitucional</h3>
 <p><strong>Princípios fundamentais</strong> (Art. 1º a 4º da CF/88) — não confundir uns com os outros, porque as bancas adoram trocar um pelo outro nas alternativas: <strong>soberania</strong> (independência do Estado brasileiro frente a outros Estados), <strong>República</strong> (forma de governo, com eletividade e temporariedade dos mandatos), <strong>Federação</strong> (repartição territorial do poder entre União, Estados, DF e Municípios), <strong>livre iniciativa</strong> (fundamento da ordem econômica — art. 1º, IV — que impede o Estado de planejar e dirigir de forma determinante a economia, inclusive o setor privado; o planejamento estatal só é determinante pro setor público, e apenas indicativo pro setor privado) e <strong>supremacia do interesse público</strong> (princípio administrativo, não fundamento constitucional do art. 1º). Uma medida em que o Estado passa a comandar a economia privada de forma obrigatória fere a <strong>livre iniciativa</strong>, não a soberania ou a Federação.</p>
@@ -6773,7 +6773,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "direito_administrativo_atos", materia: 'nocoes_de_direito',
     nome: "Direito Administrativo",
     icon: "📋",
-    desc: "Atos administrativos, poderes administrativos, responsabilidade civil do Estado, serviços e bens públicos, controle da Administração",
+    desc: "📌 BACEN · IFPA — Atos administrativos, poderes administrativos, responsabilidade civil do Estado, serviços e bens públicos, controle da Administração",
     teoria: `
 <h3>Direito Administrativo — Atos Administrativos (universo completo)</h3>
 <p><strong>Conceito</strong>: manifestação unilateral de vontade da Administração Pública (ou de quem aja em seu nome, no exercício de função administrativa) que, sob regime de direito público, produz efeitos jurídicos imediatos, com finalidade de atender ao interesse público, sujeita a controle de legalidade pelo Judiciário.</p>
@@ -6833,7 +6833,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "direito_administrativo_servidor_8112", materia: 'nocoes_de_direito',
     nome: "Lei 8.112/90",
     icon: "👔",
-    desc: "Regime Jurídico dos Servidores Públicos Federais: provimento, vantagens, regime disciplinar e PAD",
+    desc: "📌 BACEN · IFPA — Regime Jurídico dos Servidores Públicos Federais: provimento, vantagens, regime disciplinar e PAD",
     teoria: `
 <h3>Direito Administrativo — Regime Jurídico do Servidor (Lei 8.112/90, universo completo)</h3>
 <p><strong>Título II — Provimento, vacância, remoção, redistribuição e substituição.</strong> <strong>Investidura em cargo público</strong>: depende de prévia aprovação em concurso público — <strong>ressalvadas</strong> as nomeações pra cargos em comissão declarados em lei de livre nomeação e exoneração (cargos de confiança). Formas de <strong>provimento</strong>: nomeação, promoção, readaptação, reversão, aproveitamento, reintegração e recondução — a "ascensão" e a "transferência" foram extintas e não são mais formas válidas. Formas de <strong>vacância</strong>: exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável, falecimento.</p>
@@ -6853,7 +6853,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "lei_9784_processo_administrativo", materia: 'nocoes_de_direito',
     nome: "Lei 9.784/99",
     icon: "📄",
-    desc: "Processo Administrativo Federal: princípios, direitos do administrado, prazos e recurso administrativo",
+    desc: "📌 BACEN · IFPA — Processo Administrativo Federal: princípios, direitos do administrado, prazos e recurso administrativo",
     teoria: `
 <h3>Lei 9.784/99 — Processo Administrativo Federal (universo completo)</h3>
 <p><strong>Princípios explícitos</strong> (Art. 2º): legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público, eficiência.</p>
@@ -6867,7 +6867,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "lei_11892_2008", materia: 'nocoes_de_direito',
     nome: "Lei 11.892/2008",
     icon: "🎓",
-    desc: "Institui a Rede Federal de Educação Profissional, Científica e Tecnológica e cria os Institutos Federais",
+    desc: "📌 IFPA — Institui a Rede Federal de Educação Profissional, Científica e Tecnológica e cria os Institutos Federais",
     teoria: `
 <h3>Lei 11.892/2008 — Rede Federal e Institutos Federais (universo completo)</h3>
 <p><strong>Capítulo I — A Rede Federal de Educação Profissional, Científica e Tecnológica</strong> (Art. 1º-3º): é constituída por: <strong>Institutos Federais de Educação, Ciência e Tecnologia (IFs)</strong>; Universidade Tecnológica Federal do Paraná (UTFPR); Centros Federais de Educação Tecnológica (CEFET-MG e CEFET-RJ, os dois que não foram transformados em IF); Escolas Técnicas vinculadas a universidades federais; e o Colégio Pedro II.</p>
@@ -6884,7 +6884,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "etica_servico_publico", materia: 'nocoes_de_direito',
     nome: "Ética no Serviço Público",
     icon: "🤝",
-    desc: "Decreto 1.171/94 (Código de Ética), Lei 8.429/92 (Improbidade Administrativa) e temas correlatos",
+    desc: "📌 BACEN · IFPA — Decreto 1.171/94 (Código de Ética), Lei 8.429/92 (Improbidade Administrativa) e temas correlatos",
     teoria: `
 <h3>Ética no Serviço Público (universo completo)</h3>
 <h3>Decreto 1.171/94 — Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal</h3>
@@ -6914,7 +6914,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "matematica_geral", materia: 'matematica',
     nome: "Matemática Básica",
     icon: "🔢",
-    desc: "Aritmética, álgebra, geometria básica, porcentagem, razão/proporção e regra de três",
+    desc: "📌 BACEN · IFPA — Aritmética, álgebra, geometria básica, porcentagem, razão/proporção e regra de três",
     teoria: `
 <h3>Matemática</h3>
 
@@ -6981,7 +6981,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "analise_combinatoria_geral", materia: 'matematica',
     nome: "Análise Combinatória",
     icon: "🔀",
-    desc: "Princípio fundamental da contagem, arranjos, combinações, permutações e permutações com repetição",
+    desc: "📌 BACEN · IFPA — Princípio fundamental da contagem, arranjos, combinações, permutações e permutações com repetição",
     teoria: `
 <h3>Análise Combinatória (universo completo)</h3>
 <h3>Princípio Fundamental da Contagem (PFC)</h3>
@@ -7025,7 +7025,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "probabilidade_geral", materia: 'matematica',
     nome: "Probabilidade",
     icon: "🎲",
-    desc: "Probabilidade simples, eventos independentes, mutuamente exclusivos, condicional e complementar",
+    desc: "📌 BACEN · IFPA — Probabilidade simples, eventos independentes, mutuamente exclusivos, condicional e complementar",
     teoria: `
 <h3>Probabilidade (universo completo)</h3>
 <h3>Definição Clássica</h3>
@@ -7066,7 +7066,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "sequencias_pa_pg_geral", materia: 'matematica',
     nome: "Sequências (PA e PG)",
     icon: "📈",
-    desc: "Progressões Aritméticas e Geométricas: termo geral, soma dos termos e soma infinita",
+    desc: "📌 BACEN · IFPA — Progressões Aritméticas e Geométricas: termo geral, soma dos termos e soma infinita",
     teoria: `
 <h3>Sequências — Progressões Aritméticas e Geométricas (universo completo)</h3>
 <h3>Progressão Aritmética (PA)</h3>
@@ -7093,7 +7093,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "gestao_de_recursos_materiais_e_patrimoniais_geral", materia: 'gestao_de_recursos_materiais_e_patrimoniais',
     nome: "Gestão de Recursos Materiais e Patrimoniais",
     icon: "📦",
-    desc: "Questões gerais de Gestão de Recursos Materiais e Patrimoniais",
+    desc: "📌 BACEN — Questões gerais de Gestão de Recursos Materiais e Patrimoniais",
     teoria: `
 <h3>Gestão de Recursos Materiais e Patrimoniais</h3>
 
@@ -7136,7 +7136,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "auditoria_geral", materia: 'auditoria',
     nome: "Auditoria",
     icon: "🔍",
-    desc: "Questões gerais de Auditoria",
+    desc: "📌 BACEN — Questões gerais de Auditoria",
     teoria: `
 <h3>Auditoria</h3>
 
