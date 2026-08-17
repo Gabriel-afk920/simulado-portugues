@@ -19,913 +19,156 @@ const TEMAS = [
   {
     id: "ditongos", materia: 'portugues', nome: "Ditongos", icon: "🔤", desc: "📌 BACEN · IFPA — Encontros vocálicos",
     teoria: `
-<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
-  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(Método Visual por Escrita, Sem depender de Pronúncia e Som)</span></div>
+<h3>Método Visual Definitivo: Ditongo ou Hiato (Teoria Completa)</h3>
 
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
-    <strong style="color:#fbbf24;">PASSO 0 — ACHE A SÍLABA TÔNICA PRIMEIRO (POR ESCRITA)</strong>
-    <ol style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>Tem acento gráfico (´ ou ^) na palavra? → A tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
-      <li>Não tem acento? Use a regra de terminação:
-        <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>Termina em -a, -e, -o, -em, -ens → Tônica é a penúltima sílaba.</li>
-          <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → Tônica é a última sílaba.</li>
+<h3>1. Passo 0 — Ache a Sílaba Tônica Primeiro (Por Escrita)</h3>
+<ol style="padding-left:18px;margin-bottom:10px;">
+  <li>Tem acento gráfico (´ ou ^) na palavra? → A tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
+  <li>Não tem acento? Use a regra de terminação:
+    <ul>
+      <li>Termina em <strong>-a, -e, -o, -em, -ens</strong> → Tônica é a penúltima sílaba.</li>
+      <li>Termina em <strong>-i, -u, -r, -l, -z, -x, -im, -um, -ns</strong> → Tônica é a última sílaba.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>2. Exceção 1 (Vale para o Final e Meio da Palavra)</h3>
+<p>Sempre que uma sequência sem acento <strong>-ia / -ie / -io / -ea / -eo / -ua / -ue / -uo</strong> cair exatamente na sílaba que a regra de terminação aponta como tônica (seja no final absoluto como <em>alegria</em> ou antes de sílaba átona como <em>su-a-ve</em>):</p>
+<ul>
+  <li>Tem acento gráfico em ALGUM lugar da palavra? (<em>família, história, necessário</em>) → Esse acento confirma a tônica real na sílaba anterior; a sequência vira <strong>DITONGO</strong> → Vá para a Nota de Ambiguidade.</li>
+  <li>Não tem acento em lugar nenhum? (<em>alegria, energia, suave</em>) → A força cai na SEGUNDA vogal da sequência (a/e/o), formando <strong>HIATO</strong> direto com a primeira (i/u), mesmo sem acento escrito.</li>
+</ul>
+
+<h3>3. Alerta Exclusivo — Regra Própria para QU e GU</h3>
+<p>Nunca aplique a Exceção 1 de Hiato se o U vier logo depois de Q ou G (<em>quase, guarda, quando, queijo, guerra</em>).</p>
+<ul>
+  <li><strong>QU / GU em que o U NÃO é pronunciado</strong> (antes de E/I): É <strong>DÍGRAFO</strong> (o U não é vogal nem semivogal). Ex.: <em>queijo, guitarra, guerra, aquele</em>.</li>
+  <li><strong>QU / GU em que o U É pronunciado</strong> (antes de A, O ou sonorizado): É <strong>DITONGO</strong>. Ex.: <em>quase, guarda, quando, cinquenta, linguiça</em>.</li>
+</ul>
+
+<h3>4. Hierarquia Visual para Sequências de Vogais (Regra do Vencimento)</h3>
+<p>Quando você encontrar uma sequência com A, E, O ao lado de I, U:</p>
+<ol style="padding-left:18px;margin-bottom:10px;">
+  <li>A sequência está em sílaba ÁTONA (fora da tônica do Passo 0)? → É <strong>DITONGO átono</strong> direto. Nenhuma das vogais disputa a força principal da palavra. (Ex.: <em>bai-XE-la, lei-TEI-ro, sau-DA-de</em>).</li>
+  <li>A sequência está DENTRO da sílaba tônica do Passo 0? → As vogais A, E, O são sempre soberanas e assumem a força tônica. O I/U vira semivogal → <strong>DITONGO</strong> (<em>CAI-xa, LEI-te, OU-ro</em>).
+    <ul>
+      <li>O I ou U só virá tônico e gera <strong>HIATO</strong> se for forçado por marcas ortográficas de isolamento:
+        <ul>
+          <li>Acento gráfico no Í/Ú: <em>sa-ú-de, ju-í-zo, a-í</em>.</li>
+          <li>Terminação do Passo 0 (-r, -z, -m, -l, -ns) que isola o i/u na sílaba final: <em>sa-ir</em> (fim em -r), <em>ju-iz</em> (fim em -z), <em>ru-im</em> (fim em -m).</li>
         </ul>
       </li>
-    </ol>
-  </div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
-    <strong style="color:#f59e0b;">⚠️ Exceção 1 (Vale para o FINAL e MEIO da palavra)</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Sempre que uma sequência sem acento -ia / -ie / -io / -ea / -eo / -ua / -ue / -uo cair exatamente na sílaba que a regra de terminação aponta como tônica (seja no final absoluto como <em>alegria</em> ou antes de sílaba átona como <em>su-a-ve</em>):</p>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>Tem acento gráfico em ALGUM lugar da palavra? (famÍlia, histÓria, necessÁrio) → Esse acento confirma a tônica real na sílaba anterior; a sequência vira DITONGO → Vá para a Nota de Ambiguidade.</li>
-      <li>Não tem acento em lugar nenhum? (alegria, energia, suave) → A força cai na SEGUNDA vogal da sequência (a/e/o), formando HIATO direto com a primeira (i/u), mesmo sem acento escrito.</li>
     </ul>
-  </div>
+  </li>
+</ol>
 
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f87171;">
-    <strong style="color:#f87171;">⚠️ ALERTA EXCLUSIVO: Regra Própria para QU e GU</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Nunca aplique a Exceção 1 de Hiato se o U vier logo depois de Q ou G (quase, guarda, quando, queijo, guerra).</p>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>QU / GU em que o U NÃO é pronunciado (antes de E/I): É DÍGRAFO (o U não é vogal nem semivogal). Ex.: queijo, guitarra, guerra, aquele.</li>
-      <li>QU / GU em que o U É pronunciado (antes de A, O ou sonorizado): É DITONGO. Ex.: quase, guarda, quando, cinquenta, linguiça.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
-    <strong style="color:#fbbf24;">HIERARQUIA VISUAL PARA SEQUÊNCIAS DE VOGAIS (REGRA DO VENCIMENTO)</strong>
-    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0;">Quando você encontrar uma sequência com A, E, O ao lado de I, U:</p>
-    <ol style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>A sequência está em sílaba ÁTONA (fora da tônica do Passo 0)? → É DITONGO átono direto. Nenhuma das vogais disputa a força principal da palavra. (Ex.: bai-XE-la, lei-TEI-ro, sau-DA-de).</li>
-      <li>A sequência está DENTRO da sílaba tônica do Passo 0? → As vogais A, E, O são sempre soberanas e assumem a força tônica. O I/U vira semivogal → DITONGO (CAI-xa, LEI-te, OU-ro).
-        <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>O I ou U só vira tônico e gera HIATO se for forçado por marcas ortográficas de isolamento:</li>
-          <li>Acento gráfico no Í/Ú: sa-Ú-de, ju-Í-zo, a-Í.</li>
-          <li>Terminação do Passo 0 (-r, -z, -m, -l, -ns) que isola o i/u na sílaba final: sa-ir (fim em -r), ju-iz (fim em -z), ru-im (fim em -m).</li>
-        </ul>
-      </li>
-    </ol>
-  </div>
-
-  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;">Tabela completa de classificação visual:</p>
-
-  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
-    <thead>
-      <tr style="background:#1e3a5f;">
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequência Escrita</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Classificação</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo Visual (não sonoro)</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">QU / GU + E, I (U mudo)</td>
-        <td style="padding:7px 10px;color:#a78bfa;font-weight:700;">DÍGRAFO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O U funciona como recurso gráfico para som duro; não é vogal/semivogal</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">queijo, guitarra, guerra, aquele, quente</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">QU / GU + A, O / E, I (U lido)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O U atua como semivogal unida à vogal seguinte na mesma sílaba</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">quase, guarda, quando, cinquenta, linguiça</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (em sílaba ÁTONA)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO átono</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Fora da tônica principal; o i/u permanece colado sem disputar força</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">baixela, leiteiro, saudade, caiçara, goiabada</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (sílaba TÔNICA)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO tônico</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A, E, O absorvem a força visual da sílaba; o i/u é só apoio</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, noite</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (i/u ISOLADO)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U ganha sílaba própria por acento Í/Ú ou terminação (-r, -z, -m, -l, -ns)</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">sa-ir, ca-ir, ju-iz, ru-im, di-ur-no, sa-Ú-de</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo (SEM acento na palavra)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A força cai na 2ª vogal (a/e/o) por regra de terminação</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">alegria, energia, poesia, categoria, suave</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo (COM acento anterior)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">⚠️ DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U antes da vogal; acento anterior confirma tônica lá</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">história, glória, vácuo, família, necessário</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uagem, -uação (de verbos -uar/-uir)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuação, atuação, pontuação</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-ua, -ue, -uo final (força no U)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Tônica no próprio "u" sem marcação acentual</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">continua, atua, flutua</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uará, -uarão etc. (força fora do U)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">continuará, atuará, pontuará</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ão, ãe, õe (com til)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pão, mãe, corações, bem</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Í ou Ú acentuado sozinho</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O acento gráfico indica núcleo de sílaba própria</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">saúde, juízo, míope, saía</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao (sem til)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca atuam como semivogais</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
-      </tr>
-      <tr style="background:#0f172a;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Duas vogais IGUAIS (oo, ee, aa)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Vogais idênticas adjacentes sempre se separam</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">voo, leem, caatinga</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
-    <strong style="color:#f59e0b;">⚠️ NOTA DE AMBIGUIDADE — Regra do Grupo Controversa</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Quando a palavra possui acento marcado antes do -ia / -ie / -io / -ua / -ue / -uo final (famÍlia, histÓria, necessÁrio, gÊnio):</p>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Regra de Prioridade Geral (85% de aprovação): Trate como <strong style="color:#4ade80;">DITONGO</strong>. É a resposta correta para a maioria das bancas (IBAM, Unesc, AMEOSC, AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE, IDCAP, FGV).</p>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Exceção Conhecida (Banca MS Concursos): Inverta a prioridade e considere <strong style="color:#f87171;">HIATO</strong> (5 de 6 questões dessa banca seguem este padrão).</p>
-    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0 0;line-height:1.8;">Palavras Clássicas: família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>
-  </div>
+<h3>5. Tabela Completa de Classificação Visual</h3>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;font-size:0.83rem;">
+<thead>
+<tr style="background:#0f172a;">
+<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Sequência Escrita</th>
+<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Classificação</th>
+<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Motivo Visual (não sonoro)</th>
+<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Exemplos</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">QU / GU + E, I (U mudo)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DÍGRAFO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">O U funciona como recurso gráfico para som duro; não é vogal/semivogal.</td>
+<td style="padding:8px 10px;color:#fde68a;">queijo, guitarra, guerra, aquele, quente</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">QU / GU + A, O / E, I (U lido)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">O U atua como semivogal unida à vogal seguinte na mesma sílaba.</td>
+<td style="padding:8px 10px;color:#fde68a;">quase, guarda, quando, cinquenta, linguiça</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (em sílaba ÁTONA)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO átono</td>
+<td style="padding:8px 10px;color:#cbd5e1;">Fora da tônica principal; o i/u permanece colado sem disputar força.</td>
+<td style="padding:8px 10px;color:#fde68a;">baixela, leiteiro, saudade, caiçara, goiabada</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (sílaba TÔNICA)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO tônico</td>
+<td style="padding:8px 10px;color:#cbd5e1;">A, E, O absorvem a força visual da sílaba; o i/u é só apoio.</td>
+<td style="padding:8px 10px;color:#fde68a;">pai, leite, ouro, coisa, fui, viu, riu, noite</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (i/u ISOLADO)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">I/U ganha sílaba própria por acento Í/Ú ou terminação (-r, -z, -m, -l, -ns).</td>
+<td style="padding:8px 10px;color:#fde68a;">sa-ir, ca-ir, ju-iz, ru-im, di-ur-no, sa-Ú-de</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ia, ie, io, ua, ue, uo (SEM acento na palavra)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">A força cai na 2ª vogal (a/e/o) por regra de terminação.</td>
+<td style="padding:8px 10px;color:#fde68a;">alegria, energia, poesia, categoria, suave</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ia, ie, io, ua, ue, uo (COM acento anterior)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">⚠️ DITONGO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">I/U antes da vogal; acento anterior confirma tônica lá.</td>
+<td style="padding:8px 10px;color:#fde68a;">história, glória, vácuo, família, necessário</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">-uagem, -uação (de verbos -uar/-uir)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado.</td>
+<td style="padding:8px 10px;color:#fde68a;">tatuagem, continuação, atuação, pontuação</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">-ua, -ue, -uo final (força no U)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">Tônica no próprio "u" sem marcação acentual.</td>
+<td style="padding:8px 10px;color:#fde68a;">continua, atua, flutua</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">-uará, -uarão etc. (força fora do U)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua.</td>
+<td style="padding:8px 10px;color:#fde68a;">continuará, atuará, pontuará</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">ão, ãe, õe (com til)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO nasal</td>
+<td style="padding:8px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio.</td>
+<td style="padding:8px 10px;color:#fde68a;">pão, mãe, corações, bem</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">Í ou Ú acentuado sozinho</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">O acento gráfico indica núcleo de sílaba própria.</td>
+<td style="padding:8px 10px;color:#fde68a;">saúde, juízo, míope, saía</td>
+</tr>
+<tr style="border-bottom:1px solid #334155;">
+<td style="padding:8px 10px;color:#cbd5e1;">oa, oe, ae, ao (sem til)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">A e E nunca atuam como semivogais.</td>
+<td style="padding:8px 10px;color:#fde68a;">moeda, poeta, caos, aorta</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;color:#cbd5e1;">Duas vogais IGUAIS (oo, ee, aa)</td>
+<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
+<td style="padding:8px 10px;color:#cbd5e1;">Vogais idênticas adjacentes sempre se separam.</td>
+<td style="padding:8px 10px;color:#fde68a;">voo, leem, caatinga</td>
+</tr>
+</tbody>
+</table>
 </div>
 
-
-<h3>O que é Ditongo?</h3>
-<p>Ditongo é o encontro de uma <strong>vogal</strong> e uma <strong>semivogal</strong> pronunciadas na <strong>mesma sílaba</strong>, sem pausa entre elas.</p>
-<p><strong>Como identificar pela escrita:</strong> procure a letra <em>i</em> ou <em>u</em> ao lado de outra vogal dentro da mesma sílaba. Essas letras, quando em posição secundária (sem acento tônico próprio), funcionam como semivogais e formam ditongo com a vogal vizinha.</p>
-
-<h3>Vogal × Semivogal — como distinguir pela escrita</h3>
-<p>A diferença entre vogal e semivogal é de posição e força silábica. As pistas estão na escrita:</p>
+<h3>6. Nota de Ambiguidade — Regra do Grupo Controversa</h3>
+<p>Quando a palavra possui acento marcado antes do -ia / -ie / -io / -ua / -ue / -uo final (<em>famÍlia, histÓria, necessÁrio, gÊnio</em>):</p>
 <ul>
-  <li><strong>Vogal:</strong> é o núcleo da sílaba — pode receber acento tônico. No par, é a mais "forte".</li>
-  <li><strong>Semivogal:</strong> é sempre <em>i</em> ou <em>u</em> em posição secundária — nunca recebe o acento principal da sílaba.</li>
-  <li><strong>Regra-chave:</strong> se o <em>i</em> ou <em>u</em> carregar acento escrito (í, ú), é vogal tônica → forma <strong>hiato</strong>, não ditongo.</li>
+  <li><strong>Regra de Prioridade Geral</strong> (85% de aprovação): Trate como <strong>DITONGO</strong>. É a resposta correta para a maioria das bancas (IBAM, Unesc, AMEOSC, AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE, IDCAP, FGV).</li>
+  <li><strong>Exceção Conhecida</strong> (Banca MS Concursos): Inverta a prioridade e considere <strong>HIATO</strong> (5 de 6 questões dessa banca seguem este padrão).</li>
 </ul>
-<div class="exemplo-box">
-  <em>lei</em>  → sílaba única: l + <strong>e</strong>(vogal) + i(semivogal) → ditongo<br>
-  <em>pai</em>  → sílaba única: p + <strong>a</strong>(vogal) + i(semivogal) → ditongo<br>
-  <em>fui</em>  → sílaba única: f + <strong>u</strong>(vogal) + i(semivogal) → ditongo<br>
-  <em>saúde</em> → sa-<strong>ú</strong>-de: ú tem acento → é vogal, não semivogal → hiato
-</div>
-
-<h3>1. Ditongo Decrescente × Ditongo Crescente</h3>
-<p><strong>Ditongo decrescente:</strong> a sílaba começa pela vogal e termina na semivogal. É o tipo mais comum no português.</p>
-<div class="exemplo-box">
-  Estrutura: <strong>VOGAL</strong> + semivogal<br><br>
-  <em>pai</em>    → <strong>a</strong>(V) + i(SV)  | separação: pai (1 sílaba)<br>
-  <em>leite</em>  → <strong>e</strong>(V) + i(SV)  | separação: lei-te (2 sílabas)<br>
-  <em>mau</em>    → <strong>a</strong>(V) + u(SV)  | separação: mau (1 sílaba)<br>
-  <em>ouro</em>   → <strong>o</strong>(V) + u(SV)  | separação: ou-ro (2 sílabas)<br>
-  <em>herói</em>  → <strong>o</strong>(V) + i(SV)  | separação: he-rói (2 sílabas)<br>
-  <em>fui</em>    → <strong>u</strong>(V) + i(SV)  | separação: fui (1 sílaba)
-</div>
-
-<p><strong>Ditongo crescente:</strong> a sílaba começa pela semivogal e termina na vogal. Aparecem com frequência em sílabas finais de palavras terminadas em <em>-ia, -ie, -io, -ua, -ue, -uo</em>.</p>
-<div class="exemplo-box">
-  Estrutura: semivogal + <strong>VOGAL</strong><br><br>
-  <em>série</em>   → sé | r+i(SV)+<strong>e</strong>(V) | separação: sé-rie (2 sílabas)<br>
-  <em>glória</em>  → gló | r+i(SV)+<strong>a</strong>(V) | separação: gló-ria (2 sílabas)<br>
-  <em>vácuo</em>   → vá | c+u(SV)+<strong>o</strong>(V) | separação: vá-cuo (2 sílabas)<br>
-  <em>tênue</em>   → tê | n+u(SV)+<strong>e</strong>(V) | separação: tê-nue (2 sílabas)<br>
-  <em>quiosque</em> → u(SV)+<strong>o</strong>(V)+s | separação: quios-que (2 sílabas)
-</div>
-
-<h3>2. Ditongo Oral × Ditongo Nasal</h3>
-<p><strong>Ditongo oral:</strong> tanto a vogal quanto a semivogal são orais — nenhuma tem indicação de nasalidade na escrita.</p>
-<div class="exemplo-box">
-  <strong>Como identificar pela escrita:</strong> não há til (~), nem <em>m</em>/<em>n</em>/<em>nh</em> nasalizando a vogal.<br><br>
-  <em>pai</em>   → ai oral (sem til, sem m/n)         ← decrescente oral<br>
-  <em>leite</em> → ei oral (sem nasalidade escrita)   ← decrescente oral<br>
-  <em>ouro</em>  → ou oral (sem nasalidade escrita)   ← decrescente oral<br>
-  <em>série</em> → ie oral (sem nasalidade escrita)   ← crescente oral
-</div>
-
-<p><strong>Ditongo nasal:</strong> a vogal (ou a combinação) contém nasalidade. A escrita indica isso de três formas:</p>
-<ul>
-  <li><strong>Til (~)</strong> sobre a vogal: ã, õ → nasalidade direta e visível</li>
-  <li><strong>Letra m ou n</strong> fechando a sílaba após a vogal → nasaliza a vogal anterior</li>
-  <li><strong>Dígrafo nh</strong> após a vogal → nasaliza a vogal anterior</li>
-</ul>
-<div class="exemplo-box">
-  <em>mãe</em>      → ã(V nasal, til) + e(SV)   → ditongo nasal decrescente <strong>ãe</strong><br>
-  <em>pão</em>      → ã(V nasal, til) + o(SV)   → ditongo nasal decrescente <strong>ão</strong><br>
-  <em>bem</em>      → e(V nasal, m fecha) + —   → ditongo nasal <strong>em</strong> (e + m)<br>
-  <em>corações</em> → cora | <strong>ções</strong>: õ(V nasal, til) + e(SV) → ditongo nasal <strong>õe</strong><br>
-  <em>cãibra</em>   → <strong>cãi</strong>-bra: ã(V nasal, til) + i(SV) → ditongo nasal <strong>ãi</strong>
-</div>
-
-<h3>3. Ditongo Fonético × Ditongo Gráfico</h3>
-<p><strong>Ditongo gráfico</strong> é aquele classificado como ditongo segundo a análise escrita padrão: i/u átonos ao lado de vogal, na mesma sílaba.</p>
-<p><strong>Ditongo fonético</strong> é o que ocorre na fala real — às vezes diverge da escrita. Em fala coloquial, hiatos escritos podem soar como ditongos; em registros formais, ditongos escritos podem soar separados.</p>
-<div class="exemplo-box">
-  <strong>Ditongo gráfico = ditongo fonético (coincidência):</strong><br>
-  <em>leite</em> → escrito como lei-te e pronunciado como ditongo em qualquer registro<br>
-  <em>coisa</em> → escrito como coi-sa e pronunciado como ditongo<br><br>
-  <strong>Hiato na escrita, ditongo na fala coloquial:</strong><br>
-  <em>área</em>  → escrito á-re-a (hiato gráfico), mas pode soar "áRia" na fala rápida<br>
-  <em>saía</em>  → escrito sa-í-a (hiato gráfico), mas pode soar "saIa" em fala informal<br><br>
-  <strong>Regra para provas:</strong><br>
-  → Use sempre a análise <strong>gráfica (escrita padrão)</strong>, não a pronúncia regional.<br>
-  → Se <em>i</em>/<em>u</em> carregam acento próprio (í, ú) = hiato na escrita, mesmo que soe ditongo na fala.
-</div>
-<p>O fenômeno de um <strong>hiato ser pronunciado como ditongo</strong> na fala (como em "área"→"áRia", "saía"→"saIa") tem nome técnico: <strong>sinérese</strong>. O processo inverso — um ditongo escrito sendo pronunciado como hiato, separando a sílaba (mais raro) — chama-se <strong>diérese</strong>. Provas cobram o termo diretamente: "a pronúncia de X como ditongo, quando a norma prevê hiato, é chamada de ___" → resposta: <em>sinérese</em>.</p>
-<p><strong>Palavras de pronúncia facultativa</strong> (aceitam hiato OU ditongo pela norma-padrão, sem "erro"): <em>gratuito</em> (gra-tu-i-to ou gra-tui-to), <em>intuito</em> (in-tu-i-to ou in-tui-to), <em>fluido</em> (flu-i-do ou flui-do), <em>ruindo</em>, <em>circuito</em>.</p>
-
-<h3>4. Transformação: Ditongo Oral → Nasal</h3>
-<p>Um ditongo oral torna-se nasal quando a vogal recebe marcação de nasalidade na escrita. Veja cada caso com a palavra antes e depois da nasalização:</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Ditongo oral</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como a nasalidade aparece na escrita</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Ditongo nasal resultante</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo (oral → nasal)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ao</td>
-      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ão</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">mao → <em>mão</em>, pao → <em>pão</em>, coração</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ae</td>
-      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ãe</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">mae → <em>mãe</em>, paes → <em>pães</em>, cães</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ai</td>
-      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ãi</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">caibra → <em>cãibra</em></td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">oe</td>
-      <td style="padding:8px 10px;color:#94a3b8;">til sobre o o: o → õ</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">õe</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">-ções → <em>corações</em>, leões, lições</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ei</td>
-      <td style="padding:8px 10px;color:#94a3b8;">m/n fecha a sílaba após e</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">em / en</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">bei → <em>bem</em>, quet → <em>quem</em>, também</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">eu</td>
-      <td style="padding:8px 10px;color:#94a3b8;">m fecha a sílaba após e (raro)</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ẽu (escrito "em")</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>bem</em> em análise ditongada; <em>deus</em> permanece oral</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ui</td>
-      <td style="padding:8px 10px;color:#94a3b8;">M como onset da sílaba nasaliza o u: M + ui → ũi</td>
-      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ũi</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>fui</em> (oral, sem M) × <em>muito</em> → M-onset + <strong>ũi</strong> nasal</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ou / au / oi</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Não se nasalizam pela escrita padrão</td>
-      <td style="padding:8px 10px;color:#64748b;">—</td>
-      <td style="padding:8px 10px;color:#64748b;">permanecem orais: ouro, mau, boi</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Regras para reconhecer nasalização apenas pela escrita:</strong></p>
-<ul>
-  <li><strong>Til (~):</strong> indica nasalidade direta sobre a vogal: <em>ã, õ</em> → sempre nasal.</li>
-  <li><strong>M antes de consoante:</strong> a vogal anterior fica nasal: <em>campo</em> (a nasal), <em>tempo</em> (e nasal).</li>
-  <li><strong>N antes de consoante:</strong> a vogal anterior fica nasal: <em>anta</em> (a nasal), <em>cinto</em> (i nasal).</li>
-  <li><strong>NH:</strong> o dígrafo nasaliza a vogal imediatamente anterior: <em>vinho</em> (i nasal), <em>ganho</em> (a nasal).</li>
-  <li><strong>M como onset (início da sílaba):</strong> nasaliza a vogal que abre essa sílaba — <em>muito</em>: M é o onset de "mui", portanto u fica nasal → ũi. Compare: <em>fui</em> (sem M antes = ui oral) × <em>muito</em> (M-onset = ũi nasal).</li>
-</ul>
-
-<h3>5. Tabela Completa de Combinações Vocálicas</h3>
-<p>Identifique <strong>apenas pela escrita</strong> se cada combinação é ditongo ou hiato, seu tipo e exemplos com separação silábica visual.</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.81rem;margin:10px 0 6px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Combinação</th>
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Ditongo ou Hiato?</th>
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Crescente / Decrescente</th>
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Oral / Nasal</th>
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Acento gráfico</th>
-      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Exemplos (com separação silábica)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ai</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">pai (1 síl.), cai-xa, fai-xa</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ãi</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">cãi-bra</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">au</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">mau (1 síl.), pau-sa, cau-sa</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ei</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Só oxítonas: pa-péis</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">rei (1 síl.), lei-te, pei-xe</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">em / ens</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Monossílabos tônicos: bem</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">bem, quem, tam-bém, gar-gens</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">eu</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oxítonas: cha-péu</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">meu (1 síl.), deus, cha-péu, eu-ro-peu</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">oi / ói</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oxítonas: he-rói</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">boi (1 síl.), coi-sa, he-rói</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ou</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">vou (1 síl.), pou-co, ou-ro</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ui (oral)</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">fui (1 síl.), a-zuis, cui-da-do</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ũi (nasal)</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não</td>
-      <td style="padding:7px 8px;color:#cbd5e1;"><strong>mui</strong>-to — M onset nasaliza o u</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ão</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">pão (1 síl.), mão, co-ra-ção, li-mão</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ãe</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">mãe (1 síl.), pães, cães, ca-pi-tães</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">õe</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
-      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">co-ra-ções, li-ções, le-ões</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ia</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">his-tó-ria, gló-ria, fa-mí-lia</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ie</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">sé-rie, pa-cien-te, so-cie-da-de</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">io</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">quios-que, lú-cio, pre-mi-o</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ua</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">sua-ve, si-tua-ção, a-tua-ção</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ue</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">tê-nue, du-e-lo, cons-ti-tui-ção</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">uo</td>
-      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
-      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">vá-cuo, con-tí-nuo, am-bí-guo</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">ae / ao / oe</td>
-      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
-      <td style="padding:7px 8px;color:#64748b;">—</td>
-      <td style="padding:7px 8px;color:#64748b;">Oral</td>
-      <td style="padding:7px 8px;color:#64748b;">Depende</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">ca-em, ca-os, po-ei-ra→po|ei|ra</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">oo / ee</td>
-      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
-      <td style="padding:7px 8px;color:#64748b;">—</td>
-      <td style="padding:7px 8px;color:#64748b;">Oral</td>
-      <td style="padding:7px 8px;color:#64748b;">Não</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">vo-o, en-jo-o, le-em, cre-em</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">aí / eí / oí / uí</td>
-      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
-      <td style="padding:7px 8px;color:#64748b;">—</td>
-      <td style="padding:7px 8px;color:#64748b;">Oral</td>
-      <td style="padding:7px 8px;color:#64748b;">Sim (acento no i/u)</td>
-      <td style="padding:7px 8px;color:#cbd5e1;">pa-ís, sa-í-da, ju-í-zo, sa-ú-de</td>
-    </tr>
-  </tbody>
-</table>
-<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Linhas em vermelho = hiato. Linhas em verde = ditongo. Acento sobre i/u = sempre hiato na escrita padrão.</p>
-
-<h3>6. Ditongos com QU e GU — U pronunciado × U mudo</h3>
-<p>As combinações <em>qu</em> e <em>gu</em> antes de vogal podem ou não formar ditongo, dependendo da vogal seguinte. A regra é identificável <strong>apenas pela escrita</strong>:</p>
-<ul>
-  <li><em>qu</em>/<em>gu</em> + <strong>e</strong> ou <strong>i</strong> → U é mudo (dígrafo): não forma ditongo. <em>(Exceto palavras que tinham trema antes de 2009 — ver tabela de exceções abaixo.)</em></li>
-  <li><em>qu</em>/<em>gu</em> + <strong>a</strong> ou <strong>o</strong> → U é pronunciado: forma ditongo crescente com a vogal seguinte.</li>
-</ul>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 6px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Combinação escrita</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">U é pronunciado?</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Forma ditongo?</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo (se ditongo)</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">que / qui</td>
-      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
-      <td style="padding:8px 10px;color:#f87171;">Não</td>
-      <td style="padding:8px 10px;color:#64748b;">dígrafo qu = /k/</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">que, quei-jo, a-qui, qui-lo</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">qua / quo</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim — pronunciado</td>
-      <td style="padding:8px 10px;color:#4ade80;">Sim</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Crescente (ua / uo)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">quan-do, qua-tro, qual-quer</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gue / gui</td>
-      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
-      <td style="padding:8px 10px;color:#f87171;">Não</td>
-      <td style="padding:8px 10px;color:#64748b;">dígrafo gu = /g/</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">guer-ra, gui-tar-ra, se-guir</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gua / guo</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim — pronunciado</td>
-      <td style="padding:8px 10px;color:#4ade80;">Sim</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Crescente (ua / uo)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">guar-da, lin-gua-gem, am-bí-guo</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Exceções: QU e GU + e/i com U pronunciado</h3>
-<p>Algumas palavras têm U pronunciado mesmo antes de <em>e</em> ou <em>i</em>. Antes do Acordo de 2009, essas palavras carregavam <strong>trema</strong> (ü) para sinalizar o U pronunciado. Com o Acordo, o trema foi abolido, mas o U <strong>continua sendo pronunciado</strong> — é preciso memorizar esses casos.</p>
-<p><strong>Pista escrita:</strong> se a palavra tinha trema antes de 2009, o U continua pronunciado hoje.</p>
-<div class="dica-box"><div class="dica-title">⚠️ Queda do trema — Acordo de 2009</div>Desde o Acordo de 2009, nunca mais se usa trema em português — não importa se o "u" é pronunciado ou não em qu/gu.</div>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 6px;">
-  <thead>
-    <tr style="background:#422006;color:#fbbf24;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Palavra atual</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Escrita antes de 2009</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">U pronunciado?</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Ditongo formado</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Separação silábica</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">tranquilo</td>
-      <td style="padding:8px 10px;color:#94a3b8;">tranqüilo</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">tran-<strong>qui</strong>-lo</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">antiguidade</td>
-      <td style="padding:8px 10px;color:#94a3b8;">antigüidade</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">an-ti-<strong>gui</strong>-da-de</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">linguiça</td>
-      <td style="padding:8px 10px;color:#94a3b8;">lingüiça</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">lin-<strong>gui</strong>-ça</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">aguilhão</td>
-      <td style="padding:8px 10px;color:#94a3b8;">agüilhão</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">a-<strong>gui</strong>-lhão</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">bilíngue</td>
-      <td style="padding:8px 10px;color:#94a3b8;">bilingüe</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">bi-lín-<strong>gue</strong></td>
-    </tr>
-    <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">frequência</td>
-      <td style="padding:8px 10px;color:#94a3b8;">freqüência</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">fre-<strong>quê</strong>n-cia</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">sequência</td>
-      <td style="padding:8px 10px;color:#94a3b8;">seqüência</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">se-<strong>quên</strong>-cia</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">cinquenta</td>
-      <td style="padding:8px 10px;color:#94a3b8;">cinqüenta</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">cin-<strong>quen</strong>-ta</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">eloquente</td>
-      <td style="padding:8px 10px;color:#94a3b8;">eloqüente</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">e-lo-<strong>quen</strong>-te</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">consequência</td>
-      <td style="padding:8px 10px;color:#94a3b8;">conseqüência</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente uê (u+ê)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">con-se-<strong>quên</strong>-cia</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">frequente</td>
-      <td style="padding:8px 10px;color:#94a3b8;">freqüente</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">fre-<strong>quen</strong>-te</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">delinquente</td>
-      <td style="padding:8px 10px;color:#94a3b8;">delinqüente</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">de-lin-<strong>quen</strong>-te</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">equestre</td>
-      <td style="padding:8px 10px;color:#94a3b8;">eqüestre</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">e-<strong>ques</strong>-tre</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">aguentar</td>
-      <td style="padding:8px 10px;color:#94a3b8;">agüentar</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">a-<strong>guen</strong>-tar</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">arguir</td>
-      <td style="padding:8px 10px;color:#94a3b8;">argüir</td>
-      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">ar-<strong>guir</strong></td>
-    </tr>
-    <tr>
-      <td style="padding:8px 10px;font-weight:700;color:#64748b;">questão</td>
-      <td style="padding:8px 10px;color:#94a3b8;">questão (nunca teve trema)</td>
-      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
-      <td style="padding:8px 10px;color:#64748b;">sem ditongo</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">ques-tão</td>
-    </tr>
-  </tbody>
-</table>
-<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Atenção: em <strong>"frequência"</strong> (antiga grafia "freqüência") o U <strong>é pronunciado</strong> — por isso ela levava trema antes do Acordo de 1990/2009, no mesmo grupo de tranquilo, linguiça, antiguidade, aguilhão e bilíngue. Já em <strong>"questão"</strong> o U é mudo (pronuncia-se "kestão"), como em quilo e guerra — por isso "questão" <strong>nunca</strong> teve trema; não é um caso de eliminação de trema, é grafia com U mudo desde sempre.</p>
-
-<h3>7. Terminações Comuns com Ditongo</h3>
-<p>As <strong>terminações</strong> abaixo contêm ditongos e aparecem com frequência nas questões de concurso. Reconhecê-las de imediato elimina dúvidas sobre separação silábica e classificação do encontro vocálico. Ao comparar duas ou mais palavras, verifique se os encontros vocálicos são do mesmo tipo (ditongo, hiato ou tritongo).</p>
-
-<h4 style="color:#7dd3fc;margin:16px 0 6px;">▸ Terminações com Ditongo Decrescente Oral</h4>
-<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Terminação</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Exemplos de palavras</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Observação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ai</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">pai, cai, vai, mais, mais, faixa, caixa, raiz, traição</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Frequente em verbos (vai, sai, cai) e substantivos</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ei</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">lei, rei, sei, dei, frei, portei, escrevi; papéis, fiéis, coronéis</td>
-      <td style="padding:7px 10px;color:#94a3b8;">-éis = plural de -el; verbos 1ª pessoa do pretérito perfeito</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eiro / -eira</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">dinheiro, primeiro, cadeira, fronteira, poeira, beira, queira</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ei</em> + r; sufixo muito produtivo no português</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eito / -eita</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">feito, direito, prefeito, peito, leito, receita, vereita</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ei</em> + t; particípio de verbos em -fazer/-dizer</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-oi / -ói</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">boi, voi, corrói, herói, anestesiói, constrói, destrói</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Oxítonas recebem acento: herói; verbos em -oír</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-au</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">mau, pau, cau, caução, causa, pausa, aula, baú, nau, náusea</td>
-      <td style="padding:7px 10px;color:#94a3b8;"><em>Mau</em> (adj.) ≠ <em>mal</em> (adv.); baú tem acento pois i/u tônico após ditongo</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eu</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">meu, seu, deu, teu, veu, céu, véu, chapéu, troféu, museu</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Oxítonas acentuadas: céu, véu, chapéu, troféu, reu</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ou</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">vou, dou, sou, estou, falou, comeu, partiu, louro, ouro, mouro</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Verbos 3ª pessoa pretérito; tendência à monoftongação na fala</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ouro / -oura</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">ouro, louro, mouro, couro, touro, doura, poura (coloquial)</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ou</em> + r; campo semântico de cores e metais</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-iu</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">saiu, caiu, partiu, abriu, dormiu, fugiu, vestiu, mentiu, pediu</td>
-      <td style="padding:7px 10px;color:#94a3b8;">3ª pessoa pretérito perfeito de verbos em -ir; ditongo <em>iu</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ui</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">fui, azuis, cuidado, fluido, druida, ruína (oral antes de consoante)</td>
-      <td style="padding:7px 10px;color:#94a3b8;"><em>Ruína</em> é hiato pois í tônico; <em>cuidado</em> tem <em>ui</em> oral na mesma sílaba</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 style="color:#f9a8d4;margin:16px 0 6px;">▸ Terminações com Ditongo Decrescente Nasal</h4>
-<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
-  <thead>
-    <tr style="background:#4c0519;color:#f9a8d4;text-align:left;">
-      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Terminação</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Exemplos de palavras</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Observação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ão</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">pão, mão, avião, coração, irmão, balão, botão, reunião, opinião</td>
-      <td style="padding:7px 10px;color:#94a3b8;">A terminação mais frequente do português; plural pode ser -ões, -ãos ou -ães</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ção / -são</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">nação, ação, situação, revisão, decisão, tensão, posição, missão</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Sufixo nominalizador; plural sempre em -ções / -sões (→ ditongo <em>õe</em>)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ãe</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">mãe; plurais: capitães, alemães, pães, cães, chefões→ chefes (irregular)</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Plural de alguns oxítonos em -ão: capitão → capitães</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-õe (-ões)</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">corações, lições, nações, posições, opiniões, leões, balões, botões</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Plural mais comum de -ão; sempre ditongo nasal decrescente</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-em / -ens</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">bem, quem, também, viagem, garagem, margem, ordem; bens, jovens, gens</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo nasal <em>ẽi</em> (escrito -em); -ens é o plural de -em</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-agem / -agens</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">viagem, garagem, miragem, homenagem, linguagem, barragem</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Sufixo -agem; plural -agens; contém ditongo nasal -em</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ãi</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">cãibra (e variantes dialetais muito raras)</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo nasal raríssimo na escrita padrão; cobrado em análise fonológica</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 style="color:#86efac;margin:16px 0 6px;">▸ Terminações com Ditongo Crescente Oral</h4>
-<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
-  <thead>
-    <tr style="background:#052e16;color:#86efac;text-align:left;">
-      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Terminação</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Exemplos de palavras</th>
-      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Observação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ia</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">história, glória, teoria, alegria, família, memória, vitória, polícia</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Sufixo muito produtivo; ditongo crescente <em>ia</em> = semivogal <em>i</em> + vogal <em>a</em></td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ário / -ária</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">aniversário, escritório, vocabulário, farmácia, primária, necessária</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ia</em> no sufixo -ário/-ária; muito comum em substantivos e adjetivos</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ência / -ância</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">frequência, paciência, ciência, tolerância, elegância, distância</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ia</em> nasalizado em -ncia; sufixo de substantivos abstratos</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ie</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">série, espécie, barbárie, intempérie, calvície, superfície</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ie</em> = semivogal <em>i</em> + vogal <em>e</em>; relativamente raro</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-io</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">vício, prêmio, estúdio, frio, pátio, princípio, ofício, exercício</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>io</em>; muito comum em substantivos (especialmente em -ício/-ório)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ório / -ória</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">escritório, laboratório, obrigatório, vitória, memória, história</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>io</em> no sufixo -ório/-ória; substantivos e adjetivos de lugar ou qualidade</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ua</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">sua, tua, língua, água, régua, situa, atua, estatua, adequa</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ua</em> = semivogal <em>u</em> + vogal <em>a</em>; inclui formas verbais em -uar</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ual</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">atual, igual, visual, manual, gradual, mutual, habitual, residual</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ua</em> + l; sufixo adjetival produtivo</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ue</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">tênue, bilíngue, exíguo→exígua, tranquila, linguiça, aguilhão</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ue</em>; inclui ex-trema casos com U pronunciado após QU/GU</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-uo</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">vácuo, contínuo, ambíguo, árduo, assíduo, promíscuo, tênue→tênuo</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>uo</em>; aparece em adjetivos eruditos (em -uo/-uum)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-uoso / -uosa</td>
-      <td style="padding:7px 10px;color:#cbd5e1;">virtuoso, luxuoso, voluptuoso, sumptuoso, promíscuo→libidinoso</td>
-      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>uo</em> + so; sufixo adjetival de qualidade abundante</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="exemplo-box" style="margin:10px 0 14px;">
-  <strong>Como usar na prova:</strong><br>
-  1. Veja a <strong>terminação</strong> da palavra.<br>
-  2. Identifique se a terminação contém ditongo (oral ou nasal, crescente ou decrescente).<br>
-  3. Verifique se o <strong>i</strong> ou <strong>u</strong> na terminação tem acento próprio: se tiver (í, ú), é hiato, não ditongo.<br><br>
-  Exemplo: <em>saída</em> termina em -ida, mas o <em>í</em> tem acento → hiato (sa-í-da).<br>
-  Exemplo: <em>saiu</em> termina em -iu → ditongo decrescente oral (sa-iu, 2 sílabas).
-</div>
-
-<h3>Resumo visual: Ditongo × Hiato pela escrita</h3>
-<div class="exemplo-box">
-  <strong>É ditongo quando:</strong><br>
-  → i ou u sem acento próprio estão ao lado de vogal na mesma sílaba<br>
-  → pai · lei · mãe · pão · série · glória · quando · quatro<br><br>
-  <strong>É hiato quando:</strong><br>
-  → i ou u têm acento gráfico próprio (í, ú): sa-ú-de, pa-ís, ju-í-zo<br>
-  → Duas vogais iguais: vo-o, en-jo-o, ca-a-tin-ga<br>
-  → Vogal + vogal separadas na sílaba: po-e-ma, ca-os, le-em
-</div>
-
-<div class="dica-box">
-  <div class="dica-title">Dicas para prova</div>
-  <ul>
-    <li><strong>Acento sobre i/u = hiato</strong> (saúde, juízo, saída) — regra mais cobrada.</li>
-    <li>Ditongos nasais visíveis pelo til: <strong>ão, ãe, õe, ãi</strong> — sempre decrescentes nasais.</li>
-    <li><em>qu</em>/<em>gu</em> + e/i → U mudo, sem ditongo. <em>qu</em>/<em>gu</em> + a/o → U pronunciado, ditongo crescente.</li>
-    <li>Ditongo crescente: termina na vogal forte — aparecem em -ia, -ie, -io, -ua, -ue, -uo.</li>
-    <li>Ditongo fonético ≠ gráfico: em provas, analise sempre a escrita padrão.</li>
-    <li>Para tritongos (semivogal + vogal + semivogal), consulte o tema específico <strong>Tritongos</strong>.</li>
-    <li>Nasalização pela escrita: til (~), m/n antes de consoante, dígrafo nh.</li>
-  </ul>
-</div>`,
+<p><strong>Palavras Clássicas:</strong> família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>`,
     questoes: [
       { enunciado: 'Em qual das alternativas abaixo há um <strong>ditongo crescente</strong>?', opcoes: ["saudade","série","quais","peixe"], correta: 1, explicacao: '<strong>Ditongo crescente</strong>: semivogal antes da vogal. Em "série" (sé-<em>rie</em>), o <em>i</em> é semivogal antes de <em>e</em>. "Saudade" e "quais" têm ditongo decrescente; "peixe" tem <em>ei</em> decrescente.' },
       { enunciado: 'Assinale a palavra que contém um <strong>ditongo decrescente</strong>.', opcoes: ["história","quiosque","leite","situação"], correta: 2, explicacao: 'Em "leite" temos <em>ei</em>: vogal <em>e</em> seguida da semivogal <em>i</em> → ditongo decrescente.' },
