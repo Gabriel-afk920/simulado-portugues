@@ -5940,6 +5940,81 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     icon: "📋",
     desc: "📌 BACEN · IFPA — Atos administrativos, poderes administrativos, responsabilidade civil do Estado, serviços e bens públicos, controle da Administração",
     teoria: `
+<h3>Princípios da Administração Pública (Art. 37, caput, CF/88)</h3>
+<p>A Constituição Federal de 1988 estabelece expressamente no <em>caput</em> do Art. 37 que a Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de <strong>Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência</strong> — conhecidos pelo mnemônico <strong>LIMPE</strong>.</p>
+
+<p><strong>1. Legalidade</strong></p>
+<ul>
+<li><strong>Conceito</strong>: o administrador público só pode fazer o que a lei expressamente autoriza. Diferente do particular, que pode fazer tudo o que a lei não proíbe, o agente público só pode agir quando há previsão legal para tanto.</li>
+<li><strong>Base legal</strong>: Art. 37, caput, CF/88; Art. 5º, II, CF/88.</li>
+<li><strong>Aplicação</strong>: qualquer ato administrativo praticado sem amparo legal é nulo, por vício de legalidade, e deve ser anulado pela própria Administração (autotutela) ou pelo Judiciário.</li>
+<li><strong>Distinção para prova</strong>: legalidade (Administração) × autonomia da vontade (particular). O particular pode fazer tudo que a lei não proíbe; o administrador só pode fazer o que a lei permite.</li>
+</ul>
+
+<p><strong>2. Impessoalidade</strong></p>
+<ul>
+<li><strong>Conceito</strong>: a Administração deve tratar todos os administrados com isonomia, sem favoritismos ou perseguições. Os atos administrativos são imputados ao órgão ou entidade, nunca à pessoa do agente que os praticou.</li>
+<li><strong>Impessoalidade em relação aos administrados</strong>: vedação de privilégios ou discriminações indevidas — todos devem ser tratados igualmente.</li>
+<li><strong>Impessoalidade em relação à Administração</strong>: os atos são do órgão, não do agente. Proíbe a promoção pessoal de autoridades ou servidores com uso de símbolos, imagens, nomes ou slogans de caráter pessoal em publicidade oficial (Art. 37, §1º, CF/88).</li>
+<li><strong>Ponto crítico para prova</strong>: publicidade governamental que promova o nome ou a imagem pessoal do agente público viola o princípio da impessoalidade.</li>
+</ul>
+
+<p><strong>3. Moralidade</strong></p>
+<ul>
+<li><strong>Conceito</strong>: o administrador público deve agir com ética, boa-fé, honestidade e lealdade institucional. Não basta que o ato seja legal — ele também deve ser moral. A imoralidade administrativa, mesmo sem ilegalidade formal, pode gerar a nulidade do ato.</li>
+<li><strong>Base legal</strong>: Art. 37, caput, CF/88; Art. 5º, LXXIII, CF/88 (ação popular por ato lesivo à moralidade).</li>
+<li><strong>Relação com improbidade</strong>: atos que atentam contra os princípios da Administração Pública, incluindo a moralidade, configuram improbidade administrativa (Art. 11 da Lei nº 8.429/92).</li>
+<li><strong>Ponto crítico para prova</strong>: moralidade administrativa ≠ moralidade comum. É a moralidade jurídica interna da Administração — os padrões éticos exigidos do gestor público no exercício da função.</li>
+</ul>
+
+<p><strong>4. Publicidade</strong></p>
+<ul>
+<li><strong>Conceito</strong>: os atos da Administração devem ser divulgados amplamente, permitindo o conhecimento, o controle e a fiscalização por parte dos administrados. A publicidade é requisito de <strong>eficácia</strong> dos atos administrativos — atos que dependem de publicação só produzem efeitos após ela.</li>
+<li><strong>Base legal</strong>: Art. 37, caput e §1º, CF/88; Art. 5º, XXXIII e XXXIV, CF/88.</li>
+<li><strong>Exceções expressas (sigilo admitido)</strong>: segurança nacional (Art. 5º, XXXIII, CF/88); imprescindibilidade ao interesse social; informações pessoais protegidas pela LAI (até 100 anos).</li>
+<li><strong>Publicidade ≠ propaganda pessoal</strong>: a publicidade dos atos tem caráter educativo, informativo ou de orientação social — é vedado que tenha cunho pessoal ou partidário (Art. 37, §1º, CF/88).</li>
+<li><strong>Ponto crítico para prova</strong>: a falta de publicação não torna o ato inválido (vício de validade) — torna-o <strong>ineficaz</strong> (não produz efeitos) até a devida publicação.</li>
+</ul>
+
+<p><strong>5. Eficiência</strong></p>
+<ul>
+<li><strong>Conceito</strong>: a Administração Pública deve atuar com presteza, perfeição e rendimento funcional, buscando os melhores resultados com a otimização dos recursos públicos disponíveis.</li>
+<li><strong>Introdução</strong>: inserido no caput do Art. 37 pela Emenda Constitucional nº 19/1998 (Reforma Administrativa).</li>
+<li><strong>Eficiência do agente público</strong>: dever de atuar com presteza, perfeição técnica e rendimento funcional no exercício de suas atribuições.</li>
+<li><strong>Eficiência da organização</strong>: dever de a Administração estruturar-se de modo a prestar serviços públicos de qualidade, com racionalidade no uso dos recursos e maximização dos resultados para a sociedade.</li>
+<li><strong>Avaliação periódica de desempenho</strong> (Art. 41, §1º, III, CF/88): servidor estável pode perder o cargo por insuficiência de desempenho apurada em avaliação periódica — expressão direta do princípio da eficiência.</li>
+<li><strong>Contratos de gestão</strong> (Art. 37, §8º, CF/88): permitem ampliar a autonomia gerencial de órgãos e entidades em troca de metas de desempenho — instrumento de aplicação do princípio da eficiência.</li>
+<li><strong>Ponto crítico para prova</strong>: eficiência foi o último princípio a ser inserido no Art. 37 — é o único que não constava no texto original de 1988. Questões que afirmam que eficiência sempre esteve no Art. 37 estão erradas.</li>
+</ul>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Princípio</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Núcleo</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Violação típica</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Base</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Legalidade</td><td style="padding:8px 10px;color:#cbd5e1;">Agir só com amparo legal</td><td style="padding:8px 10px;color:#94a3b8;">Ato sem previsão legal</td><td style="padding:8px 10px;color:#cbd5e1;">Art. 37, caput</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Impessoalidade</td><td style="padding:8px 10px;color:#cbd5e1;">Isonomia e imputação ao órgão</td><td style="padding:8px 10px;color:#94a3b8;">Favoritismo / promoção pessoal</td><td style="padding:8px 10px;color:#cbd5e1;">Art. 37, caput e §1º</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Moralidade</td><td style="padding:8px 10px;color:#cbd5e1;">Ética e boa-fé administrativa</td><td style="padding:8px 10px;color:#94a3b8;">Ato imoral mesmo que legal</td><td style="padding:8px 10px;color:#cbd5e1;">Art. 37, caput</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Publicidade</td><td style="padding:8px 10px;color:#cbd5e1;">Transparência e divulgação</td><td style="padding:8px 10px;color:#94a3b8;">Ato sem publicação obrigatória</td><td style="padding:8px 10px;color:#cbd5e1;">Art. 37, caput e §1º</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Eficiência</td><td style="padding:8px 10px;color:#cbd5e1;">Presteza e rendimento funcional</td><td style="padding:8px 10px;color:#94a3b8;">Serviço público ineficiente</td><td style="padding:8px 10px;color:#cbd5e1;">Art. 37, caput (EC 19/98)</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Princípios implícitos frequentemente cobrados em prova</strong> — além dos cinco expressos no Art. 37, a doutrina e as bancas cobram:</p>
+<ul>
+<li><strong>Supremacia do interesse público</strong>: o interesse coletivo prevalece sobre o interesse privado — fundamento das prerrogativas da Administração (cláusulas exorbitantes, poder de polícia, etc.).</li>
+<li><strong>Indisponibilidade do interesse público</strong>: o administrador não pode dispor do interesse público como se fosse seu — não pode renunciar a poderes, prerrogativas ou bens públicos sem autorização legal.</li>
+<li><strong>Razoabilidade e Proporcionalidade</strong>: os atos administrativos devem ser adequados, necessários e proporcionais aos fins que visam atingir. Vedação ao excesso.</li>
+<li><strong>Autotutela</strong>: a Administração pode e deve anular seus próprios atos ilegais (Súmula 346 STF) e revogar os inconvenientes ou inoportunos (Súmula 473 STF), sem precisar recorrer ao Judiciário.</li>
+<li><strong>Continuidade do serviço público</strong>: os serviços públicos essenciais não podem ser interrompidos, salvo nas hipóteses legais (emergência ou inadimplência do usuário, após aviso prévio).</li>
+<li><strong>Motivação</strong>: os atos administrativos devem ser motivados — o administrador deve expor os fundamentos de fato e de direito que justificam a decisão.</li>
+</ul>
+
 <h3>Direito Administrativo — Atos Administrativos (universo completo)</h3>
 <p><strong>Conceito</strong>: manifestação unilateral de vontade da Administração Pública (ou de quem aja em seu nome, no exercício de função administrativa) que, sob regime de direito público, produz efeitos jurídicos imediatos, com finalidade de atender ao interesse público, sujeita a controle de legalidade pelo Judiciário.</p>
 <p><strong>5 elementos (requisitos) clássicos</strong> — todos obrigatórios; a ausência ou vício em qualquer um torna o ato nulo:</p>
