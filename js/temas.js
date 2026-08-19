@@ -6094,6 +6094,31 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Regime constitucional dos servidores</strong> (Art. 37, CF): <strong>acumulação de cargos</strong> é vedada como regra — exceções constitucionais: dois cargos de professor; um cargo de professor com outro técnico ou científico; dois cargos privativos de profissionais de saúde com profissões regulamentadas — sempre exigida compatibilidade de horários e respeito ao teto remuneratório. <strong>Teto remuneratório</strong>: subsídio dos Ministros do STF, aplicável a todas as esferas e Poderes. <strong>Estabilidade</strong> (Art. 41): adquirida após <strong>3 anos de efetivo exercício</strong>, e sua perda só ocorre por sentença judicial transitada em julgado, processo administrativo disciplinar com ampla defesa, ou avaliação periódica de desempenho insuficiente (também assegurada ampla defesa).</p>
 
 <h3>Licitações e Contratos Administrativos (Lei nº 14.133/2021)</h3>
+<p><strong>Regime atual</strong>: a Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos — NLLC) substituiu definitivamente a Lei nº 8.666/93, a Lei do Pregão (nº 10.520/02) e o RDC (Lei nº 12.462/11), com vigência plena desde abril de 2023.</p>
+<p><strong>Inovações centrais</strong>:</p>
+<ul>
+  <li><strong>Estudo Técnico Preliminar (ETP)</strong>: documento obrigatório da fase preparatória que demonstra a viabilidade técnica e econômica da contratação e justifica o objeto pretendido.</li>
+  <li><strong>Matriz de riscos</strong>: cláusula contratual que define a alocação de riscos entre Administração e contratado, distinguindo álea ordinária (risco do contratado) de álea extraordinária (risco da Administração) — obrigatória em contratos de grande vulto; vincula as partes e afasta pedidos de revisão contratual para os eventos nela previstos.</li>
+  <li><strong>Portal Nacional de Contratações Públicas (PNCP)</strong>: plataforma central e obrigatória de divulgação de editais, contratos, atas de registro de preços e demais atos da licitação.</li>
+  <li><strong>Agente de contratação</strong>: substitui a comissão de licitação nos casos comuns (pessoa designada para conduzir a licitação); a comissão de contratação permanece exigida para modalidades específicas, como o diálogo competitivo.</li>
+</ul>
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Modalidade</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Uso</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Critério típico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Pregão</td><td style="padding:8px 10px;color:#cbd5e1;">Bens e serviços comuns</td><td style="padding:8px 10px;color:#94a3b8;">Menor preço ou maior desconto</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Concorrência</td><td style="padding:8px 10px;color:#cbd5e1;">Obras, serviços e compras de alto valor</td><td style="padding:8px 10px;color:#94a3b8;">Vários critérios</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Concurso</td><td style="padding:8px 10px;color:#cbd5e1;">Trabalho técnico, científico ou artístico</td><td style="padding:8px 10px;color:#94a3b8;">Melhor técnica (prêmio)</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Leilão</td><td style="padding:8px 10px;color:#cbd5e1;">Alienação de bens</td><td style="padding:8px 10px;color:#94a3b8;">Maior lance</td></tr>
+    <tr><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Diálogo Competitivo</td><td style="padding:8px 10px;color:#cbd5e1;">Contratações inovadoras ou complexas sem solução definida</td><td style="padding:8px 10px;color:#94a3b8;">Negociação prévia</td></tr>
+  </tbody>
+</table>
+<p><strong>Ponto crítico para prova</strong>: pregão é <strong>obrigatório</strong> para bens e serviços comuns — não é faculdade da Administração, é imposição legal. Tomada de preços e convite foram <strong>extintas</strong> pela NLLC — não existem mais como modalidade.</p>
 <p><strong>Fases da licitação</strong>: 1) <strong>preparatória</strong> — planejamento, elaboração do edital, estudo técnico preliminar, termo de referência; 2) <strong>divulgação do edital</strong> — publicação no Portal Nacional de Contratações Públicas (PNCP); 3) <strong>apresentação de propostas e lances</strong> — prazo mínimo conforme a modalidade; 4) <strong>julgamento</strong> — pelos critérios definidos no edital (menor preço, maior desconto, melhor técnica, etc.); 5) <strong>habilitação</strong> — verificação dos documentos do licitante vencedor (jurídica, técnica, fiscal, econômico-financeira); 6) <strong>fase recursal</strong> — prazo para interposição de recursos; 7) <strong>homologação</strong> — a autoridade competente confirma a regularidade do processo e adjudica o objeto ao vencedor.</p>
 <p><strong>Modalidades</strong> (a Lei 14.133/2021 extinguiu tomada de preços e convite):</p>
 <ul>
@@ -6104,7 +6129,8 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Diálogo competitivo</strong>: contratações de alta complexidade tecnológica ou financeira sem solução de mercado definida — a Administração dialoga com os licitantes antes de fixar as especificações do objeto.</li>
 </ul>
 <p><strong>Contratação direta</strong>: <strong>dispensa de licitação</strong> — situações em que a licitação é juridicamente possível, mas a lei dispensa sua realização (ex.: valor abaixo do limite legal, emergência ou calamidade pública, obras e serviços de engenharia de pequeno valor) — rol <strong>taxativo</strong>; <strong>inexigibilidade de licitação</strong> — a competição é inviável por natureza (ex.: fornecedor exclusivo, contratação de artista consagrado, serviços técnicos especializados de natureza singular) — rol <strong>exemplificativo</strong>.</p>
-<p><strong>Contratos administrativos</strong>: <strong>cláusulas exorbitantes</strong> (prerrogativas da Administração, que não existiriam num contrato privado comum) — alteração unilateral do contrato, rescisão unilateral, fiscalização, aplicação de sanções, ocupação provisória de bens; <strong>alteração unilateral</strong> — cabível por modificação do projeto ou das especificações (qualitativa) ou por necessidade de acréscimo/supressão quantitativa, limitada a <strong>25% do valor</strong> do contrato (até <strong>50%</strong> no caso de reforma de edifício ou equipamento); <strong>equilíbrio econômico-financeiro</strong> — direito do contratado à manutenção da proporção entre encargos e remuneração fixada inicialmente, recomposta em caso de álea extraordinária (reajuste, revisão, repactuação); <strong>extinção do contrato</strong> — conclusão do objeto, término do prazo, rescisão unilateral, rescisão amigável, rescisão judicial, anulação, ou falência/insolvência do contratado.</p>
+<p><strong>Contratos administrativos</strong>: <strong>cláusulas exorbitantes</strong> (prerrogativas da Administração, que não existiriam num contrato privado comum) — alteração unilateral do contrato, rescisão unilateral, fiscalização, aplicação de sanções, ocupação provisória de bens; <strong>alteração unilateral</strong> — cabível por modificação do projeto ou das especificações (qualitativa) ou por necessidade de acréscimo/supressão quantitativa, limitada a <strong>25% do valor</strong> do contrato (até <strong>50%</strong> no caso de reforma de edifício ou equipamento); <strong>equilíbrio econômico-financeiro</strong> — direito do contratado à manutenção da proporção entre encargos e remuneração fixada inicialmente, recomposta em caso de álea extraordinária (reajuste — índice contratual; revisão — áleas extraordinárias; repactuação — serviços com mão de obra predominante); <strong>extinção do contrato</strong> — conclusão do objeto, término do prazo, rescisão unilateral, rescisão amigável, rescisão judicial, anulação, ou falência/insolvência do contratado.</p>
+<p><strong>Sanções administrativas em contratos</strong> (Lei nº 14.133/2021): advertência; multa; <strong>impedimento de licitar e contratar</strong> — até <strong>3 anos</strong>; <strong>declaração de inidoneidade</strong> para licitar ou contratar — até <strong>6 anos</strong>, aplicável quando a conduta for mais grave. A <strong>rescisão unilateral</strong> pode se dar por inadimplemento do contratado ou por interesse público superveniente; em caso de rescisão por inadimplemento, a Administração pode se valer da <strong>ocupação provisória</strong> de bens e pessoal do contratado, necessários à continuidade do serviço.</p>
 
 <h3>Organização da Administração Pública</h3>
 <p><strong>Administração direta</strong>: conjunto de órgãos integrados na estrutura dos entes federativos (União, Estados, Distrito Federal e Municípios) que exercem atividades administrativas sem personalidade jurídica própria. <strong>Administração indireta</strong>: entidades com personalidade jurídica própria, criadas pelo Estado para descentralizar a execução de atividades — composta por <strong>autarquias</strong>, <strong>fundações públicas</strong>, <strong>empresas públicas</strong> e <strong>sociedades de economia mista</strong>.</p>
@@ -6126,7 +6152,76 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Sociedade de Economia Mista</td><td style="padding:8px 10px;color:#cbd5e1;">Lei autoriza; registro cria</td><td style="padding:8px 10px;color:#94a3b8;">Direito Privado</td><td style="padding:8px 10px;color:#94a3b8;">CLT</td><td style="padding:8px 10px;color:#cbd5e1;">Atividade econômica ou serviço público</td></tr>
   </tbody>
 </table>
-<p><strong>Diferença-chave entre empresa pública e sociedade de economia mista</strong>: a empresa pública admite qualquer forma societária e capital <strong>exclusivamente público</strong> (podendo ter mais de um ente federativo como sócio); a sociedade de economia mista é sempre constituída como <strong>sociedade anônima</strong> e admite capital privado minoritário, desde que o controle acionário permaneça com o Poder Público.</p>`,
+<p><strong>Diferença-chave entre empresa pública e sociedade de economia mista</strong>: a empresa pública admite qualquer forma societária e capital <strong>exclusivamente público</strong> (podendo ter mais de um ente federativo como sócio); a sociedade de economia mista é sempre constituída como <strong>sociedade anônima</strong> e admite capital privado minoritário, desde que o controle acionário permaneça com o Poder Público.</p>
+<p><strong>Ponto crítico para prova (criação de autarquia × EP/SEM)</strong>: a autarquia é criada diretamente pela própria lei específica — não depende de registro. Empresa pública e sociedade de economia mista são apenas <strong>autorizadas</strong> por lei; quem efetivamente as cria é o <strong>registro</strong> em cartório/junta comercial, exatamente como qualquer pessoa jurídica de direito privado.</p>
+<p><strong>Fundação pública — distinção de natureza</strong>: a <strong>fundação pública de direito público</strong> (também chamada de "autarquia fundacional") é criada diretamente por lei, tem regime público integral e as mesmas prerrogativas das autarquias (imunidade tributária recíproca, prazos processuais diferenciados, execução por precatório). Já a <strong>fundação pública de direito privado</strong> tem sua criação autorizada por lei, mas só nasce com o registro do ato constitutivo — regime híbrido (direito privado derrogado por normas públicas), pessoal celetista. A natureza (pública ou privada) depende do regime efetivamente adotado pela lei instituidora, não do simples nome "fundação". Finalidade em ambos os casos: atividades sociais, culturais, científicas, educacionais — nunca exploração de atividade econômica.</p>
+
+<h3>Terceiro Setor — Entidades Paraestatais</h3>
+<p>Entidades privadas, sem fins lucrativos, que colaboram com o interesse público mediante parceria com o Estado, <strong>sem integrar</strong> a Administração Pública direta ou indireta.</p>
+<p><strong>Organizações Sociais (OS)</strong> — Lei nº 9.637/98:</p>
+<ul>
+<li><strong>Qualificação</strong>: ato <strong>discricionário</strong> do Poder Executivo — não há direito subjetivo à qualificação, mesmo que a entidade preencha todos os requisitos legais.</li>
+<li><strong>Instrumento de parceria</strong>: <strong>contrato de gestão</strong>, com metas de desempenho e mecanismos de controle de resultados.</li>
+<li><strong>Podem receber</strong>: recursos orçamentários, bens públicos em permissão de uso (dispensada licitação) e servidores públicos cedidos, com ônus para o órgão de origem.</li>
+<li><strong>Áreas de atuação</strong>: saúde, cultura, ensino, pesquisa científica, desenvolvimento tecnológico e meio ambiente.</li>
+<li><strong>Ponto crítico para prova</strong>: qualificação discricionária + contrato de gestão são a marca registrada da OS.</li>
+</ul>
+<p><strong>OSCIP — Organização da Sociedade Civil de Interesse Público</strong> — Lei nº 9.790/99:</p>
+<ul>
+<li><strong>Qualificação</strong>: ato <strong>vinculado</strong> do Ministério da Justiça — preenchidos os requisitos legais, a qualificação é obrigatória, e a entidade tem direito subjetivo a ela.</li>
+<li><strong>Instrumento de parceria</strong>: <strong>termo de parceria</strong> (não contrato de gestão).</li>
+<li><strong>Não pode receber</strong> servidores públicos cedidos com ônus para o erário de origem.</li>
+<li><strong>Ponto crítico para prova</strong>: a diferença essencial entre OS e OSCIP é justamente essa dupla oposição — OS usa contrato de gestão e qualificação discricionária; OSCIP usa termo de parceria e qualificação vinculada.</li>
+</ul>`,
+    questoes: []
+  },
+  {
+    id: "intervencao_estado_propriedade", materia: 'nocoes_de_direito',
+    nome: "Intervenção do Estado na Propriedade",
+    icon: "🏛️",
+    desc: "📌 BACEN · IFPA — Desapropriação, servidão, tombamento, limitação administrativa, requisição e ocupação temporária",
+    teoria: `
+<h3>Intervenção do Estado na Propriedade Privada (universo completo)</h3>
+
+<h3>Desapropriação</h3>
+<p><strong>Conceito</strong>: instrumento de supressão compulsória da propriedade privada pelo Estado, mediante indenização justa, prévia e em dinheiro (regra geral).</p>
+<p><strong>Fundamentos constitucionais</strong>:</p>
+<ul>
+  <li><strong>Utilidade pública ou necessidade pública</strong>: indenização prévia, justa e em dinheiro (Art. 5º, XXIV, CF).</li>
+  <li><strong>Interesse social (reforma agrária)</strong>: indenização em títulos da dívida agrária (Art. 184, CF).</li>
+  <li><strong>Área urbana não cumprindo função social</strong>: indenização em títulos da dívida pública (Art. 182, §4º, III, CF).</li>
+  <li><strong>Propriedade utilizada para cultivo de drogas ou trabalho escravo</strong>: confisco, sem qualquer indenização (Art. 243, CF).</li>
+</ul>
+<p><strong>Fases</strong>: <strong>declaratória</strong> — decreto do Poder Executivo declarando a utilidade/necessidade pública ou o interesse social, que fixa o estado do bem para fins indenizatórios; <strong>executória</strong> — pode ser amigável (acordo direto com o proprietário) ou judicial (ação de desapropriação).</p>
+<p><strong>Caducidade do decreto</strong>: para utilidade/necessidade pública, <strong>5 anos</strong> (podendo ser renovado após intervalo de 1 ano); para interesse social, <strong>2 anos</strong>.</p>
+<p><strong>Tredestinação</strong>: <strong>lícita</strong> — o bem desapropriado é destinado a finalidade pública diferente da declarada; não gera direito de retrocessão. <strong>Ilícita</strong> — o bem desapropriado é destinado a finalidade privada; gera direito de <strong>retrocessão</strong>, podendo o expropriado reaver o bem ou exigir perdas e danos.</p>
+
+<h3>Outras formas de intervenção</h3>
+<p><strong>Servidão administrativa</strong>: direito real público sobre propriedade alheia, constituído para permitir o uso de utilidade pública. Não suprime a propriedade — apenas limita seu uso. Exige indenização apenas se houver dano efetivo. Exemplos: passagem de cabos de energia elétrica, gasodutos, aquedutos.</p>
+<p><strong>Tombamento</strong>: proteção do patrimônio histórico, artístico, arqueológico, paisagístico e cultural. Não suprime a propriedade — impõe restrições ao uso e à modificação do bem. Pode ser <strong>de ofício</strong> (bens públicos), <strong>voluntário</strong> (a pedido do proprietário) ou <strong>compulsório</strong> (contra a vontade do proprietário). Não gera indenização automática — só se houver dano específico comprovado. Órgão federal responsável: <strong>IPHAN</strong>.</p>
+<p><strong>Limitação administrativa</strong>: restrição geral e abstrata imposta ao exercício de direitos por motivo de interesse público, atingindo número indeterminado de propriedades — não é individualizada. Não gera indenização, por se tratar de ônus geral da propriedade. Exemplos: gabarito de altura de edificações, recuo obrigatório, zoneamento urbano.</p>
+<p><strong>Requisição administrativa</strong>: uso transitório de bens ou serviços privados pelo Estado em situação de iminente perigo público. Indenização posterior (não prévia), se houver dano. Base constitucional: Art. 5º, XXV, CF. Exemplos: requisição de veículos, imóveis e medicamentos em calamidades.</p>
+<p><strong>Ocupação temporária</strong>: uso transitório de imóvel privado para execução de obras e serviços públicos. Diferente da requisição, não exige situação de emergência. Indenização apenas se houver dano.</p>
+<p><strong>Ponto crítico para prova</strong>: limitação administrativa não gera indenização; servidão e tombamento geram indenização só se houver dano; requisição e ocupação temporária geram indenização posterior, se houver dano; a desapropriação é a única que sempre gera indenização (em regra prévia, justa e em dinheiro).</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Instrumento</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Suprime a propriedade?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Indenização</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Situação típica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Desapropriação</td><td style="padding:8px 10px;color:#cbd5e1;">Sim</td><td style="padding:8px 10px;color:#94a3b8;">Prévia, justa, em dinheiro (regra)</td><td style="padding:8px 10px;color:#cbd5e1;">Utilidade/necessidade/interesse social</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Servidão</td><td style="padding:8px 10px;color:#cbd5e1;">Não</td><td style="padding:8px 10px;color:#94a3b8;">Só se houver dano</td><td style="padding:8px 10px;color:#cbd5e1;">Uso de imóvel para utilidade pública</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Tombamento</td><td style="padding:8px 10px;color:#cbd5e1;">Não</td><td style="padding:8px 10px;color:#94a3b8;">Só se houver dano específico</td><td style="padding:8px 10px;color:#cbd5e1;">Proteção cultural/histórica</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Limitação</td><td style="padding:8px 10px;color:#cbd5e1;">Não</td><td style="padding:8px 10px;color:#94a3b8;">Não gera</td><td style="padding:8px 10px;color:#cbd5e1;">Restrição geral e abstrata</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Requisição</td><td style="padding:8px 10px;color:#cbd5e1;">Não (transitório)</td><td style="padding:8px 10px;color:#94a3b8;">Posterior, se houver dano</td><td style="padding:8px 10px;color:#cbd5e1;">Perigo público iminente</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Ocupação temporária</td><td style="padding:8px 10px;color:#cbd5e1;">Não (transitório)</td><td style="padding:8px 10px;color:#94a3b8;">Se houver dano</td><td style="padding:8px 10px;color:#cbd5e1;">Execução de obras públicas</td></tr>
+  </tbody>
+</table>`,
     questoes: []
   },
   {
@@ -6175,7 +6270,30 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Direitos do administrado</strong> (Art. 3º): ser tratado com respeito; ter ciência da tramitação e vista dos autos; formular alegações e apresentar documentos antes da decisão; fazer-se assistir por advogado, salvo obrigatoriedade legal de representação.</p>
 <p><strong>Impedimento e suspeição</strong> (Art. 18-21): impedido de atuar o servidor que tenha interesse direto/indireto na matéria, tenha participado como perito/testemunha/representante, ou seja cônjuge/parente até 3º grau de interessado; suspeito quando houver amizade íntima ou inimizade notória com interessado.</p>
 <p><strong>Prazos gerais</strong>: recurso administrativo, salvo disposição específica, em <strong>10 dias</strong>, contados da ciência da decisão; decisão do recurso em até <strong>30 dias</strong>, prorrogável por igual período; prazo para decidir o processo, salvo prorrogação motivada, em até <strong>30 dias</strong>. <strong>Prescrição da ação punitiva</strong> da Administração sobre infrações: <strong>5 anos</strong>, contados da prática do ato (ou, se permanente/continuada, do dia em que cessou).</p>
-<p><strong>Recurso administrativo</strong>: em regra tem <strong>3 instâncias</strong> (salvo disposição legal diversa); não tem, em regra, efeito suspensivo (pode ser atribuído se houver risco de dano irreparável); a interposição por erro de destinatário não prejudica o interessado, devendo a autoridade indicar o órgão competente. <strong>Não cabe recurso de decisão que já esgotou a instância administrativa.</strong> A <strong>decadência do direito de anular</strong> atos favoráveis ao administrado (Art. 54) é de 5 anos da prática do ato, salvo má-fé comprovada.</p>`,
+<p><strong>Recurso administrativo</strong>: em regra tem <strong>3 instâncias</strong> (salvo disposição legal diversa); não tem, em regra, efeito suspensivo (pode ser atribuído se houver risco de dano irreparável); a interposição por erro de destinatário não prejudica o interessado, devendo a autoridade indicar o órgão competente. <strong>Não cabe recurso de decisão que já esgotou a instância administrativa.</strong> A <strong>decadência do direito de anular</strong> atos favoráveis ao administrado (Art. 54) é de 5 anos da prática do ato, salvo má-fé comprovada.</p>
+
+<h3>Princípios implícitos relevantes para prova</h3>
+<ul>
+<li><strong>Informalismo moderado</strong>: as formas são instrumentos a serviço do processo, não fins em si — vícios formais sanáveis não anulam o processo.</li>
+<li><strong>Verdade material</strong>: a Administração deve buscar a verdade real dos fatos, não se limitar à verdade formal constante dos autos.</li>
+<li><strong>Oficialidade</strong>: a Administração impulsiona o processo de ofício, independentemente de provocação do interessado, inclusive na fase recursal e na instrução.</li>
+<li><strong>Gratuidade</strong>: o processo administrativo é gratuito — é vedada a cobrança de taxas para o exercício do direito de petição.</li>
+</ul>
+
+<h3>Direito de petição e garantias processuais</h3>
+<p><strong>Direito de petição</strong> (Art. 5º, XXXIV, CF): qualquer pessoa pode dirigir petição à Administração, independentemente do pagamento de taxas e independentemente de advogado (salvo obrigatoriedade legal de representação, ex.: Súmula Vinculante 5, que dispensa advogado em processo administrativo disciplinar). A Administração tem o dever de resposta — o silêncio injustificado é omissão impugnável, inclusive por mandado de segurança.</p>
+<p><strong>Contraditório e ampla defesa</strong> (Art. 5º, LV, CF): garantidos constitucionalmente e aplicáveis a todo processo administrativo com litigantes ou acusados. Incluem o direito de ser notificado, de apresentar defesa prévia, de produzir provas por todos os meios legítimos e de recorrer da decisão. O prazo mínimo de defesa, como regra geral da Lei nº 9.784/99, é de <strong>10 dias</strong>.</p>
+
+<h3>Impedimento × Suspeição — distinção aprofundada</h3>
+<p><strong>Impedimento</strong> (Art. 18) — causa <strong>objetiva</strong>: o agente está impedido de atuar quando tiver interesse direto ou indireto na matéria; tiver participado ou vier a participar como perito, testemunha ou representante; estiver litigando ou tiver litigado, nos últimos 5 anos, judicial ou administrativamente com o interessado; ou for cônjuge, companheiro ou parente até o 3º grau do interessado. O impedimento é <strong>automático</strong> — independe de arguição por qualquer das partes, e o próprio agente tem o dever de se declarar impedido, comunicando o fato à autoridade competente.</p>
+<p><strong>Suspeição</strong> (Art. 20) — causa <strong>subjetiva</strong>: amizade íntima ou inimizade notória do agente com algum dos interessados ou com seus cônjuges, companheiros, parentes e afins até o 3º grau. Diferente do impedimento, a suspeição <strong>não é automática</strong> — depende de arguição pela parte interessada ou de autodeclaração do próprio agente, inclusive por motivo de foro íntimo, sem necessidade de expor a razão.</p>
+
+<h3>Instrução do processo</h3>
+<p>Na fase de instrução (Arts. 29 a 47), a Administração pode, de ofício ou a pedido do interessado, determinar a realização de diligências, perícias, inspeções e conferências necessárias à elucidação dos fatos. O administrado tem direito de acompanhar o andamento do processo, produzir provas, juntar documentos e formular alegações antes da decisão. <strong>Provas obtidas por meios ilícitos são inadmissíveis</strong> no processo administrativo — mesma vedação constitucional aplicável ao processo judicial (Art. 5º, LVI, CF). Ao final da instrução, a autoridade competente elabora relatório com a síntese dos fatos apurados e os fundamentos para a decisão.</p>
+
+<h3>Motivação das decisões (Art. 50)</h3>
+<p>A motivação com indicação dos fatos e fundamentos jurídicos é obrigatória, entre outras hipóteses, quando a decisão: <strong>I.</strong> negar, limitar ou afetar direitos ou interesses; <strong>II.</strong> impuser ou agravar deveres, encargos ou sanções; <strong>III.</strong> decidir processos administrativos de concurso ou seleção pública; <strong>IV.</strong> dispensar ou declarar a inexigibilidade de licitação; <strong>V.</strong> decidir recursos administrativos; <strong>VI.</strong> decorrer de reexame de ofício; <strong>VII.</strong> deixar de aplicar jurisprudência firmada sobre a questão ou discrepar de pareceres, laudos, propostas e relatórios oficiais; <strong>VIII.</strong> importar anulação, revogação, suspensão ou convalidação de ato administrativo.</p>
+<p><strong>Ponto crítico para prova</strong>: atos vinculados, em regra, dispensam motivação elaborada, porque a lei já define o único resultado possível diante dos fatos; já os atos discricionários exigem motivação consistente — o agente deve expor as razões de conveniência e oportunidade que justificaram a escolha entre as opções válidas, sob pena de invalidade por ausência de motivação.</p>`,
     questoes: []
   },
   {
@@ -6282,6 +6400,15 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <li><strong>Art. 11 — Atentado aos princípios da Administração Pública</strong>: ação/omissão dolosa que viole os deveres de honestidade, imparcialidade e legalidade (ex.: negar publicidade a atos oficiais, praticar ato visando fim proibido em lei, retardar/frustrar injustificadamente execução de ato de ofício) — <strong>rol taxativo</strong> desde a Lei 14.230/2021 (antes era exemplificativo).</li>
 </ul>
 <p><strong>Sanções</strong> (Art. 12) — variam conforme o artigo violado, sempre respeitados <strong>proporcionalidade e individualização</strong>: perda dos bens/valores acrescidos ilicitamente; ressarcimento integral do dano (quando houver); perda da função pública; suspensão dos direitos políticos (de 4 a 14 anos, variando por artigo); pagamento de multa civil; proibição de contratar com o Poder Público ou receber benefícios fiscais/creditícios (de 4 a 12 anos). A <strong>ação de improbidade</strong> é de natureza <strong>civil</strong> (não penal), e prescreve em <strong>8 anos</strong>, contados do término do exercício do mandato/cargo/função (regra geral após a reforma de 2021).</p>
+<p><strong>Reforma de 2021 — dolo específico obrigatório</strong>: a Lei nº 14.230/2021 extinguiu por completo a modalidade <strong>culposa</strong> de improbidade — negligência, imprudência e imperícia deixaram de configurar improbidade, exigindo-se <strong>dolo específico</strong> (intenção consciente e direcionada de praticar o ato ímprobo) em todas as espécies, inclusive no Art. 10 (dano ao erário). Mera irregularidade administrativa, ainda que grave, não configura improbidade sem dolo comprovado — questão que afirme que "culpa grave" basta para caracterizar improbidade está desatualizada em relação à reforma.</p>
+<p><strong>Prescrição intercorrente</strong>: além do prazo geral de 8 anos, a Lei nº 14.230/2021 introduziu a prescrição intercorrente de <strong>3 anos</strong> de paralisação do processo por inércia do autor da ação.</p>
+<p><strong>Entendimentos recentes do STF sobre a Lei de Improbidade</strong>:</p>
+<ul>
+<li><strong>Indisponibilidade de bens</strong>: é medida cautelar, não automática — exige a demonstração de <em>fumus boni iuris</em> (indícios do ato ímprobo) e <em>periculum in mora</em> (risco de dilapidação patrimonial).</li>
+<li><strong>Solidariedade entre corréus</strong>: não é automática — deve ser fundamentada na participação individual de cada agente no ato ímprobo, não presumida pela simples pluralidade de réus.</li>
+<li><strong>Perda da função pública</strong>: aplica-se à função exercida pelo agente <strong>ao tempo do ato</strong> ímprobo, não necessariamente à função que ocupa atualmente.</li>
+<li><strong>Retroatividade das normas mais benéficas</strong>: o STF firmou, em 2022, que as disposições mais favoráveis da Lei nº 14.230/2021 (como a exigência de dolo específico) aplicam-se retroativamente aos processos em curso.</li>
+</ul>
 
 <h3>Temas correlatos</h3>
 <p><strong>Lei 12.527/2011 — Lei de Acesso à Informação (LAI)</strong>: regulamenta o direito constitucional de acesso à informação (Art. 5º, XXXIII, CF). Princípio geral: <strong>publicidade como regra, sigilo como exceção</strong>. Prazo de resposta ao pedido de informação: até <strong>20 dias</strong>, prorrogável por mais 10 mediante justificativa. Informações sigilosas classificam-se em <strong>ultrassecretas</strong> (25 anos, prorrogável uma vez), <strong>secretas</strong> (15 anos) e <strong>reservadas</strong> (5 anos).</p>
