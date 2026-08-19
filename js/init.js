@@ -535,7 +535,7 @@
     desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
     materia: 'nocoes_de_direito',
     teoria: '<h3>Legislação</h3><p>Esta seção reúne todos os temas de Direito Constitucional, Direito Administrativo e legislação específica (Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008) e Ética no Serviço Público.</p>',
-    subtemas: ['direito_constitucional_geral','direito_administrativo_atos','direito_administrativo_servidor_8112','lei_9784_processo_administrativo','lei_11892_2008','etica_servico_publico']
+    subtemas: ['direito_constitucional_geral','direito_administrativo_atos','direito_administrativo_servidor_8112','intervencao_estado_propriedade','lei_9784_processo_administrativo','lei_11892_2008','etica_servico_publico']
   });
 
   _criarGrupoCombinado({
