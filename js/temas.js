@@ -6121,6 +6121,56 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Extinção dos atos administrativos</strong>: <strong>Anulação</strong> — extinção por vício de legalidade, pode ser feita pela própria Administração (autotutela, Súmulas 346 e 473 do STF) ou pelo Judiciário, com efeito <strong><em>ex tunc</em></strong> (retroativo, desde a origem). <strong>Revogação</strong> — extinção de ato válido, por conveniência e oportunidade, só pela própria Administração (nunca pelo Judiciário) e só de atos <strong>discricionários</strong>, com efeito <strong><em>ex nunc</em></strong> (não retroage — respeita direitos adquiridos e efeitos já produzidos); não podem ser revogados: atos vinculados, atos que já exauriram seus efeitos, atos que geraram direito adquirido, atos "de mero expediente", atos complexos já perfeitos. <strong>Cassação</strong> — extinção porque o beneficiário descumpriu condição exigida para manter o ato (ex.: cassar uma licença porque o titular parou de atender aos requisitos). <strong>Caducidade</strong> — extinção porque sobreveio norma que tornou incompatível a manutenção do ato (ex.: nova lei proíbe atividade antes permitida). <strong>Contraposição (derrubada)</strong> — extinção por um novo ato, com fundamento diferente, cujos efeitos são contrários ao ato anterior (ex.: exoneração extingue os efeitos da nomeação). <strong>Renúncia</strong> — extinção por manifestação do próprio beneficiário, que abre mão do direito criado pelo ato.</p>
 <p><strong>Convalidação (saneamento)</strong>: correção retroativa de um ato com vício <strong>sanável</strong> — só é possível nos vícios de <strong>competência</strong> (quando não exclusiva) e de <strong>forma</strong> (quando não essencial); vícios de motivo, finalidade e objeto são insanáveis, exigindo anulação. Convalidação tem efeito <em>ex tunc</em>.</p>
 <p><strong>Decadência do direito de anular</strong> (Lei 9.784/99, Art. 54): a Administração tem <strong>5 anos</strong>, contados da prática do ato, para anular atos administrativos dos quais decorram efeitos favoráveis a destinatários — salvo comprovada má-fé, caso em que esse prazo não corre.</p>
+
+<h3>Contraditório e Ampla Defesa Prévios na Anulação de Atos</h3>
+<p>Mesmo diante de ato manifestamente ilegal desde a origem ou praticado com comprovada má-fé do particular, a Administração Pública <strong>não pode anular o ato de forma sumária ou automática</strong>. Pela regra constitucional do <strong>Art. 5º, LV, CF/88</strong>, é obrigatória a instauração prévia de processo administrativo que garanta ao interessado: <strong>contraditório</strong> (direito de conhecer os motivos da anulação pretendida e de se manifestar sobre eles), <strong>ampla defesa</strong> (direito de produzir provas, apresentar documentos e razões antes da decisão final) e <strong>direito de recorrer</strong> da decisão que determinar a anulação.</p>
+<p><strong>Base legal complementar</strong>: a Lei nº 9.784/99 (Art. 2º) determina que o processo administrativo observará os princípios do contraditório e da ampla defesa. A <strong>Súmula Vinculante nº 3 do STF</strong> assegura, nos processos administrativos perante o TCU, o exercício do contraditório e da ampla defesa quando a decisão puder anular ato administrativo que beneficie o interessado — salvo a apreciação da legalidade do ato de concessão <strong>inicial</strong> de aposentadoria, reforma e pensão (nesse caso, o TCU tem prazo de <strong>5 anos</strong> para apreciar, com comunicação ao interessado depois).</p>
+<p><strong>Ponto crítico para prova</strong>: a ilegalidade do ato <strong>não dispensa</strong> o processo administrativo prévio — a anulação sem contraditório e ampla defesa é nula por vício de procedimento, mesmo que o ato original fosse ilegal.</p>
+
+<h3>Súmula Vinculante nº 3 do STF — Regra Prática</h3>
+<p><strong>Enunciado</strong>: "Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão."</p>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Situação</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exige contraditório/ampla defesa prévia?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#cbd5e1;">TCU aprecia legalidade de aposentadoria pela 1ª vez (ato inicial)</td><td style="padding:8px 10px;color:#94a3b8;">Não — prazo de 5 anos; comunicação ao interessado após</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#cbd5e1;">TCU revisa ato após já ter registrado (revisão posterior)</td><td style="padding:8px 10px;color:#94a3b8;">Sim — obrigatório</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#cbd5e1;">Administração anula ato favorável ao particular (qualquer esfera)</td><td style="padding:8px 10px;color:#94a3b8;">Sim — obrigatório</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px 10px;color:#cbd5e1;">Administração revoga ato por conveniência e oportunidade</td><td style="padding:8px 10px;color:#94a3b8;">Sim — obrigatório quando houver direito adquirido ou situação consolidada</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Ponto crítico para prova</strong>: a exceção da SV nº 3 é restrita ao ato de concessão <strong>inicial</strong> de aposentadoria, reforma e pensão perante o TCU — não se aplica a revisões posteriores nem a outros atos administrativos.</p>
+
+<h3>Distinção entre Erro da Administração e Fraude do Administrado</h3>
+<p>O STJ e o STF diferenciam dois cenários opostos na ponderação entre legalidade e segurança jurídica:</p>
+<p><strong>Cenário 1 — boa-fé do administrado + erro exclusivo da Administração</strong>: o particular agiu corretamente e a Administração errou sozinha ao praticar o ato ilegal, o que dá proteção máxima à confiança legítima e à segurança jurídica. Consequências: prazo decadencial de <strong>5 anos</strong> (Art. 54, Lei nº 9.784/99) para anular atos com efeitos favoráveis ao administrado de boa-fé; após o prazo, a anulação é vedada e o ato se estabiliza juridicamente; antes do prazo, a anulação é possível, mas pode gerar direito a indenização/compensação pelo dano causado ao particular de boa-fé. Fundamento: princípio da proteção à confiança legítima e da segurança jurídica (Art. 2º, Lei nº 9.784/99).</p>
+<p><strong>Cenário 2 — má-fé ou dolo do administrado (fraude)</strong>: o particular agiu com dolo ou omissão dolosa para induzir a Administração a erro (ex.: declarar metragens falsas, ocultar documentos, apresentar certidões falsas), o que faz cair a proteção à confiança legítima — não se protege a confiança gerada pela própria fraude do particular. Consequências: a anulação é permitida <strong>a qualquer tempo</strong> (o prazo decadencial de 5 anos não se aplica quando o particular agiu de má-fé); não gera direito a indenização pelo particular fraudador; o particular pode responder civil, penal e administrativamente pela fraude. Fundamento: <em>nemo auditur propriam turpitudinem allegans</em> — ninguém pode se beneficiar da própria torpeza. <strong>Importante</strong>: mesmo nesse cenário, a anulação ainda exige processo administrativo com contraditório e ampla defesa — a má-fé afasta a proteção temporal, mas não afasta o devido processo legal.</p>
+<div style="overflow-x:auto;margin-bottom:16px;">
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Critério</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Boa-fé + erro da Adm.</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Má-fé / fraude do particular</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Prazo para anular</td><td style="padding:8px 10px;color:#cbd5e1;">5 anos (Art. 54, Lei 9.784/99)</td><td style="padding:8px 10px;color:#cbd5e1;">A qualquer tempo</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Direito a indenização</td><td style="padding:8px 10px;color:#cbd5e1;">Possível (dano ao particular de boa-fé)</td><td style="padding:8px 10px;color:#cbd5e1;">Não</td></tr>
+    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Proteção à confiança legítima</td><td style="padding:8px 10px;color:#cbd5e1;">Máxima</td><td style="padding:8px 10px;color:#cbd5e1;">Afastada</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Exige processo administrativo prévio?</td><td style="padding:8px 10px;color:#cbd5e1;">Sim — sempre</td><td style="padding:8px 10px;color:#cbd5e1;">Sim — sempre</td></tr>
+    <tr><td style="padding:8px 10px;color:#fde68a;font-weight:700;">Responsabilidade do particular</td><td style="padding:8px 10px;color:#cbd5e1;">Não (agiu corretamente)</td><td style="padding:8px 10px;color:#cbd5e1;">Civil, penal e administrativa</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Ponto crítico para prova</strong>: o prazo decadencial de 5 anos do Art. 54 da Lei nº 9.784/99 <strong>não se aplica</strong> quando o ato foi obtido mediante fraude, dolo ou má-fé do administrado — entendimento consolidado no STJ (REsp 1.151.363 e outros) e referendado pelo STF.</p>
+
 <p><strong>Perfeição, validade e eficácia</strong>: três estados distintos do ato administrativo, que as bancas costumam misturar propositalmente. <strong>Ato perfeito</strong> — completou todo o seu ciclo de formação, passando por todas as etapas necessárias para nascer (perfeição diz respeito ao processo de formação, não ao conteúdo). <strong>Ato válido</strong> — é o ato perfeito que nasceu sem vícios, em conformidade com o ordenamento jurídico (se contém vício, é inválido — anulável ou nulo). <strong>Ato eficaz</strong> — está apto a produzir efeitos jurídicos; um ato pode ser perfeito e válido, mas ainda ineficaz, por exemplo quando sujeito a condição suspensiva, termo inicial ou necessidade de publicação.</p>
 <table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
   <thead>
