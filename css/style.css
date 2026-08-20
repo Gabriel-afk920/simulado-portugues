@@ -66,6 +66,19 @@
     .home-card.blue  .hc-title { color: #38bdf8; }
     .home-card.green .hc-title { color: #22c55e; }
 
+    /* ── BACKUP DE PROGRESSO (exportar/importar entre dispositivos) ── */
+    .backup-progresso {
+      margin-top: 20px; padding: 14px 16px;
+      background: #1e293b; border: 1px solid #334155; border-radius: 12px;
+    }
+    .backup-hint {
+      margin: 0 0 12px; font-size: 0.82rem; color: #94a3b8; line-height: 1.5;
+    }
+    .backup-actions {
+      display: flex; gap: 10px;
+    }
+    .backup-actions .btn { width: auto; flex: 1; padding: 10px; font-size: 0.85rem; }
+
     /* ── GRADE DE TEMAS ── */
     .tema-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -398,4 +411,5 @@
       h1 { font-size: 1.4rem; }
       .home-actions { grid-template-columns: 1fr; }
       .question-text { font-size: 0.97rem; }
+      .backup-actions { flex-direction: column; }
     }

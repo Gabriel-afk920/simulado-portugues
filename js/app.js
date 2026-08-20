@@ -32,6 +32,69 @@ function _salvarSessao(temaId, acertos, total, materia) {
 }
 
 // ══════════════════════════════════════════════════════════
+//  BACKUP DE PROGRESSO (exportar/importar entre dispositivos)
+//  As mesmas 3 chaves de localStorage usadas acima (desempenho) e em
+//  "SESSÕES ATIVAS"/"SISTEMA ADAPTATIVO" logo abaixo -- reunidas aqui num
+//  arquivo só pra levar de um dispositivo a outro manualmente (o app não
+//  tem backend nem autenticação, então não há sincronização automática).
+// ══════════════════════════════════════════════════════════
+const CHAVES_PROGRESSO = ['desempenho', 'sessoes_ativas', 'qdif'];
+
+function exportarProgresso() {
+  const dados = { versao: 1, exportadoEm: new Date().toISOString(), chaves: {} };
+  CHAVES_PROGRESSO.forEach(chave => {
+    dados.chaves[chave] = localStorage.getItem(chave) || null;
+  });
+
+  const blob = new Blob([JSON.stringify(dados, null, 2)], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'progresso_simulado.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importarProgresso(arquivo) {
+  const leitor = new FileReader();
+  leitor.onload = () => {
+    let dados;
+    try {
+      dados = JSON.parse(leitor.result);
+    } catch {
+      alert('Arquivo inválido -- não é um JSON de progresso exportado por este app.');
+      return;
+    }
+    if (!dados || typeof dados.chaves !== 'object') {
+      alert('Arquivo inválido -- não parece ser um backup de progresso deste app.');
+      return;
+    }
+    if (!confirm('Isso vai substituir o progresso salvo neste dispositivo pelo do arquivo importado. Continuar?')) return;
+
+    CHAVES_PROGRESSO.forEach(chave => {
+      const valor = dados.chaves[chave];
+      if (valor) localStorage.setItem(chave, valor);
+    });
+    alert('Progresso importado! O app vai recarregar agora.');
+    window.location.reload();
+  };
+  leitor.onerror = () => alert('Não foi possível ler o arquivo selecionado.');
+  leitor.readAsText(arquivo);
+}
+
+document.getElementById('btn-exportar-progresso').addEventListener('click', exportarProgresso);
+document.getElementById('btn-importar-progresso').addEventListener('click', () => {
+  document.getElementById('input-importar-progresso').click();
+});
+document.getElementById('input-importar-progresso').addEventListener('change', e => {
+  const arquivo = e.target.files[0];
+  if (arquivo) importarProgresso(arquivo);
+  e.target.value = ''; // permite selecionar o mesmo arquivo de novo depois
+});
+
+// ══════════════════════════════════════════════════════════
 //  SESSÕES ATIVAS — continuar de onde parou
 //  Uma sessão por tema (chave = temaId), para permitir pausar um simulado
 //  e iniciar/continuar outro sem perder o progresso do primeiro. Lê também
