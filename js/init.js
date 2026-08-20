@@ -506,76 +506,14 @@
       ocultar_subtemas: ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica']
     });
   }
-  // ── 4b. Seções combinadas: Noções de Direito e Administração Geral e Pública ──
-  // Mesmo mecanismo do bloco 4 acima -- um tema "guarda-chuva" com `subtemas`
-  // habilita a tela de seleção múltipla no Simulado (e a navegação por
-  // sub-tópicos no Estudar), permitindo misturar questões de vários temas
-  // independentes no mesmo simulado. Pedido do usuário depois da
-  // reestruturação de Direito/Administração em temas próprios (ago/2026) --
-  // sem isso, cada um dos 12 novos temas só abria simulado isolado, sem a
-  // opção de mistura que já existia pra Fonética e Ortografia.
-  //
-  // `nome` do card NÃO pode repetir o nome da matéria (cfg.materia em
-  // MATERIAS) -- achado em teste real do usuário: com nome igual (ex.: card
-  // "Legislação" dentro da matéria "Legislação"), a grade principal mostra
-  // 8 cards, o usuário clica de novo em "Legislação" esperando entrar no
-  // tema, mas cai numa SEGUNDA tela com só 7 cards (os mesmos subtemas menos
-  // o combo, que não lista a si mesmo) -- parecia bug de contagem (8 vs 7),
-  // era só o nome duplicado confundindo os dois níveis de navegação.
-  function _criarGrupoCombinado(cfg) {
-    var qs = [];
-    cfg.subtemas.forEach(function(id) {
-      var t = TEMAS.find(function(t){ return t.id === id; });
-      if (t && t.questoes.length) qs = qs.concat(t.questoes);
-    });
-    if (qs.length === 0) return;
-    var idxExist = TEMAS.findIndex(function(t){ return t.id === cfg.id; });
-    if (idxExist > -1) TEMAS.splice(idxExist, 1);
-    TEMAS.unshift({
-      id: cfg.id, nome: cfg.nome, icon: cfg.icon, desc: cfg.desc, materia: cfg.materia,
-      teoria: cfg.teoria, questoes: qs, subtemas: cfg.subtemas
-    });
-  }
-
-  _criarGrupoCombinado({
-    id: 'legislacao_todos',
-    nome: 'Misturar todos os temas',
-    icon: '⚖️',
-    desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
-    materia: 'nocoes_de_direito',
-    teoria: '<h3>Legislação</h3><p>Esta seção reúne todos os temas de Direito Constitucional, Direito Administrativo e legislação específica (Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008) e Ética no Serviço Público.</p>',
-    subtemas: ['direito_constitucional_geral','direito_administrativo_atos','direito_administrativo_servidor_8112','intervencao_estado_propriedade','lei_9784_processo_administrativo','lei_11892_2008','etica_servico_publico']
-  });
-
-  _criarGrupoCombinado({
-    id: 'nocoes_de_administracao_todos',
-    nome: 'Misturar todos os temas',
-    icon: '🏛️',
-    desc: '📌 BACEN · IFPA — Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública',
-    materia: 'administracao_geral_e_publica',
-    teoria: '<h3>Noções de Administração</h3><p>Esta seção reúne todos os temas de Administração Geral, Gestão de Pessoas, Arquivologia, Licitações, Gestão de Projetos, Gestão Estratégica/Qualidade e Administração Pública.</p>',
-    subtemas: ['administracao_geral_fundamentos','gestao_pessoas_geral','arquivologia_geral','licitacoes_contratos_geral','gestao_projetos_geral','gestao_estrategica_qualidade_geral','administracao_publica_agp']
-  });
-
-  _criarGrupoCombinado({
-    id: 'matematica_todos',
-    nome: 'Misturar todos os temas',
-    icon: '🔢',
-    desc: '📌 BACEN · IFPA — Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências (PA e PG) e Matemática Básica',
-    materia: 'matematica',
-    teoria: '<h3>Matemática</h3><p>Esta seção reúne todos os temas de Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências e Matemática Básica.</p>',
-    subtemas: ['raciocinio_logico_geral','estatistica_geral','analise_combinatoria_geral','probabilidade_geral','sequencias_pa_pg_geral','matematica_geral']
-  });
-
-  _criarGrupoCombinado({
-    id: 'informatica_todos',
-    nome: 'Misturar todos os temas',
-    icon: '💻',
-    desc: '📌 BACEN · IFPA — Hardware, Software, Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico e Segurança da Informação',
-    materia: 'informatica',
-    teoria: '<h3>Noções de Informática</h3><p>Esta seção reúne todos os temas de Hardware, Software, Windows, Linux, Editor de Textos, Planilhas Eletrônicas, Internet, Correio Eletrônico e Segurança da Informação.</p>',
-    subtemas: ['hardware_geral','software_geral','windows_geral','linux_geral','editor_textos_geral','planilhas_geral','internet_geral','correio_eletronico_geral','seguranca_informacao_geral']
-  });
+  // Bloco 4b removido (ago/2026): cards "Misturar todos os temas" de
+  // Legislação/Administração/Matemática/Informática -- pedido explícito do
+  // usuário depois de reportar confusão de navegação com o card combo
+  // repetindo o nome da matéria. Os subtemas individuais dessas 4 matérias já
+  // funcionam sozinhos na grade principal (ver renderTemaGrid em app.js), sem
+  // depender desse card. Fonética e Ortografia (bloco 4 acima) NÃO foi
+  // afetada -- é um caso diferente (agrupa sub-tópicos granulares que nunca
+  // apareceram soltos na grade, não duplica nome de matéria).
 
   // ── 5. Adiciona teoria aos temas que têm questões mas teoria vazia ───────────
   var teorias = {
