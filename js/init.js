@@ -514,6 +514,14 @@
   // reestruturação de Direito/Administração em temas próprios (ago/2026) --
   // sem isso, cada um dos 12 novos temas só abria simulado isolado, sem a
   // opção de mistura que já existia pra Fonética e Ortografia.
+  //
+  // `nome` do card NÃO pode repetir o nome da matéria (cfg.materia em
+  // MATERIAS) -- achado em teste real do usuário: com nome igual (ex.: card
+  // "Legislação" dentro da matéria "Legislação"), a grade principal mostra
+  // 8 cards, o usuário clica de novo em "Legislação" esperando entrar no
+  // tema, mas cai numa SEGUNDA tela com só 7 cards (os mesmos subtemas menos
+  // o combo, que não lista a si mesmo) -- parecia bug de contagem (8 vs 7),
+  // era só o nome duplicado confundindo os dois níveis de navegação.
   function _criarGrupoCombinado(cfg) {
     var qs = [];
     cfg.subtemas.forEach(function(id) {
@@ -531,7 +539,7 @@
 
   _criarGrupoCombinado({
     id: 'legislacao_todos',
-    nome: 'Legislação',
+    nome: 'Misturar todos os temas',
     icon: '⚖️',
     desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008 e Ética no Serviço Público',
     materia: 'nocoes_de_direito',
@@ -541,7 +549,7 @@
 
   _criarGrupoCombinado({
     id: 'nocoes_de_administracao_todos',
-    nome: 'Noções de Administração',
+    nome: 'Misturar todos os temas',
     icon: '🏛️',
     desc: '📌 BACEN · IFPA — Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública',
     materia: 'administracao_geral_e_publica',
@@ -551,7 +559,7 @@
 
   _criarGrupoCombinado({
     id: 'matematica_todos',
-    nome: 'Matemática',
+    nome: 'Misturar todos os temas',
     icon: '🔢',
     desc: '📌 BACEN · IFPA — Raciocínio Lógico, Estatística, Análise Combinatória, Probabilidade, Sequências (PA e PG) e Matemática Básica',
     materia: 'matematica',
@@ -561,7 +569,7 @@
 
   _criarGrupoCombinado({
     id: 'informatica_todos',
-    nome: 'Noções de Informática',
+    nome: 'Misturar todos os temas',
     icon: '💻',
     desc: '📌 BACEN · IFPA — Hardware, Software, Windows, Linux, Editor de Textos, Planilhas, Internet, Correio Eletrônico e Segurança da Informação',
     materia: 'informatica',
