@@ -209,7 +209,10 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
+        // updateViaCache: 'none' -- nunca serve sw.js de cache HTTP ao checar
+        // atualização (só afeta a checagem do próprio arquivo sw.js, não o
+        // cache do app feito via Cache Storage dentro do SW).
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => {
             // Quando um novo SW instalar em segundo plano, recarrega automaticamente
             // ao ser ativado (garante que o usuário veja a versão atualizada)
@@ -221,6 +224,22 @@
                   window.location.reload();
                 }
               });
+            });
+
+            // O navegador só checa sw.js por conta própria de forma esparsa
+            // (às vezes só 1x por dia) -- em PWA instalado no celular
+            // (sobretudo iOS, aberto pelo ícone da tela inicial em vez de
+            // navegação de verdade), isso faz o usuário ficar dias vendo
+            // versão antiga mesmo "atualizando toda hora". Força a checagem
+            // explicitamente: assim que registra, e de novo toda vez que o
+            // app volta a ficar visível (reabrir pelo ícone, voltar de outro
+            // app) -- é exatamente o momento em que o usuário espera ver a
+            // versão nova.
+            reg.update().catch(() => {});
+            document.addEventListener('visibilitychange', () => {
+              if (document.visibilityState === 'visible') {
+                reg.update().catch(() => {});
+              }
             });
           })
           .catch(() => {}); // falha silenciosa se SW não suportado ou bloqueado
