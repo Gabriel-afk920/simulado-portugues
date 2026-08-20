@@ -502,6 +502,7 @@
       teoria: '<h3>Fonética e Ortografia</h3><p>Esta seção reúne todos os temas de fonética e ortografia.</p>',
       questoes: qFon,
       subtemas: IDS_FON,
+      esconderSubtemasDaGrade: true,
       ocultar_subtemas: ['oxitonas','paroxitonas','proparoxitonas','acentuacaoGrafica']
     });
   }

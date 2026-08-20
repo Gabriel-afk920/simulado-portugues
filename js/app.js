@@ -253,7 +253,17 @@ document.getElementById('btn-back-materia-simulado').addEventListener('click', (
 let _temaSubtemasAtual = null;
 
 function renderTemaGrid(gridId, onClickFn, materiaFiltro) {
-  const excluir = TEMAS.flatMap(t => t.subtemas || []);
+  // Só esconde da grade principal os subtemas de um grupo marcado com
+  // esconderSubtemasDaGrade (ex.: Fonética e Ortografia) -- os grupos "_todos"
+  // (Legislação, Noções de Administração, Matemática, Informática) também têm
+  // `subtemas` (pra habilitar a mistura de temas no simulado, ver init.js
+  // _criarGrupoCombinado), mas SEM essa flag, senão TODOS os subtemas de cada
+  // uma dessas 4 matérias somem da grade e só resta o card único "Todos" --
+  // sem nenhum jeito de iniciar simulado de um tema específico (achado em
+  // teste: usuário só conseguia iniciar 18 simulados avulsos em Português,
+  // zero nas outras 4 matérias, violando a regra de estrutura de temas do
+  // CLAUDE.md).
+  const excluir = TEMAS.filter(t => t.esconderSubtemasDaGrade).flatMap(t => t.subtemas || []);
   const grid = document.getElementById(gridId);
   const hist = _historico();
   grid.innerHTML = '';
