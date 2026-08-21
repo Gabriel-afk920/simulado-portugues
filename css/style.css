@@ -78,6 +78,22 @@
       display: flex; gap: 10px;
     }
     .backup-actions .btn { width: auto; flex: 1; padding: 10px; font-size: 0.85rem; }
+    .backup-actions input[type="text"] {
+      flex: 2; min-width: 0; padding: 10px 12px;
+      background: #0f172a; border: 1px solid #334155; border-radius: 8px;
+      color: #e2e8f0; font-size: 0.85rem;
+    }
+    .backup-actions input[type="text"]::placeholder { color: #64748b; }
+    .sync-id-box {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .sync-id-box code {
+      flex: 1; min-width: 0; padding: 8px 12px;
+      background: #0f172a; border: 1px solid #334155; border-radius: 8px;
+      color: #38bdf8; font-size: 0.8rem; overflow-x: auto; white-space: nowrap;
+    }
+    .sync-id-box .btn { width: auto; padding: 8px 12px; font-size: 0.8rem; }
 
     /* ── GRADE DE TEMAS ── */
     .tema-grid {

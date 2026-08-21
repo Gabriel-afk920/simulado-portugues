@@ -39,12 +39,15 @@
     </div>
 
     <div class="backup-progresso">
-      <p class="backup-hint">💾 Seu progresso fica salvo só neste dispositivo. Exporte aqui e importe em outro pra continuar de onde parou.</p>
-      <div class="backup-actions">
-        <button class="btn btn-secondary" id="btn-exportar-progresso">⬇️ Exportar progresso</button>
-        <button class="btn btn-secondary" id="btn-importar-progresso">⬆️ Importar progresso</button>
+      <p class="backup-hint">☁️ Progresso sincronizado automaticamente. Pra continuar de onde parou em outro dispositivo, cole lá o código abaixo.</p>
+      <div class="sync-id-box">
+        <code id="sync-id-atual">carregando...</code>
+        <button class="btn btn-secondary" id="btn-copiar-sync-id">📋 Copiar código</button>
       </div>
-      <input type="file" id="input-importar-progresso" accept=".json,application/json" style="display:none;">
+      <div class="backup-actions">
+        <input type="text" id="input-sync-id" placeholder="Colar código de outro dispositivo">
+        <button class="btn btn-secondary" id="btn-usar-sync-id">Sincronizar</button>
+      </div>
     </div>
   </div>
 
@@ -215,6 +218,7 @@
   <!-- questoes_banco -->
   <script src="questoes_banco.js"></script>
   <script src="js/init.js"></script>
+  <script type="module" src="js/firebase-sync.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
