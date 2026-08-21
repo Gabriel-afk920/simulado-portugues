@@ -39,14 +39,21 @@
     </div>
 
     <div class="backup-progresso">
-      <p class="backup-hint">☁️ Progresso sincronizado automaticamente. Pra continuar de onde parou em outro dispositivo, cole lá o código abaixo.</p>
-      <div class="sync-id-box">
-        <code id="sync-id-atual">carregando...</code>
-        <button class="btn btn-secondary" id="btn-copiar-sync-id">📋 Copiar código</button>
+      <div id="auth-deslogado">
+        <p class="backup-hint">☁️ Crie uma conta pra sincronizar seu progresso entre dispositivos. Fica logado automaticamente até você clicar em Sair.</p>
+        <form class="auth-form" id="form-auth" autocomplete="on">
+          <input type="email" id="input-auth-email" placeholder="E-mail" autocomplete="email" required>
+          <input type="password" id="input-auth-senha" placeholder="Senha (mín. 6 caracteres)" autocomplete="current-password" required minlength="6">
+          <div class="auth-actions">
+            <button type="submit" class="btn btn-secondary" id="btn-auth-entrar">Entrar</button>
+            <button type="button" class="btn btn-secondary" id="btn-auth-cadastrar">Criar conta</button>
+          </div>
+          <p class="auth-erro hidden" id="auth-erro"></p>
+        </form>
       </div>
-      <div class="backup-actions">
-        <input type="text" id="input-sync-id" placeholder="Colar código de outro dispositivo">
-        <button class="btn btn-secondary" id="btn-usar-sync-id">Sincronizar</button>
+      <div id="auth-logado" class="hidden">
+        <p class="backup-hint">☁️ Progresso sincronizado automaticamente. Logado como <strong id="auth-email-atual"></strong>.</p>
+        <button class="btn btn-secondary" id="btn-auth-sair">Sair</button>
       </div>
     </div>
   </div>

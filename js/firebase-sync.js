@@ -1,16 +1,20 @@
 // firebase-sync.js
-// Sincronização automática de progresso entre dispositivos via Firestore.
-// Sem login real: um "syncId" (UUID gerado uma vez, salvo em localStorage)
-// funciona como conta -- documento usuarios/{syncId} no Firestore guarda as
-// mesmas 3 chaves já usadas localmente (desempenho, sessoes_ativas, qdif).
-// Pra usar em outro dispositivo: cola o mesmo syncId lá (ver #input-sync-id
-// em index.html) -- os dois dispositivos passam a apontar pro mesmo doc.
+// Sincronização automática de progresso entre dispositivos via Firebase
+// Authentication (e-mail/senha) + Firestore. Sessão persistente local --
+// o usuário só sai quando clica em "Sair" (setPersistence browserLocal).
+// Enquanto deslogado, o app funciona normalmente só com localStorage
+// (sem sync na nuvem). Ao logar, o doc usuarios/{uid} no Firestore guarda
+// as mesmas 3 chaves já usadas localmente (desempenho, sessoes_ativas, qdif).
 //
 // Carregado como <script type="module">, então roda depois do parsing do
 // documento (módulos são adiados por padrão) -- os elementos do DOM já
 // existem quando este script executa.
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
 import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
+import {
+  getAuth, setPersistence, browserLocalPersistence, onAuthStateChanged,
+  createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
+} from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAZhLiu3quZjobChLVGZfwoo8xMJ7qvHgk",
@@ -22,31 +26,28 @@ const firebaseConfig = {
 };
 
 const CHAVES = ['desempenho', 'sessoes_ativas', 'qdif'];
-const CHAVE_SYNC_ID = 'syncId';
 const CHAVE_ATUALIZADO_EM = 'progressoAtualizadoEm';
 
-const app = initializeApp(firebaseConfig);
-const db  = getFirestore(app);
+const app  = initializeApp(firebaseConfig);
+const db   = getFirestore(app);
+const auth = getAuth(app);
 
-function obterSyncId() {
-  let id = localStorage.getItem(CHAVE_SYNC_ID);
-  if (!id) {
-    id = crypto.randomUUID();
-    localStorage.setItem(CHAVE_SYNC_ID, id);
-  }
-  return id;
-}
+// Sessão nunca expira sozinha -- só sai no clique explícito em "Sair".
+setPersistence(auth, browserLocalPersistence).catch(e => {
+  console.warn('[progressoSync] falha ao configurar persistência:', e);
+});
 
-function docDoUsuario(syncId) {
-  return doc(db, 'usuarios', syncId || obterSyncId());
+function docDoUsuario(uid) {
+  return doc(db, 'usuarios', uid);
 }
 
 async function enviarParaNuvem() {
+  if (!auth.currentUser) return; // deslogado: sem sync, só localStorage
   const dados = {};
   CHAVES.forEach(chave => { dados[chave] = localStorage.getItem(chave) || ''; });
   dados.atualizadoEmCliente = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || Date.now());
   try {
-    await setDoc(docDoUsuario(), dados);
+    await setDoc(docDoUsuario(auth.currentUser.uid), dados);
   } catch (e) {
     console.warn('[progressoSync] falha ao enviar pro Firestore:', e);
   }
@@ -67,9 +68,9 @@ function flushImediato() {
   enviarParaNuvem();
 }
 
-async function buscarDaNuvem(syncId) {
+async function buscarDaNuvem(uid) {
   try {
-    const snap = await getDoc(docDoUsuario(syncId));
+    const snap = await getDoc(docDoUsuario(uid));
     return snap.exists() ? snap.data() : null;
   } catch (e) {
     console.warn('[progressoSync] falha ao buscar do Firestore:', e);
@@ -86,14 +87,16 @@ function aplicarDadosDaNuvem(dadosNuvem) {
   localStorage.setItem(CHAVE_ATUALIZADO_EM, String(dadosNuvem.atualizadoEmCliente || Date.now()));
 }
 
-// Roda uma vez na abertura do app: compara o timestamp local com o da nuvem
-// e usa sempre o mais recente dos dois -- nunca sobrescreve dado mais novo
-// por um mais velho, em nenhuma direção.
-async function sincronizarNaAbertura() {
-  const nuvem = await buscarDaNuvem();
+// Roda a cada login (inclusive o automático da sessão persistida): compara
+// o timestamp local com o da nuvem e usa sempre o mais recente dos dois --
+// nunca sobrescreve dado mais novo por um mais velho, em nenhuma direção.
+// Isso também cobre a "migração" natural do progresso feito antes de logar:
+// se só existe dado local, ele é o mais novo e sobe pra nuvem.
+async function sincronizarNaAbertura(uid) {
+  const nuvem = await buscarDaNuvem(uid);
   const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
   if (!nuvem) {
-    if (localTs > 0) await enviarParaNuvem(); // primeiro sync deste dispositivo
+    if (localTs > 0) await enviarParaNuvem();
     return;
   }
   const nuvemTs = Number(nuvem.atualizadoEmCliente || 0);
@@ -102,15 +105,6 @@ async function sincronizarNaAbertura() {
   } else if (localTs > nuvemTs) {
     await enviarParaNuvem();
   }
-}
-
-// Troca de dispositivo: usuário colou o syncId de outro aparelho -- adota
-// esse id como o próprio, puxa o progresso salvo nele e recarrega o app.
-async function trocarDispositivo(novoSyncId) {
-  localStorage.setItem(CHAVE_SYNC_ID, novoSyncId);
-  const nuvem = await buscarDaNuvem(novoSyncId);
-  if (nuvem) aplicarDadosDaNuvem(nuvem);
-  window.location.reload();
 }
 
 document.addEventListener('visibilitychange', () => {
@@ -123,31 +117,74 @@ window.progressoSync = {
     localStorage.setItem(CHAVE_ATUALIZADO_EM, String(Date.now()));
     enviarComDebounce();
   },
-  obterSyncId,
-  trocarDispositivo,
 };
 
-// Preenche a caixa do syncId na tela inicial e liga os botões de troca de
-// dispositivo (ver bloco "sync-progresso" em index.html).
+// ── UI de login/cadastro/logout (ver bloco "backup-progresso" em index.html) ──
+function mostrarErroAuth(mensagem) {
+  const el = document.getElementById('auth-erro');
+  if (!el) return;
+  el.textContent = mensagem;
+  el.classList.toggle('hidden', !mensagem);
+}
+
+const MENSAGENS_ERRO = {
+  'auth/invalid-email': 'E-mail inválido.',
+  'auth/missing-password': 'Digite a senha.',
+  'auth/weak-password': 'Senha muito curta (mínimo 6 caracteres).',
+  'auth/email-already-in-use': 'Já existe uma conta com esse e-mail. Tente entrar.',
+  'auth/invalid-credential': 'E-mail ou senha incorretos.',
+  'auth/wrong-password': 'E-mail ou senha incorretos.',
+  'auth/user-not-found': 'Não existe conta com esse e-mail. Clique em "Criar conta".',
+  'auth/too-many-requests': 'Muitas tentativas. Aguarde um pouco e tente de novo.',
+  'auth/operation-not-allowed': 'Login por e-mail/senha ainda não foi habilitado no Firebase.',
+  'auth/configuration-not-found': 'Firebase Authentication ainda não foi configurado neste projeto.',
+};
+
 function iniciarUI() {
-  const campoId = document.getElementById('sync-id-atual');
-  if (campoId) campoId.textContent = obterSyncId();
+  const form       = document.getElementById('form-auth');
+  const campoEmail = document.getElementById('input-auth-email');
+  const campoSenha = document.getElementById('input-auth-senha');
+  const btnEntrar    = document.getElementById('btn-auth-entrar');
+  const btnCadastrar = document.getElementById('btn-auth-cadastrar');
+  const btnSair       = document.getElementById('btn-auth-sair');
 
-  document.getElementById('btn-copiar-sync-id')?.addEventListener('click', () => {
-    navigator.clipboard.writeText(obterSyncId())
-      .then(() => alert('Código copiado! Cole no outro dispositivo pra sincronizar.'))
-      .catch(() => alert('Não foi possível copiar automaticamente. Copie o código exibido na tela manualmente.'));
-  });
+  async function tentar(acao) {
+    mostrarErroAuth('');
+    const email = campoEmail.value.trim();
+    const senha = campoSenha.value;
+    if (!email || !senha) return;
+    try {
+      if (acao === 'cadastrar') {
+        await createUserWithEmailAndPassword(auth, email, senha);
+      } else {
+        await signInWithEmailAndPassword(auth, email, senha);
+      }
+    } catch (e) {
+      mostrarErroAuth(MENSAGENS_ERRO[e.code] || 'Não foi possível completar. Tente de novo.');
+    }
+  }
 
-  document.getElementById('btn-usar-sync-id')?.addEventListener('click', () => {
-    const campo = document.getElementById('input-sync-id');
-    const valor = (campo?.value || '').trim();
-    if (!valor) return;
-    if (valor === obterSyncId()) { alert('Esse já é o código deste dispositivo.'); return; }
-    if (!confirm('Isso vai substituir o progresso salvo neste dispositivo pelo do código informado. Continuar?')) return;
-    trocarDispositivo(valor);
-  });
+  form?.addEventListener('submit', e => { e.preventDefault(); tentar('entrar'); });
+  btnCadastrar?.addEventListener('click', () => tentar('cadastrar'));
+  btnSair?.addEventListener('click', () => signOut(auth));
+}
+
+function atualizarUI(user) {
+  const deslogado = document.getElementById('auth-deslogado');
+  const logado    = document.getElementById('auth-logado');
+  if (!deslogado || !logado) return;
+  deslogado.classList.toggle('hidden', !!user);
+  logado.classList.toggle('hidden', !user);
+  if (user) {
+    document.getElementById('auth-email-atual').textContent = user.email;
+    mostrarErroAuth('');
+    const form = document.getElementById('form-auth');
+    form?.reset();
+  }
 }
 
 iniciarUI();
-sincronizarNaAbertura();
+onAuthStateChanged(auth, async user => {
+  atualizarUI(user);
+  if (user) await sincronizarNaAbertura(user.uid);
+});
