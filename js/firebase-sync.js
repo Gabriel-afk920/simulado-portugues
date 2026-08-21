@@ -1,10 +1,12 @@
 // firebase-sync.js
-// Sincronização automática de progresso entre dispositivos via Firebase
-// Authentication (e-mail/senha) + Firestore. Sessão persistente local --
-// o usuário só sai quando clica em "Sair" (setPersistence browserLocal).
-// Enquanto deslogado, o app funciona normalmente só com localStorage
-// (sem sync na nuvem). Ao logar, o doc usuarios/{uid} no Firestore guarda
-// as mesmas 3 chaves já usadas localmente (desempenho, sessoes_ativas, qdif).
+// Login obrigatório (Firebase Authentication e-mail/senha) + sincronização
+// automática de progresso via Firestore. Sessão persistente local -- o
+// usuário só sai quando clica em "Sair" (setPersistence browserLocal); com
+// token válido salvo, reabrir o app entra direto em screen-home sem logar
+// de novo. Enquanto deslogado, só screen-login existe (ver TELAS em
+// js/app.js) -- Estudar/Simulado ficam inacessíveis. Ao logar, o doc
+// usuarios/{uid} no Firestore guarda as mesmas 3 chaves já usadas
+// localmente (desempenho, sessoes_ativas, qdif).
 //
 // Carregado como <script type="module">, então roda depois do parsing do
 // documento (módulos são adiados por padrão) -- os elementos do DOM já
@@ -170,16 +172,13 @@ function iniciarUI() {
 }
 
 function atualizarUI(user) {
-  const deslogado = document.getElementById('auth-deslogado');
-  const logado    = document.getElementById('auth-logado');
-  if (!deslogado || !logado) return;
-  deslogado.classList.toggle('hidden', !!user);
-  logado.classList.toggle('hidden', !user);
   if (user) {
     document.getElementById('auth-email-atual').textContent = user.email;
     mostrarErroAuth('');
-    const form = document.getElementById('form-auth');
-    form?.reset();
+    document.getElementById('form-auth')?.reset();
+    window.ir('screen-home');
+  } else {
+    window.ir('screen-login');
   }
 }
 

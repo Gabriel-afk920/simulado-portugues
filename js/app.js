@@ -163,7 +163,7 @@ let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
 // ══════════════════════════════════════════════════════════
 //  NAVEGAÇÃO ENTRE TELAS
 // ══════════════════════════════════════════════════════════
-const TELAS = ['screen-home','screen-materia-estudar','screen-materia-simulado',
+const TELAS = ['screen-login','screen-home','screen-materia-estudar','screen-materia-simulado',
                'screen-study-topics','screen-study-fonetica','screen-study-content',
                'screen-quiz-topics','screen-quiz-fonetica','screen-quiz','screen-result'];
 
@@ -1066,4 +1066,6 @@ document.getElementById('teoria-overlay').addEventListener('click', fecharPainel
 // ══════════════════════════════════════════════════════════
 //  INICIALIZAÇÃO
 // ══════════════════════════════════════════════════════════
-ir('screen-home');
+// Não força nenhuma tela aqui -- js/firebase-sync.js decide screen-login
+// vs screen-home assim que souber se há sessão autenticada (evita
+// mostrar Estudar/Simulado antes de confirmar o login).

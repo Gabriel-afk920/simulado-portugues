@@ -17,13 +17,39 @@
 <div class="container">
 
   <!-- ════════════════════════════
+       TELA DE LOGIN (obrigatória -- ver js/firebase-sync.js)
+       Visível por padrão: até o Firebase confirmar a sessão, é a única
+       tela que existe sem a classe "hidden" -- evita mostrar Estudar/
+       Simulado antes de saber se o usuário está autenticado.
+  ════════════════════════════ -->
+  <div id="screen-login">
+    <div class="hero">
+      <div class="hero-icon">📖</div>
+      <h1>Língua Portuguesa</h1>
+      <p class="subtitle">Entre ou crie uma conta pra estudar e sincronizar seu progresso entre dispositivos</p>
+    </div>
+    <div class="login-card">
+      <form class="auth-form" id="form-auth" autocomplete="on">
+        <input type="email" id="input-auth-email" placeholder="E-mail" autocomplete="email" required>
+        <input type="password" id="input-auth-senha" placeholder="Senha (mín. 6 caracteres)" autocomplete="current-password" required minlength="6">
+        <div class="auth-actions">
+          <button type="submit" class="btn btn-secondary" id="btn-auth-entrar">Entrar</button>
+          <button type="button" class="btn btn-secondary" id="btn-auth-cadastrar">Criar conta</button>
+        </div>
+        <p class="auth-erro hidden" id="auth-erro"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════
        TELA INICIAL
   ════════════════════════════ -->
-  <div id="screen-home">
+  <div id="screen-home" class="hidden">
     <div class="hero">
       <div class="hero-icon">📖</div>
       <h1>Língua Portuguesa</h1>
       <p class="subtitle">Estude a teoria ou teste seus conhecimentos com simulados</p>
+      <p class="conta-atual">☁️ <strong id="auth-email-atual"></strong> · <button class="link-btn" id="btn-auth-sair">Sair</button></p>
     </div>
     <div class="home-actions">
       <div class="home-card blue" id="btn-ir-estudar">
@@ -35,25 +61,6 @@
         <div class="hc-icon">📝</div>
         <div class="hc-title">Simulado</div>
         <div class="hc-desc">Escolha um tema e responda questões com cronômetro e gabarito comentado</div>
-      </div>
-    </div>
-
-    <div class="backup-progresso">
-      <div id="auth-deslogado">
-        <p class="backup-hint">☁️ Crie uma conta pra sincronizar seu progresso entre dispositivos. Fica logado automaticamente até você clicar em Sair.</p>
-        <form class="auth-form" id="form-auth" autocomplete="on">
-          <input type="email" id="input-auth-email" placeholder="E-mail" autocomplete="email" required>
-          <input type="password" id="input-auth-senha" placeholder="Senha (mín. 6 caracteres)" autocomplete="current-password" required minlength="6">
-          <div class="auth-actions">
-            <button type="submit" class="btn btn-secondary" id="btn-auth-entrar">Entrar</button>
-            <button type="button" class="btn btn-secondary" id="btn-auth-cadastrar">Criar conta</button>
-          </div>
-          <p class="auth-erro hidden" id="auth-erro"></p>
-        </form>
-      </div>
-      <div id="auth-logado" class="hidden">
-        <p class="backup-hint">☁️ Progresso sincronizado automaticamente. Logado como <strong id="auth-email-atual"></strong>.</p>
-        <button class="btn btn-secondary" id="btn-auth-sair">Sair</button>
       </div>
     </div>
   </div>
