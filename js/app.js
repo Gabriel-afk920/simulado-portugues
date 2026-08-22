@@ -1066,17 +1066,10 @@ document.getElementById('teoria-overlay').addEventListener('click', fecharPainel
 // ══════════════════════════════════════════════════════════
 //  INICIALIZAÇÃO
 // ══════════════════════════════════════════════════════════
-// js/firebase-sync.js importa o SDK do Firebase de um CDN externo
-// (gstatic.com), que o Service Worker não cacheia (só cacheia same-origin
-// -- ver sw.js). Sem internet e sem esse arquivo no cache comum do
-// navegador, o módulo inteiro falha ao carregar e onAuthStateChanged
-// nunca dispara -- travando o app em screen-login pra sempre, mesmo pra
-// quem já tinha logado antes. Por isso essa checagem síncrona roda AQUI,
-// direto no carregamento (não espera o módulo do Firebase de jeito
-// nenhum): se já existe sessão local salva (login anterior), mostra a
-// home direto. Quando/se o Firebase carregar depois (online), o
-// onAuthStateChanged de firebase-sync.js confirma ou corrige esse estado
-// normalmente (ex.: sessão revogada -- ver atualizarUI lá).
-if (localStorage.getItem('user_logged_in') === 'true') {
-  ir('screen-home');
-}
+// O gate de login (screen-home vs screen-login, baseado na flag
+// localStorage['user_logged_in']) já foi resolvido num <script> inline em
+// index.html, logo após as duas divs -- roda antes mesmo de temas.js
+// (1MB) carregar, então o primeiro paint já sai certo, sem pisca. Nada a
+// fazer aqui. Quando/se js/firebase-sync.js carregar depois (online), o
+// onAuthStateChanged de lá confirma ou corrige esse estado normalmente
+// (ex.: sessão revogada -- ver atualizarUI lá).

@@ -18,11 +18,15 @@
 
   <!-- ════════════════════════════
        TELA DE LOGIN (obrigatória -- ver js/firebase-sync.js)
-       Visível por padrão: até o Firebase confirmar a sessão, é a única
-       tela que existe sem a classe "hidden" -- evita mostrar Estudar/
-       Simulado antes de saber se o usuário está autenticado.
+       Oculta por padrão (troca de classe abaixo é o inverso do que era
+       antes -- ver script inline logo após estas duas divs: com a flag
+       localStorage['user_logged_in'] presente, o padrão "home visível"
+       já é o estado certo e nada precisa mudar antes mesmo de temas.js
+       (1MB) carregar; sem a flag, o script inline troca pra login ANTES
+       do primeiro paint, sem o "pisca" que existia quando login era o
+       padrão visível e um script lá no fim de app.js corrigia depois).
   ════════════════════════════ -->
-  <div id="screen-login">
+  <div id="screen-login" class="hidden">
     <div class="hero">
       <div class="hero-icon">📖</div>
       <h1>Língua Portuguesa</h1>
@@ -43,8 +47,10 @@
 
   <!-- ════════════════════════════
        TELA INICIAL
+       Visível por padrão -- é o caso mais comum (usuário já logado antes)
+       e evita esperar qualquer script pra pintar o estado certo.
   ════════════════════════════ -->
-  <div id="screen-home" class="hidden">
+  <div id="screen-home">
     <div class="hero">
       <div class="hero-icon">📖</div>
       <h1>Língua Portuguesa</h1>
@@ -64,6 +70,17 @@
       </div>
     </div>
   </div>
+
+  <!-- Gate de login síncrono -- roda ANTES de qualquer <script src> (inclusive
+       temas.js, 1MB) parsear/carregar, então corrige a visibilidade no
+       primeiro paint, sem pisca. Sem a flag: esconde home, mostra login.
+       Com a flag: não faz nada, o padrão do HTML acima já está certo. -->
+  <script>
+    if (!localStorage.getItem('user_logged_in')) {
+      document.getElementById('screen-home').classList.add('hidden');
+      document.getElementById('screen-login').classList.remove('hidden');
+    }
+  </script>
 
   <!-- ════════════════════════════
        TELA: SELEÇÃO DE MATÉRIA (ESTUDO)
