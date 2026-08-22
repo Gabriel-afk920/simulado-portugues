@@ -1066,6 +1066,17 @@ document.getElementById('teoria-overlay').addEventListener('click', fecharPainel
 // ══════════════════════════════════════════════════════════
 //  INICIALIZAÇÃO
 // ══════════════════════════════════════════════════════════
-// Não força nenhuma tela aqui -- js/firebase-sync.js decide screen-login
-// vs screen-home assim que souber se há sessão autenticada (evita
-// mostrar Estudar/Simulado antes de confirmar o login).
+// js/firebase-sync.js importa o SDK do Firebase de um CDN externo
+// (gstatic.com), que o Service Worker não cacheia (só cacheia same-origin
+// -- ver sw.js). Sem internet e sem esse arquivo no cache comum do
+// navegador, o módulo inteiro falha ao carregar e onAuthStateChanged
+// nunca dispara -- travando o app em screen-login pra sempre, mesmo pra
+// quem já tinha logado antes. Por isso essa checagem síncrona roda AQUI,
+// direto no carregamento (não espera o módulo do Firebase de jeito
+// nenhum): se já existe sessão local salva (login anterior), mostra a
+// home direto. Quando/se o Firebase carregar depois (online), o
+// onAuthStateChanged de firebase-sync.js confirma ou corrige esse estado
+// normalmente (ex.: sessão revogada -- ver atualizarUI lá).
+if (localStorage.getItem('user_logged_in') === 'true') {
+  ir('screen-home');
+}

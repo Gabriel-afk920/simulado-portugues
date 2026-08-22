@@ -11,6 +11,16 @@
 // Carregado como <script type="module">, então roda depois do parsing do
 // documento (módulos são adiados por padrão) -- os elementos do DOM já
 // existem quando este script executa.
+//
+// Modo offline: o SDK do Firebase é importado de um CDN externo
+// (gstatic.com), que o Service Worker não cacheia (só cacheia
+// same-origin). Sem internet, esse módulo pode falhar ao carregar e
+// onAuthStateChanged nunca dispara -- por isso js/app.js já decide
+// screen-home vs screen-login de forma síncrona, direto no carregamento,
+// usando a flag localStorage['user_logged_in'] (setada aqui embaixo em
+// atualizarUI, sem depender do Firebase ter carregado). Quando/se este
+// módulo carregar (online), onAuthStateChanged confirma ou corrige esse
+// estado normalmente.
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
 import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
 import {
@@ -29,6 +39,7 @@ const firebaseConfig = {
 
 const CHAVES = ['desempenho', 'sessoes_ativas', 'qdif'];
 const CHAVE_ATUALIZADO_EM = 'progressoAtualizadoEm';
+const CHAVE_LOGADO = 'user_logged_in';
 
 const app  = initializeApp(firebaseConfig);
 const db   = getFirestore(app);
@@ -168,16 +179,24 @@ function iniciarUI() {
 
   form?.addEventListener('submit', e => { e.preventDefault(); tentar('entrar'); });
   btnCadastrar?.addEventListener('click', () => tentar('cadastrar'));
-  btnSair?.addEventListener('click', () => signOut(auth));
+  btnSair?.addEventListener('click', () => {
+    localStorage.removeItem(CHAVE_LOGADO);
+    signOut(auth);
+  });
 }
 
 function atualizarUI(user) {
   if (user) {
+    localStorage.setItem(CHAVE_LOGADO, 'true');
     document.getElementById('auth-email-atual').textContent = user.email;
     mostrarErroAuth('');
     document.getElementById('form-auth')?.reset();
     window.ir('screen-home');
   } else {
+    // Firebase confirmou que não há sessão válida -- corrige a flag caso
+    // ela estivesse desatualizada (ex.: sessão revogada em outro
+    // dispositivo) e volta pro gate de login.
+    localStorage.removeItem(CHAVE_LOGADO);
     window.ir('screen-login');
   }
 }
