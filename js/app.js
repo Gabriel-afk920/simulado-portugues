@@ -104,6 +104,32 @@ function _restaurarSessaoAtiva(s, tema) {
 function _qHash(q) {
   return (q.banca || '') + '_' + (q.ano || '') + '_' + q.enunciado.substring(0, 50);
 }
+// hash de CONTEÚDO (sem banca/ano) -- usado só pra nunca sortear 2 questões
+// com o mesmo conteúdo no mesmo simulado, mesmo se vierem de fontes diferentes.
+// Usa enunciado INTEIRO (sem truncar) + alternativas ordenadas, não só o
+// enunciado: baterias CEBRASPE ("julgue o item a seguir") têm várias questões
+// DISTINTAS que compartilham o mesmo preâmbulo/texto associado e só divergem
+// depois (truncar em 50 chars colapsava até 35% de um tema por engano); e
+// questões cujo enunciado é um boilerplate genérico ("Assinale a alternativa
+// correta.") têm o conteúdo real nas alternativas -- comparar só o enunciado
+// junta questões totalmente diferentes. Alternativas entram ORDENADAS pra uma
+// reraspagem com alternativas embaralhadas continuar batendo com o hash.
+function _hashConteudo(q) {
+  const norm = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  const opcoesOrdenadas = (q.opcoes || []).map(norm).sort().join('|');
+  return norm(q.enunciado) + '::' + opcoesOrdenadas;
+}
+function _dedupPorConteudo(qs) {
+  const vistos = new Set();
+  const out = [];
+  for (const q of qs) {
+    const h = _hashConteudo(q);
+    if (vistos.has(h)) continue;
+    vistos.add(h);
+    out.push(q);
+  }
+  return out;
+}
 function _qDificuldade() {
   try { return JSON.parse(localStorage.getItem('qdif') || '{}'); } catch { return {}; }
 }
@@ -131,11 +157,15 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
     items.sort((a, b) => b.score - a.score);
     return items.map(x => x.q);
   };
-  if (!excluir.size) return pesar(arr);
-  const naoVistas = arr.filter(q => !excluir.has(_qHash(q)));
-  const vistas    = arr.filter(q =>  excluir.has(_qHash(q)));
-  // Questões não vistas primeiro (adaptive), vistas só se esgotar o pool
-  return [...pesar(naoVistas), ...pesar(vistas)];
+  const resultado = !excluir.size
+    ? pesar(arr)
+    : (() => {
+        const naoVistas = arr.filter(q => !excluir.has(_qHash(q)));
+        const vistas    = arr.filter(q =>  excluir.has(_qHash(q)));
+        // Questões não vistas primeiro (adaptive), vistas só se esgotar o pool
+        return [...pesar(naoVistas), ...pesar(vistas)];
+      })();
+  return _dedupPorConteudo(resultado);
 }
 
 // ══════════════════════════════════════════════════════════
