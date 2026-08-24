@@ -81,13 +81,48 @@ function _limparSessaoAtiva(temaId) {
 }
 
 function _restaurarSessaoAtiva(s, tema) {
-  temaAtual        = tema;
-  questoes         = s.questaoHashes.map(h => tema.questoes.find(q => _qHash(q) === h)).filter(Boolean);
-  indiceAtual      = s.indiceAtual;
+  temaAtual = tema;
+
+  // Mantém a correlação entre a posição ANTIGA (índices salvos na sessão) e a
+  // posição NOVA no array filtrado -- questões arquivadas/removidas do banco
+  // entre a pausa e a retomada (ex.: deduplicação) saem do meio do array, e
+  // sem esse remapeamento indiceAtual/respostasMap/shuffleMap/teoriaConsultada
+  // continuam apontando pra posição antiga, que agora é outra questão.
+  const encontradas = s.questaoHashes.map(h => tema.questoes.find(q => _qHash(q) === h));
+  const mapaAntigoParaNovo = new Map(); // índice antigo -> índice novo
+  questoes = [];
+  encontradas.forEach((q, idxAntigo) => {
+    if (!q) return;
+    mapaAntigoParaNovo.set(idxAntigo, questoes.length);
+    questoes.push(q);
+  });
+
+  // Índice novo da questão que estava na tela. Se ela foi removida, procura
+  // a próxima posição antiga (a partir de onde o usuário parou) que ainda
+  // existe -- a questão não-respondida mais próxima de onde parou, em vez de
+  // pular pra uma posição arbitrária ou reiniciar do zero.
+  let novoIndice = mapaAntigoParaNovo.get(s.indiceAtual);
+  if (novoIndice === undefined) {
+    for (let i = s.indiceAtual + 1; i < encontradas.length; i++) {
+      if (mapaAntigoParaNovo.has(i)) { novoIndice = mapaAntigoParaNovo.get(i); break; }
+    }
+  }
+  if (novoIndice === undefined) novoIndice = questoes.length; // nada restou depois: simulado acabou
+
+  const remapear = (dic) => {
+    const novo = {};
+    Object.keys(dic || {}).forEach(k => {
+      const novoK = mapaAntigoParaNovo.get(Number(k));
+      if (novoK !== undefined) novo[novoK] = dic[k];
+    });
+    return novo;
+  };
+
+  indiceAtual      = novoIndice;
   pontuacao        = s.pontuacao || 0;
-  respostasMap     = s.respostasMap || {};
-  shuffleMap       = s.shuffleMap  || {};
-  teoriaConsultada = s.teoriaConsultada || {};
+  respostasMap     = remapear(s.respostasMap);
+  shuffleMap       = remapear(s.shuffleMap);
+  teoriaConsultada = remapear(s.teoriaConsultada);
   tempoSimulado    = TEMPO_POR_QUESTAO;
 
   clearInterval(timerInterval);
@@ -95,7 +130,12 @@ function _restaurarSessaoAtiva(s, tema) {
   document.getElementById('btn-pausar').textContent = '⏸ Pausar';
 
   ir('screen-quiz');
-  renderQuestao();
+  if (indiceAtual < questoes.length) {
+    _salvarSessaoAtiva(); // persiste o remapeamento -- sem isso, uma 2ª pausa antes de responder salvaria de novo os índices antigos
+    renderQuestao();
+  } else {
+    mostrarResultado();
+  }
 }
 
 // ══════════════════════════════════════════════════════════
@@ -665,8 +705,12 @@ function _iniciarTimerQuestao() {
       registrarResposta(-1);
       setTimeout(() => {
         indiceAtual++;
-        if (indiceAtual < questoes.length) renderQuestao();
-        else mostrarResultado();
+        if (indiceAtual < questoes.length) {
+          _salvarSessaoAtiva(); // sem isso, uma pausa nesses 2s deixava a sessão salva uma questão atrás da tela
+          renderQuestao();
+        } else {
+          mostrarResultado();
+        }
       }, 2000);
     }
   }, 1000);
