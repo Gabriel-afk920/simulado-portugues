@@ -57,7 +57,7 @@ function _salvarSessaoAtiva() {
   const mapa = _todasSessoesAtivas();
   mapa[temaAtual.id] = {
     temaId:           temaAtual.id,
-    questaoHashes:    questoes.map(_qHash),
+    questaoHashes:    questoes.map(_hashConteudo),
     indiceAtual,
     respostasMap,
     shuffleMap,
@@ -88,7 +88,7 @@ function _restaurarSessaoAtiva(s, tema) {
   // entre a pausa e a retomada (ex.: deduplicação) saem do meio do array, e
   // sem esse remapeamento indiceAtual/respostasMap/shuffleMap/teoriaConsultada
   // continuam apontando pra posição antiga, que agora é outra questão.
-  const encontradas = s.questaoHashes.map(h => tema.questoes.find(q => _qHash(q) === h));
+  const encontradas = s.questaoHashes.map(h => tema.questoes.find(q => _hashConteudo(q) === h));
   const mapaAntigoParaNovo = new Map(); // índice antigo -> índice novo
   questoes = [];
   encontradas.forEach((q, idxAntigo) => {
@@ -141,19 +141,18 @@ function _restaurarSessaoAtiva(s, tema) {
 // ══════════════════════════════════════════════════════════
 //  SISTEMA ADAPTATIVO DE DIFICULDADE (localStorage)
 // ══════════════════════════════════════════════════════════
-function _qHash(q) {
-  return (q.banca || '') + '_' + (q.ano || '') + '_' + q.enunciado.substring(0, 50);
-}
-// hash de CONTEÚDO (sem banca/ano) -- usado só pra nunca sortear 2 questões
-// com o mesmo conteúdo no mesmo simulado, mesmo se vierem de fontes diferentes.
-// Usa enunciado INTEIRO (sem truncar) + alternativas ordenadas, não só o
-// enunciado: baterias CEBRASPE ("julgue o item a seguir") têm várias questões
-// DISTINTAS que compartilham o mesmo preâmbulo/texto associado e só divergem
-// depois (truncar em 50 chars colapsava até 35% de um tema por engano); e
-// questões cujo enunciado é um boilerplate genérico ("Assinale a alternativa
-// correta.") têm o conteúdo real nas alternativas -- comparar só o enunciado
-// junta questões totalmente diferentes. Alternativas entram ORDENADAS pra uma
-// reraspagem com alternativas embaralhadas continuar batendo com o hash.
+// Identidade de questão usada em todo o app (sessão salva, exclusão de já
+// vistas, dificuldade adaptativa): enunciado INTEIRO (sem truncar) +
+// alternativas ordenadas, não hash truncado por banca/ano/50 chars -- baterias
+// CEBRASPE ("julgue o item a seguir") têm várias questões DISTINTAS que
+// compartilham o mesmo preâmbulo/texto associado e só divergem depois
+// (truncar em 50 chars colapsava ~39% do banco por engano -- confirmado
+// contando colisões reais em questoes_banco.js, ver auditoria do bug de
+// questões repetidas no simulado); e questões cujo enunciado é um boilerplate
+// genérico ("Assinale a alternativa correta.") têm o conteúdo real nas
+// alternativas -- comparar só o enunciado junta questões totalmente
+// diferentes. Alternativas entram ORDENADAS pra uma reraspagem com
+// alternativas embaralhadas continuar batendo com o hash.
 function _hashConteudo(q) {
   const norm = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
   const opcoesOrdenadas = (q.opcoes || []).map(norm).sort().join('|');
@@ -174,7 +173,7 @@ function _qDificuldade() {
   try { return JSON.parse(localStorage.getItem('qdif') || '{}'); } catch { return {}; }
 }
 function _qPeso(q) {
-  const d = _qDificuldade()[_qHash(q)];
+  const d = _qDificuldade()[_hashConteudo(q)];
   if (!d) return 1;
   if (d.d > 0) return 3;
   if (d.m > 0 && d.s === 0) return 1.5;
@@ -183,7 +182,7 @@ function _qPeso(q) {
 }
 function _atualizarQDif(q, acertou, usouTeoria) {
   const d = _qDificuldade();
-  const k = _qHash(q);
+  const k = _hashConteudo(q);
   if (!d[k]) d[k] = { s: 0, m: 0, d: 0 };
   if (!acertou)        d[k].d++;
   else if (usouTeoria) d[k].m++;
@@ -200,8 +199,8 @@ function shuffleAdaptativo(arr, excluir = new Set()) {
   const resultado = !excluir.size
     ? pesar(arr)
     : (() => {
-        const naoVistas = arr.filter(q => !excluir.has(_qHash(q)));
-        const vistas    = arr.filter(q =>  excluir.has(_qHash(q)));
+        const naoVistas = arr.filter(q => !excluir.has(_hashConteudo(q)));
+        const vistas    = arr.filter(q =>  excluir.has(_hashConteudo(q)));
         // Questões não vistas primeiro (adaptive), vistas só se esgotar o pool
         return [...pesar(naoVistas), ...pesar(vistas)];
       })();
@@ -727,7 +726,7 @@ function _atualizarPlacar() {
 
 function renderQuestao() {
   const q         = questoes[indiceAtual];
-  qsVistasNaSessao.add(_qHash(q));  // marca questão como vista nesta sessão
+  qsVistasNaSessao.add(_hashConteudo(q));  // marca questão como vista nesta sessão
   const total     = questoes.length;
   const jaResp    = respostasMap.hasOwnProperty(indiceAtual);
   respondeu       = jaResp;
