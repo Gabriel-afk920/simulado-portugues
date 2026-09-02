@@ -89,6 +89,22 @@ function _restaurarSessaoAtiva(s, tema) {
   // sem esse remapeamento indiceAtual/respostasMap/shuffleMap/teoriaConsultada
   // continuam apontando pra posição antiga, que agora é outra questão.
   const encontradas = s.questaoHashes.map(h => tema.questoes.find(q => _hashConteudo(q) === h));
+
+  // Sessão salva com formato de hash incompatível (ex.: pausada antes da
+  // migração _qHash -> _hashConteudo, v104) faz a maioria/totalidade das
+  // questões não casarem -- sem essa checagem, o remapeamento abaixo
+  // resulta em `questoes` vazio e cai direto em mostrarResultado() com
+  // total=0 (tela de resultado sem sentido, ex. "Perfeito!" com 0 de 0
+  // questões) e apaga a sessão salva sem avisar o usuário. Descarta a
+  // sessão incompatível e recomeça do zero em vez disso.
+  const naoEncontradas = encontradas.filter(q => !q).length;
+  if (encontradas.length > 0 && naoEncontradas / encontradas.length > 0.5) {
+    _limparSessaoAtiva(tema.id);
+    alert('Sessão anterior incompatível com a versão atual. Iniciando nova sessão.');
+    iniciarSimulado(tema);
+    return;
+  }
+
   const mapaAntigoParaNovo = new Map(); // índice antigo -> índice novo
   questoes = [];
   encontradas.forEach((q, idxAntigo) => {
