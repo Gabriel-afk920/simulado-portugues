@@ -66,9 +66,11 @@ try {
   db = initializeFirestore(app, {
     localCache: persistentLocalCache({ tabManager: persistentSingleTabManager({}) }),
   });
+  console.log('[progressoSync][DIAG] Firestore iniciado com cache persistente (IndexedDB)');
 } catch (e) {
   console.warn('[progressoSync] cache persistente indisponível, usando Firestore em memória:', e);
   db = initializeFirestore(app, {});
+  console.log('[progressoSync][DIAG] Firestore iniciado em memória (fallback)');
 }
 
 const auth = getAuth(app);
@@ -83,14 +85,16 @@ function docDoUsuario(uid) {
 }
 
 async function enviarParaNuvem() {
-  if (!auth.currentUser) return; // deslogado: sem sync, só localStorage
+  if (!auth.currentUser) { console.log('[progressoSync][DIAG] enviarParaNuvem: deslogado, abortando'); return; }
   const dados = {};
   CHAVES.forEach(chave => { dados[chave] = localStorage.getItem(chave) || ''; });
   dados.atualizadoEmCliente = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || Date.now());
+  console.log('[progressoSync][DIAG] enviarParaNuvem: enviando pra usuarios/' + auth.currentUser.uid, { atualizadoEmCliente: dados.atualizadoEmCliente, tamanhos: Object.fromEntries(CHAVES.map(c => [c, (dados[c] || '').length])) });
   try {
     await setDoc(docDoUsuario(auth.currentUser.uid), dados);
+    console.log('[progressoSync][DIAG] enviarParaNuvem: OK, gravado com sucesso');
   } catch (e) {
-    console.warn('[progressoSync] falha ao enviar pro Firestore:', e);
+    console.warn('[progressoSync] falha ao enviar pro Firestore:', e, '| code:', e && e.code);
   }
 }
 
@@ -112,14 +116,16 @@ function flushImediato() {
 async function buscarDaNuvem(uid) {
   try {
     const snap = await getDoc(docDoUsuario(uid));
+    console.log('[progressoSync][DIAG] buscarDaNuvem: doc existe?', snap.exists());
     return snap.exists() ? snap.data() : null;
   } catch (e) {
-    console.warn('[progressoSync] falha ao buscar do Firestore:', e);
+    console.warn('[progressoSync] falha ao buscar do Firestore:', e, '| code:', e && e.code);
     return null;
   }
 }
 
 function aplicarDadosDaNuvem(dadosNuvem) {
+  console.log('[progressoSync][DIAG] aplicarDadosDaNuvem: aplicando no localStorage', { atualizadoEmCliente: dadosNuvem.atualizadoEmCliente });
   CHAVES.forEach(chave => {
     if (typeof dadosNuvem[chave] === 'string') {
       localStorage.setItem(chave, dadosNuvem[chave]);
@@ -134,17 +140,24 @@ function aplicarDadosDaNuvem(dadosNuvem) {
 // Isso também cobre a "migração" natural do progresso feito antes de logar:
 // se só existe dado local, ele é o mais novo e sobe pra nuvem.
 async function sincronizarNaAbertura(uid) {
+  console.log('[progressoSync][DIAG] sincronizarNaAbertura: iniciando, uid=' + uid);
   const nuvem = await buscarDaNuvem(uid);
   const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
   if (!nuvem) {
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: sem doc na nuvem ainda. localTs=' + localTs);
     if (localTs > 0) await enviarParaNuvem();
     return;
   }
   const nuvemTs = Number(nuvem.atualizadoEmCliente || 0);
+  console.log('[progressoSync][DIAG] sincronizarNaAbertura: localTs=' + localTs + ' nuvemTs=' + nuvemTs);
   if (nuvemTs > localTs) {
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: nuvem mais nova -> aplicando local');
     aplicarDadosDaNuvem(nuvem);
   } else if (localTs > nuvemTs) {
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: local mais novo -> enviando pra nuvem');
     await enviarParaNuvem();
+  } else {
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: timestamps iguais, nada a fazer');
   }
 }
 
@@ -160,24 +173,33 @@ async function sincronizarNaAbertura(uid) {
 let unsubscribeListener = null;
 
 function registrarListenerTempoReal(uid) {
-  if (unsubscribeListener) return; // já registrado (ex.: onAuthStateChanged duplicado)
-  unsubscribeListener = onSnapshot(docDoUsuario(uid), docSnap => {
+  if (unsubscribeListener) { console.log('[progressoSync][DIAG] registrarListenerTempoReal: ja registrado, ignorando'); return; }
+  console.log('[progressoSync][DIAG] registrarListenerTempoReal: registrando listener em usuarios/' + uid);
+  // includeMetadataChanges:true só pra diagnóstico -- deixa visível se o
+  // snapshot que chegou é local otimista (hasPendingWrites=true, ainda não
+  // confirmado pelo servidor) ou já veio do servidor / cache offline
+  // (fromCache=true = sem conexão real com o backend agora). Não muda o
+  // comportamento de aplicar/ignorar (isso continua só pela guarda de
+  // timestamp abaixo).
+  unsubscribeListener = onSnapshot(docDoUsuario(uid), { includeMetadataChanges: true }, docSnap => {
+    console.log('[progressoSync][DIAG] onSnapshot disparou. exists=' + docSnap.exists() + ' hasPendingWrites=' + docSnap.metadata.hasPendingWrites + ' fromCache=' + docSnap.metadata.fromCache);
     if (!docSnap.exists()) return;
     const dadosNuvem = docSnap.data();
     const nuvemTs = Number(dadosNuvem.atualizadoEmCliente || 0);
     const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
+    console.log('[progressoSync][DIAG] onSnapshot: nuvemTs=' + nuvemTs + ' localTs=' + localTs + (nuvemTs <= localTs ? ' -> ignorado (nao mais novo)' : ' -> vai aplicar'));
     // <= (não só <): cobre o eco da própria escrita deste cliente, cujo
     // timestamp é igual ao que acabou de gravar -- nada a aplicar.
     if (nuvemTs <= localTs) return;
     aplicarDadosDaNuvem(dadosNuvem);
     window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
   }, e => {
-    console.warn('[progressoSync] listener em tempo real falhou:', e);
+    console.warn('[progressoSync] listener em tempo real falhou:', e, '| code:', e && e.code);
   });
 }
 
 function pararListenerTempoReal() {
-  if (unsubscribeListener) { unsubscribeListener(); unsubscribeListener = null; }
+  if (unsubscribeListener) { console.log('[progressoSync][DIAG] pararListenerTempoReal: cancelando'); unsubscribeListener(); unsubscribeListener = null; }
 }
 
 document.addEventListener('visibilitychange', () => {
@@ -187,10 +209,12 @@ window.addEventListener('pagehide', flushImediato);
 
 window.progressoSync = {
   marcarAtualizado() {
+    console.log('[progressoSync][DIAG] marcarAtualizado() chamado');
     localStorage.setItem(CHAVE_ATUALIZADO_EM, String(Date.now()));
     enviarComDebounce();
   },
 };
+console.log('[progressoSync][DIAG] modulo carregado -- window.progressoSync existe agora, typeof:', typeof window.progressoSync);
 
 // ── UI de login/cadastro/logout (ver bloco "backup-progresso" em index.html) ──
 function mostrarErroAuth(mensagem) {
@@ -263,7 +287,9 @@ function atualizarUI(user) {
 }
 
 iniciarUI();
+console.log('[progressoSync][DIAG] registrando onAuthStateChanged...');
 onAuthStateChanged(auth, async user => {
+  console.log('[progressoSync][DIAG] onAuthStateChanged disparou. user=' + (user ? user.uid + ' (' + user.email + ')' : 'null (deslogado)'));
   atualizarUI(user);
   if (user) {
     await sincronizarNaAbertura(user.uid);

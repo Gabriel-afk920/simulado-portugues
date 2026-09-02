@@ -1,0 +1,30 @@
+// firestore.rules — referência, NÃO é deploy automático.
+//
+// Este projeto não tem firebase.json/.firebaserc nem Firebase CLI
+// configurado neste repositório -- as regras de segurança do Firestore só
+// existem hoje no Firebase Console do projeto "silulado-questoes"
+// (Firestore Database → Regras), fora do controle de versão. Isso nunca
+// tinha sido notado antes porque o Firestore foi criado em "modo de teste"
+// (ver commit 95d5bd1, 20/08/2026) -- modo de teste libera leitura/escrita
+// pra qualquer um por um prazo (30 dias por padrão a partir da criação do
+// banco), e DEPOIS DISSO PASSA A NEGAR TUDO por padrão, silenciosamente.
+//
+// Se a sincronização entre dispositivos parou de funcionar sem nenhuma
+// mudança de código relacionada, checar isso é o primeiro passo: abrir
+// Firebase Console → Firestore Database → Regras, e ver se ainda diz algo
+// como "allow read, write: if request.time < timestamp.date(...)" com uma
+// data que já passou, ou se já expirou pra "allow read, write: if false".
+//
+// Cole o conteúdo abaixo lá pra substituir o modo de teste por uma regra
+// permanente e segura (só o dono do documento pode ler/escrever o próprio
+// progresso -- corresponde exatamente ao uso em firebase-sync.js:
+// doc(db, 'usuarios', auth.currentUser.uid)):
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /usuarios/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}
