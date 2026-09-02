@@ -12,21 +12,29 @@
 // documento (módulos são adiados por padrão) -- os elementos do DOM já
 // existem quando este script executa.
 //
-// Modo offline: o SDK do Firebase é importado de um CDN externo
-// (gstatic.com), que o Service Worker não cacheia (só cacheia
-// same-origin). Sem internet, esse módulo pode falhar ao carregar e
-// onAuthStateChanged nunca dispara -- por isso js/app.js já decide
-// screen-home vs screen-login de forma síncrona, direto no carregamento,
-// usando a flag localStorage['user_logged_in'] (setada aqui embaixo em
-// atualizarUI, sem depender do Firebase ter carregado). Quando/se este
-// módulo carregar (online), onAuthStateChanged confirma ou corrige esse
-// estado normalmente.
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
-import { getFirestore, doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
+// Modo offline: o SDK do Firebase é um bundle local (js/lib/firebase/
+// firebase-bundle.js, gerado via `node build_firebase_bundle.js`, na raiz
+// do repo algoritmoIA, a partir do pacote npm "firebase" + esbuild),
+// registrado em sw.js/ASSETS, então o Service Worker cacheia
+// normalmente (same-origin) e o módulo carrega mesmo offline. Antes disso
+// (até 02/09/2026) o import apontava pro CDN externo gstatic.com, que o SW
+// não cacheia (só cacheia same-origin) -- sem internet o módulo falhava ao
+// carregar e onAuthStateChanged nunca disparava. js/app.js continua
+// decidindo screen-home vs screen-login de forma síncrona, direto no
+// carregamento, usando a flag localStorage['user_logged_in'] (setada aqui
+// embaixo em atualizarUI) -- não depende deste módulo ter terminado de
+// carregar. Quando este módulo carrega, onAuthStateChanged confirma ou
+// corrige esse estado normalmente (auth com browserLocalPersistence
+// restaura o usuário do localStorage sem precisar de rede).
+import { initializeApp } from './lib/firebase/firebase-bundle.js';
+import {
+  initializeFirestore, persistentLocalCache, persistentSingleTabManager,
+  doc, getDoc, setDoc, onSnapshot,
+} from './lib/firebase/firebase-bundle.js';
 import {
   getAuth, setPersistence, browserLocalPersistence, onAuthStateChanged,
   createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,
-} from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js';
+} from './lib/firebase/firebase-bundle.js';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAZhLiu3quZjobChLVGZfwoo8xMJ7qvHgk",
@@ -41,8 +49,28 @@ const CHAVES = ['desempenho', 'sessoes_ativas', 'qdif'];
 const CHAVE_ATUALIZADO_EM = 'progressoAtualizadoEm';
 const CHAVE_LOGADO = 'user_logged_in';
 
-const app  = initializeApp(firebaseConfig);
-const db   = getFirestore(app);
+const app = initializeApp(firebaseConfig);
+
+// Cache local persistente (IndexedDB) do Firestore -- sem isso, um setDoc()
+// feito offline (ex.: sessão salva no celular sem internet) simplesmente
+// falha e é descartado (catch em enviarParaNuvem() só loga um warning); com
+// o cache persistente, a escrita fica enfileirada localmente e o próprio
+// SDK reenvia sozinho assim que a conexão volta -- não precisa de retry
+// manual nem de listener de 'online'. persistentSingleTabManager (em vez de
+// multi-tab) porque o caso de uso real aqui é celular x notebook (processos
+// diferentes), não múltiplas abas do mesmo dispositivo; se o usuário abrir
+// 2 abas no mesmo aparelho, a 2ª só perde o cache offline, continua
+// funcionando normal quando online.
+let db;
+try {
+  db = initializeFirestore(app, {
+    localCache: persistentLocalCache({ tabManager: persistentSingleTabManager({}) }),
+  });
+} catch (e) {
+  console.warn('[progressoSync] cache persistente indisponível, usando Firestore em memória:', e);
+  db = initializeFirestore(app, {});
+}
+
 const auth = getAuth(app);
 
 // Sessão nunca expira sozinha -- só sai no clique explícito em "Sair".
@@ -120,6 +148,38 @@ async function sincronizarNaAbertura(uid) {
   }
 }
 
+// ── Listener em tempo real ───────────────────────────────────────────────
+// sincronizarNaAbertura() só roda 1x, no login/abertura -- se o celular
+// sincronizar depois que o notebook já estiver com a aba aberta, o notebook
+// não percebia sem fechar e reabrir. onSnapshot mantém uma conexão viva com
+// o doc usuarios/{uid} e reage a qualquer mudança (de outro dispositivo OU
+// deste mesmo, incluindo o eco da própria escrita -- ver guarda de
+// timestamp abaixo, que também evita loop: aplicar dado da nuvem não chama
+// marcarAtualizado(), então não gera uma nova escrita que disparasse o
+// listener de novo).
+let unsubscribeListener = null;
+
+function registrarListenerTempoReal(uid) {
+  if (unsubscribeListener) return; // já registrado (ex.: onAuthStateChanged duplicado)
+  unsubscribeListener = onSnapshot(docDoUsuario(uid), docSnap => {
+    if (!docSnap.exists()) return;
+    const dadosNuvem = docSnap.data();
+    const nuvemTs = Number(dadosNuvem.atualizadoEmCliente || 0);
+    const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
+    // <= (não só <): cobre o eco da própria escrita deste cliente, cujo
+    // timestamp é igual ao que acabou de gravar -- nada a aplicar.
+    if (nuvemTs <= localTs) return;
+    aplicarDadosDaNuvem(dadosNuvem);
+    window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
+  }, e => {
+    console.warn('[progressoSync] listener em tempo real falhou:', e);
+  });
+}
+
+function pararListenerTempoReal() {
+  if (unsubscribeListener) { unsubscribeListener(); unsubscribeListener = null; }
+}
+
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'hidden') flushImediato();
 });
@@ -180,6 +240,7 @@ function iniciarUI() {
   form?.addEventListener('submit', e => { e.preventDefault(); tentar('entrar'); });
   btnCadastrar?.addEventListener('click', () => tentar('cadastrar'));
   btnSair?.addEventListener('click', () => {
+    pararListenerTempoReal();
     localStorage.removeItem(CHAVE_LOGADO);
     signOut(auth);
   });
@@ -204,5 +265,14 @@ function atualizarUI(user) {
 iniciarUI();
 onAuthStateChanged(auth, async user => {
   atualizarUI(user);
-  if (user) await sincronizarNaAbertura(user.uid);
+  if (user) {
+    await sincronizarNaAbertura(user.uid);
+    // Registrado DEPOIS de sincronizarNaAbertura() -- essa função já
+    // resolveu qual lado (local x nuvem) está mais atualizado e aplicou o
+    // vencedor; registrar o listener antes correria o risco de reagir a um
+    // snapshot inicial "desatualizado" antes dessa resolução terminar.
+    registrarListenerTempoReal(user.uid);
+  } else {
+    pararListenerTempoReal();
+  }
 });

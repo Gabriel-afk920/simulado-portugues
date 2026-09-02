@@ -2,7 +2,7 @@
 
 // Bump this version whenever you deploy new files.
 // The browser detects any change in sw.js and reinstalls automatically.
-const CACHE_VERSION = 'v115';
+const CACHE_VERSION = 'v116';
 const CACHE_NAME    = `simulado-portugues-${CACHE_VERSION}`;
 
 const ASSETS = [
@@ -14,6 +14,7 @@ const ASSETS = [
   './js/init.js',
   './js/temas.js',
   './js/firebase-sync.js',
+  './js/lib/firebase/firebase-bundle.js',
   './questoes_banco.js',
   './icons/icon.svg',
   './icons/icon-192.png',
