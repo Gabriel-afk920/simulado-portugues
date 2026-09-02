@@ -9,7 +9,7 @@ const MATERIAS = [
   { id: 'informatica', nome: 'Noções de Informática', icon: '💻', desc: '📌 BACEN · IFPA — Hardware, Software, Windows, Linux, Editor de Textos, Planilhas Eletrônicas, Internet, Correio Eletrônico e Segurança da Informação' },
   { id: 'nocoes_de_direito', nome: 'Legislação', icon: '⚖️', desc: '📌 BACEN · IFPA — Direito Constitucional, Direito Administrativo, Lei 8.112/90, Lei 9.784/99, Lei 11.892/2008, Ética no Serviço Público e Sistema Financeiro Nacional' },
   { id: 'administracao_geral_e_publica', nome: 'Noções de Administração', icon: '🏛️', desc: '📌 BACEN · IFPA — Administração Geral, Gestão de Pessoas, Arquivologia, Licitações e Contratos, Gestão de Projetos, Gestão Estratégica e da Qualidade, Administração Pública, Contabilidade Básica e Gestão de Recursos Materiais e Patrimoniais' },
-  { id: 'atualidades', nome: 'Atualidades', icon: '📰', desc: '📌 BACEN — Atualidades Gerais (política, economia, meio ambiente, saúde, educação, segurança, relações internacionais) e Atualidades do Mercado Financeiro (Selic, câmbio, Drex, criptoativos, ESG)' },
+  { id: 'atualidades', nome: 'Atualidades', icon: '📰', desc: '📌 BACEN · IFPA — Atualidades Gerais (política, economia, meio ambiente, saúde, educação, segurança, relações internacionais) e Atualidades do Mercado Financeiro (Selic, câmbio, Drex, criptoativos, ESG)' },
 ];
 
 // ══════════════════════════════════════════════════════════
@@ -7143,7 +7143,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "gestao_recursos_materiais", materia: 'administracao_geral_e_publica',
     nome: "Gestão de Recursos Materiais e Patrimoniais",
     icon: "📦",
-    desc: "📌 BACEN — Classificação de materiais, estoques, curva ABC, inventário, almoxarifado, tombamento e alienação",
+    desc: "📌 BACEN · IFPA — Classificação de materiais, estoques, curva ABC, inventário, almoxarifado, tombamento e alienação",
     teoria: `
 <h3>Classificação de materiais: permanente x consumo</h3>
 <p>Distinção essencial no setor público, base do controle patrimonial e da execução orçamentária (classificação da despesa por natureza — Lei 4.320/64 e Portaria Interministerial STN/SOF que detalha os critérios). Um material é classificado como <strong>permanente</strong> quando atende <strong>cumulativamente</strong> aos critérios abaixo (MCASP — Manual de Contabilidade Aplicada ao Setor Público); se não atender a algum deles, é <strong>material de consumo</strong>:</p>
@@ -7240,7 +7240,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "atualidades_gerais", materia: 'atualidades',
     nome: "Atualidades Gerais",
     icon: "🌎",
-    desc: "📌 BACEN — Política nacional, economia, meio ambiente, saúde, educação, segurança pública, relações internacionais e direitos sociais",
+    desc: "📌 BACEN · IFPA — Política nacional, economia, meio ambiente, saúde, educação, segurança pública, relações internacionais e direitos sociais",
     teoria: `
 <h3>O que é cobrado em "Atualidades" nos concursos públicos</h3>
 <p>O tema <strong>Atualidades</strong> avalia o conhecimento do candidato sobre fatos relevantes ocorridos, tipicamente, nos <strong>últimos 12 a 24 meses</strong> antes da prova — política nacional e internacional, economia, meio ambiente, saúde, educação, segurança pública, ciência e tecnologia, direitos humanos. Diferente das demais matérias (que cobram teoria estável), Atualidades exige <strong>acompanhamento constante de notícias</strong> — este material cobre a estrutura conceitual e os órgãos/indicadores/siglas que se repetem em prova, servindo de base fixa para interpretar qualquer fato novo que a banca traga.</p>
