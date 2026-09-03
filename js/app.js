@@ -891,14 +891,16 @@ function registrarResposta(escolhida) {
   const pts           = acertou ? (usouTeoria ? 0.5 : 1) : 0;
   pontuacao          += pts;
 
-  respostasMap[indiceAtual] = {
-    acertou, escolhida, pts, usouTeoria,
-    corretaIdx: q.correta,
-    enunciado:  q.enunciado,
-    opcoes:     q.opcoes,
-    explicacao: q.explicacao,
-    banca:      q.banca, ano: q.ano
-  };
+  // Só metadados leves -- enunciado/opções/explicação/corretaIdx/banca/ano
+  // NÃO entram aqui: já existem em questoes_banco.js nos dois dispositivos,
+  // reconstituídos em mostrarResultado() a partir de questoes[idx] (a
+  // mesma questão, buscada localmente) em vez de duplicados aqui. Achado
+  // real: essa duplicação inflava sessoes_ativas (documento sincronizado
+  // com o Firestore a cada resposta) o suficiente pra atrasar a
+  // confirmação do setDoc() em alguns segundos -- com sessões grandes
+  // (muitas questões respondidas), o segundo dispositivo podia checar a
+  // nuvem antes da escrita confirmar e ler dado desatualizado.
+  respostasMap[indiceAtual] = { acertou, escolhida, pts, usouTeoria };
   _atualizarQDif(q, acertou, usouTeoria);
   _atualizarPlacar();
   _salvarSessaoAtiva();
@@ -1042,9 +1044,12 @@ function mostrarResultado() {
       div.innerHTML = `<div class="ri-q">${idx + 1}. ${eq}…</div><div class="ri-resp"><span class="err">⏭ Pulada</span></div>`;
     } else {
       div.className = `review-item ${r.acertou ? 'acertou' : 'errou'}`;
-      const eq     = r.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
-      const rt     = r.opcoes[r.escolhida];
-      const ct     = r.opcoes[r.corretaIdx];
+      // enunciado/opções vêm de q (a questão local, mesma fonte usada em
+      // todo o resto do app) -- não de r, que só guarda metadados leves
+      // (ver comentário em registrarResposta()).
+      const eq     = q.enunciado.replace(/<[^>]+>/g, '').substring(0, 120);
+      const rt     = q.opcoes[r.escolhida];
+      const ct     = q.opcoes[q.correta];
       const ptLabel = r.pts === 1 ? '1 pt' : r.pts === 0.5 ? '0,5 pt' : '0 pt';
       const teoriaTag = r.usouTeoria ? ' <span class="ri-teoria-tag">📖 teoria consultada</span>' : '';
       div.innerHTML = `

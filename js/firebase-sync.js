@@ -89,12 +89,14 @@ async function enviarParaNuvem() {
   const dados = {};
   CHAVES.forEach(chave => { dados[chave] = localStorage.getItem(chave) || ''; });
   dados.atualizadoEmCliente = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || Date.now());
-  console.log('[progressoSync][DIAG] enviarParaNuvem: enviando pra usuarios/' + auth.currentUser.uid, { atualizadoEmCliente: dados.atualizadoEmCliente, tamanhos: Object.fromEntries(CHAVES.map(c => [c, (dados[c] || '').length])) });
+  const bytesTotais = new TextEncoder().encode(JSON.stringify(dados)).length;
+  console.log('[progressoSync][DIAG] enviarParaNuvem: enviando pra usuarios/' + auth.currentUser.uid, { atualizadoEmCliente: dados.atualizadoEmCliente, tamanhos: Object.fromEntries(CHAVES.map(c => [c, (dados[c] || '').length])), bytesTotais });
+  const t0 = Date.now();
   try {
     await setDoc(docDoUsuario(auth.currentUser.uid), dados);
-    console.log('[progressoSync][DIAG] enviarParaNuvem: OK, gravado com sucesso');
+    console.log('[progressoSync][DIAG] enviarParaNuvem: OK, gravado com sucesso em ' + (Date.now() - t0) + 'ms');
   } catch (e) {
-    console.warn('[progressoSync] falha ao enviar pro Firestore:', e, '| code:', e && e.code);
+    console.warn('[progressoSync] falha ao enviar pro Firestore:', e, '| code:', e && e.code, '| apos', (Date.now() - t0) + 'ms');
   }
 }
 

@@ -35,9 +35,18 @@
 import { chromium } from 'playwright';
 
 const URL = 'https://gabriel-afk920.github.io/simulado-portugues/';
-const EMAIL = 'rochagabriel5740@gmail.com';
+// EMAIL/SENHA sobrescrevíveis via ambiente -- por padrão usa a conta de
+// teste dedicada (segura pra "Novo simulado" limpar sessão sem risco). Se
+// apontar pra uma conta com progresso real, escolher temaId_A/temaId_B
+// que NÃO tenham sessão ativa ainda (senão o script clica em "Novo
+// simulado" e apaga progresso genuíno).
+const EMAIL = process.env.SYNC_TEST_EMAIL || 'rochagabriel5740@gmail.com';
 const SENHA = process.env.TEST_PASSWORD;
 if (!SENHA) { console.error('Defina TEST_PASSWORD no ambiente antes de rodar.'); process.exit(1); }
+const TEMA_A = process.env.SYNC_TEST_TEMA_A || 'etica_servico_publico';
+const MATERIA_A = process.env.SYNC_TEST_MATERIA_A || 'nocoes_de_direito';
+const TEMA_B = process.env.SYNC_TEST_TEMA_B || 'gestao_recursos_materiais';
+const MATERIA_B = process.env.SYNC_TEST_MATERIA_B || 'administracao_geral_e_publica';
 
 function attachLogCapture(page, nome, sink) {
   page.on('console', msg => {
@@ -197,8 +206,8 @@ async function rodarCenario(browser, nome, origemNome, destinoNome, materiaId, t
 const browser = await chromium.launch();
 const SCRATCH = 'C:/Users/GABRIE~1/AppData/Local/Temp/claude/C--Users-Gabriel-Rocha-OneDrive--rea-de-Trabalho-algoritmoIA/db6284a3-fe41-4ec9-821d-806e0a4c517d/scratchpad';
 
-const resultadoA = await rodarCenario(browser, 'CENARIO A (notebook -> celular)', 'notebook', 'celular', 'nocoes_de_direito', 'etica_servico_publico', SCRATCH + '/cenario_A_final.png');
-const resultadoB = await rodarCenario(browser, 'CENARIO B (celular -> notebook)', 'celular', 'notebook', 'administracao_geral_e_publica', 'gestao_recursos_materiais', SCRATCH + '/cenario_B_final.png');
+const resultadoA = await rodarCenario(browser, 'CENARIO A (notebook -> celular)', 'notebook', 'celular', MATERIA_A, TEMA_A, SCRATCH + '/cenario_A_final.png');
+const resultadoB = await rodarCenario(browser, 'CENARIO B (celular -> notebook)', 'celular', 'notebook', MATERIA_B, TEMA_B, SCRATCH + '/cenario_B_final.png');
 
 await browser.close();
 
