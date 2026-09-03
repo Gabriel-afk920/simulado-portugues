@@ -560,11 +560,21 @@ function selecionarTemaQuiz(id, card) {
   document.querySelectorAll('#quiz-tema-grid .tema-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   temaAtual = TEMAS.find(t => t.id === id);
+  _atualizarBoxContinuar();
+}
+
+// Extraído de selecionarTemaQuiz() pra poder ser re-chamado quando um dado
+// sincronizado de outro dispositivo chega em tempo real (evento
+// 'syncRecebido', disparado por firebase-sync.js) enquanto o usuário já
+// está com essa tela aberta -- sem isso, uma sessão nova sincronizada só
+// aparecia depois de sair e voltar pra essa tela (re-clicar no card).
+function _atualizarBoxContinuar() {
+  if (!temaAtual) return;
   const semQuestoes = !temaAtual.questoes.length;
   const btn = document.getElementById('btn-iniciar');
   const box = document.getElementById('continuar-box');
 
-  const sessao = _sessaoAtiva(id);
+  const sessao = _sessaoAtiva(temaAtual.id);
   if (sessao && !semQuestoes) {
     const respondidas = Object.keys(sessao.respostasMap || {}).length;
     document.getElementById('continuar-info').textContent =
@@ -580,6 +590,17 @@ function selecionarTemaQuiz(id, card) {
     btn.textContent = semQuestoes ? 'Sem questões disponíveis' : 'Iniciar Simulado';
   }
 }
+
+// 'syncRecebido' (ver firebase-sync.js) dispara sempre que o listener em
+// tempo real (onSnapshot) aplica dado novo vindo de outro dispositivo --
+// se o usuário estiver na tela de seleção de tema do Simulado nesse
+// momento, reavalia o botão Continuar/Iniciar pro tema selecionado.
+window.addEventListener('syncRecebido', () => {
+  const telaTopicos = document.getElementById('screen-quiz-topics');
+  if (telaTopicos && !telaTopicos.classList.contains('hidden')) {
+    _atualizarBoxContinuar();
+  }
+});
 
 document.getElementById('btn-iniciar').addEventListener('click', () => {
   if (temaAtual) { _limparSessaoAtiva(temaAtual.id); iniciarSimulado(temaAtual); }
