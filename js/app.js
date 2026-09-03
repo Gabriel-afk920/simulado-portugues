@@ -55,6 +55,7 @@ function _todasSessoesAtivas() {
 function _salvarSessaoAtiva() {
   if (!temaAtual || !questoes.length) return;
   const mapa = _todasSessoesAtivas();
+  const eSessaoNova = !mapa[temaAtual.id]; // tema ainda não tinha sessão salva -- 1º save desta sessão
   mapa[temaAtual.id] = {
     temaId:           temaAtual.id,
     questaoHashes:    questoes.map(_hashConteudo),
@@ -65,7 +66,10 @@ function _salvarSessaoAtiva() {
     pontuacao,
   };
   localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
-  if (window.progressoSync) window.progressoSync.marcarAtualizado();
+  // Sessão nova -- envia pra nuvem na hora (não espera o debounce de 1,5s).
+  // Sem isso, um 2º dispositivo que abrisse o app dentro dessa janela via
+  // sincronizarNaAbertura() ainda não encontraria a sessão nova lá.
+  if (window.progressoSync) window.progressoSync.marcarAtualizado(eSessaoNova);
 }
 
 function _sessaoAtiva(temaId) {

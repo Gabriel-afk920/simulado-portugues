@@ -124,6 +124,27 @@ async function buscarDaNuvem(uid) {
   }
 }
 
+// Timestamp igual não significa dado igual -- ex.: os 2 dispositivos
+// sincronizaram juntos antes, ficando com o mesmo atualizadoEmCliente, e
+// SÓ DEPOIS um deles (ex.: notebook) iniciou um simulado. Se esse envio
+// falhar por qualquer motivo (rede, permissão) antes do outro dispositivo
+// checar a nuvem, o doc na nuvem continua com o timestamp antigo -- que
+// por coincidência bate com o localTs do segundo dispositivo, que nunca
+// mudou nada. Nesse empate, decide por CONTEÚDO: se a nuvem tem uma sessão
+// ativa que o local não tem, aplica da nuvem (nunca o contrário -- os dois
+// terem sessão, ou nenhum ter, em empate de timestamp é ambíguo demais pra
+// decidir sem risco de sobrescrever progresso; nesse caso não faz nada).
+function temSessaoAtiva(sessoesJson) {
+  if (!sessoesJson) return false;
+  try {
+    const sessoes = JSON.parse(sessoesJson);
+    return Object.values(sessoes).some(s =>
+      s && s.questaoHashes && s.questaoHashes.length > 0 &&
+      s.indiceAtual < s.questaoHashes.length
+    );
+  } catch { return false; }
+}
+
 function aplicarDadosDaNuvem(dadosNuvem) {
   console.log('[progressoSync][DIAG] aplicarDadosDaNuvem: aplicando no localStorage', { atualizadoEmCliente: dadosNuvem.atualizadoEmCliente });
   CHAVES.forEach(chave => {
@@ -157,7 +178,15 @@ async function sincronizarNaAbertura(uid) {
     console.log('[progressoSync][DIAG] sincronizarNaAbertura: local mais novo -> enviando pra nuvem');
     await enviarParaNuvem();
   } else {
-    console.log('[progressoSync][DIAG] sincronizarNaAbertura: timestamps iguais, nada a fazer');
+    const nuvemTemSessao = temSessaoAtiva(nuvem.sessoes_ativas);
+    const localTemSessao = temSessaoAtiva(localStorage.getItem('sessoes_ativas'));
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: timestamps iguais. nuvemTemSessao=' + nuvemTemSessao + ' localTemSessao=' + localTemSessao);
+    if (nuvemTemSessao && !localTemSessao) {
+      console.log('[progressoSync][DIAG] sincronizarNaAbertura: empate, mas nuvem tem sessão que o local não tem -> aplicando');
+      aplicarDadosDaNuvem(nuvem);
+    } else {
+      console.log('[progressoSync][DIAG] sincronizarNaAbertura: empate ambíguo (ambos ou nenhum têm sessão) -> nada a fazer');
+    }
   }
 }
 
@@ -187,10 +216,21 @@ function registrarListenerTempoReal(uid) {
     const dadosNuvem = docSnap.data();
     const nuvemTs = Number(dadosNuvem.atualizadoEmCliente || 0);
     const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
-    console.log('[progressoSync][DIAG] onSnapshot: nuvemTs=' + nuvemTs + ' localTs=' + localTs + (nuvemTs <= localTs ? ' -> ignorado (nao mais novo)' : ' -> vai aplicar'));
-    // <= (não só <): cobre o eco da própria escrita deste cliente, cujo
-    // timestamp é igual ao que acabou de gravar -- nada a aplicar.
-    if (nuvemTs <= localTs) return;
+    console.log('[progressoSync][DIAG] onSnapshot: nuvemTs=' + nuvemTs + ' localTs=' + localTs);
+    let aplicar = false;
+    if (nuvemTs > localTs) {
+      aplicar = true;
+    } else if (nuvemTs === localTs) {
+      // Mesmo empate de sincronizarNaAbertura() -- cobre também o eco da
+      // própria escrita deste cliente (nesse caso nuvem e local têm o
+      // mesmo conteúdo, então nuvemTemSessao === localTemSessao e a
+      // condição abaixo não aplica nada, sem risco de loop).
+      const nuvemTemSessao = temSessaoAtiva(dadosNuvem.sessoes_ativas);
+      const localTemSessao = temSessaoAtiva(localStorage.getItem('sessoes_ativas'));
+      aplicar = nuvemTemSessao && !localTemSessao;
+    }
+    console.log('[progressoSync][DIAG] onSnapshot: ' + (aplicar ? 'vai aplicar' : 'ignorado'));
+    if (!aplicar) return;
     aplicarDadosDaNuvem(dadosNuvem);
     window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
   }, e => {
@@ -208,10 +248,15 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('pagehide', flushImediato);
 
 window.progressoSync = {
-  marcarAtualizado() {
-    console.log('[progressoSync][DIAG] marcarAtualizado() chamado');
+  // imediato=true pula o debounce de 1,5s e envia na hora -- usado por
+  // app.js quando uma sessão NOVA é salva pela 1ª vez (início de simulado),
+  // pra reduzir a janela em que um 2º dispositivo abre o app e ainda não
+  // encontra a sessão na nuvem via sincronizarNaAbertura(). Progresso
+  // rotineiro (resposta a resposta) continua com debounce normal.
+  marcarAtualizado(imediato) {
+    console.log('[progressoSync][DIAG] marcarAtualizado() chamado, imediato=' + !!imediato);
     localStorage.setItem(CHAVE_ATUALIZADO_EM, String(Date.now()));
-    enviarComDebounce();
+    if (imediato) flushImediato(); else enviarComDebounce();
   },
 };
 console.log('[progressoSync][DIAG] modulo carregado -- window.progressoSync existe agora, typeof:', typeof window.progressoSync);
