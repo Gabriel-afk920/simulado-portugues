@@ -130,19 +130,32 @@ async function buscarDaNuvem(uid) {
 // falhar por qualquer motivo (rede, permissão) antes do outro dispositivo
 // checar a nuvem, o doc na nuvem continua com o timestamp antigo -- que
 // por coincidência bate com o localTs do segundo dispositivo, que nunca
-// mudou nada. Nesse empate, decide por CONTEÚDO: se a nuvem tem uma sessão
-// ativa que o local não tem, aplica da nuvem (nunca o contrário -- os dois
-// terem sessão, ou nenhum ter, em empate de timestamp é ambíguo demais pra
-// decidir sem risco de sobrescrever progresso; nesse caso não faz nada).
-function temSessaoAtiva(sessoesJson) {
-  if (!sessoesJson) return false;
-  try {
-    const sessoes = JSON.parse(sessoesJson);
-    return Object.values(sessoes).some(s =>
-      s && s.questaoHashes && s.questaoHashes.length > 0 &&
-      s.indiceAtual < s.questaoHashes.length
-    );
-  } catch { return false; }
+// mudou nada.
+//
+// Nesse empate, em vez de só decidir "aplica tudo" ou "não faz nada" (que
+// perderia progresso genuíno de QUALQUER um dos lados quando os dois têm
+// sessões ativas -- ex.: notebook com 12 temas em andamento, celular
+// inicia um 13º antes de checar a nuvem), mescla os 2 mapas de
+// sessoes_ativas por temaId: tema que só existe de um lado entra como
+// está; tema presente nos dois fica com quem tiver indiceAtual maior
+// (proxy de "mais avançado/mais recente" quando não dá pra confiar só no
+// timestamp do documento inteiro).
+function parseSessoes(sessoesJson) {
+  if (!sessoesJson) return {};
+  try { return JSON.parse(sessoesJson) || {}; } catch { return {}; }
+}
+
+function mesclarSessoesAtivas(localJson, nuvemJson) {
+  const localMapa  = parseSessoes(localJson);
+  const nuvemMapa   = parseSessoes(nuvemJson);
+  const mesclado = { ...localMapa };
+  for (const [temaId, sessaoNuvem] of Object.entries(nuvemMapa)) {
+    const sessaoLocal = mesclado[temaId];
+    if (!sessaoLocal || (sessaoNuvem.indiceAtual || 0) > (sessaoLocal.indiceAtual || 0)) {
+      mesclado[temaId] = sessaoNuvem;
+    }
+  }
+  return mesclado;
 }
 
 function aplicarDadosDaNuvem(dadosNuvem) {
@@ -153,6 +166,29 @@ function aplicarDadosDaNuvem(dadosNuvem) {
     }
   });
   localStorage.setItem(CHAVE_ATUALIZADO_EM, String(dadosNuvem.atualizadoEmCliente || Date.now()));
+}
+
+// Chamado no empate de timestamp (ver mesclarSessoesAtivas acima). Só
+// mexe em sessoes_ativas -- desempenho/qdif não entram nesse merge, ficam
+// como já estavam localmente (não há como os 2 lados terem timestamp
+// igual E terem progredido de forma diferente nessas 2 chaves sem que
+// sessoes_ativas também tivesse mudado, então tratar só ela é suficiente).
+// Se o merge mudou algo em relação ao que já estava local, grava local
+// com timestamp novo E reenvia pra nuvem -- sem isso, o outro dispositivo
+// nunca saberia da mescla e ficaria preso no mesmo empate indefinidamente.
+async function mesclarEEnviarSeMudou(nome, nuvemSessoesJson) {
+  const localAtual = localStorage.getItem('sessoes_ativas');
+  const mesclado = mesclarSessoesAtivas(localAtual, nuvemSessoesJson);
+  const mescladoJson = JSON.stringify(mesclado);
+  if (mescladoJson === (localAtual || '{}')) {
+    console.log(`[progressoSync][DIAG] ${nome}: empate, merge não mudou nada (dados já convergentes) -> nada a fazer`);
+    return false;
+  }
+  console.log(`[progressoSync][DIAG] ${nome}: empate com conteúdo divergente -> mesclando e reenviando`);
+  localStorage.setItem('sessoes_ativas', mescladoJson);
+  localStorage.setItem(CHAVE_ATUALIZADO_EM, String(Date.now()));
+  await enviarParaNuvem();
+  return true;
 }
 
 // Roda a cada login (inclusive o automático da sessão persistida): compara
@@ -178,15 +214,8 @@ async function sincronizarNaAbertura(uid) {
     console.log('[progressoSync][DIAG] sincronizarNaAbertura: local mais novo -> enviando pra nuvem');
     await enviarParaNuvem();
   } else {
-    const nuvemTemSessao = temSessaoAtiva(nuvem.sessoes_ativas);
-    const localTemSessao = temSessaoAtiva(localStorage.getItem('sessoes_ativas'));
-    console.log('[progressoSync][DIAG] sincronizarNaAbertura: timestamps iguais. nuvemTemSessao=' + nuvemTemSessao + ' localTemSessao=' + localTemSessao);
-    if (nuvemTemSessao && !localTemSessao) {
-      console.log('[progressoSync][DIAG] sincronizarNaAbertura: empate, mas nuvem tem sessão que o local não tem -> aplicando');
-      aplicarDadosDaNuvem(nuvem);
-    } else {
-      console.log('[progressoSync][DIAG] sincronizarNaAbertura: empate ambíguo (ambos ou nenhum têm sessão) -> nada a fazer');
-    }
+    console.log('[progressoSync][DIAG] sincronizarNaAbertura: timestamps iguais -> mesclando sessoes_ativas');
+    await mesclarEEnviarSeMudou('sincronizarNaAbertura', nuvem.sessoes_ativas);
   }
 }
 
@@ -210,29 +239,25 @@ function registrarListenerTempoReal(uid) {
   // (fromCache=true = sem conexão real com o backend agora). Não muda o
   // comportamento de aplicar/ignorar (isso continua só pela guarda de
   // timestamp abaixo).
-  unsubscribeListener = onSnapshot(docDoUsuario(uid), { includeMetadataChanges: true }, docSnap => {
+  unsubscribeListener = onSnapshot(docDoUsuario(uid), { includeMetadataChanges: true }, async docSnap => {
     console.log('[progressoSync][DIAG] onSnapshot disparou. exists=' + docSnap.exists() + ' hasPendingWrites=' + docSnap.metadata.hasPendingWrites + ' fromCache=' + docSnap.metadata.fromCache);
     if (!docSnap.exists()) return;
     const dadosNuvem = docSnap.data();
     const nuvemTs = Number(dadosNuvem.atualizadoEmCliente || 0);
     const localTs = Number(localStorage.getItem(CHAVE_ATUALIZADO_EM) || 0);
     console.log('[progressoSync][DIAG] onSnapshot: nuvemTs=' + nuvemTs + ' localTs=' + localTs);
-    let aplicar = false;
     if (nuvemTs > localTs) {
-      aplicar = true;
+      aplicarDadosDaNuvem(dadosNuvem);
+      window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
     } else if (nuvemTs === localTs) {
       // Mesmo empate de sincronizarNaAbertura() -- cobre também o eco da
-      // própria escrita deste cliente (nesse caso nuvem e local têm o
-      // mesmo conteúdo, então nuvemTemSessao === localTemSessao e a
-      // condição abaixo não aplica nada, sem risco de loop).
-      const nuvemTemSessao = temSessaoAtiva(dadosNuvem.sessoes_ativas);
-      const localTemSessao = temSessaoAtiva(localStorage.getItem('sessoes_ativas'));
-      aplicar = nuvemTemSessao && !localTemSessao;
+      // própria escrita deste cliente (nesse caso o merge não muda nada,
+      // já que nuvem e local têm o mesmo conteúdo -- sem risco de loop).
+      const mudou = await mesclarEEnviarSeMudou('onSnapshot', dadosNuvem.sessoes_ativas);
+      if (mudou) window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
+    } else {
+      console.log('[progressoSync][DIAG] onSnapshot: local mais novo, ignorado');
     }
-    console.log('[progressoSync][DIAG] onSnapshot: ' + (aplicar ? 'vai aplicar' : 'ignorado'));
-    if (!aplicar) return;
-    aplicarDadosDaNuvem(dadosNuvem);
-    window.dispatchEvent(new CustomEvent('syncRecebido', { detail: dadosNuvem }));
   }, e => {
     console.warn('[progressoSync] listener em tempo real falhou:', e, '| code:', e && e.code);
   });
