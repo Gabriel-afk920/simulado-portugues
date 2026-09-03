@@ -183,21 +183,49 @@ function _restaurarSessaoAtiva(s, tema) {
 //  SISTEMA ADAPTATIVO DE DIFICULDADE (localStorage)
 // ══════════════════════════════════════════════════════════
 // Identidade de questão usada em todo o app (sessão salva, exclusão de já
-// vistas, dificuldade adaptativa): enunciado INTEIRO (sem truncar) +
-// alternativas ordenadas, não hash truncado por banca/ano/50 chars -- baterias
-// CEBRASPE ("julgue o item a seguir") têm várias questões DISTINTAS que
-// compartilham o mesmo preâmbulo/texto associado e só divergem depois
-// (truncar em 50 chars colapsava ~39% do banco por engano -- confirmado
-// contando colisões reais em questoes_banco.js, ver auditoria do bug de
-// questões repetidas no simulado); e questões cujo enunciado é um boilerplate
-// genérico ("Assinale a alternativa correta.") têm o conteúdo real nas
-// alternativas -- comparar só o enunciado junta questões totalmente
-// diferentes. Alternativas entram ORDENADAS pra uma reraspagem com
-// alternativas embaralhadas continuar batendo com o hash.
+// vistas, dificuldade adaptativa): baseada no enunciado INTEIRO (sem
+// truncar) + alternativas ordenadas, não um recorte por banca/ano/50
+// chars -- baterias CEBRASPE ("julgue o item a seguir") têm várias
+// questões DISTINTAS que compartilham o mesmo preâmbulo/texto associado
+// e só divergem depois (truncar em 50 chars colapsava ~39% do banco por
+// engano -- confirmado contando colisões reais em questoes_banco.js, ver
+// auditoria do bug de questões repetidas no simulado); e questões cujo
+// enunciado é um boilerplate genérico ("Assinale a alternativa
+// correta.") têm o conteúdo real nas alternativas -- comparar só o
+// enunciado junta questões totalmente diferentes. Alternativas entram
+// ORDENADAS pra uma reraspagem com alternativas embaralhadas continuar
+// batendo com o hash.
+//
+// Até 02/09/2026, a "identidade" era literalmente esse texto completo
+// normalizado devolvido como está -- não um hash de verdade. Achado
+// real: questaoHashes guarda 1 entrada por questão do TEMA INTEIRO (não
+// só as respondidas -- shuffleAdaptativo() embaralha o banco todo), então
+// uma sessão ativa em um tema de ~1000 questões carregava ~1000 textos
+// completos de questão no localStorage e no documento sincronizado com o
+// Firestore -- centenas de KB, atrasando a confirmação do setDoc() em
+// vários segundos (o dispositivo que checasse a sincronização nessa
+// janela via getDoc/sincronizarNaAbertura lia dado desatualizado).
+// cyrb53 (bryc, hash não-criptográfico de 53 bits) resolve isso: mesma
+// entrada (enunciado+alternativas normalizados), saída curta (~10 chars
+// em base36) em vez do texto bruto. Trocar o formato invalida sessões
+// salvas com o formato antigo -- coberto pela guarda de incompatibilidade
+// em _restaurarSessaoAtiva() (>50% dos hashes não batem -> descarta e
+// reinicia, mesmo mecanismo da migração _qHash -> _hashConteudo, v104).
+function _hashString53(str, seed = 0) {
+  let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+}
 function _hashConteudo(q) {
   const norm = s => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
   const opcoesOrdenadas = (q.opcoes || []).map(norm).sort().join('|');
-  return norm(q.enunciado) + '::' + opcoesOrdenadas;
+  return _hashString53(norm(q.enunciado) + '::' + opcoesOrdenadas);
 }
 function _dedupPorConteudo(qs) {
   const vistos = new Set();
