@@ -52,6 +52,26 @@ function _todasSessoesAtivas() {
   } catch { return {}; }
 }
 
+// Migração: até 02/09/2026, cada resposta guardava enunciado/opções/
+// explicação/corretaIdx/banca/ano completos (removido -- ver
+// registrarResposta()). Sessões de outros temas salvas antes disso ainda
+// carregam esses campos pesados no localStorage/nuvem, e continuariam
+// sendo reenviadas ao Firestore a cada save (achado real: 1 conta de
+// teste acumulou 854KB nisso, inflando o setDoc() em vários segundos).
+// Saneia toda vez que salva -- não só o tema atual, que já não tem esses
+// campos, mas TODOS os temas presentes no mapa (inclusive os que vieram
+// sincronizados da nuvem), pra bloat antigo não persistir indefinidamente.
+function _sanearRespostasMap(sessao) {
+  if (!sessao || !sessao.respostasMap) return sessao;
+  const CAMPOS_PESADOS = ['enunciado', 'opcoes', 'explicacao', 'corretaIdx', 'banca', 'ano'];
+  for (const idx in sessao.respostasMap) {
+    const r = sessao.respostasMap[idx];
+    if (!r) continue;
+    CAMPOS_PESADOS.forEach(campo => { if (campo in r) delete r[campo]; });
+  }
+  return sessao;
+}
+
 function _salvarSessaoAtiva() {
   if (!temaAtual || !questoes.length) return;
   const mapa = _todasSessoesAtivas();
@@ -65,6 +85,7 @@ function _salvarSessaoAtiva() {
     teoriaConsultada,
     pontuacao,
   };
+  Object.values(mapa).forEach(_sanearRespostasMap);
   localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
   // Sessão nova -- envia pra nuvem na hora (não espera o debounce de 1,5s).
   // Sem isso, um 2º dispositivo que abrisse o app dentro dessa janela via

@@ -160,11 +160,36 @@ function mesclarSessoesAtivas(localJson, nuvemJson) {
   return mesclado;
 }
 
+// Migração: doc na nuvem gravado antes de 02/09/2026 (ou por um cliente
+// ainda na versão antiga) pode ter respostasMap com enunciado/opções/
+// explicação/corretaIdx/banca/ano completos por questão -- ver
+// app/js/app.js:registrarResposta(). Sanear ao APLICAR localmente evita
+// que esse peso fique parado no dispositivo até a próxima resposta
+// (que já saneia tudo via app.js:_salvarSessaoAtiva -- essa função é só
+// pra não deixar bloat velho sobrevivendo sem necessidade enquanto isso
+// não acontece).
+const CAMPOS_PESADOS_RESPOSTA = ['enunciado', 'opcoes', 'explicacao', 'corretaIdx', 'banca', 'ano'];
+function sanearSessoesAtivasJson(json) {
+  if (!json) return json;
+  let sessoes;
+  try { sessoes = JSON.parse(json); } catch { return json; }
+  let mudou = false;
+  Object.values(sessoes).forEach(sessao => {
+    if (!sessao || !sessao.respostasMap) return;
+    Object.values(sessao.respostasMap).forEach(r => {
+      if (!r) return;
+      CAMPOS_PESADOS_RESPOSTA.forEach(campo => { if (campo in r) { delete r[campo]; mudou = true; } });
+    });
+  });
+  return mudou ? JSON.stringify(sessoes) : json;
+}
+
 function aplicarDadosDaNuvem(dadosNuvem) {
   console.log('[progressoSync][DIAG] aplicarDadosDaNuvem: aplicando no localStorage', { atualizadoEmCliente: dadosNuvem.atualizadoEmCliente });
   CHAVES.forEach(chave => {
     if (typeof dadosNuvem[chave] === 'string') {
-      localStorage.setItem(chave, dadosNuvem[chave]);
+      const valor = chave === 'sessoes_ativas' ? sanearSessoesAtivasJson(dadosNuvem[chave]) : dadosNuvem[chave];
+      localStorage.setItem(chave, valor);
     }
   });
   localStorage.setItem(CHAVE_ATUALIZADO_EM, String(dadosNuvem.atualizadoEmCliente || Date.now()));
@@ -180,7 +205,7 @@ function aplicarDadosDaNuvem(dadosNuvem) {
 // nunca saberia da mescla e ficaria preso no mesmo empate indefinidamente.
 async function mesclarEEnviarSeMudou(nome, nuvemSessoesJson) {
   const localAtual = localStorage.getItem('sessoes_ativas');
-  const mesclado = mesclarSessoesAtivas(localAtual, nuvemSessoesJson);
+  const mesclado = mesclarSessoesAtivas(localAtual, sanearSessoesAtivasJson(nuvemSessoesJson));
   const mescladoJson = JSON.stringify(mesclado);
   if (mescladoJson === (localAtual || '{}')) {
     console.log(`[progressoSync][DIAG] ${nome}: empate, merge não mudou nada (dados já convergentes) -> nada a fazer`);
