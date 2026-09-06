@@ -778,31 +778,7 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
 }
 
 function _iniciarTimerQuestao() {
-  clearInterval(timerInterval);
-  tempoSimulado = TEMPO_POR_QUESTAO;
-  const timerEl = document.getElementById('timer-box');
-  timerEl.textContent = _fmtTempo(tempoSimulado);
-  timerEl.className   = 'timer-box';
-  timerInterval = setInterval(() => {
-    if (simuladoPausado) return;
-    tempoSimulado--;
-    timerEl.textContent = _fmtTempo(tempoSimulado);
-    if      (tempoSimulado <= 60)  timerEl.className = 'timer-box danger';
-    else if (tempoSimulado <= 120) timerEl.className = 'timer-box warning';
-    if (tempoSimulado <= 0) {
-      clearInterval(timerInterval);
-      registrarResposta(-1);
-      setTimeout(() => {
-        indiceAtual++;
-        if (indiceAtual < questoes.length) {
-          _salvarSessaoAtiva(); // sem isso, uma pausa nesses 2s deixava a sessão salva uma questão atrás da tela
-          renderQuestao();
-        } else {
-          mostrarResultado();
-        }
-      }, 2000);
-    }
-  }, 1000);
+  // Timer desativado temporariamente
 }
 
 function _atualizarPlacar() {
@@ -822,14 +798,9 @@ function renderQuestao() {
   respondeu       = jaResp;
   selecionadaAtual = null;
 
-  if (jaResp) {
-    clearInterval(timerInterval);
-    const timerEl = document.getElementById('timer-box');
-    timerEl.textContent = '0:00';
-    timerEl.className   = 'timer-box';
-  } else {
-    _iniciarTimerQuestao();
-  }
+  clearInterval(timerInterval);
+  const timerEl = document.getElementById('timer-box');
+  if (timerEl) timerEl.style.display = 'none';
 
   _atualizarPlacar();
   document.getElementById('progress-info').textContent = emRodadaPuladas
