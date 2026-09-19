@@ -20,156 +20,753 @@ const TEMAS = [
   {
     id: "ditongos", materia: 'portugues', nome: "Ditongos", icon: "🔤", desc: "📌 BACEN · IFPA — Encontros vocálicos",
     teoria: `
-<h3>Método Visual Definitivo: Ditongo ou Hiato (Teoria Completa)</h3>
-
-<h3>1. Passo 0 — Ache a Sílaba Tônica Primeiro (Por Escrita)</h3>
-<ol style="padding-left:18px;margin-bottom:10px;">
-  <li>Tem acento gráfico (´ ou ^) na palavra? → A tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
-  <li>Não tem acento? Use a regra de terminação:
-    <ul>
-      <li>Termina em <strong>-a, -e, -o, -em, -ens</strong> → Tônica é a penúltima sílaba.</li>
-      <li>Termina em <strong>-i, -u, -r, -l, -z, -x, -im, -um, -ns</strong> → Tônica é a última sílaba.</li>
+<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
+  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISAO RAPIDA - Ditongo ou Hiato?</div>
+  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.8;margin:0 0 14px 0;padding-left:18px;">
+    <li><strong style="color:#fbbf24;">I ou U com acento escrito (i, u com acento)?</strong> HIATO sem excecao. saude, juizo, ai, bau, pais</li>
+    <li><strong style="color:#fbbf24;">Duas vogais IGUAIS seguidas?</strong> HIATO sem excecao. voo, leem, caatinga</li>
+    <li><strong style="color:#fbbf24;">Sequencia com A ou E antes/depois de outra vogal (ao, oa, ae, eo)?</strong> HIATO - A e E nunca sao semivogais. caos, poeta, real, moeda</li>
+    <li><strong style="color:#fbbf24;">Nenhuma das regras acima?</strong> DITONGO - I ou U atono ao lado de outra vogal na mesma silaba.</li>
+  </ol>
+  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
+    <thead>
+      <tr style="background:#1e3a5f;">
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequencia</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Tipo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo</th>
+        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, ui, au, eu, ou</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO decrescente oral</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono APOS vogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO crescente oral</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I/U atono ANTES de vogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">serie, gloria, vacuo, tenue</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ao, ae, oe (com til)</td>
+        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal decrescente</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Vogal nasal (til) + semivogal</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">pao, mae, coracoes, bem</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">i com acento+vogal, u com acento+vogal</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">Acento escrito = I/U tonico = vogal plena</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">saude, juizo, miope, saia</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io (I tonico sem acento)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">I tonico na silaba propria</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">poesia (po-e-si-a), fiel (fi-el)</td>
+      </tr>
+      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
+        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao (sem til)</td>
+        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
+        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca sao semivogais</td>
+        <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
+    <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
+    <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
+      <li><strong>solidao</strong> = so-li-DAO: -AO no final com til = DITONGO nasal decrescente</li>
+      <li><strong>saudade</strong> = SAU-da-de: AU = DITONGO oral decrescente</li>
+      <li><strong>saude</strong> = sa-U-de: U com acento = HIATO</li>
+      <li><strong>poesia</strong> = po-e-SI-a: I tonico = HIATO (nao ditongo crescente)</li>
+      <li><strong>serie</strong> = SE-rie: I atono antes de E = DITONGO crescente oral</li>
+      <li><strong>rainha</strong> = ra-I-nha: I antes de NH com vogal antes = HIATO</li>
+      <li><strong>muito</strong> = MUI-to: UI = DITONGO decrescente oral (u eh a vogal)</li>
     </ul>
-  </li>
-</ol>
-
-<h3>2. Exceção 1 (Vale para o Final e Meio da Palavra)</h3>
-<p>Sempre que uma sequência sem acento <strong>-ia / -ie / -io / -ea / -eo / -ua / -ue / -uo</strong> cair exatamente na sílaba que a regra de terminação aponta como tônica (seja no final absoluto como <em>alegria</em> ou antes de sílaba átona como <em>su-a-ve</em>):</p>
-<ul>
-  <li>Tem acento gráfico em ALGUM lugar da palavra? (<em>família, história, necessário</em>) → Esse acento confirma a tônica real na sílaba anterior; a sequência vira <strong>DITONGO</strong> → Vá para a Nota de Ambiguidade.</li>
-  <li>Não tem acento em lugar nenhum? (<em>alegria, energia, suave</em>) → A força cai na SEGUNDA vogal da sequência (a/e/o), formando <strong>HIATO</strong> direto com a primeira (i/u), mesmo sem acento escrito.</li>
-</ul>
-
-<h3>3. Alerta Exclusivo — Regra Própria para QU e GU</h3>
-<p>Nunca aplique a Exceção 1 de Hiato se o U vier logo depois de Q ou G (<em>quase, guarda, quando, queijo, guerra</em>).</p>
-<ul>
-  <li><strong>QU / GU em que o U NÃO é pronunciado</strong> (antes de E/I): É <strong>DÍGRAFO</strong> (o U não é vogal nem semivogal). Ex.: <em>queijo, guitarra, guerra, aquele</em>.</li>
-  <li><strong>QU / GU em que o U É pronunciado</strong> (antes de A, O ou sonorizado): É <strong>DITONGO</strong>. Ex.: <em>quase, guarda, quando, cinquenta, linguiça</em>.</li>
-</ul>
-
-<h3>4. Hierarquia Visual para Sequências de Vogais (Regra do Vencimento)</h3>
-<p>Quando você encontrar uma sequência com A, E, O ao lado de I, U:</p>
-<ol style="padding-left:18px;margin-bottom:10px;">
-  <li>A sequência está em sílaba ÁTONA (fora da tônica do Passo 0)? → É <strong>DITONGO átono</strong> direto. Nenhuma das vogais disputa a força principal da palavra. (Ex.: <em>bai-XE-la, lei-TEI-ro, sau-DA-de</em>).</li>
-  <li>A sequência está DENTRO da sílaba tônica do Passo 0? → As vogais A, E, O são sempre soberanas e assumem a força tônica. O I/U vira semivogal → <strong>DITONGO</strong> (<em>CAI-xa, LEI-te, OU-ro</em>).
-    <ul>
-      <li>O I ou U só virá tônico e gera <strong>HIATO</strong> se for forçado por marcas ortográficas de isolamento:
-        <ul>
-          <li>Acento gráfico no Í/Ú: <em>sa-ú-de, ju-í-zo, a-í</em>.</li>
-          <li>Terminação do Passo 0 (-r, -z, -m, -l, -ns) que isola o i/u na sílaba final: <em>sa-ir</em> (fim em -r), <em>ju-iz</em> (fim em -z), <em>ru-im</em> (fim em -m).</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<h3>5. Tabela Completa de Classificação Visual</h3>
-<div style="overflow-x:auto;margin-bottom:16px;">
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;">
-<thead>
-<tr style="background:#0f172a;">
-<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Sequência Escrita</th>
-<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Classificação</th>
-<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Motivo Visual (não sonoro)</th>
-<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #334155;color:#38bdf8;">Exemplos</th>
-</tr>
-</thead>
-<tbody>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">QU / GU + E, I (U mudo)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DÍGRAFO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">O U funciona como recurso gráfico para som duro; não é vogal/semivogal.</td>
-<td style="padding:8px 10px;color:#fde68a;">queijo, guitarra, guerra, aquele, quente</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">QU / GU + A, O / E, I (U lido)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">O U atua como semivogal unida à vogal seguinte na mesma sílaba.</td>
-<td style="padding:8px 10px;color:#fde68a;">quase, guarda, quando, cinquenta, linguiça</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (em sílaba ÁTONA)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO átono</td>
-<td style="padding:8px 10px;color:#cbd5e1;">Fora da tônica principal; o i/u permanece colado sem disputar força.</td>
-<td style="padding:8px 10px;color:#fde68a;">baixela, leiteiro, saudade, caiçara, goiabada</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (sílaba TÔNICA)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO tônico</td>
-<td style="padding:8px 10px;color:#cbd5e1;">A, E, O absorvem a força visual da sílaba; o i/u é só apoio.</td>
-<td style="padding:8px 10px;color:#fde68a;">pai, leite, ouro, coisa, fui, viu, riu, noite</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ai, ei, oi, au, eu, ou, ui, iu (i/u ISOLADO)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">I/U ganha sílaba própria por acento Í/Ú ou terminação (-r, -z, -m, -l, -ns).</td>
-<td style="padding:8px 10px;color:#fde68a;">sa-ir, ca-ir, ju-iz, ru-im, di-ur-no, sa-Ú-de</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ia, ie, io, ua, ue, uo (SEM acento na palavra)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">A força cai na 2ª vogal (a/e/o) por regra de terminação.</td>
-<td style="padding:8px 10px;color:#fde68a;">alegria, energia, poesia, categoria, suave</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ia, ie, io, ua, ue, uo (COM acento anterior)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">⚠️ DITONGO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">I/U antes da vogal; acento anterior confirma tônica lá.</td>
-<td style="padding:8px 10px;color:#fde68a;">história, glória, vácuo, família, necessário</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">-uagem, -uação (de verbos -uar/-uir)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado.</td>
-<td style="padding:8px 10px;color:#fde68a;">tatuagem, continuação, atuação, pontuação</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">-ua, -ue, -uo final (força no U)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">Tônica no próprio "u" sem marcação acentual.</td>
-<td style="padding:8px 10px;color:#fde68a;">continua, atua, flutua</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">-uará, -uarão etc. (força fora do U)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua.</td>
-<td style="padding:8px 10px;color:#fde68a;">continuará, atuará, pontuará</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">ão, ãe, õe (com til)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">DITONGO nasal</td>
-<td style="padding:8px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio.</td>
-<td style="padding:8px 10px;color:#fde68a;">pão, mãe, corações, bem</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">Í ou Ú acentuado sozinho</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">O acento gráfico indica núcleo de sílaba própria.</td>
-<td style="padding:8px 10px;color:#fde68a;">saúde, juízo, míope, saía</td>
-</tr>
-<tr style="border-bottom:1px solid #334155;">
-<td style="padding:8px 10px;color:#cbd5e1;">oa, oe, ae, ao (sem til)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">A e E nunca atuam como semivogais.</td>
-<td style="padding:8px 10px;color:#fde68a;">moeda, poeta, caos, aorta</td>
-</tr>
-<tr>
-<td style="padding:8px 10px;color:#cbd5e1;">Duas vogais IGUAIS (oo, ee, aa)</td>
-<td style="padding:8px 10px;color:#e2e8f0;font-weight:600;">HIATO</td>
-<td style="padding:8px 10px;color:#cbd5e1;">Vogais idênticas adjacentes sempre se separam.</td>
-<td style="padding:8px 10px;color:#fde68a;">voo, leem, caatinga</td>
-</tr>
-</tbody>
-</table>
+  </div>
 </div>
 
-<h3>6. Nota de Ambiguidade — Regra do Grupo Controversa</h3>
-<p>Quando a palavra possui acento marcado antes do -ia / -ie / -io / -ua / -ue / -uo final (<em>famÍlia, histÓria, necessÁrio, gÊnio</em>):</p>
+
+<h3>O que é Ditongo?</h3>
+<p>Ditongo é o encontro de uma <strong>vogal</strong> e uma <strong>semivogal</strong> pronunciadas na <strong>mesma sílaba</strong>, sem pausa entre elas.</p>
+<p><strong>Como identificar pela escrita:</strong> procure a letra <em>i</em> ou <em>u</em> ao lado de outra vogal dentro da mesma sílaba. Essas letras, quando em posição secundária (sem acento tônico próprio), funcionam como semivogais e formam ditongo com a vogal vizinha.</p>
+
+<h3>Vogal × Semivogal — como distinguir pela escrita</h3>
+<p>A diferença entre vogal e semivogal é de posição e força silábica. As pistas estão na escrita:</p>
 <ul>
-  <li><strong>Regra de Prioridade Geral</strong> (85% de aprovação): Trate como <strong>DITONGO</strong>. É a resposta correta para a maioria das bancas (IBAM, Unesc, AMEOSC, AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE, IDCAP, FGV).</li>
-  <li><strong>Exceção Conhecida</strong> (Banca MS Concursos): Inverta a prioridade e considere <strong>HIATO</strong> (5 de 6 questões dessa banca seguem este padrão).</li>
+  <li><strong>Vogal:</strong> é o núcleo da sílaba — pode receber acento tônico. No par, é a mais "forte".</li>
+  <li><strong>Semivogal:</strong> é sempre <em>i</em> ou <em>u</em> em posição secundária — nunca recebe o acento principal da sílaba.</li>
+  <li><strong>Regra-chave:</strong> se o <em>i</em> ou <em>u</em> carregar acento escrito (í, ú), é vogal tônica → forma <strong>hiato</strong>, não ditongo.</li>
 </ul>
-<p><strong>Palavras Clássicas:</strong> família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>`,
+<div class="exemplo-box">
+  <em>lei</em>  → sílaba única: l + <strong>e</strong>(vogal) + i(semivogal) → ditongo<br>
+  <em>pai</em>  → sílaba única: p + <strong>a</strong>(vogal) + i(semivogal) → ditongo<br>
+  <em>fui</em>  → sílaba única: f + <strong>u</strong>(vogal) + i(semivogal) → ditongo<br>
+  <em>saúde</em> → sa-<strong>ú</strong>-de: ú tem acento → é vogal, não semivogal → hiato
+</div>
+
+<h3>1. Ditongo Decrescente × Ditongo Crescente</h3>
+<p><strong>Ditongo decrescente:</strong> a sílaba começa pela vogal e termina na semivogal. É o tipo mais comum no português.</p>
+<div class="exemplo-box">
+  Estrutura: <strong>VOGAL</strong> + semivogal<br><br>
+  <em>pai</em>    → <strong>a</strong>(V) + i(SV)  | separação: pai (1 sílaba)<br>
+  <em>leite</em>  → <strong>e</strong>(V) + i(SV)  | separação: lei-te (2 sílabas)<br>
+  <em>mau</em>    → <strong>a</strong>(V) + u(SV)  | separação: mau (1 sílaba)<br>
+  <em>ouro</em>   → <strong>o</strong>(V) + u(SV)  | separação: ou-ro (2 sílabas)<br>
+  <em>herói</em>  → <strong>o</strong>(V) + i(SV)  | separação: he-rói (2 sílabas)<br>
+  <em>fui</em>    → <strong>u</strong>(V) + i(SV)  | separação: fui (1 sílaba)
+</div>
+
+<p><strong>Ditongo crescente:</strong> a sílaba começa pela semivogal e termina na vogal. Aparecem com frequência em sílabas finais de palavras terminadas em <em>-ia, -ie, -io, -ua, -ue, -uo</em>.</p>
+<div class="exemplo-box">
+  Estrutura: semivogal + <strong>VOGAL</strong><br><br>
+  <em>série</em>   → sé | r+i(SV)+<strong>e</strong>(V) | separação: sé-rie (2 sílabas)<br>
+  <em>glória</em>  → gló | r+i(SV)+<strong>a</strong>(V) | separação: gló-ria (2 sílabas)<br>
+  <em>vácuo</em>   → vá | c+u(SV)+<strong>o</strong>(V) | separação: vá-cuo (2 sílabas)<br>
+  <em>tênue</em>   → tê | n+u(SV)+<strong>e</strong>(V) | separação: tê-nue (2 sílabas)<br>
+  <em>quiosque</em> → u(SV)+<strong>o</strong>(V)+s | separação: quios-que (2 sílabas)
+</div>
+
+<h3>2. Ditongo Oral × Ditongo Nasal</h3>
+<p><strong>Ditongo oral:</strong> tanto a vogal quanto a semivogal são orais — nenhuma tem indicação de nasalidade na escrita.</p>
+<div class="exemplo-box">
+  <strong>Como identificar pela escrita:</strong> não há til (~), nem <em>m</em>/<em>n</em>/<em>nh</em> nasalizando a vogal.<br><br>
+  <em>pai</em>   → ai oral (sem til, sem m/n)         ← decrescente oral<br>
+  <em>leite</em> → ei oral (sem nasalidade escrita)   ← decrescente oral<br>
+  <em>ouro</em>  → ou oral (sem nasalidade escrita)   ← decrescente oral<br>
+  <em>série</em> → ie oral (sem nasalidade escrita)   ← crescente oral
+</div>
+
+<p><strong>Ditongo nasal:</strong> a vogal (ou a combinação) contém nasalidade. A escrita indica isso de três formas:</p>
+<ul>
+  <li><strong>Til (~)</strong> sobre a vogal: ã, õ → nasalidade direta e visível</li>
+  <li><strong>Letra m ou n</strong> fechando a sílaba após a vogal → nasaliza a vogal anterior</li>
+  <li><strong>Dígrafo nh</strong> após a vogal → nasaliza a vogal anterior</li>
+</ul>
+<div class="exemplo-box">
+  <em>mãe</em>      → ã(V nasal, til) + e(SV)   → ditongo nasal decrescente <strong>ãe</strong><br>
+  <em>pão</em>      → ã(V nasal, til) + o(SV)   → ditongo nasal decrescente <strong>ão</strong><br>
+  <em>bem</em>      → e(V nasal, m fecha) + —   → ditongo nasal <strong>em</strong> (e + m)<br>
+  <em>corações</em> → cora | <strong>ções</strong>: õ(V nasal, til) + e(SV) → ditongo nasal <strong>õe</strong><br>
+  <em>cãibra</em>   → <strong>cãi</strong>-bra: ã(V nasal, til) + i(SV) → ditongo nasal <strong>ãi</strong>
+</div>
+
+<h3>3. Ditongo Fonético × Ditongo Gráfico</h3>
+<p><strong>Ditongo gráfico</strong> é aquele classificado como ditongo segundo a análise escrita padrão: i/u átonos ao lado de vogal, na mesma sílaba.</p>
+<p><strong>Ditongo fonético</strong> é o que ocorre na fala real — às vezes diverge da escrita. Em fala coloquial, hiatos escritos podem soar como ditongos; em registros formais, ditongos escritos podem soar separados.</p>
+<div class="exemplo-box">
+  <strong>Ditongo gráfico = ditongo fonético (coincidência):</strong><br>
+  <em>leite</em> → escrito como lei-te e pronunciado como ditongo em qualquer registro<br>
+  <em>coisa</em> → escrito como coi-sa e pronunciado como ditongo<br><br>
+  <strong>Hiato na escrita, ditongo na fala coloquial:</strong><br>
+  <em>área</em>  → escrito á-re-a (hiato gráfico), mas pode soar "áRia" na fala rápida<br>
+  <em>saía</em>  → escrito sa-í-a (hiato gráfico), mas pode soar "saIa" em fala informal<br><br>
+  <strong>Regra para provas:</strong><br>
+  → Use sempre a análise <strong>gráfica (escrita padrão)</strong>, não a pronúncia regional.<br>
+  → Se <em>i</em>/<em>u</em> carregam acento próprio (í, ú) = hiato na escrita, mesmo que soe ditongo na fala.
+</div>
+
+<h3>4. Transformação: Ditongo Oral → Nasal</h3>
+<p>Um ditongo oral torna-se nasal quando a vogal recebe marcação de nasalidade na escrita. Veja cada caso com a palavra antes e depois da nasalização:</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.86rem;margin:10px 0 16px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Ditongo oral</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como a nasalidade aparece na escrita</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Ditongo nasal resultante</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo (oral → nasal)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ao</td>
+      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ão</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">mao → <em>mão</em>, pao → <em>pão</em>, coração</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ae</td>
+      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ãe</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">mae → <em>mãe</em>, paes → <em>pães</em>, cães</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ai</td>
+      <td style="padding:8px 10px;color:#94a3b8;">til sobre o a: a → ã</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ãi</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">caibra → <em>cãibra</em></td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">oe</td>
+      <td style="padding:8px 10px;color:#94a3b8;">til sobre o o: o → õ</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">õe</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">-ções → <em>corações</em>, leões, lições</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ei</td>
+      <td style="padding:8px 10px;color:#94a3b8;">m/n fecha a sílaba após e</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">em / en</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">bei → <em>bem</em>, quet → <em>quem</em>, também</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">eu</td>
+      <td style="padding:8px 10px;color:#94a3b8;">m fecha a sílaba após e (raro)</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ẽu (escrito "em")</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>bem</em> em análise ditongada; <em>deus</em> permanece oral</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ui</td>
+      <td style="padding:8px 10px;color:#94a3b8;">M como onset da sílaba nasaliza o u: M + ui → ũi</td>
+      <td style="padding:8px 10px;color:#86efac;font-weight:700;">ũi</td>
+      <td style="padding:8px 10px;color:#cbd5e1;"><em>fui</em> (oral, sem M) × <em>muito</em> → M-onset + <strong>ũi</strong> nasal</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;color:#fde68a;font-weight:700;">ou / au / oi</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Não se nasalizam pela escrita padrão</td>
+      <td style="padding:8px 10px;color:#64748b;">—</td>
+      <td style="padding:8px 10px;color:#64748b;">permanecem orais: ouro, mau, boi</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Regras para reconhecer nasalização apenas pela escrita:</strong></p>
+<ul>
+  <li><strong>Til (~):</strong> indica nasalidade direta sobre a vogal: <em>ã, õ</em> → sempre nasal.</li>
+  <li><strong>M antes de consoante:</strong> a vogal anterior fica nasal: <em>campo</em> (a nasal), <em>tempo</em> (e nasal).</li>
+  <li><strong>N antes de consoante:</strong> a vogal anterior fica nasal: <em>anta</em> (a nasal), <em>cinto</em> (i nasal).</li>
+  <li><strong>NH:</strong> o dígrafo nasaliza a vogal imediatamente anterior: <em>vinho</em> (i nasal), <em>ganho</em> (a nasal).</li>
+  <li><strong>M como onset (início da sílaba):</strong> nasaliza a vogal que abre essa sílaba — <em>muito</em>: M é o onset de "mui", portanto u fica nasal → ũi. Compare: <em>fui</em> (sem M antes = ui oral) × <em>muito</em> (M-onset = ũi nasal).</li>
+</ul>
+
+<h3>5. Tabela Completa de Combinações Vocálicas</h3>
+<p>Identifique <strong>apenas pela escrita</strong> se cada combinação é ditongo ou hiato, seu tipo e exemplos com separação silábica visual.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.81rem;margin:10px 0 6px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Combinação</th>
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Ditongo ou Hiato?</th>
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Crescente / Decrescente</th>
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Oral / Nasal</th>
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Acento gráfico</th>
+      <th style="padding:7px 8px;border-bottom:2px solid #334155;">Exemplos (com separação silábica)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ai</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">pai (1 síl.), cai-xa, fai-xa</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ãi</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">cãi-bra</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">au</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">mau (1 síl.), pau-sa, cau-sa</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ei</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Só oxítonas: pa-péis</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">rei (1 síl.), lei-te, pei-xe</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">em / ens</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Monossílabos tônicos: bem</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">bem, quem, tam-bém, gar-gens</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">eu</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oxítonas: cha-péu</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">meu (1 síl.), deus, cha-péu, eu-ro-peu</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">oi / ói</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oxítonas: he-rói</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">boi (1 síl.), coi-sa, he-rói</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ou</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">vou (1 síl.), pou-co, ou-ro</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ui (oral)</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">fui (1 síl.), a-zuis, cui-da-do</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ũi (nasal)</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não</td>
+      <td style="padding:7px 8px;color:#cbd5e1;"><strong>mui</strong>-to — M onset nasaliza o u</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ão</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">pão (1 síl.), mão, co-ra-ção, li-mão</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ãe</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">mãe (1 síl.), pães, cães, ca-pi-tães</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">õe</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Decrescente</td>
+      <td style="padding:7px 8px;color:#f9a8d4;">Nasal</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Sim (til)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">co-ra-ções, li-ções, le-ões</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ia</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">his-tó-ria, gló-ria, fa-mí-lia</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ie</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">sé-rie, pa-cien-te, so-cie-da-de</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">io</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">quios-que, lú-cio, pre-mi-o</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ua</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">sua-ve, si-tua-ção, a-tua-ção</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">ue</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">tê-nue, du-e-lo, cons-ti-tui-ção</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#fde68a;">uo</td>
+      <td style="padding:7px 8px;color:#86efac;">Ditongo</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Crescente</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Oral</td>
+      <td style="padding:7px 8px;color:#94a3b8;">Não (padrão)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">vá-cuo, con-tí-nuo, am-bí-guo</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">ae / ao / oe</td>
+      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
+      <td style="padding:7px 8px;color:#64748b;">—</td>
+      <td style="padding:7px 8px;color:#64748b;">Oral</td>
+      <td style="padding:7px 8px;color:#64748b;">Depende</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">ca-em, ca-os, po-ei-ra→po|ei|ra</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">oo / ee</td>
+      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
+      <td style="padding:7px 8px;color:#64748b;">—</td>
+      <td style="padding:7px 8px;color:#64748b;">Oral</td>
+      <td style="padding:7px 8px;color:#64748b;">Não</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">vo-o, en-jo-o, le-em, cre-em</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 8px;font-weight:700;color:#ef4444;">aí / eí / oí / uí</td>
+      <td style="padding:7px 8px;color:#fca5a5;">Hiato</td>
+      <td style="padding:7px 8px;color:#64748b;">—</td>
+      <td style="padding:7px 8px;color:#64748b;">Oral</td>
+      <td style="padding:7px 8px;color:#64748b;">Sim (acento no i/u)</td>
+      <td style="padding:7px 8px;color:#cbd5e1;">pa-ís, sa-í-da, ju-í-zo, sa-ú-de</td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Linhas em vermelho = hiato. Linhas em verde = ditongo. Acento sobre i/u = sempre hiato na escrita padrão.</p>
+
+<h3>6. Ditongos com QU e GU — U pronunciado × U mudo</h3>
+<p>As combinações <em>qu</em> e <em>gu</em> antes de vogal podem ou não formar ditongo, dependendo da vogal seguinte. A regra é identificável <strong>apenas pela escrita</strong>:</p>
+<ul>
+  <li><em>qu</em>/<em>gu</em> + <strong>e</strong> ou <strong>i</strong> → U é mudo (dígrafo): não forma ditongo. <em>(Exceto palavras que tinham trema antes de 2009 — ver tabela de exceções abaixo.)</em></li>
+  <li><em>qu</em>/<em>gu</em> + <strong>a</strong> ou <strong>o</strong> → U é pronunciado: forma ditongo crescente com a vogal seguinte.</li>
+</ul>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 6px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Combinação escrita</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">U é pronunciado?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Forma ditongo?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo (se ditongo)</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">que / qui</td>
+      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
+      <td style="padding:8px 10px;color:#f87171;">Não</td>
+      <td style="padding:8px 10px;color:#64748b;">dígrafo qu = /k/</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">que, quei-jo, a-qui, qui-lo</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">qua / quo</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim — pronunciado</td>
+      <td style="padding:8px 10px;color:#4ade80;">Sim</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Crescente (ua / uo)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">quan-do, qua-tro, qual-quer</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gue / gui</td>
+      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
+      <td style="padding:8px 10px;color:#f87171;">Não</td>
+      <td style="padding:8px 10px;color:#64748b;">dígrafo gu = /g/</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">guer-ra, gui-tar-ra, se-guir</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gua / guo</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim — pronunciado</td>
+      <td style="padding:8px 10px;color:#4ade80;">Sim</td>
+      <td style="padding:8px 10px;color:#94a3b8;">Crescente (ua / uo)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">guar-da, lin-gua-gem, am-bí-guo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Exceções: QU e GU + e/i com U pronunciado</h3>
+<p>Algumas palavras têm U pronunciado mesmo antes de <em>e</em> ou <em>i</em>. Antes do Acordo de 2009, essas palavras carregavam <strong>trema</strong> (ü) para sinalizar o U pronunciado. Com o Acordo, o trema foi abolido, mas o U <strong>continua sendo pronunciado</strong> — é preciso memorizar esses casos.</p>
+<p><strong>Pista escrita:</strong> se a palavra tinha trema antes de 2009, o U continua pronunciado hoje.</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 6px;">
+  <thead>
+    <tr style="background:#422006;color:#fbbf24;text-align:left;">
+      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Palavra atual</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Escrita antes de 2009</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">U pronunciado?</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Ditongo formado</th>
+      <th style="padding:8px 10px;border-bottom:2px solid #78350f;">Separação silábica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">tranquilo</td>
+      <td style="padding:8px 10px;color:#94a3b8;">tranqüilo</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">tran-<strong>qui</strong>-lo</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">antiguidade</td>
+      <td style="padding:8px 10px;color:#94a3b8;">antigüidade</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">an-ti-<strong>gui</strong>-da-de</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">linguiça</td>
+      <td style="padding:8px 10px;color:#94a3b8;">lingüiça</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">lin-<strong>gui</strong>-ça</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">aguilhão</td>
+      <td style="padding:8px 10px;color:#94a3b8;">agüilhão</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ui (u+i)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">a-<strong>gui</strong>-lhão</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:8px 10px;font-weight:700;color:#fbbf24;">bilíngue</td>
+      <td style="padding:8px 10px;color:#94a3b8;">bilingüe</td>
+      <td style="padding:8px 10px;color:#4ade80;font-weight:700;">Sim</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">crescente ue (u+e)</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">bi-lín-<strong>gue</strong></td>
+    </tr>
+    <tr style="background:#0f172a;">
+      <td style="padding:8px 10px;font-weight:700;color:#64748b;">questão / frequência</td>
+      <td style="padding:8px 10px;color:#94a3b8;">qüestão / freqüência</td>
+      <td style="padding:8px 10px;color:#f87171;font-weight:700;">Não — mudo</td>
+      <td style="padding:8px 10px;color:#64748b;">sem ditongo</td>
+      <td style="padding:8px 10px;color:#cbd5e1;">ques-tão, fre-quên-cia</td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:0.79rem;color:#64748b;margin-bottom:14px;">Atenção: "questão" e "frequência" também tinham trema antes de 2009, mas o U delas <strong>nunca foi pronunciado</strong> — o trema indicava apenas que era "qu" especial, não U sonoro. Já em tranquilo, linguiça etc., o U é realmente pronunciado.</p>
+
+<h3>7. Terminações Comuns com Ditongo</h3>
+<p>As <strong>terminações</strong> abaixo contêm ditongos e aparecem com frequência nas questões de concurso. Reconhecê-las de imediato elimina dúvidas sobre separação silábica e classificação do encontro vocálico.</p>
+
+<h4 style="color:#7dd3fc;margin:16px 0 6px;">▸ Terminações com Ditongo Decrescente Oral</h4>
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
+  <thead>
+    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Terminação</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Exemplos de palavras</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #334155;">Observação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ai</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">pai, cai, vai, mais, mais, faixa, caixa, raiz, traição</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Frequente em verbos (vai, sai, cai) e substantivos</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ei</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">lei, rei, sei, dei, frei, portei, escrevi; papéis, fiéis, coronéis</td>
+      <td style="padding:7px 10px;color:#94a3b8;">-éis = plural de -el; verbos 1ª pessoa do pretérito perfeito</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eiro / -eira</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">dinheiro, primeiro, cadeira, fronteira, poeira, beira, queira</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ei</em> + r; sufixo muito produtivo no português</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eito / -eita</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">feito, direito, prefeito, peito, leito, receita, vereita</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ei</em> + t; particípio de verbos em -fazer/-dizer</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-oi / -ói</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">boi, voi, corrói, herói, anestesiói, constrói, destrói</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Oxítonas recebem acento: herói; verbos em -oír</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-au</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">mau, pau, cau, caução, causa, pausa, aula, baú, nau, náusea</td>
+      <td style="padding:7px 10px;color:#94a3b8;"><em>Mau</em> (adj.) ≠ <em>mal</em> (adv.); baú tem acento pois i/u tônico após ditongo</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-eu</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">meu, seu, deu, teu, veu, céu, véu, chapéu, troféu, museu</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Oxítonas acentuadas: céu, véu, chapéu, troféu, reu</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ou</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">vou, dou, sou, estou, falou, comeu, partiu, louro, ouro, mouro</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Verbos 3ª pessoa pretérito; tendência à monoftongação na fala</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ouro / -oura</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">ouro, louro, mouro, couro, touro, doura, poura (coloquial)</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ou</em> + r; campo semântico de cores e metais</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-iu</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">saiu, caiu, partiu, abriu, dormiu, fugiu, vestiu, mentiu, pediu</td>
+      <td style="padding:7px 10px;color:#94a3b8;">3ª pessoa pretérito perfeito de verbos em -ir; ditongo <em>iu</em></td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ui</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">fui, azuis, cuidado, fluido, druida, ruína (oral antes de consoante)</td>
+      <td style="padding:7px 10px;color:#94a3b8;"><em>Ruína</em> é hiato pois í tônico; <em>cuidado</em> tem <em>ui</em> oral na mesma sílaba</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 style="color:#f9a8d4;margin:16px 0 6px;">▸ Terminações com Ditongo Decrescente Nasal</h4>
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
+  <thead>
+    <tr style="background:#4c0519;color:#f9a8d4;text-align:left;">
+      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Terminação</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Exemplos de palavras</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #881337;">Observação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ão</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">pão, mão, avião, coração, irmão, balão, botão, reunião, opinião</td>
+      <td style="padding:7px 10px;color:#94a3b8;">A terminação mais frequente do português; plural pode ser -ões, -ãos ou -ães</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ção / -são</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">nação, ação, situação, revisão, decisão, tensão, posição, missão</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Sufixo nominalizador; plural sempre em -ções / -sões (→ ditongo <em>õe</em>)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ãe</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">mãe; plurais: capitães, alemães, pães, cães, chefões→ chefes (irregular)</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Plural de alguns oxítonos em -ão: capitão → capitães</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-õe (-ões)</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">corações, lições, nações, posições, opiniões, leões, balões, botões</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Plural mais comum de -ão; sempre ditongo nasal decrescente</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-em / -ens</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">bem, quem, também, viagem, garagem, margem, ordem; bens, jovens, gens</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo nasal <em>ẽi</em> (escrito -em); -ens é o plural de -em</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-agem / -agens</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">viagem, garagem, miragem, homenagem, linguagem, barragem</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Sufixo -agem; plural -agens; contém ditongo nasal -em</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ãi</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">cãibra (e variantes dialetais muito raras)</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo nasal raríssimo na escrita padrão; cobrado em análise fonológica</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 style="color:#86efac;margin:16px 0 6px;">▸ Terminações com Ditongo Crescente Oral</h4>
+<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:8px 0 14px;">
+  <thead>
+    <tr style="background:#052e16;color:#86efac;text-align:left;">
+      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Terminação</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Exemplos de palavras</th>
+      <th style="padding:7px 10px;border-bottom:2px solid #166534;">Observação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ia</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">história, glória, teoria, alegria, família, memória, vitória, polícia</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Sufixo muito produtivo; ditongo crescente <em>ia</em> = semivogal <em>i</em> + vogal <em>a</em></td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ário / -ária</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">aniversário, escritório, vocabulário, farmácia, primária, necessária</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ia</em> no sufixo -ário/-ária; muito comum em substantivos e adjetivos</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ência / -ância</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">frequência, paciência, ciência, tolerância, elegância, distância</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ia</em> nasalizado em -ncia; sufixo de substantivos abstratos</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ie</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">série, espécie, barbárie, intempérie, calvície, superfície</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ie</em> = semivogal <em>i</em> + vogal <em>e</em>; relativamente raro</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-io</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">vício, prêmio, estúdio, frio, pátio, princípio, ofício, exercício</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>io</em>; muito comum em substantivos (especialmente em -ício/-ório)</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ório / -ória</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">escritório, laboratório, obrigatório, vitória, memória, história</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>io</em> no sufixo -ório/-ória; substantivos e adjetivos de lugar ou qualidade</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ua</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">sua, tua, língua, água, régua, situa, atua, estatua, adequa</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ua</em> = semivogal <em>u</em> + vogal <em>a</em>; inclui formas verbais em -uar</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ual</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">atual, igual, visual, manual, gradual, mutual, habitual, residual</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>ua</em> + l; sufixo adjetival produtivo</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-ue</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">tênue, bilíngue, exíguo→exígua, tranquila, linguiça, aguilhão</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>ue</em>; inclui ex-trema casos com U pronunciado após QU/GU</td>
+    </tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-uo</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">vácuo, contínuo, ambíguo, árduo, assíduo, promíscuo, tênue→tênuo</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Ditongo crescente <em>uo</em>; aparece em adjetivos eruditos (em -uo/-uum)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #1e293b;">
+      <td style="padding:7px 10px;font-weight:700;color:#fde68a;">-uoso / -uosa</td>
+      <td style="padding:7px 10px;color:#cbd5e1;">virtuoso, luxuoso, voluptuoso, sumptuoso, promíscuo→libidinoso</td>
+      <td style="padding:7px 10px;color:#94a3b8;">Contém <em>uo</em> + so; sufixo adjetival de qualidade abundante</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="exemplo-box" style="margin:10px 0 14px;">
+  <strong>Como usar na prova:</strong><br>
+  1. Veja a <strong>terminação</strong> da palavra.<br>
+  2. Identifique se a terminação contém ditongo (oral ou nasal, crescente ou decrescente).<br>
+  3. Verifique se o <strong>i</strong> ou <strong>u</strong> na terminação tem acento próprio: se tiver (í, ú), é hiato, não ditongo.<br><br>
+  Exemplo: <em>saída</em> termina em -ida, mas o <em>í</em> tem acento → hiato (sa-í-da).<br>
+  Exemplo: <em>saiu</em> termina em -iu → ditongo decrescente oral (sa-iu, 2 sílabas).
+</div>
+
+<h3>Resumo visual: Ditongo × Hiato pela escrita</h3>
+<div class="exemplo-box">
+  <strong>É ditongo quando:</strong><br>
+  → i ou u sem acento próprio estão ao lado de vogal na mesma sílaba<br>
+  → pai · lei · mãe · pão · série · glória · quando · quatro<br><br>
+  <strong>É hiato quando:</strong><br>
+  → i ou u têm acento gráfico próprio (í, ú): sa-ú-de, pa-ís, ju-í-zo<br>
+  → Duas vogais iguais: vo-o, en-jo-o, ca-a-tin-ga<br>
+  → Vogal + vogal separadas na sílaba: po-e-ma, ca-os, le-em
+</div>
+
+<div class="dica-box">
+  <div class="dica-title">Dicas para prova</div>
+  <ul>
+    <li><strong>Acento sobre i/u = hiato</strong> (saúde, juízo, saída) — regra mais cobrada.</li>
+    <li>Ditongos nasais visíveis pelo til: <strong>ão, ãe, õe, ãi</strong> — sempre decrescentes nasais.</li>
+    <li><em>qu</em>/<em>gu</em> + e/i → U mudo, sem ditongo. <em>qu</em>/<em>gu</em> + a/o → U pronunciado, ditongo crescente.</li>
+    <li>Ditongo crescente: termina na vogal forte — aparecem em -ia, -ie, -io, -ua, -ue, -uo.</li>
+    <li>Ditongo fonético ≠ gráfico: em provas, analise sempre a escrita padrão.</li>
+    <li>Para tritongos (semivogal + vogal + semivogal), consulte o tema específico <strong>Tritongos</strong>.</li>
+    <li>Nasalização pela escrita: til (~), m/n antes de consoante, dígrafo nh.</li>
+  </ul>
+</div>`,
     questoes: [
       { enunciado: 'Em qual das alternativas abaixo há um <strong>ditongo crescente</strong>?', opcoes: ["saudade","série","quais","peixe"], correta: 1, explicacao: '<strong>Ditongo crescente</strong>: semivogal antes da vogal. Em "série" (sé-<em>rie</em>), o <em>i</em> é semivogal antes de <em>e</em>. "Saudade" e "quais" têm ditongo decrescente; "peixe" tem <em>ei</em> decrescente.' },
       { enunciado: 'Assinale a palavra que contém um <strong>ditongo decrescente</strong>.', opcoes: ["história","quiosque","leite","situação"], correta: 2, explicacao: 'Em "leite" temos <em>ei</em>: vogal <em>e</em> seguida da semivogal <em>i</em> → ditongo decrescente.' },
@@ -520,8 +1117,6 @@ const TEMAS = [
     </tbody>
   </table>
 
-  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;"><strong style="color:#fbbf24;">Sinônimos cobrados em prova:</strong> encontro consonantal <strong>perfeito</strong> também é chamado de <strong>puro</strong> (mesma sílaba, inseparável); encontro consonantal <strong>imperfeito</strong> também é chamado de <strong>disjunto</strong> (sílabas diferentes, separável).</p>
-
   <div style="margin-top:10px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
     <strong style="color:#f59e0b;">Casos que mais confundem nas provas:</strong>
     <ul style="color:#cbd5e1;font-size:0.87rem;margin:6px 0 0;padding-left:16px;line-height:1.9;">
@@ -535,9 +1130,6 @@ const TEMAS = [
     </ul>
   </div>
 </div>
-
-<h3>Vogal epentética</h3>
-<p>Na fala popular ou regional, é comum inserir uma vogal (geralmente "i") entre as consoantes de um encontro consonantal para facilitar a pronúncia — esse som extra, que não existe na escrita padrão, é chamado de <strong>vogal epentética</strong> (ou epêntese). Exemplos: "adaptabilidade" pronunciado "adapitabilidade", "pneu" como "pineu", "advogado" como "adevogado". É um fenômeno da fala, não da norma-padrão escrita — a prova cobra o reconhecimento do termo, não seu uso na escrita.</p>
 
 <h3>O que é Encontro Consonantal?</h3>
 <p>Encontro consonantal é a sequência de <strong>duas ou mais consoantes consecutivas</strong> dentro de uma mesma palavra, sem vogal entre elas. Diferente do dígrafo, cada consoante <strong>mantém seu próprio fonema</strong>.</p>
@@ -607,168 +1199,22 @@ const TEMAS = [
   {
     id: "hiatos", materia: 'portugues', nome: "Hiatos", icon: "🔡", desc: "📌 BACEN · IFPA — Vogais em sílabas distintas",
     teoria: `
-<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:16px 18px;margin-bottom:20px;">
-  <div style="color:#60a5fa;font-weight:700;font-size:1.05rem;margin-bottom:10px;">DECISÃO RÁPIDA — Ditongo ou Hiato? <span style="font-weight:400;font-size:0.85rem;color:#94a3b8;">(Método Visual por Escrita, Sem depender de Pronúncia e Som)</span></div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
-    <strong style="color:#fbbf24;">PASSO 0 — ACHE A SÍLABA TÔNICA PRIMEIRO (POR ESCRITA)</strong>
-    <ol style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>Tem acento gráfico (´ ou ^) na palavra? → A tônica é exatamente essa sílaba marcada. Não precisa de mais nada.</li>
-      <li>Não tem acento? Use a regra de terminação:
-        <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>Termina em -a, -e, -o, -em, -ens → Tônica é a penúltima sílaba.</li>
-          <li>Termina em -i, -u, -r, -l, -z, -x, -im, -um, -ns → Tônica é a última sílaba.</li>
-        </ul>
-      </li>
-    </ol>
-  </div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
-    <strong style="color:#f59e0b;">⚠️ Exceção 1 (Vale para o FINAL e MEIO da palavra)</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Sempre que uma sequência sem acento -ia / -ie / -io / -ea / -eo / -ua / -ue / -uo cair exatamente na sílaba que a regra de terminação aponta como tônica (seja no final absoluto como <em>alegria</em> ou antes de sílaba átona como <em>su-a-ve</em>):</p>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>Tem acento gráfico em ALGUM lugar da palavra? (famÍlia, histÓria, necessÁrio) → Esse acento confirma a tônica real na sílaba anterior; a sequência vira DITONGO → Vá para a Nota de Ambiguidade.</li>
-      <li>Não tem acento em lugar nenhum? (alegria, energia, suave) → A força cai na SEGUNDA vogal da sequência (a/e/o), formando HIATO direto com a primeira (i/u), mesmo sem acento escrito.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f87171;">
-    <strong style="color:#f87171;">⚠️ ALERTA EXCLUSIVO: Regra Própria para QU e GU</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Nunca aplique a Exceção 1 de Hiato se o U vier logo depois de Q ou G (quase, guarda, quando, queijo, guerra).</p>
-    <ul style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>QU / GU em que o U NÃO é pronunciado (antes de E/I): É DÍGRAFO (o U não é vogal nem semivogal). Ex.: queijo, guitarra, guerra, aquele.</li>
-      <li>QU / GU em que o U É pronunciado (antes de A, O ou sonorizado): É DITONGO. Ex.: quase, guarda, quando, cinquenta, linguiça.</li>
-    </ul>
-  </div>
-
-  <div style="margin-bottom:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;">
-    <strong style="color:#fbbf24;">HIERARQUIA VISUAL PARA SEQUÊNCIAS DE VOGAIS (REGRA DO VENCIMENTO)</strong>
-    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0;">Quando você encontrar uma sequência com A, E, O ao lado de I, U:</p>
-    <ol style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;padding-left:18px;line-height:1.8;">
-      <li>A sequência está em sílaba ÁTONA (fora da tônica do Passo 0)? → É DITONGO átono direto. Nenhuma das vogais disputa a força principal da palavra. (Ex.: bai-XE-la, lei-TEI-ro, sau-DA-de).</li>
-      <li>A sequência está DENTRO da sílaba tônica do Passo 0? → As vogais A, E, O são sempre soberanas e assumem a força tônica. O I/U vira semivogal → DITONGO (CAI-xa, LEI-te, OU-ro).
-        <ul style="margin:4px 0 0;padding-left:16px;">
-          <li>O I ou U só vira tônico e gera HIATO se for forçado por marcas ortográficas de isolamento:</li>
-          <li>Acento gráfico no Í/Ú: sa-Ú-de, ju-Í-zo, a-Í.</li>
-          <li>Terminação do Passo 0 (-r, -z, -m, -l, -ns) que isola o i/u na sílaba final: sa-ir (fim em -r), ju-iz (fim em -z), ru-im (fim em -m).</li>
-        </ul>
-      </li>
-    </ol>
-  </div>
-
-  <p style="color:#94a3b8;font-size:0.85rem;margin:0 0 10px;">Tabela completa de classificação visual:</p>
-
-  <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
-    <thead>
-      <tr style="background:#1e3a5f;">
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Sequência Escrita</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Classificação</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Motivo Visual (não sonoro)</th>
-        <th style="padding:7px 10px;color:#93c5fd;text-align:left;">Exemplos</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">QU / GU + E, I (U mudo)</td>
-        <td style="padding:7px 10px;color:#a78bfa;font-weight:700;">DÍGRAFO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O U funciona como recurso gráfico para som duro; não é vogal/semivogal</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">queijo, guitarra, guerra, aquele, quente</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">QU / GU + A, O / E, I (U lido)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O U atua como semivogal unida à vogal seguinte na mesma sílaba</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">quase, guarda, quando, cinquenta, linguiça</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (em sílaba ÁTONA)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO átono</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Fora da tônica principal; o i/u permanece colado sem disputar força</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">baixela, leiteiro, saudade, caiçara, goiabada</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (sílaba TÔNICA)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO tônico</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A, E, O absorvem a força visual da sílaba; o i/u é só apoio</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pai, leite, ouro, coisa, fui, viu, riu, noite</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ai, ei, oi, au, eu, ou, ui, iu (i/u ISOLADO)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U ganha sílaba própria por acento Í/Ú ou terminação (-r, -z, -m, -l, -ns)</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">sa-ir, ca-ir, ju-iz, ru-im, di-ur-no, sa-Ú-de</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo (SEM acento na palavra)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A força cai na 2ª vogal (a/e/o) por regra de terminação</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">alegria, energia, poesia, categoria, suave</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ia, ie, io, ua, ue, uo (COM acento anterior)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">⚠️ DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">I/U antes da vogal; acento anterior confirma tônica lá</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">história, glória, vácuo, família, necessário</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uagem, -uação (de verbos -uar/-uir)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O "u" mantém sílaba própria no substantivo derivado</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">tatuagem, continuação, atuação, pontuação</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-ua, -ue, -uo final (força no U)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Tônica no próprio "u" sem marcação acentual</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">continua, atua, flutua</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">-uará, -uarão etc. (força fora do U)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Padrão reconhecidamente variável na língua</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">continuará, atuará, pontuará</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">ão, ãe, õe (com til)</td>
-        <td style="padding:7px 10px;color:#4ade80;font-weight:700;">DITONGO nasal</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Vogal com til + i/u sem acento próprio</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">pão, mãe, corações, bem</td>
-      </tr>
-      <tr style="background:#0f172a;border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Í ou Ú acentuado sozinho</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">O acento gráfico indica núcleo de sílaba própria</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">saúde, juízo, míope, saía</td>
-      </tr>
-      <tr style="border-bottom:1px solid #1e3a5f;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">oa, oe, ae, ao (sem til)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">A e E nunca atuam como semivogais</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">moeda, poeta, caos, aorta</td>
-      </tr>
-      <tr style="background:#0f172a;">
-        <td style="padding:7px 10px;color:#fde68a;font-weight:700;">Duas vogais IGUAIS (oo, ee, aa)</td>
-        <td style="padding:7px 10px;color:#f87171;font-weight:700;">HIATO</td>
-        <td style="padding:7px 10px;color:#cbd5e1;">Vogais idênticas adjacentes sempre se separam</td>
-        <td style="padding:7px 10px;color:#e2e8f0;">voo, leem, caatinga</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div style="margin-top:14px;padding:10px 12px;background:#1e3a5f;border-radius:6px;border-left:3px solid #f59e0b;">
-    <strong style="color:#f59e0b;">⚠️ NOTA DE AMBIGUIDADE — Regra do Grupo Controversa</strong>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Quando a palavra possui acento marcado antes do -ia / -ie / -io / -ua / -ue / -uo final (famÍlia, histÓria, necessÁrio, gÊnio):</p>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Regra de Prioridade Geral (85% de aprovação): Trate como <strong style="color:#4ade80;">DITONGO</strong>. É a resposta correta para a maioria das bancas (IBAM, Unesc, AMEOSC, AOCP, GUALIMP, CESPE/CEBRASPE, FEPESE, IDCAP, FGV).</p>
-    <p style="color:#cbd5e1;font-size:0.87rem;margin:8px 0 0;line-height:1.8;">Exceção Conhecida (Banca MS Concursos): Inverta a prioridade e considere <strong style="color:#f87171;">HIATO</strong> (5 de 6 questões dessa banca seguem este padrão).</p>
-    <p style="color:#94a3b8;font-size:0.85rem;margin:8px 0 0;line-height:1.8;">Palavras Clássicas: família, história, série, glória, mágoa, régua, tênue, contíguo, cárie, Mário, gênio, prédio, lírio, nódoa, cerimônia, transferência, elogio, ódio, ópio, prêmio, rádio, várzea, hiato, boêmio, colégio, resíduo, diária, necessário, voluntário, contrário.</p>
-  </div>
+<div style="background:#0f2744;border:2px solid #2563eb;border-radius:8px;padding:14px 16px;margin-bottom:18px;">
+  <div style="color:#60a5fa;font-weight:700;margin-bottom:8px;">HIATO - Regras de Identificacao Imediata</div>
+  <ol style="color:#cbd5e1;font-size:0.9rem;line-height:1.9;margin:0;padding-left:16px;">
+    <li><strong style="color:#fbbf24;">I ou U com acento (com acento)</strong> sempre hiato: saude, juizo, ai, bau</li>
+    <li><strong style="color:#fbbf24;">Vogais iguais seguidas (oo, aa, ee)</strong> sempre hiato: voo, leem, caatinga</li>
+    <li><strong style="color:#fbbf24;">A ou E antes/depois de outra vogal</strong> hiato: caos, moeda, poeta</li>
+    <li><strong style="color:#fbbf24;">I antes de NH com vogal anterior</strong> hiato: rainha (ra|i|nha)</li>
+    <li><strong style="color:#fbbf24;">I/U no fim de palavra antes de Z, M, S</strong> hiato: raiz, ruim, pais</li>
+  </ol>
+  <p style="color:#94a3b8;font-size:0.85rem;margin:10px 0 0;"><strong style="color:#f59e0b;">Diferenca-chave com ditongo:</strong> No ditongo, I ou U sao atonos e ficam na MESMA silaba que a vogal. No hiato, cada vogal fica em silaba SEPARADA porque pelo menos uma e tonica ou porque sao A/E.</p>
 </div>
 
 
 <h3>1. O que é Hiato?</h3>
 <p>Hiato é o encontro de <strong>duas letras vocálicas consecutivas</strong> (sem consoante entre elas) que pertencem a <strong>sílabas diferentes</strong>. A divisão silábica ocorre <strong>entre</strong> as duas vogais.</p>
 <p><strong>Como identificar apenas pela escrita — sem pronunciar:</strong> localize duas letras vocálicas adjacentes e verifique as pistas visuais abaixo.</p>
-<p><strong>"Falso hiato":</strong> é a sequência vocálica que, na análise gráfica (escrita padrão), é tratada como hiato — cada vogal em sua própria sílaba —, mas que na pronúncia real (fonética) soa como vogal+semivogal, ou seja, como um ditongo. É o mesmo fenômeno chamado de <strong>sinérese</strong> (ver tema Ditongos): a prova costuma opor "hiato verdadeiro" (hiato tanto na escrita quanto na fala) a esse "falso hiato" (hiato só na escrita).</p>
 
 <div class="exemplo-box">
   <strong>Pista 1 — Acento escrito sobre I ou U (í, ú):</strong><br>
@@ -1011,7 +1457,7 @@ const TEMAS = [
     id: "fonemas", materia: 'portugues', nome: "Fonemas", icon: "🔊", desc: "📌 BACEN · IFPA — Sons da língua portuguesa",
     teoria: `
 <h3>O que é Fonema?</h3>
-<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala). O estudo dos fonemas e de sua organização é chamado de <strong>análise fonológica</strong>. O <strong>Alfabeto Fonético Internacional (IPA)</strong> usa um símbolo específico para cada som, evitando a ambiguidade da escrita comum (útil em comunicações que soletram palavras letra por letra, como "Alfa", "Bravo", "Charlie").</p>
+<p><strong>Fonema</strong> é a menor unidade sonora da língua capaz de <strong>distinguir palavras</strong>. Não confunda com letra: letra é o símbolo gráfico (escrita); fonema é o som (fala).</p>
 <div class="exemplo-box">
   "pato" e "gato" diferem pelo fonema inicial: /p/ × /g/<br>
   "faca" e "vaca" diferem pelo fonema inicial: /f/ × /v/<br>
@@ -1024,7 +1470,6 @@ const TEMAS = [
   <li><strong>Semivogais:</strong> sons vocálicos em posição secundária (i e u átonos em ditongos). Ex.: o <em>i</em> em "pai", o <em>u</em> em "mau".</li>
   <li><strong>Consoantes:</strong> sons que precisam de vogal para formar sílaba. Ex.: p, b, t, d, k, g, f, v, s, z, m, n, l, r...</li>
 </ul>
-<p><strong>Classificação articulatória das vogais</strong> (fonética): quanto à <strong>altura da língua</strong>, as vogais são <em>altas/fechadas</em> (i, u), <em>médias</em> (e, o — que se subdividem em fechadas é/ô e abertas é/ó) ou <em>baixa/aberta</em> (a); quanto ao <strong>ponto de articulação</strong>, são <em>anteriores</em> (i, e), <em>centrais</em> (a) ou <em>posteriores</em> (o, u). Assim, "i" é classificado como vogal alta/fechada e anterior; "u" como alta/fechada e posterior; "a" como baixa/aberta e central.</p>
 
 <h3>Dígrafos — duas letras, um fonema</h3>
 <p>Dígrafo é quando <strong>duas letras representam um único fonema</strong>. São os casos mais cobrados em prova:</p>
@@ -1040,9 +1485,6 @@ const TEMAS = [
   <em>gu</em> + e/i → /g/: <strong>gu</strong>erra, <strong>gu</strong>ia (u mudo)<br>
   <em>qu</em> + e/i → /k/: <strong>qu</strong>eijo, <strong>qu</strong>ilo (u mudo)
 </div>
-
-<h3>Dífono — o oposto do dígrafo</h3>
-<p><strong>Dífono</strong> é quando <strong>uma única letra representa dois fonemas</strong> — o inverso do dígrafo (duas letras, um fonema). O caso clássico é o <em>x</em> com valor /ks/ (ta<strong>x</strong>i, fí<strong>x</strong>o, tó<strong>x</strong>ico): uma letra "x", dois sons /k/+/s/. Outras letras podem funcionar como dífono dependendo do contexto — por isso é comum a prova pedir para classificar uma letra destacada como "dígrafo", "dífono" ou nenhum dos dois.</p>
 
 <h3>O polivalente <em>x</em></h3>
 <p>O <em>x</em> pode representar 4 fonemas diferentes em português:</p>
@@ -1082,8 +1524,8 @@ const TEMAS = [
   c-o-n-t-e-x(=/ks/)-t-u-a-l-i-z-a-ç-ã-o<br>
   Letras: c·o·n·t·e·x·t·u·a·l·i·z·a·ç·ã·o = 16<br>
   x = /ks/ → +1 fonema; ã nasalizada (an = 1 fonema + n muda o timbre) → 16 − 1 (n vira nasal) + 0 = 15 fonemas<br><br>
-  <strong>cachorro</strong> (8 letras → 6 fonemas):<br>
-  ca-<strong>ch</strong>-o-<strong>rr</strong>-o → ch=1, rr=1 → c+a+ch(1)+o+rr(1)+o = 6 fonemas<br><br>
+  <strong>cachorro</strong> (7 letras → 5 fonemas):<br>
+  ca-<strong>ch</strong>-o-<strong>rr</strong>-o → ch=1, rr=1 → c+a+1+o+1+o = 6 fonemas<br><br>
   <strong>menino</strong> (6 letras → 6 fonemas):<br>
   m-e-n-i-n-o = 6 (sem dígrafos, sem h, sem x ambíguo) → 6 fonemas
 </div>
@@ -1098,21 +1540,7 @@ const TEMAS = [
     <li>Palavras com menos fonemas que letras: carro, guerra, qualho, chuva.</li>
     <li>Vogais nasalizadas por <em>m</em>/<em>n</em> antes de consoante não formam fonema extra: "campo" = c-ã-p-o = 4 fonemas.</li>
   </ul>
-</div>
-
-<h3>Vogal Oral × Vogal Nasal — Definição Articulatória</h3>
-<p>Vogais <strong>orais</strong> são produzidas com o ar saindo apenas pela boca (véu palatino levantado, fechando a passagem para o nariz). Vogais <strong>nasais</strong> são produzidas com <strong>ressonância nas fossas nasais</strong> — parte do ar escapa pelo nariz simultaneamente (véu palatino abaixado). Na escrita, a nasalidade aparece como til (~) ou como vogal seguida de <em>m/n</em> em final de sílaba: <em>maçã, fundamentais, campo, canto</em>. A distinção oral × nasal é uma questão de <strong>ressonância</strong>, não de "força" do som — é comum prova cobrar essa definição articulatória de forma literal.</p>
-
-<h3>Vogal Epentética (Epêntese)</h3>
-<p><strong>Epêntese</strong> é a inserção de um som (geralmente uma vogal) que não existe na forma padrão da palavra, criando uma sílaba extra na pronúncia. É um fenômeno de fala popular/regional muito comum no português brasileiro diante de encontros consonantais considerados "difíceis":</p>
-<div class="exemplo-box">
-  <em>advogado</em> → "adivogado" (vogal <em>i</em> inserida entre d e v)<br>
-  <em>pneu</em> → "pineu"<br>
-  <em>rapto</em> → "rapito"<br>
-  <em>abdômen</em> → "abidômen"<br>
-  <em>ritmo</em> → "ritimo"
-</div>
-<p>A vogal epentética é um traço de <strong>variação linguística</strong> (fala popular/coloquial), não da norma-padrão escrita — mas é cobrada como conceito de fonética, associada à tendência do português de preferir sílabas CV (consoante+vogal) e evitar encontros consonantais "pesados".</p>`,
+</div>`,
     questoes: [
       { enunciado: 'Qual é a diferença entre <strong>letra</strong> e <strong>fonema</strong>?', opcoes: ["São sinônimos","Letra é o símbolo gráfico; fonema é o som da fala","Fonema é o símbolo gráfico; letra é o som","Letra só existe na escrita cursiva"], correta: 1, explicacao: 'Letra = símbolo escrito. Fonema = unidade sonora que distingue palavras.' },
       { enunciado: 'Quantos fonemas há na palavra "taxa"?', opcoes: ["4","5","3","2"], correta: 1, explicacao: '"Taxa": t-a-ks-a. O <em>x</em> = /ks/ (dois fonemas) → total: 5 fonemas, 4 letras.' },
@@ -1162,8 +1590,6 @@ const TEMAS = [
   </tbody>
 </table>
 
-<p style="color:#94a3b8;font-size:0.85rem;">📌 Para decidir se um encontro vocálico é ditongo ou hiato (o que muda se as vogais separam ou ficam juntas na sílaba), veja a árvore de decisão completa nos temas <strong>Ditongos</strong> e <strong>Hiatos</strong>.</p>
-
 <div class="exemplo-box">
   <em>psicologia</em>  → psi-co-lo-gi-a &nbsp;(ps: grupo inicial inseparável)<br>
   <em>problema</em>    → pro-ble-ma &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(bl inseparável)<br>
@@ -1171,17 +1597,6 @@ const TEMAS = [
   <em>sublinhar</em>   → sub-li-nhar &nbsp;&nbsp;&nbsp;&nbsp;(fronteira do prefixo sub-)<br>
   <em>saúde</em>       → sa-ú-de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(hiato: ú tônico = sílaba separada)
 </div>
-
-<h3>Palavras com vários encontros consonantais seguidos</h3>
-<p>Em palavras com 3 ou mais consoantes em sequência, aplique a regra <strong>cluster por cluster</strong>: separe as consoantes que NÃO formam encontro perfeito (não são consoante+L/R) e mantenha juntas as que formam. Passo a passo:</p>
-<div class="exemplo-box">
-  <em>perscrutar</em> → pers-cru-tar &nbsp;(r+s não é encontro perfeito → separa; "cr" é perfeito → fica junto)<br>
-  <em>abstrato</em> → abs-tra-to &nbsp;(b+s separa; "tr" fica junto)<br>
-  <em>tungstênio</em> → tungs-tê-nio &nbsp;(g+s separa; "st" fica junto na sílaba seguinte)<br>
-  <em>perspicaz</em> → pers-pi-caz &nbsp;(r+s separa; "sp" antes de vogal fica com a vogal)<br>
-  <em>atmosfera</em> → at-mos-fe-ra &nbsp;(t+m separa, pois não formam grupo pronunciável junto)
-</div>
-<p><strong>Duas separações tecnicamente válidas:</strong> em palavras terminadas por consoante + <em>i/e</em> átono + <em>a/o</em> (como "-cia", "-cio", "-gio"), a tradição gramatical admite <strong>duas análises</strong>: a mais comum trata o grupo final como ditongo crescente, contando como uma sílaba só (<em>tân-cia</em>), mas uma análise mais rigorosa também aceita separar em hiato (<em>tân-ci-a</em>), tratando o <em>i</em> átono como núcleo de sua própria sílaba. Por isso, questões que apresentam apenas uma divisão como "a única forma correta" podem estar incompletas — para muitos gramáticos, ambas as separações são aceitáveis (ex.: im-por-<strong>tân-cia</strong> ou im-por-<strong>tân-ci-a</strong>).</p>
 
 <div class="dica-box">
   <div class="dica-title">Dicas — Sílabas</div>
@@ -1192,9 +1607,6 @@ const TEMAS = [
     <li>Encontros consonantais inseparáveis (bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, tr) ficam juntos.</li>
     <li><em>i</em> ou <em>u</em> com acento gráfico (í, ú) = sempre hiato, nunca fica junto com vogal anterior.</li>
   </ul>
-</div>
-<div class="dica-box"><div class="dica-title">Fonologia — a ciência dos sons</div>
-<p><strong>Fonologia</strong> é o ramo da gramática que estuda os fonemas e os sons da língua. A fonologia analisa como os fonemas se organizam e se relacionam no sistema da língua portuguesa. Cada fonema tem valor distintivo: trocar um fonema muda o significado da palavra.</p>
 </div>
 `,
     questoes: []
@@ -1268,45 +1680,13 @@ const TEMAS = [
 </tbody></table>
 
 <h3>7. Monossílabos tônicos e átonos</h3>
-<p><strong>Monossílabo</strong> é a palavra com apenas uma sílaba. Eles se dividem em <strong>tônicos</strong> (pronúncia forte, podem receber acento) e <strong>átonos</strong> (pronúncia fraca, nunca recebem acento). Já as palavras <strong>polissílabas</strong> (duas ou mais sílabas) seguem as regras normais de oxítona, paroxítona e proparoxítona vistas acima.</p>
+<p><strong>Monossílabo</strong> é a palavra com apenas uma sílaba. Eles se dividem em <strong>tônicos</strong> (pronúncia forte, podem receber acento) e <strong>átonos</strong> (pronúncia fraca, nunca recebem acento).</p>
 <table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Descrição</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Tônico acentuado</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em -á/-é/-ê/-ó/-ô/-éu/-ói → recebem acento</td><td style="padding:8px 10px;color:#fde68a;">pá, pé, fé, nó, só, dó, céu, réu, mês, pôr, pôs</td></tr>
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fbbf24;font-weight:700;">Tônico sem acento</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia forte; terminam em consoante → oxítonas por terminação, dispensam acento</td><td style="padding:8px 10px;color:#fde68a;">sol, mar, flor, faz, par, bar, vil, pus, fal</td></tr>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;font-weight:700;">Átono</td><td style="padding:8px 10px;color:#cbd5e1;">Pronúncia fraca; artigos, preposições, conjunções, pronomes clíticos — nunca acentuados</td><td style="padding:8px 10px;color:#fde68a;">de, do, da, a, o, e, que, se, me, te, nos, lhe, com, por, em</td></tr>
 </tbody></table>
-<div class="dica-box"><div class="dica-title">Na prova — "monossílabo"</div>Quando a questão pede "monossílabo tônico acentuado", está pedindo palavras de 1 sílaba com acento gráfico (pá, pé, nó...). Não confunda com artigos e preposições — esses também têm 1 sílaba, mas são átonos e nunca levam acento. O número de sílabas de um vocábulo é determinado pela sua estrutura fonológica.</div>
-
-<h3>8. Quadro-Resumo — Regras de Acentuação Gráfica</h3>
-<p>As <strong>regras de acentuação</strong> da língua portuguesa determinam quais vocábulos acentuados recebem acento gráfico e por quê. Cada <strong>regra de acentuação</strong> se aplica a um grupo de palavras com a mesma classificação tônica e terminação. Quando a banca pede palavras "acentuadas pela mesma regra" ou "pelo mesmo motivo", ela quer saber se as palavras pertencem ao mesmo grupo abaixo.</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 14px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Regra de acentuação</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Quando se aplica</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Palavras acentuadas pela mesma regra</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Oxítonas acentuadas</td><td style="padding:8px 10px;color:#cbd5e1;">Terminam em -á/-é/-ê/-ó/-ô/-ém/-éns/-éu/-ói</td><td style="padding:8px 10px;color:#fde68a;">café, sofá, também, chapéu, herói, inglês — acentuados pelo mesmo motivo: oxítonas nas terminações marcantes</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#38bdf8;font-weight:700;">Paroxítonas acentuadas</td><td style="padding:8px 10px;color:#cbd5e1;">Terminam em -l/-r/-n/-x/-us/-is/-ão/-ã/-ei e ditongos</td><td style="padding:8px 10px;color:#fde68a;">fácil, vírus, lápis, órgão, ímã — acentuados pelo mesmo motivo: paroxítonas em terminações atípicas</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f59e0b;font-weight:700;">Proparoxítonas (sempre)</td><td style="padding:8px 10px;color:#cbd5e1;">Tônica na antepenúltima — sem exceção</td><td style="padding:8px 10px;color:#fde68a;">médico, público, lógica, ótimo, cérebro — todas proparoxítonas, acentuadas pela mesma regra obrigatória</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#a78bfa;font-weight:700;">Hiato (i/u tônico)</td><td style="padding:8px 10px;color:#cbd5e1;">i ou u tônico em sílaba sozinha ou com -s</td><td style="padding:8px 10px;color:#fde68a;">saída, país, baú, constituído, juízes — acentuados pelo mesmo motivo: hiato com i/u tônico</td></tr>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#fb923c;font-weight:700;">Monossílabos tônicos</td><td style="padding:8px 10px;color:#cbd5e1;">1 sílaba; terminam em vogal tônica acentuável</td><td style="padding:8px 10px;color:#fde68a;">pá, pé, fé, nó, só, dó, céu, réu — monossílabos acentuados pela mesma regra das oxítonas em vogal tônica</td></tr>
-</tbody></table>
-
-<div class="dica-box"><div class="dica-title">⚡ Como identificar palavras acentuadas pela mesma regra / pelo mesmo motivo</div>
-<p><strong>Passo 1:</strong> Classifique cada palavra quanto à tonicidade (oxítona / paroxítona / proparoxítona).</p>
-<p><strong>Passo 2:</strong> Se são do mesmo tipo, verifique a terminação — as terminações devem pertencer ao mesmo grupo de regras de acentuação.</p>
-<p><strong>Passo 3:</strong> Palavras acentuadas corretamente seguem essas regras; palavras acentuadas incorretamente as violam.</p>
-<div class="exemplo-box">
-  <strong>Exemplo:</strong> "café" e "também" → ambas oxítonas terminadas em -é/-ém → acentuadas pela mesma regra ✓<br>
-  <strong>Exemplo:</strong> "médico" e "público" → ambas proparoxítonas → acentuadas pela mesma regra (proparoxítonas sempre levam acento) ✓<br>
-  <strong>Exemplo:</strong> "saída" e "país" → ambas com hiato i/u tônico → acentuadas pelo mesmo motivo ✓<br>
-  <strong>Atenção:</strong> "café" e "fácil" → oxítona + paroxítona → regras diferentes, NÃO acentuadas pela mesma regra ✗
-</div>
-</div>
-
-<h3>9. Acentuação das Palavras — Visão Geral</h3>
-<p>A <strong>acentuação das palavras</strong> em português segue um princípio único: o acento gráfico só aparece quando a posição da sílaba tônica não pode ser deduzida pela terminação da palavra. Considerando a acentuação dos vocábulos, sempre pergunte: a terminação já "avisa" onde está a tônica?</p>
-<ul>
-  <li><strong>Paroxítonas em -a, -e, -o, -am, -em, -agem</strong> → terminação já avisa → sem acento (casa, come, falam)</li>
-  <li><strong>Paroxítonas em -l, -r, -n…</strong> → terminação "esperaria" oxítona → acento necessário (fácil, açúcar, hífen)</li>
-  <li><strong>Oxítonas em -r, -l, -z, -i, -u</strong> → terminação já avisa → sem acento (falar, papel, feliz, aqui, bambu)</li>
-  <li><strong>Oxítonas em -á, -é, -ê, -ó, -ô, -ém…</strong> → precisam de acento para marcar a vogal tônica aberta/fechada</li>
-  <li><strong>Proparoxítonas</strong> → nenhuma terminação avisa a antepenúltima → acento sempre obrigatório em todos os vocábulos acentuados nessa posição</li>
-</ul>`,
+<div class="dica-box"><div class="dica-title">Na prova — "monossílabo"</div>Quando a questão pede "monossílabo tônico acentuado", está pedindo palavras de 1 sílaba com acento gráfico (pá, pé, nó...). Não confunda com artigos e preposições — esses também têm 1 sílaba, mas são átonos e nunca levam acento. O número de sílabas de um vocábulo é determinado pela sua estrutura fonológica.</div>`,
     questoes: [
       { enunciado: 'Qual é a separação silábica correta de "psicologia"?', opcoes: ["psi-co-lo-gi-a","p-si-co-lo-gi-a","psi-col-o-gi-a","psi-co-lo-gia"], correta: 0, explicacao: 'psi-co-lo-gi-a: 5 sílabas. O grupo <em>ps</em> permanece unido.' },
       { enunciado: 'Qual palavra é <strong>oxítona</strong>?', opcoes: ["árvore","janela","café","lápis"], correta: 2, explicacao: '"Café" (ca-FÉ): tônica na última sílaba = oxítona.' },
@@ -1420,42 +1800,11 @@ const TEMAS = [
 <ul>
   <li>Antes de nomes próprios femininos: <em>Dei o presente a/à Maria.</em></li>
   <li>Antes de pronome possessivo feminino: <em>Fui a/à sua casa.</em></li>
-  <li>Depois da preposição "até": <em>Fui até a/à porta.</em></li>
-</ul>
-
-<h3>Crase por regência (verbal e nominal) — o padrão mais cobrado em prova CESPE</h3>
-<p>A crase não depende só do substantivo seguinte: depende também de o <strong>verbo ou nome anterior EXIGIR a preposição "a"</strong> (regência) diante de um termo feminino que admite artigo. É o mesmo raciocínio da <a href="#regencia">regência verbal/nominal</a> aplicado ao "a".</p>
-<ul>
-  <li><strong>Aspirar</strong> (no sentido de "desejar") é VTI regido por "a": "Ele aspira <strong>à</strong> vaga." (aspira a + a vaga)</li>
-  <li><strong>Assistir</strong> (no sentido de "prestar auxílio" ou "ter direito") é VTI regido por "a": "O médico assistiu <strong>à</strong> vítima." / "Assiste-lhe o direito <strong>à</strong> defesa."</li>
-  <li><strong>Visar</strong> (no sentido de "objetivar") é VTI regido por "a": "O projeto visa <strong>à</strong> melhoria."</li>
-  <li><strong>Obedecer/desobedecer</strong> são VTI regidos por "a": "Obedeça <strong>às</strong> normas."</li>
-  <li><strong>Referir-se, aludir, faltar (no sentido de estar ausente)</strong> também regem "a": "Refiro-me <strong>à</strong> proposta.", "Faltou <strong>à</strong> reunião."</li>
-  <li>Nomes (substantivos/adjetivos) que regem "a": fiel <strong>a</strong>, favorável <strong>a</strong>, contrário <strong>a</strong>, prejudicial <strong>a</strong>, tendência <strong>a</strong> — se o termo seguinte for feminino e admitir artigo, forma-se a crase: "prejudicial <strong>à</strong> saúde", "tendência <strong>à</strong> violência".</li>
-</ul>
-<p><strong>Cuidado com o inverso</strong>: se o verbo/nome NÃO exige a preposição "a" (é transitivo direto ou rege outra preposição), não há crase mesmo diante de palavra feminina: "Ele avistou a cidade" (avistar é VTD, não "avistar a"); "Chegar" rege "a" só no sentido de destino ("chegar à cidade"), mas não confundir com "chegar de" (origem).</p>
-
-<h3>Crase diante de palavras que ora admitem, ora recusam artigo</h3>
-<ul>
-  <li><strong>Casa</strong> (sentido de lar/residência própria, sem especificação): não tem crase — "Vou a casa." Com especificação/adjetivo, passa a admitir artigo: "Vou <strong>à</strong> casa de Maria."</li>
-  <li><strong>Terra</strong> (sentido de chão firme, oposto a bordo/mar): não tem crase — "Os marinheiros voltaram a terra." Em outros sentidos (terra natal, planeta), admite artigo: "Voltou <strong>à</strong> terra natal."</li>
-  <li><strong>Distância</strong>: sem especificação, não tem crase — "Ficou a distância." Com especificação, admite: "Ficou <strong>à</strong> distância de dois metros."</li>
-  <li><strong>Nomes de lugares</strong>: em geral não admitem artigo (não tem crase: "Fui a Roma", "Fui a Belém") — exceto os que já são acompanhados de artigo no próprio nome (tem crase: "Fui <strong>à</strong> Bahia", "Fui <strong>à</strong> França", "Fui <strong>à</strong> Argentina"). Teste: se o lugar aceita "da" (não "de"), tem artigo e, portanto, crase ("Voltei <strong>da</strong> Bahia" → "Fui <strong>à</strong> Bahia"); se só aceita "de", não tem artigo nem crase ("Voltei de Roma" → "Fui a Roma").</li>
-</ul>
-
-<h3>Outros casos importantes</h3>
-<ul>
-  <li><strong>Àquele(s)/àquela(s)/àquilo</strong> sempre com crase quando regidos por termo que exige "a".</li>
-  <li><strong>À moda de / à maneira de</strong>: crase mesmo quando a expressão fica subentendida — "Sapato à Luís XV" (à moda de Luís XV).</li>
-  <li><strong>Crase antes de "que"</strong> em estruturas comparativas elípticas: "Comprou mais roupas <strong>à</strong> que precisava" (a que = a + a qual/aquilo que).</li>
-  <li><strong>Aonde × onde</strong>: "aonde" (a + onde) é usado com verbos de movimento, podendo indicar crase implícita — "Aonde você vai?"; "onde" é usado com verbos de permanência — "Onde você está?"</li>
-  <li><strong>Sem crase antes de verbo no infinitivo</strong>, mesmo que o verbo esteja substantivado por outro artigo: "Está disposto a ajudar" (sem crase, pois "ajudar" é verbo).</li>
 </ul>
 
 <div class="exemplo-box">
   <strong>Ortograficamente correto:</strong> "Fui <strong>à</strong> reunião" (crase: preposição + artigo)<br>
-  <strong>Sem crase:</strong> "Fui a Roma" (Roma não admite artigo)<br>
-  <strong>Crase por regência:</strong> "Aspiro <strong>à</strong> promoção." (aspirar rege "a" + "a" promoção, fem.)<br>
+  <strong>Sem crase:</strong> "Fui a Roma" (Roma não usa artigo definido)<br>
   <strong>Acento grave indica crase:</strong> à, às, àquele, àquela, àquilo
 </div>
 
@@ -1466,8 +1815,6 @@ const TEMAS = [
     <li>Use o macete "ao": se cabe "ao" no masculino, cabe "à" no feminino.</li>
     <li>Locuções femininas sempre com crase: <em>às vezes, à toa, à moda, à vista, à vontade</em>.</li>
     <li>Horas: sempre com crase — <em>às 10h, à meia-noite</em> (exceto "a partir de", "ao meio-dia").</li>
-    <li>Verbos/nomes que regem "a" (aspirar, assistir=prestar auxílio, visar=objetivar, obedecer, referir-se, fiel a, favorável a) puxam crase diante de termo feminino — é o caso mais cobrado em prova de nível superior.</li>
-    <li>Nome de lugar: se aceita "da" (voltei da Bahia), tem crase (fui à Bahia); se só aceita "de" (voltei de Roma), não tem crase (fui a Roma).</li>
     <li>O fenômeno da crase é indicado ortograficamente pelo acento grave sobre o "a".</li>
   </ul>
 </div>`,
@@ -1478,7 +1825,7 @@ const TEMAS = [
     id: "classesGramaticais", materia: 'portugues', nome: "Classes Gramaticais", icon: "📚", desc: "📌 BACEN · IFPA — As 10 classes de palavras",
     teoria: `
 <h3>O que são Classes Gramaticais?</h3>
-<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>, divididas em <strong>variáveis</strong> (substantivo, adjetivo, artigo, pronome, verbo, numeral — flexionam em gênero/número/pessoa) e <strong>invariáveis</strong> (advérbio, preposição, conjunção, interjeição).</p>
+<p>As <strong>classes gramaticais</strong> (ou classes de palavras) são categorias em que agrupamos as palavras de acordo com sua forma, função e significado. A <strong>classe gramatical</strong> de uma palavra determina como ela funciona na oração. O português tem <strong>10 classes</strong>.</p>
 
 <h3>1. Substantivo</h3>
 <p>Nomeia seres, objetos, lugares, sentimentos, ações, etc.</p>
@@ -1487,160 +1834,89 @@ const TEMAS = [
   <li><strong>Comum</strong> (nome genérico): cidade, menina</li>
   <li><strong>Concreto</strong> (existência independente): mesa, pedra, anjo</li>
   <li><strong>Abstrato</strong> (depende de outro ser): amor, liberdade, corrida</li>
-  <li><strong>Simples</strong> (um só radical): flor, girassol · <strong>Composto</strong> (mais de um radical): guarda-chuva, girassol não, mas beija-flor sim</li>
-  <li><strong>Primitivo</strong> (não deriva de outra palavra): pedra, ferro · <strong>Derivado</strong> (vem de outra palavra): pedreiro, ferreiro</li>
-  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes), rebanho (gado/ovelhas), matilha (cães de caça), ramalhete/buquê (flores), colmeia/enxame (abelhas), cambada/quadrilha (bandidos), boiada (bois), tropa (mulas/animais de carga), banca (examinadores), acervo (obras/documentos), constelação (astros), plêiade (artistas/poetas), fascículo (publicações), esquadrilha (aviões), armada (navios de guerra), caravana (viajantes), júri (jurados)</li>
+  <li><strong>Coletivo</strong> (grupo de seres): alcateia (lobos), cardume (peixes)</li>
 </ul>
-<p>O substantivo tem <strong>flexão de gênero</strong> (masculino/feminino, ex.: menino/menina) e <strong>número</strong> (singular/plural, ex.: casa/casas). A formação dos plurais segue regras próprias: acréscimo de -s (casa → casas), -es (papel → papéis), ou mudança de -ão (mão → mãos, cidadão → cidadãos, capitão → capitães — as três formas de plural de -ão convivem, sem regra fixa que preveja qual usar, sendo necessário memorizar).</p>
-<p><strong>Plural de palavras terminadas em -L:</strong> -al, -el, -ol, -ul → trocam o <strong>l</strong> por <strong>is</strong>: animal → anim<strong>ais</strong>, papel → pap<strong>éis</strong>, farol → far<strong>óis</strong>, paul → pa<strong>uis</strong> (exceção: mal → males, que segue a regra normal de -al). Terminadas em <strong>-il</strong>: se a palavra é <strong>oxítona</strong>, troca -il por -is (fuzil → fuz<strong>is</strong>, barril → barr<strong>is</strong>); se é <strong>paroxítona</strong>, troca -il por -eis (fóssil → fóss<strong>eis</strong>, réptil → répt<strong>eis</strong>, míssil → míss<strong>eis</strong>).</p>
-<p><strong>Plural de palavras terminadas em -S:</strong> monossílabas e oxítonas acrescentam <strong>-es</strong> (gás → gas<strong>es</strong>, mês → mes<strong>es</strong>, país → país<strong>es</strong>); paroxítonas e proparoxítonas terminadas em -s ficam <strong>invariáveis</strong> — plural igual ao singular (o/os lápis, o/os ônibus, o/os vírus, o/os tênis).</p>
-<p><strong>Plural do substantivo composto:</strong> depende da classe dos elementos. Dois substantivos ou substantivo+adjetivo: ambos flexionam (couve-flor → couves-flores); substantivo + preposição + substantivo: só o primeiro flexiona (pé-de-moleque → pés-de-moleque); verbo + substantivo: só o substantivo flexiona se estiver no plural (guarda-chuva → guarda-chuvas), e fica invariável se o substantivo já estiver no plural (saca-rolhas → saca-rolhas); elementos invariáveis (advérbio, verbo repetido): a palavra toda fica invariável (o/os pisa-mansinho).</p>
-<p>Casos especiais de gênero: <strong>substantivos comuns de dois gêneros</strong> variam só pelo artigo (o/a estudante, o/a jovem, o/a colega); <strong>epicenos</strong> designam animais com uma só forma para os dois sexos, distinguindo-se com "macho/fêmea" (a cobra macho/fêmea, o jacaré macho/fêmea); <strong>sobrecomuns</strong> têm uma só forma (com um só artigo) para pessoas de qualquer sexo (a criança, o cônjuge, a vítima, a testemunha, o indivíduo).</p>
-<p>O substantivo também flexiona em <strong>grau</strong>: <strong>aumentativo</strong> (indica tamanho maior — casa → casarão) e <strong>diminutivo</strong> (indica tamanho menor — casa → casinha), formados por sufixo (sintético: casarão, casinha) ou por palavra separada como "casa grande"/"casa pequena" (analítico). Sufixos diminutivos além de <em>-inho</em>: <em>-zinho</em> (mulherzinha), <em>-ito</em> (pobrezito), <em>-ico</em> (pouquico), <em>-ela</em> (viela). Sufixos aumentativos além de <em>-ão</em> (casarão, portão): <em>-aço</em> (barcaço), <em>-alhão</em> (grandalhão), <em>-eirão</em> (vozeirão), <em>-aréu</em> (fogaréu), <em>-zarrão</em> (bocazarrão). O diminutivo também pode ter valor afetivo (filhinho) ou irônico/pejorativo (mediquinho), assim como o aumentativo pode ter valor pejorativo (povão) — o grau nem sempre indica tamanho literal.</p>
-<p>Quando uma palavra de outra classe (verbo, adjetivo etc.) passa a funcionar como substantivo, ocorre a <strong>substantivação</strong>: "o <em>cantar</em> dos pássaros" (verbo virou substantivo); "o <em>verde</em> da mata" (adjetivo virou substantivo); "o <em>sim</em> e o <em>não</em>" (advérbios virando substantivo).</p>
 
 <h3>2. Adjetivo</h3>
-<p>Caracteriza o substantivo, indicando qualidade, estado, aparência ou origem. <strong>Concorda em gênero e número</strong> com o substantivo a que se refere.</p>
-<ul>
-  <li><strong>Simples</strong> (um radical): feliz, bom · <strong>Composto</strong> (mais de um radical): luso-brasileiro, verde-claro</li>
-  <li><strong>Primitivo</strong>: feliz · <strong>Derivado</strong>: infeliz, felizardo</li>
-  <li><strong>Pátrio (gentílico)</strong> — indica nacionalidade/origem: brasileiro, paraense, carioca, paulista, gaúcho, capixaba, catarinense, alagoano, cearense, potiguar (Rio Grande do Norte), pernambucano</li>
-  <li><strong>Adjetivo composto:</strong> quando o segundo elemento é um substantivo usado como cor, a expressão inteira fica <strong>invariável</strong> (blusas verde-oliva, camisas amarelo-ouro); quando os dois elementos são adjetivos de cor, só o último flexiona (blusas azul-marinhas — na prática "azul-marinho" também costuma ficar invariável por uso consagrado; bandeiras verde-amarelas).</li>
-</ul>
-<p><strong>Locução adjetiva:</strong> expressão formada por preposição + substantivo que equivale a um adjetivo. Pares mais cobrados em prova: de pai (paterno), de mãe (materno), de filho (filial), de irmão (fraterno), de olho (ocular), de boca (bucal/oral), de estômago (estomacal/gástrico), de fígado (hepático), de coração (cardíaco), de rim (renal), de pulmão (pulmonar), de noite (noturno), de dia (diurno), de verão (estival), de inverno (hibernal), de cavalo (equino/cavalar), de cachorro (canino), de lobo (lupino), de boi (bovino), de porco (suíno), de leão (leonino), de rei (régio/real), de campo (campestre/rural), de cidade (urbano), sem fim (infindável), antes da guerra (pré-bélico), depois da morte (póstumo).</p>
-<p><strong>Graus do adjetivo:</strong></p>
-<ul>
-  <li><strong>Comparativo de igualdade:</strong> tão ... quanto/como — "Ele é tão alto quanto o irmão."</li>
-  <li><strong>Comparativo de superioridade:</strong> mais ... (do) que — "Ele é mais alto que o irmão." (analítico); alguns adjetivos têm forma sintética própria: bom → melhor, mau → pior, grande → maior, pequeno → menor</li>
-  <li><strong>Comparativo de inferioridade:</strong> menos ... (do) que — "Ele é menos alto que o irmão."</li>
-  <li><strong>Superlativo absoluto sintético:</strong> sufixo -íssimo/-érrimo agregado ao próprio adjetivo — altíssimo, célebre → celebérrimo, pobre → paupérrimo, doce → dulcíssimo, fácil → facílimo, amável → amabilíssimo</li>
-  <li><strong>Superlativo absoluto analítico:</strong> advérbio de intensidade + adjetivo — "muito alto", "extremamente alto"</li>
-  <li><strong>Superlativo relativo de superioridade:</strong> o mais ... de/entre — "o mais alto da turma"</li>
-  <li><strong>Superlativo relativo de inferioridade:</strong> o menos ... de/entre — "o menos alto da turma"</li>
-</ul>
+<p>Caracteriza o substantivo, indicando qualidade, estado ou aparência. <strong>Concorda em gênero e número</strong> com o substantivo.</p>
 <div class="exemplo-box">
-  "O homem <em>cansado</em> dormiu." — cansado: adjetivo (concorda com "homem")<br>
-  "Trabalho <em>árduo</em>" (locução equivalente não muda o sentido: "trabalho de muito esforço")
+  "O homem <em>cansado</em> dormiu." — cansado: adjetivo (concorda com "homem")
 </div>
 
 <h3>3. Artigo</h3>
-<p>Precede o substantivo, determinando-o e indicando também, muitas vezes, seu gênero e número. Varia em gênero e número.</p>
+<p>Precede o substantivo, determinando-o. Varia em gênero e número.</p>
 <div class="exemplo-box">
-  <strong>Artigo definido:</strong> o, a, os, as — indica ser determinado, já conhecido, ou tem valor generalizador: <em>o livro</em> (específico), <em>O homem é mortal</em> (generaliza a espécie)<br>
-  <strong>Artigo indefinido:</strong> um, uma, uns, umas — indica ser indeterminado, desconhecido ou genérico: <em>um livro</em>, <em>uma casa</em>
+  <strong>Artigo definido:</strong> o, a, os, as — indica ser determinado, já conhecido: <em>o livro</em>, <em>a casa</em><br>
+  <strong>Artigo indefinido:</strong> um, uma, uns, umas — indica ser indeterminado: <em>um livro</em>, <em>uma casa</em>
 </div>
-<p>A <strong>ausência do artigo</strong> também é significativa: "Ele é médico" (sem artigo, indica categoria/profissão) x "Ele é o médico" (artigo, indica indivíduo específico já conhecido no contexto).</p>
 
 <h3>4. Pronome</h3>
-<p>Substitui ou acompanha o substantivo, indicando as pessoas do discurso ou situando o substantivo no espaço/tempo/contexto.</p>
+<p>Substitui ou acompanha o substantivo.</p>
 <ul>
-  <li><strong>Pessoais:</strong> eu, tu, ele/ela, nós, vós, eles/elas (caso reto — função de sujeito) × me, ti, o/a, lhe, nos, vos, os/as, lhes, mim, comigo etc. (caso oblíquo — função de complemento). Depois de preposição, usa-se o pronome oblíquo tônico, não o reto: <em>"para mim"</em> (correto) e não <em>"para eu"</em>; exceção quando há um verbo no infinitivo logo depois: <em>"para eu fazer"</em>.</li>
-  <li><strong>Pronomes de tratamento:</strong> Você, Vossa Senhoria (V.Sa. — uso comum, correspondência), Vossa Excelência (V.Exa. — autoridades: presidente, ministros, deputados, senadores), Vossa Santidade (Papa), Vossa Eminência (cardeais), Vossa Majestade (reis), Vossa Alteza (príncipes), Vossa Reverendíssima (sacerdotes), Vossa Senhoria/Doutor (uso geral formal). Regra fixa de prova: mesmo se referindo à 2ª pessoa (com quem se fala), o verbo e os pronomes possessivos concordam na <strong>3ª pessoa</strong> — "Vossa Excelência apresentou <em>seu</em> relatório" (nunca "vosso" nem "apresentastes").</li>
-  <li><strong>Possessivos:</strong> meu(s)/minha(s), teu(s)/tua(s), seu(s)/sua(s), nosso(s)/nossa(s), vosso(s)/vossa(s) — indicam posse e concordam com o objeto possuído, não com o possuidor.</li>
-  <li><strong>Demonstrativos:</strong> <em>este/esta/isto</em> indica o que está perto de quem fala (ou vai ser dito a seguir — função catafórica); <em>esse/essa/isso</em> indica o que está perto de quem ouve (ou já foi dito antes — função anafórica, mais cobrada em prova de coesão textual); <em>aquele/aquela/aquilo</em> indica o que está distante de ambos. No tempo: "este mês" (atual), "esse mês" (mencionado, não muito distante), "aquele mês" (passado distante).</li>
-  <li><strong>Relativos:</strong> que, quem, o qual/a qual/os quais/as quais, cujo(s)/cuja(s), onde, quanto — retomam um termo anterior (antecedente) e podem exigir a preposição regida pelo verbo/nome da oração que introduzem (ex.: "notícia <strong>de que</strong>" porque "ter notícia <strong>de</strong> algo"). <strong>Cujo</strong> indica posse, concorda com a coisa possuída (não com o possuidor) e nunca vem precedido de artigo nem seguido dele: "o autor <strong>cujo</strong> livro venceu" (não "cujo o livro").</li>
-  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada, algum, nenhum, qualquer, cada, outro, todo, vário, certo, qualquer — indicam <strong>indeterminação</strong> (quantidade ou identidade não especificada, vaga).</li>
-  <li><strong>Interrogativos:</strong> que, quem, qual, quanto — usados em perguntas diretas ("Quem chegou?") ou indiretas ("Não sei quem chegou").</li>
+  <li><strong>Pessoais:</strong> eu, tu, ele/ela, nós, vós, eles/elas</li>
+  <li><strong>Possessivos:</strong> meu, teu, seu, nosso, vosso</li>
+  <li><strong>Demonstrativos:</strong> este, esse, aquele (variações)</li>
+  <li><strong>Relativos:</strong> que, quem, o qual, cujo</li>
+  <li><strong>Indefinidos:</strong> alguém, ninguém, tudo, nada</li>
+  <li><strong>Interrogativos:</strong> quem?, que?, qual?, quanto?</li>
 </ul>
 
 <h3>5. Verbo</h3>
-<p>Indica ação, estado ou fenômeno natural. Varia em pessoa, número, <strong>tempo</strong>, <strong>modo</strong> e <strong>voz</strong>.</p>
+<p>Indica ação, estado ou fenômeno natural. Varia em pessoa, número, tempo, modo e voz.</p>
 <ul>
   <li><strong>Verbo de ação:</strong> correr, comer, escrever</li>
-  <li><strong>Verbo de ligação:</strong> ser, estar, ficar, parecer, tornar-se, permanecer, continuar, andar, viver — liga sujeito ao predicativo, sem indicar ação</li>
-  <li><strong>Verbo de fenômeno natural (impessoal):</strong> chover, ventar, nevar, amanhecer, anoitecer — sem sujeito quando usados em sentido literal</li>
-  <li><strong>Verbo transitivo:</strong> exige complemento para ter sentido completo. <em>Transitivo direto</em> (VTD): complemento sem preposição (objeto direto) — <em>Comprei um livro.</em> <em>Transitivo indireto</em> (VTI): complemento com preposição (objeto indireto) — <em>Gosto de música.</em> <em>Transitivo direto e indireto</em> (VTDI): dois complementos — <em>Emprestei o livro ao colega.</em></li>
-  <li><strong>Verbo intransitivo:</strong> sentido completo sem complemento — <em>Ela chegou.</em></li>
+  <li><strong>Verbo de ligação:</strong> ser, estar, ficar, parecer, tornar-se, continuar — liga sujeito ao predicativo</li>
+  <li><strong>Verbo de fenômeno:</strong> chover, ventar, nevar</li>
 </ul>
-<p><strong>Modo verbal</strong> — atitude do falante diante do fato: <strong>Indicativo</strong> expressa certeza, fato real ("Ele estuda"); <strong>Subjuntivo</strong> expressa dúvida, hipótese, desejo, possibilidade ("Espero que ele estude", "Se ele estudasse..."); <strong>Imperativo</strong> expressa ordem, pedido, conselho ("Estude!"). O imperativo afirmativo deriva do presente do subjuntivo para todas as pessoas exceto "tu" e "vós" (que vêm do presente do indicativo sem o -s final); o imperativo negativo vem inteiro do presente do subjuntivo.</p>
-<p><strong>Voz verbal</strong> — relação entre sujeito e ação: <strong>Voz ativa</strong>, o sujeito pratica a ação ("O menino quebrou o vaso"); <strong>Voz passiva analítica</strong>, o sujeito sofre a ação, com verbo auxiliar "ser" + particípio ("O vaso foi quebrado pelo menino" — o agente da passiva é introduzido por "por"); <strong>Voz passiva sintética (pronominal)</strong>, com verbo transitivo direto + pronome apassivador "se" ("Quebrou-se o vaso" = "O vaso foi quebrado"; não confundir com índice de indeterminação do sujeito, que ocorre com VI/VTI: "Precisa-se de funcionários"); <strong>Voz reflexiva</strong>, o sujeito pratica e sofre a ação ao mesmo tempo ("O menino se machucou"); <strong>Voz reflexiva recíproca</strong>, dois ou mais sujeitos praticam e sofrem a ação um sobre o outro ("Os irmãos se abraçaram").</p>
-<p><strong>Classificação quanto à flexão:</strong> <strong>Regular</strong> segue o paradigma normal de sua conjugação (cantar, vender, partir); <strong>Irregular</strong> sofre alterações no radical ou nas terminações (fazer → faço/fiz; poder → posso/pude); <strong>Anômalo</strong> tem irregularidades tão profundas que muda radicalmente (ser → sou/era/fui; ir → vou/fui); <strong>Defectivo</strong> não possui conjugação completa em todos os tempos/pessoas — falta-lhe alguma forma (reaver e falir não têm 1ª/2ª/3ª pessoa do singular do presente do indicativo nem, por consequência, presente do subjuntivo e imperativo dessas pessoas; precaver-se e abolir têm lacunas semelhantes); <strong>Abundante</strong> tem mais de uma forma equivalente para o particípio (particípio regular -ado/-ido e irregular): entregar → entregado/entregue, pagar → pagado/pago, ganhar → ganhado/ganho, ativa aciona → usa-se o regular com "ter/haver" e o irregular com "ser/estar" (ele <em>tinha pago</em> a conta; a conta já estava <em>paga</em>) — verbos com essa dupla forma: aceitar, entregar, expulsar, ganhar, gastar, imprimir, limpar, matar, pagar, salvar, soltar.</p>
 <div class="exemplo-box">
-  "Ele <em>parece</em> cansado." → "parece" = verbo de ligação (une "ele" ao predicativo "cansado")<br>
-  "O réu foi <em>absolvido</em>." → voz passiva analítica<br>
-  "Alugam-se casas." → voz passiva sintética (VTD "alugar" + "se")
+  "Ele <em>parece</em> cansado." → "parece" = verbo de ligação (une "ele" ao predicativo "cansado")
 </div>
 
 <h3>6. Advérbio</h3>
-<p>Modifica verbo, adjetivo ou outro advérbio, indicando uma circunstância. É <strong>invariável</strong> (não varia em gênero/número, exceto quando modificado por "muito"/"pouco" antes de adjetivo, o que não é flexão do advérbio em si).</p>
+<p>Modifica verbo, adjetivo ou outro advérbio. É <strong>invariável</strong> (não varia em gênero/número).</p>
 <div class="exemplo-box">
-  <strong>Modo:</strong> bem, mal, rapidamente, devagar<br>
-  <strong>Tempo:</strong> ontem, hoje, amanhã, sempre, já<br>
-  <strong>Lugar:</strong> aqui, ali, lá, longe, perto<br>
-  <strong>Intensidade:</strong> muito, pouco, bastante, demais<br>
-  <strong>Negação:</strong> não, tampouco, nunca, jamais<br>
-  <strong>Afirmação:</strong> sim, certamente, realmente<br>
-  <strong>Dúvida:</strong> talvez, possivelmente, acaso
+  <em>rapidamente</em> (modo), <em>ontem</em> (tempo), <em>aqui</em> (lugar),<br>
+  <em>muito</em> (intensidade), <em>não</em> (negação), <em>talvez</em> (dúvida)
 </div>
-<p><strong>Grau do advérbio</strong> — também admite comparativo (mais cedo que, tão cedo quanto) e superlativo (cedíssimo, muito cedo). Palavras denotativas (também classificadas por muitas bancas dentro dos advérbios ou como classe à parte): de inclusão (até, inclusive, mesmo), de exclusão (só, somente, apenas, exceto), de retificação (aliás, isto é), de designação (eis).</p>
 
 <h3>7. Preposição</h3>
-<p>Palavra invariável que <strong>relaciona dois termos</strong>, sendo o segundo subordinado ao primeiro (regente e regido).</p>
-<ul>
-  <li><strong>Essenciais</strong> — só funcionam como preposição: a, ante, após, até, com, contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás</li>
-  <li><strong>Acidentais</strong> — palavras de outras classes que ocasionalmente funcionam como preposição: durante, mediante, salvo, exceto, segundo, feito, tirante, consoante, visto</li>
-  <li><strong>Locução prepositiva</strong> — duas ou mais palavras com valor de preposição, terminando sempre em preposição: a fim de, apesar de, além de, antes de, depois de, através de, em vez de, por causa de, junto a, de acordo com</li>
-</ul>
-<p><strong>Combinação × Contração:</strong> quando a preposição se une a outra palavra (geralmente artigo ou pronome) sem perda de fonema, chama-se <strong>combinação</strong> — a + o = <strong>ao</strong>, a + os = <strong>aos</strong>; quando há perda/fusão de fonemas, chama-se <strong>contração</strong> — a + a = <strong>à</strong> (crase), de + o = <strong>do</strong>, de + esse = <strong>desse</strong>, em + um = <strong>num</strong>, por + o = <strong>pelo</strong>.</p>
+<p>Palavra invariável que <strong>relaciona dois termos</strong>.</p>
 <div class="exemplo-box">
   <em>a, ante, até, após, com, contra, de, desde, em, entre, para, por, sem, sob, sobre, trás</em><br>
-  "Cheguei <em>de</em> ônibus." — de: preposição essencial (indica meio)<br>
-  "<em>Durante</em> a reunião..." — durante: preposição acidental (originalmente gerúndio de "durar")
+  "Cheguei <em>de</em> ônibus." — de: preposição (indica meio)
 </div>
 
 <h3>8. Conjunção</h3>
 <p>Liga orações ou termos de mesma função sintática.</p>
-<p><strong>Coordenativas</strong> — ligam elementos sintaticamente independentes:</p>
 <ul>
-  <li><strong>Aditiva:</strong> e, nem, mas também, mas ainda</li>
-  <li><strong>Adversativa:</strong> mas, porém, contudo, todavia, entretanto, no entanto, senão</li>
-  <li><strong>Alternativa:</strong> ou, ou...ou, ora...ora, seja...seja, quer...quer</li>
-  <li><strong>Conclusiva:</strong> logo, portanto, por isso, pois (depois do verbo), assim, por conseguinte</li>
-  <li><strong>Explicativa:</strong> pois (antes do verbo), porque, que, porquanto</li>
-</ul>
-<p><strong>Subordinativas</strong> — ligam oração principal a uma oração dependente dela:</p>
-<ul>
-  <li><strong>Integrantes:</strong> que, se (introduzem orações substantivas: "Espero que venha.")</li>
-  <li><strong>Causais:</strong> porque, pois, já que, uma vez que, visto que, como (no início da frase)</li>
-  <li><strong>Condicionais:</strong> se, caso, contanto que, desde que, a menos que, salvo se, a não ser que</li>
-  <li><strong>Concessivas:</strong> embora, ainda que, mesmo que, conquanto, posto que, apesar de que, se bem que</li>
-  <li><strong>Temporais:</strong> quando, enquanto, assim que, logo que, mal (no sentido de "assim que"), desde que, até que, sempre que</li>
-  <li><strong>Comparativas:</strong> como, tal qual, que nem, assim como, tanto quanto</li>
-  <li><strong>Consecutivas:</strong> que (precedido de tal, tanto, tão, tamanho na oração anterior), de modo que, de sorte que, de forma que</li>
-  <li><strong>Finais:</strong> para que, a fim de que, que (com sentido final)</li>
-  <li><strong>Proporcionais:</strong> à medida que, à proporção que, ao passo que, quanto mais...mais</li>
-  <li><strong>Conformativas:</strong> conforme, segundo, consoante, como (no sentido de "conforme")</li>
+  <li><strong>Coordenativas:</strong> aditiva (e, nem), adversativa (mas, porém), alternativa (ou), conclusiva (logo, portanto), explicativa (pois, porque)</li>
+  <li><strong>Subordinativas:</strong> causais (porque, pois), concessivas (embora, conquanto), temporais (quando, enquanto), condicionais (se, caso), integrantes (que, se)</li>
 </ul>
 
 <h3>9. Interjeição</h3>
-<p>Expressa emoções, estados de espírito, de forma abrupta. Invariável e geralmente seguida de exclamação.</p>
+<p>Expressa emoções, estados de espírito. Invariável e geralmente seguida de exclamação.</p>
 <div class="exemplo-box">
-  <em>Ah!</em> (surpresa/dor), <em>Ui!</em> (dor), <em>Eba!/Oba!</em> (alegria), <em>Psiu!</em> (silêncio), <em>Socorro!</em> (pedido de ajuda), <em>Coragem!</em> (ânimo), <em>Xô!/Fora!</em> (repulsa/afugentar), <em>Oxalá!</em> (desejo), <em>Basta!/Chega!</em> (desagrado), <em>Cuidado!</em> (advertência)
+  <em>Ah!</em> (surpresa), <em>Ui!</em> (dor), <em>Eba!</em> (alegria), <em>Psiu!</em> (silêncio)
 </div>
-<p><strong>Locução interjetiva</strong>: duas ou mais palavras com valor de interjeição — "Ai de mim!", "Meu Deus!", "Graças a Deus!", "Valha-me Deus!".</p>
 
 <h3>10. Numeral</h3>
-<p>Indica quantidade, ordem, fração ou múltiplo, referindo-se a substantivo ou substituindo-o.</p>
+<p>Indica quantidade, ordem, fração ou múltiplo.</p>
 <div class="exemplo-box">
-  <strong>Cardinal</strong> (quantidade exata): um, dois, três, cem, mil<br>
-  <strong>Ordinal</strong> (posição/ordem): primeiro, segundo, terceiro, décimo, vigésimo<br>
-  <strong>Multiplicativo</strong> (múltiplo): dobro, triplo, quádruplo, décuplo<br>
-  <strong>Fracionário</strong> (fração): metade/meio, terço, quarto, quinto (a partir de "quinto" coincide com o ordinal)<br>
-  <strong>Coletivo</strong> (quantidade aproximada/exata de um grupo, embora alguns autores classifiquem como substantivo): dezena, dúzia, cento, par, década, quinzena, milheiro
+  <strong>Cardinal:</strong> um, dois, três<br>
+  <strong>Ordinal:</strong> primeiro, segundo, terceiro<br>
+  <strong>Multiplicativo:</strong> dobro, triplo<br>
+  <strong>Fracionário:</strong> metade, terço
 </div>
 
 <div class="dica-box">
   <div class="dica-title">Dicas para prova</div>
   <ul>
     <li>Advérbio modifica verbo/adjetivo/advérbio e é invariável — não concorda com nada.</li>
-    <li>Adjetivo concorda com o substantivo em gênero e número; locução adjetiva equivale a um adjetivo (de pai = paterno).</li>
+    <li>Adjetivo concorda com o substantivo em gênero e número.</li>
     <li>Verbos de ligação + predicativo = predicado nominal.</li>
-    <li>"Que" pode ser conjunção integrante, conjunção subordinativa (causal/consecutiva/comparativa), pronome relativo, pronome interrogativo, substantivo ou expletivo (de realce) — analise sempre o contexto.</li>
-    <li>Pronome de tratamento sempre concorda na 3ª pessoa, mesmo remetendo ao interlocutor (2ª pessoa do discurso): "Vossa Excelência, se <em>tiver</em> tempo, poderá analisar <em>seu</em> processo."</li>
+    <li>"Que" pode ser conjunção integrante, pronome relativo, pronome interrogativo ou expletivo — analise o contexto.</li>
     <li>Interjeição sempre expressa emoção; não tem função sintática dentro da oração.</li>
     <li>Substantivos abstratos derivam de verbos ou adjetivos: correr → corrida; belo → beleza.</li>
-    <li>Combinação (ao, aos) não tem perda de fonema; contração (do, na, pelo, à) tem fusão/perda de fonema.</li>
-    <li>Verbo abundante = duas formas de particípio (pago/pagado); verbo defectivo = falta alguma forma na conjugação (reaver não tem "eu reavejo").</li>
   </ul>
 </div>`,
     questoes: [
@@ -1677,13 +1953,6 @@ const TEMAS = [
   <em>análise</em> (s) · <em>analisar</em> (s) · <em>beleza</em> (z) · <em>processo</em> (ss) · <em>caçar</em> (ç)
 </div>
 
-<h3>Uso de R × RR</h3>
-<ul>
-  <li><strong>R simples entre vogais</strong>: representa o som fraco ("tepid" R), como em ca<em>r</em>o, pe<em>r</em>a.</li>
-  <li><strong>RR entre vogais</strong>: representa o som forte (vibrante), como em ca<em>rr</em>o, te<em>rr</em>a. Só existe <strong>entre vogais</strong> — no início de palavra ou depois de consoante, o R simples já tem som forte (<em>r</em>ato, hon<em>r</em>a).</li>
-  <li>Dica: se ao remover um prefixo a palavra passaria a começar com R, dobra-se o R para manter o som forte: sub + rogar → sub<em>rr</em>ogar; contra + regra → contra<em>rr</em>egra.</li>
-</ul>
-
 <h3>Uso de G × J</h3>
 <ul>
   <li><strong>G</strong>: terminações <em>-agem, -igem, -ugem</em>: viagem, origem, ferrugem.</li>
@@ -1711,17 +1980,6 @@ const TEMAS = [
 <ul>
   <li><strong>Mas</strong> = conjunção adversativa (= porém, contudo): "Quero ir, <em>mas</em> não posso."</li>
   <li><strong>Mais</strong> = advérbio de intensidade ou pronome indefinido: "Quero <em>mais</em> café."</li>
-</ul>
-
-<h3>Outras Grafias Confundíveis Frequentes em Prova</h3>
-<ul>
-  <li><strong>Aonde × Onde</strong>: "aonde" indica <em>movimento/direção</em> — só se usa com verbos de deslocamento (ir, chegar, dirigir-se): "<em>Aonde</em> você vai?". "Onde" indica <em>lugar fixo/estático</em>: "<em>Onde</em> você mora?".</li>
-  <li><strong>Afim × A fim de</strong>: "afim" (uma palavra) é adjetivo = semelhante, que tem afinidade: "Temos gostos <em>afins</em>." "A fim de" (separado) é locução prepositiva de finalidade (= para, com o objetivo de): "Estudou <em>a fim de</em> passar."</li>
-  <li><strong>Traz × Trás</strong>: "traz" é forma do verbo <em>trazer</em> (3ª pessoa do singular): "Ele <em>traz</em> o livro." "Trás" é advérbio de lugar (= atrás, na parte posterior), usado em expressões como "para trás", "de trás pra frente": "Olhou para <em>trás</em>."</li>
-  <li><strong>Acerca de × A cerca de × Há cerca de</strong>: "acerca de" (junto) = sobre, a respeito de: "Falou <em>acerca de</em> política." "A cerca de" (separado) = aproximadamente, valor espacial/numérico aproximado: "Mora <em>a cerca de</em> 5 km daqui." "Há cerca de" = faz aproximadamente (tempo decorrido, com o verbo haver): "Chegou <em>há cerca de</em> uma hora."</li>
-  <li><strong>Em vez de × Ao invés de</strong>: "em vez de" = no lugar de (substituição neutra, uso mais amplo): "Foi de ônibus <em>em vez de</em> carro." "Ao invés de" = ao contrário de (contraste de sentidos opostos — uso mais restrito na norma culta): "Ele riu <em>ao invés de</em> chorar."</li>
-  <li><strong>Se não × Senão</strong>: "se não" (separado) = conjunção condicional negativa, equivale a "caso não": "<em>Se não</em> estudar, não passa." "Senão" (uma palavra) = do contrário, exceto, ou substantivo (defeito): "Estude, <em>senão</em> não passa." / "Não vejo <em>senão</em> uma saída." / "Todo mundo tem um <em>senão</em>."</li>
-  <li><strong>De encontro a × Ao encontro de</strong>: "de encontro a" = contra, em choque com (sentido de oposição): "O carro foi <em>de encontro a</em> um poste." "Ao encontro de" = a favor de, em concordância com: "A proposta veio <em>ao encontro de</em> nossos interesses."</li>
 </ul>
 
 <h3>Prefixos — des- / dis-</h3>
@@ -1762,7 +2020,7 @@ const TEMAS = [
 
 <h3>Acordo Ortográfico de 2009 — mudanças principais</h3>
 <ul>
-  <li><strong>Trema eliminado:</strong> freqüência → <em>frequência</em>; lingüiça → <em>linguiça</em>; tranqüilo → <em>tranquilo</em>. "Questão" nunca teve trema — seu U sempre foi mudo, então não é exemplo de eliminação. (Trema mantém-se em nomes próprios estrangeiros: Müller.)</li>
+  <li><strong>Trema eliminado:</strong> freqüência → <em>frequência</em>; qüestão → <em>questão</em>. (Mantém-se em nomes próprios estrangeiros: Müller.)</li>
   <li><strong>Consoantes mudas eliminadas no Brasil:</strong> espectáculo → <em>espetáculo</em>; óptimo → <em>ótimo</em>; facto → <em>fato</em>.</li>
   <li><strong>Acento diferencial eliminado:</strong> pára → <em>para</em>; pélo → <em>pelo</em>; pêlo → <em>pelo</em>. <em>Exceto: pôde (passado) vs pode (presente); pôr (verbo) vs por (preposição).</em></li>
   <li><strong>Ditongos abertos -éi, -ói em paroxítonas sem acento:</strong> idéia → <em>ideia</em>; jóia → <em>joia</em>; héróico → <em>heroico</em>.</li>
@@ -1813,7 +2071,6 @@ const TEMAS = [
     <li>"Obséquio", "negócio", "benefício" — memorize as grafias corretas com e/i.</li>
     <li><em>Porque</em> (conjunção) × <em>por que</em> (interrogativo) × <em>porquê</em> (substantivo) × <em>por quê</em> (final de frase).</li>
     <li>Ordem alfabética: letra a letra, da esquerda para direita; acento não conta para a ordenação.</li>
-    <li>Questões de <strong>lacuna no texto</strong> ou <strong>preenche a lacuna</strong>: escolha a palavra ortograficamente correta para preencher o espaço em branco — aplique as regras de s/z/x/ss/ç e as demais normas vigentes.</li>
   </ul>
 </div>`,
     questoes: [
@@ -1938,15 +2195,6 @@ const TEMAS = [
   <em>sa-guão</em>   → gu+ão: U pronunciado (SV) + ã(V) + o(SV) → TRITONGO <em>uão</em><br><br>
   <strong>Pista escrita para U pronunciado:</strong> vem antes de <em>a</em> ou <em>o</em>,<br>
   ou a palavra tinha trema (ü) antes do Acordo de 2009.
-</div>
-
-<div class="exemplo-box" style="border-left:3px solid #f87171;">
-  <strong>⚠️ Exceção: verbos da classe ARGUIR/DELINQUIR — U pronunciado mesmo antes de E/I</strong><br><br>
-  Um grupo pequeno de verbos (<em>arguir, redarguir, delinquir</em> e suas flexões) foge à regra geral do qu/gu: neles o <strong>U é sempre pronunciado como semivogal</strong>, mesmo diante de <em>e</em> ou <em>i</em> — diferente de "seguir/distinguir/conseguir", onde o U some foneticamente antes de e/i.<br><br>
-  <em>delinquiu</em> → de-lin-<strong>quiu</strong>: q+<strong>u</strong>(SV)+<strong>i</strong>(V)+<strong>u</strong>(SV) → <strong>TRITONGO</strong> uiu (não é dígrafo mudo aqui!)<br>
-  <em>delinquei</em> → de-lin-<strong>quei</strong>: q+<strong>u</strong>(SV)+<strong>e</strong>(V)+<strong>i</strong>(SV) → <strong>TRITONGO</strong> uei<br>
-  <em>arguiu</em> → ar-<strong>guiu</strong>: g+<strong>u</strong>(SV)+<strong>i</strong>(V)+<strong>u</strong>(SV) → <strong>TRITONGO</strong> uiu<br><br>
-Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> → se-<strong>guiu</strong>: aqui o U de "gu" é mudo (dígrafo normal) → sobram apenas <strong>i+u</strong> → <strong>DITONGO</strong>, não tritongo. Mesma coisa em <em>conseguiu, perseguiu, distinguiu</em>. <strong>Regra prática de prova:</strong> a pegadinha clássica é exatamente confundir "seguiu" (ditongo) com "delinquiu/arguiu" (tritongo) — a diferença está no verbo específico, não numa regra geral de ortografia; são exceções lexicais que precisam ser memorizadas (arguir, redarguir, delinquir).
 </div>
 
 <h3>4. Letras que formam Vogal e Semivogal no Tritongo</h3>
@@ -2112,17 +2360,6 @@ Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> �
 </tbody></table>
 <div class="dica-box"><div class="dica-title">Regras de ouro</div><ul><li>Toda proparoxítona tem acento gráfico obrigatório.</li><li>A maioria das palavras sem acento é paroxítona.</li><li>Acento gráfico = tônica está exatamente na sílaba acentuada.</li></ul></div>
 
-<div class="dica-box" style="border-left:3px solid #f59e0b;">
-<div class="dica-title">⚠️ Atenção: monossílabo NÃO é oxítona/paroxítona/proparoxítona</div>
-<p>Essas três classes só existem para palavras com <strong>2 ou mais sílabas</strong>. Monossílabo (1 sílaba única) é uma quarta categoria à parte: <strong>monossílabo tônico</strong> ou <strong>monossílabo átono</strong> — nunca oxítona, mesmo com acento gráfico e força de pronúncia própria.</p>
-<div class="exemplo-box"><strong>Erro real de banca (Quadrix/2025):</strong> a palavra <strong>"mãe"</strong> foi cobrada como NÃO sendo oxítona — justamente porque é monossílabo, e monossílabo não entra na classificação por posição da tônica, mesmo levando acento e a força da voz caindo nela.</div>
-<table style="width:100%;border-collapse:collapse;font-size:0.87rem;margin:10px 0 10px;"><thead><tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;"><th style="padding:8px 10px;border-bottom:2px solid #334155;">Tipo</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Descrição</th><th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#4ade80;font-weight:700;">Monossílabo tônico</td><td style="padding:8px 10px;color:#cbd5e1;">Recebe força de pronúncia própria — substantivo, verbo, adjetivo, advérbio</td><td style="padding:8px 10px;color:#fde68a;">mãe, pé, sol, flor, mês, luz, dez</td></tr>
-<tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:8px 10px;color:#f87171;font-weight:700;">Monossílabo átono</td><td style="padding:8px 10px;color:#cbd5e1;">Sem força própria — apoia-se na palavra vizinha; artigo, preposição, conjunção, pronome oblíquo</td><td style="padding:8px 10px;color:#fde68a;">o, de, se, que, com, em</td></tr>
-</tbody></table>
-<p style="font-size:0.85rem;color:#94a3b8;margin:0;">Detalhamento completo — mais exemplos e as regras de acentuação de cada tipo — na seção <strong>"7. Monossílabos tônicos e átonos"</strong> do tema <strong>Sílabas</strong>.</p>
-</div>
-
 <h3>Bloco 1 — Oxítonas COM acento gráfico</h3>
 <p>Oxítonas têm tônica na <strong>última</strong> sílaba. Quando terminam em vogal ou em -em/-ens, recebem acento obrigatório — porque essas terminações "esperariam" paroxítona sem o acento. O acento é o sinal visual: <em>"a tônica está aqui, na última sílaba."</em></p>
 <div class="exemplo-box">so-<strong>FÁ</strong> &nbsp;·&nbsp; ca-<strong>FÉ</strong> &nbsp;·&nbsp; vo-<strong>CÊ</strong> &nbsp;·&nbsp; a-<strong>VÓ</strong> &nbsp;·&nbsp; a-<strong>VÔ</strong> &nbsp;·&nbsp; tam-<strong>BÉM</strong> &nbsp;·&nbsp; pa-ra-<strong>BÉNS</strong></div>
@@ -2224,14 +2461,6 @@ Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> �
 <p><strong>Novo Acordo — ditongo aberto em paroxítonas:</strong> os ditongos <em>ei</em> e <em>oi</em> abertos em paroxítonas <strong>perderam o acento</strong>: <em>ideia, plateia, assembleia, heroico, jiboia</em> (sem acento desde 2009). Oxítonas com ditongo aberto continuam acentuadas: <em>papéis, fiéis, anzóis</em>.</p>
 <p><strong>Localizar a tônica em palavras longas — método passo a passo:</strong> (1) separe em sílabas; (2) pronuncie e identifique qual soa mais forte; (3) conte da última para trás: última = OXÍTONA, penúltima = PAROXÍTONA, antepenúltima = PROPAROXÍTONA. Exemplos críticos: <em>pan-de-MI-a</em> = penúltima = paroxítona (não proparoxítona); <em>me-di-a-DOR</em> = última = oxítona (4 sílabas, não 3); <em>ME-di-co</em> = antepenúltima = proparoxítona (sempre acentuada).</p>
 
-<h3>Regra 3 — Hiato Tônico (i/u)</h3>
-<p>Além das três classes por posição da tônica, existe uma regra própria para quando <strong>i</strong> ou <strong>u</strong> tônicos formam hiato (ficam sozinhos, em sílaba separada da vogal anterior):</p>
-<div class="exemplo-box">
-  <strong style="color:#4ade80;">✅ Recebe acento:</strong> i/u tônico sozinho na sílaba (nada depois, ou só "s") → sa-<strong>ú</strong>-de, sa-<strong>í</strong>-da, pa-<strong>ís</strong>, ba-<strong>ú</strong>, e-go-<strong>í</strong>s-mo, e-go-<strong>í</strong>s-ta, Lu-<strong>í</strong>s, ba-<strong>ú</strong>s<br>
-  <strong style="color:#f87171;">❌ NÃO recebe acento:</strong> seguido de consoante que não seja "s" → cair, sair, ruim, juiz, raiz; seguido de NH → rainha, moinho; vogal repetida → xiita
-</div>
-<p style="color:#94a3b8;font-size:0.85rem;">📌 Para decidir se um encontro vocálico é ditongo ou hiato (o que muda se as vogais separam ou ficam juntas na sílaba), veja a árvore de decisão completa nos temas <strong>Ditongos</strong> e <strong>Hiatos</strong>.</p>
-
 <h3>Bloco 5 — Proparoxítonas</h3>
 <p>Proparoxítonas têm tônica na <strong>antepenúltima</strong> sílaba e <strong>sempre</strong> têm acento gráfico — sem exceção. Reconhecer os sufixos abaixo permite localizar a tônica imediatamente: ela está na sílaba imediatamente anterior ao sufixo.</p>
 <div class="exemplo-box"><strong>MÉ</strong>-di-co (-ico) &nbsp;·&nbsp; <strong>Ó</strong>-ti-mo (-imo) &nbsp;·&nbsp; <strong>TÍ</strong>-tu-lo (-ulo) &nbsp;·&nbsp; es-pe-<strong>TÁ</strong>-cu-lo (-culo) &nbsp;·&nbsp; psi-<strong>CÓ</strong>-lo-go (-logo) &nbsp;·&nbsp; her-<strong>BÍ</strong>-vo-ro (-voro)</div>
@@ -2288,44 +2517,6 @@ Compare com o padrão REGULAR (a maioria dos verbos em -guir): <em>seguiu</em> �
 <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:6px 9px;color:#fbbf24;">-l, -r, -n, -x, -ps, -ã, -ãs, -ão, -ãos, -ons, -um, -uns, -i, -is, -us, -ei, -eis, -on</td><td style="padding:6px 9px;color:#38bdf8;">Paroxítona</td><td style="padding:6px 9px;color:#a78bfa;">Sim</td><td style="padding:6px 9px;color:#fde68a;"><strong>fá</strong>-cil, <strong>ví</strong>-rus, <strong>ór</strong>-gão</td></tr>
 <tr style="border-bottom:1px solid #1e293b;"><td style="padding:6px 9px;color:#fbbf24;">-ico, -imo, -ulo, -cula, -ânio, -ênio, -ício, -fico, -logo, -fago, -voro, -tono, -dromo, -grafo, -metro, -teca, -polis, -nomo, -fero, -fugo, -íssimo</td><td style="padding:6px 9px;color:#f59e0b;">Proparoxítona</td><td style="padding:6px 9px;color:#a78bfa;">Sempre</td><td style="padding:6px 9px;color:#fde68a;"><strong>mé</strong>-di-co, ma-<strong>mí</strong>-fe-ro, be-<strong>lís</strong>-si-mo</td></tr>
 </tbody></table>
-<p style="text-align:right;margin:4px 0 18px;"><button onclick="window.scrollTo(0,0)" style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.78rem;">↑ Voltar ao topo</button></p>
-
-<div class="dica-box"><div class="dica-title">⚠️ A tabela acima cobre regras gerais — existem exceções que fogem da terminação</div>
-<p>Bancas como FGV e Cesgranrio adoram testar justamente os casos que contradizem a regra. As palavras abaixo têm pronúncia diferente do que a terminação sugere — <strong>aprenda por memorização direta</strong>, não tente deduzir pela terminação.</p>
-</div>
-
-<h3>Exceções Conhecidas em Provas de Concurso</h3>
-
-<div style="background:#1a2a1a;border:1px solid #166534;border-radius:8px;padding:12px 16px;margin-bottom:16px;">
-<p style="color:#86efac;font-weight:700;margin:0 0 8px;">Grupo 1 — Terminam em -e, -o, -a mas são PROPAROXÍTONAS (não seguem a regra)</p>
-<p style="color:#94a3b8;font-size:0.84rem;margin:0 0 10px;">A terminação sugere paroxítona, mas a pronúncia correta é proparoxítona — erro clássico de banca.</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.84rem;"><thead><tr style="background:#14532d;color:#bbf7d0;text-align:left;"><th style="padding:7px 9px;border-bottom:2px solid #166534;">Palavra (SEM acento)</th><th style="padding:7px 9px;border-bottom:2px solid #166534;">Pronúncia correta</th><th style="padding:7px 9px;border-bottom:2px solid #166534;">Erro comum</th><th style="padding:7px 9px;border-bottom:2px solid #166534;">Por quê é exceção</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">etiope</td><td style="padding:7px 9px;color:#86efac;">e-<strong>TÍ</strong>-o-pe</td><td style="padding:7px 9px;color:#f87171;">e-ti-<strong>O</strong>-pe</td><td style="padding:7px 9px;color:#94a3b8;">origem grega (Αἰθίοψ); acento na antepenúltima por padrão do grego</td></tr>
-<tr style="background:#0f1f0f;border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">avaro</td><td style="padding:7px 9px;color:#86efac;"><strong>Á</strong>-va-ro</td><td style="padding:7px 9px;color:#f87171;">a-<strong>VA</strong>-ro</td><td style="padding:7px 9px;color:#94a3b8;">do latim avārus; o acento latino recaiu na antepenúltima em português culto</td></tr>
-<tr style="border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">interim</td><td style="padding:7px 9px;color:#86efac;"><strong>ÍN</strong>-te-rim</td><td style="padding:7px 9px;color:#f87171;">in-te-<strong>RIM</strong></td><td style="padding:7px 9px;color:#94a3b8;">advérbio latino emprestado diretamente; termina em -m mas é proparoxítona</td></tr>
-<tr style="background:#0f1f0f;border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">catedra</td><td style="padding:7px 9px;color:#86efac;"><strong>CÁ</strong>-te-dra</td><td style="padding:7px 9px;color:#f87171;">ca-<strong>TE</strong>-dra</td><td style="padding:7px 9px;color:#94a3b8;">do grego καθέδρα; acento herdado recai na antepenúltima</td></tr>
-<tr style="border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">hieroglifo</td><td style="padding:7px 9px;color:#86efac;">hi-e-<strong>RÓ</strong>-gli-fo</td><td style="padding:7px 9px;color:#f87171;">hi-e-ro-<strong>GLI</strong>-fo</td><td style="padding:7px 9px;color:#94a3b8;">composto grego; σφ῀ηξ → acento na terceira sílaba do final</td></tr>
-<tr style="background:#0f1f0f;border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">pantano</td><td style="padding:7px 9px;color:#86efac;"><strong>PÂN</strong>-ta-no</td><td style="padding:7px 9px;color:#f87171;">pan-<strong>TA</strong>-no</td><td style="padding:7px 9px;color:#94a3b8;">acento gráfico revela a tonicidade — a forma sem acento é a armadilha</td></tr>
-<tr style="border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">omega</td><td style="padding:7px 9px;color:#86efac;"><strong>Ô</strong>-me-ga</td><td style="padding:7px 9px;color:#f87171;">o-<strong>ME</strong>-ga</td><td style="padding:7px 9px;color:#94a3b8;">letra grega Ω; acento na primeira sílaba por convenção científica internacional</td></tr>
-<tr style="background:#0f1f0f;border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">inclito</td><td style="padding:7px 9px;color:#86efac;"><strong>ÍN</strong>-cli-to</td><td style="padding:7px 9px;color:#f87171;">in-<strong>CLI</strong>-to</td><td style="padding:7px 9px;color:#94a3b8;">do latim inclĭtus; adjetivo erudito com acento na antepenúltima</td></tr>
-<tr style="border-bottom:1px solid #166534;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">idolo</td><td style="padding:7px 9px;color:#86efac;"><strong>Í</strong>-do-lo</td><td style="padding:7px 9px;color:#f87171;">i-<strong>DO</strong>-lo</td><td style="padding:7px 9px;color:#94a3b8;">do grego εἴδωλον; proparoxítona por herança direta</td></tr>
-<tr style="background:#0f1f0f;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">ambar</td><td style="padding:7px 9px;color:#86efac;"><strong>ÂM</strong>-bar</td><td style="padding:7px 9px;color:#f87171;">am-<strong>BAR</strong></td><td style="padding:7px 9px;color:#94a3b8;">terminação -r normalmente indica oxítona, mas âmbar é exceção: paroxítona com acento</td></tr>
-</tbody></table></div>
-
-<div style="background:#1a1a2a;border:1px solid #1e3a8a;border-radius:8px;padding:12px 16px;margin-bottom:16px;">
-<p style="color:#93c5fd;font-weight:700;margin:0 0 8px;">Grupo 2 — "Soam eruditas" e parecem proparoxítonas mas são só PAROXÍTONAS</p>
-<p style="color:#94a3b8;font-size:0.84rem;margin:0 0 10px;">Erro inverso: a pronúncia popular "enfeita" a palavra e joga o acento pra frente — mas a forma correta é paroxítona comum.</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.84rem;"><thead><tr style="background:#1e3a8a;color:#bfdbfe;text-align:left;"><th style="padding:7px 9px;border-bottom:2px solid #1e40af;">Palavra</th><th style="padding:7px 9px;border-bottom:2px solid #1e40af;">Pronúncia correta</th><th style="padding:7px 9px;border-bottom:2px solid #1e40af;">Erro comum</th></tr></thead><tbody>
-<tr style="border-bottom:1px solid #1e3a8a;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">rubrica</td><td style="padding:7px 9px;color:#93c5fd;">ru-<strong>BRI</strong>-ca</td><td style="padding:7px 9px;color:#f87171;"><del>RÚ-bri-ca</del></td></tr>
-<tr style="background:#0f0f1f;border-bottom:1px solid #1e3a8a;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">gratuito</td><td style="padding:7px 9px;color:#93c5fd;">gra-<strong>TUI</strong>-to</td><td style="padding:7px 9px;color:#f87171;"><del>gra-TU-i-to</del></td></tr>
-<tr style="border-bottom:1px solid #1e3a8a;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">recorde</td><td style="padding:7px 9px;color:#93c5fd;">re-<strong>COR</strong>de</td><td style="padding:7px 9px;color:#f87171;"><del>RÉ-cor-de</del></td></tr>
-<tr style="background:#0f0f1f;"><td style="padding:7px 9px;color:#fbbf24;font-weight:700;">filantropo</td><td style="padding:7px 9px;color:#93c5fd;">fi-lan-<strong>TRO</strong>-po</td><td style="padding:7px 9px;color:#f87171;"><del>fi-LAN-tro-po</del></td></tr>
-</tbody></table></div>
-
-<div style="background:#1a1209;border:1px solid #92400e;border-radius:8px;padding:10px 14px;margin-bottom:16px;">
-<p style="color:#fbbf24;font-weight:700;margin:0 0 6px;">Como a FGV usa essas exceções em prova</p>
-<p style="color:#94a3b8;font-size:0.84rem;margin:0;">A banca pede "dois vocábulos proparoxítonos sem acento gráfico" e mistura: (a) uma que você deduz pela regra (ex: <em>aerodromo</em> → sufixo -dromo, fácil) + (b) uma exceção que você só sabe se decorou (ex: <em>etiope</em>). Se errar a (b), a alternativa inteira cai — mesmo que a (a) estivesse certa.</p>
-</div>
 <p style="text-align:right;margin:4px 0 18px;"><button onclick="window.scrollTo(0,0)" style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.78rem;">↑ Voltar ao topo</button></p>
 <hr style="border:none;border-top:2px solid #334155;margin:28px 0 20px;">
 <div style="background:linear-gradient(135deg,#1e3a4a,#1e293b);border-radius:10px;padding:14px 18px;margin-bottom:20px;"><h3 style="color:#38bdf8;margin:0 0 4px;">PARTE 2 — SUFIXOS E TONICIDADE</h3><p style="color:#94a3b8;margin:0;font-size:0.85rem;">Como os sufixos determinam a tonicidade das palavras derivadas</p></div>
@@ -2691,96 +2882,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Regra de ouro:</strong> não importa se a palavra tem prefixo, se é composta ou simples — a tonicidade sempre é determinada pela terminação final.</li>
 </ul>
 </div>
-
-<h3>Dupla Prosódia e Acento Diferencial — Casos Especiais</h3>
-<p>Algumas palavras admitem <strong>duas pronúncias igualmente aceitas pela norma</strong> (dupla prosódia). Outras exigem acento para distinguir formas que seriam idênticas na escrita (acento diferencial). Esses casos aparecem com frequência em provas de nível superior.</p>
-
-<h4 style="color:#fde68a;margin:14px 0 6px;">▸ Dupla Prosódia — palavras com dois acentos normativos</h4>
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:8px 0 14px;">
-  <thead>
-    <tr style="background:#1e1b4b;color:#a5b4fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Palavra</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Pronúncia 1</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Pronúncia 2</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Observação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">sutil / sútil</td>
-      <td style="padding:8px 10px;color:#86efac;">su-<strong>TIL</strong> (oxítona)</td>
-      <td style="padding:8px 10px;color:#93c5fd;"><strong>SÚ</strong>-til (paroxítona)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">ambas aceitas pelo Volp; a forma oxítona é mais comum no Brasil</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">rubrica / rúbrica</td>
-      <td style="padding:8px 10px;color:#86efac;">ru-<strong>BRI</strong>-ca (paroxítona)</td>
-      <td style="padding:8px 10px;color:#93c5fd;"><strong>RÚ</strong>-bri-ca (proparoxítona)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">cf. exceções; bancas geralmente pedem a paroxítona como "correta sem acento"</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">gratuito / gratúito</td>
-      <td style="padding:8px 10px;color:#86efac;">gra-tu-<strong>I</strong>-to (paroxítona)</td>
-      <td style="padding:8px 10px;color:#93c5fd;">gra-<strong>TÚ</strong>-i-to (proparoxítona)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">ambas aceitas; na prova, a alternativa errada costuma ser a forma popular</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">acróbata / acrobata</td>
-      <td style="padding:8px 10px;color:#86efac;"><strong>A</strong>-cró-ba-ta (proparoxítona)</td>
-      <td style="padding:8px 10px;color:#93c5fd;">a-cro-<strong>BA</strong>-ta (paroxítona)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">acróbata é a forma mais comum em provas; ambas estão no dicionário</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">filantropo / filântropo</td>
-      <td style="padding:8px 10px;color:#86efac;">fi-lan-<strong>TRO</strong>-po (paroxítona)</td>
-      <td style="padding:8px 10px;color:#93c5fd;">fi-<strong>LÂN</strong>-tro-po (proparoxítona)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">filântropo (proparoxítona) é a forma erudita, preferida em provas de nível superior</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 style="color:#fde68a;margin:14px 0 6px;">▸ Acento Diferencial — distingue formas homógrafas</h4>
-<p>O Acordo Ortográfico de 1990 eliminou vários acentos diferenciais, mas manteve alguns pares que seriam ambíguos sem ele:</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:8px 0 14px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Par</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Com acento</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Sem acento</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">pôr / por</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>pôr</strong> = verbo (pôr a mesa)</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>por</strong> = preposição (feito por ela)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">pôde / pode</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>pôde</strong> = passado (ela pôde ir)</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>pode</strong> = presente (ela pode ir)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">vir / convir / provir — 3ª p. pl.</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>vêm</strong> (eles vêm) / <strong>convêm</strong> / <strong>provêm</strong> = plural</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>vem</strong> / <strong>convém</strong> / <strong>provém</strong> = singular (ele vem)</td>
-    </tr>
-    <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">ter / conter / manter — 3ª p. pl.</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>têm</strong> (eles têm) / <strong>contêm</strong> / <strong>mantêm</strong> = plural</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>tem</strong> / <strong>contém</strong> / <strong>mantém</strong> = singular (ele tem)</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="dica-box">
-  <div class="dica-title">Como a banca explora dupla prosódia</div>
-  <ul>
-    <li>A questão afirma que "sutil/sútil apresentam dupla prosódia aceita pela norma" e pede para julgar como Certo/Errado → <strong>Certo</strong>.</li>
-    <li>A questão pede qual forma está <strong>incorreta</strong> e coloca "filântropo" × "filantropo" — ambas corretas, então nenhuma está incorreta.</li>
-    <li>Em "convir e provir também apresentam acento diferencial no plural" → <strong>Certo</strong> (convêm/provêm × convém/provém).</li>
-  </ul>
-</div>
 <p style="text-align:right;margin:4px 0 18px;"><button onclick="window.scrollTo(0,0)" style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.78rem;">↑ Voltar ao topo</button></p>`,
     questoes: [
      { enunciado: 'O que é <strong>sílaba tônica</strong>?', opcoes: ['A sílaba mais longa da palavra','A primeira sílaba de qualquer palavra','A sílaba com maior intensidade e força da voz','A última sílaba sempre'], correta: 2, explicacao: 'A sílaba tônica é aquela pronunciada com maior intensidade. Toda palavra com duas ou mais sílabas tem exatamente uma tônica.' },
@@ -2808,18 +2909,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "formacaoPalavras", materia: 'portugues', nome: "Formação de Palavras", icon: "🔧", desc: "📌 BACEN · IFPA — Derivação, composição, prefixos e sufixos",
     teoria: `
 <h3>O que é Formação de Palavras?</h3>
-<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas. Palavras que compartilham o mesmo radical formam uma <strong>família de palavras</strong> (ex.: terra, terreno, enterrar, território são da mesma família; já "mão" e "manual" pertencem a famílias diferentes, apesar da semelhança). Cada afixo carrega um <strong>valor semântico</strong> (um sentido) próprio — por isso, saber o significado de um prefixo ou sufixo ajuda a deduzir o sentido de palavras desconhecidas na prova.</p>
-
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
-<strong style="color:#38bdf8;">Tipos de Gramática (concepções de gramática)</strong>
-<ul style="color:#cbd5e1;margin-top:8px;">
-  <li><strong>Gramática normativa</strong>: prescreve regras do que é "certo" e "errado" segundo a norma culta.</li>
-  <li><strong>Gramática descritiva</strong>: descreve como as pessoas realmente falam, sem julgar certo/errado.</li>
-  <li><strong>Gramática internalizada</strong>: o conhecimento intuitivo da língua que toda criança adquire naturalmente, antes de qualquer estudo formal — é o que permite a uma criança falar e entender frases novas sem ter aprendido regras.</li>
-  <li><strong>Gramática histórica</strong>: estuda a evolução da língua ao longo do tempo.</li>
-  <li><strong>Gramática tradicional</strong>: conjunto de regras consagradas pelo uso e ensino escolar, geralmente associada à norma culta.</li>
-</ul>
-</div>
+<p>A <strong>Formação de Palavras</strong> pertence à <strong>Morfologia</strong> — o estudo da estrutura interna das palavras. Estudar esse tema é essencial em concurso porque a banca frequentemente pede: identificar o processo de formação, classificar prefixo ou sufixo, e — cruzando com Fonética — contar encontros vocálicos em palavras derivadas ou compostas.</p>
 
 <div class="exemplo-box">
   <strong>Os dois grandes processos:</strong><br><br>
@@ -2828,7 +2918,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>1. Derivação</h3>
-<p>É o processo mais produtivo do português. Dizer que uma palavra <strong>deriva de</strong> outra é dizer que ela foi formada a partir dessa palavra-base pela adição de afixos (ex.: "riqueza" deriva de "rico"; "gentileza" deriva de "gentil"). Existem cinco subtipos:</p>
+<p>É o processo mais produtivo do português. Existem cinco subtipos:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
   <thead>
@@ -2889,8 +2979,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">contra-</td><td style="padding:7px 9px;color:#94a3b8;">oposição, em frente</td><td style="padding:7px 9px;color:#cbd5e1;">contradizer, contrapartida, contrariar</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">de- / des- / di- / dis-</td><td style="padding:7px 9px;color:#94a3b8;">negação, reversão, separação</td><td style="padding:7px 9px;color:#cbd5e1;">desfazer, deslealdade, discordar, divergir</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">ex-</td><td style="padding:7px 9px;color:#94a3b8;">fora de, que foi (cargo)</td><td style="padding:7px 9px;color:#cbd5e1;">exportar, ex-presidente, excluir, externo</td></tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">e- (emigrar)</td><td style="padding:7px 9px;color:#94a3b8;">sair do próprio país/lugar</td><td style="padding:7px 9px;color:#cbd5e1;">emigrar (brasileiro que emigra do Brasil)</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">i- (imigrar)</td><td style="padding:7px 9px;color:#94a3b8;">entrar em um país/lugar (vindo de fora)</td><td style="padding:7px 9px;color:#cbd5e1;">imigrar (italiano que imigra para o Brasil). "Migrar" é o termo geral, sem indicar direção.</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">extra-</td><td style="padding:7px 9px;color:#94a3b8;">fora de, além de</td><td style="padding:7px 9px;color:#cbd5e1;">extracurricular, extraordinário, extraoficial</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">in- / im- / il- / ir-</td><td style="padding:7px 9px;color:#94a3b8;">negação, privação</td><td style="padding:7px 9px;color:#cbd5e1;">infeliz, impossível, ilegal, irreal</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">inter-</td><td style="padding:7px 9px;color:#94a3b8;">entre, no meio de</td><td style="padding:7px 9px;color:#cbd5e1;">interagir, internacional, interdisciplinar</td></tr>
@@ -2925,7 +3013,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">a- / an-</td><td style="padding:7px 9px;color:#94a3b8;">negação, privação</td><td style="padding:7px 9px;color:#cbd5e1;">amoral, atípico, anormal, anônimo</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">anti-</td><td style="padding:7px 9px;color:#94a3b8;">contra, oposto a</td><td style="padding:7px 9px;color:#cbd5e1;">anticorpo, antídoto, antiinflamatório, antissocial</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">archi- / arqui-</td><td style="padding:7px 9px;color:#94a3b8;">chefe, principal, em grau máximo</td><td style="padding:7px 9px;color:#cbd5e1;">arquiduque, arquidiocese, arquimilionário</td></tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">auto-</td><td style="padding:7px 9px;color:#94a3b8;">tem dois sentidos diferentes: (1) "por si mesmo, próprio" — autobiografia, autoestima, autodidata, autonomia; (2) "automóvel" — autoestrada, autoescola. Atenção: a mesma partícula pode ter sentidos diferentes conforme a palavra.</td><td style="padding:7px 9px;color:#cbd5e1;">autobiografia, autoestima, automóvel, autoestrada</td></tr>
+    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">auto-</td><td style="padding:7px 9px;color:#94a3b8;">por si mesmo, próprio</td><td style="padding:7px 9px;color:#cbd5e1;">autobiografia, autoestima, automóvel, autoescola</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">bio-</td><td style="padding:7px 9px;color:#94a3b8;">vida</td><td style="padding:7px 9px;color:#cbd5e1;">biologia, biodiversidade, biotecnologia</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">cro- / crono-</td><td style="padding:7px 9px;color:#94a3b8;">tempo</td><td style="padding:7px 9px;color:#cbd5e1;">cronômetro, cronologia, anacronismo</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">demo-</td><td style="padding:7px 9px;color:#94a3b8;">povo</td><td style="padding:7px 9px;color:#cbd5e1;">democracia, demografia, demagogia</td></tr>
@@ -2973,10 +3061,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ice / -ícia</td><td style="padding:7px 9px;color:#94a3b8;">qualidade (pejorativa ou não)</td><td style="padding:7px 9px;color:#cbd5e1;">tolice, velhice, meiguice, calvície</td></tr>
     <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-inha / -inho / -zinha / -zinho</td><td style="padding:7px 9px;color:#94a3b8;">diminutivo</td><td style="padding:7px 9px;color:#cbd5e1;">casinha, livrinho, cafezinho, rapazinho</td></tr>
     <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ão / -ona / -alhão / -zarrão</td><td style="padding:7px 9px;color:#94a3b8;">aumentativo</td><td style="padding:7px 9px;color:#cbd5e1;">casarão, mulherona, espertalhão, homenzarrão</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-itude</td><td style="padding:7px 9px;color:#94a3b8;">qualidade, estado (de adjetivo)</td><td style="padding:7px 9px;color:#cbd5e1;">amplitude, exatitude, solitude, longitude</td></tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-eria / -aria</td><td style="padding:7px 9px;color:#94a3b8;">lugar/comércio, ação coletiva</td><td style="padding:7px 9px;color:#cbd5e1;">sorveteria, padaria, livraria, sapataria</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-ácia</td><td style="padding:7px 9px;color:#94a3b8;">qualidade, defeito (de adjetivo)</td><td style="padding:7px 9px;color:#cbd5e1;">falácia, farmácia, eficácia</td></tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;"><td style="padding:7px 9px;color:#fde68a;font-weight:700;">-edo</td><td style="padding:7px 9px;color:#94a3b8;">coletivo de vegetais, lugar</td><td style="padding:7px 9px;color:#cbd5e1;">arvoredo, arrozedo, rochedo</td></tr>
   </tbody>
 </table>
 
@@ -3121,53 +3205,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>
 
-<h3>5. Outros Processos de Formação de Palavras</h3>
-<p>Além de derivação e composição, a gramática tradicional (Cegalla, Bechara) lista processos "especiais" de formação — menos frequentes, mas cobrados de forma direta e recorrente em prova.</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Processo</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como funciona</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Hibridismo</td>
-      <td style="padding:8px 10px;color:#94a3b8;">A palavra combina elementos (radicais/afixos) de línguas diferentes.</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">sociologia (latim <em>socio</em> + grego <em>logia</em>), automóvel (grego <em>auto</em> + latim <em>móvel</em>), burocracia (francês <em>bureau</em> + grego <em>kracia</em>), monóculo (grego <em>mono</em> + latim <em>oculu</em>)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Onomatopeia</td>
-      <td style="padding:8px 10px;color:#94a3b8;">A palavra é criada para imitar/reproduzir um som da natureza ou de um objeto.</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">tique-taque, cocoricó, miau, zunzum, plim, tic-tac, reco-reco, bang</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Abreviação (redução)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Corta-se parte da palavra, mantendo o mesmo significado e classe gramatical (diferente de derivação regressiva, que muda a classe).</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">motocicleta → moto, fotografia → foto, cinematógrafo → cinema, quilômetro → quilo, extraordinário → extra, professor → profe</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Siglas / Acronímia</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Formação a partir das letras (ou sílabas) iniciais de uma expressão. Sigla lê-se letra por letra; acrônimo lê-se como palavra.</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">Sigla: IBGE, CPF, ONU (soletrada) · Acrônimo: Sonar (<em>so</em>und <em>na</em>vigation <em>r</em>anging), Ufa, Petrobras (Petró<em>leo</em> <em>Bras</em>ileiro)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Estrangeirismo</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Palavra ou expressão emprestada de outro idioma, adaptada ou não à grafia portuguesa.</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">deletar (do inglês <em>delete</em>), mouse, show, e-mail, futebol (do inglês <em>football</em>, já aportuguesado)</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="exemplo-box">
-  <strong>Abreviação × Derivação regressiva — não confundir:</strong><br><br>
-  Abreviação: <em>motocicleta → moto</em> — corta a palavra, mas continua substantivo, mesmo sentido.<br>
-  Derivação regressiva: <em>chorar (verbo) → choro (substantivo)</em> — corta a palavra E muda a classe gramatical (de verbo para substantivo).
-</div>
-
-<h3>6. Interseção com Encontros Vocálicos — como cai na prova</h3>
+<h3>5. Interseção com Encontros Vocálicos — como cai na prova</h3>
 <p>Questões de concurso frequentemente <strong>combinam</strong> Formação de Palavras com Fonética. Os quatro padrões mais cobrados são:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
@@ -3213,127 +3251,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <li>Prefixo grego <strong>a-/an-</strong> = negação (amoral = sem moral). Prefixo latino <strong>in-/im-/il-/ir-</strong> = negação (ilegal). Ambos negam, mas de origens diferentes.</li>
     <li>Para identificar aglutinação × justaposição: procure se algum elemento perdeu sílaba ou letra na junção.</li>
   </ul>
-</div>
-
-<h3>7. Estrutura Interna das Palavras — Morfemas</h3>
-<p>Questões de concurso frequentemente pedem a identificação de unidades morfológicas. A <strong>menor unidade dotada de significado</strong> em uma língua é o <strong>morfema</strong> (também chamado de <strong>elemento mórfico</strong>). O processo de dividir uma palavra em seus morfemas chama-se <strong>segmentação morfológica</strong>. Além dos processos de derivação e composição, existe também a <strong>abreviação vocabular</strong> (redução de uma palavra maior, ex.: "moto" de "motocicleta", "pneu" de "pneumático").</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Unidade</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">O que é</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo em <em>cantávamos</em></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Morfema</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Menor unidade com significado (inclui tudo abaixo)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">cant + a + va + mos</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Radical (lexema)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Parte que carrega o significado central — permanece nas variações da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><strong>cant</strong>- (cantar, canto, cantei, canção)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Vogal temática</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Liga o radical às desinências; indica a conjugação do verbo (-a-, -e-, -i-)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">cant-<strong>a</strong>-va-mos (1ª conj.)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Tema</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Radical + vogal temática (base para receber desinências)</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><strong>canta</strong>- (cant + a)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Desinência modo-temporal</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Indica tempo e modo verbal</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">cant-a-<strong>va</strong>-mos (-va = imperfeito do indicativo)</td>
-    </tr>
-    <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Desinência número-pessoal</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Indica pessoa e número</td>
-      <td style="padding:8px 10px;color:#cbd5e1;">cant-a-va-<strong>mos</strong> (-mos = 1ª pessoa plural)</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="exemplo-box">
-  <strong>Morfema × Sílaba — não confundir:</strong><br><br>
-  <strong>Sílaba</strong> é uma unidade fonética (som). <strong>Morfema</strong> é uma unidade de significado.<br>
-  <em>Infelizes</em>: 4 sílabas (in-fe-li-zes) | 3 morfemas: <em>in-</em> (negação) + <em>feliz</em> (radical) + <em>-es</em> (plural)<br><br>
-  <strong>Como as bancas cobram:</strong><br>
-  • "Qual a menor unidade dotada de significado?" → <strong>morfema</strong><br>
-  • "Qual é o radical de <em>beleza</em>?" → <strong>bel-</strong> (beleza, belo, embelezar, belíssimo)<br>
-  • "Qual a vogal temática de <em>partir</em>?" → <strong>-i-</strong> (3ª conjugação)
-</div>
-
-<h3>8. Metaplasmos — Alterações Fonéticas Históricas</h3>
-<p>Metaplasmos são <strong>alterações nos fonemas de uma palavra</strong> ao longo da evolução da língua (do latim ao português) ou em variações populares. São cobrados especialmente em questões sobre origem e evolução das palavras.</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.82rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#1e1b4b;color:#a5b4fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Metaplasmo</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">O que ocorre</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #3730a3;">Exemplo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Aférese</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>início</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>em</em>bora → <em>bora</em>; <em>es</em>tar → <em>tá</em></td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Síncope</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>meio</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>frig</em>idus → <em>frio</em>; <em>oc</em>u<em>lus</em> → olho</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Apócope</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Supressão de fonema(s) no <strong>final</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>amar</em> → <em>ama</em>; <em>senhor</em> → <em>seu</em></td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Prótese</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>início</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>s</em>patha → <em>es</em>pada; <em>s</em>piritu → <em>es</em>pírito</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Epêntese</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>meio</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>ge</em>olhos (lat. <em>genuculu</em>) → jo<em>e</em>lhos; <em>h</em>umil → <em>hu</em>milde</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Paragoge</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Adição de fonema(s) no <strong>final</strong> da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>feliz</em> → <em>felizes</em>; <em>lápis</em> (lat. lapide<em>m</em>)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Metátese</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>Transposição</strong> de fonema(s) — muda de posição dentro da palavra</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>geolhos</em> → <em>joelhos</em> (g↔j + metátese do l); <em>sempre</em> → <em>sempres</em> (popular)</td>
-    </tr>
-    <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Crase (metaplasmo)</td>
-      <td style="padding:8px 10px;color:#94a3b8;"><strong>Fusão</strong> de dois fonemas iguais ou semelhantes em um só</td>
-      <td style="padding:8px 10px;color:#cbd5e1;"><em>de + o</em> → <em>do</em>; <em>por + o</em> → <em>pelo</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="dica-box">
-  <div class="dica-title">Macete — Metaplasmos por grupo</div>
-  <ul>
-    <li><strong>Supressão</strong> (tiram fonemas): Aférese (início), Síncope (meio), Apócope (fim)</li>
-    <li><strong>Adição</strong> (acrescentam fonemas): Prótese (início), Epêntese (meio), Paragoge (fim)</li>
-    <li><strong>Transposição</strong>: Metátese (muda de lugar)</li>
-    <li><strong>Fusão</strong>: Crase (dois viram um)</li>
-    <li>Mnemônico: <strong>A S A — P E P — M C</strong> (Aférese, Síncope, Apócope — Prótese, Epêntese, Paragoge — Metátese, Crase)</li>
-  </ul>
 </div>`,
     questoes: []
   },
@@ -3366,9 +3283,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
       <td style="padding:9px 11px;color:#cbd5e1;">anti-inflamatório, auto-observação, micro-ondas</td>
     </tr>
     <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixos terminados em consoante (sub-, sob-, ad-, ob-, ab-, <strong>super-, inter-, hiper-</strong>) + palavra iniciada por R</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de R (evita duplicar o R)</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">sub-reino, ob-reptício, super-realístico, inter-regional, hiper-requintado</td>
+      <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixos sub-, sob-, ad-, ob-, ab-</td>
+      <td style="padding:9px 11px;color:#94a3b8;">Hífen antes de R</td>
+      <td style="padding:9px 11px;color:#cbd5e1;">sub-reino, ob-reptício</td>
     </tr>
     <tr style="border-bottom:1px solid #1e293b;">
       <td style="padding:9px 11px;font-weight:700;color:#fde68a;">Prefixo circum-, pan-</td>
@@ -3412,27 +3329,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>além-, aquém-, recém-, sem-, vice-</strong>: sempre com hífen → <em>recém-nascido, vice-presidente, sem-terra</em></li>
   <li><strong>ex-</strong> no sentido de "que foi": sempre hífen → <em>ex-presidente, ex-diretor</em></li>
   <li><strong>mal-</strong> antes de vogal ou H: hífen → <em>mal-humorado, mal-entendido</em>; antes de consoante: sem hífen → <em>maldito, malcriado</em></li>
-  <li><strong>dia a dia</strong>: como <strong>locução adverbial</strong> (equivale a "cotidianamente"), escreve-se sem hífen: <em>Ele estuda dia a dia.</em> Mesmo quando substantivado (equivale a "rotina"), a grafia oficial atual continua sem hífen: <em>o dia a dia da empresa</em>. Não existe a forma "dia-a-dia" na norma vigente.</li>
-  <li><strong>Gentílicos compostos</strong> (topônimo formado por mais de uma palavra): usam hífen entre os elementos → <em>belo-horizontino</em> (Belo Horizonte), <em>mato-grossense</em> (Mato Grosso), <em>mato-grossense-do-sul</em> (Mato Grosso do Sul), <em>rio-grandense-do-sul</em>/<em>gaúcho</em> (Rio Grande do Sul), <em>norte-americano</em>, <em>sul-africano</em>, <em>porto-alegrense</em> (Porto Alegre).</li>
-  <li><strong>pré-, pró-, pós-</strong> (tônicos, com acento gráfico): sempre hífen, independentemente da letra seguinte → <em>pré-natal, pró-ativo, pós-graduação</em>. Não confundir com "pre-, pro-, pos-" átonos, sem acento, que se aglutinam → <em>prever, propor, pospor</em>.</li>
-  <li><strong>co-</strong>: em geral aglutina sem hífen (<em>coordenar, cooperar, coautor</em>), mas usa hífen antes de <strong>h</strong> → <em>co-herdeiro, co-habitar</em>.</li>
-  <li><strong>não e quase como prefixo</strong> (substantivos compostos): usam hífen → <em>acordo de não-agressão, um quase-delito</em>.</li>
-  <li><strong>Numerais</strong>: cardinais compostos por "e" não levam hífen (<em>trinta e dois, cento e vinte</em>); ordinais compostos podem levar hífen entre os elementos em certas grafias tradicionais (<em>vigésimo-primeiro</em>), mas a tendência atual aceita também sem hífen; frações compostas seguem a mesma lógica dos ordinais.</li>
-  <li><strong>Topônimos com "grão" e "grã"</strong>: sempre hífen → <em>Grã-Bretanha, Grão-Pará</em>.</li>
 </ul>
-
-<h3>Translineação — hífen na quebra de linha</h3>
-<p><strong>Translineação</strong> é a divisão de uma palavra ao final da linha, quando ela não cabe inteira, continuando na linha seguinte. Regras específicas do Acordo Ortográfico:</p>
-<ul>
-  <li><strong>Palavra já hifenizada</strong>: se a quebra de linha cair exatamente no hífen já existente, ele deve ser <strong>repetido</strong> no início da linha seguinte (ex.: em "guarda-chuva", se a quebra ocorrer em "guarda-", a linha seguinte começa "-chuva").</li>
-  <li><strong>Critério fonético, não apenas gráfico</strong>: a translineação segue a <strong>separação silábica</strong> da palavra (critério fonético), não uma divisão arbitrária de letras — nunca se separam letras de uma mesma sílaba.</li>
-  <li><strong>Vogais idênticas em hiato</strong>: podem ser separadas na translineação mesmo formando hiato gráfico contíguo (ex.: "co-o-perar").</li>
-  <li><strong>Prefixo terminado em consoante + palavra iniciada por vogal</strong> (ex.: "sub-" + "área"): na translineação, mantém-se a integridade do prefixo — a quebra ocorre preferencialmente na fronteira morfológica.</li>
-</ul>
-
-<h3>Hifenização — Emprego do Hífen</h3>
-<p>A <strong>hifenização</strong> é o processo de unir elementos com o hífen. Uma palavra está <strong>hifenizada</strong> (ou um conjunto de termos está <strong>hifenizado</strong> / <strong>hifenizados</strong>) quando o hífen é empregado corretamente segundo as regras do Acordo Ortográfico. Palavras <strong>hifenizadas</strong> ou termos <strong>hifenizados</strong> incorretamente violam as regras — e identificar esse erro é o foco de muitas questões de prova.</p>
-<p>O <strong>emprego do hífen</strong> segue as regras de prefixação e composição acima. Para verificar se uma palavra está hifenizada corretamente: (1) identifique o prefixo; (2) veja com qual letra começa o segundo elemento; (3) aplique a regra correspondente.</p>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
 <strong style="color:#38bdf8;">Dicas para a prova</strong>
@@ -3441,7 +3338,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Vogal igual pede hífen</strong>: micro + ondas → micro-ondas (o+o). Vogais diferentes → sem hífen: autoescola (o+e).</li>
   <li><strong>Recém sempre tem hífen</strong>: recém-formado, recém-chegado — sem exceção.</li>
   <li><strong>R e S dobram</strong> em vez de usar hífen: anti+religioso = antirreligioso; mini+saia = minissaia.</li>
-  <li><strong>"Está hifenizada devidamente"</strong>: questões assim pedem para identificar qual palavra NÃO segue as regras de hifenização.</li>
 </ul>
 </div>`,
     questoes: []
@@ -3453,7 +3349,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     teoria: `
 <h3>O que é Concordância?</h3>
 <p>Concordância é a harmonia entre os termos da oração. <strong>Verbal</strong>: o verbo concorda com o sujeito em número e pessoa — ou seja, a <strong>flexão do verbo</strong> (sua conjugação em pessoa e número) deve acompanhar o sujeito. <strong>Nominal</strong>: artigos, adjetivos e pronomes concordam com o substantivo em gênero e número.</p>
-<p>Toda oração é formada por <strong>sujeito e predicado</strong>. O <strong>núcleo do sujeito</strong> é a palavra principal do sujeito (geralmente um substantivo ou pronome) com a qual o verbo deve concordar. Quando o sujeito é formado por dois ou mais núcleos, temos um <strong>sujeito composto</strong>, e o verbo vai normalmente para o plural.</p>
 
 <h3>Concordância Verbal — Regras Gerais</h3>
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
@@ -3500,51 +3395,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Pronome relativo QUE</strong>: verbo concorda com o antecedente → <em>Fui eu que errei. / Foste tu que erraste.</em></li>
   <li><strong>Sujeito oracional</strong>: verbo na 3ª pessoa do singular → <em>Convém que todos cheguem.</em></li>
   <li><strong>Verbos impessoais</strong> (haver, fazer, ir + tempo): sempre singular → <em>Havia muitas pessoas. Faz dois anos.</em></li>
-  <li><strong>Sujeito composto resumido por aposto recapitulativo</strong> (tudo, nada, ninguém): verbo concorda com o resumidor, no singular → <em>Alegria, tristeza, esperança, tudo se misturava naquele momento.</em></li>
-  <li><strong>Expressões partitivas</strong> (grande parte de, a maior parte de, boa parte de, cerca de) + substantivo plural: singular ou plural → <em>Grande parte dos servidores concorda/concordam.</em></li>
-  <li><strong>Um dos que</strong> + verbo: preferencialmente plural, pois o antecedente do "que" é o substantivo plural → <em>Ele foi um dos que mais trabalharam.</em></li>
-  <li><strong>Nomes próprios de obras, empresas ou lugares no plural</strong>: se vierem precedidos de artigo, o verbo vai para o plural; sem artigo, fica no singular → <em>Os Lusíadas retratam a epopeia portuguesa. / Estados Unidos é uma potência.</em></li>
-  <li><strong>Sujeitos ligados por "ou"</strong>: singular se exclusão (um exclui o outro) → <em>José ou Maria será o representante.</em>; plural se os dois puderem praticar a ação → <em>O carro ou a moto serão vendidos.</em></li>
-  <li><strong>Sujeitos ligados por "com"</strong>: verbo no singular (regra culta — "com" não soma sujeitos) ou no plural (concordância enfática, ambos praticam a ação igualmente) → <em>O diretor, com os professores, assinou/assinaram o documento.</em></li>
-  <li><strong>Verbos DAR, BATER, SOAR</strong> (horas): concordam com o numeral sujeito → <em>Deram cinco horas no relógio. Bateu meio-dia.</em></li>
-  <li><strong>"Nem um nem outro" / "Um e outro"</strong>: verbo no singular ou plural (ambos aceitos pela norma culta) → <em>Um e outro aluno faltou/faltaram.</em></li>
 </ul>
-
-<h3>Silepse — Concordância com a Ideia, não com a Forma</h3>
-<p>Na silepse (ou concordância ideológica), o verbo, o adjetivo ou o pronome concordam com a <strong>ideia subentendida</strong>, não com a palavra gramatical escrita. É um recurso da norma culta, não erro.</p>
-<ul>
-  <li><strong>Silepse de gênero</strong>: concorda com o gênero real/subentendido, não com a forma da palavra → <em>São Paulo é generosa</em> (subentende-se "a cidade de São Paulo", feminino, embora "São Paulo" não tenha marca de gênero explícita).</li>
-  <li><strong>Silepse de número</strong>: concorda com uma ideia coletiva/plural mesmo com sujeito gramatical singular → <em>A multidão gritavam e corriam</em> (o sujeito "multidão" é singular, mas a ideia é de muitas pessoas agindo).</li>
-  <li><strong>Silepse de pessoa</strong>: concorda com a pessoa do discurso subentendida, não com o sujeito na 3ª pessoa → <em>Os brasileiros somos hospitaleiros</em> (o falante se inclui no grupo "os brasileiros", por isso usa "somos" em vez de "são").</li>
-</ul>
-
-<h3>A partícula SE — Apassivadora × Índice de Indeterminação do Sujeito</h3>
-<p>Uma das pegadinhas mais cobradas em concurso: o "se" muda a regra de concordância dependendo da função que exerce.</p>
-<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Função do SE</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Quando ocorre</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Concordância</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Exemplo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:9px 11px;color:#fde68a;">Partícula apassivadora</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Verbo transitivo direto (VTD)</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">Verbo concorda com o sujeito paciente</td>
-      <td style="padding:9px 11px;color:#cbd5e1;"><em>Vendem-se casas.</em> (= Casas são vendidas — sujeito "casas", plural)</td>
-    </tr>
-    <tr>
-      <td style="padding:9px 11px;color:#fde68a;">Índice de indeterminação do sujeito</td>
-      <td style="padding:9px 11px;color:#94a3b8;">Verbo transitivo indireto (VTI), intransitivo (VI) ou de ligação (VL)</td>
-      <td style="padding:9px 11px;color:#cbd5e1;">Verbo sempre na 3ª pessoa do singular</td>
-      <td style="padding:9px 11px;color:#cbd5e1;"><em>Precisa-se de funcionários.</em> (precisar é VTI — "de funcionários" não é sujeito, é objeto indireto)</td>
-    </tr>
-  </tbody>
-</table>
-<p><strong>Teste rápido</strong>: tente passar a frase para a voz passiva analítica ("são vendidas", "é precisado") — se fizer sentido, é apassivadora e concorda; se não fizer sentido, é índice de indeterminação e fica sempre no singular.</p>
 
 <h3>Concordância Nominal — Regras</h3>
 <ul>
@@ -3552,13 +3403,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Adjetivo anteposto</strong>: concorda com o mais próximo → <em>Bela canção e poema.</em></li>
   <li><strong>Anexo, incluso, obrigado, quite, próprio, mesmo</strong>: concordam com o substantivo → <em>A aluna está quite. Os dados estão anexos.</em></li>
   <li><strong>Bastante, caro, barato</strong> como advérbio: invariável → <em>Elas falam bastante.</em></li>
-  <li><strong>MEIO</strong>: como numeral/adjetivo, concorda (<em>meia hora, meio-dia e meia</em>); como advérbio (equivale a "um pouco"), é invariável → <em>Ela ficou meio confusa.</em></li>
-  <li><strong>MENOS, PSEUDO, SALVO, EXCETO, ALERTA</strong>: sempre invariáveis → <em>Havia menos alunos. Todos saíram, exceto ela. As famílias ficaram alerta.</em></li>
-  <li><strong>Superlativo com "possível"</strong> após "o mais/o menos/o melhor/o pior": concorda com o substantivo no plural → <em>Tragam os documentos mais rápido possíveis</em> ou, mantendo o artigo no singular referente a cada um, <em>o mais rápido possível</em> (ambas as formas existem — a concordância no plural do "possível" ocorre quando o artigo também vai ao plural).</li>
-  <li><strong>É bom, é necessário, é proibido</strong> + sujeito sem determinante: invariável → <em>Água mineral é bom para saúde.</em> Com determinante (artigo, pronome) antes do sujeito: concorda → <em>A água mineral é boa para a saúde.</em></li>
-  <li><strong>"Haja vista"</strong>: expressão invariável (não flexiona nem o verbo "haver" nem "vista") → <em>Haja vista os resultados obtidos.</em></li>
-  <li><strong>Numeral ordinal e cardinal como adjetivo</strong>: concordam em gênero e número com o substantivo → <em>as primeiras colocadas, duzentas páginas.</em></li>
-  <li><strong>Pronomes de tratamento</strong>: concordância em 3ª pessoa mesmo referindo-se ao interlocutor (2ª pessoa do discurso), e o adjetivo concorda com o sexo da pessoa real, não com o gênero gramatical do pronome de tratamento → <em>Vossa Excelência está preocupado</em> (se o interlocutor for homem).</li>
 </ul>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
@@ -3568,8 +3412,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Sujeito posposto</strong>: identifique o sujeito real antes de concordar — o verbo pode enganar.</li>
   <li><strong>"É proibido/necessário/permitido"</strong> sem artigo: invariável → <em>É proibido entrada.</em></li>
   <li><strong>Palavras de tratamento</strong> (Vossa Excelência): verbo na 3ª pessoa → <em>Vossa Excelência concordou.</em></li>
-  <li><strong>SE apassivador × índice de indeterminação</strong>: teste a voz passiva — se funcionar, o verbo concorda com o sujeito; se não, fica sempre no singular.</li>
-  <li><strong>Silepse não é erro</strong>: é a concordância culta com a ideia (gênero, número ou pessoa) quando ela diverge da forma gramatical escrita.</li>
 </ul>
 </div>`,
     questoes: []
@@ -3580,7 +3422,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     id: "colocacaoPronominal", materia: 'portugues', nome: "Colocação Pronominal", icon: "📍", desc: "📌 BACEN · IFPA — Posição dos pronomes oblíquos",
     teoria: `
 <h3>O que é Colocação Pronominal?</h3>
-<p>Estuda a <strong>posição do pronome</strong> oblíquo átono em relação ao verbo — ou seja, o <strong>pronome em relação ao verbo</strong>: antes (próclise), depois (ênclise) ou no meio (mesóclise). Os <strong>pronomes oblíquos átonos</strong> são: me, te, se, o, a, lhe, nos, vos, os, as, lhes. Quando uma <strong>forma pronominal</strong> desses pronomes aparece numa frase, dizemos que houve uma das <strong>colocações pronominais</strong> abaixo. Há três posições possíveis:</p>
+<p>Estuda a posição dos <strong>pronomes oblíquos átonos</strong> (me, te, se, o, a, lhe, nos, vos, os, as, lhes) em relação ao verbo. Há três posições possíveis:</p>
 
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
   <thead>
@@ -3615,11 +3457,9 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Palavras negativas</strong>: não, nunca, jamais, nada, ninguém → <em>Não me conta.</em></li>
   <li><strong>Pronomes relativos</strong>: que, quem, cujo → <em>Quem te disse isso?</em></li>
   <li><strong>Conjunções subordinativas</strong>: quando, se, porque → <em>Quando me viu, sorriu.</em></li>
-  <li><strong>Advérbios sem pausa</strong>: sempre, já, aqui, ontem, muito, às vezes → <em>Aqui se faz, aqui se paga. Muito se falou disso. Às vezes me pergunto...</em></li>
+  <li><strong>Advérbios sem pausa</strong>: sempre, já, aqui, ontem → <em>Aqui se faz, aqui se paga.</em></li>
   <li><strong>Pronomes indefinidos ou demonstrativos</strong>: alguém, tudo, isso → <em>Tudo nos surpreendeu.</em></li>
-  <li><strong>Preposição + infinitivo</strong>: a preposição atrai o pronome para antes do verbo no infinitivo → <em>Foi difícil <strong>para</strong> se enfrentar</em> o problema. <em>Estudou muito <strong>para</strong> o ajudar.</em></li>
 </ul>
-<div class="dica-box"><div class="dica-title">Na fala brasileira</div>No português coloquial brasileiro, é comum a próclise mesmo sem palavra atrativa formal, logo após o sujeito: <em>"Eu me lembro bem disso."</em> Na norma-padrão escrita, o mais recomendado nesse caso — sem nenhum atrativo antes — é a ênclise: <em>"Lembro-me bem disso."</em></div>
 
 <h3>Ênclise — Quando o pronome vem DEPOIS</h3>
 <ul>
@@ -3628,12 +3468,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li>Verbo no infinitivo impessoal: <em>É preciso fazê-lo.</em></li>
   <li>Verbo no gerúndio sem <em>em</em>: <em>Estava contando-me a história.</em></li>
 </ul>
-
-<h3>Ênclise com Infinitivo — as formas LO/LA/NO/NA</h3>
-<p>Quando o pronome "o/a/os/as" se liga por ênclise a um verbo terminado em <strong>-R, -S ou -Z</strong>, essa consoante final cai e o pronome vira <strong>-lo/-la/-los/-las</strong> (com acento na vogal que sobra, se necessário): <em>vender + a → vendê-la; partir + o → parti-lo; fazer + os → fazê-los; quis + a → qui-la</em>. Quando o verbo termina em som nasal (<strong>-m, -õe, -ão</strong>), o pronome vira <strong>-no/-na/-nos/-nas</strong>: <em>põe + o → põe-no; compõem + a → compõem-na; deram + o → deram-no.</em></p>
-
-<h3>Colocação em Locuções Verbais (verbo auxiliar + principal)</h3>
-<p>Quando há um verbo auxiliar seguido de infinitivo, gerúndio ou particípio, o pronome pode ficar: <strong>antes do auxiliar</strong> (próclise ao conjunto, se houver palavra atrativa: <em>Não se pode fazer isso.</em>), <strong>entre o auxiliar e o principal</strong> (com hífen antes do infinitivo/gerúndio: <em>Pode-se fazer isso.</em> / <em>Vou-me lembrando.</em>), ou <strong>depois do verbo principal</strong> no infinitivo/gerúndio (<em>Vou lembrar-me.</em>). <strong>Atenção:</strong> em tempos compostos (auxiliar <em>ter/haver</em> + particípio), o pronome <strong>nunca</strong> se liga ao particípio — "tinha voltado-lhe" é errado; o correto é <em>lhe tinha voltado</em> (próclise ao auxiliar) ou <em>tinha-lhe voltado</em> (ênclise ao auxiliar).</p>
 
 <h3>Mesóclise — No meio do verbo</h3>
 <p>Usada com verbos no <strong>futuro do presente</strong> ou <strong>futuro do pretérito</strong> quando não há palavra atrativa:</p>
@@ -3728,36 +3562,10 @@ h3>Bloco 7 — Abundância e Coleção</h3>
       <td style="padding:9px 11px;color:#fde68a;"><strong>retificar</strong> × <strong>ratificar</strong></td>
       <td style="padding:9px 11px;color:#cbd5e1;">corrigir × confirmar/aprovar</td>
     </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
+    <tr>
       <td style="padding:9px 11px;color:#fde68a;"><strong>seção</strong> × <strong>sessão</strong> × <strong>cessão</strong></td>
       <td style="padding:9px 11px;color:#cbd5e1;">divisão × reunião × ato de ceder</td>
     </tr>
-    <tr>
-      <td style="padding:9px 11px;color:#fde68a;"><strong>concerto</strong> × <strong>conserto</strong></td>
-      <td style="padding:9px 11px;color:#cbd5e1;">apresentação musical × reparo/conserto de algo</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Mais Parônimos Essenciais de Concurso</h3>
-<table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Par</th>
-      <th style="padding:9px 11px;border-bottom:2px solid #334155;">Significado</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>eminente</strong> × <strong>iminente</strong></td><td style="padding:9px 11px;color:#cbd5e1;">notável, ilustre × prestes a acontecer</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>acender</strong> × <strong>ascender</strong></td><td style="padding:9px 11px;color:#cbd5e1;">atear fogo/ligar × subir, elevar-se</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>aferir</strong> × <strong>auferir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">medir, avaliar × obter, receber (ex.: lucro)</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>descriminar</strong> × <strong>discriminar</strong></td><td style="padding:9px 11px;color:#cbd5e1;">absolver, inocentar × distinguir/separar (ou tratar com preconceito)</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>despensa</strong> × <strong>dispensa</strong></td><td style="padding:9px 11px;color:#cbd5e1;">cômodo de guardar mantimentos × ato de dispensar/liberar</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>infligir</strong> × <strong>infringir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">aplicar uma pena/castigo × violar, transgredir uma norma</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>cavaleiro</strong> × <strong>cavalheiro</strong></td><td style="padding:9px 11px;color:#cbd5e1;">quem monta a cavalo × homem gentil, educado</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>delatar</strong> × <strong>dilatar</strong></td><td style="padding:9px 11px;color:#cbd5e1;">denunciar × expandir, alargar</td></tr>
-    <tr style="border-bottom:1px solid #1e293b;"><td style="padding:9px 11px;color:#fde68a;"><strong>fluir</strong> × <strong>fruir</strong></td><td style="padding:9px 11px;color:#cbd5e1;">correr, escoar × desfrutar, usufruir</td></tr>
-    <tr><td style="padding:9px 11px;color:#fde68a;"><strong>vultoso</strong> × <strong>vultuoso</strong></td><td style="padding:9px 11px;color:#cbd5e1;">volumoso, de grande valor × que tem o rosto inchado/congestionado</td></tr>
   </tbody>
 </table>
 
@@ -3767,14 +3575,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>mal / mau</strong>: advérbio/substantivo × adjetivo → <em>Ele se saiu mal. / Ele é um mau aluno.</em></li>
   <li><strong>mas / mais</strong>: conjunção adversativa × advérbio → <em>Tentei, mas não consegui. / Preciso de mais tempo.</em></li>
   <li><strong>onde / aonde</strong>: lugar onde está × lugar para onde vai → <em>A cidade onde moro. / Aonde você vai?</em></li>
-  <li><strong>cela / sela</strong> (homófonos): cômodo de prisão × arreio de cavalo.</li>
-  <li><strong>censo / senso</strong> (homófonos): recenseamento, contagem populacional × juízo, bom senso.</li>
-  <li><strong>cesta / sexta</strong> (homófonos): objeto/recipiente × dia da semana ou fração numérica.</li>
-  <li><strong>coser / cozer</strong> (homófonos): costurar × cozinhar em água.</li>
-  <li><strong>caçar / cassar</strong> (homófonos): capturar animais × anular, revogar (ex.: mandato).</li>
-  <li><strong>tacha / taxa</strong> (homófonos): prego pequeno / defeito × tributo, percentual.</li>
-  <li><strong>são (saudável) / são (verbo ser, 3ª pl.) / são (santo, apócope)</strong> — homônimos perfeitos, distinguem-se só pelo contexto sintático.</li>
-  <li><strong>colher (talher/substantivo) / colher (verbo colher)</strong> — homógrafos com pronúncia diferente (o substantivo tem "e" fechado, o verbo tem "e" aberto).</li>
 </ul>
 
 <div style="background:#0f172a;border-left:4px solid #38bdf8;padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0;">
@@ -3784,8 +3584,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>descrição/discrição</strong>: "i" de discrição = "invisível" (discreto não aparece).</li>
   <li><strong>ratificar</strong> (confirmar) tem "rati" de "ratificação de tratado" — algo já decidido.</li>
   <li><strong>seção/sessão/cessão</strong>: seção = corte/parte; sessão = sentar (reunião); cessão = ceder.</li>
-  <li><strong>eminente/iminente</strong>: eminente vem de "eminência" (destaque); iminente vem de "iminência de perigo" (prestes a ocorrer).</li>
-  <li><strong>infligir/infringir</strong>: infligir uma pena (aplicar) × infringir uma lei (violar) — ambos com "in-", mas "fligir" (bater/aplicar) × "fringir" (quebrar/violar).</li>
 </ul>
 </div>`,
     questoes: []
@@ -3865,7 +3663,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Troca de referência</strong></td><td style="padding:8px;border:1px solid #334155;">Diz que pronome X refere-se a Y quando é Z</td><td style="padding:8px;border:1px solid #334155;">Substitua pronome por cada candidato e teste concordância</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parcialidade</strong></td><td style="padding:8px;border:1px solid #334155;">Alternativa cita só um trecho, ignorando a ideia geral</td><td style="padding:8px;border:1px solid #334155;">Para questões de tema/síntese, cheque se a alternativa cobre todo o texto</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Sinônimo falso</strong></td><td style="padding:8px;border:1px solid #334155;">Dá significado que a palavra pode ter em outros contextos</td><td style="padding:8px;border:1px solid #334155;">Sempre teste o sinônimo no contexto da frase original</td></tr>
-    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Antônimo distrator</strong></td><td style="padding:8px;border:1px solid #334155;">Troca a palavra destacada por um antônimo plausível, mas que inverte o sentido do trecho</td><td style="padding:8px;border:1px solid #334155;">Releia a frase com a alternativa no lugar da palavra — se o sentido se inverter, é antônimo, não sinônimo</td></tr>
   </tbody>
 </table>
 </div>
@@ -3914,18 +3711,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>
 
-<h3>Ambiguidade</h3>
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
-<p style="color:#cbd5e1;margin-top:0;">Ambiguidade (ou anfibologia) ocorre quando uma frase admite <strong>mais de uma interpretação</strong> — a banca costuma pedir para identificar a frase ambígua ou a que NÃO é ambígua entre as alternativas.</p>
-<ul style="color:#cbd5e1;">
-  <li><strong>Pronome com dois antecedentes possíveis</strong>: "O gerente revisou o contrato e comunicou a mudança ao cliente" — quem comunicou? Fica claro pelo sujeito da oração, mas em "João disse a Pedro que ele venceria", <em>ele</em> pode ser João ou Pedro — ambíguo.</li>
-  <li><strong>Adjunto adnominal deslocado</strong>: "Vi o carro do vizinho quebrado" — o que está quebrado, o carro ou o vizinho? A ordem gera duplo sentido.</li>
-  <li><strong>Possessivo ambíguo</strong>: "Maria pegou seu livro" — o livro é de Maria ou de outra pessoa mencionada antes? "Seu/sua" é a maior fonte de ambiguidade pronominal em prova.</li>
-  <li><strong>Como resolver na reescrita</strong>: reordenar a frase, substituir o pronome pelo nome repetido, ou usar aposto explicativo para eliminar a duplicidade de sentido.</li>
-  <li><strong>Cuidado</strong>: nem toda frase com pronome é ambígua — só é ambígua quando existe mais de um referente igualmente possível no contexto.</li>
-</ul>
-</div>
-
 <h3>Estratégia de Resolução Passo a Passo</h3>
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <ol style="color:#cbd5e1;">
@@ -3963,9 +3748,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <strong style="color:#38bdf8;">Princípio geral</strong>
 <p style="color:#cbd5e1;margin-top:8px;">A pontuação organiza o ritmo, a clareza e o sentido do texto. Em provas, o foco recai na <strong>vírgula</strong> (uso obrigatório, facultativo e proibido) e nos <strong>dois-pontos</strong>. Dominar as regras da vírgula resolve a maioria das questões.</p>
 </div>
-
-<h3>Tipos de Frase e Sinais Finais</h3>
-<p>Quanto à intenção do falante, as frases se classificam em: <strong>frase declarativa</strong> (afirma ou nega algo, termina em ponto final), <strong>frase interrogativa</strong> (pergunta — direta, com ponto de interrogação, ou indireta, sem o sinal: "Pergunto se ele virá"), <strong>frase exclamativa</strong> (expressa emoção, termina com <strong>sinal de exclamação</strong>) e <strong>frase imperativa</strong> (dá ordem ou pedido). O <strong>sinal de interrogação</strong> marca a pergunta direta; o <strong>sinal de exclamação</strong> pode indicar surpresa, ordem ou ênfase, não apenas alegria.</p>
 
 <h3>VÍRGULA — Quando é Obrigatória</h3>
 <div style="overflow-x:auto;margin-bottom:16px;">
@@ -4046,95 +3828,24 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   </tr></thead>
   <tbody>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Reticências (…)</strong></td><td style="padding:8px;border:1px solid #334155;">Suspense, omissão, hesitação, continuação subentendida</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">"Eu queria dizer… mas não consigo."</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Travessão (—)</strong></td><td style="padding:8px;border:1px solid #334155;">Iniciar fala em diálogo; isolar aposto/intercalação com ênfase; introduzir esclarecimento (equivalente aos dois-pontos)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">— Não vou. / O presidente — que chegou tarde — discursou. / Só havia uma saída — fugir. (poderia ser substituído por ":")</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Travessão (—)</strong></td><td style="padding:8px;border:1px solid #334155;">Iniciar fala em diálogo; isolar aposto/intercalação com ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">— Não vou. / O presidente — que chegou tarde — discursou.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Parênteses ( )</strong></td><td style="padding:8px;border:1px solid #334155;">Informação acessória, explicação, data, sigla</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O IBGE (Instituto Brasileiro de Geografia e Estatística) divulgou...</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspas (" ")</strong></td><td style="padding:8px;border:1px solid #334155;">Citação direta, ironia, neologismo, estrangeirismo, ênfase, <strong>função metalinguística</strong> (a palavra é citada como palavra, para explicar sua origem/sentido literal) e <strong>distanciamento crítico</strong> (o autor marca que não assume o sentido convencional do termo, rejeitando-o ou questionando-o)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele é muito "pontual". / "A arte é longa, a vida é breve." (Hipócrates) / A palavra "salário" vem de "sal" (metalinguística) / Os chamados "especialistas" nada explicaram (distanciamento crítico)</td></tr>
+    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Aspas (" ")</strong></td><td style="padding:8px;border:1px solid #334155;">Citação direta, ironia, neologismo, estrangeirismo, ênfase</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ele é muito "pontual". / "A arte é longa, a vida é breve." (Hipócrates)</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de exclamação (!)</strong></td><td style="padding:8px;border:1px solid #334155;">Emoção, ordem, surpresa, exclamação</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Que bela paisagem! / Cale-se!</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Ponto de interrogação (?)</strong></td><td style="padding:8px;border:1px solid #334155;">Perguntas diretas</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Você virá amanhã? (interrogação indireta NÃO usa ?)</td></tr>
   </tbody>
 </table>
 </div>
 
-<h3>PONTO FINAL E OUTROS SINAIS DE TÉRMINO</h3>
-<div style="background:#1e293b;border-radius:8px;padding:12px 16px;margin-bottom:16px;">
-<ul style="color:#cbd5e1;margin:0;">
-  <li><strong>Ponto final (.)</strong> — encerra período declarativo ou imperativo: <em>"Ela foi embora."</em> O emprego do ponto final também ocorre em abreviações (Dr., Sr., etc.).</li>
-  <li><strong>Ponto de interrogação (?)</strong> — perguntas diretas: <em>"Quando chegarás?"</em></li>
-  <li><strong>Ponto de exclamação (!)</strong> — emoção, ordem ou surpresa: <em>"Que notícia!"</em></li>
-</ul>
-</div>
-
 <div style="background:#1e293b;border-radius:8px;padding:16px;">
 <strong style="color:#38bdf8;">Dicas de prova</strong>
 <ul style="color:#cbd5e1;margin-top:8px;">
-  <li>O <strong>emprego da vírgula</strong> é o tópico mais cobrado em pontuação. O emprego da vírgula segue regras obrigatórias (vocativo, aposto, adjunto adverbial deslocado) e casos proibidos (entre sujeito e verbo).</li>
   <li>A questão de pontuação mais cobrada é a <strong>vírgula</strong> — memorize os casos proibidos (entre sujeito/verbo e verbo/objeto).</li>
-  <li>Teste cada alternativa reescrevendo a frase sem o trecho isolado pela pontuação proposta — o sentido central muda? Se sim, está errado (o trecho é essencial, não pode ser isolado). Se não muda, o trecho é informação extra e a pontuação está correta.</li>
+  <li>Teste cada alternativa substituindo a pontuação proposta e lendo em voz alta — o sentido muda? Se sim, está errado.</li>
   <li>Oração adjetiva: pergunte "essa informação identifica ou apenas acrescenta?". Se identifica → restritiva → sem vírgula. Se acrescenta → explicativa → com vírgula.</li>
   <li>Adjunto adverbial curto no início → vírgula é facultativa; adjunto longo → vírgula é recomendada/obrigatória.</li>
   <li>Conjunção "mas" é sempre precedida de vírgula. Conjunção "e" em enumeração simples NÃO é.</li>
 </ul>
-</div>
-
-<h3>O que a vírgula está isolando? — Classificação Sintática</h3>
-<p>Muitas questões não perguntam <em>se</em> a vírgula está correta, mas <em>por que</em> ela está ali — pedindo o nome do termo isolado. Conhecer essas categorias é pré-requisito.</p>
-
-<table style="width:100%;border-collapse:collapse;font-size:0.83rem;margin:10px 0 16px;">
-  <thead>
-    <tr style="background:#0c4a6e;color:#7dd3fc;text-align:left;">
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Termo</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">O que é</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Como identificar</th>
-      <th style="padding:8px 10px;border-bottom:2px solid #334155;">Exemplo com vírgula</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Vocativo</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Interpelação direta a alguém — não faz parte da oração</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Pode ser retirado; é sempre um nome de pessoa/grupo</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Maria<strong>,</strong> venha aqui.</em></td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Aposto</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Termo que explica, esclarece ou resume outro substantivo já mencionado</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Vem ao lado de um substantivo; pode ser substituído por "ou seja, ..."</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Camões<strong>,</strong> o maior poeta lusitano<strong>,</strong> nasceu em 1524.</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Predicativo do sujeito</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Caracteriza o sujeito por meio de um verbo de ligação (ser, estar, ficar, parecer, tornar-se…)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Sempre ligado ao sujeito via verbo; responde "o sujeito está como?"</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Os macacos<strong>,</strong> originários da África<strong>,</strong> chegaram a Gibraltar.</em> (isolado por vírgulas, qualifica o sujeito)</td>
-    </tr>
-    <tr style="background:#0f172a;border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Adjunto adnominal</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Modifica um substantivo (artigos, adjetivos, locuções adjetivas, pronomes adjetivos)</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Está dentro do sintagma nominal; NÃO é isolado por vírgulas quando restritivo</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>O livro <u>antigo</u> foi restaurado.</em> (adjunto adnominal sem vírgula)</td>
-    </tr>
-    <tr style="border-bottom:1px solid #1e293b;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Adjunto adverbial</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Modifica o verbo, adjetivo ou advérbio — indica tempo, lugar, modo, causa, etc.</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Responde "quando?", "onde?", "como?", "por quê?" — se deslocado, exige vírgula</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>Ontem<strong>,</strong> o time venceu.</em> / <em>Com cuidado<strong>,</strong> ele abriu a carta.</em></td>
-    </tr>
-    <tr style="background:#0f172a;">
-      <td style="padding:8px 10px;font-weight:700;color:#fde68a;">Oração adjetiva explicativa</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Oração introduzida por pronome relativo que acrescenta informação não essencial</td>
-      <td style="padding:8px 10px;color:#94a3b8;">Começa por "que", "o qual", "cujo"; pode ser retirada sem mudar o sentido essencial</td>
-      <td style="padding:8px 10px;color:#cbd5e1;font-style:italic;"><em>O sol<strong>,</strong> que aquece a Terra<strong>,</strong> é uma estrela.</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="exemplo-box">
-  <strong>Aposto × Predicativo — como a banca distingue:</strong><br><br>
-  <strong>Aposto</strong>: está ao lado de um substantivo e esclarece <em>quem é</em>. Pode ser substituído por "isto é" / "ou seja".<br>
-  → <em>"Pedro, <u>o diretor da escola</u>, falou."</em> — "ou seja, o diretor da escola" funciona ✓<br><br>
-  <strong>Predicativo isolado</strong>: qualifica o sujeito sem verbo de ligação explícito (predicativo deslocado).<br>
-  → <em>"<u>Cansado</u>, João saiu da reunião."</em> — equivale a "João estava cansado" ✓<br><br>
-  <strong>Dica prática</strong>: se o termo entre vírgulas é um <em>adjetivo</em> ou <em>locução adjetiva</em> que qualifica o sujeito — é predicativo. Se é um <em>substantivo</em> que renomeia outro — é aposto.
 </div>`,
     questoes: []
   },
@@ -4163,8 +3874,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <tbody>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (sentido de ver/presenciar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Assisti <strong>ao</strong> jogo. / Assisti <strong>à</strong> palestra.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Assistir</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (sentido de ajudar, caber)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O médico assistiu o paciente. / Esse direito lhe assiste.</td></tr>
-    <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ajudar</strong></td><td style="padding:8px;border:1px solid #334155;">verbo transitivo direto — sem preposição, pronome O/A (não LHE)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Ajudei-<strong>o</strong> a carregar as caixas. (não "ajudei-lhe")</td></tr>
-    <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Lembrar / Esquecer</strong></td><td style="padding:8px;border:1px solid #334155;">sem pronome "se": transitivo direto (sem preposição). Com pronome "se" (lembrar-se, esquecer-se): transitivo indireto, exige a preposição <em>de</em></td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Lembrei o compromisso. / Lembrei-me <strong>do</strong> compromisso.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (objetivar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O projeto visa <strong>ao</strong> bem comum.</td></tr>
     <tr style="background:#0f172a;"><td style="padding:8px;border:1px solid #334155;"><strong>Visar</strong></td><td style="padding:8px;border:1px solid #334155;">sem preposição (pôr visto, mirar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">O chefe visou o documento. / O atirador visou o alvo.</td></tr>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Aspirar</strong></td><td style="padding:8px;border:1px solid #334155;">+ <em>a</em> (desejar, almejar)</td><td style="padding:8px;border:1px solid #334155;font-style:italic;">Aspiro <strong>a</strong> um cargo melhor.</td></tr>
@@ -4226,15 +3935,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Obedecer à lei</strong> — sempre com preposição; não aceita pronome objeto direto: ❌ "obedecê-la".</li>
   <li>Se a questão trocar a preposição ou omiti-la num desses verbos, a frase está errada.</li>
 </ul>
-</div>
-
-<h3>Preposição Essencial × Acidental e Contração Prepositiva</h3>
-<div style="background:#1e293b;border-radius:8px;padding:16px;">
-<ul style="color:#cbd5e1;">
-  <li><strong>Preposição essencial</strong>: palavra que só funciona como preposição, nunca como outra classe — <em>a, de, em, com, para, por, sem, sob, sobre, contra, entre, desde, até, perante, ante, após, contra, trás</em>. É ela que rege a regência verbal/nominal propriamente dita.</li>
-  <li><strong>Preposição acidental</strong>: palavra de outra classe (advérbio, particípio, gerúndio) que, em certo contexto, passa a funcionar como preposição — <em>durante, mediante, salvo, exceto, segundo, consoante, visto, tirante, fora</em>. Ex.: <em>Todos foram, <strong>exceto</strong> ele.</em> / <em>Segundo</em> a lei, isso é proibido.</li>
-  <li><strong>Contração prepositiva</strong>: fusão de uma preposição essencial com outra palavra (artigo, pronome, advérbio) — <em>a+o=ao, a+a=à, de+o=do, de+a=da, de+esse=desse, em+um=num, por+o=pelo</em>. Numa questão, "a contração prepositiva imposta pela regência verbal/nominal" é exatamente o <strong>ao/à/do/da</strong> que aparece porque o verbo ou nome exige aquela preposição diante de um termo que leva artigo.</li>
-</ul>
 </div>`,
     questoes: []
   },
@@ -4249,7 +3949,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <strong style="color:#38bdf8;">O que é</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Análise sintática é o estudo das relações entre as palavras na frase. Cada palavra ou grupo de palavras exerce uma <strong>função sintática</strong>. Em provas, cobram-se principalmente: identificação de sujeito, objeto, adjuntos, tipos de oração e estrutura de períodos compostos. O <strong>sujeito da oração</strong> é o termo sobre o qual se declara algo; identificar esse termo é o mesmo que identificar a <strong>função de sujeito</strong> dentro da oração.</p>
+<p style="color:#cbd5e1;margin-top:8px;">Análise sintática é o estudo das relações entre as palavras na frase. Cada palavra ou grupo de palavras exerce uma <strong>função sintática</strong>. Em provas, cobram-se principalmente: identificação de sujeito, objeto, adjuntos, tipos de oração e estrutura de períodos compostos.</p>
 </div>
 
 <h3>Termos Essenciais da Oração</h3>
@@ -4333,10 +4033,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </ul>
 </div>
 
-<p>O período composto é formado por duas ou mais orações. Ele pode ser por <strong>coordenação</strong> (as orações coordenadas são sintaticamente independentes entre si) ou por <strong>subordinação</strong> (as orações subordinadas dependem sintaticamente da oração principal, exercendo nela uma função sintática).</p>
-
 <h3>Período Composto — Coordenação</h3>
-<p>As orações coordenadas podem ser <strong>sindéticas</strong> (ligadas por conjunção — aditiva, adversativa, alternativa, conclusiva ou explicativa, vistas na tabela abaixo) ou <strong>assindéticas</strong> (sem conjunção, apenas separadas por vírgula: <em>Cheguei, vi, venci.</em>).</p>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
   <thead><tr style="background:#0f172a;">
@@ -4356,7 +4053,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 </div>
 
 <h3>Período Composto — Subordinação</h3>
-<p>A oração subordinada nunca aparece sozinha — ela depende de uma <strong>oração principal</strong>. Pode ser <strong>oração subordinada substantiva</strong> (exerce função de substantivo: sujeito, objeto etc. — introduzida por conjunção integrante (também chamada de conjunção subordinativa integrante), como "que" ou "se"), <strong>oração subordinada adjetiva</strong> (exerce função de adjetivo, introduzida por pronome relativo) ou <strong>oração subordinada adverbial</strong> (exerce função de advérbio). Quando a oração vem sem conjunção e com o verbo no infinitivo, gerúndio ou particípio, é chamada de <strong>oração reduzida</strong> (ex.: <em>Ao chegar, cumprimentou a todos</em>). Ou seja: dizer que uma oração "tem função substantiva", "função adjetiva" ou "função adverbial" é o mesmo que classificá-la como subordinada substantiva, adjetiva ou adverbial.</p>
 <div style="overflow-x:auto;margin-bottom:16px;">
 <table style="width:100%;border-collapse:collapse;color:#cbd5e1;font-size:0.9em;">
   <thead><tr style="background:#0f172a;">
@@ -4540,19 +4236,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
   <li><strong>Coerência</strong>: mecanismo <em>semântico</em> — a unidade de sentido e lógica do texto como um todo.</li>
   <li><strong>Relação</strong>: um texto pode ser coeso e incoerente ("Ela foi ao mercado. Portanto, o sol é quente.") ou coerente sem coesão formal explícita (textos telegráficos, títulos).</li>
 </ul>
-<p style="color:#cbd5e1;">Cada conectivo estabelece um <strong>efeito de sentido</strong> (uma relação lógica) entre as ideias: <strong>relação de adição</strong> (e, além disso, também), oposição (mas, por outro lado), explicação (pois, porque), condição (se, caso), finalidade (para que) etc.</p>
-</div>
-
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
-<strong style="color:#38bdf8;">Ambiguidade</strong>
-<p style="color:#cbd5e1;margin-top:8px;">A <strong>ambiguidade</strong> (ou anfibologia) ocorre quando uma frase permite mais de uma interpretação. As causas mais cobradas em prova:</p>
-<ul style="color:#cbd5e1;">
-  <li><strong>Pronome com referência dupla</strong>: "João avisou Pedro que ele passou no concurso" — quem passou, João ou Pedro?</li>
-  <li><strong>Adjunto adnominal x complemento</strong>: "A empresa entregou os documentos assinados ontem" — o que aconteceu ontem: a assinatura dos documentos ou a entrega deles?</li>
-  <li><strong>Posição do adjunto adverbial</strong>: "Só ele comeu o bolo" (só ele, ninguém mais) × "Ele só comeu o bolo" (não fez outra coisa) × "Ele comeu só o bolo" (nada além do bolo).</li>
-  <li><strong>Pronome possessivo</strong>: "Maria viu sua mãe" — a mãe de Maria ou de outra pessoa mencionada antes?</li>
-</ul>
-<p style="color:#cbd5e1;">Em provas, a ambiguidade costuma ser apontada como um <strong>defeito</strong> a ser corrigido na reescrita de frases, a menos que o texto seja literário e a ambiguidade seja proposital (recurso estilístico).</p>
 </div>
 
 <h3>Mecanismos de Coesão</h3>
@@ -4599,20 +4282,6 @@ h3>Bloco 7 — Abundância e Coleção</h3>
     <tr><td style="padding:8px;border:1px solid #334155;"><strong>Ordenação / Sequência</strong></td><td style="padding:8px;border:1px solid #334155;">primeiramente, em seguida, depois, por fim, finalmente, anteriormente, posteriormente</td></tr>
   </tbody>
 </table>
-</div>
-
-<h3>Fatores de Textualidade (Beaugrande & Dressler)</h3>
-<div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
-<p style="color:#cbd5e1;">Os 7 fatores que fazem um texto ser reconhecido como texto (e não uma sequência aleatória de frases) — terminologia cobrada nominalmente em prova, sobretudo CESPE:</p>
-<ul style="color:#cbd5e1;">
-  <li><strong>Coesão</strong>: conexão formal entre os elementos linguísticos da superfície do texto (já detalhada acima).</li>
-  <li><strong>Coerência</strong>: conexão de sentido, a lógica interna que dá unidade ao texto (já detalhada acima).</li>
-  <li><strong>Intencionalidade</strong>: a vontade do produtor do texto de construir um texto coeso e coerente que atinja seu objetivo comunicativo.</li>
-  <li><strong>Aceitabilidade</strong>: a disposição do receptor de considerar o conjunto de frases como um texto coerente e relevante, mesmo tolerando pequenas falhas de coesão.</li>
-  <li><strong>Situacionalidade</strong>: a adequação do texto à situação comunicativa em que ele ocorre (contexto social, momento, finalidade) — o mesmo conteúdo é organizado de formas diferentes numa bula de remédio e numa crônica.</li>
-  <li><strong>Informatividade</strong>: o grau de previsibilidade/imprevisibilidade da informação — textos muito previsíveis (informatividade baixa) tendem a ser menos interessantes que os que trazem informação nova (informatividade alta), mas o excesso de imprevisibilidade pode prejudicar a compreensão.</li>
-  <li><strong>Intertextualidade</strong>: a relação de um texto com outros textos, prévios, que o leitor precisa reconhecer para compreendê-lo plenamente (citação, paródia, paráfrase, alusão).</li>
-</ul>
 </div>
 
 <h3>Princípios de Coerência Textual</h3>
@@ -4851,7 +4520,7 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 
 <div style="background:#1e293b;border-radius:8px;padding:16px;margin-bottom:16px;">
 <strong style="color:#38bdf8;">O que cobra a prova</strong>
-<p style="color:#cbd5e1;margin-top:8px;">Questões de reescrita pedem que você: (1) substitua um elemento por outro equivalente sem alterar o sentido, (2) desloque um elemento para outra posição, (3) transforme a voz verbal, (4) troque a oração por uma reduzida (ou vice-versa), (5) mantenha o paralelismo, (6) converta entre <strong>discurso direto</strong> (reproduz a fala tal como foi dita, entre aspas ou após dois-pontos) e <strong>discurso indireto</strong> (relata a fala com verbo de elocução + "que", sem aspas — ex.: "Ele disse: 'Eu vou.'" → "Ele disse que iria"). A pegadinha mais comum é a alternativa que <strong>parece</strong> equivalente mas muda sutilmente o sentido ou a norma gramatical.</strong></p>
+<p style="color:#cbd5e1;margin-top:8px;">Questões de reescrita pedem que você: (1) substitua um elemento por outro equivalente sem alterar o sentido, (2) desloque um elemento para outra posição, (3) transforme a voz verbal, (4) troque a oração por uma reduzida (ou vice-versa), (5) mantenha o paralelismo. A pegadinha mais comum é a alternativa que <strong>parece</strong> equivalente mas muda sutilmente o sentido ou a norma gramatical.</strong></p>
 </div>
 
 <h3>1. Substituição de Conectivos — Preservando o Sentido</h3>
@@ -6875,7 +6544,17 @@ h3>Bloco 7 — Abundância e Coleção</h3>
 <p><strong>Divulgação — duas normas, dois planos</strong>: a Lei 13.460/2017 (Art. 7º) exige atualização periódica e <strong>publicação no sítio eletrônico</strong> do órgão. O <strong>Decreto 9.094/2017</strong>, que regulamenta a lei, acrescenta a obrigação de manter a Carta <strong>visível e acessível ao público nos locais de atendimento</strong> (Art. 11), além do sítio eletrônico e do Portal de Serviços do Governo Federal — é esse decreto, não a lei em si, que fundamenta a afixação física.</p>
 <p><strong>Avaliação de satisfação dos usuários</strong> (Art. 23): os órgãos devem avaliar continuamente os serviços prestados — satisfação do usuário, qualidade do atendimento, cumprimento de compromissos e prazos, quantidade de manifestações recebidas e medidas adotadas para melhoria. Essa avaliação é feita por <strong>pesquisa de satisfação realizada no mínimo anualmente</strong> (ou outro meio que garanta significância estatística), e os resultados devem ser <strong>publicados integralmente no sítio eletrônico</strong> do órgão, incluindo o <strong>ranking das entidades com maior incidência de reclamações</strong> — servindo de base para reorientar e ajustar os serviços prestados.</p>
 <p><strong>Ponto crítico para prova</strong>: a Carta de Serviços não é mera formalidade interna — é instrumento de <strong>transparência e controle social</strong> sobre a qualidade do serviço público. Questão que descreva obrigação de afixar/divulgar compromissos de atendimento ao cidadão, citando "Decreto 1.171/94" como base legal, está <strong>ERRADA</strong> — a base é a <strong>Lei 13.460/2017</strong> (conteúdo e publicação eletrônica) combinada com o <strong>Decreto 9.094/2017</strong> (afixação física nos locais de atendimento).</p>
-<p><strong>Ética digital e uso de IA no serviço público — rastreabilidade e registro decisório</strong>: a incorporação de sistemas informatizados e inteligência artificial nas decisões administrativas impõe novos deveres éticos ao servidor público: <strong>(1) rastreabilidade</strong> — toda decisão gerada ou auxiliada por sistema automatizado deve ser passível de auditoria, com registro dos dados de entrada, do modelo utilizado e dos parâmetros aplicados; <strong>(2) registro decisório</strong> — o servidor que utiliza IA como suporte de decisão deve documentar a justificativa técnica da decisão final, assumindo responsabilidade pessoal pelo resultado — a IA não exime o servidor de responsabilidade; <strong>(3) transparência algorítmica</strong> — o cidadão afetado por decisão automatizada tem direito a explicação compreensível dos critérios utilizados (art. 20 da LGPD — Lei 13.709/2018); <strong>(4) controle humano</strong> — decisões que afetem direitos ou interesses do cidadão devem ter supervisão e revisão humana possível. <strong>Ponto crítico para prova</strong>: afirmativa que diga que o uso de IA ou sistema informatizado <strong>dispensa</strong> registro de justificativa ou <strong>exime</strong> o servidor de responsabilidade pela decisão está <strong>ERRADA</strong>; afirmativa que associe ética digital à rastreabilidade, registro decisório e controle humano está <strong>CERTA</strong>.</p>`,
+<p><strong>Ética digital e uso de IA no serviço público — rastreabilidade e registro decisório</strong>: a incorporação de sistemas informatizados e inteligência artificial nas decisões administrativas impõe novos deveres éticos ao servidor público: <strong>(1) rastreabilidade</strong> — toda decisão gerada ou auxiliada por sistema automatizado deve ser passível de auditoria, com registro dos dados de entrada, do modelo utilizado e dos parâmetros aplicados; <strong>(2) registro decisório</strong> — o servidor que utiliza IA como suporte de decisão deve documentar a justificativa técnica da decisão final, assumindo responsabilidade pessoal pelo resultado — a IA não exime o servidor de responsabilidade; <strong>(3) transparência algorítmica</strong> — o cidadão afetado por decisão automatizada tem direito a explicação compreensível dos critérios utilizados (art. 20 da LGPD — Lei 13.709/2018); <strong>(4) controle humano</strong> — decisões que afetem direitos ou interesses do cidadão devem ter supervisão e revisão humana possível. <strong>Ponto crítico para prova</strong>: afirmativa que diga que o uso de IA ou sistema informatizado <strong>dispensa</strong> registro de justificativa ou <strong>exime</strong> o servidor de responsabilidade pela decisão está <strong>ERRADA</strong>; afirmativa que associe ética digital à rastreabilidade, registro decisório e controle humano está <strong>CERTA</strong>.</p>
+<h3>Princípios Constitucionais da Administração Pública — LIMPE (Art. 37, caput, CF/88)</h3>
+<p>O Art. 37, caput, da Constituição Federal estabelece cinco princípios que norteiam obrigatoriamente a Administração Pública <strong>direta e indireta</strong> de qualquer dos Poderes da <strong>União, Estados, Distrito Federal e Municípios</strong>:</p>
+<p><strong>L — Legalidade</strong>: o agente público só pode fazer aquilo que a lei expressamente permite — ao contrário do particular, que pode fazer tudo que a lei não proíbe. A legalidade administrativa é mais restritiva: sem base legal, o ato é inválido. <strong>Ponto crítico para prova</strong>: afirmativa que diga que o servidor pode agir "desde que não haja proibição expressa" está <strong>ERRADA</strong> — na Administração Pública, o que não está permitido é vedado; questão que afirme que o agente público age da mesma forma que o particular (pode o que não é proibido) está <strong>ERRADA</strong>.</p>
+<p><strong>I — Impessoalidade</strong>: o agente atua em nome da Administração, sem identificação pessoal com o ato — os atos são imputados ao órgão ou entidade, não à pessoa do agente (teoria do órgão). Desdobramentos: <strong>(a)</strong> proibição de discriminação por critérios irrelevantes — tratamento igualitário a todos os administrados; <strong>(b)</strong> vedação à promoção pessoal em publicidade oficial (Art. 37, §1°, CF): a publicidade dos atos e programas deve ter caráter educativo, informativo ou de orientação social, sendo proibida a que contenha nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades — questão que afirme que publicidade oficial pode destacar o nome do gestor está <strong>ERRADA</strong>; <strong>(c)</strong> obrigatoriedade de concurso público (Art. 37, II): a impessoalidade veda nomeações por critérios pessoais. A Súmula Vinculante 13 (nepotismo) é desdobramento direto da impessoalidade. <strong>Ponto crítico para prova</strong>: impessoalidade não significa tratar <em>identicamente</em> o que é <em>diferente</em> — ela veda a discriminação <em>arbitrária</em>, mas admite tratamento diferenciado por critérios <em>objetivos e relevantes</em> (atendimento prioritário a idosos, gestantes, pessoas com deficiência — expressão de <em>isonomia material</em>, compatível com impessoalidade).</p>
+<p><strong>M — Moralidade</strong>: a Administração deve atuar com honestidade, boa-fé, lealdade e probidade — indo além da mera legalidade formal. Um ato pode ser <strong>legal e ainda imoral</strong> (ex.: uso de prerrogativa formalmente lícita para fim pessoal). A moralidade é princípio autônomo e constitucionalmente exigível. O Decreto 1.171/94 é expressão regulatória específica desse princípio no âmbito do Executivo Federal. <strong>Ponto crítico para prova</strong>: legalidade e moralidade são <strong>princípios autônomos</strong> — ilegalidade não pressupõe imoralidade (e vice-versa); afirmativa que diga que "ato legal é necessariamente moral" está <strong>ERRADA</strong>.</p>
+<p><strong>P — Publicidade</strong>: os atos da Administração devem ser divulgados como regra geral — a publicidade é requisito de <strong>eficácia</strong> do ato administrativo (item VII do Decreto 1.171/94: "publicidade de qualquer ato administrativo constitui requisito de eficácia e moralidade"). O sigilo é <strong>exceção</strong> e exige previsão legal expressa (segurança nacional, investigações policiais, interesse superior do Estado). A publicidade se desdobra em: <strong>(a) transparência ativa</strong> — publicação espontânea de informações de interesse geral (Art. 8° da LAI); <strong>(b) transparência passiva</strong> — resposta a pedidos específicos no prazo de 20 dias (prorrogável por mais 10), sem exigência de justificativa pelo solicitante (Arts. 10-14 da LAI). <strong>Ponto crítico para prova</strong>: questão que afirme que "em todas as situações devem-se obedecer os princípios da publicidade e transparência" está <strong>ERRADA</strong> — há exceções legalmente previstas; questão que diga que a publicidade garante a eficácia e a moralidade do ato está <strong>CERTA</strong> (base no item VII).</p>
+<p><strong>E — Eficiência</strong> (incluído pela <strong>EC 19/1998</strong> — Reforma Administrativa): a Administração deve buscar o melhor resultado com o menor custo, com qualidade, celeridade e perfeição técnica. Abrange: <strong>(a)</strong> eficiência na organização interna (estrutura, métodos, procedimentos); <strong>(b)</strong> eficiência na prestação dos serviços ao administrado (resultados concretos para o cidadão). Distinções conceituais: <strong>eficiência</strong> (melhor meio para atingir o resultado) ≠ <strong>eficácia</strong> (atingir o objetivo pretendido, independentemente dos meios) ≠ <strong>efetividade</strong> (impacto real e duradouro sobre o problema social visado). A eficiência <strong>não autoriza atalhos ilegais ou imorais</strong> — deve ser harmonizada com os demais princípios. <strong>Ponto crítico para prova</strong>: a Eficiência foi inserida pela <strong>EC 19/1998</strong> — questão que atribua sua inserção à EC 45/2004 (Reforma do Judiciário) ou a outra emenda está <strong>ERRADA</strong>. Questão que diga que eficiência e eficácia são sinônimos está <strong>ERRADA</strong>.</p>
+<p><strong>Síntese das relações entre os cinco princípios e a ética pública</strong>: <strong>(1)</strong> Moralidade é o princípio constitucional que engloba a exigência ética; o Decreto 1.171/94 é sua regulamentação no Executivo Federal; <strong>(2)</strong> Legalidade e Moralidade são autônomos — pode haver ato legal e imoral, e vice-versa; <strong>(3)</strong> Impessoalidade veda o uso da função para interesse pessoal (nexo com as vedações do item XV do Decreto 1.171/94); <strong>(4)</strong> Publicidade fundamenta o dever de verdade (item VIII) e os canais de transparência; <strong>(5)</strong> Eficiência relaciona-se com o dever de desempenhar as atribuições "com rapidez, perfeição e rendimento" (item XIV, alínea b).</p>
+<p><strong>Princípios implícitos reconhecidos pela doutrina</strong> (não constam no caput do Art. 37): razoabilidade/proporcionalidade, continuidade do serviço público, autotutela, motivação, segurança jurídica. A doutrina usa o mnemônico "<strong>LIMPAR</strong>" (acrescentando R de Razoabilidade), embora o Art. 37, caput, contenha apenas os cinco princípios expressos (LIMPE). <strong>Ponto crítico</strong>: questão que afirme que razoabilidade e proporcionalidade estão no <em>caput</em> do Art. 37 está <strong>ERRADA</strong> — são extraídos do Art. 5°, LIV e da jurisprudência, não do Art. 37 caput.</p>
+<p><strong>Aplicação prática de LIMPE em casos concretos</strong>: servidor que usa o cargo para benefício pessoal → viola <strong>Moralidade</strong> e <strong>Impessoalidade</strong> (item XV, alínea a, do Decreto 1.171/94); ato sem base legal → viola <strong>Legalidade</strong>; publicidade oficial que destaca o nome do governante → viola <strong>Impessoalidade</strong> e <strong>Publicidade</strong> (Art. 37, §1°, CF); serviço prestado com morosidade injustificada → viola <strong>Eficiência</strong> (e o dever do item XIV, alínea b); servidor que nega acesso a ato público sem justificativa legal → viola <strong>Publicidade</strong> (e o dever do item VIII do Decreto 1.171/94); nepotismo (SV 13) → viola <strong>Impessoalidade</strong> e <strong>Moralidade</strong>.</p>`,
     questoes: []
   },
   {
