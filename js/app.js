@@ -1211,8 +1211,12 @@ function _renderizarBtnTopicos(q) {
   if (anterior) anterior.remove();
 
   if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
-  const itens = Object.keys(q.indicadores_teoria);
+  const itens = Array.isArray(q.indicadores_teoria.geral)
+    ? q.indicadores_teoria.geral
+    : Object.values(q.indicadores_teoria);
   if (!itens.length) return;
+  // Só mostra o botão se houver teoria para navegar (mesma guarda do btn-consultar-teoria)
+  if (!_resolverTemasParaPanel(q.temas_relacionados || []).length) return;
 
   const btn = document.createElement('button');
   btn.id = 'btn-topicos-questao';
