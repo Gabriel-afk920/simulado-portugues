@@ -303,7 +303,8 @@ let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
 // ══════════════════════════════════════════════════════════
 const TELAS = ['screen-login','screen-home','screen-materia-estudar','screen-materia-simulado',
                'screen-study-topics','screen-study-fonetica','screen-study-content',
-               'screen-quiz-topics','screen-quiz-fonetica','screen-quiz','screen-result'];
+               'screen-quiz-topics','screen-quiz-fonetica','screen-quiz','screen-result',
+               'screen-validar-staging'];
 
 function ir(id) {
   TELAS.forEach(t => {

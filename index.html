@@ -69,6 +69,10 @@
         <div class="hc-desc">Escolha um tema e responda questões com cronômetro e gabarito comentado</div>
       </div>
     </div>
+    <!-- Botão dev: só aparece em localhost/?dev=1, controlado por validar-staging.js -->
+    <div style="text-align:center;margin-top:20px;">
+      <button id="btn-dev-staging" style="display:none;background:none;border:1px solid #334155;color:#475569;font-size:0.72rem;padding:4px 12px;border-radius:6px;cursor:pointer;">🔧 Dev: Validar Staging</button>
+    </div>
   </div>
 
   <!-- Gate de login síncrono -- roda ANTES de qualquer <script src> (inclusive
@@ -234,6 +238,55 @@
 
 </div>
 
+  <!-- ════════════════════════════
+       TELA: VALIDAÇÃO DE ÂNCORAS (dev only — localhost ou ?dev=1)
+  ════════════════════════════ -->
+  <div id="screen-validar-staging" class="hidden">
+    <div>
+      <button class="btn-ghost" id="btn-back-vs">← Voltar</button>
+      <h2 id="vs-titulo" style="display:inline;margin-left:10px;font-size:1.1rem;vertical-align:middle;">Validação de Âncoras</h2>
+      <p id="vs-progresso" class="subtitle" style="display:none;margin-top:4px;"></p>
+    </div>
+
+    <!-- Seletor de arquivo -->
+    <div id="vs-seletor" style="margin-top:16px;">
+      <p class="subtitle">Escolha um arquivo para validar:</p>
+      <div id="vs-lista-arquivos"></div>
+      <p id="vs-sem-arquivos" class="hidden" style="color:#ef4444;font-size:0.85rem;margin-top:12px;">
+        Nenhum arquivo .staging.json encontrado.<br>
+        Inicie o servidor: <code style="font-size:0.78rem;background:#1e293b;padding:4px 8px;border-radius:4px;">node orquestrador.js "validar staging"</code>
+      </p>
+    </div>
+
+    <!-- Área de validação -->
+    <div id="vs-validacao" style="display:none;margin-top:12px;">
+      <div style="display:flex;gap:10px;align-items:center;margin-bottom:14px;">
+        <button class="btn btn-secondary" id="vs-btn-ant" style="flex:1;">← Ant</button>
+        <span id="vs-contador" style="flex:2;text-align:center;font-size:0.82rem;color:#94a3b8;"></span>
+        <button class="btn btn-secondary" id="vs-btn-prox" style="flex:1;">Próx →</button>
+      </div>
+      <div id="vs-paineis">
+        <div class="vs-painel">
+          <div class="vs-painel-titulo">📖 Trecho da Teoria</div>
+          <div id="vs-ancora-label" style="font-size:0.72rem;color:#6366f1;font-family:monospace;margin-bottom:8px;"></div>
+          <div id="vs-teoria-trecho" class="vs-trecho">—</div>
+        </div>
+        <div class="vs-painel">
+          <div class="vs-painel-titulo">📝 Questão</div>
+          <div id="vs-enunciado" class="vs-enunciado"></div>
+          <div id="vs-indicadores-lista"></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+        <button class="btn" id="vs-btn-aprovar" style="flex:1;background:#22c55e;color:#fff;font-weight:700;">✓ Aprovar</button>
+        <button class="btn btn-secondary" id="vs-btn-corrigir" style="flex:1;">✏ Corrigir</button>
+        <button class="btn" id="vs-btn-rejeitar" style="flex:1;background:#ef4444;color:#fff;font-weight:700;">✗ Rejeitar</button>
+      </div>
+      <button class="btn btn-primary" id="vs-btn-aplicar" style="width:100%;margin-top:10px;">Aplicar todos aprovados →</button>
+      <p id="vs-status" style="text-align:center;font-size:0.78rem;color:#64748b;margin-top:8px;"></p>
+    </div>
+  </div>
+
 <!-- Modal: O que verificar na teoria (mapa de tópicos por questão) -->
 <div id="topicos-overlay" class="teoria-overlay hidden"></div>
 <div id="topicos-modal" class="topicos-modal hidden">
@@ -259,6 +312,7 @@
   <!-- questoes_banco -->
   <script src="questoes_banco.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/validar-staging.js"></script>
   <script type="module" src="js/firebase-sync.js"></script>
   <script>
     if ('serviceWorker' in navigator) {

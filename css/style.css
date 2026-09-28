@@ -315,6 +315,55 @@
     .review-item .ri-resp .ok  { color: #22c55e; }
     .review-item .ri-resp .err { color: #ef4444; }
 
+/* ── VALIDAÇÃO DE STAGING (dev only) ── */
+#screen-validar-staging { display: none; }
+#vs-paineis { display: flex; gap: 14px; }
+@media (max-width: 640px) { #vs-paineis { flex-direction: column; } }
+.vs-painel {
+  flex: 1; min-width: 0;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 14px;
+}
+.vs-painel-titulo {
+  font-size: 0.72rem; font-weight: 700; color: #6366f1;
+  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;
+}
+.vs-trecho {
+  font-size: 0.76rem; line-height: 1.6;
+  white-space: pre-wrap; font-family: monospace;
+  color: #cbd5e1; max-height: 280px; overflow-y: auto;
+}
+.vs-ancora-highlight { background: #6366f1; color: #fff; padding: 0 3px; border-radius: 3px; }
+.vs-enunciado {
+  font-size: 0.8rem; color: #cbd5e1; line-height: 1.5;
+  max-height: 110px; overflow-y: auto; margin-bottom: 8px;
+}
+.vs-item {
+  display: flex; gap: 8px; align-items: flex-start;
+  padding: 6px 0; border-bottom: 1px solid #334155; font-size: 0.8rem;
+}
+.vs-item:last-child { border-bottom: none; }
+.vs-item-label { font-weight: 700; color: #6366f1; min-width: 28px; }
+.vs-item-topico { color: #e2e8f0; flex: 1; }
+.vs-item-ancora { font-family: monospace; font-size: 0.7rem; color: #64748b; }
+.vs-status-badge { font-size: 0.72rem; padding: 1px 7px; border-radius: 10px; font-weight: 600; margin-left: 6px; }
+.vs-badge-aprovado { background: #14532d; color: #86efac; }
+.vs-badge-rejeitado { background: #450a0a; color: #fca5a5; }
+.vs-badge-pendente  { background: #1e293b; color: #94a3b8; border: 1px solid #334155; }
+.vs-arquivo-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 14px; background: #1e293b; border: 1px solid #334155;
+  border-radius: 8px; margin-bottom: 8px; cursor: pointer;
+  font-size: 0.85rem; color: #e2e8f0;
+}
+.vs-arquivo-item:hover { border-color: #6366f1; }
+.vs-input {
+  background: #0f172a; border: 1px solid #334155; border-radius: 5px;
+  color: #e2e8f0; padding: 4px 8px; font-size: 0.78rem;
+}
+
     /* ── PAINEL DE TEORIA ── */
     .btn-teoria {
       background: none;
