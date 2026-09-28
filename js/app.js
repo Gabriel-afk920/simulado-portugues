@@ -1229,13 +1229,23 @@ function abrirModalTopicos(indicadores) {
   const lista = document.createElement('ul');
   lista.className = 'topicos-lista';
 
-  Object.entries(indicadores).forEach(([item, dados]) => {
-    const li = document.createElement('li');
-    li.className = 'topico-item';
-    li.innerHTML = `<span class="topico-item-label">▸ Item ${item}</span><span class="topico-item-texto">${dados.topico}</span>`;
-    li.addEventListener('click', () => navegarParaTopico(dados.ancora));
-    lista.appendChild(li);
-  });
+  if (Array.isArray(indicadores.geral)) {
+    indicadores.geral.forEach(dados => {
+      const li = document.createElement('li');
+      li.className = 'topico-item topico-item-geral';
+      li.innerHTML = `<span class="topico-item-texto">▸ ${dados.topico}</span>`;
+      li.addEventListener('click', () => navegarParaTopico(dados.ancora));
+      lista.appendChild(li);
+    });
+  } else {
+    Object.entries(indicadores).forEach(([item, dados]) => {
+      const li = document.createElement('li');
+      li.className = 'topico-item';
+      li.innerHTML = `<span class="topico-item-label">▸ Item ${item}</span><span class="topico-item-texto">${dados.topico}</span>`;
+      li.addEventListener('click', () => navegarParaTopico(dados.ancora));
+      lista.appendChild(li);
+    });
+  }
 
   body.appendChild(lista);
 

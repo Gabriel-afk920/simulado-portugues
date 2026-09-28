@@ -469,6 +469,7 @@
       min-width: 62px; flex-shrink: 0; padding-top: 2px;
     }
     .topico-item-texto { font-size: 0.88rem; color: #cbd5e1; line-height: 1.4; }
+    .topico-item-geral .topico-item-texto { font-size: 0.9rem; color: #e2e8f0; }
 
     @keyframes topico-fade-highlight {
       0%   { background: rgba(56, 189, 248, 0.18); }
