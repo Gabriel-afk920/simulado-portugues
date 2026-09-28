@@ -832,7 +832,7 @@ function renderQuestao() {
     });
   }
   document.getElementById('question-text').innerHTML = cabecalho + enuncHtml;
-
+  _renderizarBtnTopicos(q);
 
   // Ordem das opções: reutiliza se já foi gerada para esta questão
   if (!shuffleMap[indiceAtual]) shuffleMap[indiceAtual] = shuffle(q.opcoes.map((_, i) => i));
@@ -1201,6 +1201,96 @@ function fecharPainelTeoria() {
 document.getElementById('btn-consultar-teoria').addEventListener('click', abrirPainelTeoria);
 document.getElementById('btn-fechar-teoria').addEventListener('click', fecharPainelTeoria);
 document.getElementById('teoria-overlay').addEventListener('click', fecharPainelTeoria);
+
+// ══════════════════════════════════════════════════════════
+//  MAPA DE TÓPICOS POR QUESTÃO
+// ══════════════════════════════════════════════════════════
+
+function _renderizarBtnTopicos(q) {
+  const anterior = document.getElementById('btn-topicos-questao');
+  if (anterior) anterior.remove();
+
+  if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
+  const itens = Object.keys(q.indicadores_teoria);
+  if (!itens.length) return;
+
+  const btn = document.createElement('button');
+  btn.id = 'btn-topicos-questao';
+  btn.className = 'btn-topicos';
+  btn.textContent = '📖 O que verificar na teoria';
+  btn.addEventListener('click', () => abrirModalTopicos(q.indicadores_teoria));
+  document.getElementById('question-text').insertAdjacentElement('afterend', btn);
+}
+
+function abrirModalTopicos(indicadores) {
+  const body = document.getElementById('topicos-modal-body');
+  body.innerHTML = '';
+
+  const lista = document.createElement('ul');
+  lista.className = 'topicos-lista';
+
+  Object.entries(indicadores).forEach(([item, dados]) => {
+    const li = document.createElement('li');
+    li.className = 'topico-item';
+    li.innerHTML = `<span class="topico-item-label">▸ Item ${item}</span><span class="topico-item-texto">${dados.topico}</span>`;
+    li.addEventListener('click', () => navegarParaTopico(dados.ancora));
+    lista.appendChild(li);
+  });
+
+  body.appendChild(lista);
+
+  const btnTeoria = document.createElement('button');
+  btnTeoria.className = 'btn btn-secondary';
+  btnTeoria.style.marginTop = '16px';
+  btnTeoria.textContent = 'Abrir teoria completa';
+  btnTeoria.addEventListener('click', () => {
+    fecharModalTopicos();
+    setTimeout(() => abrirPainelTeoria(), 320);
+  });
+  body.appendChild(btnTeoria);
+
+  const overlay = document.getElementById('topicos-overlay');
+  const modal   = document.getElementById('topicos-modal');
+  overlay.classList.remove('hidden');
+  modal.classList.remove('hidden');
+  requestAnimationFrame(() => {
+    overlay.classList.add('visivel');
+    modal.classList.add('visivel');
+  });
+}
+
+function fecharModalTopicos() {
+  const overlay = document.getElementById('topicos-overlay');
+  const modal   = document.getElementById('topicos-modal');
+  overlay.classList.remove('visivel');
+  modal.classList.remove('visivel');
+  setTimeout(() => {
+    overlay.classList.add('hidden');
+    modal.classList.add('hidden');
+  }, 300);
+}
+
+function navegarParaTopico(ancora) {
+  fecharModalTopicos();
+  setTimeout(() => {
+    abrirPainelTeoria();
+    setTimeout(() => {
+      const ancorEl = ancora ? document.getElementById(ancora) : null;
+      if (!ancorEl) return;
+      ancorEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const alvo = ancorEl.nextElementSibling;
+      if (alvo) {
+        alvo.classList.add('topico-ancora-highlight');
+        alvo.addEventListener('animationend', () => {
+          alvo.classList.remove('topico-ancora-highlight');
+        }, { once: true });
+      }
+    }, 450);
+  }, 350);
+}
+
+document.getElementById('btn-fechar-topicos').addEventListener('click', fecharModalTopicos);
+document.getElementById('topicos-overlay').addEventListener('click', fecharModalTopicos);
 
 // ══════════════════════════════════════════════════════════
 //  INICIALIZAÇÃO
