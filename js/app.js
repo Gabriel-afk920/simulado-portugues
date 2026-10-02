@@ -1234,19 +1234,25 @@ function abrirModalTopicos(indicadores) {
   const lista = document.createElement('ul');
   lista.className = 'topicos-lista';
 
+  const LETRAS_ALT = new Set(['A', 'B', 'C', 'D', 'E']);
+
   if (Array.isArray(indicadores.geral)) {
+    // Formato legado: lista geral de seções (não por alternativa)
     indicadores.geral.forEach(dados => {
       const li = document.createElement('li');
       li.className = 'topico-item topico-item-geral';
-      li.innerHTML = `<span class="topico-item-texto">▸ ${dados.topico}</span>`;
+      li.innerHTML = `<span class="topico-item-texto">▸ Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
       li.addEventListener('click', () => navegarParaTopico(dados.ancora));
       lista.appendChild(li);
     });
   } else {
+    const chaves = Object.keys(indicadores);
+    const porAlternativa = chaves.length > 0 && chaves.every(k => LETRAS_ALT.has(k));
+    const rotulo = porAlternativa ? 'Alternativa' : 'Item';
     Object.entries(indicadores).forEach(([item, dados]) => {
       const li = document.createElement('li');
       li.className = 'topico-item';
-      li.innerHTML = `<span class="topico-item-label">▸ Item ${item}</span><span class="topico-item-texto">${dados.topico}</span>`;
+      li.innerHTML = `<span class="topico-item-label">▸ ${rotulo} ${item}</span><span class="topico-item-texto">Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
       li.addEventListener('click', () => navegarParaTopico(dados.ancora));
       lista.appendChild(li);
     });
