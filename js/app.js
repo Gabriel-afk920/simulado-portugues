@@ -1241,8 +1241,9 @@ function abrirModalTopicos(indicadores) {
     indicadores.geral.forEach(dados => {
       const li = document.createElement('li');
       li.className = 'topico-item topico-item-geral';
-      li.innerHTML = `<span class="topico-item-texto">▸ Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
-      li.addEventListener('click', () => navegarParaTopico(dados.ancora));
+      li.style.cursor = 'pointer';
+      li.innerHTML = `<span class="topico-item-texto" style="text-decoration:underline dotted;text-underline-offset:2px;">▸ Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
+      li.addEventListener('click', () => abrirTeoriaEmAncora(dados.topico, dados.ancora));
       lista.appendChild(li);
     });
   } else {
@@ -1252,8 +1253,9 @@ function abrirModalTopicos(indicadores) {
     Object.entries(indicadores).forEach(([item, dados]) => {
       const li = document.createElement('li');
       li.className = 'topico-item';
-      li.innerHTML = `<span class="topico-item-label">▸ ${rotulo} ${item}</span><span class="topico-item-texto">Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
-      li.addEventListener('click', () => navegarParaTopico(dados.ancora));
+      li.style.cursor = 'pointer';
+      li.innerHTML = `<span class="topico-item-label">▸ ${rotulo} ${item}</span><span class="topico-item-texto" style="text-decoration:underline dotted;text-underline-offset:2px;">Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
+      li.addEventListener('click', () => abrirTeoriaEmAncora(dados.topico, dados.ancora));
       lista.appendChild(li);
     });
   }
@@ -1305,6 +1307,43 @@ function navegarParaTopico(ancora) {
         alvo.addEventListener('animationend', () => {
           alvo.classList.remove('topico-ancora-highlight');
         }, { once: true });
+      }
+    }, 450);
+  }, 350);
+}
+
+function _normalizarTexto(str) {
+  return (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+}
+
+function _buscarElementoSecao(nomeSecao) {
+  const corpo = document.getElementById('teoria-panel-body');
+  if (!corpo || !nomeSecao) return null;
+  const normNome = _normalizarTexto(nomeSecao);
+  for (const a of corpo.querySelectorAll('a[id]')) {
+    let sib = a.nextElementSibling;
+    while (sib && !/^H[2-5]$/.test(sib.tagName)) sib = sib.nextElementSibling;
+    if (sib && _normalizarTexto(sib.textContent).includes(normNome)) return a;
+  }
+  for (const h of corpo.querySelectorAll('h2, h3, h4, h5')) {
+    if (_normalizarTexto(h.textContent).includes(normNome)) return h;
+  }
+  return null;
+}
+
+function abrirTeoriaEmAncora(nomeSecao, ancorId) {
+  fecharModalTopicos();
+  setTimeout(() => {
+    abrirPainelTeoria();
+    setTimeout(() => {
+      let alvo = ancorId ? document.getElementById(ancorId) : null;
+      if (!alvo) alvo = _buscarElementoSecao(nomeSecao);
+      if (!alvo) return;
+      alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const destaque = /^H[2-5]$/.test(alvo.tagName) ? alvo : alvo.nextElementSibling;
+      if (destaque) {
+        destaque.classList.add('topico-ancora-highlight');
+        destaque.addEventListener('animationend', () => destaque.classList.remove('topico-ancora-highlight'), { once: true });
       }
     }, 450);
   }, 350);
