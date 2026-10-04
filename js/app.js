@@ -1248,21 +1248,32 @@ function abrirModalTopicos(indicadores) {
     });
   } else {
     const chaves = Object.keys(indicadores);
-    const porAlternativa = chaves.length > 0 && chaves.every(k => LETRAS_ALT.has(k));
     const porNumero = chaves.length > 0 && chaves.every(k => /^\d+$/.test(k));
-    const rotulo = porAlternativa ? 'Alternativa' : 'Item';
-    Object.entries(indicadores).forEach(([item, dados]) => {
-      const li = document.createElement('li');
-      li.className = 'topico-item';
-      li.style.cursor = 'pointer';
-      if (porNumero) {
+
+    if (porNumero) {
+      Object.entries(indicadores).forEach(([item, dados]) => {
+        const li = document.createElement('li');
+        li.className = 'topico-item';
+        li.style.cursor = 'pointer';
         li.innerHTML = `<span class="topico-item-texto" style="text-decoration:underline dotted;text-underline-offset:2px;">▸ ${item}) ${dados.topico}</span>`;
-      } else {
-        li.innerHTML = `<span class="topico-item-label">▸ ${rotulo} ${item}</span><span class="topico-item-texto" style="text-decoration:underline dotted;text-underline-offset:2px;">Verifique no MD: &ldquo;${dados.topico}&rdquo;</span>`;
-      }
-      li.addEventListener('click', () => abrirTeoriaEmAncora(dados.topico, dados.ancora));
-      lista.appendChild(li);
-    });
+        li.addEventListener('click', () => abrirTeoriaEmAncora(dados.topico, dados.ancora));
+        lista.appendChild(li);
+      });
+    } else {
+      // Chaves A/B/C/D/E: deduplica por âncora e exibe só o nome da seção
+      const visto = new Set();
+      Object.values(indicadores).forEach(dados => {
+        const chave = dados.ancora || dados.topico;
+        if (visto.has(chave)) return;
+        visto.add(chave);
+        const li = document.createElement('li');
+        li.className = 'topico-item';
+        li.style.cursor = 'pointer';
+        li.innerHTML = `<span class="topico-item-texto secao-link" style="text-decoration:underline dotted;text-underline-offset:2px;">▸ ${dados.topico}</span>`;
+        li.addEventListener('click', () => abrirTeoriaEmAncora(dados.topico, dados.ancora));
+        lista.appendChild(li);
+      });
+    }
   }
 
   body.appendChild(lista);
