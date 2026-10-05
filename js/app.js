@@ -1234,8 +1234,6 @@ function abrirModalTopicos(indicadores) {
   const lista = document.createElement('ul');
   lista.className = 'topicos-lista';
 
-  const LETRAS_ALT = new Set(['A', 'B', 'C', 'D', 'E']);
-
   if (Array.isArray(indicadores.geral)) {
     // Formato legado: lista geral de seções (não por alternativa)
     indicadores.geral.forEach(dados => {
@@ -1309,25 +1307,6 @@ function fecharModalTopicos() {
   }, 300);
 }
 
-function navegarParaTopico(ancora) {
-  fecharModalTopicos();
-  setTimeout(() => {
-    abrirPainelTeoria();
-    setTimeout(() => {
-      const ancorEl = ancora ? document.getElementById(ancora) : null;
-      if (!ancorEl) return;
-      ancorEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      const alvo = ancorEl.nextElementSibling;
-      if (alvo) {
-        alvo.classList.add('topico-ancora-highlight');
-        alvo.addEventListener('animationend', () => {
-          alvo.classList.remove('topico-ancora-highlight');
-        }, { once: true });
-      }
-    }, 450);
-  }, 350);
-}
-
 function _normalizarTexto(str) {
   return (str || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 }
@@ -1352,11 +1331,21 @@ function abrirTeoriaEmAncora(nomeSecao, ancorId) {
   setTimeout(() => {
     abrirPainelTeoria();
     setTimeout(() => {
-      let alvo = ancorId ? document.getElementById(ancorId) : null;
+      // Busca dentro de teoria-panel-body para evitar retornar a âncora de
+      // teoria-container (oculto) quando o usuário visitou a tela de estudo antes.
+      const _painelBody = document.getElementById('teoria-panel-body');
+      let alvo = (ancorId && _painelBody) ? _painelBody.querySelector('[id="' + ancorId + '"]') : null;
       if (!alvo) alvo = _buscarElementoSecao(nomeSecao);
       if (!alvo) return;
       alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      const destaque = /^H[2-5]$/.test(alvo.tagName) ? alvo : alvo.nextElementSibling;
+      // Destaque: prefere o elemento pai bloco (p, li, h*) se alvo for inline (<a>)
+      let destaque = /^H[2-5]$/.test(alvo.tagName) ? alvo : null;
+      if (!destaque) {
+        const BLOCOS = new Set(['P', 'LI', 'H2', 'H3', 'H4', 'H5', 'DT', 'DD']);
+        let el = alvo;
+        while (el && !BLOCOS.has(el.tagName)) el = el.parentElement;
+        destaque = el || alvo.nextElementSibling;
+      }
       if (destaque) {
         destaque.classList.add('topico-ancora-highlight');
         destaque.addEventListener('animationend', () => destaque.classList.remove('topico-ancora-highlight'), { once: true });
