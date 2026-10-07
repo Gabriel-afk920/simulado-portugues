@@ -260,20 +260,40 @@ function _atualizarQDif(q, acertou, usouTeoria) {
   if (window.progressoSync) window.progressoSync.marcarAtualizado();
 }
 function shuffleAdaptativo(arr, excluir = new Set()) {
+  // Lê localStorage UMA vez e cacheia hashes para evitar N chamadas repetidas
+  const dif = _qDificuldade();
+  const hcache = new Map();
+  const gh = (q) => { if (!hcache.has(q)) hcache.set(q, _hashConteudo(q)); return hcache.get(q); };
+  const peso = (q) => {
+    const d = dif[gh(q)];
+    if (!d) return 1;
+    if (d.d > 0) return 3;
+    if (d.m > 0 && d.s === 0) return 1.5;
+    if (d.s >= 2) return 0.2;
+    return 1;
+  };
   const pesar = (qs) => {
-    const items = qs.map(q => ({ q, score: _qPeso(q) * Math.random() }));
+    const items = qs.map(q => ({ q, score: peso(q) * Math.random() }));
     items.sort((a, b) => b.score - a.score);
     return items.map(x => x.q);
   };
   const resultado = !excluir.size
     ? pesar(arr)
     : (() => {
-        const naoVistas = arr.filter(q => !excluir.has(_hashConteudo(q)));
-        const vistas    = arr.filter(q =>  excluir.has(_hashConteudo(q)));
-        // Questões não vistas primeiro (adaptive), vistas só se esgotar o pool
+        const naoVistas = arr.filter(q => !excluir.has(gh(q)));
+        const vistas    = arr.filter(q =>  excluir.has(gh(q)));
         return [...pesar(naoVistas), ...pesar(vistas)];
       })();
-  return _dedupPorConteudo(resultado);
+  // Dedup inline com cache (evita recalcular hashes)
+  const vistos = new Set();
+  const out = [];
+  for (const q of resultado) {
+    const h = gh(q);
+    if (vistos.has(h)) continue;
+    vistos.add(h);
+    out.push(q);
+  }
+  return out;
 }
 
 // ══════════════════════════════════════════════════════════
@@ -760,6 +780,27 @@ function _fmtTempo(s) {
 }
 
 function iniciarSimulado(tema, excluirHashes = new Set()) {
+  // Lazy loading: se questões ainda não estão disponíveis, carrega o arquivo do assunto
+  if (tema.questoes.length === 0 && tema.id && !tema.id.endsWith('_mix')) {
+    const nomeVar = 'QUESTOES_' + tema.id.toUpperCase().replace(/[^A-Z0-9]/g, '_');
+    if (window[nomeVar] && window[nomeVar].length > 0) {
+      tema.questoes = window[nomeVar];
+    } else if (!window[nomeVar]) {
+      const s = document.createElement('script');
+      s.src = 'js/banco/questoes_' + tema.id + '.js';
+      s.onload  = () => { tema.questoes = window[nomeVar] || []; iniciarSimulado(tema, excluirHashes); };
+      s.onerror = () => {
+        // Arquivo não existe (redistrib de tema legado) — aguarda questoes_banco.js terminar
+        let t = 0;
+        const poll = setInterval(() => {
+          if (tema.questoes.length > 0) { clearInterval(poll); iniciarSimulado(tema, excluirHashes); }
+          else if (++t > 40) { clearInterval(poll); alert('Questões indisponíveis. Verifique conexão.'); }
+        }, 500);
+      };
+      document.head.appendChild(s);
+      return;
+    }
+  }
   temaAtual = tema;
   questoes  = shuffleAdaptativo(tema.questoes, excluirHashes);
   indiceAtual      = 0;
