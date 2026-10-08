@@ -1257,6 +1257,7 @@ function _renderizarBtnTopicos(q) {
     ? q.indicadores_teoria.geral
     : Object.values(q.indicadores_teoria);
   if (!itens.length) return;
+  if (itens.every(v => v === null)) return;
   // Só mostra o botão se houver teoria para navegar (mesma guarda do btn-consultar-teoria)
   if (!_resolverTemasParaPanel(q.temas_relacionados || []).length) return;
 
