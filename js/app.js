@@ -1324,8 +1324,20 @@ function abrirModalTopicos(indicadores) {
   btnTeoria.style.marginTop = '16px';
   btnTeoria.textContent = 'Abrir teoria completa';
   btnTeoria.addEventListener('click', () => {
-    fecharModalTopicos();
-    setTimeout(() => abrirPainelTeoria(), 320);
+    let primeiroTopico = null, primeiraAncora = null;
+    if (Array.isArray(indicadores.geral)) {
+      const primeiro = indicadores.geral.find(d => d && d.ancora);
+      if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
+    } else {
+      const primeiro = Object.values(indicadores).find(d => d && d.ancora);
+      if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
+    }
+    if (primeiraAncora) {
+      abrirTeoriaEmAncora(primeiroTopico, primeiraAncora);
+    } else {
+      fecharModalTopicos();
+      setTimeout(() => abrirPainelTeoria(), 320);
+    }
   });
   body.appendChild(btnTeoria);
 
