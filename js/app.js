@@ -1302,6 +1302,7 @@ function abrirModalTopicos(indicadores) {
       // Chaves A/B/C/D/E: deduplica por âncora e exibe só o nome da seção
       const visto = new Set();
       Object.values(indicadores).forEach(dados => {
+        if (!dados) return;
         const chave = dados.ancora || dados.topico;
         if (visto.has(chave)) return;
         visto.add(chave);
