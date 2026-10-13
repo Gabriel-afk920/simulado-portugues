@@ -944,6 +944,7 @@ function selecionarAlternativa(origIdx) {
 
 document.getElementById('btn-confirmar-resposta').addEventListener('click', () => {
   if (respondeu || selecionadaAtual === null) return;
+  ultimaAcaoFoiPular = false;
   registrarResposta(selecionadaAtual);
 });
 
@@ -997,7 +998,6 @@ function registrarResposta(escolhida) {
 // Avança para próxima questão ou, se acabaram, processa a fila de puladas.
 // Só chama mostrarResultado() quando a fila de puladas também está vazia.
 function _avancarOuResultado() {
-  ultimaAcaoFoiPular = false;
   indiceAtual++;
   if (indiceAtual < questoes.length) {
     _salvarSessaoAtiva();
@@ -1015,7 +1015,10 @@ function _avancarOuResultado() {
   }
 }
 
-document.getElementById('btn-next').addEventListener('click', _avancarOuResultado);
+document.getElementById('btn-next').addEventListener('click', () => {
+  ultimaAcaoFoiPular = false;
+  _avancarOuResultado();
+});
 
 
 document.getElementById('btn-pular').addEventListener('click', () => {
