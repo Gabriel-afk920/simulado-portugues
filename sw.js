@@ -2,7 +2,7 @@
 
 // Bump this version whenever you deploy new files.
 // The browser detects any change in sw.js and reinstalls automatically.
-const CACHE_VERSION = 'v224';
+const CACHE_VERSION = 'v225';
 const CACHE_NAME    = `simulado-portugues-${CACHE_VERSION}`;
 
 const ASSETS = [

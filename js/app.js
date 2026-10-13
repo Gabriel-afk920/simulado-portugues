@@ -314,8 +314,9 @@ let qsVistasNaSessao = new Set();  // acumula hashes de questões já exibidas (
 let tempoSimulado    = TEMPO_POR_QUESTAO;
 let respondeu        = false;
 let selecionadaAtual = null; // índice original da alternativa marcada, aguardando confirmação
-let filaPuladas      = [];   // questões puladas aguardando rodada extra
-let emRodadaPuladas  = false; // true quando estamos respondendo as puladas
+let filaPuladas          = [];   // questões puladas aguardando rodada extra
+let emRodadaPuladas      = false; // true quando estamos respondendo as puladas
+let ultimaAcaoFoiPular   = false; // true imediatamente após pular — habilita o btn-voltar
 
 
 // ══════════════════════════════════════════════════════════
@@ -916,12 +917,16 @@ function renderQuestao() {
   }
 
   // Botões de navegação
-  const btnPular = document.getElementById('btn-pular');
-  const btnNext  = document.getElementById('btn-next');
+  const btnPular  = document.getElementById('btn-pular');
+  const btnNext   = document.getElementById('btn-next');
+  const btnVoltar = document.getElementById('btn-voltar');
 
-  btnPular.style.display = jaResp ? 'none' : '';
-  btnNext.style.display  = jaResp ? '' : 'none';
-  btnNext.textContent    = (indiceAtual + 1 < total || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
+  btnPular.style.display  = jaResp ? 'none' : '';
+  btnNext.style.display   = jaResp ? '' : 'none';
+  btnNext.textContent     = (indiceAtual + 1 < total || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
+  if (btnVoltar) {
+    btnVoltar.style.display = ultimaAcaoFoiPular ? 'inline-flex' : 'none';
+  }
 }
 
 // Marca visualmente a alternativa escolhida, sem revelar o gabarito ainda --
@@ -992,6 +997,7 @@ function registrarResposta(escolhida) {
 // Avança para próxima questão ou, se acabaram, processa a fila de puladas.
 // Só chama mostrarResultado() quando a fila de puladas também está vazia.
 function _avancarOuResultado() {
+  ultimaAcaoFoiPular = false;
   indiceAtual++;
   if (indiceAtual < questoes.length) {
     _salvarSessaoAtiva();
@@ -1015,7 +1021,16 @@ document.getElementById('btn-next').addEventListener('click', _avancarOuResultad
 document.getElementById('btn-pular').addEventListener('click', () => {
   // Sempre guarda na fila — o simulado não termina enquanto houver questões puladas
   filaPuladas.push(questoes[indiceAtual]);
+  ultimaAcaoFoiPular = true;
   _avancarOuResultado();
+});
+
+document.getElementById('btn-voltar').addEventListener('click', () => {
+  if (!ultimaAcaoFoiPular || filaPuladas.length === 0) return;
+  filaPuladas.pop();    // remove a questão que acabou de ser pulada
+  indiceAtual--;        // volta ao índice anterior
+  ultimaAcaoFoiPular = false;
+  renderQuestao();
 });
 
 document.getElementById('btn-voltar-temas').addEventListener('click', () => {
