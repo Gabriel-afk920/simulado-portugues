@@ -1273,6 +1273,7 @@ function _renderizarBtnTopicos(q) {
   if (anterior) anterior.remove();
 
   if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
+  if (!q.indicadores_teoria.auditado) return;
   const itens = Array.isArray(q.indicadores_teoria.geral)
     ? q.indicadores_teoria.geral
     : Object.values(q.indicadores_teoria);
