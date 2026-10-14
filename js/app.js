@@ -1311,9 +1311,10 @@ function _renderizarBtnTopicos(q) {
 
   if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
   if (!q.indicadores_teoria.auditado) return;
+  const CHAVES_META = new Set(['auditado', 'tipo_questao']);
   const itens = Array.isArray(q.indicadores_teoria.geral)
     ? q.indicadores_teoria.geral
-    : Object.values(q.indicadores_teoria);
+    : Object.entries(q.indicadores_teoria).filter(([k]) => !CHAVES_META.has(k)).map(([, v]) => v);
   if (!itens.length) return;
   if (itens.every(v => v === null)) return;
   // Só mostra o botão se houver teoria para navegar (mesma guarda do btn-consultar-teoria)
@@ -1345,11 +1346,12 @@ function abrirModalTopicos(indicadores) {
       lista.appendChild(li);
     });
   } else {
-    const chaves = Object.keys(indicadores);
-    const porNumero = chaves.length > 0 && chaves.every(k => /^\d+$/.test(k));
+    const CHAVES_META = new Set(['auditado', 'tipo_questao']);
+    const entradas = Object.entries(indicadores).filter(([k]) => !CHAVES_META.has(k));
+    const porNumero = entradas.length > 0 && entradas.every(([k]) => /^\d+$/.test(k));
 
     if (porNumero) {
-      Object.entries(indicadores).forEach(([item, dados]) => {
+      entradas.forEach(([item, dados]) => {
         const li = document.createElement('li');
         li.className = 'topico-item';
         li.style.cursor = 'pointer';
@@ -1360,7 +1362,7 @@ function abrirModalTopicos(indicadores) {
     } else {
       // Chaves A/B/C/D/E: deduplica por âncora e exibe só o nome da seção
       const visto = new Set();
-      Object.values(indicadores).forEach(dados => {
+      entradas.map(([, v]) => v).forEach(dados => {
         if (!dados) return;
         const chave = dados.ancora || dados.topico;
         if (visto.has(chave)) return;
@@ -1387,7 +1389,11 @@ function abrirModalTopicos(indicadores) {
       const primeiro = indicadores.geral.find(d => d && d.ancora);
       if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
     } else {
-      const primeiro = Object.values(indicadores).find(d => d && d.ancora);
+      const CHAVES_META = new Set(['auditado', 'tipo_questao']);
+      const primeiro = Object.entries(indicadores)
+        .filter(([k]) => !CHAVES_META.has(k))
+        .map(([, v]) => v)
+        .find(d => d && d.ancora);
       if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
     }
     if (primeiraAncora) {
