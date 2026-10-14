@@ -936,7 +936,9 @@ function renderQuestao() {
   const expBox = document.getElementById('explanation-box');
   if (jaResp) {
     const resp = respostasMap[indiceAtual];
-    expBox.innerHTML = `<strong>${resp.acertou ? '✔ Correto!' : resp.escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}`;
+    const _expGab1 = q.indicadores_teoria && q.indicadores_teoria.explicacao_gabarito
+      ? `<div class="feedback-explicacao">${q.indicadores_teoria.explicacao_gabarito}</div>` : '';
+    expBox.innerHTML = `<strong>${resp.acertou ? '✔ Correto!' : resp.escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}${_expGab1}`;
     expBox.className = 'explanation-box show';
   } else {
     expBox.className = 'explanation-box';
@@ -1011,7 +1013,9 @@ function registrarResposta(escolhida) {
   btnConfirmar.disabled      = true;
 
   const expBox = document.getElementById('explanation-box');
-  expBox.innerHTML = `<strong>${acertou ? '✔ Correto!' : escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}`;
+  const _expGab2 = q.indicadores_teoria && q.indicadores_teoria.explicacao_gabarito
+    ? `<div class="feedback-explicacao">${q.indicadores_teoria.explicacao_gabarito}</div>` : '';
+  expBox.innerHTML = `<strong>${acertou ? '✔ Correto!' : escolhida === -1 ? '⏱ Tempo esgotado!' : '✘ Incorreto!'}</strong><br><br>${q.explicacao}${_expGab2}`;
   expBox.classList.add('show');
 
   document.getElementById('btn-pular').style.display = 'none';
@@ -1311,7 +1315,7 @@ function _renderizarBtnTopicos(q) {
 
   if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
   if (!q.indicadores_teoria.auditado) return;
-  const CHAVES_META = new Set(['auditado', 'tipo_questao']);
+  const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito']);
   const itens = Array.isArray(q.indicadores_teoria.geral)
     ? q.indicadores_teoria.geral
     : Object.entries(q.indicadores_teoria).filter(([k]) => !CHAVES_META.has(k)).map(([, v]) => v);
@@ -1346,7 +1350,7 @@ function abrirModalTopicos(indicadores) {
       lista.appendChild(li);
     });
   } else {
-    const CHAVES_META = new Set(['auditado', 'tipo_questao']);
+    const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito']);
     const entradas = Object.entries(indicadores).filter(([k]) => !CHAVES_META.has(k));
     const porNumero = entradas.length > 0 && entradas.every(([k]) => /^\d+$/.test(k));
 
@@ -1389,7 +1393,7 @@ function abrirModalTopicos(indicadores) {
       const primeiro = indicadores.geral.find(d => d && d.ancora);
       if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
     } else {
-      const CHAVES_META = new Set(['auditado', 'tipo_questao']);
+      const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito']);
       const primeiro = Object.entries(indicadores)
         .filter(([k]) => !CHAVES_META.has(k))
         .map(([, v]) => v)

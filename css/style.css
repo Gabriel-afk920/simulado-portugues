@@ -284,6 +284,11 @@
     }
     .explanation-box.show { display: block; }
     .explanation-box strong { color: #e2e8f0; }
+    .feedback-explicacao {
+      font-size: 0.85em; color: #b0b8c8;
+      border-top: 1px solid #2a3042;
+      padding-top: 8px; margin-top: 8px;
+    }
 
 
     /* ── RESULTADO ── */
