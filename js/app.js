@@ -84,6 +84,12 @@ function _salvarSessaoAtiva() {
     shuffleMap,
     teoriaConsultada,
     pontuacao,
+    historicoNavegacao: historicoNavegacao.map(h => ({
+      indice:       h.indice,
+      estado:       h.estado,
+      respostaDada: h.respostaDada,
+      respondeu:    h.respondeu,
+    })),
   };
   Object.values(mapa).forEach(_sanearRespostasMap);
   localStorage.setItem('sessoes_ativas', JSON.stringify(mapa));
@@ -165,6 +171,17 @@ function _restaurarSessaoAtiva(s, tema) {
   shuffleMap       = remapear(s.shuffleMap);
   teoriaConsultada = remapear(s.teoriaConsultada);
   tempoSimulado    = TEMPO_POR_QUESTAO;
+  historicoNavegacao = (s.historicoNavegacao || []).map(h => {
+    const novoIdx = mapaAntigoParaNovo.get(h.indice);
+    if (novoIdx === undefined) return null;
+    return {
+      indice:       novoIdx,
+      questao:      questoes[novoIdx],
+      estado:       h.estado,
+      respostaDada: h.respostaDada,
+      respondeu:    h.respondeu,
+    };
+  }).filter(Boolean);
 
   clearInterval(timerInterval);
   simuladoPausado = false;
