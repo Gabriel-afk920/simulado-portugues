@@ -316,7 +316,7 @@ let respondeu        = false;
 let selecionadaAtual = null; // índice original da alternativa marcada, aguardando confirmação
 let filaPuladas          = [];   // questões puladas aguardando rodada extra
 let emRodadaPuladas      = false; // true quando estamos respondendo as puladas
-let historicoPuladas     = []; // stack: cada entrada = {indice, questao} de um Pular
+let historicoNavegacao   = []; // stack: cada entrada = {indice, questao, estado, respostaDada, respondeu}
 
 
 // ══════════════════════════════════════════════════════════
@@ -819,7 +819,7 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
   shuffleMap       = {};
   teoriaConsultada = {};
   filaPuladas      = [];
-  historicoPuladas = [];
+  historicoNavegacao = [];
   emRodadaPuladas  = false;
   clearInterval(timerInterval);
   simuladoPausado = false;
@@ -934,7 +934,7 @@ function renderQuestao() {
   btnNext.style.display   = jaResp ? '' : 'none';
   btnNext.textContent     = (indiceAtual + 1 < total || filaPuladas.length > 0) ? 'Próxima questão →' : 'Ver resultado';
   if (btnVoltar) {
-    btnVoltar.style.display = historicoPuladas.length > 0 ? 'inline-flex' : 'none';
+    btnVoltar.style.display = historicoNavegacao.length > 0 ? 'inline-flex' : 'none';
   }
 }
 
@@ -953,9 +953,6 @@ function selecionarAlternativa(origIdx) {
 
 document.getElementById('btn-confirmar-resposta').addEventListener('click', () => {
   if (respondeu || selecionadaAtual === null) return;
-  historicoPuladas = [];
-  const btnVoltar = document.getElementById('btn-voltar');
-  if (btnVoltar) btnVoltar.style.display = 'none';
   registrarResposta(selecionadaAtual);
 });
 
@@ -1027,23 +1024,36 @@ function _avancarOuResultado() {
 }
 
 document.getElementById('btn-next').addEventListener('click', () => {
-  historicoPuladas = [];
+  historicoNavegacao.push({
+    indice: indiceAtual,
+    questao: questoes[indiceAtual],
+    estado: 'respondida',
+    respostaDada: selecionadaAtual,
+    respondeu: true
+  });
   _avancarOuResultado();
 });
 
 
 document.getElementById('btn-pular').addEventListener('click', () => {
-  historicoPuladas.push({ indice: indiceAtual, questao: questoes[indiceAtual] });
+  historicoNavegacao.push({
+    indice: indiceAtual,
+    questao: questoes[indiceAtual],
+    estado: 'pulada',
+    respostaDada: null,
+    respondeu: false
+  });
   filaPuladas.push(questoes[indiceAtual]);
   _avancarOuResultado();
 });
 
 document.getElementById('btn-voltar').addEventListener('click', () => {
-  if (historicoPuladas.length === 0) return;
-  const ultimo = historicoPuladas.pop();
-  // remove do filaPuladas a questão que foi pulada
-  const idx = filaPuladas.findIndex(q => q === ultimo.questao);
-  if (idx !== -1) filaPuladas.splice(idx, 1);
+  if (historicoNavegacao.length === 0) return;
+  const ultimo = historicoNavegacao.pop();
+  if (ultimo.estado === 'pulada') {
+    const idx = filaPuladas.findIndex(q => q === ultimo.questao);
+    if (idx !== -1) filaPuladas.splice(idx, 1);
+  }
   indiceAtual = ultimo.indice;
   renderQuestao();
 });
