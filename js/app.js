@@ -946,6 +946,8 @@ function selecionarAlternativa(origIdx) {
 document.getElementById('btn-confirmar-resposta').addEventListener('click', () => {
   if (respondeu || selecionadaAtual === null) return;
   historicoPuladas = [];
+  const btnVoltar = document.getElementById('btn-voltar');
+  if (btnVoltar) btnVoltar.style.display = 'none';
   registrarResposta(selecionadaAtual);
 });
 
