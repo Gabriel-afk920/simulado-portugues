@@ -803,7 +803,15 @@ function iniciarSimulado(tema, excluirHashes = new Set()) {
     }
   }
   temaAtual = tema;
-  questoes  = shuffleAdaptativo(tema.questoes, excluirHashes);
+  const _auditadas = tema.questoes.filter(q => {
+    const ind = q.indicadores_teoria;
+    if (!ind) return false;
+    try {
+      const parsed = typeof ind === 'string' ? JSON.parse(ind) : ind;
+      return parsed.auditado === true;
+    } catch { return false; }
+  });
+  questoes  = shuffleAdaptativo(_auditadas.length > 0 ? _auditadas : tema.questoes, excluirHashes);
   indiceAtual      = 0;
   pontuacao        = 0;
   respostas        = [];
