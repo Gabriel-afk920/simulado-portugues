@@ -542,9 +542,39 @@
       margin: 24px 0;
     }
 
+    /* Overflow-wrap para texto jurídico longo em qualquer tela */
+    .teoria-body p, .teoria-body li, .topico-item-texto, .question-text {
+      overflow-wrap: break-word; word-break: break-word;
+    }
+
     @media (max-width: 480px) {
       h1 { font-size: 1.4rem; }
       .home-actions { grid-template-columns: 1fr; }
-      .question-text { font-size: 0.97rem; }
+      .question-text { font-size: 0.95rem; padding: 14px; }
       .auth-actions { flex-direction: column; }
+
+      /* Teoria panel — painel deslizante de baixo */
+      .teoria-panel { max-height: 85vh; }
+      .teoria-panel-body { padding: 14px; }
+      .teoria-panel-header { padding: 12px 14px 10px; font-size: 0.88rem; }
+
+      /* Modal "O que verificar" */
+      .topicos-modal { max-height: 70vh; }
+      .topicos-modal-body { padding: 12px 14px; }
+      .topicos-modal-header { padding: 12px 14px 10px; font-size: 0.88rem; }
+      .topico-item { padding: 8px 10px; }
+      .topico-item-label { min-width: 48px; font-size: 0.78rem; }
+      .topico-item-texto { font-size: 0.83rem; }
+
+      /* Alternativas */
+      .option-item { padding: 10px 12px; font-size: 0.93rem; gap: 8px; }
+      .option-letter { min-width: 18px; }
+
+      /* Cabeçalho de questão */
+      .concurso-header { font-size: 0.78rem; padding: 6px 10px; gap: 6px; }
+
+      /* Teoria body — texto e listas */
+      .teoria-body { padding: 16px; }
+      .teoria-body p { font-size: 0.88rem; }
+      .teoria-body li { font-size: 0.87rem; }
     }
