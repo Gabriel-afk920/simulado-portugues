@@ -1314,8 +1314,8 @@ function _renderizarBtnTopicos(q) {
   if (anterior) anterior.remove();
 
   if (!q.indicadores_teoria || typeof q.indicadores_teoria !== 'object') return;
-  if (!q.indicadores_teoria.auditado) return;
-  const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia']);
+  if (!q.indicadores_teoria.auditado && !q.indicadores_teoria.v5_verificado) return;
+  const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia', 'escopo_verificado']);
   const itens = Array.isArray(q.indicadores_teoria.geral)
     ? q.indicadores_teoria.geral
     : Object.entries(q.indicadores_teoria).filter(([k]) => !CHAVES_META.has(k)).map(([, v]) => v);
