@@ -1350,7 +1350,7 @@ function abrirModalTopicos(indicadores) {
       lista.appendChild(li);
     });
   } else {
-    const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia']);
+    const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia', 'escopo_verificado']);
     const entradas = Object.entries(indicadores).filter(([k]) => !CHAVES_META.has(k));
     const porNumero = entradas.length > 0 && entradas.every(([k]) => /^\d+$/.test(k));
 
@@ -1393,7 +1393,7 @@ function abrirModalTopicos(indicadores) {
       const primeiro = indicadores.geral.find(d => d && d.ancora);
       if (primeiro) { primeiroTopico = primeiro.topico; primeiraAncora = primeiro.ancora; }
     } else {
-      const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia']);
+      const CHAVES_META = new Set(['auditado', 'tipo_questao', 'explicacao_gabarito', 'v5_verificado', 'gabarito_verificado', 'gabarito_suspeito', 'prova_suficiencia', 'escopo_verificado']);
       const primeiro = Object.entries(indicadores)
         .filter(([k]) => !CHAVES_META.has(k))
         .map(([, v]) => v)
