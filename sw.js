@@ -2,7 +2,7 @@
 
 // Bump this version whenever you deploy new files.
 // The browser detects any change in sw.js and reinstalls automatically.
-const CACHE_VERSION = 'v274';
+const CACHE_VERSION = 'v275';
 const CACHE_NAME    = `simulado-portugues-${CACHE_VERSION}`;
 
 const ASSETS = [
@@ -19,8 +19,6 @@ const ASSETS = [
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  // questoes_banco.js excluído do cache estático — arquivo grande (>90 MB)
-  // que muda com frequência; tratado com network-first no handler de fetch abaixo.
 ];
 
 // ── Install: pré-cacheia todos os assets ──────────────────────────────────────
@@ -28,7 +26,14 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(ASSETS))
-      .then(() => self.skipWaiting())   // ativa imediatamente, sem esperar fechar abas
+      .then(() =>
+        // questoes_banco.js pré-cacheado separadamente para não bloquear install
+        // caso a quota de armazenamento seja insuficiente no dispositivo.
+        caches.open(CACHE_NAME)
+          .then(cache => cache.add('./questoes_banco.js'))
+          .catch(() => {})  // falha silenciosa — install continua sem ele
+      )
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -41,7 +46,7 @@ self.addEventListener('activate', event => {
           .filter(k => k.startsWith('simulado-portugues-') && k !== CACHE_NAME)
           .map(k => caches.delete(k))
       ))
-      .then(() => self.clients.claim())  // assume controle de todas as abas abertas
+      .then(() => self.clients.claim())
   );
 });
 
@@ -52,18 +57,24 @@ self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
-  // questoes_banco.js: network-first (arquivo grande, muda com frequência)
-  // Garante que o usuário sempre recebe a versão mais recente; cache como fallback offline.
+  // questoes_banco.js: cache-first + atualização em background (stale-while-revalidate)
+  // Serve do cache imediatamente (offline funciona), atualiza em background quando online.
   if (url.pathname.endsWith('questoes_banco.js')) {
     event.respondWith(
-      fetch(event.request)
-        .then(response => {
-          if (response.ok) {
-            caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
-          }
-          return response;
+      caches.open(CACHE_NAME).then(cache =>
+        cache.match(event.request).then(cached => {
+          const networkFetch = fetch(event.request)
+            .then(response => {
+              if (response.ok) {
+                cache.put(event.request, response.clone());
+              }
+              return response;
+            })
+            .catch(() => null);
+
+          return cached || networkFetch;
         })
-        .catch(() => caches.match(event.request))
+      )
     );
     return;
   }
@@ -81,7 +92,7 @@ self.addEventListener('fetch', event => {
           })
           .catch(() => null);
 
-        return cached ?? networkFetch;
+        return cached || networkFetch;
       })
     )
   );
